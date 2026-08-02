@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Hook Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Passing butterfly hook control is one of the fundamental guard passing challenges in Brazilian Jiu-Jitsu. The butterfly guard player uses active hooks inside the passer's thighs to create constant elevation threats and sweeping pressure, making direct forward advancement dangerous. The systematic approach to passing this guard involves establishing superior upper body control, methodically neutralizing one hook at a time, and completing the pass to side control through pressure and angle management.\n\nThe pass operates on the principle that butterfly hooks require both elevation and directional control to sweep effectively. By denying the guard player upper body grips and controlling their posture, the passer removes the directional component of the sweep threat. With the opponent's upper body controlled, the passer can then address the hooks themselves—pinning one hook to the mat with knee or shin pressure before clearing the second hook through hip switching or pressure-based elimination.\n\nWhat makes this pass particularly important is its versatility across gi and no-gi contexts. While specific grips differ, the core mechanics of upper body control, hook neutralization, and pressure completion remain constant. The pass also creates a natural decision tree: if the guard player defends aggressively, their reactions open alternative passing routes including backstep, leg drag, and knee slice entries.",
   "variants_and_adaptations": [
     {
@@ -246,46 +261,175 @@
     "flashcards": [
       {
         "question": "What is the most critical error when attempting to pass butterfly hooks?",
-        "answer": "Driving forward directly into active hooks without establishing upper body control first. When you push into hooks that have directional control via upper body grips, you convert your forward pressure into sweep momentum for the guard player. The opponent redirects your weight laterally and sweeps. Always win the grip battle and control posture before engaging the hooks—this removes the directional component that makes hooks dangerous."
+        "answer": "Driving forward directly into active hooks without establishing upper body control first. When you push into hooks that have directional control via upper body grips, you convert your forward pressure into sweep momentum for the guard player. The opponent redirects your weight laterally and sweeps. Always win the grip battle and control posture before engaging the hooks—this removes the directional component that makes hooks dangerous.",
+        "answer_line": "Control grips before hooks",
+        "distractors": {
+          "plausible": [
+            "Attack hooks before grips",
+            "Pin far hook first"
+          ],
+          "trap": [
+            "Drive forward into active hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent has deep hooks and pulls your collar to break your posture—how do you respond?",
-        "answer": "Immediately posture up by driving your hips forward and chest upward while stripping the collar grip with your same-side hand. If you cannot break the grip directly, circle your head out by driving it to the grip-side and swimming through. Do not try to fight the grip while your posture is broken—restore posture first, then address the grip. Broken posture plus deep hooks is the highest-danger combination for sweeps."
+        "answer": "Immediately posture up by driving your hips forward and chest upward while stripping the collar grip with your same-side hand. If you cannot break the grip directly, circle your head out by driving it to the grip-side and swimming through. Do not try to fight the grip while your posture is broken—restore posture first, then address the grip. Broken posture plus deep hooks is the highest-danger combination for sweeps.",
+        "answer_line": "Posture up, strip the grip",
+        "distractors": {
+          "plausible": [
+            "Strip grip before posturing",
+            "Circle head away from grip"
+          ],
+          "trap": [
+            "Fight grip while flexed forward"
+          ]
+        }
       },
       {
         "question": "What determines which hook you should target first during the pass?",
-        "answer": "Target the hook on the side you intend to pass toward. Your crossface or upper body control should already be driving the opponent's head away from this side, making it the natural path of least resistance. Additionally, the near-side hook is easier to pin because your knee is already positioned close to it. Attacking the far-side hook first requires reaching across your body and compromises your base stability."
+        "answer": "Target the hook on the side you intend to pass toward. Your crossface or upper body control should already be driving the opponent's head away from this side, making it the natural path of least resistance. Additionally, the near-side hook is easier to pin because your knee is already positioned close to it. Attacking the far-side hook first requires reaching across your body and compromises your base stability.",
+        "answer_line": "Near-side hook, pass direction",
+        "distractors": {
+          "plausible": [
+            "Far-side hook, cross body",
+            "Whichever hook feels deeper"
+          ],
+          "trap": [
+            "Reach across, abandon base"
+          ]
+        }
       },
       {
         "question": "You pin the near-side hook but the opponent immediately hip escapes and re-inserts it—what adjustment do you need?",
-        "answer": "Your upper body control was insufficient during the hook pin. When you pinned the hook, the opponent had enough freedom to hip escape because your crossface or collar grip was not keeping their shoulders pinned to the mat. Return to step one and re-establish strong crossface and upper body control before re-attempting the hook pin. Hook elimination only succeeds when the opponent's upper body is controlled enough to prevent significant hip escape movement."
+        "answer": "Your upper body control was insufficient during the hook pin. When you pinned the hook, the opponent had enough freedom to hip escape because your crossface or collar grip was not keeping their shoulders pinned to the mat. Return to step one and re-establish strong crossface and upper body control before re-attempting the hook pin. Hook elimination only succeeds when the opponent's upper body is controlled enough to prevent significant hip escape movement.",
+        "answer_line": "Re-establish crossface first",
+        "distractors": {
+          "plausible": [
+            "Pin hook harder next time",
+            "Switch to far hook instead"
+          ],
+          "trap": [
+            "Chase hook without crossface"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force during the hip switch phase?",
-        "answer": "The hip switch drives your hips downward and toward the opponent's far hip, creating a rotational clearing motion rather than a linear push. Your far hip drops to the mat while your near hip rises slightly, creating a see-saw motion that naturally clears the far hook below the hook line. The force direction is rotational and downward, not purely lateral—lateral force alone does not clear the hook plane effectively."
+        "answer": "The hip switch drives your hips downward and toward the opponent's far hip, creating a rotational clearing motion rather than a linear push. Your far hip drops to the mat while your near hip rises slightly, creating a see-saw motion that naturally clears the far hook below the hook line. The force direction is rotational and downward, not purely lateral—lateral force alone does not clear the hook plane effectively.",
+        "answer_line": "Rotational, down toward far hip",
+        "distractors": {
+          "plausible": [
+            "Straight lateral push",
+            "Pure downward drive"
+          ],
+          "trap": [
+            "Pull hips straight back"
+          ]
+        }
       },
       {
         "question": "Your opponent drops their hooks to shallow depth and starts framing aggressively—should you continue the pass or change approach?",
-        "answer": "Continue the pass. Shallow hooks and frames indicate the opponent is shifting to defensive retention rather than offensive sweeping. Shallow hooks have minimal sweep power, so you can increase forward pressure without significant sweep risk. Drive through the frames with your chest while pinning the shallow hooks with your knees. This is actually the ideal scenario for completing the pass because the opponent has abandoned their offensive guard for a purely defensive posture."
+        "answer": "Continue the pass. Shallow hooks and frames indicate the opponent is shifting to defensive retention rather than offensive sweeping. Shallow hooks have minimal sweep power, so you can increase forward pressure without significant sweep risk. Drive through the frames with your chest while pinning the shallow hooks with your knees. This is actually the ideal scenario for completing the pass because the opponent has abandoned their offensive guard for a purely defensive posture.",
+        "answer_line": "Continue, increase pressure",
+        "distractors": {
+          "plausible": [
+            "Stop and reset grips",
+            "Retreat to standing pass"
+          ],
+          "trap": [
+            "Back off, hooks too dangerous"
+          ]
+        }
       },
       {
         "question": "What grips does the butterfly guard player need for effective sweeps, and how do you deny them?",
-        "answer": "The guard player needs an upper body connection such as collar grip, underhook, or overhook combined with a directional pull point like sleeve control, wrist control, or head control. Without the upper body connection, their hooks can elevate but cannot direct your weight for the sweep. Strip collar grips immediately, deny underhooks by keeping elbows tight and swimming for your own underhook, and control their wrists to prevent them establishing any directional pulling connection."
+        "answer": "The guard player needs an upper body connection such as collar grip, underhook, or overhook combined with a directional pull point like sleeve control, wrist control, or head control. Without the upper body connection, their hooks can elevate but cannot direct your weight for the sweep. Strip collar grips immediately, deny underhooks by keeping elbows tight and swimming for your own underhook, and control their wrists to prevent them establishing any directional pulling connection.",
+        "answer_line": "Strip collar, deny underhook",
+        "distractors": {
+          "plausible": [
+            "Just control both wrists",
+            "Pin hooks, ignore upper grips"
+          ],
+          "trap": [
+            "Let them keep underhook"
+          ]
+        }
       },
       {
         "question": "After completing the pass, you arrive at side control but the opponent immediately frames and shrimps—what went wrong?",
-        "answer": "Insufficient consolidation during the final phase of the pass. You likely arrived at side control without establishing proper crossface and hip control before the opponent could react. The correction is to establish crossface pressure and hip-to-hip contact simultaneously as you slide into position rather than sequentially. Drop your full weight immediately upon arrival rather than pausing in a high or loose position that allows defensive frames to develop."
+        "answer": "Insufficient consolidation during the final phase of the pass. You likely arrived at side control without establishing proper crossface and hip control before the opponent could react. The correction is to establish crossface pressure and hip-to-hip contact simultaneously as you slide into position rather than sequentially. Drop your full weight immediately upon arrival rather than pausing in a high or loose position that allows defensive frames to develop.",
+        "answer_line": "No simultaneous crossface+hips",
+        "distractors": {
+          "plausible": [
+            "Landed too heavy too fast",
+            "Forgot to control far arm"
+          ],
+          "trap": [
+            "Paused high before settling"
+          ]
+        }
       },
       {
         "question": "How do you manage your energy during an extended butterfly guard passing exchange?",
-        "answer": "Avoid constant forward pressure battles which exhaust you faster than the guard player. Use controlled grip fighting and intermittent pressure bursts instead. Your highest energy expenditure should be during the actual hook elimination and hip switch—the rest of the pass should be controlled and patient. If the first attempt fails, take two to three seconds to reset your grips and posture before attempting again. Multiple measured attempts are more effective than one exhausting effort."
+        "answer": "Avoid constant forward pressure battles which exhaust you faster than the guard player. Use controlled grip fighting and intermittent pressure bursts instead. Your highest energy expenditure should be during the actual hook elimination and hip switch—the rest of the pass should be controlled and patient. If the first attempt fails, take two to three seconds to reset your grips and posture before attempting again. Multiple measured attempts are more effective than one exhausting effort.",
+        "answer_line": "Bursts of pressure, then reset",
+        "distractors": {
+          "plausible": [
+            "Constant max pressure throughout",
+            "One all-out effort, no resets"
+          ],
+          "trap": [
+            "Burn grips fighting constantly"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts an arm drag as you reach for their hook—what is your immediate response?",
-        "answer": "Immediately circle your elbow down and in toward your hip while driving your shoulder into their chest. The arm drag requires them to isolate your arm away from your body—if you keep your elbow connected to your ribs, the drag fails. After defending the drag, recognize that the opponent committed their upper body to the drag attempt, which means their hook control on the drag side is temporarily weakened. Use this window to attack that hook immediately."
+        "answer": "Immediately circle your elbow down and in toward your hip while driving your shoulder into their chest. The arm drag requires them to isolate your arm away from your body—if you keep your elbow connected to your ribs, the drag fails. After defending the drag, recognize that the opponent committed their upper body to the drag attempt, which means their hook control on the drag side is temporarily weakened. Use this window to attack that hook immediately.",
+        "answer_line": "Elbow to hip, shoulder pressure",
+        "distractors": {
+          "plausible": [
+            "Pull arm back to your body",
+            "Base out, ignore the drag"
+          ],
+          "trap": [
+            "Let arm extend, muscle back"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This is a positional pass without direct joint manipulation or choking mechanics, making it one of the safer transitions in BJJ. Primary injury risks include knee strain from awkward hook positions during the clearing phase—if your knee catches on the opponent's hook at an uncomfortable angle, reset rather than forcing through. Neck strain can occur from aggressive crossface pressure during drilling. Both partners should communicate if crossface pressure becomes uncomfortable on the cervical spine. During live training, be aware of finger injuries from grips catching in gi material during the passing exchange."
+    "safety_considerations": "This is a positional pass without direct joint manipulation or choking mechanics, making it one of the safer transitions in BJJ. Primary injury risks include knee strain from awkward hook positions during the clearing phase—if your knee catches on the opponent's hook at an uncomfortable angle, reset rather than forcing through. Neck strain can occur from aggressive crossface pressure during drilling. Both partners should communicate if crossface pressure becomes uncomfortable on the cervical spine. During live training, be aware of finger injuries from grips catching in gi material during the passing exchange.",
+    "clips": [
+      {
+        "id": "IKs6ZDfahHE",
+        "title": "Passing butterfly guard via cross butterfly hook",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Pk_6CrydIRQ",
+        "title": "Half butterfly guard pass for no-gi",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s5MYmM58Ipg",
+        "title": "Passing by smash-baiting the butterfly hook",
+        "by": "JT Torres",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 198,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Butterfly Hook Control Defender",
@@ -371,23 +515,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a butterfly hook pass is being initiated?",
-        "answer": "The passer's grip changes from neutral engagement to directional control—specifically when they establish a strong crossface or collar grip while controlling your sleeve or wrist on the pass side. This grip configuration is the precursor to all butterfly hook passes because it controls your posture and denies your directional sweep grips. Recognizing this grip change gives you the maximum time window to counter before your hooks are addressed."
+        "answer": "The passer's grip changes from neutral engagement to directional control—specifically when they establish a strong crossface or collar grip while controlling your sleeve or wrist on the pass side. This grip configuration is the precursor to all butterfly hook passes because it controls your posture and denies your directional sweep grips. Recognizing this grip change gives you the maximum time window to counter before your hooks are addressed.",
+        "answer_line": "Crossface + sleeve grip change",
+        "distractors": {
+          "plausible": [
+            "Passer's knee touches hip",
+            "Passer stands up to pass"
+          ],
+          "trap": [
+            "Wait until hook is pinned"
+          ]
+        }
       },
       {
         "question": "Your near-side hook has been fully pinned to the mat—what is your best immediate response?",
-        "answer": "Transition to half guard by inserting your near-side knee across the passer's hip line as a knee shield. Do not fight to re-insert the butterfly hook against an established pin—this wastes energy and rarely succeeds against a competent passer. The knee shield transition preserves your guard structure while giving you underhook access and sweep options from half guard. Speed is critical since the window between losing one hook and complete pass is typically only two to three seconds."
+        "answer": "Transition to half guard by inserting your near-side knee across the passer's hip line as a knee shield. Do not fight to re-insert the butterfly hook against an established pin—this wastes energy and rarely succeeds against a competent passer. The knee shield transition preserves your guard structure while giving you underhook access and sweep options from half guard. Speed is critical since the window between losing one hook and complete pass is typically only two to three seconds.",
+        "answer_line": "Knee shield to half guard",
+        "distractors": {
+          "plausible": [
+            "Fight to reinsert the hook",
+            "Switch to full guard retention"
+          ],
+          "trap": [
+            "Keep struggling for the hook"
+          ]
+        }
       },
       {
         "question": "How do you maintain hook effectiveness when the passer applies heavy forward pressure?",
-        "answer": "Use the passer's forward pressure against them by maintaining your hooks at the crease of their hips and redirecting their weight laterally for sweeps. Heavy forward pressure actually increases your sweep leverage because their weight is loaded onto your hooks. The key is maintaining strong upper body grips to direct the sweep—without grips, the pressure simply flattens you. If pressure is too great to maintain posture, consider transitioning to deep half guard by getting your shoulder underneath their base."
+        "answer": "Use the passer's forward pressure against them by maintaining your hooks at the crease of their hips and redirecting their weight laterally for sweeps. Heavy forward pressure actually increases your sweep leverage because their weight is loaded onto your hooks. The key is maintaining strong upper body grips to direct the sweep—without grips, the pressure simply flattens you. If pressure is too great to maintain posture, consider transitioning to deep half guard by getting your shoulder underneath their base.",
+        "answer_line": "Hooks at hip crease, use grips",
+        "distractors": {
+          "plausible": [
+            "Push back against the pressure",
+            "Flatten hooks, wait it out"
+          ],
+          "trap": [
+            "Release grips, brace with arms"
+          ]
+        }
       },
       {
         "question": "What determines whether you should attempt a sweep or transition to alternative guard when the pass begins?",
-        "answer": "The timing of your recognition determines your options. If you recognize the pass within the first one to two seconds of initiation while both hooks are still active, you have time for a sweep attempt. If one hook is already partially compromised, sweeping becomes risky and transitioning to half guard or knee shield is safer. The quality of your remaining grips also factors in—strong grips with both hooks favor sweep attempts while compromised grips favor immediate guard transitions."
+        "answer": "The timing of your recognition determines your options. If you recognize the pass within the first one to two seconds of initiation while both hooks are still active, you have time for a sweep attempt. If one hook is already partially compromised, sweeping becomes risky and transitioning to half guard or knee shield is safer. The quality of your remaining grips also factors in—strong grips with both hooks favor sweep attempts while compromised grips favor immediate guard transitions.",
+        "answer_line": "How early you recognize the pass",
+        "distractors": {
+          "plausible": [
+            "The passer's grip strength",
+            "Which guard you prefer to play"
+          ],
+          "trap": [
+            "Always sweep to stay on attack"
+          ]
+        }
       },
       {
         "question": "Your opponent stands up during their pass attempt, removing your hook elevation angle—what do you do?",
-        "answer": "Immediately transition from butterfly hooks to X-guard or single leg X-guard by extending one hook underneath their standing leg while gripping their far ankle. Standing removes the butterfly hook elevation angle but creates the distance and leg positioning needed for X-guard entries. The transition must be immediate—if you remain seated with shallow hooks against a standing opponent, they will simply step around your guard. Use your grips to control their posture while you reconfigure your legs."
+        "answer": "Immediately transition from butterfly hooks to X-guard or single leg X-guard by extending one hook underneath their standing leg while gripping their far ankle. Standing removes the butterfly hook elevation angle but creates the distance and leg positioning needed for X-guard entries. The transition must be immediate—if you remain seated with shallow hooks against a standing opponent, they will simply step around your guard. Use your grips to control their posture while you reconfigure your legs.",
+        "answer_line": "Transition to X-guard fast",
+        "distractors": {
+          "plausible": [
+            "Stay seated, deepen hooks",
+            "Pull guard back to butterfly"
+          ],
+          "trap": [
+            "Remain seated, shallow hooks"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -410,6 +604,26 @@
         "phase": "Counter-Attack Integration",
         "focus": "Converting successful defense into offensive sweeps",
         "description": "Positional sparring where successful pass defense must immediately convert to a sweep or back take attempt. Develops the habit of transitioning from defensive posture to offensive action without pause, exploiting the passer's vulnerability after their pass attempt fails."
+      }
+    ],
+    "clips": [
+      {
+        "id": "02sVMQyHuGc",
+        "title": "Guard retention with butterfly hooks vs the pass",
+        "by": "Diamondback Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Diamondback Jiu-Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SMTORT8NDGw",
+        "title": "Guard recovery variation against the pass",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 185,
+        "verified": "2026-07-15"
       }
     ]
   }

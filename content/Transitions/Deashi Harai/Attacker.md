@@ -180,6 +180,54 @@ description: "How to execute Deashi Harai in BJJ. Attacking perspective with set
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Deashi Harai (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Deashi harai foot sweep",
+      "description": "Deashi Harai (Attacker) film study: Deashi harai foot sweep, taught by B King.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9pUI4_Nrg9Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9pUI4_Nrg9Q",
+      "url": "https://www.youtube.com/watch?v=9pUI4_Nrg9Q",
+      "creator": { "@type": "Person", "name": "B King" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De ashi harai foot sweep on Giancarlo Bodoni",
+      "description": "Deashi Harai (Attacker) film study: De ashi harai foot sweep on Giancarlo Bodoni, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ckv5xkIoWUk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ckv5xkIoWUk",
+      "url": "https://www.youtube.com/watch?v=Ckv5xkIoWUk",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Textbook foot sweep",
+      "description": "Deashi Harai (Attacker) film study: Textbook foot sweep, taught by Grappler Kingdom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rU6zeS9abRc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rU6zeS9abRc",
+      "url": "https://www.youtube.com/watch?v=rU6zeS9abRc",
+      "creator": { "@type": "Person", "name": "Grappler Kingdom" },
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -193,6 +241,42 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Deashi Harai (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9pUI4_Nrg9Q)
+
+<p class="clip-credit"><strong>Deashi harai foot sweep</strong> — taught by B King · 0:39 · <a href="https://www.youtube.com/watch?v=9pUI4_Nrg9Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ckv5xkIoWUk)
+
+<p class="clip-credit"><strong>De ashi harai foot sweep on Giancarlo Bodoni</strong> — taught by John Danaher · 0:34 · <a href="https://www.youtube.com/watch?v=Ckv5xkIoWUk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rU6zeS9abRc)
+
+<p class="clip-credit"><strong>Textbook foot sweep</strong> — taught by Grappler Kingdom · 0:48 · <a href="https://www.youtube.com/watch?v=rU6zeS9abRc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

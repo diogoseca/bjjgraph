@@ -168,6 +168,43 @@ description: "How to execute Leg Drag to Knee on Belly in BJJ. Attacking perspec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Knee on Belly (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg drag entry from 50/50",
+      "description": "Leg Drag to Knee on Belly (Attacker) film study: Leg drag entry from 50/50, taught by Muny Munoz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dFTRdgvZoPU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dFTRdgvZoPU",
+      "url": "https://www.youtube.com/watch?v=dFTRdgvZoPU",
+      "creator": { "@type": "Person", "name": "Muny Munoz" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Torreando pass arriving in knee on belly",
+      "description": "Leg Drag to Knee on Belly (Attacker) film study: Torreando pass arriving in knee on belly, taught by Hellfish MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s05PfUYVW48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s05PfUYVW48",
+      "url": "https://www.youtube.com/watch?v=s05PfUYVW48",
+      "creator": { "@type": "Person", "name": "Hellfish MMA coach" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ The biomechanical advantage of this transition lies in the leg drag's control ov
 **From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Knee on Belly (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dFTRdgvZoPU)
+
+<p class="clip-credit"><strong>Leg drag entry from 50/50</strong> — taught by Muny Munoz · 0:17 · <a href="https://www.youtube.com/watch?v=dFTRdgvZoPU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s05PfUYVW48)
+
+<p class="clip-credit"><strong>Torreando pass arriving in knee on belly</strong> — taught by Hellfish MMA coach · 2:01 · <a href="https://www.youtube.com/watch?v=s05PfUYVW48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

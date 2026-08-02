@@ -385,35 +385,115 @@
   "flashcards": [
     {
       "question": "Why should you establish position before hunting submissions in competition?",
-      "answer": "Securing a dominant, stable position first banks points and minimizes reversal risk; if the submission fails you retain control and your lead rather than scrambling into a counter or losing the position."
+      "answer": "Securing a dominant, stable position first banks points and minimizes reversal risk; if the submission fails you retain control and your lead rather than scrambling into a counter or losing the position.",
+      "answer_line": "Establish position first",
+      "distractors": {
+        "plausible": [
+          "Chase submissions early",
+          "Secure grips, then submit"
+        ],
+        "trap": [
+          "Abandon position for a sub"
+        ]
+      }
     },
     {
       "question": "How should risk tolerance change when leading on points with under one minute remaining?",
-      "answer": "Shift to defensive maintenance: minimize movement, consolidate the dominant position, and defend intelligently rather than chasing finishes, since any sweep or reversal in that window could erase the lead."
+      "answer": "Shift to defensive maintenance: minimize movement, consolidate the dominant position, and defend intelligently rather than chasing finishes, since any sweep or reversal in that window could erase the lead.",
+      "answer_line": "Play safe, protect the lead",
+      "distractors": {
+        "plausible": [
+          "Keep attacking to seal it",
+          "Push pace to tire them out"
+        ],
+        "trap": [
+          "Hunt a submission to finish"
+        ]
+      }
     },
     {
       "question": "What is the purpose of a predetermined opening sequence in the first 30-60 seconds?",
-      "answer": "It establishes tempo on your terms by dictating grip fighting, stance, and the takedown-versus-guard-pull decision, so you impose your game instead of reacting to the opponent's preferred strategy."
+      "answer": "It establishes tempo on your terms by dictating grip fighting, stance, and the takedown-versus-guard-pull decision, so you impose your game instead of reacting to the opponent's preferred strategy.",
+      "answer_line": "Dictate tempo on your terms",
+      "distractors": {
+        "plausible": [
+          "Feel out opponent's game first",
+          "Test different grips randomly"
+        ],
+        "trap": [
+          "Pull guard without a plan"
+        ]
+      }
     },
     {
       "question": "Why is studying the specific rule set a critical part of competition preparation?",
-      "answer": "Different formats such as IBJJF gi, no-gi, and submission-only reward different scoring and legal techniques; misreading them costs matches through illegal moves, penalties, or suboptimal positional choices."
+      "answer": "Different formats such as IBJJF gi, no-gi, and submission-only reward different scoring and legal techniques; misreading them costs matches through illegal moves, penalties, or suboptimal positional choices.",
+      "answer_line": "Rules dictate legal scoring",
+      "distractors": {
+        "plausible": [
+          "Focus only on drilling technique",
+          "Assume all rule sets match"
+        ],
+        "trap": [
+          "Use gi grips in a no-gi match"
+        ]
+      }
     },
     {
       "question": "What should you do when an opponent successfully counters your primary game plan?",
-      "answer": "Switch to a pre-drilled contingency pathway rather than improvising; having multiple attack routes from each position makes adaptation systematic instead of desperate, keeping you ahead of their defenses."
+      "answer": "Switch to a pre-drilled contingency pathway rather than improvising; having multiple attack routes from each position makes adaptation systematic instead of desperate, keeping you ahead of their defenses.",
+      "answer_line": "Switch to drilled backup plan",
+      "distractors": {
+        "plausible": [
+          "Improvise a brand-new technique",
+          "Force the same move harder"
+        ],
+        "trap": [
+          "Panic and abandon the position"
+        ]
+      }
     },
     {
       "question": "How does effective energy management influence competition performance?",
-      "answer": "Pacing efforts during neutral exchanges preserves explosive capacity for scoring windows and overtime; recognizing when an opponent is more fatigued lets you raise tempo and pressure at the decisive moment."
+      "answer": "Pacing efforts during neutral exchanges preserves explosive capacity for scoring windows and overtime; recognizing when an opponent is more fatigued lets you raise tempo and pressure at the decisive moment.",
+      "answer_line": "Pace effort, strike late",
+      "distractors": {
+        "plausible": [
+          "Go hard the entire match",
+          "Rest whenever you feel tired"
+        ],
+        "trap": [
+          "Sprint every exchange early"
+        ]
+      }
     },
     {
       "question": "What is a common mistake practitioners make in the weeks before a tournament?",
-      "answer": "Trying to learn entirely new techniques instead of sharpening an existing high-percentage game plan; competition is won with reliable, drilled tools, not freshly introduced low-confidence moves."
+      "answer": "Trying to learn entirely new techniques instead of sharpening an existing high-percentage game plan; competition is won with reliable, drilled tools, not freshly introduced low-confidence moves.",
+      "answer_line": "Sharpen your existing game",
+      "distractors": {
+        "plausible": [
+          "Add new moves last minute",
+          "Drill every technique equally"
+        ],
+        "trap": [
+          "Learn a flashy new submission"
+        ]
+      }
     },
     {
       "question": "Why should you review footage of both wins and losses after competing?",
-      "answer": "Victories often hide exploitable weaknesses that stronger opponents will punish, while losses reveal concrete technical and tactical gaps; objective review converts every match into actionable training data."
+      "answer": "Victories often hide exploitable weaknesses that stronger opponents will punish, while losses reveal concrete technical and tactical gaps; objective review converts every match into actionable training data.",
+      "answer_line": "Review both wins and losses",
+      "distractors": {
+        "plausible": [
+          "Only review your losses",
+          "Skip film, trust instincts"
+        ],
+        "trap": [
+          "Only rewatch highlight wins"
+        ]
+      }
     }
   ]
 }

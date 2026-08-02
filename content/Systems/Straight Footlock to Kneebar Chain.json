@@ -389,35 +389,115 @@
   "flashcards": [
     {
       "question": "What positional platform does the Straight Footlock to Kneebar Chain operate from?",
-      "answer": "It runs from ashi garami variations—primarily inside ashi garami—where hip connection and the inside leg positioned behind the opponent's knee provide a stable base to launch both the straight ankle lock and the kneebar against the same leg."
+      "answer": "It runs from ashi garami variations—primarily inside ashi garami—where hip connection and the inside leg positioned behind the opponent's knee provide a stable base to launch both the straight ankle lock and the kneebar against the same leg.",
+      "answer_line": "Inside ashi garami",
+      "distractors": {
+        "plausible": [
+          "50/50 guard entanglement",
+          "Saddle (outside ashi)"
+        ],
+        "trap": [
+          "Standing leg attack"
+        ]
+      }
     },
     {
       "question": "How does defending the straight footlock expose the kneebar?",
-      "answer": "When the opponent clears their heel or sits up to relieve Achilles pressure, they extend and straighten the leg, opening space to slide the attacking arm under the knee and rotate to a perpendicular angle for the kneebar finish."
+      "answer": "When the opponent clears their heel or sits up to relieve Achilles pressure, they extend and straighten the leg, opening space to slide the attacking arm under the knee and rotate to a perpendicular angle for the kneebar finish.",
+      "answer_line": "Leg straightens, arm under knee",
+      "distractors": {
+        "plausible": [
+          "Opponent bends knee to escape",
+          "Kicks free of the entanglement"
+        ],
+        "trap": [
+          "Release grip to reset position"
+        ]
+      }
     },
     {
       "question": "What core principle makes this submission chain effective?",
-      "answer": "Leg attacks should never be isolated—the footlock and kneebar are interconnected threats on the same leg, so the opponent's defensive reaction to one submission directly creates the entry to the other, forming a no-win dilemma."
+      "answer": "Leg attacks should never be isolated—the footlock and kneebar are interconnected threats on the same leg, so the opponent's defensive reaction to one submission directly creates the entry to the other, forming a no-win dilemma.",
+      "answer_line": "One defense opens the other attack",
+      "distractors": {
+        "plausible": [
+          "Always finish with pain compliance",
+          "Switch legs for fresh attack"
+        ],
+        "trap": [
+          "Abandon one to chase the other"
+        ]
+      }
     },
     {
       "question": "What is the most common mistake when transitioning from footlock to kneebar?",
-      "answer": "Releasing the figure-four grip too early or rushing before securing position gives the opponent a window to clear the leg; keep hip pressure and leg entanglement intact and never abandon the footlock until the kneebar is locked in."
+      "answer": "Releasing the figure-four grip too early or rushing before securing position gives the opponent a window to clear the leg; keep hip pressure and leg entanglement intact and never abandon the footlock until the kneebar is locked in.",
+      "answer_line": "Releasing grip too early",
+      "distractors": {
+        "plausible": [
+          "Not transitioning fast enough",
+          "Switching hips before control"
+        ],
+        "trap": [
+          "Muscle through with strength"
+        ]
+      }
     },
     {
       "question": "How do you stop the opponent from rotating out of ashi garami during the chain?",
-      "answer": "Control the opponent's hip with your outside leg and maintain tight hip connection; if they spin toward the trapped leg, follow the movement and switch to outside ashi garami or saddle, using the rotation itself as a cue to change attacks."
+      "answer": "Control the opponent's hip with your outside leg and maintain tight hip connection; if they spin toward the trapped leg, follow the movement and switch to outside ashi garami or saddle, using the rotation itself as a cue to change attacks.",
+      "answer_line": "Follow rotation, switch to saddle",
+      "distractors": {
+        "plausible": [
+          "Cross-face to stop the spin",
+          "Sit back to reset base"
+        ],
+        "trap": [
+          "Let go and re-shoot the leg"
+        ]
+      }
     },
     {
       "question": "What grip and mechanics finish the straight ankle lock within this chain?",
-      "answer": "A figure-four grip with the wrist or forearm blade pressed against the Achilles, elbows pinned tight to the body, finishing through hip extension and a back arch while keeping the opponent's toes pointed toward you to isolate the joint."
+      "answer": "A figure-four grip with the wrist or forearm blade pressed against the Achilles, elbows pinned tight to the body, finishing through hip extension and a back arch while keeping the opponent's toes pointed toward you to isolate the joint.",
+      "answer_line": "Figure-four, arch hips, toes in",
+      "distractors": {
+        "plausible": [
+          "Bend knee to add torque",
+          "Pull straight back with arms"
+        ],
+        "trap": [
+          "Point toes away for leverage"
+        ]
+      }
     },
     {
       "question": "Why is the reverse transition from kneebar back to footlock often faster than the initial transition?",
-      "answer": "Because the opponent is already extended from defending the kneebar by straightening or pulling the leg, the foot is presented for a quick re-establishment of the figure-four grip while ashi garami control is maintained throughout."
+      "answer": "Because the opponent is already extended from defending the kneebar by straightening or pulling the leg, the foot is presented for a quick re-establishment of the figure-four grip while ashi garami control is maintained throughout.",
+      "answer_line": "Leg already extended, foot exposed",
+      "distractors": {
+        "plausible": [
+          "Grip strength builds over time",
+          "Opponent tires from defending"
+        ],
+        "trap": [
+          "Release ashi garami to reset"
+        ]
+      }
     },
     {
       "question": "What should you prioritize if neither submission finishes against a flexible opponent?",
-      "answer": "Prioritize positional dominance—use the chain to sweep or advance to dominant leg entanglements and score points, refining breaking mechanics and leverage rather than muscling the finish or relying on the opponent's pain tolerance."
+      "answer": "Prioritize positional dominance—use the chain to sweep or advance to dominant leg entanglements and score points, refining breaking mechanics and leverage rather than muscling the finish or relying on the opponent's pain tolerance.",
+      "answer_line": "Positional dominance, not force",
+      "distractors": {
+        "plausible": [
+          "Switch to upper body attacks",
+          "Wait for opponent to tap out"
+        ],
+        "trap": [
+          "Crank harder for the finish"
+        ]
+      }
     }
   ]
 }

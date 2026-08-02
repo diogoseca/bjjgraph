@@ -34,6 +34,43 @@ description: "Master Double Jump position in BJJ. Dynamic half guard control tec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Jump \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half Guard Old School Sweep",
+      "description": "Double Jump film study: Half Guard Old School Sweep, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jnc2siD9cak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jnc2siD9cak",
+      "url": "https://www.youtube.com/watch?v=Jnc2siD9cak",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half Guard Coyote to the Back",
+      "description": "Double Jump film study: Half Guard Coyote to the Back, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gGgG5t1pxsY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gGgG5t1pxsY",
+      "url": "https://www.youtube.com/watch?v=gGgG5t1pxsY",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT181S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From the top perspective, Double Jump represents an advanced turtle attack utili
 Both perspectives share the common principle of using leg-based controls to create explosive positional changes, though they operate in opposite tactical contexts. Understanding both perspectives provides complete mastery of this modern positional concept.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Jump in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jnc2siD9cak)
+
+<p class="clip-credit"><strong>Half Guard Old School Sweep</strong> — taught by Ritchie Yip · 0:12 · <a href="https://www.youtube.com/watch?v=Jnc2siD9cak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gGgG5t1pxsY)
+
+<p class="clip-credit"><strong>Half Guard Coyote to the Back</strong> — taught by Carpio Jiu Jitsu · 3:01 · <a href="https://www.youtube.com/watch?v=gGgG5t1pxsY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,29 +204,29 @@ Both perspectives share the common principle of using leg-based controls to crea
 ### Available Transitions
 
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (48% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (12% of attempts)
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (12% of attempts)
 
 - **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (8% of attempts)
 
-- **[[Transitions/100% Sweep/Attacker|100% Sweep]]** (7% of attempts)
+- **[[Transitions/100% Sweep/Attacker|100% Sweep]]** (10% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (7% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (10% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (4% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (6% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (7% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (10% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (2% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (5% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (4% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (8% of attempts)
 
-- **[[Transitions/Escape Double Jump/Attacker|Escape Double Jump]]** (0% of attempts)
+- **[[Transitions/Escape Double Jump/Attacker|Escape Double Jump]]** (8% of attempts)
 
-- **[[Transitions/Reguard from Double Jump/Attacker|Reguard from Double Jump]]** (0% of attempts)
+- **[[Transitions/Reguard from Double Jump/Attacker|Reguard from Double Jump]]** (6% of attempts)
 
-- **[[Transitions/Sweep from Double Jump/Attacker|Sweep from Double Jump]]** (1% of attempts)
+- **[[Transitions/Sweep from Double Jump/Attacker|Sweep from Double Jump]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -226,21 +291,19 @@ Both perspectives share the common principle of using leg-based controls to crea
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (38% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (23% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (20% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (14% of attempts)
 
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (13% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (14% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (15% of attempts)
 
-- **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (6% of attempts)
+- **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (11% of attempts)
 
-- **[[Transitions/Sit to Half Guard/Attacker|Sit to Half Guard]]** (8% of attempts)
+- **[[Transitions/Double Jump to Mount/Attacker|Double Jump to Mount]]** (12% of attempts)
 
-- **[[Transitions/Double Jump to Mount/Attacker|Double Jump to Mount]]** (3% of attempts)
-
-- **[[Transitions/Double Jump to Side Control/Attacker|Double Jump to Side Control]]** (2% of attempts)
+- **[[Transitions/Double Jump to Side Control/Attacker|Double Jump to Side Control]]** (11% of attempts)
 
 
 ### Common Mistakes

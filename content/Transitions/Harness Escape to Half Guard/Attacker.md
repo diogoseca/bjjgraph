@@ -180,6 +180,54 @@ description: "Complete guide to executing the Harness Escape to Half Guard. Lear
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Harness Escape to Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse seat belt escape to mount trap back take",
+      "description": "Harness Escape to Half Guard (Attacker) film study: Reverse seat belt escape to mount trap back take, taught by David Avellan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a_4vNWWM7gU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a_4vNWWM7gU",
+      "url": "https://www.youtube.com/watch?v=a_4vNWWM7gU",
+      "creator": { "@type": "Person", "name": "David Avellan" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hip lock escape from the seatbelt",
+      "description": "Harness Escape to Half Guard (Attacker) film study: Hip lock escape from the seatbelt, taught by Coach William.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q-lXQQInfD0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q-lXQQInfD0",
+      "url": "https://www.youtube.com/watch?v=q-lXQQInfD0",
+      "creator": { "@type": "Person", "name": "Coach William" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back control seat belt escape",
+      "description": "Harness Escape to Half Guard (Attacker) film study: Back control seat belt escape, taught by Richmond TKD.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uMI5yq6Rdhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uMI5yq6Rdhg",
+      "url": "https://www.youtube.com/watch?v=uMI5yq6Rdhg",
+      "creator": { "@type": "Person", "name": "Richmond TKD" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ Executing the Harness Escape to Half Guard requires a disciplined sequence that 
 **From Position**: [[Positions/Harness]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Harness Escape to Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a_4vNWWM7gU)
+
+<p class="clip-credit"><strong>Reverse seat belt escape to mount trap back take</strong> — taught by David Avellan · 1:32 · <a href="https://www.youtube.com/watch?v=a_4vNWWM7gU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q-lXQQInfD0)
+
+<p class="clip-credit"><strong>Hip lock escape from the seatbelt</strong> — taught by Coach William · 2:06 · <a href="https://www.youtube.com/watch?v=q-lXQQInfD0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uMI5yq6Rdhg)
+
+<p class="clip-credit"><strong>Back control seat belt escape</strong> — taught by Richmond TKD · 2:43 · <a href="https://www.youtube.com/watch?v=uMI5yq6Rdhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

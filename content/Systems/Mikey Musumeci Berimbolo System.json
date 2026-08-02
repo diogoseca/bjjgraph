@@ -353,43 +353,143 @@
   "flashcards": [
     {
       "question": "What positions does the Mikey Musumeci berimbolo system primarily launch from?",
-      "answer": "It launches mainly from De La Riva and Reverse De La Riva guard, where collar, sleeve, and pant-leg grips combined with an active DLR hook set up the inverted rotation to the back."
+      "answer": "It launches mainly from De La Riva and Reverse De La Riva guard, where collar, sleeve, and pant-leg grips combined with an active DLR hook set up the inverted rotation to the back.",
+      "answer_line": "De La Riva & Reverse DLR",
+      "distractors": {
+        "plausible": [
+          "Butterfly & X-Guard",
+          "Closed & half guard"
+        ],
+        "trap": [
+          "Standing grip fighting"
+        ]
+      }
     },
     {
       "question": "How does Musumeci's berimbolo approach differ from traditional speed-based berimbolos?",
-      "answer": "It prioritizes technical precision, grip management, and base disruption over explosive athleticism, making the rotation succeed by off-balancing the opponent rather than out-speeding them."
+      "answer": "It prioritizes technical precision, grip management, and base disruption over explosive athleticism, making the rotation succeed by off-balancing the opponent rather than out-speeding them.",
+      "answer_line": "Precision & off-balance, not speed",
+      "distractors": {
+        "plausible": [
+          "Faster hip rotation",
+          "Bigger athletic explosion"
+        ],
+        "trap": [
+          "Rely on pure flexibility"
+        ]
+      }
     },
     {
       "question": "What should you do when the opponent establishes a heavy base and blocks the shoulder insertion?",
-      "answer": "Transition to X-Guard or Single Leg X-Guard by converting the DLR hook, use the collar grip to break posture and sweep, then return to the berimbolo when their base shifts forward again."
+      "answer": "Transition to X-Guard or Single Leg X-Guard by converting the DLR hook, use the collar grip to break posture and sweep, then return to the berimbolo when their base shifts forward again.",
+      "answer_line": "Switch to X-Guard, sweep",
+      "distractors": {
+        "plausible": [
+          "Force the rotation harder",
+          "Abandon grips, reset guard"
+        ],
+        "trap": [
+          "Release DLR hook and stand"
+        ]
+      }
     },
     {
       "question": "What is the kiss of the dragon used for in this system?",
-      "answer": "It is a controlled backward roll while keeping the pants grip, used when the opponent sprawls back to counter the berimbolo, letting you emerge on top or recover guard with an improved angle."
+      "answer": "It is a controlled backward roll while keeping the pants grip, used when the opponent sprawls back to counter the berimbolo, letting you emerge on top or recover guard with an improved angle.",
+      "answer_line": "Roll back, keep pants grip",
+      "distractors": {
+        "plausible": [
+          "Release grips and scramble",
+          "Sit back to flatten out"
+        ],
+        "trap": [
+          "Let go and turtle up"
+        ]
+      }
     },
     {
       "question": "Why is grip retention considered critical to the berimbolo system?",
-      "answer": "Losing the collar or sleeve grip mid-rotation typically collapses the technique, so maintaining layered, automatic grips is what allows the off-balancing and back-take to complete reliably."
+      "answer": "Losing the collar or sleeve grip mid-rotation typically collapses the technique, so maintaining layered, automatic grips is what allows the off-balancing and back-take to complete reliably.",
+      "answer_line": "Losing grips collapses it",
+      "distractors": {
+        "plausible": [
+          "Losing grip just slows tempo",
+          "Grip loss only matters late"
+        ],
+        "trap": [
+          "Switch grips mid-rotation"
+        ]
+      }
     },
     {
       "question": "In what order should you secure back control after completing the berimbolo rotation?",
-      "answer": "Establish the first hook to stop the opponent sitting back, then secure upper-body or seat-belt control, then insert the second hook, consolidating position fully before chasing any submission."
+      "answer": "Establish the first hook to stop the opponent sitting back, then secure upper-body or seat-belt control, then insert the second hook, consolidating position fully before chasing any submission.",
+      "answer_line": "First hook, seatbelt, second hook",
+      "distractors": {
+        "plausible": [
+          "Both hooks, then seatbelt",
+          "Seatbelt first, then hooks"
+        ],
+        "trap": [
+          "Go straight for the choke"
+        ]
+      }
     },
     {
       "question": "What common mistake do practitioners make against a strong-base opponent?",
-      "answer": "Forcing the rotation against resistance instead of flowing to a backup system like X-Guard or kiss of the dragon, which wastes energy and frequently surrenders the position."
+      "answer": "Forcing the rotation against resistance instead of flowing to a backup system like X-Guard or kiss of the dragon, which wastes energy and frequently surrenders the position.",
+      "answer_line": "Forcing it instead of flowing",
+      "distractors": {
+        "plausible": [
+          "Switching too many grips",
+          "Rotating too slowly"
+        ],
+        "trap": [
+          "Muscling through to finish"
+        ]
+      }
     },
     {
       "question": "How do you create the off-balance needed to initiate the berimbolo?",
-      "answer": "Pull the collar and sleeve to break the opponent's posture forward while elevating their base leg with the DLR hook, making them heavy on their hands before you begin to rotate."
+      "answer": "Pull the collar and sleeve to break the opponent's posture forward while elevating their base leg with the DLR hook, making them heavy on their hands before you begin to rotate.",
+      "answer_line": "Pull grips, elevate base leg",
+      "distractors": {
+        "plausible": [
+          "Push on their chest first",
+          "Elevate leg before gripping"
+        ],
+        "trap": [
+          "Release sleeve to rotate faster"
+        ]
+      }
     },
     {
       "question": "What is the guiding philosophy when finishing from the back in this system?",
-      "answer": "Position over submission: fully secure the seat belt and both hooks and neutralize defensive frames before initiating systematic, sequenced submission chains rather than random attacks."
+      "answer": "Position over submission: fully secure the seat belt and both hooks and neutralize defensive frames before initiating systematic, sequenced submission chains rather than random attacks.",
+      "answer_line": "Position over submission",
+      "distractors": {
+        "plausible": [
+          "Attack fastest submission",
+          "Secure one hook, then attack"
+        ],
+        "trap": [
+          "Go for neck crank immediately"
+        ]
+      }
     },
     {
       "question": "Which backup positions integrate with the berimbolo when the back take is unavailable?",
-      "answer": "X-Guard, Single Leg X-Guard, De La Riva sweeps, and the kiss of the dragon, all reachable from the same grip configuration so offensive pressure is maintained without resetting."
+      "answer": "X-Guard, Single Leg X-Guard, De La Riva sweeps, and the kiss of the dragon, all reachable from the same grip configuration so offensive pressure is maintained without resetting.",
+      "answer_line": "X-Guard, DLR sweeps, kiss of dragon",
+      "distractors": {
+        "plausible": [
+          "Only closed guard resets",
+          "Standing back takes only"
+        ],
+        "trap": [
+          "Flatten out and turtle"
+        ]
+      }
     }
   ]
 }

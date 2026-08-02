@@ -148,6 +148,54 @@ description: "How to defend against Flower Sweep in BJJ. Recognition cues, defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Flower Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Four levels of sweep defense",
+      "description": "Flower Sweep (Defender) film study: Four levels of sweep defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Flower Sweep Counter",
+      "description": "Flower Sweep (Defender) film study: Flower Sweep Counter, taught by Ante Dzolic.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cpjRXgi3FE4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cpjRXgi3FE4",
+      "url": "https://www.youtube.com/watch?v=cpjRXgi3FE4",
+      "creator": { "@type": "Person", "name": "Ante Dzolic" },
+      "duration": "PT217S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Never Get Stuck in Closed Guard",
+      "description": "Flower Sweep (Defender) film study: How to Never Get Stuck in Closed Guard, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d_zfY7Kjezo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d_zfY7Kjezo",
+      "url": "https://www.youtube.com/watch?v=d_zfY7Kjezo",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT389S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Advanced defenders recognize that the Flower Sweep rarely comes in isolation. It
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Flower Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cpjRXgi3FE4)
+
+<p class="clip-credit"><strong>Flower Sweep Counter</strong> — taught by Ante Dzolic · 3:37 · <a href="https://www.youtube.com/watch?v=cpjRXgi3FE4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d_zfY7Kjezo)
+
+<p class="clip-credit"><strong>How to Never Get Stuck in Closed Guard</strong> — taught by Matt Arroyo · 6:29 · <a href="https://www.youtube.com/watch?v=d_zfY7Kjezo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

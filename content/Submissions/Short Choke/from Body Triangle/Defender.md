@@ -150,6 +150,54 @@ description: "Complete defense guide against the short choke from body triangle.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Body Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Escape - Running Man",
+      "description": "Short Choke from Body Triangle (Defender) film study: Back Escape - Running Man, taught by JIU JITSU MODERN.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3RbOD9fhi20/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3RbOD9fhi20",
+      "url": "https://www.youtube.com/watch?v=3RbOD9fhi20",
+      "creator": { "@type": "Person", "name": "JIU JITSU MODERN" },
+      "duration": "PT210S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body triangle escape",
+      "description": "Short Choke from Body Triangle (Defender) film study: Body triangle escape, taught by Tom DeBlass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RA8Qc6hE23s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RA8Qc6hE23s",
+      "url": "https://www.youtube.com/watch?v=RA8Qc6hE23s",
+      "creator": { "@type": "Person", "name": "Tom DeBlass" },
+      "duration": "PT220S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Best way to escape the body triangle",
+      "description": "Short Choke from Body Triangle (Defender) film study: Best way to escape the body triangle, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RscLPT0F-DE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RscLPT0F-DE",
+      "url": "https://www.youtube.com/watch?v=RscLPT0F-DE",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT595S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the short choke from body triangle presents a layered challenge that c
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Body Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3RbOD9fhi20)
+
+<p class="clip-credit"><strong>Back Escape - Running Man</strong> — taught by JIU JITSU MODERN · 3:30 · <a href="https://www.youtube.com/watch?v=3RbOD9fhi20" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RA8Qc6hE23s)
+
+<p class="clip-credit"><strong>Body triangle escape</strong> — taught by Tom DeBlass · 3:40 · <a href="https://www.youtube.com/watch?v=RA8Qc6hE23s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RscLPT0F-DE)
+
+<p class="clip-credit"><strong>Best way to escape the body triangle</strong> — taught by Gordon Ryan · 9:55 · <a href="https://www.youtube.com/watch?v=RscLPT0F-DE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

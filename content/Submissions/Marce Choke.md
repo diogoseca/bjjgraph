@@ -34,6 +34,54 @@ description: "Master the Marce Choke in BJJ - a powerful gi-specific lapel choke
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Marce Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "1 Minute Jiu-Jitsu Hack: Marce Choke",
+      "description": "Marce Choke film study: 1 Minute Jiu-Jitsu Hack: Marce Choke, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hCiHjCbhGyE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hCiHjCbhGyE",
+      "url": "https://www.youtube.com/watch?v=hCiHjCbhGyE",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marce Choke",
+      "description": "Marce Choke film study: Marce Choke, taught by Colemans Electric.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1jsDC-jaPoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1jsDC-jaPoU",
+      "url": "https://www.youtube.com/watch?v=1jsDC-jaPoU",
+      "creator": { "@type": "Person", "name": "Colemans Electric" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee Flare Marce Choke Detail",
+      "description": "Marce Choke film study: Knee Flare Marce Choke Detail, taught by Drew Darce.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mp7Ffm85k0A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mp7Ffm85k0A",
+      "url": "https://www.youtube.com/watch?v=Mp7Ffm85k0A",
+      "creator": { "@type": "Person", "name": "Drew Darce" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,6 +134,42 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Marce Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hCiHjCbhGyE)
+
+<p class="clip-credit"><strong>1 Minute Jiu-Jitsu Hack: Marce Choke</strong> — taught by Brandon McCaghren · 1:07 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1jsDC-jaPoU)
+
+<p class="clip-credit"><strong>Marce Choke</strong> — taught by Colemans Electric · 1:18 · <a href="https://www.youtube.com/watch?v=1jsDC-jaPoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mp7Ffm85k0A)
+
+<p class="clip-credit"><strong>Knee Flare Marce Choke Detail</strong> — taught by Drew Darce · 1:53 · <a href="https://www.youtube.com/watch?v=Mp7Ffm85k0A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,7 +179,7 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Marce Choke/from Side Control|Side Control]] | Top | 58% | [[Submissions/Marce Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Marce Choke/from Side Control/Defender|Defend →]] |
+| [[Submissions/Marce Choke/from Side Control|Side Control]] | Top | 50% | [[Submissions/Marce Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Marce Choke/from Side Control/Defender|Defend →]] |
 
 
 </div>
@@ -123,9 +207,9 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 - [[Submissions/Baseball Bat Choke]] - Related gi choke applicable from similar top positions
 - [[Submissions/Breadcutter Choke]] - Alternative lapel choke with different finishing angle from top
 - [[Submissions/Bow and Arrow Choke]] - Related gi choke utilizing lapel control for blood choke finish
-- [[Transitions/North-South Choke]] - Alternative choke from north-south transition with arm-triangle mechanics
+- [[Submissions/North-South Choke]] - Alternative choke from north-south transition with arm-triangle mechanics
 - [[Submissions/Ezekiel Choke]] - Related gi choke from top positions with sleeve-based mechanics
-- [[Transitions/Arm Triangle]] - Alternative head-and-arm choke available from same starting positions
+- [[Submissions/Arm Triangle]] - Alternative head-and-arm choke available from same starting positions
 - [[Submissions/Kimura]] - Complementary joint lock that chains from failed choke attempts
 - [[Submissions/Americana]] - Complementary shoulder lock from similar top control positions
 - [[Submissions/Brabo Choke]] - Related gi choke with similar cross-body pressure mechanics from top

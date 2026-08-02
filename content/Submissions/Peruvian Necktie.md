@@ -34,6 +34,54 @@ description: "Master the Peruvian Necktie in BJJ. Complete guide covering front 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Peruvian Necktie \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Peruvian Necktie",
+      "description": "Peruvian Necktie film study: Peruvian Necktie, taught by Keith Krikorian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7J0hJPRPpRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7J0hJPRPpRQ",
+      "url": "https://www.youtube.com/watch?v=7J0hJPRPpRQ",
+      "creator": { "@type": "Person", "name": "Keith Krikorian" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front Headlock to Peruvian Necktie",
+      "description": "Peruvian Necktie film study: Front Headlock to Peruvian Necktie, taught by Gile23.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4ob2ZrEH3Yc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4ob2ZrEH3Yc",
+      "url": "https://www.youtube.com/watch?v=4ob2ZrEH3Yc",
+      "creator": { "@type": "Person", "name": "Gile23" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Peruvian Necktie",
+      "description": "Peruvian Necktie film study: Peruvian Necktie, taught by Luke Harris.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WpQIntujyFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WpQIntujyFU",
+      "url": "https://www.youtube.com/watch?v=WpQIntujyFU",
+      "creator": { "@type": "Person", "name": "Luke Harris" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +130,42 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Peruvian Necktie in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7J0hJPRPpRQ)
+
+<p class="clip-credit"><strong>Peruvian Necktie</strong> — taught by Keith Krikorian · 1:27 · <a href="https://www.youtube.com/watch?v=7J0hJPRPpRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4ob2ZrEH3Yc)
+
+<p class="clip-credit"><strong>Front Headlock to Peruvian Necktie</strong> — taught by Gile23 · 1:53 · <a href="https://www.youtube.com/watch?v=4ob2ZrEH3Yc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WpQIntujyFU)
+
+<p class="clip-credit"><strong>Peruvian Necktie</strong> — taught by Luke Harris · 1:46 · <a href="https://www.youtube.com/watch?v=WpQIntujyFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -115,15 +199,14 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]] - Alternative front headlock choke when opponent's arm is not trapped
-- [[Transitions/Darce Choke]] - Parallel arm-in choke from similar front headlock positions
+- [[Submissions/Guillotine Choke]] - Alternative front headlock choke when opponent's arm is not trapped
+- [[Submissions/Darce Choke]] - Parallel arm-in choke from similar front headlock positions
 - [[Transitions/Anaconda Choke]] - Alternative front headlock finish using opposite arm configuration
-- [[Transitions/Arm Triangle]] - Related arm-in choking attack from similar control positions
+- [[Submissions/Arm Triangle]] - Related arm-in choking attack from similar control positions
 - [[Submissions/High Elbow Guillotine]] - Guillotine variation from same starting position
 - [[Submissions/Brabo Choke]] - Related front headlock choke variation
 - [[Submissions/Arm in Guillotine]] - Guillotine variation incorporating trapped arm
 - [[Submissions/Japanese Necktie]] - Closely related front headlock choke with similar leg threading mechanics
-- [[Submissions/Chin Strap Guillotine]] - Alternative guillotine grip available from front headlock
 - [[Positions/Front Headlock]] - Primary control position for entries and setup variations
 - [[Positions/Turtle]] - Primary attacking position where Peruvian Necktie opportunities arise
 - [[Positions/Back Control]] - Alternative attack option when Peruvian Necktie is defended

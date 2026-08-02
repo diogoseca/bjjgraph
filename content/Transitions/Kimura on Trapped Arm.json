@@ -15,22 +15,34 @@
   "from_position": "Gift Wrap/Top",
   "outcomes": [
     {
-      "to": "Kimura",
-      "probability": 55,
+      "to": "Kimura from Gift Wrap",
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Gift Wrap/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "conditions": [
     "Gift Wrap control is fully established with opponent's arm trapped across their chest",
     "Back control is maintained with at least one hook or body triangle secured",
@@ -145,7 +157,7 @@
         "counter": "Opponent turns into attacker and rolls belly-down to reduce shoulder rotation angle",
         "effectiveness": "Medium",
         "your_response": "Follow the roll and transition to mounted Kimura position or crucifix; belly-down actually improves finishing angle in many cases",
-        "targets_outcome": "Kimura"
+        "targets_outcome": "Kimura from Gift Wrap"
       },
       {
         "counter": "Opponent grabs their own belt, pants, or interlocks hands to prevent wrist movement",
@@ -217,50 +229,189 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to transition from Gift Wrap to Kimura grip?",
-        "answer": "The optimal window is when your Gift Wrap control is fully consolidated and the opponent is momentarily passive or focused on defending the neck from choke threats. Transitioning during their active escape attempts risks losing the arm trap. Wait until the trapped arm is high across their chest with stable elbow bend, then smoothly thread the figure-four before they redirect defensive effort toward the arm."
+        "answer": "The optimal window is when your Gift Wrap control is fully consolidated and the opponent is momentarily passive or focused on defending the neck from choke threats. Transitioning during their active escape attempts risks losing the arm trap. Wait until the trapped arm is high across their chest with stable elbow bend, then smoothly thread the figure-four before they redirect defensive effort toward the arm.",
+        "answer_line": "When Gift Wrap fully consolidated",
+        "distractors": {
+          "plausible": [
+            "Right after establishing seatbelt",
+            "As soon as arm crosses the chest"
+          ],
+          "trap": [
+            "During their active escape attempt"
+          ]
+        }
       },
       {
         "question": "What entry requirements must exist before you can attempt Kimura on Trapped Arm?",
-        "answer": "Gift Wrap must be fully secured with the arm trapped high across the chest, elbow bent near 90 degrees, and your controlling arm threaded under the armpit. Back control must be stable with at least one hook or body triangle. Chest-to-back connection must be maintained. Your free arm must be available to establish the figure-four grip without releasing any existing control point."
+        "answer": "Gift Wrap must be fully secured with the arm trapped high across the chest, elbow bent near 90 degrees, and your controlling arm threaded under the armpit. Back control must be stable with at least one hook or body triangle. Chest-to-back connection must be maintained. Your free arm must be available to establish the figure-four grip without releasing any existing control point.",
+        "answer_line": "Secure Gift Wrap, elbow bent 90",
+        "distractors": {
+          "plausible": [
+            "Just back control, no arm trap",
+            "Free arm already on the wrist"
+          ],
+          "trap": [
+            "Release seatbelt for figure-four"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that makes the elbow position so important during the finish?",
-        "answer": "The bent elbow creates the fulcrum point for shoulder rotation. When the elbow is pinned against the opponent's ribcage at approximately 90 degrees, lifting the wrist generates maximum rotational torque on the glenohumeral joint. If the elbow straightens even partially, the lever arm changes and the rotational force dissipates along the arm's length rather than concentrating on the shoulder capsule."
+        "answer": "The bent elbow creates the fulcrum point for shoulder rotation. When the elbow is pinned against the opponent's ribcage at approximately 90 degrees, lifting the wrist generates maximum rotational torque on the glenohumeral joint. If the elbow straightens even partially, the lever arm changes and the rotational force dissipates along the arm's length rather than concentrating on the shoulder capsule.",
+        "answer_line": "Bent elbow creates the fulcrum",
+        "distractors": {
+          "plausible": [
+            "Straight elbow adds more torque",
+            "Wrist angle matters most"
+          ],
+          "trap": [
+            "Let elbow straighten for reach"
+          ]
+        }
       },
       {
         "question": "Your opponent begins straightening their trapped arm as you transition to Kimura grip - how do you adjust?",
-        "answer": "If the arm straightens before you secure the Kimura, immediately switch to an armbar attack on the now-extended limb. The extended arm presents a better armbar opportunity than Kimura. Alternatively, abandon the submission attempt and quickly re-establish Gift Wrap control to trap the arm again before reattempting. The key is recognizing the straightening early and committing to the alternative rather than fighting a losing grip battle."
+        "answer": "If the arm straightens before you secure the Kimura, immediately switch to an armbar attack on the now-extended limb. The extended arm presents a better armbar opportunity than Kimura. Alternatively, abandon the submission attempt and quickly re-establish Gift Wrap control to trap the arm again before reattempting. The key is recognizing the straightening early and committing to the alternative rather than fighting a losing grip battle.",
+        "answer_line": "Switch to armbar on straight arm",
+        "distractors": {
+          "plausible": [
+            "Force the Kimura grip anyway",
+            "Wait for the arm to re-bend"
+          ],
+          "trap": [
+            "Yank the wrist to re-bend elbow"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement that generates Kimura finishing pressure?",
-        "answer": "The critical movement is driving your hips forward toward the trapped arm side while simultaneously lifting the opponent's wrist toward their shoulder blade. This hip drive creates rotational force on the shoulder joint without relying on arm strength. Your body weight becomes the primary pressure mechanism rather than grip strength. The hips should angle toward the trapped arm side to maximize the rotational moment."
+        "answer": "The critical movement is driving your hips forward toward the trapped arm side while simultaneously lifting the opponent's wrist toward their shoulder blade. This hip drive creates rotational force on the shoulder joint without relying on arm strength. Your body weight becomes the primary pressure mechanism rather than grip strength. The hips should angle toward the trapped arm side to maximize the rotational moment.",
+        "answer_line": "Drive hips forward, lift wrist",
+        "distractors": {
+          "plausible": [
+            "Pull with arms, hips stay square",
+            "Lean back for more leverage"
+          ],
+          "trap": [
+            "Push hips away from trapped arm"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the most mechanical advantage for the Kimura finish?",
-        "answer": "Control the opponent's wrist or lower forearm with your threading arm, then grip your own wrist with the free hand passing over the opponent's humerus near the elbow. Wrist control maximizes the lever arm length. Your elbows clamp tight to your torso to lock the opponent's elbow in the bent position. The figure-four creates a closed mechanical loop that multiplies the force from your hip rotation."
+        "answer": "Control the opponent's wrist or lower forearm with your threading arm, then grip your own wrist with the free hand passing over the opponent's humerus near the elbow. Wrist control maximizes the lever arm length. Your elbows clamp tight to your torso to lock the opponent's elbow in the bent position. The figure-four creates a closed mechanical loop that multiplies the force from your hip rotation.",
+        "answer_line": "Grip wrist, elbows clamp to torso",
+        "distractors": {
+          "plausible": [
+            "Grip above the elbow, arms loose",
+            "Control the bicep, not the wrist"
+          ],
+          "trap": [
+            "Grip the hand, elbows flared out"
+          ]
+        }
       },
       {
         "question": "In which direction should the primary rotational force be applied during the finish?",
-        "answer": "The force paints the opponent's hand toward their own spine, driving the wrist toward their shoulder blade and then toward the ceiling. The rotation follows the path of internal shoulder rotation, moving the forearm behind and above the opponent's back. The elbow stays stationary against their ribcage while the wrist arcs upward. Avoid pulling the arm laterally away from the body, which reduces shoulder stress and is easier to defend."
+        "answer": "The force paints the opponent's hand toward their own spine, driving the wrist toward their shoulder blade and then toward the ceiling. The rotation follows the path of internal shoulder rotation, moving the forearm behind and above the opponent's back. The elbow stays stationary against their ribcage while the wrist arcs upward. Avoid pulling the arm laterally away from the body, which reduces shoulder stress and is easier to defend.",
+        "answer_line": "Wrist toward spine, then up",
+        "distractors": {
+          "plausible": [
+            "Pull the arm straight overhead",
+            "Rotate the wrist outward, away"
+          ],
+          "trap": [
+            "Pull arm laterally away from body"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own pants leg with the trapped hand to stall the Kimura - what is your response?",
-        "answer": "Apply continuous hip pressure and body rotation to fatigue their defensive grip over time. The sustained rotational force from your body weight is far stronger than their one-handed grip. While maintaining Kimura control, you can also switch threats by attacking the now-exposed neck since both their arms are occupied, or transition to crucifix to trap the free arm and eliminate the grip defense entirely."
+        "answer": "Apply continuous hip pressure and body rotation to fatigue their defensive grip over time. The sustained rotational force from your body weight is far stronger than their one-handed grip. While maintaining Kimura control, you can also switch threats by attacking the now-exposed neck since both their arms are occupied, or transition to crucifix to trap the free arm and eliminate the grip defense entirely.",
+        "answer_line": "Grind hip pressure, fatigue grip",
+        "distractors": {
+          "plausible": [
+            "Yank the arm to break their grip",
+            "Abandon Kimura, switch targets"
+          ],
+          "trap": [
+            "Release Kimura to reset entirely"
+          ]
+        }
       },
       {
         "question": "Your opponent rolls belly-down during your Kimura attack - what is your optimal response?",
-        "answer": "Follow the roll and maintain the Kimura grip throughout. The belly-down position actually improves your finishing angle in many cases because the shoulder rotates further into internal rotation against the mat. Transition to mounted Kimura position by stepping over their body while keeping the grip. This belly-down finish is often higher percentage than the original back attack angle because the opponent's own body weight works against their shoulder."
+        "answer": "Follow the roll and maintain the Kimura grip throughout. The belly-down position actually improves your finishing angle in many cases because the shoulder rotates further into internal rotation against the mat. Transition to mounted Kimura position by stepping over their body while keeping the grip. This belly-down finish is often higher percentage than the original back attack angle because the opponent's own body weight works against their shoulder.",
+        "answer_line": "Follow roll, keep grip, mount up",
+        "distractors": {
+          "plausible": [
+            "Release grip, retake back control",
+            "Stay still until they stop moving"
+          ],
+          "trap": [
+            "Let go and reset from the top"
+          ]
+        }
       },
       {
         "question": "When should you abandon the Kimura finish and use the grip for positional advancement instead?",
-        "answer": "Abandon the finish when the opponent successfully defends by straightening the arm, securing strong grip defense that you cannot break within a reasonable timeframe, or when your back control hooks become unstable. In these situations, the Kimura grip still provides excellent control. Use it to transition to crucifix by stepping over the head, advance to technical mount while maintaining the arm trap, or simply consolidate back control before resetting your attack sequence."
+        "answer": "Abandon the finish when the opponent successfully defends by straightening the arm, securing strong grip defense that you cannot break within a reasonable timeframe, or when your back control hooks become unstable. In these situations, the Kimura grip still provides excellent control. Use it to transition to crucifix by stepping over the head, advance to technical mount while maintaining the arm trap, or simply consolidate back control before resetting your attack sequence.",
+        "answer_line": "Arm defended or hooks unstable",
+        "distractors": {
+          "plausible": [
+            "Only if opponent taps quickly",
+            "Whenever your hips get tired"
+          ],
+          "trap": [
+            "Never abandon, always finish sub"
+          ]
+        }
       },
       {
         "question": "What makes the Kimura on Trapped Arm higher percentage than a standard Kimura from back control?",
-        "answer": "The trapped arm is already in internal rotation with bent elbow from the Gift Wrap position - essentially halfway to submission before you attack. The opponent cannot straighten the arm because Gift Wrap prevents extension, and cannot rotate the shoulder externally because your body blocks that path. This eliminates the two primary Kimura defenses before the attack begins, reducing the technique to a finishing sequence rather than a full setup-to-finish chain."
+        "answer": "The trapped arm is already in internal rotation with bent elbow from the Gift Wrap position - essentially halfway to submission before you attack. The opponent cannot straighten the arm because Gift Wrap prevents extension, and cannot rotate the shoulder externally because your body blocks that path. This eliminates the two primary Kimura defenses before the attack begins, reducing the technique to a finishing sequence rather than a full setup-to-finish chain.",
+        "answer_line": "Arm already half-finished by trap",
+        "distractors": {
+          "plausible": [
+            "Opponent can't see the attack",
+            "Kimura grip is just stronger"
+          ],
+          "trap": [
+            "Opponent can freely extend the arm"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Kimura places significant rotational stress on the shoulder joint's glenohumeral capsule and rotator cuff structures. Apply pressure progressively rather than explosively to allow training partners time to tap. The trapped arm position reduces defensive ability, making shoulder injuries more likely if pressure is applied too rapidly. Release immediately upon any tap signal - verbal, physical, or foot tapping. When drilling, establish clear communication protocols before training. Avoid this technique on partners with existing shoulder injuries or reduced mobility. In competition, be prepared for opponents who refuse to tap; maintain control without excessive force escalation. The belly-down finish variant places additional stress on the shoulder; use extra caution when following rolls."
+    "safety_considerations": "The Kimura places significant rotational stress on the shoulder joint's glenohumeral capsule and rotator cuff structures. Apply pressure progressively rather than explosively to allow training partners time to tap. The trapped arm position reduces defensive ability, making shoulder injuries more likely if pressure is applied too rapidly. Release immediately upon any tap signal - verbal, physical, or foot tapping. When drilling, establish clear communication protocols before training. Avoid this technique on partners with existing shoulder injuries or reduced mobility. In competition, be prepared for opponents who refuse to tap; maintain control without excessive force escalation. The belly-down finish variant places additional stress on the shoulder; use extra caution when following rolls.",
+    "clips": [
+      {
+        "id": "bKEhbrZaS7Y",
+        "title": "Kimura setup from knee on belly with arm trap",
+        "by": "Jiu Jitsu Five-O",
+        "vertical": false,
+        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Wx6X2jZ-1Ec",
+        "title": "Side control step around to kimura arm trap",
+        "by": "Submission1",
+        "vertical": false,
+        "channel": "Submission1",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yOO_TVoje9Q",
+        "title": "S-mount arm trap kimura",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 152,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kimura on Trapped Arm Defender",
@@ -336,23 +487,73 @@
     "flashcards": [
       {
         "question": "What is the highest-percentage defensive window against the Kimura on Trapped Arm?",
-        "answer": "The highest-percentage window is during the grip transition from Gift Wrap to Kimura figure-four. When the attacker releases their free arm from seatbelt or neck control to reach over your trapped arm, their overall control momentarily weakens. This one-to-two-second window allows you to straighten the trapped arm, explosively bridge to rotate, or begin grip defense before the closed loop is fully established."
+        "answer": "The highest-percentage window is during the grip transition from Gift Wrap to Kimura figure-four. When the attacker releases their free arm from seatbelt or neck control to reach over your trapped arm, their overall control momentarily weakens. This one-to-two-second window allows you to straighten the trapped arm, explosively bridge to rotate, or begin grip defense before the closed loop is fully established.",
+        "answer_line": "During the grip transition",
+        "distractors": {
+          "plausible": [
+            "Right after Kimura locks fully",
+            "While seatbelt is still secure"
+          ],
+          "trap": [
+            "Once figure-four is fully closed"
+          ]
+        }
       },
       {
         "question": "Your attacker has the Kimura grip locked and begins shifting hips - what is your immediate priority?",
-        "answer": "Immediately anchor your trapped hand by gripping your own belt, pants, or opposite lapel. This prevents wrist isolation and stalls the rotational finish. Simultaneously begin explosive hip escape toward the attacker's hip-shift side to exploit their off-center weight distribution. Do not waste energy trying to muscle out of the figure-four grip directly, as this is futile against properly applied two-arm control."
+        "answer": "Immediately anchor your trapped hand by gripping your own belt, pants, or opposite lapel. This prevents wrist isolation and stalls the rotational finish. Simultaneously begin explosive hip escape toward the attacker's hip-shift side to exploit their off-center weight distribution. Do not waste energy trying to muscle out of the figure-four grip directly, as this is futile against properly applied two-arm control.",
+        "answer_line": "Anchor hand to belt, hip escape",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up immediately",
+            "Grab your own wrist to block"
+          ],
+          "trap": [
+            "Muscle straight out of the grip"
+          ]
+        }
       },
       {
         "question": "Why is bridging away from the attacker a defensive mistake during the Kimura attack?",
-        "answer": "Bridging away creates separation space that the attacker fills with deeper hip penetration, improving their finishing angle for the shoulder rotation. It also does nothing to address the Gift Wrap arm trap or the Kimura grip. The correct bridge direction is toward the attacker, rotating your body to face them, which disrupts back control alignment and can break the arm trap through the rotation."
+        "answer": "Bridging away creates separation space that the attacker fills with deeper hip penetration, improving their finishing angle for the shoulder rotation. It also does nothing to address the Gift Wrap arm trap or the Kimura grip. The correct bridge direction is toward the attacker, rotating your body to face them, which disrupts back control alignment and can break the arm trap through the rotation.",
+        "answer_line": "Bridge toward the attacker",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up and out",
+            "Stay flat and wait it out"
+          ],
+          "trap": [
+            "Bridge away to create space"
+          ]
+        }
       },
       {
         "question": "How should you balance defending the Kimura against the risk of choke attacks?",
-        "answer": "Keep your chin tucked throughout the Kimura defense as a passive choke deterrent. If you anchor your trapped hand to your belt for Kimura defense, your free arm must remain ready to redirect to neck defense instantly. Monitor whether the attacker abandons Kimura grip - the moment they release the figure-four, expect an immediate choke transition and get your free hand back to the neck. Never commit both arms fully to Kimura defense."
+        "answer": "Keep your chin tucked throughout the Kimura defense as a passive choke deterrent. If you anchor your trapped hand to your belt for Kimura defense, your free arm must remain ready to redirect to neck defense instantly. Monitor whether the attacker abandons Kimura grip - the moment they release the figure-four, expect an immediate choke transition and get your free hand back to the neck. Never commit both arms fully to Kimura defense.",
+        "answer_line": "Chin tucked, one hand free for neck",
+        "distractors": {
+          "plausible": [
+            "Both hands anchor Kimura defense",
+            "Ignore neck until sub is escaped"
+          ],
+          "trap": [
+            "Commit both arms to Kimura defense"
+          ]
+        }
       },
       {
         "question": "What body mechanics should you use to straighten the trapped arm during the grip transition window?",
-        "answer": "Drive your trapped arm's hand toward your own opposite hip using a combination of shoulder extension and elbow straightening. The key is to initiate the movement from your shoulder rather than fighting the elbow bend directly. Simultaneously shrimp your hips away from the trapped arm side to create space for the arm to extend. The movement must be explosive and committed - a slow or partial attempt will be absorbed by the attacker without breaking the arm position."
+        "answer": "Drive your trapped arm's hand toward your own opposite hip using a combination of shoulder extension and elbow straightening. The key is to initiate the movement from your shoulder rather than fighting the elbow bend directly. Simultaneously shrimp your hips away from the trapped arm side to create space for the arm to extend. The movement must be explosive and committed - a slow or partial attempt will be absorbed by the attacker without breaking the arm position.",
+        "answer_line": "Extend from shoulder, shrimp hips",
+        "distractors": {
+          "plausible": [
+            "Yank from the elbow directly",
+            "Slow steady pull, not explosive"
+          ],
+          "trap": [
+            "Fight the elbow bend directly"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -375,6 +576,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring from Gift Wrap bottom",
         "description": "Full resistance positional rounds starting from Gift Wrap Bottom. Defender works to survive and escape while attacker uses the complete Gift Wrap attack system including Kimura, chokes, and armbars. Develop realistic defensive timing and decision-making under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TuaopPUakM8",
+        "title": "Defending the kimura",
+        "by": "Eddie Kone",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MM9rddEgJ58",
+        "title": "Kimura defense from bottom side control",
+        "by": "Gracie Westchase",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 156,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qKj5Y-jDEeM",
+        "title": "Countering the kimura back take",
+        "by": "Placido Santos",
+        "vertical": false,
+        "channel": "Placido Santos ",
+        "duration": 32,
+        "verified": "2026-07-15"
       }
     ]
   },

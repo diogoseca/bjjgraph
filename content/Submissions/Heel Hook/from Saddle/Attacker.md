@@ -176,6 +176,54 @@ description: "Complete guide to executing the heel hook from saddle position. St
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Saddle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm Saddle to Inside Heel Hook Flow Drill",
+      "description": "Heel Hook from Saddle (Attacker) film study: Arm Saddle to Inside Heel Hook Flow Drill, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QfNKQzy3V_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QfNKQzy3V_w",
+      "url": "https://www.youtube.com/watch?v=QfNKQzy3V_w",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "4 Variations of Heel Hook Finish From Saddle",
+      "description": "Heel Hook from Saddle (Attacker) film study: 4 Variations of Heel Hook Finish From Saddle, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n6EoUkDwUVc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n6EoUkDwUVc",
+      "url": "https://www.youtube.com/watch?v=n6EoUkDwUVc",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Heel Hook Breaking Mechanics",
+      "description": "Heel Hook from Saddle (Attacker) film study: Heel Hook Breaking Mechanics, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
+      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Executing the heel hook from saddle demands a systematic approach that prioritiz
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Saddle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QfNKQzy3V_w)
+
+<p class="clip-credit"><strong>Arm Saddle to Inside Heel Hook Flow Drill</strong> — taught by Factory Fresh Jiu Jitsu · 0:21 · <a href="https://www.youtube.com/watch?v=QfNKQzy3V_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n6EoUkDwUVc)
+
+<p class="clip-credit"><strong>4 Variations of Heel Hook Finish From Saddle</strong> — taught by The Grappling Bloke · 1:42 · <a href="https://www.youtube.com/watch?v=n6EoUkDwUVc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
+
+<p class="clip-credit"><strong>Heel Hook Breaking Mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -174,6 +174,54 @@ description: "How to execute the Transition to Double Jump from Half Guard Top. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Double Jump (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard butterfly hook back take",
+      "description": "Half Guard to Double Jump (Attacker) film study: Half guard butterfly hook back take, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WoSyrVZ1VvY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WoSyrVZ1VvY",
+      "url": "https://www.youtube.com/watch?v=WoSyrVZ1VvY",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Entries into the rear triangle back position",
+      "description": "Half Guard to Double Jump (Attacker) film study: Entries into the rear triangle back position, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMabjvtaLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMabjvtaLk",
+      "url": "https://www.youtube.com/watch?v=-lMabjvtaLk",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT252S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Getting your hooks in from the turtle",
+      "description": "Half Guard to Double Jump (Attacker) film study: Getting your hooks in from the turtle, taught by Brian (TeachMeGrappling).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6-pEzvhvr-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6-pEzvhvr-Q",
+      "url": "https://www.youtube.com/watch?v=6-pEzvhvr-Q",
+      "creator": { "@type": "Person", "name": "Brian (TeachMeGrappling)" },
+      "duration": "PT156S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +233,42 @@ Success depends on maintaining constant pressure throughout the transition phase
 **From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Double Jump (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WoSyrVZ1VvY)
+
+<p class="clip-credit"><strong>Half guard butterfly hook back take</strong> — taught by Procel BJJ · 0:55 · <a href="https://www.youtube.com/watch?v=WoSyrVZ1VvY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMabjvtaLk)
+
+<p class="clip-credit"><strong>Entries into the rear triangle back position</strong> — taught by John Danaher · 4:12 · <a href="https://www.youtube.com/watch?v=-lMabjvtaLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6-pEzvhvr-Q)
+
+<p class="clip-credit"><strong>Getting your hooks in from the turtle</strong> — taught by Brian (TeachMeGrappling) · 2:36 · <a href="https://www.youtube.com/watch?v=6-pEzvhvr-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

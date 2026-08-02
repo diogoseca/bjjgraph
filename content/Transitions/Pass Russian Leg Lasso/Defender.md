@@ -148,6 +148,43 @@ description: "Complete guide to defending against the Russian Leg Lasso guard pa
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Russian Leg Lasso (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the leg weave pass with lasso",
+      "description": "Pass Russian Leg Lasso (Defender) film study: Preventing the leg weave pass with lasso, taught by Grand Union Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tO5rPtjfsGE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tO5rPtjfsGE",
+      "url": "https://www.youtube.com/watch?v=tO5rPtjfsGE",
+      "creator": { "@type": "Person", "name": "Grand Union Jiu Jitsu" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso guard to omoplata with a pant grip",
+      "description": "Pass Russian Leg Lasso (Defender) film study: Lasso guard to omoplata with a pant grip, taught by Eugene Bidchenco.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/efdShgcXc8I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/efdShgcXc8I",
+      "url": "https://www.youtube.com/watch?v=efdShgcXc8I",
+      "creator": { "@type": "Person", "name": "Eugene Bidchenco" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the Russian Leg Lasso guard pass requires the bottom player to
 **Opponent's Starting Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Russian Leg Lasso (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tO5rPtjfsGE)
+
+<p class="clip-credit"><strong>Preventing the leg weave pass with lasso</strong> — taught by Grand Union Jiu Jitsu · 0:54 · <a href="https://www.youtube.com/watch?v=tO5rPtjfsGE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=efdShgcXc8I)
+
+<p class="clip-credit"><strong>Lasso guard to omoplata with a pant grip</strong> — taught by Eugene Bidchenco · 0:42 · <a href="https://www.youtube.com/watch?v=efdShgcXc8I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

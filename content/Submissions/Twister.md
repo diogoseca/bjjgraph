@@ -34,6 +34,65 @@ description: "Master the Twister spinal lock in BJJ. Complete guide covering Tru
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister Side Attacks",
+      "description": "Twister film study: Twister Side Attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Eddie Bravo\u0027s Twister",
+      "description": "Twister film study: Eddie Bravo\u0027s Twister, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FjWN_aBp2eE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FjWN_aBp2eE",
+      "url": "https://www.youtube.com/watch?v=FjWN_aBp2eE",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Twister from Side Control",
+      "description": "Twister film study: Twister from Side Control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
+      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Twister from Turtle",
+      "description": "Twister film study: Twister from Turtle, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RVr67Kb-6ec/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RVr67Kb-6ec",
+      "url": "https://www.youtube.com/watch?v=RVr67Kb-6ec",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +112,7 @@ description: "Master the Twister spinal lock in BJJ. Complete guide covering Tru
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Twister?", "acceptedAnswer": { "@type": "Answer", "text": "The Twister is a 10th Planet spinal-lock submission that corkscrews the opponent\u0027s spine by driving their upper body one direction while a trapped leg pins their lower body the other, finished from the Truck position." } },
-    { "@type": "Question", "name": "What positions can you finish the Twister from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Twister from Cross Body Ride, Russian Cowboy, Twister Control, Twister Side Control." } },
+    { "@type": "Question", "name": "What positions can you finish the Twister from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Twister from Twister Control, Cross Body Ride, Russian Cowboy, Twister Side Control." } },
     { "@type": "Question", "name": "Is the Twister dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Twister targets the Cervical and thoracic spine, shoulder girdle. Primary risk: Cervical spine damage (neck injury). Tap early and release immediately on the tap." } }
   ]
 }
@@ -84,6 +143,50 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Twister Side Attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FjWN_aBp2eE)
+
+<p class="clip-credit"><strong>Eddie Bravo&#39;s Twister</strong> — taught by Eddie Bravo · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R55lmkc6Mus)
+
+<p class="clip-credit"><strong>Twister from Side Control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RVr67Kb-6ec)
+
+<p class="clip-credit"><strong>Twister from Turtle</strong> — taught by Thunderdome BJJ · 0:24 · <a href="https://www.youtube.com/watch?v=RVr67Kb-6ec" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -93,9 +196,9 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
+| [[Submissions/Twister/from Twister Control|Twister Control]] | Top | 62% | [[Submissions/Twister/from Twister Control/Attacker|Attack →]] | [[Submissions/Twister/from Twister Control/Defender|Defend →]] |
 | [[Submissions/Twister/from Cross Body Ride|Cross Body Ride]] | Top | 40% | [[Submissions/Twister/from Cross Body Ride/Attacker|Attack →]] | [[Submissions/Twister/from Cross Body Ride/Defender|Defend →]] |
 | [[Submissions/Twister/from Russian Cowboy|Russian Cowboy]] | Top | 40% | [[Submissions/Twister/from Russian Cowboy/Attacker|Attack →]] | [[Submissions/Twister/from Russian Cowboy/Defender|Defend →]] |
-| [[Submissions/Twister/from Twister Control|Twister Control]] | Top | 40% | [[Submissions/Twister/from Twister Control/Attacker|Attack →]] | [[Submissions/Twister/from Twister Control/Defender|Defend →]] |
 | [[Submissions/Twister/from Twister Side Control|Twister Side Control]] | Top | 40% | [[Submissions/Twister/from Twister Side Control/Attacker|Attack →]] | [[Submissions/Twister/from Twister Side Control/Defender|Defend →]] |
 
 
@@ -125,8 +228,8 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 - [[Positions/Half Guard/Electric Chair]] - Related 10th Planet submission that chains directly with Twister entries
 - [[Submissions/Bicep Slicer]] - Complementary arm attack from similar back-exposure positions
 - [[Submissions/Bow and Arrow Choke]] - Alternative back attack submission from similar control positions
-- [[Transitions/Guillotine Choke]] - Available when opponent turns to escape Twister rotation
-- [[Transitions/Darce Choke]] - Front headlock attack accessible during Twister scrambles
+- [[Submissions/Guillotine Choke]] - Available when opponent turns to escape Twister rotation
+- [[Submissions/Darce Choke]] - Front headlock attack accessible during Twister scrambles
 - [[Submissions/Belly Down Armbar]] - Arm attack from similar back-exposure position
 - [[Submissions/Boston Crab]] - Related spinal compression submission from back exposure
 - [[Positions/Twister Control/Truck]] - Primary setup position - master this position before attempting Twister

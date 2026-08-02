@@ -140,6 +140,43 @@ description: "Master preventing the ankle lock escape to standing. Complete guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ankle Lock Escape to Standing (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter footlock against the straight ankle lock",
+      "description": "Ankle Lock Escape to Standing (Defender) film study: Counter footlock against the straight ankle lock, taught by James Clingerman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zErch4qHfB0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zErch4qHfB0",
+      "url": "https://www.youtube.com/watch?v=zErch4qHfB0",
+      "creator": { "@type": "Person", "name": "James Clingerman" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight Ankle Lock Finish Against the Escape",
+      "description": "Ankle Lock Escape to Standing (Defender) film study: Straight Ankle Lock Finish Against the Escape, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OODhY1jlH3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OODhY1jlH3Q",
+      "url": "https://www.youtube.com/watch?v=OODhY1jlH3Q",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ From the perspective of the ankle lock attacker, preventing the escape to standi
 **Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ankle Lock Escape to Standing (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zErch4qHfB0)
+
+<p class="clip-credit"><strong>Counter footlock against the straight ankle lock</strong> — taught by James Clingerman · 0:12 · <a href="https://www.youtube.com/watch?v=zErch4qHfB0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OODhY1jlH3Q)
+
+<p class="clip-credit"><strong>Straight Ankle Lock Finish Against the Escape</strong> — taught by Brian Glick · 1:56 · <a href="https://www.youtube.com/watch?v=OODhY1jlH3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

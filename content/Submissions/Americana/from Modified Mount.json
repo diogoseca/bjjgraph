@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "Modified Mount",
   "from_position": "Modified Mount/Top",
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "summary": "The Americana from Modified Mount is a figure-four shoulder lock applied from the asymmetric top mount, using the posted leg's stability to pin the near-side wrist to the mat and externally rotate the trapped shoulder until the opponent taps.",
   "overview": "The Americana from Modified Mount exploits the unique weight distribution and stability advantages of Modified Mount to execute one of grappling's most fundamental shoulder lock submissions. Unlike the standard mount Americana where both knees are down and the attacker must balance while applying the figure-four grip, Modified Mount provides a structural base through the posted leg that allows full commitment to the submission mechanics without fear of reversal during the finish. The across-body knee pins the opponent's torso, freeing both hands to establish the wrist pin and figure-four grip that define the Americana.\n\nFrom a strategic perspective, the Americana from Modified Mount functions as a natural complement to the armbar threat that the position creates. When opponents defend the armbar by keeping their arms tight and elbows close, the close-quarters positioning of Modified Mount makes wrist isolation for the Americana highly accessible. The posted leg serves dual purpose during the finish: maintaining base stability while providing a leverage anchor that enhances rotational pressure on the trapped shoulder. This variant punishes the exact defensive posture that successfully defends against armbars, creating a powerful dilemma where defending one submission opens vulnerability to the other.\n\nCompetition data consistently shows the Americana from Modified Mount as a high-percentage finishing option at intermediate and advanced levels, with the position's inherent stability allowing methodical application of progressive rotational pressure. The key distinction from other Americana variants is the enhanced base security that the posted leg provides. The attacker can apply slow, deliberate pressure without rushing, knowing the posted leg prevents the explosive bridge-and-roll reversals that plague Americana attempts from standard mount.",
   "safety_considerations": {
@@ -110,17 +113,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Modified Mount/Top",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 11,
+      "probability": {
+        "gi": 11,
+        "nogi": 11
+      },
       "result": "counter"
     }
   ],
@@ -288,42 +300,151 @@
       {
         "question": "What anatomical structure does the Americana from Modified Mount primarily attack, and how does the rotational force damage it?",
         "answer": "The Americana attacks the glenohumeral joint by forcing external rotation of the humerus while the elbow is pinned, concentrating torsional stress on the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule. The figure-four grip creates a lever system where the pinned elbow acts as the fulcrum and the wrist arc generates the rotational force. When the wrist travels toward the hip with the elbow locked, the shoulder joint is forced beyond its natural range of external rotation, attacking ligaments and tendons that stabilize the joint.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder, forced external rotation",
+        "distractors": {
+          "plausible": [
+            "Elbow levered into hyperextension",
+            "Wrist twisted against the joint"
+          ],
+          "trap": [
+            "Rip it before the elbow is pinned"
+          ]
+        }
       },
       {
         "question": "How does Modified Mount's posted leg specifically enhance the Americana finish compared to standard mount?",
         "answer": "The posted leg creates a lateral stability anchor that absorbs explosive bridge-and-roll attempts during the critical finishing phase when both hands are committed to the figure-four grip. In standard mount, bridging during the Americana can reverse the position because both knees are down and the attacker's base is narrow. The posted foot acts as a structural buttress that prevents rolling momentum, allowing the attacker to commit fully to the rotational pressure without needing to interrupt the finish to maintain balance. Additionally, leaning toward the posted leg during the arc adds body weight to the rotational force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Blocks bridge, adds body weight",
+        "distractors": {
+          "plausible": [
+            "Pins the opponent's far hip",
+            "Traps the far arm as well"
+          ],
+          "trap": [
+            "Both feet up, get bridged and rolled"
+          ]
+        }
       },
       {
         "question": "Your opponent begins straightening their trapped arm during your figure-four establishment - what immediate adjustment do you make?",
         "answer": "Immediately abandon the Americana and transition to a straight armbar by swinging your posted leg over their head. The arm extension that defends the Americana perfectly sets up the armbar, as the straightened arm is the exact configuration needed for armbar entry from Modified Mount. This is the core dilemma of the Americana-armbar combination: defending one submission directly exposes the other. If they bend the arm again to defend the armbar, immediately return to the Americana. This cycling between attacks is what ultimately forces the tap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Swing leg over head for armbar",
+        "distractors": {
+          "plausible": [
+            "Force the wrist back to the mat",
+            "Squeeze elbows tighter and hold"
+          ],
+          "trap": [
+            "Chase the arm, get bumped to guard"
+          ]
+        }
       },
       {
         "question": "What are the indicators that you have reached the point of no escape when finishing the Americana from Modified Mount?",
         "answer": "The point of no escape occurs when three conditions are simultaneously met: the figure-four grip is fully connected with elbows squeezed tight, the opponent's elbow is pinned firmly to the mat with no upward or lateral movement possible, and the wrist has traveled past the midpoint of the arc toward their hip. Once the wrist passes the midpoint, the opponent cannot generate enough strength to reverse the rotational direction because the lever mechanics favor the attacker exponentially. At this point, the only safe response is tapping. Recognizing this point matters for safety - the submission is essentially locked in and any additional force risks injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elbow pinned, wrist past midpoint",
+        "distractors": {
+          "plausible": [
+            "Figure-four grip fully connected",
+            "Opponent stops bridging"
+          ],
+          "trap": [
+            "Both hands on arm, weight lifts up"
+          ]
+        }
       },
       {
         "question": "What is the correct application speed for the Americana and why is it considered a slow submission?",
         "answer": "The Americana should be applied over 3-5 seconds minimum from initial rotational pressure to expected tap. In drilling, apply only 10-20% pressure maximum. It is classified as a slow submission because the shoulder joint has a relatively large range of motion before reaching its structural limit, meaning there is a significant window between initial discomfort and actual injury. This makes the Americana safer than sudden-onset submissions like heel hooks, but only when applied progressively. Jerking or spiking the rotation can cause immediate rotator cuff tears or glenohumeral dislocation before the opponent can process pain and signal a tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "3-5 seconds, progressive pressure",
+        "distractors": {
+          "plausible": [
+            "Slow because the elbow is weak",
+            "Only drilling needs slow pace"
+          ],
+          "trap": [
+            "Snap it fast before they defend"
+          ]
+        }
       },
       {
         "question": "How should you release the Americana after your partner taps, and what is the correct sequence?",
         "answer": "Immediately stop all rotational pressure the instant you perceive a tap signal. Then release the figure-four grip by letting go of your own wrist. Carefully lower the opponent's arm back to a neutral position beside their body - never drop it suddenly as the shoulder may be compromised. Release control of the elbow and allow your partner to move freely. Verbally check that they are okay. If they report any pain, encourage gentle shoulder mobility and suggest medical attention if pain persists. The key principle is that release begins with stopping rotation, not with releasing grips first.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop rotation first, then release",
+        "distractors": {
+          "plausible": [
+            "Release grip before easing torque",
+            "Let go and roll away at once"
+          ],
+          "trap": [
+            "Hold pressure until they speak"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own belt with the trapped hand to anchor their arm - how do you break this defensive grip?",
         "answer": "Use the mechanical advantage of your figure-four structure against their single-hand grip. First, try peeling the grip by using two-on-one wrist leverage, pulling their hand away from the anchor point while your figure-four provides the structural frame. If the grip is strong, apply cross-face pressure with your head or shoulder to create enough discomfort that they must choose between defending the cross-face and maintaining the clothing grip. A third option is to maintain the figure-four position and wait, applying light progressive pressure - grip fatigue will eventually force them to release their anchor, at which point you immediately resume the wrist arc.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cross-face, then peel grip",
+        "distractors": {
+          "plausible": [
+            "Yank the wrist straight out",
+            "Torque the figure-four harder"
+          ],
+          "trap": [
+            "Sit up to pry, losing your base"
+          ]
+        }
       },
       {
         "question": "In competition, what finishing adjustments maximize the Americana success rate from Modified Mount?",
         "answer": "In competition, tighten the figure-four grip by pulling your elbows closer together before beginning the arc, eliminating any slack that opponents exploit under adrenaline. Lean your body weight toward the posted leg during the finish to add gravitational force to the rotation. Keep your head low and pressed against their far-side shoulder to prevent them from turning into you. Apply the arc slightly faster than in training but still progressively - competition speed is about 2-3 seconds. If the opponent is grip-fighting effectively, fake the Americana entry to draw out defensive arm movement, then immediately switch to the armbar or collar choke that their defense exposes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tighten grip, lean into post",
+        "distractors": {
+          "plausible": [
+            "Widen elbows for more torque",
+            "Sit upright for extra leverage"
+          ],
+          "trap": [
+            "Rip the arc fast under adrenaline"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "uPazS4MJiDc",
+        "title": "How To Perform An Americana From Top Mount",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Tgj7ZVWheog",
+        "title": "Americana from Mount",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 21,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SkFE9CBKvsA",
+        "title": "Modified Americana Grip",
+        "by": "BJJ After Forty",
+        "vertical": false,
+        "channel": "BJJ After Forty",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -405,22 +526,62 @@
       {
         "question": "What are the earliest recognition cues that an Americana is being set up from Modified Mount?",
         "answer": "The earliest cue is the opponent gripping your near-side wrist with their same-side hand and beginning to press it toward the mat. Even before the grip, watch for the opponent shifting their weight forward from the posted leg and reaching toward your arm, which signals commitment to the upper body attack. The tactile cue of someone threading their hand under your upper arm at the triceps level confirms the figure-four is being established. Defending at the wrist-capture stage is far more effective than waiting for the full figure-four.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist grabbed, pressed toward mat",
+        "distractors": {
+          "plausible": [
+            "Full figure-four already locked",
+            "They square hips and stay still"
+          ],
+          "trap": [
+            "Ignore until shoulder pain starts"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Americana from Modified Mount, and what tap signals should you use?",
         "answer": "Tap as soon as you feel genuine rotational pressure on your shoulder that you cannot reverse or escape. Do not wait for pain to become severe - shoulder damage from the Americana can occur rapidly once the rotational angle exceeds your joint's tolerance. Use clear tap signals: tap the opponent or mat at least twice with your free hand, verbally say 'tap' loudly, or tap with your foot on the mat. If your free hand is trapped, use verbal or foot signals immediately. In training, there is zero benefit to enduring shoulder pressure beyond your comfortable range of motion.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, verbal or foot signal",
+        "distractors": {
+          "plausible": [
+            "Wait until the pain gets sharp",
+            "One quiet tap on the mat"
+          ],
+          "trap": [
+            "Ride it out to build tolerance"
+          ]
+        }
       },
       {
         "question": "Why is defending the Americana from Modified Mount harder than from standard mount?",
         "answer": "Modified Mount's posted leg gives the attacker a stability base that neutralizes the primary Americana defense - bridging and rolling during the application phase. In standard mount, a well-timed bridge while the attacker's hands are occupied with the figure-four can create a reversal. But the posted leg absorbs bridge momentum like a structural buttress, meaning the defender cannot use explosive positional escapes to interrupt the submission. This forces the defender to rely on grip prevention and arm recovery rather than the bridge-and-roll defense that works from standard mount.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posted leg kills the bridge escape",
+        "distractors": {
+          "plausible": [
+            "Both of your arms get trapped",
+            "The mat blocks your shoulder turn"
+          ],
+          "trap": [
+            "Bridge harder to force a roll"
+          ]
+        }
       },
       {
         "question": "What defensive options remain available once the figure-four grip is fully locked and the elbow is pinned?",
         "answer": "Options are limited but not zero. First, attempt to straighten the arm by driving your hand toward the ceiling using your entire arm's strength - this fights the figure-four structure at its weakest point. Second, turn your entire body aggressively toward the attacker to close the rotation angle, preventing the wrist from traveling toward your hip. Third, attempt to get your elbow off the mat by bridging and shrimping simultaneously to disrupt the fulcrum. If none of these work within the first few seconds, tap immediately rather than allowing continued rotational pressure that risks shoulder injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Straighten arm, turn in, then tap",
+        "distractors": {
+          "plausible": [
+            "Grab your own belt and hold on",
+            "Push their head with free hand"
+          ],
+          "trap": [
+            "Refuse to tap, ride out the crank"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -438,6 +599,26 @@
         "phase": "Live Situational Defense",
         "focus": "Defending the Americana in realistic rolling conditions",
         "description": "Start in Modified Mount with full live resistance. Bottom player focuses on preventing the Americana while working general Modified Mount escapes. Top player has full submission intent. 3-minute rounds with reset to Modified Mount. Track how many Americanas are prevented versus escaped versus tapped to, and identify which stage of the defense is breaking down."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending The Americana",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "NZjUCo8os8Q",
+        "title": "Simple Americana Armlock Escape",
+        "by": "Eddie Kone",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -21,7 +21,7 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 43% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,19 +39,19 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Turtle",
-      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Double Unders",
-      "text": "From this position, attempt Guard Recovery from Double Unders. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Double Unders. This technique is attempted in 21% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Unders (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roll Under to Backside 50/50 Counter",
+      "description": "Double Unders (Bottom) film study: Roll Under to Backside 50/50 Counter, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Ways to Counter the Double Under Pass",
+      "description": "Double Unders (Bottom) film study: 3 Ways to Counter the Double Under Pass, taught by Dubious Dom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vXSyHH514Gs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vXSyHH514Gs",
+      "url": "https://www.youtube.com/watch?v=vXSyHH514Gs",
+      "creator": { "@type": "Person", "name": "Dubious Dom" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending Double Under to Back Control",
+      "description": "Double Unders (Bottom) film study: Defending Double Under to Back Control, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k-78AJwPYig/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k-78AJwPYig",
+      "url": "https://www.youtube.com/watch?v=k-78AJwPYig",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
 Double Unders Bottom Position occurs when an opponent has established underhooks on both sides while attempting to pass your guard, creating significant pressure and control. This is a critical defensive position commonly encountered during pressure passing sequences, particularly from half guard or when defending knee slice attacks. The bottom player faces immense forward pressure as the top player drives their weight through the underhooks, collapsing posture and threatening to flatten the defender completely onto their back. This position represents a transitional crisis state in the guard passing hierarchy where the top player has gained significant control but hasn't yet achieved side control. The bottom practitioner must act quickly and decisively to recover frames, create space, and either re-establish guard or accept the pass to a more stable defensive position like deep half guard or turtle. Understanding defensive framing mechanics, hip movement patterns, and strategic position acceptance is crucial for survival. While extremely challenging, this position offers opportunities to transition to deep half guard, recover butterfly hooks, or execute granby rolls when timed correctly with the opponent's forward pressure momentum.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Unders (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll Under to Backside 50/50 Counter</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vXSyHH514Gs)
+
+<p class="clip-credit"><strong>3 Ways to Counter the Double Under Pass</strong> — taught by Dubious Dom · 1:55 · <a href="https://www.youtube.com/watch?v=vXSyHH514Gs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k-78AJwPYig)
+
+<p class="clip-credit"><strong>Defending Double Under to Back Control</strong> — taught by Academy Jiu Jitsu · 1:04 · <a href="https://www.youtube.com/watch?v=k-78AJwPYig" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

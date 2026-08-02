@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Squid Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Sitting at the heart of the modern lapel-guard movement, the Squid Guard Sweep is the position's primary point-scoring weapon and the engine that powers its broader attacking system. The sweep combines the mechanical advantage of the lapel wrap around the opponent's leg with the threading hook behind their knee, creating a compound off-balancing force that simultaneously attacks the opponent's lateral and posterior base. Standard posting reactions become insufficient because the lapel restriction limits the top player's ability to widen their base or step back, while the hook elevation removes their ability to drive forward.\n\nThe sweep's effectiveness depends on precise coordination between the lapel pull, hook extension, and hip rotation. The bottom player loads the opponent's weight forward and laterally onto the threading leg side, then uses a sharp hip rotation combined with lapel tension to collapse the opponent's base in the direction where they have the least support. Timing is paramount — the sweep works best when the opponent commits their weight forward to attempt a pass or reaches with their hands to strip grips, temporarily compromising their base stability and creating the window for execution.\n\nWithin the Squid Guard offensive framework, the sweep creates a foundational dilemma that amplifies all other attacks. When the opponent widens their base to resist the sweep, they expose themselves to inversions, back takes, and berimbolo entries. When they tighten their base and lower their center of gravity to prevent these attacks, the sweep itself becomes available. This complementary relationship between sweeps and back takes makes the Squid Guard Sweep most effective when integrated into the complete attacking system rather than used in isolation.",
   "conditions": [
     "Established Squid Guard with lapel wrapped around opponent's leg creating restrictive tension",
@@ -242,38 +254,147 @@
     "flashcards": [
       {
         "question": "What is the most critical grip that must be maintained throughout the entire Squid Guard Sweep?",
-        "answer": "The lapel grip wrapped around the opponent's leg is the most critical grip and must be maintained throughout the entire sweep arc and transition to top position. This grip serves dual purposes: it restricts the opponent's ability to post or widen their base during the sweep, and it provides the pulling tension that combines with the hook extension to create the compound off-balancing force. Releasing the lapel prematurely — even after the opponent begins falling — allows them to insert a knee, hip escape, or recover guard during the transition."
+        "answer": "The lapel grip wrapped around the opponent's leg is the most critical grip and must be maintained throughout the entire sweep arc and transition to top position. This grip serves dual purposes: it restricts the opponent's ability to post or widen their base during the sweep, and it provides the pulling tension that combines with the hook extension to create the compound off-balancing force. Releasing the lapel prematurely — even after the opponent begins falling — allows them to insert a knee, hip escape, or recover guard during the transition.",
+        "answer_line": "Lapel wrap around the leg",
+        "distractors": {
+          "plausible": [
+            "Sleeve grip on far arm",
+            "Collar grip control"
+          ],
+          "trap": [
+            "Underhook on the far side"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base and lowers their hips when they feel your sweep setup — how do you adjust your attack?",
-        "answer": "Switch your attack target from the sweep to a back take via inversion or berimbolo entry. Their wide base and lowered hips — while effective against the lateral sweep — creates exactly the exposure needed for you to invert underneath them and access their back. The defensive posture that defeats the sweep opens the back take, and the defensive posture that protects the back opens the sweep. This dilemma is the foundation of the Squid Guard system."
+        "answer": "Switch your attack target from the sweep to a back take via inversion or berimbolo entry. Their wide base and lowered hips — while effective against the lateral sweep — creates exactly the exposure needed for you to invert underneath them and access their back. The defensive posture that defeats the sweep opens the back take, and the defensive posture that protects the back opens the sweep. This dilemma is the foundation of the Squid Guard system.",
+        "answer_line": "Invert to attack the back",
+        "distractors": {
+          "plausible": [
+            "Force the sweep harder",
+            "Switch to a leg lock"
+          ],
+          "trap": [
+            "Release grips and reset"
+          ]
+        }
       },
       {
         "question": "What hip angle maximizes the mechanical advantage of the Squid Guard Sweep?",
-        "answer": "A 45-degree angle relative to the opponent's centerline provides optimal mechanical advantage for the sweep rotation. This angle is achieved through a deliberate hip escape before initiating the sweep and positions the threading hook to generate maximum lateral displacement force. Staying square to the opponent (0 degrees) eliminates the rotational leverage needed for the sweep, while excessive angle (beyond 60 degrees) reduces the lapel tension's contribution to off-balancing."
+        "answer": "A 45-degree angle relative to the opponent's centerline provides optimal mechanical advantage for the sweep rotation. This angle is achieved through a deliberate hip escape before initiating the sweep and positions the threading hook to generate maximum lateral displacement force. Staying square to the opponent (0 degrees) eliminates the rotational leverage needed for the sweep, while excessive angle (beyond 60 degrees) reduces the lapel tension's contribution to off-balancing.",
+        "answer_line": "45 degrees off centerline",
+        "distractors": {
+          "plausible": [
+            "90 degrees, fully perpendicular",
+            "Square at 0 degrees"
+          ],
+          "trap": [
+            "Over 60 degrees, deep angle"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your sleeve grip and begins posting their free hand to resist the sweep — what immediate adjustment do you make?",
-        "answer": "Target the posting arm with your now-free hand by controlling the wrist or elbow to remove the post. If you can strip their post even momentarily, the already-loaded sweep completes immediately since their base collapses without the post. If stripping the post fails, redirect your attack to the posting arm itself — the extended arm is vulnerable to armbar, omoplata, or triangle entries that force them to retract it, reopening the sweep opportunity."
+        "answer": "Target the posting arm with your now-free hand by controlling the wrist or elbow to remove the post. If you can strip their post even momentarily, the already-loaded sweep completes immediately since their base collapses without the post. If stripping the post fails, redirect your attack to the posting arm itself — the extended arm is vulnerable to armbar, omoplata, or triangle entries that force them to retract it, reopening the sweep opportunity.",
+        "answer_line": "Attack the posting arm",
+        "distractors": {
+          "plausible": [
+            "Re-grip the stripped sleeve",
+            "Switch sides and restart"
+          ],
+          "trap": [
+            "Push through and force sweep"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the Squid Guard Sweep?",
-        "answer": "The optimal window occurs when the opponent commits their weight forward, either during a passing attempt, when reaching to strip your lapel grip, or when posturing to address your hook. These moments shift their center of gravity beyond their base in the direction you want to sweep. The second-best window is during grip transitions, when they release one grip to establish another, temporarily reducing their control and ability to react to the sweep initiation."
+        "answer": "The optimal window occurs when the opponent commits their weight forward, either during a passing attempt, when reaching to strip your lapel grip, or when posturing to address your hook. These moments shift their center of gravity beyond their base in the direction you want to sweep. The second-best window is during grip transitions, when they release one grip to establish another, temporarily reducing their control and ability to react to the sweep initiation.",
+        "answer_line": "Weight committed forward",
+        "distractors": {
+          "plausible": [
+            "During grip transitions",
+            "When they posture upright"
+          ],
+          "trap": [
+            "While they retreat and reset"
+          ]
+        }
       },
       {
         "question": "What direction of force does the threading leg apply during the sweep execution?",
-        "answer": "The threading leg applies force in two simultaneous directions: upward (elevating the opponent's far leg to remove their base on that side) and laterally away from the sweep direction (extending to create maximum lever arm for the rotation). This compound force vector works in coordination with the lapel pull, which draws the opponent's upper body in the opposite lateral direction. The result is a rotational force couple that spins the opponent over the axis created by these opposing forces."
+        "answer": "The threading leg applies force in two simultaneous directions: upward (elevating the opponent's far leg to remove their base on that side) and laterally away from the sweep direction (extending to create maximum lever arm for the rotation). This compound force vector works in coordination with the lapel pull, which draws the opponent's upper body in the opposite lateral direction. The result is a rotational force couple that spins the opponent over the axis created by these opposing forces.",
+        "answer_line": "Up and laterally away",
+        "distractors": {
+          "plausible": [
+            "Straight down and inward",
+            "Forward push toward opponent"
+          ],
+          "trap": [
+            "Pull leg tight to your chest"
+          ]
+        }
       },
       {
         "question": "The sweep fails and your opponent begins stepping around your guard to pass — what chain attack should you pursue?",
-        "answer": "If they step around toward your head side, follow with an inversion to recover hook placement or transition to Reverse De La Riva to maintain guard retention from the new angle. If they step toward your legs, use the still-active lapel tension to pull them back into sweep range or transition to Lasso Guard by redirecting the lapel wrap to their arm. The key principle is maintaining at least one control point during the failed sweep to prevent a clean pass — any remaining grip or hook gives you a foundation to rebuild your guard or launch a counter-attack."
+        "answer": "If they step around toward your head side, follow with an inversion to recover hook placement or transition to Reverse De La Riva to maintain guard retention from the new angle. If they step toward your legs, use the still-active lapel tension to pull them back into sweep range or transition to Lasso Guard by redirecting the lapel wrap to their arm. The key principle is maintaining at least one control point during the failed sweep to prevent a clean pass — any remaining grip or hook gives you a foundation to rebuild your guard or launch a counter-attack.",
+        "answer_line": "Keep a control point, chain up",
+        "distractors": {
+          "plausible": [
+            "Release grips, rebuild guard",
+            "Turtle up and defend"
+          ],
+          "trap": [
+            "Let go and scramble to feet"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between attempting the sweep and setting up a back take from the same Squid Guard configuration?",
-        "answer": "The initial setup is identical — same grips, same hook, same angle. The decision point comes from reading the opponent's defensive choice. If they keep a narrow base with weight centered, sweep laterally since they lack the wide base to resist. If they widen their base and drop their hips, invert for the back take since the wide stance creates space underneath them. This shared setup is what makes the dilemma effective — the opponent cannot determine your intended attack until you commit, and their defensive choice against one attack opens the other."
+        "answer": "The initial setup is identical — same grips, same hook, same angle. The decision point comes from reading the opponent's defensive choice. If they keep a narrow base with weight centered, sweep laterally since they lack the wide base to resist. If they widen their base and drop their hips, invert for the back take since the wide stance creates space underneath them. This shared setup is what makes the dilemma effective — the opponent cannot determine your intended attack until you commit, and their defensive choice against one attack opens the other.",
+        "answer_line": "Read narrow vs wide base",
+        "distractors": {
+          "plausible": [
+            "Feel for grip pressure change",
+            "Watch opponent's eye direction"
+          ],
+          "trap": [
+            "Always commit to the sweep"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Squid Guard Sweep involves significant rotational forces on both practitioners' knee and ankle joints. The threading leg must maintain proper alignment throughout the sweep to avoid knee torque injuries from twisting under load. When drilling, execute the sweep with controlled rotation rather than explosive jerking motions that can strain the bottom player's hip flexors or the top player's knees during the fall. Partners should communicate about lapel tightness to prevent circulation restriction in the wrapped leg. The falling partner should practice breakfalls to absorb the sweep impact safely, and both practitioners should tap immediately if any joint discomfort occurs during the sweep rotation."
+    "safety_considerations": "The Squid Guard Sweep involves significant rotational forces on both practitioners' knee and ankle joints. The threading leg must maintain proper alignment throughout the sweep to avoid knee torque injuries from twisting under load. When drilling, execute the sweep with controlled rotation rather than explosive jerking motions that can strain the bottom player's hip flexors or the top player's knees during the fall. Partners should communicate about lapel tightness to prevent circulation restriction in the wrapped leg. The falling partner should practice breakfalls to absorb the sweep impact safely, and both practitioners should tap immediately if any joint discomfort occurs during the sweep rotation.",
+    "clips": [
+      {
+        "id": "mIUc5788gsw",
+        "title": "Squid guard entry vs standing then sweep",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MrhKi486Wr4",
+        "title": "Squid guard to switch X guard sweep",
+        "by": "BJJ Online",
+        "vertical": false,
+        "channel": "BJJ ONLINE",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "A_W-xOWwNaM",
+        "title": "Squid guard variations and sweeps",
+        "by": "PTC Combat Fitness",
+        "vertical": false,
+        "channel": "PTC Combat Fitness",
+        "duration": 149,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Squid Guard Sweep Defender",
@@ -359,23 +480,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Squid Guard Sweep is being set up?",
-        "answer": "The earliest cue is the bottom player hip escaping to create a lateral angle while maintaining or increasing lapel tension. This angle creation is the final prerequisite before the sweep — it positions the threading hook for maximum lateral force and creates the rotational axis for the sweep. Recognizing this hip escape gives you the maximum response window to backstep, strip the lapel, or adjust your base before the weight-loading phase begins."
+        "answer": "The earliest cue is the bottom player hip escaping to create a lateral angle while maintaining or increasing lapel tension. This angle creation is the final prerequisite before the sweep — it positions the threading hook for maximum lateral force and creates the rotational axis for the sweep. Recognizing this hip escape gives you the maximum response window to backstep, strip the lapel, or adjust your base before the weight-loading phase begins.",
+        "answer_line": "Hip escape to lateral angle",
+        "distractors": {
+          "plausible": [
+            "Lapel grip first established",
+            "Threading hook first inserted"
+          ],
+          "trap": [
+            "Opponent posturing upright"
+          ]
+        }
       },
       {
         "question": "Your opponent begins loading your weight forward with lapel tension — what immediate base adjustment prevents the sweep?",
-        "answer": "Shift your hips backward and drop your center of gravity by bending your knees while maintaining upright spinal posture. This counters the forward pull by moving your center of gravity behind your base rather than in front of it. Simultaneously, widen your base laterally on the side opposite the sweep direction to create a broader platform that resists the rotational force. Avoid leaning forward to compensate for the pull, as this accelerates the weight-loading that powers the sweep."
+        "answer": "Shift your hips backward and drop your center of gravity by bending your knees while maintaining upright spinal posture. This counters the forward pull by moving your center of gravity behind your base rather than in front of it. Simultaneously, widen your base laterally on the side opposite the sweep direction to create a broader platform that resists the rotational force. Avoid leaning forward to compensate for the pull, as this accelerates the weight-loading that powers the sweep.",
+        "answer_line": "Hips back, drop and widen base",
+        "distractors": {
+          "plausible": [
+            "Stay tall, brace with arms",
+            "Widen base but lean forward"
+          ],
+          "trap": [
+            "Lean forward to fight the pull"
+          ]
+        }
       },
       {
         "question": "How do you differentiate between a Squid Guard Sweep setup and a back take setup when the initial configuration looks identical?",
-        "answer": "Watch the bottom player's hip angle and non-threading leg position. For the sweep, they hip escape to create a lateral angle with the non-threading leg driving across your body. For the back take, they begin inverting underneath you with the non-threading leg swinging behind your hip line. The critical moment of differentiation is the hip movement direction — lateral for sweep, rotational underneath for inversion. Your defensive response must match: widen base for sweep defense, sprawl and pressure for inversion defense."
+        "answer": "Watch the bottom player's hip angle and non-threading leg position. For the sweep, they hip escape to create a lateral angle with the non-threading leg driving across your body. For the back take, they begin inverting underneath you with the non-threading leg swinging behind your hip line. The critical moment of differentiation is the hip movement direction — lateral for sweep, rotational underneath for inversion. Your defensive response must match: widen base for sweep defense, sprawl and pressure for inversion defense.",
+        "answer_line": "Hip escape lateral vs rotational",
+        "distractors": {
+          "plausible": [
+            "Watch grip tightness change",
+            "Watch head position only"
+          ],
+          "trap": [
+            "Ignore it, defend the same way"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize stripping to shut down the sweep threat from Squid Guard?",
-        "answer": "The lapel wrap around your leg is the highest-priority grip to strip. Without the lapel restriction, the Squid Guard degenerates into standard De La Riva where the threading hook alone generates insufficient off-balancing force for a reliable sweep. The lapel wrap multiplies the hook's effectiveness by restricting your posting and base recovery options. Strip it using a two-handed unwrapping sequence when possible, accepting temporary vulnerability to upper body attacks in exchange for eliminating the sweep's primary mechanism."
+        "answer": "The lapel wrap around your leg is the highest-priority grip to strip. Without the lapel restriction, the Squid Guard degenerates into standard De La Riva where the threading hook alone generates insufficient off-balancing force for a reliable sweep. The lapel wrap multiplies the hook's effectiveness by restricting your posting and base recovery options. Strip it using a two-handed unwrapping sequence when possible, accepting temporary vulnerability to upper body attacks in exchange for eliminating the sweep's primary mechanism.",
+        "answer_line": "Strip the lapel leg wrap",
+        "distractors": {
+          "plausible": [
+            "Strip the sleeve grip",
+            "Strip the collar tie"
+          ],
+          "trap": [
+            "Strip the far underhook"
+          ]
+        }
       },
       {
         "question": "The sweep has already begun and you are mid-rotation — what recovery action minimizes positional loss?",
-        "answer": "Post your free hand wide on the mat in the direction you are being swept and drive your weight over the posting arm while simultaneously pulling your near knee toward your chest to insert a knee shield. If you cannot stop the rotation entirely, the goal shifts to damage control — recover to half guard rather than conceding full mount. This requires accepting the partial positional loss while preventing the worst outcome. Frame immediately upon landing to prevent the sweeper from consolidating mount."
+        "answer": "Post your free hand wide on the mat in the direction you are being swept and drive your weight over the posting arm while simultaneously pulling your near knee toward your chest to insert a knee shield. If you cannot stop the rotation entirely, the goal shifts to damage control — recover to half guard rather than conceding full mount. This requires accepting the partial positional loss while preventing the worst outcome. Frame immediately upon landing to prevent the sweeper from consolidating mount.",
+        "answer_line": "Post hand wide, insert knee shield",
+        "distractors": {
+          "plausible": [
+            "Fight the rotation, stay square",
+            "Grab their leg to stop the roll"
+          ],
+          "trap": [
+            "Turn and give up your back"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -393,6 +564,35 @@
         "phase": "Phase 3: Live Defense",
         "focus": "Full resistance sweep defense with competitive pressure",
         "description": "Positional sparring starting from established Squid Guard with full resistance from both players. Defender scores points for successful sweep prevention, lapel stripping, and guard passing. Attacker scores for completed sweeps and back takes. 3-minute rounds alternating roles with partner feedback between rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rvbYLboVzZM",
+        "title": "Countering the lapel guard with a pass",
+        "by": "Tarik BJJ",
+        "vertical": false,
+        "channel": "Tarik BJJ",
+        "duration": 289,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q3OCqC9WZA8",
+        "title": "Squid guard sweep defense",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 262,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nPT4tqORpOA",
+        "title": "How to pass the lapel squid guard",
+        "by": "Nick Salles and Danny Maira",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 672,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -20,33 +20,27 @@ description: "Master bottom gogoplata control mechanics including shin positioni
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Gogoplata",
-      "text": "From this position, attempt Gogoplata. This technique is attempted in 35% of exchanges from this position.",
+      "name": "Execute Gogoplata from Gogoplata Control",
+      "text": "From this position, attempt Gogoplata from Gogoplata Control. This technique is attempted in 43% of exchanges from this position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Switch to Triangle",
-      "text": "From this position, attempt Switch to Triangle. This technique is attempted in 22% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 18% of exchanges from this position.",
-      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
       "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 17% of exchanges from this position.",
-      "position": 4
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mission Control Recovery",
-      "text": "From this position, attempt Mission Control Recovery. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Mission Control Recovery. This technique is attempted in 19% of exchanges from this position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute High Mount Transition",
+      "text": "From this position, attempt High Mount Transition. This technique is attempted in 21% of exchanges from this position.",
+      "position": 4
     }
   ],
   "totalTime": "PT2M"
@@ -147,6 +141,43 @@ description: "Master bottom gogoplata control mechanics including shin positioni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gogoplata Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gogoplata from guard",
+      "description": "Gogoplata Control (Bottom) film study: Gogoplata from guard, taught by Kinesiology College.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4Opp0j7UmlU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4Opp0j7UmlU",
+      "url": "https://www.youtube.com/watch?v=4Opp0j7UmlU",
+      "creator": { "@type": "Person", "name": "Kinesiology College" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gogo clinch submission (10th Planet)",
+      "description": "Gogoplata Control (Bottom) film study: Gogo clinch submission (10th Planet), taught by Jeremiah Vance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uOW0otO9MPI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uOW0otO9MPI",
+      "url": "https://www.youtube.com/watch?v=uOW0otO9MPI",
+      "creator": { "@type": "Person", "name": "Jeremiah Vance" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +197,34 @@ Defensively, the bottom player faces minimal threats while maintaining proper po
 Strategically, bottom gogoplata control functions as a high-risk, high-reward position. The entry requirements (flexibility, specific positional prerequisites, technical precision) make it lower percentage than more conventional attacks. However, once established, the position provides exceptional control with immediate finishing potential. This makes it ideal for practitioners with the physical attributes to execute it consistently but less valuable for those lacking requisite flexibility.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gogoplata Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4Opp0j7UmlU)
+
+<p class="clip-credit"><strong>Gogoplata from guard</strong> — taught by Kinesiology College · 0:21 · <a href="https://www.youtube.com/watch?v=4Opp0j7UmlU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uOW0otO9MPI)
+
+<p class="clip-credit"><strong>Gogo clinch submission (10th Planet)</strong> — taught by Jeremiah Vance · 0:57 · <a href="https://www.youtube.com/watch?v=uOW0otO9MPI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

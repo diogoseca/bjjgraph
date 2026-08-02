@@ -21,31 +21,31 @@ description: "Escape the mounted crucifix position in BJJ. Comprehensive guide c
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape from Mounted Crucifix",
-      "text": "From this position, attempt Hip Escape from Mounted Crucifix. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape from Mounted Crucifix. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
@@ -153,6 +153,54 @@ description: "Escape the mounted crucifix position in BJJ. Comprehensive guide c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Crucifix (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the crucifix",
+      "description": "Mounted Crucifix (Bottom) film study: Escaping the crucifix, taught by Mick Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wt2NW_hfTd0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wt2NW_hfTd0",
+      "url": "https://www.youtube.com/watch?v=Wt2NW_hfTd0",
+      "creator": { "@type": "Person", "name": "Mick Hall" },
+      "duration": "PT228S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chaining Escapes From Bottom Pin",
+      "description": "Mounted Crucifix (Bottom) film study: Chaining Escapes From Bottom Pin, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PARsvWFmssI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PARsvWFmssI",
+      "url": "https://www.youtube.com/watch?v=PARsvWFmssI",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT273S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The Hawking Defensive Structure",
+      "description": "Mounted Crucifix (Bottom) film study: The Hawking Defensive Structure, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QpryBex1AXA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QpryBex1AXA",
+      "url": "https://www.youtube.com/watch?v=QpryBex1AXA",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT322S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -172,6 +220,42 @@ Energy management in mounted crucifix bottom requires careful consideration. Exp
 Ultimately, the best defense against mounted crucifix bottom is prevention. Understanding the common entry sequences from standard mount positions, maintaining proper defensive posture with arms protected, and avoiding the arm exposure that enables crucifix transitions reduces the likelihood of entering this dangerous position. When prevention fails, systematic escape techniques and strong defensive fundamentals provide the pathway back to more favorable positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Crucifix (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wt2NW_hfTd0)
+
+<p class="clip-credit"><strong>Escaping the crucifix</strong> — taught by Mick Hall · 3:48 · <a href="https://www.youtube.com/watch?v=Wt2NW_hfTd0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PARsvWFmssI)
+
+<p class="clip-credit"><strong>Chaining Escapes From Bottom Pin</strong> — taught by Gordon Ryan · 4:33 · <a href="https://www.youtube.com/watch?v=PARsvWFmssI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QpryBex1AXA)
+
+<p class="clip-credit"><strong>The Hawking Defensive Structure</strong> — taught by Priit Mihkelson · 5:22 · <a href="https://www.youtube.com/watch?v=QpryBex1AXA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

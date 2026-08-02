@@ -34,6 +34,54 @@ description: "Master the Short Choke in BJJ. Devastating lapel strangle from top
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short Choke from Back Position",
+      "description": "Short Choke film study: Short Choke from Back Position, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
+      "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shirt Choke From Back Mount",
+      "description": "Short Choke film study: Shirt Choke From Back Mount, taught by Defender Combatives.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E_M4Y0_hxsk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E_M4Y0_hxsk",
+      "url": "https://www.youtube.com/watch?v=E_M4Y0_hxsk",
+      "creator": { "@type": "Person", "name": "Defender Combatives" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Short Choke to Rear Naked Choke",
+      "description": "Short Choke film study: Short Choke to Rear Naked Choke, taught by Mako BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EJaBa7Q3qVI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EJaBa7Q3qVI",
+      "url": "https://www.youtube.com/watch?v=EJaBa7Q3qVI",
+      "creator": { "@type": "Person", "name": "Mako BJJ" },
+      "duration": "PT188S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,6 +134,42 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
+
+<p class="clip-credit"><strong>Short Choke from Back Position</strong> — taught by Cosens MMA · 0:55 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E_M4Y0_hxsk)
+
+<p class="clip-credit"><strong>Shirt Choke From Back Mount</strong> — taught by Defender Combatives · 0:14 · <a href="https://www.youtube.com/watch?v=E_M4Y0_hxsk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EJaBa7Q3qVI)
+
+<p class="clip-credit"><strong>Short Choke to Rear Naked Choke</strong> — taught by Mako BJJ · 3:08 · <a href="https://www.youtube.com/watch?v=EJaBa7Q3qVI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,11 +179,11 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Short Choke/from Back Control|Back Control]] | Top | 58% | [[Submissions/Short Choke/from Back Control/Attacker|Attack →]] | [[Submissions/Short Choke/from Back Control/Defender|Defend →]] |
-| [[Submissions/Short Choke/from Body Triangle|Body Triangle]] | Top | 58% | [[Submissions/Short Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Short Choke/from Body Triangle/Defender|Defend →]] |
-| [[Submissions/Short Choke/from Gift Wrap|Gift Wrap]] | Top | 58% | [[Submissions/Short Choke/from Gift Wrap/Attacker|Attack →]] | [[Submissions/Short Choke/from Gift Wrap/Defender|Defend →]] |
-| [[Submissions/Short Choke/from Harness|Harness]] | Top | 58% | [[Submissions/Short Choke/from Harness/Attacker|Attack →]] | [[Submissions/Short Choke/from Harness/Defender|Defend →]] |
-| [[Submissions/Short Choke/from Seat Belt Control Back|Seat Belt Control Back]] | Top | 58% | [[Submissions/Short Choke/from Seat Belt Control Back/Attacker|Attack →]] | [[Submissions/Short Choke/from Seat Belt Control Back/Defender|Defend →]] |
+| [[Submissions/Short Choke/from Back Control|Back Control]] | Top | 65% | [[Submissions/Short Choke/from Back Control/Attacker|Attack →]] | [[Submissions/Short Choke/from Back Control/Defender|Defend →]] |
+| [[Submissions/Short Choke/from Body Triangle|Body Triangle]] | Top | 65% | [[Submissions/Short Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Short Choke/from Body Triangle/Defender|Defend →]] |
+| [[Submissions/Short Choke/from Gift Wrap|Gift Wrap]] | Top | 65% | [[Submissions/Short Choke/from Gift Wrap/Attacker|Attack →]] | [[Submissions/Short Choke/from Gift Wrap/Defender|Defend →]] |
+| [[Submissions/Short Choke/from Harness|Harness]] | Top | 65% | [[Submissions/Short Choke/from Harness/Attacker|Attack →]] | [[Submissions/Short Choke/from Harness/Defender|Defend →]] |
+| [[Submissions/Short Choke/from Seat Belt Control Back|Seat Belt Control Back]] | Top | 65% | [[Submissions/Short Choke/from Seat Belt Control Back/Attacker|Attack →]] | [[Submissions/Short Choke/from Seat Belt Control Back/Defender|Defend →]] |
 | [[Submissions/Short Choke/from Cross Body|Cross Body Ride]] | Top | 50% | [[Submissions/Short Choke/from Cross Body/Attacker|Attack →]] | [[Submissions/Short Choke/from Cross Body/Defender|Defend →]] |
 
 
@@ -132,9 +216,9 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 - [[Submissions/Cross Collar Choke]] - Traditional collar choke sharing fundamental grip principles and carotid targeting
 - [[Submissions/Bow and Arrow Choke]] - Power lapel choke from back control using similar lapel threading mechanics
 - [[Submissions/Brabo Choke]] - Arm-in lapel choke with similar neck compression dynamics from side control
-- [[Transitions/Darce Choke]] - No-gi neck compression alternative sharing side control attacking position
+- [[Submissions/Darce Choke]] - No-gi neck compression alternative sharing side control attacking position
 - [[Transitions/Anaconda Choke]] - Head-arm choke from front headlock that chains when opponent defends Short Choke by turning
-- [[Transitions/Arm Triangle]] - Head-arm choke sharing side control setup and complementing Short Choke attack chain
+- [[Submissions/Arm Triangle]] - Head-arm choke sharing side control setup and complementing Short Choke attack chain
 - [[Submissions/Americana]] - Joint lock that creates Short Choke openings when opponent defends arm attacks
 - [[Positions/Side Control]] - Primary attacking position for Short Choke setup
 - [[Positions/North-South]] - Alternative top position for Short Choke variation with perpendicular alignment

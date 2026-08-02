@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Kesa Gatame/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Frame to Guard from Kesa Gatame is a methodical scarf-hold escape where the bottom player builds forearm frames against the opponent's jaw and shoulder to create space, then hip escapes and inserts a knee shield to recover open or half guard.",
   "overview": "The frame to guard escape from Kesa Gatame represents one of the most methodical and energy-efficient approaches to recovering guard from the scarf hold position. Unlike bridge-and-roll escapes that require explosive power or ghost escapes that target turtle position, this technique uses systematic frame construction against the top player's neck and shoulder to create incremental space for hip escape and knee insertion. The approach is rooted in the principle that structural resistance through bone-on-bone alignment outlasts and outperforms muscular pushing against a heavier opponent's chest pressure.\n\nThe technique addresses a fundamental challenge of Kesa Gatame bottom: the crushing chest pressure that makes large explosive movements difficult to execute. By establishing forearm frames against the opponent's jawline and shoulder, the bottom player creates skeletal barriers that resist the top player's weight through architectural alignment rather than muscular effort. This allows sustained pressure resistance while conserving energy for the critical hip escape phase. Once sufficient space exists between the torsos, the bottom player inserts a knee shield that permanently prevents re-establishment of chest pressure, transitioning the situation from pin escape into active guard recovery.\n\nStrategically, this escape works best when the top player commits weight forward onto the bottom player's chest or releases one control point to attempt a submission. The frame-to-guard pathway offers moderate success probability with relatively low risk of position deterioration compared to more aggressive escapes like the back take, making it an excellent foundational option. When executed properly, it transitions the bottom player from a defensive pin into an offensive guard position where they can immediately threaten sweeps and submissions, fundamentally changing the positional dynamic.",
   "variants_and_adaptations": [
@@ -240,38 +255,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for establishing your initial frame against the Kesa Gatame top player?",
-        "answer": "The best timing is when the top player adjusts their position, attempts a submission, or shifts weight to deepen control. Any moment where their pressure temporarily decreases or their attention diverts creates an opening for frame establishment. You can also create your own timing by bridging slightly to force a weight adjustment, then immediately establishing your frame during their recovery. Waiting passively for perfect timing wastes energy and allows them to consolidate further."
+        "answer": "The best timing is when the top player adjusts their position, attempts a submission, or shifts weight to deepen control. Any moment where their pressure temporarily decreases or their attention diverts creates an opening for frame establishment. You can also create your own timing by bridging slightly to force a weight adjustment, then immediately establishing your frame during their recovery. Waiting passively for perfect timing wastes energy and allows them to consolidate further.",
+        "answer_line": "Frame as they adjust or attack",
+        "distractors": {
+          "plausible": [
+            "Wait for a fully still moment",
+            "Frame right when pressure begins"
+          ],
+          "trap": [
+            "Wait until they consolidate"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can successfully begin the hip escape phase of this technique?",
-        "answer": "Your far arm must have a structural frame established against the opponent's jawline or neck that creates visible space between your torsos. Your near arm should be at least partially free or posted to assist hip movement. Your feet should be planted flat with knees bent to generate hip escape power. Without all three conditions present, hip escape attempts will be ineffective and waste energy that could be used for alternative escape attempts."
+        "answer": "Your far arm must have a structural frame established against the opponent's jawline or neck that creates visible space between your torsos. Your near arm should be at least partially free or posted to assist hip movement. Your feet should be planted flat with knees bent to generate hip escape power. Without all three conditions present, hip escape attempts will be ineffective and waste energy that could be used for alternative escape attempts.",
+        "answer_line": "Far frame, near arm free, feet set",
+        "distractors": {
+          "plausible": [
+            "Feet set is enough by itself",
+            "Near arm free, frame optional"
+          ],
+          "trap": [
+            "Escape before frame is set"
+          ]
+        }
       },
       {
         "question": "Why should your forearm frame target the opponent's jawline rather than their chest?",
-        "answer": "The jawline creates a mechanical advantage where moderate force generates significant displacement because you are pushing against a smaller, more sensitive area with greater lever advantage. Chest frames allow the opponent to drive through with bodyweight since the larger surface area distributes your force across their mass. Additionally, jaw frames create discomfort that motivates the opponent to adjust their position, creating secondary escape opportunities beyond the primary space creation."
+        "answer": "The jawline creates a mechanical advantage where moderate force generates significant displacement because you are pushing against a smaller, more sensitive area with greater lever advantage. Chest frames allow the opponent to drive through with bodyweight since the larger surface area distributes your force across their mass. Additionally, jaw frames create discomfort that motivates the opponent to adjust their position, creating secondary escape opportunities beyond the primary space creation.",
+        "answer_line": "Small target, big leverage",
+        "distractors": {
+          "plausible": [
+            "Chest frame, more surface push",
+            "Jaw hurts more, that's why"
+          ],
+          "trap": [
+            "Frame the chest for stability"
+          ]
+        }
       },
       {
         "question": "What happens when you attempt to push frames using muscular effort rather than skeletal alignment?",
-        "answer": "Muscular pushing exhausts your arms within 20-30 seconds under heavy Kesa Gatame pressure, collapsing your frames and leaving you in a worse energy state than before you started. Skeletal alignment uses bone structure to resist force passively, allowing indefinite frame maintenance without significant energy expenditure. The correction is to align your forearm perpendicular to the force direction with a straight wrist, using body positioning to generate pressure rather than arm muscles."
+        "answer": "Muscular pushing exhausts your arms within 20-30 seconds under heavy Kesa Gatame pressure, collapsing your frames and leaving you in a worse energy state than before you started. Skeletal alignment uses bone structure to resist force passively, allowing indefinite frame maintenance without significant energy expenditure. The correction is to align your forearm perpendicular to the force direction with a straight wrist, using body positioning to generate pressure rather than arm muscles.",
+        "answer_line": "Skeletal frame, not muscle",
+        "distractors": {
+          "plausible": [
+            "Flex arms hard against them",
+            "Bent wrist, brace with muscle"
+          ],
+          "trap": [
+            "Push with arm strength only"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward aggressively when you begin framing - how do you adjust your escape approach?",
-        "answer": "When the opponent drives forward aggressively, their weight shifts toward your head, which actually creates space at your hips. Accept the forward pressure on your frame while simultaneously executing a hip escape in the opposite direction, exploiting the space their forward drive creates at the hip line. If the forward drive overwhelms your frame entirely, redirect to a bridge-and-roll escape that converts their committed forward momentum into a reversal opportunity."
+        "answer": "When the opponent drives forward aggressively, their weight shifts toward your head, which actually creates space at your hips. Accept the forward pressure on your frame while simultaneously executing a hip escape in the opposite direction, exploiting the space their forward drive creates at the hip line. If the forward drive overwhelms your frame entirely, redirect to a bridge-and-roll escape that converts their committed forward momentum into a reversal opportunity.",
+        "answer_line": "Accept frame, escape hips away",
+        "distractors": {
+          "plausible": [
+            "Push back harder against drive",
+            "Retreat away from the pressure"
+          ],
+          "trap": [
+            "Abandon frame, pull away fully"
+          ]
+        }
       },
       {
         "question": "What should your near-side knee do the instant you create enough hip space?",
-        "answer": "Your knee must immediately thread between your body and the opponent's torso to establish a knee shield. The knee points toward their far shoulder with your shin crossing diagonally across their chest and your foot hooking behind their hip. This creates a permanent mechanical barrier that prevents re-establishment of chest pressure. Hesitating even briefly after creating space allows the opponent to close the distance and nullify all your frame work."
+        "answer": "Your knee must immediately thread between your body and the opponent's torso to establish a knee shield. The knee points toward their far shoulder with your shin crossing diagonally across their chest and your foot hooking behind their hip. This creates a permanent mechanical barrier that prevents re-establishment of chest pressure. Hesitating even briefly after creating space allows the opponent to close the distance and nullify all your frame work.",
+        "answer_line": "Thread knee shield instantly",
+        "distractors": {
+          "plausible": [
+            "Wait, then thread the knee",
+            "Push hips first, knee later"
+          ],
+          "trap": [
+            "Pause to reset grips first"
+          ]
+        }
       },
       {
         "question": "If your initial frame escape fails and the opponent maintains position, what is your immediate follow-up option?",
-        "answer": "If frames are collapsed, immediately transition to a bridge-and-roll attempt that capitalizes on the opponent's forward pressure used to defeat your frames. Alternatively, switch to a ghost escape by turning away from them rather than continuing to push. The critical principle is never repeating the same failed frame attempt in succession but chaining into a different escape pattern that exploits specifically how the opponent chose to counter your initial effort."
+        "answer": "If frames are collapsed, immediately transition to a bridge-and-roll attempt that capitalizes on the opponent's forward pressure used to defeat your frames. Alternatively, switch to a ghost escape by turning away from them rather than continuing to push. The critical principle is never repeating the same failed frame attempt in succession but chaining into a different escape pattern that exploits specifically how the opponent chose to counter your initial effort.",
+        "answer_line": "Chain to bridge-roll or ghost",
+        "distractors": {
+          "plausible": [
+            "Repeat the same frame harder",
+            "Switch straight to submission"
+          ],
+          "trap": [
+            "Keep pushing the same frame"
+          ]
+        }
       },
       {
         "question": "What grip should you establish immediately upon recovering guard to prevent the opponent from re-passing?",
-        "answer": "In gi, secure a collar grip with your far hand and a sleeve grip with your near hand to control their posture and prevent disengagement for passing. In no-gi, establish a collar tie behind their neck with one hand and wrist control with the other. These grips serve the dual purpose of preventing immediate re-passing attempts and setting up your offensive guard game with sweeps and submissions, transforming the situation from a defensive recovery into an offensive engagement."
+        "answer": "In gi, secure a collar grip with your far hand and a sleeve grip with your near hand to control their posture and prevent disengagement for passing. In no-gi, establish a collar tie behind their neck with one hand and wrist control with the other. These grips serve the dual purpose of preventing immediate re-passing attempts and setting up your offensive guard game with sweeps and submissions, transforming the situation from a defensive recovery into an offensive engagement.",
+        "answer_line": "Collar and sleeve/wrist grip",
+        "distractors": {
+          "plausible": [
+            "Underhook grip both sides",
+            "Grab belt to control hips"
+          ],
+          "trap": [
+            "Let go and reset hands"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Frame placement against the opponent's face must be controlled to avoid eye gouging or excessive pressure on the throat. Always frame against the jawline and cheekbone area rather than directly against the eyes or trachea. During training, communicate with your partner about frame pressure intensity and adjust based on their feedback. When drilling with newer practitioners, emphasize controlled frame placement to prevent accidental injury to the face and neck area. If you feel your partner's neck being compressed dangerously during frame application, adjust your angle immediately."
+    "safety_considerations": "Frame placement against the opponent's face must be controlled to avoid eye gouging or excessive pressure on the throat. Always frame against the jawline and cheekbone area rather than directly against the eyes or trachea. During training, communicate with your partner about frame pressure intensity and adjust based on their feedback. When drilling with newer practitioners, emphasize controlled frame placement to prevent accidental injury to the face and neck area. If you feel your partner's neck being compressed dangerously during frame application, adjust your angle immediately.",
+    "clips": [
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Framing against kesa gatame pressure",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5eAmcE9UXNc",
+        "title": "Modified kesa gatame escape",
+        "by": "Shane Moore",
+        "vertical": false,
+        "channel": "Shane Moore Jiu Jitsu",
+        "duration": 126,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "u4mzEqzqoAU",
+        "title": "Modified scarf hold escape step by step",
+        "by": "Knots and Collar",
+        "vertical": false,
+        "channel": "Knots and Collar",
+        "duration": 208,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame to Guard from Kesa Gatame Defender",
@@ -350,19 +474,59 @@
     "flashcards": [
       {
         "question": "What is the earliest indicator that your opponent is about to attempt a frame escape from Kesa Gatame?",
-        "answer": "The earliest cue is their far arm beginning to move toward your face or neck rather than remaining in a defensive position. You may also notice them planting their feet flat with bent knees, their hips beginning to angle away, or their breathing becoming more controlled and deliberate rather than panicked. React to the arm movement immediately before the frame achieves structural alignment that makes it much harder to defeat."
+        "answer": "The earliest cue is their far arm beginning to move toward your face or neck rather than remaining in a defensive position. You may also notice them planting their feet flat with bent knees, their hips beginning to angle away, or their breathing becoming more controlled and deliberate rather than panicked. React to the arm movement immediately before the frame achieves structural alignment that makes it much harder to defeat.",
+        "answer_line": "Far arm moves to your face",
+        "distractors": {
+          "plausible": [
+            "Hips angle away first",
+            "Feet flatten before arm moves"
+          ],
+          "trap": [
+            "Wait for full frame to form"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel frames beginning to push against your face?",
-        "answer": "Drive your chest and shoulder forward through the frame rather than pulling away from it, increasing the pressure angle that makes the frame harder to sustain. Simultaneously lower your hips to prevent space creation at the hip line. Your weight should shift forward and downward, using gravity to collapse the frame before it achieves the skeletal alignment that would make it structurally sound and nearly impossible to defeat with pressure alone."
+        "answer": "Drive your chest and shoulder forward through the frame rather than pulling away from it, increasing the pressure angle that makes the frame harder to sustain. Simultaneously lower your hips to prevent space creation at the hip line. Your weight should shift forward and downward, using gravity to collapse the frame before it achieves the skeletal alignment that would make it structurally sound and nearly impossible to defeat with pressure alone.",
+        "answer_line": "Drive forward, lower your hips",
+        "distractors": {
+          "plausible": [
+            "Pull away from the frame",
+            "Raise hips to stay mobile"
+          ],
+          "trap": [
+            "Sit back and create distance"
+          ]
+        }
       },
       {
         "question": "When should you abandon Kesa Gatame and transition to mount during your opponent's escape attempt?",
-        "answer": "Transition to mount when the opponent has created irreversible hip space that you cannot close by driving forward. The specific trigger is when their knee begins entering between your bodies for a knee shield. At this point, Kesa Gatame is functionally lost, and your best option is stepping over their near knee before it fully establishes as a barrier, converting their escape movement into your mount advancement rather than losing the position entirely."
+        "answer": "Transition to mount when the opponent has created irreversible hip space that you cannot close by driving forward. The specific trigger is when their knee begins entering between your bodies for a knee shield. At this point, Kesa Gatame is functionally lost, and your best option is stepping over their near knee before it fully establishes as a barrier, converting their escape movement into your mount advancement rather than losing the position entirely.",
+        "answer_line": "Step over knee before it shields",
+        "distractors": {
+          "plausible": [
+            "Switch to mount at first bridge",
+            "Wait for full guard recovery"
+          ],
+          "trap": [
+            "Keep pressuring for kesa gatame"
+          ]
+        }
       },
       {
         "question": "What is the risk of over-committing forward pressure to collapse your opponent's frames?",
-        "answer": "Over-committing forward shifts your center of gravity past the tipping point, allowing the opponent to redirect to a bridge-and-roll escape that uses your forward momentum against you for a reversal. They can grab your far arm, bridge into your committed weight, and roll you over. The solution is measured forward pressure that collapses frames without shifting weight so far forward that a coordinated bridge becomes an effective counter."
+        "answer": "Over-committing forward shifts your center of gravity past the tipping point, allowing the opponent to redirect to a bridge-and-roll escape that uses your forward momentum against you for a reversal. They can grab your far arm, bridge into your committed weight, and roll you over. The solution is measured forward pressure that collapses frames without shifting weight so far forward that a coordinated bridge becomes an effective counter.",
+        "answer_line": "Bridge-roll reversal risk",
+        "distractors": {
+          "plausible": [
+            "Frame collapse takes longer",
+            "They escape out the back door"
+          ],
+          "trap": [
+            "Drive forward with all your weight"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -385,6 +549,35 @@
         "phase": "Live Positional Sparring",
         "focus": "Full resistance application and retention metrics",
         "description": "Start in Kesa Gatame with partner attempting any escape at full resistance. Practice maintaining position against frame escapes specifically, flowing between frame counter-pressure, arm control, and mount transitions as the situation demands. Track position retention rate and identify patterns in losses to refine your defensive responses."
+      }
+    ],
+    "clips": [
+      {
+        "id": "yjQHCaCmhyo",
+        "title": "Beating an opponent who stiff arms and frames",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TfNpVcekHGg",
+        "title": "Kesa gatame scarf hold control",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "P64g72jM_co",
+        "title": "Side control to kesa pressure transition",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 221,
+        "verified": "2026-07-15"
       }
     ]
   }

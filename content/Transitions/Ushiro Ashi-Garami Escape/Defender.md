@@ -148,6 +148,43 @@ description: "How to defend against Ushiro Ashi-Garami Escape in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ushiro Ashi-Garami Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple fix to keep your cross ashi control",
+      "description": "Ushiro Ashi-Garami Escape (Defender) film study: Simple fix to keep your cross ashi control, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nVfqMfVpTVk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nVfqMfVpTVk",
+      "url": "https://www.youtube.com/watch?v=nVfqMfVpTVk",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Craig Jones on hiding the heel",
+      "description": "Ushiro Ashi-Garami Escape (Defender) film study: Craig Jones on hiding the heel, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kzgvfbZtH-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kzgvfbZtH-8",
+      "url": "https://www.youtube.com/watch?v=kzgvfbZtH-8",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT233S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Defensive success against the escape requires understanding the sequential natur
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ushiro Ashi-Garami Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nVfqMfVpTVk)
+
+<p class="clip-credit"><strong>Simple fix to keep your cross ashi control</strong> — taught by Factory Fresh Jiu Jitsu · 0:55 · <a href="https://www.youtube.com/watch?v=nVfqMfVpTVk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kzgvfbZtH-8)
+
+<p class="clip-credit"><strong>Craig Jones on hiding the heel</strong> — taught by Craig Jones · 3:53 · <a href="https://www.youtube.com/watch?v=kzgvfbZtH-8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

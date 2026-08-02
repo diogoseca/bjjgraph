@@ -140,6 +140,43 @@ description: "Learn to defend against the Sweep from Quarter Guard as the top pl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Quarter Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Free your trapped foot while passing half guard",
+      "description": "Sweep from Quarter Guard (Defender) film study: Free your trapped foot while passing half guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quarter guard escape and pass, with slow motion",
+      "description": "Sweep from Quarter Guard (Defender) film study: Quarter guard escape and pass, with slow motion, taught by Marcus Almeida.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8lAqEhHz8ao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8lAqEhHz8ao",
+      "url": "https://www.youtube.com/watch?v=8lAqEhHz8ao",
+      "creator": { "@type": "Person", "name": "Marcus Almeida" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender in the Sweep from Quarter Guard, you are the top player who has 
 **Opponent's Starting Position**: [[Positions/Quarter Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Quarter Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Free your trapped foot while passing half guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8lAqEhHz8ao)
+
+<p class="clip-credit"><strong>Quarter guard escape and pass, with slow motion</strong> — taught by Marcus Almeida · 0:37 · <a href="https://www.youtube.com/watch?v=8lAqEhHz8ao" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

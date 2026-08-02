@@ -21,37 +21,37 @@ description: "Master defensive survival from Rear Triangle Bottom. Learn arm ext
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Escape",
-      "text": "From this position, attempt Triangle Escape. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Rolling Escape to Guard",
+      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Escape to Guard",
-      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Stack Defense",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Hand Fighting from Back",
+      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 28% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Grip Fight Escape from Rear Triangle",
+      "text": "From this position, attempt Grip Fight Escape from Rear Triangle. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hand Fighting from Back",
-      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Posture Defense from Rear Triangle",
+      "text": "From this position, attempt Posture Defense from Rear Triangle. This technique is attempted in 20% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master defensive survival from Rear Triangle Bottom. Learn arm ext
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the topside body triangle",
+      "description": "Rear Triangle (Bottom) film study: Escaping the topside body triangle, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ys398a2Trrw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ys398a2Trrw",
+      "url": "https://www.youtube.com/watch?v=ys398a2Trrw",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back escape vs crossed feet body triangle",
+      "description": "Rear Triangle (Bottom) film study: Back escape vs crossed feet body triangle, taught by Jeffjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fZCyt0MfUtA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fZCyt0MfUtA",
+      "url": "https://www.youtube.com/watch?v=fZCyt0MfUtA",
+      "creator": { "@type": "Person", "name": "Jeffjitsu" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing-up back escape system",
+      "description": "Rear Triangle (Bottom) film study: Standing-up back escape system, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master defensive survival from Rear Triangle Bottom. Learn arm ext
 Rear Triangle Bottom is a highly compromised defensive position where the practitioner is caught in a triangle choke configuration applied from the opponent's back control position. This represents one of the most dangerous submission threats in BJJ, combining the control advantages of back mount with the finishing mechanics of the triangle choke. The bottom player faces significant constraints on mobility and breathing, with the opponent's legs creating a figure-four configuration around the neck and one arm while maintaining back control elements. This position typically occurs when an opponent successfully transitions from standard back control or seated back mount into a triangle configuration, often catching one arm inside the triangle while controlling the back. The defensive player must navigate multiple submission threats including the triangle choke itself, potential transitions to armbars, and the ever-present danger of the rear naked choke. Understanding the escape hierarchy and maintaining composure under extreme pressure are essential for survival and eventual escape from this precarious position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ys398a2Trrw)
+
+<p class="clip-credit"><strong>Escaping the topside body triangle</strong> — taught by Fox Den Martial Arts · 0:48 · <a href="https://www.youtube.com/watch?v=ys398a2Trrw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fZCyt0MfUtA)
+
+<p class="clip-credit"><strong>Back escape vs crossed feet body triangle</strong> — taught by Jeffjitsu · 0:54 · <a href="https://www.youtube.com/watch?v=fZCyt0MfUtA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing-up back escape system</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Smash Pass from Knee Shield in BJJ. Step-by-step guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Pass from Knee Shield \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield half guard pass",
+      "description": "Smash Pass from Knee Shield film study: Knee shield half guard pass, taught by Adam Metcalf.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y815hmtzGZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y815hmtzGZA",
+      "url": "https://www.youtube.com/watch?v=Y815hmtzGZA",
+      "creator": { "@type": "Person", "name": "Adam Metcalf" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee-side smash passes in 90 seconds",
+      "description": "Smash Pass from Knee Shield film study: Knee-side smash passes in 90 seconds, taught by ROL Radio coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1FG1o31-mMc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1FG1o31-mMc",
+      "url": "https://www.youtube.com/watch?v=1FG1o31-mMc",
+      "creator": { "@type": "Person", "name": "ROL Radio coach" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee shield half guard pass",
+      "description": "Smash Pass from Knee Shield film study: Knee shield half guard pass, taught by Bowerhouse MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UXCySaKOndI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UXCySaKOndI",
+      "url": "https://www.youtube.com/watch?v=UXCySaKOndI",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA coach" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Within the broader guard passing hierarchy, the smash pass from knee shield pair
 **Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Pass from Knee Shield in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y815hmtzGZA)
+
+<p class="clip-credit"><strong>Knee shield half guard pass</strong> — taught by Adam Metcalf · 0:30 · <a href="https://www.youtube.com/watch?v=Y815hmtzGZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1FG1o31-mMc)
+
+<p class="clip-credit"><strong>Knee-side smash passes in 90 seconds</strong> — taught by ROL Radio coach · 1:31 · <a href="https://www.youtube.com/watch?v=1FG1o31-mMc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UXCySaKOndI)
+
+<p class="clip-credit"><strong>Knee shield half guard pass</strong> — taught by Bowerhouse MMA coach · 2:01 · <a href="https://www.youtube.com/watch?v=UXCySaKOndI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -150,6 +150,43 @@ description: "How to defend against Electric Chair in BJJ. Recognition, escape p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Electric Chair from Deep Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown and Electric Chair counters and escapes",
+      "description": "Electric Chair from Deep Half Guard (Defender) film study: Lockdown and Electric Chair counters and escapes, taught by Street Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3A6oRsDf3oU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3A6oRsDf3oU",
+      "url": "https://www.youtube.com/watch?v=3A6oRsDf3oU",
+      "creator": { "@type": "Person", "name": "Street Jitsu" },
+      "duration": "PT286S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to pass the deep half guard",
+      "description": "Electric Chair from Deep Half Guard (Defender) film study: How to pass the deep half guard, taught by Dimitrius Souza.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2mom9Urqxa4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2mom9Urqxa4",
+      "url": "https://www.youtube.com/watch?v=2mom9Urqxa4",
+      "creator": { "@type": "Person", "name": "Dimitrius Souza" },
+      "duration": "PT237S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ When defense fails to prevent the submission entry, the defender must recognize 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Electric Chair from Deep Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3A6oRsDf3oU)
+
+<p class="clip-credit"><strong>Lockdown and Electric Chair counters and escapes</strong> — taught by Street Jitsu · 4:46 · <a href="https://www.youtube.com/watch?v=3A6oRsDf3oU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2mom9Urqxa4)
+
+<p class="clip-credit"><strong>How to pass the deep half guard</strong> — taught by Dimitrius Souza · 3:57 · <a href="https://www.youtube.com/watch?v=2mom9Urqxa4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

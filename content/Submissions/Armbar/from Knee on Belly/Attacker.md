@@ -170,6 +170,54 @@ description: "Master attacking the armbar from knee on belly. Step-by-step execu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Knee on Belly (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from Knee on Belly",
+      "description": "Armbar from Knee on Belly (Attacker) film study: Armbar from Knee on Belly, taught by Mauricio Gomes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JQMSXF2uVfA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JQMSXF2uVfA",
+      "url": "https://www.youtube.com/watch?v=JQMSXF2uVfA",
+      "creator": { "@type": "Person", "name": "Mauricio Gomes" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shotgun Armbar from Knee on Belly",
+      "description": "Armbar from Knee on Belly (Attacker) film study: Shotgun Armbar from Knee on Belly, taught by Raymond Tan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LrWL-ILB4ME/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LrWL-ILB4ME",
+      "url": "https://www.youtube.com/watch?v=LrWL-ILB4ME",
+      "creator": { "@type": "Person", "name": "Raymond Tan" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar from Knee on Belly",
+      "description": "Armbar from Knee on Belly (Attacker) film study: Armbar from Knee on Belly, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jxZaCP3bBuM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jxZaCP3bBuM",
+      "url": "https://www.youtube.com/watch?v=jxZaCP3bBuM",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Attacking the armbar from knee on belly requires converting the opponent's natur
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Knee on Belly (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JQMSXF2uVfA)
+
+<p class="clip-credit"><strong>Armbar from Knee on Belly</strong> — taught by Mauricio Gomes · 1:20 · <a href="https://www.youtube.com/watch?v=JQMSXF2uVfA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LrWL-ILB4ME)
+
+<p class="clip-credit"><strong>Shotgun Armbar from Knee on Belly</strong> — taught by Raymond Tan · 1:02 · <a href="https://www.youtube.com/watch?v=LrWL-ILB4ME" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jxZaCP3bBuM)
+
+<p class="clip-credit"><strong>Armbar from Knee on Belly</strong> — taught by Team Daruma Dojo · 1:05 · <a href="https://www.youtube.com/watch?v=jxZaCP3bBuM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

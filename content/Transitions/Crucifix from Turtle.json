@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Crucifix/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     },
     {
       "to": "Back Control/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "failure"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Sitting at the high-skill tier of turtle-top attacks, the crucifix from turtle punishes the structural vulnerability of the turtle by isolating and trapping both of the opponent's arms through different control mechanisms. The technique converts a standard turtle top situation into one of the most dominant control positions in Brazilian Jiu-Jitsu, where the opponent loses nearly all defensive capability. The crucifix entry requires capturing the near-side arm with a leg thread over the shoulder while simultaneously controlling the far-side arm with a grip, creating bilateral arm isolation that eliminates frames, guard recovery attempts, and choke defense.\n\nFrom a strategic standpoint, the crucifix from turtle punishes opponents who rely on static turtle defense or who expose their arms while defending back takes. When an opponent posts an arm to prevent a standard back take with hooks, that extended arm becomes the entry point for crucifix control. This makes the technique a natural complement to traditional back attack sequences - if the opponent defends the hooks, the crucifix becomes available; if they defend the crucifix, the hooks become easier to insert. This dilemma-based attack framework is central to high-level turtle top play.\n\nThe transition demands precise sequencing: arm control must precede the leg thread, chest pressure must remain constant throughout, and the final perpendicular angle must be established before any submission attempts. Rushing any phase collapses the attack chain and allows recovery. When executed correctly, the resulting crucifix position offers rear naked chokes, armbars, and wrist locks while being extraordinarily difficult to escape.",
   "variants_and_adaptations": [
     {
@@ -257,46 +272,175 @@
     "flashcards": [
       {
         "question": "What is the critical prerequisite that must be established before you attempt to thread your leg over the opponent's shoulder?",
-        "answer": "You must have firm control of both of the opponent's arms before threading the leg. The near-side arm is controlled with your hand grip, and the far-side arm must be caught by swimming under the armpit. Attempting the leg thread without bilateral arm control allows the opponent to retract their far arm and turn into you, collapsing the entire attack. The arm control is the foundation that makes the leg thread viable."
+        "answer": "You must have firm control of both of the opponent's arms before threading the leg. The near-side arm is controlled with your hand grip, and the far-side arm must be caught by swimming under the armpit. Attempting the leg thread without bilateral arm control allows the opponent to retract their far arm and turn into you, collapsing the entire attack. The arm control is the foundation that makes the leg thread viable.",
+        "answer_line": "Control both arms first",
+        "distractors": {
+          "plausible": [
+            "Secure near-side grip only",
+            "Thread leg then trap arm"
+          ],
+          "trap": [
+            "Go straight for choke"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat while you have their near arm controlled from turtle top - how do you capitalize on this?",
-        "answer": "The posted far hand is your entry signal for the crucifix. While maintaining your near-arm grip and chest pressure, immediately swim your free arm under their far armpit to catch the posted wrist or forearm. Pull their arm across their body toward you. The act of posting extends their arm away from their body, creating the exact opening you need. Speed is essential here because the post is temporary - they will retract the arm once they feel it being controlled."
+        "answer": "The posted far hand is your entry signal for the crucifix. While maintaining your near-arm grip and chest pressure, immediately swim your free arm under their far armpit to catch the posted wrist or forearm. Pull their arm across their body toward you. The act of posting extends their arm away from their body, creating the exact opening you need. Speed is essential here because the post is temporary - they will retract the arm once they feel it being controlled.",
+        "answer_line": "Swim under armpit, catch wrist",
+        "distractors": {
+          "plausible": [
+            "Pull them flat to mat",
+            "Wait for both hands to post"
+          ],
+          "trap": [
+            "Release near arm to grab post"
+          ]
+        }
       },
       {
         "question": "Why must the near-side hook be inserted before the far-side leg is threaded over the shoulder?",
-        "answer": "The near-side hook provides the foundational base stability needed during the leg threading phase. Without it, you have no anchor point to prevent the opponent from sitting back to guard as you lift your far leg off the ground. The hook controls their hip rotation, keeps them in turtle, and gives you a stable platform. Threading the far leg requires temporarily reducing your base, so the near hook must be providing compensatory stability."
+        "answer": "The near-side hook provides the foundational base stability needed during the leg threading phase. Without it, you have no anchor point to prevent the opponent from sitting back to guard as you lift your far leg off the ground. The hook controls their hip rotation, keeps them in turtle, and gives you a stable platform. Threading the far leg requires temporarily reducing your base, so the near hook must be providing compensatory stability.",
+        "answer_line": "Hook anchors base for thread",
+        "distractors": {
+          "plausible": [
+            "Hook blocks their sit-out only",
+            "Insert hook after leg over"
+          ],
+          "trap": [
+            "Skip hook, thread leg fast"
+          ]
+        }
       },
       {
         "question": "You have the crucifix partially established but the opponent begins pulling their trapped arm free - should you fight to maintain the crucifix or transition?",
-        "answer": "Transition immediately to an alternative position rather than fighting for a compromised crucifix. If the arm is slipping free, the mechanical advantage of the position is already lost. Switch to standard back control with hooks, or if the opponent has turned significantly, take front headlock position. Fighting to re-trap an escaping arm wastes energy and often results in losing the position entirely. The crucifix works because of complete arm isolation - partial control is not sufficient."
+        "answer": "Transition immediately to an alternative position rather than fighting for a compromised crucifix. If the arm is slipping free, the mechanical advantage of the position is already lost. Switch to standard back control with hooks, or if the opponent has turned significantly, take front headlock position. Fighting to re-trap an escaping arm wastes energy and often results in losing the position entirely. The crucifix works because of complete arm isolation - partial control is not sufficient.",
+        "answer_line": "Transition to back control",
+        "distractors": {
+          "plausible": [
+            "Fight to re-trap the arm",
+            "Switch grips and reset"
+          ],
+          "trap": [
+            "Force leg trap tighter"
+          ]
+        }
       },
       {
         "question": "What is the correct shin placement when threading the leg over the opponent's shoulder, and why does this matter?",
-        "answer": "The shin must press against the back of the opponent's shoulder blade, not over their head or neck. Shoulder placement creates a mechanical lock where the leg acts as a lever pinning the arm against the opponent's own body. Head placement is unstable because the opponent can duck their head and the arm slides free. The shoulder is a fixed bony landmark that provides consistent leverage regardless of the opponent's head movement."
+        "answer": "The shin must press against the back of the opponent's shoulder blade, not over their head or neck. Shoulder placement creates a mechanical lock where the leg acts as a lever pinning the arm against the opponent's own body. Head placement is unstable because the opponent can duck their head and the arm slides free. The shoulder is a fixed bony landmark that provides consistent leverage regardless of the opponent's head movement.",
+        "answer_line": "Shin on shoulder blade",
+        "distractors": {
+          "plausible": [
+            "Shin across their neck",
+            "Shin behind their head"
+          ],
+          "trap": [
+            "Shin on head, they roll you"
+          ]
+        }
       },
       {
         "question": "How does the crucifix from turtle create a dilemma with standard back take attempts?",
-        "answer": "When you threaten standard back hooks from turtle top, the opponent's primary defense is to use their arms to block hook insertion - posting, framing, or underhooking. But these arm movements expose the arms for crucifix entry. Conversely, if the opponent keeps their elbows tight to their knees to prevent crucifix, they cannot effectively block your hooks. This creates a binary defensive choice where defending one attack directly opens the other, making your turtle top attacks significantly harder to shut down."
+        "answer": "When you threaten standard back hooks from turtle top, the opponent's primary defense is to use their arms to block hook insertion - posting, framing, or underhooking. But these arm movements expose the arms for crucifix entry. Conversely, if the opponent keeps their elbows tight to their knees to prevent crucifix, they cannot effectively block your hooks. This creates a binary defensive choice where defending one attack directly opens the other, making your turtle top attacks significantly harder to shut down.",
+        "answer_line": "Blocking hooks exposes arms",
+        "distractors": {
+          "plausible": [
+            "Both attacks share one grip",
+            "Elbows in stops hooks too"
+          ],
+          "trap": [
+            "Turtle defense beats both"
+          ]
+        }
       },
       {
         "question": "What grip should you use on the far arm after swimming under the armpit, and what determines your grip selection?",
-        "answer": "The wrist grip is the highest-priority initial catch because it provides maximum control over arm positioning and prevents the opponent from retracting. In gi, the sleeve grip at the wrist is ideal. In no-gi, a C-grip on the wrist or a figure-four grip on the forearm provides security. The grip must allow you to pull the arm across the opponent's body while preventing retraction during the leg threading phase. Once the leg is over the shoulder, you can adjust to a wrist control or kimura grip for submission access."
+        "answer": "The wrist grip is the highest-priority initial catch because it provides maximum control over arm positioning and prevents the opponent from retracting. In gi, the sleeve grip at the wrist is ideal. In no-gi, a C-grip on the wrist or a figure-four grip on the forearm provides security. The grip must allow you to pull the arm across the opponent's body while preventing retraction during the leg threading phase. Once the leg is over the shoulder, you can adjust to a wrist control or kimura grip for submission access.",
+        "answer_line": "Wrist grip, max control",
+        "distractors": {
+          "plausible": [
+            "Sleeve grip near elbow",
+            "Overhook the whole arm"
+          ],
+          "trap": [
+            "Grab collar for control"
+          ]
+        }
       },
       {
         "question": "During the leg threading phase, the opponent explosively bridges and turns toward you - what is your response?",
-        "answer": "Abandon the leg thread and use your existing arm control and hook to follow their turn, transitioning to standard back control. Their bridge and turn actually helps you establish back hooks if you flow with the movement rather than fighting it. Keep your chest connected to their back throughout their rotation. If they turn far enough to face you, switch to front headlock or guillotine control using the head position they have given you. Never try to force the crucifix against a committed directional escape."
+        "answer": "Abandon the leg thread and use your existing arm control and hook to follow their turn, transitioning to standard back control. Their bridge and turn actually helps you establish back hooks if you flow with the movement rather than fighting it. Keep your chest connected to their back throughout their rotation. If they turn far enough to face you, switch to front headlock or guillotine control using the head position they have given you. Never try to force the crucifix against a committed directional escape.",
+        "answer_line": "Follow turn to back control",
+        "distractors": {
+          "plausible": [
+            "Fight to keep leg thread",
+            "Release hook to block turn"
+          ],
+          "trap": [
+            "Force crucifix through turn"
+          ]
+        }
       },
       {
         "question": "What is the perpendicular angle in the crucifix and why is it essential for control?",
-        "answer": "The perpendicular angle means your body forms a T-shape relative to the opponent's spine, with your hips positioned alongside their ribs rather than parallel behind them. This angle is essential because it prevents rolling escapes in both directions - your weight blocks one side and your legs block the other. A parallel alignment allows the opponent to barrel roll and potentially end up on top. The perpendicular position also distributes your weight optimally across their torso and maximizes the leverage of both the leg trap and arm control."
+        "answer": "The perpendicular angle means your body forms a T-shape relative to the opponent's spine, with your hips positioned alongside their ribs rather than parallel behind them. This angle is essential because it prevents rolling escapes in both directions - your weight blocks one side and your legs block the other. A parallel alignment allows the opponent to barrel roll and potentially end up on top. The perpendicular position also distributes your weight optimally across their torso and maximizes the leverage of both the leg trap and arm control.",
+        "answer_line": "T-shape blocks rolling escapes",
+        "distractors": {
+          "plausible": [
+            "Parallel align behind spine",
+            "Angle maximizes choke depth"
+          ],
+          "trap": [
+            "Face opponent head-on"
+          ]
+        }
       },
       {
         "question": "You have established crucifix control and want to attack the rear naked choke - which arm do you release and what is the risk?",
-        "answer": "You release control of the hand-controlled far arm to thread your choking arm under the opponent's chin. The risk is that the freed arm can now defend the choke or create frames for escape. To mitigate this, ensure the leg-trapped arm is completely locked before releasing the far arm, and apply the choke quickly before the opponent can mount an effective defense with the freed hand. If they successfully defend the choke with the free arm, transition immediately to an armbar on that defending arm rather than fighting for the choke."
+        "answer": "You release control of the hand-controlled far arm to thread your choking arm under the opponent's chin. The risk is that the freed arm can now defend the choke or create frames for escape. To mitigate this, ensure the leg-trapped arm is completely locked before releasing the far arm, and apply the choke quickly before the opponent can mount an effective defense with the freed hand. If they successfully defend the choke with the free arm, transition immediately to an armbar on that defending arm rather than fighting for the choke.",
+        "answer_line": "Release hand-controlled far arm",
+        "distractors": {
+          "plausible": [
+            "Release the leg-trapped arm",
+            "Keep both arms controlled"
+          ],
+          "trap": [
+            "Let go of chest pressure"
+          ]
+        }
       }
     ],
-    "safety_considerations": "When practicing the crucifix from turtle, execute all movements with deliberate control and awareness of your partner's joint integrity. The arm positions in crucifix place significant stress on the shoulder joints, particularly the far arm trapped by the leg - avoid yanking or jerking trapped arms at any point. When threading the leg over the partner's shoulder, move slowly and check that the shin is pressing against the shoulder blade rather than the neck, which could cause cervical strain. During submission attempts from crucifix, apply techniques progressively with steady pressure and release immediately upon tap. Partners should communicate about shoulder or neck discomfort before reaching the tapping threshold. Start all drilling at zero resistance and increase intensity gradually over multiple sessions. Be especially cautious with wrist locks and shoulder attacks from this position, as the trapped arm configuration makes injuries more likely if techniques are applied with speed or explosiveness."
+    "safety_considerations": "When practicing the crucifix from turtle, execute all movements with deliberate control and awareness of your partner's joint integrity. The arm positions in crucifix place significant stress on the shoulder joints, particularly the far arm trapped by the leg - avoid yanking or jerking trapped arms at any point. When threading the leg over the partner's shoulder, move slowly and check that the shin is pressing against the shoulder blade rather than the neck, which could cause cervical strain. During submission attempts from crucifix, apply techniques progressively with steady pressure and release immediately upon tap. Partners should communicate about shoulder or neck discomfort before reaching the tapping threshold. Start all drilling at zero resistance and increase intensity gradually over multiple sessions. Be especially cautious with wrist locks and shoulder attacks from this position, as the trapped arm configuration makes injuries more likely if techniques are applied with speed or explosiveness.",
+    "clips": [
+      {
+        "id": "dtyrCY42OQg",
+        "title": "Turtle rollover into the crucifix",
+        "by": "South Island BJJ",
+        "vertical": false,
+        "channel": "South Island Bjj",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JTw40IV1QlU",
+        "title": "Taking the crucifix from turtle",
+        "by": "Serge Self Defense",
+        "vertical": false,
+        "channel": "SERGE SELF DEFENSE",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6NupGdJyV3o",
+        "title": "Turtle to crucifix armbar setup",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 26,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crucifix from Turtle Defender",
@@ -388,23 +532,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a crucifix from turtle, and what should your immediate response be?",
-        "answer": "The earliest cue is feeling your near-side wrist or triceps being grabbed while the opponent maintains chest-to-back pressure. Your immediate response should be to tighten your elbow-to-knee connection on both sides and begin creating movement through hip shifts or directional changes. If possible, retract the controlled arm and reset to a tighter turtle. Acting at this first phase has the highest success rate because the opponent has not yet established any hooks or bilateral arm control."
+        "answer": "The earliest cue is feeling your near-side wrist or triceps being grabbed while the opponent maintains chest-to-back pressure. Your immediate response should be to tighten your elbow-to-knee connection on both sides and begin creating movement through hip shifts or directional changes. If possible, retract the controlled arm and reset to a tighter turtle. Acting at this first phase has the highest success rate because the opponent has not yet established any hooks or bilateral arm control.",
+        "answer_line": "Feel wrist grabbed, tighten elbows",
+        "distractors": {
+          "plausible": [
+            "Wait for leg to thread",
+            "React only once hooks in"
+          ],
+          "trap": [
+            "Post hands wide to escape"
+          ]
+        }
       },
       {
         "question": "Why is it better to accept back control than to allow full crucifix consolidation?",
-        "answer": "Back control with hooks, while disadvantageous, still allows defensive use of both arms for hand fighting, frame creation, and choke defense. The escape rate from back control is significantly higher than from crucifix because both arms remain functional. Crucifix eliminates arm defense entirely, making submissions nearly inevitable against a skilled opponent. The positional sacrifice of accepting back control preserves your ability to defend and eventually escape, while allowing crucifix often leads directly to submission."
+        "answer": "Back control with hooks, while disadvantageous, still allows defensive use of both arms for hand fighting, frame creation, and choke defense. The escape rate from back control is significantly higher than from crucifix because both arms remain functional. Crucifix eliminates arm defense entirely, making submissions nearly inevitable against a skilled opponent. The positional sacrifice of accepting back control preserves your ability to defend and eventually escape, while allowing crucifix often leads directly to submission.",
+        "answer_line": "Back control keeps both arms free",
+        "distractors": {
+          "plausible": [
+            "Crucifix easier to escape",
+            "Both positions equally risky"
+          ],
+          "trap": [
+            "Fight hardest to avoid back"
+          ]
+        }
       },
       {
         "question": "Your opponent has trapped your near arm with their legs and is controlling your far wrist - which arm should you prioritize freeing first?",
-        "answer": "Prioritize freeing the hand-controlled far arm first because it has more extraction potential than the leg-trapped arm. The hand grip is weaker than the mechanical lock of the leg triangle, so incremental movements and grip fighting have a higher chance of success. Once the far arm is free, it can immediately be used for neck defense and to create frames that facilitate extracting the leg-trapped arm. Attempting to free the leg-trapped arm first usually requires hip movement that the opponent can feel and counter."
+        "answer": "Prioritize freeing the hand-controlled far arm first because it has more extraction potential than the leg-trapped arm. The hand grip is weaker than the mechanical lock of the leg triangle, so incremental movements and grip fighting have a higher chance of success. Once the far arm is free, it can immediately be used for neck defense and to create frames that facilitate extracting the leg-trapped arm. Attempting to free the leg-trapped arm first usually requires hip movement that the opponent can feel and counter.",
+        "answer_line": "Free the hand-controlled arm",
+        "distractors": {
+          "plausible": [
+            "Free the leg-trapped arm first",
+            "Free both arms together"
+          ],
+          "trap": [
+            "Push off with trapped hand"
+          ]
+        }
       },
       {
         "question": "How should you adjust your turtle structure specifically to prevent crucifix entries?",
-        "answer": "The key adjustment is eliminating space between your elbows and knees on both sides - this gap is the crucifix entry point. Keep your elbows pressed against the inside of your knees, creating a sealed shell that prevents the opponent from swimming their arm underneath. Additionally, maintain constant micro-movement in your hips to prevent the opponent from timing their arm swim. Keep your weight slightly back toward your heels rather than forward on your hands, which reduces the chance of arm exposure during weight shifts."
+        "answer": "The key adjustment is eliminating space between your elbows and knees on both sides - this gap is the crucifix entry point. Keep your elbows pressed against the inside of your knees, creating a sealed shell that prevents the opponent from swimming their arm underneath. Additionally, maintain constant micro-movement in your hips to prevent the opponent from timing their arm swim. Keep your weight slightly back toward your heels rather than forward on your hands, which reduces the chance of arm exposure during weight shifts.",
+        "answer_line": "Seal elbows tight to knees",
+        "distractors": {
+          "plausible": [
+            "Keep hands flat on mat",
+            "Widen base for stability"
+          ],
+          "trap": [
+            "Post hands to defend hooks"
+          ]
+        }
       },
       {
         "question": "You feel the opponent's leg beginning to thread over your far shoulder - what is your last-chance defensive action?",
-        "answer": "Immediately turn your body toward the opponent (into the leg) while explosively shrimping your hips away. This combination collapses the angle they need for the crucifix and may cause their leg to slip off your shoulder. Simultaneously, pull your far arm tight to your chest and try to duck your shoulder under their leg. If the leg clears your shoulder despite your defense, immediately accept the position has been lost and transition your focus entirely to neck defense and freeing the hand-controlled arm."
+        "answer": "Immediately turn your body toward the opponent (into the leg) while explosively shrimping your hips away. This combination collapses the angle they need for the crucifix and may cause their leg to slip off your shoulder. Simultaneously, pull your far arm tight to your chest and try to duck your shoulder under their leg. If the leg clears your shoulder despite your defense, immediately accept the position has been lost and transition your focus entirely to neck defense and freeing the hand-controlled arm.",
+        "answer_line": "Turn in and shrimp away",
+        "distractors": {
+          "plausible": [
+            "Stand up to break control",
+            "Sit back to open guard"
+          ],
+          "trap": [
+            "Reach back to grab their leg"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -427,6 +621,35 @@
         "phase": "Month 3+: Live Defensive Sparring",
         "focus": "Applying crucifix defense under full resistance from turtle bottom",
         "description": "Begin in turtle bottom with partner working full resistance toward crucifix. Practice the complete defensive chain: recognition, early prevention, escape if prevention fails, and position recovery. Track success rate and identify which phase of the defense breaks down most frequently for targeted improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-JBwH7ZcyC8",
+        "title": "Turtle roll counter",
+        "by": "Mark VanSchuyver",
+        "vertical": false,
+        "channel": "Mark VanSchuyver",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up from turtle",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "923eYpD1E58",
+        "title": "Inside roll escape from turtle",
+        "by": "Kenny Lester",
+        "vertical": false,
+        "channel": "KING OF CATCH WRESTLING CHAMPIONSHIP",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -140,6 +140,54 @@ description: "Learn to defend against the Crab Ride Escape to Guard as the top p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crab Ride Escape to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crab ride turn when trapped on your back",
+      "description": "Crab Ride Escape to Guard (Defender) film study: Crab ride turn when trapped on your back, taught by CMPTV.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qp--XOaaFjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qp--XOaaFjk",
+      "url": "https://www.youtube.com/watch?v=qp--XOaaFjk",
+      "creator": { "@type": "Person", "name": "CMPTV" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Using the Crab Ride to Counter Granby Roll Escapes",
+      "description": "Crab Ride Escape to Guard (Defender) film study: Using the Crab Ride to Counter Granby Roll Escapes, taught by Duck-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9eP5msv3Qsk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9eP5msv3Qsk",
+      "url": "https://www.youtube.com/watch?v=9eP5msv3Qsk",
+      "creator": { "@type": "Person", "name": "Duck-Jitsu" },
+      "duration": "PT234S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Understand Crab Ride Control in 7 Minutes",
+      "description": "Crab Ride Escape to Guard (Defender) film study: Understand Crab Ride Control in 7 Minutes, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q1Y4x_EUZtY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q1Y4x_EUZtY",
+      "url": "https://www.youtube.com/watch?v=q1Y4x_EUZtY",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT431S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending against the Crab Ride Escape to Guard means maintaining your crab ride
 **Opponent's Starting Position**: [[Positions/Crab Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crab Ride Escape to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qp--XOaaFjk)
+
+<p class="clip-credit"><strong>Crab ride turn when trapped on your back</strong> — taught by CMPTV · 1:01 · <a href="https://www.youtube.com/watch?v=qp--XOaaFjk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9eP5msv3Qsk)
+
+<p class="clip-credit"><strong>Using the Crab Ride to Counter Granby Roll Escapes</strong> — taught by Duck-Jitsu · 3:54 · <a href="https://www.youtube.com/watch?v=9eP5msv3Qsk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q1Y4x_EUZtY)
+
+<p class="clip-credit"><strong>Understand Crab Ride Control in 7 Minutes</strong> — taught by Jon Thomas · 7:11 · <a href="https://www.youtube.com/watch?v=q1Y4x_EUZtY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

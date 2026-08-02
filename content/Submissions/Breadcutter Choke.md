@@ -34,6 +34,65 @@ description: "Master the Breadcutter Choke in BJJ. Devastating collar choke from
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Breadcutter Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bread Cutter Choke, Roger Gracie Style",
+      "description": "Breadcutter Choke film study: Bread Cutter Choke, Roger Gracie Style, taught by Andy Hagans.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xab75xOnHqk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xab75xOnHqk",
+      "url": "https://www.youtube.com/watch?v=xab75xOnHqk",
+      "creator": { "@type": "Person", "name": "Andy Hagans" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame Paper Cutter Choke",
+      "description": "Breadcutter Choke film study: Kesa Gatame Paper Cutter Choke, taught by AMAG Fight Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AKfEIInO9Tk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AKfEIInO9Tk",
+      "url": "https://www.youtube.com/watch?v=AKfEIInO9Tk",
+      "creator": { "@type": "Person", "name": "AMAG Fight Team" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Squeeze the Bread Choke Detail",
+      "description": "Breadcutter Choke film study: Squeeze the Bread Choke Detail, taught by Ray Griffin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gYyapPk-Ib8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gYyapPk-Ib8",
+      "url": "https://www.youtube.com/watch?v=gYyapPk-Ib8",
+      "creator": { "@type": "Person", "name": "Ray Griffin" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Paper Cutter Choke with Lapel from Side Control",
+      "description": "Breadcutter Choke film study: Paper Cutter Choke with Lapel from Side Control, taught by Robert Hugus.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vhFpxC1vCag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vhFpxC1vCag",
+      "url": "https://www.youtube.com/watch?v=vhFpxC1vCag",
+      "creator": { "@type": "Person", "name": "Robert Hugus" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,6 +145,50 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Breadcutter Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xab75xOnHqk)
+
+<p class="clip-credit"><strong>Bread Cutter Choke, Roger Gracie Style</strong> — taught by Andy Hagans · 1:10 · <a href="https://www.youtube.com/watch?v=xab75xOnHqk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AKfEIInO9Tk)
+
+<p class="clip-credit"><strong>Kesa Gatame Paper Cutter Choke</strong> — taught by AMAG Fight Team · 0:38 · <a href="https://www.youtube.com/watch?v=AKfEIInO9Tk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gYyapPk-Ib8)
+
+<p class="clip-credit"><strong>Squeeze the Bread Choke Detail</strong> — taught by Ray Griffin · 1:18 · <a href="https://www.youtube.com/watch?v=gYyapPk-Ib8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vhFpxC1vCag)
+
+<p class="clip-credit"><strong>Paper Cutter Choke with Lapel from Side Control</strong> — taught by Robert Hugus · 0:42 · <a href="https://www.youtube.com/watch?v=vhFpxC1vCag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,8 +198,8 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 58% | [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Defender|Defend →]] |
-| [[Submissions/Breadcutter Choke/from Side Control|Side Control]] | Top | 58% | [[Submissions/Breadcutter Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Breadcutter Choke/from Side Control/Defender|Defend →]] |
+| [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 50% | [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Defender|Defend →]] |
+| [[Submissions/Breadcutter Choke/from Side Control|Side Control]] | Top | 50% | [[Submissions/Breadcutter Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Breadcutter Choke/from Side Control/Defender|Defend →]] |
 
 
 </div>
@@ -124,13 +227,13 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 - [[Submissions/Bow and Arrow Choke]] - Related gi collar choke sharing grip mechanics but using leg leverage for finishing pressure
 - [[Submissions/Baseball Bat Choke]] - Another collar-based choke applicable from similar positions with cross-grip configuration
 - [[Submissions/Rear Naked Choke]] - Primary no-gi back attack alternative; Breadcutter available when RNC grips are defended
-- [[Transitions/North-South Choke]] - Alternative choke from north-south when opponent turns to side during transition
-- [[Transitions/Darce Choke]] - Head-and-arm choke option from turtle when collar access is unavailable in no-gi
+- [[Submissions/North-South Choke]] - Alternative choke from north-south when opponent turns to side during transition
+- [[Submissions/Darce Choke]] - Head-and-arm choke option from turtle when collar access is unavailable in no-gi
 - [[Transitions/Anaconda Choke]] - Front headlock choke alternative from turtle top attacking from opposite side
 - [[Submissions/Ezekiel Choke]] - Close-range gi choke applicable from multiple controlling positions
 - [[Submissions/Cross Collar Choke]] - Fundamental collar choke sharing deep grip mechanics and carotid targeting
 - [[Submissions/Brabo Choke]] - Collar-integrated arm triangle variation available from similar side positions
-- [[Transitions/Arm Triangle]] - Head-and-arm choke chain when collar-based attacks are defended
+- [[Submissions/Arm Triangle]] - Head-and-arm choke chain when collar-based attacks are defended
 - [[Positions/Turtle]] - Primary starting position for standard Breadcutter application
 - [[Positions/Back Control]] - Alternative starting position and transition opportunity from failed RNC
 - [[Positions/Side Control]] - Can transition to Breadcutter as opponent attempts turtle escape

@@ -150,6 +150,54 @@ description: "Defend and escape the triangle choke from mounted triangle. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Mounted Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Escape a Triangle Choke",
+      "description": "Triangle Choke from Mounted Triangle (Defender) film study: How To Escape a Triangle Choke, taught by Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Avoiding and defending the triangle choke",
+      "description": "Triangle Choke from Mounted Triangle (Defender) film study: Avoiding and defending the triangle choke, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ss49jnCob0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ss49jnCob0w",
+      "url": "https://www.youtube.com/watch?v=Ss49jnCob0w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT775S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to escape the triangle choke",
+      "description": "Triangle Choke from Mounted Triangle (Defender) film study: How to escape the triangle choke, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/szAvJFvIzx4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/szAvJFvIzx4",
+      "url": "https://www.youtube.com/watch?v=szAvJFvIzx4",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT591S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the triangle choke from mounted triangle is among the most challenging
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Mounted Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How To Escape a Triangle Choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ss49jnCob0w)
+
+<p class="clip-credit"><strong>Avoiding and defending the triangle choke</strong> — taught by Lachlan Giles · 12:55 · <a href="https://www.youtube.com/watch?v=Ss49jnCob0w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=szAvJFvIzx4)
+
+<p class="clip-credit"><strong>How to escape the triangle choke</strong> — taught by Stephan Kesting · 9:51 · <a href="https://www.youtube.com/watch?v=szAvJFvIzx4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

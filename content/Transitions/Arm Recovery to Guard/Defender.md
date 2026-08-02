@@ -148,6 +148,43 @@ description: "How to defend against Arm Recovery to Guard in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Recovery to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding kesa gatame control into the armbar",
+      "description": "Arm Recovery to Guard (Defender) film study: Holding kesa gatame control into the armbar, taught by DARUMA Brazilian Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PpGQsPMAFLA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PpGQsPMAFLA",
+      "url": "https://www.youtube.com/watch?v=PpGQsPMAFLA",
+      "creator": { "@type": "Person", "name": "DARUMA Brazilian Jiu Jitsu" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Transitioning from a failed kesa gatame",
+      "description": "Arm Recovery to Guard (Defender) film study: Transitioning from a failed kesa gatame, taught by ceedublyew.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2AiDW2rNJxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2AiDW2rNJxg",
+      "url": "https://www.youtube.com/watch?v=2AiDW2rNJxg",
+      "creator": { "@type": "Person", "name": "ceedublyew" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Advanced defense involves reading the escape attempt before it develops and pree
 **Opponent's Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Recovery to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PpGQsPMAFLA)
+
+<p class="clip-credit"><strong>Holding kesa gatame control into the armbar</strong> — taught by DARUMA Brazilian Jiu Jitsu · 1:15 · <a href="https://www.youtube.com/watch?v=PpGQsPMAFLA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2AiDW2rNJxg)
+
+<p class="clip-credit"><strong>Transitioning from a failed kesa gatame</strong> — taught by ceedublyew · 0:47 · <a href="https://www.youtube.com/watch?v=2AiDW2rNJxg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

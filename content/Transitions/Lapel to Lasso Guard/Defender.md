@@ -148,6 +148,43 @@ description: "How to defend against Lapel to Lasso Transition in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel to Lasso Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pressure pass the Lasso Guard",
+      "description": "Lapel to Lasso Guard (Defender) film study: Pressure pass the Lasso Guard, taught by Alberto Serrano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EdLPqtAm5yQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EdLPqtAm5yQ",
+      "url": "https://www.youtube.com/watch?v=EdLPqtAm5yQ",
+      "creator": { "@type": "Person", "name": "Alberto Serrano" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso and Spider Guard Defense breakdown",
+      "description": "Lapel to Lasso Guard (Defender) film study: Lasso and Spider Guard Defense breakdown, taught by Binder BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOzoDB10XkY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GOzoDB10XkY",
+      "url": "https://www.youtube.com/watch?v=GOzoDB10XkY",
+      "creator": { "@type": "Person", "name": "Binder BJJ" },
+      "duration": "PT245S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Successful defense demands continuous pressure and grip awareness throughout the
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel to Lasso Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EdLPqtAm5yQ)
+
+<p class="clip-credit"><strong>Pressure pass the Lasso Guard</strong> — taught by Alberto Serrano · 2:03 · <a href="https://www.youtube.com/watch?v=EdLPqtAm5yQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GOzoDB10XkY)
+
+<p class="clip-credit"><strong>Lasso and Spider Guard Defense breakdown</strong> — taught by Binder BJJ · 4:05 · <a href="https://www.youtube.com/watch?v=GOzoDB10XkY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

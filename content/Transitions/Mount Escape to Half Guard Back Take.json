@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Mount Escape to Half Guard Back Take is an advanced multi-step transition that transforms a defensive escape into an offensive back take. Rather than simply recovering guard from mount bottom, this technique chains the standard trap-and-roll or elbow-knee escape into half guard, then capitalizes on the opponent's leg extraction attempt to climb to their back and establish hooks plus seat belt control.\n\nThe technique exploits a critical vulnerability in the mount-to-half-guard recovery sequence: when the top player attempts to extract their trapped leg from half guard, they must shift their weight and create space. This weight shift and the resulting angular change provide the exact conditions needed for the bottom player to swim an underhook, come up to the opponent's hip, and take the back. The opponent is caught between two bad options—leaving their leg trapped in half guard (losing mount) or extracting it and exposing their back.\n\nThis chain technique is particularly effective against opponents who aggressively pursue leg extraction rather than settling into half guard top. The more forcefully they try to free their leg, the more momentum becomes available for the back take. Advanced practitioners bait the leg extraction by loosening half guard control just enough to invite the attempt while preparing the underhook and hip positioning needed for the back take.",
   "related_content": [
     {
@@ -204,42 +216,152 @@
     "flashcards": [
       {
         "question": "Why must the underhook be established during the half guard recovery rather than after?",
-        "answer": "The half guard recovery from mount creates a brief window where the opponent's weight is disrupted and their arms are occupied maintaining balance. This is the optimal moment to swim the underhook because their crossface defense is weakest. After they settle into half guard top, they will prioritize crossface and heavy pressure that makes establishing the underhook much more difficult. The underhook must be part of the escape motion, not a separate action."
+        "answer": "The half guard recovery from mount creates a brief window where the opponent's weight is disrupted and their arms are occupied maintaining balance. This is the optimal moment to swim the underhook because their crossface defense is weakest. After they settle into half guard top, they will prioritize crossface and heavy pressure that makes establishing the underhook much more difficult. The underhook must be part of the escape motion, not a separate action.",
+        "answer_line": "Swim underhook during the escape",
+        "distractors": {
+          "plausible": [
+            "Get underhook after they settle",
+            "Secure crossface before underhook"
+          ],
+          "trap": [
+            "Wait until they pass to half guard"
+          ]
+        }
       },
       {
         "question": "What is the opponent's dilemma when you maintain loose half guard with an underhook?",
-        "answer": "The opponent faces a lose-lose choice: if they extract their leg, the weight shift and backward momentum give you the opening to come up and take the back. If they leave their leg trapped, they are stuck in half guard bottom (from their perspective as passer) with you holding an underhook—a strong sweeping and back-taking position. The more aggressively they try to extract, the more momentum you have for the back take. This dilemma is what makes the technique effective."
+        "answer": "The opponent faces a lose-lose choice: if they extract their leg, the weight shift and backward momentum give you the opening to come up and take the back. If they leave their leg trapped, they are stuck in half guard bottom (from their perspective as passer) with you holding an underhook—a strong sweeping and back-taking position. The more aggressively they try to extract, the more momentum you have for the back take. This dilemma is what makes the technique effective.",
+        "answer_line": "Either choice gives you momentum",
+        "distractors": {
+          "plausible": [
+            "They can safely reset to mount",
+            "Extracting fully escapes half guard"
+          ],
+          "trap": [
+            "Let them pass to side control"
+          ]
+        }
       },
       {
         "question": "When should you abandon the back take and default to standard half guard play?",
-        "answer": "Abandon the back take when: the opponent establishes a strong crossface before you can come up (the crossface prevents the rise needed for back take), the opponent settles their weight into half guard top without attempting extraction (no momentum to exploit), or you miss the timing window during extraction and the opponent has already recovered base. In all these cases, you still have a viable half guard bottom position with underhook, which is a strong position for sweeps."
+        "answer": "Abandon the back take when: the opponent establishes a strong crossface before you can come up (the crossface prevents the rise needed for back take), the opponent settles their weight into half guard top without attempting extraction (no momentum to exploit), or you miss the timing window during extraction and the opponent has already recovered base. In all these cases, you still have a viable half guard bottom position with underhook, which is a strong position for sweeps.",
+        "answer_line": "Abandon if crossface lands first",
+        "distractors": {
+          "plausible": [
+            "Only if you lose the underhook",
+            "As soon as they touch your leg"
+          ],
+          "trap": [
+            "Force the back take regardless"
+          ]
+        }
       },
       {
         "question": "How does the seat belt establishment differ in this back take compared to a standard back take from standing?",
-        "answer": "In this chain, the underhook arm naturally becomes the over-shoulder arm of the seat belt as you circle behind. The transition is organic—you do not need to release the underhook and re-grip. Your underhook slides across their chest to their far shoulder while your other arm threads under their armpit. This is smoother than a standing back take where you must establish the seat belt from scratch. The key is maintaining the underhook throughout the circle rather than releasing it at any point."
+        "answer": "In this chain, the underhook arm naturally becomes the over-shoulder arm of the seat belt as you circle behind. The transition is organic—you do not need to release the underhook and re-grip. Your underhook slides across their chest to their far shoulder while your other arm threads under their armpit. This is smoother than a standing back take where you must establish the seat belt from scratch. The key is maintaining the underhook throughout the circle rather than releasing it at any point.",
+        "answer_line": "Underhook arm becomes seat belt arm",
+        "distractors": {
+          "plausible": [
+            "Release and re-grip seat belt",
+            "Switch hands during the circle"
+          ],
+          "trap": [
+            "Drop underhook to speed the circle"
+          ]
+        }
       },
       {
         "question": "What makes this technique particularly effective against aggressive mount players?",
-        "answer": "Aggressive mount players tend to pursue immediate leg extraction from half guard because they want to re-establish mount or advance to side control quickly. This urgency creates exactly the momentum and weight shift needed for the back take. Conservative players who settle into half guard top are actually harder targets for this chain because they deny the extraction opportunity. Against aggressive opponents, the technique rewards patience—let them commit to the extraction and use their energy for your back take."
+        "answer": "Aggressive mount players tend to pursue immediate leg extraction from half guard because they want to re-establish mount or advance to side control quickly. This urgency creates exactly the momentum and weight shift needed for the back take. Conservative players who settle into half guard top are actually harder targets for this chain because they deny the extraction opportunity. Against aggressive opponents, the technique rewards patience—let them commit to the extraction and use their energy for your back take.",
+        "answer_line": "Their extraction fuels your take",
+        "distractors": {
+          "plausible": [
+            "Works best on passive opponents",
+            "Speed always beats their base"
+          ],
+          "trap": [
+            "Force extraction if they stall"
+          ]
+        }
       },
       {
         "question": "What specific grip configuration must be maintained throughout the come-up and circling phase?",
-        "answer": "The underhook arm must maintain deep penetration under the opponent's armpit with your hand gripping their far lat or shoulder blade area. Your other hand controls their hip or belt line on the near side to prevent them from turning into you. During the circle, the underhook hand slides naturally toward their far shoulder while the hip-controlling hand threads under their armpit to form the seat belt. Releasing either grip prematurely during the circle creates a window for the opponent to spin and face you, collapsing the back take."
+        "answer": "The underhook arm must maintain deep penetration under the opponent's armpit with your hand gripping their far lat or shoulder blade area. Your other hand controls their hip or belt line on the near side to prevent them from turning into you. During the circle, the underhook hand slides naturally toward their far shoulder while the hip-controlling hand threads under their armpit to form the seat belt. Releasing either grip prematurely during the circle creates a window for the opponent to spin and face you, collapsing the back take.",
+        "answer_line": "Deep underhook, control their hip",
+        "distractors": {
+          "plausible": [
+            "Underhook plus wrist control",
+            "Crossface plus far hip control"
+          ],
+          "trap": [
+            "Release hip grip to speed circle"
+          ]
+        }
       },
       {
         "question": "In which direction should your primary driving force be oriented during the come-up from half guard?",
-        "answer": "Your driving force should be diagonal—upward and toward the opponent's far hip, not straight up. Driving straight up leaves you in a neutral dogfight where the opponent can re-pummel. Driving toward their far hip angles your body behind theirs from the start, making the circle to back control a continuation of the initial motion rather than a separate step. The bottom foot provides the push, the underhook provides the pull, and both forces converge on the opponent's far hip as the focal point."
+        "answer": "Your driving force should be diagonal—upward and toward the opponent's far hip, not straight up. Driving straight up leaves you in a neutral dogfight where the opponent can re-pummel. Driving toward their far hip angles your body behind theirs from the start, making the circle to back control a continuation of the initial motion rather than a separate step. The bottom foot provides the push, the underhook provides the pull, and both forces converge on the opponent's far hip as the focal point.",
+        "answer_line": "Diagonal, toward their far hip",
+        "distractors": {
+          "plausible": [
+            "Straight up off the mat",
+            "Straight toward their head"
+          ],
+          "trap": [
+            "Push down to flatten them out"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you begin circling behind—how do you adjust?",
-        "answer": "When the opponent posts their far hand, they are trying to base out and prevent you from completing the circle. Use your free hand to chop or block their posting arm at the elbow, collapsing their base on that side. Alternatively, accelerate your circle by pulling harder with the underhook while driving your head deeper into their armpit. The posting hand means they have removed one hand from defending your underhook or controlling your head, which actually improves your grip position even if it temporarily slows the circle. Some practitioners deliberately target the posted arm for a gift wrap control during this phase."
+        "answer": "When the opponent posts their far hand, they are trying to base out and prevent you from completing the circle. Use your free hand to chop or block their posting arm at the elbow, collapsing their base on that side. Alternatively, accelerate your circle by pulling harder with the underhook while driving your head deeper into their armpit. The posting hand means they have removed one hand from defending your underhook or controlling your head, which actually improves your grip position even if it temporarily slows the circle. Some practitioners deliberately target the posted arm for a gift wrap control during this phase.",
+        "answer_line": "Chop the post or pull harder",
+        "distractors": {
+          "plausible": [
+            "Stop and reset the underhook",
+            "Attack the posted arm instead"
+          ],
+          "trap": [
+            "Release underhook to grab post"
+          ]
+        }
       },
       {
         "question": "If the back take stalls at the dogfight position, what chain attacks remain available?",
-        "answer": "From dogfight with your underhook established, you have several high-percentage options: continue fighting the underhook battle and re-attempt the back circle when they overcommit to re-pummeling, execute a standard dogfight sweep by driving into them and lifting their trapped leg to come up on top to side control, transition to a single leg takedown by dropping your level and attacking their posted leg, or pull them into deep half guard by sitting back under them. The dogfight is not a dead end—it is a branching point with multiple offensive pathways, all of which are superior to the mount bottom you started from."
+        "answer": "From dogfight with your underhook established, you have several high-percentage options: continue fighting the underhook battle and re-attempt the back circle when they overcommit to re-pummeling, execute a standard dogfight sweep by driving into them and lifting their trapped leg to come up on top to side control, transition to a single leg takedown by dropping your level and attacking their posted leg, or pull them into deep half guard by sitting back under them. The dogfight is not a dead end—it is a branching point with multiple offensive pathways, all of which are superior to the mount bottom you started from.",
+        "answer_line": "Sweep, single leg, or deep half",
+        "distractors": {
+          "plausible": [
+            "Only re-attempt the back circle",
+            "Return to mount top immediately"
+          ],
+          "trap": [
+            "Release underhook and reset guard"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This is a positional chain technique with minimal inherent injury risk. The primary safety consideration is controlling the bridge during the initial mount escape to avoid injuring training partners. Bridge with controlled force during drilling and communicate with partners about intensity levels. During the back take phase, be careful not to crank the neck when driving your head into the opponent's armpit area. In competition, be aware that the multi-step nature of this technique requires sustained physical effort."
+    "safety_considerations": "This is a positional chain technique with minimal inherent injury risk. The primary safety consideration is controlling the bridge during the initial mount escape to avoid injuring training partners. Bridge with controlled force during drilling and communicate with partners about intensity levels. During the back take phase, be careful not to crank the neck when driving your head into the opponent's armpit area. In competition, be aware that the multi-step nature of this technique requires sustained physical effort.",
+    "clips": [
+      {
+        "id": "cyegyon5hVg",
+        "title": "Two mount escape options into half guard",
+        "by": "Revolution BJJ coach",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XqH1Bt0-AgY",
+        "title": "Back take from half guard",
+        "by": "BJJ Recap coach",
+        "vertical": false,
+        "channel": "BJJ Recap",
+        "duration": 39,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mount Escape to Half Guard Back Take Defender",
@@ -311,23 +433,73 @@
     "flashcards": [
       {
         "question": "Why is crossface the first priority after your mount is escaped to half guard?",
-        "answer": "The crossface serves two critical functions: it prevents the opponent from establishing the underhook by controlling their head and shoulder position, and it flattens their posture which makes the come-up phase of the back take impossible. Without crossface, the opponent can freely swim the underhook and begin rising to your hip. The crossface must be established in the same motion as the mount escape recovery—not as a separate action after settling."
+        "answer": "The crossface serves two critical functions: it prevents the opponent from establishing the underhook by controlling their head and shoulder position, and it flattens their posture which makes the come-up phase of the back take impossible. Without crossface, the opponent can freely swim the underhook and begin rising to your hip. The crossface must be established in the same motion as the mount escape recovery—not as a separate action after settling.",
+        "answer_line": "Denies underhook, flattens posture",
+        "distractors": {
+          "plausible": [
+            "Controls hips to stop the sweep",
+            "Frees your hips to attack legs"
+          ],
+          "trap": [
+            "Skip it and attack the legs first"
+          ]
+        }
       },
       {
         "question": "How do you recognize when the opponent is baiting your leg extraction for a back take?",
-        "answer": "Key indicators: their half guard control feels intentionally loose rather than defensive, they have a deep underhook established with their head driving toward your armpit, and their body is angled toward your side rather than flat on their back. A defensive half guard player would be framing, fighting grips, and maintaining tight half guard—the opposite of what the back take chain requires. When you sense these indicators, slow down and consolidate rather than extracting."
+        "answer": "Key indicators: their half guard control feels intentionally loose rather than defensive, they have a deep underhook established with their head driving toward your armpit, and their body is angled toward your side rather than flat on their back. A defensive half guard player would be framing, fighting grips, and maintaining tight half guard—the opposite of what the back take chain requires. When you sense these indicators, slow down and consolidate rather than extracting.",
+        "answer_line": "Loose guard plus deep underhook",
+        "distractors": {
+          "plausible": [
+            "Tight defensive half guard grips",
+            "Heavy crossface pressure on you"
+          ],
+          "trap": [
+            "Extract leg fast before they set"
+          ]
+        }
       },
       {
         "question": "What specific body mechanics prevent the opponent from completing the come-up during your leg extraction?",
-        "answer": "Drive your shoulder and chest weight forward into the opponent as you extract, keeping your hips low and heavy rather than lifting upward. Your crossface arm should maintain constant pressure across their jaw, turning their head away from the underhook side and breaking their spinal alignment. Post your free leg wide with the knee angled outward to create a stable base that resists their upward drive. The combined effect of forward pressure, head control, and wide base eliminates the space corridor they need to rise to your hip."
+        "answer": "Drive your shoulder and chest weight forward into the opponent as you extract, keeping your hips low and heavy rather than lifting upward. Your crossface arm should maintain constant pressure across their jaw, turning their head away from the underhook side and breaking their spinal alignment. Post your free leg wide with the knee angled outward to create a stable base that resists their upward drive. The combined effect of forward pressure, head control, and wide base eliminates the space corridor they need to rise to your hip.",
+        "answer_line": "Forward pressure plus crossface",
+        "distractors": {
+          "plausible": [
+            "Lift hips high to clear the leg",
+            "Sit back to control distance"
+          ],
+          "trap": [
+            "Extract fast before they adjust"
+          ]
+        }
       },
       {
         "question": "If you feel the opponent start coming up on their underhook during extraction, what is the immediate counter?",
-        "answer": "Stop the extraction immediately and drive your shoulder into them with a hard crossface, sprawling your hips back and down to create downward pressure. If they have already risen partially, use a whizzer (overhook) on their underhook arm and drive them back to the mat by circling toward their head. The whizzer counters the underhook directly and can be used to spin them back flat. If they are too far into the come-up for the whizzer to work, abandon the half guard entirely and re-mount by stepping your free leg over their hip while they are still transitioning."
+        "answer": "Stop the extraction immediately and drive your shoulder into them with a hard crossface, sprawling your hips back and down to create downward pressure. If they have already risen partially, use a whizzer (overhook) on their underhook arm and drive them back to the mat by circling toward their head. The whizzer counters the underhook directly and can be used to spin them back flat. If they are too far into the come-up for the whizzer to work, abandon the half guard entirely and re-mount by stepping your free leg over their hip while they are still transitioning.",
+        "answer_line": "Whizzer and drive them flat",
+        "distractors": {
+          "plausible": [
+            "Push their head down and wait",
+            "Switch to a guillotine choke"
+          ],
+          "trap": [
+            "Let them stand to reset position"
+          ]
+        }
       },
       {
         "question": "Why is settling into half guard top sometimes the best defensive choice even though it surrenders your mount?",
-        "answer": "Half guard top with a strong crossface and underhook denial is a stable, low-risk position where you maintain clear passing pathways and the opponent has limited offensive options. Attempting to re-mount or aggressively extracting against an opponent with a deep underhook and back take setup carries significant risk of giving up back control—the worst possible outcome. By accepting half guard top and passing methodically, you trade a small positional concession for complete elimination of the back take threat. The scoring math supports this: losing mount costs no points if you already scored them, but giving up the back costs four points."
+        "answer": "Half guard top with a strong crossface and underhook denial is a stable, low-risk position where you maintain clear passing pathways and the opponent has limited offensive options. Attempting to re-mount or aggressively extracting against an opponent with a deep underhook and back take setup carries significant risk of giving up back control—the worst possible outcome. By accepting half guard top and passing methodically, you trade a small positional concession for complete elimination of the back take threat. The scoring math supports this: losing mount costs no points if you already scored them, but giving up the back costs four points.",
+        "answer_line": "Trades position to deny the back",
+        "distractors": {
+          "plausible": [
+            "Always re-mount instead",
+            "Fight for underhook denial only"
+          ],
+          "trap": [
+            "Chase the sweep aggressively"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -345,6 +517,26 @@
         "phase": "Phase 3: Bait Recognition",
         "focus": "Identifying when leg extraction is a trap",
         "description": "Partner randomly uses either defensive half guard or bait half guard. You must read the situation and either pass or consolidate accordingly. Develop the decision-making to avoid the trap."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hHbb7ywVTwU",
+        "title": "Countering the half guard back take from the top",
+        "by": "JiuJitsu.com coach",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "D_k_8C3UJ5Y",
+        "title": "Maintaining Top Mount Control Against Escapes",
+        "by": "Teach Me NoGi coach",
+        "vertical": false,
+        "channel": "Teach Me NoGi",
+        "duration": 199,
+        "verified": "2026-07-15"
       }
     ]
   },

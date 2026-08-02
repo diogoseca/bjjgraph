@@ -140,6 +140,54 @@ description: "Master defending against the Outside Ashi to Inside Ashi counter-e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Ashi to Inside Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Irimi Ashi Garami counter",
+      "description": "Outside Ashi to Inside Ashi (Defender) film study: Irimi Ashi Garami counter, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
+      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT29S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ashi Garami defense and counter pass",
+      "description": "Outside Ashi to Inside Ashi (Defender) film study: Ashi Garami defense and counter pass, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mZp355NAIYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mZp355NAIYk",
+      "url": "https://www.youtube.com/watch?v=mZp355NAIYk",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two counters vs Outside Ashi Garami",
+      "description": "Outside Ashi to Inside Ashi (Defender) film study: Two counters vs Outside Ashi Garami, taught by Oneonta Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MFA3wu20LzI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MFA3wu20LzI",
+      "url": "https://www.youtube.com/watch?v=MFA3wu20LzI",
+      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu coach" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Outside Ashi to Inside Ashi transition, you are the 
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Ashi to Inside Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
+
+<p class="clip-credit"><strong>Irimi Ashi Garami counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mZp355NAIYk)
+
+<p class="clip-credit"><strong>Ashi Garami defense and counter pass</strong> — taught by The Grappling Bloke · 1:51 · <a href="https://www.youtube.com/watch?v=mZp355NAIYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MFA3wu20LzI)
+
+<p class="clip-credit"><strong>Two counters vs Outside Ashi Garami</strong> — taught by Oneonta Jiu Jitsu coach · 2:21 · <a href="https://www.youtube.com/watch?v=MFA3wu20LzI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

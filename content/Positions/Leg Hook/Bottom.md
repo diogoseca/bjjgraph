@@ -21,37 +21,37 @@ description: "Master Leg Hook Bottom in BJJ. Transitional half guard control wit
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 34% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shin Shield Recovery",
-      "text": "From this position, attempt Shin Shield Recovery. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Shin Shield Recovery. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Recovery",
-      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Leg Hook Bottom in BJJ. Transitional half guard control wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Hook (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roger windmill half guard sweep",
+      "description": "Leg Hook (Bottom) film study: Roger windmill half guard sweep, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3M6JUqr1Bo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3M6JUqr1Bo",
+      "url": "https://www.youtube.com/watch?v=X3M6JUqr1Bo",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Old school half guard sweep",
+      "description": "Leg Hook (Bottom) film study: Old school half guard sweep, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jnc2siD9cak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jnc2siD9cak",
+      "url": "https://www.youtube.com/watch?v=Jnc2siD9cak",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lockdown half guard Godfather sweep",
+      "description": "Leg Hook (Bottom) film study: Lockdown half guard Godfather sweep, taught by Coach Paul.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tTroLgpLJ1k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tTroLgpLJ1k",
+      "url": "https://www.youtube.com/watch?v=tTroLgpLJ1k",
+      "creator": { "@type": "Person", "name": "Coach Paul" },
+      "duration": "PT11S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Leg Hook Bottom in BJJ. Transitional half guard control wit
 Leg Hook Bottom Position represents a critical transitional state within the half guard family, characterized by the bottom player's ability to control one of the top player's legs using their own leg hooks while maintaining a defensive frame. This position often emerges when the bottom practitioner is working to recover full guard from side control or prevent the completion of a guard pass. The leg hook provides crucial control over the top player's base and mobility, creating opportunities for sweeps, back takes, and guard recovery while simultaneously defending against passes. Unlike traditional half guard where the legs are wrapped around the opponent's trapped leg, the leg hook position features more dynamic leg entanglement that can quickly transition to deep half guard, X-guard variations, or single leg X positions. The position requires constant movement and adjustment, as the top player will actively work to free their trapped leg and establish dominant pressure. Success in this position depends on maintaining active frames with the arms, using the leg hook to off-balance the opponent, and timing transitions to more advantageous positions. The leg hook bottom position is particularly valuable in no-gi grappling where traditional gi grips are unavailable, making the leg-based control even more essential for defensive success.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Hook (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X3M6JUqr1Bo)
+
+<p class="clip-credit"><strong>Roger windmill half guard sweep</strong> — taught by SBG Australia · 0:16 · <a href="https://www.youtube.com/watch?v=X3M6JUqr1Bo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jnc2siD9cak)
+
+<p class="clip-credit"><strong>Old school half guard sweep</strong> — taught by Ritchie Yip · 0:12 · <a href="https://www.youtube.com/watch?v=Jnc2siD9cak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tTroLgpLJ1k)
+
+<p class="clip-credit"><strong>Lockdown half guard Godfather sweep</strong> — taught by Coach Paul · 0:11 · <a href="https://www.youtube.com/watch?v=tTroLgpLJ1k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

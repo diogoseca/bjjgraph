@@ -164,6 +164,32 @@ description: "Master skeletal structure in BJJ. Learn bone stacking, joint align
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Structure \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How base, posture and connection work in BJJ",
+      "description": "Structure film study: How base, posture and connection work in BJJ, taught by SBG PDX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KuZtR1mogvY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KuZtR1mogvY",
+      "url": "https://www.youtube.com/watch?v=KuZtR1mogvY",
+      "creator": { "@type": "Person", "name": "SBG PDX" },
+      "duration": "PT222S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Structure?
@@ -177,6 +203,26 @@ The core mechanism is bone stacking — aligning skeletal segments so that force
 Structure also has a dynamic dimension. While static bone stacking matters, understanding when to be rigid versus flexible is equally important. A rigid structure resists force effectively but cannot absorb or redirect it. A flexible structure yields to force but can be used to redirect momentum and create openings. The expert practitioner alternates between rigid and flexible structural states depending on whether they need to resist, transmit, redirect, or absorb force in any given moment.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Structure in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KuZtR1mogvY)
+
+<p class="clip-credit"><strong>How base, posture and connection work in BJJ</strong> — taught by SBG PDX · 3:42 · <a href="https://www.youtube.com/watch?v=KuZtR1mogvY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

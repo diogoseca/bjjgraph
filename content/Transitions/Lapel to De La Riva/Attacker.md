@@ -174,6 +174,54 @@ description: "How to execute Lapel to De La Riva in BJJ. Attacking perspective w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel to De La Riva (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sleeve and lapel De La Riva sweeps",
+      "description": "Lapel to De La Riva (Attacker) film study: Sleeve and lapel De La Riva sweeps, taught by Nate Stubley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wMwYOHmtLuY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wMwYOHmtLuY",
+      "url": "https://www.youtube.com/watch?v=wMwYOHmtLuY",
+      "creator": { "@type": "Person", "name": "Nate Stubley" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse De La Worm to shin-to-shin back take",
+      "description": "Lapel to De La Riva (Attacker) film study: Reverse De La Worm to shin-to-shin back take, taught by BJJ Online.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_lzJebmY_v8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_lzJebmY_v8",
+      "url": "https://www.youtube.com/watch?v=_lzJebmY_v8",
+      "creator": { "@type": "Person", "name": "BJJ Online" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lapel lasso to De La Riva technique",
+      "description": "Lapel to De La Riva (Attacker) film study: Lapel lasso to De La Riva technique, taught by Carlson Gracie Team CT.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kc_jgNjyL1g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kc_jgNjyL1g",
+      "url": "https://www.youtube.com/watch?v=Kc_jgNjyL1g",
+      "creator": { "@type": "Person", "name": "Carlson Gracie Team CT" },
+      "duration": "PT218S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ Strategically, this transition is most valuable against opponents who have learn
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel to De La Riva (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wMwYOHmtLuY)
+
+<p class="clip-credit"><strong>Sleeve and lapel De La Riva sweeps</strong> — taught by Nate Stubley · 1:01 · <a href="https://www.youtube.com/watch?v=wMwYOHmtLuY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_lzJebmY_v8)
+
+<p class="clip-credit"><strong>Reverse De La Worm to shin-to-shin back take</strong> — taught by BJJ Online · 1:00 · <a href="https://www.youtube.com/watch?v=_lzJebmY_v8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kc_jgNjyL1g)
+
+<p class="clip-credit"><strong>Lapel lasso to De La Riva technique</strong> — taught by Carlson Gracie Team CT · 3:38 · <a href="https://www.youtube.com/watch?v=Kc_jgNjyL1g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

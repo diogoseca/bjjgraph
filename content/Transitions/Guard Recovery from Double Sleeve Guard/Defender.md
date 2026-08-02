@@ -142,6 +142,43 @@ description: "Prevent guard recovery from double sleeve guard as the top player 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Double Sleeve Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Denying straight-arm guard retention while passing",
+      "description": "Guard Recovery from Double Sleeve Guard (Defender) film study: Denying straight-arm guard retention while passing, taught by Cameron Florczak.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UoJul9UvRao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UoJul9UvRao",
+      "url": "https://www.youtube.com/watch?v=UoJul9UvRao",
+      "creator": { "@type": "Person", "name": "Cameron Florczak" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the full inversion recovery",
+      "description": "Guard Recovery from Double Sleeve Guard (Defender) film study: Countering the full inversion recovery, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ As the top player against double sleeve guard, your opponent's guard recovery at
 **Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Double Sleeve Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UoJul9UvRao)
+
+<p class="clip-credit"><strong>Denying straight-arm guard retention while passing</strong> — taught by Cameron Florczak · 1:06 · <a href="https://www.youtube.com/watch?v=UoJul9UvRao" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering the full inversion recovery</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

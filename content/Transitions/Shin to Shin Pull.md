@@ -34,6 +34,43 @@ description: "Master the Shin to Shin Pull in BJJ. Step-by-step execution from S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin to Shin Pull \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin to Shin Guard entry and grips",
+      "description": "Shin to Shin Pull film study: Shin to Shin Guard entry and grips, taught by RGA South Herts coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sUJIGs8Othc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sUJIGs8Othc",
+      "url": "https://www.youtube.com/watch?v=sUJIGs8Othc",
+      "creator": { "@type": "Person", "name": "RGA South Herts coach" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva to shin-on-shin to the back",
+      "description": "Shin to Shin Pull film study: De La Riva to shin-on-shin to the back, taught by Carpio Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a1lWupzNhkg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a1lWupzNhkg",
+      "url": "https://www.youtube.com/watch?v=a1lWupzNhkg",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu coach" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The shin-to-shin pull has become increasingly popular in modern competition BJJ 
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin to Shin Pull in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sUJIGs8Othc)
+
+<p class="clip-credit"><strong>Shin to Shin Guard entry and grips</strong> — taught by RGA South Herts coach · 1:16 · <a href="https://www.youtube.com/watch?v=sUJIGs8Othc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a1lWupzNhkg)
+
+<p class="clip-credit"><strong>De La Riva to shin-on-shin to the back</strong> — taught by Carpio Jiu Jitsu coach · 1:21 · <a href="https://www.youtube.com/watch?v=a1lWupzNhkg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

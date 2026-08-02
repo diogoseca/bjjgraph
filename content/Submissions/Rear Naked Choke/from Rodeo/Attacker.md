@@ -176,6 +176,43 @@ description: "Learn to finish the Rear Naked Choke from Rodeo Ride. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Rodeo (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Details on finishing the rear naked choke",
+      "description": "Rear Naked Choke from Rodeo (Attacker) film study: Details on finishing the rear naked choke, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw",
+      "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rodeo choke from the back",
+      "description": "Rear Naked Choke from Rodeo (Attacker) film study: Rodeo choke from the back, taught by Ethos Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6MhcPYISQDU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6MhcPYISQDU",
+      "url": "https://www.youtube.com/watch?v=6MhcPYISQDU",
+      "creator": { "@type": "Person", "name": "Ethos Jiu-Jitsu" },
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Executing the Rear Naked Choke from Rodeo Ride requires integrating positional c
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Rodeo (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8tdVE2zgjXw)
+
+<p class="clip-credit"><strong>Details on finishing the rear naked choke</strong> — taught by Craig Jones · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6MhcPYISQDU)
+
+<p class="clip-credit"><strong>Rodeo choke from the back</strong> — taught by Ethos Jiu-Jitsu · 1:25 · <a href="https://www.youtube.com/watch?v=6MhcPYISQDU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

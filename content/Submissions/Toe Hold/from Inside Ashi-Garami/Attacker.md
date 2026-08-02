@@ -176,6 +176,43 @@ description: "Learn to finish the toe hold from Inside Ashi-Garami with proper f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Inside Ashi-Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel Hook to Toe Hold from Guard",
+      "description": "Toe Hold from Inside Ashi-Garami (Attacker) film study: Heel Hook to Toe Hold from Guard, taught by Kinesiology College.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h3f04mxXQ8M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h3f04mxXQ8M",
+      "url": "https://www.youtube.com/watch?v=h3f04mxXQ8M",
+      "creator": { "@type": "Person", "name": "Kinesiology College" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking the Toe Hold from Ashi Garami",
+      "description": "Toe Hold from Inside Ashi-Garami (Attacker) film study: Attacking the Toe Hold from Ashi Garami, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zsnGef5-N2g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zsnGef5-N2g",
+      "url": "https://www.youtube.com/watch?v=zsnGef5-N2g",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT202S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking the toe hold from Inside Ashi-Garami requires establishing secure leg 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Inside Ashi-Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h3f04mxXQ8M)
+
+<p class="clip-credit"><strong>Heel Hook to Toe Hold from Guard</strong> — taught by Kinesiology College · 0:43 · <a href="https://www.youtube.com/watch?v=h3f04mxXQ8M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zsnGef5-N2g)
+
+<p class="clip-credit"><strong>Attacking the Toe Hold from Ashi Garami</strong> — taught by Brian Glick · 3:22 · <a href="https://www.youtube.com/watch?v=zsnGef5-N2g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

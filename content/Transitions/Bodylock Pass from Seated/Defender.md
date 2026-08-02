@@ -140,6 +140,54 @@ description: "Defend against the Bodylock Pass from Seated Guard with recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bodylock Pass from Seated (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Body lock pass counters",
+      "description": "Bodylock Pass from Seated (Defender) film study: Body lock pass counters, taught by Gracie Westchase coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AdEb7U9e4Z8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AdEb7U9e4Z8",
+      "url": "https://www.youtube.com/watch?v=AdEb7U9e4Z8",
+      "creator": { "@type": "Person", "name": "Gracie Westchase coach" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body lock pass defense: inside position and elevator sweep",
+      "description": "Bodylock Pass from Seated (Defender) film study: Body lock pass defense: inside position and elevator sweep, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YVeeiNy43j4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YVeeiNy43j4",
+      "url": "https://www.youtube.com/watch?v=YVeeiNy43j4",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering a failed body lock pass",
+      "description": "Bodylock Pass from Seated (Defender) film study: Countering a failed body lock pass, taught by Factory Fresh coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9DXogw_sChY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9DXogw_sChY",
+      "url": "https://www.youtube.com/watch?v=9DXogw_sChY",
+      "creator": { "@type": "Person", "name": "Factory Fresh coach" },
+      "duration": "PT139S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender facing the Bodylock Pass from Seated Guard, your primary objecti
 **Opponent's Starting Position**: [[Positions/Seated Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bodylock Pass from Seated (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AdEb7U9e4Z8)
+
+<p class="clip-credit"><strong>Body lock pass counters</strong> — taught by Gracie Westchase coach · 1:29 · <a href="https://www.youtube.com/watch?v=AdEb7U9e4Z8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YVeeiNy43j4)
+
+<p class="clip-credit"><strong>Body lock pass defense: inside position and elevator sweep</strong> — taught by Brian Glick · 2:03 · <a href="https://www.youtube.com/watch?v=YVeeiNy43j4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9DXogw_sChY)
+
+<p class="clip-credit"><strong>Countering a failed body lock pass</strong> — taught by Factory Fresh coach · 2:19 · <a href="https://www.youtube.com/watch?v=9DXogw_sChY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

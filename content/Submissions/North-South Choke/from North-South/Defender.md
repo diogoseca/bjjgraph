@@ -150,6 +150,43 @@ description: "Defend the North-South Choke from North-South position. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from North-South (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North South inverted spin escape",
+      "description": "North-South Choke from North-South (Defender) film study: North South inverted spin escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
+      "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape North South",
+      "description": "North-South Choke from North-South (Defender) film study: How to escape North South, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rmT52A--V3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rmT52A--V3Q",
+      "url": "https://www.youtube.com/watch?v=rmT52A--V3Q",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT203S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending against the North-South Choke requires early recognition and immediate
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from North-South (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XaLBmGnHm78)
+
+<p class="clip-credit"><strong>North South inverted spin escape</strong> — taught by SBG Australia · 0:37 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rmT52A--V3Q)
+
+<p class="clip-credit"><strong>How to escape North South</strong> — taught by Jon Thomas · 3:23 · <a href="https://www.youtube.com/watch?v=rmT52A--V3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

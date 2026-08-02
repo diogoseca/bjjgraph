@@ -148,6 +148,43 @@ description: "How to defend against Lapel to Spider Transition in BJJ. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel to Spider Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spider Guard Pass (Gi)",
+      "description": "Lapel to Spider Guard (Defender) film study: Spider Guard Pass (Gi), taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J7xuLdBaVeY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J7xuLdBaVeY",
+      "url": "https://www.youtube.com/watch?v=J7xuLdBaVeY",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spider Guard passing",
+      "description": "Lapel to Spider Guard (Defender) film study: Spider Guard passing, taught by Christopher Frazier.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w5zek2cOaYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w5zek2cOaYA",
+      "url": "https://www.youtube.com/watch?v=w5zek2cOaYA",
+      "creator": { "@type": "Person", "name": "Christopher Frazier" },
+      "duration": "PT142S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Successful defense demands recognizing that aggressive forward pressure during t
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel to Spider Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J7xuLdBaVeY)
+
+<p class="clip-credit"><strong>Spider Guard Pass (Gi)</strong> — taught by ZombieProofBJJ · 0:41 · <a href="https://www.youtube.com/watch?v=J7xuLdBaVeY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w5zek2cOaYA)
+
+<p class="clip-credit"><strong>Spider Guard passing</strong> — taught by Christopher Frazier · 2:22 · <a href="https://www.youtube.com/watch?v=w5zek2cOaYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

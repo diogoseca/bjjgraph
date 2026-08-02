@@ -34,6 +34,54 @@ description: "Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard to Ashi Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X-Guard to Ashi Garami (Saddle) to ankle lock",
+      "description": "X-Guard to Ashi Garami film study: X-Guard to Ashi Garami (Saddle) to ankle lock, taught by The Bear\u0027s Den BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lUeZ2AAbm7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lUeZ2AAbm7c",
+      "url": "https://www.youtube.com/watch?v=lUeZ2AAbm7c",
+      "creator": { "@type": "Person", "name": "The Bear\u0027s Den BJJ coach" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X-Guard to Saddle (cross ashi) entry",
+      "description": "X-Guard to Ashi Garami film study: X-Guard to Saddle (cross ashi) entry, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HVc2CKdAfN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HVc2CKdAfN0",
+      "url": "https://www.youtube.com/watch?v=HVc2CKdAfN0",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Entries to Single X / Ashi Garami",
+      "description": "X-Guard to Ashi Garami film study: Entries to Single X / Ashi Garami, taught by Primal MKE coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gxDZILDKNyQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gxDZILDKNyQ",
+      "url": "https://www.youtube.com/watch?v=gxDZILDKNyQ",
+      "creator": { "@type": "Person", "name": "Primal MKE coach" },
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +113,42 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard to Ashi Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lUeZ2AAbm7c)
+
+<p class="clip-credit"><strong>X-Guard to Ashi Garami (Saddle) to ankle lock</strong> — taught by The Bear&#39;s Den BJJ coach · 1:22 · <a href="https://www.youtube.com/watch?v=lUeZ2AAbm7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HVc2CKdAfN0)
+
+<p class="clip-credit"><strong>X-Guard to Saddle (cross ashi) entry</strong> — taught by Johnny Jitsu · 2:00 · <a href="https://www.youtube.com/watch?v=HVc2CKdAfN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gxDZILDKNyQ)
+
+<p class="clip-credit"><strong>Entries to Single X / Ashi Garami</strong> — taught by Primal MKE coach · 1:11 · <a href="https://www.youtube.com/watch?v=gxDZILDKNyQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -256,7 +340,7 @@ The X-Guard to Ashi transition represents a critical link between traditional gu
 
 - [[Transitions/Inside Ashi Entry]] - Alternative Entry Method
 
-- [[Transitions/Heel Hook]] - Primary Submission Follow-Up
+- [[Submissions/Heel Hook]] - Primary Submission Follow-Up
 
 - [[Submissions/Inside Heel Hook]] - Specific Submission From Position
 

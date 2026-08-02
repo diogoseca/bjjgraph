@@ -34,6 +34,54 @@ description: "Master the Rodeo Ride to Turtle transition in BJJ. Learn to conver
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rodeo Ride to Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking the Turtle with the Spiral Ride",
+      "description": "Rodeo Ride to Turtle film study: Breaking the Turtle with the Spiral Ride, taught by Big Guy BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XXnawMQEfKw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XXnawMQEfKw",
+      "url": "https://www.youtube.com/watch?v=XXnawMQEfKw",
+      "creator": { "@type": "Person", "name": "Big Guy BJJ" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spiral ride into the seated rodeo ride on turtle",
+      "description": "Rodeo Ride to Turtle film study: Spiral ride into the seated rodeo ride on turtle, taught by Steve Scott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S6o_HLxqd3c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S6o_HLxqd3c",
+      "url": "https://www.youtube.com/watch?v=S6o_HLxqd3c",
+      "creator": { "@type": "Person", "name": "Steve Scott" },
+      "duration": "PT231S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rodeo ride basics for controlling a turtled opponent",
+      "description": "Rodeo Ride to Turtle film study: Rodeo ride basics for controlling a turtled opponent, taught by Steve Scott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wo9va8yGZp8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wo9va8yGZp8",
+      "url": "https://www.youtube.com/watch?v=Wo9va8yGZp8",
+      "creator": { "@type": "Person", "name": "Steve Scott" },
+      "duration": "PT303S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition converts a potentially stalling Rodeo Ride positi
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rodeo Ride to Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XXnawMQEfKw)
+
+<p class="clip-credit"><strong>Breaking the Turtle with the Spiral Ride</strong> — taught by Big Guy BJJ · 1:13 · <a href="https://www.youtube.com/watch?v=XXnawMQEfKw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S6o_HLxqd3c)
+
+<p class="clip-credit"><strong>Spiral ride into the seated rodeo ride on turtle</strong> — taught by Steve Scott · 3:51 · <a href="https://www.youtube.com/watch?v=S6o_HLxqd3c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wo9va8yGZp8)
+
+<p class="clip-credit"><strong>Rodeo ride basics for controlling a turtled opponent</strong> — taught by Steve Scott · 5:03 · <a href="https://www.youtube.com/watch?v=Wo9va8yGZp8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

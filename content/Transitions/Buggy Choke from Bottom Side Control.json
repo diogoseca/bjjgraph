@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Buggy Choke/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "summary": "The Buggy Choke from Bottom Side Control is a counterintuitive submission entry where the pinned bottom player frames their own near arm across the top player's neck, throws a leg over the shoulder, and locks a figure to strangle the opponent with the bottom player's trapped arm.",
   "overview": "The Buggy Choke from Bottom Side Control is the canonical entry into one of modern jiu-jitsu's most surprising submissions: from a position the top player believes is dominant, the bottom player turns their pinned near arm into a strangle. Popularized in competition around 2021, the entry exploits the moment the top player drives a crossface or buries their head into the bottom player's chest while passing or holding side control. Instead of pure escape, the bottom player frames the near arm tight across the top player's neck, swings the same-side leg up and over the top player's shoulder, and connects the legs to clamp the trapped arm against the top player's carotid.\n\nWhat makes this entry so dangerous is the disguise: it arrives from underneath a winning pin, so the top player frequently keeps pressuring forward, feeding their own neck into the figure. The bottom player does not need to bridge or shrimp out first. The choke is finished by turning the hips and torso into the opponent and extending, driving the opponent's head and the bottom player's own shoulder into the carotid line. Because the legs do the sealing, this is a low-energy, high-leverage attack ideally suited to smaller grapplers stuck under heavier pressure.\n\nStrategically, the entry rewards patience and timing over scrambling. The bottom player must recognize when the top player commits their head and weight forward, then trap and clamp within a tight window before the top player postures up and clears. When the entry is defended, the same control branches to scrambles, the back, or simply a return to bottom side control rather than collapsing into a worse spot, which is what makes it a genuine attack rather than a desperate flail from the bottom.",
   "conditions": [
@@ -210,34 +222,133 @@
     "flashcards": [
       {
         "question": "What is the trigger that opens the buggy choke entry from bottom side control?",
-        "answer": "The trigger is the top player committing their head and chest forward, usually with a heavy crossface or by burying their head to flatten you. This forward commitment brings their neck and near shoulder into range so you can thread your near arm across their neck. If they stay postured up and based wide, the framing window does not exist and you should not initiate."
+        "answer": "The trigger is the top player committing their head and chest forward, usually with a heavy crossface or by burying their head to flatten you. This forward commitment brings their neck and near shoulder into range so you can thread your near arm across their neck. If they stay postured up and based wide, the framing window does not exist and you should not initiate.",
+        "answer_line": "Opponent buries head, crossfaces",
+        "distractors": {
+          "plausible": [
+            "Opponent controls your far arm",
+            "Opponent flattens your hips down"
+          ],
+          "trap": [
+            "Opponent postures up and bases wide"
+          ]
+        }
       },
       {
         "question": "Why does the buggy choke from bottom side control work despite being launched from a losing position?",
-        "answer": "It weaponizes the top player's own pressure. When they drive forward to flatten you, they feed their neck into your near-arm frame. Your trapped near arm becomes the choking limb once you clamp a leg over their shoulder and lock the figure. The harder they pressure forward, the more they feed the strangle, turning the dominant pin into the setup for their own submission."
+        "answer": "It weaponizes the top player's own pressure. When they drive forward to flatten you, they feed their neck into your near-arm frame. Your trapped near arm becomes the choking limb once you clamp a leg over their shoulder and lock the figure. The harder they pressure forward, the more they feed the strangle, turning the dominant pin into the setup for their own submission.",
+        "answer_line": "Weaponizes their forward pressure",
+        "distractors": {
+          "plausible": [
+            "Uses your own hip explosion",
+            "Relies on opponent's grip fight"
+          ],
+          "trap": [
+            "Requires you outmuscle their pin"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window for locking the figure during this entry?",
-        "answer": "The figure must be sealed within a second or two of throwing your leg over the shoulder. Until your second leg connects in a figure-four or shin grip, the top player can strip your arm or slide their head free through the gap. That window is their primary escape opportunity, so you must drill a fast leg connection so the lock follows the leg-over immediately."
+        "answer": "The figure must be sealed within a second or two of throwing your leg over the shoulder. Until your second leg connects in a figure-four or shin grip, the top player can strip your arm or slide their head free through the gap. That window is their primary escape opportunity, so you must drill a fast leg connection so the lock follows the leg-over immediately.",
+        "answer_line": "Lock figure within 1-2 seconds",
+        "distractors": {
+          "plausible": [
+            "Seal figure before leg swings over",
+            "Lock within 5 to 10 seconds"
+          ],
+          "trap": [
+            "Wait until they posture up"
+          ]
+        }
       },
       {
         "question": "Your leg is over the shoulder but the top player extends their far arm to base and refuses to be turned into - what is your option?",
-        "answer": "Use the extended far arm to branch to a crucifix by trapping that arm with your legs while keeping the upper-body control, or keep the buggy figure and turn your hips harder to re-thread the strangle line into their carotid. The extended far arm is a defensive base, but it also presents a limb you can attack instead of forcing a stalled finish."
+        "answer": "Use the extended far arm to branch to a crucifix by trapping that arm with your legs while keeping the upper-body control, or keep the buggy figure and turn your hips harder to re-thread the strangle line into their carotid. The extended far arm is a defensive base, but it also presents a limb you can attack instead of forcing a stalled finish.",
+        "answer_line": "Trap that arm, go crucifix",
+        "distractors": {
+          "plausible": [
+            "Switch to a kimura grip",
+            "Abandon and reset side control"
+          ],
+          "trap": [
+            "Yank the figure harder for finish"
+          ]
+        }
       },
       {
         "question": "What body movement finishes the buggy choke once the figure is locked from this entry?",
-        "answer": "Turn your hips and torso toward the top player and extend progressively, driving their head and your own trapped bicep and shoulder into their carotid. The finish comes from the hip turn and the leg-driven compression of the locked figure, not from pulling with the framing arm. Yanking with the arm is weak and telegraphed; the legs and hips do the work."
+        "answer": "Turn your hips and torso toward the top player and extend progressively, driving their head and your own trapped bicep and shoulder into their carotid. The finish comes from the hip turn and the leg-driven compression of the locked figure, not from pulling with the framing arm. Yanking with the arm is weak and telegraphed; the legs and hips do the work.",
+        "answer_line": "Turn hips, extend legs to compress",
+        "distractors": {
+          "plausible": [
+            "Crank the neck with your hands",
+            "Bridge and roll them over"
+          ],
+          "trap": [
+            "Pull hard using framing arm"
+          ]
+        }
       },
       {
         "question": "When should you abandon the buggy entry and recover position instead?",
-        "answer": "Abandon the entry the moment the top player postures up and clearly pulls their head out, or strips your framing arm before the figure locks. Chasing a dead entry leaves you flat with your leg up and arm committed, inviting a pass to mount or back exposure. Retract the leg, reframe with both arms, and recover bottom side control or shrimp to half guard."
+        "answer": "Abandon the entry the moment the top player postures up and clearly pulls their head out, or strips your framing arm before the figure locks. Chasing a dead entry leaves you flat with your leg up and arm committed, inviting a pass to mount or back exposure. Retract the leg, reframe with both arms, and recover bottom side control or shrimp to half guard.",
+        "answer_line": "When they posture out, strip arm",
+        "distractors": {
+          "plausible": [
+            "Only after figure fully locks",
+            "When opponent stalls flat"
+          ],
+          "trap": [
+            "Never abandon, force the finish"
+          ]
+        }
       },
       {
         "question": "Why is the buggy choke from bottom side control especially valuable for smaller grapplers?",
-        "answer": "Because the legs and hips do the sealing and finishing work rather than upper-body strength, a smaller grappler can threaten a high-value submission from underneath a heavier opponent's pin without trying to out-muscle the pressure. It converts the worst pinning position in jiu-jitsu into a legitimate attack, rewarding timing and leverage over size and strength."
+        "answer": "Because the legs and hips do the sealing and finishing work rather than upper-body strength, a smaller grappler can threaten a high-value submission from underneath a heavier opponent's pin without trying to out-muscle the pressure. It converts the worst pinning position in jiu-jitsu into a legitimate attack, rewarding timing and leverage over size and strength.",
+        "answer_line": "Legs and hips do the work, not size",
+        "distractors": {
+          "plausible": [
+            "Requires strong grip strength",
+            "Works only against bigger foes"
+          ],
+          "trap": [
+            "Best used to out-muscle top player"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The buggy choke is a true blood choke that compresses the carotid arteries and can render an opponent unconscious quickly, so finish progressively and release the instant the partner taps verbally or physically. Because the choke is sealed by a leg over the shoulder and a figure-four lock, the opponent's shoulder and neck can be torqued if you crank the hip turn explosively; apply pressure smoothly rather than violently. During drilling, communicate clearly, never spike the entry, and have the bottom partner practice tapping early since this strangle arrives faster than most people expect from a pinned position."
+    "safety_considerations": "The buggy choke is a true blood choke that compresses the carotid arteries and can render an opponent unconscious quickly, so finish progressively and release the instant the partner taps verbally or physically. Because the choke is sealed by a leg over the shoulder and a figure-four lock, the opponent's shoulder and neck can be torqued if you crank the hip turn explosively; apply pressure smoothly rather than violently. During drilling, communicate clearly, never spike the entry, and have the bottom partner practice tapping early since this strangle arrives faster than most people expect from a pinned position.",
+    "clips": [
+      {
+        "id": "-b7Avb1x7g8",
+        "title": "The Buggy Choke from bottom side control",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0VDUwuyT6N4",
+        "title": "Fix Your Buggy Choke - common setup errors",
+        "by": "Yoga for BJJ",
+        "vertical": false,
+        "channel": "Yoga for BJJ",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cMid9XHfnKg",
+        "title": "North South Buggy Choke breakdown",
+        "by": "Blaise Malabre",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Motivation",
+        "duration": 54,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Buggy Choke from Bottom Side Control Defender",
@@ -310,15 +421,45 @@
     "flashcards": [
       {
         "question": "Why does heavy, head-forward pressure from side control make you vulnerable to the buggy choke?",
-        "answer": "Driving your head down and forward to flatten the bottom player feeds your neck directly into their near-arm frame. The buggy choke uses the bottom player's own arm, sealed by a leg over your shoulder, to compress your carotid - and your forward pressure supplies the neck. The pin that feels most dominant is precisely the one that feeds the strangle, so keep your head high."
+        "answer": "Driving your head down and forward to flatten the bottom player feeds your neck directly into their near-arm frame. The buggy choke uses the bottom player's own arm, sealed by a leg over your shoulder, to compress your carotid - and your forward pressure supplies the neck. The pin that feels most dominant is precisely the one that feeds the strangle, so keep your head high.",
+        "answer_line": "Feeds your neck into their frame",
+        "distractors": {
+          "plausible": [
+            "Crossfacing too hard is fine",
+            "Only leg attacks are risky here"
+          ],
+          "trap": [
+            "Drive head down harder to flatten"
+          ]
+        }
       },
       {
         "question": "What is your immediate priority when you feel the bottom player's near arm threading across your neck?",
-        "answer": "Posture your head up and pull your neck straight back out of the framing line before any leg comes over your shoulder. Simultaneously work to strip or pin their near arm so it cannot become the choking limb. This earliest window, before the leg clamps and the figure locks, is your highest-percentage chance to neutralize the entry without conceding position."
+        "answer": "Posture your head up and pull your neck straight back out of the framing line before any leg comes over your shoulder. Simultaneously work to strip or pin their near arm so it cannot become the choking limb. This earliest window, before the leg clamps and the figure locks, is your highest-percentage chance to neutralize the entry without conceding position.",
+        "answer_line": "Posture up, pull neck back",
+        "distractors": {
+          "plausible": [
+            "Push hips down to flatten",
+            "Grab their far leg first"
+          ],
+          "trap": [
+            "Keep driving forward, chase pin"
+          ]
+        }
       },
       {
         "question": "What should you do if the buggy figure has fully locked with your head trapped?",
-        "answer": "Stop driving forward immediately, since forward pressure only tightens the strangle. Posture up as much as the lock allows, work to clear the leg off your shoulder, and accept conceding a transition or even giving up the pass to get your head out. Once the figure is sealed, survival outranks position, and stubbornly holding the pin risks getting choked unconscious."
+        "answer": "Stop driving forward immediately, since forward pressure only tightens the strangle. Posture up as much as the lock allows, work to clear the leg off your shoulder, and accept conceding a transition or even giving up the pass to get your head out. Once the figure is sealed, survival outranks position, and stubbornly holding the pin risks getting choked unconscious.",
+        "answer_line": "Stop pressure, posture up, escape",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively to pass",
+            "Push forward to finish pass"
+          ],
+          "trap": [
+            "Keep driving forward for the pass"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -336,6 +477,35 @@
         "phase": "Week 5+: Live Defense and Disciplined Passing",
         "focus": "Defending committed buggy entries and passing without feeding the choke",
         "description": "Partner hunts the buggy choke from bottom side control at 60-80% intensity while you work to pass. Practice keeping the head high, clearing the arm and leg, and converting failed entries into a knee-cross to mount. When the figure starts to lock, drill posturing up and clearing the leg rather than driving forward. Run 4-5 minute rounds, multiple per session."
+      }
+    ],
+    "clips": [
+      {
+        "id": "q61vmur0g1E",
+        "title": "Buggy choke defense",
+        "by": "Maike Ferreira",
+        "vertical": false,
+        "channel": "Maike ferreira team",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U_gLL4x7pLU",
+        "title": "Buggy Choke Defense",
+        "by": "Robby Malof",
+        "vertical": false,
+        "channel": "Robby Malof",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jMIn4CQ3khE",
+        "title": "Buggy Choke Recovery",
+        "by": "Zach Maslany",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 153,
+        "verified": "2026-07-15"
       }
     ]
   },

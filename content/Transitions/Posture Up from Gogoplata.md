@@ -34,6 +34,43 @@ description: "Master the Posture Up escape from Gogoplata Control in BJJ. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Up from Gogoplata \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gogoplata defense - posture and escape",
+      "description": "Posture Up from Gogoplata film study: Gogoplata defense - posture and escape, taught by RedBeltJiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ROgt8e30a3s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ROgt8e30a3s",
+      "url": "https://www.youtube.com/watch?v=ROgt8e30a3s",
+      "creator": { "@type": "Person", "name": "RedBeltJiuJitsu" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The importance of posture in escapes",
+      "description": "Posture Up from Gogoplata film study: The importance of posture in escapes, taught by Ante Dzolic.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MvZ3fKl6rtk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MvZ3fKl6rtk",
+      "url": "https://www.youtube.com/watch?v=MvZ3fKl6rtk",
+      "creator": { "@type": "Person", "name": "Ante Dzolic" },
+      "duration": "PT170S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this technique sits within the broader defensive framework agains
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Up from Gogoplata in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ROgt8e30a3s)
+
+<p class="clip-credit"><strong>Gogoplata defense - posture and escape</strong> — taught by RedBeltJiuJitsu · 0:42 · <a href="https://www.youtube.com/watch?v=ROgt8e30a3s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MvZ3fKl6rtk)
+
+<p class="clip-credit"><strong>The importance of posture in escapes</strong> — taught by Ante Dzolic · 2:50 · <a href="https://www.youtube.com/watch?v=MvZ3fKl6rtk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

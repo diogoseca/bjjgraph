@@ -34,6 +34,54 @@ description: "Master the Back Door Escape from Half Guard in BJJ. Complete guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Door Escape from Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back door sweep from deep half guard",
+      "description": "Back Door Escape from Half Guard film study: Back door sweep from deep half guard, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mhX-XlDDj7w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mhX-XlDDj7w",
+      "url": "https://www.youtube.com/watch?v=mhX-XlDDj7w",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Deep half guard back door escape to back take",
+      "description": "Back Door Escape from Half Guard film study: Deep half guard back door escape to back take, taught by Greg Lew.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hoaB4Cx4bOU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hoaB4Cx4bOU",
+      "url": "https://www.youtube.com/watch?v=hoaB4Cx4bOU",
+      "creator": { "@type": "Person", "name": "Greg Lew" },
+      "duration": "PT251S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deep half back door exit to turtle or north south",
+      "description": "Back Door Escape from Half Guard film study: Deep half back door exit to turtle or north south, taught by Greg Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yoqrHWRQcdM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yoqrHWRQcdM",
+      "url": "https://www.youtube.com/watch?v=yoqrHWRQcdM",
+      "creator": { "@type": "Person", "name": "Greg Hamilton" },
+      "duration": "PT162S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The back door escape carries inherent risk because turning away from the opponen
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Door Escape from Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mhX-XlDDj7w)
+
+<p class="clip-credit"><strong>Back door sweep from deep half guard</strong> — taught by Revolution BJJ · 0:50 · <a href="https://www.youtube.com/watch?v=mhX-XlDDj7w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hoaB4Cx4bOU)
+
+<p class="clip-credit"><strong>Deep half guard back door escape to back take</strong> — taught by Greg Lew · 4:11 · <a href="https://www.youtube.com/watch?v=hoaB4Cx4bOU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yoqrHWRQcdM)
+
+<p class="clip-credit"><strong>Deep half back door exit to turtle or north south</strong> — taught by Greg Hamilton · 2:42 · <a href="https://www.youtube.com/watch?v=yoqrHWRQcdM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

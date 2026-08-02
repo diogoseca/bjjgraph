@@ -34,6 +34,43 @@ description: "Master the Turn to Turtle escape from Knee on Belly in BJJ. Comple
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turn to Turtle from Knee on Belly \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turning out of knee on belly to reverse",
+      "description": "Turn to Turtle from Knee on Belly film study: Turning out of knee on belly to reverse, taught by South Island BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IU-kgtU5ng0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IU-kgtU5ng0",
+      "url": "https://www.youtube.com/watch?v=IU-kgtU5ng0",
+      "creator": { "@type": "Person", "name": "South Island BJJ" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape the knee on belly position",
+      "description": "Turn to Turtle from Knee on Belly film study: How to escape the knee on belly position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
+      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT40S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The effectiveness of this transition depends heavily on timing and the integrati
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turn to Turtle from Knee on Belly in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IU-kgtU5ng0)
+
+<p class="clip-credit"><strong>Turning out of knee on belly to reverse</strong> — taught by South Island BJJ · 0:45 · <a href="https://www.youtube.com/watch?v=IU-kgtU5ng0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
+
+<p class="clip-credit"><strong>How to escape the knee on belly position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master Knee Shield recovery from Quarter Guard in BJJ. Complete gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield from Quarter Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quarter guard concepts",
+      "description": "Knee Shield from Quarter Guard film study: Quarter guard concepts, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMsgoChdaHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMsgoChdaHE",
+      "url": "https://www.youtube.com/watch?v=sMsgoChdaHE",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quarter guard strategies from the bottom",
+      "description": "Knee Shield from Quarter Guard film study: Quarter guard strategies from the bottom, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7YxnGaIIBKI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7YxnGaIIBKI",
+      "url": "https://www.youtube.com/watch?v=7YxnGaIIBKI",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Blocking the knee slice from quarter guard",
+      "description": "Knee Shield from Quarter Guard film study: Blocking the knee slice from quarter guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xDZucxFVK48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xDZucxFVK48",
+      "url": "https://www.youtube.com/watch?v=xDZucxFVK48",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT275S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategic context places this technique as the primary defensive answer to advan
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield from Quarter Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMsgoChdaHE)
+
+<p class="clip-credit"><strong>Quarter guard concepts</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sMsgoChdaHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7YxnGaIIBKI)
+
+<p class="clip-credit"><strong>Quarter guard strategies from the bottom</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=7YxnGaIIBKI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xDZucxFVK48)
+
+<p class="clip-credit"><strong>Blocking the knee slice from quarter guard</strong> — taught by Jean Jacques Machado · 4:35 · <a href="https://www.youtube.com/watch?v=xDZucxFVK48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

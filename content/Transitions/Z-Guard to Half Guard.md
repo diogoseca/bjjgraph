@@ -34,6 +34,43 @@ description: "Master the Z-Guard to Half Guard transition in BJJ. Step-by-step g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Guard to Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield to underhook half guard to dogfight",
+      "description": "Z-Guard to Half Guard film study: Knee shield to underhook half guard to dogfight, taught by Kaboom BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K7U2uBUfq-c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K7U2uBUfq-c",
+      "url": "https://www.youtube.com/watch?v=K7U2uBUfq-c",
+      "creator": { "@type": "Person", "name": "Kaboom BJJ coach" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Z-Guard with 3 attack options",
+      "description": "Z-Guard to Half Guard film study: Z-Guard with 3 attack options, taught by Way of BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T3Gwg-ABsZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T3Gwg-ABsZA",
+      "url": "https://www.youtube.com/watch?v=T3Gwg-ABsZA",
+      "creator": { "@type": "Person", "name": "Way of BJJ coach" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this transition is essential for any practitioner whose half guar
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Guard to Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K7U2uBUfq-c)
+
+<p class="clip-credit"><strong>Knee shield to underhook half guard to dogfight</strong> — taught by Kaboom BJJ coach · 2:09 · <a href="https://www.youtube.com/watch?v=K7U2uBUfq-c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T3Gwg-ABsZA)
+
+<p class="clip-credit"><strong>Z-Guard with 3 attack options</strong> — taught by Way of BJJ coach · 1:07 · <a href="https://www.youtube.com/watch?v=T3Gwg-ABsZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

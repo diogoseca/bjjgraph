@@ -34,6 +34,54 @@ description: "Escape back control using the hip scoot to recover half guard in B
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scoot Hips to Guard from Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle no-grips escape rolling to guard",
+      "description": "Scoot Hips to Guard from Back film study: Turtle no-grips escape rolling to guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ly89G4iCTSQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ly89G4iCTSQ",
+      "url": "https://www.youtube.com/watch?v=Ly89G4iCTSQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back control escape when sprawled face down",
+      "description": "Scoot Hips to Guard from Back film study: Back control escape when sprawled face down, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/485wvqwlBYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/485wvqwlBYA",
+      "url": "https://www.youtube.com/watch?v=485wvqwlBYA",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to not get mounted escaping the back",
+      "description": "Scoot Hips to Guard from Back film study: How to not get mounted escaping the back, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bhkb4ItZQno/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bhkb4ItZQno",
+      "url": "https://www.youtube.com/watch?v=bhkb4ItZQno",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Timing is critical for this technique. The ideal moment to initiate the hip scoo
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scoot Hips to Guard from Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ly89G4iCTSQ)
+
+<p class="clip-credit"><strong>Turtle no-grips escape rolling to guard</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=Ly89G4iCTSQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=485wvqwlBYA)
+
+<p class="clip-credit"><strong>Back control escape when sprawled face down</strong> — taught by Academy Jiu Jitsu · 1:32 · <a href="https://www.youtube.com/watch?v=485wvqwlBYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bhkb4ItZQno)
+
+<p class="clip-credit"><strong>How to not get mounted escaping the back</strong> — taught by Henry Akins · 2:11 · <a href="https://www.youtube.com/watch?v=bhkb4ItZQno" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

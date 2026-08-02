@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Russian Cowboy/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Russian Cowboy to Back Control transition converts the asymmetric single-hook back control into fully established back control with both hooks engaged. This positional upgrade is among the most valuable progressions available from Russian Cowboy, as full back control provides four competition points, superior submission access through rear naked choke and bow and arrow attacks, and dramatically improved positional retention compared to the single-hook variant.\n\nThe core challenge centers on threading the free leg across the opponent's body to insert the second hook while maintaining seatbelt grip and chest-to-back connection. The opponent will actively resist by controlling the free leg, attempting to turn in, or exploiting the brief instability during hook insertion. Timing the attempt when the opponent is distracted by a submission threat or recovering from a failed escape creates the optimal window for insertion.\n\nStrategically, this transition requires balancing the risk of destabilizing current control against the reward of achieving the most dominant position in the sport. Patient practitioners who build their attacks around creating insertion windows consistently achieve higher success rates than those who force the second hook against active resistance. The key is recognizing that Russian Cowboy already provides significant control, so there is no urgency to rush the upgrade at the cost of losing the position entirely.",
   "conditions": [
     "Stable Russian Cowboy position established with deep single hook inside opponent's near thigh",
@@ -226,38 +238,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for inserting the second hook during this transition?",
-        "answer": "The optimal timing occurs when the opponent is actively defending a submission threat such as a choke attempt, or immediately after they exhaust energy from a failed escape. During these moments their hands are occupied with neck defense and their attention is divided between threats, making it difficult to block the incoming free leg. Attempting insertion against a fully set and alert opponent with both hands free significantly reduces the success rate."
+        "answer": "The optimal timing occurs when the opponent is actively defending a submission threat such as a choke attempt, or immediately after they exhaust energy from a failed escape. During these moments their hands are occupied with neck defense and their attention is divided between threats, making it difficult to block the incoming free leg. Attempting insertion against a fully set and alert opponent with both hands free significantly reduces the success rate.",
+        "answer_line": "When they're defending a choke",
+        "distractors": {
+          "plausible": [
+            "Right after securing seatbelt",
+            "As soon as chest pressure locks"
+          ],
+          "trap": [
+            "When both their hands are free"
+          ]
+        }
       },
       {
         "question": "What control points must be verified before attempting the second hook insertion?",
-        "answer": "Before attempting insertion, verify three control points: first, the seatbelt grip must be locked tight with hands clasped on the opponent's sternum; second, the existing hook must be deep inside the opponent's near thigh with the heel pulled toward your buttock, not shallow at the ankle; third, chest-to-back connection must be firm with forward pressure. If any of these three points is compromised, re-establish that control before proceeding with the hook attempt."
+        "answer": "Before attempting insertion, verify three control points: first, the seatbelt grip must be locked tight with hands clasped on the opponent's sternum; second, the existing hook must be deep inside the opponent's near thigh with the heel pulled toward your buttock, not shallow at the ankle; third, chest-to-back connection must be firm with forward pressure. If any of these three points is compromised, re-establish that control before proceeding with the hook attempt.",
+        "answer_line": "Seatbelt, deep hook, chest pressure",
+        "distractors": {
+          "plausible": [
+            "Just a tight seatbelt grip",
+            "Hook set shallow at the ankle"
+          ],
+          "trap": [
+            "Loosen seatbelt to free hands"
+          ]
+        }
       },
       {
         "question": "Your free leg is posted far from the opponent's body on the mat - how does this affect the hook threading and what adjustment should you make?",
-        "answer": "A distant free leg creates a long arc that telegraphs the threading motion, giving the opponent ample time to recognize and block the insertion with their hands or shrimp away. The extended movement also tends to pull your upper body away from the opponent's back, loosening chest pressure and seatbelt control. Draw the free leg close to the opponent's body with your knee oriented toward their far hip before initiating the thread. The shorter the arc, the faster and less interceptable the insertion becomes."
+        "answer": "A distant free leg creates a long arc that telegraphs the threading motion, giving the opponent ample time to recognize and block the insertion with their hands or shrimp away. The extended movement also tends to pull your upper body away from the opponent's back, loosening chest pressure and seatbelt control. Draw the free leg close to the opponent's body with your knee oriented toward their far hip before initiating the thread. The shorter the arc, the faster and less interceptable the insertion becomes.",
+        "answer_line": "Draw knee in, shorten the arc",
+        "distractors": {
+          "plausible": [
+            "Swing leg fast from distance",
+            "Post leg wider for base first"
+          ],
+          "trap": [
+            "Extend leg out, then swing wide"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the second hook insertion attempt fails?",
-        "answer": "The most common failure occurs when the attacker attempts the hook insertion without creating any distraction or submission threat first. With both hands free and full defensive attention available, the opponent simply blocks the incoming leg with their far hand or clamps their thighs together to prevent the foot from entering. The solution is to always pair hook insertion with a concurrent upper body threat that forces the opponent to choose between defending the choke and blocking the leg."
+        "answer": "The most common failure occurs when the attacker attempts the hook insertion without creating any distraction or submission threat first. With both hands free and full defensive attention available, the opponent simply blocks the incoming leg with their far hand or clamps their thighs together to prevent the foot from entering. The solution is to always pair hook insertion with a concurrent upper body threat that forces the opponent to choose between defending the choke and blocking the leg.",
+        "answer_line": "Attempting without a distraction",
+        "distractors": {
+          "plausible": [
+            "Hook too shallow at the ankle",
+            "Free leg posted too far away"
+          ],
+          "trap": [
+            "Opponent's hands already busy"
+          ]
+        }
       },
       {
         "question": "Your seatbelt grip loosens during the hook threading attempt - what is the immediate priority?",
-        "answer": "Immediately abort the hook insertion and re-establish the seatbelt grip before anything else. The seatbelt controls the entire upper body and prevents the opponent from turning to face you. Without it, even a successful hook insertion will be immediately countered by the opponent rotating away or establishing defensive frames. Re-lock the grip, verify chest pressure, and only then reattempt the hook insertion once full upper body control is restored."
+        "answer": "Immediately abort the hook insertion and re-establish the seatbelt grip before anything else. The seatbelt controls the entire upper body and prevents the opponent from turning to face you. Without it, even a successful hook insertion will be immediately countered by the opponent rotating away or establishing defensive frames. Re-lock the grip, verify chest pressure, and only then reattempt the hook insertion once full upper body control is restored.",
+        "answer_line": "Abort hook, re-lock seatbelt",
+        "distractors": {
+          "plausible": [
+            "Finish hook then fix seatbelt",
+            "Switch hands on the choke"
+          ],
+          "trap": [
+            "Push harder to finish the hook"
+          ]
+        }
       },
       {
         "question": "In which direction should you drive the free leg during the threading motion and why?",
-        "answer": "Drive the knee over the opponent's far hip in a tight forward arc, keeping the leg close to their torso throughout the motion. The direction is over-and-across rather than around-and-behind. This forward arc is critical because it keeps your weight driving into the opponent through your chest, whereas a backward arc pulls your hips away and creates separation. The foot should enter the far thigh from the top, curling inward to set the hook deep inside the thigh."
+        "answer": "Drive the knee over the opponent's far hip in a tight forward arc, keeping the leg close to their torso throughout the motion. The direction is over-and-across rather than around-and-behind. This forward arc is critical because it keeps your weight driving into the opponent through your chest, whereas a backward arc pulls your hips away and creates separation. The foot should enter the far thigh from the top, curling inward to set the hook deep inside the thigh.",
+        "answer_line": "Over the far hip, tight arc",
+        "distractors": {
+          "plausible": [
+            "Around and behind the hip",
+            "Straight across their back"
+          ],
+          "trap": [
+            "Wide backward arc for speed"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your threading ankle with their far hand as you attempt insertion - how do you respond?",
-        "answer": "First, increase the seatbelt squeeze or reinitiate the choke threat to force their grabbing hand back to neck defense. If they maintain the ankle grip despite the upper body threat, use a pummeling motion to swim your foot past their grip by circling your ankle inward. Alternatively, switch to the roll-through variant to change the angle of approach entirely. If the grip remains locked, consider transitioning to truck entry instead, using their ankle focus as an opening for the alternative leg entanglement."
+        "answer": "First, increase the seatbelt squeeze or reinitiate the choke threat to force their grabbing hand back to neck defense. If they maintain the ankle grip despite the upper body threat, use a pummeling motion to swim your foot past their grip by circling your ankle inward. Alternatively, switch to the roll-through variant to change the angle of approach entirely. If the grip remains locked, consider transitioning to truck entry instead, using their ankle focus as an opening for the alternative leg entanglement.",
+        "answer_line": "Increase the choke threat first",
+        "distractors": {
+          "plausible": [
+            "Yank the foot free by force",
+            "Switch instantly to truck"
+          ],
+          "trap": [
+            "Release seatbelt to free the leg"
+          ]
+        }
       },
       {
         "question": "The opponent successfully blocks your second hook attempt and you remain in Russian Cowboy - what follow-up techniques should you chain?",
-        "answer": "After a failed hook insertion, avoid immediately reattempting the same approach. Instead, chain into a truck entry by threading your existing hook leg deeper and pursuing the opponent's far leg for the lockdown-style entanglement. Alternatively, attack the rear naked choke legitimately since the opponent just demonstrated they prioritize hook defense over neck defense. A third option is transitioning to crucifix by trapping their blocking arm, which both removes their primary defensive tool and opens a different attacking pathway."
+        "answer": "After a failed hook insertion, avoid immediately reattempting the same approach. Instead, chain into a truck entry by threading your existing hook leg deeper and pursuing the opponent's far leg for the lockdown-style entanglement. Alternatively, attack the rear naked choke legitimately since the opponent just demonstrated they prioritize hook defense over neck defense. A third option is transitioning to crucifix by trapping their blocking arm, which both removes their primary defensive tool and opens a different attacking pathway.",
+        "answer_line": "Truck entry, RNC, or crucifix",
+        "distractors": {
+          "plausible": [
+            "Immediately retry same hook",
+            "Reset to neutral back mount"
+          ],
+          "trap": [
+            "Abandon back for guard pass"
+          ]
+        }
       }
     ],
-    "safety_considerations": "While this transition does not involve joint locks or chokes directly, maintain awareness of your partner's neck position during weight transfers and avoid cranking or twisting the opponent's spine as you thread the second hook. During drilling, communicate with your partner about pressure levels and ensure controlled positional adjustments rather than explosive movements that could cause knee or hip injuries from the hooking leg. The seatbelt grip can compress the ribcage significantly, so monitor your partner for breathing difficulty. Always release control immediately if your partner signals discomfort or taps."
+    "safety_considerations": "While this transition does not involve joint locks or chokes directly, maintain awareness of your partner's neck position during weight transfers and avoid cranking or twisting the opponent's spine as you thread the second hook. During drilling, communicate with your partner about pressure levels and ensure controlled positional adjustments rather than explosive movements that could cause knee or hip injuries from the hooking leg. The seatbelt grip can compress the ribcage significantly, so monitor your partner for breathing difficulty. Always release control immediately if your partner signals discomfort or taps.",
+    "clips": [
+      {
+        "id": "kGoEjQMRp3I",
+        "title": "Russian Cowboy double deep hook attacks",
+        "by": "10th Planet Rochester",
+        "vertical": false,
+        "channel": "10thPlanetRochester",
+        "duration": 193,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-lMabjvtaLk",
+        "title": "Entries Into Rear Triangle Back Position",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 252,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F_647CBBmIY",
+        "title": "Inserting the Second Hook to Take the Back",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 105,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Russian Cowboy to Back Control Defender",
@@ -342,23 +463,73 @@
     "flashcards": [
       {
         "question": "You feel the attacker's free leg beginning to move toward your far hip while their seatbelt tightens - what is your immediate response?",
-        "answer": "Immediately post your far hand on the attacker's incoming knee to block the threading path while keeping your near hand protecting your neck against the seatbelt squeeze. The combined seatbelt tightening and free leg movement indicates a choke-baited insertion attempt. By blocking with the far hand, you deny the leg access while maintaining neck defense. If the choke threat intensifies, clamp your thighs together as a secondary barrier while keeping the far hand blocking for as long as possible."
+        "answer": "Immediately post your far hand on the attacker's incoming knee to block the threading path while keeping your near hand protecting your neck against the seatbelt squeeze. The combined seatbelt tightening and free leg movement indicates a choke-baited insertion attempt. By blocking with the far hand, you deny the leg access while maintaining neck defense. If the choke threat intensifies, clamp your thighs together as a secondary barrier while keeping the far hand blocking for as long as possible.",
+        "answer_line": "Far hand blocks the knee",
+        "distractors": {
+          "plausible": [
+            "Both hands defend the neck",
+            "Clamp thighs, ignore the choke"
+          ],
+          "trap": [
+            "Turn away to create space"
+          ]
+        }
       },
       {
         "question": "What are the three most important tactile cues that indicate a second hook insertion attempt is imminent?",
-        "answer": "First, the attacker's free leg transitions from a posted position on the mat to resting against your body with knee pressure toward your far hip. Second, the seatbelt grip tightens or the choking hand advances toward your neck, signaling a diversion designed to occupy your hands. Third, the attacker's hip angle shifts as they create space between their pelvis and your back to allow the leg to swing across. Recognizing any one of these cues should trigger immediate defensive preparation."
+        "answer": "First, the attacker's free leg transitions from a posted position on the mat to resting against your body with knee pressure toward your far hip. Second, the seatbelt grip tightens or the choking hand advances toward your neck, signaling a diversion designed to occupy your hands. Third, the attacker's hip angle shifts as they create space between their pelvis and your back to allow the leg to swing across. Recognizing any one of these cues should trigger immediate defensive preparation.",
+        "answer_line": "Leg weight, tighter grip, hip shift",
+        "distractors": {
+          "plausible": [
+            "Faster breathing, grip changes",
+            "Only the seatbelt tightening"
+          ],
+          "trap": [
+            "Opponent going completely still"
+          ]
+        }
       },
       {
         "question": "The attacker threatens a choke to distract from the hook insertion - how do you prioritize your defense?",
-        "answer": "Defend the choke with your near hand using chin tuck and two-on-one grip fighting only if the choke is already deep. If the choke is still in the setup phase, maintain your far hand on the threading path to block the hook while your near hand addresses the developing choke. The key insight is that a blocked hook keeps you in Russian Cowboy where escape is possible, while allowing the second hook in exchange for temporarily better neck position puts you in full back control where the choke will come eventually anyway."
+        "answer": "Defend the choke with your near hand using chin tuck and two-on-one grip fighting only if the choke is already deep. If the choke is still in the setup phase, maintain your far hand on the threading path to block the hook while your near hand addresses the developing choke. The key insight is that a blocked hook keeps you in Russian Cowboy where escape is possible, while allowing the second hook in exchange for temporarily better neck position puts you in full back control where the choke will come eventually anyway.",
+        "answer_line": "Block hook unless choke is deep",
+        "distractors": {
+          "plausible": [
+            "Defend the choke first always",
+            "Split attention evenly"
+          ],
+          "trap": [
+            "Let hook in to save the neck"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the attacker a poor defensive choice when they attempt the second hook?",
-        "answer": "Turning away from the attacker widens the threading path across your far hip, making it easier for their free leg to arc over and insert the second hook. Additionally, the turning-away motion feeds directly into the attacker's truck entry if they redirect their leg entanglement, which leads to twister and calf slicer threats. It also increases the rotational control provided by their existing hook, as your momentum assists their pulling direction. Turning into the attacker instead closes the threading path and disrupts their mechanical advantage."
+        "answer": "Turning away from the attacker widens the threading path across your far hip, making it easier for their free leg to arc over and insert the second hook. Additionally, the turning-away motion feeds directly into the attacker's truck entry if they redirect their leg entanglement, which leads to twister and calf slicer threats. It also increases the rotational control provided by their existing hook, as your momentum assists their pulling direction. Turning into the attacker instead closes the threading path and disrupts their mechanical advantage.",
+        "answer_line": "Widens path, feeds truck entry",
+        "distractors": {
+          "plausible": [
+            "Loses grip on their choking arm",
+            "Slows your own escape timing"
+          ],
+          "trap": [
+            "Creates space to hip escape"
+          ]
+        }
       },
       {
         "question": "You successfully block the threading leg with your hand but the attacker maintains tight seatbelt - what is your next move?",
-        "answer": "Do not settle for simply holding the blocked position, as the attacker will adjust and reattempt. Use the successful block as a springboard for escape by immediately driving your blocking hand into their knee to push it away while executing a hip escape toward the side you are facing. The goal is to convert the defensive success into an active escape before the attacker can reset for another attempt. If you cannot create enough separation for a full escape, at minimum use the moment to improve your hip position and build a frame that makes subsequent insertion attempts more difficult."
+        "answer": "Do not settle for simply holding the blocked position, as the attacker will adjust and reattempt. Use the successful block as a springboard for escape by immediately driving your blocking hand into their knee to push it away while executing a hip escape toward the side you are facing. The goal is to convert the defensive success into an active escape before the attacker can reset for another attempt. If you cannot create enough separation for a full escape, at minimum use the moment to improve your hip position and build a frame that makes subsequent insertion attempts more difficult.",
+        "answer_line": "Push knee away, hip escape now",
+        "distractors": {
+          "plausible": [
+            "Hold the block and reassess",
+            "Wait for them to reset first"
+          ],
+          "trap": [
+            "Relax grip to save energy"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -376,6 +547,26 @@
         "phase": "Phase 3: Counter-Escape Integration",
         "focus": "Converting defensive blocks into active escape sequences",
         "description": "Partner attempts full-speed hook insertion with legitimate choke threats. Defender blocks the hook and immediately chains into an escape attempt using the attacker's compromised base. Practice the hip escape to half guard and the turn-in timing. 3-minute positional rounds with reset on escape or successful hook insertion."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JgrpnE0HyAY",
+        "title": "Defending a single hook from turtle",
+        "by": "South Boston BJJ",
+        "vertical": false,
+        "channel": "South Boston BJJ",
+        "duration": 149,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3Jd2llamfl8",
+        "title": "Back control escape explained simply",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 189,
+        "verified": "2026-07-15"
       }
     ]
   }

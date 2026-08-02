@@ -134,6 +134,54 @@ description: "Guide to maintaining technical mount against bridge escape attempt
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge from Technical Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping mount when they grab your hips",
+      "description": "Bridge from Technical Mount (Defender) film study: Keeping mount when they grab your hips, taught by Prodigy MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wQI7JTaVM58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wQI7JTaVM58",
+      "url": "https://www.youtube.com/watch?v=wQI7JTaVM58",
+      "creator": { "@type": "Person", "name": "Prodigy MMA" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount maintenance drill against bridging",
+      "description": "Bridge from Technical Mount (Defender) film study: Mount maintenance drill against bridging, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PcSYX5if2rE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PcSYX5if2rE",
+      "url": "https://www.youtube.com/watch?v=PcSYX5if2rE",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Holding middle mount against the bridge",
+      "description": "Bridge from Technical Mount (Defender) film study: Holding middle mount against the bridge, taught by SBG PDX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RTMJDbZnFO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RTMJDbZnFO0",
+      "url": "https://www.youtube.com/watch?v=RTMJDbZnFO0",
+      "creator": { "@type": "Person", "name": "SBG PDX" },
+      "duration": "PT154S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +191,42 @@ When your opponent bridges from technical mount, your primary objective is maint
 **Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge from Technical Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wQI7JTaVM58)
+
+<p class="clip-credit"><strong>Keeping mount when they grab your hips</strong> — taught by Prodigy MMA · 0:30 · <a href="https://www.youtube.com/watch?v=wQI7JTaVM58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PcSYX5if2rE)
+
+<p class="clip-credit"><strong>Mount maintenance drill against bridging</strong> — taught by SBG Australia · 1:49 · <a href="https://www.youtube.com/watch?v=PcSYX5if2rE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RTMJDbZnFO0)
+
+<p class="clip-credit"><strong>Holding middle mount against the bridge</strong> — taught by SBG PDX · 2:34 · <a href="https://www.youtube.com/watch?v=RTMJDbZnFO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

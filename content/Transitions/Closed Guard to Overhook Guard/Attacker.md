@@ -174,6 +174,43 @@ description: "How to establish overhook guard from closed guard bottom in BJJ. S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Closed Guard to Overhook Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Key detail to strengthen your closed guard",
+      "description": "Closed Guard to Overhook Guard (Attacker) film study: Key detail to strengthen your closed guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UhYqXfpluYs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UhYqXfpluYs",
+      "url": "https://www.youtube.com/watch?v=UhYqXfpluYs",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Overhook control from closed guard",
+      "description": "Closed Guard to Overhook Guard (Attacker) film study: Overhook control from closed guard, taught by 6am Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5J92PJO-dEo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5J92PJO-dEo",
+      "url": "https://www.youtube.com/watch?v=5J92PJO-dEo",
+      "creator": { "@type": "Person", "name": "6am Jiu Jitsu" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker (bottom guard player), your objective is to capture one of the o
 **From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Closed Guard to Overhook Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UhYqXfpluYs)
+
+<p class="clip-credit"><strong>Key detail to strengthen your closed guard</strong> — taught by Jean Jacques Machado · 1:15 · <a href="https://www.youtube.com/watch?v=UhYqXfpluYs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5J92PJO-dEo)
+
+<p class="clip-credit"><strong>Overhook control from closed guard</strong> — taught by 6am Jiu Jitsu · 1:54 · <a href="https://www.youtube.com/watch?v=5J92PJO-dEo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

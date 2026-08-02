@@ -34,6 +34,43 @@ description: "Master the Dead Orchard to Darce Switch in BJJ. Learn grip reconfi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dead Orchard to Darce Switch \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control to north-south darce choke",
+      "description": "Dead Orchard to Darce Switch film study: Side control to north-south darce choke, taught by Gracie Westchase coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
+      "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
+      "creator": { "@type": "Person", "name": "Gracie Westchase coach" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce choke demonstration",
+      "description": "Dead Orchard to Darce Switch film study: Darce choke demonstration, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4KtdjdrJLjM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4KtdjdrJLjM",
+      "url": "https://www.youtube.com/watch?v=4KtdjdrJLjM",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this switch transforms a potentially stalling defensive situation
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dead Orchard to Darce Switch in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
+
+<p class="clip-credit"><strong>Side control to north-south darce choke</strong> — taught by Gracie Westchase coach · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4KtdjdrJLjM)
+
+<p class="clip-credit"><strong>Darce choke demonstration</strong> — taught by bjjtaro · 0:24 · <a href="https://www.youtube.com/watch?v=4KtdjdrJLjM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

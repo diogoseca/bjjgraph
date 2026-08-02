@@ -148,6 +148,54 @@ description: "Master defending the Knee Through from Quarter Guard in BJJ. Learn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Through from Quarter (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the knee slice from quarter guard",
+      "description": "Knee Through from Quarter (Defender) film study: Defending the knee slice from quarter guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xDZucxFVK48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xDZucxFVK48",
+      "url": "https://www.youtube.com/watch?v=xDZucxFVK48",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT275S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defend and counter the knee slide pass",
+      "description": "Knee Through from Quarter (Defender) film study: Defend and counter the knee slide pass, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iq5Ng9kFD2A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iq5Ng9kFD2A",
+      "url": "https://www.youtube.com/watch?v=iq5Ng9kFD2A",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT678S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering the knee through to mount",
+      "description": "Knee Through from Quarter (Defender) film study: Countering the knee through to mount, taught by SBG coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WMHAX4ATRnM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WMHAX4ATRnM",
+      "url": "https://www.youtube.com/watch?v=WMHAX4ATRnM",
+      "creator": { "@type": "Person", "name": "SBG coach" },
+      "duration": "PT127S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Knee Through from Quarter Guard demands immediate recognition and 
 **Opponent's Starting Position**: [[Positions/Quarter Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Through from Quarter (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xDZucxFVK48)
+
+<p class="clip-credit"><strong>Defending the knee slice from quarter guard</strong> — taught by Jean Jacques Machado · 4:35 · <a href="https://www.youtube.com/watch?v=xDZucxFVK48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iq5Ng9kFD2A)
+
+<p class="clip-credit"><strong>Defend and counter the knee slide pass</strong> — taught by Jordan Preisinger · 11:18 · <a href="https://www.youtube.com/watch?v=iq5Ng9kFD2A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WMHAX4ATRnM)
+
+<p class="clip-credit"><strong>Countering the knee through to mount</strong> — taught by SBG coach · 2:07 · <a href="https://www.youtube.com/watch?v=WMHAX4ATRnM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

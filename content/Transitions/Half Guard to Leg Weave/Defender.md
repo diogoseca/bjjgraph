@@ -141,6 +141,54 @@ description: "How to defend the Leg Weave entry from half guard bottom in BJJ. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Leg Weave (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Prevent the leg weave with the lasso",
+      "description": "Half Guard to Leg Weave (Defender) film study: Prevent the leg weave with the lasso, taught by Grand Union Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tO5rPtjfsGE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tO5rPtjfsGE",
+      "url": "https://www.youtube.com/watch?v=tO5rPtjfsGE",
+      "creator": { "@type": "Person", "name": "Grand Union Jiu Jitsu" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Head frame to prevent the hug pass",
+      "description": "Half Guard to Leg Weave (Defender) film study: Head frame to prevent the hug pass, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/06-ZO93fJak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/06-ZO93fJak",
+      "url": "https://www.youtube.com/watch?v=06-ZO93fJak",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "3-step defensive counter to the weave pass",
+      "description": "Half Guard to Leg Weave (Defender) film study: 3-step defensive counter to the weave pass, taught by Pendergrass Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9i-U4ivd108/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9i-U4ivd108",
+      "url": "https://www.youtube.com/watch?v=9i-U4ivd108",
+      "creator": { "@type": "Person", "name": "Pendergrass Academy" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -157,6 +205,42 @@ The worst outcome is letting the weave fully set, after which your legs are stap
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Leg Weave (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tO5rPtjfsGE)
+
+<p class="clip-credit"><strong>Prevent the leg weave with the lasso</strong> — taught by Grand Union Jiu Jitsu · 0:54 · <a href="https://www.youtube.com/watch?v=tO5rPtjfsGE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=06-ZO93fJak)
+
+<p class="clip-credit"><strong>Head frame to prevent the hug pass</strong> — taught by Revolution BJJ · 1:30 · <a href="https://www.youtube.com/watch?v=06-ZO93fJak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9i-U4ivd108)
+
+<p class="clip-credit"><strong>3-step defensive counter to the weave pass</strong> — taught by Pendergrass Academy · 1:56 · <a href="https://www.youtube.com/watch?v=9i-U4ivd108" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

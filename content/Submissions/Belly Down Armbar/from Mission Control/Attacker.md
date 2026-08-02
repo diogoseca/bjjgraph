@@ -176,6 +176,54 @@ description: "Master attacking with the belly down armbar from Mission Control. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Mission Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mission Control to Armbars",
+      "description": "Belly Down Armbar from Mission Control (Attacker) film study: Mission Control to Armbars, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fJM5bIk8Fw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5fJM5bIk8Fw",
+      "url": "https://www.youtube.com/watch?v=5fJM5bIk8Fw",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gubber Guard to Belly Down Armbar",
+      "description": "Belly Down Armbar from Mission Control (Attacker) film study: Gubber Guard to Belly Down Armbar, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bpzSfXme_eY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bpzSfXme_eY",
+      "url": "https://www.youtube.com/watch?v=bpzSfXme_eY",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Belly Down Armbar Finish",
+      "description": "Belly Down Armbar from Mission Control (Attacker) film study: Belly Down Armbar Finish, taught by Brandoo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yDxtO6qzOL0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yDxtO6qzOL0",
+      "url": "https://www.youtube.com/watch?v=yDxtO6qzOL0",
+      "creator": { "@type": "Person", "name": "Brandoo" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Executing the belly down armbar from Mission Control requires precise arm isolat
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Mission Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5fJM5bIk8Fw)
+
+<p class="clip-credit"><strong>Mission Control to Armbars</strong> — taught by 10th Planet Orange Park · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bpzSfXme_eY)
+
+<p class="clip-credit"><strong>Gubber Guard to Belly Down Armbar</strong> — taught by Revolution BJJ · 1:17 · <a href="https://www.youtube.com/watch?v=bpzSfXme_eY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yDxtO6qzOL0)
+
+<p class="clip-credit"><strong>Belly Down Armbar Finish</strong> — taught by Brandoo · 0:58 · <a href="https://www.youtube.com/watch?v=yDxtO6qzOL0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

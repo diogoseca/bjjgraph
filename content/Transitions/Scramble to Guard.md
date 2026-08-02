@@ -34,6 +34,43 @@ description: "Master Scramble to Guard escape from Twister Control. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scramble to Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spinning back door escape from side control",
+      "description": "Scramble to Guard film study: Spinning back door escape from side control, taught by Science Of JiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gawKiLxmZbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gawKiLxmZbc",
+      "url": "https://www.youtube.com/watch?v=gawKiLxmZbc",
+      "creator": { "@type": "Person", "name": "Science Of JiuJitsu" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi side control escape to guard",
+      "description": "Scramble to Guard film study: No-gi side control escape to guard, taught by Pantera Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rjvvLBRxa8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rjvvLBRxa8s",
+      "url": "https://www.youtube.com/watch?v=rjvvLBRxa8s",
+      "creator": { "@type": "Person", "name": "Pantera Jiujitsu" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ From a strategic perspective, this technique should be attempted before Twister 
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scramble to Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gawKiLxmZbc)
+
+<p class="clip-credit"><strong>Spinning back door escape from side control</strong> — taught by Science Of JiuJitsu · 0:48 · <a href="https://www.youtube.com/watch?v=gawKiLxmZbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rjvvLBRxa8s)
+
+<p class="clip-credit"><strong>No-gi side control escape to guard</strong> — taught by Pantera Jiujitsu · 1:02 · <a href="https://www.youtube.com/watch?v=rjvvLBRxa8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -254,7 +319,7 @@ Scramble to Guard fits within the broader defensive framework for back exposure 
 
 - [[Transitions/Hip Escape to Guard]] - Component technique - used in final phase of guard recovery
 
-- [[Transitions/Guillotine Choke]] - Counter threat - must be defended during scramble
+- [[Submissions/Guillotine Choke]] - Counter threat - must be defended during scramble
 
 
 </section>

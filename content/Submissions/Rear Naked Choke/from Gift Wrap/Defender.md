@@ -136,6 +136,43 @@ description: "How to survive and escape the Rear Naked Choke from Gift Wrap. Lea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Gift Wrap (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the Gift Wrap",
+      "description": "Rear Naked Choke from Gift Wrap (Defender) film study: Escaping the Gift Wrap, taught by thejiujitsupedia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OMzki0Uu7vA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OMzki0Uu7vA",
+      "url": "https://www.youtube.com/watch?v=OMzki0Uu7vA",
+      "creator": { "@type": "Person", "name": "thejiujitsupedia" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gift Wrap Escape",
+      "description": "Rear Naked Choke from Gift Wrap (Defender) film study: Gift Wrap Escape, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sD5jAuHaKKQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sD5jAuHaKKQ",
+      "url": "https://www.youtube.com/watch?v=sD5jAuHaKKQ",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +183,34 @@ Defending the Rear Naked Choke from Gift Wrap is among the most difficult defens
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Gift Wrap (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OMzki0Uu7vA)
+
+<p class="clip-credit"><strong>Escaping the Gift Wrap</strong> — taught by thejiujitsupedia · 0:48 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sD5jAuHaKKQ)
+
+<p class="clip-credit"><strong>Gift Wrap Escape</strong> — taught by Chosen Few BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=sD5jAuHaKKQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -17,7 +17,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Kuzure Kesa-Gatame",
   "from_position": "Kuzure Kesa-Gatame/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Kimura from Kuzure Kesa-Gatame is a figure-four shoulder lock that exploits the position's already-trapped near arm, rotating the opponent's wrist behind their back to attack the shoulder's internal-rotation limit while hip pressure denies escape.",
   "overview": "The Kimura from Kuzure Kesa-Gatame ranks among the highest-percentage shoulder lock setups in Brazilian Jiu-Jitsu. The position's inherent arm isolation—where the opponent's arm is already trapped across your torso—provides a natural pathway to the figure-four grip without the typical grip-fighting battle that characterizes Kimura attempts from other positions. The top player's hip pressure pins the opponent in place, creating a stable platform from which to methodically secure the wrist, establish the figure-four, and rotate the shoulder toward its breaking point.\n\nWhat makes this variant particularly effective is the control redundancy built into Kuzure Kesa-Gatame. Even as you transition from positional control to submission finishing, the hip pressure and body positioning continue to restrict the opponent's escape options. The opponent cannot simply turn away or bridge effectively because your seated base and posted leg create structural barriers to reversal. This allows you to apply the Kimura slowly and methodically, using progressive rotational pressure rather than explosive force—an approach that is both safer in training and more reliable under competition pressure.\n\nThe submission chains available from this position further elevate its strategic value. If the opponent straightens their arm to resist the Kimura grip, an armbar presents itself. If they grab their own belt or pants to prevent rotation, transitioning to an americana or switching to the Kimura Trap maintains offensive pressure. These branching options transform the Kimura attempt from a single technique into a comprehensive submission system that forces the opponent to address multiple threats simultaneously.",
   "safety_considerations": {
@@ -102,17 +105,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Kuzure Kesa-Gatame/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -274,52 +286,181 @@
       {
         "question": "What anatomical structures does the Kimura from Kuzure Kesa-Gatame primarily attack?",
         "answer": "The Kimura targets the shoulder joint's internal rotation limit, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, the glenoid labrum, and the shoulder capsule. Secondary stress occurs at the acromioclavicular joint when rotation is taken past the normal range of motion.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotator cuff and shoulder capsule",
+        "distractors": {
+          "plausible": [
+            "Elbow hyperextension like armbar",
+            "Wrist and forearm tendons"
+          ],
+          "trap": [
+            "Neck — crank it to finish"
+          ]
+        }
       },
       {
         "question": "Why is maintaining hip pressure during grip acquisition critical to this submission's success?",
         "answer": "Hip pressure serves dual purposes: it pins the opponent's torso to prevent them from creating the space needed to turn, bridge, or recover guard, and it anchors your own body so that upper body movements to secure the grip do not shift your center of gravity. Without hip pressure, the opponent exploits the momentary attention shift to escape before the figure-four is established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pins torso, denies escape space",
+        "distractors": {
+          "plausible": [
+            "Generates the finishing torque",
+            "Keeps your shoulders square"
+          ],
+          "trap": [
+            "Lift hips to reach the wrist"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own belt to block the Kimura rotation—what are your two best responses?",
         "answer": "First, use your posting hand to peel their defensive grip one finger at a time while maintaining rotational tension through the figure-four. Second, abandon the Kimura rotation and step over their head to transition to an armbar, using their connected grip defense as the setup for the arm extension. Recognizing that their grip defense opens other submission pathways is more effective than trying to power through the block.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Peel fingers or switch to armbar",
+        "distractors": {
+          "plausible": [
+            "Drive body weight through it",
+            "Let go and reset the position"
+          ],
+          "trap": [
+            "Stand up to rip the grip free"
+          ]
+        }
       },
       {
         "question": "At what point during the rotation does the Kimura become dangerous where the opponent can no longer safely resist?",
         "answer": "The critical danger point occurs when the opponent's wrist passes behind the plane of their back. Before this point, the shoulder has natural range-of-motion buffer and muscular defense. Once the wrist moves behind the back, internal rotation has exceeded the shoulder's safe structural limit and further pressure causes immediate ligament and tendon damage. Controlled application speed is essential to give the opponent time to tap before this point.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Wrist passes behind their back",
+        "distractors": {
+          "plausible": [
+            "When elbow reaches 90 degrees",
+            "As soon as figure-four locks"
+          ],
+          "trap": [
+            "Only when they scream in pain"
+          ]
+        }
       },
       {
         "question": "How does the finishing direction from Kuzure Kesa-Gatame differ from a Kimura applied from closed guard bottom?",
         "answer": "From Kuzure Kesa-Gatame, the rotation drives the opponent's wrist toward the mat behind their back with gravity assistance, and the finish relies on body rotation rather than arm pulling. From closed guard bottom, the Kimura rotates the wrist upward toward the ceiling against gravity, requiring more grip strength and hip elevation to generate sufficient torque. The Kuzure Kesa-Gatame version is mechanically more efficient because gravity aids the finishing direction.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gravity drives wrist down, not up",
+        "distractors": {
+          "plausible": [
+            "Same angle, just more grip needed",
+            "Guard version is more efficient"
+          ],
+          "trap": [
+            "Kesa version needs arm pulling"
+          ]
+        }
       },
       {
         "question": "What grip adjustment should you make if the opponent's arm is slippery from sweat in no-gi?",
         "answer": "Deepen the figure-four by threading your arm further under the opponent's forearm so your grip connects closer to your own elbow rather than at the wrist. This creates a tighter mechanical loop with more surface contact, reducing the chance of slipping. You can also cup the opponent's wrist with your controlling hand rather than using a standard grip, creating a hook shape that resists the slipping direction more effectively.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deepen figure-four toward elbow",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder at their wrist",
+            "Speed up before it slips"
+          ],
+          "trap": [
+            "Release and re-grip the wrist"
+          ]
+        }
       },
       {
         "question": "How should you release the Kimura safely after your training partner taps?",
         "answer": "Immediately stop all rotational pressure the instant the tap is felt or heard. Slowly return the arm toward its natural resting position by externally rotating back toward the starting angle. Release the figure-four grip completely and allow your partner to self-assess their shoulder mobility before continuing. Never release suddenly or let the arm spring back, as this can cause injury even after the rotational pressure stops.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ease the torque, guide arm down",
+        "distractors": {
+          "plausible": [
+            "Let go of both grips at once",
+            "Straighten the elbow to relieve it"
+          ],
+          "trap": [
+            "Keep cranking until they say stop"
+          ]
+        }
       },
       {
         "question": "What signals indicate you should abandon the Kimura attempt and return to positional control?",
         "answer": "Abandon the attempt when your hip pressure has been compromised and the opponent is actively turning into you, when you cannot secure the figure-four grip after two attempts and the opponent is actively defending, or when the opponent has connected their hands in a defensive grip you cannot break without sacrificing base. Returning to solid Kuzure Kesa-Gatame preserves your dominant position and allows another attempt from a stronger starting point.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips lost, grip fails, hands locked",
+        "distractors": {
+          "plausible": [
+            "They grab their belt to defend",
+            "Your arms start to tire"
+          ],
+          "trap": [
+            "Crank harder and give up base"
+          ]
+        }
       },
       {
         "question": "Why is elbow elevation above the shoulder line important before initiating the rotational finish?",
         "answer": "When the elbow sits below shoulder level, the opponent's chest wall and latissimus dorsi provide substantial muscular resistance to rotation, making the finish require significantly more force. Elevating the elbow above the shoulder line bypasses these large muscle groups and isolates the rotational load onto the smaller rotator cuff muscles and ligaments, which cannot resist the torque effectively. This is the difference between muscling a finish and using proper leverage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bypasses lats, isolates cuff",
+        "distractors": {
+          "plausible": [
+            "Makes the grip easier to hold",
+            "Speeds up the rotation"
+          ],
+          "trap": [
+            "Drive the elbow into their neck"
+          ]
+        }
       },
       {
         "question": "How do you chain the Kimura attempt with an armbar when the opponent straightens their arm defensively?",
         "answer": "When the opponent extends their arm to prevent the figure-four grip from connecting, immediately control the straightened arm at the wrist with your near hand. Swing your far leg over their head while maintaining wrist control, then sit back into the armbar position. The key is recognizing the arm extension as an opportunity rather than a setback—their defensive reaction to the Kimura creates the mechanical setup the armbar requires.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Control wrist, swing leg over head",
+        "distractors": {
+          "plausible": [
+            "Re-thread the figure-four grip",
+            "Wait for the arm to bend again"
+          ],
+          "trap": [
+            "Sit back before clearing the head"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "d7ucks8aHN0",
+        "title": "Transition from Kesa Gatame to Kimura",
+        "by": "Strong Hold Jiu Jitsu",
+        "vertical": false,
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "u80GDGC1Yno",
+        "title": "Kimura from Scarf Hold",
+        "by": "Julie Bond",
+        "vertical": false,
+        "channel": "Julie Bond",
+        "duration": 35,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-RyLUQSZZ1s",
+        "title": "Kimura from Kesa",
+        "by": "Vernon Kirk",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 92,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -401,22 +542,62 @@
       {
         "question": "How do you recognize that a Kimura attempt from Kuzure Kesa-Gatame is being initiated?",
         "answer": "The primary recognition cue is the attacker releasing their controlling hand from your upper arm to reach for your wrist. You may also feel them shifting their weight slightly to free their far arm for threading the figure-four. The moment you sense either change, immediately activate your defensive grip by grabbing your own belt, pants, or opposite wrist to block the figure-four establishment before it connects.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "They release arm to grab your wrist",
+        "distractors": {
+          "plausible": [
+            "They suddenly sit up on you",
+            "They grip your far leg first"
+          ],
+          "trap": [
+            "Wait until the figure-four locks"
+          ]
+        }
       },
       {
         "question": "At what point should you tap to the Kimura from Kuzure Kesa-Gatame to prevent injury?",
         "answer": "Tap immediately when you feel your wrist being rotated behind the plane of your back. Once the shoulder's internal rotation limit has been exceeded, there is no muscular defense available and the joint structures begin to fail rapidly. In training, always err on the side of tapping early—the shoulder joint is slow to heal and injuries frequently become chronic. Use verbal tap, hand tap, or foot tap, whichever signal is available fastest.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Wrist rotates behind your back",
+        "distractors": {
+          "plausible": [
+            "When the figure-four locks on",
+            "When your elbow is bent to 90"
+          ],
+          "trap": [
+            "Muscle out after rotation starts"
+          ]
+        }
       },
       {
         "question": "Why is turning toward the attacker safer than turning away when defending the Kimura?",
         "answer": "Turning toward the attacker reduces the effective rotational angle of the Kimura by bringing your shoulder closer to the direction the wrist is being rotated, which buys defensive time and reduces leverage. Turning away actually increases the rotational distance and can accelerate the shoulder past its safe range of motion. Additionally, turning toward the attacker opens the path to closed guard recovery, which is your most favorable defensive outcome from this position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Reduces angle, opens guard",
+        "distractors": {
+          "plausible": [
+            "Away hides the arm from attacker",
+            "Toward speeds up their finish"
+          ],
+          "trap": [
+            "Turn away to create scramble space"
+          ]
+        }
       },
       {
         "question": "What defensive options remain if the attacker has fully established the figure-four grip?",
         "answer": "With the figure-four locked, your best option is to immediately turn your entire body toward the attacker to recover guard. Grip your own belt or pants with your free hand and use your hips to rotate toward them. If you cannot turn, grip-fight to break the figure-four by attacking the weakest point—the attacker's wrist-to-wrist connection. If rotation has already begun and you cannot stop it, tap immediately rather than risking permanent shoulder injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Turn in, grip-fight, or tap",
+        "distractors": {
+          "plausible": [
+            "Push their head away",
+            "Wait for them to lose the grip"
+          ],
+          "trap": [
+            "Rip the arm out, rolling away"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -439,6 +620,35 @@
         "phase": "Live Defensive Sparring",
         "focus": "Full resistance defense and safe tapping",
         "description": "Start in Kuzure Kesa-Gatame bottom with partner pursuing the Kimura at full resistance. Practice all defensive options including prevention, grip fighting, guard recovery, and recognizing when to tap safely. Track escape success rate and identify technical gaps."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame Escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-zFQ6h4yKT4",
+        "title": "Kuzure-kesa-gatame Escapes",
+        "by": "Kodokan",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_HjmunOXVtY",
+        "title": "Kuzure Kesa Gatame Escapes",
+        "by": "Utah Shudokan",
+        "vertical": false,
+        "channel": "Utah Shudokan USA",
+        "duration": 70,
+        "verified": "2026-07-14"
       }
     ]
   }

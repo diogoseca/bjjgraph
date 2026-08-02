@@ -174,6 +174,43 @@ description: "Complete guide to executing the Knee Torque Sweep from half guard 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Torque Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half Guard Knee Torque Sweep",
+      "description": "Knee Torque Sweep (Attacker) film study: Half Guard Knee Torque Sweep, taught by The Jiu-Jitsu Foundry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LEwtCvRTxl0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LEwtCvRTxl0",
+      "url": "https://www.youtube.com/watch?v=LEwtCvRTxl0",
+      "creator": { "@type": "Person", "name": "The Jiu-Jitsu Foundry" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Twist Half Guard Sweep (No-Gi)",
+      "description": "Knee Torque Sweep (Attacker) film study: Knee Twist Half Guard Sweep (No-Gi), taught by Rituals Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OWZlH8G8-0g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OWZlH8G8-0g",
+      "url": "https://www.youtube.com/watch?v=OWZlH8G8-0g",
+      "creator": { "@type": "Person", "name": "Rituals Jiu Jitsu" },
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Knee Torque Sweep from half guard bottom uses rotational force applied to th
 **From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Torque Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LEwtCvRTxl0)
+
+<p class="clip-credit"><strong>Half Guard Knee Torque Sweep</strong> — taught by The Jiu-Jitsu Foundry · 0:21 · <a href="https://www.youtube.com/watch?v=LEwtCvRTxl0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OWZlH8G8-0g)
+
+<p class="clip-credit"><strong>Knee Twist Half Guard Sweep (No-Gi)</strong> — taught by Rituals Jiu Jitsu · 2:33 · <a href="https://www.youtube.com/watch?v=OWZlH8G8-0g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

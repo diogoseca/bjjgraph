@@ -174,6 +174,54 @@ description: "How to execute Crackhead Control to Carni in BJJ. Attacking perspe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crackhead Control to Carni (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Carne-Val technique from rubber guard",
+      "description": "Crackhead Control to Carni (Attacker) film study: The Carne-Val technique from rubber guard, taught by Richie Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qeOb0Rl1hy4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qeOb0Rl1hy4",
+      "url": "https://www.youtube.com/watch?v=qeOb0Rl1hy4",
+      "creator": { "@type": "Person", "name": "Richie Martinez" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attack chain: The Carni",
+      "description": "Crackhead Control to Carni (Attacker) film study: Attack chain: The Carni, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iRTWyAmw5vQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iRTWyAmw5vQ",
+      "url": "https://www.youtube.com/watch?v=iRTWyAmw5vQ",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Carni sweep from rubber guard",
+      "description": "Crackhead Control to Carni (Attacker) film study: Carni sweep from rubber guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ws8HqIka0x0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ws8HqIka0x0",
+      "url": "https://www.youtube.com/watch?v=Ws8HqIka0x0",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT263S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -182,9 +230,45 @@ As the attacker executing the Crackhead Control to Carni transition, you are con
 
 Success depends on reading your opponent's pressure patterns from crackhead control bottom. The constant hip movement and grip fighting that define good crackhead defense serve dual purpose: they prevent the top player from consolidating control and simultaneously create the unpredictability needed to disguise the transition entry. When the top player loads forward to break your defensive structure, that forward commitment is precisely when their legs become vulnerable to entanglement. Advanced practitioners develop the sensitivity to feel this weight shift through their lower back and react within the narrow timing window before the top player can retract.
 
-**From Position**: [[Positions/Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crackhead Control to Carni (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qeOb0Rl1hy4)
+
+<p class="clip-credit"><strong>The Carne-Val technique from rubber guard</strong> — taught by Richie Martinez · 0:43 · <a href="https://www.youtube.com/watch?v=qeOb0Rl1hy4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iRTWyAmw5vQ)
+
+<p class="clip-credit"><strong>Attack chain: The Carni</strong> — taught by Johnny Jitsu · 2:19 · <a href="https://www.youtube.com/watch?v=iRTWyAmw5vQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ws8HqIka0x0)
+
+<p class="clip-credit"><strong>Carni sweep from rubber guard</strong> — taught by BJJ4Breakfast · 4:23 · <a href="https://www.youtube.com/watch?v=Ws8HqIka0x0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -243,7 +327,7 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Rubber Guard/Carni]] | 55% |
-| Failure | [[Positions/Crackhead Control]] | 30% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 
 
@@ -255,8 +339,8 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 <p class="section-subtitle">How might your opponent counter Crackhead Control to Carni?</p>
 
-- **Top player immediately steps over with free leg to pass guard during transition attempt** (Effectiveness: High) - Your Response: Maintain active inside leg hook over hip to block step-over. If they begin stepping, immediately transition to half guard or butterfly guard recovery rather than forcing carni entry → Leads to [[Positions/Crackhead Control]]
-- **Top player sprawls back and retracts hips when feeling the inversion begin** (Effectiveness: Medium) - Your Response: Their hip retraction creates space for technical standup or granby roll to guard. The sprawl defense trades their crackhead control for your guard recovery opportunity → Leads to [[Positions/Crackhead Control]]
+- **Top player immediately steps over with free leg to pass guard during transition attempt** (Effectiveness: High) - Your Response: Maintain active inside leg hook over hip to block step-over. If they begin stepping, immediately transition to half guard or butterfly guard recovery rather than forcing carni entry → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Top player sprawls back and retracts hips when feeling the inversion begin** (Effectiveness: Medium) - Your Response: Their hip retraction creates space for technical standup or granby roll to guard. The sprawl defense trades their crackhead control for your guard recovery opportunity → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 - **Top player drives forward aggressively with chest pressure to flatten you during transition** (Effectiveness: Medium) - Your Response: Use their forward drive momentum to assist your inversion. Their chest pressure actually facilitates the roll-under motion when timed correctly, converting their aggression into your transition energy → Leads to [[Positions/Rubber Guard/Carni]]
 - **Top player immediately extracts leg and secures back control upon recognizing the entanglement attempt** (Effectiveness: High) - Your Response: If they clear the entanglement and advance to back control, immediately transition to standard back defense protocol with chin tuck and hand fighting. Prevention is key: commit fully and quickly to minimize the extraction window → Leads to [[Positions/Back Control]]
 

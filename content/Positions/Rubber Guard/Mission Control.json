@@ -105,35 +105,115 @@
     "flashcards": [
       {
         "question": "What is the proper weight distribution to maintain when trapped in Mission Control to avoid strengthening the bottom player's control?",
-        "answer": "Distribute weight evenly between both arms rather than loading onto the trapped shoulder. Maintain some backward weight distribution to reduce the mechanical advantage the bottom practitioner gains from shoulder loading, but don't pull so far back that you lose all forward pressure needed for eventual escape. The goal is to minimize the 'cooking' effect while maintaining enough connection to work systematic escapes."
+        "answer": "Distribute weight evenly between both arms rather than loading onto the trapped shoulder. Maintain some backward weight distribution to reduce the mechanical advantage the bottom practitioner gains from shoulder loading, but don't pull so far back that you lose all forward pressure needed for eventual escape. The goal is to minimize the 'cooking' effect while maintaining enough connection to work systematic escapes.",
+        "answer_line": "Weight back, off trapped shoulder",
+        "distractors": {
+          "plausible": [
+            "Push all weight forward",
+            "Balance weight on trapped arm"
+          ],
+          "trap": [
+            "Sink full weight into shoulder"
+          ]
+        }
       },
       {
         "question": "Your opponent begins bringing their leg across your face to complete a triangle - what is your immediate defensive response?",
-        "answer": "Immediately drive weight forward with stacking pressure to prevent the leg from crossing your face completely. Simultaneously turn your head toward the trapped arm side to create space and make it harder for them to lock the triangle. If the leg is already partially across, tuck your chin and begin working to create an angle by circling toward the trapped arm side while maintaining your base."
+        "answer": "Immediately drive weight forward with stacking pressure to prevent the leg from crossing your face completely. Simultaneously turn your head toward the trapped arm side to create space and make it harder for them to lock the triangle. If the leg is already partially across, tuck your chin and begin working to create an angle by circling toward the trapped arm side while maintaining your base.",
+        "answer_line": "Stack forward, turn to trapped side",
+        "distractors": {
+          "plausible": [
+            "Turn head away from trapped arm",
+            "Pull free arm to strip leg"
+          ],
+          "trap": [
+            "Posture straight up fast"
+          ]
+        }
       },
       {
         "question": "What are the essential grips you must fight to prevent the bottom player from maintaining Mission Control?",
-        "answer": "The primary grip to fight is head control - use your free hand constantly to strip grips, create distance, and prevent deep collar ties or head locks on your neck. Secondary is the grip controlling your trapped arm's wrist or sleeve. If they achieve deep two-handed head control, submission entries become nearly indefensible and escape becomes almost impossible."
+        "answer": "The primary grip to fight is head control - use your free hand constantly to strip grips, create distance, and prevent deep collar ties or head locks on your neck. Secondary is the grip controlling your trapped arm's wrist or sleeve. If they achieve deep two-handed head control, submission entries become nearly indefensible and escape becomes almost impossible.",
+        "answer_line": "Strip head control constantly",
+        "distractors": {
+          "plausible": [
+            "Fight trapped arm grip first",
+            "Push on their hips to break"
+          ],
+          "trap": [
+            "Let them lock double overhooks"
+          ]
+        }
       },
       {
         "question": "Why is explosive posturing up a critical error when defending Mission Control?",
-        "answer": "Sudden explosive posturing creates the exact movement pattern that allows the bottom practitioner to complete the triangle lock - your upward movement actually helps them get their leg across your face. The explosive motion also telegraphs your intention, allowing them to time their attack. Additionally, failed explosive attempts waste energy and often create worse angles for the bottom player's submissions."
+        "answer": "Sudden explosive posturing creates the exact movement pattern that allows the bottom practitioner to complete the triangle lock - your upward movement actually helps them get their leg across your face. The explosive motion also telegraphs your intention, allowing them to time their attack. Additionally, failed explosive attempts waste energy and often create worse angles for the bottom player's submissions.",
+        "answer_line": "Feeds the triangle leg entry",
+        "distractors": {
+          "plausible": [
+            "Only wastes energy overall",
+            "Only tips off your intent"
+          ],
+          "trap": [
+            "It's fine if done explosively"
+          ]
+        }
       },
       {
         "question": "How should you approach energy management when trapped in Mission Control for an extended period?",
-        "answer": "Accept the temporary discomfort and work systematically through escape phases using technical precision rather than athleticism. Panicking and explosive escape attempts accelerate energy expenditure without improving the situation. The position naturally deteriorates as the bottom player's hip flexibility and grip endurance fade - extend the battle past their sustainable timeframe while conserving your energy for the decisive escape moment."
+        "answer": "Accept the temporary discomfort and work systematically through escape phases using technical precision rather than athleticism. Panicking and explosive escape attempts accelerate energy expenditure without improving the situation. The position naturally deteriorates as the bottom player's hip flexibility and grip endurance fade - extend the battle past their sustainable timeframe while conserving your energy for the decisive escape moment.",
+        "answer_line": "Grind technical phases, save burst",
+        "distractors": {
+          "plausible": [
+            "Match their pace early",
+            "Explode out immediately"
+          ],
+          "trap": [
+            "Rush escape to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent's hip elevation momentarily drops - what opportunity does this create and how do you capitalize?",
-        "answer": "Dropping hip elevation weakens the entire Mission Control structure. Immediately drive weight slightly back while lifting your head to begin posture recovery. Use this window to fight their head control grips and create small progressive improvements in your posture angle. Alternatively, if their grip control also relaxes, this is the optimal moment to stand up explosively and break the high guard leg position entirely."
+        "answer": "Dropping hip elevation weakens the entire Mission Control structure. Immediately drive weight slightly back while lifting your head to begin posture recovery. Use this window to fight their head control grips and create small progressive improvements in your posture angle. Alternatively, if their grip control also relaxes, this is the optimal moment to stand up explosively and break the high guard leg position entirely.",
+        "answer_line": "Recover posture, fight grips",
+        "distractors": {
+          "plausible": [
+            "Immediately extract trapped arm",
+            "Push hips into them harder"
+          ],
+          "trap": [
+            "Stay still and wait it out"
+          ]
+        }
       },
       {
         "question": "What base adjustments should you maintain throughout the entire defensive sequence to prevent sweeps?",
-        "answer": "Widen your knees and distribute weight evenly to create a stable triangular base. The bottom practitioner will attempt hip bump sweeps and other reversals when their submission attacks are defended, so you must defend both threats simultaneously. Avoid bringing your knees together or shifting weight too far in any single direction, as this creates the instability they need to execute sweeps."
+        "answer": "Widen your knees and distribute weight evenly to create a stable triangular base. The bottom practitioner will attempt hip bump sweeps and other reversals when their submission attacks are defended, so you must defend both threats simultaneously. Avoid bringing your knees together or shifting weight too far in any single direction, as this creates the instability they need to execute sweeps.",
+        "answer_line": "Wide knees, even weight base",
+        "distractors": {
+          "plausible": [
+            "Knees together for stability",
+            "Weight far back to escape"
+          ],
+          "trap": [
+            "Lean weight to one side"
+          ]
+        }
       },
       {
         "question": "After successfully extracting your trapped arm, what should be your immediate next action?",
-        "answer": "Immediately drive passing pressure before the bottom practitioner can reestablish guard or transition to another rubber guard control. The moment of arm extraction is when they are most vulnerable - their control structure is broken and they need time to reset. Drive toward side control or immediately stand to combat base, maintaining forward pressure to prevent guard recovery."
+        "answer": "Immediately drive passing pressure before the bottom practitioner can reestablish guard or transition to another rubber guard control. The moment of arm extraction is when they are most vulnerable - their control structure is broken and they need time to reset. Drive toward side control or immediately stand to combat base, maintaining forward pressure to prevent guard recovery.",
+        "answer_line": "Drive passing pressure now",
+        "distractors": {
+          "plausible": [
+            "Reset posture and breathe",
+            "Retreat to standing base slowly"
+          ],
+          "trap": [
+            "Pause to check grips first"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -318,35 +398,58 @@
     "transitions": [
       {
         "transition": "Arm Extraction and Pass",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Stack Defense",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Standing up in Base",
-        "attempt_probability": 30
-      },
-      {
-        "transition": "Arm Extraction",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 24,
+          "nogi": 26
+        }
       },
       {
         "transition": "Guard Opening Sequence",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 19
+        }
       },
       {
         "transition": "Posture Break from Mission Control",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 15
+        }
       },
       {
         "transition": "Stack Pass from Mission Control",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 16
+        }
       },
       {
         "transition": "Posture Recovery from Mission Control",
-        "attempt_probability": 16
+        "attempt_probability": {
+          "gi": 26,
+          "nogi": 24
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Rubber Guard Escape (Passing Mission Control)",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5fp5Nh_9jE4",
+        "title": "Over/under control against the rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 216,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -396,35 +499,115 @@
     "flashcards": [
       {
         "question": "What is the essential weight distribution for maintaining Mission Control and how does it create the 'cooking' effect on your opponent?",
-        "answer": "Your hips must remain elevated off the mat, creating active upward pressure that forces your opponent's weight onto their trapped shoulder. This asymmetric loading creates rapid fatigue in their shoulder and neck while you can maintain control with relatively less effort. The structural mechanics mean their own defensive efforts work against them - the more they resist, the more their weight loads onto the compromised shoulder."
+        "answer": "Your hips must remain elevated off the mat, creating active upward pressure that forces your opponent's weight onto their trapped shoulder. This asymmetric loading creates rapid fatigue in their shoulder and neck while you can maintain control with relatively less effort. The structural mechanics mean their own defensive efforts work against them - the more they resist, the more their weight loads onto the compromised shoulder.",
+        "answer_line": "Hips up, load their shoulder",
+        "distractors": {
+          "plausible": [
+            "Weight forward onto their chest",
+            "Hips down for stable base"
+          ],
+          "trap": [
+            "Drop hips flat to rest"
+          ]
+        }
       },
       {
         "question": "Your opponent begins recovering posture by driving weight backward - what adjustment do you make to maintain control?",
-        "answer": "Increase hip elevation and pull more aggressively on their head with both hands to counteract their backward movement. If they continue driving back, immediately transition to triangle by bringing your leg across their face - their upward posture movement actually assists the triangle entry. Use their defensive momentum against them rather than fighting it directly with strength."
+        "answer": "Increase hip elevation and pull more aggressively on their head with both hands to counteract their backward movement. If they continue driving back, immediately transition to triangle by bringing your leg across their face - their upward posture movement actually assists the triangle entry. Use their defensive momentum against them rather than fighting it directly with strength.",
+        "answer_line": "Raise hips, pull head, triangle",
+        "distractors": {
+          "plausible": [
+            "Match backward pull with strength",
+            "Release grips to reset position"
+          ],
+          "trap": [
+            "Let them posture fully out"
+          ]
+        }
       },
       {
         "question": "What are the primary grips required to maintain Mission Control and why is each essential?",
-        "answer": "The primary grip is head control - either double overhooks behind the head or one hand on the back of the head with the other controlling the trapped arm. Head control is non-negotiable because any relaxation allows posture recovery which eliminates both control and submission opportunities. Secondary is the wrist or tricep control on the trapped arm to prevent extraction. Without aggressive head control, the entire position structure fails."
+        "answer": "The primary grip is head control - either double overhooks behind the head or one hand on the back of the head with the other controlling the trapped arm. Head control is non-negotiable because any relaxation allows posture recovery which eliminates both control and submission opportunities. Secondary is the wrist or tricep control on the trapped arm to prevent extraction. Without aggressive head control, the entire position structure fails.",
+        "answer_line": "Head control, non-negotiable",
+        "distractors": {
+          "plausible": [
+            "Wrist control is most vital",
+            "Ankle control locks position"
+          ],
+          "trap": [
+            "Release head to grab both wrists"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary escape attempt of extracting their trapped arm?",
-        "answer": "Keep the trapped arm isolated on the inside of your high guard leg by constantly monitoring its position and maintaining downward pressure with your outside leg over their shoulder. If they begin pulling the arm back, immediately follow it into omoplata - their extraction attempt is actually the setup for your next attack. If the arm slips toward the outside, transition to Invisible Collar or New York to reestablish shoulder isolation."
+        "answer": "Keep the trapped arm isolated on the inside of your high guard leg by constantly monitoring its position and maintaining downward pressure with your outside leg over their shoulder. If they begin pulling the arm back, immediately follow it into omoplata - their extraction attempt is actually the setup for your next attack. If the arm slips toward the outside, transition to Invisible Collar or New York to reestablish shoulder isolation.",
+        "answer_line": "Isolate arm, chase omoplata",
+        "distractors": {
+          "plausible": [
+            "Muscle the arm back inside",
+            "Release leg to reset control"
+          ],
+          "trap": [
+            "Let arm slide fully outside"
+          ]
+        }
       },
       {
         "question": "Where should the high guard leg be positioned on the opponent's back and why does height matter?",
-        "answer": "Thread your inside leg as high as possible across the opponent's back, with the shin or calf creating downward pressure on the shoulder blade. The higher the leg position, the greater the shoulder isolation and mechanical leverage. A leg positioned too low allows the opponent to maintain shoulder mobility and generate defensive frames, reducing submission threat and control effectiveness."
+        "answer": "Thread your inside leg as high as possible across the opponent's back, with the shin or calf creating downward pressure on the shoulder blade. The higher the leg position, the greater the shoulder isolation and mechanical leverage. A leg positioned too low allows the opponent to maintain shoulder mobility and generate defensive frames, reducing submission threat and control effectiveness.",
+        "answer_line": "Thread leg high on shoulder blade",
+        "distractors": {
+          "plausible": [
+            "Keep leg low for stability",
+            "Hook leg loosely at the hip"
+          ],
+          "trap": [
+            "Drop leg to opponent's waist"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully stands up while you maintain Mission Control - how do you recover or capitalize?",
-        "answer": "If they stand with you attached, you have two options based on their balance. If they're off-balance forward, continue pulling their head and elevate into a flying triangle or omoplata. If they achieve stable standing posture, release the high guard and transition to standing guard position, looking for immediate takedowns or guard pulls. Don't cling to a compromised Mission Control against a standing opponent."
+        "answer": "If they stand with you attached, you have two options based on their balance. If they're off-balance forward, continue pulling their head and elevate into a flying triangle or omoplata. If they achieve stable standing posture, release the high guard and transition to standing guard position, looking for immediate takedowns or guard pulls. Don't cling to a compromised Mission Control against a standing opponent.",
+        "answer_line": "Off-balance: pull into triangle",
+        "distractors": {
+          "plausible": [
+            "Always release to standing guard",
+            "Hold Mission Control regardless"
+          ],
+          "trap": [
+            "Cling on against stable stander"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure to maintain Mission Control for extended periods?",
-        "answer": "Rely on structural positioning rather than muscular effort - use hip elevation and leg positioning for control, letting structural mechanics do the work. Once the position is locked, relax into it while maintaining control tension through your frame, not through constant gripping and pulling. Let the opponent's own weight distribution create the fatigue while you conserve energy for attacks and adjustments."
+        "answer": "Rely on structural positioning rather than muscular effort - use hip elevation and leg positioning for control, letting structural mechanics do the work. Once the position is locked, relax into it while maintaining control tension through your frame, not through constant gripping and pulling. Let the opponent's own weight distribution create the fatigue while you conserve energy for attacks and adjustments.",
+        "answer_line": "Structure over muscle, relax in",
+        "distractors": {
+          "plausible": [
+            "Grip and pull constantly harder",
+            "Match pace with constant tension"
+          ],
+          "trap": [
+            "Squeeze everything nonstop"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward with stacking pressure to collapse your high guard - what is your counter?",
-        "answer": "Accept their forward pressure and use their momentum to transition. Options include transitioning to Zombie control which is specifically designed for stacking opponents, rolling into omoplata using their forward pressure as momentum, or using an overhead sweep to reverse position entirely. Forward stacking should be welcomed as it creates predictable momentum you can redirect into attacks."
+        "answer": "Accept their forward pressure and use their momentum to transition. Options include transitioning to Zombie control which is specifically designed for stacking opponents, rolling into omoplata using their forward pressure as momentum, or using an overhead sweep to reverse position entirely. Forward stacking should be welcomed as it creates predictable momentum you can redirect into attacks.",
+        "answer_line": "Ride stack into Zombie or omoplata",
+        "distractors": {
+          "plausible": [
+            "Resist the stack with strength",
+            "Release guard to stand up"
+          ],
+          "trap": [
+            "Brace stiff against the stack"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -628,48 +811,223 @@
     "transitions": [
       {
         "transition": "Triangle from Guard",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 15
+        }
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Omoplata to Sweep",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 11
+        }
       },
       {
         "transition": "Closed Guard to Triangle",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       },
       {
         "transition": "Gogoplata",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 8
+        }
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
       },
       {
         "transition": "Progression to Zombie",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 13
+        }
       },
       {
         "transition": "Advance to Chill Dog",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 11
+        }
       },
       {
         "transition": "Belly Down Armbar from Mission Control",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "5fJM5bIk8Fw",
+        "title": "Mission Control to Invisible Collar to Armbars",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 108,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "d_IuykmUqBA",
+        "title": "10th Planet Rubber Guard Path",
+        "by": "Justin Patten",
+        "vertical": false,
+        "channel": "Justin Patten",
+        "duration": 54,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Mission Control and distinguishes it from an ordinary high guard?",
+      "answer": "Mission Control is defined by the bottom player threading the inside leg high across the top player's back while the outside leg drapes over and pins the far shoulder, and both hands pull the top player's head down into a broken posture. The signature element is that the shoulder is actively isolated by the outside leg and welded to the trapped head, rather than the leg being left as a passive hook that lets the opponent posture. This locked, self-reinforcing shoulder trap is what separates Mission Control from a generic high guard, where the leg floats freely and the top player can still square up and rebuild posture. The captured head and isolated shoulder are pinned together beneath the leg, defining the whole position.",
+      "answer_line": "Leg welds shoulder to pulled head",
+      "distractors": {
+        "plausible": [
+          "Any high guard leg over back",
+          "Leg hooks hip, head stays free"
+        ],
+        "trap": [
+          "Leg floats loose, no head pull"
+        ]
+      }
+    },
+    {
+      "question": "Why is shoulder isolation considered the central control mechanism of Mission Control for both players?",
+      "answer": "The position traps one of the top player's shoulders beneath the high-guard leg, welding the head and that shoulder together so they can no longer move independently. This isolation strips the top player of the ability to build effective frames or square their posture, because the trapped side cannot post or drive. For the bottom player it is the anchor that keeps the entire configuration intact, and for the top player it is the primary thing that must be undone to escape. Both roles orient their entire game around whether that shoulder stays captured or gets freed, which is why isolation is the defining control rather than any single grip.",
+      "answer_line": "Traps shoulder, kills posture",
+      "distractors": {
+        "plausible": [
+          "Controls hips, kills base",
+          "Controls legs, kills mobility"
+        ],
+        "trap": [
+          "Let shoulder move freely"
+        ]
+      }
+    },
+    {
+      "question": "How does weight distribution create the characteristic 'cooking' dynamic that makes Mission Control fatiguing for the top player?",
+      "answer": "Because the bottom player's elevated hips fold the top player forward, the top player's weight is loaded awkwardly onto the single trapped shoulder rather than spread across a stable base. Supporting bodyweight on one compromised shoulder while bent forward is metabolically expensive, so the top player fatigues rapidly even without either athlete making an aggressive move. The bottom player, meanwhile, holds the frame largely through skeletal structure and hip elevation, spending comparatively little energy. This asymmetric loading is the 'cooking' effect, and it means simply maintaining the position steadily tilts the exchange in the bottom player's favor over time.",
+      "answer_line": "Folds weight onto one shoulder",
+      "distractors": {
+        "plausible": [
+          "Spreads weight evenly, still tires",
+          "Loads weight onto both knees"
+        ],
+        "trap": [
+          "Bottom player muscles it hard"
+        ]
+      }
+    },
+    {
+      "question": "What role does the bottom player's hip elevation play in holding the entire Mission Control structure together?",
+      "answer": "Elevated hips are what keep the high-guard leg pressed high across the back and maintain the downward folding pressure on the trapped shoulder. When the hips stay up, the leg stays high and the top player's posture remains broken, preserving the shoulder isolation that defines the position. The instant the hips settle to the mat the leg slides lower, the shoulder regains mobility, and the top player can begin driving weight down to collapse the frame. Because of this, hip elevation is the single load-bearing variable both players monitor: the bottom player fights to sustain it and the top player works to make it drop.",
+      "answer_line": "Hips up keeps leg high, locked",
+      "distractors": {
+        "plausible": [
+          "Hips up only aids submissions",
+          "Hips down improves shoulder pin"
+        ],
+        "trap": [
+          "Drop hips to tighten control"
+        ]
+      }
+    },
+    {
+      "question": "How does pulling the head down function as a structural trap rather than simple holding pressure?",
+      "answer": "Pulling the head down aggressively while the leg pins the shoulder folds the top player's spine forward, and a bent, loaded spine cannot generate the extension needed to posture or base out. The head control and the shoulder-isolating leg work as opposing ends of a lever, so the top player's own attempts to fight one end tend to tighten the other. This is why the control is a trap and not just pressure: resisting it feeds it. The configuration becomes progressively harder to escape the more the top player struggles, because each defensive extension is redirected into deeper shoulder isolation.",
+      "answer_line": "Bends spine, resisting tightens it",
+      "distractors": {
+        "plausible": [
+          "Just adds discomfort, no lever",
+          "Only stops verbal tapping"
+        ],
+        "trap": [
+          "Fight head pull with strength"
+        ]
+      }
+    },
+    {
+      "question": "Why is Mission Control described as an inherently transitional hub rather than a static holding position?",
+      "answer": "The position is built to keep the top player folded and shoulder-isolated only long enough to force a defensive reaction, and every reaction opens a different path. Posturing feeds a triangle angle, extracting the arm opens the omoplata, and stacking forward opens other rubber-guard controls, so defending one threat creates another. A static Mission Control lets the top player methodically organize an escape, so the bottom player must keep threatening to deny that timing. This dilemma-driven quality is exactly why the position is treated as a launching hub into New York, Carni, and the submissions rather than a place to rest.",
+      "answer_line": "Reactions open new attacks",
+      "distractors": {
+        "plausible": [
+          "Holds position, forces stalemate",
+          "Static hold until opponent quits"
+        ],
+        "trap": [
+          "Stay still to preserve control"
+        ]
+      }
+    },
+    {
+      "question": "What distinguishes Mission Control from adjacent rubber-guard controls like New York, Carni, and Zombie?",
+      "answer": "All of these controls share the same underlying goal of shoulder isolation and broken posture, but they differ in leg configuration and how the trapped limb is managed. Mission Control uses the inside leg threaded high across the back plus the outside leg pinning the far shoulder as its baseline lock. New York is the transition when the top player defends the arm, Carni achieves comparable shoulder isolation through a different leg placement, and Zombie is specifically oriented to absorb and redirect a stacking, forward-driving opponent. The common thread is the folded posture and captured shoulder; what changes between them is the geometry of the leg used to maintain that capture against a particular defensive response.",
+      "answer_line": "Leg geometry differs, goal shared",
+      "distractors": {
+        "plausible": [
+          "Each targets a different limb",
+          "Isolation only happens here"
+        ],
+        "trap": [
+          "Zombie is passive, no isolation"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "h1XzZDsUxHQ",
+      "title": "Eddie Bravo Explains Rubber Guard",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "JAN FERNANDEZ ",
+      "duration": 111,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "hc5zImDLQ7k",
+      "title": "Rubber Guard: Mission Control position breakdown",
+      "by": "JitsHappens",
+      "vertical": false,
+      "channel": "JitsHappens",
+      "duration": 47,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "RJ7Iutti8cY",
+      "title": "Mastering the Rubber Guard concepts and entries",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 521,
+      "verified": "2026-07-15"
+    }
+  ]
 }

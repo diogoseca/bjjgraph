@@ -34,6 +34,54 @@ description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Worm Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm Guard breakdown",
+      "description": "Worm Guard film study: Worm Guard breakdown, taught by Erich Munis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QzwnLW735U8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QzwnLW735U8",
+      "url": "https://www.youtube.com/watch?v=QzwnLW735U8",
+      "creator": { "@type": "Person", "name": "Erich Munis" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worm Guard to back choke",
+      "description": "Worm Guard film study: Worm Guard to back choke, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
+      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lapel guard overview",
+      "description": "Worm Guard film study: Lapel guard overview, taught by bjjhighlights.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OO2IqO3M8f8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OO2IqO3M8f8",
+      "url": "https://www.youtube.com/watch?v=OO2IqO3M8f8",
+      "creator": { "@type": "Person", "name": "bjjhighlights" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ The Worm Guard is particularly effective because it simultaneously controls the 
 At its core, Worm Guard is about creating a web of control using the gi that restricts the opponent's options while maximizing your attacking opportunities. The position requires precise lapel manipulation, strong grip endurance, and the ability to read opponent reactions to set up sweeps and transitions. When executed properly, it can be one of the most frustrating positions to escape, often forcing opponents into desperate passing attempts that create easy sweep opportunities.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Worm Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QzwnLW735U8)
+
+<p class="clip-credit"><strong>Worm Guard breakdown</strong> — taught by Erich Munis · 0:53 · <a href="https://www.youtube.com/watch?v=QzwnLW735U8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+
+<p class="clip-credit"><strong>Worm Guard to back choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OO2IqO3M8f8)
+
+<p class="clip-credit"><strong>Lapel guard overview</strong> — taught by bjjhighlights · 0:52 · <a href="https://www.youtube.com/watch?v=OO2IqO3M8f8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,25 +221,25 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ### Available Transitions
 
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (33% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (19% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (11% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (17% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (10% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (11% of attempts)
 
-- **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (10% of attempts)
+- **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (0% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (13% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (29% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (10% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (18% of attempts)
 
-- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (8% of attempts)
+- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (6% of attempts)
 
-- **[[Transitions/Collar Drag from Worm Guard/Attacker|Collar Drag from Worm Guard]]** (3% of attempts)
+- **[[Transitions/Collar Drag from Worm Guard/Attacker|Collar Drag from Worm Guard]]** (0% of attempts)
 
-- **[[Transitions/Worm Guard Sweep/Attacker|Worm Guard Sweep]]** (1% of attempts)
+- **[[Transitions/Worm Guard Sweep/Attacker|Worm Guard Sweep]]** (0% of attempts)
 
-- **[[Transitions/Worm to Squid Guard/Attacker|Worm to Squid Guard]]** (1% of attempts)
+- **[[Transitions/Worm to Squid Guard/Attacker|Worm to Squid Guard]]** (0% of attempts)
 
 
 ### Common Mistakes
@@ -216,21 +300,21 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ### Available Transitions
 
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (24% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (16% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (15% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (20% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (13% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (20% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (13% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (11% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (12% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
 
-- **[[Transitions/Backstep from Worm Guard/Attacker|Backstep from Worm Guard]]** (6% of attempts)
+- **[[Transitions/Backstep from Worm Guard/Attacker|Backstep from Worm Guard]]** (12% of attempts)
 
-- **[[Transitions/Lapel Strip from Worm Guard/Attacker|Lapel Strip from Worm Guard]]** (3% of attempts)
+- **[[Transitions/Lapel Strip from Worm Guard/Attacker|Lapel Strip from Worm Guard]]** (0% of attempts)
 
 
 ### Common Mistakes

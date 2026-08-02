@@ -140,6 +140,43 @@ description: "Defend against the Deep Half to X-Guard transition with early reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Deep Half to X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee slide pass counter before deep half develops",
+      "description": "Deep Half to X-Guard (Defender) film study: Knee slide pass counter before deep half develops, taught by Scott Ryan Chiriboga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K0XMj9BNJ8U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K0XMj9BNJ8U",
+      "url": "https://www.youtube.com/watch?v=K0XMj9BNJ8U",
+      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defensive strategy to avoid the deep half guard",
+      "description": "Deep Half to X-Guard (Defender) film study: Defensive strategy to avoid the deep half guard, taught by DVG Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WQu-G2JVj2A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WQu-G2JVj2A",
+      "url": "https://www.youtube.com/watch?v=WQu-G2JVj2A",
+      "creator": { "@type": "Person", "name": "DVG Jiu Jitsu" },
+      "duration": "PT275S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the Deep Half to X-Guard transition requires recognizing the early sig
 **Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Deep Half to X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K0XMj9BNJ8U)
+
+<p class="clip-credit"><strong>Knee slide pass counter before deep half develops</strong> — taught by Scott Ryan Chiriboga · 2:13 · <a href="https://www.youtube.com/watch?v=K0XMj9BNJ8U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WQu-G2JVj2A)
+
+<p class="clip-credit"><strong>Defensive strategy to avoid the deep half guard</strong> — taught by DVG Jiu Jitsu · 4:35 · <a href="https://www.youtube.com/watch?v=WQu-G2JVj2A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

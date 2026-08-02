@@ -34,6 +34,54 @@ description: "Master the Buggy Choke position in BJJ. Strategic guide covering t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The buggy choke",
+      "description": "Buggy Choke film study: The buggy choke, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-b7Avb1x7g8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-b7Avb1x7g8",
+      "url": "https://www.youtube.com/watch?v=-b7Avb1x7g8",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Buggy choke overhaul: mechanics and defense",
+      "description": "Buggy Choke film study: Buggy choke overhaul: mechanics and defense, taught by Arroyo Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mUwBihCvZl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mUwBihCvZl8",
+      "url": "https://www.youtube.com/watch?v=mUwBihCvZl8",
+      "creator": { "@type": "Person", "name": "Arroyo Grappling" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "3 buggy choke concepts",
+      "description": "Buggy Choke film study: 3 buggy choke concepts, taught by Kade and Tye Ruotolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0_3YYrWEGoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0_3YYrWEGoU",
+      "url": "https://www.youtube.com/watch?v=0_3YYrWEGoU",
+      "creator": { "@type": "Person", "name": "Kade and Tye Ruotolo" },
+      "duration": "PT201S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ From the attacking perspective, the buggy choke rewards calm, structured movemen
 From the defending perspective, surviving the buggy choke requires immediate recognition that the exchange has become a trap the instant the near arm is framed across the neck. The defender must extract the threatened arm before the attacker's leg clamps the shoulder, posture the head up and away, and resist the instinct to muscle deeper, which only feeds the strangle. Once the leg is over the shoulder and the legs connect, escape percentages drop sharply, and the defender must clear the entanglement or concede position to recover safe distance. Understanding both perspectives is essential for developing comprehensive attacking and defensive systems that account for this position across gi and no-gi competition formats.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-b7Avb1x7g8)
+
+<p class="clip-credit"><strong>The buggy choke</strong> — taught by ZombieProofBJJ · 1:01 · <a href="https://www.youtube.com/watch?v=-b7Avb1x7g8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mUwBihCvZl8)
+
+<p class="clip-credit"><strong>Buggy choke overhaul: mechanics and defense</strong> — taught by Arroyo Grappling · 2:21 · <a href="https://www.youtube.com/watch?v=mUwBihCvZl8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0_3YYrWEGoU)
+
+<p class="clip-credit"><strong>3 buggy choke concepts</strong> — taught by Kade and Tye Ruotolo · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,21 +221,19 @@ From the defending perspective, surviving the buggy choke requires immediate rec
 ### Available Transitions
 
 
-- **[[Transitions/Sit to Half Guard/Attacker|Sit to Half Guard]]** (25% of attempts)
+- **[[Transitions/Sit to Half Guard/Attacker|Sit to Half Guard]]** (23% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (5% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (15% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (6% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
 
-- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (14% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (18% of attempts)
 
-- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (12% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (13% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (13% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (12% of attempts)
 
-- **[[Transitions/Roll to Deep Half Guard/Attacker|Roll to Deep Half Guard]]** (7% of attempts)
-
-- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (18% of attempts)
+- **[[Transitions/Roll to Deep Half Guard/Attacker|Roll to Deep Half Guard]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -208,29 +290,29 @@ From the defending perspective, surviving the buggy choke requires immediate rec
 ### Available Transitions
 
 
-- **[[Transitions/Finish Buggy Choke/Attacker|Finish Buggy Choke]]** (41% of attempts)
+- **[[Transitions/Finish Buggy Choke/Attacker|Finish Buggy Choke]]** (11% of attempts)
 
-- **[[Transitions/Hook Leg and Take Back/Attacker|Hook Leg and Take Back]]** (17% of attempts)
+- **[[Transitions/Hook Leg and Take Back/Attacker|Hook Leg and Take Back]]** (12% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (7% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (12% of attempts)
 
-- **[[Transitions/Switch to Darce Configuration/Attacker|Switch to Darce Configuration]]** (4% of attempts)
+- **[[Transitions/Switch to Darce Configuration/Attacker|Switch to Darce Configuration]]** (8% of attempts)
 
-- **[[Transitions/Switch to Anaconda Configuration/Attacker|Switch to Anaconda Configuration]]** (2% of attempts)
+- **[[Transitions/Switch to Anaconda Configuration/Attacker|Switch to Anaconda Configuration]]** (5% of attempts)
 
-- **[[Transitions/Buggy Choke to Front Headlock/Attacker|Buggy Choke to Front Headlock]]** (5% of attempts)
+- **[[Transitions/Buggy Choke to Front Headlock/Attacker|Buggy Choke to Front Headlock]]** (10% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (7% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (12% of attempts)
 
-- **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** (2% of attempts)
+- **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** (7% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (10% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (8% of attempts)
 
-- **[[Transitions/Buggy Choke to North-South/Attacker|Buggy Choke to North-South]]** (2% of attempts)
+- **[[Transitions/Buggy Choke to North-South/Attacker|Buggy Choke to North-South]]** (4% of attempts)
 
-- **[[Transitions/Buggy Choke to Side Control/Attacker|Buggy Choke to Side Control]]** (2% of attempts)
+- **[[Transitions/Buggy Choke to Side Control/Attacker|Buggy Choke to Side Control]]** (6% of attempts)
 
-- **[[Transitions/Grip Strip from Buggy Choke/Attacker|Grip Strip from Buggy Choke]]** (1% of attempts)
+- **[[Transitions/Grip Strip from Buggy Choke/Attacker|Grip Strip from Buggy Choke]]** (5% of attempts)
 
 
 ### Common Mistakes

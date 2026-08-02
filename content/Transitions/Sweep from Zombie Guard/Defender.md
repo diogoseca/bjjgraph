@@ -140,6 +140,54 @@ description: "Learn to defend the Sweep from Zombie Guard in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Zombie Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown clinches",
+      "description": "Sweep from Zombie Guard (Defender) film study: Lockdown clinches, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown strategies and counters",
+      "description": "Sweep from Zombie Guard (Defender) film study: Lockdown strategies and counters, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oSQ7BHerIow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oSQ7BHerIow",
+      "url": "https://www.youtube.com/watch?v=oSQ7BHerIow",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Plan B: simple sweep from the lockdown",
+      "description": "Sweep from Zombie Guard (Defender) film study: Plan B: simple sweep from the lockdown, taught by Single Malt BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EWsqIJD3Ops/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EWsqIJD3Ops",
+      "url": "https://www.youtube.com/watch?v=EWsqIJD3Ops",
+      "creator": { "@type": "Person", "name": "Single Malt BJJ coach" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Sweep from Zombie Guard requires understanding the biomechanical v
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Zombie Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown clinches</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oSQ7BHerIow)
+
+<p class="clip-credit"><strong>Lockdown strategies and counters</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=oSQ7BHerIow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EWsqIJD3Ops)
+
+<p class="clip-credit"><strong>Plan B: simple sweep from the lockdown</strong> — taught by Single Malt BJJ coach · 1:24 · <a href="https://www.youtube.com/watch?v=EWsqIJD3Ops" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -140,6 +140,54 @@ description: "Learn to prevent hook insertion from seat belt back control. Defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seat Belt to Full Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Babybridge back-defense posture",
+      "description": "Seat Belt to Full Back Control (Defender) film study: Babybridge back-defense posture, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wDSd5Qy8Kac/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wDSd5Qy8Kac",
+      "url": "https://www.youtube.com/watch?v=wDSd5Qy8Kac",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT231S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping Back Control Seatbelt with No Hooks",
+      "description": "Seat Belt to Full Back Control (Defender) film study: Escaping Back Control Seatbelt with No Hooks, taught by Dinu Bucalet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hGzykDrlskc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hGzykDrlskc",
+      "url": "https://www.youtube.com/watch?v=hGzykDrlskc",
+      "creator": { "@type": "Person", "name": "Dinu Bucalet" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back Escape - No Gi",
+      "description": "Seat Belt to Full Back Control (Defender) film study: Back Escape - No Gi, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9TRErC6vbKo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9TRErC6vbKo",
+      "url": "https://www.youtube.com/watch?v=9TRErC6vbKo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT334S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against Seat Belt to Full Back Control, your objective is preven
 **Opponent's Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seat Belt to Full Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wDSd5Qy8Kac)
+
+<p class="clip-credit"><strong>Babybridge back-defense posture</strong> — taught by Priit Mihkelson · 3:51 · <a href="https://www.youtube.com/watch?v=wDSd5Qy8Kac" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hGzykDrlskc)
+
+<p class="clip-credit"><strong>Escaping Back Control Seatbelt with No Hooks</strong> — taught by Dinu Bucalet · 2:19 · <a href="https://www.youtube.com/watch?v=hGzykDrlskc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9TRErC6vbKo)
+
+<p class="clip-credit"><strong>Back Escape - No Gi</strong> — taught by Lachlan Giles · 5:34 · <a href="https://www.youtube.com/watch?v=9TRErC6vbKo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

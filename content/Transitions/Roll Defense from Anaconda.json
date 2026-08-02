@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Anaconda Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "The Roll Defense from Anaconda is a bottom escape that counters the opponent's anaconda roll-through by posting the free hand, widening the base, and driving the hips against the rotation to deny the finish and recover turtle.",
   "overview": "Within the anaconda survival chain, this defense activates at the most dangerous moment of the attack — the instant an opponent with an established anaconda grip initiates their roll-through finish. The anaconda choke becomes most dangerous during the roll because the rotation tightens the constriction around the neck and trapped arm while the attacker settles into a dominant finishing angle. Defending this specific moment is often the last viable window before the choke reaches terminal tightness and escape becomes impossible.\n\nThe defense centers on disrupting the rolling mechanics through posting, base widening, and directional resistance. Rather than simply resisting the roll with pure strength, effective defense requires understanding the attacker's momentum vector and positioning your body to deny the rotation angle. The free hand posts on the mat or blocks the opponent's hip, while your hips drive away from the roll direction, removing the leverage the attacker needs to complete the technique.\n\nStrategic awareness is essential because this defense exists within a narrow timing window. Execute too early and the attacker adjusts their angle or switches to a stationary finish. Execute too late and the roll has already generated enough momentum to be unstoppable. Reading the attacker's weight shift and hip repositioning that signals roll initiation is the critical skill that separates successful defense from getting caught in the finishing sequence.",
   "conditions": [
@@ -254,38 +266,138 @@
     "flashcards": [
       {
         "question": "What are the specific physical cues that signal the anaconda attacker is about to initiate the roll-through?",
-        "answer": "The primary cues are the attacker shifting their weight to one side, repositioning their hips behind or beside your body, and stepping one leg over your back or to the far side. You will feel their chest pressure change angle as they load for the rotation, and their grip may tighten as they prepare to commit. The hip repositioning is the most reliable indicator because the roll requires their hips to be aligned with the intended rotation direction."
+        "answer": "The primary cues are the attacker shifting their weight to one side, repositioning their hips behind or beside your body, and stepping one leg over your back or to the far side. You will feel their chest pressure change angle as they load for the rotation, and their grip may tighten as they prepare to commit. The hip repositioning is the most reliable indicator because the roll requires their hips to be aligned with the intended rotation direction.",
+        "answer_line": "Hips shift toward roll direction",
+        "distractors": {
+          "plausible": [
+            "Chest pressure angle shifts",
+            "Grip tightens as they commit"
+          ],
+          "trap": [
+            "Legs go completely still"
+          ]
+        }
       },
       {
         "question": "Why is posting timing more important than posting strength in the roll defense?",
-        "answer": "The roll generates increasing momentum as it progresses, following a force curve that becomes exponentially harder to resist once established. A well-timed post during the loading phase requires minimal strength because the rotation has not yet built momentum. A late post, no matter how strong, faces the full kinetic energy of the rolling body plus gravity. Posting before the momentum builds allows your skeletal structure rather than muscle to resist the force."
+        "answer": "The roll generates increasing momentum as it progresses, following a force curve that becomes exponentially harder to resist once established. A well-timed post during the loading phase requires minimal strength because the rotation has not yet built momentum. A late post, no matter how strong, faces the full kinetic energy of the rolling body plus gravity. Posting before the momentum builds allows your skeletal structure rather than muscle to resist the force.",
+        "answer_line": "Post early before momentum builds",
+        "distractors": {
+          "plausible": [
+            "Stronger post always wins",
+            "React after rotation begins"
+          ],
+          "trap": [
+            "Wait until roll fully commits"
+          ]
+        }
       },
       {
         "question": "Your opponent traps your posting hand before attempting the roll - how do you adjust your defense?",
-        "answer": "Without the hand post, shift all defensive emphasis to your lower body. Sprawl explosively by driving your hips back and spreading your legs as wide as possible to create maximum ground friction. Drive your hips hard in the opposite direction of the roll using leg and core power. If possible, use the hand-trapping moment to strip their grip on your wrist with a sharp jerking motion before they commit to the roll. The hip-based defense is less reliable than posting but can still prevent the roll."
+        "answer": "Without the hand post, shift all defensive emphasis to your lower body. Sprawl explosively by driving your hips back and spreading your legs as wide as possible to create maximum ground friction. Drive your hips hard in the opposite direction of the roll using leg and core power. If possible, use the hand-trapping moment to strip their grip on your wrist with a sharp jerking motion before they commit to the roll. The hip-based defense is less reliable than posting but can still prevent the roll.",
+        "answer_line": "Sprawl wide, hips drive opposite",
+        "distractors": {
+          "plausible": [
+            "Grip fight only, ignore hips",
+            "Pull knees in tight"
+          ],
+          "trap": [
+            "Go limp and wait it out"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force for your hips during the roll defense?",
-        "answer": "Your hips must drive directly opposite to the direction the attacker is rolling. If they roll to your left, your hips drive right. If they roll forward over your right shoulder, your hips drive back and to the left. This creates a counter-vector that directly opposes the rotational momentum. The direction must be precise - driving your hips at even a 45-degree offset from the ideal counter-direction significantly reduces the effectiveness of the resistance."
+        "answer": "Your hips must drive directly opposite to the direction the attacker is rolling. If they roll to your left, your hips drive right. If they roll forward over your right shoulder, your hips drive back and to the left. This creates a counter-vector that directly opposes the rotational momentum. The direction must be precise - driving your hips at even a 45-degree offset from the ideal counter-direction significantly reduces the effectiveness of the resistance.",
+        "answer_line": "Hips drive directly opposite roll",
+        "distractors": {
+          "plausible": [
+            "Hips drive toward the ceiling",
+            "Hips square flat to the mat"
+          ],
+          "trap": [
+            "Hips drive same direction as roll"
+          ]
+        }
       },
       {
         "question": "After successfully defending the roll, your opponent still has the anaconda grip locked - what escape should you chain to immediately?",
-        "answer": "The best immediate follow-up depends on the grip status. If the grip loosened during the defended roll, attack it with a grip-break sequence targeting the clasped hands while recovering turtle structure. If the grip remains tight, chain into a hip escape away from the choking arm to create angle for guard recovery. The key principle is to exploit the brief disruption the defended roll creates in the attacker's control before they can reset their positioning and attempt another finish."
+        "answer": "The best immediate follow-up depends on the grip status. If the grip loosened during the defended roll, attack it with a grip-break sequence targeting the clasped hands while recovering turtle structure. If the grip remains tight, chain into a hip escape away from the choking arm to create angle for guard recovery. The key principle is to exploit the brief disruption the defended roll creates in the attacker's control before they can reset their positioning and attempt another finish.",
+        "answer_line": "Grip-break or hip escape to guard",
+        "distractors": {
+          "plausible": [
+            "Shoot an immediate takedown",
+            "Stack and pass from top"
+          ],
+          "trap": [
+            "Relax and reset to neutral"
+          ]
+        }
       },
       {
         "question": "Your opponent initiates a very fast, explosive roll that overwhelms your post - how do you adapt mid-roll?",
-        "answer": "Transition immediately to the roll-with counter variant. Rather than fighting the unstoppable momentum, go with the roll but aggressively fight the grip during the rotation and scramble to deny the finishing angle upon landing. Focus on keeping your chest facing the mat rather than exposing your back to the ceiling. Use the brief moment of weightlessness during the roll to create space at the neck and fight to end up in turtle or half guard rather than flat on your back in side control."
+        "answer": "Transition immediately to the roll-with counter variant. Rather than fighting the unstoppable momentum, go with the roll but aggressively fight the grip during the rotation and scramble to deny the finishing angle upon landing. Focus on keeping your chest facing the mat rather than exposing your back to the ceiling. Use the brief moment of weightlessness during the roll to create space at the neck and fight to end up in turtle or half guard rather than flat on your back in side control.",
+        "answer_line": "Roll with it, fight grip and angle",
+        "distractors": {
+          "plausible": [
+            "Brace harder against momentum",
+            "Tuck chin, accept back exposure"
+          ],
+          "trap": [
+            "Let go completely, go flat"
+          ]
+        }
       },
       {
         "question": "Why should you maintain chin tuck during the roll defense rather than focusing all effort on the posting mechanics?",
-        "answer": "The attacker often tightens the anaconda squeeze simultaneously with the roll attempt, using the defensive scramble to accelerate the choke. If you abandon chin tuck to focus entirely on posting, you expose more neck surface to the constriction and the choke can become terminal even without the roll completing. The chin tuck protects the carotid arteries by positioning bony structures against the choking arm. Both defenses must operate simultaneously because either the roll or the choke alone can end the exchange."
+        "answer": "The attacker often tightens the anaconda squeeze simultaneously with the roll attempt, using the defensive scramble to accelerate the choke. If you abandon chin tuck to focus entirely on posting, you expose more neck surface to the constriction and the choke can become terminal even without the roll completing. The chin tuck protects the carotid arteries by positioning bony structures against the choking arm. Both defenses must operate simultaneously because either the roll or the choke alone can end the exchange.",
+        "answer_line": "Keep chin tuck, choke tightens too",
+        "distractors": {
+          "plausible": [
+            "Chin tuck slows the roll itself",
+            "Posting alone stops the choke"
+          ],
+          "trap": [
+            "Abandon chin tuck to post harder"
+          ]
+        }
       },
       {
         "question": "What grip configuration on the attacker's arm provides the best support for the roll defense?",
-        "answer": "If you can maintain any grip on the attacker's choking arm, target the wrist or forearm of the arm encircling your neck using a C-grip or monkey grip from your trapped hand. This grip serves dual purpose: it prevents the choke from tightening while also reducing the attacker's ability to generate clean rotational force. Even a partial grip that creates friction on their choking arm makes the roll less effective. Prioritize this grip alongside the posting hand rather than choosing one over the other."
+        "answer": "If you can maintain any grip on the attacker's choking arm, target the wrist or forearm of the arm encircling your neck using a C-grip or monkey grip from your trapped hand. This grip serves dual purpose: it prevents the choke from tightening while also reducing the attacker's ability to generate clean rotational force. Even a partial grip that creates friction on their choking arm makes the roll less effective. Prioritize this grip alongside the posting hand rather than choosing one over the other.",
+        "answer_line": "Grip their wrist near your neck",
+        "distractors": {
+          "plausible": [
+            "Grip their far leg instead",
+            "Grip your own wrist for base"
+          ],
+          "trap": [
+            "Release all grips to post free"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Always tap before attempting the roll defense if the choke is already deeply locked and restricting blood flow to the brain. Tunnel vision, lightheadedness, or inability to breathe clearly indicate the choke is past the point where defense is safe. The posting mechanics involve explosive movements that can strain the wrist or shoulder if performed with poor alignment. During training, communicate with your partner about choke tightness and tap early when practicing timing rather than risking unconsciousness. Never sacrifice neck safety for positional defense."
+    "safety_considerations": "Always tap before attempting the roll defense if the choke is already deeply locked and restricting blood flow to the brain. Tunnel vision, lightheadedness, or inability to breathe clearly indicate the choke is past the point where defense is safe. The posting mechanics involve explosive movements that can strain the wrist or shoulder if performed with poor alignment. During training, communicate with your partner about choke tightness and tap early when practicing timing rather than risking unconsciousness. Never sacrifice neck safety for positional defense.",
+    "clips": [
+      {
+        "id": "1e2GPOUYR-o",
+        "title": "Fixing Your Anaconda Choke Mechanics",
+        "by": "Lycan",
+        "vertical": false,
+        "channel": "Lycan",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda choke defense",
+        "by": "SFS MMA",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-16"
+      }
+    ]
   },
   "defender": {
     "name": "Roll Defense from Anaconda Defender",
@@ -364,15 +476,45 @@
     "flashcards": [
       {
         "question": "How do you identify that your opponent is preparing a roll defense before you initiate your roll-through?",
-        "answer": "Key indicators include the opponent's free hand moving toward the mat or toward your hip for posting, their base widening as they spread their knees and sprawl their legs, and their hips beginning to drive in the anticipated counter-direction. You may also feel their body becoming heavier and more anchored to the ground. Recognizing these signals allows you to either control the posting hand first or adjust your approach to overwhelm the prepared defense."
+        "answer": "Key indicators include the opponent's free hand moving toward the mat or toward your hip for posting, their base widening as they spread their knees and sprawl their legs, and their hips beginning to drive in the anticipated counter-direction. You may also feel their body becoming heavier and more anchored to the ground. Recognizing these signals allows you to either control the posting hand first or adjust your approach to overwhelm the prepared defense.",
+        "answer_line": "Free hand posts, base widens",
+        "distractors": {
+          "plausible": [
+            "Opponent's breathing quickens",
+            "Opponent taps your leg first"
+          ],
+          "trap": [
+            "Opponent relaxes completely"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's free hand considered the highest-percentage counter to the roll defense?",
-        "answer": "The posting hand is the cornerstone of the roll defense. Without it, the opponent must rely entirely on hip direction and base width to resist the roll, which are significantly less effective without the structural anchor the hand provides. By trapping the wrist or pinning the free hand, you eliminate approximately 60-70% of the defense's effectiveness. This makes the roll-through nearly unstoppable even against opponents who have strong hip defense, because the hand post provides the critical structural resistance."
+        "answer": "The posting hand is the cornerstone of the roll defense. Without it, the opponent must rely entirely on hip direction and base width to resist the roll, which are significantly less effective without the structural anchor the hand provides. By trapping the wrist or pinning the free hand, you eliminate approximately 60-70% of the defense's effectiveness. This makes the roll-through nearly unstoppable even against opponents who have strong hip defense, because the hand post provides the critical structural resistance.",
+        "answer_line": "Removes their main structural post",
+        "distractors": {
+          "plausible": [
+            "It tires their grip strength",
+            "It blocks their view of you"
+          ],
+          "trap": [
+            "It only slows their breathing"
+          ]
+        }
       },
       {
         "question": "Your opponent defends the roll successfully and you remain in anaconda control - what should your immediate follow-up strategy be?",
-        "answer": "Do not immediately attempt a second roll in the same direction, as the opponent's defense is now primed for it. Instead, maintain tight anaconda control and choose from three options: first, transition to dead orchard control for an alternative finishing angle; second, attempt the roll in the opposite direction after a brief feint; third, apply stationary squeeze pressure to force the opponent to address the choke, potentially opening up their posting defense for a subsequent roll attempt. The key is maintaining offensive pressure without becoming predictable."
+        "answer": "Do not immediately attempt a second roll in the same direction, as the opponent's defense is now primed for it. Instead, maintain tight anaconda control and choose from three options: first, transition to dead orchard control for an alternative finishing angle; second, attempt the roll in the opposite direction after a brief feint; third, apply stationary squeeze pressure to force the opponent to address the choke, potentially opening up their posting defense for a subsequent roll attempt. The key is maintaining offensive pressure without becoming predictable.",
+        "answer_line": "Dead orchard, feint, or squeeze",
+        "distractors": {
+          "plausible": [
+            "Repeat the same roll again",
+            "Release grip and reset"
+          ],
+          "trap": [
+            "Abandon control, pass guard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -395,6 +537,35 @@
         "phase": "Phase 4: Adaptive Finishing Sparring",
         "focus": "Selecting the correct approach based on opponent's defensive setup",
         "description": "Positional sparring from anaconda control where partner uses full defense including roll defense. Practice reading the defense and selecting the appropriate counter: wrist control, explosive commitment, direction change, or transition to alternative finish. 3-minute rounds with full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "s94GexEkoQ0",
+        "title": "Anaconda Choke Defense and Counter",
+        "by": "Cyril Robert",
+        "vertical": false,
+        "channel": "Cyril Robert MMA",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Yqz0JQuZGes",
+        "title": "Anaconda Defense to Americana",
+        "by": "Gracie Barra Newcastle City",
+        "vertical": false,
+        "channel": "Gracie Barra Newcastle City",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "guHPx-OKi0M",
+        "title": "Three Ways to Prevent the Sucker Drag",
+        "by": "Drew Darce",
+        "vertical": false,
+        "channel": "Drew Darce",
+        "duration": 159,
+        "verified": "2026-07-15"
       }
     ]
   }

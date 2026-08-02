@@ -148,6 +148,43 @@ description: "How to defend and prevent the Transition to Old School in BJJ half
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Old School (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking the lockdown half guard",
+      "description": "Half Guard to Old School (Defender) film study: Breaking the lockdown half guard, taught by Superhero Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-49CypLW9aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-49CypLW9aM",
+      "url": "https://www.youtube.com/watch?v=-49CypLW9aM",
+      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu Academy" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter when they defend the old school sweep",
+      "description": "Half Guard to Old School (Defender) film study: Counter when they defend the old school sweep, taught by Wimbledon BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KX4aiS5DVPU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KX4aiS5DVPU",
+      "url": "https://www.youtube.com/watch?v=KX4aiS5DVPU",
+      "creator": { "@type": "Person", "name": "Wimbledon BJJ" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the Transition to Old School requires the top player to recogn
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Old School (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-49CypLW9aM)
+
+<p class="clip-credit"><strong>Breaking the lockdown half guard</strong> — taught by Superhero Jiu Jitsu Academy · 1:01 · <a href="https://www.youtube.com/watch?v=-49CypLW9aM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KX4aiS5DVPU)
+
+<p class="clip-credit"><strong>Counter when they defend the old school sweep</strong> — taught by Wimbledon BJJ · 2:00 · <a href="https://www.youtube.com/watch?v=KX4aiS5DVPU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -180,6 +180,43 @@ description: "Master the bridge escape technique from 3-4 mount bottom. Step-by-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from 3-4 Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quarter guard mount escape to deep half",
+      "description": "Bridge Escape from 3-4 Mount (Attacker) film study: Quarter guard mount escape to deep half, taught by Third Dimension Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v6XzfCbx3H0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v6XzfCbx3H0",
+      "url": "https://www.youtube.com/watch?v=v6XzfCbx3H0",
+      "creator": { "@type": "Person", "name": "Third Dimension Jiu Jitsu" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Neck clamp reversal from bottom",
+      "description": "Bridge Escape from 3-4 Mount (Attacker) film study: Neck clamp reversal from bottom, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8nZrMOEgtfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8nZrMOEgtfU",
+      "url": "https://www.youtube.com/watch?v=8nZrMOEgtfU",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT74S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ Executing the bridge escape from 3-4 mount requires reading the asymmetric weigh
 **From Position**: [[Positions/Mount/3-4 Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from 3-4 Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v6XzfCbx3H0)
+
+<p class="clip-credit"><strong>Quarter guard mount escape to deep half</strong> — taught by Third Dimension Jiu Jitsu · 0:35 · <a href="https://www.youtube.com/watch?v=v6XzfCbx3H0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8nZrMOEgtfU)
+
+<p class="clip-credit"><strong>Neck clamp reversal from bottom</strong> — taught by Animal · 1:14 · <a href="https://www.youtube.com/watch?v=8nZrMOEgtfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

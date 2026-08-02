@@ -174,6 +174,43 @@ description: "Execute the Rubber Guard posture escape from top position. Step-by
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rubber Guard Top Posture Escape (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple rubber guard escape for the top player",
+      "description": "Rubber Guard Top Posture Escape (Attacker) film study: Simple rubber guard escape for the top player, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering Posture Against an Overhook Guard",
+      "description": "Rubber Guard Top Posture Escape (Attacker) film study: Recovering Posture Against an Overhook Guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RCnDWdAWXQs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RCnDWdAWXQs",
+      "url": "https://www.youtube.com/watch?v=RCnDWdAWXQs",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT559S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing this escape, you are the top player trapped in your op
 **From Position**: [[Positions/Rubber Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rubber Guard Top Posture Escape (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+
+<p class="clip-credit"><strong>Simple rubber guard escape for the top player</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RCnDWdAWXQs)
+
+<p class="clip-credit"><strong>Recovering Posture Against an Overhook Guard</strong> — taught by Lachlan Giles · 9:19 · <a href="https://www.youtube.com/watch?v=RCnDWdAWXQs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -21,25 +21,25 @@ description: "Master Zombie Top position in BJJ. Control and pass the opponent's
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Zombie Top position in BJJ. Control and pass the opponent's
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Zombie Top position in BJJ. Control and pass the opponent's
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Zombie (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Lockdown from half guard top",
+      "description": "Zombie (Top) film study: Passing the Lockdown from half guard top, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gtsKv_sDRnw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gtsKv_sDRnw",
+      "url": "https://www.youtube.com/watch?v=gtsKv_sDRnw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT359S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Safely escaping the Lockdown as the top player",
+      "description": "Zombie (Top) film study: Safely escaping the Lockdown as the top player, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xIkXPK5h-4A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xIkXPK5h-4A",
+      "url": "https://www.youtube.com/watch?v=xIkXPK5h-4A",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT438S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The Zombie Top position emphasizes posture control, crossface pressure, and syst
 Success in Zombie Top depends on recognizing the opponent's defensive structure and selecting appropriate passing sequences. The position offers multiple offensive pathways including pressure-based passes, leg weave entries, and transitions to back control when the opponent's defensive posture breaks down. Understanding the lockdown mechanics and the opponent's available sweeps is essential for maintaining top control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Zombie (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gtsKv_sDRnw)
+
+<p class="clip-credit"><strong>Passing the Lockdown from half guard top</strong> — taught by Lachlan Giles · 5:59 · <a href="https://www.youtube.com/watch?v=gtsKv_sDRnw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xIkXPK5h-4A)
+
+<p class="clip-credit"><strong>Safely escaping the Lockdown as the top player</strong> — taught by Lachlan Giles · 7:18 · <a href="https://www.youtube.com/watch?v=xIkXPK5h-4A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

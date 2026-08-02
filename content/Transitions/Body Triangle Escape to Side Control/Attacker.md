@@ -174,6 +174,54 @@ description: "Complete guide to executing the body triangle escape to side contr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Triangle Escape to Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Concepts on escaping the body triangle",
+      "description": "Body Triangle Escape to Side Control (Attacker) film study: Concepts on escaping the body triangle, taught by Alavanca coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gMuZi4hwUwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gMuZi4hwUwo",
+      "url": "https://www.youtube.com/watch?v=gMuZi4hwUwo",
+      "creator": { "@type": "Person", "name": "Alavanca coach" },
+      "duration": "PT118S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body triangle escape and finish",
+      "description": "Body Triangle Escape to Side Control (Attacker) film study: Body triangle escape and finish, taught by Ronin Jiu-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DP1PWrqYw5s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DP1PWrqYw5s",
+      "url": "https://www.youtube.com/watch?v=DP1PWrqYw5s",
+      "creator": { "@type": "Person", "name": "Ronin Jiu-Jitsu coach" },
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to escape the body triangle",
+      "description": "Body Triangle Escape to Side Control (Attacker) film study: How to escape the body triangle, taught by Core JKD coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DF54CbJaHl4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DF54CbJaHl4",
+      "url": "https://www.youtube.com/watch?v=DF54CbJaHl4",
+      "creator": { "@type": "Person", "name": "Core JKD coach" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing this escape, you are trapped in your opponent's body t
 **From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Triangle Escape to Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gMuZi4hwUwo)
+
+<p class="clip-credit"><strong>Concepts on escaping the body triangle</strong> — taught by Alavanca coach · 1:58 · <a href="https://www.youtube.com/watch?v=gMuZi4hwUwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DP1PWrqYw5s)
+
+<p class="clip-credit"><strong>Body triangle escape and finish</strong> — taught by Ronin Jiu-Jitsu coach · 2:15 · <a href="https://www.youtube.com/watch?v=DP1PWrqYw5s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DF54CbJaHl4)
+
+<p class="clip-credit"><strong>How to escape the body triangle</strong> — taught by Core JKD coach · 2:25 · <a href="https://www.youtube.com/watch?v=DF54CbJaHl4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

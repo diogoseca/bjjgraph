@@ -21,37 +21,37 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Body Triangle",
-      "text": "From this position, attempt Rear Naked Choke from Body Triangle. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Body Triangle. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 4% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Body Triangle",
-      "text": "From this position, attempt Bow and Arrow Choke from Body Triangle. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Body Triangle. This technique is attempted in 0% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Short Choke from Body Triangle",
-      "text": "From this position, attempt Short Choke from Body Triangle. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Short Choke from Body Triangle. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 21% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master body triangle from bottom perspective. Powerful leg control
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Triangle (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Attack the Back with a Body Triangle",
+      "description": "Body Triangle (Top) film study: Attack the Back with a Body Triangle, taught by Grapple Box.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3OkCuU0B0UE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3OkCuU0B0UE",
+      "url": "https://www.youtube.com/watch?v=3OkCuU0B0UE",
+      "creator": { "@type": "Person", "name": "Grapple Box" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Properly Use a Body Triangle",
+      "description": "Body Triangle (Top) film study: How to Properly Use a Body Triangle, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8JwxpgWGsFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8JwxpgWGsFU",
+      "url": "https://www.youtube.com/watch?v=8JwxpgWGsFU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT294S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body Triangle Troubleshooting",
+      "description": "Body Triangle (Top) film study: Body Triangle Troubleshooting, taught by Tom Halpin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TFKAmteeVIA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TFKAmteeVIA",
+      "url": "https://www.youtube.com/watch?v=TFKAmteeVIA",
+      "creator": { "@type": "Person", "name": "Tom Halpin" },
+      "duration": "PT186S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The mechanical advantage of the body triangle is substantial - by crossing one l
 From this top position, you maintain constant chest-to-back pressure while your hips are positioned beside your opponent on the mat, creating a stable base that prevents them from rolling you over. Your upper body focuses on collar grips, seatbelt control, or other configurations that threaten the neck and arms, while your legs maintain unwavering lower body control. The position is particularly effective in both gi and no-gi contexts, with the breathing restriction creating the same psychological and physical pressure regardless of the ruleset. Elite practitioners view the body triangle as both a holding pattern for point accumulation and a launching platform for high-percentage submissions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Triangle (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3OkCuU0B0UE)
+
+<p class="clip-credit"><strong>Attack the Back with a Body Triangle</strong> — taught by Grapple Box · 0:28 · <a href="https://www.youtube.com/watch?v=3OkCuU0B0UE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8JwxpgWGsFU)
+
+<p class="clip-credit"><strong>How to Properly Use a Body Triangle</strong> — taught by Gordon Ryan · 4:54 · <a href="https://www.youtube.com/watch?v=8JwxpgWGsFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TFKAmteeVIA)
+
+<p class="clip-credit"><strong>Body Triangle Troubleshooting</strong> — taught by Tom Halpin · 3:06 · <a href="https://www.youtube.com/watch?v=TFKAmteeVIA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

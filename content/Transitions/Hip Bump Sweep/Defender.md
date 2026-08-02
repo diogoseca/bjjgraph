@@ -141,6 +141,43 @@ description: "How to defend against Hip Bump Sweep in BJJ. Recognition cues, def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Bump Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hip bump sweep defense",
+      "description": "Hip Bump Sweep (Defender) film study: Hip bump sweep defense, taught by James Quan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bqy30Ua9dkQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bqy30Ua9dkQ",
+      "url": "https://www.youtube.com/watch?v=Bqy30Ua9dkQ",
+      "creator": { "@type": "Person", "name": "James Quan" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the closed guard hip bump",
+      "description": "Hip Bump Sweep (Defender) film study: Defending the closed guard hip bump, taught by Pure Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h1j2Pzl_Do4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h1j2Pzl_Do4",
+      "url": "https://www.youtube.com/watch?v=h1j2Pzl_Do4",
+      "creator": { "@type": "Person", "name": "Pure Grappling" },
+      "duration": "PT187S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -157,6 +194,34 @@ Advanced defense against the Hip Bump requires understanding the entire attack t
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Bump Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bqy30Ua9dkQ)
+
+<p class="clip-credit"><strong>Hip bump sweep defense</strong> — taught by James Quan · 1:50 · <a href="https://www.youtube.com/watch?v=Bqy30Ua9dkQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h1j2Pzl_Do4)
+
+<p class="clip-credit"><strong>Defending the closed guard hip bump</strong> — taught by Pure Grappling · 3:07 · <a href="https://www.youtube.com/watch?v=h1j2Pzl_Do4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

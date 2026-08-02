@@ -34,6 +34,54 @@ description: "Master the Inside Heel Hook from Honey Hole in BJJ. Complete guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Heel Hook from Honey Hole \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Honey Hole Heel Hook Finish",
+      "description": "Inside Heel Hook from Honey Hole film study: Honey Hole Heel Hook Finish, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3KAO2Ck4HRg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3KAO2Ck4HRg",
+      "url": "https://www.youtube.com/watch?v=3KAO2Ck4HRg",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Honey Hole to Heel Hook Finish",
+      "description": "Inside Heel Hook from Honey Hole film study: Honey Hole to Heel Hook Finish, taught by Ilya Bodnya.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
+      "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
+      "creator": { "@type": "Person", "name": "Ilya Bodnya" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inside Heel Hook Finish",
+      "description": "Inside Heel Hook from Honey Hole film study: Inside Heel Hook Finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
+      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT18S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ This submission demands absolute safety awareness. The rotational force attacks 
 **Starting Position**: [[Positions/Ashi Garami/Honey Hole]] · **From**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Heel Hook from Honey Hole in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3KAO2Ck4HRg)
+
+<p class="clip-credit"><strong>Honey Hole Heel Hook Finish</strong> — taught by JitzLive · 0:52 · <a href="https://www.youtube.com/watch?v=3KAO2Ck4HRg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
+
+<p class="clip-credit"><strong>Honey Hole to Heel Hook Finish</strong> — taught by Ilya Bodnya · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+
+<p class="clip-credit"><strong>Inside Heel Hook Finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -245,10 +329,10 @@ This submission demands absolute safety awareness. The rotational force attacks 
 ## Related
 - [[Submissions/Heel Hook/from Saddle]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Outside Heel Hook]]
 - [[Submissions/Heel Hook/from Ushiro Ashi]]
 - [[Transitions/Aoki Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Honey Hole]] - Primary starting position providing inside leg triangle control for this submission
 - [[Positions/Ashi Garami/Saddle]] - Alternative starting position with identical entanglement mechanics and heel exposure
 - [[Positions/Inside Sankaku]] - Alternative terminology for the starting position in different BJJ lineages

@@ -34,6 +34,54 @@ description: "Master the Grip Break and Face escape from standing back control. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grip Break and Face \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing up to escape back control",
+      "description": "Grip Break and Face film study: Standing up to escape back control, taught by Dinu Bucalet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QOTX3Pis4SM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QOTX3Pis4SM",
+      "url": "https://www.youtube.com/watch?v=QOTX3Pis4SM",
+      "creator": { "@type": "Person", "name": "Dinu Bucalet" },
+      "duration": "PT229S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Escape the Back Every Time",
+      "description": "Grip Break and Face film study: How to Escape the Back Every Time, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N6lKNqUOZoY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N6lKNqUOZoY",
+      "url": "https://www.youtube.com/watch?v=N6lKNqUOZoY",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT675S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back Escape Technique Breakdown",
+      "description": "Grip Break and Face film study: Back Escape Technique Breakdown, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uT-7lJxykCg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uT-7lJxykCg",
+      "url": "https://www.youtube.com/watch?v=uT-7lJxykCg",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT253S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this escape is preferred when you have sufficient space to rotate
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grip Break and Face in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QOTX3Pis4SM)
+
+<p class="clip-credit"><strong>Standing up to escape back control</strong> — taught by Dinu Bucalet · 3:49 · <a href="https://www.youtube.com/watch?v=QOTX3Pis4SM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N6lKNqUOZoY)
+
+<p class="clip-credit"><strong>How to Escape the Back Every Time</strong> — taught by Matt Arroyo · 11:15 · <a href="https://www.youtube.com/watch?v=N6lKNqUOZoY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uT-7lJxykCg)
+
+<p class="clip-credit"><strong>Back Escape Technique Breakdown</strong> — taught by Craig Jones · 4:13 · <a href="https://www.youtube.com/watch?v=uT-7lJxykCg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -245,7 +329,7 @@ Grip Break and Face is a cornerstone escape from standing back control that fits
 
 - [[Transitions/Hip Escape to Turtle]] - Alternative escape pathway - different strategic choice from same starting position
 
-- [[Transitions/Duck Under]] - Variant technique - similar rotation mechanics with different arm relationship
+- [[Transitions/Duck Under from Clinch]] - Variant technique - similar rotation mechanics with different arm relationship
 
 - [[Positions/Harness]] - Control configuration - the grip you must defeat to execute this escape
 

@@ -1,0 +1,66 @@
+{
+ "signalSpeed": {
+  "editor": "float",
+  "default": 1,
+  "min": 0.3,
+  "max": 2.5,
+  "step": 0.1,
+  "tsType": "number"
+ },
+ "glow": {
+  "editor": "float",
+  "default": 4,
+  "min": 0.4,
+  "max": 6,
+  "step": 0.2,
+  "tsType": "number"
+ },
+ "cameraMode": {
+  "editor": "enum",
+  "default": "Hybrid",
+  "options": [
+   "Hybrid",
+   "Overview"
+  ],
+  "tsType": "string"
+ },
+ "showLabels": {
+  "editor": "boolean",
+  "default": true,
+  "tsType": "boolean"
+ },
+ "landingSettle": {
+  "editor": "boolean",
+  "default": true,
+  "tsType": "boolean",
+  "section": "Animations"
+ },
+ "edgeAnticipation": {
+  "editor": "boolean",
+  "default": true,
+  "tsType": "boolean",
+  "section": "Animations"
+ },
+ "idleBreath": {
+  "editor": "range",
+  "default": 2,
+  "min": 0,
+  "max": 5,
+  "step": 0.5,
+  "unit": "%",
+  "tsType": "number",
+  "section": "Animations"
+ },
+ "slowMoFinish": {
+  "editor": "boolean",
+  "default": true,
+  "tsType": "boolean",
+  "section": "Animations"
+ },
+ "pulseTrails": {
+  "editor": "boolean",
+  "default": true,
+  "tsType": "boolean",
+  "section": "Animations"
+ }
+}

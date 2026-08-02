@@ -17,7 +17,10 @@
   "target_area": "Neck (Carotid Arteries)",
   "starting_position": "Invisible Collar",
   "from_position": "Invisible Collar/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Cross Collar Choke Finish represents the culmination of the invisible collar attack system from back control. This technique transforms the deceptive collar grip into a blood choke that compresses both carotid arteries simultaneously. Unlike standard collar chokes that telegraph intent, the invisible collar setup allows practitioners to achieve optimal finishing position before opponents recognize the threat.\n\nThe finishing mechanics differ fundamentally from mounted cross collar variations because the back position provides superior structural leverage. The choking arm rotates toward the attacker's own chest while the secondary grip controls opponent posture, creating a scissoring action that tightens progressively. This biomechanical advantage explains why the technique succeeds at higher rates from back control compared to front-facing positions.\n\nStrategically, this finish serves as the primary payoff for invisible collar positioning. When opponents defend effectively, the failed attempt maintains back control rather than surrendering position, making it a low-risk submission attempt. The technique chains naturally with rear naked choke attacks, creating a dilemma where defending one option opens vulnerability to the other.",
   "safety_considerations": {
     "injury_risks": [
@@ -103,17 +106,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
@@ -271,53 +283,202 @@
       {
         "question": "What anatomical structures does the Cross Collar Choke Finish target, and how does this differ from an air choke?",
         "answer": "The Cross Collar Choke Finish targets both carotid arteries on the lateral sides of the neck, compressing them to restrict blood flow to the brain. This is a blood choke, not an air choke. An air choke targets the trachea to restrict breathing, which is slower, more painful, and carries higher injury risk. Proper collar placement ensures the gi material folds across the carotid arteries rather than pressing into the windpipe, producing unconsciousness in 3-8 seconds rather than the longer and more dangerous timeline of tracheal compression.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotids — blood, not air",
+        "distractors": {
+          "plausible": [
+            "Windpipe, cutting off breathing",
+            "Chin pressure to make them quit"
+          ],
+          "trap": [
+            "Crank the neck to force the tap"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the Cross Collar Choke Finish?",
-        "answer": "The optimal window opens when the opponent's hands are occupied with other defensive tasks such as fighting hooks, defending rear naked choke threats, or recovering posture. Initiating the finish while their hands are committed elsewhere prevents the two-on-one grip fighting that is the most effective counter to this choke. Patience is essential—forcing the finish against prepared hands dramatically reduces success probability."
+        "answer": "The optimal window opens when the opponent's hands are occupied with other defensive tasks such as fighting hooks, defending rear naked choke threats, or recovering posture. Initiating the finish while their hands are committed elsewhere prevents the two-on-one grip fighting that is the most effective counter to this choke. Patience is essential—forcing the finish against prepared hands dramatically reduces success probability.",
+        "answer_line": "When their hands defend elsewhere",
+        "distractors": {
+          "plausible": [
+            "The instant hooks are secured",
+            "Right after seatbelt control lands"
+          ],
+          "trap": [
+            "Let go of seatbelt to force it"
+          ]
+        }
       },
       {
         "question": "What entry requirements must be satisfied before you can attempt this finish?",
-        "answer": "You need established back control with at least one deep hook, an invisible collar grip with all four fingers penetrating deep inside the collar material with knuckles against the neck, a seatbelt or equivalent upper body control on the far shoulder, and chest-to-back connection that compresses the opponent's posture forward. Attempting the finish without any of these elements dramatically reduces success probability."
+        "answer": "You need established back control with at least one deep hook, an invisible collar grip with all four fingers penetrating deep inside the collar material with knuckles against the neck, a seatbelt or equivalent upper body control on the far shoulder, and chest-to-back connection that compresses the opponent's posture forward. Attempting the finish without any of these elements dramatically reduces success probability.",
+        "answer_line": "Hook, deep collar, seatbelt, chest",
+        "distractors": {
+          "plausible": [
+            "One deep hook is enough alone",
+            "Collar grip without seatbelt"
+          ],
+          "trap": [
+            "Drop hooks to deepen the collar"
+          ]
+        }
       },
       {
         "question": "What direction should your forearm rotate when applying finishing pressure, and why is this mechanically superior?",
-        "answer": "Your choking forearm should rotate toward your own chest while your elbow pulls down toward your hip. This folds the gi material against the opponent's neck rather than pulling it away, creating the mechanical advantage needed for an efficient blood choke that doesn't rely on strength alone. The rotation creates a wedge effect where the radius bone presses the gi into the carotid, amplifying pressure through leverage rather than raw grip strength."
+        "answer": "Your choking forearm should rotate toward your own chest while your elbow pulls down toward your hip. This folds the gi material against the opponent's neck rather than pulling it away, creating the mechanical advantage needed for an efficient blood choke that doesn't rely on strength alone. The rotation creates a wedge effect where the radius bone presses the gi into the carotid, amplifying pressure through leverage rather than raw grip strength.",
+        "answer_line": "Rotate forearm toward your chest",
+        "distractors": {
+          "plausible": [
+            "Pull the collar straight backward",
+            "Rotate the elbow up and out"
+          ],
+          "trap": [
+            "Crank across the windpipe hard"
+          ]
+        }
       },
       {
         "question": "Your opponent commits both hands to stripping your collar grip—what opportunity does this create?",
-        "answer": "When the opponent commits both hands to grip removal, they cannot defend rear naked choke or armbar attacks. You should immediately transition to rear naked choke setup since their arms are occupied, or threaten armbar on their now-extended arms. This creates the submission dilemma that makes back attacks so effective—every defensive commitment to one threat exposes vulnerability to another."
+        "answer": "When the opponent commits both hands to grip removal, they cannot defend rear naked choke or armbar attacks. You should immediately transition to rear naked choke setup since their arms are occupied, or threaten armbar on their now-extended arms. This creates the submission dilemma that makes back attacks so effective—every defensive commitment to one threat exposes vulnerability to another.",
+        "answer_line": "Attack the now-open RNC or armbar",
+        "distractors": {
+          "plausible": [
+            "Re-secure the same collar grip",
+            "Wait for their hands to return"
+          ],
+          "trap": [
+            "Release position and reset fully"
+          ]
+        }
       },
       {
         "question": "Why must you maintain hook control throughout the finishing sequence?",
-        "answer": "Hooks prevent opponent's hip movement and escape attempts during the finish. Without hook control, opponents can turn into guard, stand up, or create space that loosens the choking grip. Maintaining hooks ensures they cannot convert defensive movement into positional escape even as the choke tightens. The hooks also anchor your body position, preventing the opponent from pulling away to relieve arterial compression."
+        "answer": "Hooks prevent opponent's hip movement and escape attempts during the finish. Without hook control, opponents can turn into guard, stand up, or create space that loosens the choking grip. Maintaining hooks ensures they cannot convert defensive movement into positional escape even as the choke tightens. The hooks also anchor your body position, preventing the opponent from pulling away to relieve arterial compression.",
+        "answer_line": "Hooks stop hip escape and turns",
+        "distractors": {
+          "plausible": [
+            "Hooks only add choking pressure",
+            "Hooks are just for scoring points"
+          ],
+          "trap": [
+            "Drop hooks to chase the finish"
+          ]
+        }
       },
       {
         "question": "What is the most common mechanical error that transforms this choke into a strength contest?",
-        "answer": "Pulling the collar away from the neck rather than rotating the forearm inward is the most common error. This removes mechanical advantage and requires excessive grip strength to maintain pressure. Proper technique folds the gi against the neck using rotation, which is biomechanically efficient and sustainable. The difference is analogous to using a wrench versus bare hands—rotation multiplies force while pulling dissipates it."
+        "answer": "Pulling the collar away from the neck rather than rotating the forearm inward is the most common error. This removes mechanical advantage and requires excessive grip strength to maintain pressure. Proper technique folds the gi against the neck using rotation, which is biomechanically efficient and sustainable. The difference is analogous to using a wrench versus bare hands—rotation multiplies force while pulling dissipates it.",
+        "answer_line": "Pulling collar away, not rotating",
+        "distractors": {
+          "plausible": [
+            "Not squeezing hard enough",
+            "Elbow flared out wide"
+          ],
+          "trap": [
+            "Cranking across the windpipe"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin extremely tight and commits both hands to protecting the neck—how do you create an opening?",
-        "answer": "A committed chin tuck is exhausting to maintain and opens armbar opportunities since defending arms must extend. Wait patiently while maintaining position, as the chin tuck will eventually fatigue. Alternatively, threaten armbar on their extended defending arms, which often opens the neck when they retract to protect the arm. The key is using their defensive commitment against them rather than fighting through their strongest defensive posture."
+        "answer": "A committed chin tuck is exhausting to maintain and opens armbar opportunities since defending arms must extend. Wait patiently while maintaining position, as the chin tuck will eventually fatigue. Alternatively, threaten armbar on their extended defending arms, which often opens the neck when they retract to protect the arm. The key is using their defensive commitment against them rather than fighting through their strongest defensive posture.",
+        "answer_line": "Wait it out, then attack the arm",
+        "distractors": {
+          "plausible": [
+            "Force the choke through the tuck",
+            "Strip the tuck with your free hand"
+          ],
+          "trap": [
+            "Abandon back control and reset"
+          ]
+        }
       },
       {
         "question": "What are the indicators that the choke is properly compressing the carotid arteries rather than the trachea?",
         "answer": "Proper carotid compression produces rapid onset of lightheadedness and vision changes in the opponent within 3-8 seconds, typically without significant pain or coughing. If the opponent is coughing, gagging, or experiencing pain without lightheadedness, the pressure is likely on the trachea rather than the arteries. Adjust by ensuring the gi material sits laterally across the neck, not centrally on the throat. The forearm rotation should direct pressure to the sides of the neck.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Fast dizziness, little to no pain",
+        "distractors": {
+          "plausible": [
+            "Slow fade with sharp coughing",
+            "Gagging that fades into dizziness"
+          ],
+          "trap": [
+            "Coughing hard means it's working"
+          ]
+        }
       },
       {
         "question": "How do you adjust when the opponent begins turning toward your collar grip side during the finish?",
-        "answer": "Follow their turn by driving your chest weight over their rotating shoulder, which can actually tighten the choke angle. Alternatively, use their turn to enter crucifix position, trapping their turning arm and creating additional submission threats. The turn into you is often worse for them than staying flat because it can improve your finishing angle by rotating their neck further into the collar pressure."
+        "answer": "Follow their turn by driving your chest weight over their rotating shoulder, which can actually tighten the choke angle. Alternatively, use their turn to enter crucifix position, trapping their turning arm and creating additional submission threats. The turn into you is often worse for them than staying flat because it can improve your finishing angle by rotating their neck further into the collar pressure.",
+        "answer_line": "Follow the turn, chase the angle",
+        "distractors": {
+          "plausible": [
+            "Flatten them back to the mat",
+            "Pause and re-grip the collar"
+          ],
+          "trap": [
+            "Post a hand and lose the seatbelt"
+          ]
+        }
       },
       {
         "question": "What are the immediate signs that you should release the choke, and what is the correct post-release protocol?",
         "answer": "Release immediately upon any tap signal (hand, verbal, or foot), when the opponent goes limp, or when they cease all movement. After release, maintain light positional awareness while checking your partner's responsiveness. If they are unconscious, place them in recovery position, monitor breathing, and seek medical attention if they do not regain consciousness within 20 seconds. Never continue applying pressure after a tap to test tightness or verify the submission was working.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap or limp — release, check them",
+        "distractors": {
+          "plausible": [
+            "Wait for a verbal tap only",
+            "Stand up and reset for next round"
+          ],
+          "trap": [
+            "Hold on a few seconds past limp"
+          ]
+        }
       },
       {
         "question": "In competition, how does the finishing strategy differ when time is running low versus when you have ample time remaining?",
-        "answer": "With ample time, maintain the patient approach—confirm grip depth fully, wait for optimal defensive openings, and use submission chains to create dilemmas. When time is short, you may need to accept slightly less optimal grip depth and initiate the finish more aggressively, accepting higher failure probability. However, never sacrifice safety regardless of time pressure. The key competition adjustment is reducing the patience phase, not the mechanical execution. A rushed finish with poor mechanics wastes more time than a deliberate setup."
+        "answer": "With ample time, maintain the patient approach—confirm grip depth fully, wait for optimal defensive openings, and use submission chains to create dilemmas. When time is short, you may need to accept slightly less optimal grip depth and initiate the finish more aggressively, accepting higher failure probability. However, never sacrifice safety regardless of time pressure. The key competition adjustment is reducing the patience phase, not the mechanical execution. A rushed finish with poor mechanics wastes more time than a deliberate setup.",
+        "answer_line": "Shorten setup, keep mechanics clean",
+        "distractors": {
+          "plausible": [
+            "Skip grip depth, force the finish",
+            "Same patient pace, hope for tap"
+          ],
+          "trap": [
+            "Abandon control to lunge for finish"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "km9506KvIJg",
+        "title": "Rubber guard double invisible collar cross choke",
+        "by": "Denny Prokopos",
+        "vertical": false,
+        "channel": "Denny Prokopos",
+        "duration": 41,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "KE4ulYBSmjY",
+        "title": "Getting the first hand inside first",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pe4jLWTzpSE",
+        "title": "Invisible detail of the choke from the back",
+        "by": "Rickson Gracie Academy",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 122,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -415,27 +576,77 @@
       {
         "question": "What is the earliest recognition cue that an invisible collar choke is being established?",
         "answer": "The earliest cue is the opponent's over-hook hand migrating from your shoulder toward your collar, with fingers beginning to penetrate the gi material near your neck. Any collar contact during back control should trigger immediate defensive response. Do not wait for choking pressure—by then the grip is often too deep to strip effectively.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Their hand sliding toward collar",
+        "distractors": {
+          "plausible": [
+            "Choking pressure on your neck",
+            "Their chest sealing to your back"
+          ],
+          "trap": [
+            "Wait until the choke tightens"
+          ]
+        }
       },
       {
         "question": "Why should you escape toward the non-collar side rather than toward the choking hand?",
         "answer": "Escaping toward the non-collar side creates distance between your neck and the choking grip, reducing pressure and opening space for guard recovery. Moving toward the collar side can rotate your neck into the pressure and actually tighten the choke angle. The direction of your hip escape directly determines whether you relieve or intensify the choking mechanics.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "It pulls your neck from the grip",
+        "distractors": {
+          "plausible": [
+            "It scores an escape point",
+            "It frees your trapped bottom arm"
+          ],
+          "trap": [
+            "Roll toward the choking arm"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your two-on-one defense and begins transitioning to rear naked choke—how do you exploit this moment?",
         "answer": "The transition from collar to rear naked choke creates a brief window where the opponent's choking arm is uncommitted between positions. Use this moment to trap their switching arm by tucking it under your armpit or controlling their wrist. Simultaneously initiate hip escape since their attention has shifted to the arm transition. The collar-to-RNC switch is the most vulnerable moment in their attack chain.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trap the switching arm, hip escape",
+        "distractors": {
+          "plausible": [
+            "Wait for the RNC grip to set",
+            "Defend only the new choke arm"
+          ],
+          "trap": [
+            "Turn belly-down and post up"
+          ]
+        }
       },
       {
         "question": "When should you accept the risk of committing both hands to grip removal despite exposure to other attacks?",
         "answer": "Commit both hands when you feel the collar grip has reached dangerous depth with knuckles against your neck and the opponent beginning rotational finishing pressure. At this point, the collar choke represents the most immediate lethal threat and no other attack will finish faster. A rear naked choke still requires setup time, giving you a window to address it after breaking the collar grip.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "When knuckles press into your neck",
+        "distractors": {
+          "plausible": [
+            "Only once pressure starts hurting",
+            "As soon as they get a hook in"
+          ],
+          "trap": [
+            "Both hands out while grip is shallow"
+          ]
+        }
       },
       {
         "question": "What body position gives you the best survival chance when the choke is already partially locked?",
         "answer": "Maintain the tightest possible chin tuck with both hands fighting the choking wrist, while keeping your shoulders elevated rather than flat on the mat. Position your body on the side opposite the collar grip. This combination minimizes the choking angle, maximizes your grip fighting leverage, and preserves hip mobility for escape attempts when the opponent adjusts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chin tuck, fight wrist, shoulders up",
+        "distractors": {
+          "plausible": [
+            "Flatten out and cover your face",
+            "Push their legs off with both hands"
+          ],
+          "trap": [
+            "Turn belly-down to your knees"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -458,6 +669,26 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full positional sparring from back control. Attacker uses complete invisible collar system including submission chains. Defender applies all defensive skills under realistic pressure. Track survival time and escape rates to measure improvement across sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "6rMCDkWRlgg",
+        "title": "Cross collar choke defense: down and over",
+        "by": "Emil Takeuchi",
+        "vertical": false,
+        "channel": "Six Blades NOVA Emil Takeuchi",
+        "duration": 94,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "KZBFuqvmKpo",
+        "title": "Escape the lapel choke from back mount",
+        "by": "North Bay Jiu Jitsu",
+        "vertical": false,
+        "channel": "North Bay Jiu Jitsu",
+        "duration": 142,
+        "verified": "2026-07-14"
       }
     ]
   }

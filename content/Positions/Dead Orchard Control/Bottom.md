@@ -21,37 +21,37 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Escape Dead Orchard Control",
-      "text": "From this position, attempt Escape Dead Orchard Control. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Escape Dead Orchard Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dead Orchard Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda Choke Defense",
+      "description": "Dead Orchard Control (Bottom) film study: Anaconda Choke Defense, taught by SFS MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
+      "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
+      "creator": { "@type": "Person", "name": "SFS MMA" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Escape the Anaconda Choke",
+      "description": "Dead Orchard Control (Bottom) film study: How to Escape the Anaconda Choke, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/czQckiDogRc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/czQckiDogRc",
+      "url": "https://www.youtube.com/watch?v=czQckiDogRc",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing Front Headlock Choke Defense",
+      "description": "Dead Orchard Control (Bottom) film study: Standing Front Headlock Choke Defense, taught by Empower Gym Tampa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J-MaOIfDHXk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J-MaOIfDHXk",
+      "url": "https://www.youtube.com/watch?v=J-MaOIfDHXk",
+      "creator": { "@type": "Person", "name": "Empower Gym Tampa" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
 Dead Orchard Control Bottom represents one of the most disadvantageous positions in Brazilian Jiu-Jitsu, where the practitioner is trapped in a modified front headlock position with their opponent controlling both the head and an arm while applying significant pressure. This position is a variation of the anaconda and darce control family, named for its ability to systematically eliminate offensive options and leave the bottom player in a state of severe positional deficit. The bottom practitioner finds themselves with limited mobility, restricted breathing, and facing immediate submission threats from multiple angles including anaconda choke, darce choke, guillotine variations, and potential transitions to back control or mount. The crushing pressure applied by the top player makes this an extremely energy-draining position for the defender, requiring calm, technical responses rather than explosive escape attempts that often worsen the situation. Understanding the mechanics of Dead Orchard Control Bottom is essential for comprehensive defensive jiu-jitsu, as knowing the proper defensive frames, breathing techniques, and systematic escape sequences can mean the difference between tapping and surviving to recover guard. The position emphasizes the critical importance of preventing front headlock positions in the first place, as escaping once fully established requires significant technical knowledge, mental composure under pressure, and efficient energy management throughout the defensive sequence.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dead Orchard Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
+
+<p class="clip-credit"><strong>Anaconda Choke Defense</strong> — taught by SFS MMA · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=czQckiDogRc)
+
+<p class="clip-credit"><strong>How to Escape the Anaconda Choke</strong> — taught by ZombieProofBJJ · 1:32 · <a href="https://www.youtube.com/watch?v=czQckiDogRc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J-MaOIfDHXk)
+
+<p class="clip-credit"><strong>Standing Front Headlock Choke Defense</strong> — taught by Empower Gym Tampa · 1:00 · <a href="https://www.youtube.com/watch?v=J-MaOIfDHXk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -353,7 +437,7 @@ Start in established dead orchard control bottom position. Bottom player works t
 - **[[Positions/Guillotine Control]]** - Alternative submission threat from same control framework
 - **[[Positions/Closed Guard]]** - Primary escape target - most achievable defensive goal
 - **[[Transitions/Anaconda Choke]]** - Primary submission threat requiring specific defense
-- **[[Transitions/Darce Choke]]** - Secondary submission threat with different mechanics
+- **[[Submissions/Darce Choke]]** - Secondary submission threat with different mechanics
 - **[[Transitions/Shrimp Escape]]** - Essential escape technique from compressed positions
 - **[[Positions/Half Guard]]** - Secondary escape target accessible via granby roll
 

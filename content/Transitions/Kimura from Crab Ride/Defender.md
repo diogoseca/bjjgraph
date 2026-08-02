@@ -156,6 +156,54 @@ description: "Learn to defend the Kimura from Crab Ride in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Crab Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back defense: trap and roll from turtle",
+      "description": "Kimura from Crab Ride (Defender) film study: Back defense: trap and roll from turtle, taught by Darragh O Conaill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E3Tz7JjQyTw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E3Tz7JjQyTw",
+      "url": "https://www.youtube.com/watch?v=E3Tz7JjQyTw",
+      "creator": { "@type": "Person", "name": "Darragh O Conaill" },
+      "duration": "PT150S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sitting Turtle to Running Man escape",
+      "description": "Kimura from Crab Ride (Defender) film study: Sitting Turtle to Running Man escape, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zgvlMKLWxAI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zgvlMKLWxAI",
+      "url": "https://www.youtube.com/watch?v=zgvlMKLWxAI",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT224S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle Neck: defensive turtle structure",
+      "description": "Kimura from Crab Ride (Defender) film study: Turtle Neck: defensive turtle structure, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wjcPhUmFRhM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wjcPhUmFRhM",
+      "url": "https://www.youtube.com/watch?v=wjcPhUmFRhM",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT169S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +213,42 @@ Defending the Kimura from Crab Ride requires immediate recognition and decisive 
 **Opponent's Starting Position**: [[Positions/Crab Ride]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Crab Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E3Tz7JjQyTw)
+
+<p class="clip-credit"><strong>Back defense: trap and roll from turtle</strong> — taught by Darragh O Conaill · 2:30 · <a href="https://www.youtube.com/watch?v=E3Tz7JjQyTw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zgvlMKLWxAI)
+
+<p class="clip-credit"><strong>Sitting Turtle to Running Man escape</strong> — taught by Priit Mihkelson · 3:44 · <a href="https://www.youtube.com/watch?v=zgvlMKLWxAI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wjcPhUmFRhM)
+
+<p class="clip-credit"><strong>Turtle Neck: defensive turtle structure</strong> — taught by Priit Mihkelson · 2:49 · <a href="https://www.youtube.com/watch?v=wjcPhUmFRhM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

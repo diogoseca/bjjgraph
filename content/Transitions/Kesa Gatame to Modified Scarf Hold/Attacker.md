@@ -168,6 +168,54 @@ description: "Step-by-step guide to transitioning from Kesa Gatame to Modified S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kesa Gatame to Modified Scarf Hold (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kuzure kesa gatame (modified scarf hold)",
+      "description": "Kesa Gatame to Modified Scarf Hold (Attacker) film study: Kuzure kesa gatame (modified scarf hold), taught by Poraka Nova coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZMSfqiFWgiI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZMSfqiFWgiI",
+      "url": "https://www.youtube.com/watch?v=ZMSfqiFWgiI",
+      "creator": { "@type": "Person", "name": "Poraka Nova coach" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "12 attacks from kesa gatame",
+      "description": "Kesa Gatame to Modified Scarf Hold (Attacker) film study: 12 attacks from kesa gatame, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa gatame basic scarf hold control",
+      "description": "Kesa Gatame to Modified Scarf Hold (Attacker) film study: Kesa gatame basic scarf hold control, taught by Grappler Station coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TfNpVcekHGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TfNpVcekHGg",
+      "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
+      "creator": { "@type": "Person", "name": "Grappler Station coach" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ As the attacker executing this transition, your objective is to convert the perp
 **From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kesa Gatame to Modified Scarf Hold (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZMSfqiFWgiI)
+
+<p class="clip-credit"><strong>Kuzure kesa gatame (modified scarf hold)</strong> — taught by Poraka Nova coach · 0:37 · <a href="https://www.youtube.com/watch?v=ZMSfqiFWgiI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>12 attacks from kesa gatame</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TfNpVcekHGg)
+
+<p class="clip-credit"><strong>Kesa gatame basic scarf hold control</strong> — taught by Grappler Station coach · 2:01 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

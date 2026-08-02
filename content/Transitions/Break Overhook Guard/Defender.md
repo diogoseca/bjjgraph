@@ -140,6 +140,43 @@ description: "Complete defender guide for Break Overhook Guard. Learn to maintai
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Break Overhook Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Whizzer from half guard: winning the dogfight",
+      "description": "Break Overhook Guard (Defender) film study: Whizzer from half guard: winning the dogfight, taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Scissor sweep from overhook closed guard",
+      "description": "Break Overhook Guard (Defender) film study: Scissor sweep from overhook closed guard, taught by Cobrinha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gE-B0IMK1CI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gE-B0IMK1CI",
+      "url": "https://www.youtube.com/watch?v=gE-B0IMK1CI",
+      "creator": { "@type": "Person", "name": "Cobrinha" },
+      "duration": "PT130S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against Break Overhook Guard, you are the bottom player whose ov
 **Opponent's Starting Position**: [[Positions/Overhook Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Break Overhook Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
+
+<p class="clip-credit"><strong>Whizzer from half guard: winning the dogfight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gE-B0IMK1CI)
+
+<p class="clip-credit"><strong>Scissor sweep from overhook closed guard</strong> — taught by Cobrinha · 2:10 · <a href="https://www.youtube.com/watch?v=gE-B0IMK1CI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke Side from Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear Triangle from Side Control",
+      "description": "Triangle Choke Side from Side Control film study: Rear Triangle from Side Control, taught by Onyx Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oyXaGXU3mFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oyXaGXU3mFU",
+      "url": "https://www.youtube.com/watch?v=oyXaGXU3mFU",
+      "creator": { "@type": "Person", "name": "Onyx Martial Arts" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle from Side Control",
+      "description": "Triangle Choke Side from Side Control film study: Triangle from Side Control, taught by Ricardo Marques.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NA50Ay8yL1k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NA50Ay8yL1k",
+      "url": "https://www.youtube.com/watch?v=NA50Ay8yL1k",
+      "creator": { "@type": "Person", "name": "Ricardo Marques" },
+      "duration": "PT258S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 **Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke Side from Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oyXaGXU3mFU)
+
+<p class="clip-credit"><strong>Rear Triangle from Side Control</strong> — taught by Onyx Martial Arts · 1:17 · <a href="https://www.youtube.com/watch?v=oyXaGXU3mFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NA50Ay8yL1k)
+
+<p class="clip-credit"><strong>Triangle from Side Control</strong> — taught by Ricardo Marques · 4:18 · <a href="https://www.youtube.com/watch?v=NA50Ay8yL1k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -244,11 +309,11 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Related
 - [[Submissions/Triangle Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/North-South Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Rear Triangle Choke]]
 - [[Transitions/Inverted Triangle]]

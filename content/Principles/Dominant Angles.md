@@ -164,6 +164,54 @@ description: "Master Dominant Angles in BJJ. Learn strategic principles of gener
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dominant Angles \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finding the perfect angles from guard",
+      "description": "Dominant Angles film study: Finding the perfect angles from guard, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/55zx0wJVo3I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/55zx0wJVo3I",
+      "url": "https://www.youtube.com/watch?v=55zx0wJVo3I",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard passing with pressure and angles",
+      "description": "Dominant Angles film study: Guard passing with pressure and angles, taught by Predators MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IlWRaPI6BLA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IlWRaPI6BLA",
+      "url": "https://www.youtube.com/watch?v=IlWRaPI6BLA",
+      "creator": { "@type": "Person", "name": "Predators MMA" },
+      "duration": "PT548S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Force vectors and planes in jiu-jitsu",
+      "description": "Dominant Angles film study: Force vectors and planes in jiu-jitsu, taught by Rob Vella.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l4stVpjco6E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l4stVpjco6E",
+      "url": "https://www.youtube.com/watch?v=l4stVpjco6E",
+      "creator": { "@type": "Person", "name": "Rob Vella" },
+      "duration": "PT600S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Dominant Angles?
@@ -173,6 +221,42 @@ description: "Master Dominant Angles in BJJ. Learn strategic principles of gener
 Across every grappling exchange, the practitioner who controls the angle controls the dilemma. Angle creation is a comprehensive conceptual framework rather than a single movement, applying across all positions and determining success in both offensive and defensive scenarios. The biomechanical core is that moving perpendicular or diagonal to an opponent's force vectors multiplies effectiveness while minimizing energy expenditure, making angle creation fundamental to efficient BJJ. It serves as both an offensive mechanism that opens attack pathways and compromises an opponent's defenses, and a defensive tool that nullifies pressure and creates escape opportunities. The ability to consistently create and exploit angles often determines technical success against similar-skilled opponents, making it one of the most essential conceptual elements in advanced BJJ development.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dominant Angles in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=55zx0wJVo3I)
+
+<p class="clip-credit"><strong>Finding the perfect angles from guard</strong> — taught by Rickson Gracie · 0:52 · <a href="https://www.youtube.com/watch?v=55zx0wJVo3I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IlWRaPI6BLA)
+
+<p class="clip-credit"><strong>Guard passing with pressure and angles</strong> — taught by Predators MMA · 9:08 · <a href="https://www.youtube.com/watch?v=IlWRaPI6BLA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l4stVpjco6E)
+
+<p class="clip-credit"><strong>Force vectors and planes in jiu-jitsu</strong> — taught by Rob Vella · 10:00 · <a href="https://www.youtube.com/watch?v=l4stVpjco6E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Learn Darce from Lockdown Counter in BJJ. Counter Electric Chair w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce from Lockdown Counter \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control to north-south d\u0027arce",
+      "description": "Darce from Lockdown Counter film study: Side control to north-south d\u0027arce, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
+      "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the Whip Up with the Darce Choke",
+      "description": "Darce from Lockdown Counter film study: Countering the Whip Up with the Darce Choke, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R54Wr2lYfEQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R54Wr2lYfEQ",
+      "url": "https://www.youtube.com/watch?v=R54Wr2lYfEQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT130S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Break the Lockdown Half Guard",
+      "description": "Darce from Lockdown Counter film study: How to Break the Lockdown Half Guard, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xb4-phb4BhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xb4-phb4BhE",
+      "url": "https://www.youtube.com/watch?v=Xb4-phb4BhE",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT251S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ From a strategic perspective, having this counter in your arsenal changes the dy
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce from Lockdown Counter in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
+
+<p class="clip-credit"><strong>Side control to north-south d&#39;arce</strong> — taught by Gracie Westchase · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R54Wr2lYfEQ)
+
+<p class="clip-credit"><strong>Countering the Whip Up with the Darce Choke</strong> — taught by Eddie Bravo · 2:10 · <a href="https://www.youtube.com/watch?v=R54Wr2lYfEQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xb4-phb4BhE)
+
+<p class="clip-credit"><strong>How to Break the Lockdown Half Guard</strong> — taught by Matt Arroyo · 4:11 · <a href="https://www.youtube.com/watch?v=Xb4-phb4BhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -237,7 +321,7 @@ The Darce from Lockdown Counter integrates into the half guard top game as a cri
 
 - [[Positions/Darce Control]] - Target position - where successful execution leads
 
-- [[Transitions/Darce Choke]] - Follow-up submission - finish from Darce control
+- [[Submissions/Darce Choke]] - Follow-up submission - finish from Darce control
 
 - [[Positions/Half Guard/Lockdown]] - Related system - the guard configuration you're escaping
 
@@ -247,7 +331,7 @@ The Darce from Lockdown Counter integrates into the half guard top game as a cri
 
 - [[Transitions/Back Take from Lockdown Defense]] - Alternative counter - chain if Darce unavailable
 
-- [[Transitions/Arm Triangle]] - Related choke - similar arm-in head-and-arm configuration
+- [[Submissions/Arm Triangle]] - Related choke - similar arm-in head-and-arm configuration
 
 - [[Positions/Front Headlock]] - Related position - same control family as Darce
 

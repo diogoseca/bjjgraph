@@ -148,6 +148,43 @@ description: "Defend against the Smash from Knee Shield with early recognition a
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash from Knee Shield (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard recovery when you are getting smashed",
+      "description": "Smash from Knee Shield (Defender) film study: Guard recovery when you are getting smashed, taught by Finesse Jiujitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
+      "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
+      "creator": { "@type": "Person", "name": "Finesse Jiujitsu coach" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee shield fighting mistakes to avoid",
+      "description": "Smash from Knee Shield (Defender) film study: Knee shield fighting mistakes to avoid, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tgm9VyvVkgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tgm9VyvVkgI",
+      "url": "https://www.youtube.com/watch?v=tgm9VyvVkgI",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT148S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the Smash from Knee Shield requires early recognition and proa
 **Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash from Knee Shield (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BhNZGloJ56c)
+
+<p class="clip-credit"><strong>Guard recovery when you are getting smashed</strong> — taught by Finesse Jiujitsu coach · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tgm9VyvVkgI)
+
+<p class="clip-credit"><strong>Knee shield fighting mistakes to avoid</strong> — taught by Lachlan Giles · 2:28 · <a href="https://www.youtube.com/watch?v=tgm9VyvVkgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

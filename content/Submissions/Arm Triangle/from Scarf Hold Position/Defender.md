@@ -150,6 +150,54 @@ description: "Learn to defend the Arm Triangle from Scarf Hold Position. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Scarf Hold Position (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Scarf Hold Ghost Escape",
+      "description": "Arm Triangle from Scarf Hold Position (Defender) film study: Scarf Hold Ghost Escape, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/chpoSczCLTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/chpoSczCLTI",
+      "url": "https://www.youtube.com/watch?v=chpoSczCLTI",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm Triangle Escape",
+      "description": "Arm Triangle from Scarf Hold Position (Defender) film study: Arm Triangle Escape, taught by Crucifix Mike.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nspz2EAIQ_k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nspz2EAIQ_k",
+      "url": "https://www.youtube.com/watch?v=Nspz2EAIQ_k",
+      "creator": { "@type": "Person", "name": "Crucifix Mike" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa Gatame Escape",
+      "description": "Arm Triangle from Scarf Hold Position (Defender) film study: Kesa Gatame Escape, taught by Taylorjiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5atT-Q9-CVw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5atT-Q9-CVw",
+      "url": "https://www.youtube.com/watch?v=5atT-Q9-CVw",
+      "creator": { "@type": "Person", "name": "Taylorjiujitsu" },
+      "duration": "PT14S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Arm Triangle from Scarf Hold Position requires understanding that 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Scarf Hold Position (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=chpoSczCLTI)
+
+<p class="clip-credit"><strong>Scarf Hold Ghost Escape</strong> — taught by Mat Life Training Center · 0:20 · <a href="https://www.youtube.com/watch?v=chpoSczCLTI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Nspz2EAIQ_k)
+
+<p class="clip-credit"><strong>Arm Triangle Escape</strong> — taught by Crucifix Mike · 0:27 · <a href="https://www.youtube.com/watch?v=Nspz2EAIQ_k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5atT-Q9-CVw)
+
+<p class="clip-credit"><strong>Kesa Gatame Escape</strong> — taught by Taylorjiujitsu · 0:14 · <a href="https://www.youtube.com/watch?v=5atT-Q9-CVw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

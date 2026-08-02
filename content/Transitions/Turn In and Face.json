@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Turn In and Face is a critical escape from the Buggy Choke bottom position that exploits a fundamental geometric vulnerability in the choking mechanics. The buggy choke relies on perpendicular pressure and a threading arm that generates choking force through the angle between attacker and defender. By rotating toward the choking arm and squaring up to face the opponent, the bottom player collapses the choking angle, neutralizes collar pressure, and creates the structural conditions necessary for guard recovery. This technique embodies the defensive principle that facing your opponent is almost always preferable to giving them your back or side.\n\nThe escape works because the buggy choke's power comes from the threading arm wrapping around the defender's neck from behind. When the defender turns into the attacker, the arm loses its mechanical advantage — the choking pathway shortens, the collar grip becomes a front-facing grip with dramatically reduced finishing potential, and the perpendicular body pressure that kept the defender flattened becomes ineffective against a squared-up frame. The timing window for this escape is during the threading phase or immediately after grips are established but before heavy body pressure pins the defender flat.\n\nStrategically, Turn In and Face is the preferred escape when the defender still has sufficient posture and mobility to execute a rotation. It creates direct pathways to open guard, closed guard, or half guard depending on how the attacker reacts. Compared to alternatives like granby rolls or sitting to half guard, this escape keeps the defender facing the opponent from the outset, reducing the risk of exposing the back during the escape sequence. For practitioners who play guard-centric games, this transition provides the most direct route back to their preferred positions.",
   "related_content": [
     {
@@ -215,46 +230,175 @@
     "flashcards": [
       {
         "question": "Why must you rotate toward the choking arm rather than away from it?",
-        "answer": "Rotating toward the choking arm collapses the angle that generates choking pressure. The buggy choke relies on perpendicular geometry where the threading arm wraps around from behind. Turning toward it shortens the choking pathway and converts the collar grip into a front-facing grip with dramatically reduced finishing potential. Turning away tightens the grip and exposes your back for hooks."
+        "answer": "Rotating toward the choking arm collapses the angle that generates choking pressure. The buggy choke relies on perpendicular geometry where the threading arm wraps around from behind. Turning toward it shortens the choking pathway and converts the collar grip into a front-facing grip with dramatically reduced finishing potential. Turning away tightens the grip and exposes your back for hooks.",
+        "answer_line": "Collapses the choking angle",
+        "distractors": {
+          "plausible": [
+            "Creates space to sit up",
+            "Strips the collar grip loose"
+          ],
+          "trap": [
+            "Turn away to unwind the pressure"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for attempting Turn In and Face?",
-        "answer": "The highest-percentage window is during the threading phase before the second grip is secured, or immediately after grips are established but before heavy body pressure pins the defender flat. Once full body pressure consolidates with hips driving the defender into the mat, the rotation becomes extremely difficult and alternative escapes like sitting to half guard become preferable."
+        "answer": "The highest-percentage window is during the threading phase before the second grip is secured, or immediately after grips are established but before heavy body pressure pins the defender flat. Once full body pressure consolidates with hips driving the defender into the mat, the rotation becomes extremely difficult and alternative escapes like sitting to half guard become preferable.",
+        "answer_line": "Before or just after grips set",
+        "distractors": {
+          "plausible": [
+            "Only once hooks start entering",
+            "Right as chest pressure peaks"
+          ],
+          "trap": [
+            "Wait until the choke locks in"
+          ]
+        }
       },
       {
         "question": "What grip must you maintain throughout the entire rotation sequence?",
-        "answer": "Wrist or forearm control on the opponent's threading arm must be maintained from initiation through completion of the turn. This grip prevents the threading arm from converting into a front headlock or guillotine as your head comes around during rotation. Only release this control once inside frames are established and the opponent cannot reach your neck."
+        "answer": "Wrist or forearm control on the opponent's threading arm must be maintained from initiation through completion of the turn. This grip prevents the threading arm from converting into a front headlock or guillotine as your head comes around during rotation. Only release this control once inside frames are established and the opponent cannot reach your neck.",
+        "answer_line": "Grip on the threading arm",
+        "distractors": {
+          "plausible": [
+            "Grip on far shoulder",
+            "Underhook on near side"
+          ],
+          "trap": [
+            "Release grip once turn starts"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inserting back hooks as you initiate the turn — how do you adjust?",
-        "answer": "Accelerate the rotation to complete the full turn before both hooks are established. If one hook enters during the turn, continue rotating past the facing position into a seated guard and immediately begin back escape protocols by fighting the bottom hook first. Do not abandon the turn and return to turtle, as you will end up in a worse position with partial back control already established."
+        "answer": "Accelerate the rotation to complete the full turn before both hooks are established. If one hook enters during the turn, continue rotating past the facing position into a seated guard and immediately begin back escape protocols by fighting the bottom hook first. Do not abandon the turn and return to turtle, as you will end up in a worse position with partial back control already established.",
+        "answer_line": "Accelerate turn, fight bottom hook",
+        "distractors": {
+          "plausible": [
+            "Pause turn to strip the hook",
+            "Continue turn, ignore the hook"
+          ],
+          "trap": [
+            "Abandon turn, return to turtle"
+          ]
+        }
       },
       {
         "question": "What are the critical mechanical details of the knee-drive rotation?",
-        "answer": "The near-side knee swings underneath the body in an arc toward the far side, serving as the primary driver of rotational momentum. The far-side hand posts on the mat as a pivot point while the near hand controls the threading arm. The motion must be continuous and explosive — the knee pulls the hips and torso around in one fluid movement without pausing at intermediate positions."
+        "answer": "The near-side knee swings underneath the body in an arc toward the far side, serving as the primary driver of rotational momentum. The far-side hand posts on the mat as a pivot point while the near hand controls the threading arm. The motion must be continuous and explosive — the knee pulls the hips and torso around in one fluid movement without pausing at intermediate positions.",
+        "answer_line": "Near knee under, far hand posts",
+        "distractors": {
+          "plausible": [
+            "Far knee swings under the body",
+            "Post evenly on both hands"
+          ],
+          "trap": [
+            "Stop mid-turn and rebuild base"
+          ]
+        }
       },
       {
         "question": "After completing the turn, your opponent drives forward with chest pressure — what is your immediate response?",
-        "answer": "Establish inside frames immediately with both forearms against the opponent's chest and shoulders to prevent them from closing distance. Then execute a sharp hip escape away from the opponent while maintaining frame contact to create space for leg insertion. The frames must be the immediate priority — without them, the opponent converts to side control or mount before guard can be recovered."
+        "answer": "Establish inside frames immediately with both forearms against the opponent's chest and shoulders to prevent them from closing distance. Then execute a sharp hip escape away from the opponent while maintaining frame contact to create space for leg insertion. The frames must be the immediate priority — without them, the opponent converts to side control or mount before guard can be recovered.",
+        "answer_line": "Frames first, then hip escape",
+        "distractors": {
+          "plausible": [
+            "Hip escape first, frames after",
+            "Grab collar tie immediately"
+          ],
+          "trap": [
+            "Push straight back with arms"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to attempt Turn In and Face versus sitting to half guard from Buggy Choke bottom?",
-        "answer": "Turn In and Face is optimal when you retain enough posture and hip mobility to generate rotational momentum, and the opponent's body pressure has not fully flattened you. Sit to half guard is preferable when body pressure is heavy but grips are relatively shallow, as the sitting motion requires less rotational space. If fully flattened with deep grips and heavy pressure, accepting a controlled transition to back control may be the best option."
+        "answer": "Turn In and Face is optimal when you retain enough posture and hip mobility to generate rotational momentum, and the opponent's body pressure has not fully flattened you. Sit to half guard is preferable when body pressure is heavy but grips are relatively shallow, as the sitting motion requires less rotational space. If fully flattened with deep grips and heavy pressure, accepting a controlled transition to back control may be the best option.",
+        "answer_line": "Turn if mobile, not flattened",
+        "distractors": {
+          "plausible": [
+            "Sit out if grips are deep",
+            "Turn only when pressure heavy"
+          ],
+          "trap": [
+            "Turn even when fully flattened"
+          ]
+        }
       },
       {
         "question": "What defensive structure must you establish immediately upon completing the rotation?",
-        "answer": "Inside frames with both forearms positioned against the opponent's chest, biceps, and shoulder line. These frames create a defensive barrier that prevents the opponent from closing distance for side control, re-establishing the buggy choke angle, or converting to a front headlock or guillotine. The frames also create the space necessary for the subsequent hip escape and guard insertion sequence."
+        "answer": "Inside frames with both forearms positioned against the opponent's chest, biceps, and shoulder line. These frames create a defensive barrier that prevents the opponent from closing distance for side control, re-establishing the buggy choke angle, or converting to a front headlock or guillotine. The frames also create the space necessary for the subsequent hip escape and guard insertion sequence.",
+        "answer_line": "Inside frames on chest and arms",
+        "distractors": {
+          "plausible": [
+            "Underhook the far arm",
+            "Frame on the hips only"
+          ],
+          "trap": [
+            "Push away with straight arms"
+          ]
+        }
       },
       {
         "question": "Your opponent releases the buggy choke grips mid-turn and shoots for a guillotine — what is your counter?",
-        "answer": "Keep your chin tucked throughout the rotation to limit neck exposure. If you feel guillotine grips establishing, immediately swim your near arm to an underhook position which blocks the chin strap and prevents the lock from closing. If the guillotine is partially locked, continue the turn to face the opponent and pass your head to the choke side while applying shoulder pressure to break the grip open."
+        "answer": "Keep your chin tucked throughout the rotation to limit neck exposure. If you feel guillotine grips establishing, immediately swim your near arm to an underhook position which blocks the chin strap and prevents the lock from closing. If the guillotine is partially locked, continue the turn to face the opponent and pass your head to the choke side while applying shoulder pressure to break the grip open.",
+        "answer_line": "Chin tucked, swim to underhook",
+        "distractors": {
+          "plausible": [
+            "Grab the choking wrist first",
+            "Drop hips and stall flat"
+          ],
+          "trap": [
+            "Pull the head back for space"
+          ]
+        }
       },
       {
         "question": "What chain attacks should you prepare if the initial turn stalls mid-rotation?",
-        "answer": "If the turn stalls at a half-rotation, immediately switch to a sit-through by kicking the near leg through to land in seated guard. If hip mobility is compromised, drop to a hip escape on the side you have partially rotated to and work to insert a knee shield for half guard recovery. The key principle is never returning to the original turtle position — any forward progress should be converted to an alternative escape pathway rather than abandoned."
+        "answer": "If the turn stalls at a half-rotation, immediately switch to a sit-through by kicking the near leg through to land in seated guard. If hip mobility is compromised, drop to a hip escape on the side you have partially rotated to and work to insert a knee shield for half guard recovery. The key principle is never returning to the original turtle position — any forward progress should be converted to an alternative escape pathway rather than abandoned.",
+        "answer_line": "Kick through to seated guard",
+        "distractors": {
+          "plausible": [
+            "Hold the half-rotation and wait",
+            "Muscle the original turn through"
+          ],
+          "trap": [
+            "Reset all the way back to turtle"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Turn In and Face involves rapid rotational movement of the neck and spine under load while a choking grip may still be partially engaged. Practice the rotation slowly at first to avoid neck strain from twisting against an active choke. Partners should release choking pressure progressively as the defender initiates the turn during drilling. There is a brief moment during mid-rotation where the choke may momentarily tighten before the angle collapses — practitioners with neck injuries or cervical spine issues should communicate this to training partners and use reduced resistance. Tap immediately if the choke tightens beyond safe tolerance during the turn rather than forcing through the rotation."
+    "safety_considerations": "Turn In and Face involves rapid rotational movement of the neck and spine under load while a choking grip may still be partially engaged. Practice the rotation slowly at first to avoid neck strain from twisting against an active choke. Partners should release choking pressure progressively as the defender initiates the turn during drilling. There is a brief moment during mid-rotation where the choke may momentarily tighten before the angle collapses — practitioners with neck injuries or cervical spine issues should communicate this to training partners and use reduced resistance. Tap immediately if the choke tightens beyond safe tolerance during the turn rather than forcing through the rotation.",
+    "clips": [
+      {
+        "id": "-b7Avb1x7g8",
+        "title": "The Buggy Choke demonstrated step by step",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0VDUwuyT6N4",
+        "title": "Fixing the details of your Buggy Choke",
+        "by": "Yoga for BJJ",
+        "vertical": false,
+        "channel": "Yoga for BJJ",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U-eR63GzcIo",
+        "title": "Buggy choke entry with Kade Ruotolo",
+        "by": "Kade Ruotolo",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 67,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turn In and Face Defender",
@@ -338,23 +482,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is initiating Turn In and Face?",
-        "answer": "The near-side knee beginning to swing underneath the body toward the far side is the earliest reliable cue. This knee drive generates the rotational momentum that powers the entire escape. You may also feel their near hand reaching for your threading wrist and their far hand posting on the mat. Recognizing the knee drive within the first half-second gives you maximum time to respond with flattening pressure or transition to a back take."
+        "answer": "The near-side knee beginning to swing underneath the body toward the far side is the earliest reliable cue. This knee drive generates the rotational momentum that powers the entire escape. You may also feel their near hand reaching for your threading wrist and their far hand posting on the mat. Recognizing the knee drive within the first half-second gives you maximum time to respond with flattening pressure or transition to a back take.",
+        "answer_line": "Near knee swinging underneath",
+        "distractors": {
+          "plausible": [
+            "Head lifting off the mat",
+            "Hips squaring toward you"
+          ],
+          "trap": [
+            "React only once they face you"
+          ]
+        }
       },
       {
         "question": "Why is static resistance to the rotation an ineffective defensive strategy?",
-        "answer": "The Turn In and Face exploits a geometric vulnerability in the buggy choke — once the bottom player squares their hips to face you, the perpendicular choking angle collapses regardless of how tightly you grip. Static resistance with arm strength alone cannot overcome this geometric reality. Additionally, fighting the rotation statically wastes the brief transition window where you could convert to a back take or alternative submission."
+        "answer": "The Turn In and Face exploits a geometric vulnerability in the buggy choke — once the bottom player squares their hips to face you, the perpendicular choking angle collapses regardless of how tightly you grip. Static resistance with arm strength alone cannot overcome this geometric reality. Additionally, fighting the rotation statically wastes the brief transition window where you could convert to a back take or alternative submission.",
+        "answer_line": "Geometry beats grip strength",
+        "distractors": {
+          "plausible": [
+            "Their grips are simply too loose",
+            "Rotation always outpaces reaction"
+          ],
+          "trap": [
+            "Squeeze harder as they rotate"
+          ]
+        }
       },
       {
         "question": "Your bottom player has initiated the turn and is halfway through the rotation — what is your highest-percentage response?",
-        "answer": "At the halfway point, preventing the rotation through pressure alone is unlikely to succeed because momentum has built. Your highest-percentage response is to release the buggy choke grips and immediately follow the rotation by inserting your near hook and establishing seat belt control for a back take. The bottom player's own turning momentum carries you into back control if you follow their hips rather than fighting the rotation. This converts their escape attempt into a worse position for them."
+        "answer": "At the halfway point, preventing the rotation through pressure alone is unlikely to succeed because momentum has built. Your highest-percentage response is to release the buggy choke grips and immediately follow the rotation by inserting your near hook and establishing seat belt control for a back take. The bottom player's own turning momentum carries you into back control if you follow their hips rather than fighting the rotation. This converts their escape attempt into a worse position for them.",
+        "answer_line": "Follow hips, take the back",
+        "distractors": {
+          "plausible": [
+            "Fight harder to flatten them",
+            "Reset grips to buggy choke"
+          ],
+          "trap": [
+            "Force choke as they rotate"
+          ]
+        }
       },
       {
         "question": "What body pressure distribution prevents the Turn In and Face from being initiated?",
-        "answer": "Drive your chest perpendicular onto the bottom player's back and near shoulder while keeping your hips heavy on their near hip. This creates a flattening force that pins their hips to the mat, eliminating the mobility required to swing the near knee underneath and generate rotational momentum. Your head should stay tight to their far shoulder as an additional control point blocking the rotational pathway. Weight must be distributed through your chest and hips, not through your arms."
+        "answer": "Drive your chest perpendicular onto the bottom player's back and near shoulder while keeping your hips heavy on their near hip. This creates a flattening force that pins their hips to the mat, eliminating the mobility required to swing the near knee underneath and generate rotational momentum. Your head should stay tight to their far shoulder as an additional control point blocking the rotational pathway. Weight must be distributed through your chest and hips, not through your arms.",
+        "answer_line": "Chest and hips heavy, not arms",
+        "distractors": {
+          "plausible": [
+            "Drive weight through both arms",
+            "Chest heavy, hips light"
+          ],
+          "trap": [
+            "Lift hips high to drive forward"
+          ]
+        }
       },
       {
         "question": "How do you convert a Turn In and Face attempt into a guillotine or front headlock attack?",
-        "answer": "As the bottom player's head comes around during the mid-rotation phase, shift your threading arm from the collar grip to a chin strap or around-the-neck position before they complete the turn. Your opposite hand secures the lock by connecting to your choking hand. This works best when you recognize the rotation early enough to adjust grips but the turn has progressed too far for flattening pressure to stop it. The key timing is during the head exposure window of mid-rotation."
+        "answer": "As the bottom player's head comes around during the mid-rotation phase, shift your threading arm from the collar grip to a chin strap or around-the-neck position before they complete the turn. Your opposite hand secures the lock by connecting to your choking hand. This works best when you recognize the rotation early enough to adjust grips but the turn has progressed too far for flattening pressure to stop it. The key timing is during the head exposure window of mid-rotation.",
+        "answer_line": "Chin strap during head exposure",
+        "distractors": {
+          "plausible": [
+            "Chin strap after the turn ends",
+            "Underhook during early setup"
+          ],
+          "trap": [
+            "Abandon base to chase the neck"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -377,6 +571,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Full positional sparring from buggy choke top. Bottom player uses all available escapes including Turn In and Face, granby roll, sit to half guard, and technical stand-up. Top player must read which escape is being attempted and respond with the appropriate counter: pressure for early turns, back take for committed rotations, submission switch for mid-rotation exposures. Score based on maintaining offensive position or achieving submission or back take."
+      }
+    ],
+    "clips": [
+      {
+        "id": "6na3oiDkWek",
+        "title": "No-gi buggy choke counter and defense",
+        "by": "SD BJJ Australia",
+        "vertical": false,
+        "channel": "SD BJJ AUSTRALIA",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CD1PBfMol-k",
+        "title": "How to defend the buggy choke",
+        "by": "Less Impressed More Involved",
+        "vertical": false,
+        "channel": "Less Impressed More Involved BJJ",
+        "duration": 253,
+        "verified": "2026-07-15"
       }
     ]
   },

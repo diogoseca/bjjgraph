@@ -34,6 +34,54 @@ description: "Master the Sprawl takedown defense in BJJ. Essential defensive tec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sprawl \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sprawl technique to defend the shot",
+      "description": "Sprawl film study: Sprawl technique to defend the shot, taught by Coach Lang.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8AaRLOSM61U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8AaRLOSM61U",
+      "url": "https://www.youtube.com/watch?v=8AaRLOSM61U",
+      "creator": { "@type": "Person", "name": "Coach Lang" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sprawl technique breakdown",
+      "description": "Sprawl film study: Sprawl technique breakdown, taught by Jordan Burroughs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LiRrlPGboK8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LiRrlPGboK8",
+      "url": "https://www.youtube.com/watch?v=LiRrlPGboK8",
+      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to sprawl against a double leg",
+      "description": "Sprawl film study: How to sprawl against a double leg, taught by ateambjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Io79xaXZx_c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Io79xaXZx_c",
+      "url": "https://www.youtube.com/watch?v=Io79xaXZx_c",
+      "creator": { "@type": "Person", "name": "ateambjj" },
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,6 +115,42 @@ The sprawl is considered one of the most high-percentage defensive techniques in
 **Success Rate**: 75%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sprawl in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8AaRLOSM61U)
+
+<p class="clip-credit"><strong>Sprawl technique to defend the shot</strong> — taught by Coach Lang · 0:55 · <a href="https://www.youtube.com/watch?v=8AaRLOSM61U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LiRrlPGboK8)
+
+<p class="clip-credit"><strong>Sprawl technique breakdown</strong> — taught by Jordan Burroughs · 2:02 · <a href="https://www.youtube.com/watch?v=LiRrlPGboK8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Io79xaXZx_c)
+
+<p class="clip-credit"><strong>How to sprawl against a double leg</strong> — taught by ateambjj · 0:56 · <a href="https://www.youtube.com/watch?v=Io79xaXZx_c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

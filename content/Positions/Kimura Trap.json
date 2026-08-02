@@ -259,35 +259,115 @@
     "flashcards": [
       {
         "question": "What is the optimal grip depth for maintaining Kimura Trap Top control?",
-        "answer": "The grip should be positioned as close to the opponent's elbow as possible, with your figure-four locked tight and your gripping arm threaded deep under their tricep. This deep positioning maximizes leverage for both control and finishing, while shallow grips near the wrist allow opponents to straighten their arm and escape. The elbow-deep grip also prevents them from turning their hand to break the configuration."
+        "answer": "The grip should be positioned as close to the opponent's elbow as possible, with your figure-four locked tight and your gripping arm threaded deep under their tricep. This deep positioning maximizes leverage for both control and finishing, while shallow grips near the wrist allow opponents to straighten their arm and escape. The elbow-deep grip also prevents them from turning their hand to break the configuration.",
+        "answer_line": "Deep grip near their elbow",
+        "distractors": {
+          "plausible": [
+            "Grip mid-forearm, not elbow",
+            "Loosen grip to save energy"
+          ],
+          "trap": [
+            "Shallow grip near their wrist"
+          ]
+        }
       },
       {
         "question": "Your opponent starts bridging explosively while you have Kimura Trap Top established - what adjustment do you make?",
-        "answer": "Ride the bridge by maintaining your grip connection and keeping your chest heavy on their torso without fighting the upward force directly. As they bridge, their trapped arm often extends slightly, creating finishing opportunities. When they come back down, immediately walk your feet toward their head to create the finishing angle. The bridge wastes their energy while you conserve yours through patient pressure."
+        "answer": "Ride the bridge by maintaining your grip connection and keeping your chest heavy on their torso without fighting the upward force directly. As they bridge, their trapped arm often extends slightly, creating finishing opportunities. When they come back down, immediately walk your feet toward their head to create the finishing angle. The bridge wastes their energy while you conserve yours through patient pressure.",
+        "answer_line": "Ride bridge, walk feet to head",
+        "distractors": {
+          "plausible": [
+            "Fight the bridge with strength",
+            "Release grip to reset base"
+          ],
+          "trap": [
+            "Stand up to break the bridge"
+          ]
+        }
       },
       {
         "question": "How do you distribute weight to maintain Kimura Trap Top without losing mobility?",
-        "answer": "Keep your hips low with your weight concentrated through your shoulder into opponent's chest, but maintain light contact with your feet using a sprawled base. This allows you to shift weight quickly for transitions while keeping opponent pinned. Avoid sitting on your heels or putting weight on your knees, as this creates dead spots where opponent can escape. Your chest pressure should feel heavy to them while your legs remain mobile."
+        "answer": "Keep your hips low with your weight concentrated through your shoulder into opponent's chest, but maintain light contact with your feet using a sprawled base. This allows you to shift weight quickly for transitions while keeping opponent pinned. Avoid sitting on your heels or putting weight on your knees, as this creates dead spots where opponent can escape. Your chest pressure should feel heavy to them while your legs remain mobile.",
+        "answer_line": "Heavy shoulder, sprawled base",
+        "distractors": {
+          "plausible": [
+            "Balance weight through hips",
+            "Post weight on your knees"
+          ],
+          "trap": [
+            "Sit back on your heels"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining Kimura Trap Top position?",
-        "answer": "The primary grip is the figure-four Kimura configuration where your outside hand grips your own wrist after threading under opponent's tricep. Your gripping hand should control their wrist with thumb-in grip for maximum control. Secondary control comes from your opposite arm either crossfacing their jaw or underhooking their far side to prevent turning. The combination of arm control plus head/far side control creates complete upper body dominance."
+        "answer": "The primary grip is the figure-four Kimura configuration where your outside hand grips your own wrist after threading under opponent's tricep. Your gripping hand should control their wrist with thumb-in grip for maximum control. Secondary control comes from your opposite arm either crossfacing their jaw or underhooking their far side to prevent turning. The combination of arm control plus head/far side control creates complete upper body dominance.",
+        "answer_line": "Figure-four + crossface/underhook",
+        "distractors": {
+          "plausible": [
+            "Just the figure-four grip",
+            "Underhook instead of figure-four"
+          ],
+          "trap": [
+            "Release arm to crossface only"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary escape from Kimura Trap Top?",
-        "answer": "The primary escape is the opponent turning into you and rolling to relieve shoulder pressure. Prevent this by maintaining heavy shoulder pressure that pins their far shoulder to the mat, keeping your hips low and sprawled to create a wide base, and anticipating the roll by staying connected to their movement. When you feel them loading to turn, either tighten your chest pressure to pin them or flow with their roll to take the back."
+        "answer": "The primary escape is the opponent turning into you and rolling to relieve shoulder pressure. Prevent this by maintaining heavy shoulder pressure that pins their far shoulder to the mat, keeping your hips low and sprawled to create a wide base, and anticipating the roll by staying connected to their movement. When you feel them loading to turn, either tighten your chest pressure to pin them or flow with their roll to take the back.",
+        "answer_line": "Pin shoulder, sprawl, ride roll",
+        "distractors": {
+          "plausible": [
+            "Chase the far arm aggressively",
+            "Squeeze the wrist grip harder"
+          ],
+          "trap": [
+            "Stay high on your knees"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully hides their elbow tight to their body - what is your response?",
-        "answer": "When opponent tucks their elbow defensively, you have three high-percentage options: first, maintain the grip and transition to mount since their defensive focus on the arm opens positional advancement; second, spin to north-south where different angles often expose the elbow; third, use the shoulder pressure to gradually pry the elbow away from their body through progressive angle changes. Never release the grip - their defensive posture still limits their escape options."
+        "answer": "When opponent tucks their elbow defensively, you have three high-percentage options: first, maintain the grip and transition to mount since their defensive focus on the arm opens positional advancement; second, spin to north-south where different angles often expose the elbow; third, use the shoulder pressure to gradually pry the elbow away from their body through progressive angle changes. Never release the grip - their defensive posture still limits their escape options.",
+        "answer_line": "Keep grip, take mount or north-south",
+        "distractors": {
+          "plausible": [
+            "Let go and hunt the far arm",
+            "Stall until they tire out"
+          ],
+          "trap": [
+            "Rip the elbow out by force"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when the opponent is stalling in Kimura Trap Top?",
-        "answer": "Use patient, pressure-based control rather than active pulling or cranking. Let your body weight do the work through proper positioning - heavy shoulder pressure, sprawled hips, and relaxed arms maintaining the grip configuration. Periodically create micro-adjustments by walking feet or shifting angle to prevent them from settling. The stalling opponent is expending energy defending while you conserve through efficient weight distribution."
+        "answer": "Use patient, pressure-based control rather than active pulling or cranking. Let your body weight do the work through proper positioning - heavy shoulder pressure, sprawled hips, and relaxed arms maintaining the grip configuration. Periodically create micro-adjustments by walking feet or shifting angle to prevent them from settling. The stalling opponent is expending energy defending while you conserve through efficient weight distribution.",
+        "answer_line": "Patient weight, minimal effort",
+        "distractors": {
+          "plausible": [
+            "Constantly re-grip for tightness",
+            "Push pace with rapid movement"
+          ],
+          "trap": [
+            "Crank the arm with pure strength"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes and gets to their side - how do you recover full Kimura Trap Top control?",
-        "answer": "Maintain your Kimura grip absolutely - this is your anchor point. Drive your shoulder into their back while walking your feet in an arc to re-establish perpendicular position. Use the Kimura grip itself to pull them back flat by driving their trapped arm toward the mat. If they continue turning away, follow them to back control. The grip ensures you maintain offensive threat regardless of their positional movement."
+        "answer": "Maintain your Kimura grip absolutely - this is your anchor point. Drive your shoulder into their back while walking your feet in an arc to re-establish perpendicular position. Use the Kimura grip itself to pull them back flat by driving their trapped arm toward the mat. If they continue turning away, follow them to back control. The grip ensures you maintain offensive threat regardless of their positional movement.",
+        "answer_line": "Keep grip, walk feet, re-square",
+        "distractors": {
+          "plausible": [
+            "Chase hips instead of shoulder",
+            "Pull them flat by the head"
+          ],
+          "trap": [
+            "Let go to chase the back"
+          ]
+        }
       }
     ],
     "name": "Kimura Trap Top",
@@ -305,39 +385,95 @@
     "transitions": [
       {
         "transition": "North-South to Kimura",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Kimura to Back Take",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 20
+        }
       },
       {
         "transition": "Knee on Belly",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 8
+        }
       },
       {
         "transition": "Arm Triangle Setup",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Americana from Kimura Trap",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Kimura Defense Arm Extraction",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Kimura Trap to Reverse Scarf Hold",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 6
+        }
       },
       {
         "transition": "Kimura from Kimura Trap",
-        "attempt_probability": 33
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 19
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "lcFphp1N9m0",
+        "title": "Rolling kimura trap guard pass",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 56,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PiaCdkFIxPk",
+        "title": "Getting the sub via Kimura Trap",
+        "by": "Luke Ruffo",
+        "vertical": false,
+        "channel": "Luke Ruffo",
+        "duration": 89,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XhXGWFTFpy0",
+        "title": "Top Half Guard Reverse Kimura Trap",
+        "by": "David Avellan",
+        "vertical": false,
+        "channel": "David Avellan",
+        "duration": 197,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -544,35 +680,115 @@
     "flashcards": [
       {
         "question": "What is the optimal hip positioning for maintaining offensive capability from Kimura Trap Bottom?",
-        "answer": "Keep your hips turned toward your opponent with your bottom hip slightly elevated off the mat, creating an angle that enables sweeping mechanics. Your hips should never be flat on the mat, as this eliminates leverage and allows opponent to settle their weight. The lockdown or butterfly hook connection with their trapped leg maintains this angle while preventing them from passing or flattening you."
+        "answer": "Keep your hips turned toward your opponent with your bottom hip slightly elevated off the mat, creating an angle that enables sweeping mechanics. Your hips should never be flat on the mat, as this eliminates leverage and allows opponent to settle their weight. The lockdown or butterfly hook connection with their trapped leg maintains this angle while preventing them from passing or flattening you.",
+        "answer_line": "Hips angled, bottom hip elevated",
+        "distractors": {
+          "plausible": [
+            "Flat hips for a stronger base",
+            "Square up chest to chest"
+          ],
+          "trap": [
+            "Turn away and face the mat"
+          ]
+        }
       },
       {
         "question": "Your opponent starts driving forward with heavy crossface pressure - what adjustment do you make?",
-        "answer": "Use their forward drive against them by maintaining the Kimura grip and either executing a rolling Kimura (using their momentum to come on top) or transitioning to deep half guard by sliding underneath them. Their forward pressure creates momentum you can redirect. Additionally, use your free arm to frame on their shoulder or jaw to create distance and relieve the crossface pressure before they completely flatten you."
+        "answer": "Redirect their forward drive by keeping the Kimura grip and either rolling them over or sliding underneath into deep half guard. Their forward pressure creates momentum you can use against them: the rolling Kimura brings you on top, while sliding under converts the drive into deep half guard. At the same time, use your free arm to frame on their shoulder or jaw to create distance and relieve the crossface pressure before they completely flatten you.",
+        "distractors": {
+          "plausible": [
+            "Push straight back against them",
+            "Squeeze the grip and hold on"
+          ],
+          "trap": [
+            "Go flat to absorb the pressure"
+          ]
+        },
+        "answer_line": "Roll or slide to deep half"
       },
       {
         "question": "What are the essential grips for maintaining Kimura Trap Bottom position?",
-        "answer": "The primary grip is the figure-four Kimura configuration with your outside hand gripping your own wrist after threading under opponent's tricep. This must be deep near their elbow, not their wrist. Your free hand should either frame on their shoulder/face or establish an underhook on their far side for additional control. Your legs provide the secondary grip through lockdown configuration or butterfly hook on their trapped leg."
+        "answer": "The primary grip is the figure-four Kimura configuration with your outside hand gripping your own wrist after threading under opponent's tricep. This must be deep near their elbow, not their wrist. Your free hand should either frame on their shoulder/face or establish an underhook on their far side for additional control. Your legs provide the secondary grip through lockdown configuration or butterfly hook on their trapped leg.",
+        "answer_line": "Figure-four deep + lockdown legs",
+        "distractors": {
+          "plausible": [
+            "Figure-four near the wrist",
+            "Legs passive, no lockdown"
+          ],
+          "trap": [
+            "Release legs to attack arm"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary counter from Kimura Trap Bottom?",
-        "answer": "The primary counter is opponent pulling their arm back and extracting it from the grip. Prevent this by keeping constant inward pressure with the grip, positioning your elbows tight to your body, and using your hip angle to maintain the arm extended across their centerline. When you feel them pulling back, immediately increase submission pressure or initiate the Old School Sweep, making their extraction attempt work against them."
+        "answer": "The primary counter is opponent pulling their arm back and extracting it from the grip. Prevent this by keeping constant inward pressure with the grip, positioning your elbows tight to your body, and using your hip angle to maintain the arm extended across their centerline. When you feel them pulling back, immediately increase submission pressure or initiate the Old School Sweep, making their extraction attempt work against them.",
+        "answer_line": "Tight elbows, load Old School",
+        "distractors": {
+          "plausible": [
+            "Loosen grip to reset angle",
+            "Chase the wrist as they pull"
+          ],
+          "trap": [
+            "Let arm extract, re-grip later"
+          ]
+        }
       },
       {
         "question": "What is the correct base structure for generating sweeping power from Kimura Trap Bottom?",
-        "answer": "Establish a tripod base with your posted outside foot flat on the mat, your shoulder blade on the mat, and your head driving into opponent's chest. This creates three stable contact points that allow powerful hip elevation for sweeps. Your lockdown leg controls their trapped leg while your hips bridge up and toward them. The sweeping motion comes from this unified base structure, not from pulling with the arms."
+        "answer": "Establish a tripod base with your posted outside foot flat on the mat, your shoulder blade on the mat, and your head driving into opponent's chest. This creates three stable contact points that allow powerful hip elevation for sweeps. Your lockdown leg controls their trapped leg while your hips bridge up and toward them. The sweeping motion comes from this unified base structure, not from pulling with the arms.",
+        "answer_line": "Tripod base: foot, shoulder, head",
+        "distractors": {
+          "plausible": [
+            "Pull with arms to generate power",
+            "Bridge with back flat, no post"
+          ],
+          "trap": [
+            "Open lockdown to bridge higher"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully widens their base and posts their far hand - how do you still complete the sweep?",
-        "answer": "Their base widening actually creates the setup for Old School Sweep by exposing their far leg for ankle hooking. Hook their far ankle with your outside leg while bridging toward them and pulling the Kimura grip across your body. Their wide base and posted hand cannot prevent this off-balancing angle. Alternatively, use their commitment to base defense to threaten the back take, as their focus on staying upright often exposes their back."
+        "answer": "Their base widening actually creates the setup for Old School Sweep by exposing their far leg for ankle hooking. Hook their far ankle with your outside leg while bridging toward them and pulling the Kimura grip across your body. Their wide base and posted hand cannot prevent this off-balancing angle. Alternatively, use their commitment to base defense to threaten the back take, as their focus on staying upright often exposes their back.",
+        "answer_line": "Hook far ankle, bridge, pull grip",
+        "distractors": {
+          "plausible": [
+            "Push their posted hand away",
+            "Sit up to break their base"
+          ],
+          "trap": [
+            "Release grip to reach ankle"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when working the Kimura Trap Bottom system against a patient opponent?",
-        "answer": "Use efficient grip maintenance by keeping elbows tight and letting the figure-four structure do the work rather than constantly squeezing. Cycle through threat sequences methodically - show the sweep, show the submission, show the back take - forcing them to constantly adjust and expend energy. Rest when opponent isn't actively attacking by maintaining the grip with minimal effort. The bottom player with the Kimura grip can afford patience because the top player's arm is compromised."
+        "answer": "Use efficient grip maintenance by keeping elbows tight and letting the figure-four structure do the work rather than constantly squeezing. Cycle through threat sequences methodically - show the sweep, show the submission, show the back take - forcing them to constantly adjust and expend energy. Rest when opponent isn't actively attacking by maintaining the grip with minimal effort. The bottom player with the Kimura grip can afford patience because the top player's arm is compromised.",
+        "answer_line": "Cycle threats, rest between",
+        "distractors": {
+          "plausible": [
+            "Squeeze grip constantly, no rest",
+            "Attack only the submission"
+          ],
+          "trap": [
+            "Release grip to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent partially passes but you maintain the Kimura grip - what is your recovery sequence?",
-        "answer": "Keep the Kimura grip as your anchor and immediately recover half guard by shrimping your hips and re-inserting your knee shield or lockdown on their trapped leg. The grip prevents them from consolidating the pass because their arm is compromised. If they continue to advance, use the grip to pull yourself onto your side and threaten the back take as they pass, converting their positional advancement into back exposure."
+        "answer": "Keep the Kimura grip as your anchor and shrimp your hips to recover half guard, re-inserting your knee shield or lockdown on their trapped leg. The grip prevents them from consolidating the pass because their arm is compromised. If they continue to advance, use the grip to pull yourself onto your side and threaten the back take as they pass, converting their positional advancement into back exposure.",
+        "distractors": {
+          "plausible": [
+            "Release grip to scramble free",
+            "Push them off with both hands"
+          ],
+          "trap": [
+            "Let go and turtle up"
+          ]
+        },
+        "answer_line": "Keep grip, shrimp to half guard"
       }
     ],
     "name": "Kimura Trap Bottom",
@@ -590,52 +806,244 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 29
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 11
+        }
       },
       {
         "transition": "Kimura to Back Take",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 16
+        }
       },
       {
         "transition": "Rolling Kimura",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 13
+        }
       },
       {
         "transition": "Kimura Sweep",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 11
+        }
       },
       {
         "transition": "Lockdown Recovery",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 7
+        }
       },
       {
         "transition": "Electric Chair Transition",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Half Guard Pass",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 5
+        }
       },
       {
         "transition": "Kimura Defense",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
       },
       {
         "transition": "Kimura Counter via Roll",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
       },
       {
         "transition": "Rolling Kimura Escape",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 3
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "YvTmqi750wQ",
+        "title": "Kimura Trap Rolling Sweep from Bottom",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Px0XWVtlHAM",
+        "title": "Half Guard Kimura Sweep 2 ways",
+        "by": "OMJJJ",
+        "vertical": false,
+        "channel": "OMJJJ",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3DrVJNkQqFo",
+        "title": "Bottom Half Guard Kimura Elevator Sweep",
+        "by": "David Avellan",
+        "vertical": false,
+        "channel": "David Avellan",
+        "duration": 201,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Kimura Trap regardless of who is on top?",
+      "answer": "A figure-four grip on one arm defines it: one hand grips their wrist while your other arm threads under their upper arm and grips your own wrist. This double-lever attachment isolates the opponent's shoulder girdle by controlling the bend of the elbow and the rotation of the shoulder independently of any pin. What makes it a distinct position rather than a passing grip is that this closed loop is the primary control point rather than weight or a pin. Both players orient everything they do around the state of this grip.",
+      "distractors": {
+        "plausible": [
+          "Any tight grip on the trapped arm",
+          "A pin plus wrist control"
+        ],
+        "trap": [
+          "Bodyweight pin, no arm grip"
+        ]
+      },
+      "answer_line": "Figure-four isolating the shoulder"
+    },
+    {
+      "question": "Why does the Kimura grip invert the usual relationship between position and control?",
+      "answer": "Control comes from mechanically owning the opponent's shoulder joint through the figure-four, not from top position or weight. In most positions, control flows from being on top and applying weight; here, because a compromised shoulder cannot post, frame, or generate pushing power, the player holding the grip dictates the exchange even from underneath. This is why a bottom player with the grip can off-balance and sweep a top player who nominally has positional dominance. The grip, not the pin, is the currency of control, which is the position's defining paradigm shift.",
+      "distractors": {
+        "plausible": [
+          "Weight and pins still dominate",
+          "Top position always wins control"
+        ],
+        "trap": [
+          "Release grip, rely on top pressure"
+        ]
+      },
+      "answer_line": "Grip owns shoulder, not position"
+    },
+    {
+      "question": "Which of the opponent's capabilities does the figure-four grip specifically take away?",
+      "answer": "By levering the trapped forearm against the shoulder, the grip forces internal rotation of the shoulder and drives the elbow away from a strong structural line. This removes that arm from the pool of limbs the opponent can use to post on the mat, frame against the chest, or base out during a scramble. It also loads the shoulder capsule so the opponent must dedicate attention to protecting the joint rather than fighting for position. Effectively the opponent is reduced to defending with three limbs while managing a joint under threat.",
+      "answer_line": "Removes arm from post/frame/base",
+      "distractors": {
+        "plausible": [
+          "Only limits their grip fighting",
+          "Just slows their hand movement"
+        ],
+        "trap": [
+          "Nothing, just wait it out"
+        ]
+      }
+    },
+    {
+      "question": "What makes grip depth near the elbow more important than grip near the wrist in this position?",
+      "answer": "A grip taken close to the elbow shortens the lever the opponent can rotate against and keeps their forearm pinned at the strongest point of the figure-four. A shallow grip near the wrist lengthens their lever, letting them straighten the arm and spin the hand to peel the fingers off. Depth also keeps the trapped elbow tight to the body so it cannot be extracted through the gap between the loop and the torso. Because both players know this, the entire grip-fighting battle centers on whether the holder can slide the control up toward the elbow or the trapped player can drag it down toward the wrist.",
+      "answer_line": "Elbow grip shortens their lever",
+      "distractors": {
+        "plausible": [
+          "Either depth works equally well",
+          "Grip strength matters, not depth"
+        ],
+        "trap": [
+          "Grab shallow near the wrist"
+        ]
+      }
+    },
+    {
+      "question": "What are the secondary connection points that stabilize the Kimura Trap beyond the arm grip alone?",
+      "answer": "The figure-four controls the shoulder, but it is anchored by auxiliary attachments that pin the rest of the body: from bottom this is typically a lockdown or butterfly hook on the trapped-side leg plus a free-arm frame or underhook, and from top it is chest and shoulder pressure with the free arm crossfacing or controlling the far side. These points prevent the opponent from rotating their hips or shoulders to align their spine with the trapped arm and relieve the lever. Without them the opponent can posture their body to follow the arm and neutralize the twist. The position is therefore a two-part system of arm lock plus body connection working in the same rotational direction.",
+      "answer_line": "Leg hook + frame/crossface control",
+      "distractors": {
+        "plausible": [
+          "Kimura grip alone is sufficient",
+          "Head control replaces leg hook"
+        ],
+        "trap": [
+          "Release the leg hook to reset"
+        ]
+      }
+    },
+    {
+      "question": "How does the Kimura Trap differ from a straightforward Kimura submission attempt?",
+      "answer": "A pure Kimura submission is a single event aimed at rotating the shoulder to the tapping point, and it succeeds or fails in one motion. The Kimura Trap treats the same figure-four grip as a persistent control position from which the submission is only one of several outcomes, alongside sweeps, back takes, and positional advances. This means the grip is maintained even when the finish is unavailable, using the opponent's defensive reactions to open other branches. The distinction is intent: the Trap holds the shoulder hostage to create dilemmas, rather than committing everything to an immediate armlock.",
+      "answer_line": "Persistent control, not one shot",
+      "distractors": {
+        "plausible": [
+          "Both are identical in intent",
+          "Trap is only a submission setup"
+        ],
+        "trap": [
+          "Abandon grip if finish stalls"
+        ]
+      }
+    },
+    {
+      "question": "Why does the trapped shoulder create a decision dilemma for the defending player?",
+      "answer": "Any single defensive response to the Kimura grip tends to open a different threat: straightening the arm to escape the lock exposes it to a sweep, turning the body to relieve the shoulder feeds the back, and posting hard to stall the finish widens the base for an off-balance. Because the shoulder is loaded, the defender cannot address position, sweep, and submission simultaneously with one limb compromised. This forces reactive rather than proactive play, letting the grip holder flow to whichever branch the defender's chosen defense leaves open. The dilemma is inherent to the geometry, not dependent on which player is on top.",
+      "answer_line": "Every escape opens a new threat",
+      "distractors": {
+        "plausible": [
+          "Defender can escape cleanly",
+          "Only the submission is threatened"
+        ],
+        "trap": [
+          "Straighten the arm to escape"
+        ]
+      }
+    },
+    {
+      "question": "How is body alignment relative to the trapped arm managed by both players in the Kimura Trap?",
+      "answer": "The grip holder wants their body perpendicular to the trapped arm so the rotational lever on the shoulder is maximized and the opponent cannot follow the arm with their torso. The trapped player conversely tries to square up and bring their shoulders and hips into line with the arm, because aligning the spine behind the limb removes the twist and lets the joint move as one unit. This produces a constant angular battle where one player circles to break perpendicularity and the other rotates to restore it. Whoever wins the angle controls whether the shoulder stays isolated, which is why footwork and hip rotation matter as much as the grip itself.",
+      "answer_line": "Attacker T's up, defender squares",
+      "distractors": {
+        "plausible": [
+          "Mirror their alignment exactly",
+          "Alignment matters only on top"
+        ],
+        "trap": [
+          "Square your chest to theirs"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "MGotqppgD0w",
+      "title": "Kimura Trap Flow: control, invert, take back",
+      "by": "Mr. NogiJiujitsu",
+      "vertical": false,
+      "channel": "Mr. NogiJiujitsu",
+      "duration": 59,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "wIqmHRtIDjs",
+      "title": "Kimura concept",
+      "by": "Harry Kimura",
+      "vertical": false,
+      "channel": "Harry Kimura",
+      "duration": 28,
+      "verified": "2026-07-14"
+    }
+  ]
 }

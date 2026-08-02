@@ -174,6 +174,54 @@ description: "How to execute the Ankle Pick takedown in BJJ. Attacking perspecti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ankle Pick (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ankle pick variations",
+      "description": "Ankle Pick (Attacker) film study: Ankle pick variations, taught by Alex Pereira Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wpRBMQjteTs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wpRBMQjteTs",
+      "url": "https://www.youtube.com/watch?v=wpRBMQjteTs",
+      "creator": { "@type": "Person", "name": "Alex Pereira Jiu Jitsu" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ankle pick from the underhook",
+      "description": "Ankle Pick (Attacker) film study: Ankle pick from the underhook, taught by Base Monkey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aKx2PKU-kCc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aKx2PKU-kCc",
+      "url": "https://www.youtube.com/watch?v=aKx2PKU-kCc",
+      "creator": { "@type": "Person", "name": "Base Monkey" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Over collar tie ankle pick",
+      "description": "Ankle Pick (Attacker) film study: Over collar tie ankle pick, taught by Footwork Trainer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TthX4S3rNgo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TthX4S3rNgo",
+      "url": "https://www.youtube.com/watch?v=TthX4S3rNgo",
+      "creator": { "@type": "Person", "name": "Footwork Trainer" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +233,42 @@ The technique's strategic value extends beyond the takedown itself. Every ankle 
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ankle Pick (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wpRBMQjteTs)
+
+<p class="clip-credit"><strong>Ankle pick variations</strong> — taught by Alex Pereira Jiu Jitsu · 0:31 · <a href="https://www.youtube.com/watch?v=wpRBMQjteTs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aKx2PKU-kCc)
+
+<p class="clip-credit"><strong>Ankle pick from the underhook</strong> — taught by Base Monkey · 1:03 · <a href="https://www.youtube.com/watch?v=aKx2PKU-kCc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TthX4S3rNgo)
+
+<p class="clip-credit"><strong>Over collar tie ankle pick</strong> — taught by Footwork Trainer · 0:55 · <a href="https://www.youtube.com/watch?v=TthX4S3rNgo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

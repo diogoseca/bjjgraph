@@ -34,6 +34,43 @@ description: "Learn Roll Through to Reversal from Front Headlock in BJJ. Escape 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Through to Reversal \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front Headlock Sit Out Reversal",
+      "description": "Roll Through to Reversal film study: Front Headlock Sit Out Reversal, taught by Keith Takada.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t4xBYQ1VauU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t4xBYQ1VauU",
+      "url": "https://www.youtube.com/watch?v=t4xBYQ1VauU",
+      "creator": { "@type": "Person", "name": "Keith Takada" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing Headlock Defense Roll Through",
+      "description": "Roll Through to Reversal film study: Standing Headlock Defense Roll Through, taught by Altiora Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mthp6x4Y3KM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mthp6x4Y3KM",
+      "url": "https://www.youtube.com/watch?v=mthp6x4Y3KM",
+      "creator": { "@type": "Person", "name": "Altiora Jiu Jitsu coach" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ This reversal exploits a fundamental vulnerability in front headlock control: wh
 The roll through represents a calculated risk within the front headlock escape system. While other escapes like technical standups or circling away are generally safer, the roll through offers a higher reward by achieving complete positional reversal rather than merely escaping to neutral. This makes it particularly valuable when you need to shift match momentum, when points matter in competition, or when other escape routes are blocked. Advanced practitioners integrate this technique as part of their reactive defense, reading opponent's weight distribution to determine whether to stand, circle, or roll through.
 
 **From Position**: [[Positions/Front Headlock]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 28%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Through to Reversal in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t4xBYQ1VauU)
+
+<p class="clip-credit"><strong>Front Headlock Sit Out Reversal</strong> — taught by Keith Takada · 0:28 · <a href="https://www.youtube.com/watch?v=t4xBYQ1VauU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mthp6x4Y3KM)
+
+<p class="clip-credit"><strong>Standing Headlock Defense Roll Through</strong> — taught by Altiora Jiu Jitsu coach · 0:53 · <a href="https://www.youtube.com/watch?v=mthp6x4Y3KM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -243,11 +308,11 @@ The Roll Through to Reversal integrates into the front headlock escape system as
 
 - [[Transitions/Guillotine Defense]] - Defensive skill needed during roll execution to protect neck
 
-- [[Transitions/Guillotine Choke]] - Submission threat during roll and available attack after successful reversal
+- [[Submissions/Guillotine Choke]] - Submission threat during roll and available attack after successful reversal
 
 - [[Transitions/Anaconda Choke]] - Submission available from front headlock top after successful reversal
 
-- [[Transitions/Darce Choke]] - Submission available from front headlock top after successful reversal
+- [[Submissions/Darce Choke]] - Submission available from front headlock top after successful reversal
 
 - [[Transitions/Back Take]] - Transition option after successful reversal from front headlock top
 

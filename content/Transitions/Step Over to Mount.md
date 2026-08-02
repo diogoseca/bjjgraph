@@ -34,6 +34,54 @@ description: "Learn Step Over to Mount from Grasshopper Guard in BJJ. Step-by-st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Step Over to Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing off the defensive roll",
+      "description": "Step Over to Mount film study: Passing off the defensive roll, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CkX_FzPFw8M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CkX_FzPFw8M",
+      "url": "https://www.youtube.com/watch?v=CkX_FzPFw8M",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Open Guard Step Over Pass",
+      "description": "Step Over to Mount film study: Open Guard Step Over Pass, taught by Luigi Mondelli.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yPK7EmnEeug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yPK7EmnEeug",
+      "url": "https://www.youtube.com/watch?v=yPK7EmnEeug",
+      "creator": { "@type": "Person", "name": "Luigi Mondelli" },
+      "duration": "PT164S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Step Around Pass",
+      "description": "Step Over to Mount film study: Step Around Pass, taught by Braulio Estima.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NnJicKKBXds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NnJicKKBXds",
+      "url": "https://www.youtube.com/watch?v=NnJicKKBXds",
+      "creator": { "@type": "Person", "name": "Braulio Estima" },
+      "duration": "PT90S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Step Over to Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CkX_FzPFw8M)
+
+<p class="clip-credit"><strong>Passing off the defensive roll</strong> — taught by Gordon Ryan · 1:51 · <a href="https://www.youtube.com/watch?v=CkX_FzPFw8M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yPK7EmnEeug)
+
+<p class="clip-credit"><strong>Open Guard Step Over Pass</strong> — taught by Luigi Mondelli · 2:44 · <a href="https://www.youtube.com/watch?v=yPK7EmnEeug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NnJicKKBXds)
+
+<p class="clip-credit"><strong>Step Around Pass</strong> — taught by Braulio Estima · 1:30 · <a href="https://www.youtube.com/watch?v=NnJicKKBXds" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the New York Control entry from Rubber Guard in 10th Planet
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Control Entry from Rubber Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard philosophy and control concepts",
+      "description": "New York Control Entry from Rubber Guard film study: Rubber guard philosophy and control concepts, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tWAZbCiWQ9E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tWAZbCiWQ9E",
+      "url": "https://www.youtube.com/watch?v=tWAZbCiWQ9E",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Prison guard breakdown from rubber guard",
+      "description": "New York Control Entry from Rubber Guard film study: Prison guard breakdown from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
+      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mission Control to Zombie to Invisible Collar",
+      "description": "New York Control Entry from Rubber Guard film study: Mission Control to Zombie to Invisible Collar, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fJM5bIk8Fw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5fJM5bIk8Fw",
+      "url": "https://www.youtube.com/watch?v=5fJM5bIk8Fw",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically this entry matters because it converts the more conservative, post
 **Success Rate**: 57%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Control Entry from Rubber Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tWAZbCiWQ9E)
+
+<p class="clip-credit"><strong>Rubber guard philosophy and control concepts</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=tWAZbCiWQ9E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gFYyMkaMz34)
+
+<p class="clip-credit"><strong>Prison guard breakdown from rubber guard</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5fJM5bIk8Fw)
+
+<p class="clip-credit"><strong>Mission Control to Zombie to Invisible Collar</strong> — taught by 10th Planet Orange Park · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

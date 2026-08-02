@@ -21,37 +21,37 @@ description: "Master Double Sleeve Guard Top in BJJ. Complete guide covering pas
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, attempt X Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Double Sleeve Guard Top in BJJ. Complete guide covering pas
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Sleeve Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double Sleeve Guard: Grip Break to Bicep Ride",
+      "description": "Double Sleeve Guard (Top) film study: Double Sleeve Guard: Grip Break to Bicep Ride, taught by Nomad Fitness \u0026 Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EPAOODLwCj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EPAOODLwCj4",
+      "url": "https://www.youtube.com/watch?v=EPAOODLwCj4",
+      "creator": { "@type": "Person", "name": "Nomad Fitness \u0026 Jiu Jitsu" },
+      "duration": "PT168S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Pass the Double Sleeve Guard",
+      "description": "Double Sleeve Guard (Top) film study: How to Pass the Double Sleeve Guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oThN2Qq64rk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oThN2Qq64rk",
+      "url": "https://www.youtube.com/watch?v=oThN2Qq64rk",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT549S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ description: "Master Double Sleeve Guard Top in BJJ. Complete guide covering pas
 Double Sleeve Guard Top represents the passing position when facing an opponent who has secured bilateral sleeve grips while on their back. This is one of the most common guard configurations in gi BJJ, where the bottom player controls both of your sleeves at the wrists or forearms to create distance and maintain a defensive barrier. The top player's primary objective is to break these grips systematically while advancing position, requiring excellent grip fighting, posture control, and strategic movement. This position demands patience and technical precision, as rushing against strong sleeve grips often results in sweeps or submission attempts. The key to success lies in understanding grip hierarchy, creating angles to diminish the effectiveness of the sleeve controls, and using strategic pressure combined with grip breaks to advance. Many world-class competitors have built entire passing systems around defeating the double sleeve guard, making it essential knowledge for any serious practitioner. The position serves as a gateway to numerous passing sequences and requires both physical attributes (grip strength, posture) and tactical awareness (timing, angle creation, pressure application).
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Sleeve Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EPAOODLwCj4)
+
+<p class="clip-credit"><strong>Double Sleeve Guard: Grip Break to Bicep Ride</strong> — taught by Nomad Fitness &amp; Jiu Jitsu · 2:48 · <a href="https://www.youtube.com/watch?v=EPAOODLwCj4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oThN2Qq64rk)
+
+<p class="clip-credit"><strong>How to Pass the Double Sleeve Guard</strong> — taught by Jon Thomas · 9:09 · <a href="https://www.youtube.com/watch?v=oThN2Qq64rk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

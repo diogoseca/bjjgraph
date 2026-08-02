@@ -150,6 +150,54 @@ description: "Defend and escape the omoplata from De La Riva Guard. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from De La Riva Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the omoplata sweep",
+      "description": "Omoplata from De La Riva Guard (Defender) film study: Defending the omoplata sweep, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y4TxL4mDSKg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y4TxL4mDSKg",
+      "url": "https://www.youtube.com/watch?v=Y4TxL4mDSKg",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata Defense Breakdown",
+      "description": "Omoplata from De La Riva Guard (Defender) film study: Omoplata Defense Breakdown, taught by Ursinho BJJ Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WpdIBfxbUbo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WpdIBfxbUbo",
+      "url": "https://www.youtube.com/watch?v=WpdIBfxbUbo",
+      "creator": { "@type": "Person", "name": "Ursinho BJJ Coach" },
+      "duration": "PT160S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata Defense Learned from De La Riva",
+      "description": "Omoplata from De La Riva Guard (Defender) film study: Omoplata Defense Learned from De La Riva, taught by Felipe Costa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mC8Vc-n3twQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mC8Vc-n3twQ",
+      "url": "https://www.youtube.com/watch?v=mC8Vc-n3twQ",
+      "creator": { "@type": "Person", "name": "Felipe Costa" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the omoplata from De La Riva Guard starts with recognizing the leg swi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from De La Riva Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y4TxL4mDSKg)
+
+<p class="clip-credit"><strong>Defending the omoplata sweep</strong> — taught by Ninja Pinto · 0:47 · <a href="https://www.youtube.com/watch?v=Y4TxL4mDSKg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WpdIBfxbUbo)
+
+<p class="clip-credit"><strong>Omoplata Defense Breakdown</strong> — taught by Ursinho BJJ Coach · 2:40 · <a href="https://www.youtube.com/watch?v=WpdIBfxbUbo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mC8Vc-n3twQ)
+
+<p class="clip-credit"><strong>Omoplata Defense Learned from De La Riva</strong> — taught by Felipe Costa · 0:24 · <a href="https://www.youtube.com/watch?v=mC8Vc-n3twQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

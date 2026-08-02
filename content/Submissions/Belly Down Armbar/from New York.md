@@ -34,6 +34,43 @@ description: "Master the belly down armbar finish from New York rubber guard. Le
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from New York \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dead Orchard Armbar from Rubber Guard",
+      "description": "Belly Down Armbar from New York film study: Dead Orchard Armbar from Rubber Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jT4wPY2Dc_U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jT4wPY2Dc_U",
+      "url": "https://www.youtube.com/watch?v=jT4wPY2Dc_U",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "NoGi Rubber Guard Armbar",
+      "description": "Belly Down Armbar from New York film study: NoGi Rubber Guard Armbar, taught by Christian Polanco.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cScYIuSZPyk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cScYIuSZPyk",
+      "url": "https://www.youtube.com/watch?v=cScYIuSZPyk",
+      "creator": { "@type": "Person", "name": "Christian Polanco" },
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Biomechanically, the belly down finish multiplies the attacker's leverage by con
 **Starting Position**: [[Positions/Rubber Guard/New York]] · **From**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from New York in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jT4wPY2Dc_U)
+
+<p class="clip-credit"><strong>Dead Orchard Armbar from Rubber Guard</strong> — taught by Eddie Bravo · 1:28 · <a href="https://www.youtube.com/watch?v=jT4wPY2Dc_U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cScYIuSZPyk)
+
+<p class="clip-credit"><strong>NoGi Rubber Guard Armbar</strong> — taught by Christian Polanco · 1:40 · <a href="https://www.youtube.com/watch?v=cScYIuSZPyk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

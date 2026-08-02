@@ -148,6 +148,43 @@ description: "How to defend against Stack Pass in BJJ. Recognition cues, defensi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stack pass defense to triangle trap",
+      "description": "Stack Pass (Defender) film study: Stack pass defense to triangle trap, taught by Mark Cerrone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mOvf60z4HS0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mOvf60z4HS0",
+      "url": "https://www.youtube.com/watch?v=mOvf60z4HS0",
+      "creator": { "@type": "Person", "name": "Mark Cerrone" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the stack pass, no-gi",
+      "description": "Stack Pass (Defender) film study: Defending the stack pass, no-gi, taught by Matt Serra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y6R29wW_KrU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y6R29wW_KrU",
+      "url": "https://www.youtube.com/watch?v=Y6R29wW_KrU",
+      "creator": { "@type": "Person", "name": "Matt Serra" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The defender must understand the three critical windows for defense: before the 
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mOvf60z4HS0)
+
+<p class="clip-credit"><strong>Stack pass defense to triangle trap</strong> — taught by Mark Cerrone · 1:01 · <a href="https://www.youtube.com/watch?v=mOvf60z4HS0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y6R29wW_KrU)
+
+<p class="clip-credit"><strong>Defending the stack pass, no-gi</strong> — taught by Matt Serra · 2:38 · <a href="https://www.youtube.com/watch?v=Y6R29wW_KrU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

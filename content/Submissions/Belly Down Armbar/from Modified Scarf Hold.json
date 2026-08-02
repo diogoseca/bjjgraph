@@ -17,7 +17,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Modified Scarf Hold",
   "from_position": "Modified Scarf Hold/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The belly down armbar from modified scarf hold is a prone elbow lock where the attacker isolates the near arm, steps over the head, and rotates belly-down to hyperextend the elbow while eliminating the hitchhiker escape.",
   "overview": "The belly down armbar finish from modified scarf hold exploits the superior arm control inherent to this pin position. Modified scarf hold provides deep near-arm access with chest-to-chest pressure that limits defensive movement, creating an ideal platform for arm isolation. The transition to belly down amplifies finishing mechanics by removing the hitchhiker escape and creating unidirectional breaking pressure that is extremely difficult to resist once fully locked.\n\nThe setup begins with deepening near-arm isolation while maintaining modified scarf hold pressure. As the arm becomes vulnerable, the attacker steps over the opponent's head and rotates to a prone position, keeping the arm trapped between their thighs with the thumb oriented upward. The belly-down posture converts the entire body's extension power into elbow hyperextension force, making this one of the highest-percentage armbar finishes available from any scarf hold variant.\n\nStrategically, this submission excels when opponents defend the standard supine armbar through stacking or hitchhiking. The transition to belly down removes those defensive options entirely. Competition data shows significantly higher finish rates from belly-down compared to supine armbar positions, particularly at advanced levels where opponents are skilled at standard armbar defense.",
   "safety_considerations": {
@@ -99,17 +102,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Modified Scarf Hold/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
@@ -259,52 +271,181 @@
       {
         "question": "What anatomical structure does the belly down armbar from modified scarf hold primarily attack?",
         "answer": "The primary target is the elbow joint, specifically hyperextending against the natural range of motion to stress the ulnar collateral ligament and the joint capsule. The belly-down position creates a unidirectional force that pushes the elbow beyond its extension limit. Secondary stress is placed on the biceps tendon and surrounding soft tissues that resist forced extension under load.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow joint hyperextension",
+        "distractors": {
+          "plausible": [
+            "Shoulder capsule rotation",
+            "Wrist and forearm flexion"
+          ],
+          "trap": [
+            "Neck — crank the cervical spine"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that you have reached the breaking point and should expect a tap?",
         "answer": "The breaking point indicators include feeling the arm fully straighten with no remaining bend at the elbow, the opponent's body tensing and attempting desperate last-moment movements, and feeling progressive resistance against your hip extension followed by a sudden decrease in resistance. If you feel any popping or the arm suddenly goes slack, release immediately because the joint may have been compromised before the partner could signal.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Arm straightens, resistance drops",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving entirely",
+            "Their grip tightens steadily"
+          ],
+          "trap": [
+            "Keep extending through a pop"
+          ]
+        }
       },
       {
         "question": "What control must be established before you commit to transitioning from modified scarf hold to the belly-down finish?",
         "answer": "You must have a secure two-on-one grip on the opponent's wrist with both hands locked together, the near arm pulled tight against your chest with no slack, the opponent's far hand unable to reach your controlling hands, and your chest pressure heavy enough to prevent explosive bridging during the transition. Committing without all four elements established creates escape windows that skilled opponents will exploit.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one grip, arm pinned tight",
+        "distractors": {
+          "plausible": [
+            "Chest pressure alone suffices",
+            "Head-and-shoulder pin only"
+          ],
+          "trap": [
+            "Step over with slack in the arm"
+          ]
+        }
       },
       {
         "question": "At what point during the belly down armbar sequence does the submission become effectively inescapable?",
         "answer": "The point of no return occurs once you have completed the belly-down rotation with both knees clamped tightly around the upper arm, the opponent's thumb oriented upward, and your hips settled in contact with the mat. The opponent cannot hitchhiker escape because the prone position prevents rotation, cannot stack because you are not on your back, and cannot grip-fight effectively because both your hands control the wrist against your chest.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knees clamped, hips down, thumb up",
+        "distractors": {
+          "plausible": [
+            "Wrist secured while still kneeling",
+            "Step-over begun, chest heavy"
+          ],
+          "trap": [
+            "Loosen knees to settle the hips"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that allows opponents to escape a nearly locked belly down armbar?",
         "answer": "The most common error is failing to keep the hips close to the opponent's elbow joint during the finish. When the attacker's hips drift toward the opponent's wrist or away from the elbow, the leverage point shifts and the opponent can bend their arm to create a defensive angle. The correction is ensuring your hip crease sits directly against the opponent's elbow joint before extending, maximizing leverage at the fulcrum point.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips drift away from the elbow",
+        "distractors": {
+          "plausible": [
+            "Knee squeeze too tight",
+            "Head lifted off the mat"
+          ],
+          "trap": [
+            "Sit up to re-grip the wrist"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip if the opponent begins pulling their wrist free during the belly-down finish?",
         "answer": "Switch from a standard two-on-one grip to a figure-four configuration where your hands lock together around the wrist with reinforced leverage. If they begin supinating their forearm, rotate your own grip to match and maintain the thumb-up orientation. As a last resort, clamp the wrist into your armpit and use your bicep and forearm as a vise, which is nearly impossible to break from the belly-down position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to a figure-four grip",
+        "distractors": {
+          "plausible": [
+            "Squeeze the same grip harder",
+            "Pause and wait for them to tire"
+          ],
+          "trap": [
+            "Roll to your back to re-adjust"
+          ]
+        }
       },
       {
         "question": "What specific injury risks must you be aware of when applying the belly down armbar from this position?",
         "answer": "The belly-down position generates significantly more force than a standard supine armbar because your entire body's hip extension power applies directly to the elbow. The primary risk is ulnar collateral ligament rupture, which can occur before the opponent taps if pressure is applied too quickly. Always extend hips slowly and progressively. Watch for verbal distress signals since physical taps may be difficult when the opponent is face-down. Release immediately if you feel any sudden give or popping sensation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "UCL rupture from fast pressure",
+        "distractors": {
+          "plausible": [
+            "Rotator cuff tear risk",
+            "Wrist fracture from the grip"
+          ],
+          "trap": [
+            "Apply pressure quickly regardless"
+          ]
+        }
       },
       {
         "question": "How do you modify the belly down armbar finish approach for competition versus training scenarios?",
         "answer": "In competition, you can apply slightly faster extension once the position is fully locked, accounting for adrenaline-fueled defensive attempts. In training, always apply slow progressive pressure and give verbal warnings when the position is secured. In both contexts, maintain identical technical standards for setup and control. Competition-specific adjustments include a tighter initial knee squeeze to prevent referee standups and positioning your head away from the opponent's hips to maintain base.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Faster in comp, slow in training",
+        "distractors": {
+          "plausible": [
+            "Identical speed in both contexts",
+            "Slower extension in competition"
+          ],
+          "trap": [
+            "Extend fast in training too"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up during the step-over phase—what adjustment prevents their escape?",
         "answer": "Immediately halt the step-over and drive your weight back down onto their chest while pulling the trapped arm tighter to your body. Use the leg that was stepping over to push against the back of their head, driving them flat to the mat. Once they are re-flattened, re-establish full chest pressure before re-attempting the step-over. Trying to rush through the transition against a posturing opponent typically results in losing the arm entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive weight down, re-flatten them",
+        "distractors": {
+          "plausible": [
+            "Sit back and re-grip the wrist",
+            "Wait for them to settle down"
+          ],
+          "trap": [
+            "Force the step-over anyway"
+          ]
+        }
       },
       {
         "question": "Why is the belly down armbar from modified scarf hold particularly effective against opponents who defend standard armbars well?",
         "answer": "The standard armbar defense toolkit—hitchhiker escape, stacking, clasping hands together, and rotating toward the attacker—becomes ineffective when the attacker is belly-down. The prone position eliminates the rotational escape path because the attacker's weight pins the defender flat. Stacking requires the attacker to be on their back, which does not apply here. Hand clasping is defeated by the two-on-one wrist control established before the transition began.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Prone pin blocks hitchhiker escape",
+        "distractors": {
+          "plausible": [
+            "It finishes far faster",
+            "Gi grips make it unbreakable"
+          ],
+          "trap": [
+            "Roll to your back to finish"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "2Y5HdBxqPv8",
+        "title": "Attacks from Scarf Hold",
+        "by": "Goulburn Martial Arts",
+        "vertical": false,
+        "channel": "Goulburn Martial Arts Academy",
+        "duration": 69,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "12 Kesa Gatame Attacks",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nKITSItbeyM",
+        "title": "High Percentage Attacks from Kesa Gatame",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 220,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -394,27 +535,77 @@
       {
         "question": "How do you recognize that the belly down armbar from modified scarf hold is being set up?",
         "answer": "The primary recognition cues are feeling the opponent transition from standard modified scarf hold grips to a tighter two-on-one control on your near wrist, sensing a slight lift in their chest pressure as they prepare to shift weight, and noticing their far leg beginning to reposition upward for the step-over. These cues typically occur in sequence over two to four seconds, giving you a narrow but actionable defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tighter two-on-one, leg repositions",
+        "distractors": {
+          "plausible": [
+            "They post the far hand out wide",
+            "Their head drops toward your hip"
+          ],
+          "trap": [
+            "Push their hips away with that arm"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the belly down armbar from modified scarf hold?",
         "answer": "Tap early and emphatically using multiple signals simultaneously. Tap with your free hand on the opponent's body, verbally say tap loudly, and tap your feet on the mat. The belly-down position generates extreme mechanical advantage that can damage the elbow in fractions of a second. Do not attempt to fight through significant extension pressure from this position because the risk of ligament damage far outweighs any competitive benefit from extending the defense.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap hand, voice, feet together",
+        "distractors": {
+          "plausible": [
+            "One quiet hand tap is enough",
+            "Tap only on the mat, not them"
+          ],
+          "trap": [
+            "Fight through to test the lock"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the belly down armbar from modified scarf hold?",
         "answer": "The primary defenses are sequential and decrease in effectiveness. First, prevent arm isolation by keeping the elbow bent and glued to your ribs with grip reinforcement. Second, if the arm is isolated, bridge toward the opponent during the step-over to disrupt their transition. Third, if rotation begins, turn your body into the opponent to recover guard. Finally, if belly-down is established, clasp hands together as a temporary stalling measure while working to rotate your body.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep elbow bent, glued to ribs",
+        "distractors": {
+          "plausible": [
+            "Bridge first, protect arm later",
+            "Clasp hands as first defense"
+          ],
+          "trap": [
+            "Let the arm extend, then rotate"
+          ]
+        }
       },
       {
         "question": "Why is the transition phase the critical defensive window against this submission?",
         "answer": "During the transition from modified scarf hold to belly-down, the attacker must temporarily reduce chest pressure, shift their weight distribution, and step over your head, all of which create brief instability in their control. Once the belly-down position is fully established with knees clamped and hips lowered, the attacker's mechanical advantage is overwhelming and escape probability drops dramatically. Defending during transition means fighting at a disadvantage, but defending after full lockdown means fighting against near-impossible odds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Attacker's control briefly unstable",
+        "distractors": {
+          "plausible": [
+            "Their grips are weakest once locked",
+            "Chest pressure peaks mid-shift"
+          ],
+          "trap": [
+            "Wait for belly-down, then bridge"
+          ]
+        }
       },
       {
         "question": "What should you do if you feel the arm is already being extended in the belly-down position?",
         "answer": "If extension has begun from a fully locked belly-down position, your priority shifts immediately from escape to personal safety. Tap using verbal and physical signals simultaneously without delay. The force generated from belly-down hip extension far exceeds what the elbow joint can safely resist. Attempting to fight through full extension from this position risks sudden catastrophic ligament failure that could require surgical repair and months of rehabilitation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap now — verbal and physical",
+        "distractors": {
+          "plausible": [
+            "Wait to see if pressure eases",
+            "Yell tap, no need to slap"
+          ],
+          "trap": [
+            "Bridge and muscle the arm out"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -437,6 +628,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integrating defensive recognition and response into live realistic training",
         "description": "Begin in modified scarf hold bottom with partner hunting the belly-down armbar at full resistance. Practice complete defensive sequences at competition pace, building the pattern recognition and timing needed for real application."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense with Framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "u4mzEqzqoAU",
+        "title": "Mastering the Modified Scarf Hold Escape",
+        "by": "Knots and Collar",
+        "vertical": false,
+        "channel": "Knots and Collar",
+        "duration": 208,
+        "verified": "2026-07-14"
       }
     ]
   }

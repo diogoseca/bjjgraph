@@ -180,6 +180,54 @@ description: "Master the Piranha to Worm Guard transition as the attacking guard
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Piranha to Worm Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm guard entry to back choke",
+      "description": "Piranha to Worm Guard (Attacker) film study: Worm guard entry to back choke, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
+      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worm Guard 101 - full breakdown",
+      "description": "Piranha to Worm Guard (Attacker) film study: Worm Guard 101 - full breakdown, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lLvkMU0xdHw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lLvkMU0xdHw",
+      "url": "https://www.youtube.com/watch?v=lLvkMU0xdHw",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT427S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Worm Guard sweep from Deep Half Guard",
+      "description": "Piranha to Worm Guard (Attacker) film study: Worm Guard sweep from Deep Half Guard, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/adbXsY1gPL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/adbXsY1gPL8",
+      "url": "https://www.youtube.com/watch?v=adbXsY1gPL8",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT254S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the attacker executing the Piranha to Worm Guard transition, your objective i
 **From Position**: [[Positions/Piranha Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Piranha to Worm Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+
+<p class="clip-credit"><strong>Worm guard entry to back choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lLvkMU0xdHw)
+
+<p class="clip-credit"><strong>Worm Guard 101 - full breakdown</strong> — taught by Keenan Cornelius · 7:07 · <a href="https://www.youtube.com/watch?v=lLvkMU0xdHw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=adbXsY1gPL8)
+
+<p class="clip-credit"><strong>Worm Guard sweep from Deep Half Guard</strong> — taught by Keenan Cornelius · 4:14 · <a href="https://www.youtube.com/watch?v=adbXsY1gPL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

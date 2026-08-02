@@ -164,6 +164,54 @@ description: "Master grip fighting in BJJ. Learn strategic hand engagement, grip
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grips \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Complete BJJ grip fighting guide",
+      "description": "Grips film study: Complete BJJ grip fighting guide, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n6EUwvCkWJ8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n6EUwvCkWJ8",
+      "url": "https://www.youtube.com/watch?v=n6EUwvCkWJ8",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT534S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Judo grip fighting secret for grapplers",
+      "description": "Grips film study: Judo grip fighting secret for grapplers, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WO-YzdWoUnw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WO-YzdWoUnw",
+      "url": "https://www.youtube.com/watch?v=WO-YzdWoUnw",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT298S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "One grip fighting rule every white belt should know",
+      "description": "Grips film study: One grip fighting rule every white belt should know, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/86SrcnnJ6BY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/86SrcnnJ6BY",
+      "url": "https://www.youtube.com/watch?v=86SrcnnJ6BY",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT294S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Grips?
@@ -173,6 +221,42 @@ description: "Master grip fighting in BJJ. Learn strategic hand engagement, grip
 Grips represents the fundamental tactical battle for control through hand engagement that occurs throughout all phases of Brazilian Jiu-Jitsu. Unlike specific techniques or positions, grip fighting encompasses a comprehensive system of establishing, maintaining, breaking, and preventing grips that apply across all positions and transitions. This skill set serves as the foundation for both offensive and defensive BJJ, as grip control largely determines who can impose their game and dictate the direction of exchanges. Grip fighting occurs continuously throughout matches and is often considered the "invisible game within the game" that significantly influences outcomes despite being less visually apparent than techniques like sweeps or submissions. The ability to systematically dominate grip exchanges allows practitioners to control tempo, create offensive opportunities, and deny opponents their preferred attacking sequences. Understanding grip hierarchies, biomechanical advantages, and strategic sequencing transforms grip fighting from random hand battling into a sophisticated control system that multiplies the effectiveness of all subsequent techniques.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grips in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n6EUwvCkWJ8)
+
+<p class="clip-credit"><strong>Complete BJJ grip fighting guide</strong> — taught by Jordan Preisinger · 8:54 · <a href="https://www.youtube.com/watch?v=n6EUwvCkWJ8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WO-YzdWoUnw)
+
+<p class="clip-credit"><strong>Judo grip fighting secret for grapplers</strong> — taught by Travis Stevens · 4:58 · <a href="https://www.youtube.com/watch?v=WO-YzdWoUnw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=86SrcnnJ6BY)
+
+<p class="clip-credit"><strong>One grip fighting rule every white belt should know</strong> — taught by Chewjitsu · 4:54 · <a href="https://www.youtube.com/watch?v=86SrcnnJ6BY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

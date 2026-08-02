@@ -156,6 +156,54 @@ description: "How to defend against your opponent's guillotine counter in BJJ. M
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Counter (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "High elbow guillotine (Marcelotine) mechanics",
+      "description": "Guillotine Counter (Defender) film study: High elbow guillotine (Marcelotine) mechanics, taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9U5nyBImGj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9U5nyBImGj4",
+      "url": "https://www.youtube.com/watch?v=9U5nyBImGj4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcelotine choke demonstration",
+      "description": "Guillotine Counter (Defender) film study: Marcelotine choke demonstration, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
+      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double elbow to high elbow guillotine",
+      "description": "Guillotine Counter (Defender) film study: Double elbow to high elbow guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IvSVZuezQGo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IvSVZuezQGo",
+      "url": "https://www.youtube.com/watch?v=IvSVZuezQGo",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT171S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +213,42 @@ The Guillotine Counter Defender is the practitioner who has secured a guillotine
 **Opponent's Starting Position**: [[Positions/Guillotine Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Counter (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9U5nyBImGj4)
+
+<p class="clip-credit"><strong>High elbow guillotine (Marcelotine) mechanics</strong> — taught by Wrecking Crew BJJ · 0:45 · <a href="https://www.youtube.com/watch?v=9U5nyBImGj4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
+
+<p class="clip-credit"><strong>Marcelotine choke demonstration</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IvSVZuezQGo)
+
+<p class="clip-credit"><strong>Double elbow to high elbow guillotine</strong> — taught by Marcelo Garcia · 2:51 · <a href="https://www.youtube.com/watch?v=IvSVZuezQGo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

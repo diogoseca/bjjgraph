@@ -34,6 +34,54 @@ description: "Master the Sweep from New York in BJJ's Rubber Guard system. Compl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from New York \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mexican dead orchard from rubber guard",
+      "description": "Sweep from New York film study: Mexican dead orchard from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/htWNfAakkAY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/htWNfAakkAY",
+      "url": "https://www.youtube.com/watch?v=htWNfAakkAY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber guard live drills",
+      "description": "Sweep from New York film study: Rubber guard live drills, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cllvkg2qg-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cllvkg2qg-w",
+      "url": "https://www.youtube.com/watch?v=Cllvkg2qg-w",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dead orchard armbar from rubber guard",
+      "description": "Sweep from New York film study: Dead orchard armbar from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jT4wPY2Dc_U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jT4wPY2Dc_U",
+      "url": "https://www.youtube.com/watch?v=jT4wPY2Dc_U",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the Sweep from New York creates a critical dilemma within the Rub
 **Success Rate**: 43%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from New York in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=htWNfAakkAY)
+
+<p class="clip-credit"><strong>Mexican dead orchard from rubber guard</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=htWNfAakkAY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cllvkg2qg-w)
+
+<p class="clip-credit"><strong>Rubber guard live drills</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=Cllvkg2qg-w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jT4wPY2Dc_U)
+
+<p class="clip-credit"><strong>Dead orchard armbar from rubber guard</strong> — taught by Eddie Bravo · 1:28 · <a href="https://www.youtube.com/watch?v=jT4wPY2Dc_U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the KOB to Side Control transition in BJJ. Learn to consoli
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "KOB to Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control to knee on belly transition",
+      "description": "KOB to Side Control film study: Side control to knee on belly transition, taught by Cary BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sM2SRp7XxOY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sM2SRp7XxOY",
+      "url": "https://www.youtube.com/watch?v=sM2SRp7XxOY",
+      "creator": { "@type": "Person", "name": "Cary BJJ coach" },
+      "duration": "PT198S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control to knee on belly transition",
+      "description": "KOB to Side Control film study: Side control to knee on belly transition, taught by Fighter Training.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iEpga9txZe8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iEpga9txZe8",
+      "url": "https://www.youtube.com/watch?v=iEpga9txZe8",
+      "creator": { "@type": "Person", "name": "Fighter Training" },
+      "duration": "PT311S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Switching the knee in knee on belly",
+      "description": "KOB to Side Control film study: Switching the knee in knee on belly, taught by Fabio Leopoldo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I-4771NfsUA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I-4771NfsUA",
+      "url": "https://www.youtube.com/watch?v=I-4771NfsUA",
+      "creator": { "@type": "Person", "name": "Fabio Leopoldo" },
+      "duration": "PT74S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The critical challenge lies in maintaining constant pressure throughout the tran
 Strategically, this transition fits within a larger pressure cycling system. The top player who can flow between KOB, side control, mount, and north-south creates constant positional dilemmas that exhaust the bottom player's defensive resources. Returning to side control is not a retreat but a deliberate positional reset that enables fresh attacking angles, different submission entries, and renewed pressure from a mechanically advantageous platform.
 
 **From Position**: [[Positions/Knee on Belly]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 64%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch KOB to Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sM2SRp7XxOY)
+
+<p class="clip-credit"><strong>Side control to knee on belly transition</strong> — taught by Cary BJJ coach · 3:18 · <a href="https://www.youtube.com/watch?v=sM2SRp7XxOY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iEpga9txZe8)
+
+<p class="clip-credit"><strong>Side control to knee on belly transition</strong> — taught by Fighter Training · 5:11 · <a href="https://www.youtube.com/watch?v=iEpga9txZe8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I-4771NfsUA)
+
+<p class="clip-credit"><strong>Switching the knee in knee on belly</strong> — taught by Fabio Leopoldo · 1:14 · <a href="https://www.youtube.com/watch?v=I-4771NfsUA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

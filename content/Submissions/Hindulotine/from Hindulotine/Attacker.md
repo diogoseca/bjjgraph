@@ -176,6 +176,54 @@ description: "Learn to finish the Hindulotine choke from Hindulotine control. St
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hindulotine from Hindulotine (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hindulotine Breakdown",
+      "description": "Hindulotine from Hindulotine (Attacker) film study: Hindulotine Breakdown, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YbOV4vESByc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YbOV4vESByc",
+      "url": "https://www.youtube.com/watch?v=YbOV4vESByc",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hindulotine Finish",
+      "description": "Hindulotine from Hindulotine (Attacker) film study: Hindulotine Finish, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6UwoAQt6u6o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6UwoAQt6u6o",
+      "url": "https://www.youtube.com/watch?v=6UwoAQt6u6o",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Easy Hindulotine Variation",
+      "description": "Hindulotine from Hindulotine (Attacker) film study: Easy Hindulotine Variation, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/99Mq930QVfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/99Mq930QVfY",
+      "url": "https://www.youtube.com/watch?v=99Mq930QVfY",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Finishing the Hindulotine from Hindulotine control requires understanding the ro
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hindulotine from Hindulotine (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YbOV4vESByc)
+
+<p class="clip-credit"><strong>Hindulotine Breakdown</strong> — taught by Ben Eddy · 1:37 · <a href="https://www.youtube.com/watch?v=YbOV4vESByc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6UwoAQt6u6o)
+
+<p class="clip-credit"><strong>Hindulotine Finish</strong> — taught by Ben Eddy · 1:00 · <a href="https://www.youtube.com/watch?v=6UwoAQt6u6o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=99Mq930QVfY)
+
+<p class="clip-credit"><strong>Easy Hindulotine Variation</strong> — taught by Danny Mitchell · 2:39 · <a href="https://www.youtube.com/watch?v=99Mq930QVfY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,54 @@ description: "How to defend against Stack Pass with Lapel Control Negation in BJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass with Lapel Control Negation (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the double under stack",
+      "description": "Stack Pass with Lapel Control Negation (Defender) film study: Countering the double under stack, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VX4RwqAyTH0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VX4RwqAyTH0",
+      "url": "https://www.youtube.com/watch?v=VX4RwqAyTH0",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT231S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three Tricks to Improve Guard Retention",
+      "description": "Stack Pass with Lapel Control Negation (Defender) film study: Three Tricks to Improve Guard Retention, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T9ckJr1MV7Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T9ckJr1MV7Q",
+      "url": "https://www.youtube.com/watch?v=T9ckJr1MV7Q",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT253S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Top 5 Guard Retention Mistakes",
+      "description": "Stack Pass with Lapel Control Negation (Defender) film study: Top 5 Guard Retention Mistakes, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iTrQzYeCvHM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iTrQzYeCvHM",
+      "url": "https://www.youtube.com/watch?v=iTrQzYeCvHM",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT436S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Strategically, the defender should view the opponent's stack attempt as a transi
 **Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass with Lapel Control Negation (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VX4RwqAyTH0)
+
+<p class="clip-credit"><strong>Countering the double under stack</strong> — taught by Chosen Few BJJ · 3:51 · <a href="https://www.youtube.com/watch?v=VX4RwqAyTH0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T9ckJr1MV7Q)
+
+<p class="clip-credit"><strong>Three Tricks to Improve Guard Retention</strong> — taught by Jon Thomas · 4:13 · <a href="https://www.youtube.com/watch?v=T9ckJr1MV7Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iTrQzYeCvHM)
+
+<p class="clip-credit"><strong>Top 5 Guard Retention Mistakes</strong> — taught by Lachlan Giles · 7:16 · <a href="https://www.youtube.com/watch?v=iTrQzYeCvHM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

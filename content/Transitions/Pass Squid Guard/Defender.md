@@ -140,6 +140,54 @@ description: "Complete guide to defending against Squid Guard passes as the bott
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Squid Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Squid guard entry vs standing opponent into sweep",
+      "description": "Pass Squid Guard (Defender) film study: Squid guard entry vs standing opponent into sweep, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mIUc5788gsw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mIUc5788gsw",
+      "url": "https://www.youtube.com/watch?v=mIUc5788gsw",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Playing squid guard: five key tricks",
+      "description": "Pass Squid Guard (Defender) film study: Playing squid guard: five key tricks, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5M1TLgoOBNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5M1TLgoOBNU",
+      "url": "https://www.youtube.com/watch?v=5M1TLgoOBNU",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT564S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Squid guard sweep from the pass attempt",
+      "description": "Pass Squid Guard (Defender) film study: Squid guard sweep from the pass attempt, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l1h7Cu36NUs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l1h7Cu36NUs",
+      "url": "https://www.youtube.com/watch?v=l1h7Cu36NUs",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT311S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ The most effective defensive mindset is proactive rather than reactive. Rather t
 **Opponent's Starting Position**: [[Positions/Squid Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Squid Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mIUc5788gsw)
+
+<p class="clip-credit"><strong>Squid guard entry vs standing opponent into sweep</strong> — taught by Adam Bradley · 0:56 · <a href="https://www.youtube.com/watch?v=mIUc5788gsw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5M1TLgoOBNU)
+
+<p class="clip-credit"><strong>Playing squid guard: five key tricks</strong> — taught by Keenan Cornelius · 9:24 · <a href="https://www.youtube.com/watch?v=5M1TLgoOBNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l1h7Cu36NUs)
+
+<p class="clip-credit"><strong>Squid guard sweep from the pass attempt</strong> — taught by Keenan Cornelius · 5:11 · <a href="https://www.youtube.com/watch?v=l1h7Cu36NUs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

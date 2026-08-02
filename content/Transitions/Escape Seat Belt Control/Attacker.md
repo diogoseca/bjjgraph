@@ -174,6 +174,43 @@ description: "Master the systematic seat belt escape from back control. Step-by-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Seat Belt Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape against the seatbelt grip",
+      "description": "Escape Seat Belt Control (Attacker) film study: Back escape against the seatbelt grip, taught by Skyhook coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/djhMEfVZozo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/djhMEfVZozo",
+      "url": "https://www.youtube.com/watch?v=djhMEfVZozo",
+      "creator": { "@type": "Person", "name": "Skyhook coach" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping back mount seatbelt",
+      "description": "Escape Seat Belt Control (Attacker) film study: Escaping back mount seatbelt, taught by Julie Bond.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_X1ZpmEswzI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_X1ZpmEswzI",
+      "url": "https://www.youtube.com/watch?v=_X1ZpmEswzI",
+      "creator": { "@type": "Person", "name": "Julie Bond" },
+      "duration": "PT18S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Escape Seat Belt Control requires the bottom player to systematica
 **From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Seat Belt Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=djhMEfVZozo)
+
+<p class="clip-credit"><strong>Back escape against the seatbelt grip</strong> — taught by Skyhook coach · 0:36 · <a href="https://www.youtube.com/watch?v=djhMEfVZozo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_X1ZpmEswzI)
+
+<p class="clip-credit"><strong>Escaping back mount seatbelt</strong> — taught by Julie Bond · 0:18 · <a href="https://www.youtube.com/watch?v=_X1ZpmEswzI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

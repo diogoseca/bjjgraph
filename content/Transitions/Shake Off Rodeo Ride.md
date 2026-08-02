@@ -34,6 +34,43 @@ description: "Master the Shake Off Rodeo Ride escape in BJJ. Learn explosive bas
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shake Off Rodeo Ride \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle bottom: connecting head and shoulder",
+      "description": "Shake Off Rodeo Ride film study: Turtle bottom: connecting head and shoulder, taught by Black Dragon BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F7LWaSTKDPI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F7LWaSTKDPI",
+      "url": "https://www.youtube.com/watch?v=F7LWaSTKDPI",
+      "creator": { "@type": "Person", "name": "Black Dragon BJJ" },
+      "duration": "PT305S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking from turtle",
+      "description": "Shake Off Rodeo Ride film study: Attacking from turtle, taught by Grappling Instructionals.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sSGaeoVvcwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sSGaeoVvcwk",
+      "url": "https://www.youtube.com/watch?v=sSGaeoVvcwk",
+      "creator": { "@type": "Person", "name": "Grappling Instructionals" },
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This technique occupies a specific role in the turtle escape hierarchy as the lo
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shake Off Rodeo Ride in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F7LWaSTKDPI)
+
+<p class="clip-credit"><strong>Turtle bottom: connecting head and shoulder</strong> — taught by Black Dragon BJJ · 5:05 · <a href="https://www.youtube.com/watch?v=F7LWaSTKDPI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sSGaeoVvcwk)
+
+<p class="clip-credit"><strong>Attacking from turtle</strong> — taught by Grappling Instructionals · 0:39 · <a href="https://www.youtube.com/watch?v=sSGaeoVvcwk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

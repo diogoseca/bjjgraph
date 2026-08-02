@@ -148,6 +148,43 @@ description: "Defend the Technical Mount to Back Control transition in BJJ. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Mount to Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical mount escape out the back",
+      "description": "Technical Mount to Back Control (Defender) film study: Technical mount escape out the back, taught by smallmanbjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NHrpJdU8wCQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NHrpJdU8wCQ",
+      "url": "https://www.youtube.com/watch?v=NHrpJdU8wCQ",
+      "creator": { "@type": "Person", "name": "smallmanbjj" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back mount defense",
+      "description": "Technical Mount to Back Control (Defender) film study: Back mount defense, taught by Marcelo Alonso.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1dymN5AbYhM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1dymN5AbYhM",
+      "url": "https://www.youtube.com/watch?v=1dymN5AbYhM",
+      "creator": { "@type": "Person", "name": "Marcelo Alonso" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ From the defender's perspective, preventing the Technical Mount to Back Control 
 **Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Mount to Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NHrpJdU8wCQ)
+
+<p class="clip-credit"><strong>Technical mount escape out the back</strong> — taught by smallmanbjj · 0:58 · <a href="https://www.youtube.com/watch?v=NHrpJdU8wCQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1dymN5AbYhM)
+
+<p class="clip-credit"><strong>Back mount defense</strong> — taught by Marcelo Alonso · 0:58 · <a href="https://www.youtube.com/watch?v=1dymN5AbYhM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

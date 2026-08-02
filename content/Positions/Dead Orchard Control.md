@@ -34,6 +34,54 @@ description: "Master Dead Orchard Control in BJJ. Strategic guide covering speci
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dead Orchard Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Do an Anaconda Choke",
+      "description": "Dead Orchard Control film study: How to Do an Anaconda Choke, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EbhWFWp-B6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EbhWFWp-B6s",
+      "url": "https://www.youtube.com/watch?v=EbhWFWp-B6s",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda Choke Finish Details",
+      "description": "Dead Orchard Control film study: Anaconda Choke Finish Details, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dr66s8QK9_g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dr66s8QK9_g",
+      "url": "https://www.youtube.com/watch?v=dr66s8QK9_g",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rolling Anaconda from Leg Drag",
+      "description": "Dead Orchard Control film study: Rolling Anaconda from Leg Drag, taught by Brent Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GsqBxkrlrKE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GsqBxkrlrKE",
+      "url": "https://www.youtube.com/watch?v=GsqBxkrlrKE",
+      "creator": { "@type": "Person", "name": "Brent Smith" },
+      "duration": "PT115S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +110,42 @@ description: "Master Dead Orchard Control in BJJ. Strategic guide covering speci
 Dead Orchard Control represents an advanced positional control within Brazilian Jiu-Jitsu, particularly emphasized in the 10th Planet system. This position combines the structural control elements of the anaconda choke with strategic patience and extended dominance, creating a hybrid state between pure submission attempt and positional control. The name reflects the trapped, lifeless quality of the opponent's positioning - caught in a grip that systematically breaks down defensive capabilities while maintaining constant submission threat. Unlike standard anaconda setups that prioritize immediate finishing, Dead Orchard Control emphasizes sustainable pressure application and systematic dismantling of opponent defenses, allowing the practitioner to control timing and choose between maintaining position, advancing to more dominant states, or completing the submission. The position exists in both offensive and defensive contexts, with the top player working to maintain crushing pressure and submission mechanics while the bottom player must navigate a severely compromised defensive scenario with limited mobility and breathing restriction. Understanding both perspectives is essential for complete positional mastery, as the control mechanics, escape principles, and transition opportunities differ dramatically based on which role the practitioner occupies. This position demonstrates the evolution of modern grappling beyond simple submission hunting toward sophisticated positional dominance that creates multiple offensive pathways.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dead Orchard Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EbhWFWp-B6s)
+
+<p class="clip-credit"><strong>How to Do an Anaconda Choke</strong> — taught by Brandon Mccaghren · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dr66s8QK9_g)
+
+<p class="clip-credit"><strong>Anaconda Choke Finish Details</strong> — taught by Ben Eddy · 1:36 · <a href="https://www.youtube.com/watch?v=dr66s8QK9_g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GsqBxkrlrKE)
+
+<p class="clip-credit"><strong>Rolling Anaconda from Leg Drag</strong> — taught by Brent Smith · 1:55 · <a href="https://www.youtube.com/watch?v=GsqBxkrlrKE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -133,21 +217,21 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 ### Available Transitions
 
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (38% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (19% of attempts)
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (18% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (15% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (17% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (11% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (10% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Transitions/Escape Dead Orchard Control/Attacker|Escape Dead Orchard Control]]** (4% of attempts)
+- **[[Transitions/Escape Dead Orchard Control/Attacker|Escape Dead Orchard Control]]** (13% of attempts)
 
-- **[[Transitions/Roll from Dead Orchard/Attacker|Roll from Dead Orchard]]** (1% of attempts)
+- **[[Transitions/Roll from Dead Orchard/Attacker|Roll from Dead Orchard]]** (9% of attempts)
 
-- **[[Transitions/Escape from Dead Orchard/Attacker|Escape from Dead Orchard]]** (1% of attempts)
+- **[[Transitions/Escape from Dead Orchard/Attacker|Escape from Dead Orchard]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -212,19 +296,19 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 ### Available Transitions
 
 
-- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (35% of attempts)
+- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (16% of attempts)
 
-- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (18% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (20% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (18% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
 
 - **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (13% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (8% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[Anaconda Choke from Dead Orchard/Attacker|Anaconda Choke from Dead Orchard]]** (6% of attempts)
+- **[[Anaconda Choke from Dead Orchard/Attacker|Anaconda Choke from Dead Orchard]]** (18% of attempts)
 
-- **[[Transitions/Dead Orchard to Darce Switch/Attacker|Dead Orchard to Darce Switch]]** (2% of attempts)
+- **[[Transitions/Dead Orchard to Darce Switch/Attacker|Dead Orchard to Darce Switch]]** (12% of attempts)
 
 
 ### Common Mistakes

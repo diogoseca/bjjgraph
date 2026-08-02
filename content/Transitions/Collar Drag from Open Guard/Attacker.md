@@ -174,6 +174,43 @@ description: "Execute the collar drag from open guard to achieve front headlock 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Drag from Open Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Collar drag to back triangle",
+      "description": "Collar Drag from Open Guard (Attacker) film study: Collar drag to back triangle, taught by Dojo Outfitters.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kl7ZQxvcY-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kl7ZQxvcY-0",
+      "url": "https://www.youtube.com/watch?v=kl7ZQxvcY-0",
+      "creator": { "@type": "Person", "name": "Dojo Outfitters" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Collar drag takedown breakdown",
+      "description": "Collar Drag from Open Guard (Attacker) film study: Collar drag takedown breakdown, taught by Bianca Basilio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ch4tXv7Y4Jw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ch4tXv7Y4Jw",
+      "url": "https://www.youtube.com/watch?v=ch4tXv7Y4Jw",
+      "creator": { "@type": "Person", "name": "Bianca Basilio" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +222,34 @@ The collar drag rewards patience and reading ability over explosiveness. The bes
 **From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Drag from Open Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kl7ZQxvcY-0)
+
+<p class="clip-credit"><strong>Collar drag to back triangle</strong> — taught by Dojo Outfitters · 0:51 · <a href="https://www.youtube.com/watch?v=kl7ZQxvcY-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ch4tXv7Y4Jw)
+
+<p class="clip-credit"><strong>Collar drag takedown breakdown</strong> — taught by Bianca Basilio · 1:00 · <a href="https://www.youtube.com/watch?v=ch4tXv7Y4Jw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

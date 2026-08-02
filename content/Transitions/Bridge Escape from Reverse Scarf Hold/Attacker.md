@@ -180,6 +180,54 @@ description: "Execute the Bridge Escape from Reverse Scarf Hold with proper timi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Reverse Scarf Hold (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse kesa gatame escape to back take",
+      "description": "Bridge Escape from Reverse Scarf Hold (Attacker) film study: Reverse kesa gatame escape to back take, taught by Gymnanigains.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
+      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
+      "creator": { "@type": "Person", "name": "Gymnanigains" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse kesa gatame side control escape",
+      "description": "Bridge Escape from Reverse Scarf Hold (Attacker) film study: Reverse kesa gatame side control escape, taught by Coach Paul.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QzegNgUUfZs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QzegNgUUfZs",
+      "url": "https://www.youtube.com/watch?v=QzegNgUUfZs",
+      "creator": { "@type": "Person", "name": "Coach Paul" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kuzure-kesa-gatame escapes",
+      "description": "Bridge Escape from Reverse Scarf Hold (Attacker) film study: Kuzure-kesa-gatame escapes, taught by Kodokan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-zFQ6h4yKT4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-zFQ6h4yKT4",
+      "url": "https://www.youtube.com/watch?v=-zFQ6h4yKT4",
+      "creator": { "@type": "Person", "name": "Kodokan" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ The Bridge Escape from Reverse Scarf Hold is executed by the bottom player trapp
 **From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Reverse Scarf Hold (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
+
+<p class="clip-credit"><strong>Reverse kesa gatame escape to back take</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QzegNgUUfZs)
+
+<p class="clip-credit"><strong>Reverse kesa gatame side control escape</strong> — taught by Coach Paul · 1:21 · <a href="https://www.youtube.com/watch?v=QzegNgUUfZs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-zFQ6h4yKT4)
+
+<p class="clip-credit"><strong>Kuzure-kesa-gatame escapes</strong> — taught by Kodokan · 1:10 · <a href="https://www.youtube.com/watch?v=-zFQ6h4yKT4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

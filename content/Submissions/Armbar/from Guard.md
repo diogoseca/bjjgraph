@@ -34,6 +34,54 @@ description: "Master the armbar from guard with systematic technique breakdown, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Straight Arm Lock from Guard",
+      "description": "Armbar from Guard film study: Straight Arm Lock from Guard, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I8f9wkX7n4Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I8f9wkX7n4Y",
+      "url": "https://www.youtube.com/watch?v=I8f9wkX7n4Y",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar breakdown",
+      "description": "Armbar from Guard film study: Armbar breakdown, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar / Arm Drag from Guard",
+      "description": "Armbar from Guard film study: Armbar / Arm Drag from Guard, taught by Rich Castro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zpa_49EcTEA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zpa_49EcTEA",
+      "url": "https://www.youtube.com/watch?v=zpa_49EcTEA",
+      "creator": { "@type": "Person", "name": "Rich Castro" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 **Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I8f9wkX7n4Y)
+
+<p class="clip-credit"><strong>Straight Arm Lock from Guard</strong> — taught by Gracie Charlottesville · 0:30 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Armbar breakdown</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zpa_49EcTEA)
+
+<p class="clip-credit"><strong>Armbar / Arm Drag from Guard</strong> — taught by Rich Castro · 0:52 · <a href="https://www.youtube.com/watch?v=zpa_49EcTEA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -255,13 +339,11 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Kimura]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Far Side Armbar]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Americana]]
 - [[Submissions/Belly Down Armbar]]
 - [[Transitions/Gogoplata]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Positions/Closed Guard]] - Primary starting position for this armbar variation
 - [[Positions/Armbar Control]] - Control position where finishing mechanics are applied
 - [[Transitions/Hip Bump Sweep]] - Complementary attack that creates armbar opportunities when defended

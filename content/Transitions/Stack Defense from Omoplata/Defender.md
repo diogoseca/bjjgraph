@@ -156,6 +156,43 @@ description: "Learn to counter the stack defense from omoplata. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Defense from Omoplata (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata finishes vs the opponent\u0027s half roll",
+      "description": "Stack Defense from Omoplata (Defender) film study: Omoplata finishes vs the opponent\u0027s half roll, taught by Andris Brunovskis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gyynua1XBj8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gyynua1XBj8",
+      "url": "https://www.youtube.com/watch?v=gyynua1XBj8",
+      "creator": { "@type": "Person", "name": "Andris Brunovskis" },
+      "duration": "PT177S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata stack finish and the stacking counter",
+      "description": "Stack Defense from Omoplata (Defender) film study: Omoplata stack finish and the stacking counter, taught by Wilson Bros. Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LDZRIUjMUeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LDZRIUjMUeE",
+      "url": "https://www.youtube.com/watch?v=LDZRIUjMUeE",
+      "creator": { "@type": "Person", "name": "Wilson Bros. Grappling" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +202,34 @@ The defender in this scenario is the practitioner whose shoulder is trapped in t
 **Opponent's Starting Position**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Defense from Omoplata (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gyynua1XBj8)
+
+<p class="clip-credit"><strong>Omoplata finishes vs the opponent&#39;s half roll</strong> — taught by Andris Brunovskis · 2:57 · <a href="https://www.youtube.com/watch?v=gyynua1XBj8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LDZRIUjMUeE)
+
+<p class="clip-credit"><strong>Omoplata stack finish and the stacking counter</strong> — taught by Wilson Bros. Grappling · 1:02 · <a href="https://www.youtube.com/watch?v=LDZRIUjMUeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the K-Guard Sweep in BJJ. Step-by-step execution guide cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "K-Guard Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shallow K guard sweep mechanics",
+      "description": "K-Guard Sweep film study: Shallow K guard sweep mechanics, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fQ1z2RLYz4Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fQ1z2RLYz4Q",
+      "url": "https://www.youtube.com/watch?v=fQ1z2RLYz4Q",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K guard elevation sweep to 411",
+      "description": "K-Guard Sweep film study: K guard elevation sweep to 411, taught by 10th Planet St Louis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wkPHi2q1Cbo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wkPHi2q1Cbo",
+      "url": "https://www.youtube.com/watch?v=wkPHi2q1Cbo",
+      "creator": { "@type": "Person", "name": "10th Planet St Louis" },
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The execution demands precise coordination between upper and lower body mechanic
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch K-Guard Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fQ1z2RLYz4Q)
+
+<p class="clip-credit"><strong>Shallow K guard sweep mechanics</strong> — taught by Lachlan Giles · 0:42 · <a href="https://www.youtube.com/watch?v=fQ1z2RLYz4Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wkPHi2q1Cbo)
+
+<p class="clip-credit"><strong>K guard elevation sweep to 411</strong> — taught by 10th Planet St Louis · 0:41 · <a href="https://www.youtube.com/watch?v=wkPHi2q1Cbo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -148,6 +148,54 @@ description: "Defensive strategies against the Rear Clinch to Body Lock transiti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Clinch to Body Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Body lock defense",
+      "description": "Rear Clinch to Body Lock (Defender) film study: Body lock defense, taught by Peerless Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Di-fJ06DSq8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Di-fJ06DSq8",
+      "url": "https://www.youtube.com/watch?v=Di-fJ06DSq8",
+      "creator": { "@type": "Person", "name": "Peerless Jiu Jitsu Academy" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to break a body lock",
+      "description": "Rear Clinch to Body Lock (Defender) film study: How to break a body lock, taught by Nick Diaz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lGGo0H8ems4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lGGo0H8ems4",
+      "url": "https://www.youtube.com/watch?v=lGGo0H8ems4",
+      "creator": { "@type": "Person", "name": "Nick Diaz" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two rear body lock counters: granby roll and knee bar",
+      "description": "Rear Clinch to Body Lock (Defender) film study: Two rear body lock counters: granby roll and knee bar, taught by GFA MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aW0nNv2UWh0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aW0nNv2UWh0",
+      "url": "https://www.youtube.com/watch?v=aW0nNv2UWh0",
+      "creator": { "@type": "Person", "name": "GFA MMA" },
+      "duration": "PT170S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender facing the Rear Clinch to Body Lock conversion, your situation e
 **Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Clinch to Body Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Di-fJ06DSq8)
+
+<p class="clip-credit"><strong>Body lock defense</strong> — taught by Peerless Jiu Jitsu Academy · 1:19 · <a href="https://www.youtube.com/watch?v=Di-fJ06DSq8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lGGo0H8ems4)
+
+<p class="clip-credit"><strong>How to break a body lock</strong> — taught by Nick Diaz · 1:02 · <a href="https://www.youtube.com/watch?v=lGGo0H8ems4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aW0nNv2UWh0)
+
+<p class="clip-credit"><strong>Two rear body lock counters: granby roll and knee bar</strong> — taught by GFA MMA · 2:50 · <a href="https://www.youtube.com/watch?v=aW0nNv2UWh0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

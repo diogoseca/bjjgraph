@@ -34,6 +34,54 @@ description: "Learn the Turtle to Truck Entry in BJJ. Step-by-step hook insertio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Truck Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The truck in transition from turtle",
+      "description": "Turtle to Truck Entry film study: The truck in transition from turtle, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Truck back take against a stubborn turtle",
+      "description": "Turtle to Truck Entry film study: Truck back take against a stubborn turtle, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XLvbK52hzqM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XLvbK52hzqM",
+      "url": "https://www.youtube.com/watch?v=XLvbK52hzqM",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle series: truck entry breakdown",
+      "description": "Turtle to Truck Entry film study: Turtle series: truck entry breakdown, taught by Courage Training Centre.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yGkKdnPksik/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yGkKdnPksik",
+      "url": "https://www.youtube.com/watch?v=yGkKdnPksik",
+      "creator": { "@type": "Person", "name": "Courage Training Centre" },
+      "duration": "PT109S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The Turtle to Truck Entry is a gateway to the entire Twister submission system. 
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Truck Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>The truck in transition from turtle</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XLvbK52hzqM)
+
+<p class="clip-credit"><strong>Truck back take against a stubborn turtle</strong> — taught by Patrick Donabedian · 1:03 · <a href="https://www.youtube.com/watch?v=XLvbK52hzqM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yGkKdnPksik)
+
+<p class="clip-credit"><strong>Turtle series: truck entry breakdown</strong> — taught by Courage Training Centre · 1:49 · <a href="https://www.youtube.com/watch?v=yGkKdnPksik" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

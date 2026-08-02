@@ -34,6 +34,43 @@ description: "Master the Half Guard to Back Take in BJJ. Complete guide to under
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Back Take \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back take from half guard using a butterfly hook",
+      "description": "Half Guard to Back Take film study: Back take from half guard using a butterfly hook, taught by Procel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WoSyrVZ1VvY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WoSyrVZ1VvY",
+      "url": "https://www.youtube.com/watch?v=WoSyrVZ1VvY",
+      "creator": { "@type": "Person", "name": "Procel" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back take from half guard bottom",
+      "description": "Half Guard to Back Take film study: Back take from half guard bottom, taught by BJJ Recap coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XqH1Bt0-AgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XqH1Bt0-AgY",
+      "url": "https://www.youtube.com/watch?v=XqH1Bt0-AgY",
+      "creator": { "@type": "Person", "name": "BJJ Recap coach" },
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,9 +99,37 @@ description: "Master the Half Guard to Back Take in BJJ. Complete guide to under
 Half Guard to Back Take represents an advanced positional transition that transforms a defensive half guard position into the highly dominant back control. This transition is fundamental to modern half guard systems and represents one of the highest-percentage paths to dominance from bottom position. The technique relies on establishing an underhook, creating a perpendicular angle to the opponent, and systematically climbing to their back while they attempt to maintain top pressure. This transition is particularly effective because it exploits the opponent's forward pressure against them, using their own weight commitment to facilitate the back take. Mastery of this transition is essential for any serious half guard player and represents a key component of offensive half guard systems developed by experts like Bernardo Faria and Craig Jones.
 
 **From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 78%
+**Success Rate**: 43%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Back Take in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WoSyrVZ1VvY)
+
+<p class="clip-credit"><strong>Back take from half guard using a butterfly hook</strong> — taught by Procel · 0:55 · <a href="https://www.youtube.com/watch?v=WoSyrVZ1VvY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XqH1Bt0-AgY)
+
+<p class="clip-credit"><strong>Back take from half guard bottom</strong> — taught by BJJ Recap coach · 0:39 · <a href="https://www.youtube.com/watch?v=XqH1Bt0-AgY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

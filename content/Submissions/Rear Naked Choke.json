@@ -32,7 +32,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Back Control",
   "from_position": "Back Control/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "variant_uniqueness": "Highest-percentage finish from the most dominant position",
   "overview": "The Rear Naked Choke (RNC) is widely considered the highest-percentage submission in Brazilian Jiu-Jitsu and mixed martial arts. This blood choke targets the carotid arteries on both sides of the neck, cutting off blood flow to the brain and causing unconsciousness in 6-10 seconds if not released. Unlike air chokes that can take 30+ seconds and cause panic, the RNC is efficient and relatively safe when applied correctly with proper training protocols. The position's effectiveness stems from the back control position itself - the opponent cannot see you, cannot effectively defend with their arms, and must deal with your body weight and control while their breathing and circulation are compromised. The RNC is the most common submission finish in high-level competition, with statistics showing it accounts for approximately 25-30% of all submission victories in professional MMA and 15-20% in gi BJJ competition. The technique's universality across gi and no-gi contexts, combined with its mechanical simplicity and high success rate even against larger opponents, makes it an essential technique for all practitioners regardless of style or body type.",
   "safety_considerations": {
@@ -251,6 +254,44 @@
     {
       "name": "from Standing Rear Clinch",
       "slug": "from-standing-rear-clinch"
+    }
+  ],
+  "clips": [
+    {
+      "id": "3vCytl_OI-4",
+      "title": "Rear Naked Choke from Back Control",
+      "by": "Affinity Academy",
+      "vertical": false,
+      "channel": "Affinity Academy",
+      "duration": 75,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "70jECxFfCSA",
+      "title": "Rear Naked Choke",
+      "by": "Gordon Ryan",
+      "vertical": false,
+      "channel": "Control Jiu JItsu",
+      "duration": 73,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "rPRORaAiJAs",
+      "title": "Rear Naked Choke: It's in the Squeeze",
+      "by": "Henry Akins",
+      "vertical": false,
+      "channel": "Henry Akins' Hidden Jiu-Jitsu",
+      "duration": 95,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "3OkCuU0B0UE",
+      "title": "Attack the Back with a Body Triangle",
+      "by": "Grapple Box",
+      "vertical": false,
+      "channel": "Grapple Box llc",
+      "duration": 28,
+      "verified": "2026-07-14"
     }
   ]
 }

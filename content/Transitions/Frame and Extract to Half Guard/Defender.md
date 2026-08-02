@@ -142,6 +142,54 @@ description: "How to defend against Frame and Extract to Half Guard in BJJ. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Extract to Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding the inside heel hook entanglement",
+      "description": "Frame and Extract to Half Guard (Defender) film study: Holding the inside heel hook entanglement, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rjMVCd6n1TA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rjMVCd6n1TA",
+      "url": "https://www.youtube.com/watch?v=rjMVCd6n1TA",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Craig Jones Inside Sankaku Control Study",
+      "description": "Frame and Extract to Half Guard (Defender) film study: Craig Jones Inside Sankaku Control Study, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YoVaNOopj1g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YoVaNOopj1g",
+      "url": "https://www.youtube.com/watch?v=YoVaNOopj1g",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT392S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Controlling the Saddle Position: Key Details",
+      "description": "Frame and Extract to Half Guard (Defender) film study: Controlling the Saddle Position: Key Details, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5hhSK86xBFc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5hhSK86xBFc",
+      "url": "https://www.youtube.com/watch?v=5hhSK86xBFc",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT259S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ As the Inside Sankaku top player, your opponent's Frame and Extract to Half Guar
 **Opponent's Starting Position**: [[Positions/Inside Sankaku]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Extract to Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rjMVCd6n1TA)
+
+<p class="clip-credit"><strong>Holding the inside heel hook entanglement</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=rjMVCd6n1TA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YoVaNOopj1g)
+
+<p class="clip-credit"><strong>Craig Jones Inside Sankaku Control Study</strong> — taught by Craig Jones · 6:32 · <a href="https://www.youtube.com/watch?v=YoVaNOopj1g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5hhSK86xBFc)
+
+<p class="clip-credit"><strong>Controlling the Saddle Position: Key Details</strong> — taught by Mads H. · 4:19 · <a href="https://www.youtube.com/watch?v=5hhSK86xBFc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

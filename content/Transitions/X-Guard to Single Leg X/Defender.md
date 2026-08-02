@@ -140,6 +140,54 @@ description: "Comprehensive guide to defending and countering the X-Guard to Sin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard to Single Leg X (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single Leg X counter with heel hook",
+      "description": "X-Guard to Single Leg X (Defender) film study: Single Leg X counter with heel hook, taught by Charles Allan Price.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e2KVHXnSh_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e2KVHXnSh_o",
+      "url": "https://www.youtube.com/watch?v=e2KVHXnSh_o",
+      "creator": { "@type": "Person", "name": "Charles Allan Price" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Foot lock and Single Leg X guard escapes",
+      "description": "X-Guard to Single Leg X (Defender) film study: Foot lock and Single Leg X guard escapes, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JSOM86_1lRo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JSOM86_1lRo",
+      "url": "https://www.youtube.com/watch?v=JSOM86_1lRo",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single Leg X guard sweep defense (no-gi)",
+      "description": "X-Guard to Single Leg X (Defender) film study: Single Leg X guard sweep defense (no-gi), taught by Tiger Muay Thai coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gwEmeb9RSk4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gwEmeb9RSk4",
+      "url": "https://www.youtube.com/watch?v=gwEmeb9RSk4",
+      "creator": { "@type": "Person", "name": "Tiger Muay Thai coach" },
+      "duration": "PT227S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender facing an X-Guard to Single Leg X transition, your primary objec
 **Opponent's Starting Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard to Single Leg X (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e2KVHXnSh_o)
+
+<p class="clip-credit"><strong>Single Leg X counter with heel hook</strong> — taught by Charles Allan Price · 1:15 · <a href="https://www.youtube.com/watch?v=e2KVHXnSh_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JSOM86_1lRo)
+
+<p class="clip-credit"><strong>Foot lock and Single Leg X guard escapes</strong> — taught by James O&#39;Connor · 1:51 · <a href="https://www.youtube.com/watch?v=JSOM86_1lRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gwEmeb9RSk4)
+
+<p class="clip-credit"><strong>Single Leg X guard sweep defense (no-gi)</strong> — taught by Tiger Muay Thai coach · 3:47 · <a href="https://www.youtube.com/watch?v=gwEmeb9RSk4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

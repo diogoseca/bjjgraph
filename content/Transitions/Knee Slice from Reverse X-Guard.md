@@ -34,6 +34,43 @@ description: "Master the Knee Slice from Reverse X-Guard pass in BJJ. Complete g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Reverse X-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee cut pass against reverse De La Riva",
+      "description": "Knee Slice from Reverse X-Guard film study: Knee cut pass against reverse De La Riva, taught by Sticks and Stones BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R6qEQAFRzjA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R6qEQAFRzjA",
+      "url": "https://www.youtube.com/watch?v=R6qEQAFRzjA",
+      "creator": { "@type": "Person", "name": "Sticks and Stones BJJ" },
+      "duration": "PT246S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee cut pass, no-gi",
+      "description": "Knee Slice from Reverse X-Guard film study: Knee cut pass, no-gi, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qjnhpw1lijU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qjnhpw1lijU",
+      "url": "https://www.youtube.com/watch?v=qjnhpw1lijU",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT44S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The technique demands precise coordination between upper body control and lower 
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Reverse X-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R6qEQAFRzjA)
+
+<p class="clip-credit"><strong>Knee cut pass against reverse De La Riva</strong> — taught by Sticks and Stones BJJ · 4:06 · <a href="https://www.youtube.com/watch?v=R6qEQAFRzjA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qjnhpw1lijU)
+
+<p class="clip-credit"><strong>Knee cut pass, no-gi</strong> — taught by Daniel Frank · 0:44 · <a href="https://www.youtube.com/watch?v=qjnhpw1lijU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the Omoplata to Back transition in BJJ. Convert your oppone
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata to Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Taking the back from the omoplata",
+      "description": "Omoplata to Back film study: Taking the back from the omoplata, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XYN-MAtOoqw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XYN-MAtOoqw",
+      "url": "https://www.youtube.com/watch?v=XYN-MAtOoqw",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT144S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata back take with two choke options",
+      "description": "Omoplata to Back film study: Omoplata back take with two choke options, taught by Still Rolling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gJlOvuUYr4E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gJlOvuUYr4E",
+      "url": "https://www.youtube.com/watch?v=gJlOvuUYr4E",
+      "creator": { "@type": "Person", "name": "Still Rolling" },
+      "duration": "PT205S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This transition integrates into broader guard attack systems where the omoplata 
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata to Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XYN-MAtOoqw)
+
+<p class="clip-credit"><strong>Taking the back from the omoplata</strong> — taught by Jon Thomas · 2:24 · <a href="https://www.youtube.com/watch?v=XYN-MAtOoqw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gJlOvuUYr4E)
+
+<p class="clip-credit"><strong>Omoplata back take with two choke options</strong> — taught by Still Rolling · 3:25 · <a href="https://www.youtube.com/watch?v=gJlOvuUYr4E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

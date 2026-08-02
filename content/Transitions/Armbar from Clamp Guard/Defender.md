@@ -148,6 +148,43 @@ description: "Defend the armbar from clamp guard in BJJ. Recognition cues, escap
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Clamp Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar escape when they are close to finishing",
+      "description": "Armbar from Clamp Guard (Defender) film study: Armbar escape when they are close to finishing, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar and guillotine escapes from guard",
+      "description": "Armbar from Clamp Guard (Defender) film study: Armbar and guillotine escapes from guard, taught by Tyler Brueckner.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g46PNylAst0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g46PNylAst0",
+      "url": "https://www.youtube.com/watch?v=g46PNylAst0",
+      "creator": { "@type": "Person", "name": "Tyler Brueckner" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ When your arm is trapped in a clamp guard, the armbar is the primary threat you 
 **Opponent's Starting Position**: [[Positions/Clamp Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Clamp Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Armbar escape when they are close to finishing</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g46PNylAst0)
+
+<p class="clip-credit"><strong>Armbar and guillotine escapes from guard</strong> — taught by Tyler Brueckner · 2:01 · <a href="https://www.youtube.com/watch?v=g46PNylAst0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

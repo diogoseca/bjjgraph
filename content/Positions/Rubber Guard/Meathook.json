@@ -96,35 +96,115 @@
     "flashcards": [
       {
         "question": "Your opponent has established Meathook and you feel their shin hook tightening—what is your immediate priority?",
-        "answer": "Immediate recognition and defensive mode shift is critical. Stop any passing attempts and prioritize arm extraction above all else. Widen your base with your free arm to create leverage, and prepare for an explosive rotational extraction attempt. Every second of delay increases submission danger as your opponent consolidates control and sets up attacks."
+        "answer": "Immediate recognition and defensive mode shift is critical. Stop any passing attempts and prioritize arm extraction above all else. Widen your base with your free arm to create leverage, and prepare for an explosive rotational extraction attempt. Every second of delay increases submission danger as your opponent consolidates control and sets up attacks.",
+        "answer_line": "Extract trapped arm immediately",
+        "distractors": {
+          "plausible": [
+            "Grip fight collar first",
+            "Wait for opponent to move"
+          ],
+          "trap": [
+            "Push forward to pass guard"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and frames needed to survive and escape Meathook Top?",
-        "answer": "Your free arm must post wide to create a triangular base structure that generates leverage for extraction. Avoid placing it close to your body. While arm extraction is primary, your free hand should also work to address the opponent's controlling grip on your head or collar when possible. After extracting, both hands establish base for immediate posture recovery."
+        "answer": "Your free arm must post wide to create a triangular base structure that generates leverage for extraction. Avoid placing it close to your body. While arm extraction is primary, your free hand should also work to address the opponent's controlling grip on your head or collar when possible. After extracting, both hands establish base for immediate posture recovery.",
+        "answer_line": "Post free arm wide for base",
+        "distractors": {
+          "plausible": [
+            "Address head grip first",
+            "Push off opponent's hips"
+          ],
+          "trap": [
+            "Keep free arm tucked in tight"
+          ]
+        }
       },
       {
         "question": "Why does attempting to pass guard while trapped in Meathook accelerate submissions?",
-        "answer": "Forward pressure from passing attempts drives your head deeper into gogoplata range and increases the mechanical advantage of the shin hook. Your weight moving forward amplifies the compression on your trapped arm and feeds directly into the opponent's attack chain. The correct response is accepting temporary disadvantage and executing escape sequences rather than forcing the pass."
+        "answer": "Forward pressure from passing attempts drives your head deeper into gogoplata range and increases the mechanical advantage of the shin hook. Your weight moving forward amplifies the compression on your trapped arm and feeds directly into the opponent's attack chain. The correct response is accepting temporary disadvantage and executing escape sequences rather than forcing the pass.",
+        "answer_line": "Forward pressure feeds gogoplata",
+        "distractors": {
+          "plausible": [
+            "It burns your grips faster",
+            "It tires your hips out"
+          ],
+          "trap": [
+            "Push through to escape faster"
+          ]
+        }
       },
       {
         "question": "Your opponent begins shifting their hips toward gogoplata setup—what defensive adjustment should you make?",
-        "answer": "When you recognize the hip shift toward gogoplata, immediately consider a stack defense by driving forward into them to disrupt their shin angle before it reaches your throat. Alternatively, time an explosive arm extraction to their transitional moment when the hook temporarily loosens during hip adjustment. The sprawl option puts you at Turtle but escapes the submission threat."
+        "answer": "When you recognize the hip shift toward gogoplata, immediately consider a stack defense by driving forward into them to disrupt their shin angle before it reaches your throat. Alternatively, time an explosive arm extraction to their transitional moment when the hook temporarily loosens during hip adjustment. The sprawl option puts you at Turtle but escapes the submission threat.",
+        "answer_line": "Stack forward or extract arm",
+        "distractors": {
+          "plausible": [
+            "Pull head back away",
+            "Grab their far leg"
+          ],
+          "trap": [
+            "Let hips settle and wait"
+          ]
+        }
       },
       {
         "question": "How should you manage energy during escape attempts from Meathook Top?",
-        "answer": "Explosive movements offer the best arm extraction chance but consume significant energy. Wait for optimal timing—when opponent shifts attention to submission setup or adjusts grips, hook pressure briefly loosens. This is your window for explosive rotational extraction. Continuous moderate effort wastes energy without results; measured explosive timing beats sustained pulling."
+        "answer": "Explosive movements offer the best arm extraction chance but consume significant energy. Wait for optimal timing—when opponent shifts attention to submission setup or adjusts grips, hook pressure briefly loosens. This is your window for explosive rotational extraction. Continuous moderate effort wastes energy without results; measured explosive timing beats sustained pulling.",
+        "answer_line": "Explode when hook loosens",
+        "distractors": {
+          "plausible": [
+            "Pull steadily the whole time",
+            "Save all energy don't move"
+          ],
+          "trap": [
+            "Muscle through with steady force"
+          ]
+        }
       },
       {
         "question": "After successfully extracting your trapped arm, what must happen immediately?",
-        "answer": "Posture recovery must follow arm extraction without pause. Use the newly freed arm to establish base alongside your other arm, create space, and drive upward through proper spinal alignment to achieve neutral posture. The opponent will immediately attempt to re-establish Rubber Guard control or transition to traditional closed guard attacks—rapid posture recovery prevents this."
+        "answer": "Posture recovery must follow arm extraction without pause. Use the newly freed arm to establish base alongside your other arm, create space, and drive upward through proper spinal alignment to achieve neutral posture. The opponent will immediately attempt to re-establish Rubber Guard control or transition to traditional closed guard attacks—rapid posture recovery prevents this.",
+        "answer_line": "Base out and recover posture",
+        "distractors": {
+          "plausible": [
+            "Attack the guard immediately",
+            "Rest before repositioning"
+          ],
+          "trap": [
+            "Stay low and control legs"
+          ]
+        }
       },
       {
         "question": "What common error leads to shoulder injuries when escaping Meathook?",
-        "answer": "Continuous straight-line pulling on the trapped arm without rotational component creates sustained tension against the shin hook's strongest resistance angle, risking shoulder strain. The correct mechanic combines pulling force with rotational movement—spiral the arm as you extract rather than pulling straight back. This rotation changes leverage angles and exploits weaknesses in the hook."
+        "answer": "Continuous straight-line pulling on the trapped arm without rotational component creates sustained tension against the shin hook's strongest resistance angle, risking shoulder strain. The correct mechanic combines pulling force with rotational movement—spiral the arm as you extract rather than pulling straight back. This rotation changes leverage angles and exploits weaknesses in the hook.",
+        "answer_line": "Straight pull with no rotation",
+        "distractors": {
+          "plausible": [
+            "Flaring the elbow outward",
+            "Rushing the hip escape first"
+          ],
+          "trap": [
+            "Spiraling the arm as you exit"
+          ]
+        }
       },
       {
         "question": "Why is accepting Closed Guard or even a sweep often the strategically correct choice when escaping Meathook?",
-        "answer": "Extracting the arm while maintaining top position is often mechanically impossible against a properly established Meathook. Remaining trapped guarantees submission completion. Accepting Closed Guard after arm extraction or conceding a sweep during escape creates neutral or recoverable positions, whereas staying in Meathook leads to certain submission. Strategic retreat enables survival."
+        "answer": "Extracting the arm while maintaining top position is often mechanically impossible against a properly established Meathook. Remaining trapped guarantees submission completion. Accepting Closed Guard after arm extraction or conceding a sweep during escape creates neutral or recoverable positions, whereas staying in Meathook leads to certain submission. Strategic retreat enables survival.",
+        "answer_line": "Accept guard to avoid submission",
+        "distractors": {
+          "plausible": [
+            "Keep fighting to stay on top",
+            "Stall and wait for time"
+          ],
+          "trap": [
+            "Refuse to give up position"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -299,28 +379,52 @@
     },
     "transitions": [
       {
-        "transition": "Arm Extraction",
-        "attempt_probability": 28
-      },
-      {
-        "transition": "Stack Defense",
-        "attempt_probability": 17
-      },
-      {
         "transition": "Sprawl",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 28,
+          "nogi": 30
+        }
       },
       {
         "transition": "Guard Opening Sequence",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 24,
+          "nogi": 23
+        }
       },
       {
         "transition": "Posture Recovery from Meathook",
-        "attempt_probability": 23
+        "attempt_probability": {
+          "gi": 27,
+          "nogi": 26
+        }
       },
       {
         "transition": "Stack Pass from Meathook",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 21
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "KN7ww-OyaxQ",
+        "title": "Meathook options from Rubber Guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0w0642zFqWo",
+        "title": "Troubleshooting the Meathook",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -368,35 +472,115 @@
     "flashcards": [
       {
         "question": "What grip and leg coordination is essential for maintaining Meathook control?",
-        "answer": "The shin hook pressing against the opponent's tricep must work in coordination with the grip on the non-trapped side (overhook or deep collar control). These create opposing forces—the hook pulls the shoulder forward while the grip pulls the head down—compressing posture and preventing escape. Losing either element collapses the control structure."
+        "answer": "The shin hook pressing against the opponent's tricep must work in coordination with the grip on the non-trapped side (overhook or deep collar control). These create opposing forces—the hook pulls the shoulder forward while the grip pulls the head down—compressing posture and preventing escape. Losing either element collapses the control structure.",
+        "answer_line": "Shin hook plus head/collar grip",
+        "distractors": {
+          "plausible": [
+            "Shin hook plus underhook grip",
+            "Overhook plus body lock"
+          ],
+          "trap": [
+            "Grip on the trapped-side wrist"
+          ]
+        }
       },
       {
         "question": "How deep must the shin hook be placed to maintain proper Meathook control?",
-        "answer": "The ankle must cross completely over the opponent's shoulder line, with the shin applying downward lever pressure against the tricep. A shallow hook where the ankle doesn't clear the shoulder allows the opponent to simply pull their arm backward and escape. Deep hook placement creates a mechanical trap that prevents extraction regardless of opponent's strength."
+        "answer": "The ankle must cross completely over the opponent's shoulder line, with the shin applying downward lever pressure against the tricep. A shallow hook where the ankle doesn't clear the shoulder allows the opponent to simply pull their arm backward and escape. Deep hook placement creates a mechanical trap that prevents extraction regardless of opponent's strength.",
+        "answer_line": "Ankle crosses over shoulder line",
+        "distractors": {
+          "plausible": [
+            "Shin resting on the bicep",
+            "Ankle hooked at the elbow"
+          ],
+          "trap": [
+            "Shallow hook on the forearm"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving forward with pressure while in your Meathook—what submission becomes available?",
-        "answer": "Forward pressure drives the opponent's head into gogoplata range. As they drive forward to escape, transition to Gogoplata Control by adjusting your shin position to their throat. Their forward momentum actually assists the submission setup—the harder they drive, the deeper they enter the choke. This is why experienced practitioners never pressure forward against Meathook."
+        "answer": "Forward pressure drives the opponent's head into gogoplata range. As they drive forward to escape, transition to Gogoplata Control by adjusting your shin position to their throat. Their forward momentum actually assists the submission setup—the harder they drive, the deeper they enter the choke. This is why experienced practitioners never pressure forward against Meathook.",
+        "answer_line": "Gogoplata Control opens up",
+        "distractors": {
+          "plausible": [
+            "Triangle Control opens up",
+            "Omoplata Control opens up"
+          ],
+          "trap": [
+            "Armbar Control opens up"
+          ]
+        }
       },
       {
         "question": "How should you manage the high energy cost of Meathook position?",
-        "answer": "Meathook is unsustainable beyond 30-45 seconds due to hip flexor and core demand. You must either advance to submission or transition to a more sustainable position like Mission Control within this window. Never attempt to hold Meathook as a static control position—recognize it as a transitional attack position and maintain urgency in your offensive progression."
+        "answer": "Meathook is unsustainable beyond 30-45 seconds due to hip flexor and core demand. You must either advance to submission or transition to a more sustainable position like Mission Control within this window. Never attempt to hold Meathook as a static control position—recognize it as a transitional attack position and maintain urgency in your offensive progression.",
+        "answer_line": "Finish fast or shift positions",
+        "distractors": {
+          "plausible": [
+            "Rest here to recover breath",
+            "Hold and wait for opening"
+          ],
+          "trap": [
+            "Hold Meathook as static control"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts to extract their trapped arm by pulling upward—what counter attack opens?",
-        "answer": "Upward arm extraction attempts open the triangle angle. As they pull up, their head dips and their shoulder rises, creating the perfect alignment for Triangle Setup. Follow their upward movement by adjusting your hip angle and throwing your leg over their neck to establish Triangle Control. Their escape attempt becomes your submission entry."
+        "answer": "Upward arm extraction attempts open the triangle angle. As they pull up, their head dips and their shoulder rises, creating the perfect alignment for Triangle Setup. Follow their upward movement by adjusting your hip angle and throwing your leg over their neck to establish Triangle Control. Their escape attempt becomes your submission entry.",
+        "answer_line": "Triangle Control opens up",
+        "distractors": {
+          "plausible": [
+            "Omoplata Control opens up",
+            "Gogoplata Control opens up"
+          ],
+          "trap": [
+            "Armbar Control opens up"
+          ]
+        }
       },
       {
         "question": "What happens when you try to hold Meathook without adequate hip flexibility?",
-        "answer": "Forcing Meathook beyond your natural range causes hip flexor strain and hamstring tears, compromises hook pressure allowing easy escape, and creates pain that distracts from proper technique execution. Test flexibility by bringing your knee to your chest while supine—if it doesn't reach shoulder level comfortably, continue flexibility development before attempting live Meathook."
+        "answer": "Forcing Meathook beyond your natural range causes hip flexor strain and hamstring tears, compromises hook pressure allowing easy escape, and creates pain that distracts from proper technique execution. Test flexibility by bringing your knee to your chest while supine—if it doesn't reach shoulder level comfortably, continue flexibility development before attempting live Meathook.",
+        "answer_line": "Injury risk and hook failure",
+        "distractors": {
+          "plausible": [
+            "Slower but still works fine",
+            "Only affects speed not safety"
+          ],
+          "trap": [
+            "Force it deeper for better hook"
+          ]
+        }
       },
       {
         "question": "Your opponent is spinning their trapped arm to escape the hook—what submission chain activates?",
-        "answer": "Arm spinning opens the omoplata pathway. As they rotate, transition to Carni by adjusting your hip angle to follow their rotation, then continue into Omoplata Control. Their spinning motion actually assists your shoulder isolation. The rotation that frees them from the hook simultaneously threads them deeper into the omoplata attack chain."
+        "answer": "Arm spinning opens the omoplata pathway. As they rotate, transition to Carni by adjusting your hip angle to follow their rotation, then continue into Omoplata Control. Their spinning motion actually assists your shoulder isolation. The rotation that frees them from the hook simultaneously threads them deeper into the omoplata attack chain.",
+        "answer_line": "Carni into Omoplata Control",
+        "distractors": {
+          "plausible": [
+            "Triangle into Armbar Control",
+            "Gogoplata into Choke Control"
+          ],
+          "trap": [
+            "Kimura into Armbar Control"
+          ]
+        }
       },
       {
         "question": "Why is static hip positioning a critical error in Meathook?",
-        "answer": "Static hips make submissions unavailable as angles fail to align properly, and opponents find escape paths through your positional stagnation. Treat your hips as a dynamic steering mechanism—rotate toward triangle when they pull up, angle for gogoplata when they drive forward, shift for omoplata when they spin. Movement creates submission opportunities; stillness eliminates them."
+        "answer": "Static hips make submissions unavailable as angles fail to align properly, and opponents find escape paths through your positional stagnation. Treat your hips as a dynamic steering mechanism—rotate toward triangle when they pull up, angle for gogoplata when they drive forward, shift for omoplata when they spin. Movement creates submission opportunities; stillness eliminates them.",
+        "answer_line": "Hips must steer toward each attack",
+        "distractors": {
+          "plausible": [
+            "Grip strength matters more",
+            "Only leg pressure matters"
+          ],
+          "trap": [
+            "Keep hips squared and still"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -595,44 +779,246 @@
     "transitions": [
       {
         "transition": "Meathook to Gogoplata Control",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 21
+        }
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 14
+        }
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       },
       {
         "transition": "Crackhead Control to Carni",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
       },
       {
-        "transition": "Armbar on Free Arm",
-        "attempt_probability": 8
+        "transition": "Armbar from New York",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Omoplata to Back",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Crackhead Control to Mission Control",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 14
+        }
       },
       {
         "transition": "Baratoplata Setup",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 4
+        }
       },
       {
         "transition": "Tarikoplata Setup",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 4
+        }
       },
       {
         "transition": "Sweep from Meathook",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "KN7ww-OyaxQ",
+        "title": "Meathook Options (MTS 202)",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "0w0642zFqWo",
+        "title": "Rubber Guard: Troubleshooting the Meathook",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pJ4G8hW6dIE",
+        "title": "Near-side Meathook Sweep",
+        "by": "10th Planet Colorado Springs",
+        "vertical": false,
+        "channel": "10th Planet Colorado Springs",
+        "duration": 93,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Meathook position?",
+      "answer": "Meathook is a Rubber Guard control in which the bottom player threads a shin across the back of the top player's trapped arm, driving the shin against the tricep while the ankle clears past the shoulder line. This shin hook works together with a grip on the opponent's head or non-trapped-side collar, creating two opposing forces that isolate one arm and pull the posture forward and down. The result is a closed loop that removes the trapped arm from the exchange entirely, unlike guards where both arms remain available. The defining feature is that a leg, not an arm, does the trapping, which frees the bottom player's hands for gripping and attacking.",
+      "answer_line": "Shin traps arm past shoulder line",
+      "distractors": {
+        "plausible": [
+          "Overhook plus underhook control",
+          "Arm-to-arm figure-four grip"
+        ],
+        "trap": [
+          "Shin resting shallow on forearm"
+        ]
+      }
+    },
+    {
+      "question": "Why is the depth of the shin hook the single most important control variable in Meathook?",
+      "answer": "The isolation mechanic depends entirely on the ankle clearing past the shoulder line rather than resting shallow on the bicep or forearm. When the ankle crosses the shoulder, the shin seats against the tricep past the shoulder and creates a downward lever that the trapped arm cannot pull straight out of. A shallow hook that stops short of the shoulder lets the arm simply retract backward, collapsing the loop. This shoulder-line threshold is the shared pivot for both players: crossing it locks the position, and dragging the ankle back across it breaks the position, so both compete over that exact line.",
+      "answer_line": "Ankle must clear the shoulder line",
+      "distractors": {
+        "plausible": [
+          "Shin pressure matters most",
+          "Grip tightness matters most"
+        ],
+        "trap": [
+          "Shin resting on the bicep works"
+        ]
+      }
+    },
+    {
+      "question": "How does the coordination between the shin hook and the head-or-collar grip generate control in Meathook?",
+      "answer": "The shin hook and the grip on the non-trapped side function as opposing forces rather than independent controls. The shin pulls the trapped shoulder forward and down while the grip pulls the head down and toward the trapped side, so the two forces compress the spine into a bent, forward-broken posture. Neither element alone maintains the position; losing the grip lets the head lift and re-posture, while losing the hook lets the arm escape. This paired-force structure is why Meathook breaks posture more completely than a simple overhook or a standard collar tie.",
+      "answer_line": "Opposing forces compress the spine",
+      "distractors": {
+        "plausible": [
+          "Shin hook alone is enough",
+          "Grip alone is enough"
+        ],
+        "trap": [
+          "Both forces pull the same way"
+        ]
+      }
+    },
+    {
+      "question": "What distinguishes Meathook from the Mission Control position that typically precedes it?",
+      "answer": "Mission Control uses the arm and leg to control the opponent's head and near arm while keeping posture broken, but it leaves the trapped arm relatively mobile and functions as a stable, sustainable holding position. Meathook escalates this by threading the shin fully across the trapped arm's tricep, converting broad head-and-arm control into precise single-arm isolation. This trades Mission Control's sustainability for sharper submission leverage, because the isolated arm can no longer frame or base. Meathook is therefore a higher-commitment, shorter-duration configuration within the same Rubber Guard chain.",
+      "answer_line": "Meathook fully isolates the arm",
+      "distractors": {
+        "plausible": [
+          "Mission Control isolates the arm",
+          "Both hold posture the same way"
+        ],
+        "trap": [
+          "Meathook is easier to sustain"
+        ]
+      }
+    },
+    {
+      "question": "Why is Meathook inherently a transitional configuration rather than a resting position for either player?",
+      "answer": "The extreme leg placement required to hook the shin over the shoulder demands sustained engagement of the hip flexors and core, making the configuration metabolically expensive to hold. Neither player can settle: the bottom player must convert the isolation into a submission or a more sustainable control before fatigue erodes the hook, and the top player is under continuous submission threat that punishes delay. This time pressure is a shared property of the position, giving it a viability window measured in tens of seconds rather than minutes. Positions like closed guard or side control can be held statically, but Meathook structurally cannot.",
+      "answer_line": "Hip flexors fatigue fast holding it",
+      "distractors": {
+        "plausible": [
+          "It's just a comfortable hold",
+          "Grip fatigue is the main risk"
+        ],
+        "trap": [
+          "Hold it like closed guard"
+        ]
+      }
+    },
+    {
+      "question": "Why does the trapped arm's isolation in Meathook create a defensive dilemma regardless of which player is considered?",
+      "answer": "Isolating one arm collapses the top player's base into an unstable triangular structure supported by only the free arm and the two legs, so weight distribution becomes asymmetric and easy to steer. Every direction the trapped side can move to relieve the pressure opens a different line of attack: driving forward pushes the throat into choke range, pulling the arm up exposes the neck angle, and rotating the arm exposes the shoulder. This is the position's defining dynamic, that defensive movement in any direction improves the bottom player's angle. The dilemma exists because the geometry of a leg-isolated arm leaves no neutral escape direction.",
+      "answer_line": "Any direction taken opens an attack",
+      "distractors": {
+        "plausible": [
+          "Staying still is always safest",
+          "Only forward movement is risky"
+        ],
+        "trap": [
+          "Pull straight up is always safe"
+        ]
+      }
+    },
+    {
+      "question": "How does the hip angle between the two players govern what the Meathook configuration can become?",
+      "answer": "Because the shin hook anchors the trapped arm while the legs retain guard connection, the relative hip angle acts as a steering mechanism for the whole position. Rotating the hips perpendicular aligns the leg for a triangle path, squaring back toward the opponent aligns the shin toward the throat, and rotating away exposes the shoulder line. The angle is a shared axis of contention: one player rotates the hips to open a finishing line while the other resists to deny it. This is why static hips neutralize the position for both sides, since alignment, not grip strength, determines what is available.",
+      "answer_line": "Hip angle steers which attack opens",
+      "distractors": {
+        "plausible": [
+          "Grip strength decides the attack",
+          "Leg strength decides the attack"
+        ],
+        "trap": [
+          "Keep hips squared no matter what"
+        ]
+      }
+    },
+    {
+      "question": "What flexibility and range-of-motion demands make Meathook mechanically distinct from conventional guards?",
+      "answer": "Meathook requires bringing the shin over the opponent's shoulder while simultaneously keeping the hips connected in a guard structure, a combined range that most conventional guards never ask for. This demands deep hip flexion and hamstring length well beyond what closed guard or half guard require, which is why the position is associated with the 10th Planet system's flexibility emphasis. Without adequate range, the hook cannot reach past the shoulder line and the isolation fails, so the configuration is physically inaccessible to some practitioners. This flexibility prerequisite is a structural feature of the position itself, not merely a matter of technique refinement.",
+      "answer_line": "Deep hip flexion is required",
+      "distractors": {
+        "plausible": [
+          "Shoulder mobility is required",
+          "Core strength is required"
+        ],
+        "trap": [
+          "Force it without stretching first"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "KN7ww-OyaxQ",
+      "title": "Meathook Options (MTS 202)",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 60,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "h6o7-9u4NHo",
+      "title": "Polishing the meathook",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "0w0642zFqWo",
+      "title": "Troubleshooting the meathook",
+      "by": "Brandon McCaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 61,
+      "verified": "2026-07-15"
+    }
+  ]
 }

@@ -142,6 +142,54 @@ description: "Complete defense guide against Rear Naked Choke from Rear Triangle
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Rear Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the Rear Naked Choke",
+      "description": "Rear Naked Choke from Rear Triangle (Defender) film study: Escaping the Rear Naked Choke, taught by Usher BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X1pU1OdFhtU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X1pU1OdFhtU",
+      "url": "https://www.youtube.com/watch?v=X1pU1OdFhtU",
+      "creator": { "@type": "Person", "name": "Usher BJJ" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the body triangle from the back",
+      "description": "Rear Naked Choke from Rear Triangle (Defender) film study: Escaping the body triangle from the back, taught by Jiu-Jitsu Times.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ALOnfwB5yGQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ALOnfwB5yGQ",
+      "url": "https://www.youtube.com/watch?v=ALOnfwB5yGQ",
+      "creator": { "@type": "Person", "name": "Jiu-Jitsu Times" },
+      "duration": "PT216S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Best way to escape the body triangle",
+      "description": "Rear Naked Choke from Rear Triangle (Defender) film study: Best way to escape the body triangle, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RscLPT0F-DE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RscLPT0F-DE",
+      "url": "https://www.youtube.com/watch?v=RscLPT0F-DE",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT595S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +200,42 @@ Defending the RNC from rear triangle is among the most challenging defensive sce
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Rear Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X1pU1OdFhtU)
+
+<p class="clip-credit"><strong>Escaping the Rear Naked Choke</strong> — taught by Usher BJJ · 1:29 · <a href="https://www.youtube.com/watch?v=X1pU1OdFhtU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ALOnfwB5yGQ)
+
+<p class="clip-credit"><strong>Escaping the body triangle from the back</strong> — taught by Jiu-Jitsu Times · 3:36 · <a href="https://www.youtube.com/watch?v=ALOnfwB5yGQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RscLPT0F-DE)
+
+<p class="clip-credit"><strong>Best way to escape the body triangle</strong> — taught by Gordon Ryan · 9:55 · <a href="https://www.youtube.com/watch?v=RscLPT0F-DE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

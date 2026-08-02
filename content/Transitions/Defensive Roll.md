@@ -34,6 +34,43 @@ description: "Learn the Defensive Roll escape from Twister Control. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Defensive Roll \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister entry from turtle",
+      "description": "Defensive Roll film study: Twister entry from turtle, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RVr67Kb-6ec/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RVr67Kb-6ec",
+      "url": "https://www.youtube.com/watch?v=RVr67Kb-6ec",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside roll escape from turtle",
+      "description": "Defensive Roll film study: Inside roll escape from turtle, taught by Kenny Lester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/923eYpD1E58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/923eYpD1E58",
+      "url": "https://www.youtube.com/watch?v=923eYpD1E58",
+      "creator": { "@type": "Person", "name": "Kenny Lester" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ From a biomechanical perspective, the Defensive Roll works by accepting and then
 Strategically, this escape must be initiated at the correct moment in the Twister Control sequence. Attempting the roll too early, before the opponent has committed to their controls, allows them to easily readjust. Waiting too long means the spinal rotation is too severe and the escape window has closed. The ideal timing is when the opponent is transitioning their grip to hunt for the Twister finish, as this creates a brief window where their leg control may momentarily weaken. Success requires commitment to the rolling direction and immediate follow-through to a defensive position such as Turtle or Half Guard retention.
 
 **From Position**: [[Positions/Twister Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 30%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Defensive Roll in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RVr67Kb-6ec)
+
+<p class="clip-credit"><strong>Twister entry from turtle</strong> — taught by Thunderdome BJJ · 0:24 · <a href="https://www.youtube.com/watch?v=RVr67Kb-6ec" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=923eYpD1E58)
+
+<p class="clip-credit"><strong>Inside roll escape from turtle</strong> — taught by Kenny Lester · 2:38 · <a href="https://www.youtube.com/watch?v=923eYpD1E58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Defensive Roll",
-      "text": "From this position, attempt Defensive Roll. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Defensive Roll. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Explosive Bridge to Turtle",
-      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Guard",
-      "text": "From this position, attempt Roll to Guard. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Recovery from Crucifix",
-      "text": "From this position, attempt Arm Recovery from Crucifix. This technique is attempted in 43% of exchanges from this position.",
+      "text": "From this position, attempt Arm Recovery from Crucifix. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple crucifix escape",
+      "description": "Crucifix (Bottom) film study: Simple crucifix escape, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wrg5Tx-88yM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wrg5Tx-88yM",
+      "url": "https://www.youtube.com/watch?v=Wrg5Tx-88yM",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the mounted crucifix",
+      "description": "Crucifix (Bottom) film study: Escaping the mounted crucifix, taught by Shem Rock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/41koUZWmeHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/41koUZWmeHE",
+      "url": "https://www.youtube.com/watch?v=41koUZWmeHE",
+      "creator": { "@type": "Person", "name": "Shem Rock" },
+      "duration": "PT146S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ From a positional hierarchy standpoint, Crucifix Bottom sits near the absolute b
 Survival from this position requires immediate recognition, calm systematic defense, and precise technical execution under extreme pressure. The window for escape narrows rapidly as the top player consolidates control and advances toward submissions. Understanding the hierarchy of threats, maintaining defensive posture of the neck and remaining free arm, and executing precise escape sequences represent the core competencies required for position recovery. Competition statistics show that practitioners who recognize crucifix entry early and act decisively have significantly higher escape rates than those who allow full consolidation of the position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wrg5Tx-88yM)
+
+<p class="clip-credit"><strong>Simple crucifix escape</strong> — taught by Coach Brian · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=41koUZWmeHE)
+
+<p class="clip-credit"><strong>Escaping the mounted crucifix</strong> — taught by Shem Rock · 2:26 · <a href="https://www.youtube.com/watch?v=41koUZWmeHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

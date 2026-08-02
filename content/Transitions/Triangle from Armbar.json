@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Triangle Control/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Triangle from Armbar is a submission-chain transition that weaponizes the opponent's armbar defense—clasped hands, bent arm, or forward stacking—by swinging a leg behind their neck to convert a stalled armbar into a locked triangle choke.",
   "overview": "The Triangle from Armbar represents a fundamental submission chain transition that capitalizes on defensive reactions to armbar control. When an opponent defends the armbar by clasping their hands, bending the trapped arm, or stacking forward, they inadvertently position their head and one arm in a configuration vulnerable to triangle entry. This transition exploits the principle that every defensive action creates a new offensive opportunity, transforming a stalled armbar into an immediate choking threat.\n\nThe mechanics of this transition center on leg reconfiguration while maintaining arm control. The attacker swings the far-side leg from across the opponent's face to behind their neck, creating the triangular leg structure around the head and one trapped arm. The critical challenge lies in maintaining sufficient control during the transition window—the brief period where legs are unlocked from armbar position but not yet locked in triangle configuration. Skilled practitioners minimize this window through explosive hip movement and unwavering grip control on the opponent's arm.\n\nStrategically, the Triangle from Armbar serves as a cornerstone of the armbar-triangle-omoplata submission chain. Its existence forces the armbar defender into a perpetual dilemma: the defensive postures that prevent the armbar finish directly expose the triangle entry. Advanced practitioners use this transition not merely as a backup plan when the armbar fails, but as a deliberate forcing mechanism—attacking the armbar specifically to provoke the defensive reaction that opens the triangle. This creates a layered offensive system where each attack reinforces the others, making the combined threat far greater than any single submission alone.",
   "conditions": [
@@ -252,46 +264,175 @@
     "flashcards": [
       {
         "question": "Your opponent defends the armbar by clasping their hands together tightly—what specifically creates the triangle opportunity from this defensive posture?",
-        "answer": "Clasped hands defense requires the opponent to bend their trapped arm and bring their head forward and down toward your hips to create the structural connection between their hands. This broken posture positions their head within reach of your legs for the triangle, while the clasped hands mean one arm is already trapped across their centerline. The defensive posture that protects the elbow simultaneously exposes the neck—the clasped hands cannot simultaneously defend both the armbar extension and the triangle entry."
+        "answer": "Clasped hands defense requires the opponent to bend their trapped arm and bring their head forward and down toward your hips to create the structural connection between their hands. This broken posture positions their head within reach of your legs for the triangle, while the clasped hands mean one arm is already trapped across their centerline. The defensive posture that protects the elbow simultaneously exposes the neck—the clasped hands cannot simultaneously defend both the armbar extension and the triangle entry.",
+        "answer_line": "Bent arm pulls head to your hips",
+        "distractors": {
+          "plausible": [
+            "Clasped hands trap both arms",
+            "Grip fatigue eventually breaks it"
+          ],
+          "trap": [
+            "Wait for the clasp to loosen"
+          ]
+        }
       },
       {
         "question": "What is the single most critical element you must maintain throughout the entire leg reconfiguration phase?",
-        "answer": "Grip control on the opponent's trapped arm at the wrist or forearm. This grip is the non-negotiable anchor of the transition because it serves three functions simultaneously: it prevents the opponent from retracting the arm (which would eliminate the triangle entry), it maintains arm isolation for the potential armbar if the triangle fails, and it ensures one arm stays inside the triangle configuration as you lock your legs. Losing this grip during the transition window is the primary cause of failed triangle-from-armbar attempts."
+        "answer": "Grip control on the opponent's trapped arm at the wrist or forearm. This grip is the non-negotiable anchor of the transition because it serves three functions simultaneously: it prevents the opponent from retracting the arm (which would eliminate the triangle entry), it maintains arm isolation for the potential armbar if the triangle fails, and it ensures one arm stays inside the triangle configuration as you lock your legs. Losing this grip during the transition window is the primary cause of failed triangle-from-armbar attempts.",
+        "answer_line": "Never release the wrist grip",
+        "distractors": {
+          "plausible": [
+            "Keep hips squared to opponent",
+            "Watch their free hand closely"
+          ],
+          "trap": [
+            "Switch grip to their collar"
+          ]
+        }
       },
       {
         "question": "During the leg swing, your opponent begins posturing up explosively—how do you adjust your approach?",
-        "answer": "If posture recovery begins before your leg has cleared their head, abort the triangle attempt and immediately reclose your legs in the armbar configuration. Fighting a half-completed triangle against explosive posture recovery typically results in losing the position entirely. If your leg has already cleared and is behind their neck, accelerate the lock by pulling their head down with your free hand while closing the triangle—their posture recovery actually drives their neck deeper into the triangle if timed correctly. The decision point is whether the leg has cleared the head or not."
+        "answer": "If posture recovery begins before your leg has cleared their head, abort the triangle attempt and immediately reclose your legs in the armbar configuration. Fighting a half-completed triangle against explosive posture recovery typically results in losing the position entirely. If your leg has already cleared and is behind their neck, accelerate the lock by pulling their head down with your free hand while closing the triangle—their posture recovery actually drives their neck deeper into the triangle if timed correctly. The decision point is whether the leg has cleared the head or not.",
+        "answer_line": "Leg not clear yet? Reclose armbar",
+        "distractors": {
+          "plausible": [
+            "Always finish the leg swing",
+            "Switch straight to omoplata"
+          ],
+          "trap": [
+            "Release grip and reshoot takedown"
+          ]
+        }
       },
       {
         "question": "What angle should your body achieve relative to your opponent after locking the triangle, and why is this specific geometry essential?",
-        "answer": "Your body should be angled 30-45 degrees off the opponent's centerline, with your choking leg's knee pointing toward their trapped shoulder. This angle is essential because it aligns the compression surfaces of your legs with the carotid arteries on both sides of the opponent's neck. A parallel position produces shoulder-to-shoulder pressure that the opponent can endure indefinitely, while the perpendicular angle creates the diagonal compression vector across the neck that restricts blood flow to the brain. The angle is the difference between an annoying squeeze and an effective choke."
+        "answer": "Your body should be angled 30-45 degrees off the opponent's centerline, with your choking leg's knee pointing toward their trapped shoulder. This angle is essential because it aligns the compression surfaces of your legs with the carotid arteries on both sides of the opponent's neck. A parallel position produces shoulder-to-shoulder pressure that the opponent can endure indefinitely, while the perpendicular angle creates the diagonal compression vector across the neck that restricts blood flow to the brain. The angle is the difference between an annoying squeeze and an effective choke.",
+        "answer_line": "30-45° angle, knee toward shoulder",
+        "distractors": {
+          "plausible": [
+            "Stay squared to their centerline",
+            "Angle away from the trapped arm"
+          ],
+          "trap": [
+            "Flatten out and squeeze harder"
+          ]
+        }
       },
       {
         "question": "Your opponent stacks forward aggressively after you lock the triangle—what is your tactical response?",
-        "answer": "Use the forward drive by angling your hips to the side and pulling their head down with both hands to prevent them from achieving full stack. If the stack is powerful enough to lift your hips off the mat, transition to omoplata by releasing the triangle lock and pivoting your hips toward the trapped arm side—their forward stack actually creates the perfect angle for omoplata entry. You can also consider sweeping to mounted triangle by timing a hip bump during their forward drive. The worst response is to simply squeeze harder against the stack, which wastes leg energy without stopping the positional deterioration."
+        "answer": "Use the forward drive by angling your hips to the side and pulling their head down with both hands to prevent them from achieving full stack. If the stack is powerful enough to lift your hips off the mat, transition to omoplata by releasing the triangle lock and pivoting your hips toward the trapped arm side—their forward stack actually creates the perfect angle for omoplata entry. You can also consider sweeping to mounted triangle by timing a hip bump during their forward drive. The worst response is to simply squeeze harder against the stack, which wastes leg energy without stopping the positional deterioration.",
+        "answer_line": "Angle hips, pull head down",
+        "distractors": {
+          "plausible": [
+            "Post both hands to stop stack",
+            "Transition straight to omoplata"
+          ],
+          "trap": [
+            "Squeeze harder against the stack"
+          ]
+        }
       },
       {
         "question": "Which grip configuration should you use on the trapped arm, and how does it change between the armbar phase and the triangle phase?",
-        "answer": "During the armbar phase, use a two-handed grip controlling the wrist with thumbs on the inside of the forearm. As you initiate the triangle transition, transfer primary control to the lead hand (closest to the wrist) with a firm C-grip around the wrist. After the triangle locks, your grip priority shifts: use one hand to pull the trapped arm diagonally across the opponent's throat, and the other hand to grip behind their head and pull it down. The arm grip transitions from isolation-focused (armbar) to amplification-focused (using the arm as a choking bar inside the triangle)."
+        "answer": "During the armbar phase, use a two-handed grip controlling the wrist with thumbs on the inside of the forearm. As you initiate the triangle transition, transfer primary control to the lead hand (closest to the wrist) with a firm C-grip around the wrist. After the triangle locks, your grip priority shifts: use one hand to pull the trapped arm diagonally across the opponent's throat, and the other hand to grip behind their head and pull it down. The arm grip transitions from isolation-focused (armbar) to amplification-focused (using the arm as a choking bar inside the triangle).",
+        "answer_line": "Wrist control, then arm as choke bar",
+        "distractors": {
+          "plausible": [
+            "Keep two-hand wrist grip throughout",
+            "Palm-up wrist grip for both phases"
+          ],
+          "trap": [
+            "Free the arm, then lock the choke"
+          ]
+        }
       },
       {
         "question": "The opponent pulls their trapped arm partially free during your leg swing—what are your options?",
-        "answer": "If the arm is partially free but still between your legs, clamp your knees together on whatever portion remains accessible while accelerating the triangle lock—even partial arm entrapment inside a locked triangle creates significant choking pressure. If the arm escapes beyond your legs entirely, immediately transition to a back take by using the momentum of your swinging leg to hook their far hip and begin rotating to their back. The worst option is to chase the retreating arm with your hands, which sacrifices positional control for a grip you likely cannot reestablish. A locked triangle with the arm outside can still be finished by pulling the arm back in, so prioritize the leg lock first."
+        "answer": "If the arm is partially free but still between your legs, clamp your knees together on whatever portion remains accessible while accelerating the triangle lock—even partial arm entrapment inside a locked triangle creates significant choking pressure. If the arm escapes beyond your legs entirely, immediately transition to a back take by using the momentum of your swinging leg to hook their far hip and begin rotating to their back. The worst option is to chase the retreating arm with your hands, which sacrifices positional control for a grip you likely cannot reestablish. A locked triangle with the arm outside can still be finished by pulling the arm back in, so prioritize the leg lock first.",
+        "answer_line": "Clamp knees on it, finish the lock",
+        "distractors": {
+          "plausible": [
+            "Abandon lock, take the back",
+            "Pull the arm back in before locking"
+          ],
+          "trap": [
+            "Chase the retreating arm with hands"
+          ]
+        }
       },
       {
         "question": "What is the primary biomechanical difference between entering a triangle from armbar control versus from closed guard?",
-        "answer": "From armbar control, your legs already have an elevated starting position across the opponent's upper body, which means the leg swing to triangle requires a shorter arc and less hip flexibility compared to the closed guard entry where legs must be raised from a flat starting position. Additionally, from armbar control the opponent typically already has one arm isolated and their posture broken—two prerequisites that must be actively created from closed guard. The trade-off is that armbar control gives you less hip angle mobility since your body is already configured perpendicular to theirs, requiring adjustment after the triangle locks rather than during entry."
+        "answer": "From armbar control, your legs already have an elevated starting position across the opponent's upper body, which means the leg swing to triangle requires a shorter arc and less hip flexibility compared to the closed guard entry where legs must be raised from a flat starting position. Additionally, from armbar control the opponent typically already has one arm isolated and their posture broken—two prerequisites that must be actively created from closed guard. The trade-off is that armbar control gives you less hip angle mobility since your body is already configured perpendicular to theirs, requiring adjustment after the triangle locks rather than during entry.",
+        "answer_line": "Shorter arc, arm already isolated",
+        "distractors": {
+          "plausible": [
+            "Needs more hip flexibility here",
+            "Identical entry mechanics as guard"
+          ],
+          "trap": [
+            "Best hip angle mobility of any entry"
+          ]
+        }
       },
       {
         "question": "How does the opponent's bent-arm armbar defense specifically facilitate the triangle entry from a mechanical standpoint?",
-        "answer": "When the opponent bends their trapped arm to defend the armbar, their forearm rotates across their own centerline toward their neck. This bent-arm position is precisely the trapped-arm configuration needed inside a triangle—the opponent's forearm is already positioned as a choking bar against their own throat. Simultaneously, bending the arm draws their shoulder and head closer to your hips, reducing the distance your leg must travel to reach behind their neck. In essence, the bent-arm defense transforms the arm from an armbar target into a triangle amplifier while bringing the neck into range for your legs."
+        "answer": "When the opponent bends their trapped arm to defend the armbar, their forearm rotates across their own centerline toward their neck. This bent-arm position is precisely the trapped-arm configuration needed inside a triangle—the opponent's forearm is already positioned as a choking bar against their own throat. Simultaneously, bending the arm draws their shoulder and head closer to your hips, reducing the distance your leg must travel to reach behind their neck. In essence, the bent-arm defense transforms the arm from an armbar target into a triangle amplifier while bringing the neck into range for your legs.",
+        "answer_line": "Forearm becomes the choking bar",
+        "distractors": {
+          "plausible": [
+            "Straightens arm for extension",
+            "Pulls their shoulder from your hips"
+          ],
+          "trap": [
+            "Frees the arm from the triangle"
+          ]
+        }
       },
       {
         "question": "What physical sensation confirms that your triangle is locked tightly enough to begin the finishing sequence?",
-        "answer": "You should feel bilateral compression against both sides of the opponent's neck through your legs, with the back of one knee seated firmly on the nape of the neck. The opponent's head should feel heavy and controlled, unable to lift or turn significantly. Your lock (ankle behind knee) should feel secure with no slippage when you begin squeezing. You should also feel the opponent's trapped arm pressing into the side of their own neck. If you can feel the opponent's pulse through your inner thigh, you have correct carotid alignment. The final confirmation is that squeezing your knees together produces visible distress or defensive urgency from the opponent."
+        "answer": "You should feel bilateral compression against both sides of the opponent's neck through your legs, with the back of one knee seated firmly on the nape of the neck. The opponent's head should feel heavy and controlled, unable to lift or turn significantly. Your lock (ankle behind knee) should feel secure with no slippage when you begin squeezing. You should also feel the opponent's trapped arm pressing into the side of their own neck. If you can feel the opponent's pulse through your inner thigh, you have correct carotid alignment. The final confirmation is that squeezing your knees together produces visible distress or defensive urgency from the opponent.",
+        "answer_line": "Both sides of neck compressed",
+        "distractors": {
+          "plausible": [
+            "Only the arm-side squeezes",
+            "Windpipe pressure, not blood"
+          ],
+          "trap": [
+            "Loosen legs to reset the shin"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves swinging your leg over the opponent's head and locking it behind their neck. Always control the speed of your leg swing during drilling to avoid accidentally striking your training partner's face with your knee or shin. When the triangle is locked, apply choking pressure gradually and progressively to give your partner adequate time to recognize the choke and tap before blood flow restriction becomes dangerous. Be aware that the transition from armbar to triangle can momentarily stress the opponent's trapped arm in an awkward angle—maintain awareness of arm position throughout the reconfiguration to prevent unintended hyperextension. In training, establish clear tap signals and release immediately when your partner taps. The carotid compression from a properly locked triangle can cause unconsciousness in seconds, so never hold the choke after a tap."
+    "safety_considerations": "This transition involves swinging your leg over the opponent's head and locking it behind their neck. Always control the speed of your leg swing during drilling to avoid accidentally striking your training partner's face with your knee or shin. When the triangle is locked, apply choking pressure gradually and progressively to give your partner adequate time to recognize the choke and tap before blood flow restriction becomes dangerous. Be aware that the transition from armbar to triangle can momentarily stress the opponent's trapped arm in an awkward angle—maintain awareness of arm position throughout the reconfiguration to prevent unintended hyperextension. In training, establish clear tap signals and release immediately when your partner taps. The carotid compression from a properly locked triangle can cause unconsciousness in seconds, so never hold the choke after a tap.",
+    "clips": [
+      {
+        "id": "v83Z1VPihkc",
+        "title": "Armbar to omoplata to triangle choke chain",
+        "by": "Carlson Gracie Team CT",
+        "vertical": false,
+        "channel": "Carlson Gracie Team CT - CPBJJ",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kBvElUrBJng",
+        "title": "Armbar, triangle, omoplata attack chain",
+        "by": "Bushido Academy",
+        "vertical": false,
+        "channel": "Bushido Academy",
+        "duration": 27,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QjdJC4CdfOc",
+        "title": "Triangle off the armbar attempt",
+        "by": "opdogg20",
+        "vertical": false,
+        "channel": "opdogg20",
+        "duration": 102,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Triangle from Armbar Defender",
@@ -373,23 +514,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the attacker is transitioning from armbar to triangle?",
-        "answer": "The earliest cue is a change in the leg pressure across your face and neck. In armbar control, the attacker's legs create specific downward and inward pressure to control your upper body. When this pressure suddenly shifts, lifts, or releases—particularly if the far-side leg begins moving—it indicates the attacker is opening their leg configuration for the triangle transition. This leg movement precedes the grip change and arm repositioning, making it the first available signal for defensive response."
+        "answer": "The earliest cue is a change in the leg pressure across your face and neck. In armbar control, the attacker's legs create specific downward and inward pressure to control your upper body. When this pressure suddenly shifts, lifts, or releases—particularly if the far-side leg begins moving—it indicates the attacker is opening their leg configuration for the triangle transition. This leg movement precedes the grip change and arm repositioning, making it the first available signal for defensive response.",
+        "answer_line": "Leg pressure on your face shifts",
+        "distractors": {
+          "plausible": [
+            "Wrist grip suddenly tightens",
+            "Their hip position changes first"
+          ],
+          "trap": [
+            "Wait until the choke feels tight"
+          ]
+        }
       },
       {
         "question": "Why is the transition window between armbar and triangle your best defensive opportunity?",
-        "answer": "During the transition, the attacker must temporarily unlock their legs from armbar configuration before relocking in triangle configuration. This creates a brief period where their leg control over your upper body is significantly reduced—neither the armbar squeeze nor the triangle lock is active. Additionally, the attacker often transitions from a two-handed arm grip to a single-hand grip, further reducing their control. This convergence of reduced leg control and weakened grip creates a window where your posture recovery and arm extraction attempts face minimal resistance."
+        "answer": "During the transition, the attacker must temporarily unlock their legs from armbar configuration before relocking in triangle configuration. This creates a brief period where their leg control over your upper body is significantly reduced—neither the armbar squeeze nor the triangle lock is active. Additionally, the attacker often transitions from a two-handed arm grip to a single-hand grip, further reducing their control. This convergence of reduced leg control and weakened grip creates a window where your posture recovery and arm extraction attempts face minimal resistance.",
+        "answer_line": "Legs unlocked, grip weakened",
+        "distractors": {
+          "plausible": [
+            "Attacker is momentarily off balance",
+            "Attacker's base narrows briefly"
+          ],
+          "trap": [
+            "Push into the choke to rush past it"
+          ]
+        }
       },
       {
         "question": "How should you modify your armbar defense to simultaneously protect against the triangle transition?",
-        "answer": "Standard armbar defense (clasped hands with bent arm, head close to attacker's hips) creates ideal triangle entry conditions. To defend both threats simultaneously, maintain your arm defense but keep your head elevated with strong posture rather than allowing it to sink toward the attacker's hips. Use your free hand to control the attacker's far leg (the one that would swing for the triangle) rather than placing it purely for armbar defense. This dual-threat awareness forces the attacker to deal with your leg control before initiating the triangle transition, buying additional reaction time."
+        "answer": "Standard armbar defense (clasped hands with bent arm, head close to attacker's hips) creates ideal triangle entry conditions. To defend both threats simultaneously, maintain your arm defense but keep your head elevated with strong posture rather than allowing it to sink toward the attacker's hips. Use your free hand to control the attacker's far leg (the one that would swing for the triangle) rather than placing it purely for armbar defense. This dual-threat awareness forces the attacker to deal with your leg control before initiating the triangle transition, buying additional reaction time.",
+        "answer_line": "Keep head up, control far leg",
+        "distractors": {
+          "plausible": [
+            "Clasp your hands even tighter",
+            "Pull your elbow to your ribs"
+          ],
+          "trap": [
+            "Sink your head to their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent locks the triangle but has not yet adjusted the angle—what is your immediate tactical priority?",
-        "answer": "Immediately square your hips to the attacker's centerline and drive forward with stacking pressure. The triangle choke requires a 30-45 degree angle between the attacker's body and yours to achieve effective carotid compression. By squaring up and stacking before they can angle off, you neutralize the choking geometry even though the lock is established. From this squared, stacked position, work systematic triangle escapes: posture recovery, arm extraction, and eventually passing the guard. Time is critical because the attacker will actively fight to reestablish the angle."
+        "answer": "Immediately square your hips to the attacker's centerline and drive forward with stacking pressure. The triangle choke requires a 30-45 degree angle between the attacker's body and yours to achieve effective carotid compression. By squaring up and stacking before they can angle off, you neutralize the choking geometry even though the lock is established. From this squared, stacked position, work systematic triangle escapes: posture recovery, arm extraction, and eventually passing the guard. Time is critical because the attacker will actively fight to reestablish the angle.",
+        "answer_line": "Square hips and stack forward",
+        "distractors": {
+          "plausible": [
+            "Posture up straight immediately",
+            "Pull your trapped arm out first"
+          ],
+          "trap": [
+            "Relax and wait it out"
+          ]
+        }
       },
       {
         "question": "What is the risk of using your free hand to block the leg swing, and when is it worth taking?",
-        "answer": "Blocking the leg swing with your free hand removes that hand from its defensive role in the armbar escape. While your hand is occupied catching the attacker's shin, you lose the ability to create frames, assist in arm extraction, or maintain defensive posture against the armbar itself. The attacker may use this momentary gap to adjust their armbar grip and accelerate the finish on your trapped arm. However, this risk is worth taking when you have a strong armbar defense position (bent arm, clasped hands solid) and the leg swing is clearly initiating—preventing the triangle is often more valuable than maintaining redundant armbar defense, since the triangle from this position is typically a higher-percentage finish than the stalled armbar."
+        "answer": "Blocking the leg swing with your free hand removes that hand from its defensive role in the armbar escape. While your hand is occupied catching the attacker's shin, you lose the ability to create frames, assist in arm extraction, or maintain defensive posture against the armbar itself. The attacker may use this momentary gap to adjust their armbar grip and accelerate the finish on your trapped arm. However, this risk is worth taking when you have a strong armbar defense position (bent arm, clasped hands solid) and the leg swing is clearly initiating—preventing the triangle is often more valuable than maintaining redundant armbar defense, since the triangle from this position is typically a higher-percentage finish than the stalled armbar.",
+        "answer_line": "Hand leaves armbar defense open",
+        "distractors": {
+          "plausible": [
+            "Only works vs fast opponents",
+            "Weakens your far-hip frame"
+          ],
+          "trap": [
+            "Always block it, no downside"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -412,6 +603,35 @@
         "phase": "Phase 4: Prevention-Focused Sparring",
         "focus": "Modifying armbar defense to proactively prevent triangle entry",
         "description": "Positional sparring from armbar control. Defender focuses on escaping the armbar while actively preventing the triangle transition through head positioning, leg control, and posture management. Full resistance from both sides. Track how often the attacker successfully reaches triangle control versus how often the defender escapes to a neutral or advantageous position. Goal is preventing the triangle entry in 60%+ of attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zKieMBkGXxU",
+        "title": "Armbar defense with stack escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zwjI3DYP6Z0",
+        "title": "Armbar and triangle escapes",
+        "by": "Athlas Training Team",
+        "vertical": false,
+        "channel": "ATHLAS TRAINING TEAM",
+        "duration": 212,
+        "verified": "2026-07-15"
       }
     ]
   }

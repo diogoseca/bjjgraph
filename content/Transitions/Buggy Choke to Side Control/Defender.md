@@ -148,6 +148,43 @@ description: "How to defend against Buggy Choke to Side Control in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke to Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turkish Get-Up escape from bottom side control",
+      "description": "Buggy Choke to Side Control (Defender) film study: Turkish Get-Up escape from bottom side control, taught by Dirtball BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mBFVriM0ojQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mBFVriM0ojQ",
+      "url": "https://www.youtube.com/watch?v=mBFVriM0ojQ",
+      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side Control Escape to Coyote",
+      "description": "Buggy Choke to Side Control (Defender) film study: Side Control Escape to Coyote, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zQgPda7qx1k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zQgPda7qx1k",
+      "url": "https://www.youtube.com/watch?v=zQgPda7qx1k",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Defenders must also understand the positional hierarchy at play. Accepting turtl
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke to Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mBFVriM0ojQ)
+
+<p class="clip-credit"><strong>Turkish Get-Up escape from bottom side control</strong> — taught by Dirtball BJJ · 1:04 · <a href="https://www.youtube.com/watch?v=mBFVriM0ojQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zQgPda7qx1k)
+
+<p class="clip-credit"><strong>Side Control Escape to Coyote</strong> — taught by Carpio Jiu Jitsu · 1:38 · <a href="https://www.youtube.com/watch?v=zQgPda7qx1k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

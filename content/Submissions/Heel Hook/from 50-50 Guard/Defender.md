@@ -150,6 +150,54 @@ description: "Defend against the heel hook from 50-50 Guard. Recognition cues, h
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from 50-50 Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel hook escape from 50/50",
+      "description": "Heel Hook from 50-50 Guard (Defender) film study: Heel hook escape from 50/50, taught by Caio Terra Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pGfZotHVstE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pGfZotHVstE",
+      "url": "https://www.youtube.com/watch?v=pGfZotHVstE",
+      "creator": { "@type": "Person", "name": "Caio Terra Academy" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter the 50/50 heel hook with a wristlock",
+      "description": "Heel Hook from 50-50 Guard (Defender) film study: Counter the 50/50 heel hook with a wristlock, taught by Whangarei BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_hyZqLRwsWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_hyZqLRwsWE",
+      "url": "https://www.youtube.com/watch?v=_hyZqLRwsWE",
+      "creator": { "@type": "Person", "name": "Whangarei BJJ" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending heel hooks",
+      "description": "Heel Hook from 50-50 Guard (Defender) film study: Defending heel hooks, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
+      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the heel hook from 50-50 Guard requires immediate recognition and prio
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from 50-50 Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pGfZotHVstE)
+
+<p class="clip-credit"><strong>Heel hook escape from 50/50</strong> — taught by Caio Terra Academy · 0:59 · <a href="https://www.youtube.com/watch?v=pGfZotHVstE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_hyZqLRwsWE)
+
+<p class="clip-credit"><strong>Counter the 50/50 heel hook with a wristlock</strong> — taught by Whangarei BJJ · 1:01 · <a href="https://www.youtube.com/watch?v=_hyZqLRwsWE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+
+<p class="clip-credit"><strong>Defending heel hooks</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

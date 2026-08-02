@@ -263,65 +263,195 @@
     "transitions": [
       {
         "transition": "Guillotine Choke from Hindulotine",
-        "attempt_probability": 42
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 25
+        }
       },
       {
         "transition": "Back Take from Top",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
       },
       {
         "transition": "Front Headlock to Back",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Snap Down to Front Headlock",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 10
+        }
       },
       {
         "transition": "Hindulotine from Hindulotine",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 17
+        }
       },
       {
         "transition": "Finish from Hindulotine",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       },
       {
         "transition": "Arm Triangle from Hindulotine",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What weight distribution maintains maximum choking pressure while preventing sweeps from top Hindulotine?",
-        "answer": "Distribute weight through your hips and chest onto opponent's upper back while maintaining a wide base with at least one leg posted far from your body. Your weight should angle forward and downward through the grip rather than sitting back, using gravity to assist the choke while the wide base prevents roll attempts."
+        "answer": "Distribute weight through your hips and chest onto opponent's upper back while maintaining a wide base with at least one leg posted far from your body. Your weight should angle forward and downward through the grip rather than sitting back, using gravity to assist the choke while the wide base prevents roll attempts.",
+        "answer_line": "Forward hip weight, wide base",
+        "distractors": {
+          "plausible": [
+            "Weight on chest, narrow base",
+            "Squeeze grip, sit back slightly"
+          ],
+          "trap": [
+            "Sit back, both legs tucked in"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to stand up from bottom while you have top Hindulotine locked - what adjustment do you make?",
-        "answer": "Follow their rise while maintaining the grip, transitioning to a standing guillotine position. As they stand, drop your hips and pull downward on the neck to break their posture back down. If they achieve full standing, either finish the standing guillotine or snap them back down to front headlock control."
+        "answer": "Follow their rise while maintaining the grip, transitioning to a standing guillotine position. As they stand, drop your hips and pull downward on the neck to break their posture back down. If they achieve full standing, either finish the standing guillotine or snap them back down to front headlock control.",
+        "answer_line": "Follow rise, drop hips, pull down",
+        "distractors": {
+          "plausible": [
+            "Release grip, re-shoot takedown",
+            "Stay low, block the stand-up"
+          ],
+          "trap": [
+            "Hang on with straight arms"
+          ]
+        }
       },
       {
         "question": "What are the essential grip mechanics for maintaining top Hindulotine control?",
-        "answer": "Secure a gable grip or chin strap configuration with your choking arm blade positioned high under opponent's chin. Your wrist should create pressure on the carotid, not the trachea. Lock your hands tightly and use your entire body to maintain pressure rather than squeezing with arms alone."
+        "answer": "Secure a gable grip or chin strap configuration with your choking arm blade positioned high under opponent's chin. Your wrist should create pressure on the carotid, not the trachea. Lock your hands tightly and use your entire body to maintain pressure rather than squeezing with arms alone.",
+        "answer_line": "High forearm blade under chin",
+        "distractors": {
+          "plausible": [
+            "Chin strap low on the throat",
+            "Squeeze hard with arm strength"
+          ],
+          "trap": [
+            "Grip low across the trachea"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary escape where opponent tries to roll through your control?",
-        "answer": "Maintain a wide tripod base with your legs, keeping one leg posted far to the side opponent wants to roll toward. When they initiate the roll, drive your hip into their shoulder on the rolling side and sprawl your weight backward while maintaining the grip. The wide base removes their mechanical advantage for the roll."
+        "answer": "Maintain a wide tripod base with your legs, keeping one leg posted far to the side opponent wants to roll toward. When they initiate the roll, drive your hip into their shoulder on the rolling side and sprawl your weight backward while maintaining the grip. The wide base removes their mechanical advantage for the roll.",
+        "answer_line": "Wide tripod base, post far leg",
+        "distractors": {
+          "plausible": [
+            "Square base, hips centered",
+            "Chase the roll as it happens"
+          ],
+          "trap": [
+            "Narrow base, both knees in"
+          ]
+        }
       },
       {
         "question": "What grip adjustment increases finishing pressure without releasing control when opponent tucks their chin?",
-        "answer": "Walk your choking arm higher on their neck by making small incremental adjustments while maintaining constant pressure. Simultaneously angle your hips more perpendicular to their spine and pull your elbow toward your opposite hip. This creates rotational torque that works around the chin tuck defense."
+        "answer": "Walk your choking arm higher on their neck by making small incremental adjustments while maintaining constant pressure. Simultaneously angle your hips more perpendicular to their spine and pull your elbow toward your opposite hip. This creates rotational torque that works around the chin tuck defense.",
+        "answer_line": "Walk grip higher, pull elbow across",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder, same grip spot",
+            "Switch to a different choke"
+          ],
+          "trap": [
+            "Yank straight back hard"
+          ]
+        }
       },
       {
         "question": "Your opponent creates a defensive frame with their near-side arm - how do you capitalize on this reaction?",
-        "answer": "The frame creates space for a darce transition. Thread your choking arm deeper across their neck and under their near armpit, then lock a figure-four grip. Walk your hips toward their head while maintaining pressure. The frame they created becomes trapped against their own neck, tightening the choke."
+        "answer": "The frame creates space for a darce transition. Thread your choking arm deeper across their neck and under their near armpit, then lock a figure-four grip. Walk your hips toward their head while maintaining pressure. The frame they created becomes trapped against their own neck, tightening the choke.",
+        "answer_line": "Thread arm deep, lock darce grip",
+        "distractors": {
+          "plausible": [
+            "Strip the frame, reset grip",
+            "Push through, keep same choke"
+          ],
+          "trap": [
+            "Release choke to fight frame"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during an extended top Hindulotine control sequence?",
-        "answer": "Rely on skeletal structure and body positioning rather than muscular tension. Let your body weight create pressure through proper hip angle rather than squeezing with arms. Make micro-adjustments rather than large movements. Use your legs for base and control, saving grip strength for maintaining the lock rather than active squeezing."
+        "answer": "Rely on skeletal structure and body positioning rather than muscular tension. Let your body weight create pressure through proper hip angle rather than squeezing with arms. Make micro-adjustments rather than large movements. Use your legs for base and control, saving grip strength for maintaining the lock rather than active squeezing.",
+        "answer_line": "Use structure, not muscle squeeze",
+        "distractors": {
+          "plausible": [
+            "Grip tight, hold constant tension",
+            "Big adjustments to reset angle"
+          ],
+          "trap": [
+            "Squeeze max force continuously"
+          ]
+        }
       },
       {
         "question": "Your opponent partially extracts their head and begins recovering posture - how do you recover the position?",
-        "answer": "Immediately snap their head back down before they achieve full posture by pulling with your grip while sprawling your hips back. If they get significant posture, release the guillotine attempt and transition to front headlock control to reset. Chasing a lost guillotine wastes energy - better to control and re-establish."
+        "answer": "Immediately snap their head back down before they achieve full posture by pulling with your grip while sprawling your hips back. If they get significant posture, release the guillotine attempt and transition to front headlock control to reset. Chasing a lost guillotine wastes energy - better to control and re-establish.",
+        "answer_line": "Snap head down before full posture",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder to stop extraction",
+            "Let go and stand clear to reset"
+          ],
+          "trap": [
+            "Keep chasing the slipping choke"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "i9rAyo8tRZw",
+        "title": "Hindulotine Breakdown",
+        "by": "Cordesgains BJJ",
+        "vertical": false,
+        "channel": "CordesgainsBJJ",
+        "duration": 87,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "YbOV4vESByc",
+        "title": "Hindulotine Submission Breakdown",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 97,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "NqAXUtNqYLk",
+        "title": "Two Hindulotines From ADCC Trials",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Ben Eddy Bravo",
+        "duration": 85,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -526,78 +656,351 @@
     "transitions": [
       {
         "transition": "Guillotine Choke from Hindulotine",
-        "attempt_probability": 30
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 24
+        }
       },
       {
         "transition": "Hindulotine to Darce Choke",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Hindulotine to Anaconda Choke",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
       },
       {
         "transition": "Back Take from Bottom",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
       },
       {
         "transition": "High Elbow Guillotine Variation",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
       },
       {
         "transition": "Butterfly Sweep with Guillotine",
-        "attempt_probability": 19
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Guard Recovery from Hindulotine",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 9
+        }
       },
       {
         "transition": "Arm Triangle Transition",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Sweep to Mount",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 6
+        }
       },
       {
         "transition": "High Elbow Guillotine from Hindulotine",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 8
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What hip angle creates maximum rotational pressure from bottom Hindulotine?",
-        "answer": "Position your hips at approximately 45-90 degrees perpendicular to opponent's spine rather than directly underneath them. This angle allows your core rotation to generate torque on the neck rather than relying on pulling straight back. The further you angle your hips toward their choking-arm side, the more rotational pressure you create."
+        "answer": "Position your hips at approximately 45-90 degrees perpendicular to opponent's spine rather than directly underneath them. This angle allows your core rotation to generate torque on the neck rather than relying on pulling straight back. The further you angle your hips toward their choking-arm side, the more rotational pressure you create.",
+        "answer_line": "45-90 degrees off their spine",
+        "distractors": {
+          "plausible": [
+            "Square hips, pull straight back",
+            "Slight angle, mostly flat back"
+          ],
+          "trap": [
+            "Flat on back, hips square"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving forward to stack and flatten you - what adjustment maintains your attacking position?",
-        "answer": "Use butterfly hooks or open your guard and plant your feet to create elevation under their hips. As they drive forward, load their weight onto your hooks and execute a butterfly sweep while maintaining the guillotine grip. Their forward pressure becomes the energy for the sweep, and you finish in mount with the choke still locked."
+        "answer": "Use butterfly hooks or open your guard and plant your feet to create elevation under their hips. As they drive forward, load their weight onto your hooks and execute a butterfly sweep while maintaining the guillotine grip. Their forward pressure becomes the energy for the sweep, and you finish in mount with the choke still locked.",
+        "answer_line": "Butterfly hooks, sweep off drive",
+        "distractors": {
+          "plausible": [
+            "Pull guard tighter to chest",
+            "Post hands, wait it out"
+          ],
+          "trap": [
+            "Flatten out, absorb pressure"
+          ]
+        }
       },
       {
         "question": "What are the essential grip configurations for maintaining bottom Hindulotine control?",
-        "answer": "Use either a gable grip with palms together or a chin strap where your choking hand grabs your opposite bicep. The blade of your wrist or forearm must be positioned high under opponent's chin, not on their throat. Your non-choking arm reinforces the grip while your elbows stay tight to prevent opponent from creating defensive space."
+        "answer": "Use either a gable grip with palms together or a chin strap where your choking hand grabs your opposite bicep. The blade of your wrist or forearm must be positioned high under opponent's chin, not on their throat. Your non-choking arm reinforces the grip while your elbows stay tight to prevent opponent from creating defensive space.",
+        "answer_line": "Gable or chin strap, high blade",
+        "distractors": {
+          "plausible": [
+            "Low grip near collarbone",
+            "One-handed grip, wrist control"
+          ],
+          "trap": [
+            "Grip on throat, elbows flared"
+          ]
+        }
       },
       {
         "question": "How do you prevent the Von Flue counter when holding bottom Hindulotine?",
-        "answer": "Keep your hips angled rather than flat on your back, which prevents opponent from driving shoulder pressure into your neck. Maintain closed guard or active butterfly hooks to control their hip movement. If they begin positioning for the Von Flue, immediately adjust your hip angle away from their pressure or transition to a sweep."
+        "answer": "Keep your hips angled rather than flat on your back, which prevents opponent from driving shoulder pressure into your neck. Maintain closed guard or active butterfly hooks to control their hip movement. If they begin positioning for the Von Flue, immediately adjust your hip angle away from their pressure or transition to a sweep.",
+        "answer_line": "Angle hips, don't lie flat",
+        "distractors": {
+          "plausible": [
+            "Squeeze choke tighter, stay flat",
+            "Push their shoulder away"
+          ],
+          "trap": [
+            "Lie flat, trust closed guard"
+          ]
+        }
       },
       {
         "question": "What leg configuration provides the best control against an opponent trying to posture and circle out?",
-        "answer": "Closed guard provides the strongest hip control against circling, but limits your angle adjustment ability. For more dynamic control, use butterfly hooks with your feet hooked inside their thighs, allowing you to follow their movement while restricting their posture. One hook high on the hip with the opposite foot posted can block circling while maintaining sweep threat."
+        "answer": "Closed guard provides the strongest hip control against circling, but limits your angle adjustment ability. For more dynamic control, use butterfly hooks with your feet hooked inside their thighs, allowing you to follow their movement while restricting their posture. One hook high on the hip with the opposite foot posted can block circling while maintaining sweep threat.",
+        "answer_line": "Butterfly hooks, follow their hips",
+        "distractors": {
+          "plausible": [
+            "Closed guard only, hold tight",
+            "Flat feet on mat, no hooks"
+          ],
+          "trap": [
+            "Open guard, no hip contact"
+          ]
+        }
       },
       {
         "question": "Your opponent turns their body away to relieve choking pressure - how do you capitalize on this movement?",
-        "answer": "Their turn exposes their back. Release the guillotine grip and immediately establish a seat belt control, with your choking arm becoming the over-hook arm across their chest. Hook your legs for back control as they complete their turn. The turn that escapes the guillotine delivers them directly into your back take."
+        "answer": "Their turn exposes their back. Release the guillotine grip and immediately establish a seat belt control, with your choking arm becoming the over-hook arm across their chest. Hook your legs for back control as they complete their turn. The turn that escapes the guillotine delivers them directly into your back take.",
+        "answer_line": "Release grip, take the back",
+        "distractors": {
+          "plausible": [
+            "Hold choke tighter as they turn",
+            "Re-angle hips, keep guillotine"
+          ],
+          "trap": [
+            "Chase the choke, ignore back"
+          ]
+        }
       },
       {
         "question": "How do you conserve energy during extended bottom Hindulotine control without losing submission pressure?",
-        "answer": "Use your legs and core for control rather than squeezing with arms. Lock your grip and maintain constant but not maximum pressure - you only need to restrict blood flow, not crush. Let your body structure hold the position while making small adjustments. Save maximum squeezing effort for when you feel the finish is available."
+        "answer": "Use your legs and core for control rather than squeezing with arms. Lock your grip and maintain constant but not maximum pressure - you only need to restrict blood flow, not crush. Let your body structure hold the position while making small adjustments. Save maximum squeezing effort for when you feel the finish is available.",
+        "answer_line": "Legs and core, steady not max grip",
+        "distractors": {
+          "plausible": [
+            "Squeeze max grip the whole time",
+            "Relax grip fully between attempts"
+          ],
+          "trap": [
+            "Crush with max squeeze nonstop"
+          ]
+        }
       },
       {
         "question": "Your opponent partially breaks your grip and starts extracting their head - how do you recover?",
-        "answer": "If they create significant space, abandon the guillotine attempt rather than chasing with diminishing grip. Transition immediately to closed guard control and reset. If they only partially escape, use your legs to pull them back down while re-establishing your grip higher on the neck. A partial grip is worse than controlled guard position."
+        "answer": "If they create significant space, abandon the guillotine attempt rather than chasing with diminishing grip. Transition immediately to closed guard control and reset. If they only partially escape, use your legs to pull them back down while re-establishing your grip higher on the neck. A partial grip is worse than controlled guard position.",
+        "answer_line": "Abandon if space, reset guard",
+        "distractors": {
+          "plausible": [
+            "Chase full grip regardless",
+            "Hang on with partial grip"
+          ],
+          "trap": [
+            "Keep squeezing partial grip hard"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing Guillotine Escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "b5IOgmCdULw",
+        "title": "Rubber guard attack: the Hindulotine breakdown",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 239,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y5ZQNgG2hNc",
+        "title": "Hindu control to Hindulotine instructional",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Ben Eddy Bravo",
+        "duration": 566,
+        "verified": "2026-07-15"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What distinguishes the Hindulotine from a standard front-headlock guillotine?",
+      "answer": "The Hindulotine adds rotational hip torque to the linear pulling mechanics of a conventional guillotine, so the neck is attacked with a corkscrewing pressure rather than a straight downward drag. The attacker's hips sit at an angle to the opponent's spine rather than square, converting core rotation into choking force on the carotid line. This lets the finish work around chin-tuck defenses that would stall a linear guillotine. It is fundamentally a catch-wrestling and no-gi evolution of the front headlock, built for situations where collar grips are unavailable.",
+      "answer_line": "Adds hip rotation to the pull",
+      "distractors": {
+        "plausible": [
+          "Uses a gi collar grip instead",
+          "Just a tighter arm squeeze"
+        ],
+        "trap": [
+          "Pulls straight back only"
+        ]
+      }
+    },
+    {
+      "question": "Which anatomical control points define the Hindulotine configuration for both players?",
+      "answer": "The defining control is a guillotine grip with the choking forearm blade seated high under the chin against the carotid line, never low across the trachea or the meat of the shoulder. The opponent's head is trapped below the level of their own shoulders with posture broken forward, spine curved. The attacker's legs and hips clamp the opponent's hips to kill circular movement, while the two locked hands form the closed loop. These three seams, the high neck grip, the broken forward posture, and the hip pin, are what keep the position intact regardless of who is on top.",
+      "answer_line": "High grip, broken posture, hip pin",
+      "distractors": {
+        "plausible": [
+          "Low grip, straight spine, leg pin",
+          "High grip, arm pin, flat posture"
+        ],
+        "trap": [
+          "Grip on throat, opponent upright"
+        ]
+      }
+    },
+    {
+      "question": "Why is the opponent's broken-forward posture a shared structural invariant of this position?",
+      "answer": "With the head trapped lower than the shoulders and the spine curved, the opponent cannot stack their skeleton into vertical alignment to defend, so the choke and the crank both stay live. Vertical posture is the single fastest relief valve for any front-headlock choke because it lets the defender straighten the neck and drive the head out. As long as the head stays below shoulder line the grip mechanics and rotational torque remain effective for the attacker. The instant posture is regained the position degrades toward a neutral front headlock or scramble.",
+      "answer_line": "Bent spine can't align to defend",
+      "distractors": {
+        "plausible": [
+          "It pins both shoulders down",
+          "It caves the chest to cut air"
+        ],
+        "trap": [
+          "Grip still holds if they posture"
+        ]
+      }
+    },
+    {
+      "question": "How does hip angle rather than arm strength generate the finishing pressure in a Hindulotine?",
+      "answer": "Positioning the hips roughly perpendicular to the opponent's spine, near 45 to 90 degrees off square, lets core rotation and body weight drive the choke instead of the biceps. This rotational vector torques the trapped neck around the choking forearm, multiplying pressure on the carotids far beyond what an arm squeeze produces. Because the skeleton and hips carry the load, grip strength is reserved for holding the lock rather than crushing. Practitioners who hang on straight arms fatigue quickly and lose the position, which is the position's most common failure across both roles.",
+      "answer_line": "Rotate hips, core drives torque",
+      "distractors": {
+        "plausible": [
+          "Pull with biceps, hips square",
+          "Angle shoulders, not hips"
+        ],
+        "trap": [
+          "Straight-arm squeeze, no rotation"
+        ]
+      }
+    },
+    {
+      "question": "What role do the legs play in sustaining the Hindulotine for whoever holds the grip?",
+      "answer": "The legs pin the opponent's hips to prevent the circular escape movement that would let them change angle and relieve neck pressure. From top this means a wide base and hip-to-shoulder pressure that also defeats rolls and sweeps; from bottom it means closed guard, butterfly hooks, or a posted foot that restricts hip movement while preserving angle changes. In both cases the leg configuration is what stops the opponent from posturing up or spinning out. Without hip control the grip alone becomes a race the defender can win by circling.",
+      "answer_line": "Pin their hips to block circling",
+      "distractors": {
+        "plausible": [
+          "Pin their shoulders, free hips",
+          "Trap their far leg, hips free"
+        ],
+        "trap": [
+          "Let hips move, control head only"
+        ]
+      }
+    },
+    {
+      "question": "Why is the Hindulotine described as a dilemma position where every defensive reaction favors the grip holder?",
+      "answer": "The position couples a live choke with positional control so that each escape path opens a different attack. Turning away to relieve neck pressure exposes the back for a back take, driving forward to stack invites a sweep or transition to mount, and framing with the near arm opens the space for a Darce. This is the synergy of position and submission that defines modern submission grappling: the defender cannot address the choke without conceding a positional advance. The threat therefore compounds rather than resolves as the opponent defends.",
+      "answer_line": "Every escape opens another attack",
+      "distractors": {
+        "plausible": [
+          "Best to just hold and wait",
+          "One clean answer solves it"
+        ],
+        "trap": [
+          "Turning away fully escapes it"
+        ]
+      }
+    },
+    {
+      "question": "How does the Hindulotine relate to the Darce and anaconda within the same front-headlock family?",
+      "answer": "All three are arm-and-neck constrictions launched from front-headlock control, and the Hindulotine is designed to flow between them based on the opponent's defensive reaction. When the opponent frames with the near-side arm, the choking arm threads deeper across the neck and under that near armpit to become a Darce; when the opponent turns or rolls away to escape the neck pressure, an anaconda finish opens instead. The shared control base, head trapped low with broken posture, is what makes these transitions seamless. The Hindulotine is best understood as the rotational hub of this family rather than a single isolated choke.",
+      "answer_line": "Flows into Darce or anaconda",
+      "distractors": {
+        "plausible": [
+          "Always finishes as a Darce",
+          "Separate move, no shared entry"
+        ],
+        "trap": [
+          "Abandon grip to switch chokes"
+        ]
+      }
+    },
+    {
+      "question": "What separates a genuine Hindulotine from a simple front headlock or snap-down control?",
+      "answer": "A front headlock or snap-down is a control frame without a committed submission loop, whereas the Hindulotine is defined by a locked guillotine grip combined with hip-driven rotational pressure that makes the choke immediately live. In a front headlock the head is controlled but the neck is not yet under closing pressure, leaving posture recovery and disengagement open. The Hindulotine forecloses those by seating the grip high under the chin and angling the hips to torque the neck. Losing the grip or the hip angle drops the position back down to a plain front headlock, which is why front headlock is treated as its parent entry.",
+      "answer_line": "Grip plus hip torque, live choke",
+      "distractors": {
+        "plausible": [
+          "Just controlling the head tightly",
+          "Any guillotine attempt counts"
+        ],
+        "trap": [
+          "Loose grip, no angle, still live"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "h1XzZDsUxHQ",
+      "title": "Eddie Bravo Explains Rubber Guard",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "JAN FERNANDEZ ",
+      "duration": 111,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "58q16MnT8pM",
+      "title": "Hindulotine: Rubber Guard Guillotine",
+      "by": "Ben Eddy",
+      "vertical": false,
+      "channel": "BJJ Trickster",
+      "duration": 264,
+      "verified": "2026-07-14"
+    }
+  ]
 }

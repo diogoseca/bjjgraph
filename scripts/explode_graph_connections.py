@@ -25,6 +25,8 @@ from collections import defaultdict
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))  # make the shared helper importable
 from _atomic_io import atomic_write_json
+from _ruleset import reduce_to_scalar, as_map, RULESETS  # {gi,nogi} contract (calibration-v2)
+from _prob_norm import largest_remainder_round
 
 CONTENT_PATH = Path("content")
 POSITIONS_PATH = CONTENT_PATH / "Positions"
@@ -34,6 +36,20 @@ REPORT_PATH = Path("tests/artifacts/explode_report.json")
 
 
 def load_json(path):
+    """Diagnostic load: divergent {gi,nogi} maps reduce to the no-gi headline frame
+    (bare reduce_to_scalar would raise on real divergence, Q3+). NEVER save data
+    loaded through here — use load_json_raw for any mutate-then-write path."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return reduce_to_scalar(json.load(f), frame="nogi")
+    except Exception as e:
+        print(f"  WARNING: Could not load {path}: {e}", file=sys.stderr)
+        return None
+
+
+def load_json_raw(path):
+    """Raw load (maps intact) — required before mutating + saving, else a divergent
+    {gi,nogi} map would be flattened to one frame and the other frame destroyed."""
     try:
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -294,10 +310,11 @@ def plan_fixes(issues, positions, transitions):
 # ---------------------------------------------------------------------------
 
 def renormalize_probabilities(transitions_array):
-    """Renormalize probabilities after appending a new entry (last element).
+    """Renormalize probabilities after appending a new entry (last element), PER FRAME.
 
-    New entry gets min(existing) / 2, floored to 1%.
-    Existing entries scale down proportionally. Rounding error goes to largest.
+    New entry gets min(existing)/2, floored to 1%, per ruleset; existing entries
+    scale proportionally with largest-remainder rounding so each frame sums to 100.
+    Accepts legacy scalar or {gi,nogi} map values; always writes maps back.
     """
     if len(transitions_array) < 2:
         return
@@ -305,28 +322,21 @@ def renormalize_probabilities(transitions_array):
     existing = transitions_array[:-1]
     new_entry = transitions_array[-1]
 
-    existing_probs = [t.get("attempt_probability", 0) for t in existing]
-    if not any(existing_probs):
-        return
+    for t in transitions_array:
+        t["attempt_probability"] = as_map(t.get("attempt_probability", 0))
 
-    smallest = min(p for p in existing_probs if p > 0)
-    new_prob = max(1, smallest // 2)
-
-    current_total = sum(existing_probs)
-    target_existing = 100 - new_prob
-    scale = target_existing / current_total
-
-    for t in existing:
-        raw = t.get("attempt_probability", 0) * scale
-        t["attempt_probability"] = int(raw)
-
-    new_entry["attempt_probability"] = new_prob
-
-    # Fix rounding: add remainder to largest existing entry
-    rounding_fix = 100 - sum(t.get("attempt_probability", 0) for t in transitions_array)
-    if rounding_fix != 0:
-        largest = max(existing, key=lambda t: t.get("attempt_probability", 0))
-        largest["attempt_probability"] += rounding_fix
+    for rs in RULESETS:
+        probs = [t["attempt_probability"].get(rs) or 0 for t in existing]
+        if not any(probs):
+            continue
+        smallest = min(p for p in probs if p > 0)
+        new_prob = max(1, int(smallest) // 2)
+        target = 100 - new_prob
+        total = sum(probs)
+        scaled = largest_remainder_round([p / total * target for p in probs], target)
+        for t, v in zip(existing, scaled):
+            t["attempt_probability"][rs] = v
+        new_entry["attempt_probability"][rs] = new_prob
 
 
 def apply_actions(actions, positions, transitions, dry_run=False):
@@ -344,7 +354,7 @@ def apply_actions(actions, positions, transitions, dry_run=False):
                 continue
 
             pos_path = Path(positions[pos_name]["path"])
-            data = load_json(pos_path)
+            data = load_json_raw(pos_path)  # raw: this path mutates + saves
             if not data:
                 results.append({"action": action, "status": "skip", "reason": "could not load"})
                 continue
@@ -365,7 +375,7 @@ def apply_actions(actions, positions, transitions, dry_run=False):
                 continue
 
             # Add new reference (probability set by renormalize)
-            new_entry = {"transition": transition_name, "attempt_probability": 0}
+            new_entry = {"transition": transition_name, "attempt_probability": {"gi": 0, "nogi": 0}}
             trans_array.append(new_entry)
             renormalize_probabilities(trans_array)
 

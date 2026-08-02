@@ -34,6 +34,54 @@ description: "Master the heel hook from Ashi Garami with systematic grip mechani
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Ashi Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Nasty heel hook from outside ashi garami",
+      "description": "Heel Hook from Ashi Garami film study: Nasty heel hook from outside ashi garami, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
+      "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside ashi garami heel hook",
+      "description": "Heel Hook from Ashi Garami film study: Inside ashi garami heel hook, taught by Modesto Judo Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FfkVEt5YHbY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FfkVEt5YHbY",
+      "url": "https://www.youtube.com/watch?v=FfkVEt5YHbY",
+      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ashi garami + heel hook",
+      "description": "Heel Hook from Ashi Garami film study: Ashi garami + heel hook, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pRqoNs4K7cI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pRqoNs4K7cI",
+      "url": "https://www.youtube.com/watch?v=pRqoNs4K7cI",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT83S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +102,7 @@ description: "Master the heel hook from Ashi Garami with systematic grip mechani
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity</span>
-<span class="meta-chip">45% success</span>
+<span class="meta-chip">37% success</span>
 </div>
 
 > [!danger] Safety
@@ -81,6 +129,42 @@ Strategically, the heel hook from outside Ashi serves a dual purpose. As a direc
 **Starting Position**: [[Positions/Ashi Garami]] · **From**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Ashi Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m4sGDhukUmk)
+
+<p class="clip-credit"><strong>Nasty heel hook from outside ashi garami</strong> — taught by Craig Jones · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FfkVEt5YHbY)
+
+<p class="clip-credit"><strong>Inside ashi garami heel hook</strong> — taught by Modesto Judo Club · 0:59 · <a href="https://www.youtube.com/watch?v=FfkVEt5YHbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pRqoNs4K7cI)
+
+<p class="clip-credit"><strong>Ashi garami + heel hook</strong> — taught by The Coop BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -240,7 +324,7 @@ Strategically, the heel hook from outside Ashi serves a dual purpose. As a direc
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Achilles Lock]]

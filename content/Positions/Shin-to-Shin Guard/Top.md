@@ -21,37 +21,37 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, attempt X Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin-to-Shin Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin on Shin Guard Pass",
+      "description": "Shin-to-Shin Guard (Top) film study: Shin on Shin Guard Pass, taught by Dale (Combat Room BJJ).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bOYKyTYy7Og/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bOYKyTYy7Og",
+      "url": "https://www.youtube.com/watch?v=bOYKyTYy7Og",
+      "creator": { "@type": "Person", "name": "Dale (Combat Room BJJ)" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No Gi Shin to Shin Pass Variation",
+      "description": "Shin-to-Shin Guard (Top) film study: No Gi Shin to Shin Pass Variation, taught by The Base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rRCor6OwhCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rRCor6OwhCo",
+      "url": "https://www.youtube.com/watch?v=rRCor6OwhCo",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Easy Way to Pass Shin to Shin Guard",
+      "description": "Shin-to-Shin Guard (Top) film study: Easy Way to Pass Shin to Shin Guard, taught by Dynasty Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YV26zZARJdA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YV26zZARJdA",
+      "url": "https://www.youtube.com/watch?v=YV26zZARJdA",
+      "creator": { "@type": "Person", "name": "Dynasty Jiu Jitsu" },
+      "duration": "PT164S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
 Facing Shin-to-Shin Guard from the top position presents a unique set of challenges that require understanding both the mechanical vulnerabilities of the position and the strategic objectives of the guard player. The top player's primary concern is the perpendicular shin connection that the bottom player establishes across their same-side shin, which creates leverage for off-balancing and sweep mechanics while simultaneously preventing straightforward forward pressure. Effective top play requires a systematic approach that addresses three interconnected elements: neutralizing or clearing the shin connection, preventing transitions to more dangerous positions like single leg X or full X-guard, and establishing dominant grips and positioning that allow effective passing sequences. The modern meta-game around shin-to-shin has evolved significantly, with top players developing sophisticated clearing strategies that exploit the position's inherent weaknesses—primarily its reliance on a single point of lower body connection that can be systematically dismantled through proper pressure, angle changes, and grip fighting. Understanding the decision tree from top perspective is crucial: aggressive forward pressure invites butterfly or X-guard sweeps, passive standing allows the guard player to dictate engagement range and set up entries, while systematic clearing combined with upper body control creates the highest-percentage passing opportunities. The position rewards patient, technical passing that addresses the shin connection methodically while simultaneously preventing the guard player from establishing the upper body grips they need to maintain effective distance management. Advanced passers recognize that shin-to-shin is fundamentally a transitional position for the guard player, and the key to defeating it lies in preventing those transitions while the connection is being cleared rather than simply trying to pass through the connection itself.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin-to-Shin Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bOYKyTYy7Og)
+
+<p class="clip-credit"><strong>Shin on Shin Guard Pass</strong> — taught by Dale (Combat Room BJJ) · 1:00 · <a href="https://www.youtube.com/watch?v=bOYKyTYy7Og" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rRCor6OwhCo)
+
+<p class="clip-credit"><strong>No Gi Shin to Shin Pass Variation</strong> — taught by The Base Jiu Jitsu · 2:16 · <a href="https://www.youtube.com/watch?v=rRCor6OwhCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YV26zZARJdA)
+
+<p class="clip-credit"><strong>Easy Way to Pass Shin to Shin Guard</strong> — taught by Dynasty Jiu Jitsu · 2:44 · <a href="https://www.youtube.com/watch?v=YV26zZARJdA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

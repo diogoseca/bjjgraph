@@ -144,6 +144,54 @@ description: "Defend against the kneebar from kneebar control position. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Kneebar Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kneebar Escape",
+      "description": "Kneebar from Kneebar Control (Defender) film study: Kneebar Escape, taught by Darren Branch.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3zJthP57wXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3zJthP57wXw",
+      "url": "https://www.youtube.com/watch?v=3zJthP57wXw",
+      "creator": { "@type": "Person", "name": "Darren Branch" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the Kneebar to Toe Hold",
+      "description": "Kneebar from Kneebar Control (Defender) film study: Defending the Kneebar to Toe Hold, taught by Garden State BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hze1WyTvkzA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hze1WyTvkzA",
+      "url": "https://www.youtube.com/watch?v=hze1WyTvkzA",
+      "creator": { "@type": "Person", "name": "Garden State BJJ" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar Defense in Competition",
+      "description": "Kneebar from Kneebar Control (Defender) film study: Kneebar Defense in Competition, taught by AJ Agazarm.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kUuJ03CcIUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kUuJ03CcIUQ",
+      "url": "https://www.youtube.com/watch?v=kUuJ03CcIUQ",
+      "creator": { "@type": "Person", "name": "AJ Agazarm" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending against the kneebar from kneebar control demands immediate recognition
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Kneebar Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3zJthP57wXw)
+
+<p class="clip-credit"><strong>Kneebar Escape</strong> — taught by Darren Branch · 1:14 · <a href="https://www.youtube.com/watch?v=3zJthP57wXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hze1WyTvkzA)
+
+<p class="clip-credit"><strong>Defending the Kneebar to Toe Hold</strong> — taught by Garden State BJJ · 0:24 · <a href="https://www.youtube.com/watch?v=hze1WyTvkzA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kUuJ03CcIUQ)
+
+<p class="clip-credit"><strong>Kneebar Defense in Competition</strong> — taught by AJ Agazarm · 0:23 · <a href="https://www.youtube.com/watch?v=kUuJ03CcIUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

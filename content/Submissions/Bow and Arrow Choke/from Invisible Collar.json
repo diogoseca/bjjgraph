@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Invisible Collar",
   "from_position": "Invisible Collar/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Bow and Arrow Choke from Invisible Collar is a gi blood choke from back control where a pre-set concealed collar grip lets the attacker rotate into an angled bow-and-arrow finish, compressing the carotids before the defender recognizes the threat.",
   "overview": "The Bow and Arrow Choke from Invisible Collar exploits the concealed grip advantage unique to this back control variant. Where a standard bow and arrow requires openly establishing a deep collar grip that often alerts the opponent, the invisible collar setup provides that grip depth before the opponent recognizes the submission threat. This timing advantage means the attacker only needs to execute the transition from concealed back control grip to the angled finishing position, eliminating the most commonly defended phase of the technique.\n\nThe finishing mechanics involve rotating to the collar grip side while reaching across to secure the opponent's far pant leg at the knee. The attacker then extends their body, creating opposing forces that compress the carotid arteries. The collar pulls the neck into the choking forearm while the leg grip prevents the opponent from turning to relieve pressure. This cross-body stretch creates one of the tightest choking mechanisms in gi grappling, with the full skeletal structure generating force rather than muscular effort alone.\n\nStrategically, this variant serves as a high-percentage finishing option within back attack systems. When opponents successfully defend direct collar chokes or rear naked choke attempts from invisible collar, the transition to bow and arrow creates a different angle of attack that bypasses those defenses. The rotation to the side changes the choking vector from a pull-back mechanism to a diagonal stretch, requiring entirely different defensive responses that many practitioners are unprepared for.",
   "safety_considerations": {
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Invisible Collar/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -271,52 +283,172 @@
       {
         "question": "What anatomical structures does the Bow and Arrow Choke from Invisible Collar primarily compress to achieve the submission?",
         "answer": "The bow and arrow choke compresses both carotid arteries on the sides of the neck using the gi collar material. The collar is folded against one side of the neck while the forearm and wrist rotation press into the opposite carotid artery. This bilateral compression restricts blood flow to the brain, causing unconsciousness within 4-10 seconds if the choke is properly applied and not released.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Windpipe and trachea",
+            "One carotid, one jaw"
+          ],
+          "trap": [
+            "Cervical spine, crank to tap"
+          ]
+        }
       },
       {
         "question": "What physical indicators tell you the choke is properly aligned on the carotid arteries rather than the jaw or trachea?",
         "answer": "When properly aligned on the carotid arteries, the opponent's face will begin to change color rapidly, and they will feel compelled to tap within seconds rather than minutes. If the opponent can endure the pressure for more than 10 seconds while grimacing, the choke is likely on the jaw. If they are coughing or gagging, the pressure is on the trachea. A proper blood choke produces a quiet, steady pressure that the opponent cannot simply tough through.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Color drains fast, tap in seconds",
+        "distractors": {
+          "plausible": [
+            "Grimacing through ten-plus seconds",
+            "Endures a full minute grimacing"
+          ],
+          "trap": [
+            "Gagging means it's sunk deep"
+          ]
+        }
       },
       {
         "question": "What control elements must be fully established before transitioning from invisible collar to the bow and arrow finish?",
         "answer": "The invisible collar grip must have full four-finger depth with knuckles against the neck. At least one hook must be maintained for back control during transition. The seatbelt or underhook arm must be free to transition to the pant grip. Body positioning must allow rotation to the collar grip side without losing chest connection. Attempting the transition without these elements secured leads to failed attempts and lost position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep collar grip, hook, free arm",
+        "distractors": {
+          "plausible": [
+            "Just deep collar grip alone",
+            "Both hooks before transitioning"
+          ],
+          "trap": [
+            "Release seatbelt to grab pants early"
+          ]
+        }
       },
       {
         "question": "At what point during the Bow and Arrow Choke from Invisible Collar does the technique become effectively inescapable for the defender?",
         "answer": "The point of no escape occurs once the attacker has secured both the deep collar grip and the far pant grip and has committed to the side fall with legs beginning to extend. At this stage, the opposing forces are established and the defender cannot address both control points simultaneously. Before the pant grip is secured, the defender still has realistic escape opportunities through turning or grip stripping.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Collar + pant grip, falling to side",
+        "distractors": {
+          "plausible": [
+            "Once collar grip is secured",
+            "Once hip shift begins"
+          ],
+          "trap": [
+            "Extend before the pant grip lands"
+          ]
+        }
       },
       {
         "question": "Your opponent starts turning their body toward you as you initiate the bow and arrow hip shift - what adjustment prevents their escape?",
         "answer": "Use the far-side hook aggressively to block their turning hip and pull them back to a perpendicular angle. Simultaneously accelerate your pant grip reach to lock in the control point before they complete the turn. If they manage partial rotation, follow their movement and transition to a mounted variation of the bow and arrow where you end up on top with the same grip configuration, using gravity to assist the finish rather than fighting the rotation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Far hook blocks turn, rush pant grip",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset position",
+            "Force the choke through rotation"
+          ],
+          "trap": [
+            "Let go of hooks to chase pants"
+          ]
+        }
       },
       {
         "question": "How should you adjust your collar grip when transitioning from the invisible collar position to bow and arrow finishing mechanics?",
         "answer": "The collar grip itself does not change position during the transition. The key adjustment is in wrist orientation: as you fall to the side, rotate your wrist so your palm faces your own chest rather than facing the opponent's back. This rotation tightens the collar material against the neck and creates the proper angle for the extension finish. Avoid the temptation to regrip or adjust finger position during the transition, as this creates a window for the opponent to strip the grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotate wrist, palm to your chest",
+        "distractors": {
+          "plausible": [
+            "Regrip deeper during the fall",
+            "Slide the grip toward the lapel"
+          ],
+          "trap": [
+            "Release a hook to fix the grip"
+          ]
+        }
       },
       {
         "question": "What are the critical safety considerations when applying the Bow and Arrow Choke from Invisible Collar in training?",
         "answer": "Apply pressure slowly and progressively over 3-5 seconds minimum, never jerking or spiking the extension. Monitor your partner's consciousness throughout since blood chokes can cause unconsciousness rapidly. Ensure your partner has clear access to tap with at least one hand or can verbally tap at all times. Release immediately upon any tap signal. Never hold the choke past the tap to demonstrate control. Be especially careful with the leg extension component which can strain the opponent's knee or hip.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow pressure, release on any tap",
+        "distractors": {
+          "plausible": [
+            "Trap both arms so they can't post",
+            "Extend fully first, then squeeze"
+          ],
+          "trap": [
+            "Hold the finish past the signal"
+          ]
+        }
       },
       {
         "question": "How does the concealed nature of the invisible collar grip change your finishing strategy compared to a standard bow and arrow entry?",
         "answer": "The concealed grip means you can commit to the bow and arrow transition faster and more decisively because the opponent has not had time to establish collar defense. With a standard entry, you must account for the opponent fighting the collar grip while you transition. From invisible collar, the grip is already deep so your entire focus shifts to the hip shift and pant grip acquisition. This allows a more explosive and committed transition since the most commonly defended phase is already bypassed.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Commit faster, skip collar fight",
+        "distractors": {
+          "plausible": [
+            "Still fight for collar grip first",
+            "Slow down to confirm grip depth"
+          ],
+          "trap": [
+            "Release grip to re-establish openly"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own collar with both hands to block the choke from tightening - how do you overcome this defense?",
         "answer": "Their two-handed collar defense leaves their legs completely uncontrolled. Extend your body more aggressively to generate additional pressure that their grip cannot match over time. Simultaneously, you can switch the pant grip to the far sleeve and peel one defensive hand away, or use your legs to push off their hip to increase the stretch distance. Their static grip defense is unsustainable against the full-body mechanical advantage of the bow and arrow extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extend harder, switch to sleeve",
+        "distractors": {
+          "plausible": [
+            "Pry their hands off one by one",
+            "Punch the collar hand deeper"
+          ],
+          "trap": [
+            "Drop the collar to break grips"
+          ]
+        }
       },
       {
         "question": "How should you release the Bow and Arrow Choke from Invisible Collar safely after your opponent taps?",
         "answer": "First, immediately release the collar grip and stop all pulling pressure. Second, release the pant grip and retract your legs from extension simultaneously. Allow your opponent's head and neck to return to a neutral position without forcing any movement. Check that your opponent is conscious and responsive. If they lost consciousness, place them on their back, elevate their legs, and monitor breathing until they recover fully. Never release the choke by suddenly dropping all control, as this can cause the opponent to fall awkwardly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release collar grip, stop pulling",
+        "distractors": {
+          "plausible": [
+            "Retract legs, then free collar",
+            "Free the pant grip first"
+          ],
+          "trap": [
+            "Yank their head back to neutral"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "3GprqnqZKA4",
+        "title": "Choke details from back control",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Roger Gracie TV",
+        "duration": 150,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "T7exag4wRXE",
+        "title": "Bow and arrow finishing detail",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 104,
+        "verified": "2026-07-16"
       }
     ]
   },
@@ -405,27 +537,77 @@
       {
         "question": "How do you recognize that your opponent is transitioning from invisible collar to the Bow and Arrow Choke specifically?",
         "answer": "The key indicators are the lateral hip shift to one side combined with one hook releasing while the other maintains control. This is followed by the attacker's free hand reaching across your body toward your far pant leg. The combination of hip shift, hook change, and cross-body reach distinguishes the bow and arrow setup from other invisible collar attacks like direct collar chokes or rear naked choke transitions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip shift, hook change, cross reach",
+        "distractors": {
+          "plausible": [
+            "Sudden two-hook squeeze",
+            "Deep collar grip appearing alone"
+          ],
+          "trap": [
+            "Wait for leg extension to react"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Bow and Arrow Choke from Invisible Collar to prevent injury?",
         "answer": "Tap early and clearly before the extension reaches full stretch. Use multiple tap signals simultaneously: tap firmly on the attacker's body or the mat with your free hand while also verbally signaling. If one hand is trapped, use your feet to tap the mat audibly. The bow and arrow can cause unconsciousness rapidly once fully extended, so tap as soon as you feel the carotid compression beginning rather than trying to endure or escape a fully locked choke.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, firm and clear",
+        "distractors": {
+          "plausible": [
+            "Just shout, keep hands free",
+            "Tap your own leg quietly"
+          ],
+          "trap": [
+            "Ride it out and try to survive"
+          ]
+        }
       },
       {
         "question": "What is the highest-priority defensive action when you feel the bow and arrow transition beginning from invisible collar?",
         "answer": "The highest priority is preventing the pant grip from being secured. Once the attacker has both the collar grip and the pant grip, the extension creates mechanical force that is extremely difficult to overcome defensively. Block their reaching hand with your near-side arm or immediately turn toward the attacker during the hip shift window. Stripping the deep collar grip is lower priority because it is harder to remove and the bow and arrow cannot be finished without the opposing pant grip force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stop the pant grip from landing",
+        "distractors": {
+          "plausible": [
+            "Strip the deep collar grip first",
+            "Defend the hook release first"
+          ],
+          "trap": [
+            "Turn away from the attacker fully"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured both the collar and pant grips and begins extending - what emergency escape offers the best survival chance?",
         "answer": "Bridge hard toward the collar grip side while simultaneously pulling your far knee toward your chest to create slack in the pant grip. This combined movement reduces the stretch distance and may create enough space to turn into the attacker. If you can get your shoulders past perpendicular to the attacker's body, the choking angle weakens significantly. This is a last-resort effort and success depends on explosive timing before the full extension locks in.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bridge to collar side, knee to chest",
+        "distractors": {
+          "plausible": [
+            "Bridge away from collar side",
+            "Peel the pant grip with both hands"
+          ],
+          "trap": [
+            "Push straight backward against pull"
+          ]
+        }
       },
       {
         "question": "How should you manage your energy when defending a sustained Bow and Arrow attempt from Invisible Collar?",
         "answer": "Focus on efficient sustained defensive posture rather than explosive bursts that deplete quickly. The chin tuck and grip monitoring should be constant low-energy efforts. Reserve explosive movement for specific moments: when the attacker releases a hook for the transition, or when they commit the free hand to the pant reach. These are the windows where explosive defense is most effective. Avoid tensing your entire body against the choke since this accelerates fatigue without meaningfully reducing pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Conserve; burst at defensive windows",
+        "distractors": {
+          "plausible": [
+            "Explode early and often on grips",
+            "Tense everything to resist the choke"
+          ],
+          "trap": [
+            "Buck explosively into the choke"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -448,6 +630,26 @@
         "phase": "Phase 4: Full Resistance Defense",
         "focus": "Complete defensive sequences against committed attacks",
         "description": "Positional sparring from invisible collar with full resistance. Defender must survive or escape within 90 seconds. Partner uses the complete back attack system including bow and arrow as one option. Develops the ability to defend the bow and arrow within the context of a dynamic submission chain rather than in isolation."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kkAVJ3u7THM",
+        "title": "Back collar choke escape",
+        "by": "Beto Vilanova",
+        "vertical": false,
+        "channel": "Beto Vilanova",
+        "duration": 166,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2No7WP3otgI",
+        "title": "Bow and arrow choke defense",
+        "by": "Gracie Ohio Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Gracie Ohio Jiu-Jitsu Academy",
+        "duration": 92,
+        "verified": "2026-07-16"
       }
     ]
   }

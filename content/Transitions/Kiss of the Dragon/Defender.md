@@ -140,6 +140,54 @@ description: "How to defend against Kiss of the Dragon in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kiss of the Dragon (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter the kiss of the dragon sweep",
+      "description": "Kiss of the Dragon (Defender) film study: Counter the kiss of the dragon sweep, taught by Paulo Rodrigues.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zs57ko5gzEU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zs57ko5gzEU",
+      "url": "https://www.youtube.com/watch?v=zs57ko5gzEU",
+      "creator": { "@type": "Person", "name": "Paulo Rodrigues" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Simple and effective leg drag defense",
+      "description": "Kiss of the Dragon (Defender) film study: Simple and effective leg drag defense, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QWqOeCRlkZs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QWqOeCRlkZs",
+      "url": "https://www.youtube.com/watch?v=QWqOeCRlkZs",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT279S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering the bolo and kiss of the dragon leg drag",
+      "description": "Kiss of the Dragon (Defender) film study: Countering the bolo and kiss of the dragon leg drag, taught by Grapplers Planet coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LmPBnck5SS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LmPBnck5SS4",
+      "url": "https://www.youtube.com/watch?v=LmPBnck5SS4",
+      "creator": { "@type": "Person", "name": "Grapplers Planet coach" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Kiss of the Dragon requires understanding that this technique expl
 **Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kiss of the Dragon (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zs57ko5gzEU)
+
+<p class="clip-credit"><strong>Counter the kiss of the dragon sweep</strong> — taught by Paulo Rodrigues · 1:19 · <a href="https://www.youtube.com/watch?v=zs57ko5gzEU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QWqOeCRlkZs)
+
+<p class="clip-credit"><strong>Simple and effective leg drag defense</strong> — taught by Jon Thomas · 4:39 · <a href="https://www.youtube.com/watch?v=QWqOeCRlkZs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LmPBnck5SS4)
+
+<p class="clip-credit"><strong>Countering the bolo and kiss of the dragon leg drag</strong> — taught by Grapplers Planet coach · 0:51 · <a href="https://www.youtube.com/watch?v=LmPBnck5SS4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

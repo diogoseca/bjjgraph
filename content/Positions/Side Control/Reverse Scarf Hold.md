@@ -34,6 +34,54 @@ description: "Master Reverse Scarf Hold (Ushiro Kesa Gatame) in BJJ. Complete gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Scarf Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ushiro-Kesa-Gatame demonstration",
+      "description": "Reverse Scarf Hold film study: Ushiro-Kesa-Gatame demonstration, taught by Kodokan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SBapox2M2dE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SBapox2M2dE",
+      "url": "https://www.youtube.com/watch?v=SBapox2M2dE",
+      "creator": { "@type": "Person", "name": "Kodokan" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ushiro Kesa Gatame (Kyushin Ryu)",
+      "description": "Reverse Scarf Hold film study: Ushiro Kesa Gatame (Kyushin Ryu), taught by Kyushin Ryu School.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xmjVYNiEz98/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xmjVYNiEz98",
+      "url": "https://www.youtube.com/watch?v=xmjVYNiEz98",
+      "creator": { "@type": "Person", "name": "Kyushin Ryu School" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kenji Shibayama: Ushiro Kesa Gatame",
+      "description": "Reverse Scarf Hold film study: Kenji Shibayama: Ushiro Kesa Gatame, taught by Kenji Shibayama.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ipCRN0himVA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ipCRN0himVA",
+      "url": "https://www.youtube.com/watch?v=ipCRN0himVA",
+      "creator": { "@type": "Person", "name": "Kenji Shibayama" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ From the bottom perspective, reverse scarf hold presents a challenging defensive
 Both perspectives require specialized drilling and positional understanding, as the reverse orientation creates unique tactical problems not encountered in standard top-game positions. The position serves as an excellent case study in how orientation changes fundamentally alter grappling dynamics, submission opportunities, and escape mechanics.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Scarf Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SBapox2M2dE)
+
+<p class="clip-credit"><strong>Ushiro-Kesa-Gatame demonstration</strong> — taught by Kodokan · 0:54 · <a href="https://www.youtube.com/watch?v=SBapox2M2dE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xmjVYNiEz98)
+
+<p class="clip-credit"><strong>Ushiro Kesa Gatame (Kyushin Ryu)</strong> — taught by Kyushin Ryu School · 1:05 · <a href="https://www.youtube.com/watch?v=xmjVYNiEz98" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ipCRN0himVA)
+
+<p class="clip-credit"><strong>Kenji Shibayama: Ushiro Kesa Gatame</strong> — taught by Kenji Shibayama · 1:08 · <a href="https://www.youtube.com/watch?v=ipCRN0himVA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,23 +223,23 @@ Both perspectives require specialized drilling and positional understanding, as 
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (31% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (15% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (9% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
 
 - **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (10% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (14% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (11% of attempts)
 
-- **[[Transitions/Escape Reverse Scarf Hold/Attacker|Escape Reverse Scarf Hold]]** (4% of attempts)
+- **[[Transitions/Escape Reverse Scarf Hold/Attacker|Escape Reverse Scarf Hold]]** (11% of attempts)
 
-- **[[Transitions/Frame from Reverse Scarf Hold/Attacker|Frame from Reverse Scarf Hold]]** (2% of attempts)
+- **[[Transitions/Frame from Reverse Scarf Hold/Attacker|Frame from Reverse Scarf Hold]]** (9% of attempts)
 
-- **[[Transitions/Bridge Escape from Reverse Scarf Hold/Attacker|Bridge Escape from Reverse Scarf Hold]]** (1% of attempts)
+- **[[Transitions/Bridge Escape from Reverse Scarf Hold/Attacker|Bridge Escape from Reverse Scarf Hold]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -214,23 +298,23 @@ Both perspectives require specialized drilling and positional understanding, as 
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (28% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (18% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (9% of attempts)
 
-- **[[Americana from Reverse Scarf Hold/Attacker|Americana from Reverse Scarf Hold]]** (11% of attempts)
+- **[[Americana from Reverse Scarf Hold/Attacker|Americana from Reverse Scarf Hold]]** (8% of attempts)
 
-- **[[Kimura from Reverse Scarf Hold/Attacker|Kimura from Reverse Scarf Hold]]** (12% of attempts)
+- **[[Kimura from Reverse Scarf Hold/Attacker|Kimura from Reverse Scarf Hold]]** (15% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (10% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (7% of attempts)
 
-- **[[Arm Triangle from Reverse Scarf Hold/Attacker|Arm Triangle from Reverse Scarf Hold]]** (9% of attempts)
+- **[[Arm Triangle from Reverse Scarf Hold/Attacker|Arm Triangle from Reverse Scarf Hold]]** (11% of attempts)
 
-- **[[Transitions/Reverse Scarf to North-South/Attacker|Reverse Scarf to North-South]]** (4% of attempts)
+- **[[Transitions/Reverse Scarf to North-South/Attacker|Reverse Scarf to North-South]]** (13% of attempts)
 
-- **[[Transitions/Reverse Scarf to Side Control/Attacker|Reverse Scarf to Side Control]]** (6% of attempts)
+- **[[Transitions/Reverse Scarf to Side Control/Attacker|Reverse Scarf to Side Control]]** (16% of attempts)
 
-- **[[North-South Choke from Reverse Scarf/Attacker|North-South Choke from Reverse Scarf]]** (2% of attempts)
+- **[[North-South Choke from Reverse Scarf/Attacker|North-South Choke from Reverse Scarf]]** (10% of attempts)
 
 
 ### Common Mistakes

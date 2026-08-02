@@ -27,31 +27,31 @@ description: "Master Jailbreak Top Position in BJJ. Advanced half guard passing 
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Setup",
-      "text": "From this position, attempt Darce Setup. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Darce Setup. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Jailbreak Top Position in BJJ. Advanced half guard passing 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jailbreak (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top Half Guard Pass - Donkey Pass",
+      "description": "Jailbreak (Top) film study: Top Half Guard Pass - Donkey Pass, taught by Cosens Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m7i-COxDMb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m7i-COxDMb0",
+      "url": "https://www.youtube.com/watch?v=m7i-COxDMb0",
+      "creator": { "@type": "Person", "name": "Cosens Martial Arts" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to pass the flat half guard",
+      "description": "Jailbreak (Top) film study: How to pass the flat half guard, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
+      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Free Your Foot While Passing Half Guard",
+      "description": "Jailbreak (Top) film study: Free Your Foot While Passing Half Guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From a game theory perspective, Jailbreak Top Position represents a high-stakes 
 The position is particularly relevant in modern no-gi competition where dynamic guard retention has become increasingly sophisticated. The top player must develop sensitivity to the bottom player's leg positioning - static extended legs call for leg weave or smash passes, while active hip movement demands toreando or headquarters passing strategies. Maintaining chest-to-chest pressure while navigating leg barriers is the central technical challenge, requiring coordination between upper body control and lower body positioning to systematically eliminate the bottom player's defensive options.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jailbreak (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m7i-COxDMb0)
+
+<p class="clip-credit"><strong>Top Half Guard Pass - Donkey Pass</strong> — taught by Cosens Martial Arts · 1:04 · <a href="https://www.youtube.com/watch?v=m7i-COxDMb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8WbQvytyCX0)
+
+<p class="clip-credit"><strong>How to pass the flat half guard</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Free Your Foot While Passing Half Guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

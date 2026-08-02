@@ -140,6 +140,43 @@ description: "Defend against the Spider to Lasso Guard transition in BJJ. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Spider to Lasso Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing lasso guard to the back",
+      "description": "Spider to Lasso Guard (Defender) film study: Passing lasso guard to the back, taught by Gabriel Sousa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9sQAn2ESkMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9sQAn2ESkMU",
+      "url": "https://www.youtube.com/watch?v=9sQAn2ESkMU",
+      "creator": { "@type": "Person", "name": "Gabriel Sousa" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso and spider guard defense breakdown",
+      "description": "Spider to Lasso Guard (Defender) film study: Lasso and spider guard defense breakdown, taught by Binder BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOzoDB10XkY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GOzoDB10XkY",
+      "url": "https://www.youtube.com/watch?v=GOzoDB10XkY",
+      "creator": { "@type": "Person", "name": "Binder BJJ" },
+      "duration": "PT245S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player facing a Spider to Lasso Guard transition, your primary concer
 **Opponent's Starting Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Spider to Lasso Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9sQAn2ESkMU)
+
+<p class="clip-credit"><strong>Passing lasso guard to the back</strong> — taught by Gabriel Sousa · 1:53 · <a href="https://www.youtube.com/watch?v=9sQAn2ESkMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GOzoDB10XkY)
+
+<p class="clip-credit"><strong>Lasso and spider guard defense breakdown</strong> — taught by Binder BJJ · 4:05 · <a href="https://www.youtube.com/watch?v=GOzoDB10XkY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

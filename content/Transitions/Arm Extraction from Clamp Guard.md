@@ -34,6 +34,43 @@ description: "Master arm extraction from clamp guard in BJJ. Complete guide to f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Extraction from Clamp Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking the Lockdown Half Guard",
+      "description": "Arm Extraction from Clamp Guard film study: Breaking the Lockdown Half Guard, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xb4-phb4BhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xb4-phb4BhE",
+      "url": "https://www.youtube.com/watch?v=Xb4-phb4BhE",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT251S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping a Tight Half Guard Lockdown",
+      "description": "Arm Extraction from Clamp Guard film study: Escaping a Tight Half Guard Lockdown, taught by Nick Albin (Chewjitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tcS7oBdpRW0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tcS7oBdpRW0",
+      "url": "https://www.youtube.com/watch?v=tcS7oBdpRW0",
+      "creator": { "@type": "Person", "name": "Nick Albin (Chewjitsu)" },
+      "duration": "PT305S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The critical challenge is that every intuitive extraction method plays into the 
 Timing is equally important as technique. The longer the arm remains trapped, the deeper the bottom player consolidates control and sets up attacks. Early extraction attempts when the clamp is still shallow succeed at significantly higher rates than attempts against an established deep clamp with supplementary wrist control and optimal hip angle. Recognizing the clamp entry and responding within the first two to three seconds before the bottom player establishes wrist control is the highest-percentage window for successful extraction.
 
 **From Position**: [[Positions/Clamp Guard]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Extraction from Clamp Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xb4-phb4BhE)
+
+<p class="clip-credit"><strong>Breaking the Lockdown Half Guard</strong> — taught by Matt Arroyo · 4:11 · <a href="https://www.youtube.com/watch?v=Xb4-phb4BhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tcS7oBdpRW0)
+
+<p class="clip-credit"><strong>Escaping a Tight Half Guard Lockdown</strong> — taught by Nick Albin (Chewjitsu) · 5:05 · <a href="https://www.youtube.com/watch?v=tcS7oBdpRW0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "High Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Trap and Roll is the most fundamental mount reversal in Brazilian Jiu-Jitsu, taught from the earliest days of training yet remaining a viable weapon at the highest levels when executed with proper timing and setup. The technique works by isolating the opponent's base on one side through trapping their arm and corresponding foot, then using an explosive hip bridge directed at a 45-degree angle to roll them over that compromised base. The mechanical principle is simple: a stool with four legs is stable, but remove two legs on the same side and it topples with minimal force.\n\nAt the purple and brown belt level, the trap and roll succeeds less through raw surprise and more through systematic setup. High-level practitioners create the trapping opportunity by provoking specific reactions from the top player - framing to elicit a posting response that exposes the arm for trapping, or defending a submission attempt that naturally commits the opponent's arm forward. The bridge itself requires precise timing and direction, with the explosive hip drive aimed diagonally over the trapped shoulder rather than straight up, which would only lift the opponent momentarily before they resettle.\n\nStrategically, the trap and roll serves a dual purpose within the mount escape hierarchy. As a standalone reversal, it returns you to top position inside your opponent's closed guard. As a threat, it forces the mounted player to maintain wide base and post defensively, which creates the space and weight distribution shifts necessary for the elbow escape. Understanding this complementary relationship between the trap and roll and the hip escape transforms mount defense from a collection of isolated techniques into an integrated escape system where each attempt amplifies the effectiveness of the next.",
   "conditions": [
     "Opponent has at least one arm committed forward for posting, gripping, or attacking",
@@ -245,46 +257,166 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the trap and roll bridge?",
-        "answer": "The optimal timing is when the opponent has just committed their arm forward (posting, attacking, or gripping) and their weight is either centered or slightly shifted toward the trapped side. Bridging during a weight shift amplifies the force needed to break their base. Bridging against a fully settled, centered opponent wastes energy because their balanced base can absorb the bridge force."
+        "answer": "Bridge just as the opponent commits an arm forward and their weight is centered or shifting toward the trapped side. Bridging during a weight shift amplifies the force needed to break their base. Bridging against a fully settled, centered opponent wastes energy because their balanced base can absorb the bridge force.",
+        "distractors": {
+          "plausible": [
+            "Once they settle heavy and centered",
+            "The instant you clamp the wrist"
+          ],
+          "trap": [
+            "Wait until they climb to high mount"
+          ]
+        },
+        "answer_line": "When they reach and weight shifts"
       },
       {
         "question": "What conditions must exist before you can successfully attempt the trap and roll?",
-        "answer": "Four conditions must be met: the opponent must have one arm committed forward and capturable, the corresponding foot on the same side must be hookable with your leg, your feet must be walked close to your hips for maximum bridge power, and the opponent should not be in high mount where your bridge leverage is severely compromised. Missing any one condition dramatically reduces success probability."
+        "answer": "You need a trapped arm, a hooked foot on the same side, feet walked close to your hips, and the opponent not in high mount. The committed arm must be capturable, and the corresponding same-side foot must be hookable with your leg; feet close to your hips give maximum bridge power, while high mount severely compromises your bridge leverage. Missing any one condition dramatically reduces success probability.",
+        "distractors": {
+          "plausible": [
+            "Trapped arm and foot hook only",
+            "Feet close and opponent off-balance"
+          ],
+          "trap": [
+            "Attempt anytime from mount"
+          ]
+        },
+        "answer_line": "Trapped arm, foot hook, feet close"
       },
       {
         "question": "Why must the bridge direction be at a 45-degree angle rather than straight upward?",
-        "answer": "A straight-up bridge lifts the opponent but leaves their base intact on both sides, allowing them to simply settle back down when the bridge expires. The 45-degree angle directs force over the shoulder where the arm and foot are trapped, targeting the exact line where the opponent has no base to catch themselves. This converts the bridge energy into rotational force that topples them over their weakest structural point."
+        "answer": "A straight-up bridge lifts the opponent but leaves their base intact on both sides, allowing them to simply settle back down when the bridge expires. The 45-degree angle directs force over the shoulder where the arm and foot are trapped, targeting the exact line where the opponent has no base to catch themselves. This converts the bridge energy into rotational force that topples them over their weakest structural point.",
+        "answer_line": "45° angle over trapped shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight up for maximum height",
+            "Toward your free shoulder"
+          ],
+          "trap": [
+            "Roll to the free side, giving back"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the trap and roll fails at the moment of the bridge?",
-        "answer": "The most common failure point is neglecting to trap the corresponding foot before bridging. Without the foot hook, the opponent can simply step their leg out wide to post on the mat and maintain base regardless of how powerful the bridge is. Even a technically perfect arm trap and explosive bridge will fail if the opponent has a free leg to post with on the bridge side."
+        "answer": "The most common failure point is neglecting to trap the corresponding foot before bridging. Without the foot hook, the opponent can simply step their leg out wide to post on the mat and maintain base regardless of how powerful the bridge is. Even a technically perfect arm trap and explosive bridge will fail if the opponent has a free leg to post with on the bridge side.",
+        "answer_line": "Forgetting the foot hook",
+        "distractors": {
+          "plausible": [
+            "Wrist grip not tight enough",
+            "Bridging a beat too soon"
+          ],
+          "trap": [
+            "Push their chest away, offer armbar"
+          ]
+        }
       },
       {
         "question": "How should you secure the opponent's wrist during the arm trap phase?",
-        "answer": "Capture the wrist with your same-side hand while your opposite hand clamps over their elbow or upper tricep, creating a two-on-one control. Pull the trapped arm tight against your chest like hugging a football, using your body weight and arm compression to immobilize the limb. The tighter the arm is pressed to your chest, the less leverage the opponent has to swim it free during the bridge."
+        "answer": "Capture the wrist with your same-side hand while your opposite hand clamps over their elbow or upper tricep, creating a two-on-one control. Pull the trapped arm tight against your chest like hugging a football, using your body weight and arm compression to immobilize the limb. The tighter the arm is pressed to your chest, the less leverage the opponent has to swim it free during the bridge.",
+        "answer_line": "Wrist hand + elbow hand, hug tight",
+        "distractors": {
+          "plausible": [
+            "Grip both hands on the wrist",
+            "Grip high near the shoulder"
+          ],
+          "trap": [
+            "Push the arm away from your chest"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand when you bridge - how do you adjust your escape strategy?",
-        "answer": "Immediately abandon the trap and roll and switch to an elbow escape on the side where they posted. Their posting hand has shifted their weight and created a high frame on one side, opening space on the opposite hip for your knee to slide through. The failed trap and roll has actually improved your elbow escape setup by forcing the opponent to compromise their base distribution. This chain is the fundamental mount escape dilemma."
+        "answer": "Immediately abandon the trap and roll and switch to an elbow escape on the side where they posted. Their posting hand has shifted their weight and created a high frame on one side, opening space on the opposite hip for your knee to slide through. The failed trap and roll has actually improved your elbow escape setup by forcing the opponent to compromise their base distribution. This chain is the fundamental mount escape dilemma.",
+        "answer_line": "Switch to elbow escape that side",
+        "distractors": {
+          "plausible": [
+            "Bridge again with more power",
+            "Retry the trap on the other side"
+          ],
+          "trap": [
+            "Turn belly down and give the back"
+          ]
+        }
       },
       {
         "question": "Can you execute the trap and roll when the opponent is in high mount with knees near your armpits?",
-        "answer": "No, the trap and roll is not viable from high mount because your bridge leverage is severely compromised when the opponent's weight is positioned forward on your chest. With knees near your armpits, you cannot generate sufficient hip extension to break their balance. You must first address the high mount by walking your elbows inside their knees to push them back to standard mount, then attempt the trap and roll with restored bridge leverage."
+        "answer": "No, high mount destroys your bridge leverage; you must first push the opponent back to standard mount before rolling. With their weight positioned forward on your chest and knees near your armpits, you cannot generate sufficient hip extension to break their balance. Walk your elbows inside their knees to push them back down to standard mount, then attempt the trap and roll with restored bridge leverage.",
+        "distractors": {
+          "plausible": [
+            "Bridge harder to compensate",
+            "Trap the arm despite high mount"
+          ],
+          "trap": [
+            "Push their hips with straight arms"
+          ]
+        },
+        "answer_line": "Push back to standard mount first"
       },
       {
         "question": "If the trap and roll fails and the opponent begins transitioning to high mount, what should you do immediately?",
-        "answer": "Immediately shift to a defensive priority of preventing the high mount advancement. Walk your elbows inside their knees to block further upward progression, turn slightly to one side to avoid a flat position, and re-establish frames on their hips. Do not attempt another bridge-based escape from high mount. Instead, focus on returning them to standard mount height where trap and roll leverage is restored, or use frames and hip escapes to create space for guard recovery."
+        "answer": "Immediately shift to a defensive priority of preventing the high mount advancement. Walk your elbows inside their knees to block further upward progression, turn slightly to one side to avoid a flat position, and re-establish frames on their hips. Do not attempt another bridge-based escape from high mount. Instead, focus on returning them to standard mount height where trap and roll leverage is restored, or use frames and hip escapes to create space for guard recovery.",
+        "answer_line": "Block knees, prevent high mount",
+        "distractors": {
+          "plausible": [
+            "Attempt another bridge escape",
+            "Push hard to buck them off"
+          ],
+          "trap": [
+            "Go flat and turn away"
+          ]
+        }
       },
       {
         "question": "What grip should you use on the trapped arm and why does grip placement matter?",
-        "answer": "The two-on-one grip places your same-side hand on the opponent's wrist for distance control while your opposite hand controls their elbow or tricep for leverage. This dual-point control prevents the opponent from circling their elbow free, which is the primary escape from single-point wrist grips. Gripping too high on the arm near the shoulder reduces your mechanical advantage, while gripping only the wrist allows elbow rotation escapes."
+        "answer": "The two-on-one grip places your same-side hand on the opponent's wrist for distance control while your opposite hand controls their elbow or tricep for leverage. This dual-point control prevents the opponent from circling their elbow free, which is the primary escape from single-point wrist grips. Gripping too high on the arm near the shoulder reduces your mechanical advantage, while gripping only the wrist allows elbow rotation escapes.",
+        "answer_line": "Two-on-one: wrist + elbow control",
+        "distractors": {
+          "plausible": [
+            "Squeeze the wrist with both hands",
+            "Clamp high near the shoulder"
+          ],
+          "trap": [
+            "Extend both arms to push them off"
+          ]
+        }
       },
       {
         "question": "How does the trap and roll integrate with the elbow escape to create a complete mount escape system?",
-        "answer": "The trap and roll and elbow escape create a binary dilemma for the mounted opponent. To prevent the trap and roll, they must keep their arms retracted and base wide, but this makes their weight distribution higher and more susceptible to hip escape. To prevent the elbow escape, they must keep tight pressure and low hips, but this brings their arms closer to trapping range. Each failed attempt of one escape improves the conditions for the other, creating a systematic escape engine."
+        "answer": "The trap and roll and elbow escape create a binary dilemma for the mounted opponent. To prevent the trap and roll, they must keep their arms retracted and base wide, but this makes their weight distribution higher and more susceptible to hip escape. To prevent the elbow escape, they must keep tight pressure and low hips, but this brings their arms closer to trapping range. Each failed attempt of one escape improves the conditions for the other, creating a systematic escape engine.",
+        "answer_line": "Each escape sets up the other",
+        "distractors": {
+          "plausible": [
+            "They defend both threats the same",
+            "Drill only your best escape"
+          ],
+          "trap": [
+            "Bridge over and over till gassed"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The trap and roll is one of the safest escape techniques in BJJ as it involves no joint manipulation or strangulation risk. The primary safety concern is neck strain during explosive bridging, which can be mitigated by driving through the shoulders and hips rather than the neck. Practitioners with cervical spine issues should modify the bridge angle and intensity. During training, the rolling partner should be prepared for the reversal to avoid landing awkwardly, and beginners should practice at controlled speeds before adding explosive power."
+    "safety_considerations": "The trap and roll is one of the safest escape techniques in BJJ as it involves no joint manipulation or strangulation risk. The primary safety concern is neck strain during explosive bridging, which can be mitigated by driving through the shoulders and hips rather than the neck. Practitioners with cervical spine issues should modify the bridge angle and intensity. During training, the rolling partner should be prepared for the reversal to avoid landing awkwardly, and beginners should practice at controlled speeds before adding explosive power.",
+    "clips": [
+      {
+        "id": "WJmDwNWTXKY",
+        "title": "Trap and roll mount escape, technique 4",
+        "by": "Demian Maia",
+        "vertical": false,
+        "channel": "Demian Maia Jiu-Jitsu Portugal",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Pw76Tizir3k",
+        "title": "High mount escape, simple and effective",
+        "by": "Pathfinder Jiu-Jitsu Team",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 120,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Trap and Roll from Mount Defender",
@@ -376,23 +508,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a trap and roll is being set up from bottom mount?",
-        "answer": "The earliest cue is the bottom player walking their feet in close to their hips while reaching for your arm with both hands. This foot positioning loads their bridge power, and the two-handed reach indicates the arm trap is imminent. Recognizing this setup in the loading phase gives you maximum time to retract the targeted arm or advance position before the explosive bridge phase begins."
+        "answer": "The earliest cue is the bottom player walking their feet in close to their hips while reaching for your arm with both hands. This foot positioning loads their bridge power, and the two-handed reach indicates the arm trap is imminent. Recognizing this setup in the loading phase gives you maximum time to retract the targeted arm or advance position before the explosive bridge phase begins.",
+        "answer_line": "Feet walk in, two-hand arm reach",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar",
+            "Opponent postures up high"
+          ],
+          "trap": [
+            "Wait for the bridge to react"
+          ]
+        }
       },
       {
         "question": "Why is addressing the foot hook equally important as defending the arm trap?",
-        "answer": "The foot hook removes your ability to step out and post with your leg on the trapped side, which is the most reliable defense against the bridge. Without the foot hook, you can simply step your base wide to absorb any bridge force regardless of whether your arm is trapped. The foot hook is the structural element that makes the bridge effective, so breaking it neutralizes the entire technique even if the arm trap is secure."
+        "answer": "The foot hook removes your ability to step out and post with your leg on the trapped side, which is the most reliable defense against the bridge. Without the foot hook, you can simply step your base wide to absorb any bridge force regardless of whether your arm is trapped. The foot hook is the structural element that makes the bridge effective, so breaking it neutralizes the entire technique even if the arm trap is secure.",
+        "answer_line": "Removes your post-out defense",
+        "distractors": {
+          "plausible": [
+            "Only weakens your base slightly",
+            "Matters less than the arm trap"
+          ],
+          "trap": [
+            "Ignore the foot, defend arm only"
+          ]
+        }
       },
       {
         "question": "How should you adjust your base when you feel the bottom player begin to bridge explosively?",
-        "answer": "Drive your hips forward and low while posting your free hand at a 45-degree angle toward the bridge direction. Keep your head low and your weight centered rather than leaning away from the bridge. Grapevining your legs provides additional base stability by widening your contact area with the mat. The key is absorbing the bridge force through your structural base rather than fighting it with upper body strength."
+        "answer": "Drive your hips forward and low while posting your free hand at a 45-degree angle toward the bridge direction. Keep your head low and your weight centered rather than leaning away from the bridge. Grapevining your legs provides additional base stability by widening your contact area with the mat. The key is absorbing the bridge force through your structural base rather than fighting it with upper body strength.",
+        "answer_line": "Drive hips low, post at 45°",
+        "distractors": {
+          "plausible": [
+            "Lean away from the bridge",
+            "Post both hands straight up"
+          ],
+          "trap": [
+            "Raise hips to absorb the bridge"
+          ]
+        }
       },
       {
         "question": "What offensive opportunity does a failed trap and roll create for the mounted player?",
-        "answer": "A failed trap and roll leaves the bottom player's arms extended and committed from the trapping attempt, creating immediate submission opportunities. The arm that was reaching for the trap is now exposed for Americana or armbar attacks. Additionally, the failed bridge often leaves the bottom player slightly turned to one side, opening the path for gift wrap control or technical mount transition toward back control."
+        "answer": "A failed trap and roll leaves the bottom player's arms extended and committed from the trapping attempt, creating immediate submission opportunities. The arm that was reaching for the trap is now exposed for Americana or armbar attacks. Additionally, the failed bridge often leaves the bottom player slightly turned to one side, opening the path for gift wrap control or technical mount transition toward back control.",
+        "answer_line": "Extended arm exposed for attacks",
+        "distractors": {
+          "plausible": [
+            "Only a slight positional edge",
+            "Opponent's base fully broken"
+          ],
+          "trap": [
+            "Release all pressure and reset"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from chaining the trap and roll into an elbow escape?",
-        "answer": "After defending the trap and roll, immediately re-center your weight and drive your hips down before the bottom player can capitalize on any weight shift your defense created. Close any space that opened on the posting side by sliding your knee back to the mat and re-establishing hip-to-hip pressure. Threaten a submission on the arm they extended during the trap attempt to freeze their offensive momentum and force them back to a defensive posture."
+        "answer": "After defending the trap and roll, immediately re-center your weight and drive your hips down before the bottom player can capitalize on any weight shift your defense created. Close any space that opened on the posting side by sliding your knee back to the mat and re-establishing hip-to-hip pressure. Threaten a submission on the arm they extended during the trap attempt to freeze their offensive momentum and force them back to a defensive posture.",
+        "answer_line": "Re-center weight and close space",
+        "distractors": {
+          "plausible": [
+            "Stand up to reset the position",
+            "Spread your knees wide and wait"
+          ],
+          "trap": [
+            "Relax pressure after the defense"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -415,6 +597,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-resistance mount maintenance against escape chains",
         "description": "Positional sparring from mount where the bottom player focuses specifically on trap and roll and elbow escape chains. The top player must defend both escapes while maintaining mount and looking for offensive opportunities. Full resistance with competition-level intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cxAYK5yx8Ws",
+        "title": "Trap and roll defense with double wrist pin",
+        "by": "Next Level Martial Arts",
+        "vertical": false,
+        "channel": "Next Level Martial Arts- Mount Kisco, NY",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dPkkcUtsymw",
+        "title": "Three must-know mount escapes",
+        "by": "Legion AJJ",
+        "vertical": false,
+        "channel": "Legion AJJ",
+        "duration": 96,
+        "verified": "2026-07-15"
       }
     ]
   }

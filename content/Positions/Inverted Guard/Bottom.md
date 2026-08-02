@@ -21,37 +21,37 @@ description: "Master inverted guard from bottom perspective. Dynamic defensive p
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kiss of the Dragon",
-      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Single Leg X Entry",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute X-Guard Sweep",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Omoplata from Inverted Guard",
+      "text": "From this position, attempt Omoplata from Inverted Guard. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master inverted guard from bottom perspective. Dynamic defensive p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jiu Jitsu Inversion Mechanics",
+      "description": "Inverted Guard (Bottom) film study: Jiu Jitsu Inversion Mechanics, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KNz5AkZ4jrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KNz5AkZ4jrg",
+      "url": "https://www.youtube.com/watch?v=KNz5AkZ4jrg",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inverting under top pressure",
+      "description": "Inverted Guard (Bottom) film study: Inverting under top pressure, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ErsvmCAGxnA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ErsvmCAGxnA",
+      "url": "https://www.youtube.com/watch?v=ErsvmCAGxnA",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing Alternative to Circle Hand",
+      "description": "Inverted Guard (Bottom) film study: Standing Alternative to Circle Hand, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SCfmkmD4PYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SCfmkmD4PYA",
+      "url": "https://www.youtube.com/watch?v=SCfmkmD4PYA",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master inverted guard from bottom perspective. Dynamic defensive p
 From the bottom perspective, Inverted Guard represents a highly mobile defensive posture that creates unique offensive opportunities through unconventional angles. The practitioner positions themselves upside-down with shoulders and upper back in contact with the mat, weight carefully distributed to avoid neck compression. The legs extend upward toward the opponent, creating defensive frames while maintaining connection through hooks, grips, or foot placement. This position excels at neutralizing pressure passing attempts while simultaneously establishing pathways to back attacks and leg entanglements. The bottom player must maintain constant movement and transitional intent, as static holding in inverted guard leads to energy depletion and increased vulnerability to stack passes. Success from this position requires specific flexibility, developed inversion mechanics, and clear understanding of connected positions like berimbolo entries, X-guard variations, and back take sequences. The modern competition meta has elevated inverted guard from a niche position to a fundamental component of comprehensive guard retention systems, particularly in no-gi and advanced gi competition. The position's effectiveness stems from forcing opponents to navigate unfamiliar passing angles while the inverted practitioner maintains superior mobility and offensive options. Training emphasis should focus on rapid transitions rather than sustained holding, with clear pathways to dominant positions serving as the primary objective of inversion.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KNz5AkZ4jrg)
+
+<p class="clip-credit"><strong>Jiu Jitsu Inversion Mechanics</strong> — taught by Mikey Musumeci · 1:12 · <a href="https://www.youtube.com/watch?v=KNz5AkZ4jrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ErsvmCAGxnA)
+
+<p class="clip-credit"><strong>Inverting under top pressure</strong> — taught by Mikey Musumeci · 1:18 · <a href="https://www.youtube.com/watch?v=ErsvmCAGxnA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SCfmkmD4PYA)
+
+<p class="clip-credit"><strong>Standing Alternative to Circle Hand</strong> — taught by Mikey Musumeci · 1:59 · <a href="https://www.youtube.com/watch?v=SCfmkmD4PYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

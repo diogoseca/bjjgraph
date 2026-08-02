@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
   "from_position": "Front Headlock/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Brabo Choke is a powerful blood choke from the front headlock position, closely related to the Darce and Anaconda chokes. The technique involves threading your arm under the opponent's near arm and across their neck, securing a grip on your own bicep to create a vice-like constriction of the carotid arteries. The name 'Brabo' is a Portuguese pronunciation variation of 'Darce,' though some practitioners distinguish between the two based on subtle grip and angle differences. This submission is particularly effective when the opponent is defending a front headlock by keeping their elbows tight, creating the necessary space for arm insertion. The Brabo Choke excels in scramble situations, turtle attacks, and failed takedown defense scenarios. Its effectiveness comes from the mechanical advantage created by using your entire body weight to compress the opponent's neck against their own shoulder, making it extremely difficult to defend once properly locked. The choke works in both gi and no-gi contexts, though grip variations differ slightly between formats. Modern competitors favor this submission for its high finishing rate and the control it provides throughout the execution process.",
   "safety_considerations": {
     "injury_risks": [
@@ -70,17 +73,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -310,62 +322,211 @@
       {
         "question": "What is the primary safety difference between a properly executed blood choke and an air choke, and why does the Brabo Choke require deep arm insertion?",
         "answer": "A blood choke (properly executed Brabo) compresses the carotid arteries causing rapid unconsciousness within 5-10 seconds, then releases safely with immediate recovery. An air choke compresses the trachea causing panic and pain but takes much longer to be effective, and can cause serious tracheal damage. Deep arm insertion ensures your forearm crosses the front of the neck at the correct angle to compress carotids rather than crush the trachea. Shallow insertion results in painful but less effective air choke that risks injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Deep arm hits carotids not trachea",
+        "distractors": {
+          "plausible": [
+            "Shallow grip still works fine",
+            "Air choke is safer method"
+          ],
+          "trap": [
+            "Aim forearm at the trachea"
+          ]
+        }
       },
       {
         "question": "What is the correct response if your training partner's body suddenly goes limp during Brabo Choke application?",
         "answer": "Immediately release all pressure by opening your grip and removing your arm from their neck smoothly. Your partner has lost consciousness and continuing pressure is extremely dangerous. Allow them to recover in a safe position, monitor their breathing, and give them several minutes before resuming training. If they don't regain consciousness within 10-15 seconds, seek medical help immediately. This scenario emphasizes why progressive pressure and attention to tap signals is critical in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release the choke immediately",
+        "distractors": {
+          "plausible": [
+            "Splash water on their face",
+            "Sit them upright right away"
+          ],
+          "trap": [
+            "Squeeze a few beats longer"
+          ]
+        }
       },
       {
         "question": "Describe the proper body angle for finishing the Brabo Choke and explain why this angle is mechanically superior to staying parallel with the opponent?",
         "answer": "The optimal finishing angle is perpendicular to the opponent's spine, with your chest across their upper back and your head near their far shoulder. This perpendicular angle creates a scissoring effect where your forearm compresses the near-side carotid while your shoulder drives into the side of their neck, pressing their own shoulder against the far-side carotid. The mechanical advantage comes from using your entire body weight and shoulder pressure rather than just arm strength. Parallel positioning loses this leverage and allows opponent to defend by turning into you or posturing up.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Perpendicular to their spine",
+        "distractors": {
+          "plausible": [
+            "Stay parallel, chest to chest",
+            "Aim your head toward their feet"
+          ],
+          "trap": [
+            "Release grip, spin to the back"
+          ]
+        }
       },
       {
         "question": "Why is the bicep grip crucial for the Brabo Choke, and what happens if the grip is too loose or too high on the arm?",
         "answer": "The bicep grip (or wrist grip) creates a closed circuit that locks your arms in a tight loop around the opponent's neck and trapped arm. This prevents the opponent from creating space by turning their head or pulling your arm loose. If the grip is too high or loose, space exists in the circuit allowing the opponent to turn their chin toward you and relieve pressure on the carotids. A deep, tight bicep grip eliminates this escape space and ensures maximum mechanical efficiency of the choking mechanism.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Locks the circuit, no head turn",
+        "distractors": {
+          "plausible": [
+            "Grip high near the elbow",
+            "Grip your own shoulder instead"
+          ],
+          "trap": [
+            "Open the loop to re-thread deeper"
+          ]
+        }
       },
       {
         "question": "What are the key differences between the Brabo Choke and the Darce Choke, and when might you choose one over the other?",
         "answer": "The Brabo and Darce are closely related with subtle differences in entry angle and finishing mechanics. The Brabo traditionally refers to threading under the near arm from front headlock when opponent's arm is tight to their body, while Darce often implies threading from side control or when the arm is slightly away from body. Some practitioners use the terms interchangeably. The practical difference is angle of entry: Brabo setup assumes opponent is defending with tight elbows from bottom, while Darce assumes you're attacking from a top control position. Choose based on which entry presents itself in the scramble or position you're attacking from.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Entry angle: front headlock vs top",
+        "distractors": {
+          "plausible": [
+            "Darce needs a gi lapel grip",
+            "They finish from opposite sides"
+          ],
+          "trap": [
+            "Drop the headlock to re-grip"
+          ]
+        }
       },
       {
         "question": "How should you adjust the Brabo Choke if your opponent attempts to roll toward you, and why is this actually beneficial for finishing?",
         "answer": "If opponent rolls toward you during Brabo application, follow the roll while maintaining your grip and chest pressure on their back. The rolling motion often actually tightens the choke because it prevents them from posturing up or creating space. Follow through the roll and you'll land in a modified mount or side control position with the choke still locked, often in a better finishing position. The key is not to resist the roll but to use it - maintain your grip circuit and keep your chest connected to their back throughout the movement. This adjustment transforms their escape attempt into a submission completion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow the roll, keep grip tight",
+        "distractors": {
+          "plausible": [
+            "Resist the roll to stay square",
+            "Post a hand to stop the roll"
+          ],
+          "trap": [
+            "Roll away and expose your back"
+          ]
+        }
       },
       {
         "question": "What minimum application time should you use when training the Brabo Choke, and why is this critical for training partner safety?",
         "answer": "In training, build pressure progressively over 3-5 seconds minimum. This slow application allows your partner time to recognize they're caught, assess their escape options, and tap before reaching a dangerous compression level. Blood chokes work very quickly once properly applied - full compression causes unconsciousness in 5-10 seconds - so building pressure slowly provides crucial safety buffer. Competition speed application has no place in training, as it prevents partner from safely tapping and significantly increases injury risk. The controlled application also allows you to refine technique rather than rely on explosive pressure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Build pressure over 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Apply fast, tap stops it anyway",
+            "Speed doesn't matter in training"
+          ],
+          "trap": [
+            "Full pressure instantly, then ease"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to posture up while you have the Brabo locked but not yet tight - what adjustment prevents their escape?",
         "answer": "When the opponent attempts to posture, immediately walk your feet backward to drop your hip weight lower while driving your chest pressure more heavily onto their upper back. Simultaneously, pull your elbows tighter together to reduce any slack in the grip. If they continue to rise, circle perpendicular to them to collapse their posting base. The key principle is that your body weight must exceed their ability to lift, so staying heavy and connected while adjusting angle is more effective than trying to pull them back down with arm strength alone.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drop hips, drive chest heavier",
+        "distractors": {
+          "plausible": [
+            "Pull down hard with your arms",
+            "Widen your elbows for leverage"
+          ],
+          "trap": [
+            "Stand up as they posture"
+          ]
+        }
       },
       {
         "question": "What anatomical structures does the Brabo Choke attack, and how does the trapped arm contribute to the finishing mechanism?",
         "answer": "The Brabo Choke primarily attacks both carotid arteries, which supply blood to the brain. Your forearm compresses the near-side carotid from the front, while your shoulder combined with the opponent's own trapped shoulder compresses the far-side carotid from behind. The trapped arm is critical because it creates the lever against which your forearm pressure operates - without the arm trapped, the opponent could simply turn their neck to relieve pressure. The trapped arm also prevents them from hand fighting effectively, as one arm is completely removed from the defense equation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Carotids; trapped arm is the lever",
+        "distractors": {
+          "plausible": [
+            "Trachea; trapped arm blocks breath",
+            "Jugular; the free arm is the lever"
+          ],
+          "trap": [
+            "Crank the neck instead of choking"
+          ]
+        }
       },
       {
         "question": "In competition, what are the indicators that tell you the Brabo Choke is properly locked and will finish, versus when you should transition to another attack?",
         "answer": "Signs the choke will finish include: opponent stops actively defending and focuses on survival breathing, their face changes color (indicating blood restriction), their body goes rigid then suddenly relaxes, or you feel no space in your grip circuit when you squeeze your elbows together. Signs to transition include: opponent creates significant space by turning their chin toward your armpit, they successfully extract their trapped arm, they stand up and break your angle, or they roll to a position where you cannot maintain chest-to-back connection. In competition, give a properly locked choke 5-8 seconds before considering transition - if not working by then, chain to Anaconda or guillotine.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stops defending, rigid then limp",
+        "distractors": {
+          "plausible": [
+            "Any tension means it's working",
+            "They stop moving their legs"
+          ],
+          "trap": [
+            "Keep squeezing after they tap"
+          ]
+        }
       },
       {
         "question": "How does hip positioning affect the finishing power of the Brabo Choke, and what is the optimal hip placement?",
         "answer": "Hip positioning is critical for generating finishing power in the Brabo. The optimal placement is with your hips low and angled perpendicular to the opponent's body, positioned slightly past their near shoulder toward their far side. This allows you to drive your body weight through your shoulder into their neck while using your hips as an anchor point. If hips are too high, opponents can slip underneath and escape. If hips are too square (parallel to opponent), you lose the angular pressure that makes the choke effective. Walking your hips in a circular motion to find the 'sweet spot' where pressure maximizes is a key finishing detail.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Low hips, perpendicular angle",
+        "distractors": {
+          "plausible": [
+            "Hips square to their body",
+            "Hips heavy on their lower back"
+          ],
+          "trap": [
+            "Rise up and let them shoot in"
+          ]
+        }
       },
       {
         "question": "What common defensive hand position from your opponent actually makes the Brabo Choke easier to finish, and why?",
         "answer": "When opponents defend by reaching their free hand across to grab or push your choking arm from the inside (trying to create space between your forearm and their neck), this actually helps the choke. Their defensive movement pulls their far shoulder forward, which tightens the far-side compression against your shoulder pressure. Additionally, their arm movement across their body rotates their torso slightly, improving your angle. The proper defense is actually to push against your hip or shoulder to create whole-body space, not to fight the choking arm directly. Recognizing when their defense helps you allows for confident finishing pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Reaching across pulls shoulder in",
+        "distractors": {
+          "plausible": [
+            "Grabbing your wrist to peel it",
+            "Framing on your shoulder to push"
+          ],
+          "trap": [
+            "Free your arm to fight their hand"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "BMU1_wfjYTw",
+        "title": "Darce Choke from the Front Headlock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 101,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dS5HQNSyuXs",
+        "title": "Half Nelson to D'Arce/Brabo Choke",
+        "by": "Joshua Clements",
+        "vertical": false,
+        "channel": "Joshua Clements",
+        "duration": 94,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pad9c-Ldljg",
+        "title": "Brabo Choke from Turtle",
+        "by": "Thiago Stefanutti",
+        "vertical": false,
+        "channel": "thiago stefanutti",
+        "duration": 46,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -465,27 +626,77 @@
       {
         "question": "Why is early recognition and prevention far more important than escape technique when facing the Brabo Choke?",
         "answer": "The Brabo Choke has a very narrow window between partial application and full finishing pressure. Once the attacker completes the bicep grip and establishes perpendicular angle, escape probability drops below 15%. However, before the arm is fully threaded, simple defensive actions like keeping elbows tight, hand fighting the threading wrist, or posturing up are highly effective. The asymmetry between prevention difficulty (easy) and escape difficulty (extremely hard) means investing all defensive energy into early recognition and denial of the arm threading is far more efficient than developing late-stage escape techniques.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Window closes once grip locks",
+        "distractors": {
+          "plausible": [
+            "Escape works fine if you're strong",
+            "Both are equally difficult"
+          ],
+          "trap": [
+            "Wait and muscle out once tight"
+          ]
+        }
       },
       {
         "question": "What is the correct direction to circle when defending a Brabo Choke, and what happens if you circle the wrong way?",
         "answer": "You must circle AWAY from the choking arm side - meaning toward the side where your head has more freedom and the arm loop is looser. This direction opens the choke circuit by pulling your neck out of the tightening loop. Circling toward the choking arm (the opposite direction) feeds your neck deeper into the arm threading and improves the attacker's perpendicular angle, dramatically tightening the choke. This directional error is one of the most common defensive mistakes and often results in accelerating your own submission. A useful mental cue is to circle toward your free arm, away from your trapped arm.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Circle away from the choking arm",
+        "distractors": {
+          "plausible": [
+            "Direction doesn't matter, just push",
+            "Back straight out the same way"
+          ],
+          "trap": [
+            "Circle toward the choking arm"
+          ]
+        }
       },
       {
         "question": "Why should you tap early when caught in a Brabo Choke rather than waiting to feel significant discomfort?",
         "answer": "The Brabo Choke is a blood choke that compresses the carotid arteries, cutting blood supply to the brain. Unlike joint locks which produce sharp pain as a warning signal, blood chokes can cause unconsciousness within 5-10 seconds of full compression without significant pain preceding it. You may feel only moderate pressure or slight dizziness before losing consciousness entirely. Tapping early - as soon as you recognize the grip is locked and your escape has failed - is the only safe approach. Training partners and competitors who wait for pain before tapping frequently go unconscious, which carries neurological risks with repeated occurrences.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Blackout comes with no pain warning",
+        "distractors": {
+          "plausible": [
+            "Dizziness always warns you first",
+            "It hurts like an armbar first"
+          ],
+          "trap": [
+            "Ride it out to build defense"
+          ]
+        }
       },
       {
         "question": "Your opponent has threaded their arm but has not yet secured the bicep grip - what specific defensive actions give you the best chance of escaping?",
         "answer": "This is your critical window. First, immediately posture up by driving off your knees and extending your spine while pushing against their hips - this breaks the bent-forward angle they need. Second, use your free hand to control their threading wrist and prevent it from reaching their bicep. Third, simultaneously circle away from the choking arm to open the arm loop. The combination of posture recovery, wrist control, and directional movement addresses all three mechanical requirements of the choke simultaneously. If any one succeeds, the choke becomes unfinishable from this position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture, control wrist, circle away",
+        "distractors": {
+          "plausible": [
+            "Pull your head straight back",
+            "Push their hips away only"
+          ],
+          "trap": [
+            "Relax and wait for grip to slip"
+          ]
+        }
       },
       {
         "question": "How does your trapped arm position affect the Brabo Choke, and what should you do with it during defense?",
         "answer": "Your trapped arm is being used as part of the choking mechanism - the attacker's forearm presses your own shoulder into your far-side carotid artery. Pulling your trapped arm away from the attacker actually worsens the choke because it tightens the loop. Instead, swim your trapped arm toward the attacker's body and try to extract it by circling it forward and underneath their control. If you can free the trapped arm, the choke loses its primary compression surface and becomes significantly less effective. The arm extraction combined with circling away from the choke side is the highest-percentage late-stage escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Swim it forward, don't pull back",
+        "distractors": {
+          "plausible": [
+            "Leave it slack, it stays unused",
+            "Grab your own belt with it"
+          ],
+          "trap": [
+            "Rip it straight back to free it"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -508,6 +719,26 @@
         "phase": "Phase 4: Live Positional Defense Sparring",
         "focus": "Full-speed defense integration from front headlock and turtle positions",
         "description": "Positional sparring starting from front headlock or turtle where partner actively hunts the Brabo. Defend with full technique while partner applies at 70-80% intensity. Develop automatic recognition and response patterns. Practice both prevention and escape equally. Reinforce early tapping as a trained response rather than a last resort."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce Choke Defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "i_BKN6v-iAI",
+        "title": "Escape the D'Arce Choke",
+        "by": "Energia Martial Arts",
+        "vertical": false,
+        "channel": "Energia Martial Arts",
+        "duration": 248,
+        "verified": "2026-07-14"
       }
     ]
   },

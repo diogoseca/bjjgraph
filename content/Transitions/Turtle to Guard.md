@@ -34,6 +34,54 @@ description: "Master Turtle to Guard recovery in BJJ. Essential defensive transi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard recovery from turtle position",
+      "description": "Turtle to Guard film study: Guard recovery from turtle position, taught by Gracie Barra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PYk5Ei2IZBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PYk5Ei2IZBk",
+      "url": "https://www.youtube.com/watch?v=PYk5Ei2IZBk",
+      "creator": { "@type": "Person", "name": "Gracie Barra" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pulling guard from turtle position",
+      "description": "Turtle to Guard film study: Pulling guard from turtle position, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c-k3lA-yVhU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c-k3lA-yVhU",
+      "url": "https://www.youtube.com/watch?v=c-k3lA-yVhU",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle escape via shoulder roll",
+      "description": "Turtle to Guard film study: Turtle escape via shoulder roll, taught by BJJake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
+      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
+      "creator": { "@type": "Person", "name": "BJJake" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Success depends on timing, hip mobility, and understanding weight distribution p
 This transition represents a key defensive skill that prevents opponents from consolidating dominant positions while allowing the defender to return to offensive guard positions where they can threaten sweeps and submissions. At the highest levels, the guard recovery is pre-loaded and executed in a fraction of a second when the opponent's weight shifts, making the timing window the primary variable that separates successful from failed attempts.
 
 **From Position**: [[Positions/Turtle]] (Bottom)
-**Success Rate**: 60%
+**Success Rate**: 44%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PYk5Ei2IZBk)
+
+<p class="clip-credit"><strong>Guard recovery from turtle position</strong> — taught by Gracie Barra · 0:53 · <a href="https://www.youtube.com/watch?v=PYk5Ei2IZBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c-k3lA-yVhU)
+
+<p class="clip-credit"><strong>Pulling guard from turtle position</strong> — taught by Team Daruma Dojo · 0:33 · <a href="https://www.youtube.com/watch?v=c-k3lA-yVhU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W0TCGKRcniA)
+
+<p class="clip-credit"><strong>Turtle escape via shoulder roll</strong> — taught by BJJake · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -168,6 +168,43 @@ description: "How to execute Rotate to Carni in BJJ. Attacking perspective with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rotate to Carni (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic entries and rotations into rubber guard",
+      "description": "Rotate to Carni (Attacker) film study: Basic entries and rotations into rubber guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WliTCjEDA-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WliTCjEDA-8",
+      "url": "https://www.youtube.com/watch?v=WliTCjEDA-8",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber guard trap and rotation",
+      "description": "Rotate to Carni (Attacker) film study: Rubber guard trap and rotation, taught by Richie Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nuT1Jk0KVoI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nuT1Jk0KVoI",
+      "url": "https://www.youtube.com/watch?v=nuT1Jk0KVoI",
+      "creator": { "@type": "Person", "name": "Richie Martinez" },
+      "duration": "PT246S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -179,6 +216,34 @@ The attacker's primary advantage is that this transition exploits a natural defe
 **From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rotate to Carni (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WliTCjEDA-8)
+
+<p class="clip-credit"><strong>Basic entries and rotations into rubber guard</strong> — taught by BJJ4Breakfast · 1:46 · <a href="https://www.youtube.com/watch?v=WliTCjEDA-8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nuT1Jk0KVoI)
+
+<p class="clip-credit"><strong>Rubber guard trap and rotation</strong> — taught by Richie Martinez · 4:06 · <a href="https://www.youtube.com/watch?v=nuT1Jk0KVoI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

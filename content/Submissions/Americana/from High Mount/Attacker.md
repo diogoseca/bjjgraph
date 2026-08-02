@@ -176,6 +176,54 @@ description: "Execute the Americana shoulder lock from High Mount. Attacking gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from High Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Perform An Americana From Top Mount",
+      "description": "Americana from High Mount (Attacker) film study: How To Perform An Americana From Top Mount, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uPazS4MJiDc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uPazS4MJiDc",
+      "url": "https://www.youtube.com/watch?v=uPazS4MJiDc",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Americana from Mount",
+      "description": "Americana from High Mount (Attacker) film study: Americana from Mount, taught by Chelsea Ozer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z44VF9pmJBg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z44VF9pmJBg",
+      "url": "https://www.youtube.com/watch?v=Z44VF9pmJBg",
+      "creator": { "@type": "Person", "name": "Chelsea Ozer" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Finishing the Americana",
+      "description": "Americana from High Mount (Attacker) film study: Finishing the Americana, taught by The Muscular Octopus.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mk4jR6Anm8g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mk4jR6Anm8g",
+      "url": "https://www.youtube.com/watch?v=mk4jR6Anm8g",
+      "creator": { "@type": "Person", "name": "The Muscular Octopus" },
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking the Americana from high mount gives you a structural advantage unmatch
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from High Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uPazS4MJiDc)
+
+<p class="clip-credit"><strong>How To Perform An Americana From Top Mount</strong> — taught by Evolve MMA · 1:11 · <a href="https://www.youtube.com/watch?v=uPazS4MJiDc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z44VF9pmJBg)
+
+<p class="clip-credit"><strong>Americana from Mount</strong> — taught by Chelsea Ozer · 0:52 · <a href="https://www.youtube.com/watch?v=Z44VF9pmJBg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mk4jR6Anm8g)
+
+<p class="clip-credit"><strong>Finishing the Americana</strong> — taught by The Muscular Octopus · 1:11 · <a href="https://www.youtube.com/watch?v=mk4jR6Anm8g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

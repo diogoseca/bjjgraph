@@ -21,38 +21,32 @@ description: "Learn defensive strategies and escape mechanics from the top of Mi
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction and Pass",
-      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Guard Opening Sequence",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 30% of exchanges from this position.",
+      "name": "Execute Posture Break from Mission Control",
+      "text": "From this position, attempt Posture Break from Mission Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Stack Pass from Mission Control",
+      "text": "From this position, attempt Stack Pass from Mission Control. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Posture Recovery from Mission Control",
+      "text": "From this position, attempt Posture Recovery from Mission Control. This technique is attempted in 24% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Posture Break from Mission Control",
-      "text": "From this position, attempt Posture Break from Mission Control. This technique is attempted in 4% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -153,6 +147,43 @@ description: "Learn defensive strategies and escape mechanics from the top of Mi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mission Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber Guard Escape (Passing Mission Control)",
+      "description": "Mission Control (Top) film study: Rubber Guard Escape (Passing Mission Control), taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Over/under control against the rubber guard",
+      "description": "Mission Control (Top) film study: Over/under control against the rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fp5Nh_9jE4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5fp5Nh_9jE4",
+      "url": "https://www.youtube.com/watch?v=5fp5Nh_9jE4",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT216S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +199,34 @@ The strategic approach to defending Mission Control top involves three phases: i
 Energy management from Mission Control top is critical for successful escape. While the position forces the top person into an uncomfortable and fatiguing configuration, panicking and explosive escape attempts typically accelerate energy expenditure without improving the situation. Advanced practitioners learn to accept the temporary discomfort of the position while systematically working through the escape phases using technical precision rather than athleticism. This approach conserves energy, prevents the defensive errors that lead to submissions, and eventually creates the positional improvements necessary for complete escape. Understanding that Mission Control escape is a process rather than a single technique is essential for maintaining composure and executing effective defense under pressure.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mission Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+
+<p class="clip-credit"><strong>Rubber Guard Escape (Passing Mission Control)</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5fp5Nh_9jE4)
+
+<p class="clip-credit"><strong>Over/under control against the rubber guard</strong> — taught by Eddie Bravo · 3:36 · <a href="https://www.youtube.com/watch?v=5fp5Nh_9jE4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

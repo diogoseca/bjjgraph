@@ -34,6 +34,43 @@ description: "Learn posture recovery from diamond guard in BJJ. Systematic appro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery from Diamond Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping head control and clinch in rubber guard",
+      "description": "Posture Recovery from Diamond Guard film study: Keeping head control and clinch in rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hEB4I3n9HQo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hEB4I3n9HQo",
+      "url": "https://www.youtube.com/watch?v=hEB4I3n9HQo",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT312S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber guard theory: retaining the clinch",
+      "description": "Posture Recovery from Diamond Guard film study: Rubber guard theory: retaining the clinch, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NfR86wov0f8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NfR86wov0f8",
+      "url": "https://www.youtube.com/watch?v=NfR86wov0f8",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT264S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This transition is particularly important because diamond guard represents a pos
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery from Diamond Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hEB4I3n9HQo)
+
+<p class="clip-credit"><strong>Keeping head control and clinch in rubber guard</strong> — taught by Eddie Bravo · 5:12 · <a href="https://www.youtube.com/watch?v=hEB4I3n9HQo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NfR86wov0f8)
+
+<p class="clip-credit"><strong>Rubber guard theory: retaining the clinch</strong> — taught by Eddie Bravo · 4:24 · <a href="https://www.youtube.com/watch?v=NfR86wov0f8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

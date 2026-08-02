@@ -164,6 +164,43 @@ description: "Master hooks in BJJ. Learn curved foot and hand attachments for re
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hooks \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly guard hooks: the most important principles",
+      "description": "Hooks film study: Butterfly guard hooks: the most important principles, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0WG1MYvgXAM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0WG1MYvgXAM",
+      "url": "https://www.youtube.com/watch?v=0WG1MYvgXAM",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT853S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The secret to Marcelo Garcia\u0027s butterfly hooks",
+      "description": "Hooks film study: The secret to Marcelo Garcia\u0027s butterfly hooks, taught by Kenny Florian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WB9_9TgcH1o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WB9_9TgcH1o",
+      "url": "https://www.youtube.com/watch?v=WB9_9TgcH1o",
+      "creator": { "@type": "Person", "name": "Kenny Florian" },
+      "duration": "PT295S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Hooks?
@@ -177,6 +214,34 @@ Hooks appear everywhere. The butterfly guard is defined by feet hooked under the
 What distinguishes hooks from other attachment methods is their passive retention quality. A grip requires constant muscular effort to maintain — relax your hand and you lose the grip. A hook, once set, tends to stay in place even with minimal active effort because the curved geometry naturally resists linear pulling forces. This makes hooks exceptionally energy-efficient. A butterfly hook sitting passively under the opponent's thigh maintains its position until the opponent specifically addresses it. This passive retention allows the hooking player to focus attention and energy on other tasks — setting up sweeps, establishing grips, or transitioning — while the hooks quietly maintain the fundamental connection.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hooks in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0WG1MYvgXAM)
+
+<p class="clip-credit"><strong>Butterfly guard hooks: the most important principles</strong> — taught by Marcelo Garcia · 14:13 · <a href="https://www.youtube.com/watch?v=0WG1MYvgXAM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WB9_9TgcH1o)
+
+<p class="clip-credit"><strong>The secret to Marcelo Garcia&#39;s butterfly hooks</strong> — taught by Kenny Florian · 4:55 · <a href="https://www.youtube.com/watch?v=WB9_9TgcH1o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

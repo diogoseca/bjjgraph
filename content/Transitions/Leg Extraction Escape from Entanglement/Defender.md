@@ -140,6 +140,43 @@ description: "Defend against the Leg Extraction Escape from your leg entanglemen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction Escape from Entanglement (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the heel hook before the leg escapes",
+      "description": "Leg Extraction Escape from Entanglement (Defender) film study: Finishing the heel hook before the leg escapes, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
+      "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the hidden heel to keep the entanglement",
+      "description": "Leg Extraction Escape from Entanglement (Defender) film study: Countering the hidden heel to keep the entanglement, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kzgvfbZtH-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kzgvfbZtH-8",
+      "url": "https://www.youtube.com/watch?v=kzgvfbZtH-8",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT233S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender (the person maintaining the leg entanglement while the opponent 
 **Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction Escape from Entanglement (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m4sGDhukUmk)
+
+<p class="clip-credit"><strong>Finishing the heel hook before the leg escapes</strong> — taught by Craig Jones · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kzgvfbZtH-8)
+
+<p class="clip-credit"><strong>Countering the hidden heel to keep the entanglement</strong> — taught by Craig Jones · 3:53 · <a href="https://www.youtube.com/watch?v=kzgvfbZtH-8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

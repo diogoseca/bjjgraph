@@ -382,43 +382,163 @@
   "flashcards": [
     {
       "question": "What is the core idea behind Energy Conservation in BJJ?",
-      "answer": "It is the strategic, selective expenditure of physical and mental resources, using efficient movement, frames, and well-timed explosions so you stay technical and dangerous while your opponent fatigues."
+      "answer": "It is the strategic, selective expenditure of physical and mental resources, using efficient movement, frames, and well-timed explosions so you stay technical and dangerous while your opponent fatigues.",
+      "answer_line": "Efficient movement, timed explosions",
+      "distractors": {
+        "plausible": [
+          "Never expend any effort at all",
+          "Match your opponent's energy level"
+        ],
+        "trap": [
+          "Go all-out the entire match"
+        ]
+      }
     },
     {
       "question": "How does frame-based defense conserve energy compared to muscular resistance?",
-      "answer": "Frames use skeletal structure and joint alignment to hold space, letting bone and connective tissue bear the load instead of muscle, so you resist pressure for long periods without burning oxygen-hungry muscular contractions."
+      "answer": "Frames use skeletal structure and joint alignment to hold space, letting bone and connective tissue bear the load instead of muscle, so you resist pressure for long periods without burning oxygen-hungry muscular contractions.",
+      "answer_line": "Bones bear load, not muscles",
+      "distractors": {
+        "plausible": [
+          "Flex muscles to absorb pressure",
+          "Relax completely, no structure"
+        ],
+        "trap": [
+          "Muscle through every pressure spike"
+        ]
+      }
     },
     {
       "question": "Why is breath-holding during submission defense a critical error?",
-      "answer": "Holding the breath causes oxygen debt to accumulate rapidly, producing fatigue, panic responses, and degraded decision-making, which compounds the danger of the position rather than resolving it."
+      "answer": "Holding the breath causes oxygen debt to accumulate rapidly, producing fatigue, panic responses, and degraded decision-making, which compounds the danger of the position rather than resolving it.",
+      "answer_line": "Causes oxygen debt and panic",
+      "distractors": {
+        "plausible": [
+          "Only slows your heart rate",
+          "Just wastes a little stamina"
+        ],
+        "trap": [
+          "Hold breath to brace for impact"
+        ]
+      }
     },
     {
       "question": "When should you spend explosive energy rather than conserve it?",
-      "answer": "Reserve explosive efforts for moments of maximum strategic leverage, such as when the opponent makes a positional error, shifts their weight, or a high-percentage sweep, escape, or submission window opens."
+      "answer": "Reserve explosive efforts for moments of maximum strategic leverage, such as when the opponent makes a positional error, shifts their weight, or a high-percentage sweep, escape, or submission window opens.",
+      "answer_line": "At high-leverage openings only",
+      "distractors": {
+        "plausible": [
+          "Whenever you feel tired",
+          "Continuously to stay ahead"
+        ],
+        "trap": [
+          "Explode the instant you're stuck"
+        ]
+      }
     },
     {
       "question": "Which positions allow energy recovery during a match?",
-      "answer": "Stable positions like closed guard, turtle, and deep half guard minimize defensive demands, letting heart rate and breathing normalize while the opponent struggles to advance."
+      "answer": "Stable positions like closed guard, turtle, and deep half guard minimize defensive demands, letting heart rate and breathing normalize while the opponent struggles to advance.",
+      "answer_line": "Closed guard, turtle, deep half",
+      "distractors": {
+        "plausible": [
+          "Mount and back control",
+          "Any dominant top position"
+        ],
+        "trap": [
+          "Bottom of side control"
+        ]
+      }
     },
     {
       "question": "How does selective resistance differ from resisting everything?",
-      "answer": "Selective resistance means defending only high-value positions and genuinely dangerous attacks while conceding low-value transitions, preserving energy for the exchanges that actually decide the match."
+      "answer": "Selective resistance means defending only high-value positions and genuinely dangerous attacks while conceding low-value transitions, preserving energy for the exchanges that actually decide the match.",
+      "answer_line": "Defend key spots, concede minor ones",
+      "distractors": {
+        "plausible": [
+          "Resist every grip and pass attempt",
+          "Never give up any position"
+        ],
+        "trap": [
+          "Fight full force on all transitions"
+        ]
+      }
     },
     {
       "question": "Why does constant high-intensity effort backfire?",
-      "answer": "Spending maximum energy regardless of positional importance causes premature exhaustion, leading to technical degradation and defensive vulnerabilities precisely when the critical late-match moments arrive."
+      "answer": "Spending maximum energy regardless of positional importance causes premature exhaustion, leading to technical degradation and defensive vulnerabilities precisely when the critical late-match moments arrive.",
+      "answer_line": "Causes late-match exhaustion, errors",
+      "distractors": {
+        "plausible": [
+          "Only affects your grip strength",
+          "Just tires your arms first"
+        ],
+        "trap": [
+          "Sprint the whole match for dominance"
+        ]
+      }
     },
     {
       "question": "How can you read and exploit an opponent's energy state?",
-      "answer": "Watch their breathing, grip strength, and movement quality; when they fade, accelerate pace and pressure to capitalize on fatigue, and when they are fresh, conserve and force them to expend energy first."
+      "answer": "Watch their breathing, grip strength, and movement quality; when they fade, accelerate pace and pressure to capitalize on fatigue, and when they are fresh, conserve and force them to expend energy first.",
+      "answer_line": "Watch breathing, grips, movement",
+      "distractors": {
+        "plausible": [
+          "Watch only their scorecard",
+          "Watch their facial expressions"
+        ],
+        "trap": [
+          "Push hardest only when they're fresh"
+        ]
+      }
     },
     {
       "question": "What role does movement economy play in energy conservation?",
-      "answer": "Movement economy eliminates superfluous motion and chooses the most direct pathways for transitions, escapes, and attacks, accomplishing positional goals at the lowest possible energy cost."
+      "answer": "Movement economy eliminates superfluous motion and chooses the most direct pathways for transitions, escapes, and attacks, accomplishing positional goals at the lowest possible energy cost.",
+      "answer_line": "Cut wasted motion, go direct",
+      "distractors": {
+        "plausible": [
+          "Move as fast as possible always",
+          "Use big explosive motions"
+        ],
+        "trap": [
+          "Take the longest safest route"
+        ]
+      }
     },
     {
       "question": "How does pace management let you control energy expenditure?",
-      "answer": "By dictating tempo through guard pulling, position consolidation, and selective engagement, you set the rate at which both athletes burn fuel and can exploit the opponent's fatigue patterns."
+      "answer": "By dictating tempo through guard pulling, position consolidation, and selective engagement, you set the rate at which both athletes burn fuel and can exploit the opponent's fatigue patterns.",
+      "answer_line": "Dictate tempo to drain opponent",
+      "distractors": {
+        "plausible": [
+          "Match opponent's pace exactly",
+          "Speed up constantly to pressure"
+        ],
+        "trap": [
+          "Let opponent set the pace"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "cRLnxkS0N6g",
+      "title": "Why white belts gas out and how to fix it",
+      "by": "Chewjitsu",
+      "vertical": false,
+      "channel": "Chewjitsu",
+      "duration": 351,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "bhSpo8fYL7U",
+      "title": "The real reason you gas out in competition",
+      "by": "Josh Saunders",
+      "vertical": false,
+      "channel": "Josh Saunders ",
+      "duration": 407,
+      "verified": "2026-07-15"
     }
   ]
 }

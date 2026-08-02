@@ -148,6 +148,54 @@ description: "Defend against the Trap and Roll escape from S Mount. Recognize br
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Trap and Roll from S Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "S-mount troubleshooting when the escape starts",
+      "description": "Trap and Roll from S Mount (Defender) film study: S-mount troubleshooting when the escape starts, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2Xm_mLp8xwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2Xm_mLp8xwk",
+      "url": "https://www.youtube.com/watch?v=2Xm_mLp8xwk",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount maintenance: countering the bridge",
+      "description": "Trap and Roll from S Mount (Defender) film study: Mount maintenance: countering the bridge, taught by Zero Point GJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hQyl8hQln00/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hQyl8hQln00",
+      "url": "https://www.youtube.com/watch?v=hQyl8hQln00",
+      "creator": { "@type": "Person", "name": "Zero Point GJJ coach" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Limiting the power of the opponent\u0027s bridge",
+      "description": "Trap and Roll from S Mount (Defender) film study: Limiting the power of the opponent\u0027s bridge, taught by RVV BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zv3gCvoUrN4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zv3gCvoUrN4",
+      "url": "https://www.youtube.com/watch?v=zv3gCvoUrN4",
+      "creator": { "@type": "Person", "name": "RVV BJJ coach" },
+      "duration": "PT275S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against the Trap and Roll from S Mount requires the top player to main
 **Opponent's Starting Position**: [[Positions/Mount/S Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Trap and Roll from S Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2Xm_mLp8xwk)
+
+<p class="clip-credit"><strong>S-mount troubleshooting when the escape starts</strong> — taught by ZombieProofBJJ · 1:07 · <a href="https://www.youtube.com/watch?v=2Xm_mLp8xwk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hQyl8hQln00)
+
+<p class="clip-credit"><strong>Mount maintenance: countering the bridge</strong> — taught by Zero Point GJJ coach · 1:00 · <a href="https://www.youtube.com/watch?v=hQyl8hQln00" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zv3gCvoUrN4)
+
+<p class="clip-credit"><strong>Limiting the power of the opponent&#39;s bridge</strong> — taught by RVV BJJ coach · 4:35 · <a href="https://www.youtube.com/watch?v=zv3gCvoUrN4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -35,6 +35,43 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete guide coverin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Fireman\u0027s Carry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fireman\u0027s carry takedown demonstration",
+      "description": "Fireman\u0027s Carry film study: Fireman\u0027s carry takedown demonstration, taught by Benjamin Hahn.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DcJIXsSNc-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DcJIXsSNc-0",
+      "url": "https://www.youtube.com/watch?v=DcJIXsSNc-0",
+      "creator": { "@type": "Person", "name": "Benjamin Hahn" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fireman\u0027s carry entry and finish",
+      "description": "Fireman\u0027s Carry film study: Fireman\u0027s carry entry and finish, taught by BOWERHOUSE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_WGwKJy7VV0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_WGwKJy7VV0",
+      "url": "https://www.youtube.com/watch?v=_WGwKJy7VV0",
+      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
+      "duration": "PT44S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete guide coverin
 The Fireman's Carry is a classical wrestling takedown that has found valuable application in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This technique involves using a combination of off-balancing, level change, and explosive lifting to elevate your opponent onto your shoulders before driving them to the mat. The Fireman's Carry is particularly effective against opponents who maintain an upright posture in the clinch, as it exploits their high center of gravity and creates a sudden positional reversal. Unlike many BJJ takedowns that rely on pulling or tripping, the Fireman's Carry demonstrates the principle of lifting and redirecting an opponent's weight, making it an excellent complement to guard pulling and other ground-focused entries. The technique requires precise timing, proper body mechanics, and the ability to coordinate multiple movements simultaneously - the level change, arm control, penetration step, and lifting motion must all flow together seamlessly. When executed correctly, the Fireman's Carry not only achieves the takedown but also places you in an advantageous top position, often side control or modified mount, allowing for immediate passing or submission attempts. This makes it a high-percentage technique for competitors who want to establish top control early in a match.
 
 **From Position**: [[Positions/Clinch]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Fireman's Carry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DcJIXsSNc-0)
+
+<p class="clip-credit"><strong>Fireman&#39;s carry takedown demonstration</strong> — taught by Benjamin Hahn · 1:04 · <a href="https://www.youtube.com/watch?v=DcJIXsSNc-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_WGwKJy7VV0)
+
+<p class="clip-credit"><strong>Fireman&#39;s carry entry and finish</strong> — taught by BOWERHOUSE MMA · 0:44 · <a href="https://www.youtube.com/watch?v=_WGwKJy7VV0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -265,7 +330,7 @@ The Fireman's Carry occupies a unique position in the BJJ technical ecosystem as
 
 - [[Transitions/Guard Pull]] - Alternative transition from clinch when Fireman's Carry is not viable
 
-- [[Transitions/Duck Under]] - Chain wrestling option when Fireman's Carry is defended with whizzer
+- [[Transitions/Duck Under from Clinch]] - Chain wrestling option when Fireman's Carry is defended with whizzer
 
 
 </section>

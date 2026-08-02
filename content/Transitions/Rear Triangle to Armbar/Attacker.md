@@ -174,6 +174,54 @@ description: "Execute the Rear Triangle to Armbar transition with precision. Ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle to Armbar (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from the back off the RNC threat",
+      "description": "Rear Triangle to Armbar (Attacker) film study: Armbar from the back off the RNC threat, taught by CholoMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fPV5aCm4uIE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fPV5aCm4uIE",
+      "url": "https://www.youtube.com/watch?v=fPV5aCm4uIE",
+      "creator": { "@type": "Person", "name": "CholoMMA" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle to armbar transition",
+      "description": "Rear Triangle to Armbar (Attacker) film study: Triangle to armbar transition, taught by Armory Training.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r8rBt5Mp3B4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r8rBt5Mp3B4",
+      "url": "https://www.youtube.com/watch?v=r8rBt5Mp3B4",
+      "creator": { "@type": "Person", "name": "Armory Training" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle to armbar transition",
+      "description": "Rear Triangle to Armbar (Attacker) film study: Triangle to armbar transition, taught by Keith Florian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fuUTE9QN3U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5fuUTE9QN3U",
+      "url": "https://www.youtube.com/watch?v=5fuUTE9QN3U",
+      "creator": { "@type": "Person", "name": "Keith Florian" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Rear Triangle to Armbar transition, your objective
 **From Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle to Armbar (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fPV5aCm4uIE)
+
+<p class="clip-credit"><strong>Armbar from the back off the RNC threat</strong> — taught by CholoMMA · 0:39 · <a href="https://www.youtube.com/watch?v=fPV5aCm4uIE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r8rBt5Mp3B4)
+
+<p class="clip-credit"><strong>Triangle to armbar transition</strong> — taught by Armory Training · 0:48 · <a href="https://www.youtube.com/watch?v=r8rBt5Mp3B4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5fuUTE9QN3U)
+
+<p class="clip-credit"><strong>Triangle to armbar transition</strong> — taught by Keith Florian · 0:52 · <a href="https://www.youtube.com/watch?v=5fuUTE9QN3U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

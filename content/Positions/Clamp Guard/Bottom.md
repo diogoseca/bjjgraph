@@ -21,37 +21,37 @@ description: "Master Clamp Guard in BJJ. Complete guide to trapping opponent's a
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Clamp Guard",
-      "text": "From this position, attempt Armbar from Clamp Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Clamp Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Clamp Guard",
-      "text": "From this position, attempt Triangle from Clamp Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Triangle from Clamp Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Clamp Guard in BJJ. Complete guide to trapping opponent's a
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clamp Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder crunch from closed guard",
+      "description": "Clamp Guard (Bottom) film study: Shoulder crunch from closed guard, taught by Francis F. Abramson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bH5ApVR2jRo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bH5ApVR2jRo",
+      "url": "https://www.youtube.com/watch?v=bH5ApVR2jRo",
+      "creator": { "@type": "Person", "name": "Francis F. Abramson" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clamp guard to kimura",
+      "description": "Clamp Guard (Bottom) film study: Clamp guard to kimura, taught by LBJJ TV.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bCuDep0mSEA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bCuDep0mSEA",
+      "url": "https://www.youtube.com/watch?v=bCuDep0mSEA",
+      "creator": { "@type": "Person", "name": "LBJJ TV" },
+      "duration": "PT170S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clamp guard to triangle",
+      "description": "Clamp Guard (Bottom) film study: Clamp guard to triangle, taught by Nathan Kay.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zgSRXQFf97o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zgSRXQFf97o",
+      "url": "https://www.youtube.com/watch?v=zgSRXQFf97o",
+      "creator": { "@type": "Person", "name": "Nathan Kay" },
+      "duration": "PT224S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The position is particularly effective in no-gi grappling and MMA because it doe
 Clamp Guard operates on the principle of limb isolation. By removing one arm from the opponent's defensive framework, every subsequent attack becomes higher percentage. The position rewards creative guard players who can maintain the clamp under dynamic movement while cycling through submission and sweep threats. From the top player's perspective, the position demands immediate arm extraction because it only deteriorates with time — every second the arm remains trapped allows the guard player to deepen control and set up increasingly dangerous attacks.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clamp Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bH5ApVR2jRo)
+
+<p class="clip-credit"><strong>Shoulder crunch from closed guard</strong> — taught by Francis F. Abramson · 1:24 · <a href="https://www.youtube.com/watch?v=bH5ApVR2jRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bCuDep0mSEA)
+
+<p class="clip-credit"><strong>Clamp guard to kimura</strong> — taught by LBJJ TV · 2:50 · <a href="https://www.youtube.com/watch?v=bCuDep0mSEA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zgSRXQFf97o)
+
+<p class="clip-credit"><strong>Clamp guard to triangle</strong> — taught by Nathan Kay · 3:44 · <a href="https://www.youtube.com/watch?v=zgSRXQFf97o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

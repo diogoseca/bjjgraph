@@ -168,6 +168,54 @@ description: "How to execute Triangle Escape in BJJ. Attacking perspective with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Escape (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Posture up escape from the triangle choke",
+      "description": "Triangle Escape (Attacker) film study: Posture up escape from the triangle choke, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
+      "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Beating the triangle when you posture up",
+      "description": "Triangle Escape (Attacker) film study: Beating the triangle when you posture up, taught by Simple JiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wuu5WWcNfY0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wuu5WWcNfY0",
+      "url": "https://www.youtube.com/watch?v=wuu5WWcNfY0",
+      "creator": { "@type": "Person", "name": "Simple JiuJitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle choke escape: knee in butt",
+      "description": "Triangle Escape (Attacker) film study: Triangle choke escape: knee in butt, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MdsD3i8l3ao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MdsD3i8l3ao",
+      "url": "https://www.youtube.com/watch?v=MdsD3i8l3ao",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT16S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 **From Position**: [[Positions/Triangle Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Escape (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
+
+<p class="clip-credit"><strong>Posture up escape from the triangle choke</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wuu5WWcNfY0)
+
+<p class="clip-credit"><strong>Beating the triangle when you posture up</strong> — taught by Simple JiuJitsu · 1:28 · <a href="https://www.youtube.com/watch?v=wuu5WWcNfY0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MdsD3i8l3ao)
+
+<p class="clip-credit"><strong>Triangle choke escape: knee in butt</strong> — taught by Mat Life Training Center · 0:16 · <a href="https://www.youtube.com/watch?v=MdsD3i8l3ao" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the New York to Invisible Collar transition in 10th Planet 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York to Invisible Collar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Invisible Collar details",
+      "description": "New York to Invisible Collar film study: Invisible Collar details, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
+      "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Invisible Collar choke from rubber guard",
+      "description": "New York to Invisible Collar film study: Invisible Collar choke from rubber guard, taught by David Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CHT81JnfD2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CHT81JnfD2Q",
+      "url": "https://www.youtube.com/watch?v=CHT81JnfD2Q",
+      "creator": { "@type": "Person", "name": "David Thomas" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Invisible Collar breakdown",
+      "description": "New York to Invisible Collar film study: Invisible Collar breakdown, taught by Submissions101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oTFx2jvJ15M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oTFx2jvJ15M",
+      "url": "https://www.youtube.com/watch?v=oTFx2jvJ15M",
+      "creator": { "@type": "Person", "name": "Submissions101" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The biomechanics of this transition exploit a fundamental weakness in the oppone
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York to Invisible Collar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KCyIwacRKu8)
+
+<p class="clip-credit"><strong>Invisible Collar details</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CHT81JnfD2Q)
+
+<p class="clip-credit"><strong>Invisible Collar choke from rubber guard</strong> — taught by David Thomas · 0:57 · <a href="https://www.youtube.com/watch?v=CHT81JnfD2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oTFx2jvJ15M)
+
+<p class="clip-credit"><strong>Invisible Collar breakdown</strong> — taught by Submissions101 · 1:16 · <a href="https://www.youtube.com/watch?v=oTFx2jvJ15M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -255,7 +339,7 @@ The New York to Invisible Collar transition occupies a central position in 10th 
 
 - [[Positions/Closed Guard]] - Fallback position if rubber guard fails
 
-- [[Positions/Crackhead Control]] - Upstream rubber guard position before Mission Control
+- [[Positions/Rubber Guard/Crackhead Control]] - Upstream rubber guard position before Mission Control
 
 
 </section>

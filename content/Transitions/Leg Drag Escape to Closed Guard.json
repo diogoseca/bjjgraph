@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Leg Drag Escape to Closed Guard represents a fundamental defensive recovery when caught in the compromised leg drag position. This escape addresses one of the most dangerous transitional moments in guard passing—when your opponent has successfully dragged your leg across your body and is threatening to consolidate to side control or take your back. The technique requires precise timing, efficient framing, and coordinated hip movement to extract your trapped leg and establish a closed guard position that neutralizes the passing threat.\n\nThe mechanical foundation of this escape relies on creating separation at key control points before attempting leg extraction. Your opponent's control in leg drag position stems from their grip on your dragged leg combined with shoulder or head pressure. Rather than fighting the leg directly, this escape prioritizes breaking the upper body connection first, which loosens the entire control system. The frame at the shoulder creates space for a hip escape that angles your body, making the leg extraction mechanically possible.\n\nStrategically, recovering closed guard from leg drag serves multiple purposes beyond immediate survival. Closed guard offers significantly more security and offensive options than remaining in the compromised leg drag bottom position. The closed guard also removes your opponent's momentum—they were in an advancing position and must now restart their passing sequence from a neutral guard. This escape is particularly valuable because it converts a defensive emergency into a controlled offensive platform.\n\nThe timing window for this escape is narrow but predictable. The optimal moment occurs when your opponent adjusts their grip to transition from leg drag to side control, or when they shift weight to address the back take. These transitional moments create brief lapses in pressure where frame establishment and hip movement become viable. Attempting the escape against fully settled control rarely succeeds and wastes valuable energy.",
   "related_content": [
     {
@@ -216,46 +231,175 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Leg Drag Escape to Closed Guard?",
-        "answer": "The primary goal is to convert a compromised defensive position into a controlled offensive platform. By recovering closed guard, you neutralize the opponent's passing momentum, remove back take threats, and establish a position with significant sweep and submission opportunities. The escape prioritizes position recovery over direct counterattack."
+        "answer": "The primary goal is to convert a compromised defensive position into a controlled offensive platform. By recovering closed guard, you neutralize the opponent's passing momentum, remove back take threats, and establish a position with significant sweep and submission opportunities. The escape prioritizes position recovery over direct counterattack.",
+        "answer_line": "Recover guard, kill pass threat",
+        "distractors": {
+          "plausible": [
+            "Escape and attack immediately",
+            "Scramble back to top position"
+          ],
+          "trap": [
+            "Force a sub before framing"
+          ]
+        }
       },
       {
         "question": "What position do you start Leg Drag Escape to Closed Guard from?",
-        "answer": "This technique starts from Leg Drag Control Bottom, where your opponent has dragged one of your legs across your body and is using it to control your hips while threatening to consolidate to side control or take your back. Your leg is trapped in a crossed position that limits your hip mobility and guard retention options."
+        "answer": "This technique starts from Leg Drag Control Bottom, where your opponent has dragged one of your legs across your body and is using it to control your hips while threatening to consolidate to side control or take your back. Your leg is trapped in a crossed position that limits your hip mobility and guard retention options.",
+        "answer_line": "Leg Drag Control, bottom",
+        "distractors": {
+          "plausible": [
+            "Half guard, bottom",
+            "Side control, bottom"
+          ],
+          "trap": [
+            "Back mount, bottom"
+          ]
+        }
       },
       {
         "question": "Why must you establish frames before attempting to extract your trapped leg?",
-        "answer": "The trapped leg is pinned by both your opponent's grip and their body weight driving through the leg drag position. Attempting to pull the leg free against this pressure is mechanically impossible and wastes energy. The frames at shoulder and hip create separation that reduces their pressure and allows the hip escape that creates the angle for extraction. Without frames, the leg cannot move."
+        "answer": "The trapped leg is pinned by both your opponent's grip and their body weight driving through the leg drag position. Attempting to pull the leg free against this pressure is mechanically impossible and wastes energy. The frames at shoulder and hip create separation that reduces their pressure and allows the hip escape that creates the angle for extraction. Without frames, the leg cannot move.",
+        "answer_line": "Frames create space to move",
+        "distractors": {
+          "plausible": [
+            "Speed beats spacing here",
+            "Extract leg, then frame up"
+          ],
+          "trap": [
+            "Yank the leg free with strength"
+          ]
+        }
       },
       {
         "question": "Your opponent drives through your shoulder frame as you attempt the escape—how do you adjust?",
-        "answer": "Lower your elbow closer to your hip and rely on skeletal structure rather than muscular resistance. Time your hip escape to moments when their pressure shifts rather than fighting static weight. If they consistently drive through, use their forward commitment to technical standup or transition to turtle—their pressure creates space behind them that you can exploit."
+        "answer": "Lower your elbow closer to your hip and rely on skeletal structure rather than muscular resistance. Time your hip escape to moments when their pressure shifts rather than fighting static weight. If they consistently drive through, use their forward commitment to technical standup or transition to turtle—their pressure creates space behind them that you can exploit.",
+        "answer_line": "Elbow to hip, time the shift",
+        "distractors": {
+          "plausible": [
+            "Push harder into the frame",
+            "Add a second frame arm"
+          ],
+          "trap": [
+            "Muscle through with strength"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Leg Drag Escape to Closed Guard?",
-        "answer": "During the escape phase, you need a forearm frame at opponent's shoulder (not a grip) and a controlling contact at their hip with your far hand. These are frames, not grips—structural contacts that create space. After closing guard, transition to standard closed guard grips: collar and sleeve control in gi, or overhook/wrist control in no-gi."
+        "answer": "During the escape phase, you need a forearm frame at opponent's shoulder (not a grip) and a controlling contact at their hip with your far hand. These are frames, not grips—structural contacts that create space. After closing guard, transition to standard closed guard grips: collar and sleeve control in gi, or overhook/wrist control in no-gi.",
+        "answer_line": "Forearm frame + hip contact",
+        "distractors": {
+          "plausible": [
+            "Collar tie and underhook",
+            "Grip belt and pant cuff"
+          ],
+          "trap": [
+            "Overhook their near arm"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing to attempt this escape?",
-        "answer": "The optimal window occurs during your opponent's transitional movements—when they adjust grips, shift weight to consolidate to side control, or reposition to threaten the back take. These transitions create momentary pressure reduction that makes framing and hip escaping viable. Attempting the escape against fully settled pressure typically fails and wastes energy better saved for the next opportunity."
+        "answer": "The optimal window occurs during your opponent's transitional movements—when they adjust grips, shift weight to consolidate to side control, or reposition to threaten the back take. These transitions create momentary pressure reduction that makes framing and hip escaping viable. Attempting the escape against fully settled pressure typically fails and wastes energy better saved for the next opportunity.",
+        "answer_line": "Their transitional moments",
+        "distractors": {
+          "plausible": [
+            "Right after they settle in",
+            "Whenever you feel strong"
+          ],
+          "trap": [
+            "Against full settled pressure"
+          ]
+        }
       },
       {
         "question": "How does the hip escape direction affect your ability to extract the trapped leg?",
-        "answer": "The hip escape must move diagonally away from opponent, not straight back. This diagonal movement creates an angle between your hip line and theirs that opens space for the trapped leg to clear. A straight backward escape keeps your hip parallel to theirs and the leg remains trapped. The angle is the mechanical key—your knee can come to your chest once the angle exists."
+        "answer": "The hip escape must move diagonally away from opponent, not straight back. This diagonal movement creates an angle between your hip line and theirs that opens space for the trapped leg to clear. A straight backward escape keeps your hip parallel to theirs and the leg remains trapped. The angle is the mechanical key—your knee can come to your chest once the angle exists.",
+        "answer_line": "Diagonal, not straight back",
+        "distractors": {
+          "plausible": [
+            "Straight back for space",
+            "Toward their trapping hip"
+          ],
+          "trap": [
+            "Bridge straight up and over"
+          ]
+        }
       },
       {
         "question": "Your opponent begins transitioning to back control as you start leg extraction—what immediate adjustment do you make?",
-        "answer": "Abandon the closed guard recovery and immediately fight for the underhook on the side they're moving toward. Turn your body toward them rather than continuing to turn away. Accept half guard or even side control bottom if necessary—these are recoverable positions while back control significantly reduces your options. The back take threat takes priority over the original escape goal."
+        "answer": "Abandon the closed guard recovery and immediately fight for the underhook on the side they're moving toward. Turn your body toward them rather than continuing to turn away. Accept half guard or even side control bottom if necessary—these are recoverable positions while back control significantly reduces your options. The back take threat takes priority over the original escape goal.",
+        "answer_line": "Fight underhook, turn in",
+        "distractors": {
+          "plausible": [
+            "Continue the leg extraction",
+            "Keep turning further away"
+          ],
+          "trap": [
+            "Stay flat, wait it out"
+          ]
+        }
       },
       {
         "question": "Why is it critical to close your guard immediately rather than pausing in open guard?",
-        "answer": "Open guard after leg extraction is a neutral position where your opponent retains passing initiative. They can immediately re-engage with another passing attempt before you establish control grips. Closed guard eliminates this—your legs lock their posture and hips, removing passing options until they address your guard. The few frames of delay in open guard can cost you the positional recovery entirely."
+        "answer": "Open guard after leg extraction is a neutral position where your opponent retains passing initiative. They can immediately re-engage with another passing attempt before you establish control grips. Closed guard eliminates this—your legs lock their posture and hips, removing passing options until they address your guard. The few frames of delay in open guard can cost you the positional recovery entirely.",
+        "answer_line": "Open guard leaves them ahead",
+        "distractors": {
+          "plausible": [
+            "Rest a moment before closing",
+            "Grips first, legs later"
+          ],
+          "trap": [
+            "Stay open, control distance"
+          ]
+        }
       },
       {
         "question": "How do you counter an opponent who consistently re-secures your leg during extraction attempts?",
-        "answer": "Reset your frames and wait for the next transition rather than forcing multiple extraction attempts. Consider switching to alternative escapes—half guard recovery requires less leg clearance, technical standup uses different mechanics, or turtle transition accepts different positioning. If they're timing your extraction well, you may need to feint the leg escape to draw their defensive commitment, then execute a different escape pathway."
+        "answer": "Reset your frames and wait for the next transition rather than forcing multiple extraction attempts. Consider switching to alternative escapes—half guard recovery requires less leg clearance, technical standup uses different mechanics, or turtle transition accepts different positioning. If they're timing your extraction well, you may need to feint the leg escape to draw their defensive commitment, then execute a different escape pathway.",
+        "answer_line": "Reset frames, wait or switch",
+        "distractors": {
+          "plausible": [
+            "Keep forcing same extraction",
+            "Speed up the same attempt"
+          ],
+          "trap": [
+            "Abandon frames and scramble"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This escape involves bridging and hip movement under an opponent's weight, creating potential strain on the lower back and neck. Ensure proper warm-up before drilling, particularly for hip flexors and spine mobility. During training, communicate clearly with your partner about pressure levels—excessive weight during the bridging phase can cause injury. Tap immediately if you feel trapped in a position causing neck strain rather than forcing the escape. The shoulder frame position can expose your elbow to kimura attacks; if your arm becomes trapped, abandon the escape rather than risking joint damage. This technique should not be attempted when fatigued to the point where proper frame mechanics cannot be maintained."
+    "safety_considerations": "This escape involves bridging and hip movement under an opponent's weight, creating potential strain on the lower back and neck. Ensure proper warm-up before drilling, particularly for hip flexors and spine mobility. During training, communicate clearly with your partner about pressure levels—excessive weight during the bridging phase can cause injury. Tap immediately if you feel trapped in a position causing neck strain rather than forcing the escape. The shoulder frame position can expose your elbow to kimura attacks; if your arm becomes trapped, abandon the escape rather than risking joint damage. This technique should not be attempted when fatigued to the point where proper frame mechanics cannot be maintained.",
+    "clips": [
+      {
+        "id": "fFqoFDE2yyw",
+        "title": "Guard retention against the leg drag",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Sit-Up Escape for Guard Retention",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Around the Legs Guard Retention",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag Escape to Closed Guard Defender",
@@ -341,23 +485,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that tells you your opponent is about to attempt the closed guard recovery?",
-        "answer": "The earliest cue is their near-side arm moving toward your shoulder to establish a forearm frame. This is always the first step in the escape sequence because the hip escape requires upper body separation to be mechanically possible. Recognizing and disrupting this frame attempt before it solidifies prevents the entire escape chain from developing."
+        "answer": "The earliest cue is their near-side arm moving toward your shoulder to establish a forearm frame. This is always the first step in the escape sequence because the hip escape requires upper body separation to be mechanically possible. Recognizing and disrupting this frame attempt before it solidifies prevents the entire escape chain from developing.",
+        "answer_line": "Arm reaching for shoulder frame",
+        "distractors": {
+          "plausible": [
+            "Hips shifting for an angle",
+            "Knee pulling to chest"
+          ],
+          "trap": [
+            "Hip escape already started"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully establishes a shoulder frame and begins hip escaping—what is your highest-percentage response?",
-        "answer": "Follow their hip escape movement and transition to back take by reaching over their far shoulder as their rotation creates back exposure. The hip escape that enables guard recovery simultaneously turns their body away from you, which is the exact position you need for back control. This converts their escape attempt into a worse position rather than simply trying to prevent the escape through static resistance."
+        "answer": "Follow their hip escape movement and transition to back take by reaching over their far shoulder as their rotation creates back exposure. The hip escape that enables guard recovery simultaneously turns their body away from you, which is the exact position you need for back control. This converts their escape attempt into a worse position rather than simply trying to prevent the escape through static resistance.",
+        "answer_line": "Follow escape into back take",
+        "distractors": {
+          "plausible": [
+            "Block frame, hold position",
+            "Chase legs to reset drag"
+          ],
+          "trap": [
+            "Release pressure, reset base"
+          ]
+        }
       },
       {
         "question": "How do you maintain leg drag control pressure without exhausting yourself against repeated escape attempts?",
-        "answer": "Use skeletal alignment rather than muscular effort—keep your chest bone-on-bone with their hip and let gravity provide the pressure. Drive at 45-degree angles rather than straight down, which is more efficient and harder for frames to redirect. Stay on the balls of your feet for mobility rather than sitting heavy. Most importantly, advance your position rather than simply holding—settled side control or back control requires less energy to maintain than dynamic leg drag retention."
+        "answer": "Use skeletal alignment rather than muscular effort—keep your chest bone-on-bone with their hip and let gravity provide the pressure. Drive at 45-degree angles rather than straight down, which is more efficient and harder for frames to redirect. Stay on the balls of your feet for mobility rather than sitting heavy. Most importantly, advance your position rather than simply holding—settled side control or back control requires less energy to maintain than dynamic leg drag retention.",
+        "answer_line": "Skeletal weight, advance not hold",
+        "distractors": {
+          "plausible": [
+            "Sit heavy, hold position",
+            "Grip harder, control legs"
+          ],
+          "trap": [
+            "Muscle pressure, sit still"
+          ]
+        }
       },
       {
         "question": "Why is it strategically better to use the escape attempt as a transition trigger rather than purely preventing it?",
-        "answer": "Every escape attempt creates movement, commitment, and exposure that can be exploited. When the bottom player frames and hip escapes, they necessarily shift weight, create angles, and often expose their back. Using this as a trigger for your advancement—back take, side control consolidation, mount transition—is higher percentage than static resistance because you are flowing with their movement rather than fighting it. Static resistance eventually fails against persistent escapes; advancement solves the problem permanently."
+        "answer": "Every escape attempt creates movement, commitment, and exposure that can be exploited. When the bottom player frames and hip escapes, they necessarily shift weight, create angles, and often expose their back. Using this as a trigger for your advancement—back take, side control consolidation, mount transition—is higher percentage than static resistance because you are flowing with their movement rather than fighting it. Static resistance eventually fails against persistent escapes; advancement solves the problem permanently.",
+        "answer_line": "Flow with escape to advance",
+        "distractors": {
+          "plausible": [
+            "Block every escape attempt",
+            "Reset to neutral each time"
+          ],
+          "trap": [
+            "Fight static, hold ground"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps resetting their frames after you collapse them—how do you break this cycle?",
-        "answer": "Advance your position rather than continuing to fight the same battle. Each time you collapse their frame, immediately transition toward side control or back take rather than simply re-settling in leg drag. The frame-collapse moment creates a brief window where their arms are occupied and their defensive structure is compromised. Use that window to advance one step in your passing sequence. Two or three incremental advances during frame collapses will put you past the escape danger zone entirely."
+        "answer": "Advance your position rather than continuing to fight the same battle. Each time you collapse their frame, immediately transition toward side control or back take rather than simply re-settling in leg drag. The frame-collapse moment creates a brief window where their arms are occupied and their defensive structure is compromised. Use that window to advance one step in your passing sequence. Two or three incremental advances during frame collapses will put you past the escape danger zone entirely.",
+        "answer_line": "Advance during frame collapse",
+        "distractors": {
+          "plausible": [
+            "Collapse frame, then reset",
+            "Wait for a bigger opening"
+          ],
+          "trap": [
+            "Re-settle into leg drag"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -380,6 +574,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Full resistance positional sparring starting from leg drag top. Partner uses all available escapes while you practice recognition, prevention, and advancement. Track which escape attempts you struggle against most and develop specific counters. Measure advancement rate from leg drag to dominant positions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "T50gLtUUtqs",
+        "title": "Leg drag into toreando/X pass follow-up",
+        "by": "PFed BJJ coach",
+        "vertical": false,
+        "channel": "PFed BJJ",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4c-v1OEPukc",
+        "title": "Knee Cut to Leg Drag Control",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 382,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bI7yUv5yoUs",
+        "title": "Closed Guard Knee Cut and Leg Drag",
+        "by": "Mason Fowler",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 242,
+        "verified": "2026-07-15"
       }
     ]
   },

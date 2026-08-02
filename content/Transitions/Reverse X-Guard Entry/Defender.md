@@ -148,6 +148,43 @@ description: "How to defend against Reverse X-Guard Entry in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X-Guard Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defense to reverse De La Riva and foot lock",
+      "description": "Reverse X-Guard Entry (Defender) film study: Defense to reverse De La Riva and foot lock, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hdSw-ZmcBRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hdSw-ZmcBRA",
+      "url": "https://www.youtube.com/watch?v=hdSw-ZmcBRA",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leglock defense concepts",
+      "description": "Reverse X-Guard Entry (Defender) film study: Leglock defense concepts, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
+      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The most dangerous moment is when you allow the bottom player to thread their ou
 **Opponent's Starting Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X-Guard Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hdSw-ZmcBRA)
+
+<p class="clip-credit"><strong>Defense to reverse De La Riva and foot lock</strong> — taught by Ninja Pinto · 0:31 · <a href="https://www.youtube.com/watch?v=hdSw-ZmcBRA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+
+<p class="clip-credit"><strong>Leglock defense concepts</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

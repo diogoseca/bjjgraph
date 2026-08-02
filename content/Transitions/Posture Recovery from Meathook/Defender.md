@@ -140,6 +140,54 @@ description: "Master defending against Posture Recovery from Meathook as the bot
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery from Meathook (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard: troubleshooting the meathook",
+      "description": "Posture Recovery from Meathook (Defender) film study: Rubber guard: troubleshooting the meathook, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0w0642zFqWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0w0642zFqWo",
+      "url": "https://www.youtube.com/watch?v=0w0642zFqWo",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Meathook options",
+      "description": "Posture Recovery from Meathook (Defender) film study: Meathook options, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KN7ww-OyaxQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KN7ww-OyaxQ",
+      "url": "https://www.youtube.com/watch?v=KN7ww-OyaxQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Meathook rubber guard options",
+      "description": "Posture Recovery from Meathook (Defender) film study: Meathook rubber guard options, taught by Jeremiah Vance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/htzF0gSDqqo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/htzF0gSDqqo",
+      "url": "https://www.youtube.com/watch?v=htzF0gSDqqo",
+      "creator": { "@type": "Person", "name": "Jeremiah Vance" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender resisting Posture Recovery from Meathook, you are the bottom pla
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Meathook]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery from Meathook (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0w0642zFqWo)
+
+<p class="clip-credit"><strong>Rubber guard: troubleshooting the meathook</strong> — taught by Brandon Mccaghren · 1:01 · <a href="https://www.youtube.com/watch?v=0w0642zFqWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KN7ww-OyaxQ)
+
+<p class="clip-credit"><strong>Meathook options</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=KN7ww-OyaxQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=htzF0gSDqqo)
+
+<p class="clip-credit"><strong>Meathook rubber guard options</strong> — taught by Jeremiah Vance · 0:47 · <a href="https://www.youtube.com/watch?v=htzF0gSDqqo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

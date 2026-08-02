@@ -174,6 +174,54 @@ description: "How to execute Butterfly Smash in BJJ. Attacking perspective with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Smash (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Smash pass baiting the butterfly hook",
+      "description": "Butterfly Smash (Attacker) film study: Smash pass baiting the butterfly hook, taught by JT Torres.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s5MYmM58Ipg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s5MYmM58Ipg",
+      "url": "https://www.youtube.com/watch?v=s5MYmM58Ipg",
+      "creator": { "@type": "Person", "name": "JT Torres" },
+      "duration": "PT198S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side smash to side control",
+      "description": "Butterfly Smash (Attacker) film study: Side smash to side control, taught by Owen Livesey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MpWpNkQwBGA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MpWpNkQwBGA",
+      "url": "https://www.youtube.com/watch?v=MpWpNkQwBGA",
+      "creator": { "@type": "Person", "name": "Owen Livesey" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing half butterfly guard",
+      "description": "Butterfly Smash (Attacker) film study: Passing half butterfly guard, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9miuP4-v0EE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9miuP4-v0EE",
+      "url": "https://www.youtube.com/watch?v=9miuP4-v0EE",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT192S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 **From Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Smash (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s5MYmM58Ipg)
+
+<p class="clip-credit"><strong>Smash pass baiting the butterfly hook</strong> — taught by JT Torres · 3:18 · <a href="https://www.youtube.com/watch?v=s5MYmM58Ipg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MpWpNkQwBGA)
+
+<p class="clip-credit"><strong>Side smash to side control</strong> — taught by Owen Livesey · 1:13 · <a href="https://www.youtube.com/watch?v=MpWpNkQwBGA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9miuP4-v0EE)
+
+<p class="clip-credit"><strong>Passing half butterfly guard</strong> — taught by John Danaher · 3:12 · <a href="https://www.youtube.com/watch?v=9miuP4-v0EE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

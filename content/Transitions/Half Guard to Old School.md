@@ -34,6 +34,54 @@ description: "Master the Transition to Old School from half guard bottom. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Old School \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown old school sweep",
+      "description": "Half Guard to Old School film study: Lockdown old school sweep, taught by The Jiu-Jitsu Foundry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c5aHZxvr2bk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c5aHZxvr2bk",
+      "url": "https://www.youtube.com/watch?v=c5aHZxvr2bk",
+      "creator": { "@type": "Person", "name": "The Jiu-Jitsu Foundry" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Old school sweep from half guard",
+      "description": "Half Guard to Old School film study: Old school sweep from half guard, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jnc2siD9cak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jnc2siD9cak",
+      "url": "https://www.youtube.com/watch?v=Jnc2siD9cak",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Godfather sweep from lockdown half guard",
+      "description": "Half Guard to Old School film study: Godfather sweep from lockdown half guard, taught by Coach Paul.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tTroLgpLJ1k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tTroLgpLJ1k",
+      "url": "https://www.youtube.com/watch?v=tTroLgpLJ1k",
+      "creator": { "@type": "Person", "name": "Coach Paul" },
+      "duration": "PT11S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The transition demands precise timing and sequencing rather than explosive athle
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Old School in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c5aHZxvr2bk)
+
+<p class="clip-credit"><strong>Lockdown old school sweep</strong> — taught by The Jiu-Jitsu Foundry · 0:33 · <a href="https://www.youtube.com/watch?v=c5aHZxvr2bk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jnc2siD9cak)
+
+<p class="clip-credit"><strong>Old school sweep from half guard</strong> — taught by Ritchie Yip · 0:12 · <a href="https://www.youtube.com/watch?v=Jnc2siD9cak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tTroLgpLJ1k)
+
+<p class="clip-credit"><strong>Godfather sweep from lockdown half guard</strong> — taught by Coach Paul · 0:11 · <a href="https://www.youtube.com/watch?v=tTroLgpLJ1k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

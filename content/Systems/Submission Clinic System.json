@@ -422,35 +422,115 @@
   "flashcards": [
     {
       "question": "What is the core sequencing principle of the Submission Clinic System?",
-      "answer": "Position before submission — you establish dominant control with at least three connection points before hunting finishes, so a failed attack improves position rather than losing it."
+      "answer": "Position before submission — you establish dominant control with at least three connection points before hunting finishes, so a failed attack improves position rather than losing it.",
+      "answer_line": "Position before submission",
+      "distractors": {
+        "plausible": [
+          "Submit first, control second",
+          "Attack immediately on entry"
+        ],
+        "trap": [
+          "Abandon control to force tap"
+        ]
+      }
     },
     {
       "question": "How does the system turn an opponent's defensive reaction into an advantage?",
-      "answer": "Every defense removes a defensive tool or opens space on the opposite side, so you immediately chain to the complementary attack, using their reaction as the roadmap to the next threat."
+      "answer": "Every defense removes a defensive tool or opens space on the opposite side, so you immediately chain to the complementary attack, using their reaction as the roadmap to the next threat.",
+      "answer_line": "Chain to complementary attack",
+      "distractors": {
+        "plausible": [
+          "Reset and retry same attack",
+          "Switch to strongest submission"
+        ],
+        "trap": [
+          "Force through their defense"
+        ]
+      }
     },
     {
       "question": "What is a fork (dilemma) attack within this system?",
-      "answer": "Presenting two equally dangerous simultaneous threats — such as an armbar on one side and a collar choke on the other from S-mount — so the opponent must concede one while defending the other."
+      "answer": "Presenting two equally dangerous simultaneous threats — such as an armbar on one side and a collar choke on the other from S-mount — so the opponent must concede one while defending the other.",
+      "answer_line": "Simultaneous dual threat",
+      "distractors": {
+        "plausible": [
+          "Fake one attack to bait reaction",
+          "Rapid-fire sequential attacks"
+        ],
+        "trap": [
+          "Commit fully to single submission"
+        ]
+      }
     },
     {
       "question": "Why should you only commit 60-70% to the initial submission attempt?",
-      "answer": "Partial commitment keeps every control point intact while you gauge the opponent's defensive priorities, letting you read their reactions without sacrificing position to a low-percentage finish."
+      "answer": "Partial commitment keeps every control point intact while you gauge the opponent's defensive priorities, letting you read their reactions without sacrificing position to a low-percentage finish.",
+      "answer_line": "Stay partial, read their defense",
+      "distractors": {
+        "plausible": [
+          "Save energy for later rounds",
+          "Test their strength first"
+        ],
+        "trap": [
+          "Full commit to finish quick"
+        ]
+      }
     },
     {
       "question": "Which positions form the backbone of the Submission Clinic attack matrix?",
-      "answer": "Mount (including S-mount and high mount), back control with seat belt and body triangle, side control, triangle control, and closed guard, plus crucifix and gift wrap for maximum arm isolation."
+      "answer": "Mount (including S-mount and high mount), back control with seat belt and body triangle, side control, triangle control, and closed guard, plus crucifix and gift wrap for maximum arm isolation.",
+      "answer_line": "Mount, back, side, triangle, guard",
+      "distractors": {
+        "plausible": [
+          "Only mount and back control",
+          "Half guard and turtle focus"
+        ],
+        "trap": [
+          "Any position with underhook"
+        ]
+      }
     },
     {
       "question": "What is the most common mistake practitioners make when applying this system?",
-      "answer": "Rushing to submissions before stabilizing positional control, which exposes them to sweeps and escapes; the fix is enforcing a strict position-first mentality before launching any attack."
+      "answer": "Rushing to submissions before stabilizing positional control, which exposes them to sweeps and escapes; the fix is enforcing a strict position-first mentality before launching any attack.",
+      "answer_line": "Rushing subs before control",
+      "distractors": {
+        "plausible": [
+          "Overusing one submission type",
+          "Ignoring grip fighting details"
+        ],
+        "trap": [
+          "Chasing every scramble opening"
+        ]
+      }
     },
     {
       "question": "How should you drill submission chains to build the complete system?",
-      "answer": "Drill both successful finishes AND transitions from failed attempts, starting with two-submission chains at low resistance and progressing to three-plus chains at 75% resistance until movement is automatic."
+      "answer": "Drill both successful finishes AND transitions from failed attempts, starting with two-submission chains at low resistance and progressing to three-plus chains at 75% resistance until movement is automatic.",
+      "answer_line": "Drill fails too, scale resistance",
+      "distractors": {
+        "plausible": [
+          "Drill only finishes at full speed",
+          "Isolate single subs to mastery"
+        ],
+        "trap": [
+          "Skip live drilling, only visualize"
+        ]
+      }
     },
     {
       "question": "How does the Submission Clinic System wear down high-level opponents?",
-      "answer": "By removing any chance to rest — every moment in a dominant position becomes an attack, and constant simultaneous threats drain the opponent's mental and physical resources until they break."
+      "answer": "By removing any chance to rest — every moment in a dominant position becomes an attack, and constant simultaneous threats drain the opponent's mental and physical resources until they break.",
+      "answer_line": "Never let them rest or recover",
+      "distractors": {
+        "plausible": [
+          "Overpower with pure strength",
+          "Outlast with cardio alone"
+        ],
+        "trap": [
+          "Pace slowly to save energy"
+        ]
+      }
     }
   ]
 }

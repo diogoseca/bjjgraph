@@ -34,6 +34,54 @@ description: "Master the Americana from Shoulder of Justice in BJJ. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Shoulder of Justice \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Slick Americana setup",
+      "description": "Americana from Shoulder of Justice film study: Slick Americana setup, taught by Joel Bouhey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NFbf-Yi9BOU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NFbf-Yi9BOU",
+      "url": "https://www.youtube.com/watch?v=NFbf-Yi9BOU",
+      "creator": { "@type": "Person", "name": "Joel Bouhey" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control Americana armlock",
+      "description": "Americana from Shoulder of Justice film study: Side control Americana armlock, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wpZfDVXOeJw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wpZfDVXOeJw",
+      "url": "https://www.youtube.com/watch?v=wpZfDVXOeJw",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Americana from side control",
+      "description": "Americana from Shoulder of Justice film study: Americana from side control, taught by Roy Dean.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wckW_4r7vbk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wckW_4r7vbk",
+      "url": "https://www.youtube.com/watch?v=wckW_4r7vbk",
+      "creator": { "@type": "Person", "name": "Roy Dean" },
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Strategically, this submission functions as the centerpiece of the Shoulder of J
 **Starting Position**: [[Positions/Shoulder of Justice]] · **From**: [[Positions/Shoulder of Justice]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Shoulder of Justice in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NFbf-Yi9BOU)
+
+<p class="clip-credit"><strong>Slick Americana setup</strong> — taught by Joel Bouhey · 0:37 · <a href="https://www.youtube.com/watch?v=NFbf-Yi9BOU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wpZfDVXOeJw)
+
+<p class="clip-credit"><strong>Side control Americana armlock</strong> — taught by JitzLive · 2:02 · <a href="https://www.youtube.com/watch?v=wpZfDVXOeJw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wckW_4r7vbk)
+
+<p class="clip-credit"><strong>Americana from side control</strong> — taught by Roy Dean · 3:14 · <a href="https://www.youtube.com/watch?v=wckW_4r7vbk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -244,7 +328,7 @@ Strategically, this submission functions as the centerpiece of the Shoulder of J
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Cross Collar Choke]]

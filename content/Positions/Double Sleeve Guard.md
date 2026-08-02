@@ -34,6 +34,54 @@ description: "Master Double Sleeve Guard in BJJ. Strategic guide covering grip c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Sleeve Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How Black Belts Grip Intelligently",
+      "description": "Double Sleeve Guard film study: How Black Belts Grip Intelligently, taught by Jiu-Jitsu Channel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KvJtOUDN-wY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KvJtOUDN-wY",
+      "url": "https://www.youtube.com/watch?v=KvJtOUDN-wY",
+      "creator": { "@type": "Person", "name": "Jiu-Jitsu Channel" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Intro to the Double Sleeve Guard concepts and entries",
+      "description": "Double Sleeve Guard film study: Intro to the Double Sleeve Guard concepts and entries, taught by Ariel Tabak.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCvako3SaRs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCvako3SaRs",
+      "url": "https://www.youtube.com/watch?v=sCvako3SaRs",
+      "creator": { "@type": "Person", "name": "Ariel Tabak" },
+      "duration": "PT673S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Most important guard principles for grip-based guards",
+      "description": "Double Sleeve Guard film study: Most important guard principles for grip-based guards, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/npuOznVZoXA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/npuOznVZoXA",
+      "url": "https://www.youtube.com/watch?v=npuOznVZoXA",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT419S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -64,6 +112,42 @@ A pillar of the modern gi open-guard game, Double Sleeve Guard is built around w
 Double Sleeve Guard is characterized by its emphasis on grip fighting dominance and distance management. By controlling both sleeves, the bottom player neutralizes the opponent's ability to grip the pants or control the legs, forcing them into a defensive posture. This guard excels at creating off-balancing opportunities and can transition seamlessly into more specialized guards like Spider Guard, Lasso Guard, or De La Riva Guard. The position requires good hip mobility and grip strength but offers a high return on investment for practitioners who develop proficiency with the fundamental sweeps and transitions available from this control position. From the top perspective, the challenge lies in systematically breaking the sleeve grips while maintaining posture and creating passing opportunities through angle creation and strategic pressure application.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Sleeve Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KvJtOUDN-wY)
+
+<p class="clip-credit"><strong>How Black Belts Grip Intelligently</strong> — taught by Jiu-Jitsu Channel · 1:42 · <a href="https://www.youtube.com/watch?v=KvJtOUDN-wY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCvako3SaRs)
+
+<p class="clip-credit"><strong>Intro to the Double Sleeve Guard concepts and entries</strong> — taught by Ariel Tabak · 11:13 · <a href="https://www.youtube.com/watch?v=sCvako3SaRs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=npuOznVZoXA)
+
+<p class="clip-credit"><strong>Most important guard principles for grip-based guards</strong> — taught by Jon Thomas · 6:59 · <a href="https://www.youtube.com/watch?v=npuOznVZoXA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -135,33 +219,33 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 ### Available Transitions
 
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (20% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (12% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (10% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
 
-- **[[Omoplata from Double Sleeve Guard/Attacker|Omoplata from Double Sleeve Guard]]** (6% of attempts)
+- **[[Omoplata from Double Sleeve Guard/Attacker|Omoplata from Double Sleeve Guard]]** (3% of attempts)
 
-- **[[Transitions/Guard Recovery from Double Sleeve Guard/Attacker|Guard Recovery from Double Sleeve Guard]]** (4% of attempts)
+- **[[Transitions/Guard Recovery from Double Sleeve Guard/Attacker|Guard Recovery from Double Sleeve Guard]]** (18% of attempts)
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (12% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (10% of attempts)
 
-- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (8% of attempts)
+- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (9% of attempts)
 
 - **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (8% of attempts)
 
-- **[[Transitions/Armbar Setup from Double Sleeve/Attacker|Armbar Setup from Double Sleeve]]** (3% of attempts)
+- **[[Transitions/Armbar Setup from Double Sleeve/Attacker|Armbar Setup from Double Sleeve]]** (5% of attempts)
 
-- **[[Transitions/Double Sleeve Sweep/Attacker|Double Sleeve Sweep]]** (3% of attempts)
+- **[[Transitions/Double Sleeve Sweep/Attacker|Double Sleeve Sweep]]** (5% of attempts)
 
-- **[[Transitions/Double Sleeve to De La Riva/Attacker|Double Sleeve to De La Riva]]** (4% of attempts)
+- **[[Transitions/Double Sleeve to De La Riva/Attacker|Double Sleeve to De La Riva]]** (8% of attempts)
 
-- **[[Transitions/Double Sleeve to Lasso/Attacker|Double Sleeve to Lasso]]** (4% of attempts)
+- **[[Transitions/Double Sleeve to Lasso/Attacker|Double Sleeve to Lasso]]** (0% of attempts)
 
-- **[[Transitions/Double Sleeve to Spider/Attacker|Double Sleeve to Spider]]** (4% of attempts)
+- **[[Transitions/Double Sleeve to Spider/Attacker|Double Sleeve to Spider]]** (1% of attempts)
 
-- **[[Transitions/Double Sleeve to Spider Guard/Attacker|Double Sleeve to Spider Guard]]** (6% of attempts)
+- **[[Transitions/Double Sleeve to Spider Guard/Attacker|Double Sleeve to Spider Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -222,25 +306,23 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (10% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (16% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (15% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (8% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (10% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (6% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (7% of attempts)
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (35% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (9% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
+- **[[Transitions/Pass Double Sleeve Guard/Attacker|Pass Double Sleeve Guard]]** (11% of attempts)
 
-- **[[Transitions/Pass Double Sleeve Guard/Attacker|Pass Double Sleeve Guard]]** (3% of attempts)
-
-- **[[Transitions/Toreando from Double Sleeve/Attacker|Toreando from Double Sleeve]]** (2% of attempts)
+- **[[Transitions/Toreando from Double Sleeve/Attacker|Toreando from Double Sleeve]]** (10% of attempts)
 
 
 ### Common Mistakes

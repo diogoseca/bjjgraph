@@ -140,6 +140,43 @@ description: "Defend against the sweep from Ushiro Ashi-Garami top. Learn to mai
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Ushiro Ashi-Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The one key idea for defending heel hooks",
+      "description": "Sweep from Ushiro Ashi-Garami (Defender) film study: The one key idea for defending heel hooks, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z0WDtUMkBP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z0WDtUMkBP8",
+      "url": "https://www.youtube.com/watch?v=Z0WDtUMkBP8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT170S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg lock defense fundamentals",
+      "description": "Sweep from Ushiro Ashi-Garami (Defender) film study: Leg lock defense fundamentals, taught by Kuwy Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
+      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
+      "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the Sweep from Ushiro Ashi-Garami requires maintaining base integrity 
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Ushiro Ashi-Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z0WDtUMkBP8)
+
+<p class="clip-credit"><strong>The one key idea for defending heel hooks</strong> — taught by Lachlan Giles · 2:50 · <a href="https://www.youtube.com/watch?v=Z0WDtUMkBP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m0NLphEuFoc)
+
+<p class="clip-credit"><strong>Leg lock defense fundamentals</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

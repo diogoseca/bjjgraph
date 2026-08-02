@@ -16,7 +16,10 @@
   "submission_type": "Spinal Compression",
   "target_area": "Lumbar spine and hip flexors",
   "starting_position": "Turtle",
-  "success_rate": 42,
+  "success_rate": {
+    "gi": 42,
+    "nogi": 42
+  },
   "summary": "The Boston Crab from Turtle is a spinal-compression submission where the attacker captures both of a turtled opponent's ankles, steps over the body, and sits back to hyperextend their lumbar spine into a forced backward arch.",
   "overview": "The Boston Crab is a compression submission that targets the opponent's lumbar spine and hip flexors by creating extreme hyperextension of the lower back. Originating from catch wrestling and professional wrestling, this technique has limited application in modern sport BJJ due to rule restrictions in many competition formats, but remains valuable for understanding spinal mechanics and no-gi scenarios where it can create legitimate finishing pressure. The submission works by controlling both of the opponent's legs, typically from turtle or back control positions, then sitting back to create a bridge-like arch in the opponent's spine. The effectiveness comes from the combination of hip flexor strain, lower back compression, and the opponent's inability to effectively defend while both legs are controlled. This technique requires careful application due to the significant spinal stress involved and is most commonly seen in catch wrestling competitions or MMA scenarios where back control is established but traditional chokes are defended. Understanding the Boston Crab provides insight into compression-based submission mechanics and the importance of protecting your lower back when opponent has leg control from behind.",
   "safety_considerations": {
@@ -69,17 +72,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
@@ -296,62 +308,211 @@
       {
         "question": "What is the primary anatomical target of the Boston Crab and what type of injury risk does it present?",
         "answer": "The primary target is the lumbar spine (lower back) through hyperextension, with secondary stress on hip flexors. The main injury risk is lumbar spine strain, disc herniation, or muscle tears in the lower back region. This is why the submission must be applied extremely slowly and progressively, with constant monitoring for tap signals. The spinal compression nature makes it one of the higher-risk submissions in terms of potential for serious injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lumbar spine hyperextension",
+        "distractors": {
+          "plausible": [
+            "Knee ligament strain",
+            "Hamstring overstretch"
+          ],
+          "trap": [
+            "Minor risk, safe to crank fast"
+          ]
+        }
       },
       {
         "question": "Why must the Boston Crab be applied slowly over 5-7 seconds minimum, and what are the consequences of explosive application?",
         "answer": "Slow application (5-7 seconds minimum) is mandatory because the spine requires time to respond to compression forces and the opponent needs time to recognize the submission danger and tap safely. Explosive application can cause immediate disc herniation, ligament tears, or muscle strains before the opponent can tap. The spine is particularly vulnerable to sudden hyperextension, and unlike joint locks where damage is localized, spinal injuries can have severe long-term consequences including chronic pain and mobility issues. Training partners must be able to feel the pressure building and make informed decisions about tapping.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Spine needs time to signal danger",
+        "distractors": {
+          "plausible": [
+            "Prevents muscle fatigue buildup",
+            "Lets opponent posture defensively"
+          ],
+          "trap": [
+            "Speed increases finishing power"
+          ]
+        }
       },
       {
         "question": "What are the key control requirements that must be established before attempting the Boston Crab?",
         "answer": "You must control both of the opponent's ankles or lower legs with secure grips, have the opponent in a flattened or turtle position where their hands cannot effectively defend their legs, and have space behind them to step over their body. Both legs must be controlled simultaneously - single leg control is insufficient for the proper Boston Crab mechanics. The opponent should be relatively immobilized before you begin the step-over sequence. Additionally, you should verify that both you and your training partner understand the submission mechanics and safety protocols before attempting.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Control both ankles simultaneously",
+        "distractors": {
+          "plausible": [
+            "Pin their hips with your chest",
+            "Secure a seatbelt grip first"
+          ],
+          "trap": [
+            "Grab one leg and jump to finish"
+          ]
+        }
       },
       {
         "question": "In what competition formats is the Boston Crab typically illegal, and why?",
         "answer": "The Boston Crab is prohibited in most IBJJF gi and no-gi competitions because it is classified as a spinal lock or cervical/spinal compression technique. IBJJF rules specifically ban techniques that apply pressure to the spine or neck vertebrae. It is also illegal in many grappling organizations' lower belt divisions. The technique is more commonly legal in catch wrestling competitions, some submission-only formats, and MMA contexts where spinal compression is permitted. Competitors should always verify specific rule sets before attempting this submission in competition.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Banned in IBJJF as spinal lock",
+        "distractors": {
+          "plausible": [
+            "Illegal only in gi divisions",
+            "Banned for excessive force rule"
+          ],
+          "trap": [
+            "Legal everywhere except MMA"
+          ]
+        }
       },
       {
         "question": "What is the correct release protocol for the Boston Crab, and why is it important?",
         "answer": "The correct release protocol is: immediately release ankle grips upon tap signal, sit forward (not backward) to remove spinal extension pressure, gently lower the opponent's hips back to the mat in a controlled manner, allow them to flatten out completely, and check their condition before continuing training. This protocol is critical because explosive or uncontrolled release can cause whiplash-type spinal injuries from sudden decompression. Dropping the opponent or releasing their legs suddenly while maintaining backward pressure can cause additional strain. The release must be as controlled as the application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Sit forward, lower hips gently",
+        "distractors": {
+          "plausible": [
+            "Keep legs locked, ease pressure",
+            "Roll opponent onto their side"
+          ],
+          "trap": [
+            "Drop legs and sit back further"
+          ]
+        }
       },
       {
         "question": "Your opponent begins pulling their knees toward their chest during the sit-back phase - what adjustment maintains finishing pressure?",
         "answer": "Immediately increase the forward pull on their ankles while simultaneously sitting back more aggressively to outpace their defensive leg retraction. The key is maintaining the ankle-to-hip distance that creates spinal extension. If they successfully bring their knees under their hips, the submission pressure dissipates entirely. You can also spread their ankles slightly apart which makes it biomechanically harder for them to pull knees to chest. If they continue winning the leg battle, consider transitioning to single leg attacks on the exposed ankle rather than forcing a failed Boston Crab.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull ankles, sit back harder",
+        "distractors": {
+          "plausible": [
+            "Drop knees onto their thighs",
+            "Switch to a single ankle lock"
+          ],
+          "trap": [
+            "Release an ankle to grab their hip"
+          ]
+        }
       },
       {
         "question": "What physical indicators tell you the opponent is approaching the breaking point in a Boston Crab?",
         "answer": "Key indicators include: visible arching of the lumbar spine creating a pronounced curve in the lower back, opponent's hips elevating significantly off the mat, tensing of the abdominal and hip flexor muscles as they attempt to resist extension, verbal communication of discomfort, decreased resistance in the legs indicating muscle fatigue, and any tapping signals. In training, you should recognize these early indicators and reduce pressure before maximum stress. The submission is complete when opponent taps - never push to actual structural failure. Recognizing the approach to breaking point allows for controlled pressure application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Arched back, elevated hips, tapping",
+        "distractors": {
+          "plausible": [
+            "Rapid breathing and eye contact",
+            "Opponent grabbing your ankles"
+          ],
+          "trap": [
+            "Silence means no danger yet"
+          ]
+        }
       },
       {
         "question": "How does ankle grip positioning affect the finishing mechanics of the Boston Crab?",
         "answer": "Ankle grip positioning directly determines the vector of spinal stress. Gripping closer to the heel creates a longer lever arm from the hip, generating more rotational force on the lumbar spine with less effort. Gripping higher on the ankle or lower shin provides more control but requires sitting back further to achieve the same extension. The ankles should be held close together and pulled toward your torso rather than spread apart - spreading reduces spinal extension and converts pressure into hip rotation. Optimal grip is just above the heel with both ankles touching, pulled tight against your lower back or hips as you sit.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip at the heels for a long lever",
+        "distractors": {
+          "plausible": [
+            "Hook their feet in your armpits",
+            "Palm-up grip under the shins"
+          ],
+          "trap": [
+            "Twist their toes for extra torque"
+          ]
+        }
       },
       {
         "question": "Your opponent begins attempting to roll to either side during the Boston Crab - how do you counter this escape?",
         "answer": "Counter the roll by immediately shifting your base in the opposite direction of their roll attempt, using your body weight to pin their hips in place. If they roll right, shift your weight and base left while pulling their ankles in that direction. You can also prevent rolling by keeping their ankles centered and elevating their hips higher - the more their hips are elevated, the less rotational momentum they can generate. If they successfully initiate a roll, follow the roll and transition to back control or leg entanglement rather than fighting against the rotation and potentially injuring the spine through twisting forces.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Base opposite, elevate hips",
+        "distractors": {
+          "plausible": [
+            "Squeeze their knees together",
+            "Pause pressure and reset grips"
+          ],
+          "trap": [
+            "Ride the roll and land bottom"
+          ]
+        }
       },
       {
         "question": "What distinguishes a finishing Boston Crab from a control-only Boston Crab in terms of body positioning?",
         "answer": "A control-only Boston Crab maintains leg control with moderate hip elevation but minimal sit-back depth - your torso remains relatively upright and opponent's spine has only slight extension. A finishing Boston Crab requires full seat commitment where your hips are completely below your shoulders, creating maximum lever arm length. The transition from control to finish occurs when you commit your weight backward past the tipping point where opponent's lumbar spine moves into significant hyperextension. In training, you should demonstrate the finishing position exists without fully loading it - show you could finish without actually applying maximum pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Full seat, hips below shoulders",
+        "distractors": {
+          "plausible": [
+            "Wider stance over their body",
+            "Grip higher on the shins"
+          ],
+          "trap": [
+            "Crank hard and fast for the tap"
+          ]
+        }
       },
       {
         "question": "What are the warning signs that your Boston Crab control is failing and you should transition to another technique?",
         "answer": "Warning signs include: one ankle beginning to slip from your grip despite adjustment attempts, opponent successfully getting one knee underneath their hip, opponent's upper body beginning to rise as they post on hands with strength, their legs separating despite your efforts to keep them together, or opponent generating enough hip movement to begin rotating out. When you recognize these signs, do not force the submission - transition immediately to available alternatives such as back control if you can maintain upper body connection, single leg attacks on the more controlled leg, or crab ride position to reset the attack. Forcing a failing Boston Crab risks injury from awkward pressure angles.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knee under hip, legs slipping",
+        "distractors": {
+          "plausible": [
+            "Opponent stops verbalizing pain",
+            "Opponent's grip on mat loosens"
+          ],
+          "trap": [
+            "Force the sit-back harder"
+          ]
+        }
       },
       {
         "question": "How should you integrate the Boston Crab into a systematic turtle attack strategy?",
         "answer": "The Boston Crab should be positioned as a secondary or tertiary option within turtle attacks, not a primary technique. Your systematic approach should first threaten back control and traditional chokes, which forces defensive reactions. When opponent defends the back take by flattening or keeping arms tight, their legs often become more exposed. The Boston Crab works best as a surprise transition when opponent has mentally committed to defending upper body attacks. Chain it with crab ride control first - if your back take stalls, the leg control for Boston Crab is already partially established. The threat of the Boston Crab can also force opponent to defend legs, opening the back again. Never telegraph the submission by immediately grabbing legs from neutral turtle top.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Secondary threat after back attacks",
+        "distractors": {
+          "plausible": [
+            "Opening move on any turtle",
+            "Only used when behind on points"
+          ],
+          "trap": [
+            "Dive for legs and abandon the back"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "iarztc8kRHk",
+        "title": "Boston crab as a legit submission",
+        "by": "Ramsey Dewey",
+        "vertical": false,
+        "channel": "Ramsey Dewey",
+        "duration": 148,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RpE8Itm4M6g",
+        "title": "Hammer lock to half boston crab",
+        "by": "Dan The Wolfman",
+        "vertical": false,
+        "channel": "DanTheWolfman",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Q0qJt_joIog",
+        "title": "Kneebar and half boston crab from top",
+        "by": "Dan The Wolfman",
+        "vertical": false,
+        "channel": "DanTheWolfman",
+        "duration": 276,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -445,27 +606,77 @@
       {
         "question": "What is the earliest and most effective defensive window against the Boston Crab, and why?",
         "answer": "The earliest and most effective window is preventing simultaneous control of both legs during the initial grab phase. At this point, maintaining strong turtle posture with knees underneath hips and elbows tight makes leg isolation difficult. If the attacker cannot secure both ankles, the entire Boston Crab sequence cannot begin. This window is most effective because it requires the least energy expenditure and carries zero risk of spinal stress. Once both legs are captured, every subsequent defensive window becomes progressively harder and more energy-intensive.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Prevent both ankles being grabbed",
+        "distractors": {
+          "plausible": [
+            "Bridge before hips are elevated",
+            "Post hands before step-over"
+          ],
+          "trap": [
+            "Wait until sit-back begins"
+          ]
+        }
       },
       {
         "question": "Why is bridging upward the wrong defensive response to an established Boston Crab?",
         "answer": "Bridging upward is counterproductive because it creates additional spinal hyperextension, which is exactly the mechanism the submission exploits. By bridging, you are essentially assisting the attacker's finishing mechanics by arching your own lower back further. The correct response is the opposite movement - curling into a ball by pulling knees toward your chest and rounding your spine. This reduces the extension angle and fights against the lever arm the attacker has created. This is a common instinctive mistake because bridging is the correct escape in many other positions, but spinal compression submissions require the opposite defensive pattern.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bridging adds spinal extension",
+        "distractors": {
+          "plausible": [
+            "Bridging wastes needed energy",
+            "Bridging exposes the far arm"
+          ],
+          "trap": [
+            "Bridge hard to reverse position"
+          ]
+        }
       },
       {
         "question": "When should you tap to a Boston Crab in training, and why is early tapping especially important for this submission?",
         "answer": "You should tap as soon as you feel legitimate lower back pressure that you cannot reduce through active defensive movement such as knee retraction or rolling. Early tapping is critical because spinal compression submissions have a uniquely narrow margin between discomfort and structural damage compared to joint locks. With an armbar, you feel progressive pain that builds toward a break. With spinal compression, disc herniation can occur without the dramatic pain signal that precedes joint failure. Additionally, the damage may not be immediately apparent - you might feel only moderate discomfort during the submission but develop significant symptoms hours or days later. Training is never worth a spinal injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at first real back pressure",
+        "distractors": {
+          "plausible": [
+            "Tap only if a joint is locked",
+            "Tap after your partner asks"
+          ],
+          "trap": [
+            "Wait for a clear pop sound"
+          ]
+        }
       },
       {
         "question": "Your attacker has secured both ankles and is mid-step-over - what is your best defensive response?",
         "answer": "During the step-over transition, the attacker's balance is most compromised because they have one leg off the ground while manipulating your legs. This is the optimal moment for an explosive roll to either side. Choose the side where the attacker's stepping leg has not yet landed. The roll disrupts their balance and can break their grip on at least one ankle. Combine the roll with aggressive kicking of your legs to break free. If the roll succeeds, immediately scramble to recover guard or re-establish turtle. If it fails, transition immediately to knee retraction as the backup defense before the sit-back begins.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Explosive roll to the open side",
+        "distractors": {
+          "plausible": [
+            "Roll toward the planted leg",
+            "Kick free before rolling out"
+          ],
+          "trap": [
+            "Arch your back to bridge them off"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between Boston Crab setup cues and standard back control attempts from turtle?",
         "answer": "The critical distinguishing cue is where the attacker's grips shift. Standard back control attacks target your upper body with seatbelt, harness, or collar control while their legs work to insert hooks. Boston Crab setup involves the attacker releasing or deprioritizing upper body control in favor of grabbing both ankles or lower legs. You will feel their hands moving down your body from shoulders toward your hips and legs. Additionally, the attacker may shift their weight backward rather than forward, which is opposite to the typical back take trajectory. Recognizing this shift in grip targets is the earliest recognition cue and provides the maximum defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grips shift down to your ankles",
+        "distractors": {
+          "plausible": [
+            "Their chest drives into your ribs",
+            "They fight for your collar"
+          ],
+          "trap": [
+            "Ignore the legs, defend the neck"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -488,6 +699,35 @@
         "phase": "Phase 4: Live Defense with Full Resistance",
         "focus": "Defending Boston Crab attempts within full turtle defense positional sparring",
         "description": "Positional sparring from turtle bottom where partner can attack with any turtle top technique including Boston Crab. Develop the ability to recognize Boston Crab setup cues within the chaos of live rolling and select the appropriate defensive response based on the attack phase. Practice chaining defensive responses when first defense fails. Always maintain appropriate tap discipline for spinal compression."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Q4Ceu88rqXA",
+        "title": "Defense to the Boston Crab",
+        "by": "Fenrir Thorvaldsen",
+        "vertical": false,
+        "channel": "Fenrir Thorvaldsen",
+        "duration": 93,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nPvEfzwioKI",
+        "title": "Turtle 2.0: defensive turtle structure explained",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "Defensive BJJ",
+        "duration": 664,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "h2lCF7jLT_w",
+        "title": "Five turtle mistakes that give up the back",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "Defensive BJJ",
+        "duration": 456,
+        "verified": "2026-07-15"
       }
     ]
   },

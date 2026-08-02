@@ -34,6 +34,43 @@ description: "Master the Kimura from Mount in BJJ. Complete guide with safety pr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from Mount",
+      "description": "Kimura from Mount film study: Kimura from Mount, taught by Tom Dinklage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Lkh8kQG8ArA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Lkh8kQG8ArA",
+      "url": "https://www.youtube.com/watch?v=Lkh8kQG8ArA",
+      "creator": { "@type": "Person", "name": "Tom Dinklage" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "S-Mount Armbar, Kimura + Far Side Armbar",
+      "description": "Kimura from Mount film study: S-Mount Armbar, Kimura + Far Side Armbar, taught by GB Costa Mesa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nH4ly3vk7WI",
+      "url": "https://www.youtube.com/watch?v=nH4ly3vk7WI",
+      "creator": { "@type": "Person", "name": "GB Costa Mesa" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +111,34 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 **Starting Position**: [[Positions/Mount]] · **From**: [[Positions/Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Lkh8kQG8ArA)
+
+<p class="clip-credit"><strong>Kimura from Mount</strong> — taught by Tom Dinklage · 1:06 · <a href="https://www.youtube.com/watch?v=Lkh8kQG8ArA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nH4ly3vk7WI)
+
+<p class="clip-credit"><strong>S-Mount Armbar, Kimura + Far Side Armbar</strong> — taught by GB Costa Mesa · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -254,11 +319,10 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Cross Collar Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Triangle Choke]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Positions/Mount]] - Primary starting position - mount control must be established before attempting submission
 - [[Positions/Mount/High Mount]] - Optimal setup position - provides chest pressure and arm isolation opportunities
 - [[Positions/Mount/S Mount]] - Enhanced control variation - prevents rolling defenses more effectively

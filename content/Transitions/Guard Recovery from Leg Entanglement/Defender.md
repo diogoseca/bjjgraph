@@ -132,6 +132,54 @@ description: "Complete guide to preventing guard recovery from leg entanglement.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Leg Entanglement (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hiding the heel to keep the entanglement",
+      "description": "Guard Recovery from Leg Entanglement (Defender) film study: Hiding the heel to keep the entanglement, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kzgvfbZtH-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kzgvfbZtH-8",
+      "url": "https://www.youtube.com/watch?v=kzgvfbZtH-8",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT233S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping Ashi Garami: leg lock defense details",
+      "description": "Guard Recovery from Leg Entanglement (Defender) film study: Escaping Ashi Garami: leg lock defense details, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ashi Garami escape mechanics",
+      "description": "Guard Recovery from Leg Entanglement (Defender) film study: Ashi Garami escape mechanics, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0g_ALDkfU2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0g_ALDkfU2Q",
+      "url": "https://www.youtube.com/watch?v=0g_ALDkfU2Q",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT107S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +189,42 @@ Defending against guard recovery attempts from leg entanglement means maintainin
 **Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Leg Entanglement (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kzgvfbZtH-8)
+
+<p class="clip-credit"><strong>Hiding the heel to keep the entanglement</strong> — taught by Craig Jones · 3:53 · <a href="https://www.youtube.com/watch?v=kzgvfbZtH-8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+
+<p class="clip-credit"><strong>Escaping Ashi Garami: leg lock defense details</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0g_ALDkfU2Q)
+
+<p class="clip-credit"><strong>Ashi Garami escape mechanics</strong> — taught by Brandon McCaghren · 1:47 · <a href="https://www.youtube.com/watch?v=0g_ALDkfU2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

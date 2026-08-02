@@ -34,6 +34,54 @@ description: "Master the Smash Pocket Half pass in BJJ. Pressure-based technique
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Pocket Half \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the flat half guard",
+      "description": "Smash Pocket Half film study: Passing the flat half guard, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
+      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the half guard underhook on top",
+      "description": "Smash Pocket Half film study: Countering the half guard underhook on top, taught by Marcos Escobar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kyDmvr3qvY0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kyDmvr3qvY0",
+      "url": "https://www.youtube.com/watch?v=kyDmvr3qvY0",
+      "creator": { "@type": "Person", "name": "Marcos Escobar" },
+      "duration": "PT132S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body lock pass off their underhook",
+      "description": "Smash Pocket Half film study: Body lock pass off their underhook, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aAd6OIq94X0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aAd6OIq94X0",
+      "url": "https://www.youtube.com/watch?v=aAd6OIq94X0",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT205S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the Smash Pocket Half serves as a critical link in pressure-passi
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Pocket Half in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8WbQvytyCX0)
+
+<p class="clip-credit"><strong>Passing the flat half guard</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kyDmvr3qvY0)
+
+<p class="clip-credit"><strong>Countering the half guard underhook on top</strong> — taught by Marcos Escobar · 2:12 · <a href="https://www.youtube.com/watch?v=kyDmvr3qvY0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aAd6OIq94X0)
+
+<p class="clip-credit"><strong>Body lock pass off their underhook</strong> — taught by Gordon Ryan · 3:25 · <a href="https://www.youtube.com/watch?v=aAd6OIq94X0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Arm Triangle from Modified Scarf Hold. Learn setup mech
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Modified Scarf Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm Triangle from Scarf Hold Position",
+      "description": "Arm Triangle from Modified Scarf Hold film study: Arm Triangle from Scarf Hold Position, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xz9-FEBFFIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xz9-FEBFFIo",
+      "url": "https://www.youtube.com/watch?v=xz9-FEBFFIo",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle Attacks From Kuzure Kesa Gatame",
+      "description": "Arm Triangle from Modified Scarf Hold film study: Triangle Attacks From Kuzure Kesa Gatame, taught by Chokes And More.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tfykooWW-xk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tfykooWW-xk",
+      "url": "https://www.youtube.com/watch?v=tfykooWW-xk",
+      "creator": { "@type": "Person", "name": "Chokes And More" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "12 Kesa Gatame Attacks",
+      "description": "Arm Triangle from Modified Scarf Hold film study: 12 Kesa Gatame Attacks, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ This variant is particularly effective because Modified Scarf Hold allows the at
 **Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] · **From**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Modified Scarf Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xz9-FEBFFIo)
+
+<p class="clip-credit"><strong>Arm Triangle from Scarf Hold Position</strong> — taught by Mat Life Training Center · 0:32 · <a href="https://www.youtube.com/watch?v=xz9-FEBFFIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tfykooWW-xk)
+
+<p class="clip-credit"><strong>Triangle Attacks From Kuzure Kesa Gatame</strong> — taught by Chokes And More · 1:06 · <a href="https://www.youtube.com/watch?v=tfykooWW-xk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>12 Kesa Gatame Attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -242,7 +326,7 @@ This variant is particularly effective because Modified Scarf Hold allows the at
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Arm in Guillotine]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Side Control/Modified Scarf Hold]] - Starting pin position for this submission

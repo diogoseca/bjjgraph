@@ -150,6 +150,54 @@ description: "Essential guide to surviving and escaping heel hook attacks from t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Saddle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle Heel Hook Escape to 50/50",
+      "description": "Heel Hook from Saddle (Defender) film study: Saddle Heel Hook Escape to 50/50, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pCX38nCUGD0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pCX38nCUGD0",
+      "url": "https://www.youtube.com/watch?v=pCX38nCUGD0",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Saddle Heel Hook Escape Options",
+      "description": "Heel Hook from Saddle (Defender) film study: Saddle Heel Hook Escape Options, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/upCoem5F0cU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/upCoem5F0cU",
+      "url": "https://www.youtube.com/watch?v=upCoem5F0cU",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending Heel Hooks",
+      "description": "Heel Hook from Saddle (Defender) film study: Defending Heel Hooks, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
+      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the heel hook from saddle is among the most urgent and dangerous defen
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Saddle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pCX38nCUGD0)
+
+<p class="clip-credit"><strong>Saddle Heel Hook Escape to 50/50</strong> — taught by ZombieProofBJJ · 1:05 · <a href="https://www.youtube.com/watch?v=pCX38nCUGD0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=upCoem5F0cU)
+
+<p class="clip-credit"><strong>Saddle Heel Hook Escape Options</strong> — taught by ZombieProofBJJ · 1:32 · <a href="https://www.youtube.com/watch?v=upCoem5F0cU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+
+<p class="clip-credit"><strong>Defending Heel Hooks</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

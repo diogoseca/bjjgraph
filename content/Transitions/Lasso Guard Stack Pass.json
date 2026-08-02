@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Lasso Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Caught in an opponent's lasso guard, most passers instinctively reach to strip the sleeve grip or pull the trapped arm free — exactly the responses that feed the lasso's leverage. The stack pass takes the opposite path, addressing the lasso's mechanical advantage directly by folding the bottom player's hips over their shoulders. This compression eliminates the distance and angle that make the lasso effective, as the bottom player can no longer generate the pushing force through their shin or maintain the pulling tension on the sleeve that creates the lasso's characteristic control.\n\nThe technique follows a systematic progression: first securing control of the non-lasso leg to prevent secondary guard connections, then driving forward to initiate the stack, and finally walking around the compressed guard player to clear the legs and establish side control. The stack creates a cascading effect where each inch of compression further degrades the lasso's leverage, making continued resistance increasingly difficult for the guard player. This self-reinforcing dynamic makes the stack pass one of the most reliable methods for dealing with deeply established lasso control.\n\nStrategically, the stack pass serves as a high-pressure complement to more technical passing approaches against lasso guard. When backstep passes or knee cuts are being effectively defended, the direct forward pressure of the stack changes the tactical equation entirely. The technique is particularly effective against flexible guard players who rely on distance and hip mobility, as the stack directly attacks both elements simultaneously. Competition-proven at the highest levels, the stack pass remains a fundamental tool in every serious guard passer's arsenal against lasso guard systems.",
   "conditions": [
     "Opponent has established lasso guard with shin threaded across your arm and tight sleeve grip control",
@@ -242,46 +254,175 @@
     "flashcards": [
       {
         "question": "What grip must you establish before committing to the forward drive of the stack pass?",
-        "answer": "You must secure a pant grip on the non-lasso leg at the knee or ankle before committing forward. This grip prevents the bottom player from establishing secondary guard connections like butterfly hooks or De La Riva, and gives you control over their lower body throughout the stacking sequence. Without this grip, the bottom player can freely transition to alternative guards during your forward drive."
+        "answer": "You must secure a pant grip on the non-lasso leg at the knee or ankle before committing forward. This grip prevents the bottom player from establishing secondary guard connections like butterfly hooks or De La Riva, and gives you control over their lower body throughout the stacking sequence. Without this grip, the bottom player can freely transition to alternative guards during your forward drive.",
+        "answer_line": "Pant grip on non-lasso leg",
+        "distractors": {
+          "plausible": [
+            "Grip the lasso-side pant",
+            "Collar tie before driving"
+          ],
+          "trap": [
+            "Drive forward without grip"
+          ]
+        }
       },
       {
         "question": "Why should you keep your trapped arm tight to your body during the stack rather than pulling it free?",
-        "answer": "Pulling the trapped arm outward re-extends the lasso leg and actually increases the bottom player's mechanical leverage against your shoulder. Keeping the arm pinned to your ribcage allows the stacking compression to naturally change the angle between your arm and their shin, degrading the lasso's effectiveness without requiring a forceful grip break. The compression does the work for you as the folded angle removes the lasso's perpendicular force vector."
+        "answer": "Pulling the trapped arm outward re-extends the lasso leg and actually increases the bottom player's mechanical leverage against your shoulder. Keeping the arm pinned to your ribcage allows the stacking compression to naturally change the angle between your arm and their shin, degrading the lasso's effectiveness without requiring a forceful grip break. The compression does the work for you as the folded angle removes the lasso's perpendicular force vector.",
+        "answer_line": "Pin trapped arm to ribs",
+        "distractors": {
+          "plausible": [
+            "Pull arm free of the shin",
+            "Push arm out to break grip"
+          ],
+          "trap": [
+            "Rip arm free from the lasso"
+          ]
+        }
       },
       {
         "question": "How does the stacking motion neutralize the lasso guard's mechanical advantage?",
-        "answer": "The lasso guard generates control through the bottom player's shin pressing against your arm at a perpendicular angle while their sleeve grip creates opposing tension. Stacking folds the bottom player's body by driving their hips over their shoulders, which fundamentally changes this perpendicular angle. As the spine compresses, the lasso leg can no longer maintain the extended pushing force, and the distance needed for effective leverage is eliminated. The result is a degraded control position where the bottom player's structural advantages collapse."
+        "answer": "The lasso guard generates control through the bottom player's shin pressing against your arm at a perpendicular angle while their sleeve grip creates opposing tension. Stacking folds the bottom player's body by driving their hips over their shoulders, which fundamentally changes this perpendicular angle. As the spine compresses, the lasso leg can no longer maintain the extended pushing force, and the distance needed for effective leverage is eliminated. The result is a degraded control position where the bottom player's structural advantages collapse.",
+        "answer_line": "Folds hips over shoulders",
+        "distractors": {
+          "plausible": [
+            "Straightens spine to flatten",
+            "Breaks the sleeve grip first"
+          ],
+          "trap": [
+            "Extends legs to stretch lasso"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the stack pass against lasso guard?",
-        "answer": "The best timing window is when the bottom player commits to an attack or grip adjustment that momentarily reduces their defensive awareness. Initiating during their sweep setup, when they are extending for a secondary grip, or when they attempt to re-angle their hips catches them in a transitional moment. Avoid initiating when the lasso is freshly established with maximum tension and the bottom player is settled with both grips active and hips properly angled perpendicular to your body."
+        "answer": "The best timing window is when the bottom player commits to an attack or grip adjustment that momentarily reduces their defensive awareness. Initiating during their sweep setup, when they are extending for a secondary grip, or when they attempt to re-angle their hips catches them in a transitional moment. Avoid initiating when the lasso is freshly established with maximum tension and the bottom player is settled with both grips active and hips properly angled perpendicular to your body.",
+        "answer_line": "During their grip transition",
+        "distractors": {
+          "plausible": [
+            "Right when lasso fully sets",
+            "Immediately on guard entry"
+          ],
+          "trap": [
+            "When lasso tension is maxed"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand on the mat to brace against your stack - how do you adjust?",
-        "answer": "When the bottom player posts a hand to resist the stack, you have two primary adjustments. First, you can strip the posting hand by controlling their wrist or sleeve with your free hand before continuing the forward drive. Second, you can redirect your stacking angle slightly toward the side where they are posting, which uses their own arm as a fulcrum point and actually helps complete the fold. The posting hand only works against direct forward pressure, so angling your drive defeats the brace without needing to remove it."
+        "answer": "When the bottom player posts a hand to resist the stack, you have two primary adjustments. First, you can strip the posting hand by controlling their wrist or sleeve with your free hand before continuing the forward drive. Second, you can redirect your stacking angle slightly toward the side where they are posting, which uses their own arm as a fulcrum point and actually helps complete the fold. The posting hand only works against direct forward pressure, so angling your drive defeats the brace without needing to remove it.",
+        "answer_line": "Angle stack toward the post",
+        "distractors": {
+          "plausible": [
+            "Strip the posting hand first",
+            "Wait for them to fatigue"
+          ],
+          "trap": [
+            "Drive straight into the post"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you should commit to the stack pass?",
-        "answer": "Four conditions must be present: your base must be stable with both feet grounded and hips below shoulders to resist sweep attempts during the drive; you need a pant grip secured on the non-lasso leg; your free arm must not be controlled by secondary grips from the bottom player; and you must have committed your weight forward with your posture oriented toward the stack rather than upright. Committing without stable base invites sweeps, without pant control allows guard transitions, and without proper posture prevents generating sufficient compression force."
+        "answer": "Four conditions must be present: your base must be stable with both feet grounded and hips below shoulders to resist sweep attempts during the drive; you need a pant grip secured on the non-lasso leg; your free arm must not be controlled by secondary grips from the bottom player; and you must have committed your weight forward with your posture oriented toward the stack rather than upright. Committing without stable base invites sweeps, without pant control allows guard transitions, and without proper posture prevents generating sufficient compression force.",
+        "answer_line": "Stable base + pant grip + free arm",
+        "distractors": {
+          "plausible": [
+            "Just pant grip is enough",
+            "Posture upright, weight back"
+          ],
+          "trap": [
+            "Drive forward before base set"
+          ]
+        }
       },
       {
         "question": "If the bottom player hip escapes as you begin driving forward for the stack, what should your immediate response be?",
-        "answer": "When the bottom player hip escapes during your initial drive, follow their hips laterally with your pressure rather than continuing to stack into empty space. Use your pant grip to prevent their hips from fully escaping and redirect your passing angle. The hip escape often opens an opportunity to transition to a knee cut pass or toreando by exploiting the angle they created. Continuing to drive straight forward after they escape laterally wastes energy and gives them time to re-establish the lasso at a stronger angle."
+        "answer": "When the bottom player hip escapes during your initial drive, follow their hips laterally with your pressure rather than continuing to stack into empty space. Use your pant grip to prevent their hips from fully escaping and redirect your passing angle. The hip escape often opens an opportunity to transition to a knee cut pass or toreando by exploiting the angle they created. Continuing to drive straight forward after they escape laterally wastes energy and gives them time to re-establish the lasso at a stronger angle.",
+        "answer_line": "Follow hips, redirect angle",
+        "distractors": {
+          "plausible": [
+            "Keep same angle, push harder",
+            "Let go, reset to neutral"
+          ],
+          "trap": [
+            "Drive straight into empty space"
+          ]
+        }
       },
       {
         "question": "What passing options can you chain into if the initial stack attempt fails to generate enough compression?",
-        "answer": "If the stack stalls, you can transition to a backstep pass by retreating your hips and stepping behind the lasso leg, exploiting the fact that the bottom player is now oriented to defend forward pressure. You can redirect into a toreando by using the partial compression to redirect their legs laterally. You can also switch to a knee cut by driving your knee through the center while the bottom player is partially compressed and cannot fully extend the lasso. The key is recognizing the failed stack early and transitioning before the bottom player fully recovers their lasso position."
+        "answer": "If the stack stalls, you can transition to a backstep pass by retreating your hips and stepping behind the lasso leg, exploiting the fact that the bottom player is now oriented to defend forward pressure. You can redirect into a toreando by using the partial compression to redirect their legs laterally. You can also switch to a knee cut by driving your knee through the center while the bottom player is partially compressed and cannot fully extend the lasso. The key is recognizing the failed stack early and transitioning before the bottom player fully recovers their lasso position.",
+        "answer_line": "Chain to backstep or knee cut",
+        "distractors": {
+          "plausible": [
+            "Reset grips, retry stack",
+            "Switch to leg drag pass"
+          ],
+          "trap": [
+            "Keep grinding the same stack"
+          ]
+        }
       },
       {
         "question": "What is the most common mechanical failure point that causes the stack pass to stall against lasso guard?",
-        "answer": "The most common failure point is generating stacking force with the arms instead of the hips and legs. When practitioners push with their arms, they cannot produce enough compression to fold the bottom player's spine because arm strength is insufficient against the combined resistance of the lasso control and the bottom player's core. The force must originate from the legs driving into the mat and the hips pressing forward, with the chest and shoulders transmitting that force into the bottom player's thighs. Arms should only be used for grips and directional control."
+        "answer": "The most common failure point is generating stacking force with the arms instead of the hips and legs. When practitioners push with their arms, they cannot produce enough compression to fold the bottom player's spine because arm strength is insufficient against the combined resistance of the lasso control and the bottom player's core. The force must originate from the legs driving into the mat and the hips pressing forward, with the chest and shoulders transmitting that force into the bottom player's thighs. Arms should only be used for grips and directional control.",
+        "answer_line": "Driving with arms not hips",
+        "distractors": {
+          "plausible": [
+            "Loose pant grip on the leg",
+            "Standing too tall over them"
+          ],
+          "trap": [
+            "Muscle it with arm strength"
+          ]
+        }
       },
       {
         "question": "During the lateral walk around the head, what determines how fast you should move?",
-        "answer": "Your lateral walking speed should be dictated by your ability to maintain constant compression on the stack. Each step should preserve or increase the downward pressure on the bottom player's hips rather than creating any momentary reduction in compression. If taking a step causes your weight to lift even slightly off the stack, you are moving too fast. Small, deliberate steps that keep your center of gravity directly over the compressed guard player ensure the bottom player cannot recover hip position during the transition from stack to side control."
+        "answer": "Your lateral walking speed should be dictated by your ability to maintain constant compression on the stack. Each step should preserve or increase the downward pressure on the bottom player's hips rather than creating any momentary reduction in compression. If taking a step causes your weight to lift even slightly off the stack, you are moving too fast. Small, deliberate steps that keep your center of gravity directly over the compressed guard player ensure the bottom player cannot recover hip position during the transition from stack to side control.",
+        "answer_line": "Keep constant stack compression",
+        "distractors": {
+          "plausible": [
+            "Move as fast as possible",
+            "Match their hip movement speed"
+          ],
+          "trap": [
+            "Take big steps to close distance"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The stack pass places significant pressure on the bottom player's cervical spine and neck as their hips are driven over their shoulders. Apply stacking pressure gradually and progressively rather than explosively dropping weight. Be especially cautious with less flexible training partners who may experience dangerous spinal compression before showing obvious discomfort. If your partner signals any pain in their neck or upper back during drilling, immediately reduce pressure and adjust your angle. Never force a deep stack against a partner who cannot tolerate the spinal flexion. During competition, be aware that aggressive stacking combined with the lasso control can create cervical compression that may lead to injury if the bottom player does not tap or verbally communicate distress."
+    "safety_considerations": "The stack pass places significant pressure on the bottom player's cervical spine and neck as their hips are driven over their shoulders. Apply stacking pressure gradually and progressively rather than explosively dropping weight. Be especially cautious with less flexible training partners who may experience dangerous spinal compression before showing obvious discomfort. If your partner signals any pain in their neck or upper back during drilling, immediately reduce pressure and adjust your angle. Never force a deep stack against a partner who cannot tolerate the spinal flexion. During competition, be aware that aggressive stacking combined with the lasso control can create cervical compression that may lead to injury if the bottom player does not tap or verbally communicate distress.",
+    "clips": [
+      {
+        "id": "Q4LZBn5iIug",
+        "title": "Over under stack pass",
+        "by": "Bernardo Faria",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EdLPqtAm5yQ",
+        "title": "Pressure pass the Lasso Guard",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Cx53Xl0SGC4",
+        "title": "Lasso guard knee press pass exploration",
+        "by": "Roll 247",
+        "vertical": false,
+        "channel": "Roll 247",
+        "duration": 27,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lasso Guard Stack Pass Defender",
@@ -366,23 +507,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a stack pass is being initiated against your lasso guard?",
-        "answer": "The earliest cue is the passer gripping your non-lasso leg pants at the knee and stepping their lead foot forward near your hip on the lasso side. This grip-and-step combination signals the stack setup before any forward pressure begins, giving you the maximum defensive window. The pant grip is the critical tell because the passer needs lower body control before committing their weight forward."
+        "answer": "The earliest cue is the passer gripping your non-lasso leg pants at the knee and stepping their lead foot forward near your hip on the lasso side. This grip-and-step combination signals the stack setup before any forward pressure begins, giving you the maximum defensive window. The pant grip is the critical tell because the passer needs lower body control before committing their weight forward.",
+        "answer_line": "Pant grip plus forward step",
+        "distractors": {
+          "plausible": [
+            "Opponent flattens their hips",
+            "Opponent grips your collar"
+          ],
+          "trap": [
+            "Opponent backs off the leg"
+          ]
+        }
       },
       {
         "question": "Why is early hip escape timing critical when defending the stack pass?",
-        "answer": "Early hip escape is critical because once the stack fully compresses your spine, your hip mobility is eliminated along with your ability to generate the angles needed for lasso control. The stack creates a cascading compression effect where each inch of folding further reduces your defensive options. Hip escaping early, even before the pressure is intense, maintains the perpendicular angle and distance that keep the lasso functional. A partial hip escape at the right time is vastly more effective than a desperate escape attempt after full compression."
+        "answer": "Early hip escape is critical because once the stack fully compresses your spine, your hip mobility is eliminated along with your ability to generate the angles needed for lasso control. The stack creates a cascading compression effect where each inch of folding further reduces your defensive options. Hip escaping early, even before the pressure is intense, maintains the perpendicular angle and distance that keep the lasso functional. A partial hip escape at the right time is vastly more effective than a desperate escape attempt after full compression.",
+        "answer_line": "Escape before compression locks",
+        "distractors": {
+          "plausible": [
+            "Wait until pressure gets heavy",
+            "Only escape if grip slips"
+          ],
+          "trap": [
+            "Save energy, escape late"
+          ]
+        }
       },
       {
         "question": "When should you abandon the lasso and transition to an alternative guard during a stack pass attempt?",
-        "answer": "You should abandon the lasso when the stack has compressed your body enough that the lasso angle no longer generates meaningful control over the passer's arm, but you still have enough hip mobility to reconfigure your guard. The decision point is when you can feel the lasso tension dropping despite maintaining your sleeve grip. Transitioning at this moment lets you establish collar sleeve guard, closed guard, or another defensive structure before the passer completes the walk-around. Waiting longer means both the lasso and your guard transition options are gone."
+        "answer": "You should abandon the lasso when the stack has compressed your body enough that the lasso angle no longer generates meaningful control over the passer's arm, but you still have enough hip mobility to reconfigure your guard. The decision point is when you can feel the lasso tension dropping despite maintaining your sleeve grip. Transitioning at this moment lets you establish collar sleeve guard, closed guard, or another defensive structure before the passer completes the walk-around. Waiting longer means both the lasso and your guard transition options are gone.",
+        "answer_line": "Once lasso tension fades",
+        "distractors": {
+          "plausible": [
+            "After you're fully flattened",
+            "The moment pant grip lands"
+          ],
+          "trap": [
+            "Hold the lasso until flattened"
+          ]
+        }
       },
       {
         "question": "What makes the momentum sweep viable against a committed stack pass?",
-        "answer": "The momentum sweep works because the passer must commit significant forward weight to generate stacking compression, which moves their center of gravity over and past your body. By timing a bridge and extending the lasso leg while pulling the sleeve grip, you redirect this committed forward energy over your head rather than down through your spine. The sweep is viable specifically because the passer's base narrows during the aggressive drive phase. If the passer maintains wide base, the sweep fails, which is why timing during maximum forward commitment is essential."
+        "answer": "The momentum sweep works because the passer must commit significant forward weight to generate stacking compression, which moves their center of gravity over and past your body. By timing a bridge and extending the lasso leg while pulling the sleeve grip, you redirect this committed forward energy over your head rather than down through your spine. The sweep is viable specifically because the passer's base narrows during the aggressive drive phase. If the passer maintains wide base, the sweep fails, which is why timing during maximum forward commitment is essential.",
+        "answer_line": "Bridge as their base narrows",
+        "distractors": {
+          "plausible": [
+            "Sweep any time lasso is set",
+            "Push their chest, then bridge"
+          ],
+          "trap": [
+            "Time it when their base is wide"
+          ]
+        }
       },
       {
         "question": "How should your non-lasso leg function during stack pass defense?",
-        "answer": "Your non-lasso leg serves as the primary structural barrier against the stack. Post your foot on the passer's hip to create a frame that blocks their forward drive before compression begins. This hip post converts your leg into a stiff-arm equivalent that the passer must overcome before stacking is possible. If the passer controls your non-lasso leg with a pant grip, use the foot to hook their arm or shoulder instead, maintaining some form of distance control even when your primary posting position is compromised."
+        "answer": "Your non-lasso leg serves as the primary structural barrier against the stack. Post your foot on the passer's hip to create a frame that blocks their forward drive before compression begins. This hip post converts your leg into a stiff-arm equivalent that the passer must overcome before stacking is possible. If the passer controls your non-lasso leg with a pant grip, use the foot to hook their arm or shoulder instead, maintaining some form of distance control even when your primary posting position is compromised.",
+        "answer_line": "Post foot on their hip",
+        "distractors": {
+          "plausible": [
+            "Wrap it around their back",
+            "Leave it flat on the mat"
+          ],
+          "trap": [
+            "Let it hang loose, unused"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -405,6 +596,35 @@
         "phase": "Phase 4: Guard Transitions",
         "focus": "Flowing to alternative guards when lasso is compromised",
         "description": "Partner executes stack passes that successfully degrade the lasso. Practice recognizing the transition point and smoothly flowing to collar sleeve guard, closed guard, or other defensive configurations before the pass completes. Full resistance positional sparring with scoring for successful guard transitions versus completed passes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "T_GhZe_MOWI",
+        "title": "Grip chain for guard retention",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "XANDE RIBEIRO",
+        "duration": 174,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DMUuThQPX4M",
+        "title": "Guard Retention Against Stack Passing",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 303,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iTrQzYeCvHM",
+        "title": "Top 5 Guard Retention Mistakes",
+        "by": "Lachlan Giles and Ariel Tabak",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 436,
+        "verified": "2026-07-15"
       }
     ]
   }

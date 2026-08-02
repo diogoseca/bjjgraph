@@ -34,6 +34,54 @@ description: "Master the leg weave escape to half guard in BJJ. Frame-based defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Weave Escape to Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield half guard recovery vs pressure pass",
+      "description": "Leg Weave Escape to Half Guard film study: Knee shield half guard recovery vs pressure pass, taught by Dirtball BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L8_9QIvzZtA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L8_9QIvzZtA",
+      "url": "https://www.youtube.com/watch?v=L8_9QIvzZtA",
+      "creator": { "@type": "Person", "name": "Dirtball BJJ coach" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee shield half guard recovery",
+      "description": "Leg Weave Escape to Half Guard film study: Knee shield half guard recovery, taught by United Martial Arts KY coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hXAs2HsP9Cg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hXAs2HsP9Cg",
+      "url": "https://www.youtube.com/watch?v=hXAs2HsP9Cg",
+      "creator": { "@type": "Person", "name": "United Martial Arts KY coach" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg weave guard pass counter",
+      "description": "Leg Weave Escape to Half Guard film study: Leg weave guard pass counter, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7gcVk4flYHo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7gcVk4flYHo",
+      "url": "https://www.youtube.com/watch?v=7gcVk4flYHo",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT182S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Successfully executing this escape requires coordinated movement across multiple
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Weave Escape to Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L8_9QIvzZtA)
+
+<p class="clip-credit"><strong>Knee shield half guard recovery vs pressure pass</strong> — taught by Dirtball BJJ coach · 0:39 · <a href="https://www.youtube.com/watch?v=L8_9QIvzZtA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hXAs2HsP9Cg)
+
+<p class="clip-credit"><strong>Knee shield half guard recovery</strong> — taught by United Martial Arts KY coach · 2:01 · <a href="https://www.youtube.com/watch?v=hXAs2HsP9Cg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7gcVk4flYHo)
+
+<p class="clip-credit"><strong>Leg weave guard pass counter</strong> — taught by Stephan Kesting · 3:02 · <a href="https://www.youtube.com/watch?v=7gcVk4flYHo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

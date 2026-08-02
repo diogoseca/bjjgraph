@@ -35,6 +35,65 @@ description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Collar Chokes",
+      "description": "Cross Collar Choke film study: Cross Collar Chokes, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Palm-Up Palm-Up Cross Choke",
+      "description": "Cross Collar Choke film study: Palm-Up Palm-Up Cross Choke, taught by Avant-Garde BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DrAxA8KUxbo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DrAxA8KUxbo",
+      "url": "https://www.youtube.com/watch?v=DrAxA8KUxbo",
+      "creator": { "@type": "Person", "name": "Avant-Garde BJJ" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Roger Gracie Cross Choke",
+      "description": "Cross Collar Choke film study: Roger Gracie Cross Choke, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zSSw_fUcNxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zSSw_fUcNxU",
+      "url": "https://www.youtube.com/watch?v=zSSw_fUcNxU",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT134S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Collar Choke from Back Control",
+      "description": "Cross Collar Choke film study: Collar Choke from Back Control, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZHjfYIXgNpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZHjfYIXgNpg",
+      "url": "https://www.youtube.com/watch?v=ZHjfYIXgNpg",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT45S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +113,7 @@ description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi g
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Cross Collar Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Cross Collar Choke is a fundamental gi blood choke that crosses both lapel grips and rotates the forearms to compress the carotid arteries, finishing from positions such as closed guard, mount, side control, and back control." } },
-    { "@type": "Question", "name": "What positions can you finish the Cross Collar Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Cross Collar Choke from 3-4 Mount, Body Triangle, Closed Guard, Invisible Collar, Knee on Belly, Modified Mount, Mount, High Mount." } },
+    { "@type": "Question", "name": "What positions can you finish the Cross Collar Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Cross Collar Choke from High Mount, Modified Mount, Body Triangle, Closed Guard, Invisible Collar, Knee on Belly, Mount, 3-4 Mount." } },
     { "@type": "Question", "name": "Is the Cross Collar Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Cross Collar Choke targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -86,6 +145,50 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Cross Collar Chokes</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DrAxA8KUxbo)
+
+<p class="clip-credit"><strong>Palm-Up Palm-Up Cross Choke</strong> — taught by Avant-Garde BJJ · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zSSw_fUcNxU)
+
+<p class="clip-credit"><strong>Roger Gracie Cross Choke</strong> — taught by Roger Gracie · 2:14 · <a href="https://www.youtube.com/watch?v=zSSw_fUcNxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZHjfYIXgNpg)
+
+<p class="clip-credit"><strong>Collar Choke from Back Control</strong> — taught by Team Daruma Dojo · 0:45 · <a href="https://www.youtube.com/watch?v=ZHjfYIXgNpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,14 +198,14 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Cross Collar Choke/from 3-4 Mount|3-4 Mount]] | Top | 58% | [[Submissions/Cross Collar Choke/from 3-4 Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from 3-4 Mount/Defender|Defend →]] |
-| [[Submissions/Cross Collar Choke/from Body Triangle|Body Triangle]] | Top | 58% | [[Submissions/Cross Collar Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Body Triangle/Defender|Defend →]] |
-| [[Submissions/Cross Collar Choke/from Closed Guard|Closed Guard]] | Bottom | 58% | [[Submissions/Cross Collar Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from High Mount|High Mount]] | Top | 68% | [[Submissions/Cross Collar Choke/from High Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from High Mount/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from Modified Mount|Modified Mount]] | Top | 68% | [[Submissions/Cross Collar Choke/from Modified Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Modified Mount/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from Body Triangle|Body Triangle]] | Top | 65% | [[Submissions/Cross Collar Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Body Triangle/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from Closed Guard|Closed Guard]] | Bottom | 65% | [[Submissions/Cross Collar Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Closed Guard/Defender|Defend →]] |
 | [[Submissions/Cross Collar Choke/from Invisible Collar|Invisible Collar]] | Top | 58% | [[Submissions/Cross Collar Choke/from Invisible Collar/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Invisible Collar/Defender|Defend →]] |
 | [[Submissions/Cross Collar Choke/from Knee on Belly|Knee on Belly]] | Top | 58% | [[Submissions/Cross Collar Choke/from Knee on Belly/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Knee on Belly/Defender|Defend →]] |
-| [[Submissions/Cross Collar Choke/from Modified Mount|Modified Mount]] | Top | 58% | [[Submissions/Cross Collar Choke/from Modified Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Modified Mount/Defender|Defend →]] |
-| [[Submissions/Cross Collar Choke/from Mount|Mount]] | Top | 58% | [[Submissions/Cross Collar Choke/from Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Mount/Defender|Defend →]] |
-| [[Submissions/Cross Collar Choke/from High Mount|High Mount]] | Top | 50% | [[Submissions/Cross Collar Choke/from High Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from High Mount/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from Mount|Mount]] | Top | 48% | [[Submissions/Cross Collar Choke/from Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Mount/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from 3-4 Mount|3-4 Mount]] | Top | 45% | [[Submissions/Cross Collar Choke/from 3-4 Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from 3-4 Mount/Defender|Defend →]] |
 
 
 </div>
@@ -136,10 +239,10 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 - [[Submissions/Breadcutter Choke]] - Collar choke variation from side control using similar cross collar mechanics
 - [[Transitions/Clock Choke]] - Collar choke from turtle position using rotational finishing pressure
 - [[Submissions/Far Side Armbar]] - Chain attack when opponent extends arms defending collar grips from mount
-- [[Transitions/Guillotine Choke]] - Alternative head and neck choke from front headlock and guard positions
-- [[Transitions/Arm Triangle]] - Head and arm choke available when opponent defends collar access with frames
+- [[Submissions/Guillotine Choke]] - Alternative head and neck choke from front headlock and guard positions
+- [[Submissions/Arm Triangle]] - Head and arm choke available when opponent defends collar access with frames
 - [[Submissions/Americana]] - Shoulder lock from mount when opponent posts arms defending choke entry
-- [[Transitions/Darce Choke]] - Head and arm choke chain when opponent turns to defend collar entries
+- [[Submissions/Darce Choke]] - Head and arm choke chain when opponent turns to defend collar entries
 - [[Transitions/Gogoplata]] - Advanced guard choke using shin pressure as alternative to collar attacks
 - [[Positions/Closed Guard]] - Primary position for attacking Cross Collar Choke from bottom
 - [[Positions/Mount]] - High-percentage position for Cross Collar Choke from top

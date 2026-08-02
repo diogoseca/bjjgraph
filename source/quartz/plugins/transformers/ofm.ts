@@ -668,16 +668,23 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 const videoId = match && match[2].length == 11 ? match[2] : null
                 const playlistId = node.properties.src.match(ytPlaylistLinkRegex)?.[1]
                 if (videoId) {
-                  // YouTube video (with optional playlist)
+                  // YouTube video (with optional playlist). Carry start/end trim params
+                  // from the source URL into the embed (film-study clips loop a segment).
+                  const params = new URLSearchParams()
+                  if (playlistId) params.set("list", playlistId)
+                  const start = node.properties.src.match(/[?&](?:t|start)=(\d+)/)?.[1]
+                  const end = node.properties.src.match(/[?&]end=(\d+)/)?.[1]
+                  if (start) params.set("start", start)
+                  if (end) params.set("end", end)
+                  const qs = params.toString()
                   node.tagName = "iframe"
                   node.properties = {
                     class: "external-embed youtube",
                     allow: "fullscreen",
                     frameborder: 0,
                     width: "600px",
-                    src: playlistId
-                      ? `https://www.youtube.com/embed/${videoId}?list=${playlistId}`
-                      : `https://www.youtube.com/embed/${videoId}`,
+                    loading: "lazy",
+                    src: `https://www.youtube.com/embed/${videoId}${qs ? "?" + qs : ""}`,
                   }
                 } else if (playlistId) {
                   // YouTube playlist only.

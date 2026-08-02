@@ -174,6 +174,54 @@ description: "How to execute Deep Half Entry in BJJ. Attacking perspective with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Deep Half Entry (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Entering deep half guard from knee on belly",
+      "description": "Deep Half Entry (Attacker) film study: Entering deep half guard from knee on belly, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dalv3UtxCZ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dalv3UtxCZ0",
+      "url": "https://www.youtube.com/watch?v=Dalv3UtxCZ0",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Low grip and high grip for deep half guard",
+      "description": "Deep Half Entry (Attacker) film study: Low grip and high grip for deep half guard, taught by Jeff Glover.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_IGB9jEvXfo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_IGB9jEvXfo",
+      "url": "https://www.youtube.com/watch?v=_IGB9jEvXfo",
+      "creator": { "@type": "Person", "name": "Jeff Glover" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three effective deep half guard entries",
+      "description": "Deep Half Entry (Attacker) film study: Three effective deep half guard entries, taught by DVG Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FP3SqS8ys7U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FP3SqS8ys7U",
+      "url": "https://www.youtube.com/watch?v=FP3SqS8ys7U",
+      "creator": { "@type": "Person", "name": "DVG Jiu Jitsu" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Deep Half Entry from the attacker's perspective is about converting a defens
 **From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Deep Half Entry (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dalv3UtxCZ0)
+
+<p class="clip-credit"><strong>Entering deep half guard from knee on belly</strong> — taught by Team Daruma Dojo · 1:08 · <a href="https://www.youtube.com/watch?v=Dalv3UtxCZ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_IGB9jEvXfo)
+
+<p class="clip-credit"><strong>Low grip and high grip for deep half guard</strong> — taught by Jeff Glover · 0:42 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FP3SqS8ys7U)
+
+<p class="clip-credit"><strong>Three effective deep half guard entries</strong> — taught by DVG Jiu Jitsu · 2:41 · <a href="https://www.youtube.com/watch?v=FP3SqS8ys7U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

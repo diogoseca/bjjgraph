@@ -174,6 +174,54 @@ description: "How to execute Roll to Deep Half Guard in BJJ. Attacking perspecti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Deep Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Entering deep half guard from knee on belly",
+      "description": "Roll to Deep Half Guard (Attacker) film study: Entering deep half guard from knee on belly, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dalv3UtxCZ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dalv3UtxCZ0",
+      "url": "https://www.youtube.com/watch?v=Dalv3UtxCZ0",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Entry to deep half guard",
+      "description": "Roll to Deep Half Guard (Attacker) film study: Entry to deep half guard, taught by Lucas Valle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SShUdtEdPuA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SShUdtEdPuA",
+      "url": "https://www.youtube.com/watch?v=SShUdtEdPuA",
+      "creator": { "@type": "Person", "name": "Lucas Valle" },
+      "duration": "PT195S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Pulling deep half guard into the Faria sweep",
+      "description": "Roll to Deep Half Guard (Attacker) film study: Pulling deep half guard into the Faria sweep, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zDD2ORNn_yw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zDD2ORNn_yw",
+      "url": "https://www.youtube.com/watch?v=zDD2ORNn_yw",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT215S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +233,42 @@ Unlike sitting to half guard or granby rolling to closed guard, the deep half en
 **From Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Deep Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dalv3UtxCZ0)
+
+<p class="clip-credit"><strong>Entering deep half guard from knee on belly</strong> — taught by Team Daruma Dojo · 1:08 · <a href="https://www.youtube.com/watch?v=Dalv3UtxCZ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SShUdtEdPuA)
+
+<p class="clip-credit"><strong>Entry to deep half guard</strong> — taught by Lucas Valle · 3:15 · <a href="https://www.youtube.com/watch?v=SShUdtEdPuA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zDD2ORNn_yw)
+
+<p class="clip-credit"><strong>Pulling deep half guard into the Faria sweep</strong> — taught by Bernardo Faria · 3:35 · <a href="https://www.youtube.com/watch?v=zDD2ORNn_yw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

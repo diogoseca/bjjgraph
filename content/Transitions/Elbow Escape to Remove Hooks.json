@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Invisible Collar/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 48,
+  "success_rate": {
+    "gi": 48,
+    "nogi": 48
+  },
   "overview": "Because back control rests on the opponent's hooks anchoring your hips, no rotation or guard recovery is possible until those hooks are cleared—this escape attacks that foundation first. When trapped in the invisible collar position, the defender faces both positional disadvantage and immediate submission threat, so this escape addresses the hook control that anchors back position before dealing with upper body attacks.\n\nThe fundamental concept involves using your elbows as wedges against your opponent's hooks while creating space through hip escapes. Rather than fighting the choking grip directly, this technique attacks the foundation of their control—the hooks that prevent you from turning. By systematically removing hooks one at a time, you create rotational freedom that eventually allows guard recovery.\n\nThis escape is particularly effective against the invisible collar because it doesn't require you to remove your hands from neck defense to fight hooks. The elbow mechanics allow you to address both threats simultaneously—protecting your neck while dismantling their lower body control. Successful execution requires patience, proper sequencing, and the discipline to complete each phase fully before moving to the next. Rushing any step typically results in the opponent simply re-establishing the cleared hook.",
   "conditions": [
     "Opponent has back control with at least one hook inserted",
@@ -219,54 +231,194 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Elbow Escape to Remove Hooks?",
-        "answer": "The primary goal is to systematically remove the opponent's hooks from back control, which eliminates the foundation of their positional control and creates the rotational freedom necessary to turn and establish guard. By attacking the hooks rather than fighting the upper body control directly, you address the root of their dominance."
+        "answer": "The primary goal is to systematically remove the opponent's hooks from back control, which eliminates the foundation of their positional control and creates the rotational freedom necessary to turn and establish guard. By attacking the hooks rather than fighting the upper body control directly, you address the root of their dominance.",
+        "answer_line": "Clear hooks, turn to guard",
+        "distractors": {
+          "plausible": [
+            "Break the choking grip first",
+            "Strip both hooks at once"
+          ],
+          "trap": [
+            "Lean forward and try to stand"
+          ]
+        }
       },
       {
         "question": "Why must you remove hooks one at a time rather than both simultaneously?",
-        "answer": "Attempting to clear both hooks simultaneously divides your attention and effort, making neither removal effective. The opponent can simply shift their weight to maintain whichever hook you're putting less pressure on. Sequential removal allows you to focus full effort on one hook, trap it completely, then address the second without risk of the first returning."
+        "answer": "Attempting to clear both hooks simultaneously divides your attention and effort, making neither removal effective. The opponent can simply shift their weight to maintain whichever hook you're putting less pressure on. Sequential removal allows you to focus full effort on one hook, trap it completely, then address the second without risk of the first returning.",
+        "answer_line": "Focus full force on one hook",
+        "distractors": {
+          "plausible": [
+            "Save the lighter hook for last",
+            "Split effort between both legs"
+          ],
+          "trap": [
+            "Roll belly-down to shed them"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving forward pressure as you hip escape—how do you adapt the technique?",
-        "answer": "Use their forward pressure to assist your rotation rather than fighting it. As they drive forward, swim your inside arm under their body and continue turning into them. Their forward momentum actually helps you complete the turn to guard if you redirect it properly. Stop fighting to escape backward and instead flow with their pressure into the turn."
+        "answer": "Use their forward pressure to assist your rotation rather than fighting it. As they drive forward, swim your inside arm under their body and continue turning into them. Their forward momentum actually helps you complete the turn to guard if you redirect it properly. Stop fighting to escape backward and instead flow with their pressure into the turn.",
+        "answer_line": "Swim arm under, flow with it",
+        "distractors": {
+          "plausible": [
+            "Brace and shove back hard",
+            "Stall and wait it out"
+          ],
+          "trap": [
+            "Turtle up, cover your neck"
+          ]
+        }
       },
       {
         "question": "What hip movement direction is required when clearing the bottom hook?",
-        "answer": "You must hip escape away from the hook you're removing. This creates the space necessary for the hook to pass your leg and clear. Hip escaping toward the hook compresses space and may help them sink it deeper. The shrimping motion away creates a gap that your elbow wedge then exploits to push their ankle free."
+        "answer": "You must hip escape away from the hook you're removing. This creates the space necessary for the hook to pass your leg and clear. Hip escaping toward the hook compresses space and may help them sink it deeper. The shrimping motion away creates a gap that your elbow wedge then exploits to push their ankle free.",
+        "answer_line": "Hip escape away from the hook",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up off the mat",
+            "Slide your hips into their heel"
+          ],
+          "trap": [
+            "Turn belly-down over their leg"
+          ]
+        }
       },
       {
         "question": "How do you prevent opponent from re-inserting the first hook while you work on the second?",
-        "answer": "Immediately triangle your legs around their cleared limb after the first hook comes out. Your outside leg hooks over their cleared leg while your inside leg closes the triangle, trapping their leg between your thighs. This leg trap must be secured before you begin working on the second hook or you'll cycle endlessly."
+        "answer": "Immediately triangle your legs around their cleared limb after the first hook comes out. Your outside leg hooks over their cleared leg while your inside leg closes the triangle, trapping their leg between your thighs. This leg trap must be secured before you begin working on the second hook or you'll cycle endlessly.",
+        "answer_line": "Triangle legs around the limb",
+        "distractors": {
+          "plausible": [
+            "Clamp your knees together",
+            "Kick the leg far away"
+          ],
+          "trap": [
+            "Roll toward them, giving the back"
+          ]
+        }
       },
       {
         "question": "When should you abandon the systematic elbow escape and attempt a more explosive escape?",
-        "answer": "Only abandon the systematic approach when the submission becomes immediately threatening and you have no time for the sequence. If opponent locks a tight choke and you cannot defend it while escaping, you may need explosive movement to create any chance of survival. However, frantic movement usually makes things worse—the systematic approach should be the default until the submission becomes critical."
+        "answer": "Only abandon the systematic approach when the submission becomes immediately threatening and you have no time for the sequence. If opponent locks a tight choke and you cannot defend it while escaping, you may need explosive movement to create any chance of survival. However, frantic movement usually makes things worse—the systematic approach should be the default until the submission becomes critical.",
+        "answer_line": "Only when submission is imminent",
+        "distractors": {
+          "plausible": [
+            "Whenever the escape feels slow",
+            "As soon as any hook lands"
+          ],
+          "trap": [
+            "Roll toward the choking arm"
+          ]
+        }
       },
       {
         "question": "Your opponent switches to body triangle as you begin clearing the first hook—what adjustment is required?",
-        "answer": "Stop the hook removal sequence immediately and address the body triangle first. Body triangle escape requires different mechanics—you need to push their top knee down while turning toward the triangle side. Continuing the hook escape sequence against a body triangle is ineffective because the control mechanism has fundamentally changed. Recognize the switch early and adjust your escape approach."
+        "answer": "Stop the hook removal sequence immediately and address the body triangle first. Body triangle escape requires different mechanics—you need to push their top knee down while turning toward the triangle side. Continuing the hook escape sequence against a body triangle is ineffective because the control mechanism has fundamentally changed. Recognize the switch early and adjust your escape approach.",
+        "answer_line": "Push top knee down, turn",
+        "distractors": {
+          "plausible": [
+            "Keep running the hook sequence",
+            "Bridge hard and sit back"
+          ],
+          "trap": [
+            "Turn away from the locked ankles"
+          ]
+        }
       },
       {
         "question": "What is the relationship between neck defense and hook removal in this technique?",
-        "answer": "Neck defense must remain your primary concern throughout hook removal—it's not a trade-off but rather a simultaneous requirement. The elbow escape method allows you to address hooks while keeping at least one hand protecting your neck. Never abandon neck defense to speed up hook removal, as the opponent will simply finish the choke while you focus on their legs."
+        "answer": "Neck defense must remain your primary concern throughout hook removal—it's not a trade-off but rather a simultaneous requirement. The elbow escape method allows you to address hooks while keeping at least one hand protecting your neck. Never abandon neck defense to speed up hook removal, as the opponent will simply finish the choke while you focus on their legs.",
+        "answer_line": "Defend neck while clearing hooks",
+        "distractors": {
+          "plausible": [
+            "Clear hooks fast, guard neck after",
+            "Alternate hand between neck, hook"
+          ],
+          "trap": [
+            "Drop both hands to the hooks"
+          ]
+        }
       },
       {
         "question": "How do you identify which hook to remove first?",
-        "answer": "Target the hook with less weight behind it—typically the one on the side opponent is leaning away from. Feel for which ankle has lighter pressure against your body. The lighter hook requires less force to clear and gives you a higher-percentage first victory. Starting with the heavier hook often fails and wastes energy."
+        "answer": "Target the hook with less weight behind it—typically the one on the side opponent is leaning away from. Feel for which ankle has lighter pressure against your body. The lighter hook requires less force to clear and gives you a higher-percentage first victory. Starting with the heavier hook often fails and wastes energy.",
+        "answer_line": "Target the lighter-loaded hook",
+        "distractors": {
+          "plausible": [
+            "Start with the deeper, heavy one",
+            "Always attack the top-side leg"
+          ],
+          "trap": [
+            "Turn your head to look for it"
+          ]
+        }
       },
       {
         "question": "What determines whether you should use the elbow wedge or heel drag variation?",
-        "answer": "The choice depends on immediate threat level and hook depth. Use elbow wedge when you cannot safely remove a hand from neck defense or when hooks are deep and tight. Use heel drag when hooks are shallow, you have a brief window without choking pressure, and you need faster removal. The elbow wedge is safer but slower; heel drag is faster but requires temporarily sacrificing neck protection."
+        "answer": "The choice depends on immediate threat level and hook depth. Use elbow wedge when you cannot safely remove a hand from neck defense or when hooks are deep and tight. Use heel drag when hooks are shallow, you have a brief window without choking pressure, and you need faster removal. The elbow wedge is safer but slower; heel drag is faster but requires temporarily sacrificing neck protection.",
+        "answer_line": "Threat level and hook depth",
+        "distractors": {
+          "plausible": [
+            "The gi or no-gi ruleset",
+            "How much time is left on the clock"
+          ],
+          "trap": [
+            "Pull a hand off your neck first"
+          ]
+        }
       },
       {
         "question": "What grip configuration on the cleared leg best prevents hook re-insertion during the trapping phase?",
-        "answer": "The triangle configuration with your legs is superior to simply clamping your knees together. Your outside leg hooks over the opponent's cleared shin while your inside leg crosses underneath to close the triangle. This creates a mechanical lock that requires them to fight against your entire leg structure rather than just squeezing pressure. Knee clamping alone fails against strong hip movement because there is no locking mechanism."
+        "answer": "The triangle configuration with your legs is superior to simply clamping your knees together. Your outside leg hooks over the opponent's cleared shin while your inside leg crosses underneath to close the triangle. This creates a mechanical lock that requires them to fight against your entire leg structure rather than just squeezing pressure. Knee clamping alone fails against strong hip movement because there is no locking mechanism.",
+        "answer_line": "Outside leg hooks, triangle lock",
+        "distractors": {
+          "plausible": [
+            "Knees clamped tightly together",
+            "Both feet hooked under thighs"
+          ],
+          "trap": [
+            "Release the leg and turn away"
+          ]
+        }
       },
       {
         "question": "After both hooks are cleared, what is the critical detail during the final rotation to open guard?",
-        "answer": "You must frame on their hips with both hands while inserting your knees between your bodies before completing the turn. Many practitioners turn to face the opponent but fail to establish guard structure, allowing immediate re-take of back control. The frame and knee insertion create the barrier that prevents them from following your rotation and re-establishing chest-to-back connection."
+        "answer": "You must frame on their hips with both hands while inserting your knees between your bodies before completing the turn. Many practitioners turn to face the opponent but fail to establish guard structure, allowing immediate re-take of back control. The frame and knee insertion create the barrier that prevents them from following your rotation and re-establishing chest-to-back connection.",
+        "answer_line": "Frame hips, insert both knees",
+        "distractors": {
+          "plausible": [
+            "Turn to face them quickly",
+            "Post hands and push off mat"
+          ],
+          "trap": [
+            "Turn belly-down and scramble up"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This technique involves significant spinal rotation and movement while bearing opponent's weight on your back. Avoid explosive twisting movements that could strain your lower back or neck. When drilling, ensure your partner releases hook pressure gradually as you practice the removal mechanics rather than fighting to maintain position against proper technique. If you feel sharp pain in your back or neck during the escape, stop immediately rather than forcing through. Practitioners with existing spinal issues should modify the technique with smaller, more controlled hip movements. The neck defense portion requires sustained isometric contraction of neck flexors—build this strength gradually to avoid muscle strain. During live training, be aware that desperate escape attempts can lead to opponent cranking neck submissions harder. Tap early when caught in submissions rather than fighting through with compromised positioning."
+    "safety_considerations": "This technique involves significant spinal rotation and movement while bearing opponent's weight on your back. Avoid explosive twisting movements that could strain your lower back or neck. When drilling, ensure your partner releases hook pressure gradually as you practice the removal mechanics rather than fighting to maintain position against proper technique. If you feel sharp pain in your back or neck during the escape, stop immediately rather than forcing through. Practitioners with existing spinal issues should modify the technique with smaller, more controlled hip movements. The neck defense portion requires sustained isometric contraction of neck flexors—build this strength gradually to avoid muscle strain. During live training, be aware that desperate escape attempts can lead to opponent cranking neck submissions harder. Tap early when caught in submissions rather than fighting through with compromised positioning.",
+    "clips": [
+      {
+        "id": "43iZ-GLc_r8",
+        "title": "Back escape against the top hook",
+        "by": "Mattix Academy",
+        "vertical": false,
+        "channel": "MATTIX ACADEMY",
+        "duration": 144,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wwa4llL0E1s",
+        "title": "Escaping back control with both hooks in",
+        "by": "Dinu Bucalet",
+        "vertical": false,
+        "channel": "Dinu Bucalet BJJ",
+        "duration": 159,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Elbow Escape to Remove Hooks Defender",
@@ -352,23 +504,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating the elbow escape to remove hooks?",
-        "answer": "The earliest cue is the opponent's elbow dropping inside their hip toward your ankle or instep. This precedes the actual hip escape and hook clearance by one to two seconds. Recognizing this elbow wedge positioning gives you a window to respond before they generate the lateral hip movement that actually clears the hook. Secondary cues include subtle hip shifting away from one hook and legs beginning to angle inward."
+        "answer": "The earliest cue is the opponent's elbow dropping inside their hip toward your ankle or instep. This precedes the actual hip escape and hook clearance by one to two seconds. Recognizing this elbow wedge positioning gives you a window to respond before they generate the lateral hip movement that actually clears the hook. Secondary cues include subtle hip shifting away from one hook and legs beginning to angle inward.",
+        "answer_line": "Elbow drops toward your ankle",
+        "distractors": {
+          "plausible": [
+            "Hips suddenly shift explosively",
+            "Legs abruptly triangle shut"
+          ],
+          "trap": [
+            "Wait until a hook pops out"
+          ]
+        }
       },
       {
         "question": "Why is switching to body triangle an effective counter to the elbow escape, and what is the timing window?",
-        "answer": "Body triangle eliminates the hook-by-hook removal mechanic entirely because your legs are locked in a single structure that cannot be addressed with elbow wedges. The timing window is before the opponent gains leverage on your first hook—once you feel the elbow wedge establishing contact, you have approximately two to three seconds to transition your hooks into body triangle configuration before they begin the hip escape that clears the hook."
+        "answer": "Body triangle eliminates the hook-by-hook removal mechanic entirely because your legs are locked in a single structure that cannot be addressed with elbow wedges. The timing window is before the opponent gains leverage on your first hook—once you feel the elbow wedge establishing contact, you have approximately two to three seconds to transition your hooks into body triangle configuration before they begin the hip escape that clears the hook.",
+        "answer_line": "Before they get leverage on hook one",
+        "distractors": {
+          "plausible": [
+            "Any time during the sequence",
+            "After the first hook clears"
+          ],
+          "trap": [
+            "Wait until they turn to guard"
+          ]
+        }
       },
       {
         "question": "Your opponent clears your first hook but has not yet secured it with their legs—what is your highest-percentage response?",
-        "answer": "Immediately re-insert the cleared hook before they can triangle their legs around it. Drive your foot back inside their thigh while simultaneously increasing forward chest pressure to limit their hip mobility. The window between hook clearance and leg trap is typically less than two seconds, so you must react instantly. If re-insertion fails, consolidate your remaining hook and switch to body triangle with your free leg crossing over to lock the triangle."
+        "answer": "Immediately re-insert the cleared hook before they can triangle their legs around it. Drive your foot back inside their thigh while simultaneously increasing forward chest pressure to limit their hip mobility. The window between hook clearance and leg trap is typically less than two seconds, so you must react instantly. If re-insertion fails, consolidate your remaining hook and switch to body triangle with your free leg crossing over to lock the triangle.",
+        "answer_line": "Re-insert the hook instantly",
+        "distractors": {
+          "plausible": [
+            "Squeeze the seatbelt tighter",
+            "Wait for them to commit"
+          ],
+          "trap": [
+            "Unlock legs and sit up over them"
+          ]
+        }
       },
       {
         "question": "How should you adjust your submission pressure when you feel the opponent beginning to work on your hooks?",
-        "answer": "Increase choking pressure or initiate a new submission threat immediately. The opponent's decision to work on hooks means they are either diverting a hand from neck defense or using their elbows, both of which create submission openings. Tighten your collar grip, begin working your choking arm deeper, or shift to an armbar threat on their exposed arm. The goal is to create a dilemma where they cannot address hooks without increasing their submission risk."
+        "answer": "Increase choking pressure or initiate a new submission threat immediately. The opponent's decision to work on hooks means they are either diverting a hand from neck defense or using their elbows, both of which create submission openings. Tighten your collar grip, begin working your choking arm deeper, or shift to an armbar threat on their exposed arm. The goal is to create a dilemma where they cannot address hooks without increasing their submission risk.",
+        "answer_line": "Increase choke or threat pressure",
+        "distractors": {
+          "plausible": [
+            "Ease pressure to save energy",
+            "Flatten out and hold on"
+          ],
+          "trap": [
+            "Release choke to control hips"
+          ]
+        }
       },
       {
         "question": "What weight distribution adjustment best prevents hook clearance when you detect the escape beginning?",
-        "answer": "Shift your weight toward the hook being attacked by angling your hips in that direction and driving your chest pressure down on that side of their back. This makes the threatened hook significantly heavier and harder to clear with the elbow wedge. Simultaneously, curl the heel of your threatened hook deeper toward their far hip to increase the distance the elbow must travel to push it free. Avoid leaning away from the attack, which lightens the hook and makes clearance easier."
+        "answer": "Shift your weight toward the hook being attacked by angling your hips in that direction and driving your chest pressure down on that side of their back. This makes the threatened hook significantly heavier and harder to clear with the elbow wedge. Simultaneously, curl the heel of your threatened hook deeper toward their far hip to increase the distance the elbow must travel to push it free. Avoid leaning away from the attack, which lightens the hook and makes clearance easier.",
+        "answer_line": "Shift weight onto threatened hook",
+        "distractors": {
+          "plausible": [
+            "Square chest evenly over their spine",
+            "Relax the hook to stay mobile"
+          ],
+          "trap": [
+            "Cross your ankles to lock hooks"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -391,6 +593,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance rounds starting from invisible collar position. Attacker has back control with collar grip and works to maintain position and finish while partner works elbow escape. Track retention rates and identify which phase of the escape most frequently succeeds to target specific defensive improvements."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Rlk4mGg7vW4",
+        "title": "Maintaining back control with the hooks",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QekOjlzNWTI",
+        "title": "Retaking the back when hooks get stripped",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 81,
+        "verified": "2026-07-16"
       }
     ]
   },

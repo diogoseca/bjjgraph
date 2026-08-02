@@ -174,6 +174,10 @@ description: "How to execute the Transition to Pocket Half Guard from Half Guard
 </script>
 
 
+
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +187,8 @@ As the attacker executing the Transition to Pocket Half Guard, your objective is
 **From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
 
 <section id="key-principles" class="content-section">
 

@@ -21,13 +21,13 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
     {
       "@type": "HowToStep",
       "name": "Execute Jailbreak to Turtle",
-      "text": "From this position, attempt Jailbreak to Turtle. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Jailbreak to Turtle. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Jailbreak to Back Take",
-      "text": "From this position, attempt Jailbreak to Back Take. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Jailbreak to Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Jailbreak",
-      "text": "From this position, attempt Guard Recovery from Jailbreak. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Jailbreak. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jailbreak (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jailbreak Escape from Side Control",
+      "description": "Jailbreak (Bottom) film study: Jailbreak Escape from Side Control, taught by CORE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ij2aFpcJiFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ij2aFpcJiFU",
+      "url": "https://www.youtube.com/watch?v=Ij2aFpcJiFU",
+      "creator": { "@type": "Person", "name": "CORE MMA" },
+      "duration": "PT175S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Prison Guard Breakdown (MTS 201)",
+      "description": "Jailbreak (Bottom) film study: Prison Guard Breakdown (MTS 201), taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
+      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The position's effectiveness lies in its ability to transform defensive disadvan
 The biomechanical principle underlying the Jailbreak involves converting the opponent's forward pressure into rotational momentum for escape. When the top player commits their weight forward with crossface or shoulder pressure, their center of gravity advances and their base becomes vulnerable to being rolled through. The underhook serves as the pivotal connection point that prevents the top player from re-establishing control during the inversion. Success requires reading pressure commitment, explosive hip generation, and maintaining connection throughout the rolling sequence.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jailbreak (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ij2aFpcJiFU)
+
+<p class="clip-credit"><strong>Jailbreak Escape from Side Control</strong> — taught by CORE MMA · 2:55 · <a href="https://www.youtube.com/watch?v=Ij2aFpcJiFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gFYyMkaMz34)
+
+<p class="clip-credit"><strong>Prison Guard Breakdown (MTS 201)</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

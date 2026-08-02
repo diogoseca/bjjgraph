@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Guillotine Control",
   "from_position": "Guillotine Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Ten Finger Guillotine from Guillotine Control is a blood choke finished by interlacing all ten fingers around an opponent's already-controlled neck, exploiting the pre-established head control to set choking depth before locking the strongest possible grip.",
   "overview": "The Ten Finger Guillotine from Guillotine Control is a high-percentage choke that leverages the already-established head and neck control of the guillotine position to apply a devastatingly tight interlocking finger grip. Unlike catching the ten finger guillotine during scrambles or from front headlock, executing it from Guillotine Control means the attacker has already broken the opponent's posture, secured hip-to-hip connection, and eliminated the primary escape vectors. This pre-existing control transforms the ten finger grip from an opportunistic catch into a methodical finishing sequence.\n\nThe key distinction from other guillotine entries is the ability to pre-load choking pressure before interlacing the fingers. From Guillotine Control, the attacker can first establish the choking arm depth, adjust the forearm blade across the trachea and carotid arteries, and only then transition to the ten finger grip when alignment is optimal. This sequencing dramatically increases finish rate because the opponent is already defending posture and position before the final grip locks in. The interlaced fingers create a unified compression system that is extremely difficult to peel or strip compared to gable or S-grip alternatives.\n\nStrategically, this submission chains naturally with the broader guillotine control attack system. If the opponent defends the ten finger grip by hand fighting, the attacker can transition to high elbow guillotine, arm-in guillotine, or use the choke threat to advance to mount or side control. The position rewards patience—the attacker who takes time to establish proper depth and alignment before committing to the finish will have a substantially higher success rate than one who rushes the grip change.",
   "safety_considerations": {
@@ -93,7 +96,7 @@
     "High Elbow Guillotine",
     "Arm in Guillotine",
     "Guillotine Choke",
-    "Chin Strap Guillotine"
+    "Chin Strap Guillotine from Front Headlock"
   ],
   "related_content": [
     {
@@ -117,24 +120,33 @@
       "relationship": "Alternative submission path when opponent turns into guillotine"
     },
     {
-      "name": "Von Flue Choke",
+      "name": "Von Flue Choke from Side Control",
       "relationship": "Counter-submission opponent may attempt if attacker holds guillotine too long from bottom"
     }
   ],
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Guillotine Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -285,42 +297,151 @@
       {
         "question": "What anatomical structures does the Ten Finger Guillotine primarily attack?",
         "answer": "The Ten Finger Guillotine primarily attacks the carotid arteries on both sides of the neck, restricting blood flow to the brain. The forearm blade also applies compression to the trachea. Proper technique emphasizes bilateral carotid compression (blood choke) over tracheal crushing (air choke) because blood chokes are faster acting, more reliable, and cause less injury to training partners.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bilateral carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Trachea for air choke",
+            "Jaw and cheekbone pressure"
+          ],
+          "trap": [
+            "Cervical spine compression"
+          ]
+        }
       },
       {
         "question": "Why must you establish choking arm depth before transitioning to the ten finger interlocking grip?",
         "answer": "Once all ten fingers are interlaced, the rigid grip structure makes it extremely difficult to adjust arm depth or forearm angle. If you lock the grip while the forearm is positioned too shallow—across the chin or face rather than the throat—you create discomfort but no actual choke. Establishing depth first ensures the forearm blade crosses the centerline of the throat structures before the grip locks the position permanently.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip locks, can't adjust after",
+        "distractors": {
+          "plausible": [
+            "Shallow grip finishes quicker",
+            "Depth just adds squeeze power"
+          ],
+          "trap": [
+            "Lock grip first, then sink deep"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up during your grip transition—what adjustment prevents escape?",
         "answer": "Immediately close your guard or drive your hips forward to collapse their posture before completing the grip change. The grip transition should never take more than one second, and you must maintain constant downward pressure with your choking arm throughout. If the opponent begins posturing before you can interlace, abandon the ten finger transition and maintain your existing guillotine control grip until you can re-break their posture.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Collapse posture, finish grip fast",
+        "distractors": {
+          "plausible": [
+            "Grip fight to stop posturing",
+            "Switch to different submission"
+          ],
+          "trap": [
+            "Release grip, reset from scratch"
+          ]
+        }
       },
       {
         "question": "What is the proper speed of application when finishing the Ten Finger Guillotine in training?",
         "answer": "The choke must be applied SLOWLY and progressively over a minimum of 3-5 seconds. Never jerk or spike the choke with explosive movements. Progressive squeeze is both safer for your training partner's trachea and cervical spine, and mechanically more effective because steady compression eliminates gaps. The choke should tighten like a vice closing—continuous increasing pressure that gives the opponent time to recognize the danger and tap before injury occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, progressive 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Fast to prevent escape",
+            "Steady moderate pace throughout"
+          ],
+          "trap": [
+            "Sudden explosive jerk to finish"
+          ]
+        }
       },
       {
         "question": "How should you immediately respond when your partner taps to the Ten Finger Guillotine?",
         "answer": "Immediately release the interlocked finger grip while maintaining gentle head control to prevent whiplash. Lower the opponent's head gently, create space by stepping back or opening guard to remove all pressure, and check your partner's awareness. If the partner lost consciousness at any point, elevate their legs and monitor breathing. Never hold the choke even briefly after a tap—release must be instantaneous.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip instantly, control head",
+        "distractors": {
+          "plausible": [
+            "Ease off gradually over seconds",
+            "Hold briefly to confirm tap"
+          ],
+          "trap": [
+            "Keep squeezing until they go limp"
+          ]
+        }
       },
       {
         "question": "What muscle groups should generate the primary choking force, and why?",
         "answer": "The latissimus dorsi muscles and shoulder structure should generate primary choking force through a shrug-and-pull motion, not the biceps and forearms. The lats are much larger muscles with greater endurance capacity, allowing sustained compression over 30+ seconds without fatigue. Bicep-driven squeezing fatigues within 10-15 seconds, causing grip failure. The correct motion is shrugging shoulders toward ears while pulling elbows down and back toward your hips.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lats and shoulders, shrug-pull",
+        "distractors": {
+          "plausible": [
+            "Forearms for grip endurance",
+            "Chest and pecs driving squeeze"
+          ],
+          "trap": [
+            "Biceps curling for max power"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully tucks their chin to defend the choke—what are your options?",
         "answer": "Drive the wrist deeper behind the jaw line and angle the squeeze toward the back of the neck to attack behind the chin tuck. The ten finger grip allows angle adjustment without releasing. If this fails, transition to the high elbow guillotine variation which specifically attacks behind the chin by driving the elbow toward the ceiling. You can also use their chin defense as a distraction to advance to mount or side control, exploiting their positional neglect.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Angle wrist behind jaw line",
+        "distractors": {
+          "plausible": [
+            "Pull head up to expose neck",
+            "Switch to rear naked choke"
+          ],
+          "trap": [
+            "Crank head sideways for pain"
+          ]
+        }
       },
       {
         "question": "When should you abandon the Ten Finger Guillotine attempt and transition to another attack?",
         "answer": "If the opponent successfully defends for 10-15 seconds with active hand fighting, posture recovery, or head extraction, transition rather than burning energy on a diminishing-return attempt. Viable transitions include high elbow guillotine, arm-in guillotine, anaconda or darce choke if they turn, or positional advancement to mount or side control using the choking threat as a distraction. The guillotine control position provides multiple offensive options—never become fixated on a single finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "After 10-15s of solid defense",
+        "distractors": {
+          "plausible": [
+            "Only if your arms go numb",
+            "As soon as they hand-fight once"
+          ],
+          "trap": [
+            "Keep squeezing till you gas out"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "k_j0NLNwKDA",
+        "title": "Guillotine Finishing Mechanics",
+        "by": "John Combs",
+        "vertical": false,
+        "channel": "Sanjay Nambiar",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rYKci9GFisg",
+        "title": "10 Finger Grip Guillotine choke",
+        "by": "Big Dan",
+        "vertical": false,
+        "channel": "Big Dan's Bang Gym",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tsofKYcYqaA",
+        "title": "How to Do a 10-Finger Guillotine",
+        "by": "Howcast",
+        "vertical": false,
+        "channel": "Howcast",
+        "duration": 113,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -414,27 +535,77 @@
       {
         "question": "How do you recognize that the attacker is transitioning from standard guillotine control to the ten finger grip?",
         "answer": "The primary cue is feeling the attacker's non-choking hand begin to reach underneath your torso to meet the choking hand. You may also feel the choking arm being adjusted deeper around your neck as the attacker positions the forearm blade across your throat centerline. Additionally, the attacker will often increase downward pressure on your head to break posture before committing to the grip change.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Free hand reaches under torso",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in leg pressure",
+            "Attacker switches choking arm"
+          ],
+          "trap": [
+            "Attacker relaxes grip briefly"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Ten Finger Guillotine to prevent injury?",
         "answer": "Tap immediately using the clearest available signal—verbal tap (saying 'tap'), physical hand tap on the attacker's body or the mat, or foot tap on the mat. Use multiple signals simultaneously for clarity. Do not wait to see if you can escape once you feel blood flow restriction or lightheadedness beginning. The ten finger grip tightens rapidly and consciousness can be lost within 4-6 seconds of full carotid compression. Tap early in training—there is no benefit to risking unconsciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap verbally, hand, and foot",
+        "distractors": {
+          "plausible": [
+            "Blink hard and grimace in pain",
+            "Shout for the referee to stop"
+          ],
+          "trap": [
+            "Try to fight through it first"
+          ]
+        }
       },
       {
         "question": "Why is posture recovery more important than grip fighting when defending the Ten Finger Guillotine?",
         "answer": "The ten finger interlocked grip is the strongest hand configuration in grappling and is nearly impossible to peel once fully established. Fighting the grip directly wastes energy with minimal chance of success. However, recovering posture—driving your spine upright and creating distance between your neck and the attacker's chest—removes the primary compression mechanism regardless of grip strength. With posture recovered, the choke loses leverage even if the grip remains intact.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Removes compression, grip irrelevant",
+        "distractors": {
+          "plausible": [
+            "Grip fighting wins with leverage",
+            "Peeling one finger breaks grip"
+          ],
+          "trap": [
+            "Pull down harder on the arm"
+          ]
+        }
       },
       {
         "question": "What defensive options are available once the ten finger grip has already locked in?",
         "answer": "Once locked, options are limited but include: turning your chin toward the choking arm to reduce direct throat exposure, swimming your near-side arm inside the grip to create a frame, driving forward to pass guard and change the choke angle, and circle-walking toward the choking arm side while posturing. If none of these work within 5-8 seconds and you feel the squeeze engaging, tap immediately rather than risking unconsciousness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn chin, frame, pass, circle",
+        "distractors": {
+          "plausible": [
+            "Pull straight back to create space",
+            "Grip fight the interlocked hands"
+          ],
+          "trap": [
+            "Lie flat and wait it out"
+          ]
+        }
       },
       {
         "question": "When defending from bottom position while the attacker applies the choke from top, what is your best escape strategy?",
         "answer": "From bottom when the attacker has top position with the ten finger guillotine, your best strategy is to create frames against the attacker's hips and shoulders to prevent them from closing distance. Use a hip escape to create angle, then work to recover guard by getting your legs involved. If the attacker is in your closed guard attempting the finish, open guard and hip escape to one side to change the choking angle. Avoid lying flat—angle your body to reduce compression effectiveness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame hips, hip escape, angle",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up explosively",
+            "Pull guard closed tighter"
+          ],
+          "trap": [
+            "Lie flat to absorb pressure"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -457,6 +628,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Defending the complete submission sequence under realistic conditions",
         "description": "Partner begins in Guillotine Control with intent to finish via ten finger guillotine at full speed and resistance. Defender must escape or survive for 30 seconds. Track escape success rate across multiple rounds and identify which defensive option produces the best results. Develop personalized defensive strategy based on body type and grappling style."
+      }
+    ],
+    "clips": [
+      {
+        "id": "nGpAcI79frk",
+        "title": "Positional Check Against the Guillotine",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 116,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "OQYU2BXdEEw",
+        "title": "Guillotine Choke Defense",
+        "by": "Todd Hendrickson",
+        "vertical": false,
+        "channel": "Todd Hendrickson Jiu Jitsu",
+        "duration": 51,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing guillotine escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-14"
       }
     ]
   }

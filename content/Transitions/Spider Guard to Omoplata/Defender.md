@@ -148,6 +148,43 @@ description: "How to defend the Spider Guard to Omoplata in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Spider Guard to Omoplata (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata escape by jumping over",
+      "description": "Spider Guard to Omoplata (Defender) film study: Omoplata escape by jumping over, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_2dhd21ffbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_2dhd21ffbc",
+      "url": "https://www.youtube.com/watch?v=_2dhd21ffbc",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT8S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "A new way to defend the omoplata",
+      "description": "Spider Guard to Omoplata (Defender) film study: A new way to defend the omoplata, taught by Ricardo Cavalcanti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/obRNRNrjaxs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/obRNRNrjaxs",
+      "url": "https://www.youtube.com/watch?v=obRNRNrjaxs",
+      "creator": { "@type": "Person", "name": "Ricardo Cavalcanti" },
+      "duration": "PT209S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Spider Guard to Omoplata requires a layered defensive approach tha
 **Opponent's Starting Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Spider Guard to Omoplata (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_2dhd21ffbc)
+
+<p class="clip-credit"><strong>Omoplata escape by jumping over</strong> — taught by Ritchie Yip · 0:08 · <a href="https://www.youtube.com/watch?v=_2dhd21ffbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=obRNRNrjaxs)
+
+<p class="clip-credit"><strong>A new way to defend the omoplata</strong> — taught by Ricardo Cavalcanti · 3:29 · <a href="https://www.youtube.com/watch?v=obRNRNrjaxs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

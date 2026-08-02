@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Feet on Hips Guard/Bottom",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The transition to feet on hips guard is one of the most fundamental guard establishment sequences in Brazilian Jiu-Jitsu, representing the bottom player's deliberate shift from a general open guard configuration into a structured distance management position. This movement requires the guard player to place both feet precisely on the opponent's hip bones while maintaining grip control and hip elevation, converting a potentially chaotic open guard exchange into a controlled engagement with defined pushing frames. The transition is both defensive and offensive in nature—it immediately stops forward passing pressure while simultaneously creating the platform for sweeps, submissions, and further guard transitions.\n\nStrategically, this transition serves as the gateway between unstructured open guard and all advanced guard systems. When executed correctly, the guard player gains immediate distance control that neutralizes pressure passing, toreando attempts, and most knee-based passes. The feet-on-hips configuration provides bilateral pushing frames that allow the guard player to manage the engagement range with precision, keeping the opponent at leg-extension distance where passing becomes exponentially more difficult. The transition demands coordination between grip acquisition, hip elevation, and foot placement—all occurring within a narrow timing window before the opponent can establish dominant grips or consolidate a passing position.\n\nThe position's value in modern competition cannot be overstated. Elite guard players use this transition as a reset mechanism when more complex guards are disrupted, as a launching platform for sweep chains, and as a defensive emergency response when passing pressure intensifies. The ability to rapidly establish feet on hips from any open guard configuration is a hallmark of high-level guard retention, providing the practitioner with a reliable fallback position that maintains offensive potential while immediately addressing the most urgent defensive priorities.",
   "variants_and_adaptations": [
     {
@@ -230,38 +242,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the transition to feet on hips guard?",
-        "answer": "The ideal window is when the opponent is standing or rising to combat base with their hips accessible and before they have established dominant grips on your ankles or pants. This window typically lasts 1-2 seconds during their posture change. If you attempt the transition after they secure ankle control, they can redirect or stack your legs. If you wait too long after they stand, they begin circling and creating passing angles that make bilateral hip placement difficult."
+        "answer": "The ideal window is when the opponent is standing or rising to combat base with their hips accessible and before they have established dominant grips on your ankles or pants. This window typically lasts 1-2 seconds during their posture change. If you attempt the transition after they secure ankle control, they can redirect or stack your legs. If you wait too long after they stand, they begin circling and creating passing angles that make bilateral hip placement difficult.",
+        "answer_line": "Before they secure ankle grips",
+        "distractors": {
+          "plausible": [
+            "Right after they stand up",
+            "Once they reach combat base"
+          ],
+          "trap": [
+            "After they grip your pants"
+          ]
+        }
       },
       {
         "question": "What specific anatomical landmark should your feet target and why?",
-        "answer": "Target the anterior superior iliac spine (ASIS)—the bony prominences on the front of the hip bones—with the ball of each foot. These bony landmarks provide maximum structural stability because bone-on-bone contact transmits force far more efficiently than pressing against muscle tissue on the thighs or soft tissue on the stomach. The ball of the foot creates a broad, stable contact surface that maintains connection during dynamic movement and resists slipping under directional pressure changes."
+        "answer": "Target the anterior superior iliac spine (ASIS)—the bony prominences on the front of the hip bones—with the ball of each foot. These bony landmarks provide maximum structural stability because bone-on-bone contact transmits force far more efficiently than pressing against muscle tissue on the thighs or soft tissue on the stomach. The ball of the foot creates a broad, stable contact surface that maintains connection during dynamic movement and resists slipping under directional pressure changes.",
+        "answer_line": "Ball of foot on ASIS bones",
+        "distractors": {
+          "plausible": [
+            "Feet flat on the stomach",
+            "Toes pressing into thighs"
+          ],
+          "trap": [
+            "Heels dug into their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your right ankle as you attempt to place your foot on their hip—how do you adjust?",
-        "answer": "Immediately place your free left foot on their left hip to create a single-side frame that arrests their forward movement. Use the pushing power of the established left foot to create enough distance and time to circle your right ankle free from their grip by rotating your foot outward and pulling sharply. Once freed, place your right foot on their right hip to complete the bilateral frame. If the ankle grip persists, use your left foot frame to transition to a single-leg X or De La Riva configuration on the left side instead."
+        "answer": "Immediately place your free left foot on their left hip to create a single-side frame that arrests their forward movement. Use the pushing power of the established left foot to create enough distance and time to circle your right ankle free from their grip by rotating your foot outward and pulling sharply. Once freed, place your right foot on their right hip to complete the bilateral frame. If the ankle grip persists, use your left foot frame to transition to a single-leg X or De La Riva configuration on the left side instead.",
+        "answer_line": "Frame other foot, free ankle",
+        "distractors": {
+          "plausible": [
+            "Pull knee in to escape grip",
+            "Switch straight to De La Riva"
+          ],
+          "trap": [
+            "Force foot onto hip anyway"
+          ]
+        }
       },
       {
         "question": "Why must hip elevation precede foot placement in this transition?",
-        "answer": "Hip elevation creates the structural angle that generates pushing power through the leg frames. When your hips are flat on the mat, your legs extend horizontally, which produces minimal forward pushing force against a standing opponent. Elevated hips create a diagonal pushing angle where your leg extension drives force upward and forward into the opponent's hips, creating genuine defensive structure. Additionally, elevated hips preserve your mobility to adjust angles and follow opponent movement—flat hips pin you to the mat and eliminate the dynamic adjustments that keep the guard active."
+        "answer": "Hip elevation creates the structural angle that generates pushing power through the leg frames. When your hips are flat on the mat, your legs extend horizontally, which produces minimal forward pushing force against a standing opponent. Elevated hips create a diagonal pushing angle where your leg extension drives force upward and forward into the opponent's hips, creating genuine defensive structure. Additionally, elevated hips preserve your mobility to adjust angles and follow opponent movement—flat hips pin you to the mat and eliminate the dynamic adjustments that keep the guard active.",
+        "answer_line": "Elevated hips create push angle",
+        "distractors": {
+          "plausible": [
+            "Keeps hips safe from strikes",
+            "Lets you grip collar first"
+          ],
+          "trap": [
+            "Flat hips give more stability"
+          ]
+        }
       },
       {
         "question": "What grip combination provides the strongest immediate offensive threat after establishing feet on hips?",
-        "answer": "A cross-collar grip (right hand to opponent's left collar or vice versa) combined with a same-side sleeve grip provides the strongest immediate threat. The collar grip threatens chokes and controls posture, while the sleeve grip prevents one hand from grabbing your ankle and creates pulling tension for sweeps. This combination enables immediate scissor sweep and pendulum sweep threats because you can pull the opponent's upper body forward and down while pushing with your feet, creating the rotational off-balancing required for these high-percentage sweeps."
+        "answer": "A cross-collar grip (right hand to opponent's left collar or vice versa) combined with a same-side sleeve grip provides the strongest immediate threat. The collar grip threatens chokes and controls posture, while the sleeve grip prevents one hand from grabbing your ankle and creates pulling tension for sweeps. This combination enables immediate scissor sweep and pendulum sweep threats because you can pull the opponent's upper body forward and down while pushing with your feet, creating the rotational off-balancing required for these high-percentage sweeps.",
+        "answer_line": "Cross collar plus sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Two sleeve grips both sides",
+            "Double collar grip control"
+          ],
+          "trap": [
+            "Reach for a single ankle grip"
+          ]
+        }
       },
       {
         "question": "The opponent drives forward with heavy pressure attempting to collapse your newly established frames—what is your response?",
-        "answer": "Use their forward momentum against them by simultaneously extending your legs fully while pulling their upper body forward and down with your grips. This loads their weight entirely onto your feet and creates the setup for scissor sweep or pendulum sweep. If the pressure is too strong for your frames to hold, absorb their forward drive by bending your knees slightly, then redirect their momentum to one side by extending one leg more than the other, creating an angle for De La Riva entry or closed guard recovery. Never try to match their pressure with pure leg strength—redirect the force instead."
+        "answer": "Use their forward momentum against them by simultaneously extending your legs fully while pulling their upper body forward and down with your grips. This loads their weight entirely onto your feet and creates the setup for scissor sweep or pendulum sweep. If the pressure is too strong for your frames to hold, absorb their forward drive by bending your knees slightly, then redirect their momentum to one side by extending one leg more than the other, creating an angle for De La Riva entry or closed guard recovery. Never try to match their pressure with pure leg strength—redirect the force instead.",
+        "answer_line": "Extend legs, pull them down",
+        "distractors": {
+          "plausible": [
+            "Match their pressure with legs",
+            "Push straight back symmetrically"
+          ],
+          "trap": [
+            "Brace with stiff locked knees"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that differentiates an effective feet-on-hips frame from an easily defeated one?",
-        "answer": "Active pushing tension through the legs with maintained hip elevation is the critical differentiator. An effective frame has constant moderate extension force driving through the feet into the opponent's hips, not just passive foot placement. This tension means the opponent cannot simply walk forward—they must overcome continuous resistance. Combined with hip elevation, this creates a structural arch from your shoulders through your hips to your feet that channels your entire body's skeletal strength into the frame, rather than relying on muscular leg extension alone."
+        "answer": "Active pushing tension through the legs with maintained hip elevation is the critical differentiator. An effective frame has constant moderate extension force driving through the feet into the opponent's hips, not just passive foot placement. This tension means the opponent cannot simply walk forward—they must overcome continuous resistance. Combined with hip elevation, this creates a structural arch from your shoulders through your hips to your feet that channels your entire body's skeletal strength into the frame, rather than relying on muscular leg extension alone.",
+        "answer_line": "Active leg tension, hips up",
+        "distractors": {
+          "plausible": [
+            "Feet placed but legs relaxed",
+            "Hips flat but feet pushing hard"
+          ],
+          "trap": [
+            "Lock knees straight and rigid"
+          ]
+        }
       },
       {
         "question": "If the opponent successfully strips both feet off their hips and begins a knee cut pass, what chain of recovery options do you have?",
-        "answer": "First priority is to establish a knee shield by inserting your inside knee across their hip line to prevent the knee cut from completing. If the knee cut is already past your knee line, hip escape away from the passing direction and work to recover half guard by capturing their passing leg between yours. From half guard, re-establish frames on their shoulder and hip to create space for knee shield recovery. If recovery to half guard fails, frame on their crossface and hip to prevent side control consolidation and begin the side control escape sequence. The key is recognizing that each fallback position has its own recovery path—do not panic, but systematically work through the defensive hierarchy."
+        "answer": "First priority is to establish a knee shield by inserting your inside knee across their hip line to prevent the knee cut from completing. If the knee cut is already past your knee line, hip escape away from the passing direction and work to recover half guard by capturing their passing leg between yours. From half guard, re-establish frames on their shoulder and hip to create space for knee shield recovery. If recovery to half guard fails, frame on their crossface and hip to prevent side control consolidation and begin the side control escape sequence. The key is recognizing that each fallback position has its own recovery path—do not panic, but systematically work through the defensive hierarchy.",
+        "answer_line": "Knee shield, then half guard",
+        "distractors": {
+          "plausible": [
+            "Hip escape straight to standup",
+            "Grab both legs and squeeze"
+          ],
+          "trap": [
+            "Turn belly down to scramble"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The transition to feet on hips guard is generally low-risk from a joint safety perspective, as it involves no joint locks or cervical loading. The primary injury risk comes from the opponent driving forward aggressively while your feet are on their hips, which can hyperextend the knees if your legs are fully locked out under sudden heavy pressure. Always maintain a slight bend in the knees to absorb impact forces. Additionally, avoid pushing with straight, rigid legs against a much heavier opponent driving forward—redirect their pressure laterally rather than absorbing it linearly. During training, communicate with partners when drilling pressure scenarios to prevent accidental knee hyperextension from uncontrolled forward drives."
+    "safety_considerations": "The transition to feet on hips guard is generally low-risk from a joint safety perspective, as it involves no joint locks or cervical loading. The primary injury risk comes from the opponent driving forward aggressively while your feet are on their hips, which can hyperextend the knees if your legs are fully locked out under sudden heavy pressure. Always maintain a slight bend in the knees to absorb impact forces. Additionally, avoid pushing with straight, rigid legs against a much heavier opponent driving forward—redirect their pressure laterally rather than absorbing it linearly. During training, communicate with partners when drilling pressure scenarios to prevent accidental knee hyperextension from uncontrolled forward drives.",
+    "clips": [
+      {
+        "id": "MUZyUFn6RC4",
+        "title": "Foot on the hip guard control",
+        "by": "BJJ House Okinawa",
+        "vertical": false,
+        "channel": "BJJ House Okinawa",
+        "duration": 151,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "Getting the feet on biceps and hips position",
+        "by": "Ariel Tabak",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aomPFOrnW9g",
+        "title": "Seated guard vs standing: distance control",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 393,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Open Guard to Feet on Hips Guard Defender",
@@ -346,23 +467,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is initiating the transition to feet on hips?",
-        "answer": "The earliest cue is the bottom player's hip elevation—their lower back arches off the mat and their core engages to lift their hips upward. This hip elevation is the prerequisite mechanical movement that must occur before their feet can reach your hips with structural power. Recognizing this hip elevation gives you a half-second advantage to initiate your defensive response before their feet arrive at your hips, which is sufficient time to grab ankles, drive forward, or change levels."
+        "answer": "The earliest cue is the bottom player's hip elevation—their lower back arches off the mat and their core engages to lift their hips upward. This hip elevation is the prerequisite mechanical movement that must occur before their feet can reach your hips with structural power. Recognizing this hip elevation gives you a half-second advantage to initiate your defensive response before their feet arrive at your hips, which is sufficient time to grab ankles, drive forward, or change levels.",
+        "answer_line": "Their hips arch off the mat",
+        "distractors": {
+          "plausible": [
+            "They grip your pant legs",
+            "They shift weight backward"
+          ],
+          "trap": [
+            "They post a hand behind them"
+          ]
+        }
       },
       {
         "question": "Why is preemptive ankle control the highest-percentage defensive option against this transition?",
-        "answer": "Preemptive ankle control defeats the transition at its source by preventing foot placement entirely. When you control both ankles, the bottom player cannot place their feet on your hips regardless of their hip elevation or grip fighting. This gives you complete control over their leg positioning and immediately opens passing opportunities (toreando by redirecting legs to one side, stack pass by driving legs over their head). No other defensive option provides this level of complete neutralization because all other options allow feet to at least partially contact the hips."
+        "answer": "Preemptive ankle control defeats the transition at its source by preventing foot placement entirely. When you control both ankles, the bottom player cannot place their feet on your hips regardless of their hip elevation or grip fighting. This gives you complete control over their leg positioning and immediately opens passing opportunities (toreando by redirecting legs to one side, stack pass by driving legs over their head). No other defensive option provides this level of complete neutralization because all other options allow feet to at least partially contact the hips.",
+        "answer_line": "Denies feet from reaching hips",
+        "distractors": {
+          "plausible": [
+            "Cross-face to flatten posture",
+            "Grip both collars to control"
+          ],
+          "trap": [
+            "Grab only one ankle and pull"
+          ]
+        }
       },
       {
         "question": "The bottom player has just placed their feet on your hips but has not yet established any grips—what is the optimal response window?",
-        "answer": "This half-second window between foot placement and grip establishment is your best opportunity for an aggressive response. The frames are structurally incomplete because the bottom player cannot coordinate push-pull forces without grips—their feet push but nothing pulls. Drive forward explosively with your weight low and inside their feet to collapse the unsupported frames, or immediately grab both ankles and redirect their legs to one side for a toreando pass. This window closes the moment they secure a sleeve or collar grip, so immediate action is essential."
+        "answer": "This half-second window between foot placement and grip establishment is your best opportunity for an aggressive response. The frames are structurally incomplete because the bottom player cannot coordinate push-pull forces without grips—their feet push but nothing pulls. Drive forward explosively with your weight low and inside their feet to collapse the unsupported frames, or immediately grab both ankles and redirect their legs to one side for a toreando pass. This window closes the moment they secure a sleeve or collar grip, so immediate action is essential.",
+        "answer_line": "Drive forward before grips land",
+        "distractors": {
+          "plausible": [
+            "Wait for them to grip first",
+            "Circle to break their angle"
+          ],
+          "trap": [
+            "Back away to create space"
+          ]
+        }
       },
       {
         "question": "How should you modify your defensive approach when the bottom player has already established one collar grip before initiating the transition?",
-        "answer": "A pre-existing collar grip means the bottom player can immediately coordinate push-pull forces once feet land. Strip the collar grip first before addressing the foot placement—use a two-on-one grip break on their collar hand while stepping back to deny hip access. If the collar grip cannot be broken quickly, accept that aggressive forward pressure is too dangerous (the collar grip enables sweep setups) and instead focus on lateral movement and ankle control to prevent bilateral frame establishment. Address the grip problem before the feet problem because the grip is what makes the feet dangerous."
+        "answer": "A pre-existing collar grip means the bottom player can immediately coordinate push-pull forces once feet land. Strip the collar grip first before addressing the foot placement—use a two-on-one grip break on their collar hand while stepping back to deny hip access. If the collar grip cannot be broken quickly, accept that aggressive forward pressure is too dangerous (the collar grip enables sweep setups) and instead focus on lateral movement and ankle control to prevent bilateral frame establishment. Address the grip problem before the feet problem because the grip is what makes the feet dangerous.",
+        "answer_line": "Break the collar grip first",
+        "distractors": {
+          "plausible": [
+            "Focus on ankle control first",
+            "Match grips with your own collar"
+          ],
+          "trap": [
+            "Charge forward into the grip"
+          ]
+        }
       },
       {
         "question": "What defensive adjustment prevents the bottom player from tracking your lateral movement with hip walking?",
-        "answer": "Move faster than they can hip-walk by taking large lateral steps rather than small shuffles, and change direction unpredictably rather than circling in one direction continuously. Pair your lateral movement with downward pressure on their near-side knee or ankle to pin their hip mobility on one side. If you can control one ankle while circling, they can only track you with one foot, which creates the asymmetric frame you need for a passing angle. The key is combining lateral movement with grip control—movement alone is matched by their hip walking, but movement plus an anchor point on their legs creates genuine angle advantage."
+        "answer": "Move faster than they can hip-walk by taking large lateral steps rather than small shuffles, and change direction unpredictably rather than circling in one direction continuously. Pair your lateral movement with downward pressure on their near-side knee or ankle to pin their hip mobility on one side. If you can control one ankle while circling, they can only track you with one foot, which creates the asymmetric frame you need for a passing angle. The key is combining lateral movement with grip control—movement alone is matched by their hip walking, but movement plus an anchor point on their legs creates genuine angle advantage.",
+        "answer_line": "Big steps plus ankle control",
+        "distractors": {
+          "plausible": [
+            "Circle continuously one direction",
+            "Match their pace with shuffles"
+          ],
+          "trap": [
+            "Stand still and push down hard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -380,6 +551,35 @@
         "phase": "Phase 3: Decision-Making Under Pressure",
         "focus": "Selecting appropriate defensive response based on context",
         "description": "Full-speed positional sparring where the bottom player attempts the transition repeatedly from various open guard configurations. Top player must recognize the attempt, select the appropriate defensive option based on current grips and positioning, and execute within the defensive window. Debrief after each round to analyze decision quality."
+      }
+    ],
+    "clips": [
+      {
+        "id": "o2gll2GU85s",
+        "title": "Both Feet On Hips guard — mechanics and control",
+        "by": "Sathya Wiltse",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fqC0g2NEbq0",
+        "title": "Passing the guard when they have feet on hips",
+        "by": "Urbana Academy",
+        "vertical": false,
+        "channel": "URBANA ACADEMY",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4MVFbEwHLGM",
+        "title": "Beating leg frames with hip and leg position",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 110,
+        "verified": "2026-07-15"
       }
     ]
   }

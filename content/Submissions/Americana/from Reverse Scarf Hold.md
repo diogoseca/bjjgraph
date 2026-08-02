@@ -34,6 +34,43 @@ description: "Master the Americana shoulder lock from Reverse Scarf Hold. Comple
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Reverse Scarf Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inverted americana from scarf hold",
+      "description": "Americana from Reverse Scarf Hold film study: Inverted americana from scarf hold, taught by Adrian Nielsen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uaHf3d_aCso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uaHf3d_aCso",
+      "url": "https://www.youtube.com/watch?v=uaHf3d_aCso",
+      "creator": { "@type": "Person", "name": "Adrian Nielsen" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "One-handed americana keylock",
+      "description": "Americana from Reverse Scarf Hold film study: One-handed americana keylock, taught by Mastermind Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iGVWSwxKCII/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iGVWSwxKCII",
+      "url": "https://www.youtube.com/watch?v=iGVWSwxKCII",
+      "creator": { "@type": "Person", "name": "Mastermind Martial Arts" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Strategically, the Americana from Reverse Scarf Hold functions as both a primary
 **Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] · **From**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Reverse Scarf Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uaHf3d_aCso)
+
+<p class="clip-credit"><strong>Inverted americana from scarf hold</strong> — taught by Adrian Nielsen · 0:56 · <a href="https://www.youtube.com/watch?v=uaHf3d_aCso" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iGVWSwxKCII)
+
+<p class="clip-credit"><strong>One-handed americana keylock</strong> — taught by Mastermind Martial Arts · 2:21 · <a href="https://www.youtube.com/watch?v=iGVWSwxKCII" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -225,7 +290,7 @@ Strategically, the Americana from Reverse Scarf Hold functions as both a primary
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Side Control/Reverse Scarf Hold]] - Starting position for this submission variant

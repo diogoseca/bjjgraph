@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "Reverse Scarf Hold",
   "from_position": "Reverse Scarf Hold/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Arm Triangle from Reverse Scarf Hold is a head-and-arm blood choke that converts the reverse pin's chest pressure into bilateral carotid compression, trapping the opponent's near arm across their own neck so their shoulder and your forearm seal both arteries.",
   "overview": "The Arm Triangle from Reverse Scarf Hold exploits the unique reverse-facing orientation of this pin to trap the opponent's near arm against their own neck and apply bilateral carotid compression. Unlike arm triangles initiated from side control or mount, this variation leverages the existing chest-on-chest pressure of reverse scarf hold, where the opponent's arm is already partially controlled by the pinning mechanics. The reverse orientation means the attacker faces the opponent's legs, requiring a deliberate rotation during the finishing sequence to achieve the perpendicular angle needed for maximum compression.\n\nThe key advantage of this entry is that the opponent's defensive options are already limited by the reverse scarf hold pin. Their breathing is restricted, their near arm is partially trapped, and their standard escape patterns are disrupted by the reverse pressure angle. When the top player recognizes that the near arm is positioned across the opponent's neck—either through active manipulation or the opponent's own defensive framing—the transition to head-and-arm configuration requires minimal repositioning compared to arm triangle entries from more dynamic positions.\n\nThis submission is particularly effective in competition when opponents focus on defending the more common americanas and kimuras from reverse scarf hold, leaving the arm triangle as an unexpected high-percentage finish. The technique rewards practitioners who develop sensitivity to arm positioning within the pin and understand how to transition from a control-oriented position to a submission-oriented configuration without sacrificing pressure.",
   "safety_considerations": {
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -288,52 +300,181 @@
       {
         "question": "What anatomical structures does the Arm Triangle from Reverse Scarf Hold attack?",
         "answer": "The arm triangle compresses both carotid arteries simultaneously using a bilateral compression mechanism. The opponent's own trapped shoulder presses into one carotid from the near side, while your forearm blade crosses behind their neck and presses into the opposite carotid from the far side. This bilateral restriction of blood flow to the brain causes unconsciousness in 6-8 seconds if not released. The choke is mechanical, not reliant on strength.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Windpipe and trachea",
+            "Jugular veins only"
+          ],
+          "trap": [
+            "Spine - crank it for the tap"
+          ]
+        }
       },
       {
         "question": "How do you recognize when the opponent's arm position in reverse scarf hold creates the arm triangle opportunity?",
         "answer": "The trigger is the opponent's near arm crossing their own throat line, either because your reverse scarf hold chest pressure drives it there or because they defensively frame across their own neck. You will feel their forearm against their own neck with their shoulder loaded against their carotid. This arm position is the prerequisite for the arm triangle. Recognize it immediately rather than continuing to hunt for americanas or kimuras.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Their arm crosses their throat",
+        "distractors": {
+          "plausible": [
+            "Their hips shrimp away",
+            "Their far hand grips your belt"
+          ],
+          "trap": [
+            "Sit up, get bumped to guard"
+          ]
+        }
       },
       {
         "question": "What grip adjustment is required when transitioning from reverse scarf hold control to arm triangle configuration?",
         "answer": "Release your reverse scarf hold underhook or arm control only after chest pressure secures the trapped arm against the opponent's neck. Thread your choking arm over the top of their trapped arm and behind the back of their neck so your forearm blade crosses the far-side carotid. Lock a figure-four grip by grabbing your own bicep with the choking hand while your free hand cups behind their head, or use a gable grip for maximum tightness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pins arm, then figure-four",
+        "distractors": {
+          "plausible": [
+            "Release control, then grip",
+            "Underhook swap before pin"
+          ],
+          "trap": [
+            "Sit up to reach the far grip"
+          ]
+        }
       },
       {
         "question": "Your opponent starts framing across their own neck to resist your reverse scarf hold pressure - what adjustment capitalizes on this reaction?",
         "answer": "Drive your chest down onto their framing arm to pin it against their own neck. Once the arm is secured by your body weight, smoothly transition your choking arm over the trapped arm and behind their neck to establish the head-and-arm lock. Do not try to strip the frame—instead, use it as the foundation for the arm triangle. Their defensive action becomes the direct setup for your next submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest-pin frame, thread arm over",
+        "distractors": {
+          "plausible": [
+            "Strip the frame away fast",
+            "Switch to a far-side underhook"
+          ],
+          "trap": [
+            "Post both hands to pry it off"
+          ]
+        }
       },
       {
         "question": "What body angle creates maximum finishing pressure once the arm triangle is locked from reverse scarf hold?",
         "answer": "Walk your hips from the reverse-facing orientation until they are perpendicular (90 degrees) to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face. This angle allows your expanding chest and body weight to drive the opponent's shoulder into their own carotid while your forearm compresses the other side.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotate hips perpendicular",
+        "distractors": {
+          "plausible": [
+            "Stay parallel, drive forward",
+            "Face opponent's legs still"
+          ],
+          "trap": [
+            "Sit back and pull with arms"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no escape?",
         "answer": "The choke is properly locked when you can feel the opponent's trapped shoulder bone pressing firmly into their neck with no space between your chest and their body. Their face will begin changing color as blood flow restricts. Their defensive movements become weaker, less coordinated, and increasingly frantic. If they cannot create any frame with their free hand and cannot bridge effectively to disrupt the perpendicular angle, they have passed the point of no escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No gap, shoulder pins carotid",
+        "distractors": {
+          "plausible": [
+            "Their free hand grabs your belt",
+            "Their breathing gets louder"
+          ],
+          "trap": [
+            "Wait for them to go unconscious"
+          ]
+        }
       },
       {
         "question": "What safety precautions must you observe when applying the Arm Triangle from Reverse Scarf Hold?",
         "answer": "Apply pressure progressively over 3-5 seconds, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always allow at least one hand free for tapping. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp, release immediately, place them in recovery position on their side, elevate their legs, and monitor breathing until they regain consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply gradually, release on tap",
+        "distractors": {
+          "plausible": [
+            "Check their pulse each squeeze",
+            "Raise their legs first if limp"
+          ],
+          "trap": [
+            "Crank hard and fast to finish"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from extracting their trapped arm during the transition from reverse scarf hold to arm triangle?",
         "answer": "The critical control is chest pressure on the trapped arm before and during the grip switch. Your body weight pins their arm against their own neck so they cannot pull it free. Maintain heavy forward pressure through your chest throughout the entire transition. Once the head-and-arm grip is locked, the figure-four configuration mechanically prevents arm extraction. If you feel the arm starting to slide out, immediately return to reverse scarf hold pressure rather than chasing a compromised grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pressure pins arm throughout",
+        "distractors": {
+          "plausible": [
+            "Grip strength alone holds arm",
+            "Speed through the transition"
+          ],
+          "trap": [
+            "Chase the arm if it slides"
+          ]
+        }
       },
       {
         "question": "Your opponent defends your americana attempt by pulling their arm across their body - how do you chain into the arm triangle?",
         "answer": "When the opponent pulls their arm inward to defend the americana, they inadvertently position their forearm across their own neck, creating the exact arm trap needed for the arm triangle. Immediately abandon the americana grip and drive your chest onto the newly positioned arm to pin it. Thread your choking arm over the trapped arm and behind their head to establish the head-and-arm lock. This americana-to-arm-triangle chain is one of the highest-percentage submission combinations from reverse scarf hold.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin arm, thread to arm triangle",
+        "distractors": {
+          "plausible": [
+            "Reset and re-attack americana",
+            "Switch sides, chase kimura"
+          ],
+          "trap": [
+            "Sit up and crank the shoulder"
+          ]
+        }
       },
       {
         "question": "What distinguishes finishing the arm triangle from reverse scarf hold versus finishing from a standard side control entry?",
         "answer": "The primary difference is the rotational component. From reverse scarf hold, you begin facing the opponent's legs and must rotate approximately 180 degrees to reach the perpendicular finishing angle, whereas from side control you are already near the correct orientation. This rotation requirement means the walk-around phase takes longer and creates a window where the opponent can attempt escapes. However, the advantage is that the reverse scarf hold pin provides superior initial arm isolation and chest compression that makes the grip transition more secure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extra 180-degree rotation needed",
+        "distractors": {
+          "plausible": [
+            "Requires the far underhook first",
+            "Grip switches to a Gable lock"
+          ],
+          "trap": [
+            "Finish square-on without rotating"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "xz9-FEBFFIo",
+        "title": "Arm Triangle from Scarf Hold Position",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 32,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5POG6rDBVLM",
+        "title": "Reverse Kesa Gatame Arm Attack Roll Over",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 113,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "17m6bnarNdE",
+        "title": "Arm Attack Options from Scarf Hold",
+        "by": "Alexey Olynick",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 89,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -427,27 +568,77 @@
       {
         "question": "How do you recognize that the attacker is transitioning from reverse scarf hold to an arm triangle?",
         "answer": "The key recognition cue is feeling the attacker's chest weight drive down onto your near arm, pinning it against your own neck with increased deliberateness, followed by the release of their reverse scarf hold arm control as they begin threading their arm over yours and behind your neck. You may also feel their hips disengage from the reverse scarf hold base as they prepare to rotate from the reverse-facing orientation to the perpendicular finishing angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest drives down, arm releases",
+        "distractors": {
+          "plausible": [
+            "Hips sink deeper into you",
+            "Grip tightens on your wrist"
+          ],
+          "trap": [
+            "Turn away to relieve the weight"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the Arm Triangle from Reverse Scarf Hold?",
         "answer": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are trapped, or verbally say 'tap' loudly. Do not wait to see if you can escape once the choke is locked—arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds with minimal warning. Tapping early prevents injury and allows you to continue training safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, hands, feet, or voice",
+        "distractors": {
+          "plausible": [
+            "Wait to test the pressure",
+            "Try to power out first"
+          ],
+          "trap": [
+            "Endure it, prove toughness"
+          ]
+        }
       },
       {
         "question": "What arm positioning prevents the attacker from converting reverse scarf hold into an arm triangle?",
         "answer": "Keep your near arm either pinned tight against your own body with your elbow down and hand on your own chest, or extend it fully away from your neck toward the mat. The critical mistake is allowing your forearm to cross your own throat line, which creates the trapped-arm position the attacker needs. When defending the reverse scarf hold pin, use hip movement and far-arm frames against the attacker's hips rather than near-arm frames across your own neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep arm off your own throat",
+        "distractors": {
+          "plausible": [
+            "Grip their far collar tight",
+            "Grab your own collar for base"
+          ],
+          "trap": [
+            "Cross forearm over own neck"
+          ]
+        }
       },
       {
         "question": "The attacker has locked the head-and-arm configuration but has not yet rotated to the finishing angle - what escape options remain?",
         "answer": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees. Simultaneously frame against their hips with your free arm to prevent them from completing the rotation to the perpendicular angle. If you can get your knees under you and face into the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge toward the trapped-arm side and pull them into closed guard to disrupt the angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, frame hips, get knees",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up hard",
+            "Grab their belt and hold on"
+          ],
+          "trap": [
+            "Turn away and flatten out"
+          ]
+        }
       },
       {
         "question": "What are the most common defensive errors that allow the arm triangle transition from reverse scarf hold?",
         "answer": "The most common error is instinctively framing across your own neck when defending the reverse scarf hold chest pressure, which directly creates the arm triangle setup. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is waiting too long to defend—the transition window when the attacker switches from pin control to head-and-arm grip is the best escape opportunity, and it closes within 2-3 seconds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Framing across your own neck",
+        "distractors": {
+          "plausible": [
+            "Gripping their sleeve too early",
+            "Keeping your elbow glued down"
+          ],
+          "trap": [
+            "Reach across to push their head"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -470,6 +661,35 @@
         "phase": "Phase 4: Live defensive sparring",
         "focus": "Full-speed defense from reverse scarf hold bottom against all attacks",
         "description": "Partner starts in reverse scarf hold top with full offensive options including americanas, kimuras, and the arm triangle transition. Defend all attacks with particular focus on arm positioning awareness to prevent the arm triangle setup. 5-minute rounds, reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "The Fastest Escape Out of the Arm Triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Nspz2EAIQ_k",
+        "title": "Arm Triangle Escape",
+        "by": "Crucifix Mike",
+        "vertical": false,
+        "channel": "Crucifix Mike",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BuTIktWWudo",
+        "title": "How to Escape Arm Triangles",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 129,
+        "verified": "2026-07-14"
       }
     ]
   }

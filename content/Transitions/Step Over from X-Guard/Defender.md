@@ -140,6 +140,54 @@ description: "Defend and counter the Step Over pass from X-Guard. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Step Over from X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X-guard sweep before the pass arrives",
+      "description": "Step Over from X-Guard (Defender) film study: X-guard sweep before the pass arrives, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
+      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Retention 101: Defending the X-Pass",
+      "description": "Step Over from X-Guard (Defender) film study: Guard Retention 101: Defending the X-Pass, taught by Ostap Manastyrski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rH8oYjlBsZg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rH8oYjlBsZg",
+      "url": "https://www.youtube.com/watch?v=rH8oYjlBsZg",
+      "creator": { "@type": "Person", "name": "Ostap Manastyrski" },
+      "duration": "PT275S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard vs Passing",
+      "description": "Step Over from X-Guard (Defender) film study: Guard vs Passing, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RXkJVPoO4MA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RXkJVPoO4MA",
+      "url": "https://www.youtube.com/watch?v=RXkJVPoO4MA",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT540S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender in X-Guard bottom when the top player attempts the Step Over pas
 **Opponent's Starting Position**: [[Positions/X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Step Over from X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+
+<p class="clip-credit"><strong>X-guard sweep before the pass arrives</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rH8oYjlBsZg)
+
+<p class="clip-credit"><strong>Guard Retention 101: Defending the X-Pass</strong> — taught by Ostap Manastyrski · 4:35 · <a href="https://www.youtube.com/watch?v=rH8oYjlBsZg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RXkJVPoO4MA)
+
+<p class="clip-credit"><strong>Guard vs Passing</strong> — taught by Marcelo Garcia · 9:00 · <a href="https://www.youtube.com/watch?v=RXkJVPoO4MA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

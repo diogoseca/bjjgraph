@@ -168,6 +168,54 @@ description: "How to execute Single Leg Takedown in BJJ. Attacking perspective w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg Takedown (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg finishes for jiu jitsu and MMA",
+      "description": "Single Leg Takedown (Attacker) film study: Single leg finishes for jiu jitsu and MMA, taught by Steel City MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WDtgYMYppHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WDtgYMYppHE",
+      "url": "https://www.youtube.com/watch?v=WDtgYMYppHE",
+      "creator": { "@type": "Person", "name": "Steel City MMA" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sweep single leg takedown finish",
+      "description": "Single Leg Takedown (Attacker) film study: Sweep single leg takedown finish, taught by Jarrod Goode.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YBG9LkoAMoo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YBG9LkoAMoo",
+      "url": "https://www.youtube.com/watch?v=YBG9LkoAMoo",
+      "creator": { "@type": "Person", "name": "Jarrod Goode" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single leg takedown study",
+      "description": "Single Leg Takedown (Attacker) film study: Single leg takedown study, taught by The Fight Site.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KilowvsfU2U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KilowvsfU2U",
+      "url": "https://www.youtube.com/watch?v=KilowvsfU2U",
+      "creator": { "@type": "Person", "name": "The Fight Site" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 **From Position**: [[Positions/Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg Takedown (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WDtgYMYppHE)
+
+<p class="clip-credit"><strong>Single leg finishes for jiu jitsu and MMA</strong> — taught by Steel City MMA · 1:08 · <a href="https://www.youtube.com/watch?v=WDtgYMYppHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YBG9LkoAMoo)
+
+<p class="clip-credit"><strong>Sweep single leg takedown finish</strong> — taught by Jarrod Goode · 1:27 · <a href="https://www.youtube.com/watch?v=YBG9LkoAMoo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KilowvsfU2U)
+
+<p class="clip-credit"><strong>Single leg takedown study</strong> — taught by The Fight Site · 1:29 · <a href="https://www.youtube.com/watch?v=KilowvsfU2U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

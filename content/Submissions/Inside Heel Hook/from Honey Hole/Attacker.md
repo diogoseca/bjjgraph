@@ -176,6 +176,54 @@ description: "Learn to execute the Inside Heel Hook from Honey Hole. Step-by-ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Heel Hook from Honey Hole (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Honey Hole Heel Hook Finish",
+      "description": "Inside Heel Hook from Honey Hole (Attacker) film study: Honey Hole Heel Hook Finish, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3KAO2Ck4HRg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3KAO2Ck4HRg",
+      "url": "https://www.youtube.com/watch?v=3KAO2Ck4HRg",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Honey Hole to Heel Hook Finish",
+      "description": "Inside Heel Hook from Honey Hole (Attacker) film study: Honey Hole to Heel Hook Finish, taught by Ilya Bodnya.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
+      "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
+      "creator": { "@type": "Person", "name": "Ilya Bodnya" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inside Heel Hook Finish",
+      "description": "Inside Heel Hook from Honey Hole (Attacker) film study: Inside Heel Hook Finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
+      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT18S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Executing the Inside Heel Hook from Honey Hole requires systematic establishment
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Heel Hook from Honey Hole (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3KAO2Ck4HRg)
+
+<p class="clip-credit"><strong>Honey Hole Heel Hook Finish</strong> — taught by JitzLive · 0:52 · <a href="https://www.youtube.com/watch?v=3KAO2Ck4HRg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
+
+<p class="clip-credit"><strong>Honey Hole to Heel Hook Finish</strong> — taught by Ilya Bodnya · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+
+<p class="clip-credit"><strong>Inside Heel Hook Finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

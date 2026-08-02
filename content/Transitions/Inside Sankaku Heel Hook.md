@@ -34,6 +34,54 @@ description: "Master the Inside Sankaku Heel Hook in BJJ. Comprehensive guide to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Sankaku Heel Hook \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside heel hook breakdown",
+      "description": "Inside Sankaku Heel Hook film study: Inside heel hook breakdown, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rjMVCd6n1TA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rjMVCd6n1TA",
+      "url": "https://www.youtube.com/watch?v=rjMVCd6n1TA",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Heel hook breaking mechanics",
+      "description": "Inside Sankaku Heel Hook film study: Heel hook breaking mechanics, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
+      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inside heel hook from butterfly guard",
+      "description": "Inside Sankaku Heel Hook film study: Inside heel hook from butterfly guard, taught by Mike Palladino.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RDZrtByKcNI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RDZrtByKcNI",
+      "url": "https://www.youtube.com/watch?v=RDZrtByKcNI",
+      "creator": { "@type": "Person", "name": "Mike Palladino" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Execution requires systematic progression through several control checkpoints be
 The heel hook attacks the knee's ligaments through rotational force transmitted via the heel and ankle, making it one of the most dangerous techniques in grappling. The Inside Sankaku configuration provides superior breaking mechanics because the figure-four entanglement prevents the opponent from rotating with the applied force, amplifying effectiveness while limiting defensive options. This positional advantage is why Inside Sankaku remains the preferred finishing position for elite leg lock specialists in high-level competition.
 
 **From Position**: [[Positions/Inside Sankaku]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Sankaku Heel Hook in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rjMVCd6n1TA)
+
+<p class="clip-credit"><strong>Inside heel hook breakdown</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=rjMVCd6n1TA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
+
+<p class="clip-credit"><strong>Heel hook breaking mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RDZrtByKcNI)
+
+<p class="clip-credit"><strong>Inside heel hook from butterfly guard</strong> — taught by Mike Palladino · 1:00 · <a href="https://www.youtube.com/watch?v=RDZrtByKcNI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -76,7 +160,7 @@ The heel hook attacks the knee's ligaments through rotational force transmitted 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Inside Heel Hook]] | 50% |
+| Success | [[Inside Heel Hook from Inside Sankaku]] | 50% |
 | Failure | [[Positions/Inside Sankaku]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
@@ -251,7 +335,7 @@ The Inside Sankaku Heel Hook sits at the apex of the modern leg lock system as t
 
 - [[Heel Hook from Saddle]] - Related heel hook finish from a different leg entanglement position
 
-- [[Transitions/Outside Heel Hook]] - Opposite heel hook variant accessible when opponent rotates defensively
+- [[Submissions/Outside Heel Hook]] - Opposite heel hook variant accessible when opponent rotates defensively
 
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Transition target when opponent clears knee line during heel hook attempt
 

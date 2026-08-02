@@ -271,93 +271,237 @@
     "transitions": [
       {
         "transition": "Butterfly Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Butterfly Smash",
-        "attempt_probability": 34
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Standing up in Base",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 12
+        }
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Double Under Pass",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
       },
       {
         "transition": "Leg Weave Pass",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 8
+        }
       },
       {
         "transition": "Back Step Pass",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Body Lock Pass",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 10
+        }
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
       },
       {
         "transition": "Over-Under Pass",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
       },
       {
         "transition": "Pass Butterfly Hook Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
       },
       {
         "transition": "Smash from Butterfly Hook Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       }
     ],
     "flashcards": [
       {
         "question": "Your opponent starts elevating with their hooks while maintaining collar grip - what immediate base adjustment do you make?",
-        "answer": "Widen your knee base immediately while driving your hips backward and down toward the mat. This lowers your center of gravity and removes the angle the hooks need for effective elevation. Simultaneously break the collar grip by stripping it with both hands or swimming your head through, as the grip is what allows them to direct your weight during the sweep. Without the collar control, their elevation becomes undirected force you can redirect."
+        "answer": "Widen your knee base immediately while driving your hips backward and down toward the mat. This lowers your center of gravity and removes the angle the hooks need for effective elevation. Simultaneously break the collar grip by stripping it with both hands or swimming your head through, as the grip is what allows them to direct your weight during the sweep. Without the collar control, their elevation becomes undirected force you can redirect.",
+        "answer_line": "Widen base, strip collar grip",
+        "distractors": {
+          "plausible": [
+            "Lower base but keep collar grip",
+            "Sit back without addressing grip"
+          ],
+          "trap": [
+            "Post both hands wide on mat"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining position against butterfly hooks?",
-        "answer": "Priority grips include collar control on the same side you plan to pass (prevents them pulling you into sweep direction), sleeve or wrist control on their dominant grip hand (neutralizes their directional control), and underhook or crossface control to prevent them sitting up into strong posture. In no-gi, head position combined with wrist control serves similar function. The key is denying them the upper body connections they need to direct sweeping force."
+        "answer": "Priority grips include collar control on the same side you plan to pass (prevents them pulling you into sweep direction), sleeve or wrist control on their dominant grip hand (neutralizes their directional control), and underhook or crossface control to prevent them sitting up into strong posture. In no-gi, head position combined with wrist control serves similar function. The key is denying them the upper body connections they need to direct sweeping force.",
+        "answer_line": "Collar, wrist, underhook control",
+        "distractors": {
+          "plausible": [
+            "Double underhooks only",
+            "Crossface without wrist control"
+          ],
+          "trap": [
+            "Grab both ankles to control hooks"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary arm drag back take threat from butterfly guard?",
-        "answer": "Keep elbows tight to your ribs at all times - the arm drag requires them to isolate your arm away from your body. When you feel them grip your tricep or wrist for the drag, immediately circle your elbow down and in toward your hip while driving your shoulder forward into their chest. If the drag begins, you must circle away from the drag direction while maintaining base. Never reach or post with straight arms near their body, as extended arms are easy drag targets."
+        "answer": "Keep elbows tight to your ribs at all times - the arm drag requires them to isolate your arm away from your body. When you feel them grip your tricep or wrist for the drag, immediately circle your elbow down and in toward your hip while driving your shoulder forward into their chest. If the drag begins, you must circle away from the drag direction while maintaining base. Never reach or post with straight arms near their body, as extended arms are easy drag targets.",
+        "answer_line": "Keep elbows tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Post straight arm to base",
+            "Pull arm back once gripped"
+          ],
+          "trap": [
+            "Reach out to control their hip"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish before attempting to pass butterfly guard?",
-        "answer": "First priority is controlling their dominant upper body grip to prevent sweep direction. Second is establishing collar grip or underhook on the side you intend to pass. Third is controlling their far hip or pants to prevent them creating angles. These three control points form a triangle that limits their offensive options. Only after establishing at least two of these should you begin active passing attempts."
+        "answer": "First priority is controlling their dominant upper body grip to prevent sweep direction. Second is establishing collar grip or underhook on the side you intend to pass. Third is controlling their far hip or pants to prevent them creating angles. These three control points form a triangle that limits their offensive options. Only after establishing at least two of these should you begin active passing attempts.",
+        "answer_line": "Control grip, collar, far hip",
+        "distractors": {
+          "plausible": [
+            "Grip fight, then rush the pass",
+            "Underhook only, then pass"
+          ],
+          "trap": [
+            "Grab both feet before gripping"
+          ]
+        }
       },
       {
         "question": "How do you apply forward pressure without getting swept?",
-        "answer": "The key is distributing weight through your chest and shoulders into their upper body while keeping your hips back and base wide. Your weight should feel heavy on their chest but your center of gravity stays behind your knees, not over their hooks. Think of pressing down diagonally rather than straight forward. This pressure prevents them sitting up without loading your weight onto their hooks where they can elevate and sweep."
+        "answer": "The key is distributing weight through your chest and shoulders into their upper body while keeping your hips back and base wide. Your weight should feel heavy on their chest but your center of gravity stays behind your knees, not over their hooks. Think of pressing down diagonally rather than straight forward. This pressure prevents them sitting up without loading your weight onto their hooks where they can elevate and sweep.",
+        "answer_line": "Chest pressure, hips stay back",
+        "distractors": {
+          "plausible": [
+            "Drive weight straight forward",
+            "Narrow base for more pressure"
+          ],
+          "trap": [
+            "Load weight onto their hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent suddenly sits up explosively and pumps their hooks - what is your immediate response?",
-        "answer": "Immediately drive your forehead or shoulder into their chest while sprawling your hips backward and widening your base. This stops their upward momentum and prevents them achieving the elevation angle needed for the sweep. Do not try to post your hands wide - keep elbows tight to prevent arm drag. If they achieve significant elevation, standing up in base is often safer than trying to recover kneeling position while elevated."
+        "answer": "Immediately drive your forehead or shoulder into their chest while sprawling your hips backward and widening your base. This stops their upward momentum and prevents them achieving the elevation angle needed for the sweep. Do not try to post your hands wide - keep elbows tight to prevent arm drag. If they achieve significant elevation, standing up in base is often safer than trying to recover kneeling position while elevated.",
+        "answer_line": "Drive forehead in, sprawl hips",
+        "distractors": {
+          "plausible": [
+            "Post hands wide to block hooks",
+            "Grip fight instead of sprawling"
+          ],
+          "trap": [
+            "Stay kneeling and fight recovery"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when passing butterfly guard against an active opponent?",
-        "answer": "Avoid constant forward pressure battles which exhaust you faster than the guard player. Instead, use intermittent pressure bursts followed by grip fighting and position consolidation. Focus on systematically removing one hook at a time rather than trying to pass both simultaneously. Accept that passing butterfly often requires multiple attempts - conserve energy between attempts by controlling distance and grips rather than constantly engaging with the hooks."
+        "answer": "Avoid constant forward pressure battles which exhaust you faster than the guard player. Instead, use intermittent pressure bursts followed by grip fighting and position consolidation. Focus on systematically removing one hook at a time rather than trying to pass both simultaneously. Accept that passing butterfly often requires multiple attempts - conserve energy between attempts by controlling distance and grips rather than constantly engaging with the hooks.",
+        "answer_line": "Pulse pressure, clear one hook",
+        "distractors": {
+          "plausible": [
+            "Grip fight only, no pressure",
+            "Remove both hooks simultaneously"
+          ],
+          "trap": [
+            "Grind constant forward pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent partially sweeps you but you post your hand to stop the sweep - how do you recover to stable position?",
-        "answer": "From the posted position, immediately drive your shoulder and head forward into their upper body while walking your base back underneath you. Do not try to lift your posted hand until your base is stable - instead use it as a pivot point while you bring your knees back to wide position. Once base is recovered, strip any grips they have before resuming your passing strategy. If they maintain strong control during your recovery, consider standing up rather than fighting to re-establish kneeling base."
+        "answer": "From the posted position, immediately drive your shoulder and head forward into their upper body while walking your base back underneath you. Do not try to lift your posted hand until your base is stable - instead use it as a pivot point while you bring your knees back to wide position. Once base is recovered, strip any grips they have before resuming your passing strategy. If they maintain strong control during your recovery, consider standing up rather than fighting to re-establish kneeling base.",
+        "answer_line": "Drive forward, walk base back",
+        "distractors": {
+          "plausible": [
+            "Strip grips before basing out",
+            "Stand up immediately to escape"
+          ],
+          "trap": [
+            "Lift posted hand right away"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wgnw31_o3kk",
+        "title": "Defending and removing butterfly hooks",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xqkFPzJTspk",
+        "title": "Removing butterfly hooks",
+        "by": "SBG PDX",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 122,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "LIITsrlsAaI",
+        "title": "Passing half butterfly guard",
+        "by": "Morto BJJ",
+        "vertical": false,
+        "channel": "Morto BJJ",
+        "duration": 70,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -585,106 +729,395 @@
     "transitions": [
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 41
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 15
+        }
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 10
+        }
       },
       {
         "transition": "Butterfly Guard to X-Guard",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Hook Sweep",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Elevator Sweep",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
-        "transition": "Guillotine Setup",
-        "attempt_probability": 5
+        "transition": "Guillotine Choke from Butterfly Guard",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 5
+        }
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 10
+        }
       },
       {
         "transition": "Butterfly Sweep with Guillotine",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 4
+        }
       },
       {
         "transition": "Butterfly Hook Recovery",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
       },
       {
         "transition": "Kimura Sweep",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
-        "transition": "Collar Drag",
-        "attempt_probability": 1
+        "transition": "Collar Drag from Open Guard",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 1
+        }
       },
       {
         "transition": "John Wayne Sweep",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Sumi Gaeshi",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Arm Drag Sweep",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Butterfly Hook Sweep",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Reguard to Butterfly Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       }
     ],
     "flashcards": [
       {
         "question": "Your opponent starts driving heavy chest pressure to flatten you - what immediate adjustment do you make?",
-        "answer": "First, post one hand behind you on the mat to create a frame preventing you from being driven flat. Simultaneously pull with your collar or underhook grip while pumping your hooks upward to create space. The combination of posting, pulling, and hook elevation should restore your upright posture. If you cannot restore posture, transition to half butterfly or closed guard before being completely flattened - a flat position eliminates your hook leverage entirely."
+        "answer": "First, post one hand behind you on the mat to create a frame preventing you from being driven flat. Simultaneously pull with your collar or underhook grip while pumping your hooks upward to create space. The combination of posting, pulling, and hook elevation should restore your upright posture. If you cannot restore posture, transition to half butterfly or closed guard before being completely flattened - a flat position eliminates your hook leverage entirely.",
+        "answer_line": "Post hand, pull grip, pump hooks",
+        "distractors": {
+          "plausible": [
+            "Push their chest away with arms",
+            "Pump hooks without framing"
+          ],
+          "trap": [
+            "Let them flatten, then escape"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining effective butterfly hook control?",
-        "answer": "Primary grips include collar grip on the same side as your intended sweep direction (allows you to pull their weight onto your sweeping hook), underhook on the opposite side (provides upper body control and arm drag threat), and sleeve or wrist control to prevent them posting. In no-gi, double underhooks or collar tie with wrist control serve similar functions. The grips must connect to your hook action - they direct where opponent's weight goes when you elevate."
+        "answer": "Primary grips include collar grip on the same side as your intended sweep direction (allows you to pull their weight onto your sweeping hook), underhook on the opposite side (provides upper body control and arm drag threat), and sleeve or wrist control to prevent them posting. In no-gi, double underhooks or collar tie with wrist control serve similar functions. The grips must connect to your hook action - they direct where opponent's weight goes when you elevate.",
+        "answer_line": "Collar same side, underhook other",
+        "distractors": {
+          "plausible": [
+            "Underhook same side as collar",
+            "Both underhooks, no collar"
+          ],
+          "trap": [
+            "Grip both ankles instead of collar"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary butterfly smash threat when opponent drives their knee through your hooks?",
-        "answer": "When you feel them loading weight onto one knee to drive through, immediately remove the same-side hook and hip escape in that direction, transitioning to deep half guard by getting your shoulder under their driving leg. The key is recognizing the smash early - once their knee passes your hip line, the smash is already successful. Alternatively, you can elevate explosively before they commit their weight, turning their forward momentum into sweep momentum."
+        "answer": "When you feel them loading weight onto one knee to drive through, immediately remove the same-side hook and hip escape in that direction, transitioning to deep half guard by getting your shoulder under their driving leg. The key is recognizing the smash early - once their knee passes your hip line, the smash is already successful. Alternatively, you can elevate explosively before they commit their weight, turning their forward momentum into sweep momentum.",
+        "answer_line": "Remove hook, go deep half",
+        "distractors": {
+          "plausible": [
+            "Push back against driving knee",
+            "Post hand and try to sit up"
+          ],
+          "trap": [
+            "Wait until knee passes hip line"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish before attempting a butterfly sweep?",
-        "answer": "First establish collar grip on the side you plan to sweep toward - this pulls their weight onto your sweeping hook. Second, secure underhook or overhook on the opposite side to prevent them posting in that direction. These two grips create the directional control needed for the sweep. Only initiate the sweep once both controls are secure - attempting sweeps without proper grips results in opponent easily posting and passing."
+        "answer": "First establish collar grip on the side you plan to sweep toward - this pulls their weight onto your sweeping hook. Second, secure underhook or overhook on the opposite side to prevent them posting in that direction. These two grips create the directional control needed for the sweep. Only initiate the sweep once both controls are secure - attempting sweeps without proper grips results in opponent easily posting and passing.",
+        "answer_line": "Collar grip on sweep side first",
+        "distractors": {
+          "plausible": [
+            "Underhook first, then the collar",
+            "Secure the overhook before any grips"
+          ],
+          "trap": [
+            "Reach far underhook, expose the back"
+          ]
+        }
       },
       {
         "question": "How do you apply constant hook pressure without exhausting your hip flexors?",
-        "answer": "Rather than maintaining maximum tension constantly, use rhythmic pulsing pressure - brief moments of strong elevation followed by momentary relaxation. This fatigue-resistant approach keeps opponent off-balance without burning out your hip flexors. Position your feet at the crease of their hips where minimal effort produces maximum disruption. Focus on timing your maximum pressure to coincide with sweep attempts rather than fighting a constant battle of strength."
+        "answer": "Rather than maintaining maximum tension constantly, use rhythmic pulsing pressure - brief moments of strong elevation followed by momentary relaxation. This fatigue-resistant approach keeps opponent off-balance without burning out your hip flexors. Position your feet at the crease of their hips where minimal effort produces maximum disruption. Focus on timing your maximum pressure to coincide with sweep attempts rather than fighting a constant battle of strength.",
+        "answer_line": "Pulse pressure, feet at hip crease",
+        "distractors": {
+          "plausible": [
+            "Constant max tension on hooks",
+            "Feet on hips, steady pressure"
+          ],
+          "trap": [
+            "Hold maximum tension the entire roll"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand wide when you initiate a sweep - what is your immediate adjustment?",
-        "answer": "The wide post exposes two immediate opportunities. First option: switch sweep direction to the opposite side since their weight is now committed to the posted side. Second option: attack the posted arm with a kimura grip since it's isolated away from their body. Third option: if they've squared their hips to post, execute an arm drag on the near arm since their posting side cannot react quickly. The posted hand is not a successful defense - it's an opportunity they've given you."
+        "answer": "The wide post exposes two immediate opportunities. First option: switch sweep direction to the opposite side since their weight is now committed to the posted side. Second option: attack the posted arm with a kimura grip since it's isolated away from their body. Third option: if they've squared their hips to post, execute an arm drag on the near arm since their posting side cannot react quickly. The posted hand is not a successful defense - it's an opportunity they've given you.",
+        "answer_line": "Switch direction or kimura arm",
+        "distractors": {
+          "plausible": [
+            "Abandon sweep, reset position",
+            "Wait for a better opportunity"
+          ],
+          "trap": [
+            "Push through original direction"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when maintaining butterfly guard against a patient, pressure-based passer?",
-        "answer": "Avoid trying to sweep every few seconds against someone who stays low and heavy. Instead, use your hooks to prevent them settling while grip fighting to establish advantageous controls. When they become static waiting for you to tire, that's when you execute crisp sweep attempts. Alternate between active hook pressure and moments of positional holding. Consider transitioning to half guard or closed guard if they're content to wait - these positions allow better energy conservation while maintaining offense."
+        "answer": "Avoid trying to sweep every few seconds against someone who stays low and heavy. Instead, use your hooks to prevent them settling while grip fighting to establish advantageous controls. When they become static waiting for you to tire, that's when you execute crisp sweep attempts. Alternate between active hook pressure and moments of positional holding. Consider transitioning to half guard or closed guard if they're content to wait - these positions allow better energy conservation while maintaining offense.",
+        "answer_line": "Grip fight, wait for openings",
+        "distractors": {
+          "plausible": [
+            "Sweep every few seconds",
+            "Switch guard only when tired"
+          ],
+          "trap": [
+            "Let them settle into pressure"
+          ]
+        }
       },
       {
         "question": "Your sweep attempt fails and opponent passes to half guard - how do you prevent full guard pass and recover?",
-        "answer": "Immediately frame against their crossface with your inside arm and establish an underhook with your outside arm. Your bottom knee should shield against them completing the pass while your top leg looks to re-establish butterfly hook or go to knee shield. The underhook is critical - without it, they'll flatten you and complete the pass. From this defensive half guard, you can work back to butterfly if you secure the underhook, or transition to deep half by getting under their base."
+        "answer": "Immediately frame against their crossface with your inside arm and establish an underhook with your outside arm. Your bottom knee should shield against them completing the pass while your top leg looks to re-establish butterfly hook or go to knee shield. The underhook is critical - without it, they'll flatten you and complete the pass. From this defensive half guard, you can work back to butterfly if you secure the underhook, or transition to deep half by getting under their base.",
+        "answer_line": "Frame crossface, get underhook",
+        "distractors": {
+          "plausible": [
+            "Push their hips away with legs",
+            "Re-establish full guard directly"
+          ],
+          "trap": [
+            "Let go of underhook, turn away"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "sJfkAL95S9k",
+        "title": "2-on-1 lift to back from butterfly",
+        "by": "Lorenz Sadychow",
+        "vertical": true,
+        "channel": "Systematic Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "mJyjWNGm_XE",
+        "title": "The hook sweep in 5 steps",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "4CW6mPgx4C0",
+        "title": "Reverse hook sweep to Hart roll",
+        "by": "Hart Jiu Jitsu",
+        "vertical": false,
+        "channel": "Hart Jiu Jitsu",
+        "duration": 48,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What foot configuration defines Butterfly Hook Control and distinguishes it from other open guards?",
+      "answer": "The defining feature is both insteps hooked inside the opponent's thighs, with the tops of the feet wedged into the inner-thigh crease rather than merely resting on the hips. This inside-the-thigh placement lets the seated player load elevation directly into the opponent's base through the femur, unlike the shin-based frames of positions like Z-guard or the foot-on-hip control of other open guards. The hooks keep a live connection to the opponent's lower body so that any lift immediately unsettles the top player's weight. It is this bilateral inside-hook structure, not a grip, that makes the position a butterfly configuration.",
+      "answer_line": "Insteps hooked inside thighs",
+      "distractors": {
+        "plausible": [
+          "Shins wedged across their hips",
+          "Feet resting flat on their hips"
+        ],
+        "trap": [
+          "Hooks placed outside their thighs"
+        ]
+      }
+    },
+    {
+      "question": "Why is upright, elevated posture a shared structural requirement in this position rather than a role-specific preference?",
+      "answer": "Butterfly Hook Control functions only while the seated player's head and chest stay above hip level, because the hooks generate lift by extending against a torso that is stacked over the base. If that player is flattened to their back, the insteps lose their lever angle and can no longer transfer force into the top player. Correspondingly, the top player's entire game is organized around driving that posture down, since collapsing it neutralizes the hooks without having to remove them. The contest over the seated player's spinal posture is therefore the central mechanical battle both sides are fighting.",
+      "answer_line": "Posture up keeps hooks effective",
+      "distractors": {
+        "plausible": [
+          "Only top player needs good posture",
+          "Posture matters just for comfort"
+        ],
+        "trap": [
+          "Let chest drop to relax hips"
+        ]
+      }
+    },
+    {
+      "question": "How does distance management govern whether this position stays live for both players?",
+      "answer": "The hooks require a specific mid-range gap: close enough that the insteps stay wedged in the thigh crease, but not so close that chest-to-chest pressure crushes the knees toward the mat. When the top player closes distance and connects chest to chest, the hooks lose their extension room and the elevation lever collapses. When distance opens too far, the insteps slide off the thighs and the position dissolves into a generic open guard. Both players are constantly negotiating this same window, which is why the position feels dynamic and unstable compared to a settled pin or closed guard.",
+      "answer_line": "Mid-range gap, not too close",
+      "distractors": {
+        "plausible": [
+          "Stay as close as possible always",
+          "Maximize distance to stay safe"
+        ],
+        "trap": [
+          "Let them close to chest pressure"
+        ]
+      }
+    },
+    {
+      "question": "What role does the coordination between upper-body connection and the hooks play in the position's mechanics?",
+      "answer": "An isolated hook only elevates a leg; it becomes an off-balancing force when paired with an upper-body connection such as a collar tie, underhook, or wrist control that fixes the opponent's torso. The upper-body grip supplies the anchor and direction while the hook supplies the vertical lift, so the two act as a single coupled lever. This is why the position is fundamentally a two-point control system rather than a leg game. For the top player the mirror logic holds: breaking either the upper connection or the hook connection alone is enough to defuse the coupled action.",
+      "answer_line": "Pair upper grip with hook lift",
+      "distractors": {
+        "plausible": [
+          "Hooks alone create the sweep",
+          "Upper grip alone off-balances them"
+        ],
+        "trap": [
+          "Release grip to add more hook power"
+        ]
+      }
+    },
+    {
+      "question": "Why is Butterfly Hook Control characterized as thriving on the opponent's pressure rather than on distance?",
+      "answer": "Unlike distance-based guards that use frames to keep an opponent away, this position converts an engaging opponent's forward and downward force into elevation and rotational momentum. When the top player drives weight forward, that weight loads onto the hooks, which can then redirect it into a sweep arc instead of resisting it head-on. A passive top player who refuses to commit pressure actually starves the hooks of the force they redirect. This dependence on borrowed momentum is what makes the configuration reward close, committed engagement from both sides.",
+      "answer_line": "Redirects opponent's forward force",
+      "distractors": {
+        "plausible": [
+          "Works best keeping opponent at range",
+          "Requires opponent to stay passive"
+        ],
+        "trap": [
+          "Push opponent away to create room"
+        ]
+      }
+    },
+    {
+      "question": "What makes the seated player's hips the most contested control point in this position?",
+      "answer": "The hips are the pivot that connects the hooks to the rest of the guard, and they must stay mobile and slightly elevated for the position to remain offensive. Live hips let the seated player rotate to create the angle that turns a straight lift into a directional sweep, while a top player who pins the hips flat removes that rotational option and begins to pass. Because the insteps route their force through the hip line into the torso, controlling the hips simultaneously governs hook effectiveness and posture. Both players therefore treat hip position as the hinge on which the entire exchange turns.",
+      "answer_line": "Keep hips mobile and elevated",
+      "distractors": {
+        "plausible": [
+          "Keep hips flat for stability",
+          "Hips matter only for top player"
+        ],
+        "trap": [
+          "Let hips settle flat to rest"
+        ]
+      }
+    },
+    {
+      "question": "How does Butterfly Hook Control differ mechanically from half guard and X-guard, its immediate neighbors?",
+      "answer": "In half guard the bottom player traps one of the opponent's legs between their own, trading mobility for control of a single limb, whereas butterfly hooks the insides of both thighs without capturing a leg. X-guard extends the same inside-hooking principle beneath a standing opponent, using an X-shaped foot configuration under one leg to control a fully upright base rather than a kneeling one. Butterfly Hook Control specifically addresses a kneeling or combat-base opponent at seated range, which is why the opponent standing typically forces a transition out to X-guard or single-leg X. Recognizing these boundaries is what tells both players when the position has ended and a new one has begun.",
+      "answer_line": "Hooks both thighs, kneeling opp",
+      "distractors": {
+        "plausible": [
+          "Traps one leg like half guard",
+          "Hooks under a standing opponent"
+        ],
+        "trap": [
+          "Switch to X-guard if they kneel"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "OQCEokRYP4c",
+      "title": "Butterfly guard highlights",
+      "by": "Forge Forward",
+      "vertical": false,
+      "channel": "Forge Forward",
+      "duration": 78,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ywB6TEyjyRM",
+      "title": "Butterfly sweep on hip, one hook",
+      "by": "Nine Nine Jiu Jitsu",
+      "vertical": false,
+      "channel": "Nine Nine Jiu Jitsu",
+      "duration": 58,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "c8JBXJMc0Oc",
+      "title": "Marcelo Garcia butterfly sweep",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "Butterfly The World",
+      "duration": 81,
+      "verified": "2026-07-14"
+    }
+  ]
 }

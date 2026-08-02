@@ -34,6 +34,54 @@ description: "Master Ashi Garami leg entanglements in BJJ. Complete guide to sys
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ashi Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva knee bump ashi entry",
+      "description": "Ashi Garami film study: De La Riva knee bump ashi entry, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_4jDUxFg7uU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_4jDUxFg7uU",
+      "url": "https://www.youtube.com/watch?v=_4jDUxFg7uU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ashi Garami Explained: The Modern No-Gi Control System",
+      "description": "Ashi Garami film study: Ashi Garami Explained: The Modern No-Gi Control System, taught by Grappling Theory.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hhOOwMNfV-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hhOOwMNfV-0",
+      "url": "https://www.youtube.com/watch?v=hhOOwMNfV-0",
+      "creator": { "@type": "Person", "name": "Grappling Theory" },
+      "duration": "PT606S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ashi Garami 101: Basic Mechanics and Drills",
+      "description": "Ashi Garami film study: Ashi Garami 101: Basic Mechanics and Drills, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pYnp2_gJIoM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pYnp2_gJIoM",
+      "url": "https://www.youtube.com/watch?v=pYnp2_gJIoM",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT331S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ The strategic value of Ashi Garami positions extends beyond submission threats. 
 Understanding Ashi Garami requires recognizing the position as a complete system rather than isolated techniques. Success in these positions demands mastery of fundamental principles including hip positioning, inside space control, heel exposure mechanics, and transitional pathways between variations. The position family's effectiveness has fundamentally altered competitive grappling strategy, making leg lock defense and Ashi Garami understanding essential components of any complete grappling game. Training progression should follow the positional hierarchy—mastering Outside Ashi control before advancing to Inside Ashi, then Cross Ashi, and finally Saddle—building mechanical understanding at each level before progressing to the next.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ashi Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_4jDUxFg7uU)
+
+<p class="clip-credit"><strong>De La Riva knee bump ashi entry</strong> — taught by Gordon Ryan · 2:45 · <a href="https://www.youtube.com/watch?v=_4jDUxFg7uU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hhOOwMNfV-0)
+
+<p class="clip-credit"><strong>Ashi Garami Explained: The Modern No-Gi Control System</strong> — taught by Grappling Theory · 10:06 · <a href="https://www.youtube.com/watch?v=hhOOwMNfV-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pYnp2_gJIoM)
+
+<p class="clip-credit"><strong>Ashi Garami 101: Basic Mechanics and Drills</strong> — taught by Brian Glick · 5:31 · <a href="https://www.youtube.com/watch?v=pYnp2_gJIoM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -136,37 +220,35 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Available Transitions
 
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (58% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (15% of attempts)
 
-- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (4% of attempts)
+- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (8% of attempts)
 
-- **[[Heel Hook from Ashi Garami/Attacker|Heel Hook from Ashi Garami]]** (2% of attempts)
+- **[[Heel Hook from Ashi Garami/Attacker|Heel Hook from Ashi Garami]]** (15% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (9% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (11% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (2% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (7% of attempts)
 
-- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (2% of attempts)
+- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (4% of attempts)
 
-- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (2% of attempts)
+- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (4% of attempts)
 
-- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (2% of attempts)
+- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (7% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (2% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (5% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (1% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (3% of attempts)
 
-- **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (1% of attempts)
+- **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (10% of attempts)
 
-- **[[Transitions/Heel Strip from Ashi Garami/Attacker|Heel Strip from Ashi Garami]]** (1% of attempts)
+- **[[Transitions/Heel Strip from Ashi Garami/Attacker|Heel Strip from Ashi Garami]]** (2% of attempts)
 
-- **[[Transitions/Standing Up from Ashi Garami/Attacker|Standing Up from Ashi Garami]]** (1% of attempts)
+- **[[Transitions/Standing Up from Ashi Garami/Attacker|Standing Up from Ashi Garami]]** (3% of attempts)
 
-- **[[Aoki Lock from Ashi Garami/Attacker|Aoki Lock from Ashi Garami]]** (1% of attempts)
+- **[[Aoki Lock from Ashi Garami/Attacker|Aoki Lock from Ashi Garami]]** (2% of attempts)
 
-- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (1% of attempts)
-
-- **[[Transitions/Ashi Garami to Toe Hold Control/Attacker|Ashi Garami to Toe Hold Control]]** (11% of attempts)
+- **[[Transitions/Ashi Garami to Toe Hold Control/Attacker|Ashi Garami to Toe Hold Control]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -223,23 +305,21 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (38% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (13% of attempts)
 
-- **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** (15% of attempts)
+- **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** (17% of attempts)
 
-- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (8% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (14% of attempts)
 
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (4% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (8% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (13% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (13% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
+- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (14% of attempts)
 
-- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (6% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (8% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (4% of attempts)
-
-- **[[Transitions/Ashi Garami to Leg Entanglement/Attacker|Ashi Garami to Leg Entanglement]]** (2% of attempts)
+- **[[Transitions/Ashi Garami to Leg Entanglement/Attacker|Ashi Garami to Leg Entanglement]]** (13% of attempts)
 
 
 ### Common Mistakes

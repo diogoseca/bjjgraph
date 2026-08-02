@@ -21,7 +21,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Russian Cowboy",
   "from_position": "Russian Cowboy/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Rear Naked Choke from Russian Cowboy exploits the asymmetric single-hook back control to establish a blood choke while the opponent manages competing threats from the leg entanglement. Unlike the standard RNC from full back control with both hooks, this variant uses the Russian Cowboy's diagonal body mechanics to create rotational exposure of the neck. The single leg hook pulls the opponent's hips in one direction while the choking arm drives across from the opposite side, generating a stretching force that opens the neck and prevents the defensive curl.\n\nThe setup sequence requires careful grip transition from the riding seatbelt to choking configuration without sacrificing chest-to-back contact. The Russian Cowboy rider must clear the chin line using the free hand while maintaining hook depth with the leg—a coordination challenge that distinguishes this variant from standard back mount applications. The position's inherent instability compared to full back control means the window for choke insertion is narrower, demanding precise timing during the opponent's defensive transitions.\n\nStrategically, the RNC threat serves as the primary fork in the Russian Cowboy attack tree. When the opponent prioritizes neck defense, they expose truck entries, calf slicers, and crucifix transitions. When they prioritize escaping the hook, the neck opens for the choke. This constant threat cycling between upper and lower body attacks makes Russian Cowboy a complete offensive position rather than merely a transitional state.",
   "safety_considerations": {
     "injury_risks": [
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Russian Cowboy/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
@@ -267,52 +279,181 @@
       {
         "question": "What anatomical structures does the Rear Naked Choke from Russian Cowboy specifically target?",
         "answer": "The RNC targets both carotid arteries simultaneously using bilateral compression. The forearm blade covers one carotid artery on the side of the neck while the bicep closes against the opposite carotid when the figure-four is squeezed. This bilateral blood flow restriction to the brain causes unconsciousness within seconds. The choke must never target the trachea or windpipe.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotids via blood choke",
+        "distractors": {
+          "plausible": [
+            "Windpipe airway restriction",
+            "Only one-side carotid pressure"
+          ],
+          "trap": [
+            "Crush trachea for the tap"
+          ]
+        }
       },
       {
         "question": "What control points must be established before attempting the choking sequence from Russian Cowboy?",
         "answer": "Five control points must be confirmed: chest-to-back contact preventing separation, seatbelt grip with choking arm over the shoulder and underhook beneath the armpit, the leg hook engaged at thigh depth or deeper, the opponent's near-side arm controlled to prevent two-on-one defense, and head positioned on the choking-arm side to block defensive shoulder shrugs. Attempting the choke without all five increases escape probability significantly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Seatbelt, hook, arm control, head",
+        "distractors": {
+          "plausible": [
+            "Just seatbelt and leg hook",
+            "Chest contact is enough alone"
+          ],
+          "trap": [
+            "Skip arm control, squeeze now"
+          ]
+        }
       },
       {
         "question": "Your opponent's grip fighting suddenly weakens and their arms drop from defending their neck—what should you do immediately?",
         "answer": "Immediately check for signs of unconsciousness rather than continuing to squeeze. A sudden drop in defensive effort often indicates the blood choke is taking effect and the opponent may be losing consciousness without being able to tap. Release pressure, check responsiveness by calling their name, and if they are unconscious, place them in recovery position and monitor breathing. Never assume they are giving up—always verify consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Check consciousness, don't squeeze",
+        "distractors": {
+          "plausible": [
+            "Assume they're giving up",
+            "Wait for a clear tap signal"
+          ],
+          "trap": [
+            "Increase pressure to finish"
+          ]
+        }
       },
       {
         "question": "At what point in the RNC sequence from Russian Cowboy is the defender effectively past the point of escape?",
         "answer": "Once the figure-four is fully locked with the choking hand gripping the opposite bicep and the free hand positioned behind the head, the defender's escape options drop dramatically. At this stage, two-on-one grip strips become mechanically inefficient against the locked figure-four, and the diagonal stretch from the hook prevents the body curl needed to relieve pressure. The defender's best remaining option is an immediate tap rather than prolonged resistance that risks unconsciousness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four locked, hand behind head",
+        "distractors": {
+          "plausible": [
+            "When both hooks are first set in",
+            "As the choking arm crosses the neck"
+          ],
+          "trap": [
+            "Once the arms begin to squeeze"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous placement error when applying the choking arm and how do you correct it?",
         "answer": "Placing the forearm across the trachea instead of against the side of the neck is the most dangerous error. Trachea compression causes extreme pain, potential cartilage damage, and does not effectively restrict blood flow to the brain—meaning the opponent suffers injury without the choke actually working. Correct by positioning the blade of the forearm flat against the lateral neck with the elbow crook centered directly under the chin, so the squeeze closes bicep and forearm against both carotid arteries.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Forearm blade on side of neck",
+        "distractors": {
+          "plausible": [
+            "Wedge the wrist up under the jaw",
+            "Center your elbow on the sternum"
+          ],
+          "trap": [
+            "Release and re-grip for depth"
+          ]
+        }
       },
       {
         "question": "Your opponent manages to wedge two fingers under your choking forearm during the squeeze—what grip adjustment prevents them from creating space?",
         "answer": "Rather than fighting their fingers directly, shift to a palm-to-palm grip variation by releasing the bicep grip and clasping both hands together behind the opponent's head in a Gable grip or S-grip. This changes the compression vector and eliminates the gap their fingers were exploiting. Simultaneously increase the diagonal stretch through your hook to extend their body, which pulls the neck deeper into whatever grip configuration you hold. Switching grip style is faster than stripping fingers.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to Gable grip on head",
+        "distractors": {
+          "plausible": [
+            "Strip their fingers one by one",
+            "Squeeze the bicep grip harder"
+          ],
+          "trap": [
+            "Open your hook to re-grip"
+          ]
+        }
       },
       {
         "question": "How does the single leg hook specifically contribute to the finishing mechanics of the RNC from Russian Cowboy?",
         "answer": "The hook creates a diagonal stretch by pulling the opponent's hips in one direction while the upper body drives the opposite way. This extending force prevents the defensive curl where the opponent tucks their chin and rounds their shoulders to protect the neck. The stretched body position also makes it mechanically harder for the opponent to generate the hip movement needed to escape or the arm strength needed for grip fighting. Without active hook engagement during the squeeze, the choke loses roughly thirty percent of its mechanical efficiency.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Diagonal stretch blocks chin tuck",
+        "distractors": {
+          "plausible": [
+            "Hook just stops them standing",
+            "Hook adds extra bodyweight"
+          ],
+          "trap": [
+            "Release hook to squeeze harder"
+          ]
+        }
       },
       {
         "question": "Why must the RNC be applied progressively over three to five seconds in training rather than snapped on quickly?",
         "answer": "Progressive application gives the training partner time to recognize increasing pressure and signal a tap before the choke reaches dangerous levels. Blood chokes can cause unconsciousness in as little as four seconds once both carotid arteries are fully compressed. A sudden snap application can render a partner unconscious before they have any opportunity to tap, creating risk of prolonged blood flow restriction, potential brain injury, and secondary injuries from falling. Competition speed application is reserved only for actual competition.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Gives partner time to tap",
+        "distractors": {
+          "plausible": [
+            "Builds better muscle memory",
+            "Matches real competition pace"
+          ],
+          "trap": [
+            "Snap it on for max effect"
+          ]
+        }
       },
       {
         "question": "Your opponent is defending the RNC by tucking their chin aggressively and pinning it to their chest—what finishing strategy works against this defense?",
         "answer": "Apply a palm-to-palm squeeze that compresses through the jawline rather than requiring clean forearm-to-neck contact. Cup your choking hand over the chin area and clasp your other hand over it, then squeeze elbows together while expanding your chest. The pressure transmits through the jaw into the carotid arteries beneath. Alternatively, maintain patient chin-line pressure with your forearm while using the hook stretch to extend their body—the extension gradually weakens their chin tuck as their muscles fatigue under the stretch.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Palm-to-palm squeeze on the jaw",
+        "distractors": {
+          "plausible": [
+            "Wait for the tuck to tire out",
+            "Add a body triangle and hold"
+          ],
+          "trap": [
+            "Crank the neck sideways hard"
+          ]
+        }
       },
       {
         "question": "What immediate actions must you take if your training partner loses consciousness during RNC application?",
         "answer": "Immediately release all choking pressure and remove your arms from around their neck. Gently lower them to the mat and place them in a side-lying recovery position to protect the airway. Call their name and gently shake their shoulder to check responsiveness. Most people regain consciousness within ten to thirty seconds. Do not allow them to stand up immediately after regaining consciousness. If they do not regain consciousness within thirty seconds, call for medical assistance immediately. Stay calm and monitor their breathing continuously.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, recovery position, monitor",
+        "distractors": {
+          "plausible": [
+            "Shake them awake vigorously",
+            "Keep light pressure, check pulse"
+          ],
+          "trap": [
+            "Let them stand up right away"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "kGoEjQMRp3I",
+        "title": "Double deep hook submissions from Russian Cowboy",
+        "by": "10th Planet Rochester",
+        "vertical": false,
+        "channel": "10thPlanetRochester",
+        "duration": 193,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "FpJTnOEkqYI",
+        "title": "Finishing a mandible rear naked choke",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 172,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FGdSXlIxEhk",
+        "title": "2-on-1 Russian Cowboy position explained",
+        "by": "DanTheWolfman",
+        "vertical": false,
+        "channel": "DanTheWolfman",
+        "duration": 178,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -394,27 +535,77 @@
       {
         "question": "What are the earliest physical cues that indicate an RNC is being set up from Russian Cowboy?",
         "answer": "The earliest cue is the attacker's overhook hand releasing from the seatbelt clasp and beginning to move toward your forehead or jaw—this indicates they are transitioning from positional control to chin clearing for the choke. Secondary cues include increased chest pressure into your back, the attacker's head pressing harder against your skull to position for the head drive, and increased tension through the leg hook as they prepare the diagonal stretch. Recognizing the seatbelt break is the critical early warning.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Seatbelt hand releases to chin",
+        "distractors": {
+          "plausible": [
+            "Increased hip pressure first",
+            "Leg hook tightens first"
+          ],
+          "trap": [
+            "Turn away to hide your neck"
+          ]
+        }
       },
       {
         "question": "When should you tap to an RNC from Russian Cowboy and what tap signals are available to you?",
         "answer": "Tap immediately when you feel blood flow restriction to your brain—symptoms include tunnel vision, lightheadedness, or a rushing sensation in your ears. Do not wait to see if you can escape once these symptoms appear. Available tap signals include hand tapping the attacker's body or the mat, foot tapping the mat, saying tap verbally, or making any vocal sound. In training, tap early and tap often. An ego-driven late tap risks unconsciousness and the secondary injuries that come with it.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at first dizziness, any signal",
+        "distractors": {
+          "plausible": [
+            "Tap the mat only, never the body",
+            "Wait till the arm is fully locked"
+          ],
+          "trap": [
+            "Grip the arm and ride it out"
+          ]
+        }
       },
       {
         "question": "What is the most effective defensive technique against the RNC from Russian Cowboy and why?",
         "answer": "The two-on-one grip on the choking wrist is the highest-percentage defense because it uses both of your arms against one of the attacker's arms, creating a significant mechanical advantage. Grip both hands on the choking wrist with thumbs aligned and pull it below your chin line toward your sternum. This is more effective than chin tucking alone because it actively prevents arm insertion rather than passively blocking it. The defense must be initiated before the figure-four locks—once the figure-four is set, two-on-one becomes insufficient against the locked grip structure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one grip the wrist",
+        "distractors": {
+          "plausible": [
+            "Tuck chin and wait it out",
+            "Grab their far-side wrist"
+          ],
+          "trap": [
+            "Pull their elbow up high"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured the figure-four but has not fully applied the squeeze yet—what is your best defensive option?",
         "answer": "With the figure-four already locked, grip stripping becomes very difficult. Your best option is to immediately tuck your chin hard into the crook of their elbow while pulling their choking wrist down with both hands to create any space between their forearm and your neck. Simultaneously begin an explosive hip escape toward their free leg side—this is your last positional escape window before the squeeze tightens. If you cannot create space or escape within a few seconds, tap immediately rather than fighting a locked figure-four to exhaustion and risking unconsciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Chin into the crook of their elbow",
+        "distractors": {
+          "plausible": [
+            "Shrimp out before tucking chin",
+            "Bridge toward their trapped leg"
+          ],
+          "trap": [
+            "Stay flat and wait for a grip slip"
+          ]
+        }
       },
       {
         "question": "You have been defending the RNC grip fight for thirty seconds and your arms are fatiguing—how should you manage this situation?",
         "answer": "Sustained grip fighting against an RNC is an energy battle you will eventually lose if you remain purely defensive. Rather than continuing to grip fight indefinitely, use a brief burst of energy for a decisive escape attempt: bridge hard toward the free leg side while stripping the choking arm and immediately turn to face the opponent. If this escape fails and you are too fatigued to maintain effective two-on-one defense, tap before your grip strength drops below the threshold needed to prevent the choke from locking. Controlled tapping when defense is failing is always preferable to involuntary unconsciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Burst escape, then tap if it fails",
+        "distractors": {
+          "plausible": [
+            "Switch hands to rest one arm",
+            "Peel one finger at a time"
+          ],
+          "trap": [
+            "Let both hands go to rest them"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -437,6 +628,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense with realistic attack combinations",
         "description": "Positional sparring starting from Russian Cowboy with the attacker cycling between RNC, truck entries, and other attacks. Defend all threats while seeking escape opportunities. Develop the ability to read whether the attacker is committing to the choke or transitioning, and choose defensive responses accordingly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "UQO3V3Uo3t4",
+        "title": "Three rear choke defenses everyone should know",
+        "by": "Gracie Breakdown",
+        "vertical": false,
+        "channel": "GracieBreakdown",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "When to sit up to escape the back",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-14"
       }
     ]
   }

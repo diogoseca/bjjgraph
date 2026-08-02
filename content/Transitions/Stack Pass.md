@@ -34,6 +34,43 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stack pass to back control",
+      "description": "Stack Pass film study: Stack pass to back control, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_l_u3jIJaY4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_l_u3jIJaY4",
+      "url": "https://www.youtube.com/watch?v=_l_u3jIJaY4",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stack pass from closed guard",
+      "description": "Stack Pass film study: Stack pass from closed guard, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EC4JVnymW3U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EC4JVnymW3U",
+      "url": "https://www.youtube.com/watch?v=EC4JVnymW3U",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ This pass is particularly effective against opponents who rely on active hip mov
 When executed properly, the Stack Pass transitions seamlessly into dominant side control or mount positions. It serves as both a standalone technique and a pressure tool within larger passing systems, forcing defensive reactions that open complementary passes like knee slice, toreando, and leg drag. The stack pass remains one of the highest-percentage pressure passes at all competitive levels due to the overwhelming mechanical advantage it creates.
 
 **From Position**: [[Positions/Closed Guard]] (Top)
-**Success Rate**: 62%
+**Success Rate**: 51%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_l_u3jIJaY4)
+
+<p class="clip-credit"><strong>Stack pass to back control</strong> — taught by Clark Gracie · 1:13 · <a href="https://www.youtube.com/watch?v=_l_u3jIJaY4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EC4JVnymW3U)
+
+<p class="clip-credit"><strong>Stack pass from closed guard</strong> — taught by Procel BJJ · 1:35 · <a href="https://www.youtube.com/watch?v=EC4JVnymW3U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

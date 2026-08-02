@@ -140,6 +140,54 @@ description: "Learn to defend the Forward Drive Sweep from Dogfight in BJJ. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Forward Drive Sweep from Dogfight (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Whizzer defense: winning the dogfight on top",
+      "description": "Forward Drive Sweep from Dogfight (Defender) film study: Whizzer defense: winning the dogfight on top, taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stopping the half guard underhook before the sweep",
+      "description": "Forward Drive Sweep from Dogfight (Defender) film study: Stopping the half guard underhook before the sweep, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dogfight counter",
+      "description": "Forward Drive Sweep from Dogfight (Defender) film study: Dogfight counter, taught by Cauliflower Ear Family.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GE3rFdjxA-M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GE3rFdjxA-M",
+      "url": "https://www.youtube.com/watch?v=GE3rFdjxA-M",
+      "creator": { "@type": "Person", "name": "Cauliflower Ear Family" },
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Forward Drive Sweep requires the top player to recognize the sweep
 **Opponent's Starting Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Forward Drive Sweep from Dogfight (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
+
+<p class="clip-credit"><strong>Whizzer defense: winning the dogfight on top</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stopping the half guard underhook before the sweep</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GE3rFdjxA-M)
+
+<p class="clip-credit"><strong>Dogfight counter</strong> — taught by Cauliflower Ear Family · 3:14 · <a href="https://www.youtube.com/watch?v=GE3rFdjxA-M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

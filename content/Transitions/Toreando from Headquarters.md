@@ -34,6 +34,54 @@ description: "Master the Toreando from Headquarters in BJJ. Systematic bullfight
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando from Headquarters \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toreando pass to north-south",
+      "description": "Toreando from Headquarters film study: Toreando pass to north-south, taught by Jay Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1Kfm5zqB8GQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1Kfm5zqB8GQ",
+      "url": "https://www.youtube.com/watch?v=1Kfm5zqB8GQ",
+      "creator": { "@type": "Person", "name": "Jay Rodriguez" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Headquarters guard passing simplified",
+      "description": "Toreando from Headquarters film study: Headquarters guard passing simplified, taught by Knight Jiu-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/quM3u9Jxthg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/quM3u9Jxthg",
+      "url": "https://www.youtube.com/watch?v=quM3u9Jxthg",
+      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu coach" },
+      "duration": "PT261S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Modified toreando guard pass",
+      "description": "Toreando from Headquarters film study: Modified toreando guard pass, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S65D0wxPZ7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S65D0wxPZ7c",
+      "url": "https://www.youtube.com/watch?v=S65D0wxPZ7c",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT752S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The strategic value of the Toreando from Headquarters lies in its complementary 
 Execution requires precise coordination between grip acquisition on both legs and the explosive lateral step. The pass fails most commonly when the passer pushes the legs without simultaneously stepping laterally, giving the opponent time to recover hip position and re-establish guard. The leg push and lateral step must function as a single coordinated movement rather than sequential actions. The speed differential between redirecting the legs and clearing the hips determines whether the passer reaches side control or the bottom player recovers guard structure.
 
 **From Position**: [[Positions/Headquarters Position]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 42%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando from Headquarters in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1Kfm5zqB8GQ)
+
+<p class="clip-credit"><strong>Toreando pass to north-south</strong> — taught by Jay Rodriguez · 2:45 · <a href="https://www.youtube.com/watch?v=1Kfm5zqB8GQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=quM3u9Jxthg)
+
+<p class="clip-credit"><strong>Headquarters guard passing simplified</strong> — taught by Knight Jiu-Jitsu coach · 4:21 · <a href="https://www.youtube.com/watch?v=quM3u9Jxthg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S65D0wxPZ7c)
+
+<p class="clip-credit"><strong>Modified toreando guard pass</strong> — taught by Andre Galvao · 12:32 · <a href="https://www.youtube.com/watch?v=S65D0wxPZ7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

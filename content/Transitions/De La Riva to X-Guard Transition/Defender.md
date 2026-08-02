@@ -148,6 +148,54 @@ description: "How to defend against De La Riva to X-Guard Transition in BJJ. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva to X-Guard Transition (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the X-guard",
+      "description": "De La Riva to X-Guard Transition (Defender) film study: Defending the X-guard, taught by Bermuda Martial Arts coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qStfwTHPxLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qStfwTHPxLw",
+      "url": "https://www.youtube.com/watch?v=qStfwTHPxLw",
+      "creator": { "@type": "Person", "name": "Bermuda Martial Arts coach" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing and Entering from De La Riva Guard",
+      "description": "De La Riva to X-Guard Transition (Defender) film study: Passing and Entering from De La Riva Guard, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ucOnMkZV7Og/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ucOnMkZV7Og",
+      "url": "https://www.youtube.com/watch?v=ucOnMkZV7Og",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT401S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing Deep De La Riva X",
+      "description": "De La Riva to X-Guard Transition (Defender) film study: Passing Deep De La Riva X, taught by Aaron Benzrihem.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pfvlyC-JE0M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pfvlyC-JE0M",
+      "url": "https://www.youtube.com/watch?v=pfvlyC-JE0M",
+      "creator": { "@type": "Person", "name": "Aaron Benzrihem" },
+      "duration": "PT388S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The fundamental defensive strategy centers on denying the bottom player the cond
 **Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva to X-Guard Transition (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qStfwTHPxLw)
+
+<p class="clip-credit"><strong>Defending the X-guard</strong> — taught by Bermuda Martial Arts coach · 2:16 · <a href="https://www.youtube.com/watch?v=qStfwTHPxLw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ucOnMkZV7Og)
+
+<p class="clip-credit"><strong>Passing and Entering from De La Riva Guard</strong> — taught by Gordon Ryan · 6:41 · <a href="https://www.youtube.com/watch?v=ucOnMkZV7Og" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pfvlyC-JE0M)
+
+<p class="clip-credit"><strong>Passing Deep De La Riva X</strong> — taught by Aaron Benzrihem · 6:28 · <a href="https://www.youtube.com/watch?v=pfvlyC-JE0M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master saddle position mechanics with systematic entries, control 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Saddle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Honey hole from Single Leg X",
+      "description": "Saddle film study: Honey hole from Single Leg X, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VmxgqU-ScTM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VmxgqU-ScTM",
+      "url": "https://www.youtube.com/watch?v=VmxgqU-ScTM",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single Leg X to honey hole drill",
+      "description": "Saddle film study: Single Leg X to honey hole drill, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IFuZ5o48t8I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IFuZ5o48t8I",
+      "url": "https://www.youtube.com/watch?v=IFuZ5o48t8I",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shoulder roll to cross ashi (saddle)",
+      "description": "Saddle film study: Shoulder roll to cross ashi (saddle), taught by bjj doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eRQVlYxFx1Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eRQVlYxFx1Y",
+      "url": "https://www.youtube.com/watch?v=eRQVlYxFx1Y",
+      "creator": { "@type": "Person", "name": "bjj doug" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +120,42 @@ The modern Saddle game emphasizes control before submission, contrary to earlier
 Understanding the Saddle requires knowledge of both the offensive and defensive perspectives. From bottom, practitioners must recognize the catastrophic danger of this position and employ systematic escape protocols that prioritize protecting the heel, clearing the hip line, and creating space for leg extraction. From top, practitioners must understand the nuanced details that separate a loose leg entanglement from a dominant Saddle—factors including hip pressure, shoulder positioning, grip selection, and maintaining perpendicular alignment to the opponent's body.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Saddle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VmxgqU-ScTM)
+
+<p class="clip-credit"><strong>Honey hole from Single Leg X</strong> — taught by Danny Mitchell · 0:34 · <a href="https://www.youtube.com/watch?v=VmxgqU-ScTM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IFuZ5o48t8I)
+
+<p class="clip-credit"><strong>Single Leg X to honey hole drill</strong> — taught by Gracie Westchase · 1:10 · <a href="https://www.youtube.com/watch?v=IFuZ5o48t8I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eRQVlYxFx1Y)
+
+<p class="clip-credit"><strong>Shoulder roll to cross ashi (saddle)</strong> — taught by bjj doug · 0:42 · <a href="https://www.youtube.com/watch?v=eRQVlYxFx1Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -141,31 +225,27 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (28% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (10% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (2% of attempts)
+- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (10% of attempts)
 
-- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (7% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (6% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (8% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (9% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (10% of attempts)
+- **[[Transitions/Inversion Escape/Attacker|Inversion Escape]]** (5% of attempts)
 
-- **[[Transitions/Inversion Escape/Attacker|Inversion Escape]]** (12% of attempts)
+- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (12% of attempts)
 
-- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (6% of attempts)
+- **[[Transitions/Boot Scoot Escape from Saddle/Attacker|Boot Scoot Escape from Saddle]]** (10% of attempts)
 
-- **[[Transitions/Boot Scoot Escape from Saddle/Attacker|Boot Scoot Escape from Saddle]]** (5% of attempts)
+- **[[Transitions/Fight to Inside Ashi from Saddle/Attacker|Fight to Inside Ashi from Saddle]]** (11% of attempts)
 
-- **[[Transitions/Fight to Inside Ashi from Saddle/Attacker|Fight to Inside Ashi from Saddle]]** (12% of attempts)
+- **[[Transitions/Forward Roll from Saddle/Attacker|Forward Roll from Saddle]]** (5% of attempts)
 
-- **[[Transitions/Forward Roll from Saddle/Attacker|Forward Roll from Saddle]]** (4% of attempts)
+- **[[Transitions/Leg Pummeling from Saddle/Attacker|Leg Pummeling from Saddle]]** (15% of attempts)
 
-- **[[Transitions/Leg Pummeling from Saddle/Attacker|Leg Pummeling from Saddle]]** (3% of attempts)
-
-- **[[Transitions/Sweep from Saddle/Attacker|Sweep from Saddle]]** (2% of attempts)
-
-- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
+- **[[Transitions/Sweep from Saddle/Attacker|Sweep from Saddle]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -222,29 +302,27 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Saddle/Attacker|Outside Heel Hook from Saddle]]** (5% of attempts)
-
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (10% of attempts)
+- **[[Outside Heel Hook from Saddle/Attacker|Outside Heel Hook from Saddle]]** (9% of attempts)
 
 - **[[Toe Hold from Saddle/Attacker|Toe Hold from Saddle]]** (9% of attempts)
 
-- **[[Kneebar from Saddle/Attacker|Kneebar from Saddle]]** (2% of attempts)
+- **[[Kneebar from Saddle/Attacker|Kneebar from Saddle]]** (12% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (10% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (5% of attempts)
 
 - **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (6% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (5% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (8% of attempts)
 
-- **[[Calf Slicer from Saddle/Attacker|Calf Slicer from Saddle]]** (1% of attempts)
+- **[[Calf Slicer from Saddle/Attacker|Calf Slicer from Saddle]]** (4% of attempts)
 
-- **[[Estima Lock from Saddle/Attacker|Estima Lock from Saddle]]** (1% of attempts)
+- **[[Estima Lock from Saddle/Attacker|Estima Lock from Saddle]]** (2% of attempts)
 
-- **[[Transitions/Fallback to Inside Ashi-Garami/Attacker|Fallback to Inside Ashi-Garami]]** (3% of attempts)
+- **[[Transitions/Fallback to Inside Ashi-Garami/Attacker|Fallback to Inside Ashi-Garami]]** (7% of attempts)
 
-- **[[Heel Hook from Saddle/Attacker|Heel Hook from Saddle]]** (44% of attempts)
+- **[[Heel Hook from Saddle/Attacker|Heel Hook from Saddle]]** (33% of attempts)
 
-- **[[Transitions/Saddle Fallback to Inside Ashi/Attacker|Saddle Fallback to Inside Ashi]]** (4% of attempts)
+- **[[Transitions/Saddle Fallback to Inside Ashi/Attacker|Saddle Fallback to Inside Ashi]]** (5% of attempts)
 
 
 ### Common Mistakes

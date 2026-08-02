@@ -21,7 +21,7 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Kesa Gatame",
-      "text": "From this position, attempt Back Take from Kesa Gatame. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Kesa Gatame. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Turn to Turtle",
-      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ghost Escape",
-      "text": "From this position, attempt Ghost Escape. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Ghost Escape from Side Control",
+      "text": "From this position, attempt Ghost Escape from Side Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kesa Gatame (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Kesa Gatame Escape to Back Take",
+      "description": "Kesa Gatame (Bottom) film study: Reverse Kesa Gatame Escape to Back Take, taught by Gymnanigains.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
+      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
+      "creator": { "@type": "Person", "name": "Gymnanigains" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame Escape",
+      "description": "Kesa Gatame (Bottom) film study: Kesa Gatame Escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa Gatame Pressure Defense w/ Framing",
+      "description": "Kesa Gatame (Bottom) film study: Kesa Gatame Pressure Defense w/ Framing, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The defensive challenge of Kesa Gatame Bottom centers on the opponent's ability 
 From a strategic perspective, the bottom player in Kesa Gatame must internalize that this is not a position to endure passively. Every second spent flat on the back under Kesa Gatame compounds the problem as the top player settles their weight and the bottom player's energy depletes. The escape mentality must be immediate and proactive, with the bottom player cycling through escape attempts while maintaining defensive integrity. The unique geometry of Kesa Gatame means that the top player's back is inherently exposed, creating reversal opportunities that do not exist in standard side control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kesa Gatame (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
+
+<p class="clip-credit"><strong>Reverse Kesa Gatame Escape to Back Take</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa Gatame Escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense w/ Framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -226,7 +310,7 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 
 **If opponent shifts weight forward toward your head or attempts to transition to mount:**
 - Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** → [[Positions/Turtle]] (Probability: 45%)
 - Execute **[[Transitions/Back Take from Kesa Gatame/Attacker|Back Take from Kesa Gatame]]** → [[Positions/Back Control]] (Probability: 35%)
 
 
@@ -358,7 +442,7 @@ Bottom player cycles through multiple escape attempts in sequence: attempt elbow
 - **[[Positions/Half Guard]]** - Primary guard recovery target
 - **[[Transitions/Bridge and Roll]]** - Primary escape technique from this position
 - **[[Transitions/Elbow Escape to Guard]]** - Fundamental escape movement pattern
-- **[[Transitions/Ghost Escape]]** - High-percentage escape exploiting back exposure
+- **[[Transitions/Ghost Escape from Side Control]]** - High-percentage escape exploiting back exposure
 
 
 </section>

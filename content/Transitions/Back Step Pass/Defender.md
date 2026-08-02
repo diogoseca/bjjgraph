@@ -156,6 +156,43 @@ description: "How to defend against Back Step Pass in BJJ. Recognition cues, def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Step Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sweeping to stop the back step pass early",
+      "description": "Back Step Pass (Defender) film study: Sweeping to stop the back step pass early, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xEvf5OkSDQ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xEvf5OkSDQ0",
+      "url": "https://www.youtube.com/watch?v=xEvf5OkSDQ0",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar defense that prevents the back step",
+      "description": "Back Step Pass (Defender) film study: Kneebar defense that prevents the back step, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
+      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -169,6 +206,34 @@ Successful defense requires reading the passer's weight shifts and stance change
 **Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Step Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xEvf5OkSDQ0)
+
+<p class="clip-credit"><strong>Sweeping to stop the back step pass early</strong> — taught by Revolution BJJ · 0:35 · <a href="https://www.youtube.com/watch?v=xEvf5OkSDQ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wBRG0fY94fs)
+
+<p class="clip-credit"><strong>Kneebar defense that prevents the back step</strong> — taught by Revolution BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

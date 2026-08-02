@@ -140,6 +140,43 @@ description: "Learn to defend and counter the Crossface from Dogfight in BJJ. Re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crossface from Dogfight (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dog fight counter",
+      "description": "Crossface from Dogfight (Defender) film study: Dog fight counter, taught by Cauliflower Ear Family.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GE3rFdjxA-M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GE3rFdjxA-M",
+      "url": "https://www.youtube.com/watch?v=GE3rFdjxA-M",
+      "creator": { "@type": "Person", "name": "Cauliflower Ear Family" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing up to reach over the whizzer",
+      "description": "Crossface from Dogfight (Defender) film study: Standing up to reach over the whizzer, taught by John Beresford.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mjOUm-T1Rr0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mjOUm-T1Rr0",
+      "url": "https://www.youtube.com/watch?v=mjOUm-T1Rr0",
+      "creator": { "@type": "Person", "name": "John Beresford" },
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the Crossface from Dogfight, your primary objective is t
 **Opponent's Starting Position**: [[Positions/Dogfight Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crossface from Dogfight (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GE3rFdjxA-M)
+
+<p class="clip-credit"><strong>Dog fight counter</strong> — taught by Cauliflower Ear Family · 3:14 · <a href="https://www.youtube.com/watch?v=GE3rFdjxA-M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mjOUm-T1Rr0)
+
+<p class="clip-credit"><strong>Standing up to reach over the whizzer</strong> — taught by John Beresford · 1:25 · <a href="https://www.youtube.com/watch?v=mjOUm-T1Rr0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

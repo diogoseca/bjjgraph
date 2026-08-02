@@ -150,6 +150,43 @@ description: "Defend the Rear Naked Choke from Invisible Collar. Recognize the c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Invisible Collar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the Hand Crossing to the Other Side",
+      "description": "Rear Naked Choke from Invisible Collar (Defender) film study: Preventing the Hand Crossing to the Other Side, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jDbywpDs3Tw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jDbywpDs3Tw",
+      "url": "https://www.youtube.com/watch?v=jDbywpDs3Tw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle No-Grips Escape Rolling to Guard",
+      "description": "Rear Naked Choke from Invisible Collar (Defender) film study: Turtle No-Grips Escape Rolling to Guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ly89G4iCTSQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ly89G4iCTSQ",
+      "url": "https://www.youtube.com/watch?v=Ly89G4iCTSQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Rear Naked Choke from Invisible Collar demands awareness that the 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Invisible Collar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jDbywpDs3Tw)
+
+<p class="clip-credit"><strong>Preventing the Hand Crossing to the Other Side</strong> — taught by Lachlan Giles · 2:09 · <a href="https://www.youtube.com/watch?v=jDbywpDs3Tw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ly89G4iCTSQ)
+
+<p class="clip-credit"><strong>Turtle No-Grips Escape Rolling to Guard</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=Ly89G4iCTSQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

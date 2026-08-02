@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Omoplata Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Meathook/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Tarikoplata Setup is an advanced shoulder lock entry executed from Meathook that transforms the position's arm isolation into a compound submission attack combining omoplata mechanics with wrist control. Named after Tarik Hopstock, this technique exploits the trapped arm configuration of Meathook by threading the bottom player's leg over the opponent's shoulder into a modified omoplata position while simultaneously securing a wrist grip that adds rotational torque to the shoulder attack.\n\nStrategically, the Tarikoplata Setup occupies a unique position in the Meathook attack hierarchy. While the Gogoplata punishes forward pressure and the Baratoplata punishes backward arm extraction, the Tarikoplata is most effective when the opponent attempts a controlled, static defense—neither driving forward nor pulling back, but simply trying to wait out the position. The wrist control component distinguishes this from a standard omoplata transition by preventing the rolling escape that experienced grapplers use to defeat traditional omoplata attacks. Once the wrist is secured and rotated, every defensive option accelerates the shoulder lock.\n\nThe technique requires precise sequencing: the shin must clear the shoulder line, the hip pivot must create omoplata angle, and the wrist grip must be established before releasing any Meathook control. Rushing any phase collapses the attack. For purple and brown belt practitioners, the Tarikoplata represents the deeper submission layer of Rubber Guard—where basic position chains evolve into compound locks that attack multiple joint structures simultaneously.",
   "related_content": [
     {
@@ -210,46 +222,175 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Tarikoplata Setup from Meathook?",
-        "answer": "The primary goal is to transition the Meathook's arm isolation into a compound shoulder lock by establishing an omoplata position with additional wrist control. The wrist grip adds rotational torque that prevents the rolling escape and creates a dual-lever attack on the shoulder joint, making the submission significantly harder to defend than a standard omoplata."
+        "answer": "The primary goal is to transition the Meathook's arm isolation into a compound shoulder lock by establishing an omoplata position with additional wrist control. The wrist grip adds rotational torque that prevents the rolling escape and creates a dual-lever attack on the shoulder joint, making the submission significantly harder to defend than a standard omoplata.",
+        "answer_line": "Add wrist lock to omoplata",
+        "distractors": {
+          "plausible": [
+            "Just finish the omoplata",
+            "Isolate arm, stay in Meathook"
+          ],
+          "trap": [
+            "Release arm, hunt choke"
+          ]
+        }
       },
       {
         "question": "What distinguishes the Tarikoplata from a standard omoplata entry from Meathook?",
-        "answer": "The Tarikoplata adds a wrist grip and rotation component to the omoplata mechanics. While a standard omoplata relies solely on hip extension against the shoulder, the Tarikoplata secures the opponent's wrist and rotates their palm toward their head, creating compound rotational stress. This second lever prevents the rolling escape and allows the submission to finish with less hip extension force."
+        "answer": "The Tarikoplata adds a wrist grip and rotation component to the omoplata mechanics. While a standard omoplata relies solely on hip extension against the shoulder, the Tarikoplata secures the opponent's wrist and rotates their palm toward their head, creating compound rotational stress. This second lever prevents the rolling escape and allows the submission to finish with less hip extension force.",
+        "answer_line": "Wrist grip stops the roll",
+        "distractors": {
+          "plausible": [
+            "Deeper hip extension only",
+            "Extra hook, no wrist grip"
+          ],
+          "trap": [
+            "Release hip, grab collar"
+          ]
+        }
       },
       {
         "question": "What is the most critical grip in the Tarikoplata Setup and how should it be configured?",
-        "answer": "The wrist grip is the technique's defining element. Use a four-finger grip wrapped around the ulnar side of the opponent's wrist with your thumb pressing into the radial side. This configuration creates maximum rotational leverage. Grip with your same-side hand—the side where your leg crosses their shoulder—while your opposite hand maintains the collar or overhook that prevents posture recovery."
+        "answer": "The wrist grip is the technique's defining element. Use a four-finger grip wrapped around the ulnar side of the opponent's wrist with your thumb pressing into the radial side. This configuration creates maximum rotational leverage. Grip with your same-side hand—the side where your leg crosses their shoulder—while your opposite hand maintains the collar or overhook that prevents posture recovery.",
+        "answer_line": "Four-finger wrap, same-side hand",
+        "distractors": {
+          "plausible": [
+            "Opposite-hand wrist grip",
+            "Thumb-only pistol grip"
+          ],
+          "trap": [
+            "Release wrist, grab far collar"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains a completely static defense in Meathook, neither pressing forward nor pulling back—why is this the optimal timing for the Tarikoplata?",
-        "answer": "A static defense eliminates the Gogoplata trigger (forward pressure) and the Baratoplata trigger (backward extraction). The opponent thinks they are denying you both attacks by staying still. But static defense leaves their arm in the exact position needed for the omoplata leg transition—bent at 90 degrees, shoulder loaded, posture broken. Their immobility gives you time to execute the multi-step Tarikoplata entry without defensive interruption."
+        "answer": "A static defense eliminates the Gogoplata trigger (forward pressure) and the Baratoplata trigger (backward extraction). The opponent thinks they are denying you both attacks by staying still. But static defense leaves their arm in the exact position needed for the omoplata leg transition—bent at 90 degrees, shoulder loaded, posture broken. Their immobility gives you time to execute the multi-step Tarikoplata entry without defensive interruption.",
+        "answer_line": "Stillness leaves arm loaded",
+        "distractors": {
+          "plausible": [
+            "Static defense is safest",
+            "Wait for them to posture up"
+          ],
+          "trap": [
+            "Attack only if they push forward"
+          ]
+        }
       },
       {
         "question": "During the leg transition from Meathook to omoplata angle, what is the most common failure point and how do you prevent it?",
-        "answer": "The most common failure is releasing shin hook pressure too early during the transition, creating a control gap where the opponent extracts their arm. The solution is overlapping control phases: maintain the shin hook against the tricep until your leg has fully cleared the shoulder and reached the omoplata position. Your wrist grip should be established before the final release of hook pressure. Never create a moment where the arm is uncontrolled."
+        "answer": "The most common failure is releasing shin hook pressure too early during the transition, creating a control gap where the opponent extracts their arm. The solution is overlapping control phases: maintain the shin hook against the tricep until your leg has fully cleared the shoulder and reached the omoplata position. Your wrist grip should be established before the final release of hook pressure. Never create a moment where the arm is uncontrolled.",
+        "answer_line": "Overlap hook before releasing",
+        "distractors": {
+          "plausible": [
+            "Speed through the transition",
+            "Switch grip before leg clears"
+          ],
+          "trap": [
+            "Release hook early for angle"
+          ]
+        }
       },
       {
         "question": "What direction should you rotate the opponent's wrist and why does this specific direction matter?",
-        "answer": "Rotate the wrist to turn the opponent's palm toward their own head. This direction creates internal rotation stress on the shoulder—the same rotation vector as the omoplata but amplified by the distal lever of the wrist grip. Rotating the opposite direction would create external rotation, which works against the omoplata mechanics and reduces submission effectiveness. The palm-toward-head rotation coordinates both levers in the same force direction."
+        "answer": "Rotate the wrist to turn the opponent's palm toward their own head. This direction creates internal rotation stress on the shoulder—the same rotation vector as the omoplata but amplified by the distal lever of the wrist grip. Rotating the opposite direction would create external rotation, which works against the omoplata mechanics and reduces submission effectiveness. The palm-toward-head rotation coordinates both levers in the same force direction.",
+        "answer_line": "Rotate palm toward their head",
+        "distractors": {
+          "plausible": [
+            "Rotate palm away from body",
+            "Twist wrist outward, external"
+          ],
+          "trap": [
+            "Push palm toward the floor"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively postures up just as you begin threading your leg over their shoulder—what is the correct response?",
-        "answer": "Immediately transition to Triangle Setup. Their upward posture movement creates the exact angle needed for your leg to cross their neck instead of their shoulder. The omoplata leg position is already halfway to triangle configuration. Abandon the Tarikoplata attempt and capitalize on their postural escape—the Meathook system chains attacks so that every defensive direction opens a different submission."
+        "answer": "Immediately transition to Triangle Setup. Their upward posture movement creates the exact angle needed for your leg to cross their neck instead of their shoulder. The omoplata leg position is already halfway to triangle configuration. Abandon the Tarikoplata attempt and capitalize on their postural escape—the Meathook system chains attacks so that every defensive direction opens a different submission.",
+        "answer_line": "Redirect leg to Triangle",
+        "distractors": {
+          "plausible": [
+            "Force the leg back to shoulder",
+            "Abandon attack, reset position"
+          ],
+          "trap": [
+            "Chase the omoplata harder"
+          ]
+        }
       },
       {
         "question": "How does the Tarikoplata Setup fit into the Meathook attack hierarchy relative to the Gogoplata and Baratoplata?",
-        "answer": "The three attacks create a complete dilemma system from Meathook. The Gogoplata punishes forward pressure (opponent drives into your shin at their throat), the Baratoplata punishes backward arm extraction (opponent creates threading space by pulling), and the Tarikoplata exploits static defense (opponent freezes, giving you time for the multi-step entry). Together they eliminate all safe defensive options from Meathook."
+        "answer": "The three attacks create a complete dilemma system from Meathook. The Gogoplata punishes forward pressure (opponent drives into your shin at their throat), the Baratoplata punishes backward arm extraction (opponent creates threading space by pulling), and the Tarikoplata exploits static defense (opponent freezes, giving you time for the multi-step entry). Together they eliminate all safe defensive options from Meathook.",
+        "answer_line": "Tariko covers static defense",
+        "distractors": {
+          "plausible": [
+            "Tariko punishes forward push",
+            "Tariko replaces the Gogoplata"
+          ],
+          "trap": [
+            "Only use Tariko as backup"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully straightens their trapped arm during your Tarikoplata attempt—what chain attack becomes available?",
-        "answer": "A straightened arm opens the Armbar on Free Arm. Your leg is already positioned over their shoulder from the omoplata entry, which is the starting configuration for an armbar. Swing your opposite leg over their face while controlling their straightened arm at the wrist, and finish with standard armbar hip extension. Their Tarikoplata defense creates the armbar entry—each failed attack feeds the next."
+        "answer": "A straightened arm opens the Armbar on Free Arm. Your leg is already positioned over their shoulder from the omoplata entry, which is the starting configuration for an armbar. Swing your opposite leg over their face while controlling their straightened arm at the wrist, and finish with standard armbar hip extension. Their Tarikoplata defense creates the armbar entry—each failed attack feeds the next.",
+        "answer_line": "Chain into armbar",
+        "distractors": {
+          "plausible": [
+            "Reset back to Meathook",
+            "Switch to Baratoplata"
+          ],
+          "trap": [
+            "Force omoplata through it"
+          ]
+        }
       },
       {
         "question": "Why must wrist rotation be applied slowly during Tarikoplata finishing and what injury risks exist from explosive application?",
-        "answer": "The Tarikoplata creates compound stress from two simultaneous vectors: omoplata hip extension on the shoulder plus wrist rotation adding internal rotation torque. This compound loading damages tissue faster than single-joint attacks—the rotator cuff, labrum, and glenohumeral ligaments can fail before the opponent perceives sufficient pain to tap. Explosive wrist rotation can cause rotator cuff tears, shoulder dislocation, and labrum damage. Progressive application over 3-5 seconds is mandatory to allow safe tapping."
+        "answer": "The Tarikoplata creates compound stress from two simultaneous vectors: omoplata hip extension on the shoulder plus wrist rotation adding internal rotation torque. This compound loading damages tissue faster than single-joint attacks—the rotator cuff, labrum, and glenohumeral ligaments can fail before the opponent perceives sufficient pain to tap. Explosive wrist rotation can cause rotator cuff tears, shoulder dislocation, and labrum damage. Progressive application over 3-5 seconds is mandatory to allow safe tapping.",
+        "answer_line": "Rotate slowly over 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Use hip pressure only",
+            "Hold static without turning"
+          ],
+          "trap": [
+            "Snap the wrist explosively"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Tarikoplata attacks the shoulder joint through compound loading—omoplata hip extension combined with wrist rotation creates dual-vector stress that damages tissue faster than single-joint submissions. Rotator cuff tears, labrum damage, and shoulder dislocation are all possible from improperly applied Tarikoplata. Apply wrist rotation progressively over 3-5 seconds minimum and never spike or jerk the grip. Maintain constant verbal communication during drilling. Release the wrist grip first upon any tap signal, then gradually remove the leg. Avoid this technique entirely with training partners who have existing shoulder injuries. Minimum purple belt experience is recommended before live application. During training, apply at reduced speed and pressure even when the position is fully secured."
+    "safety_considerations": "The Tarikoplata attacks the shoulder joint through compound loading—omoplata hip extension combined with wrist rotation creates dual-vector stress that damages tissue faster than single-joint submissions. Rotator cuff tears, labrum damage, and shoulder dislocation are all possible from improperly applied Tarikoplata. Apply wrist rotation progressively over 3-5 seconds minimum and never spike or jerk the grip. Maintain constant verbal communication during drilling. Release the wrist grip first upon any tap signal, then gradually remove the leg. Avoid this technique entirely with training partners who have existing shoulder injuries. Minimum purple belt experience is recommended before live application. During training, apply at reduced speed and pressure even when the position is fully secured.",
+    "clips": [
+      {
+        "id": "7QIKCY_R_3A",
+        "title": "How to do the Tarikoplata",
+        "by": "Bristol Jiu Jitsu",
+        "vertical": false,
+        "channel": "Bristol Jiu Jitsu",
+        "duration": 83,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rPpcs9YBpCM",
+        "title": "Tarikoplata from collar and sleeve",
+        "by": "Andris Brunovskis",
+        "vertical": false,
+        "channel": "Grappling with Insanity",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8g6KFT9O2Hw",
+        "title": "Tarikoplata from omoplata breakdown",
+        "by": "Grappling with Insanity",
+        "vertical": false,
+        "channel": "Grappling with Insanity",
+        "duration": 177,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Tarikoplata Setup Defender",
@@ -334,23 +475,73 @@
     "flashcards": [
       {
         "question": "What specific defensive behavior triggers the Tarikoplata Setup from Meathook?",
-        "answer": "Static defense—remaining motionless in Meathook without committing to any direction of movement—is the specific trigger. The opponent perceives stillness as safe because it avoids the Gogoplata trigger (forward pressure) and the Baratoplata trigger (backward extraction). But static positioning gives the attacker unlimited time to execute the multi-step Tarikoplata entry sequence without defensive interruption. Any committed directional movement is preferable to stillness."
+        "answer": "Static defense—remaining motionless in Meathook without committing to any direction of movement—is the specific trigger. The opponent perceives stillness as safe because it avoids the Gogoplata trigger (forward pressure) and the Baratoplata trigger (backward extraction). But static positioning gives the attacker unlimited time to execute the multi-step Tarikoplata entry sequence without defensive interruption. Any committed directional movement is preferable to stillness.",
+        "answer_line": "Opponent freezes, stays static",
+        "distractors": {
+          "plausible": [
+            "Opponent presses forward",
+            "Opponent pulls arm back"
+          ],
+          "trap": [
+            "Opponent postures aggressively"
+          ]
+        }
       },
       {
         "question": "What is the single most important timing window for defending the Tarikoplata Setup?",
-        "answer": "The critical window is during the attacker's hip pivot when their shin hook transitions from horizontal tricep control to the diagonal over-shoulder omoplata position. This transition momentarily loosens the hook's strongest resistance angle, creating a brief opportunity for arm extraction or posture recovery. Once the leg fully clears the shoulder and the wrist grip is established, defensive success probability drops dramatically because the compound lock is approaching full establishment."
+        "answer": "The critical window is during the attacker's hip pivot when their shin hook transitions from horizontal tricep control to the diagonal over-shoulder omoplata position. This transition momentarily loosens the hook's strongest resistance angle, creating a brief opportunity for arm extraction or posture recovery. Once the leg fully clears the shoulder and the wrist grip is established, defensive success probability drops dramatically because the compound lock is approaching full establishment.",
+        "answer_line": "Escape during the leg transition",
+        "distractors": {
+          "plausible": [
+            "Escape after wrist grip locks",
+            "Wait for the finish to defend"
+          ],
+          "trap": [
+            "Posture up explosively anytime"
+          ]
+        }
       },
       {
         "question": "The attacker has secured both the over-shoulder leg position and the wrist grip with rotation—what should you do?",
-        "answer": "Tap immediately. Once the Tarikoplata reaches full establishment with both omoplata leg positioning and wrist rotation engaged, the compound loading creates dual-vector stress on the shoulder that damages tissue faster than single-joint submissions. The rotator cuff and labrum can fail before you perceive sufficient pain to signal injury. Fighting from this position risks permanent shoulder damage. All effective Tarikoplata defense must occur before wrist control is established."
+        "answer": "Tap immediately. Once the Tarikoplata reaches full establishment with both omoplata leg positioning and wrist rotation engaged, the compound loading creates dual-vector stress on the shoulder that damages tissue faster than single-joint submissions. The rotator cuff and labrum can fail before you perceive sufficient pain to signal injury. Fighting from this position risks permanent shoulder damage. All effective Tarikoplata defense must occur before wrist control is established.",
+        "answer_line": "Tap immediately",
+        "distractors": {
+          "plausible": [
+            "Fight the wrist grip off",
+            "Bridge and roll through"
+          ],
+          "trap": [
+            "Posture up to escape"
+          ]
+        }
       },
       {
         "question": "Why does explosive posture recovery carry Triangle risk and how do you mitigate it?",
-        "answer": "When you drive upward to recover posture, your neck rises into the path of the attacker's leg that is already positioned near your shoulder from the Meathook configuration. The attacker can redirect this leg across your neck for a Triangle instead of over your shoulder for the Tarikoplata. Mitigation requires tucking your chin tightly toward your chest during posture recovery and keeping your free hand posted near your neck to block the leg from crossing. Speed matters—explosive posture recovery that fully clears the danger zone before the attacker can redirect is safer than slow, gradual posturing that gives them time to adjust."
+        "answer": "When you drive upward to recover posture, your neck rises into the path of the attacker's leg that is already positioned near your shoulder from the Meathook configuration. The attacker can redirect this leg across your neck for a Triangle instead of over your shoulder for the Tarikoplata. Mitigation requires tucking your chin tightly toward your chest during posture recovery and keeping your free hand posted near your neck to block the leg from crossing. Speed matters—explosive posture recovery that fully clears the danger zone before the attacker can redirect is safer than slow, gradual posturing that gives them time to adjust.",
+        "answer_line": "Tuck chin, post hand, explode up",
+        "distractors": {
+          "plausible": [
+            "Posture up slowly and safely",
+            "Push their leg off your neck"
+          ],
+          "trap": [
+            "Posture up straight, chin high"
+          ]
+        }
       },
       {
         "question": "Your training partner catches you in a deep Tarikoplata but applies the wrist rotation explosively rather than progressively—what injury risks exist?",
-        "answer": "Explosive Tarikoplata application creates severe injury risk because the compound loading—omoplata hip extension plus wrist rotation—attacks the shoulder from two vectors simultaneously. The rotator cuff tendons, glenohumeral labrum, and shoulder capsule ligaments can tear before the brain processes pain signals sufficient to trigger a tap response. Potential injuries include rotator cuff tears, labral detachment, shoulder subluxation or dislocation, and wrist ligament sprains. This is why controlled application is a safety requirement and why tapping early against the Tarikoplata is essential."
+        "answer": "Explosive Tarikoplata application creates severe injury risk because the compound loading—omoplata hip extension plus wrist rotation—attacks the shoulder from two vectors simultaneously. The rotator cuff tendons, glenohumeral labrum, and shoulder capsule ligaments can tear before the brain processes pain signals sufficient to trigger a tap response. Potential injuries include rotator cuff tears, labral detachment, shoulder subluxation or dislocation, and wrist ligament sprains. This is why controlled application is a safety requirement and why tapping early against the Tarikoplata is essential.",
+        "answer_line": "Rotator cuff & labrum tears",
+        "distractors": {
+          "plausible": [
+            "Minor wrist sprain only",
+            "Only a dislocation risk"
+          ],
+          "trap": [
+            "None if you stay relaxed"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -373,6 +564,35 @@
         "phase": "Week 7+",
         "focus": "Live defense integration from Meathook",
         "description": "Full positional sparring from Meathook where the bottom player selects between Gogoplata, Baratoplata, and Tarikoplata based on your defensive responses. Practice maintaining movement-based defense that avoids all three triggers simultaneously. Develop the ability to move directionally while managing secondary threat exposure, accepting calculated risk rather than freezing in static defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jpNqecvfuFg",
+        "title": "Tarikoplata mechanics and how it traps the arm",
+        "by": "Miha Perhavec",
+        "vertical": false,
+        "channel": "Miha Perhavec",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best way to escape the omoplata shoulder lock",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rx4XoCFWeq8",
+        "title": "Baratoplata shoulder lock defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 75,
+        "verified": "2026-07-15"
       }
     ]
   },

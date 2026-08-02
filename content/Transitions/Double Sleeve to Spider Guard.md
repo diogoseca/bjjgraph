@@ -34,6 +34,54 @@ description: "Master the Double Sleeve to Spider Guard transition in BJJ. Comple
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Sleeve to Spider Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Framing the guard",
+      "description": "Double Sleeve to Spider Guard film study: Framing the guard, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8gykFUspVxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8gykFUspVxU",
+      "url": "https://www.youtube.com/watch?v=8gykFUspVxU",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spider guard: breaking posture to triangle and sweep",
+      "description": "Double Sleeve to Spider Guard film study: Spider guard: breaking posture to triangle and sweep, taught by Pathfinder Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cl5tutvZ2NA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cl5tutvZ2NA",
+      "url": "https://www.youtube.com/watch?v=Cl5tutvZ2NA",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Spider guard foot on bicep to triangle choke",
+      "description": "Double Sleeve to Spider Guard film study: Spider guard foot on bicep to triangle choke, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7ItTf1BFDZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7ItTf1BFDZA",
+      "url": "https://www.youtube.com/watch?v=7ItTf1BFDZA",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The key challenge lies in maintaining control during the transition itself. The 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Sleeve to Spider Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8gykFUspVxU)
+
+<p class="clip-credit"><strong>Framing the guard</strong> — taught by Rafael Mendes · 1:01 · <a href="https://www.youtube.com/watch?v=8gykFUspVxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cl5tutvZ2NA)
+
+<p class="clip-credit"><strong>Spider guard: breaking posture to triangle and sweep</strong> — taught by Pathfinder Jiu-Jitsu · 0:50 · <a href="https://www.youtube.com/watch?v=Cl5tutvZ2NA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7ItTf1BFDZA)
+
+<p class="clip-credit"><strong>Spider guard foot on bicep to triangle choke</strong> — taught by Ritchie Yip · 0:31 · <a href="https://www.youtube.com/watch?v=7ItTf1BFDZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

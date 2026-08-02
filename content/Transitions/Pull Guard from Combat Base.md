@@ -34,6 +34,54 @@ description: "Learn to pull closed guard from combat base bottom in BJJ. Complet
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pull Guard from Combat Base \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pulling closed guard",
+      "description": "Pull Guard from Combat Base film study: Pulling closed guard, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CI1w02grvCs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CI1w02grvCs",
+      "url": "https://www.youtube.com/watch?v=CI1w02grvCs",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Explanation of Combat Base",
+      "description": "Pull Guard from Combat Base film study: Explanation of Combat Base, taught by BJJSchool101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FWGgMhm0z3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FWGgMhm0z3Q",
+      "url": "https://www.youtube.com/watch?v=FWGgMhm0z3Q",
+      "creator": { "@type": "Person", "name": "BJJSchool101" },
+      "duration": "PT147S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Easy Sweep When Opponent Goes to Combat Base",
+      "description": "Pull Guard from Combat Base film study: Easy Sweep When Opponent Goes to Combat Base, taught by Double Gold BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kQDj3mFVIc0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kQDj3mFVIc0",
+      "url": "https://www.youtube.com/watch?v=kQDj3mFVIc0",
+      "creator": { "@type": "Person", "name": "Double Gold BJJ" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ This transition represents a critical decision point for the bottom player. Comb
 Success requires a systematic approach: establishing controlling grips to compromise posture, using hip escapes to close distance, timing the guard closure during weight shifts or grip transitions, and immediately consolidating the closed guard position once legs are wrapped. The technique rewards patient grip fighting and precise timing over explosive athleticism, making it accessible across body types while remaining effective at the highest levels of competition.
 
 **From Position**: [[Positions/Combat Base]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pull Guard from Combat Base in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CI1w02grvCs)
+
+<p class="clip-credit"><strong>Pulling closed guard</strong> — taught by Team Daruma Dojo · 0:44 · <a href="https://www.youtube.com/watch?v=CI1w02grvCs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FWGgMhm0z3Q)
+
+<p class="clip-credit"><strong>Explanation of Combat Base</strong> — taught by BJJSchool101 · 2:27 · <a href="https://www.youtube.com/watch?v=FWGgMhm0z3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kQDj3mFVIc0)
+
+<p class="clip-credit"><strong>Easy Sweep When Opponent Goes to Combat Base</strong> — taught by Double Gold BJJ · 0:55 · <a href="https://www.youtube.com/watch?v=kQDj3mFVIc0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

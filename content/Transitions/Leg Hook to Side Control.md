@@ -34,6 +34,43 @@ description: "Master Leg Hook to Side Control pass in BJJ. Complete guide to cle
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Hook to Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Free your foot from half guard to finish the pass",
+      "description": "Leg Hook to Side Control film study: Free your foot from half guard to finish the pass, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Throw-by leg pass to side control",
+      "description": "Leg Hook to Side Control film study: Throw-by leg pass to side control, taught by Danny Stolfi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gh4rAQmG2wU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gh4rAQmG2wU",
+      "url": "https://www.youtube.com/watch?v=gh4rAQmG2wU",
+      "creator": { "@type": "Person", "name": "Danny Stolfi" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this transition should be initiated only when the bottom player's
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Hook to Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Free your foot from half guard to finish the pass</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gh4rAQmG2wU)
+
+<p class="clip-credit"><strong>Throw-by leg pass to side control</strong> — taught by Danny Stolfi · 1:29 · <a href="https://www.youtube.com/watch?v=gh4rAQmG2wU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

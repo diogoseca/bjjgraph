@@ -13,21 +13,33 @@
   "outcomes": [
     {
       "to": "Front Headlock/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 75,
+  "success_rate": {
+    "gi": 75,
+    "nogi": 75
+  },
   "summary": "The Sprawl is a takedown defense where you explosively drive your hips back and down while dropping chest weight onto a shooting opponent's shoulders, stuffing single- and double-leg attacks and transitioning to front headlock control.",
   "overview": "The Sprawl is a fundamental defensive technique in Brazilian Jiu-Jitsu and wrestling, designed to counter opponent takedown attempts, particularly single leg and double leg attacks. When executed properly, the sprawl allows you to stuff the opponent's shot, prevent them from completing the takedown, and transition to a dominant position such as front headlock control. The sprawl works by explosively driving your hips down and back while simultaneously driving your weight onto the opponent's shoulders and head, breaking their posture and eliminating their ability to lift or drive forward. This creates an immediate shift in positional hierarchy, turning a potentially dangerous defensive situation into an offensive opportunity.\n\nThe sprawl is considered one of the most high-percentage defensive techniques in grappling because it relies on fundamental principles of base, weight distribution, and reactive timing rather than complex technical sequences. Mastery of the sprawl is essential for anyone seeking to develop a complete standing game, as it provides the foundation for defending against wrestling-based attacks while setting up submission opportunities and positional transitions. The technique integrates seamlessly into front headlock systems, where guillotines, darce chokes, anaconda chokes, and back takes become immediately available after a successful sprawl.",
   "related_content": [
@@ -232,46 +244,175 @@
     "flashcards": [
       {
         "question": "What is the proper sequence of body movements when executing a sprawl against a double leg?",
-        "answer": "The proper sequence is to explosively drive your hips backward and downward first, creating distance from the opponent's penetrating arms, while simultaneously driving your chest and upper body weight forward onto the opponent's shoulders and upper back. Your hands establish a stable base on the mat. The hip drive must happen fractionally before or simultaneously with the chest drive to ensure your legs are out of reach before you commit your weight forward. Getting this sequence wrong by dropping chest first allows the opponent to capture your legs despite the upper body pressure."
+        "answer": "The proper sequence is to explosively drive your hips backward and downward first, creating distance from the opponent's penetrating arms, while simultaneously driving your chest and upper body weight forward onto the opponent's shoulders and upper back. Your hands establish a stable base on the mat. The hip drive must happen fractionally before or simultaneously with the chest drive to ensure your legs are out of reach before you commit your weight forward. Getting this sequence wrong by dropping chest first allows the opponent to capture your legs despite the upper body pressure.",
+        "answer_line": "Hips drive back before chest drops",
+        "distractors": {
+          "plausible": [
+            "Chest drives forward first",
+            "Hands post before hips move"
+          ],
+          "trap": [
+            "Drop chest first, expose legs"
+          ]
+        }
       },
       {
         "question": "Why is circling movement critical after the initial sprawl contact is made?",
-        "answer": "Circling prevents the opponent from following your hips and re-establishing their takedown attack. When you sprawl in a straight line, determined opponents can adjust their grip and continue driving or convert to a different attack angle. By circling away from the direction of their head, you create angles that break their structure, make it difficult to maintain leg connection, and set up transitions to front headlock control. The circular movement also helps maintain your balance while keeping heavy chest pressure on the opponent."
+        "answer": "Circling prevents the opponent from following your hips and re-establishing their takedown attack. When you sprawl in a straight line, determined opponents can adjust their grip and continue driving or convert to a different attack angle. By circling away from the direction of their head, you create angles that break their structure, make it difficult to maintain leg connection, and set up transitions to front headlock control. The circular movement also helps maintain your balance while keeping heavy chest pressure on the opponent.",
+        "answer_line": "Circle away, break their structure",
+        "distractors": {
+          "plausible": [
+            "Sprawl straight, hold position",
+            "Circle toward their head"
+          ],
+          "trap": [
+            "Stay square, push straight back"
+          ]
+        }
       },
       {
         "question": "Your opponent shoots a double leg and you sprawl, but they switch to grabbing your left leg for a single leg - how do you adjust?",
-        "answer": "Immediately post your right (free) leg out wide to establish a strong base and prevent being swept or elevated. Drive the hip of your trapped left leg down toward the mat to create heavy downward pressure that makes it difficult for them to lift. Establish either a crossface by driving your forearm across their face or secure a whizzer grip on their attacking arm. Circle aggressively to your right (away from the trapped leg) while hopping on your free foot. From here, transition to dedicated single leg defense sequences including limp leg escapes or switch to front headlock control."
+        "answer": "Immediately post your right (free) leg out wide to establish a strong base and prevent being swept or elevated. Drive the hip of your trapped left leg down toward the mat to create heavy downward pressure that makes it difficult for them to lift. Establish either a crossface by driving your forearm across their face or secure a whizzer grip on their attacking arm. Circle aggressively to your right (away from the trapped leg) while hopping on your free foot. From here, transition to dedicated single leg defense sequences including limp leg escapes or switch to front headlock control.",
+        "answer_line": "Post free leg, hip down, whizzer",
+        "distractors": {
+          "plausible": [
+            "Sprawl both legs equally",
+            "Pull trapped leg free first"
+          ],
+          "trap": [
+            "Sit down onto trapped leg"
+          ]
+        }
       },
       {
         "question": "What are the main positional transitions available after stuffing a takedown with a successful sprawl?",
-        "answer": "After successfully sprawling and breaking the opponent's shot, the primary transitions are: front headlock control which opens guillotines, darce chokes, anaconda chokes, and back take opportunities; direct guillotine by securing the neck during the sprawl itself; mat return by driving the opponent flat to the mat to expose their back or advance to side control; passing to side control or knee on belly if the opponent turtles; and standing back up if the opponent disengages to reset to standing grappling."
+        "answer": "After successfully sprawling and breaking the opponent's shot, the primary transitions are: front headlock control which opens guillotines, darce chokes, anaconda chokes, and back take opportunities; direct guillotine by securing the neck during the sprawl itself; mat return by driving the opponent flat to the mat to expose their back or advance to side control; passing to side control or knee on belly if the opponent turtles; and standing back up if the opponent disengages to reset to standing grappling.",
+        "answer_line": "Front headlock or direct guillotine",
+        "distractors": {
+          "plausible": [
+            "Always finish in side control",
+            "Wait for opponent to stand up"
+          ],
+          "trap": [
+            "Chase a leg lock instead"
+          ]
+        }
       },
       {
         "question": "Why must you keep your head up during sprawl execution rather than looking down?",
-        "answer": "Keeping your head up protects your neck from injury by maintaining proper cervical spine alignment. It defends against guillotine choke attempts, since dropping your head forward creates the perfect angle for the opponent to secure the neck. It allows you to maintain visual awareness of the opponent's reactions, enabling adaptive responses. Proper head position also helps maintain structural balance, as looking down tends to collapse your base and shift your weight incorrectly. The head should stay neutral with eyes forward throughout the entire sprawl movement."
+        "answer": "Keeping your head up protects your neck from injury by maintaining proper cervical spine alignment. It defends against guillotine choke attempts, since dropping your head forward creates the perfect angle for the opponent to secure the neck. It allows you to maintain visual awareness of the opponent's reactions, enabling adaptive responses. Proper head position also helps maintain structural balance, as looking down tends to collapse your base and shift your weight incorrectly. The head should stay neutral with eyes forward throughout the entire sprawl movement.",
+        "answer_line": "Protects neck, stops the guillotine",
+        "distractors": {
+          "plausible": [
+            "Sets up an underhook faster",
+            "Keeps your face off the mat"
+          ],
+          "trap": [
+            "Drop your head to see the legs"
+          ]
+        }
       },
       {
         "question": "How does the timing of your sprawl affect its success rate against takedown attempts?",
-        "answer": "Timing is the most critical factor in sprawl success. Sprawling too early wastes energy, compromises balance, and lets the opponent adjust their attack or exploit your poor position. Sprawling too late allows them to secure deep grips on your legs with good penetration, making defense nearly impossible. The optimal timing is to initiate the sprawl at the moment you recognize the opponent's level change and forward commitment, typically when their head drops and shoulders hunch forward. Advanced practitioners can recognize subtle pre-shot indicators such as weight shifts, grip changes, and stance adjustments that allow even faster reaction."
+        "answer": "Timing is the most critical factor in sprawl success. Sprawling too early wastes energy, compromises balance, and lets the opponent adjust their attack or exploit your poor position. Sprawling too late allows them to secure deep grips on your legs with good penetration, making defense nearly impossible. The optimal timing is to initiate the sprawl at the moment you recognize the opponent's level change and forward commitment, typically when their head drops and shoulders hunch forward. Advanced practitioners can recognize subtle pre-shot indicators such as weight shifts, grip changes, and stance adjustments that allow even faster reaction.",
+        "answer_line": "Time it to their level change",
+        "distractors": {
+          "plausible": [
+            "Sprawl as early as possible",
+            "Sprawl only after deep grips"
+          ],
+          "trap": [
+            "Wait until they lift your leg"
+          ]
+        }
       },
       {
         "question": "Your opponent fakes a level change to bait your sprawl, then shoots when you are off-balance - how do you avoid this trap?",
-        "answer": "Do not overcommit to the sprawl until the opponent fully commits to their shot with forward drive and penetration. Develop discrimination between genuine shots and fakes by watching for full commitment indicators: both feet leaving their stance, head dropping below waist level, and explosive forward movement rather than just a dip. If you react to a fake, recover quickly to your athletic stance rather than staying sprawled. Use your own feints and level changes to disrupt their timing. Training against partners who mix fakes with real shots builds the pattern recognition needed to avoid this trap."
+        "answer": "Do not overcommit to the sprawl until the opponent fully commits to their shot with forward drive and penetration. Develop discrimination between genuine shots and fakes by watching for full commitment indicators: both feet leaving their stance, head dropping below waist level, and explosive forward movement rather than just a dip. If you react to a fake, recover quickly to your athletic stance rather than staying sprawled. Use your own feints and level changes to disrupt their timing. Training against partners who mix fakes with real shots builds the pattern recognition needed to avoid this trap.",
+        "answer_line": "Wait for full shot commitment",
+        "distractors": {
+          "plausible": [
+            "Sprawl on any level change",
+            "Sprawl on any hand movement"
+          ],
+          "trap": [
+            "Commit sprawl on first fake"
+          ]
+        }
       },
       {
         "question": "What grip should you establish first when transitioning from sprawl to front headlock control?",
-        "answer": "The first grip priority is wrapping one arm around the opponent's head and neck, securing it deep so your armpit is tight against the crown of their head. This gives you immediate head control and prevents them from posturing up or creating distance. Your second hand should immediately control their far shoulder or far arm to prevent them from rolling away or circling out. Only after establishing this dual control should you begin working toward specific submission grips like guillotine chin strap, darce threading, or anaconda arm trap configurations."
+        "answer": "The first grip priority is wrapping one arm around the opponent's head and neck, securing it deep so your armpit is tight against the crown of their head. This gives you immediate head control and prevents them from posturing up or creating distance. Your second hand should immediately control their far shoulder or far arm to prevent them from rolling away or circling out. Only after establishing this dual control should you begin working toward specific submission grips like guillotine chin strap, darce threading, or anaconda arm trap configurations.",
+        "answer_line": "Wrap head/neck, then far shoulder",
+        "distractors": {
+          "plausible": [
+            "Grab far shoulder first",
+            "Go straight for guillotine grip"
+          ],
+          "trap": [
+            "Grab near arm, ignore head"
+          ]
+        }
       },
       {
         "question": "Your opponent shoots a deep double leg and gets under your hips before you can sprawl - what is your emergency response?",
-        "answer": "If the opponent achieves deep penetration before you can sprawl, your priority shifts to a whizzer (overhook) on their near arm combined with a crossface on their far side. Drive your hip down aggressively on the side they are attacking while using the whizzer to prevent them from finishing the lift. If they are already elevating you, consider sitting to guard by pulling them into your closed guard or De La Riva rather than fighting a lost sprawl battle. A late sprawl attempt against deep penetration often results in being driven to the mat in a worse position than voluntarily pulling guard."
+        "answer": "If the opponent achieves deep penetration before you can sprawl, your priority shifts to a whizzer (overhook) on their near arm combined with a crossface on their far side. Drive your hip down aggressively on the side they are attacking while using the whizzer to prevent them from finishing the lift. If they are already elevating you, consider sitting to guard by pulling them into your closed guard or De La Riva rather than fighting a lost sprawl battle. A late sprawl attempt against deep penetration often results in being driven to the mat in a worse position than voluntarily pulling guard.",
+        "answer_line": "Whizzer and crossface, hips down",
+        "distractors": {
+          "plausible": [
+            "Sprawl harder from bad position",
+            "Push their head down"
+          ],
+          "trap": [
+            "Fight the lift standing"
+          ]
+        }
       },
       {
         "question": "How does a crossface sprawl differ from a standard sprawl and when should you use it?",
-        "answer": "In a crossface sprawl, after initial hip drive and chest pressure, you immediately establish a strong crossface by driving your forearm across the opponent's face while circling. This variant breaks down the opponent's posture more aggressively than relying solely on chest weight, and it sets up easier transitions to front headlock and submission attacks. Use the crossface sprawl against opponents who maintain strong head position and try to drive through your initial sprawl, particularly in no-gi where front headlock grips are harder to establish. The crossface forces their head to turn, collapsing their structure and exposing the far side neck for choke attacks."
+        "answer": "In a crossface sprawl, after initial hip drive and chest pressure, you immediately establish a strong crossface by driving your forearm across the opponent's face while circling. This variant breaks down the opponent's posture more aggressively than relying solely on chest weight, and it sets up easier transitions to front headlock and submission attacks. Use the crossface sprawl against opponents who maintain strong head position and try to drive through your initial sprawl, particularly in no-gi where front headlock grips are harder to establish. The crossface forces their head to turn, collapsing their structure and exposing the far side neck for choke attacks.",
+        "answer_line": "Add crossface to break posture",
+        "distractors": {
+          "plausible": [
+            "Use crossface instead of hips",
+            "Only for gi grip fighting"
+          ],
+          "trap": [
+            "Skip chest pressure, crossface only"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The sprawl is generally a safe defensive technique when performed with proper form, but several safety considerations must be observed. Always keep your head up with neutral neck position to prevent cervical spine injuries and avoid creating angles for guillotine chokes. When drilling, communicate clearly with your partner about speed and intensity, gradually increasing resistance rather than starting at full speed. Be aware of mat boundaries and other training partners when circling or driving backward explosively. If you feel a guillotine being secured during sprawl practice, tap immediately rather than fighting through it, as neck injuries can be severe. Beginners should master the movement pattern at slow speed before attempting reactive sprawls against live attacks. Warm up with dynamic stretching targeting hip flexors, groin, and hamstrings, as the explosive hip extension can strain these muscle groups if performed cold. Monitor fatigue during drilling, as exhaustion leads to poor technique and increased injury risk."
+    "safety_considerations": "The sprawl is generally a safe defensive technique when performed with proper form, but several safety considerations must be observed. Always keep your head up with neutral neck position to prevent cervical spine injuries and avoid creating angles for guillotine chokes. When drilling, communicate clearly with your partner about speed and intensity, gradually increasing resistance rather than starting at full speed. Be aware of mat boundaries and other training partners when circling or driving backward explosively. If you feel a guillotine being secured during sprawl practice, tap immediately rather than fighting through it, as neck injuries can be severe. Beginners should master the movement pattern at slow speed before attempting reactive sprawls against live attacks. Warm up with dynamic stretching targeting hip flexors, groin, and hamstrings, as the explosive hip extension can strain these muscle groups if performed cold. Monitor fatigue during drilling, as exhaustion leads to poor technique and increased injury risk.",
+    "clips": [
+      {
+        "id": "8AaRLOSM61U",
+        "title": "Sprawl technique to defend the shot",
+        "by": "Coach Lang",
+        "vertical": false,
+        "channel": "Coach Lang",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LiRrlPGboK8",
+        "title": "Sprawl technique breakdown",
+        "by": "Jordan Burroughs",
+        "vertical": false,
+        "channel": "CreightonWrestling",
+        "duration": 122,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Io79xaXZx_c",
+        "title": "How to sprawl against a double leg",
+        "by": "ateambjj",
+        "vertical": false,
+        "channel": "ateambjj",
+        "duration": 56,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sprawl Defender",
@@ -362,23 +503,73 @@
     "flashcards": [
       {
         "question": "Your double leg shot gets sprawled on and you feel heavy chest pressure collapsing your posture - what is your first defensive priority?",
-        "answer": "Your first priority is to tuck your chin tightly to your chest and bring your elbows close to your body to protect your neck from submission attempts. The opponent's immediate goal after sprawling is to establish front headlock control and attack with guillotines, darce chokes, or anacondas. If your neck is exposed during this transition, you are likely to be caught in a choke before you can execute any recovery. Secure the chin tuck first, then assess your remaining grip connections and available recovery options."
+        "answer": "Your first priority is to tuck your chin tightly to your chest and bring your elbows close to your body to protect your neck from submission attempts. The opponent's immediate goal after sprawling is to establish front headlock control and attack with guillotines, darce chokes, or anacondas. If your neck is exposed during this transition, you are likely to be caught in a choke before you can execute any recovery. Secure the chin tuck first, then assess your remaining grip connections and available recovery options.",
+        "answer_line": "Tuck chin, elbows in tight",
+        "distractors": {
+          "plausible": [
+            "Push against their chest",
+            "Grab for an underhook first"
+          ],
+          "trap": [
+            "Look up to find space"
+          ]
+        }
       },
       {
         "question": "When should you attempt to re-shoot after your initial takedown is stuffed by a sprawl rather than continuing to fight from underneath?",
-        "answer": "Re-shooting is best attempted when you can create enough separation to stand up and the opponent has not yet locked up a front headlock grip. The window typically exists in the first two to three seconds after the sprawl lands, before the opponent transitions their hands from the mat to your head and neck. If you can push off their hips, circle away, and stand to an athletic stance, an immediate re-shot catches them while they are still recovering from the sprawl position. If the opponent already has front headlock grips, attempting to disengage and re-shoot is dangerous because they will snap you down as you try to stand."
+        "answer": "Re-shooting is best attempted when you can create enough separation to stand up and the opponent has not yet locked up a front headlock grip. The window typically exists in the first two to three seconds after the sprawl lands, before the opponent transitions their hands from the mat to your head and neck. If you can push off their hips, circle away, and stand to an athletic stance, an immediate re-shot catches them while they are still recovering from the sprawl position. If the opponent already has front headlock grips, attempting to disengage and re-shoot is dangerous because they will snap you down as you try to stand.",
+        "answer_line": "Re-shoot before headlock locks in",
+        "distractors": {
+          "plausible": [
+            "Re-shoot anytime you're standing",
+            "Wait full recovery before re-shoot"
+          ],
+          "trap": [
+            "Stand up once they grip your neck"
+          ]
+        }
       },
       {
         "question": "How do you convert a stuffed double leg into a single leg finish after being sprawled on?",
-        "answer": "When your double leg is sprawled, immediately redirect by releasing one leg and tightening your grip on the other. Change your angle by stepping your outside foot to the far side of their body while driving your head across to the opposite hip. This converts the straight-line double leg into an angled single leg that is much harder to defend with a sprawl alone. Drive laterally rather than forward, using the new angle to off-balance them in a direction their sprawl does not defend. From there, use standard single leg finishes such as the trip, the run the pipe, or the dump."
+        "answer": "When your double leg is sprawled, immediately redirect by releasing one leg and tightening your grip on the other. Change your angle by stepping your outside foot to the far side of their body while driving your head across to the opposite hip. This converts the straight-line double leg into an angled single leg that is much harder to defend with a sprawl alone. Drive laterally rather than forward, using the new angle to off-balance them in a direction their sprawl does not defend. From there, use standard single leg finishes such as the trip, the run the pipe, or the dump.",
+        "answer_line": "Release one leg, angle off",
+        "distractors": {
+          "plausible": [
+            "Keep driving straight forward",
+            "Switch to a different leg entirely"
+          ],
+          "trap": [
+            "Let go of both legs, reset"
+          ]
+        }
       },
       {
         "question": "Your shot gets stuffed and the opponent begins circling to establish front headlock - what is the most critical thing to prevent?",
-        "answer": "The most critical thing to prevent is allowing the opponent to get their arm deep around your neck while simultaneously controlling your far shoulder. This dual control is what makes front headlock dangerous, because it locks you in place and sets up all their submission chains. Use your hands to fight their incoming arm at the wrist or elbow, preventing them from threading under your chin. Simultaneously, circle in the opposite direction from where they are stepping to deny them the angle they need. If you can prevent the neck grip from being established, the front headlock remains loose and your escape options stay viable."
+        "answer": "The most critical thing to prevent is allowing the opponent to get their arm deep around your neck while simultaneously controlling your far shoulder. This dual control is what makes front headlock dangerous, because it locks you in place and sets up all their submission chains. Use your hands to fight their incoming arm at the wrist or elbow, preventing them from threading under your chin. Simultaneously, circle in the opposite direction from where they are stepping to deny them the angle they need. If you can prevent the neck grip from being established, the front headlock remains loose and your escape options stay viable.",
+        "answer_line": "Deny arm around neck and shoulder",
+        "distractors": {
+          "plausible": [
+            "Prevent them from standing up",
+            "Stop their leg from circling"
+          ],
+          "trap": [
+            "Push their head down harder"
+          ]
+        }
       },
       {
         "question": "When is pulling guard the correct response to getting sprawled on versus continuing to fight for the takedown?",
-        "answer": "Pulling guard is the correct response when the opponent has consolidated front headlock control with deep grips and active submission threats, making continued standing engagement more dangerous than conceding bottom position. Specifically, if their arm is already deep around your neck and their chest pressure is heavy, attempting to fight through creates high risk of guillotine or darce finishes. In this scenario, sitting through to closed guard or half guard while controlling their arms neutralizes the front headlock threats and puts you in a guard position you can work from. However, pulling guard should be a last resort when other recovery options have failed, not a default response to any sprawl."
+        "answer": "Pulling guard is the correct response when the opponent has consolidated front headlock control with deep grips and active submission threats, making continued standing engagement more dangerous than conceding bottom position. Specifically, if their arm is already deep around your neck and their chest pressure is heavy, attempting to fight through creates high risk of guillotine or darce finishes. In this scenario, sitting through to closed guard or half guard while controlling their arms neutralizes the front headlock threats and puts you in a guard position you can work from. However, pulling guard should be a last resort when other recovery options have failed, not a default response to any sprawl.",
+        "answer_line": "When headlock control is deep",
+        "distractors": {
+          "plausible": [
+            "Anytime you're sprawled on",
+            "As soon as they touch your neck"
+          ],
+          "trap": [
+            "Never, always fight to stand"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -401,6 +592,35 @@
         "phase": "Phase 4: Live Takedown Sparring with Recovery Focus",
         "focus": "Applying takedown recovery techniques in full-resistance standing exchanges",
         "description": "Engage in live takedown sparring where you initiate shots against a partner who sprawls with full effort. Focus on executing recovery options immediately after being sprawled rather than forcing through stuffed shots. Include rounds where you must recover position within 5 seconds of being sprawled or the round resets."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ymf_c1j3JEY",
+        "title": "Reshots after being sprawled on",
+        "by": "Askren Wrestling Academy",
+        "vertical": false,
+        "channel": "Askren Wrestling Academy",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F_cW7ETcTPg",
+        "title": "Sucker drag and peek out vs short offense",
+        "by": "Glover Teixeira",
+        "vertical": false,
+        "channel": "Black and Gold MMA",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U3T0fy6-iNE",
+        "title": "Chain wrestling: shot recovery after the sprawl",
+        "by": "Jordan Burroughs",
+        "vertical": false,
+        "channel": "FCA Wrestling",
+        "duration": 244,
+        "verified": "2026-07-15"
       }
     ]
   },

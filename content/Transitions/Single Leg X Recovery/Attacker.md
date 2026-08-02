@@ -168,6 +168,54 @@ description: "How to execute Single Leg X Recovery in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X Recovery (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Recovering single leg X when you get smashed",
+      "description": "Single Leg X Recovery (Attacker) film study: Recovering single leg X when you get smashed, taught by Dubious Dom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v68TUDCHSe8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v68TUDCHSe8",
+      "url": "https://www.youtube.com/watch?v=v68TUDCHSe8",
+      "creator": { "@type": "Person", "name": "Dubious Dom" },
+      "duration": "PT295S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Backstep Retention from Single Leg X",
+      "description": "Single Leg X Recovery (Attacker) film study: Backstep Retention from Single Leg X, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ipBdnq-j--g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ipBdnq-j--g",
+      "url": "https://www.youtube.com/watch?v=ipBdnq-j--g",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT302S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single Leg X - Forcing Their Hands to the Mat",
+      "description": "Single Leg X Recovery (Attacker) film study: Single Leg X - Forcing Their Hands to the Mat, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LQul2ZvHyms/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LQul2ZvHyms",
+      "url": "https://www.youtube.com/watch?v=LQul2ZvHyms",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT254S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Once the threading is complete, establishing Single Leg X structure immediately�
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X Recovery (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v68TUDCHSe8)
+
+<p class="clip-credit"><strong>Recovering single leg X when you get smashed</strong> — taught by Dubious Dom · 4:55 · <a href="https://www.youtube.com/watch?v=v68TUDCHSe8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ipBdnq-j--g)
+
+<p class="clip-credit"><strong>Backstep Retention from Single Leg X</strong> — taught by Lachlan Giles · 5:02 · <a href="https://www.youtube.com/watch?v=ipBdnq-j--g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LQul2ZvHyms)
+
+<p class="clip-credit"><strong>Single Leg X - Forcing Their Hands to the Mat</strong> — taught by Lachlan Giles · 4:14 · <a href="https://www.youtube.com/watch?v=LQul2ZvHyms" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

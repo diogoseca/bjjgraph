@@ -24,7 +24,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Closed Guard",
   "from_position": "Closed Guard/Bottom",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "variant_uniqueness": "Gi-dependent blood choke with cross-grip configuration from multiple positions",
   "overview": "The Cross Collar Choke represents one of the most fundamental and effective gi submissions in Brazilian Jiu-Jitsu, targeting the carotid arteries through precise collar grip manipulation. This technique leverages the opponent's own gi against them, creating a constriction that cuts blood flow to the brain when executed properly. The cross grip configuration—where your right hand grips their left collar and vice versa—generates tremendous mechanical advantage through the twisting action of your forearms. This submission is particularly valuable because it can be applied from multiple positions, most commonly from closed guard bottom, mount top, and side control. The technique's effectiveness stems from its ability to disguise the setup within normal grip fighting exchanges, making it difficult for opponents to recognize the threat until the choke is already deep. When executed with proper depth and angle, the Cross Collar Choke creates an inescapable situation that forces immediate submission, often within 3-5 seconds of full application. Its versatility across skill levels and positions makes it an essential component of any gi practitioner's submission arsenal.",
   "safety_considerations": {
@@ -240,6 +243,44 @@
       "variation_name": "Baseball Bat Choke Connection",
       "description": "From top positions (side control, knee on belly, north-south), establish one grip deep in the collar then stack your second hand on the same collar like holding a baseball bat. Drive forward over opponent's head while pulling the collar grips in opposite directions. Creates tremendous pressure and is difficult to defend due to the stacking angle.",
       "when_to_use": "From top control positions when passing guard or controlling from side control. Particularly effective when opponent is turtled or on their side, as you can drive over their head to create the stacking pressure needed."
+    }
+  ],
+  "clips": [
+    {
+      "id": "dfP-Ov8FBUo",
+      "title": "Cross Collar Chokes",
+      "by": "Roger Gracie",
+      "vertical": false,
+      "channel": "Jiu Jitsu Moves",
+      "duration": 80,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "DrAxA8KUxbo",
+      "title": "Palm-Up Palm-Up Cross Choke",
+      "by": "Avant-Garde BJJ",
+      "vertical": false,
+      "channel": "Avant-Garde BJJ",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "zSSw_fUcNxU",
+      "title": "Roger Gracie Cross Choke",
+      "by": "Roger Gracie",
+      "vertical": false,
+      "channel": "Jiu-Jitsu Channel",
+      "duration": 134,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ZHjfYIXgNpg",
+      "title": "Collar Choke from Back Control",
+      "by": "Team Daruma Dojo",
+      "vertical": false,
+      "channel": "Team Daruma Dojo",
+      "duration": 45,
+      "verified": "2026-07-14"
     }
   ]
 }

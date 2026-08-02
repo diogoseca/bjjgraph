@@ -148,6 +148,54 @@ description: "Defend against the Reguard from Pocket Half Guard as the top playe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reguard from Pocket Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Killing the knee shield to deny guard recovery",
+      "description": "Reguard from Pocket Half Guard (Defender) film study: Killing the knee shield to deny guard recovery, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZzOVD7P6U-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZzOVD7P6U-E",
+      "url": "https://www.youtube.com/watch?v=ZzOVD7P6U-E",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the flat half guard",
+      "description": "Reguard from Pocket Half Guard (Defender) film study: Passing the flat half guard, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
+      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee shield half guard pass",
+      "description": "Reguard from Pocket Half Guard (Defender) film study: Knee shield half guard pass, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UXCySaKOndI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UXCySaKOndI",
+      "url": "https://www.youtube.com/watch?v=UXCySaKOndI",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the reguard from pocket half guard requires the top player to capitali
 **Opponent's Starting Position**: [[Positions/Half Guard/Pocket Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reguard from Pocket Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZzOVD7P6U-E)
+
+<p class="clip-credit"><strong>Killing the knee shield to deny guard recovery</strong> — taught by Chosen Few BJJ · 1:28 · <a href="https://www.youtube.com/watch?v=ZzOVD7P6U-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8WbQvytyCX0)
+
+<p class="clip-credit"><strong>Passing the flat half guard</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UXCySaKOndI)
+
+<p class="clip-credit"><strong>Knee shield half guard pass</strong> — taught by Bowerhouse MMA · 2:01 · <a href="https://www.youtube.com/watch?v=UXCySaKOndI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

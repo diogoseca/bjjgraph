@@ -142,6 +142,54 @@ description: "Defend the Kimura from Knee on Belly in BJJ. Recognition cues, gri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Knee on Belly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Escape the Knee on Belly Position",
+      "description": "Kimura from Knee on Belly (Defender) film study: How To Escape the Knee on Belly Position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
+      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "First Principles Escapes: Knee-on-Belly",
+      "description": "Kimura from Knee on Belly (Defender) film study: First Principles Escapes: Knee-on-Belly, taught by 40 Plus BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I9_3u9AcwAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I9_3u9AcwAg",
+      "url": "https://www.youtube.com/watch?v=I9_3u9AcwAg",
+      "creator": { "@type": "Person", "name": "40 Plus BJJ" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee on Belly Escape to Technical Standup",
+      "description": "Kimura from Knee on Belly (Defender) film study: Knee on Belly Escape to Technical Standup, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/52LxBaUJdcw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/52LxBaUJdcw",
+      "url": "https://www.youtube.com/watch?v=52LxBaUJdcw",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +200,42 @@ Defending the Kimura from Knee on Belly requires addressing two simultaneous thr
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Knee on Belly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
+
+<p class="clip-credit"><strong>How To Escape the Knee on Belly Position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I9_3u9AcwAg)
+
+<p class="clip-credit"><strong>First Principles Escapes: Knee-on-Belly</strong> — taught by 40 Plus BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=I9_3u9AcwAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=52LxBaUJdcw)
+
+<p class="clip-credit"><strong>Knee on Belly Escape to Technical Standup</strong> — taught by Lucas Lepri · 2:11 · <a href="https://www.youtube.com/watch?v=52LxBaUJdcw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

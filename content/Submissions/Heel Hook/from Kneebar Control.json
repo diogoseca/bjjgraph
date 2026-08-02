@@ -20,7 +20,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Kneebar Control",
   "from_position": "Kneebar Control/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from kneebar control exploits a fundamental defensive dilemma in the leg lock game. When an attacker establishes kneebar control and threatens knee hyperextension, the defender's natural response is to bend the knee strongly, preventing the straight-line extension that powers the kneebar. This bent-knee defense, while effective against the kneebar, directly exposes the heel for a rotational attack — creating a catch-22 where defending one submission opens vulnerability to another.\n\nThis transition represents a core concept in systematic leg lock play: submissions exist in chains rather than isolation. The attacker reads defensive reactions and redirects to whichever attack the defense creates. From kneebar control, the grip change is mechanically straightforward — shifting from arms hugging the leg across the torso to hands cupping the heel with rotational control — but the attacking vector changes dramatically from linear extension to rotational torsion against the knee's ligamentous structures.\n\nThe danger level escalates significantly with this transition. Kneebars provide relatively clear proprioceptive feedback, giving defenders time to recognize pressure and tap. Heel hooks attack the ACL, MCL, and LCL with far less warning, as rotational damage to these structures often occurs before the defender perceives pain. This makes the heel hook from kneebar control one of the most dangerous transitions in grappling, demanding strict adherence to safety protocols during training.",
   "safety_considerations": {
     "injury_risks": [
@@ -114,17 +117,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Kneebar Control/Bottom",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],
@@ -287,42 +299,151 @@
       {
         "question": "What anatomical structures does the heel hook from kneebar control primarily attack?",
         "answer": "The heel hook primarily attacks the knee's rotational ligaments — the anterior cruciate ligament (ACL), medial collateral ligament (MCL), and lateral collateral ligament (LCL). Secondary targets include the menisci and the ankle ligaments. The rotational force transmitted through the heel creates torsion at the knee joint, which lacks structural resistance to rotation compared to extension or flexion forces.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "ACL, MCL, LCL via rotation",
+        "distractors": {
+          "plausible": [
+            "Ankle ligaments only",
+            "Menisci are the main target"
+          ],
+          "trap": [
+            "Knee is safe, crank to the tap"
+          ]
+        }
       },
       {
         "question": "What physical indicators suggest the heel hook is approaching the breaking point?",
         "answer": "Key indicators include feeling the opponent's knee begin to rotate involuntarily with your torque, sensing a sudden loss of muscular resistance as ligaments reach their elastic limit, and the opponent's body stiffening reflexively. In training, you must stop well before these indicators become apparent — the moment you feel the knee beginning to give rotationally, immediately reduce pressure and wait for the tap. Heel hooks cause damage before pain signals arrive.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knee rotates, resistance fades",
+        "distractors": {
+          "plausible": [
+            "Loud pain response from partner",
+            "Foot goes numb in the grip"
+          ],
+          "trap": [
+            "Crank harder until it pops"
+          ]
+        }
       },
       {
         "question": "What control must be established before transitioning from kneebar to heel hook?",
         "answer": "Before transitioning, ensure your leg entanglement prevents the opponent from rotating their hips freely, with your near-side leg hooked behind their knee or across their thigh. Your hips must remain connected to their leg, and the heel must be accessible to your hands. Your inside arm should be pre-positioned to thread under the ankle for heel capture. Never release leg control to reach for the heel — the entanglement does the controlling while the arms transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg entanglement locked first",
+        "distractors": {
+          "plausible": [
+            "Grip the ankle before hips",
+            "Secure hips only, ignore heel"
+          ],
+          "trap": [
+            "Release legs to grab the heel"
+          ]
+        }
       },
       {
         "question": "At what point during this submission is escape no longer viable for the defender?",
         "answer": "Escape becomes extremely difficult once the attacker has secured a locked figure-four or S-grip on the heel with elbows pinched tight, combined with strong leg entanglement preventing hip rotation. Before the grip locks, the defender can fight hands and straighten their leg. After the grip is secured and rotational pressure begins, the defender's options narrow to tapping immediately. The grip lock combined with hip control represents the true point of no return.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Heel grip locked, hips pinned",
+        "distractors": {
+          "plausible": [
+            "Both hands close on the foot",
+            "Once the entanglement is entered"
+          ],
+          "trap": [
+            "Keep fighting until ligaments tear"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error when transitioning from kneebar to heel hook?",
         "answer": "The most common error is releasing leg entanglement during the grip transition to reach for the heel. Attackers often open their legs to extend their reach, which allows the defender to extract their leg or rotate their hips freely. The correct approach is maintaining tight leg hooks throughout, using only the arms to change grip configuration while the legs continue controlling the opponent's hip movement and preventing extraction.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Opening legs during grip switch",
+        "distractors": {
+          "plausible": [
+            "Switching grip too slowly",
+            "Not enough kneebar pressure"
+          ],
+          "trap": [
+            "Let hips separate to reach far"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip when the opponent's foot orientation makes the standard heel hook grip difficult?",
         "answer": "If the heel faces away from your centerline, use your outside hand to cup the heel first, then thread your inside arm under the ankle to establish the figure-four. If the foot is tucked, apply kneebar pressure to force them to bend the knee deeper, which brings the heel into range. For stubborn foot positions, consider switching to a palm-to-palm or S-grip configuration rather than the traditional figure-four, as this requires less precise heel positioning while still generating strong rotational control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cup heel outside, thread inside",
+        "distractors": {
+          "plausible": [
+            "Force figure-four regardless",
+            "Pull foot straight to align it"
+          ],
+          "trap": [
+            "Release entanglement to reposition"
+          ]
+        }
       },
       {
         "question": "What makes the heel hook from kneebar control more dangerous than the kneebar itself?",
         "answer": "The kneebar attacks through extension, which provides clear proprioceptive feedback — the defender feels increasing stretch and pressure, allowing time to tap before damage occurs. The heel hook attacks through rotation, which damages the ACL, MCL, and LCL with minimal pain warning. Defenders often do not perceive significant pain until structural damage has already occurred. This reduced feedback window makes the heel hook substantially more dangerous, demanding extremely slow application in training and immediate release on any tap signal.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotation tears ligaments silently",
+        "distractors": {
+          "plausible": [
+            "It over-extends the knee joint",
+            "It's a faster, tighter finish"
+          ],
+          "trap": [
+            "Pain warns you before injury"
+          ]
+        }
       },
       {
         "question": "How should you set up the kneebar-to-heel-hook chain in a competition context?",
         "answer": "In competition, commit to genuine kneebar pressure first to force the bent-knee defensive reaction. The kneebar must be a real threat, not a feint — apply enough force that the opponent must fully commit to bending their knee. As they commit to defense, redirect to the heel immediately. Time the grip change to coincide with their maximum defensive commitment, when the heel is most exposed and their attention is focused on preventing extension. The transition should feel like a continuous flow rather than two separate attacks.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Real pressure, then redirect",
+        "distractors": {
+          "plausible": [
+            "Feint kneebar, go straight to heel",
+            "Attack heel first, then kneebar"
+          ],
+          "trap": [
+            "Release legs to fake the kneebar"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "HQSxxYL1Aew",
+        "title": "Kneebar to Heel Hook Matrix",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 26,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "B8q8wZx0b74",
+        "title": "Ankle Lock to Kneebar to Heel Hook Transitions",
+        "by": "Elevate MMA",
+        "vertical": false,
+        "channel": "Elevate MMA Academy",
+        "duration": 94,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6gu-n4P9JXo",
+        "title": "Heel Hook Breaking Mechanics",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Altay Pirge",
+        "duration": 77,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -408,27 +529,77 @@
       {
         "question": "How do you recognize that your opponent is transitioning from kneebar to heel hook?",
         "answer": "Key recognition cues include feeling their hands shift from hugging your leg tight against their chest toward threading under your ankle or cupping your heel. You will also notice a reduction in linear extension pressure followed by the attacker adjusting their hip angle. Their forearm contacting the back of your heel or Achilles tendon rather than reinforcing the kneebar grip is the clearest signal that the heel hook redirect has begun.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hands shift from hug to ankle",
+        "distractors": {
+          "plausible": [
+            "Increased linear extension force",
+            "Opponent squeezes knee tighter"
+          ],
+          "trap": [
+            "Ignore hand position, defend knee"
+          ]
+        }
       },
       {
         "question": "When should you tap to a heel hook from kneebar control to prevent injury?",
         "answer": "Tap immediately when you feel rotational pressure on your knee that you cannot counter by rotating your hips in the same direction. Do not wait for pain — heel hooks cause ligament damage before pain signals arrive. If the attacker has a locked grip on your heel with elbows tight and begins any rotational movement you cannot neutralize, tap immediately. It is far better to tap early and train again tomorrow than to suffer an ACL tear requiring months of rehabilitation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at rotation you can't counter",
+        "distractors": {
+          "plausible": [
+            "Tap only when pain begins",
+            "Tap when your foot goes numb"
+          ],
+          "trap": [
+            "Spin away from the twisting force"
+          ]
+        }
       },
       {
         "question": "What are the primary defensive techniques against the heel hook from kneebar control?",
         "answer": "Three primary defenses exist: First, straighten your leg forcefully during the grip transition window to prevent the attacker from capturing your heel and restore kneebar defense positioning. Second, rotate your hips in the same direction as the heel hook torque to relieve rotational pressure on your knee. Third, fight the heel grip actively before it locks by pulling your foot free, prying their hands apart, or tucking your heel behind their body where they cannot access it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten, rotate hips, fight grip",
+        "distractors": {
+          "plausible": [
+            "Pull their kneebar arm off",
+            "Stay balled up and wait"
+          ],
+          "trap": [
+            "Roll against the heel hook"
+          ]
+        }
       },
       {
         "question": "Why is the grip transition from kneebar to heel hook a critical defensive window?",
         "answer": "During the grip transition, the attacker must release their standard kneebar arm configuration and re-grip the heel, momentarily reducing their control strength. This creates a brief window where arm control is compromised and only the leg entanglement is maintaining position. An explosive leg straightening or hip escape during this window has the highest success probability because the attacker cannot simultaneously maintain kneebar pressure and secure the heel hook grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Control weakens mid-grip switch",
+        "distractors": {
+          "plausible": [
+            "Kneebar pressure peaks then",
+            "Attacker's hips loosen briefly"
+          ],
+          "trap": [
+            "Wait for the switch to finish"
+          ]
+        }
       },
       {
         "question": "What proactive measures can you take to prevent the kneebar-to-heel-hook transition entirely?",
         "answer": "The most effective prevention is to keep your heel tucked tight behind the attacker's body or between their legs where their hands cannot reach while defending the kneebar. Maintain active foot position — never let your heel float freely when your knee is bent in defense. Additionally, work to escape the entire leg entanglement rather than defending individual submissions one at a time, as the positional escape eliminates all submission threats simultaneously and returns you to a safe position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tuck heel, escape entanglement",
+        "distractors": {
+          "plausible": [
+            "Grip fight their hands only",
+            "Stiff-arm their chest for space"
+          ],
+          "trap": [
+            "Let your heel float free"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -451,6 +622,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Applying defensive skills under realistic conditions with full leg lock exchanges",
         "description": "Open leg lock sparring where kneebar-to-heel-hook transitions occur organically. Defender must recognize and respond to transitions in real time with full resistance. Maintain strict safety protocols throughout. Debrief after each round to analyze decision points and defensive timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending Heel Hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "E8oQH0salp4",
+        "title": "Knee Bar Submission Escape from Guard",
+        "by": "ConwayToe2Toe",
+        "vertical": false,
+        "channel": "ConwayToe2Toe Jiu-Jitsu",
+        "duration": 96,
+        "verified": "2026-07-14"
       }
     ]
   }

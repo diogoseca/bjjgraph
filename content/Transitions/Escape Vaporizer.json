@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Lockdown/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Escape Vaporizer is a tactical disengagement in which the Vaporizer bottom player releases the lockdown and immediately inserts foot frames to reset into open guard once their lockdown-based attacks have been neutralized.",
   "overview": "Within the 10th Planet lockdown system, the Escape Vaporizer is a tactical reset rather than a defensive escape from danger—the bottom player who has been controlling the Vaporizer abandons a stalled position to re-establish open guard, where fresh attacking opportunities become available. This decision typically arises when the top player has successfully neutralized whip-up pressure, established a strong whizzer, or begun systematically clearing the lockdown configuration.\n\nThe technical challenge lies in releasing the lockdown figure-four without creating passing opportunities for the top player. The bottom player must coordinate the leg release with immediate frame establishment, using the brief transitional window to insert feet on hips and create distance before the opponent can capitalize on the suddenly freed leg. Poor execution during this phase exposes the bottom player to pressure passing and flattening, making the timing and sequencing of each movement critical.\n\nRecognizing when to abandon the Vaporizer is a hallmark of positional intelligence within the 10th Planet system. Committing too long to a neutralized position wastes energy and allows the opponent to organize their passing game. Transitioning to open guard provides access to De La Riva hooks, butterfly elevators, and collar sleeve controls that attack from fundamentally different angles than the lockdown-based proximity game, forcing the opponent to recalibrate their defensive strategy entirely.",
   "conditions": [
@@ -91,7 +103,7 @@
       "relationship": "Related escape concept demonstrating tactical retreat from half guard positions"
     },
     {
-      "name": "Deep Half Entry from Half Guard",
+      "name": "Deep Half Entry",
       "relationship": "Alternative transition path available from the half guard family"
     },
     {
@@ -248,38 +260,119 @@
     "flashcards": [
       {
         "question": "What signals indicate that your Vaporizer position has become unproductive and a transition to open guard is warranted?",
-        "answer": "Key indicators include the opponent consistently neutralizing your whip-up motion through base widening, their establishment of a strong whizzer that prevents your underhook from generating leverage, repeated failed sweep attempts, and the opponent beginning to systematically work on clearing your lockdown. Energy expenditure exceeding offensive output is the clearest signal—if you are working harder to maintain the position than the opponent is working to escape it, the position has become counterproductive and a tactical reset to open guard offers better returns."
+        "answer": "Key indicators include the opponent consistently neutralizing your whip-up motion through base widening, their establishment of a strong whizzer that prevents your underhook from generating leverage, repeated failed sweep attempts, and the opponent beginning to systematically work on clearing your lockdown. Energy expenditure exceeding offensive output is the clearest signal—if you are working harder to maintain the position than the opponent is working to escape it, the position has become counterproductive and a tactical reset to open guard offers better returns.",
+        "answer_line": "Effort now exceeds your gains",
+        "distractors": {
+          "plausible": [
+            "Base widened once",
+            "Whizzer blocks your underhook"
+          ],
+          "trap": [
+            "Ignore fatigue, keep grinding"
+          ]
+        }
       },
       {
         "question": "Why must the foot frame on the opponent's hip be established before the lockdown is fully released?",
-        "answer": "The foot frame creates a defensive barrier that prevents the opponent from immediately driving forward into a pressure pass when the lockdown releases. Without this frame, a vulnerable window exists where no structural defense separates you from the opponent. The foot on hip serves as both a distance management tool and a platform for pushing the opponent away to create open guard range. Releasing the lockdown without this frame in place is the most common cause of being passed during the transition."
+        "answer": "The foot frame creates a defensive barrier that prevents the opponent from immediately driving forward into a pressure pass when the lockdown releases. Without this frame, a vulnerable window exists where no structural defense separates you from the opponent. The foot on hip serves as both a distance management tool and a platform for pushing the opponent away to create open guard range. Releasing the lockdown without this frame in place is the most common cause of being passed during the transition.",
+        "answer_line": "Prevents the forward pressure pass",
+        "distractors": {
+          "plausible": [
+            "Keeps their hips pinned down",
+            "Sets up the sweep attempt"
+          ],
+          "trap": [
+            "Release lockdown before framing"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving forward pressure just as you start loosening the lockdown—what is the correct response?",
-        "answer": "Immediately abort the escape attempt and re-tighten the lockdown figure-four. Forward momentum from the opponent makes the transition extremely dangerous because they will drive through any incomplete frame before it can be established. Wait for their pressure to settle before attempting the release again. If you cannot re-establish the full lockdown, transition to knee shield half guard as a defensive fallback rather than trying to complete the open guard transition under heavy forward pressure."
+        "answer": "Immediately abort the escape attempt and re-tighten the lockdown figure-four. Forward momentum from the opponent makes the transition extremely dangerous because they will drive through any incomplete frame before it can be established. Wait for their pressure to settle before attempting the release again. If you cannot re-establish the full lockdown, transition to knee shield half guard as a defensive fallback rather than trying to complete the open guard transition under heavy forward pressure.",
+        "answer_line": "Re-tighten the lockdown now",
+        "distractors": {
+          "plausible": [
+            "Rush foot to their hip",
+            "Push away and scoot back"
+          ],
+          "trap": [
+            "Keep releasing, fight through it"
+          ]
+        }
       },
       {
         "question": "What role does the underhook play during the transition from Vaporizer to open guard?",
-        "answer": "The underhook serves as the primary control bridge between the two positions. During the vulnerable transition window, it prevents the opponent from freely advancing their position or establishing crossface control. The underhook should be maintained throughout the entire release sequence and only exchanged for open guard grips once the foot frames are fully established and distance has been created. Releasing the underhook prematurely removes your ability to control the opponent's upper body during the most dangerous phase."
+        "answer": "The underhook serves as the primary control bridge between the two positions. During the vulnerable transition window, it prevents the opponent from freely advancing their position or establishing crossface control. The underhook should be maintained throughout the entire release sequence and only exchanged for open guard grips once the foot frames are fully established and distance has been created. Releasing the underhook prematurely removes your ability to control the opponent's upper body during the most dangerous phase.",
+        "answer_line": "Keep it until frames are set",
+        "distractors": {
+          "plausible": [
+            "Trade it for a collar tie early",
+            "Use it to power the sweep"
+          ],
+          "trap": [
+            "Release it to grab the ankle"
+          ]
+        }
       },
       {
         "question": "How does the Escape Vaporizer differ mechanically from simply having your lockdown cleared by the opponent?",
-        "answer": "When you initiate the escape, you control the timing and sequence of the lockdown release, allowing you to coordinate frames, grips, and distance creation proactively. When the opponent clears your lockdown, they dictate the timing and typically do so while simultaneously advancing their passing position. The key difference is initiative—a proactive release lets you establish defensive structures before the lockdown opens, while a forced clearing leaves you reacting to passing pressure without preparation."
+        "answer": "When you initiate the escape, you control the timing and sequence of the lockdown release, allowing you to coordinate frames, grips, and distance creation proactively. When the opponent clears your lockdown, they dictate the timing and typically do so while simultaneously advancing their passing position. The key difference is initiative—a proactive release lets you establish defensive structures before the lockdown opens, while a forced clearing leaves you reacting to passing pressure without preparation.",
+        "answer_line": "You control the timing",
+        "distractors": {
+          "plausible": [
+            "Same result, different speed",
+            "You use more strength to open it"
+          ],
+          "trap": [
+            "Wait for them to clear it first"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the lockdown release relative to the opponent's movement cycle?",
-        "answer": "Initiate the release when the opponent's weight is settled and they are between defensive adjustments—specifically when they have just completed a base widening or weight shift and are momentarily static. Avoid releasing during any of their active movements or when they are generating forward drive. The ideal window occurs during a pause in their defensive sequence when their muscular tension is slightly reduced and reaction time is marginally slower."
+        "answer": "Initiate the release when the opponent's weight is settled and they are between defensive adjustments—specifically when they have just completed a base widening or weight shift and are momentarily static. Avoid releasing during any of their active movements or when they are generating forward drive. The ideal window occurs during a pause in their defensive sequence when their muscular tension is slightly reduced and reaction time is marginally slower.",
+        "answer_line": "When they're static, not moving",
+        "distractors": {
+          "plausible": [
+            "Right after their base widens",
+            "During their weight shift"
+          ],
+          "trap": [
+            "While they drive forward"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your ankle as you attempt to place your foot on their hip during the transition—how do you recover?",
-        "answer": "Use your underhook to pull their upper body toward you, which compromises their ability to maintain the ankle grip with full strength. Simultaneously circle your foot to break the grip using rotational force rather than pulling directly away from their hand. If the grip holds, re-establish the lockdown temporarily rather than fighting for foot placement in a compromised position. A failed transition attempt where you recover to lockdown is far better than being caught in a half-completed escape where neither position is secure."
+        "answer": "Use your underhook to pull their upper body toward you, which compromises their ability to maintain the ankle grip with full strength. Simultaneously circle your foot to break the grip using rotational force rather than pulling directly away from their hand. If the grip holds, re-establish the lockdown temporarily rather than fighting for foot placement in a compromised position. A failed transition attempt where you recover to lockdown is far better than being caught in a half-completed escape where neither position is secure.",
+        "answer_line": "Circle foot, pull with underhook",
+        "distractors": {
+          "plausible": [
+            "Yank your foot straight back",
+            "Fight the grip, force the foot"
+          ],
+          "trap": [
+            "Abandon underhook to free ankle"
+          ]
+        }
       },
       {
         "question": "In which direction do you direct force when creating distance after the lockdown releases, and why?",
-        "answer": "Push horizontally through the balls of your feet on the opponent's hips, directing force backward along the plane of the mat while you hip escape in the opposite direction. Driving the feet upward instead elevates the opponent and tempts them to fold forward into a pressure pass, whereas pushing straight back separates the hips and opens clean open guard range without sacrificing your own base. The pushing kick and the hip escape must fire together so the distance you create is not immediately reclaimed by the opponent stepping in."
+        "answer": "Push horizontally through the balls of your feet on the opponent's hips, directing force backward along the plane of the mat while you hip escape in the opposite direction. Driving the feet upward instead elevates the opponent and tempts them to fold forward into a pressure pass, whereas pushing straight back separates the hips and opens clean open guard range without sacrificing your own base. The pushing kick and the hip escape must fire together so the distance you create is not immediately reclaimed by the opponent stepping in.",
+        "answer_line": "Push feet straight back",
+        "distractors": {
+          "plausible": [
+            "Push feet up and back",
+            "Push then hip escape after"
+          ],
+          "trap": [
+            "Drive feet upward, elevate them"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The primary safety concern during the Escape Vaporizer is the vulnerability window created when the lockdown figure-four unwinds. Uncontrolled release can cause knee strain on either player as the entangled legs separate under momentum. Practice the release mechanics slowly and with deliberate control before adding speed. Training partners should avoid explosive forward drives during the learning phase, as the bottom player's knee is exposed during mid-release. Communicate clearly with your partner throughout drilling and tap immediately if you feel any twisting pressure on the knee during the transition. Avoid attempting this technique with existing knee injuries until cleared by a medical professional."
+    "safety_considerations": "The primary safety concern during the Escape Vaporizer is the vulnerability window created when the lockdown figure-four unwinds. Uncontrolled release can cause knee strain on either player as the entangled legs separate under momentum. Practice the release mechanics slowly and with deliberate control before adding speed. Training partners should avoid explosive forward drives during the learning phase, as the bottom player's knee is exposed during mid-release. Communicate clearly with your partner throughout drilling and tap immediately if you feel any twisting pressure on the knee during the transition. Avoid attempting this technique with existing knee injuries until cleared by a medical professional.",
+    "clips": []
   },
   "defender": {
     "name": "Escape Vaporizer Defender",
@@ -365,19 +458,59 @@
     "flashcards": [
       {
         "question": "What is the optimal moment to initiate forward pressure when defending against the Escape Vaporizer?",
-        "answer": "The optimal moment is when you first feel the figure-four loosening but before the bottom player has placed their foot on your hip. This is the critical vulnerability window—the lockdown is releasing but no defensive frame has been established yet. Driving forward at this precise moment catches the bottom player between positions, preventing them from completing the transition to open guard. Waiting even two seconds too long allows frame establishment that makes passing significantly harder."
+        "answer": "The optimal moment is when you first feel the figure-four loosening but before the bottom player has placed their foot on your hip. This is the critical vulnerability window—the lockdown is releasing but no defensive frame has been established yet. Driving forward at this precise moment catches the bottom player between positions, preventing them from completing the transition to open guard. Waiting even two seconds too long allows frame establishment that makes passing significantly harder.",
+        "answer_line": "Loosening, before foot's on hip",
+        "distractors": {
+          "plausible": [
+            "Right when lockdown fully opens",
+            "As soon as they start moving"
+          ],
+          "trap": [
+            "Wait until they're set up"
+          ]
+        }
       },
       {
         "question": "Why should you advance your previously trapped leg forward rather than pulling it backward when the lockdown releases?",
-        "answer": "Advancing the leg forward maintains pressure on the bottom player and immediately positions you for passing. The leg should become a passing tool—cutting through for a knee slice or driving forward for a pressure pass. Pulling the leg backward creates space between you and the opponent, which is exactly what they need to establish open guard frames and distance. Your previously trapped leg transitions from liability to weapon in one smooth forward motion."
+        "answer": "Advancing the leg forward maintains pressure on the bottom player and immediately positions you for passing. The leg should become a passing tool—cutting through for a knee slice or driving forward for a pressure pass. Pulling the leg backward creates space between you and the opponent, which is exactly what they need to establish open guard frames and distance. Your previously trapped leg transitions from liability to weapon in one smooth forward motion.",
+        "answer_line": "Drive it forward as a weapon",
+        "distractors": {
+          "plausible": [
+            "Pull it back for a safe base",
+            "Circle it out to reset posture"
+          ],
+          "trap": [
+            "Retreat the leg to escape grips"
+          ]
+        }
       },
       {
         "question": "How do you balance capitalizing on the lockdown release with defending against the underhook the bottom player still maintains?",
-        "answer": "Address the underhook simultaneously with your forward pressure. As you drive forward, establish a whizzer or crossface with your near arm to neutralize the underhook's pulling power. Do not ignore the underhook to chase ankle grips—a live underhook during a positional scramble gives the bottom player sweep opportunities that can reverse the position entirely. The correct sequence is: feel release, drive forward, establish crossface or whizzer, then advance passing position."
+        "answer": "Address the underhook simultaneously with your forward pressure. As you drive forward, establish a whizzer or crossface with your near arm to neutralize the underhook's pulling power. Do not ignore the underhook to chase ankle grips—a live underhook during a positional scramble gives the bottom player sweep opportunities that can reverse the position entirely. The correct sequence is: feel release, drive forward, establish crossface or whizzer, then advance passing position.",
+        "answer_line": "Kill underhook while driving in",
+        "distractors": {
+          "plausible": [
+            "Chase the ankle grip first",
+            "Finish passing, then fix underhook"
+          ],
+          "trap": [
+            "Ignore underhook, hunt for legs"
+          ]
+        }
       },
       {
         "question": "Your opponent releases the lockdown and successfully places both feet on your hips—what passing sequence should you initiate?",
-        "answer": "Once feet are on your hips, the transition to open guard is largely complete and you must shift to standard open guard passing strategy. Strip one foot off your hip by pushing the knee to the side while maintaining your other hand on their collar or wrist for posture control. Alternatively, grip both pant legs at the knees and initiate a toreando pass by directing their legs to one side while stepping around. Act quickly before they establish upper body grips that complete the full open guard configuration."
+        "answer": "Once feet are on your hips, the transition to open guard is largely complete and you must shift to standard open guard passing strategy. Strip one foot off your hip by pushing the knee to the side while maintaining your other hand on their collar or wrist for posture control. Alternatively, grip both pant legs at the knees and initiate a toreando pass by directing their legs to one side while stepping around. Act quickly before they establish upper body grips that complete the full open guard configuration.",
+        "answer_line": "Strip a foot, control the collar",
+        "distractors": {
+          "plausible": [
+            "Dive for a double leg takedown",
+            "Wait for them to grip first"
+          ],
+          "trap": [
+            "Back away and reset your stance"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -400,6 +533,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Competitive application with full resistance and decision-making",
         "description": "Start in Vaporizer with both players at full resistance. Top player must defend the Vaporizer attacks while remaining alert for escape attempts. When the escape is initiated, immediately transition from defensive posture to aggressive passing. Three-minute rounds with role switching to develop both perspectives."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8ZgEL2zU_jg",
+        "title": "Lockdown to vaporizer",
+        "by": "Axel Collazo",
+        "vertical": false,
+        "channel": "Axel Collazo",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dLIqO90Ix7o",
+        "title": "Quarter guard to vaporizer",
+        "by": "Superhero Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Superhero Jiu Jitsu Academy ",
+        "duration": 113,
+        "verified": "2026-07-15"
       }
     ]
   }

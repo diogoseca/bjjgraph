@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Inverted Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "When an opponent commits to inverting, they trade a moment of vulnerability for the rotational freedom that powers berimbolo entries, back takes, and leg entanglements, and the stack is the most direct way to revoke that trade. By driving their hips up and over their head and compressing their spine toward the mat, the top player folds the inverted structure flat, pinning the opponent's weight onto their upper back and shoulders and stripping away the hip elevation and rotation that inversion depends on.\n\nStrategically, the stack from inverted guard serves as a high-percentage response to modern guard systems built around inversion. Rather than chasing the opponent's legs or engaging in grip battles from distance, the stack leverages the top player's weight and forward pressure to collapse the inverted structure entirely. The resulting position typically transitions to half guard top, where the top player can continue working toward a complete pass to side control or mount. This makes the stack a bridge technique that converts a complex open guard exchange into a more conventional passing scenario.\n\nThe technique requires precise timing. Initiating the stack too early allows the opponent to redirect your momentum for a sweep, while waiting too long gives them time to establish grips and begin their berimbolo or leg entanglement sequences. Success depends on controlling the opponent's hips before they achieve full inversion, then committing to continuous forward pressure that prevents them from recovering mobility. The stack from inverted guard is particularly effective against opponents who rely heavily on berimbolo-based systems, as it directly counters the hip elevation and rotation these systems require.",
   "conditions": [
     "Opponent has inverted with hips elevated and shoulders contacting the mat",
@@ -233,38 +245,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the stack against an inverting opponent?",
-        "answer": "The optimal timing is during the initial inversion phase before the opponent establishes full hip elevation and offensive grips like belt or far hip control. Once they achieve complete inversion with strong grips, their berimbolo and sweep options become significantly more dangerous. Initiate the stack when you see their hips beginning to elevate and shoulders contacting the mat, before they can establish the grips that facilitate rotation underneath you."
+        "answer": "The optimal timing is during the initial inversion phase before the opponent establishes full hip elevation and offensive grips like belt or far hip control. Once they achieve complete inversion with strong grips, their berimbolo and sweep options become significantly more dangerous. Initiate the stack when you see their hips beginning to elevate and shoulders contacting the mat, before they can establish the grips that facilitate rotation underneath you.",
+        "answer_line": "Early, before hip/grip control",
+        "distractors": {
+          "plausible": [
+            "Once they're fully inverted",
+            "After belt grip established"
+          ],
+          "trap": [
+            "Wait for full inversion first"
+          ]
+        }
       },
       {
         "question": "What grip must you establish before committing forward pressure into the stack?",
-        "answer": "You must establish controlling grips on the opponent's hips, pants waistband, or belt before committing forward pressure. Without hip control, the opponent can freely rotate underneath you for berimbolo entries or redirect your forward momentum into sweeps. This grip prevents their primary offensive mechanism, which is hip rotation, and allows you to dictate the direction and intensity of the stacking pressure throughout the pass."
+        "answer": "You must establish controlling grips on the opponent's hips, pants waistband, or belt before committing forward pressure. Without hip control, the opponent can freely rotate underneath you for berimbolo entries or redirect your forward momentum into sweeps. This grip prevents their primary offensive mechanism, which is hip rotation, and allows you to dictate the direction and intensity of the stacking pressure throughout the pass.",
+        "answer_line": "Grip hips, pants, or belt",
+        "distractors": {
+          "plausible": [
+            "Grip collar and sleeve",
+            "Grip far leg only"
+          ],
+          "trap": [
+            "Push arms without gripping"
+          ]
+        }
       },
       {
         "question": "Why should you drive with your chest and hips rather than pushing with your arms during the stack?",
-        "answer": "Driving with your chest and hips engages your entire body weight and core strength, generating far more stacking pressure than arms alone can produce. Arms fatigue quickly under load and provide insufficient compression to collapse the inverted structure. Additionally, arm-based pushing creates space between your body and the opponent that they exploit for frames and escapes, while chest-driven pressure maintains close contact that severely limits their defensive options."
+        "answer": "Driving with your chest and hips engages your entire body weight and core strength, generating far more stacking pressure than arms alone can produce. Arms fatigue quickly under load and provide insufficient compression to collapse the inverted structure. Additionally, arm-based pushing creates space between your body and the opponent that they exploit for frames and escapes, while chest-driven pressure maintains close contact that severely limits their defensive options.",
+        "answer_line": "Chest and hips, full bodyweight",
+        "distractors": {
+          "plausible": [
+            "Arms for quick pressure",
+            "Push with shoulders only"
+          ],
+          "trap": [
+            "Push hard with arms alone"
+          ]
+        }
       },
       {
         "question": "Your opponent posts both feet on your hips as you attempt the stack. How do you adjust?",
-        "answer": "When the opponent frames with feet on your hips, strip the frames before continuing the stack. Control their ankles or feet by gripping and pushing them to one side, or use your hip pressure to pin their feet against your body as you drive forward. An effective alternative is to grab both pant legs near the ankles and stack while controlling their leg trajectory, preventing them from reposting their feet on your hips after the initial strip."
+        "answer": "When the opponent frames with feet on your hips, strip the frames before continuing the stack. Control their ankles or feet by gripping and pushing them to one side, or use your hip pressure to pin their feet against your body as you drive forward. An effective alternative is to grab both pant legs near the ankles and stack while controlling their leg trajectory, preventing them from reposting their feet on your hips after the initial strip.",
+        "answer_line": "Strip frames, control ankles",
+        "distractors": {
+          "plausible": [
+            "Push through the frames",
+            "Switch to toreando immediately"
+          ],
+          "trap": [
+            "Keep driving into the frames"
+          ]
+        }
       },
       {
         "question": "In which direction should you angle your stacking pressure, and why is straight-forward driving suboptimal?",
-        "answer": "Angle your stacking pressure slightly to one side rather than driving straight forward. Straight-forward stacking allows the opponent to maintain a symmetrical defensive structure where they can recover guard in either direction when pressure releases. Angling to one side creates a clear passing lane, forces the opponent's legs to one side of your body, and facilitates the transition to half guard top rather than returning to a neutral confrontation where they can re-establish inverted guard."
+        "answer": "Angle your stacking pressure slightly to one side rather than driving straight forward. Straight-forward stacking allows the opponent to maintain a symmetrical defensive structure where they can recover guard in either direction when pressure releases. Angling to one side creates a clear passing lane, forces the opponent's legs to one side of your body, and facilitates the transition to half guard top rather than returning to a neutral confrontation where they can re-establish inverted guard.",
+        "answer_line": "Angle to one side, not straight",
+        "distractors": {
+          "plausible": [
+            "Drive straight for max power",
+            "Angle toward their head"
+          ],
+          "trap": [
+            "Stack dead center every time"
+          ]
+        }
       },
       {
         "question": "What happens if you pause during the stacking sequence to adjust your grips?",
-        "answer": "Any pause in the stacking sequence allows the opponent to re-establish the hip mobility and rotational freedom that the stack is designed to eliminate. They will use this window to create frames, establish new offensive grips, initiate granby rolls to escape compression, or transition to counter-attacks like berimbolo entries. Grip adjustments should be made while maintaining continuous forward pressure rather than stopping movement entirely to make changes."
+        "answer": "Any pause in the stacking sequence allows the opponent to re-establish the hip mobility and rotational freedom that the stack is designed to eliminate. They will use this window to create frames, establish new offensive grips, initiate granby rolls to escape compression, or transition to counter-attacks like berimbolo entries. Grip adjustments should be made while maintaining continuous forward pressure rather than stopping movement entirely to make changes.",
+        "answer_line": "Never pause, keep pressure on",
+        "distractors": {
+          "plausible": [
+            "Pause briefly to reset grips",
+            "Adjust grips slowly, steady"
+          ],
+          "trap": [
+            "Stop and regrip fully first"
+          ]
+        }
       },
       {
         "question": "Your opponent hooks your lead leg with their foot during the stack attempt. What is the correct response?",
-        "answer": "Immediately disengage the hooked leg by stepping it back to clear the hook, then re-establish your base with feet positioned outside the opponent's hip line where hooks cannot reach. Do not continue driving forward with a hooked leg, as this allows the opponent to transition into single leg X-guard or ashi garami positions that expose you to leg attacks. Reset your stance and re-engage the stack with improved leg positioning that prevents hook entries."
+        "answer": "Immediately disengage the hooked leg by stepping it back to clear the hook, then re-establish your base with feet positioned outside the opponent's hip line where hooks cannot reach. Do not continue driving forward with a hooked leg, as this allows the opponent to transition into single leg X-guard or ashi garami positions that expose you to leg attacks. Reset your stance and re-engage the stack with improved leg positioning that prevents hook entries.",
+        "answer_line": "Step back, clear the hook",
+        "distractors": {
+          "plausible": [
+            "Push through the hook",
+            "Switch base leg forward"
+          ],
+          "trap": [
+            "Keep driving with leg hooked"
+          ]
+        }
       },
       {
         "question": "If the opponent successfully defends the stack and recovers inverted guard, what follow-up sequence should you pursue?",
-        "answer": "After a defended stack, immediately transition to an alternative passing approach rather than re-attempting the same technique. Effective follow-ups include backstep passing to attack from a different angle, transitioning to headquarters position to control the bottom leg, or initiating a toreando pass while the opponent is still recovering from the stack defense. The stack attempt often disrupts the opponent's grip structure even when unsuccessful, creating windows for these alternative passes that were not available before."
+        "answer": "After a defended stack, immediately transition to an alternative passing approach rather than re-attempting the same technique. Effective follow-ups include backstep passing to attack from a different angle, transitioning to headquarters position to control the bottom leg, or initiating a toreando pass while the opponent is still recovering from the stack defense. The stack attempt often disrupts the opponent's grip structure even when unsuccessful, creating windows for these alternative passes that were not available before.",
+        "answer_line": "Switch pass, backstep or HQ",
+        "distractors": {
+          "plausible": [
+            "Re-attempt the same stack",
+            "Reset to neutral and restart"
+          ],
+          "trap": [
+            "Force the stack again harder"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The stack pass applies significant compression to the opponent's spine and neck region. Never drive the opponent's weight directly onto their cervical spine - control the stacking angle to distribute pressure across the upper back and shoulder blades. Release stacking pressure immediately if the opponent signals discomfort or if you observe their neck bearing excessive load. In training, communicate with your partner about pressure intensity and build stacking force gradually across sessions. Avoid sudden explosive drives that could cause cervical compression injuries. Be especially cautious with training partners who have limited flexibility or pre-existing neck conditions."
+    "safety_considerations": "The stack pass applies significant compression to the opponent's spine and neck region. Never drive the opponent's weight directly onto their cervical spine - control the stacking angle to distribute pressure across the upper back and shoulder blades. Release stacking pressure immediately if the opponent signals discomfort or if you observe their neck bearing excessive load. In training, communicate with your partner about pressure intensity and build stacking force gradually across sessions. Avoid sudden explosive drives that could cause cervical compression injuries. Be especially cautious with training partners who have limited flexibility or pre-existing neck conditions.",
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "M6gK8yjDFGE",
+        "title": "How to pass the inverted guard",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bq_WmrzAMgs",
+        "title": "Stack pass to back take",
+        "by": "Tony Casarez",
+        "vertical": false,
+        "channel": "Tony Casarez",
+        "duration": 139,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack from Inverted Defender",
@@ -349,23 +470,73 @@
     "flashcards": [
       {
         "question": "What are the earliest physical cues that indicate a stack attempt is being initiated from top position?",
-        "answer": "The earliest cues are the opponent gripping your pants at the waistband or hip level, lowering their center of gravity by bending at the knees and hips, and shifting their weight forward with chest angling toward your body. You may also feel increased downward pressure on your elevated legs and notice them breaking or ignoring your offensive grips in favor of hip control. Recognizing these cues before the stack engages allows you to establish preventive frames."
+        "answer": "The earliest cues are the opponent gripping your pants at the waistband or hip level, lowering their center of gravity by bending at the knees and hips, and shifting their weight forward with chest angling toward your body. You may also feel increased downward pressure on your elevated legs and notice them breaking or ignoring your offensive grips in favor of hip control. Recognizing these cues before the stack engages allows you to establish preventive frames.",
+        "answer_line": "Hip grip, low base, chest angle",
+        "distractors": {
+          "plausible": [
+            "Sudden forward hand strike",
+            "Leg hook attempt first"
+          ],
+          "trap": [
+            "Ignore it, keep attacking hips"
+          ]
+        }
       },
       {
         "question": "Why is it critical to maintain weight on your shoulder blades rather than your neck during stack defense?",
-        "answer": "Weight on the cervical spine creates serious injury risk including disc herniation, nerve compression, and in severe cases spinal cord damage. Beyond safety, neck loading eliminates your ability to rotate and create the angles necessary for escape. Shoulder blade contact provides a stable platform that allows hip rotation, granby rolling, and directional movement while distributing the stacking force across a wider, more structurally sound surface area of your upper back."
+        "answer": "Weight on the cervical spine creates serious injury risk including disc herniation, nerve compression, and in severe cases spinal cord damage. Beyond safety, neck loading eliminates your ability to rotate and create the angles necessary for escape. Shoulder blade contact provides a stable platform that allows hip rotation, granby rolling, and directional movement while distributing the stacking force across a wider, more structurally sound surface area of your upper back.",
+        "answer_line": "Spine safety plus room to rotate",
+        "distractors": {
+          "plausible": [
+            "Keeps head high to breathe easier",
+            "Frees both hands to fight grips"
+          ],
+          "trap": [
+            "Post on top of head to hold on"
+          ]
+        }
       },
       {
         "question": "Your frames have been stripped and the opponent is driving you into a full stack. What is your highest percentage escape?",
-        "answer": "When fully stacked with frames compromised, your highest percentage escape is the lateral granby roll to the side where the opponent has less grip control. Commit fully to the roll by driving through your posting shoulder and using whatever hip mobility remains to initiate rotation. Even a partial roll disrupts the stacking angle and may create enough space to re-establish frames or recover to a sustainable guard position before the pass completes."
+        "answer": "When fully stacked with frames compromised, your highest percentage escape is the lateral granby roll to the side where the opponent has less grip control. Commit fully to the roll by driving through your posting shoulder and using whatever hip mobility remains to initiate rotation. Even a partial roll disrupts the stacking angle and may create enough space to re-establish frames or recover to a sustainable guard position before the pass completes.",
+        "answer_line": "Lateral granby roll",
+        "distractors": {
+          "plausible": [
+            "Bridge and shrimp escape",
+            "Push off with both arms"
+          ],
+          "trap": [
+            "Try to stand straight up"
+          ]
+        }
       },
       {
         "question": "How should you use your legs differently when defending a stack versus playing offensive inverted guard?",
-        "answer": "During offensive inverted guard, your legs extend toward the opponent to create hooks, manage distance, and facilitate rotation for berimbolo entries. When defending a stack, your legs shift to a primarily framing role with feet pressing firmly against the opponent's hips, shoulders, or biceps to create structural barriers that prevent compression. This transition from offensive hooks to defensive frames should happen immediately upon recognizing the stack attempt, prioritizing survival over maintaining attack position."
+        "answer": "During offensive inverted guard, your legs extend toward the opponent to create hooks, manage distance, and facilitate rotation for berimbolo entries. When defending a stack, your legs shift to a primarily framing role with feet pressing firmly against the opponent's hips, shoulders, or biceps to create structural barriers that prevent compression. This transition from offensive hooks to defensive frames should happen immediately upon recognizing the stack attempt, prioritizing survival over maintaining attack position.",
+        "answer_line": "Frame feet, don't hook",
+        "distractors": {
+          "plausible": [
+            "Keep hooks in, add frames",
+            "Extend legs for rotation"
+          ],
+          "trap": [
+            "Keep offensive hooks in play"
+          ]
+        }
       },
       {
         "question": "When is it better to abandon inverted guard entirely rather than continuing to defend the stack?",
-        "answer": "Abandon inverted guard when you notice decreasing hip mobility, increasing neck pressure, loss of primary grips, and the opponent achieving progressively deeper stacking angles. If you have spent more than three to five seconds absorbing stack pressure without creating an escape angle or counter-attack opportunity, the position is deteriorating and continued defense becomes increasingly risky. Technical standup, seated guard recovery, or closed guard pull are safer alternatives than persisting in a compromised inversion."
+        "answer": "Abandon inverted guard when you notice decreasing hip mobility, increasing neck pressure, loss of primary grips, and the opponent achieving progressively deeper stacking angles. If you have spent more than three to five seconds absorbing stack pressure without creating an escape angle or counter-attack opportunity, the position is deteriorating and continued defense becomes increasingly risky. Technical standup, seated guard recovery, or closed guard pull are safer alternatives than persisting in a compromised inversion.",
+        "answer_line": "After 3-5 sec no escape angle",
+        "distractors": {
+          "plausible": [
+            "Only if fully submitted",
+            "Never, always defend inversion"
+          ],
+          "trap": [
+            "Keep defending, wait it out"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -388,6 +559,35 @@
         "phase": "Phase 4: Counter-Attack Integration",
         "focus": "Sweeps and reversals from stacking pressure",
         "description": "Partner applies full stacking pressure while you practice hooking their legs for sweeps, redirecting momentum with collar grips for berimbolo counters, and transitioning to leg entanglement entries. Combine defensive survival with offensive counter-attacks in live positional sparring."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Ad0qtay9IVQ",
+        "title": "Double under stack defense and counter",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 130,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mOvf60z4HS0",
+        "title": "Stack Pass Defense to Triangle Trap Position",
+        "by": "Mark Cerrone",
+        "vertical": false,
+        "channel": "Mark Cerrone",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KFYuvpewSaw",
+        "title": "Stack Pass and Defense Tips",
+        "by": "Jimmy Thompson",
+        "vertical": false,
+        "channel": "Jimmy Thompson",
+        "duration": 67,
+        "verified": "2026-07-15"
       }
     ]
   }

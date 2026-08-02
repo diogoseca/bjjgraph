@@ -34,6 +34,54 @@ description: "Escape the body triangle to half guard in BJJ. Complete guide to s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Triangle Escape to Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back body triangle defense",
+      "description": "Body Triangle Escape to Half Guard film study: Back body triangle defense, taught by Marcelo Alonso.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DDPqmYJi96M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DDPqmYJi96M",
+      "url": "https://www.youtube.com/watch?v=DDPqmYJi96M",
+      "creator": { "@type": "Person", "name": "Marcelo Alonso" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the body triangle from back control",
+      "description": "Body Triangle Escape to Half Guard film study: Escaping the body triangle from back control, taught by Coach Ben.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dc3sgOZddOg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dc3sgOZddOg",
+      "url": "https://www.youtube.com/watch?v=Dc3sgOZddOg",
+      "creator": { "@type": "Person", "name": "Coach Ben" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Creative body triangle escape details",
+      "description": "Body Triangle Escape to Half Guard film study: Creative body triangle escape details, taught by BJJ Regeneration coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Uh65lTkDipQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Uh65lTkDipQ",
+      "url": "https://www.youtube.com/watch?v=Uh65lTkDipQ",
+      "creator": { "@type": "Person", "name": "BJJ Regeneration coach" },
+      "duration": "PT179S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this escape demands exceptional timing and patience. Attempting t
 **Success Rate**: 30%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Triangle Escape to Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DDPqmYJi96M)
+
+<p class="clip-credit"><strong>Back body triangle defense</strong> — taught by Marcelo Alonso · 0:26 · <a href="https://www.youtube.com/watch?v=DDPqmYJi96M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dc3sgOZddOg)
+
+<p class="clip-credit"><strong>Escaping the body triangle from back control</strong> — taught by Coach Ben · 2:18 · <a href="https://www.youtube.com/watch?v=Dc3sgOZddOg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Uh65lTkDipQ)
+
+<p class="clip-credit"><strong>Creative body triangle escape details</strong> — taught by BJJ Regeneration coach · 2:59 · <a href="https://www.youtube.com/watch?v=Uh65lTkDipQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

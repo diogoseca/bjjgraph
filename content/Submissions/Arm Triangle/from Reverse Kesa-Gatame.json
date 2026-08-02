@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "Reverse Kesa-Gatame",
   "from_position": "Reverse Kesa-Gatame/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Arm Triangle from Reverse Kesa-Gatame is a head-and-arm blood choke that exploits the reverse scarf hold's natural far-arm isolation, driving the opponent's trapped arm across their neck so their own shoulder and your forearm compress both carotid arteries until they tap.",
   "overview": "The Arm Triangle from Reverse Kesa-Gatame exploits the inherent arm-isolating properties of the reverse scarf hold to create one of the most natural and high-percentage arm triangle entries available. In Reverse Kesa-Gatame, the top player already controls the opponent's far arm under their armpit as a fundamental aspect of the position. This means the most difficult component of any arm triangle attack — trapping the opponent's arm against their own neck — is largely accomplished before the submission attempt even begins.\n\nThe finishing mechanics follow the classic arm triangle pattern: the opponent's trapped shoulder compresses one carotid artery while the attacker's forearm blade crosses behind the neck to compress the other. What distinguishes this entry is the smooth transition from pin control to submission threat. The attacker drives the already-isolated far arm across the opponent's neck, threads their choking arm behind the head, and locks a figure-four or gable grip. Walking to a perpendicular side control angle, combined with dropping the near hip and driving chest-to-chest compression, creates the bilateral carotid restriction that forces the tap.\n\nStrategically, this submission punishes opponents who remain passive under the Reverse Kesa-Gatame pin. Practitioners who focus exclusively on surviving chest pressure without addressing their far arm position become prime targets. The arm triangle from Reverse Kesa-Gatame is particularly effective in no-gi grappling where direct pressure and arm isolation mechanics are amplified. It chains naturally with Americana and Kimura attacks from the same position, creating a submission cycle that forces the opponent to defend multiple threats simultaneously.",
   "safety_considerations": {
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Reverse Kesa-Gatame/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -288,52 +300,181 @@
       {
         "question": "What anatomical structures does the Arm Triangle from Reverse Kesa-Gatame attack?",
         "answer": "The arm triangle compresses both carotid arteries simultaneously to restrict blood flow to the brain. The opponent's own trapped shoulder is driven against their near-side carotid artery, while your forearm blade crosses behind their neck and presses against the far-side carotid. This bilateral compression causes unconsciousness in 6-8 seconds if not released. The mechanism is a blood choke, not an airway restriction.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries, blood choke",
+        "distractors": {
+          "plausible": [
+            "Windpipe and airway",
+            "Jugular vein only"
+          ],
+          "trap": [
+            "Neck crank on the spine for tap"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their far arm pinned tightly against their own body while you hold Reverse Kesa-Gatame — how do you create the arm triangle opportunity?",
         "answer": "Attack the tucked arm with Americana or Kimura threats to force the opponent to extend or reposition it. When they react to defend the shoulder lock by straightening or moving the arm, that movement creates the opening to clamp the arm under your armpit and drive it across their neck. The key is using the submission cycle — threatening one attack to create the opening for another — rather than trying to force the arm across through strength alone.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten Kimura to free the arm",
+        "distractors": {
+          "plausible": [
+            "Force the arm across with strength",
+            "Wait for the arm to loosen"
+          ],
+          "trap": [
+            "Reach over to yank the far arm"
+          ]
+        }
       },
       {
         "question": "What grip configuration completes the head-and-arm lock in the arm triangle from Reverse Kesa-Gatame?",
         "answer": "The primary grip is a figure-four configuration where the choking hand grips your own bicep on the opposite arm, and the free hand cups behind the opponent's head. This creates a self-reinforcing lock that tightens under pressure. An alternative is the gable grip where both palms clasp together behind the opponent's neck, providing tighter initial compression but less long-term endurance. Both grips must lock the head and trapped arm together as a single unit with zero slack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip own bicep, cup the head",
+        "distractors": {
+          "plausible": [
+            "Clamp opponent's arm, then head",
+            "Clasp your own wrist by neck"
+          ],
+          "trap": [
+            "Post free hand on the mat"
+          ]
+        }
       },
       {
         "question": "The opponent bridges explosively during your grip transition from Reverse Kesa-Gatame pin to arm triangle — what is your immediate response?",
         "answer": "Post your far-side hand on the mat and widen your base to absorb the bridge force. Keep your chest heavy on their trapped arm to prevent arm extraction during the bridge. Do not abandon the submission attempt unless you are being swept. Once the bridge subsides and the opponent's hips return to the mat, immediately continue threading your arm behind their neck and lock the grip. The bridge window is temporary — if you maintain position through it, the opponent has wasted energy while you retain the setup.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Post far hand, widen base",
+        "distractors": {
+          "plausible": [
+            "Thread neck arm immediately",
+            "Post near hand for base"
+          ],
+          "trap": [
+            "Roll with bridge, follow over"
+          ]
+        }
       },
       {
         "question": "What body angle creates maximum finishing pressure once the arm triangle is locked from Reverse Kesa-Gatame?",
         "answer": "Walk your hips until they are perpendicular (90 degrees) to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face. This angle allows your expanding chest and body weight to drive the opponent's shoulder into their own near-side carotid while your forearm blade compresses the far-side carotid from behind the neck. Any deviation from perpendicular reduces the shoulder-on-carotid compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Perpendicular, hip and head to mat",
+        "distractors": {
+          "plausible": [
+            "Stay parallel, chest flat down",
+            "Angle away from trapped arm"
+          ],
+          "trap": [
+            "Sit up tall over the head"
+          ]
+        }
       },
       {
         "question": "You have the arm triangle locked and are squeezing but the opponent is not tapping — what is likely wrong with your finishing mechanics?",
         "answer": "The most common issue is insufficient walking to the perpendicular angle, meaning your body is still partially in the Reverse Kesa-Gatame configuration rather than fully perpendicular. The second possibility is that your head is too high, creating a gap on the far side that allows the opponent to relieve pressure by turning their head. The third cause is squeezing with arms instead of using chest expansion and hip pressure. Check your angle first, drop your head to the mat, then focus on expanding your chest rather than clenching your arms harder.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Not perpendicular, head too high",
+        "distractors": {
+          "plausible": [
+            "Grip is not tight enough yet",
+            "Opponent's neck is too thick"
+          ],
+          "trap": [
+            "Crank the neck sideways to finish"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the opponent has passed the point of no escape in the arm triangle from Reverse Kesa-Gatame?",
         "answer": "The choke is past the escape threshold when: your hip is dropped to the mat with your head sealed on the far side, the opponent's trapped shoulder bone is pressing firmly into their carotid with zero space between your chest and their body, the opponent cannot create any frame with their free hand against your hips or shoulders, and their bridge attempts generate no meaningful movement. Their face will begin changing color as blood flow restricts, and their defensive movements become weaker and less coordinated within seconds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip down, head sealed, no frames",
+        "distractors": {
+          "plausible": [
+            "Grip feels maximally tight",
+            "They pause bridging for a moment"
+          ],
+          "trap": [
+            "Loosen the grip to check it"
+          ]
+        }
       },
       {
         "question": "What safety precautions must you observe when applying the arm triangle from Reverse Kesa-Gatame?",
         "answer": "Apply pressure progressively over 3-5 seconds and never spike or jerk the submission. Monitor consciousness continuously by watching for facial color changes and feeling for diminishing resistance. Always ensure the opponent has at least one hand free for tapping. Release immediately upon any tap signal including verbal, hand tap, foot tap, or any distress signal. If the opponent goes limp, release immediately, position them on their side in recovery position, elevate their legs, and monitor breathing. Never hold after the tap in training — blood chokes can cause unconsciousness in 6-8 seconds and brain damage if sustained.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Gradual pressure, instant release",
+        "distractors": {
+          "plausible": [
+            "Hold ten seconds, then let go",
+            "Accept only a hand signal"
+          ],
+          "trap": [
+            "Keep squeezing after they tap"
+          ]
+        }
       },
       {
         "question": "How does the arm triangle from Reverse Kesa-Gatame differ from the standard arm triangle entered from side control?",
         "answer": "The critical difference is that Reverse Kesa-Gatame provides natural far-arm isolation under the armpit as a fundamental aspect of the pin, eliminating the need to fight for arm position. From standard side control, the attacker must first isolate the near arm by driving it across the opponent's neck, which the opponent can resist. From Reverse Kesa-Gatame, the arm is already trapped and the attacker simply drives it across the neck from the existing armpit clamp. The trade-off is that the walk-around from Reverse Kesa-Gatame to the finishing angle requires more hip repositioning than from side control where you may already be near perpendicular.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm already isolated by the pin",
+        "distractors": {
+          "plausible": [
+            "Requires less hip walking overall",
+            "Uses gable grip exclusively"
+          ],
+          "trap": [
+            "No need to reach perpendicular"
+          ]
+        }
       },
       {
         "question": "In competition with under 30 seconds remaining, how do you accelerate the arm triangle finish from Reverse Kesa-Gatame?",
         "answer": "Compress the setup phases by simultaneously driving the arm across the neck and threading behind the head in one fluid motion rather than sequential steps. Skip the deliberate walk-around and instead jump directly to the perpendicular angle while locking the grip. Drop your hip and head immediately upon gripping rather than settling incrementally. Apply maximum chest compression from the start rather than building progressively. Accept higher risk of losing position in exchange for a faster finish window. The key is pre-committing to the finish rather than maintaining the option to return to the pin.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fuse the steps, commit to angle",
+        "distractors": {
+          "plausible": [
+            "Skip the grip, use pure weight",
+            "Reset the pin if they resist"
+          ],
+          "trap": [
+            "Abandon it and chase mount"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "5POG6rDBVLM",
+        "title": "Reverse Kesa Gatame Arm Attack Roll Over",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 113,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PSgn9TBgwfc",
+        "title": "Side Guard to Te Gatame (Arm Triangle)",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tfykooWW-xk",
+        "title": "Triangle Attacks From Kuzure Kesa Gatame",
+        "by": "Chokes And More",
+        "vertical": false,
+        "channel": "Chokes And More",
+        "duration": 66,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -427,27 +568,77 @@
       {
         "question": "How do you recognize that the attacker is setting up the arm triangle from Reverse Kesa-Gatame?",
         "answer": "The primary recognition cue is feeling the attacker deliberately tighten their armpit clamp on your far arm and begin pushing or dragging it toward your neck rather than simply holding it for pin control. You may also feel them shift their weight forward to drive the arm across. The secondary cue is the release of near-arm control or chest-pressure hand as they prepare to thread behind your neck. Early recognition during the arm drive phase provides the best defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Armpit clamp tightens, arm dragged",
+        "distractors": {
+          "plausible": [
+            "They suddenly relax their weight",
+            "They grab your near-side wrist"
+          ],
+          "trap": [
+            "Wait and see before defending"
+          ]
+        }
       },
       {
         "question": "What is the safest response when the arm triangle from Reverse Kesa-Gatame is fully locked and sealed?",
         "answer": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are restricted, or verbally say 'tap' loudly and repeatedly. Do not attempt extended escape sequences once the choke is fully sealed with the attacker's hip dropped and head low. Arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds with minimal physical warning. Tapping early preserves your safety and allows you to continue training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, hand foot or voice",
+        "distractors": {
+          "plausible": [
+            "Try one strong bridge escape",
+            "Wait it out, breathe calmly"
+          ],
+          "trap": [
+            "Fight the grip with both hands"
+          ]
+        }
       },
       {
         "question": "What far-arm positioning prevents the attacker from converting Reverse Kesa-Gatame into an arm triangle?",
         "answer": "Keep your far arm either pinned tight against your own body with your elbow clamped to your ribs, or actively fight to extract it downward toward your hip from the attacker's armpit clamp. The critical mistake is allowing your arm to be driven across your own neck where your shoulder compresses your carotid. If the attacker has your arm under their armpit, work small incremental extractions rather than explosive pulls that may be absorbed by the clamp. Your arm position relative to your neck is the single most important factor in preventing this submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow clamped tight to own ribs",
+        "distractors": {
+          "plausible": [
+            "Push against attacker's chest",
+            "Extend arm straight to frame"
+          ],
+          "trap": [
+            "Let arm ride across own neck"
+          ]
+        }
       },
       {
         "question": "The attacker has locked the head-and-arm grip but has not yet walked to the perpendicular finishing angle — what escape options remain?",
         "answer": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get your knees underneath you. Simultaneously frame against their hips with your free arm to prevent them from completing the walk-around to the perpendicular angle. If you can get to your knees facing the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge powerfully toward the trapped-arm side and pull them into your closed guard to disrupt the finishing angle and eliminate the chest-to-chest compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, frame hips, get to knees",
+        "distractors": {
+          "plausible": [
+            "Push their head off your neck",
+            "Wait for the walk to finish"
+          ],
+          "trap": [
+            "Turn away from the attacker"
+          ]
+        }
       },
       {
         "question": "Why is turning into the attacker more effective than turning away when caught in the arm triangle from Reverse Kesa-Gatame?",
         "answer": "Turning into the attacker flattens the choke angle by bringing your body parallel to theirs, which prevents the perpendicular chest compression that drives the finish. It also relieves the shoulder-on-carotid pressure by changing the angle at which your shoulder contacts your neck. Turning away does the opposite — it gives the attacker the perpendicular angle they are seeking, drives your own shoulder deeper into your carotid through the rotational force, and accelerates the blood choke. The biomechanics of the arm triangle require a specific angle to function, and turning in denies that angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Flattens angle, kills compression",
+        "distractors": {
+          "plausible": [
+            "Creates space to stand up fast",
+            "Relieves grip on choking hand"
+          ],
+          "trap": [
+            "Gives attacker the finishing angle"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -470,6 +661,35 @@
         "phase": "Phase 4: Live defensive sparring from Reverse Kesa-Gatame",
         "focus": "Full-speed defense against all attacks from Reverse Kesa-Gatame including the arm triangle",
         "description": "Partner starts in Reverse Kesa-Gatame top with full offensive options including arm triangle, Americana, Kimura, and positional transitions. Defend all threats with emphasis on far-arm awareness to prevent the arm triangle setup while still working standard escape sequences. Tap early when caught to build good safety habits. 5-minute rounds, reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "The Fastest Escape Out of the Arm Triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Nspz2EAIQ_k",
+        "title": "Arm Triangle Escape",
+        "by": "Crucifix Mike",
+        "vertical": false,
+        "channel": "Crucifix Mike",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "CmXniIPFMhU",
+        "title": "Two Arm Triangle (Kata Gatame) Escapes",
+        "by": "Adam Urbanski",
+        "vertical": false,
+        "channel": "Adam Urbanski MMA",
+        "duration": 89,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Gogoplata Control/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Meathook/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Meathook to Gogoplata Control is a 10th Planet Rubber Guard transition where the bottom player redirects the arm-isolating shin from the opponent's tricep to their throat when they drive forward, converting arm control into an immediate gogoplata choke threat.",
   "overview": "The Meathook to Gogoplata Control transition represents one of the highest-percentage attacks in the Rubber Guard system when opponent commits the tactical error of driving forward. This technique exploits a fundamental defensive mistake—forward pressure against Meathook—by repositioning the shin from arm isolation to throat contact, creating immediate choking pressure.\n\nThe transition capitalizes on opponent's momentum and body positioning. When trapped in Meathook, inexperienced practitioners often attempt to muscle through by driving forward, believing that pressure will collapse the guard structure. This forward drive actually accelerates their demise by placing their throat directly into the path of your transitioning shin. The movement is counterintuitive to conventional guard retention, which typically rewards forward pressure against bottom players.\n\nTechnically, the transition requires precise timing and hip angle adjustment. As opponent drives forward, you release the tricep hook and redirect the same leg across their neck, using your hands to guide their head into the proper choking position. The grip shifts from controlling their shoulder to pulling their head down into the shin, creating a compression choke against the trachea.\n\nStrategically, this transition exemplifies the dilemma-creation philosophy central to advanced guard play. From Meathook, opponents face impossible choices: driving forward walks into gogoplata, pulling arm upward opens triangle, spinning the arm enables omoplata. There is no safe defensive response, only selections of which submission they prefer to defend against.",
   "related_content": [
@@ -199,46 +211,175 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that signals you should attempt the Meathook to Gogoplata Control transition?",
-        "answer": "The trigger is opponent's committed forward pressure—when they drive their head and shoulders toward your chest with their weight shifting forward off their knees. This forward commitment places their throat directly into the path of your transitioning shin and prevents them from posturing out during the movement."
+        "answer": "The trigger is opponent's committed forward pressure—when they drive their head and shoulders toward your chest with their weight shifting forward off their knees. This forward commitment places their throat directly into the path of your transitioning shin and prevents them from posturing out during the movement.",
+        "answer_line": "Opponent drives forward pressure",
+        "distractors": {
+          "plausible": [
+            "Opponent postures upright",
+            "Opponent's arm goes limp"
+          ],
+          "trap": [
+            "Opponent retreats, creates space"
+          ]
+        }
       },
       {
         "question": "Why is hip rotation critical during the shin transition from arm to throat?",
-        "answer": "Hip rotation creates the diagonal angle necessary for the shin to cross the throat rather than the face or shoulder. Without rotation, the shin travels in a straight line and contacts ineffective targets. The rotation also generates the hip drive needed to apply choking pressure once the shin reaches the throat position."
+        "answer": "Hip rotation creates the diagonal angle necessary for the shin to cross the throat rather than the face or shoulder. Without rotation, the shin travels in a straight line and contacts ineffective targets. The rotation also generates the hip drive needed to apply choking pressure once the shin reaches the throat position.",
+        "answer_line": "Creates diagonal angle to throat",
+        "distractors": {
+          "plausible": [
+            "Adds extra choking power only",
+            "Keeps shin flat on tricep"
+          ],
+          "trap": [
+            "Skip rotation, go straight in"
+          ]
+        }
       },
       {
         "question": "Your opponent postures up explosively as you begin releasing the arm hook—what should you do?",
-        "answer": "Abort the transition immediately and work to re-establish Meathook control rather than chasing the gogoplata. A failed transition attempt with compromised arm control leaves you in weak closed guard position. Patience and trigger recognition prevent this—only attempt transition when forward pressure is committed, not tentative."
+        "answer": "Abort the transition immediately and work to re-establish Meathook control rather than chasing the gogoplata. A failed transition attempt with compromised arm control leaves you in weak closed guard position. Patience and trigger recognition prevent this—only attempt transition when forward pressure is committed, not tentative.",
+        "answer_line": "Abort, re-establish Meathook",
+        "distractors": {
+          "plausible": [
+            "Push through to gogoplata fast",
+            "Switch to triangle instead"
+          ],
+          "trap": [
+            "Chase the throat anyway"
+          ]
+        }
       },
       {
         "question": "What grip transition must occur simultaneously with the shin repositioning?",
-        "answer": "Both hands must transition to head control at the same moment the shin releases from the tricep. One hand typically grips behind the head pulling down while the other controls the crown. Single-handed head control is insufficient to prevent posture recovery—this dual grip is non-negotiable for successful Gogoplata Control establishment."
+        "answer": "Both hands must transition to head control at the same moment the shin releases from the tricep. One hand typically grips behind the head pulling down while the other controls the crown. Single-handed head control is insufficient to prevent posture recovery—this dual grip is non-negotiable for successful Gogoplata Control establishment.",
+        "answer_line": "Both hands to head, simultaneous",
+        "distractors": {
+          "plausible": [
+            "One hand grips head first",
+            "Grip belt for base control"
+          ],
+          "trap": [
+            "Release both grips briefly"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts a stack defense by driving forward through your transition—how do you adapt?",
-        "answer": "Use their forward momentum to roll backward into omoplata position. Their committed stack provides the energy for the roll while exposing their shoulder. This converts a failed gogoplata attempt into a shoulder lock opportunity, demonstrating the interconnected attack chains that make Rubber Guard effective."
+        "answer": "Use their forward momentum to roll backward into omoplata position. Their committed stack provides the energy for the roll while exposing their shoulder. This converts a failed gogoplata attempt into a shoulder lock opportunity, demonstrating the interconnected attack chains that make Rubber Guard effective.",
+        "answer_line": "Roll with stack into omoplata",
+        "distractors": {
+          "plausible": [
+            "Fight the stack, hold position",
+            "Release guard, reset"
+          ],
+          "trap": [
+            "Push opponent away to escape"
+          ]
+        }
       },
       {
         "question": "Why should you never attempt this transition when opponent is retreating or moving backward?",
-        "answer": "Backward movement means your shin reaches empty space as opponent creates distance. This exposes you to guard pass attempts while in a compromised position with one leg extended and no arm control. The transition specifically requires forward pressure to function—retreat mandates different attack selections like re-establishing Meathook or pursuing triangle."
+        "answer": "Backward movement means your shin reaches empty space as opponent creates distance. This exposes you to guard pass attempts while in a compromised position with one leg extended and no arm control. The transition specifically requires forward pressure to function—retreat mandates different attack selections like re-establishing Meathook or pursuing triangle.",
+        "answer_line": "Shin reaches empty space, exposed",
+        "distractors": {
+          "plausible": [
+            "Loses grip strength, reversed",
+            "Wastes energy, low risk"
+          ],
+          "trap": [
+            "Extend leg further to reach"
+          ]
+        }
       },
       {
         "question": "What role does the non-hooking leg play during the Meathook to Gogoplata transition?",
-        "answer": "The non-hooking leg must maintain constant hip control throughout the transition, typically by wrapping opponent's back or controlling their far hip. This closed guard connection prevents them from slipping their hips to the side during the transition and initiating a guard pass while you focus on the upper body position change."
+        "answer": "The non-hooking leg must maintain constant hip control throughout the transition, typically by wrapping opponent's back or controlling their far hip. This closed guard connection prevents them from slipping their hips to the side during the transition and initiating a guard pass while you focus on the upper body position change.",
+        "answer_line": "Wraps back to control hips",
+        "distractors": {
+          "plausible": [
+            "Hooks opponent's near ankle",
+            "Pushes off mat for base"
+          ],
+          "trap": [
+            "Releases closed guard briefly"
+          ]
+        }
       },
       {
         "question": "How does the shin angle differ between Meathook arm control and Gogoplata throat control?",
-        "answer": "In Meathook, the shin hooks horizontally across the tricep with downward lever pressure. In Gogoplata Control, the shin crosses the throat at a diagonal angle with the instep contacting the side of the neck and the shin bone pressing the front of the trachea. This diagonal angle creates maximum compression for the choke."
+        "answer": "In Meathook, the shin hooks horizontally across the tricep with downward lever pressure. In Gogoplata Control, the shin crosses the throat at a diagonal angle with the instep contacting the side of the neck and the shin bone pressing the front of the trachea. This diagonal angle creates maximum compression for the choke.",
+        "answer_line": "Meathook flat, Gogoplata diagonal",
+        "distractors": {
+          "plausible": [
+            "Both angles are identical",
+            "Gogoplata shin stays vertical"
+          ],
+          "trap": [
+            "Meathook crosses the throat"
+          ]
+        }
       },
       {
         "question": "Your opponent blocks the shin path by pummeling their arm to inside position—what alternative attack opens?",
-        "answer": "Their arm pummel to block the shin path removes their arm from a defended position and exposes the elbow joint. Switch immediately to Armbar on Free Arm by controlling the extended arm and pivoting your hips for the armbar angle. Their defensive arm movement against the gogoplata actually creates the isolation needed for the arm attack."
+        "answer": "Their arm pummel to block the shin path removes their arm from a defended position and exposes the elbow joint. Switch immediately to Armbar on Free Arm by controlling the extended arm and pivoting your hips for the armbar angle. Their defensive arm movement against the gogoplata actually creates the isolation needed for the arm attack.",
+        "answer_line": "Switch to armbar on free arm",
+        "distractors": {
+          "plausible": [
+            "Force gogoplata through anyway",
+            "Switch to triangle setup"
+          ],
+          "trap": [
+            "Release guard, reset position"
+          ]
+        }
       },
       {
         "question": "What specific hip flexibility prerequisites must be met before attempting this transition in live rolling?",
-        "answer": "You must be able to comfortably maintain Meathook with the shin over the opponent's shoulder and then redirect that leg across the throat line without straining. Test by achieving Mission Control and Meathook positions statically first. If you cannot bring your shin from tricep level to throat level with smooth hip rotation while lying supine, continue flexibility development before live attempts."
+        "answer": "You must be able to comfortably maintain Meathook with the shin over the opponent's shoulder and then redirect that leg across the throat line without straining. Test by achieving Mission Control and Meathook positions statically first. If you cannot bring your shin from tricep level to throat level with smooth hip rotation while lying supine, continue flexibility development before live attempts.",
+        "answer_line": "Test shin path statically first",
+        "distractors": {
+          "plausible": [
+            "Stretch hips during live rolls",
+            "Only test with resistance"
+          ],
+          "trap": [
+            "Skip testing, drill live"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Meathook to Gogoplata transition involves throat compression, requiring careful training protocols to prevent injury. Partners must tap immediately when choke pressure registers—there is no safe way to resist through a locked gogoplata. Practitioners should release instantly upon tap and never hold position to prove a point. The transition also requires significant hip flexibility; forcing the movement beyond natural range risks hip flexor strain or hamstring injury. Build flexibility gradually before attempting live application. Avoid drilling at full speed until mechanics are automatic—rushed transitions can cause accidental knee or shin contact to training partner's face. During competition, be aware that some rulesets restrict certain choke mechanics, and referee positioning may not allow immediate tap recognition in this unusual position."
+    "safety_considerations": "The Meathook to Gogoplata transition involves throat compression, requiring careful training protocols to prevent injury. Partners must tap immediately when choke pressure registers—there is no safe way to resist through a locked gogoplata. Practitioners should release instantly upon tap and never hold position to prove a point. The transition also requires significant hip flexibility; forcing the movement beyond natural range risks hip flexor strain or hamstring injury. Build flexibility gradually before attempting live application. Avoid drilling at full speed until mechanics are automatic—rushed transitions can cause accidental knee or shin contact to training partner's face. During competition, be aware that some rulesets restrict certain choke mechanics, and referee positioning may not allow immediate tap recognition in this unusual position.",
+    "clips": [
+      {
+        "id": "6mZOuPs8nA8",
+        "title": "Meathook to the Stock from rubber guard",
+        "by": "Richie Martinez",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 217,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KN7ww-OyaxQ",
+        "title": "Meathook Options from Rubber Guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "h6o7-9u4NHo",
+        "title": "Polishing the Meathook",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Meathook to Gogoplata Control Defender",
@@ -324,23 +465,73 @@
     "flashcards": [
       {
         "question": "What is the single most reliable defensive action when you feel the shin hook release from your tricep in Meathook?",
-        "answer": "Explosive posture recovery is the highest-percentage defense. The moment the shin pressure lifts from your arm, drive your hips back and chest upward simultaneously. This must be immediate and explosive because the defensive window between shin release and throat contact is only one to two seconds. Hesitation allows the shin to reach your throat where defensive options become severely limited."
+        "answer": "Explosive posture recovery is the highest-percentage defense. The moment the shin pressure lifts from your arm, drive your hips back and chest upward simultaneously. This must be immediate and explosive because the defensive window between shin release and throat contact is only one to two seconds. Hesitation allows the shin to reach your throat where defensive options become severely limited.",
+        "answer_line": "Explosive posture recovery",
+        "distractors": {
+          "plausible": [
+            "Slowly reposition to base",
+            "Grab opponent's collar first"
+          ],
+          "trap": [
+            "Push forward into pressure"
+          ]
+        }
       },
       {
         "question": "Why does forward pressure make you more vulnerable to the Meathook to Gogoplata transition?",
-        "answer": "Forward pressure is the specific trigger the bottom player waits for to initiate the transition. Your forward drive drops your head into the path of the incoming shin, your weight commitment prevents the upward posture recovery needed to escape, and your momentum carries your throat directly into the shin's trajectory. The bottom player cannot complete this transition without your forward pressure providing both the angle and the head positioning they need."
+        "answer": "Forward pressure is the specific trigger the bottom player waits for to initiate the transition. Your forward drive drops your head into the path of the incoming shin, your weight commitment prevents the upward posture recovery needed to escape, and your momentum carries your throat directly into the shin's trajectory. The bottom player cannot complete this transition without your forward pressure providing both the angle and the head positioning they need.",
+        "answer_line": "Drops head into shin's path",
+        "distractors": {
+          "plausible": [
+            "Tires opponent's guard game",
+            "Improves base and balance"
+          ],
+          "trap": [
+            "Creates space to posture out"
+          ]
+        }
       },
       {
         "question": "Your opponent's shin is already crossing your throat—what emergency defense remains available?",
-        "answer": "Tuck your chin aggressively toward your chest to prevent the shin from settling into the throat groove, then commit fully to an explosive stack by driving your weight forward and upward to compress the bottom player's hips. The stack must be fully committed—half measures actually help the choke. If the position locks fully with their foot behind your head, tap immediately rather than risking tracheal injury from a locked gogoplata."
+        "answer": "Tuck your chin aggressively toward your chest to prevent the shin from settling into the throat groove, then commit fully to an explosive stack by driving your weight forward and upward to compress the bottom player's hips. The stack must be fully committed—half measures actually help the choke. If the position locks fully with their foot behind your head, tap immediately rather than risking tracheal injury from a locked gogoplata.",
+        "answer_line": "Tuck chin, commit full stack",
+        "distractors": {
+          "plausible": [
+            "Peel the shin with both hands",
+            "Frame on the knee and stall"
+          ],
+          "trap": [
+            "Posture up tall, extend the neck"
+          ]
+        }
       },
       {
         "question": "Which direction should you turn your head when using lateral movement to defend the shin path?",
-        "answer": "Always turn your head away from the attacking shin—toward the side opposite the leg that is transitioning from your arm to your throat. Turning toward the shin exposes your throat and simultaneously opens your far shoulder for an omoplata transition, giving the bottom player two submission options. Turning away moves your throat out of the shin path while keeping your shoulders square against shoulder attacks."
+        "answer": "Always turn your head away from the attacking shin—toward the side opposite the leg that is transitioning from your arm to your throat. Turning toward the shin exposes your throat and simultaneously opens your far shoulder for an omoplata transition, giving the bottom player two submission options. Turning away moves your throat out of the shin path while keeping your shoulders square against shoulder attacks.",
+        "answer_line": "Turn head away from the shin",
+        "distractors": {
+          "plausible": [
+            "Turn toward shin, block path",
+            "Keep head centered, still"
+          ],
+          "trap": [
+            "Turn into the shin's angle"
+          ]
+        }
       },
       {
         "question": "How does the stacking defense work against this transition, and what is its primary risk?",
-        "answer": "The stacking defense involves explosively driving your weight forward and upward to fold the bottom player, compressing their hip flexibility and forcing the attacking leg out of position. The primary risk is that a half-committed stack actually assists the gogoplata by providing forward pressure without sufficient compression to break the position. The stack must be fully explosive and committed to work—moderate forward pressure feeds directly into the submission."
+        "answer": "The stacking defense involves explosively driving your weight forward and upward to fold the bottom player, compressing their hip flexibility and forcing the attacking leg out of position. The primary risk is that a half-committed stack actually assists the gogoplata by providing forward pressure without sufficient compression to break the position. The stack must be fully explosive and committed to work—moderate forward pressure feeds directly into the submission.",
+        "answer_line": "Explosive full stack, not half",
+        "distractors": {
+          "plausible": [
+            "Slow steady stack pressure",
+            "Stack then pull back quickly"
+          ],
+          "trap": [
+            "Half-commit stack, test grip"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -363,6 +554,26 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full resistance positional sparring starting from Meathook top. Partner works full Rubber Guard attack chain including gogoplata, triangle, and omoplata threats. Practice surviving and escaping the complete attack system, not just the isolated gogoplata transition. Track escape rate and time to escape."
+      }
+    ],
+    "clips": [
+      {
+        "id": "iwcfKUPNZNs",
+        "title": "Countering the Rubber Guard: Why It Fails",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 792,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5jKZpFnxYbE",
+        "title": "Why Your Rubber Guard Never Works - Passing It",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 307,
+        "verified": "2026-07-16"
       }
     ]
   },

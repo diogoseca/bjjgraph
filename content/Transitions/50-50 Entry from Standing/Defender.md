@@ -148,6 +148,54 @@ description: "How to defend against 50-50 Entry from Standing in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Entry from Standing (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stop getting stuck in 50/50: how to pass",
+      "description": "50-50 Entry from Standing (Defender) film study: Stop getting stuck in 50/50: how to pass, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g-_fhSdPli8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g-_fhSdPli8",
+      "url": "https://www.youtube.com/watch?v=g-_fhSdPli8",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clearing the kneeline: leglock defense",
+      "description": "50-50 Entry from Standing (Defender) film study: Clearing the kneeline: leglock defense, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JbRfIo1NTLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JbRfIo1NTLk",
+      "url": "https://www.youtube.com/watch?v=JbRfIo1NTLk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT274S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The secret grip to defend heel hooks and leg attacks",
+      "description": "50-50 Entry from Standing (Defender) film study: The secret grip to defend heel hooks and leg attacks, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s9rJWyfNdiI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s9rJWyfNdiI",
+      "url": "https://www.youtube.com/watch?v=s9rJWyfNdiI",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT357S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Strategically, understanding when opponents are likely to attempt this entry - t
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Entry from Standing (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g-_fhSdPli8)
+
+<p class="clip-credit"><strong>Stop getting stuck in 50/50: how to pass</strong> — taught by Jon Thomas · 1:55 · <a href="https://www.youtube.com/watch?v=g-_fhSdPli8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JbRfIo1NTLk)
+
+<p class="clip-credit"><strong>Clearing the kneeline: leglock defense</strong> — taught by Craig Jones · 4:34 · <a href="https://www.youtube.com/watch?v=JbRfIo1NTLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s9rJWyfNdiI)
+
+<p class="clip-credit"><strong>The secret grip to defend heel hooks and leg attacks</strong> — taught by Craig Jones · 5:57 · <a href="https://www.youtube.com/watch?v=s9rJWyfNdiI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -148,6 +148,43 @@ description: "How to defend against New York to Invisible Collar in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York to Invisible Collar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Invisible Collar Details",
+      "description": "New York to Invisible Collar (Defender) film study: Invisible Collar Details, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
+      "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Invisible Collar Breakdown",
+      "description": "New York to Invisible Collar (Defender) film study: Invisible Collar Breakdown, taught by Submissions101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oTFx2jvJ15M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oTFx2jvJ15M",
+      "url": "https://www.youtube.com/watch?v=oTFx2jvJ15M",
+      "creator": { "@type": "Person", "name": "Submissions101" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ From a tactical standpoint, the defender must understand that allowing Invisible
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York to Invisible Collar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KCyIwacRKu8)
+
+<p class="clip-credit"><strong>Invisible Collar Details</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oTFx2jvJ15M)
+
+<p class="clip-credit"><strong>Invisible Collar Breakdown</strong> — taught by Submissions101 · 1:16 · <a href="https://www.youtube.com/watch?v=oTFx2jvJ15M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

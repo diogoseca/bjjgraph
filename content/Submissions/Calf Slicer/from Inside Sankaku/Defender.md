@@ -150,6 +150,54 @@ description: "Defend the calf slicer from inside sankaku. Recognition cues, esca
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Inside Sankaku (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Slicer vs Honey Hole Leg Retraction",
+      "description": "Calf Slicer from Inside Sankaku (Defender) film study: Slicer vs Honey Hole Leg Retraction, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bjXLOFlO7us/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bjXLOFlO7us",
+      "url": "https://www.youtube.com/watch?v=bjXLOFlO7us",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Leglock Counters / Rolling Back-Takes",
+      "description": "Calf Slicer from Inside Sankaku (Defender) film study: 3 Leglock Counters / Rolling Back-Takes, taught by \u00c9ire Grapple.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ah9XvwmTF9w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ah9XvwmTF9w",
+      "url": "https://www.youtube.com/watch?v=Ah9XvwmTF9w",
+      "creator": { "@type": "Person", "name": "\u00c9ire Grapple" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defend \u0026 Escape the Leg-Lace/Cloverleaf",
+      "description": "Calf Slicer from Inside Sankaku (Defender) film study: Defend \u0026 Escape the Leg-Lace/Cloverleaf, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VGNTi2hEvfc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VGNTi2hEvfc",
+      "url": "https://www.youtube.com/watch?v=VGNTi2hEvfc",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the calf slicer from inside sankaku requires early recognition and imm
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Inside Sankaku (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bjXLOFlO7us)
+
+<p class="clip-credit"><strong>Slicer vs Honey Hole Leg Retraction</strong> — taught by ZombieProofBJJ · 1:55 · <a href="https://www.youtube.com/watch?v=bjXLOFlO7us" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ah9XvwmTF9w)
+
+<p class="clip-credit"><strong>3 Leglock Counters / Rolling Back-Takes</strong> — taught by Éire Grapple · 0:34 · <a href="https://www.youtube.com/watch?v=Ah9XvwmTF9w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VGNTi2hEvfc)
+
+<p class="clip-credit"><strong>Defend &amp; Escape the Leg-Lace/Cloverleaf</strong> — taught by jamielovesmartialarts · 1:18 · <a href="https://www.youtube.com/watch?v=VGNTi2hEvfc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

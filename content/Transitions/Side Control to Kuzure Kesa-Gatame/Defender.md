@@ -140,6 +140,54 @@ description: "How to defend and prevent the side control to Kuzure Kesa-Gatame t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Kuzure Kesa-Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kuzure kesa-gatame escapes",
+      "description": "Side Control to Kuzure Kesa-Gatame (Defender) film study: Kuzure kesa-gatame escapes, taught by Kodokan instructor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-zFQ6h4yKT4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-zFQ6h4yKT4",
+      "url": "https://www.youtube.com/watch?v=-zFQ6h4yKT4",
+      "creator": { "@type": "Person", "name": "Kodokan instructor" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kuzure kesa gatame escapes",
+      "description": "Side Control to Kuzure Kesa-Gatame (Defender) film study: Kuzure kesa gatame escapes, taught by Utah Shudokan instructor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_HjmunOXVtY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_HjmunOXVtY",
+      "url": "https://www.youtube.com/watch?v=_HjmunOXVtY",
+      "creator": { "@type": "Person", "name": "Utah Shudokan instructor" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa gatame escape",
+      "description": "Side Control to Kuzure Kesa-Gatame (Defender) film study: Kesa gatame escape, taught by SBG Australia coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia coach" },
+      "duration": "PT43S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the transition to Kuzure Kesa-Gatame depends almost entirely on protec
 **Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Kuzure Kesa-Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-zFQ6h4yKT4)
+
+<p class="clip-credit"><strong>Kuzure kesa-gatame escapes</strong> — taught by Kodokan instructor · 1:10 · <a href="https://www.youtube.com/watch?v=-zFQ6h4yKT4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_HjmunOXVtY)
+
+<p class="clip-credit"><strong>Kuzure kesa gatame escapes</strong> — taught by Utah Shudokan instructor · 1:10 · <a href="https://www.youtube.com/watch?v=_HjmunOXVtY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa gatame escape</strong> — taught by SBG Australia coach · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

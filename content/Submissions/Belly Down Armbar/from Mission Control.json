@@ -19,7 +19,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Mission Control",
   "from_position": "Mission Control/Bottom",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The belly down armbar from Mission Control is a rubber guard arm-lock finish where the bottom player isolates the opponent's arm via high-guard shoulder control, then rotates belly-down to hyperextend the elbow against their hip line.",
   "overview": "The belly down armbar finish from Mission Control exploits the rubber guard's inherent shoulder isolation to create one of the most mechanically powerful armbar finishes available from bottom position. Unlike standard closed guard armbars that rely on hip elevation and leg squeeze alone, the Mission Control entry provides pre-existing arm isolation through the high guard configuration. The attacker's inside leg is already threaded across the opponent's back, and the overhook control naturally guides the opponent's arm into the armbar position with minimal telegraphing.\n\nWhat distinguishes this variant is the transition from the high guard directly into a belly down finish rather than the conventional supine armbar. After isolating the arm using Mission Control's shoulder trap, the attacker pivots their hips and rotates prone while maintaining wrist control. The belly down orientation eliminates the hitchhiker escape because the opponent cannot rotate their body in the direction needed to relieve elbow pressure. The prone position also allows the attacker to use their entire bodyweight as downward force on the elbow joint, creating a finishing mechanic that is both higher percentage and faster than the traditional supine approach.\n\nFrom a strategic standpoint, this submission creates a powerful dilemma within the rubber guard system. When the opponent defends triangle and omoplata threats from Mission Control, they often expose the arm in ways that feed directly into the belly down armbar. The technique chains naturally with other Mission Control attacks, forcing the opponent to defend multiple threats simultaneously while the attacker maintains positional control throughout the transition.",
   "safety_considerations": {
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Mission Control/Bottom",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
@@ -256,42 +268,151 @@
       {
         "question": "What anatomical structure does the belly down armbar from Mission Control primarily attack?",
         "answer": "The primary target is the elbow joint, specifically hyperextending it against the hip line to stress the ulnar collateral ligament and the joint capsule. The belly down position creates a lever where your hips drive extension against the locked elbow while your knees and wrist grip prevent the opponent from rotating or extracting the arm. Secondary stress occurs on the biceps tendon as it resists the forced extension under your bodyweight.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow joint hyperextension",
+        "distractors": {
+          "plausible": [
+            "Shoulder capsule rotation",
+            "Wrist and forearm compression"
+          ],
+          "trap": [
+            "Defend the shoulder, ignore elbow"
+          ]
+        }
       },
       {
         "question": "What are the visual and tactile indicators that the elbow is approaching its breaking point during the belly down finish?",
         "answer": "As the elbow approaches its limit, you will feel the arm become rigid with muscular resistance suddenly giving way to bone-on-bone mechanical stop. The opponent's body will tense significantly, they may vocalize distress or pain, and you may feel a subtle give or pop sensation in the joint. Any of these signals requires immediate cessation of pressure. Do not wait for a verbal tap if you feel structural change in the joint.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rigid then sudden give",
+        "distractors": {
+          "plausible": [
+            "Arm slowly softens and relaxes",
+            "Grip strength fades gradually"
+          ],
+          "trap": [
+            "Crank until you hear a pop"
+          ]
+        }
       },
       {
         "question": "What control points must be confirmed before transitioning from Mission Control into the armbar rotation?",
         "answer": "Four control points must be confirmed: the shoulder must be fully isolated with the overhook secure under the tricep, two-on-one wrist control must be established on the target arm, lateral hip angle must be created by scooting toward the trapped arm side, and the high guard leg must still be preventing posture recovery. Missing any of these increases the risk of the opponent escaping during the transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Overhook, wrist, angle, guard leg",
+        "distractors": {
+          "plausible": [
+            "Just overhook and wrist grip",
+            "Hip angle and head control"
+          ],
+          "trap": [
+            "Drop guard leg to rotate"
+          ]
+        }
       },
       {
         "question": "At what point during the belly down armbar sequence does the opponent pass the point of no escape?",
         "answer": "The point of no escape occurs once the attacker completes the full belly down rotation with knees squeezed tight and wrist pinned to the chest. Before this point, the opponent can fight grips, posture, or roll through. Once the attacker is fully prone with the arm trapped and hip line positioned below the elbow, the mechanical advantage is so extreme that escape becomes nearly impossible without risking serious joint damage. The opponent should tap before or immediately when this position is achieved.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Full belly down, knees squeezed",
+        "distractors": {
+          "plausible": [
+            "Once the wrist grip is secured",
+            "When the hips scoot laterally"
+          ],
+          "trap": [
+            "Keep fighting once fully prone"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together in a Gable grip to prevent arm isolation - what adjustment allows you to continue the attack?",
         "answer": "Attack the weaker hand by prying the fingers or wrist of the bottom hand while using your legs to create separation pressure on their arms. Alternatively, threaten a triangle choke by adjusting your leg position toward their neck, which forces them to release the grip to defend the choke. Once they break their own grip to defend, immediately re-isolate the arm and continue the armbar sequence before they can re-clasp.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pry weak hand or thread triangle",
+        "distractors": {
+          "plausible": [
+            "Pull straight back on wrists",
+            "Wait for their grip to fatigue"
+          ],
+          "trap": [
+            "Force rotation through the grip"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make during the belly down rotation to prevent the arm from slipping free?",
         "answer": "During the rotation, transition from two-on-one wrist control to a figure-four grip or monkey grip where both hands clamp the wrist against your sternum. Pull the wrist in tight rather than holding it at arm's length. Your forearms should pin against each other with the opponent's wrist sandwiched between them and your chest. This configuration is far more secure than fingertip gripping during the dynamic rotation phase.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four wrist to sternum",
+        "distractors": {
+          "plausible": [
+            "Keep two-on-one at arm's length",
+            "Switch to fingertip grip"
+          ],
+          "trap": [
+            "Release wrist to grab collar"
+          ]
+        }
       },
       {
         "question": "Why must extension pressure be applied slowly in the belly down position rather than with a quick jerk?",
         "answer": "The belly down position creates extreme mechanical advantage where your entire bodyweight drives through the hip extension against the locked elbow. Even a small hip arch generates enormous force on the joint. A quick jerk can hyperextend the elbow past its structural limit before the opponent can process the pain and signal a tap. Slow progressive pressure gives the opponent time to recognize the submission is locked and tap safely, preventing ligament tears and fractures that can end training careers.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Break lands before they can tap",
+        "distractors": {
+          "plausible": [
+            "Slow looks better to referees",
+            "Speed only loosens their grips"
+          ],
+          "trap": [
+            "Jerk it to beat their defense"
+          ]
+        }
       },
       {
         "question": "In competition, how do you adjust the belly down armbar finish from Mission Control against an opponent who refuses to tap early?",
         "answer": "In competition, maintain steady progressive pressure and trust the mechanics. Do not spike or jerk the arm regardless of competitive pressure. If the opponent is not tapping despite clearly locked belly down position, continue smooth extension while watching the referee for a verbal or visual submission call. The belly down position is so mechanically dominant that patience always prevails. Rushing the finish to beat the clock risks injuring your opponent and potential disqualification for dangerous conduct.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Steady pressure, trust mechanics",
+        "distractors": {
+          "plausible": [
+            "Bail out and reset the control",
+            "Switch to a wrist lock finish"
+          ],
+          "trap": [
+            "Spike the arm to force the tap"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "5fJM5bIk8Fw",
+        "title": "Mission Control to Armbars",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 108,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "bpzSfXme_eY",
+        "title": "Gubber Guard to Belly Down Armbar",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yDxtO6qzOL0",
+        "title": "Belly Down Armbar Finish",
+        "by": "Brandoo",
+        "vertical": false,
+        "channel": "Brandoo",
+        "duration": 58,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -377,27 +498,77 @@
       {
         "question": "What are the earliest recognition cues that indicate a belly down armbar is being set up from Mission Control?",
         "answer": "The first cue is the attacker releasing head control and reaching for your wrist or forearm with both hands - this grip transition is the setup for arm isolation. The second cue is feeling the attacker's hips scoot laterally toward your trapped arm side, creating the angle for the leg swing. The third is the high guard leg pressure shifting off your shoulder as they prepare to swing it over your face. Recognizing the first cue gives you the largest defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Head control traded for wrist grip",
+        "distractors": {
+          "plausible": [
+            "Opponent flattens their back",
+            "Their collar grip tightens"
+          ],
+          "trap": [
+            "Wait for the leg over your face"
+          ]
+        }
       },
       {
         "question": "When is the safest and most appropriate time to tap to a belly down armbar from Mission Control?",
         "answer": "Tap immediately when the attacker completes the belly down rotation with your wrist controlled and their knees squeezed. Do not wait to feel pain or pressure on the elbow. The mechanical advantage in belly down is so extreme that by the time you feel significant pressure, the joint may already be past its safe range of motion. Use any available tap signal: hand tap, verbal tap, or foot tap. If your hands are trapped, verbal tap loudly and clearly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Right as belly down rotation ends",
+        "distractors": {
+          "plausible": [
+            "When sharp elbow pain starts",
+            "Only after your escape fails"
+          ],
+          "trap": [
+            "Wait and see if pressure stops"
+          ]
+        }
       },
       {
         "question": "What defensive options are available at each phase of the belly down armbar sequence?",
         "answer": "During arm isolation phase: clasp hands together and fight grips, or drive posture to escape Mission Control entirely. During the leg swing phase: turn into the attacker and block the leg from clearing your head. During early belly down rotation: attempt to roll through before position is consolidated. Once fully belly down with wrist control: tap immediately. Each successive phase offers fewer and lower-percentage defensive options.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip fight early, tap once prone",
+        "distractors": {
+          "plausible": [
+            "Roll through only after rotation",
+            "Hide the face and wait it out"
+          ],
+          "trap": [
+            "Muscle the arm out when prone"
+          ]
+        }
       },
       {
         "question": "Why is the grip transition from head control to wrist control the most important defensive window?",
         "answer": "When the attacker releases head control to grab your wrist, Mission Control's structure is at its weakest moment. Without head control pulling your posture down, you have a brief window to drive your posture up and potentially break free of the high guard entirely. This is the only phase where you can attack the root cause of the submission threat - the Mission Control position itself - rather than defending the armbar symptoms. Every defense after this point is progressively harder.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture up — break the high guard",
+        "distractors": {
+          "plausible": [
+            "Grip-fight to stop the wrist grab",
+            "Tuck your elbow to your ribs"
+          ],
+          "trap": [
+            "Rip your trapped arm straight out"
+          ]
+        }
       },
       {
         "question": "What is the risk of attempting to fight out of a fully consolidated belly down armbar position?",
         "answer": "A fully consolidated belly down armbar with knee squeeze and wrist control creates overwhelming mechanical advantage where even small hip movements generate forces that can rupture the ulnar collateral ligament, tear the joint capsule, or fracture the distal humerus. The belly down orientation eliminates the hitchhiker escape, and the attacker's bodyweight pins the lever system in place. Attempting to muscle out of this position dramatically increases the speed and severity of potential injury compared to tapping and resetting.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Small moves rupture the ligament",
+        "distractors": {
+          "plausible": [
+            "Wrist sprain is the main risk",
+            "Risk drops once you go prone"
+          ],
+          "trap": [
+            "Bridge hard and rip it free"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -420,6 +591,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Integrated defense under live conditions",
         "description": "Start in Mission Control with full resistance. Defender uses all available tools to prevent the belly down armbar while attacker uses full technique. 3-minute rounds with reset after each submission or escape. Track which defensive window is most effective and which phase the defender is getting caught in most frequently."
+      }
+    ],
+    "clips": [
+      {
+        "id": "vfKVCQ-tA9M",
+        "title": "Armbar Escape from Closed Guard",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "58eCiNxdOiI",
+        "title": "Why Your Armbar from Guard Always Fails",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 76,
+        "verified": "2026-07-14"
       }
     ]
   }

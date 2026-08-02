@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Rodeo Ride/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Roll from Rodeo Ride is a defensive rolling escape executed from bottom turtle under Rodeo Ride pressure, where the practitioner uses rotational momentum to dislodge the top player's dynamic control and recover to a guard position. This escape targets the inherent instability of Rodeo Ride—unlike static pin positions, the top player's asymmetric weight distribution and perpendicular angle create windows of vulnerability that a well-timed roll can exploit. The technique is most effective when the top player commits their weight forward for hook insertion or choke attacks, creating the momentum imbalance necessary for successful rotation.\n\nThe rolling escape requires precise timing and directional awareness. The bottom player must identify moments when the top player's pressure shifts away from their hips, then explosively rotate through the gap created by this weight shift. The roll direction typically moves away from the controlled arm side, using the free arm as a posting point to guide the rotation while maintaining chin protection throughout. Success depends on immediately establishing guard connection upon completing the rotation, as any pause between the roll and guard recovery allows the top player to reestablish control or advance to back control.\n\nThis technique occupies a specific niche in the turtle escape hierarchy. It carries higher risk than incremental guard recovery methods like the sit-through or technical stand-up, but offers faster positional improvement when executed with proper timing. The primary danger is back exposure during the rotation phase, as an opponent who reads the roll can follow the movement and establish hooks. Practitioners should develop this escape as a complement to more conservative methods, deploying it when clear rolling opportunities present themselves rather than forcing it against settled pressure.",
   "variants_and_adaptations": [
     {
@@ -241,46 +256,166 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Roll from Rodeo Ride?",
-        "answer": "The optimal timing window occurs when the opponent shifts their weight forward for hook insertion or choke attacks, momentarily reducing hip pressure on your back. This forward commitment creates a rotational imbalance that your roll can exploit. Secondary windows include moments when the opponent adjusts grips or transitions between attacks, as their weight distribution becomes unsettled during these transitions. Feel for changes in hip pressure intensity as the primary timing indicator."
+        "answer": "The optimal timing window occurs when the opponent shifts their weight forward for hook insertion or choke attacks, momentarily reducing hip pressure on your back. This forward commitment creates a rotational imbalance that your roll can exploit. Secondary windows include moments when the opponent adjusts grips or transitions between attacks, as their weight distribution becomes unsettled during these transitions. Feel for changes in hip pressure intensity as the primary timing indicator.",
+        "answer_line": "Forward weight shift, light hips",
+        "distractors": {
+          "plausible": [
+            "Wait for choke to lock in",
+            "Roll as soon as back taken"
+          ],
+          "trap": [
+            "Roll when hips are heavy and set"
+          ]
+        }
       },
       {
         "question": "Why must you roll toward the free arm side rather than the controlled arm side?",
-        "answer": "Rolling toward the free arm side allows you to post with that arm to guide the rotation's direction and speed, while the absence of opponent control on that side provides the path of least resistance for your body to rotate through. Rolling toward the controlled arm means fighting against both the opponent's grip and their established weight pressure simultaneously, which dramatically reduces success probability and often results in the opponent following you directly into back control with positional advantage."
+        "answer": "Rolling toward the free arm side allows you to post with that arm to guide the rotation's direction and speed, while the absence of opponent control on that side provides the path of least resistance for your body to rotate through. Rolling toward the controlled arm means fighting against both the opponent's grip and their established weight pressure simultaneously, which dramatically reduces success probability and often results in the opponent following you directly into back control with positional advantage.",
+        "answer_line": "Roll toward the free-arm side",
+        "distractors": {
+          "plausible": [
+            "Roll toward strongest leg",
+            "Roll away from mat space"
+          ],
+          "trap": [
+            "Roll into the controlled arm"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back as you initiate the roll—how should you adjust?",
-        "answer": "Immediately abort the roll by pulling your hips back underneath your torso and resetting to defensive turtle structure. Do not attempt to force the rotation against a sprawl, as this leaves you partially rotated with your back exposed and no momentum to complete the escape. Once reset, transition to an alternative escape such as the sit-through or technical stand-up, as the opponent's sprawl may have created space between their chest and your back that opens different escape pathways."
+        "answer": "Immediately abort the roll by pulling your hips back underneath your torso and resetting to defensive turtle structure. Do not attempt to force the rotation against a sprawl, as this leaves you partially rotated with your back exposed and no momentum to complete the escape. Once reset, transition to an alternative escape such as the sit-through or technical stand-up, as the opponent's sprawl may have created space between their chest and your back that opens different escape pathways.",
+        "answer_line": "Abort, reset to turtle",
+        "distractors": {
+          "plausible": [
+            "Power through the rotation",
+            "Switch directly to sit-through"
+          ],
+          "trap": [
+            "Force the roll against the sprawl"
+          ]
+        }
       },
       {
         "question": "What grip must you establish immediately upon completing the roll to prevent being re-passed?",
-        "answer": "Upon completing the roll and facing your opponent, immediately secure an underhook on the side closest to the opponent's trapped leg for half guard, or collar and sleeve grips for open guard. The underhook is the highest-priority grip because it prevents the opponent from immediately reestablishing heavy top pressure and opens your primary offensive sweep and back-take pathways from half guard. Any delay in grip establishment allows the opponent to recover passing position and negate the escape."
+        "answer": "Upon completing the roll and facing your opponent, immediately secure an underhook on the side closest to the opponent's trapped leg for half guard, or collar and sleeve grips for open guard. The underhook is the highest-priority grip because it prevents the opponent from immediately reestablishing heavy top pressure and opens your primary offensive sweep and back-take pathways from half guard. Any delay in grip establishment allows the opponent to recover passing position and negate the escape.",
+        "answer_line": "Underhook the near trapped leg side",
+        "distractors": {
+          "plausible": [
+            "Collar and sleeve grips first",
+            "Double underhooks both sides"
+          ],
+          "trap": [
+            "Grab a leg lock entry instead"
+          ]
+        }
       },
       {
         "question": "What is the most critical safety concern during the rotation phase of this escape?",
-        "answer": "Neck protection is the most critical safety concern. During the rotation, your neck passes through vulnerable angles where the opponent can snap down for a guillotine or clock choke, or where the combined force of your rotation and their weight can create dangerous cervical compression. Maintaining a tight chin tuck throughout the entire roll prevents these exposures. If you feel your neck position becoming compromised at any point, stop the roll and reset rather than continuing through a dangerous angle."
+        "answer": "Neck protection is the most critical safety concern. During the rotation, your neck passes through vulnerable angles where the opponent can snap down for a guillotine or clock choke, or where the combined force of your rotation and their weight can create dangerous cervical compression. Maintaining a tight chin tuck throughout the entire roll prevents these exposures. If you feel your neck position becoming compromised at any point, stop the roll and reset rather than continuing through a dangerous angle.",
+        "answer_line": "Chin tuck, protect the neck",
+        "distractors": {
+          "plausible": [
+            "Keep elbows tight to ribs",
+            "Control opponent's far wrist"
+          ],
+          "trap": [
+            "Extend neck to see the finish"
+          ]
+        }
       },
       {
         "question": "How does the hip rotation in this technique differ from a standard forward roll?",
-        "answer": "Unlike a standard forward roll that travels straight over the head and spine, the Roll from Rodeo Ride uses a lateral hip-driven rotation that moves diagonally away from the opponent's pressure side. The power generation comes from explosive hip engagement rotating away from the opponent rather than tumbling forward over the head. This diagonal vector both escapes the opponent's direct pressure line and positions you to face them upon completion, whereas a straight forward roll would leave your back still exposed to the opponent."
+        "answer": "Unlike a standard forward roll that travels straight over the head and spine, the Roll from Rodeo Ride uses a lateral hip-driven rotation that moves diagonally away from the opponent's pressure side. The power generation comes from explosive hip engagement rotating away from the opponent rather than tumbling forward over the head. This diagonal vector both escapes the opponent's direct pressure line and positions you to face them upon completion, whereas a straight forward roll would leave your back still exposed to the opponent.",
+        "answer_line": "Lateral hip roll, not over head",
+        "distractors": {
+          "plausible": [
+            "Straight over-the-head tumble",
+            "Rotate toward opponent's chest"
+          ],
+          "trap": [
+            "Roll straight over the spine"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your roll and maintains chest-to-back contact throughout—what should you do?",
-        "answer": "If the opponent successfully follows the roll while maintaining chest-to-back contact, immediately transition from guard recovery to back escape priorities. Accelerate through the final rotation phase to create even momentary separation, and prioritize getting your back to the mat with frames established before they can insert hooks. If hooks are already in, begin standard back escape sequences—hand fighting the choking arm, hip escaping to one side, and working to trap the top hook rather than continuing the failed guard recovery attempt."
+        "answer": "If the opponent successfully follows the roll while maintaining chest-to-back contact, immediately transition from guard recovery to back escape priorities. Accelerate through the final rotation phase to create even momentary separation, and prioritize getting your back to the mat with frames established before they can insert hooks. If hooks are already in, begin standard back escape sequences—hand fighting the choking arm, hip escaping to one side, and working to trap the top hook rather than continuing the failed guard recovery attempt.",
+        "answer_line": "Switch to back-escape priorities",
+        "distractors": {
+          "plausible": [
+            "Keep fighting for guard recovery",
+            "Stall and wait for a restart"
+          ],
+          "trap": [
+            "Turn belly-down to hide the neck"
+          ]
+        }
       },
       {
         "question": "When should you choose this roll escape over the Escape from Rodeo Ride rotation to side control?",
-        "answer": "Choose the roll when the opponent's weight is committed forward or high on your shoulders with minimal hip control, creating clear rotational opportunity but insufficient base disruption for the full side control rotation. The Escape from Rodeo Ride to side control requires collapsing the rider's base and driving through to top position, which demands more time and grip fighting. The roll is faster and requires less grip establishment but yields a bottom guard position rather than dominant side control. Select the roll when speed of extraction is the priority, and the side control escape when you have the grip advantage to achieve a top position."
+        "answer": "Choose the roll when the opponent's weight is committed forward or high on your shoulders with minimal hip control, creating clear rotational opportunity but insufficient base disruption for the full side control rotation. The Escape from Rodeo Ride to side control requires collapsing the rider's base and driving through to top position, which demands more time and grip fighting. The roll is faster and requires less grip establishment but yields a bottom guard position rather than dominant side control. Select the roll when speed of extraction is the priority, and the side control escape when you have the grip advantage to achieve a top position.",
+        "answer_line": "High weight, low hip control",
+        "distractors": {
+          "plausible": [
+            "Whenever you want top position",
+            "Only when totally exhausted"
+          ],
+          "trap": [
+            "Force it when hips are heavy"
+          ]
+        }
       },
       {
         "question": "The roll is blocked and you reset to turtle—what chain of follow-up escapes should you attempt next?",
-        "answer": "After a blocked roll resets you to turtle, immediately chain into the sit-through escape toward the side the opponent just sprawled from, as their sprawl typically leaves that hip elevated and creates space underneath. If the sit-through is also denied, transition to a technical stand-up on the opposite side, using the posting arm that was already free for the roll attempt. The key principle is that each failed escape should feed information about the opponent's defensive tendencies into your next attempt—a sprawl-heavy defender is vulnerable to sit-throughs, while a lateral-pressure defender opens windows for the Escape from Rodeo Ride rotation."
+        "answer": "After a blocked roll resets you to turtle, immediately chain into the sit-through escape toward the side the opponent just sprawled from, as their sprawl typically leaves that hip elevated and creates space underneath. If the sit-through is also denied, transition to a technical stand-up on the opposite side, using the posting arm that was already free for the roll attempt. The key principle is that each failed escape should feed information about the opponent's defensive tendencies into your next attempt—a sprawl-heavy defender is vulnerable to sit-throughs, while a lateral-pressure defender opens windows for the Escape from Rodeo Ride rotation.",
+        "answer_line": "Sit-through toward their sprawl side",
+        "distractors": {
+          "plausible": [
+            "Technical stand-up first always",
+            "Repeat the same roll attempt"
+          ],
+          "trap": [
+            "Stay flat and wait for openings"
+          ]
+        }
       },
       {
         "question": "How do you read whether the opponent's weight is forward enough to attempt the roll versus too settled for success?",
-        "answer": "Assess through hip pressure intensity on your lower back and sacrum. When the opponent's weight is forward enough, you will feel reduced pressure on your hips and increased pressure on your upper back and shoulders—their center of gravity has moved above your rotational axis, making them top-heavy and vulnerable to the roll. If you feel heavy, evenly distributed pressure across both your hips and back, the opponent is settled and centered. Test with small hip shifts: if a subtle lateral hip movement meets immediate heavy resistance, the weight is too centered. If the hip shift moves freely with the pressure staying on your shoulders, the roll window is open."
+        "answer": "Assess through hip pressure intensity on your lower back and sacrum. When the opponent's weight is forward enough, you will feel reduced pressure on your hips and increased pressure on your upper back and shoulders—their center of gravity has moved above your rotational axis, making them top-heavy and vulnerable to the roll. If you feel heavy, evenly distributed pressure across both your hips and back, the opponent is settled and centered. Test with small hip shifts: if a subtle lateral hip movement meets immediate heavy resistance, the weight is too centered. If the hip shift moves freely with the pressure staying on your shoulders, the roll window is open.",
+        "answer_line": "Light hips, heavy on shoulders",
+        "distractors": {
+          "plausible": [
+            "Heavy even pressure everywhere",
+            "Opponent's grips feel loose"
+          ],
+          "trap": [
+            "Wait for hooks to be inserted"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Maintain chin protection throughout the rolling motion to prevent neck compression or stacking injuries. Control the roll's speed and direction rather than throwing yourself wildly, especially when training with partners of different sizes. Tap immediately if your neck position becomes compromised during the rotation. Avoid forcing the roll against fully settled pressure, as this can result in neck strain when the opponent drives weight into your shoulders during an incomplete rotation. Progress from slow-speed drilling to full resistance gradually, ensuring the rotational mechanics are sound before adding intensity. The granby-style variant carries particular cervical spine risk—master the basic lateral roll before progressing to inversion-based variations."
+    "safety_considerations": "Maintain chin protection throughout the rolling motion to prevent neck compression or stacking injuries. Control the roll's speed and direction rather than throwing yourself wildly, especially when training with partners of different sizes. Tap immediately if your neck position becomes compromised during the rotation. Avoid forcing the roll against fully settled pressure, as this can result in neck strain when the opponent drives weight into your shoulders during an incomplete rotation. Progress from slow-speed drilling to full resistance gradually, ensuring the rotational mechanics are sound before adding intensity. The granby-style variant carries particular cervical spine risk—master the basic lateral roll before progressing to inversion-based variations.",
+    "clips": [
+      {
+        "id": "JC6DNIShf78",
+        "title": "Octopus roll from bottom turtle into side control",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "923eYpD1E58",
+        "title": "Inside roll escape from turtle (catch wrestling)",
+        "by": "Kenny Lester",
+        "vertical": false,
+        "channel": "KING OF CATCH WRESTLING CHAMPIONSHIP",
+        "duration": 158,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Roll from Rodeo Ride Defender",
@@ -366,19 +501,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is preparing to roll from Rodeo Ride?",
-        "answer": "The earliest cue is a subtle hip angle change where the bottom player shifts their hips away from your primary pressure side, loading their body for rotational movement. This hip adjustment precedes the actual roll by a fraction of a second and indicates they are preparing for explosive rotation. Other early cues include intensified grip fighting on the near arm with increased urgency, or small weight shifts onto one shoulder as they build rotational potential."
+        "answer": "The earliest cue is a subtle hip angle change where the bottom player shifts their hips away from your primary pressure side, loading their body for rotational movement. This hip adjustment precedes the actual roll by a fraction of a second and indicates they are preparing for explosive rotation. Other early cues include intensified grip fighting on the near arm with increased urgency, or small weight shifts onto one shoulder as they build rotational potential.",
+        "answer_line": "Subtle hip shift away from pressure",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive bucking motion",
+            "A tap requesting to reset"
+          ],
+          "trap": [
+            "Ignore it as random fidgeting"
+          ]
+        }
       },
       {
         "question": "When should you choose to follow the roll for back control rather than sprawling to prevent it?",
-        "answer": "Following the roll is the better choice when the rotation has already built significant momentum and your sprawl would arrive too late to stop it cleanly. It is also strategically superior when you are confident in your ability to maintain chest contact through the rotation and immediately insert hooks, as this converts a defensive position into the most dominant finishing position in grappling. The key is making this decision within the first fraction of a second of the roll initiating—delayed decisions produce the worst outcomes."
+        "answer": "Following the roll is the better choice when the rotation has already built significant momentum and your sprawl would arrive too late to stop it cleanly. It is also strategically superior when you are confident in your ability to maintain chest contact through the rotation and immediately insert hooks, as this converts a defensive position into the most dominant finishing position in grappling. The key is making this decision within the first fraction of a second of the roll initiating—delayed decisions produce the worst outcomes.",
+        "answer_line": "Momentum built, sprawl too late",
+        "distractors": {
+          "plausible": [
+            "Always follow every roll attempt",
+            "Only if hooks already secured"
+          ],
+          "trap": [
+            "Hesitate and decide mid-rotation"
+          ]
+        }
       },
       {
         "question": "How do you maintain chest-to-back contact while following a fast rolling escape attempt?",
-        "answer": "Match the opponent's rotational speed by keeping your hips close to their body and allowing your legs to trail behind as your torso follows their movement. Use your grip on their near arm or collar as an anchor point that keeps you connected through the rotation. Your posted leg must come off the mat to allow your body to follow the arc of their roll. Focus on keeping your chest physically pressed against their shoulder blade throughout rather than trying to control with arms and grips alone."
+        "answer": "Match the opponent's rotational speed by keeping your hips close to their body and allowing your legs to trail behind as your torso follows their movement. Use your grip on their near arm or collar as an anchor point that keeps you connected through the rotation. Your posted leg must come off the mat to allow your body to follow the arc of their roll. Focus on keeping your chest physically pressed against their shoulder blade throughout rather than trying to control with arms and grips alone.",
+        "answer_line": "Hips tight, chest glued to back",
+        "distractors": {
+          "plausible": [
+            "Control with arm grips alone",
+            "Keep the posted leg planted"
+          ],
+          "trap": [
+            "Let hips drift away to keep base"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully rolls to half guard—what was your most likely defensive failure point?",
-        "answer": "The most likely failure was either delayed recognition of the roll initiation allowing too much momentum to build before your response, or disconnection of chest contact during the middle phase of the rotation. If you recognized the roll but failed to prevent it, the sprawl timing was late. If you chose to follow but they established guard, your chest disconnected during the rotation. Review whether your decision or your execution was flawed—correct decision with poor execution requires drilling, while incorrect decision requires better recognition training."
+        "answer": "The most likely failure was either delayed recognition of the roll initiation allowing too much momentum to build before your response, or disconnection of chest contact during the middle phase of the rotation. If you recognized the roll but failed to prevent it, the sprawl timing was late. If you chose to follow but they established guard, your chest disconnected during the rotation. Review whether your decision or your execution was flawed—correct decision with poor execution requires drilling, while incorrect decision requires better recognition training.",
+        "answer_line": "Late sprawl or lost chest contact",
+        "distractors": {
+          "plausible": [
+            "Weak underhook grip strength",
+            "Opponent's superior flexibility"
+          ],
+          "trap": [
+            "Pure bad luck, no fixable cause"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -401,6 +576,26 @@
         "phase": "Phase 4: Capitalization Training",
         "focus": "Converting followed rolls into established back control with submissions",
         "description": "Specifically practice converting followed rolls into back control with hooks and seat belt. Start from the point where the roll initiates and work on maintaining chest connection through the full rotation into established back control. Progress to immediately threatening submissions from the back control achieved through following the roll."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Rlk4mGg7vW4",
+        "title": "Maintaining back control with the hooks",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BkDQTbGNUrI",
+        "title": "Stop losing the back when they roll",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 214,
+        "verified": "2026-07-15"
       }
     ]
   }

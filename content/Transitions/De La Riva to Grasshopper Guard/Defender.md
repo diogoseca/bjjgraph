@@ -133,6 +133,43 @@ description: "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva to Grasshopper Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a full inversion",
+      "description": "De La Riva to Grasshopper Guard (Defender) film study: Countering a full inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to deal with a strong De La Riva",
+      "description": "De La Riva to Grasshopper Guard (Defender) film study: How to deal with a strong De La Riva, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-XU_JoO9Hhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-XU_JoO9Hhg",
+      "url": "https://www.youtube.com/watch?v=-XU_JoO9Hhg",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -149,6 +186,34 @@ Advanced defense centers on hook removal and back exposure. The De La Riva hook 
 **Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva to Grasshopper Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-XU_JoO9Hhg)
+
+<p class="clip-credit"><strong>How to deal with a strong De La Riva</strong> — taught by Mikey Musumeci · 2:18 · <a href="https://www.youtube.com/watch?v=-XU_JoO9Hhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

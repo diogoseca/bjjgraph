@@ -34,6 +34,43 @@ description: "Learn Arm Extraction and Pass from Crackhead Control in BJJ. Syste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Extraction and Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing off the defensive roll",
+      "description": "Arm Extraction and Pass film study: Passing off the defensive roll, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CkX_FzPFw8M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CkX_FzPFw8M",
+      "url": "https://www.youtube.com/watch?v=CkX_FzPFw8M",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross knee pass, preventing the turtle",
+      "description": "Arm Extraction and Pass film study: Cross knee pass, preventing the turtle, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6_4uK_c0-cI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6_4uK_c0-cI",
+      "url": "https://www.youtube.com/watch?v=6_4uK_c0-cI",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,10 +102,38 @@ The mechanical foundation relies on isolating the opponent's arm through shoulde
 
 Strategically, this technique represents a critical bridge between the dynamic turtle attack system and the stable control offered by side control. While Crackhead Control provides excellent back take and submission opportunities, some opponents become highly defensive, denying hooks and protecting their neck. The Arm Extraction and Pass offers an alternative advancement path that trades submission opportunities for positional points and the extensive attack options available from side control. Advanced practitioners use this as part of a threat matrix: the opponent must defend back takes, truck entries, and chokes from Crackhead Control, but defensive postures that protect against these attacks often make the Arm Extraction and Pass easier to execute.
 
-**From Position**: [[Positions/Crackhead Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Extraction and Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CkX_FzPFw8M)
+
+<p class="clip-credit"><strong>Passing off the defensive roll</strong> — taught by Gordon Ryan · 1:51 · <a href="https://www.youtube.com/watch?v=CkX_FzPFw8M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6_4uK_c0-cI)
+
+<p class="clip-credit"><strong>Cross knee pass, preventing the turtle</strong> — taught by Inverted Gear · 1:19 · <a href="https://www.youtube.com/watch?v=6_4uK_c0-cI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -77,7 +142,7 @@ Strategically, this technique represents a critical bridge between the dynamic t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Crackhead Control]] | 25% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 25% |
 | Counter | [[Positions/Half Guard]] | 10% |
 
 
@@ -229,7 +294,7 @@ Arm Extraction and Pass serves as a critical bridge between the 10th Planet turt
 ## Related Techniques
 
 
-- [[Positions/Crackhead Control]] - Starting position - this is the turtle attack platform from which extraction begins
+- [[Positions/Rubber Guard/Crackhead Control]] - Starting position - this is the turtle attack platform from which extraction begins
 
 - [[Positions/Side Control]] - Primary target position achieved upon successful execution
 

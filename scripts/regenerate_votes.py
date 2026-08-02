@@ -24,6 +24,10 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+import _votes  # forked {community, prior} votes schema helpers (calibration-v2 Phase 2.3b)
+
 PRIOR_VOTE_COUNT = 30  # Expert opinion weight
 
 
@@ -52,7 +56,7 @@ def load_content_rates(content_dir: Path) -> dict[str, float]:
         for json_file in directory.rglob('*.json'):
             try:
                 with open(json_file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
+                    data = reduce_to_scalar(json.load(f))
                 if not isinstance(data, dict) or 'name' not in data or data.get('is_family'):
                     continue
                 # Skip JSON schema files
@@ -71,13 +75,10 @@ def load_content_rates(content_dir: Path) -> dict[str, float]:
 
 
 def seed_votes(content_rates: dict[str, float]) -> dict:
-    """Create initial votes.json from content rates."""
+    """Create initial votes.json from content rates (forked {community} schema, seed vote count)."""
     votes = {}
     for name, rate in sorted(content_rates.items()):
-        votes[name] = {
-            "success_rate": rate,
-            "vote_count": PRIOR_VOTE_COUNT
-        }
+        votes[name] = _votes.seed_entry(rate)
     return {
         "last_updated_at": None,
         "votes": votes
@@ -189,18 +190,23 @@ def update_votes_from_posthog(votes_data: dict, api_key: str, project_id: str) -
             print(f"  WARNING: Technique '{technique}' not in votes.json, skipping")
             continue
 
-        entry = votes[technique]
-        current_rate = entry["success_rate"]
-        current_count = entry["vote_count"]
+        # Migrate to the forked {community, prior} schema (mirrors a legacy scalar into both frames)
+        # and preserve any calibrated `prior`. The single-number vote UI this phase applies one
+        # community vote to BOTH frames equally — fold it into each frame's own success_rate/count.
+        entry = _votes.migrate_entry(votes[technique])
 
         avg_user_rate = sum(user_rates.values()) / len(user_rates)
         num_new_votes = len(user_rates)
 
-        new_rate = (current_rate * current_count + avg_user_rate * num_new_votes) / (current_count + num_new_votes)
-        new_count = current_count + num_new_votes
+        for rs in _votes.RULESETS:
+            community = entry["community"][rs]
+            current_rate = community["success_rate"]
+            current_count = community["vote_count"]
+            new_rate = (current_rate * current_count + avg_user_rate * num_new_votes) / (current_count + num_new_votes)
+            community["success_rate"] = round(new_rate, 2)
+            community["vote_count"] = current_count + num_new_votes
 
-        entry["success_rate"] = round(new_rate, 2)
-        entry["vote_count"] = new_count
+        votes[technique] = entry  # re-attach (migrate_entry returns a new dict for legacy entries)
         updated += 1
 
     print(f"  Updated {updated} technique(s) from {len(events)} event(s)")
@@ -244,10 +250,7 @@ def main():
         added = 0
         for name, rate in content_rates.items():
             if name not in votes_data.get("votes", {}):
-                votes_data.setdefault("votes", {})[name] = {
-                    "success_rate": rate,
-                    "vote_count": PRIOR_VOTE_COUNT
-                }
+                votes_data.setdefault("votes", {})[name] = _votes.seed_entry(rate)
                 added += 1
         if added:
             print(f"  Added {added} new technique(s) to votes.json")

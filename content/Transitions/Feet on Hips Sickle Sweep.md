@@ -34,6 +34,43 @@ description: "Master the Feet on Hips Sickle Sweep in BJJ. Step-by-step guide to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Feet on Hips Sickle Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sickle sweep into knee bar",
+      "description": "Feet on Hips Sickle Sweep film study: Sickle sweep into knee bar, taught by David Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MAfNPSnw9Nk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MAfNPSnw9Nk",
+      "url": "https://www.youtube.com/watch?v=MAfNPSnw9Nk",
+      "creator": { "@type": "Person", "name": "David Thomas" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tripod and sickle sweep from feet on hips",
+      "description": "Feet on Hips Sickle Sweep film study: Tripod and sickle sweep from feet on hips, taught by Barrick BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/liPOgAeOrko/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/liPOgAeOrko",
+      "url": "https://www.youtube.com/watch?v=liPOgAeOrko",
+      "creator": { "@type": "Person", "name": "Barrick BJJ coach" },
+      "duration": "PT195S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the sickle sweep pairs naturally with the tripod sweep to form on
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Feet on Hips Sickle Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MAfNPSnw9Nk)
+
+<p class="clip-credit"><strong>Sickle sweep into knee bar</strong> — taught by David Thomas · 0:34 · <a href="https://www.youtube.com/watch?v=MAfNPSnw9Nk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=liPOgAeOrko)
+
+<p class="clip-credit"><strong>Tripod and sickle sweep from feet on hips</strong> — taught by Barrick BJJ coach · 3:15 · <a href="https://www.youtube.com/watch?v=liPOgAeOrko" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

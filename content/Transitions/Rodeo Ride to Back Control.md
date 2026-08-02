@@ -34,6 +34,54 @@ description: "Master the Rodeo Ride to Back Control transition in BJJ. Learn hoo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rodeo Ride to Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rodeo ride to rodeo choke on the back",
+      "description": "Rodeo Ride to Back Control film study: Rodeo ride to rodeo choke on the back, taught by Ethos Jiu-Jitsu Fullerton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6MhcPYISQDU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6MhcPYISQDU",
+      "url": "https://www.youtube.com/watch?v=6MhcPYISQDU",
+      "creator": { "@type": "Person", "name": "Ethos Jiu-Jitsu Fullerton" },
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting hooks in from the rodeo ride to take the back",
+      "description": "Rodeo Ride to Back Control film study: Getting hooks in from the rodeo ride to take the back, taught by Steve Scott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-Gt5c1J-NO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-Gt5c1J-NO0",
+      "url": "https://www.youtube.com/watch?v=-Gt5c1J-NO0",
+      "creator": { "@type": "Person", "name": "Steve Scott" },
+      "duration": "PT400S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rodeo ride against turtle and prone opponents",
+      "description": "Rodeo Ride to Back Control film study: Rodeo ride against turtle and prone opponents, taught by Steve Scott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vYD01Vgjy_8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vYD01Vgjy_8",
+      "url": "https://www.youtube.com/watch?v=vYD01Vgjy_8",
+      "creator": { "@type": "Person", "name": "Steve Scott" },
+      "duration": "PT211S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The critical mechanical challenge lies in maintaining unbroken chest-to-back con
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rodeo Ride to Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6MhcPYISQDU)
+
+<p class="clip-credit"><strong>Rodeo ride to rodeo choke on the back</strong> — taught by Ethos Jiu-Jitsu Fullerton · 1:25 · <a href="https://www.youtube.com/watch?v=6MhcPYISQDU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-Gt5c1J-NO0)
+
+<p class="clip-credit"><strong>Getting hooks in from the rodeo ride to take the back</strong> — taught by Steve Scott · 6:40 · <a href="https://www.youtube.com/watch?v=-Gt5c1J-NO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vYD01Vgjy_8)
+
+<p class="clip-credit"><strong>Rodeo ride against turtle and prone opponents</strong> — taught by Steve Scott · 3:31 · <a href="https://www.youtube.com/watch?v=vYD01Vgjy_8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

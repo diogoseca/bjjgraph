@@ -148,6 +148,43 @@ description: "Defend against the bridge escape from Modified Mount. Learn recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Modified Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding the middle mount against escapes",
+      "description": "Bridge Escape from Modified Mount (Defender) film study: Holding the middle mount against escapes, taught by SBG PDX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RTMJDbZnFO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RTMJDbZnFO0",
+      "url": "https://www.youtube.com/watch?v=RTMJDbZnFO0",
+      "creator": { "@type": "Person", "name": "SBG PDX" },
+      "duration": "PT154S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why the Bridge and Roll Escape Rarely Works",
+      "description": "Bridge Escape from Modified Mount (Defender) film study: Why the Bridge and Roll Escape Rarely Works, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-3PyGu6d-KA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-3PyGu6d-KA",
+      "url": "https://www.youtube.com/watch?v=-3PyGu6d-KA",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT505S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the bridge escape from Modified Mount requires anticipating th
 **Opponent's Starting Position**: [[Positions/Mount/Modified Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Modified Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RTMJDbZnFO0)
+
+<p class="clip-credit"><strong>Holding the middle mount against escapes</strong> — taught by SBG PDX · 2:34 · <a href="https://www.youtube.com/watch?v=RTMJDbZnFO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-3PyGu6d-KA)
+
+<p class="clip-credit"><strong>Why the Bridge and Roll Escape Rarely Works</strong> — taught by RVV BJJ · 8:25 · <a href="https://www.youtube.com/watch?v=-3PyGu6d-KA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

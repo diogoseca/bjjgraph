@@ -34,6 +34,54 @@ description: "Complete guide to the triangle choke from Crackhead Control. Maste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Crackhead Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle / Reverse Triangle from Rubber Guard",
+      "description": "Triangle Choke from Crackhead Control film study: Triangle / Reverse Triangle from Rubber Guard, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_ily9GpqMeg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_ily9GpqMeg",
+      "url": "https://www.youtube.com/watch?v=_ily9GpqMeg",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mastering the rubber guard and its triangle attacks",
+      "description": "Triangle Choke from Crackhead Control film study: Mastering the rubber guard and its triangle attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RJ7Iutti8cY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RJ7Iutti8cY",
+      "url": "https://www.youtube.com/watch?v=RJ7Iutti8cY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT521S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber guard to mission control to triangle chain",
+      "description": "Triangle Choke from Crackhead Control film study: Rubber guard to mission control to triangle chain, taught by Abel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EhiPyX_s044/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EhiPyX_s044",
+      "url": "https://www.youtube.com/watch?v=EhiPyX_s044",
+      "creator": { "@type": "Person", "name": "Abel BJJ" },
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -75,9 +123,45 @@ The position's strength lies in the asymmetric control it creates. The shin pres
 
 Strategically, the triangle from Crackhead Control functions as a primary threat within the rubber guard attacking system. It chains naturally with gogoplata, omoplata, and armbar attacks, creating a submission web where defending one threat exposes the opponent to another. The position is particularly effective in no-gi grappling where the absence of collar grips makes traditional posture-breaking more difficult, and Crackhead Control's mechanical posture break compensates for this limitation.
 
-**Starting Position**: [[Positions/Crackhead Control]] · **From**: [[Positions/Crackhead Control]] (Bottom)
+**Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] · **From**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Crackhead Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_ily9GpqMeg)
+
+<p class="clip-credit"><strong>Triangle / Reverse Triangle from Rubber Guard</strong> — taught by Brandon Mccaghren · 0:50 · <a href="https://www.youtube.com/watch?v=_ily9GpqMeg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RJ7Iutti8cY)
+
+<p class="clip-credit"><strong>Mastering the rubber guard and its triangle attacks</strong> — taught by Eddie Bravo · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EhiPyX_s044)
+
+<p class="clip-credit"><strong>Rubber guard to mission control to triangle chain</strong> — taught by Abel BJJ · 2:12 · <a href="https://www.youtube.com/watch?v=EhiPyX_s044" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -86,7 +170,7 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Positions/Crackhead Control]] | 23% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 23% |
 | Counter | [[Positions/Closed Guard]] | 12% |
 
 
@@ -214,7 +298,7 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 
 ## From Which Positions?
 
-- [[Positions/Crackhead Control]]
+- [[Positions/Rubber Guard/Crackhead Control]]
 - [[Positions/Rubber Guard/Mission Control]]
 
 
@@ -227,7 +311,7 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 - [[Transitions/Inverted Triangle]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/High Elbow Guillotine]]
-- [[Positions/Crackhead Control]] - Starting position for this submission variant
+- [[Positions/Rubber Guard/Crackhead Control]] - Starting position for this submission variant
 - [[Positions/Rubber Guard/Mission Control]] - Alternative rubber guard position with similar triangle access
 - [[Positions/Closed Guard]] - Base guard from which Crackhead Control is established
 

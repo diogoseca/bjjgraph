@@ -144,6 +144,43 @@ description: "How to defend against the kneebar from Saddle in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Saddle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle Escape vs Mir Lock",
+      "description": "Kneebar from Saddle (Defender) film study: Saddle Escape vs Mir Lock, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ah7Eb5ewXAM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ah7Eb5ewXAM",
+      "url": "https://www.youtube.com/watch?v=Ah7Eb5ewXAM",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Shield Counter to Saddle",
+      "description": "Kneebar from Saddle (Defender) film study: Knee Shield Counter to Saddle, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wuOCvhp-uZg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wuOCvhp-uZg",
+      "url": "https://www.youtube.com/watch?v=wuOCvhp-uZg",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT18S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -158,6 +195,34 @@ Critical safety awareness is non-negotiable when defending kneebars from the Sad
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Saddle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ah7Eb5ewXAM)
+
+<p class="clip-credit"><strong>Saddle Escape vs Mir Lock</strong> — taught by ZombieProofBJJ · 1:00 · <a href="https://www.youtube.com/watch?v=Ah7Eb5ewXAM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wuOCvhp-uZg)
+
+<p class="clip-credit"><strong>Knee Shield Counter to Saddle</strong> — taught by Thunderdome BJJ · 0:18 · <a href="https://www.youtube.com/watch?v=wuOCvhp-uZg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

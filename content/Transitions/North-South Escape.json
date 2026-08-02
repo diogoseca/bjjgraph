@@ -15,31 +15,49 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "success"
     },
     {
       "to": "North-South/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 5,
+      "probability": {
+        "gi": 5,
+        "nogi": 5
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Among the pin escapes every serious bottom player must develop, escaping north-south is one of the most demanding because the perpendicular chest-to-chest pressure restricts breathing and removes the visual reference points and framing angles that side-control and mount escapes rely on. The top player drapes their weight across your head and upper chest while controlling your arms, so success depends on disciplined frame placement, a powerful bridge to convert vertical space into a turn, and timely knee insertion before they can flatten you or advance to a more dominant pin. The escape emphasizes creating distance progressively rather than through panicked single explosions, protecting the neck against north-south chokes and guillotines throughout, and capitalizing on the brief windows when the top player shifts weight to attack or transition. Mastering it builds the same framing, bridging, and shrimping mechanics that transfer to every other bottom-position escape, which is why it belongs in the defensive arsenal of any practitioner who expects to face skilled pressure passers.",
   "related_content": [
     {
@@ -243,46 +261,166 @@
     "flashcards": [
       {
         "question": "What is the first priority when trapped in north-south position before attempting any escape?",
-        "answer": "The first priority is to establish defensive frames on the opponent's hips or torso to prevent them from settling their full weight onto your chest and to create the structural foundation necessary for generating space. Without frames, any escape attempt will be ineffective as the opponent can simply maintain pressure."
+        "answer": "The first priority is to establish defensive frames on the opponent's hips or torso to prevent them from settling their full weight onto your chest and to create the structural foundation necessary for generating space. Without frames, any escape attempt will be ineffective as the opponent can simply maintain pressure.",
+        "answer_line": "Frame on hips/torso first",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively right away",
+            "Grab a collar tie first"
+          ],
+          "trap": [
+            "Push on opponent's head"
+          ]
+        }
       },
       {
         "question": "Why is it important to turn away from the opponent's head during the north-south escape rather than toward it?",
-        "answer": "Turning away from the opponent's head (toward their legs) creates better angles for inserting your knee shield and prevents them from easily transitioning to stronger control positions like mount or gift wrap. Turning toward their head plays into their strongest control points and makes the escape significantly more difficult while exposing you to additional attacks."
+        "answer": "Turning away from the opponent's head (toward their legs) creates better angles for inserting your knee shield and prevents them from easily transitioning to stronger control positions like mount or gift wrap. Turning toward their head plays into their strongest control points and makes the escape significantly more difficult while exposing you to additional attacks.",
+        "answer_line": "Turn away from their head",
+        "distractors": {
+          "plausible": [
+            "Turn toward their head",
+            "Stay flat, no turning"
+          ],
+          "trap": [
+            "Turn into their gift wrap"
+          ]
+        }
       },
       {
         "question": "What role does timing play in the success of the north-south escape, and what should you be looking for?",
-        "answer": "Timing is critical because executing the escape when the opponent adjusts their weight or changes grips provides windows of reduced pressure and control. You should look for moments when they shift their weight, attempt submissions, or make positional adjustments. These moments create brief opportunities where their control is compromised, making your escape attempts significantly more effective than forcing escapes against static, settled pressure."
+        "answer": "Timing is critical because executing the escape when the opponent adjusts their weight or changes grips provides windows of reduced pressure and control. You should look for moments when they shift their weight, attempt submissions, or make positional adjustments. These moments create brief opportunities where their control is compromised, making your escape attempts significantly more effective than forcing escapes against static, settled pressure.",
+        "answer_line": "Escape on their weight shifts",
+        "distractors": {
+          "plausible": [
+            "Escape as soon as pinned",
+            "Wait for the whistle/tap"
+          ],
+          "trap": [
+            "Force it against full pressure"
+          ]
+        }
       },
       {
         "question": "How should you position your feet before executing the bridge in the north-south escape?",
-        "answer": "Your feet should be positioned close to your body with your shins nearly vertical, creating a strong base for the bridge. Walking your feet toward your head before bridging creates optimal mechanical advantage, allowing you to generate maximum height and power in the bridging motion. Feet positioned too far away result in weak, ineffective bridges."
+        "answer": "Your feet should be positioned close to your body with your shins nearly vertical, creating a strong base for the bridge. Walking your feet toward your head before bridging creates optimal mechanical advantage, allowing you to generate maximum height and power in the bridging motion. Feet positioned too far away result in weak, ineffective bridges.",
+        "answer_line": "Feet close, walk toward head",
+        "distractors": {
+          "plausible": [
+            "Feet wide apart for base",
+            "Feet flat, far from hips"
+          ],
+          "trap": [
+            "Extend legs straight out"
+          ]
+        }
       },
       {
         "question": "What should you do if your initial escape attempt fails and the opponent maintains north-south control?",
-        "answer": "If the initial attempt fails, you should reset your frames, conserve energy, and wait for the opponent's next weight adjustment or positional change before attempting again. Escape is often a multi-attempt process requiring patience and proper timing. Continuously forcing failed attempts wastes energy and may create submission opportunities for your opponent. Maintain defensive awareness, protect your neck, and wait for better timing on subsequent attempts."
+        "answer": "If the initial attempt fails, you should reset your frames, conserve energy, and wait for the opponent's next weight adjustment or positional change before attempting again. Escape is often a multi-attempt process requiring patience and proper timing. Continuously forcing failed attempts wastes energy and may create submission opportunities for your opponent. Maintain defensive awareness, protect your neck, and wait for better timing on subsequent attempts.",
+        "answer_line": "Reset frames, wait, retry",
+        "distractors": {
+          "plausible": [
+            "Immediately bridge again",
+            "Push harder, same angle"
+          ],
+          "trap": [
+            "Abandon frames, go limp"
+          ]
+        }
       },
       {
         "question": "How does the north-south escape integrate with the overall defensive hierarchy in BJJ?",
-        "answer": "The north-south escape is part of the pin escape methodology within the defensive hierarchy, which prioritizes escaping from inferior positions to recover to neutral or guard positions. It connects systematically with side control escapes and mount escapes, as opponents often transition between these dominant positions. Understanding that escapes flow together helps practitioners develop comprehensive defensive systems rather than isolated techniques. The escape may lead to guard recovery, turtle, or standing positions depending on execution and opponent reactions."
+        "answer": "The north-south escape is part of the pin escape methodology within the defensive hierarchy, which prioritizes escaping from inferior positions to recover to neutral or guard positions. It connects systematically with side control escapes and mount escapes, as opponents often transition between these dominant positions. Understanding that escapes flow together helps practitioners develop comprehensive defensive systems rather than isolated techniques. The escape may lead to guard recovery, turtle, or standing positions depending on execution and opponent reactions.",
+        "answer_line": "Part of pin-escape hierarchy",
+        "distractors": {
+          "plausible": [
+            "Standalone unrelated skill",
+            "Only used from side control"
+          ],
+          "trap": [
+            "Skip guard, always stand up"
+          ]
+        }
       },
       {
         "question": "Your opponent begins reaching for your far arm while in north-south - what escape opportunity does this create?",
-        "answer": "When your opponent reaches for submissions like the kimura, their weight shifts to one side and their base becomes compromised. This creates an optimal window to bridge toward the opposite side where their support is weakened. Use the timing of their reach to execute an explosive bridge and turn, capitalizing on their momentary balance vulnerability before they can secure the grip and settle their weight again."
+        "answer": "When your opponent reaches for submissions like the kimura, their weight shifts to one side and their base becomes compromised. This creates an optimal window to bridge toward the opposite side where their support is weakened. Use the timing of their reach to execute an explosive bridge and turn, capitalizing on their momentary balance vulnerability before they can secure the grip and settle their weight again.",
+        "answer_line": "Bridge toward their weak side",
+        "distractors": {
+          "plausible": [
+            "Pull arm back and stall",
+            "Bridge toward strong side"
+          ],
+          "trap": [
+            "Try to submit their arm"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between frames against the chest versus frames against the hips in north-south escape?",
-        "answer": "Frames against the chest create immediate breathing room and push the opponent's weight upward, but require more strength to maintain against heavy pressure. Frames against the hips are structurally stronger because you can use skeletal alignment rather than muscular effort, and they also block the opponent from advancing to mount. The most effective approach combines both: initial hip frames to create structure, then chest frames to create turning space as you execute the escape sequence."
+        "answer": "Frames against the chest create immediate breathing room and push the opponent's weight upward, but require more strength to maintain against heavy pressure. Frames against the hips are structurally stronger because you can use skeletal alignment rather than muscular effort, and they also block the opponent from advancing to mount. The most effective approach combines both: initial hip frames to create structure, then chest frames to create turning space as you execute the escape sequence.",
+        "answer_line": "Hip frames stronger, use both",
+        "distractors": {
+          "plausible": [
+            "Chest frames alone suffice",
+            "Hip frames only, skip chest"
+          ],
+          "trap": [
+            "Push chest frame into their face"
+          ]
+        }
       },
       {
         "question": "When inserting your knee shield during the escape, which knee should you prioritize and why?",
-        "answer": "Insert the bottom knee (the one closer to the mat when you turn to your side) first because it requires the least space to enter and creates an immediate barrier. The bottom knee slides between your hip and their torso, while your top leg can push against their body for additional leverage. Trying to insert the top knee first requires more space and often results in getting flattened back down before you can establish the guard frame."
+        "answer": "Insert the bottom knee (the one closer to the mat when you turn to your side) first because it requires the least space to enter and creates an immediate barrier. The bottom knee slides between your hip and their torso, while your top leg can push against their body for additional leverage. Trying to insert the top knee first requires more space and often results in getting flattened back down before you can establish the guard frame.",
+        "answer_line": "Insert bottom knee first",
+        "distractors": {
+          "plausible": [
+            "Insert top knee first",
+            "Insert both knees together"
+          ],
+          "trap": [
+            "Push knee into their throat"
+          ]
+        }
       },
       {
         "question": "How do you manage your breathing under heavy north-south pressure to avoid panic and maintain energy for escape?",
-        "answer": "Establish a controlled breathing pattern by exhaling during moments of peak pressure and taking quick inhales during micro-adjustments in their weight. Turning slightly to angle your ribcage helps create breathing space. Avoid holding your breath or hyperventilating, as both lead to rapid fatigue and panic. Mental composure allows you to wait for proper timing rather than wasting energy on poorly-timed escape attempts that fail and further exhaust you."
+        "answer": "Establish a controlled breathing pattern by exhaling during moments of peak pressure and taking quick inhales during micro-adjustments in their weight. Turning slightly to angle your ribcage helps create breathing space. Avoid holding your breath or hyperventilating, as both lead to rapid fatigue and panic. Mental composure allows you to wait for proper timing rather than wasting energy on poorly-timed escape attempts that fail and further exhaust you.",
+        "answer_line": "Exhale under peak pressure",
+        "distractors": {
+          "plausible": [
+            "Hold breath, brace hard",
+            "Breathe fast, hyperventilate"
+          ],
+          "trap": [
+            "Yell to intimidate opponent"
+          ]
+        }
       }
     ],
-    "safety_considerations": "When practicing the north-south escape, ensure controlled execution to avoid neck injuries from improper bridging mechanics or excessive force. The bridging motion should be powerful but controlled, with proper foot positioning to prevent strain on the lower back and neck. Partners should communicate clearly about resistance levels during training, especially when adding submission attempts into the drill. Beginners should master the basic movements with light resistance before progressing to full-speed execution. Be aware of submission threats throughout the escape sequence, particularly kimura, armbar, and choke attacks from the top position. If your partner attacks a submission during escape training, pause the escape and address the submission defense first. Never force the escape if it causes pain in your neck, shoulders, or spine. Proper mat space should be available for the bridging and rolling movements to prevent collisions with other practitioners."
+    "safety_considerations": "When practicing the north-south escape, ensure controlled execution to avoid neck injuries from improper bridging mechanics or excessive force. The bridging motion should be powerful but controlled, with proper foot positioning to prevent strain on the lower back and neck. Partners should communicate clearly about resistance levels during training, especially when adding submission attempts into the drill. Beginners should master the basic movements with light resistance before progressing to full-speed execution. Be aware of submission threats throughout the escape sequence, particularly kimura, armbar, and choke attacks from the top position. If your partner attacks a submission during escape training, pause the escape and address the submission defense first. Never force the escape if it causes pain in your neck, shoulders, or spine. Proper mat space should be available for the bridging and rolling movements to prevent collisions with other practitioners.",
+    "clips": [
+      {
+        "id": "XaLBmGnHm78",
+        "title": "North-south inverted spin escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4WBfhnf2mJI",
+        "title": "Escaping switch-base side control pin",
+        "by": "Renegade BJJ",
+        "vertical": false,
+        "channel": "Renegade BJJ",
+        "duration": 68,
+        "verified": "2026-07-16"
+      }
+    ]
   },
   "defender": {
     "name": "North-South Escape Defender",
@@ -377,23 +515,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is preparing to escape north-south?",
-        "answer": "The earliest cue is the bottom player walking their feet closer to their hips, shortening the distance between their feet and buttocks. This foot repositioning creates optimal bridge mechanics and signals that a bridging attempt is imminent within the next few seconds. Recognizing this early allows you to widen your base and increase forward pressure before they can generate upward force."
+        "answer": "The earliest cue is the bottom player walking their feet closer to their hips, shortening the distance between their feet and buttocks. This foot repositioning creates optimal bridge mechanics and signals that a bridging attempt is imminent within the next few seconds. Recognizing this early allows you to widen your base and increase forward pressure before they can generate upward force.",
+        "answer_line": "Feet walking toward hips",
+        "distractors": {
+          "plausible": [
+            "Hands gripping your collar",
+            "Hips shifting side to side"
+          ],
+          "trap": [
+            "Bottom player relaxing fully"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully turns to their side and is fighting to insert a knee shield - what is your best response?",
-        "answer": "Rather than fighting to flatten them back into north-south, transition immediately to side control by hip-switching to face them. Their turning motion has already compromised north-south alignment, making side control the higher-percentage dominant position to secure. Drive your crossface shoulder into their jaw as you transition to prevent further turning, and immediately establish underhook control to begin your side control retention sequence."
+        "answer": "Rather than fighting to flatten them back into north-south, transition immediately to side control by hip-switching to face them. Their turning motion has already compromised north-south alignment, making side control the higher-percentage dominant position to secure. Drive your crossface shoulder into their jaw as you transition to prevent further turning, and immediately establish underhook control to begin your side control retention sequence.",
+        "answer_line": "Switch hips to side control",
+        "distractors": {
+          "plausible": [
+            "Force them flat again",
+            "Chase the far-side leg"
+          ],
+          "trap": [
+            "Release all pressure, reset"
+          ]
+        }
       },
       {
         "question": "How do you use submission threats to shut down escape attempts without losing positional control?",
-        "answer": "Use submissions as positional resets rather than full commitments. When the bottom player extends an arm to frame, grip the kimura briefly to force them to retract the arm and abandon their frame structure. Release the grip and immediately re-consolidate your chest pressure and arm control. This approach disrupts their escape sequence without the weight shift vulnerability that comes from fully pursuing the submission finish. The threat is more valuable than the attempt."
+        "answer": "Use submissions as positional resets rather than full commitments. When the bottom player extends an arm to frame, grip the kimura briefly to force them to retract the arm and abandon their frame structure. Release the grip and immediately re-consolidate your chest pressure and arm control. This approach disrupts their escape sequence without the weight shift vulnerability that comes from fully pursuing the submission finish. The threat is more valuable than the attempt.",
+        "answer_line": "Grip kimura briefly, then release",
+        "distractors": {
+          "plausible": [
+            "Fully commit to the finish",
+            "Ignore the arm frame entirely"
+          ],
+          "trap": [
+            "Chase submission, abandon pressure"
+          ]
+        }
       },
       {
         "question": "Why is dynamic pressure adjustment more effective than static weight placement against a skilled bottom player?",
-        "answer": "A skilled bottom player uses cumulative micro-movements - small shrimps, incremental frame adjustments, and progressive hip escapes - that each create millimeters of space. Static weight fails to address this because it cannot follow lateral movement. Dynamic adjustment means constantly shifting your pressure angle to close gaps as they appear, matching their movement with counter-movement. This proactive approach prevents space accumulation while static weight allows it to compound over multiple escape cycles."
+        "answer": "A skilled bottom player uses cumulative micro-movements - small shrimps, incremental frame adjustments, and progressive hip escapes - that each create millimeters of space. Static weight fails to address this because it cannot follow lateral movement. Dynamic adjustment means constantly shifting your pressure angle to close gaps as they appear, matching their movement with counter-movement. This proactive approach prevents space accumulation while static weight allows it to compound over multiple escape cycles.",
+        "answer_line": "Shift pressure to match movement",
+        "distractors": {
+          "plausible": [
+            "Sit heavy, stay motionless",
+            "Add weight once, then hold"
+          ],
+          "trap": [
+            "Relax pressure between shrimps"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges explosively while you are reaching for a kimura grip - how do you recover control?",
-        "answer": "Immediately abandon the kimura attempt and post both hands on the mat to prevent being rolled. Sprawl your hips backward and widen your base to ride out the bridge momentum. As their bridge collapses from gravity and fatigue, immediately drive your chest back into their sternum and re-establish arm control. The lesson is clear: never fully commit to submissions when you sense escape energy building. Use the failed bridge as an opportunity to re-consolidate heavier pressure while they are momentarily exhausted from the explosive effort."
+        "answer": "Immediately abandon the kimura attempt and post both hands on the mat to prevent being rolled. Sprawl your hips backward and widen your base to ride out the bridge momentum. As their bridge collapses from gravity and fatigue, immediately drive your chest back into their sternum and re-establish arm control. The lesson is clear: never fully commit to submissions when you sense escape energy building. Use the failed bridge as an opportunity to re-consolidate heavier pressure while they are momentarily exhausted from the explosive effort.",
+        "answer_line": "Abandon grip, post and sprawl",
+        "distractors": {
+          "plausible": [
+            "Finish the kimura anyway",
+            "Roll with the bridge"
+          ],
+          "trap": [
+            "Hold grip, ride the bridge out"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -416,6 +604,35 @@
         "phase": "Phase 4: Submission Threat Integration",
         "focus": "Use submission attacks as escape-disruption tools",
         "description": "Incorporate kimura, armbar, and north-south choke threats into your retention game. Practice threatening submissions to disrupt escape sequences without fully committing weight shifts that compromise control. Develop the timing to attack when they frame, then immediately reconsolidate when they retract. Full resistance positional sparring rounds starting from north-south."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Yzd35ezo2OQ",
+        "title": "North-south counter to the underhook escape",
+        "by": "Paul McVeigh",
+        "vertical": false,
+        "channel": "Paul Mcveigh",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LdjrPT6Wt7c",
+        "title": "How to hold north-south",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SPXanCnoBYA",
+        "title": "North-south choke as a pinning tool",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 135,
+        "verified": "2026-07-15"
       }
     ]
   },

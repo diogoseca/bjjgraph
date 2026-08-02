@@ -148,6 +148,43 @@ description: "Defensive guide against the Russian Cowboy to Back Control transit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Cowboy to Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending a single hook from turtle",
+      "description": "Russian Cowboy to Back Control (Defender) film study: Defending a single hook from turtle, taught by South Boston BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JgrpnE0HyAY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JgrpnE0HyAY",
+      "url": "https://www.youtube.com/watch?v=JgrpnE0HyAY",
+      "creator": { "@type": "Person", "name": "South Boston BJJ" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back control escape explained simply",
+      "description": "Russian Cowboy to Back Control (Defender) film study: Back control escape explained simply, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Jd2llamfl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Jd2llamfl8",
+      "url": "https://www.youtube.com/watch?v=3Jd2llamfl8",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT189S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Russian Cowboy to Back Control transition is a critical survival s
 **Opponent's Starting Position**: [[Positions/Russian Cowboy]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Cowboy to Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JgrpnE0HyAY)
+
+<p class="clip-credit"><strong>Defending a single hook from turtle</strong> — taught by South Boston BJJ · 2:29 · <a href="https://www.youtube.com/watch?v=JgrpnE0HyAY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3Jd2llamfl8)
+
+<p class="clip-credit"><strong>Back control escape explained simply</strong> — taught by Jean Jacques Machado · 3:09 · <a href="https://www.youtube.com/watch?v=3Jd2llamfl8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

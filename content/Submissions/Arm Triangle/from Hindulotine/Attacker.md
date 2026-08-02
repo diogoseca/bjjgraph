@@ -176,6 +176,54 @@ description: "Step-by-step guide to finishing the Arm Triangle from Hindulotine.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Hindulotine (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Von Flu and arm triangle",
+      "description": "Arm Triangle from Hindulotine (Attacker) film study: Von Flu and arm triangle, taught by Pure Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WSz5MbUhb_0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WSz5MbUhb_0",
+      "url": "https://www.youtube.com/watch?v=WSz5MbUhb_0",
+      "creator": { "@type": "Person", "name": "Pure Grappling" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Strong arm-triangle from the turtle",
+      "description": "Arm Triangle from Hindulotine (Attacker) film study: Strong arm-triangle from the turtle, taught by Nicolas Renier.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f2Sm-KgO-jA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f2Sm-KgO-jA",
+      "url": "https://www.youtube.com/watch?v=f2Sm-KgO-jA",
+      "creator": { "@type": "Person", "name": "Nicolas Renier" },
+      "duration": "PT245S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm-in guillotine to arm triangle from turtle",
+      "description": "Arm Triangle from Hindulotine (Attacker) film study: Arm-in guillotine to arm triangle from turtle, taught by BJJ101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bVNnVVnAWnU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bVNnVVnAWnU",
+      "url": "https://www.youtube.com/watch?v=bVNnVVnAWnU",
+      "creator": { "@type": "Person", "name": "BJJ101" },
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ The Arm Triangle from Hindulotine attacks the carotid arteries using the opponen
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Hindulotine (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WSz5MbUhb_0)
+
+<p class="clip-credit"><strong>Von Flu and arm triangle</strong> — taught by Pure Grappling · 0:52 · <a href="https://www.youtube.com/watch?v=WSz5MbUhb_0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f2Sm-KgO-jA)
+
+<p class="clip-credit"><strong>Strong arm-triangle from the turtle</strong> — taught by Nicolas Renier · 4:05 · <a href="https://www.youtube.com/watch?v=f2Sm-KgO-jA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bVNnVVnAWnU)
+
+<p class="clip-credit"><strong>Arm-in guillotine to arm triangle from turtle</strong> — taught by BJJ101 · 0:35 · <a href="https://www.youtube.com/watch?v=bVNnVVnAWnU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

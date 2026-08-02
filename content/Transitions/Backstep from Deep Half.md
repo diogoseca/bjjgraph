@@ -34,6 +34,54 @@ description: "Master the backstep from deep half guard in BJJ. Complete guide to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Deep Half \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard backstep to honey hole knee slide",
+      "description": "Backstep from Deep Half film study: Half guard backstep to honey hole knee slide, taught by Jiu Jitsu Land.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jGTBslgblas/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jGTBslgblas",
+      "url": "https://www.youtube.com/watch?v=jGTBslgblas",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Land" },
+      "duration": "PT13S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard lockdown pass with backstep",
+      "description": "Backstep from Deep Half film study: Half guard lockdown pass with backstep, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ABSueJ6cwis/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ABSueJ6cwis",
+      "url": "https://www.youtube.com/watch?v=ABSueJ6cwis",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Backstep basics for passing",
+      "description": "Backstep from Deep Half film study: Backstep basics for passing, taught by Jon Thor Blank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uU4eLkeMR1o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uU4eLkeMR1o",
+      "url": "https://www.youtube.com/watch?v=uU4eLkeMR1o",
+      "creator": { "@type": "Person", "name": "Jon Thor Blank" },
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The backstep from deep half requires precise timing, proper base management duri
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Deep Half in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jGTBslgblas)
+
+<p class="clip-credit"><strong>Half guard backstep to honey hole knee slide</strong> — taught by Jiu Jitsu Land · 0:13 · <a href="https://www.youtube.com/watch?v=jGTBslgblas" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ABSueJ6cwis)
+
+<p class="clip-credit"><strong>Half guard lockdown pass with backstep</strong> — taught by Peter Mettler · 1:38 · <a href="https://www.youtube.com/watch?v=ABSueJ6cwis" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uU4eLkeMR1o)
+
+<p class="clip-credit"><strong>Backstep basics for passing</strong> — taught by Jon Thor Blank · 2:30 · <a href="https://www.youtube.com/watch?v=uU4eLkeMR1o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

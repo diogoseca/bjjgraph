@@ -145,6 +145,32 @@ description: "Defend the Wrist Lock (mão de vaca): recognize the flexion attack
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Wrist Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defend Any Wrist Lock Attack",
+      "description": "Wrist Lock (Defender) film study: Defend Any Wrist Lock Attack, taught by Kevin Goat.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H4O_WHpAxvQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H4O_WHpAxvQ",
+      "url": "https://www.youtube.com/watch?v=H4O_WHpAxvQ",
+      "creator": { "@type": "Person", "name": "Kevin Goat" },
+      "duration": "PT219S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -158,6 +184,26 @@ As the defender, you are usually the top player posturing inside closed guard wi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Wrist Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H4O_WHpAxvQ)
+
+<p class="clip-credit"><strong>Defend Any Wrist Lock Attack</strong> — taught by Kevin Goat · 3:39 · <a href="https://www.youtube.com/watch?v=H4O_WHpAxvQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

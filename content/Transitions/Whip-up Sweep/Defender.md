@@ -148,6 +148,54 @@ description: "How to defend against Whip-up Sweep in BJJ. Recognition cues, defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Whip-up Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown escape",
+      "description": "Whip-up Sweep (Defender) film study: Lockdown escape, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PptkZQh_MFA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PptkZQh_MFA",
+      "url": "https://www.youtube.com/watch?v=PptkZQh_MFA",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Freeing your foot while passing half guard",
+      "description": "Whip-up Sweep (Defender) film study: Freeing your foot while passing half guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Advanced half guard lockdown passing",
+      "description": "Whip-up Sweep (Defender) film study: Advanced half guard lockdown passing, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y4eC_7dtzOA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y4eC_7dtzOA",
+      "url": "https://www.youtube.com/watch?v=Y4eC_7dtzOA",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The critical defensive window occurs during the opponent's transition from flat 
 **Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Whip-up Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PptkZQh_MFA)
+
+<p class="clip-credit"><strong>Lockdown escape</strong> — taught by Thunderdome BJJ · 0:31 · <a href="https://www.youtube.com/watch?v=PptkZQh_MFA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Freeing your foot while passing half guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y4eC_7dtzOA)
+
+<p class="clip-credit"><strong>Advanced half guard lockdown passing</strong> — taught by Peter Mettler · 1:13 · <a href="https://www.youtube.com/watch?v=Y4eC_7dtzOA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

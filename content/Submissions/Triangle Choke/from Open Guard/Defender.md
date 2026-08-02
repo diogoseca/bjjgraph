@@ -150,6 +150,54 @@ description: "Defend and escape the Triangle Choke from Open Guard. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Open Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Escape to Side Control",
+      "description": "Triangle Choke from Open Guard (Defender) film study: Triangle Escape to Side Control, taught by Valdir Rodrigues.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XE7KCUjLpqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XE7KCUjLpqg",
+      "url": "https://www.youtube.com/watch?v=XE7KCUjLpqg",
+      "creator": { "@type": "Person", "name": "Valdir Rodrigues" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle Defense / Escape",
+      "description": "Triangle Choke from Open Guard (Defender) film study: Triangle Defense / Escape, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
+      "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping Triangles vs Big Opponents",
+      "description": "Triangle Choke from Open Guard (Defender) film study: Escaping Triangles vs Big Opponents, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z-CsRn4K0vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z-CsRn4K0vg",
+      "url": "https://www.youtube.com/watch?v=Z-CsRn4K0vg",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Triangle from Open Guard requires early recognition of the setup c
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Open Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XE7KCUjLpqg)
+
+<p class="clip-credit"><strong>Triangle Escape to Side Control</strong> — taught by Valdir Rodrigues · 1:12 · <a href="https://www.youtube.com/watch?v=XE7KCUjLpqg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
+
+<p class="clip-credit"><strong>Triangle Defense / Escape</strong> — taught by Daniel Frank · 0:24 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z-CsRn4K0vg)
+
+<p class="clip-credit"><strong>Escaping Triangles vs Big Opponents</strong> — taught by John Danaher · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

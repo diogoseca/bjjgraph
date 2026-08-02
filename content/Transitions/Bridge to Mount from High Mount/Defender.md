@@ -140,6 +140,54 @@ description: "Learn to maintain High Mount against bridge attempts. Base adjustm
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge to Mount from High Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gordon Ryan\u0027s mount retention system",
+      "description": "Bridge to Mount from High Mount (Defender) film study: Gordon Ryan\u0027s mount retention system, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J2xs_-sAJMc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J2xs_-sAJMc",
+      "url": "https://www.youtube.com/watch?v=J2xs_-sAJMc",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT239S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Best way to control and hold the mount",
+      "description": "Bridge to Mount from High Mount (Defender) film study: Best way to control and hold the mount, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kft2AkvKhWU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kft2AkvKhWU",
+      "url": "https://www.youtube.com/watch?v=kft2AkvKhWU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT538S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Breakdown of Gordon Ryan\u0027s mount retention system",
+      "description": "Bridge to Mount from High Mount (Defender) film study: Breakdown of Gordon Ryan\u0027s mount retention system, taught by Less Impressed More Involved.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fd2D5hlHTL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fd2D5hlHTL8",
+      "url": "https://www.youtube.com/watch?v=fd2D5hlHTL8",
+      "creator": { "@type": "Person", "name": "Less Impressed More Involved" },
+      "duration": "PT587S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ Effective bridge defense combines proactive pressure maintenance with reactive b
 **Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge to Mount from High Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J2xs_-sAJMc)
+
+<p class="clip-credit"><strong>Gordon Ryan&#39;s mount retention system</strong> — taught by Gordon Ryan · 3:59 · <a href="https://www.youtube.com/watch?v=J2xs_-sAJMc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kft2AkvKhWU)
+
+<p class="clip-credit"><strong>Best way to control and hold the mount</strong> — taught by Gordon Ryan · 8:58 · <a href="https://www.youtube.com/watch?v=kft2AkvKhWU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fd2D5hlHTL8)
+
+<p class="clip-credit"><strong>Breakdown of Gordon Ryan&#39;s mount retention system</strong> — taught by Less Impressed More Involved · 9:47 · <a href="https://www.youtube.com/watch?v=fd2D5hlHTL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

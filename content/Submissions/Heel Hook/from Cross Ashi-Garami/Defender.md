@@ -150,6 +150,43 @@ description: "Defend the heel hook from Cross Ashi-Garami with recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Cross Ashi-Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping and countering cross ashi garami",
+      "description": "Heel Hook from Cross Ashi-Garami (Defender) film study: Escaping and countering cross ashi garami, taught by Lux\u0027s Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FUjlpGRjU44/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FUjlpGRjU44",
+      "url": "https://www.youtube.com/watch?v=FUjlpGRjU44",
+      "creator": { "@type": "Person", "name": "Lux\u0027s Jiu Jitsu" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending heel hooks",
+      "description": "Heel Hook from Cross Ashi-Garami (Defender) film study: Defending heel hooks, taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
+      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the heel hook from Cross Ashi-Garami demands immediate recognition of 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Cross Ashi-Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FUjlpGRjU44)
+
+<p class="clip-credit"><strong>Escaping and countering cross ashi garami</strong> — taught by Lux&#39;s Jiu Jitsu · 0:45 · <a href="https://www.youtube.com/watch?v=FUjlpGRjU44" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+
+<p class="clip-credit"><strong>Defending heel hooks</strong> — taught by Absolute MMA St Kilda · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

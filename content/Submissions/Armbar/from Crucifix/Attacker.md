@@ -170,6 +170,43 @@ description: "How to execute Armbar from Crucifix in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Crucifix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix armbar vs turtled opponent",
+      "description": "Armbar from Crucifix (Attacker) film study: Crucifix armbar vs turtled opponent, taught by Prodigy MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JRaAEvCjz0A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JRaAEvCjz0A",
+      "url": "https://www.youtube.com/watch?v=JRaAEvCjz0A",
+      "creator": { "@type": "Person", "name": "Prodigy MMA" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix setup and armbar (no-gi)",
+      "description": "Armbar from Crucifix (Attacker) film study: Crucifix setup and armbar (no-gi), taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nkAYVo9sMGE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nkAYVo9sMGE",
+      "url": "https://www.youtube.com/watch?v=nkAYVo9sMGE",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT190S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +217,34 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Crucifix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JRaAEvCjz0A)
+
+<p class="clip-credit"><strong>Crucifix armbar vs turtled opponent</strong> — taught by Prodigy MMA · 2:09 · <a href="https://www.youtube.com/watch?v=JRaAEvCjz0A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nkAYVo9sMGE)
+
+<p class="clip-credit"><strong>Crucifix setup and armbar (no-gi)</strong> — taught by Revolution BJJ · 3:10 · <a href="https://www.youtube.com/watch?v=nkAYVo9sMGE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

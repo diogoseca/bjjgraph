@@ -127,6 +127,54 @@ description: "How to defend the Double Unders entry from Open Guard bottom in BJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to Double Unders (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple double under guard pass defense",
+      "description": "Open Guard to Double Unders (Defender) film study: Simple double under guard pass defense, taught by Ancient City Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4k-D0Q8DeGQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4k-D0Q8DeGQ",
+      "url": "https://www.youtube.com/watch?v=4k-D0Q8DeGQ",
+      "creator": { "@type": "Person", "name": "Ancient City Martial Arts" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double under stack pass counter to triangle",
+      "description": "Open Guard to Double Unders (Defender) film study: Double under stack pass counter to triangle, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1UOj60dc540/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1UOj60dc540",
+      "url": "https://www.youtube.com/watch?v=1UOj60dc540",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double under stack defense and counter",
+      "description": "Open Guard to Double Unders (Defender) film study: Double under stack defense and counter, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ad0qtay9IVQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ad0qtay9IVQ",
+      "url": "https://www.youtube.com/watch?v=Ad0qtay9IVQ",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT130S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -143,6 +191,42 @@ If the stack is already forming, shift to escape-oriented defense rather than pu
 **Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to Double Unders (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4k-D0Q8DeGQ)
+
+<p class="clip-credit"><strong>Simple double under guard pass defense</strong> — taught by Ancient City Martial Arts · 0:56 · <a href="https://www.youtube.com/watch?v=4k-D0Q8DeGQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1UOj60dc540)
+
+<p class="clip-credit"><strong>Double under stack pass counter to triangle</strong> — taught by Adam Bradley · 1:09 · <a href="https://www.youtube.com/watch?v=1UOj60dc540" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ad0qtay9IVQ)
+
+<p class="clip-credit"><strong>Double under stack defense and counter</strong> — taught by Wim Deputter · 2:10 · <a href="https://www.youtube.com/watch?v=Ad0qtay9IVQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

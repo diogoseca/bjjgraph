@@ -140,6 +140,43 @@ description: "Prevent the Frame from Shoulder of Justice by maintaining pressure
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame from Shoulder of Justice (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Beating frames to establish a chest-to-chest pin",
+      "description": "Frame from Shoulder of Justice (Defender) film study: Beating frames to establish a chest-to-chest pin, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e8OUw05ZBwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e8OUw05ZBwo",
+      "url": "https://www.youtube.com/watch?v=e8OUw05ZBwo",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT245S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Killing the near side arm from side control",
+      "description": "Frame from Shoulder of Justice (Defender) film study: Killing the near side arm from side control, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LUxMvOFbxIY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LUxMvOFbxIY",
+      "url": "https://www.youtube.com/watch?v=LUxMvOFbxIY",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT123S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the Frame from Shoulder of Justice, you are the top play
 **Opponent's Starting Position**: [[Positions/Shoulder of Justice]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame from Shoulder of Justice (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e8OUw05ZBwo)
+
+<p class="clip-credit"><strong>Beating frames to establish a chest-to-chest pin</strong> — taught by Fox Den Martial Arts · 4:05 · <a href="https://www.youtube.com/watch?v=e8OUw05ZBwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LUxMvOFbxIY)
+
+<p class="clip-credit"><strong>Killing the near side arm from side control</strong> — taught by Inverted Gear · 2:03 · <a href="https://www.youtube.com/watch?v=LUxMvOFbxIY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

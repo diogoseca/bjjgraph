@@ -34,6 +34,43 @@ description: "Learn how to flatten your opponent from half guard top in BJJ. Mas
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Flattened Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shallow cross face to flatten the bottom player",
+      "description": "Half Guard to Flattened Half Guard film study: Shallow cross face to flatten the bottom player, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PTe4-NhLXf8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PTe4-NhLXf8",
+      "url": "https://www.youtube.com/watch?v=PTe4-NhLXf8",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Building a tight cross face to flatten half guard",
+      "description": "Half Guard to Flattened Half Guard film study: Building a tight cross face to flatten half guard, taught by Escapology BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gHD03vpWGSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gHD03vpWGSM",
+      "url": "https://www.youtube.com/watch?v=gHD03vpWGSM",
+      "creator": { "@type": "Person", "name": "Escapology BJJ coach" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ From a strategic perspective, this transition represents the critical bridge bet
 **Success Rate**: 65%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Flattened Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PTe4-NhLXf8)
+
+<p class="clip-credit"><strong>Shallow cross face to flatten the bottom player</strong> — taught by Craig Jones · 0:24 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gHD03vpWGSM)
+
+<p class="clip-credit"><strong>Building a tight cross face to flatten half guard</strong> — taught by Escapology BJJ coach · 1:59 · <a href="https://www.youtube.com/watch?v=gHD03vpWGSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -256,7 +321,7 @@ This transition occupies a critical position in the half guard passing hierarchy
 
 - [[Submissions/Kimura]] - Submission opportunity arising when bottom player reaches for underhook during flattening
 
-- [[Transitions/Darce Choke]] - Submission threat created when bottom player turns into the crossface during the transition
+- [[Submissions/Darce Choke]] - Submission threat created when bottom player turns into the crossface during the transition
 
 - [[Positions/Half Guard/Lockdown]] - Leg entanglement defense that can stall the flattening progression
 

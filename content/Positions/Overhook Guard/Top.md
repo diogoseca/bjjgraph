@@ -21,37 +21,37 @@ description: "Master Overhook Guard Top position in BJJ. Control opponent's arm 
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Over-Under Pass",
-      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Pass to Side Control",
-      "text": "From this position, attempt Overhook Pass to Side Control. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Overhook Pass to Side Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 1% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Break Overhook Guard",
+      "text": "From this position, attempt Break Overhook Guard. This technique is attempted in 30% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Overhook Guard Top position in BJJ. Control opponent's arm 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overhook guard pass",
+      "description": "Overhook Guard (Top) film study: Overhook guard pass, taught by Eric Laporte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NjpsGcUIo9Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NjpsGcUIo9Y",
+      "url": "https://www.youtube.com/watch?v=NjpsGcUIo9Y",
+      "creator": { "@type": "Person", "name": "Eric Laporte" },
+      "duration": "PT167S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shoulder crunch pass",
+      "description": "Overhook Guard (Top) film study: Shoulder crunch pass, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nyZwifeL_Do/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nyZwifeL_Do",
+      "url": "https://www.youtube.com/watch?v=nyZwifeL_Do",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body lock guard pass off the underhook",
+      "description": "Overhook Guard (Top) film study: Body lock guard pass off the underhook, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aAd6OIq94X0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aAd6OIq94X0",
+      "url": "https://www.youtube.com/watch?v=aAd6OIq94X0",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT205S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From this position, the top player maintains pressure and control while working 
 This position is particularly effective in both gi and no-gi grappling, though the mechanics differ slightly. In gi, the overhook can be reinforced with collar grips, while in no-gi, the control relies more heavily on body positioning and shoulder pressure. Understanding how to maximize control while maintaining mobility is essential for successful guard passing from this configuration.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NjpsGcUIo9Y)
+
+<p class="clip-credit"><strong>Overhook guard pass</strong> — taught by Eric Laporte · 2:47 · <a href="https://www.youtube.com/watch?v=NjpsGcUIo9Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nyZwifeL_Do)
+
+<p class="clip-credit"><strong>Shoulder crunch pass</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=nyZwifeL_Do" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aAd6OIq94X0)
+
+<p class="clip-credit"><strong>Body lock guard pass off the underhook</strong> — taught by Gordon Ryan · 3:25 · <a href="https://www.youtube.com/watch?v=aAd6OIq94X0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

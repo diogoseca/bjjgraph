@@ -176,6 +176,54 @@ description: "Learn to attack with the Americana from Scarf Hold. Step-by-step f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Scarf Hold Position (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control to Americana (Kata-gatame)",
+      "description": "Americana from Scarf Hold Position (Attacker) film study: Side control to Americana (Kata-gatame), taught by Sergio Babu Gasparelli.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a4fJ3xTZYnU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a4fJ3xTZYnU",
+      "url": "https://www.youtube.com/watch?v=a4fJ3xTZYnU",
+      "creator": { "@type": "Person", "name": "Sergio Babu Gasparelli" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacks from scarf hold",
+      "description": "Americana from Scarf Hold Position (Attacker) film study: Attacks from scarf hold, taught by Goulburn Martial Arts Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2Y5HdBxqPv8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2Y5HdBxqPv8",
+      "url": "https://www.youtube.com/watch?v=2Y5HdBxqPv8",
+      "creator": { "@type": "Person", "name": "Goulburn Martial Arts Academy" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Modified Americana grip",
+      "description": "Americana from Scarf Hold Position (Attacker) film study: Modified Americana grip, taught by BJJ After Forty.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SkFE9CBKvsA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SkFE9CBKvsA",
+      "url": "https://www.youtube.com/watch?v=SkFE9CBKvsA",
+      "creator": { "@type": "Person", "name": "BJJ After Forty" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ The Americana from Scarf Hold Position exploits the perpendicular angle unique t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Scarf Hold Position (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a4fJ3xTZYnU)
+
+<p class="clip-credit"><strong>Side control to Americana (Kata-gatame)</strong> — taught by Sergio Babu Gasparelli · 0:57 · <a href="https://www.youtube.com/watch?v=a4fJ3xTZYnU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2Y5HdBxqPv8)
+
+<p class="clip-credit"><strong>Attacks from scarf hold</strong> — taught by Goulburn Martial Arts Academy · 1:09 · <a href="https://www.youtube.com/watch?v=2Y5HdBxqPv8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SkFE9CBKvsA)
+
+<p class="clip-credit"><strong>Modified Americana grip</strong> — taught by BJJ After Forty · 1:01 · <a href="https://www.youtube.com/watch?v=SkFE9CBKvsA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

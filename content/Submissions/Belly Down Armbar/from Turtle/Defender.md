@@ -144,6 +144,43 @@ description: "Defend the belly down armbar from turtle position. Learn recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inverted Armbar from Turtle Escape",
+      "description": "Belly Down Armbar from Turtle (Defender) film study: Inverted Armbar from Turtle Escape, taught by LBJJ TV.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i_SeG9B_Znc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i_SeG9B_Znc",
+      "url": "https://www.youtube.com/watch?v=i_SeG9B_Znc",
+      "creator": { "@type": "Person", "name": "LBJJ TV" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm Bar Escape",
+      "description": "Belly Down Armbar from Turtle (Defender) film study: Arm Bar Escape, taught by Wesley Chapel MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mZ0EFbfDP_E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mZ0EFbfDP_E",
+      "url": "https://www.youtube.com/watch?v=mZ0EFbfDP_E",
+      "creator": { "@type": "Person", "name": "Wesley Chapel MMA" },
+      "duration": "PT74S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ Defending the belly down armbar from turtle requires maintaining the fundamental
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i_SeG9B_Znc)
+
+<p class="clip-credit"><strong>Inverted Armbar from Turtle Escape</strong> — taught by LBJJ TV · 1:36 · <a href="https://www.youtube.com/watch?v=i_SeG9B_Znc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mZ0EFbfDP_E)
+
+<p class="clip-credit"><strong>Arm Bar Escape</strong> — taught by Wesley Chapel MMA · 1:14 · <a href="https://www.youtube.com/watch?v=mZ0EFbfDP_E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

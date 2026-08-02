@@ -174,6 +174,54 @@ description: "Complete attacking guide for the Russian Lasso Sweep. Master grip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Lasso Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lasso sweep from closed guard",
+      "description": "Russian Lasso Sweep (Attacker) film study: Lasso sweep from closed guard, taught by Ralph Gracie BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3zM3gZsUPWc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3zM3gZsUPWc",
+      "url": "https://www.youtube.com/watch?v=3zM3gZsUPWc",
+      "creator": { "@type": "Person", "name": "Ralph Gracie BJJ" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi lasso sweep",
+      "description": "Russian Lasso Sweep (Attacker) film study: No-gi lasso sweep, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iDogUD6i03M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iDogUD6i03M",
+      "url": "https://www.youtube.com/watch?v=iDogUD6i03M",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT15S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lasso guard sweep to armbar",
+      "description": "Russian Lasso Sweep (Attacker) film study: Lasso guard sweep to armbar, taught by Wagner Guimaraes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LBI0dlDKrN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LBI0dlDKrN0",
+      "url": "https://www.youtube.com/watch?v=LBI0dlDKrN0",
+      "creator": { "@type": "Person", "name": "Wagner Guimaraes" },
+      "duration": "PT11S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Russian Lasso Sweep from the attacker's perspective demands precise coordina
 **From Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Lasso Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3zM3gZsUPWc)
+
+<p class="clip-credit"><strong>Lasso sweep from closed guard</strong> — taught by Ralph Gracie BJJ · 0:39 · <a href="https://www.youtube.com/watch?v=3zM3gZsUPWc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iDogUD6i03M)
+
+<p class="clip-credit"><strong>No-gi lasso sweep</strong> — taught by JitzLive · 0:15 · <a href="https://www.youtube.com/watch?v=iDogUD6i03M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LBI0dlDKrN0)
+
+<p class="clip-credit"><strong>Lasso guard sweep to armbar</strong> — taught by Wagner Guimaraes · 0:11 · <a href="https://www.youtube.com/watch?v=LBI0dlDKrN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

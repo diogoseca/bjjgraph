@@ -148,6 +148,43 @@ description: "How to prevent guard recovery from Headquarters in BJJ. Consolidat
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Re-Guard from Headquarters (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shutting down guard recovery while passing",
+      "description": "Re-Guard from Headquarters (Defender) film study: Shutting down guard recovery while passing, taught by Danny Brown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ACWzSbjbo2g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ACWzSbjbo2g",
+      "url": "https://www.youtube.com/watch?v=ACWzSbjbo2g",
+      "creator": { "@type": "Person", "name": "Danny Brown" },
+      "duration": "PT209S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Setting Up the Guard Pass with a Lateral Step",
+      "description": "Re-Guard from Headquarters (Defender) film study: Setting Up the Guard Pass with a Lateral Step, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VWmjU3Aj_LU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VWmjU3Aj_LU",
+      "url": "https://www.youtube.com/watch?v=VWmjU3Aj_LU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT332S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The fundamental defensive strategy against re-guard is maintaining heavy hip-to-
 **Opponent's Starting Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Re-Guard from Headquarters (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ACWzSbjbo2g)
+
+<p class="clip-credit"><strong>Shutting down guard recovery while passing</strong> — taught by Danny Brown · 3:29 · <a href="https://www.youtube.com/watch?v=ACWzSbjbo2g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VWmjU3Aj_LU)
+
+<p class="clip-credit"><strong>Setting Up the Guard Pass with a Lateral Step</strong> — taught by Lachlan Giles · 5:32 · <a href="https://www.youtube.com/watch?v=VWmjU3Aj_LU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

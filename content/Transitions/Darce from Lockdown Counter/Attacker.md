@@ -168,6 +168,54 @@ description: "How to execute Darce from Lockdown Counter in BJJ. Attacking persp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce from Lockdown Counter (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control to north-south d\u0027arce",
+      "description": "Darce from Lockdown Counter (Attacker) film study: Side control to north-south d\u0027arce, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
+      "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the Whip Up with the Darce Choke",
+      "description": "Darce from Lockdown Counter (Attacker) film study: Countering the Whip Up with the Darce Choke, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R54Wr2lYfEQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R54Wr2lYfEQ",
+      "url": "https://www.youtube.com/watch?v=R54Wr2lYfEQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT130S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Break the Lockdown Half Guard",
+      "description": "Darce from Lockdown Counter (Attacker) film study: How to Break the Lockdown Half Guard, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xb4-phb4BhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xb4-phb4BhE",
+      "url": "https://www.youtube.com/watch?v=Xb4-phb4BhE",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT251S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ From a strategic perspective, having this counter in your arsenal changes the dy
 **From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce from Lockdown Counter (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
+
+<p class="clip-credit"><strong>Side control to north-south d&#39;arce</strong> — taught by Gracie Westchase · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R54Wr2lYfEQ)
+
+<p class="clip-credit"><strong>Countering the Whip Up with the Darce Choke</strong> — taught by Eddie Bravo · 2:10 · <a href="https://www.youtube.com/watch?v=R54Wr2lYfEQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xb4-phb4BhE)
+
+<p class="clip-credit"><strong>How to Break the Lockdown Half Guard</strong> — taught by Matt Arroyo · 4:11 · <a href="https://www.youtube.com/watch?v=Xb4-phb4BhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

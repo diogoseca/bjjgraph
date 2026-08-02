@@ -156,6 +156,54 @@ description: "How to defend against Takedown to Grounded Back Control in BJJ. Re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Takedown to Grounded Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing up from rear body lock defense",
+      "description": "Takedown to Grounded Back Control (Defender) film study: Standing up from rear body lock defense, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing rear body lock counters and defense",
+      "description": "Takedown to Grounded Back Control (Defender) film study: Standing rear body lock counters and defense, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DFXdqByRxNg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DFXdqByRxNg",
+      "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT318S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg switch cutback to escape the rear body lock",
+      "description": "Takedown to Grounded Back Control (Defender) film study: Leg switch cutback to escape the rear body lock, taught by Procel Brazilian Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2VCyaassiRI",
+      "url": "https://www.youtube.com/watch?v=2VCyaassiRI",
+      "creator": { "@type": "Person", "name": "Procel Brazilian Jiu-Jitsu" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -169,6 +217,42 @@ Timing is the critical variable in this defense. The three windows for successfu
 **Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Takedown to Grounded Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing up from rear body lock defense</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DFXdqByRxNg)
+
+<p class="clip-credit"><strong>Standing rear body lock counters and defense</strong> — taught by Brian Glick · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2VCyaassiRI)
+
+<p class="clip-credit"><strong>Leg switch cutback to escape the rear body lock</strong> — taught by Procel Brazilian Jiu-Jitsu · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -174,6 +174,43 @@ description: "Learn to execute the back take from armbar control in BJJ. Step-by
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from Armbar (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar to back take transition",
+      "description": "Back Take from Armbar (Attacker) film study: Armbar to back take transition, taught by For\u00e7a Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XYBC7viDFnU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XYBC7viDFnU",
+      "url": "https://www.youtube.com/watch?v=XYBC7viDFnU",
+      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Belly-down armbar to back take from closed guard",
+      "description": "Back Take from Armbar (Attacker) film study: Belly-down armbar to back take from closed guard, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9upGcbIutvs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9upGcbIutvs",
+      "url": "https://www.youtube.com/watch?v=9upGcbIutvs",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +222,34 @@ Success depends on reading the opponent's defensive commitment accurately. The a
 **From Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from Armbar (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XYBC7viDFnU)
+
+<p class="clip-credit"><strong>Armbar to back take transition</strong> — taught by Força Martial Arts · 1:38 · <a href="https://www.youtube.com/watch?v=XYBC7viDFnU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9upGcbIutvs)
+
+<p class="clip-credit"><strong>Belly-down armbar to back take from closed guard</strong> — taught by Revolution BJJ · 2:18 · <a href="https://www.youtube.com/watch?v=9upGcbIutvs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

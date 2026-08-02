@@ -148,6 +148,54 @@ description: "How to defend against Roll to Guard in BJJ. Recognition cues, defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding the back when they roll and turn in",
+      "description": "Roll to Guard (Defender) film study: Holding the back when they roll and turn in, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lpgcKpIgClw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lpgcKpIgClw",
+      "url": "https://www.youtube.com/watch?v=lpgcKpIgClw",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two Hacks to Keep Back Control",
+      "description": "Roll to Guard (Defender) film study: Two Hacks to Keep Back Control, taught by The Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NdOA8wrM9BA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NdOA8wrM9BA",
+      "url": "https://www.youtube.com/watch?v=NdOA8wrM9BA",
+      "creator": { "@type": "Person", "name": "The Grappling Academy" },
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Eight Back Control Tips to Dominate",
+      "description": "Roll to Guard (Defender) film study: Eight Back Control Tips to Dominate, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CFDVh9EVgPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CFDVh9EVgPA",
+      "url": "https://www.youtube.com/watch?v=CFDVh9EVgPA",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT443S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defender's advantage lies in understanding that the roll to guard requires s
 **Opponent's Starting Position**: [[Positions/Harness]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lpgcKpIgClw)
+
+<p class="clip-credit"><strong>Holding the back when they roll and turn in</strong> — taught by Brandon Mccaghren · 2:23 · <a href="https://www.youtube.com/watch?v=lpgcKpIgClw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NdOA8wrM9BA)
+
+<p class="clip-credit"><strong>Two Hacks to Keep Back Control</strong> — taught by The Grappling Academy · 3:25 · <a href="https://www.youtube.com/watch?v=NdOA8wrM9BA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CFDVh9EVgPA)
+
+<p class="clip-credit"><strong>Eight Back Control Tips to Dominate</strong> — taught by Jordan Preisinger · 7:23 · <a href="https://www.youtube.com/watch?v=CFDVh9EVgPA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

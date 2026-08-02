@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Leg Knot/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "The Reversal from Leg Knot represents an advanced counter-offensive technique where the bottom player transforms a compromised leg entanglement into a dominant top position. Rather than simply extracting the trapped leg and recovering guard, this technique exploits the mechanical constraints that the leg knot creates for both players, using the entanglement itself as a fulcrum to sweep the top player and achieve mount. The reversal capitalizes on a fundamental tension in leg lock positions: the more the top player commits hands and upper body to controlling the trapped leg and setting up submissions, the more they sacrifice the base stability needed to prevent sweeps.\n\nThe technical foundation rests on a critical insight about weight distribution. When the top player extends to grip the heel or transitions between leg lock attempts, momentary gaps in their base appear. The bottom player uses coordinated hip rotation, free leg posting, and directional force through the entangled legs to drive the top player over. The key mechanical principle is that the leg knot configuration, while trapping the bottom player, also restricts the top player's ability to post and recover base during a well-timed sweep.\n\nThis reversal holds strategic significance beyond its direct application. The credible threat of reversal forces top players to maintain conservative base positioning in the leg knot, which limits their submission finishing ability and creates a fundamental tactical dilemma. Practitioners who develop proficiency with this technique transform Leg Knot Bottom from a purely defensive survival position into a dynamic counter-attacking platform that demands respect from even the most aggressive leg lock specialists.",
   "conditions": [
     "Free leg can reach opponent's hip or mat for posting leverage",
@@ -248,38 +260,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for attempting the Reversal from Leg Knot?",
-        "answer": "The optimal timing window occurs when the top player shifts weight forward or laterally to set up a submission attempt, particularly during transitions between heel hook and toe hold grips. During these moments, the opponent's posting ability is compromised because their hands are occupied controlling your foot, creating the base vulnerability necessary for a successful sweep."
+        "answer": "The optimal timing window occurs when the top player shifts weight forward or laterally to set up a submission attempt, particularly during transitions between heel hook and toe hold grips. During these moments, the opponent's posting ability is compromised because their hands are occupied controlling your foot, creating the base vulnerability necessary for a successful sweep.",
+        "answer_line": "Grip switch, weight shifts forward",
+        "distractors": {
+          "plausible": [
+            "Right after leg knot locks in",
+            "When opponent resets their grip"
+          ],
+          "trap": [
+            "Mid heel hook finishing squeeze"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can safely attempt this reversal?",
-        "answer": "The bottom player needs a free leg capable of posting against the opponent's hip or mat, sufficient upper body mobility to strip grips, a protected heel position on the trapped leg, and the opponent's weight shifted away from neutral base with at least one hand committed to leg control. Without all conditions present, the reversal attempt will fail and potentially expose you to accelerated submission attacks."
+        "answer": "The bottom player needs a free leg capable of posting against the opponent's hip or mat, sufficient upper body mobility to strip grips, a protected heel position on the trapped leg, and the opponent's weight shifted away from neutral base with at least one hand committed to leg control. Without all conditions present, the reversal attempt will fail and potentially expose you to accelerated submission attacks.",
+        "answer_line": "Post leg, safe heel, weight shifted",
+        "distractors": {
+          "plausible": [
+            "Any grip stripped, attempt anytime",
+            "Opponent flat on back, arms free"
+          ],
+          "trap": [
+            "Attempt whenever you feel space"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the reversal execution?",
-        "answer": "The explosive hip rotation toward the sweeping direction is the most critical movement. This rotation uses the entangled legs as a fulcrum, converting rotational force into sweeping momentum. The hip turn must be committed and decisive rather than tentative, as partial rotation allows the opponent to post and recover base while your position has already been compromised by the attempt."
+        "answer": "The explosive hip rotation toward the sweeping direction is the most critical movement. This rotation uses the entangled legs as a fulcrum, converting rotational force into sweeping momentum. The hip turn must be committed and decisive rather than tentative, as partial rotation allows the opponent to post and recover base while your position has already been compromised by the attempt.",
+        "answer_line": "Explosive, committed hip rotation",
+        "distractors": {
+          "plausible": [
+            "Slow, gradual hip turn",
+            "Rotate away from the entanglement"
+          ],
+          "trap": [
+            "Pull with arms, keep hips still"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand to prevent the sweep mid-attempt - how do you adjust?",
-        "answer": "Redirect your sweeping direction toward the posting arm side to load their arm with your body weight, or immediately switch to a secondary sweep angle that bypasses the post. Alternatively, use the momentum of your hip rotation to transition to guard recovery or counter-entanglement rather than fighting a stalled sweep that wastes energy and timing."
+        "answer": "Redirect your sweeping direction toward the posting arm side to load their arm with your body weight, or immediately switch to a secondary sweep angle that bypasses the post. Alternatively, use the momentum of your hip rotation to transition to guard recovery or counter-entanglement rather than fighting a stalled sweep that wastes energy and timing.",
+        "answer_line": "Redirect load into the posting arm",
+        "distractors": {
+          "plausible": [
+            "Stop and reset the entanglement",
+            "Power through the same direction"
+          ],
+          "trap": [
+            "Release entanglement to retry"
+          ]
+        }
       },
       {
         "question": "What grip must you address before initiating the reversal?",
-        "answer": "You must address the opponent's controlling grip on your trapped foot or ankle before initiating the reversal. If they maintain heel control during your sweep attempt, they can finish a heel hook or toe hold as your rotation actually accelerates the breaking mechanics. Strip or redirect this grip as a prerequisite step, not something to handle during the sweep itself."
+        "answer": "You must address the opponent's controlling grip on your trapped foot or ankle before initiating the reversal. If they maintain heel control during your sweep attempt, they can finish a heel hook or toe hold as your rotation actually accelerates the breaking mechanics. Strip or redirect this grip as a prerequisite step, not something to handle during the sweep itself.",
+        "answer_line": "Strip the trapped-foot grip first",
+        "distractors": {
+          "plausible": [
+            "Address it mid-sweep instead",
+            "Ignore grip, focus on hips only"
+          ],
+          "trap": [
+            "Let them keep heel control"
+          ]
+        }
       },
       {
         "question": "In which direction should the primary sweeping force be applied?",
-        "answer": "Force should be applied diagonally across the opponent's body toward the side where their base is weakest, typically the side where their hands are occupied with grips rather than posting. The driving force comes from hip extension through the posted free leg combined with rotational momentum from the hip turn, creating a compound force vector the opponent cannot resist with a single posting hand."
+        "answer": "Force should be applied diagonally across the opponent's body toward the side where their base is weakest, typically the side where their hands are occupied with grips rather than posting. The driving force comes from hip extension through the posted free leg combined with rotational momentum from the hip turn, creating a compound force vector the opponent cannot resist with a single posting hand.",
+        "answer_line": "Diagonal, toward their weak base",
+        "distractors": {
+          "plausible": [
+            "Straight back toward their head",
+            "Toward their strong posting side"
+          ],
+          "trap": [
+            "Straight up, lifting their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent defends the reversal by tightening the leg knot - what is your chain attack?",
-        "answer": "If the opponent defends by tightening the entanglement and dropping weight, abandon the reversal and immediately transition to counter-entanglement options. Attempt to establish 50-50 Guard by weaving your free leg through their legs, or work a reverse entanglement to Outside Ashi-Garami where you become the attacker. Recognizing the failed reversal early and pivoting to alternative positions is essential."
+        "answer": "If the opponent defends by tightening the entanglement and dropping weight, abandon the reversal and immediately transition to counter-entanglement options. Attempt to establish 50-50 Guard by weaving your free leg through their legs, or work a reverse entanglement to Outside Ashi-Garami where you become the attacker. Recognizing the failed reversal early and pivoting to alternative positions is essential.",
+        "answer_line": "Pivot to 50-50 or reverse ashi",
+        "distractors": {
+          "plausible": [
+            "Force the same sweep harder",
+            "Wait passively for them to loosen"
+          ],
+          "trap": [
+            "Kick free of the legs entirely"
+          ]
+        }
       },
       {
         "question": "How do you protect your trapped leg from submission during the reversal transition?",
-        "answer": "Maintain heel protection throughout by keeping toes pointed toward the opponent's hip and the knee flexed to prevent heel exposure. Before initiating the sweep, confirm your heel is tucked and the opponent cannot access a clean grip on it. During the rotation, the sweeping motion should turn your trapped leg away from the opponent's finishing mechanics rather than toward them, using the sweep direction itself as a protective mechanism."
+        "answer": "Maintain heel protection throughout by keeping toes pointed toward the opponent's hip and the knee flexed to prevent heel exposure. Before initiating the sweep, confirm your heel is tucked and the opponent cannot access a clean grip on it. During the rotation, the sweeping motion should turn your trapped leg away from the opponent's finishing mechanics rather than toward them, using the sweep direction itself as a protective mechanism.",
+        "answer_line": "Toes in, knee flexed, heel tucked",
+        "distractors": {
+          "plausible": [
+            "Point toes away from opponent",
+            "Straighten leg for more power"
+          ],
+          "trap": [
+            "Let the leg go loose and relax"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Reversal from Leg Knot involves rotation through active leg entanglements where knees and ankles remain vulnerable throughout the transition. Always communicate with training partners about joint pressure during sweep attempts. Tap immediately if your trapped leg experiences dangerous torque or rotational force on the knee during the reversal. Begin drilling at reduced speed and intensity, gradually increasing as both partners develop comfort with the mechanics. Monitor for knee ligament stress caused by rotational forces and avoid forcing the sweep against locked-out entanglements."
+    "safety_considerations": "The Reversal from Leg Knot involves rotation through active leg entanglements where knees and ankles remain vulnerable throughout the transition. Always communicate with training partners about joint pressure during sweep attempts. Tap immediately if your trapped leg experiences dangerous torque or rotational force on the knee during the reversal. Begin drilling at reduced speed and intensity, gradually increasing as both partners develop comfort with the mechanics. Monitor for knee ligament stress caused by rotational forces and avoid forcing the sweep against locked-out entanglements.",
+    "clips": [
+      {
+        "id": "8VfldffVsFU",
+        "title": "Rolling leg knot control",
+        "by": "Tom Dinklage",
+        "vertical": false,
+        "channel": "Tom Dinklage",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DrjbaXt-nTo",
+        "title": "Rolling out of heel hooks",
+        "by": "Craig Jones and Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 243,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JbRfIo1NTLk",
+        "title": "Clearing the kneeline to escape leg entanglement",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 274,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reversal from Leg Knot Defender",
@@ -365,23 +486,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that the bottom player is setting up a reversal?",
-        "answer": "The earliest cues include the bottom player's free leg moving to a posting position against your hip, their upper body turning to create a sweeping angle, their hands shifting from passive defense to actively stripping your grips, and deliberate hip engagement replacing defensive squirming. Any combination of these movements indicates an imminent reversal attempt requiring immediate base adjustment."
+        "answer": "The earliest cues include the bottom player's free leg moving to a posting position against your hip, their upper body turning to create a sweeping angle, their hands shifting from passive defense to actively stripping your grips, and deliberate hip engagement replacing defensive squirming. Any combination of these movements indicates an imminent reversal attempt requiring immediate base adjustment.",
+        "answer_line": "Free leg posts, hands strip grips",
+        "distractors": {
+          "plausible": [
+            "Opponent goes completely still",
+            "Increased defensive squirming"
+          ],
+          "trap": [
+            "Wait until the sweep already lands"
+          ]
+        }
       },
       {
         "question": "How should you adjust base positioning to prevent the reversal without sacrificing submission pressure?",
-        "answer": "Maintain a wider base with your free hand available for posting while keeping your submission-gripping hand active on the trapped foot. Position at a slight angle toward the anticipated sweep direction to pre-load your base against the reversal force. Never commit both hands simultaneously to the submission grip, always keeping one available for base recovery."
+        "answer": "Maintain a wider base with your free hand available for posting while keeping your submission-gripping hand active on the trapped foot. Position at a slight angle toward the anticipated sweep direction to pre-load your base against the reversal force. Never commit both hands simultaneously to the submission grip, always keeping one available for base recovery.",
+        "answer_line": "Wide base, one hand always free",
+        "distractors": {
+          "plausible": [
+            "Narrow base for tighter control",
+            "Angle away from the sweep side"
+          ],
+          "trap": [
+            "Commit both hands to the grip"
+          ]
+        }
       },
       {
         "question": "Your opponent begins explosive hip rotation for the reversal - what is your immediate defensive response?",
-        "answer": "Immediately post your free hand on the mat toward the sweeping direction to resist the rotational force. Simultaneously drop your weight and tighten the leg entanglement by squeezing your knees together. If the rotation is too powerful to resist through posting, transition with the movement and attempt to advance to Saddle position using the bottom player's own momentum rather than fighting against it."
+        "answer": "Immediately post your free hand on the mat toward the sweeping direction to resist the rotational force. Simultaneously drop your weight and tighten the leg entanglement by squeezing your knees together. If the rotation is too powerful to resist through posting, transition with the movement and attempt to advance to Saddle position using the bottom player's own momentum rather than fighting against it.",
+        "answer_line": "Post hand, drop weight, tighten knee",
+        "distractors": {
+          "plausible": [
+            "Match their rotation head-on",
+            "Release entanglement and stand"
+          ],
+          "trap": [
+            "Do nothing, ride out the sweep"
+          ]
+        }
       },
       {
         "question": "When should you advance to Saddle rather than simply maintaining Leg Knot during reversal defense?",
-        "answer": "Advance to Saddle when the bottom player's reversal attempt loosens the entanglement configuration and creates space for you to cross the knee line and triangle your legs around their trapped leg. The reversal attempt often disrupts the leg knot structure, creating brief windows where the Saddle entry becomes available through the gaps their own movement creates."
+        "answer": "Advance to Saddle when the bottom player's reversal attempt loosens the entanglement configuration and creates space for you to cross the knee line and triangle your legs around their trapped leg. The reversal attempt often disrupts the leg knot structure, creating brief windows where the Saddle entry becomes available through the gaps their own movement creates.",
+        "answer_line": "When their sweep loosens the knot",
+        "distractors": {
+          "plausible": [
+            "Immediately after entering leg knot",
+            "Only after they tap from pressure"
+          ],
+          "trap": [
+            "Force saddle while knot is tight"
+          ]
+        }
       },
       {
         "question": "What is the primary risk if you ignore the reversal threat and focus entirely on finishing your submission?",
-        "answer": "Committing both hands to finishing a submission eliminates your ability to post and maintain base entirely. The bottom player's sweep will succeed because you have no posting arm available, and you may end up mounted with your opponent in the dominant position. An aggressive finish attempt during a reversal also creates rotational forces that can compromise your own joints if the sweep completes mid-submission."
+        "answer": "Committing both hands to finishing a submission eliminates your ability to post and maintain base entirely. The bottom player's sweep will succeed because you have no posting arm available, and you may end up mounted with your opponent in the dominant position. An aggressive finish attempt during a reversal also creates rotational forces that can compromise your own joints if the sweep completes mid-submission.",
+        "answer_line": "Lose base, get swept and mounted",
+        "distractors": {
+          "plausible": [
+            "Submission just finishes slower",
+            "Opponent merely resets to neutral"
+          ],
+          "trap": [
+            "Nothing, the submission wins first"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -404,6 +575,26 @@
         "phase": "Phase 4: Live Situational Defense",
         "focus": "Full resistance reversal defense with positional sparring",
         "description": "Positional sparring from Leg Knot Top with specific objective of maintaining or advancing position for 90 seconds while partner attempts reversals at full resistance. Track success rates and identify defensive patterns that need reinforcement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RRgLRw-fRM0",
+        "title": "Weave Pass: Don't Free Your Leg Too Early",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 65,
+        "verified": "2026-07-16"
       }
     ]
   }

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rodeo Ride/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "As the primary positional advancement pathway out of dynamic turtle control, this transition is what turns a riding scramble into the sport's most dominant position. It demands precise timing and continuous weight management because the attacker must shift from perpendicular pressure to parallel chest-to-back alignment without creating enough space for the bottom player to escape through granby rolls, sit-backs, or standing attempts.\n\nStrategically, this transition exploits a fundamental defensive dilemma in turtle position: the opponent cannot simultaneously defend near-arm control, prevent hook insertion, and protect against choke entries. When the attacker threatens the near arm, the opponent must prioritize which threat to address, and each defensive choice opens a different attacking pathway. This makes the Rodeo Ride to Back Control transition most effective when integrated into a broader turtle attack system that includes clock choke threats, crucifix entries, and crab ride transitions, as failed attacks from these positions frequently create the openings needed for hook insertion.\n\nThe critical mechanical challenge lies in maintaining unbroken chest-to-back connection throughout the entire transition. Any separation during the hook insertion phase gives the bottom player space to execute escape sequences. Advanced practitioners address this by inserting hooks in sequence rather than simultaneously, using the first hook as an anchor to stabilize position while methodically working to secure the second hook and complete the transition. The seat belt grip establishment must happen in coordination with or immediately after the first hook insertion to prevent the opponent from exploiting the weight shift required for the second hook.",
   "conditions": [
     "Established Rodeo Ride control with hips loaded on opponent's torso and near-arm control secured",
@@ -255,42 +267,161 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for inserting the first hook during the Rodeo Ride to Back Control transition?",
-        "answer": "The optimal timing window is immediately after threatening an upper body attack such as a clock choke or collar grip that forces the opponent to defend with their hands. When the opponent commits their arms to defending the choke, their hips become momentarily unprotected and their base weakens as attention shifts upward. Redirect from the choke threat to hook insertion, exploiting the gap in their defensive coverage created by the dilemma between protecting their neck and maintaining their base."
+        "answer": "The optimal timing window is immediately after threatening an upper body attack such as a clock choke or collar grip that forces the opponent to defend with their hands. When the opponent commits their arms to defending the choke, their hips become momentarily unprotected and their base weakens as attention shifts upward. Redirect from the choke threat to hook insertion, exploiting the gap in their defensive coverage created by the dilemma between protecting their neck and maintaining their base.",
+        "answer_line": "Threaten choke, hips go undefended",
+        "distractors": {
+          "plausible": [
+            "Insert hook on first contact",
+            "Wait until hips are loaded"
+          ],
+          "trap": [
+            "Wait until opponent stands up"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can safely begin the transition from Rodeo Ride to Back Control?",
-        "answer": "Three prerequisites must be established: near-arm control that prevents the opponent from posting or creating defensive frames, sustained chest-to-back connection with hips loaded on their torso, and a posted base leg in a position allowing weight shifts without losing balance. Without near-arm control, the opponent can post and stand. Without chest connection, they have space to granby roll. Without a posted base leg, you lack stability to manage the weight shift required for hook insertion."
+        "answer": "Three prerequisites must be established: near-arm control that prevents the opponent from posting or creating defensive frames, sustained chest-to-back connection with hips loaded on their torso, and a posted base leg in a position allowing weight shifts without losing balance. Without near-arm control, the opponent can post and stand. Without chest connection, they have space to granby roll. Without a posted base leg, you lack stability to manage the weight shift required for hook insertion.",
+        "answer_line": "Near-arm, chest connect, base leg",
+        "distractors": {
+          "plausible": [
+            "Two hooks in before anything else",
+            "Seat belt grip established first"
+          ],
+          "trap": [
+            "Rush hooks before chest is set"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that determines whether the first hook stays in or gets immediately stripped?",
-        "answer": "The hook must be inserted with the instep seated against the opponent's inner thigh with toes pointed outward, creating a curved hooking shape that resists clearance. The foot should enter deep enough that the heel contacts the inner thigh near the groin area. Shallow hooks placed near the knee are easily stripped because the opponent can straighten their leg. Additionally, active downward heel pressure must be maintained immediately after insertion—a passive hook will be cleared by the opponent squeezing their knees together."
+        "answer": "The hook must be inserted with the instep seated against the opponent's inner thigh with toes pointed outward, creating a curved hooking shape that resists clearance. The foot should enter deep enough that the heel contacts the inner thigh near the groin area. Shallow hooks placed near the knee are easily stripped because the opponent can straighten their leg. Additionally, active downward heel pressure must be maintained immediately after insertion—a passive hook will be cleared by the opponent squeezing their knees together.",
+        "answer_line": "Deep hook, heel pressure active",
+        "distractors": {
+          "plausible": [
+            "Deep instep, passive pressure",
+            "Toes pointed inward, heel deep"
+          ],
+          "trap": [
+            "Shallow hook at the knee"
+          ]
+        }
       },
       {
         "question": "Why do most practitioners fail at the transition point between the first and second hook insertion?",
-        "answer": "The primary failure occurs because inserting the second hook requires a significant weight shift that temporarily reduces chest-to-back pressure, creating space on the side opposite the first hook. This space allows the opponent to rotate toward the second hook side and begin guard recovery. The correction is establishing the seat belt grip before attempting the second hook, so that even during the weight shift, upper body control prevents the opponent from exploiting the temporary pressure reduction."
+        "answer": "The primary failure occurs because inserting the second hook requires a significant weight shift that temporarily reduces chest-to-back pressure, creating space on the side opposite the first hook. This space allows the opponent to rotate toward the second hook side and begin guard recovery. The correction is establishing the seat belt grip before attempting the second hook, so that even during the weight shift, upper body control prevents the opponent from exploiting the temporary pressure reduction.",
+        "answer_line": "Seat belt before second hook",
+        "distractors": {
+          "plausible": [
+            "Rush second hook immediately",
+            "Keep near-arm control instead"
+          ],
+          "trap": [
+            "Release chest pressure to shift"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you prioritize during the transition and why?",
-        "answer": "The seat belt grip with one arm over the shoulder and one under the armpit, hands clasped on the opponent's centerline, is the priority. This controls rotation and prevents turning to face you, which is the fundamental escape mechanism from back control. The over-arm controls the far shoulder preventing turning away, while the under-arm prevents sitting up and creating posture. Establish this grip between first and second hook insertion as the transitional control replacing near-arm control."
+        "answer": "The seat belt grip with one arm over the shoulder and one under the armpit, hands clasped on the opponent's centerline, is the priority. This controls rotation and prevents turning to face you, which is the fundamental escape mechanism from back control. The over-arm controls the far shoulder preventing turning away, while the under-arm prevents sitting up and creating posture. Establish this grip between first and second hook insertion as the transitional control replacing near-arm control.",
+        "answer_line": "Seat belt: over and under arm",
+        "distractors": {
+          "plausible": [
+            "Both hands under armpits",
+            "Double overhook both arms"
+          ],
+          "trap": [
+            "Release seat belt to grab hooks"
+          ]
+        }
       },
       {
         "question": "In which direction should you apply force with your chest pressure during the hook insertion phase?",
-        "answer": "Apply chest pressure in a forward and downward direction, driving the opponent's weight onto their hands and compressing their turtle toward the mat. This serves dual purposes: it loads the opponent's upper body so their hands are weight-bearing and cannot fight your hooks, and it creates clearance space behind their hips where your hooks need to enter. Backward pressure—pulling them toward you—makes hook insertion harder because it closes the space between their thighs and the mat."
+        "answer": "Apply chest pressure in a forward and downward direction, driving the opponent's weight onto their hands and compressing their turtle toward the mat. This serves dual purposes: it loads the opponent's upper body so their hands are weight-bearing and cannot fight your hooks, and it creates clearance space behind their hips where your hooks need to enter. Backward pressure—pulling them toward you—makes hook insertion harder because it closes the space between their thighs and the mat.",
+        "answer_line": "Forward and downward pressure",
+        "distractors": {
+          "plausible": [
+            "Straight down, no forward drive",
+            "Angle pressure to the side"
+          ],
+          "trap": [
+            "Pull backward toward yourself"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your inserting foot with both hands to prevent hook insertion—how do you capitalize on this defensive reaction?",
-        "answer": "When the opponent commits both hands to grabbing your foot, they have completely abandoned neck defense and upper body framing. Immediately establish deep collar control or begin rear naked choke entry, as their neck is now completely undefended. If they release your foot to defend the choke, continue with hook insertion. If they maintain foot grip and accept the choke, finish the submission. This is the fundamental dilemma principle—defending hooks opens submissions, and defending submissions opens hooks."
+        "answer": "When the opponent commits both hands to grabbing your foot, they have completely abandoned neck defense and upper body framing. Immediately establish deep collar control or begin rear naked choke entry, as their neck is now completely undefended. If they release your foot to defend the choke, continue with hook insertion. If they maintain foot grip and accept the choke, finish the submission. This is the fundamental dilemma principle—defending hooks opens submissions, and defending submissions opens hooks.",
+        "answer_line": "Attack the now-open neck",
+        "distractors": {
+          "plausible": [
+            "Rip your foot free first",
+            "Switch to the other hook"
+          ],
+          "trap": [
+            "Keep fighting for the hook"
+          ]
+        }
       },
       {
         "question": "If the opponent successfully prevents hook insertion and begins standing up, what is the correct chain attack sequence?",
-        "answer": "If the opponent begins standing while you maintain upper body connection, immediately switch to a body lock by wrapping both legs around their waist without hooks. From the standing body lock, use your weight to pull them backward while threatening a standing rear naked choke. If they defend the choke, use their defensive posture to drag them back to the mat and re-establish Rodeo Ride. If they commit to standing fully, transition to a standing back clinch and work for a mat return takedown. Never disengage—maintain connection throughout."
+        "answer": "If the opponent begins standing while you maintain upper body connection, immediately switch to a body lock by wrapping both legs around their waist without hooks. From the standing body lock, use your weight to pull them backward while threatening a standing rear naked choke. If they defend the choke, use their defensive posture to drag them back to the mat and re-establish Rodeo Ride. If they commit to standing fully, transition to a standing back clinch and work for a mat return takedown. Never disengage—maintain connection throughout.",
+        "answer_line": "Body lock, threaten standing RNC",
+        "distractors": {
+          "plausible": [
+            "Release and reset guard",
+            "Switch to double leg takedown"
+          ],
+          "trap": [
+            "Let go and re-enter from guard"
+          ]
+        }
       },
       {
         "question": "What distinguishes a mechanically sound hook insertion from a flawed one during training?",
-        "answer": "A sound hook insertion maintains unbroken chest-to-back contact throughout the entire insertion motion, results in the foot being placed deep inside the thigh with active heel engagement, and does not require releasing near-arm control or seat belt grip. A flawed insertion typically involves reaching with the foot while the chest separates, placing the foot shallowly near the knee where it is easily cleared, or sacrificing upper body control to focus on leg mechanics. The diagnostic test: if your chest lifts off the opponent's back at any point during insertion, the mechanics are flawed."
+        "answer": "A sound hook insertion maintains unbroken chest-to-back contact throughout the entire insertion motion, results in the foot being placed deep inside the thigh with active heel engagement, and does not require releasing near-arm control or seat belt grip. A flawed insertion typically involves reaching with the foot while the chest separates, placing the foot shallowly near the knee where it is easily cleared, or sacrificing upper body control to focus on leg mechanics. The diagnostic test: if your chest lifts off the opponent's back at any point during insertion, the mechanics are flawed.",
+        "answer_line": "Chest stays glued throughout",
+        "distractors": {
+          "plausible": [
+            "Foot goes deep, chest can lift",
+            "Release grip, focus on foot"
+          ],
+          "trap": [
+            "Reach with foot, chest separates"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition carries moderate injury risk from dynamic weight shifts during hook insertion. Practitioners should avoid explosive hook insertion near the groin or knee joints, as forced foot placement can cause knee ligament stress or groin compression. Sustained weight loading on a turtled opponent can compress the cervical and thoracic spine if applied aggressively, particularly when driving forward pressure. Communication between training partners is essential—the bottom player should signal discomfort from spinal pressure or hook placement. In gi training, collar grips during the transition can apply dangerous neck pressure. Always drill at controlled speed before introducing resistance, and ensure the bottom player can tap or verbally signal at any point during the transition sequence."
+    "safety_considerations": "This transition carries moderate injury risk from dynamic weight shifts during hook insertion. Practitioners should avoid explosive hook insertion near the groin or knee joints, as forced foot placement can cause knee ligament stress or groin compression. Sustained weight loading on a turtled opponent can compress the cervical and thoracic spine if applied aggressively, particularly when driving forward pressure. Communication between training partners is essential—the bottom player should signal discomfort from spinal pressure or hook placement. In gi training, collar grips during the transition can apply dangerous neck pressure. Always drill at controlled speed before introducing resistance, and ensure the bottom player can tap or verbally signal at any point during the transition sequence.",
+    "clips": [
+      {
+        "id": "6MhcPYISQDU",
+        "title": "Rodeo ride to rodeo choke on the back",
+        "by": "Ethos Jiu-Jitsu Fullerton",
+        "vertical": false,
+        "channel": "Ethos Jiu-Jitsu Fullerton",
+        "duration": 85,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-Gt5c1J-NO0",
+        "title": "Getting hooks in from the rodeo ride to take the back",
+        "by": "Steve Scott",
+        "vertical": false,
+        "channel": "welcomematstevescott",
+        "duration": 400,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vYD01Vgjy_8",
+        "title": "Rodeo ride against turtle and prone opponents",
+        "by": "Steve Scott",
+        "vertical": false,
+        "channel": "welcomematstevescott",
+        "duration": 211,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rodeo Ride to Back Control Defender",
@@ -372,23 +503,73 @@
     "flashcards": [
       {
         "question": "What is the most dangerous moment for the defender during the Rodeo Ride to Back Control transition?",
-        "answer": "The most dangerous moment is the transition between the first and second hook insertion. Once the first hook is in, the attacker has an anchor point that significantly limits escape options. However, before the second hook, the attacker must execute a major weight shift that temporarily compromises their balance. If you fail to exploit this window, the second hook locks in full back control. This is your best and possibly last realistic escape opportunity before the position becomes fully consolidated."
+        "answer": "The most dangerous moment is the transition between the first and second hook insertion. Once the first hook is in, the attacker has an anchor point that significantly limits escape options. However, before the second hook, the attacker must execute a major weight shift that temporarily compromises their balance. If you fail to exploit this window, the second hook locks in full back control. This is your best and possibly last realistic escape opportunity before the position becomes fully consolidated.",
+        "answer_line": "Between first and second hook",
+        "distractors": {
+          "plausible": [
+            "The moment first hook enters",
+            "Right after seat belt locks"
+          ],
+          "trap": [
+            "Once second hook is secured"
+          ]
+        }
       },
       {
         "question": "Why is the granby roll particularly effective between the first and second hook insertion?",
-        "answer": "The attacker's body is asymmetrically loaded during this phase—one leg is hooked in, anchoring them on one side, while their free leg must shift for the second hook. This creates rotational vulnerability on the free side because the attacker cannot easily follow an inversion without abandoning their hooked leg. The granby toward the free side exploits this asymmetry by moving in the direction of least control, and the rolling motion helps strip the single hook during the inversion."
+        "answer": "The attacker's body is asymmetrically loaded during this phase—one leg is hooked in, anchoring them on one side, while their free leg must shift for the second hook. This creates rotational vulnerability on the free side because the attacker cannot easily follow an inversion without abandoning their hooked leg. The granby toward the free side exploits this asymmetry by moving in the direction of least control, and the rolling motion helps strip the single hook during the inversion.",
+        "answer_line": "Roll toward the free-hook side",
+        "distractors": {
+          "plausible": [
+            "Roll toward the hooked side",
+            "Roll only after second hook"
+          ],
+          "trap": [
+            "Stay flat and turtle harder"
+          ]
+        }
       },
       {
         "question": "How should you prioritize your defensive actions when you feel the attacker beginning the back take sequence?",
-        "answer": "First, tighten your turtle by squeezing elbows to knees and pressing thighs together to eliminate hook insertion space. Second, fight the near-arm control by stripping grips before the attacker can layer additional controls. Third, feel for the weight shift indicating hook insertion is imminent—this is your escape window. Fourth, if the first hook enters, immediately commit to your escape direction before seat belt and second hook are established. The sequence is: structure, grips, timing, commitment."
+        "answer": "First, tighten your turtle by squeezing elbows to knees and pressing thighs together to eliminate hook insertion space. Second, fight the near-arm control by stripping grips before the attacker can layer additional controls. Third, feel for the weight shift indicating hook insertion is imminent—this is your escape window. Fourth, if the first hook enters, immediately commit to your escape direction before seat belt and second hook are established. The sequence is: structure, grips, timing, commitment.",
+        "answer_line": "Structure, grips, timing, commit",
+        "distractors": {
+          "plausible": [
+            "Grips first, then structure",
+            "Escape first, worry grips later"
+          ],
+          "trap": [
+            "Wait passively for an opening"
+          ]
+        }
       },
       {
         "question": "What is the difference between defending the transition early versus late, and why does timing matter?",
-        "answer": "Early defense before any hooks focuses on grip fighting, posture maintenance, and preventing the attacker's angle change. You have maximum options and lowest urgency. Late defense after the first hook requires explosive, committed escape attempts because options are narrowing rapidly. Early defense is proactive and maintenance-based, while late defense is reactive and must be decisive. Waiting too long transforms defense from a manageable positional battle into a desperate escape where success probability drops with each control point established."
+        "answer": "Early defense before any hooks focuses on grip fighting, posture maintenance, and preventing the attacker's angle change. You have maximum options and lowest urgency. Late defense after the first hook requires explosive, committed escape attempts because options are narrowing rapidly. Early defense is proactive and maintenance-based, while late defense is reactive and must be decisive. Waiting too long transforms defense from a manageable positional battle into a desperate escape where success probability drops with each control point established.",
+        "answer_line": "Early: proactive; late: explosive",
+        "distractors": {
+          "plausible": [
+            "Both stages need equal urgency",
+            "Late defense is easier to time"
+          ],
+          "trap": [
+            "Wait for the perfect moment"
+          ]
+        }
       },
       {
         "question": "Your attacker inserts their first hook and begins reaching for the seat belt grip—what is your immediate response?",
-        "answer": "Immediately commit to your best available escape before the seat belt and second hook layer together. If the seat belt is not yet clasped, use your hands to fight the over-arm and prevent the grip from closing. Simultaneously begin your sit-back or granby roll—you cannot afford to wait for perfect timing because the attacker is actively closing the control loop. If you successfully strip the seat belt attempt, the single hook alone is manageable for a methodical escape. But allowing both seat belt and first hook to consolidate makes the second hook nearly inevitable."
+        "answer": "Immediately commit to your best available escape before the seat belt and second hook layer together. If the seat belt is not yet clasped, use your hands to fight the over-arm and prevent the grip from closing. Simultaneously begin your sit-back or granby roll—you cannot afford to wait for perfect timing because the attacker is actively closing the control loop. If you successfully strip the seat belt attempt, the single hook alone is manageable for a methodical escape. But allowing both seat belt and first hook to consolidate makes the second hook nearly inevitable.",
+        "answer_line": "Fight grip, commit escape now",
+        "distractors": {
+          "plausible": [
+            "Strip the hook, ignore seat belt",
+            "Brace and absorb the position"
+          ],
+          "trap": [
+            "Wait for the ideal moment"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -411,6 +592,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring from Rodeo Ride bottom",
         "description": "Start from Rodeo Ride bottom against a partner working full-speed back takes. Apply all defensive concepts in live conditions. Measure success by time to escape and positions achieved after escape. Integrate defensive reactions with guard recovery sequences for complete escape-to-offense chains."
+      }
+    ],
+    "clips": [
+      {
+        "id": "W0TCGKRcniA",
+        "title": "Turtle Escape with the Shoulder Roll",
+        "by": "BJJake",
+        "vertical": false,
+        "channel": "BJJake",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0AzYYiSiPbU",
+        "title": "Sit-Out and Turn-In from Turtle Defense",
+        "by": "Adam Song",
+        "vertical": false,
+        "channel": "Adam Song MMA",
+        "duration": 162,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up from Defensive Positions",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
       }
     ]
   }

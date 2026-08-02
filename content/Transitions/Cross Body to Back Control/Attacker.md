@@ -180,6 +180,54 @@ description: "Master the attacker perspective for Cross Body to Back Control. Le
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Body to Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross body ride back take vs turtle",
+      "description": "Cross Body to Back Control (Attacker) film study: Cross body ride back take vs turtle, taught by Paul McVeigh.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aX87dPPVcGU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aX87dPPVcGU",
+      "url": "https://www.youtube.com/watch?v=aX87dPPVcGU",
+      "creator": { "@type": "Person", "name": "Paul McVeigh" },
+      "duration": "PT107S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross body ride entry from knee shield",
+      "description": "Cross Body to Back Control (Attacker) film study: Cross body ride entry from knee shield, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h3C7rZzKHVY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h3C7rZzKHVY",
+      "url": "https://www.youtube.com/watch?v=h3C7rZzKHVY",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross body ride entry vs seated opponent",
+      "description": "Cross Body to Back Control (Attacker) film study: Cross body ride entry vs seated opponent, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4U7fN1DNk4A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4U7fN1DNk4A",
+      "url": "https://www.youtube.com/watch?v=4U7fN1DNk4A",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT38S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the attacker executing Cross Body to Back Control, your objective is to conve
 **From Position**: [[Positions/Cross Body Ride]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Body to Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aX87dPPVcGU)
+
+<p class="clip-credit"><strong>Cross body ride back take vs turtle</strong> — taught by Paul McVeigh · 1:47 · <a href="https://www.youtube.com/watch?v=aX87dPPVcGU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h3C7rZzKHVY)
+
+<p class="clip-credit"><strong>Cross body ride entry from knee shield</strong> — taught by Bowerhouse MMA · 0:25 · <a href="https://www.youtube.com/watch?v=h3C7rZzKHVY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4U7fN1DNk4A)
+
+<p class="clip-credit"><strong>Cross body ride entry vs seated opponent</strong> — taught by Bowerhouse MMA · 0:38 · <a href="https://www.youtube.com/watch?v=4U7fN1DNk4A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

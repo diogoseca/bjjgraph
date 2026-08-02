@@ -164,6 +164,54 @@ description: "Master compression lock mechanics in BJJ. Learn how crushing muscl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Compression Locks \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bicep slicer mechanics",
+      "description": "Compression Locks film study: Bicep slicer mechanics, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j3vxcRC51m4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j3vxcRC51m4",
+      "url": "https://www.youtube.com/watch?v=j3vxcRC51m4",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse calf slicer breakdown from a UFC finish",
+      "description": "Compression Locks film study: Reverse calf slicer breakdown from a UFC finish, taught by Jiu Jitsu Diagnostic.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wlWBHgv5Txw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wlWBHgv5Txw",
+      "url": "https://www.youtube.com/watch?v=wlWBHgv5Txw",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Diagnostic" },
+      "duration": "PT221S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bicep slicer from closed guard",
+      "description": "Compression Locks film study: Bicep slicer from closed guard, taught by Marcelo Mattos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wwl97QswDn4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wwl97QswDn4",
+      "url": "https://www.youtube.com/watch?v=wwl97QswDn4",
+      "creator": { "@type": "Person", "name": "Marcelo Mattos" },
+      "duration": "PT124S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Compression Locks?
@@ -177,6 +225,42 @@ Compression locks occupy a unique niche in BJJ because they are frequently avail
 However, compression locks come with significant ruleset considerations. IBJJF rules restrict most compression attacks to brown and black belt divisions. Many local tournaments ban them entirely. No-gi competition rulesets tend to be more permissive, and submission-only formats generally allow all compression attacks. Practitioners must understand which attacks are legal in their competition context and adjust their game accordingly. The mechanics themselves — wedge insertion, scissoring force, angle optimization — transfer across all compression variations once the underlying principle is understood.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Compression Locks in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j3vxcRC51m4)
+
+<p class="clip-credit"><strong>Bicep slicer mechanics</strong> — taught by bjjtaro · 1:01 · <a href="https://www.youtube.com/watch?v=j3vxcRC51m4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wlWBHgv5Txw)
+
+<p class="clip-credit"><strong>Reverse calf slicer breakdown from a UFC finish</strong> — taught by Jiu Jitsu Diagnostic · 3:41 · <a href="https://www.youtube.com/watch?v=wlWBHgv5Txw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wwl97QswDn4)
+
+<p class="clip-credit"><strong>Bicep slicer from closed guard</strong> — taught by Marcelo Mattos · 2:04 · <a href="https://www.youtube.com/watch?v=wwl97QswDn4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

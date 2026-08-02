@@ -140,6 +140,54 @@ description: "Learn to defend and counter the back control to cross body ride tr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control to Cross Body Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside roll escape from turtle vs leg ride",
+      "description": "Back Control to Cross Body Ride (Defender) film study: Inside roll escape from turtle vs leg ride, taught by Kenny Lester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/923eYpD1E58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/923eYpD1E58",
+      "url": "https://www.youtube.com/watch?v=923eYpD1E58",
+      "creator": { "@type": "Person", "name": "Kenny Lester" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle roll counter to cross body ride",
+      "description": "Back Control to Cross Body Ride (Defender) film study: Turtle roll counter to cross body ride, taught by Mark VanSchuyver.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NxKC6qHEgl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NxKC6qHEgl8",
+      "url": "https://www.youtube.com/watch?v=NxKC6qHEgl8",
+      "creator": { "@type": "Person", "name": "Mark VanSchuyver" },
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the turtle breakdown on all fours",
+      "description": "Back Control to Cross Body Ride (Defender) film study: Defending the turtle breakdown on all fours, taught by DanTheWolfman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yO4uYmaOEfw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yO4uYmaOEfw",
+      "url": "https://www.youtube.com/watch?v=yO4uYmaOEfw",
+      "creator": { "@type": "Person", "name": "DanTheWolfman" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Transition to Cross Body Ride, you are in a back con
 **Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control to Cross Body Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=923eYpD1E58)
+
+<p class="clip-credit"><strong>Inside roll escape from turtle vs leg ride</strong> — taught by Kenny Lester · 2:38 · <a href="https://www.youtube.com/watch?v=923eYpD1E58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NxKC6qHEgl8)
+
+<p class="clip-credit"><strong>Turtle roll counter to cross body ride</strong> — taught by Mark VanSchuyver · 1:25 · <a href="https://www.youtube.com/watch?v=NxKC6qHEgl8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yO4uYmaOEfw)
+
+<p class="clip-credit"><strong>Defending the turtle breakdown on all fours</strong> — taught by DanTheWolfman · 1:42 · <a href="https://www.youtube.com/watch?v=yO4uYmaOEfw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

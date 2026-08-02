@@ -27,13 +27,13 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Back Take",
-      "text": "From this position, attempt Leg Drag to Back Take. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to Back Take. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Mount",
-      "text": "From this position, attempt Leg Drag to Mount. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,7 +45,7 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to North-South",
-      "text": "From this position, attempt Leg Drag to North-South. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to North-South. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
@@ -153,6 +153,54 @@ description: "Master leg drag control from top position. Complete strategic guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Drag Guard Passing",
+      "description": "Leg Drag Control (Top) film study: Leg Drag Guard Passing, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cr4bYMXDG6k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cr4bYMXDG6k",
+      "url": "https://www.youtube.com/watch?v=cr4bYMXDG6k",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Drag to Rolling Back Take",
+      "description": "Leg Drag Control (Top) film study: Leg Drag to Rolling Back Take, taught by Grapple Box.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8DG2hn0xxMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8DG2hn0xxMI",
+      "url": "https://www.youtube.com/watch?v=8DG2hn0xxMI",
+      "creator": { "@type": "Person", "name": "Grapple Box" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "De La Riva to Leg Drag",
+      "description": "Leg Drag Control (Top) film study: De La Riva to Leg Drag, taught by Alavanca.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H9hckrLXcRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H9hckrLXcRQ",
+      "url": "https://www.youtube.com/watch?v=H9hckrLXcRQ",
+      "creator": { "@type": "Person", "name": "Alavanca" },
+      "duration": "PT29S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +214,42 @@ The strategic value of leg drag control comes from the multiple high-percentage 
 From a competitive perspective, mastering leg drag control has become essential for any guard passing system. The position is particularly effective in no-gi grappling where traditional gi-based passing techniques are unavailable, though it remains highly effective in the gi as well. High-level competitors use the leg drag not just as a passing technique but as a complete position with its own retention principles, submission attacks, and counter sequences. The key to success is understanding that you must constantly be advancing—leg drag control is never a resting position, but rather a dynamic transition that you drive toward a dominant endpoint.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cr4bYMXDG6k)
+
+<p class="clip-credit"><strong>Leg Drag Guard Passing</strong> — taught by Andre Galvao · 1:29 · <a href="https://www.youtube.com/watch?v=cr4bYMXDG6k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8DG2hn0xxMI)
+
+<p class="clip-credit"><strong>Leg Drag to Rolling Back Take</strong> — taught by Grapple Box · 0:18 · <a href="https://www.youtube.com/watch?v=8DG2hn0xxMI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H9hckrLXcRQ)
+
+<p class="clip-credit"><strong>De La Riva to Leg Drag</strong> — taught by Alavanca · 0:29 · <a href="https://www.youtube.com/watch?v=H9hckrLXcRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

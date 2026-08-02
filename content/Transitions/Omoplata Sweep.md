@@ -34,6 +34,54 @@ description: "Master the Omoplata Sweep from closed guard in BJJ. Step-by-step e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata sweep from guard",
+      "description": "Omoplata Sweep film study: Omoplata sweep from guard, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ar2oa-jV9-Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ar2oa-jV9-Y",
+      "url": "https://www.youtube.com/watch?v=Ar2oa-jV9-Y",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clark Gracie omoplata breakdown",
+      "description": "Omoplata Sweep film study: Clark Gracie omoplata breakdown, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oQAP8nARiHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oQAP8nARiHU",
+      "url": "https://www.youtube.com/watch?v=oQAP8nARiHU",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata and log roll sweep",
+      "description": "Omoplata Sweep film study: Omoplata and log roll sweep, taught by PAC Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GDXF6brOcjw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GDXF6brOcjw",
+      "url": "https://www.youtube.com/watch?v=GDXF6brOcjw",
+      "creator": { "@type": "Person", "name": "PAC Jiu-Jitsu" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The sweep initiates from the standard omoplata entry where your leg crosses the 
 This technique is particularly valuable in competition because it transitions seamlessly into mount, the highest-scoring dominant position. The sweep works in both gi and no-gi, though gi sleeve grips simplify arm control. For purple and brown belts, the omoplata sweep should be trained as part of a systematic closed guard attack chain where it flows naturally from triangle and armbar attempts, creating a branching attack tree that becomes progressively harder to defend as the opponent's energy depletes.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 23%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ar2oa-jV9-Y)
+
+<p class="clip-credit"><strong>Omoplata sweep from guard</strong> — taught by Thunderdome BJJ · 0:50 · <a href="https://www.youtube.com/watch?v=Ar2oa-jV9-Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oQAP8nARiHU)
+
+<p class="clip-credit"><strong>Clark Gracie omoplata breakdown</strong> — taught by Clark Gracie · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GDXF6brOcjw)
+
+<p class="clip-credit"><strong>Omoplata and log roll sweep</strong> — taught by PAC Jiu-Jitsu · 1:48 · <a href="https://www.youtube.com/watch?v=GDXF6brOcjw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -18,7 +18,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Mounted Triangle",
   "from_position": "Mounted Triangle/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The belly down armbar finish from mounted triangle exploits the unique arm isolation provided by the triangle leg configuration to transition into a prone armbar with devastating mechanical advantage. Unlike standard belly down armbars from mount or side control, the mounted triangle variant uses the locked triangle structure to prevent the defender from retracting the trapped arm during the critical rotation phase, substantially increasing completion rate.\n\nThe technique begins with the attacker already controlling the mounted triangle, where one of the defender's arms is trapped between the attacker's legs. Rather than pursuing the triangle choke or standard armbar, the attacker secures wrist control on the trapped arm and initiates a rotation over the arm, transitioning from a seated or upright position to a prone, belly-down orientation. The triangle legs maintain control of the shoulder and upper arm throughout the rotation, preventing the most common armbar defense of pulling the elbow free.\n\nStrategically, this finish represents a high-percentage option when the defender successfully defends the triangle choke through chin tucking and posture management but leaves the arm exposed. The belly down position creates a fulcrum at the elbow with the attacker's hips while gravity and body weight reinforce the extension pressure. Once belly down with proper hip placement, the submission becomes extremely difficult to escape, making the rotational transition the most critical phase requiring precise timing and coordination.",
   "safety_considerations": {
     "injury_risks": [
@@ -98,17 +101,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Mounted Triangle/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
@@ -254,42 +266,151 @@
       {
         "question": "What anatomical structure does the belly down armbar from mounted triangle primarily attack?",
         "answer": "The technique primarily attacks the elbow joint through hyperextension, specifically targeting the ulnar collateral ligament and the joint capsule. The belly-down position creates a fulcrum at the elbow with the attacker's hips while the wrist is lifted upward, forcing the elbow past its natural range of extension. Secondary stress affects the biceps tendon as it resists the forced extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow hyperextension (UCL)",
+        "distractors": {
+          "plausible": [
+            "Shoulder joint rotation",
+            "Wrist joint flexion"
+          ],
+          "trap": [
+            "Crank the neck for the tap"
+          ]
+        }
       },
       {
         "question": "Why must you secure wrist control before initiating the rotation to belly-down position?",
         "answer": "Wrist control is the single point of failure for this technique. Without firm grip on the wrist, the defender can retract the elbow during the rotation phase when leg control momentarily loosens. The mounted triangle provides excellent upper arm isolation through the leg configuration, but the forearm and wrist can slip free if not independently controlled. Confirming grip before rotating ensures continuous arm control throughout the transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stops elbow slipping free",
+        "distractors": {
+          "plausible": [
+            "Sets up a better hip angle",
+            "Controls opponent's posture"
+          ],
+          "trap": [
+            "Lets you loosen leg triangle"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together to prevent arm extension once you are belly down - how do you break this grip?",
         "answer": "Wedge your forearm between their interlocked hands while maintaining constant hip pressure on the elbow. Push your forearm through the gap and peel their hands apart. Alternatively, apply slow progressive pressure through the locked grip by lifting your hips while controlling the wrist. The sustained pressure on the elbow typically forces grip separation within several seconds as the defender must release to tap before the joint is compromised.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wedge forearm in, drive hip down",
+        "distractors": {
+          "plausible": [
+            "Pry their top fingers loose",
+            "Sit upright for more leverage"
+          ],
+          "trap": [
+            "Rip the wrist fast to snap grip"
+          ]
+        }
       },
       {
         "question": "What is the correct hip placement once you have completed the rotation to belly-down position?",
         "answer": "Your hips must be positioned directly over the defender's elbow joint so that your pelvis serves as the fulcrum for hyperextension. If hips are too high on the bicep, mechanical advantage is lost and the defender can bend the elbow to resist. If hips are too low on the forearm, the leverage is insufficient and the arm can slip free. The elbow crease should sit directly under the center of your pelvis.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips directly over elbow",
+        "distractors": {
+          "plausible": [
+            "Hips high on the bicep",
+            "Hips low on the forearm"
+          ],
+          "trap": [
+            "Lift hips off to torque harder"
+          ]
+        }
       },
       {
         "question": "How should you apply extension pressure to allow adequate time for the defender to tap safely?",
         "answer": "Extension must be applied progressively over 3-5 seconds. Lift the wrist slowly toward the ceiling while sinking your hips into the elbow joint. Never jerk, spike, or rapidly accelerate the extension. The belly-down position creates enormous mechanical advantage that can hyperextend the elbow faster than the defender can process and signal the tap if applied too quickly. Monitor for all tap signals continuously during application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, progressive over 3-5 sec",
+        "distractors": {
+          "plausible": [
+            "Hold pressure without lifting",
+            "Wait for them to relax first"
+          ],
+          "trap": [
+            "Sharp spike of the hips upward"
+          ]
+        }
       },
       {
         "question": "What makes the mounted triangle variant superior to other belly down armbar setups in terms of arm control?",
         "answer": "The mounted triangle locks the defender's upper arm between the attacker's legs throughout the rotation, preventing the most common belly down armbar defense of retracting the elbow. In standard belly down armbars from mount or side control, there is typically a gap in upper arm control during the rotation where the defender can pull the arm free. The triangle leg configuration eliminates this gap by maintaining continuous compression on the shoulder and upper arm throughout the entire transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No gap in upper arm control",
+        "distractors": {
+          "plausible": [
+            "Faster rotation speed",
+            "Better wrist leverage"
+          ],
+          "trap": [
+            "Release wrist control to rotate"
+          ]
+        }
       },
       {
         "question": "Your opponent begins bridging explosively as you initiate the rotation - what adjustment prevents losing position?",
         "answer": "Post your free hand on the mat on the side you are rotating toward to create a base that absorbs the bridge momentum. Keep your knees clamped tight on the upper arm so the bridge does not separate you from the arm. If the bridge is powerful enough to compromise the rotation, abort immediately and re-establish mounted triangle rather than forcing a sloppy transition that loses both the submission and the position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Post hand, clamp knees, or abort",
+        "distractors": {
+          "plausible": [
+            "Speed up the rotation",
+            "Switch to a different submission"
+          ],
+          "trap": [
+            "Release knee squeeze to adjust"
+          ]
+        }
       },
       {
         "question": "What tap signals must you monitor during the belly down armbar finish and what is the correct release sequence?",
         "answer": "Monitor for verbal taps, physical hand taps on your body or the mat, foot taps on the mat, and any distress vocalizations including screaming or grunting. Upon recognizing any tap signal, immediately lower the wrist to release extension pressure first, then release knee squeeze on the upper arm, then disengage completely. Never wait for a second tap or confirmation. If uncertain whether a signal occurred, release immediately as the position can always be re-established.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Any tap: drop wrist, then knees",
+        "distractors": {
+          "plausible": [
+            "Free your legs before the wrist",
+            "Stop only for a hand tap"
+          ],
+          "trap": [
+            "Hold until they tap a second time"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZLlkimwLb_Q",
+        "title": "Mounted Triangle Armbar Variation",
+        "by": "Tommy",
+        "vertical": false,
+        "channel": "Before The Mats Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Roger Gracie Armbars",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "T8lhwzwE__c",
+        "title": "Arm Triangle to Armbar to Belly Down",
+        "by": "Sukrit Chandra",
+        "vertical": false,
+        "channel": "Sukrit Chandra",
+        "duration": 40,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -376,27 +497,77 @@
       {
         "question": "What is the earliest recognition cue that a belly down armbar transition is being initiated from mounted triangle?",
         "answer": "The earliest cue is when the attacker shifts from controlling your head or posture to gripping your wrist with both hands while maintaining the mounted triangle. This two-handed wrist control is the essential prerequisite for the belly down transition and should trigger immediate defensive action before any rotation begins.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both hands grip your wrist",
+        "distractors": {
+          "plausible": [
+            "Opponent squeezes legs tighter",
+            "Opponent leans away for space"
+          ],
+          "trap": [
+            "Wait until they rotate to react"
+          ]
+        }
       },
       {
         "question": "Why is it critical to tap early once the attacker reaches full belly-down position with proper hip placement?",
         "answer": "The belly-down position creates enormous mechanical advantage over the elbow joint. The attacker's full body weight drives through the hips into the elbow while the wrist is lifted, generating hyperextension force that can damage the ulnar collateral ligament and joint capsule faster than most practitioners can process the pain and signal a tap. Resisting once the position is fully established risks serious and potentially permanent elbow injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Injury outruns your reaction time",
+        "distractors": {
+          "plausible": [
+            "The shoulder is the joint at risk",
+            "The ache warns you before damage"
+          ],
+          "trap": [
+            "Power out of the locked armbar"
+          ]
+        }
       },
       {
         "question": "What defensive options are available during the rotation phase before the attacker reaches belly-down position?",
         "answer": "Three primary options exist during rotation: first, aggressively retract the elbow by bending the arm and pulling it tight to the ribcage; second, bridge explosively into the direction of the rotation to disrupt the attacker's base and prevent completion; third, turn your body into the attacker and follow their rotational momentum to prevent them from reaching prone position and scramble to recover guard. All three become ineffective once belly-down is established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract elbow, bridge, or turn in",
+        "distractors": {
+          "plausible": [
+            "Push their hips away",
+            "Flatten shoulders to the mat"
+          ],
+          "trap": [
+            "Relax the arm to save energy"
+          ]
+        }
       },
       {
         "question": "How should you signal the tap when caught in the belly down armbar from mounted triangle?",
         "answer": "Use any available method immediately: verbal tap by clearly saying 'tap,' physical hand tap on the attacker's body or the mat with your free hand, or foot tap on the mat with either leg. If your free hand is trapped or out of position, use verbal and foot taps simultaneously. Do not wait to see if you can escape once significant pressure is applied to the elbow.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, any method",
+        "distractors": {
+          "plausible": [
+            "Free the trapped hand, then signal",
+            "Verbal first, then foot if ignored"
+          ],
+          "trap": [
+            "Pat your own hip lightly"
+          ]
+        }
       },
       {
         "question": "Why does keeping your trapped arm bent provide the strongest defense against the belly down finish?",
         "answer": "A bent arm prevents the attacker from establishing the straight-arm alignment needed for effective hyperextension. When the elbow is bent and the hand grips your own wrist, lapel, or body, the attacker must first break the grip and straighten the arm before any meaningful extension pressure can be applied. This creates additional defensive layers and buying time for escape attempts during the rotation phase when the attacker's position is less secure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Blocks straight-arm alignment",
+        "distractors": {
+          "plausible": [
+            "Adds slack for a hip escape",
+            "Weakens their wrist grip"
+          ],
+          "trap": [
+            "Straighten arm to create space"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -419,6 +590,26 @@
         "phase": "Phase 4: Live Situational Defense",
         "focus": "Full resistance defense from mounted triangle",
         "description": "Start in mounted triangle bottom against a partner who may attempt triangle choke, standard armbar, or belly down armbar. Defender must read the attack, select appropriate defense, and either escape or tap safely. Progressive resistance up to full competition intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How To Escape a Triangle Choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Favorite Armbar Escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
       }
     ]
   }

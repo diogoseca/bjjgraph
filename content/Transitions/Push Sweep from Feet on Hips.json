@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Feet on Hips Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The push sweep from feet on hips guard converts the defensive leg frame into an offensive sweeping platform by timing bilateral leg extension against the opponent's forward weight commitment. This fundamental open guard technique teaches the critical principle that sweeps work best when they redirect existing momentum rather than generating force against a braced opponent. The bottom player waits for the top player to drive forward or lean in, then explosively extends both legs while simultaneously pulling with upper body grips to amplify the off-balancing effect.\n\nThe technique occupies a central role in the feet-on-hips guard system because it punishes the most natural top player behavior: driving forward to close distance. When the top player knows the push sweep is available, they must respect the bottom player's leg frames and avoid committing weight forward, which paradoxically makes other sweeps and guard transitions more effective. This creates the dilemma framework that elevates feet-on-hips guard from a distance management tool to a genuine offensive platform.\n\nExecution demands precise timing and grip coordination rather than raw strength. The push must coincide with the opponent's weight shift forward, and the upper body grips must complement the leg extension direction to prevent the opponent from posting or recovering balance. Follow-up is equally critical: the bottom player must immediately come to their feet or establish a controlling top position rather than remaining on the ground after the sweep.",
   "conditions": [
     "Both feet placed firmly on opponent's hip bones with stable ball-of-foot contact",
@@ -251,38 +263,147 @@
     "flashcards": [
       {
         "question": "What is the critical timing window for initiating the push sweep?",
-        "answer": "The push sweep must be initiated when the opponent's weight is committed forward—either leaning into your frames, reaching for grips, or driving forward to close distance. Pushing against a settled opponent with weight back produces minimal effect because their base can absorb the force. The optimal window is the moment when forward momentum makes it difficult for them to reverse direction or post behind them."
+        "answer": "The push sweep must be initiated when the opponent's weight is committed forward—either leaning into your frames, reaching for grips, or driving forward to close distance. Pushing against a settled opponent with weight back produces minimal effect because their base can absorb the force. The optimal window is the moment when forward momentum makes it difficult for them to reverse direction or post behind them.",
+        "answer_line": "Weight committed forward",
+        "distractors": {
+          "plausible": [
+            "Right after establishing grips",
+            "When hips are already elevated"
+          ],
+          "trap": [
+            "Wait for opponent to settle base"
+          ]
+        }
       },
       {
         "question": "Before committing to the push sweep, what entry conditions must be in place?",
-        "answer": "You need both feet planted on the opponent's hip bones with ball-of-foot contact, at least one upper-body grip on a sleeve, collar, or wrist to coordinate the pull, your hips elevated off the mat with a curved lower back for full extension range, and the opponent's posting ability compromised by your grips or their forward posture. Missing the grip or the hip elevation drops the sweep's effectiveness dramatically because you lose either the push-pull coordination or the extension power."
+        "answer": "You need both feet planted on the opponent's hip bones with ball-of-foot contact, at least one upper-body grip on a sleeve, collar, or wrist to coordinate the pull, your hips elevated off the mat with a curved lower back for full extension range, and the opponent's posting ability compromised by your grips or their forward posture. Missing the grip or the hip elevation drops the sweep's effectiveness dramatically because you lose either the push-pull coordination or the extension power.",
+        "answer_line": "Feet planted, grip, hips elevated",
+        "distractors": {
+          "plausible": [
+            "Just feet on hips is enough",
+            "Grip set, hips can stay flat"
+          ],
+          "trap": [
+            "Push before grips are secured"
+          ]
+        }
       },
       {
         "question": "Why is hip elevation essential during the leg extension, and what happens if your hips stay flat?",
-        "answer": "Hip elevation with a curved lower back lets you drive force through your hips and complete a full-range leg extension, generating the power needed to break the opponent's base. If your hips stay flat on the mat, the push stalls at partial extension and produces weak, short-range force that the opponent simply rides out while maintaining strong passing posture. Elevated hips also let you redirect the push angle mid-extension to track the opponent."
+        "answer": "Hip elevation with a curved lower back lets you drive force through your hips and complete a full-range leg extension, generating the power needed to break the opponent's base. If your hips stay flat on the mat, the push stalls at partial extension and produces weak, short-range force that the opponent simply rides out while maintaining strong passing posture. Elevated hips also let you redirect the push angle mid-extension to track the opponent.",
+        "answer_line": "Curved hips give full extension",
+        "distractors": {
+          "plausible": [
+            "Hips help but flat is fine",
+            "Elevation only aids balance"
+          ],
+          "trap": [
+            "Keep hips flat, push through arms"
+          ]
+        }
       },
       {
         "question": "Your opponent has a strong symmetrical base and resists your straight backward push—how do you adjust?",
-        "answer": "Direct the push slightly off-center by applying more pressure through one foot than the other, aiming to collapse one side of their base. Alternatively, transition to an asymmetric push sweep where one foot pushes while the other hooks behind their knee to prevent recovery. A third option is abandoning the push sweep and transitioning to a tripod sweep or sickle sweep that attacks their wide lateral base instead."
+        "answer": "Direct the push slightly off-center by applying more pressure through one foot than the other, aiming to collapse one side of their base. Alternatively, transition to an asymmetric push sweep where one foot pushes while the other hooks behind their knee to prevent recovery. A third option is abandoning the push sweep and transitioning to a tripod sweep or sickle sweep that attacks their wide lateral base instead.",
+        "answer_line": "Angle push, collapse one side",
+        "distractors": {
+          "plausible": [
+            "Push harder through both feet",
+            "Wait for opponent to overcommit"
+          ],
+          "trap": [
+            "Push straight back harder"
+          ]
+        }
       },
       {
         "question": "Why must the upper body pull precede the leg extension rather than occurring simultaneously?",
-        "answer": "The pull breaks the opponent's posture and loads their weight forward onto your feet before the extension. If you push and pull simultaneously, the opponent may step backward as the push begins since their weight is still centered over their base. The fraction-of-a-second delay between pulling them forward and extending your legs ensures maximum weight is loaded onto your pushing platform, making the sweep significantly more powerful and harder to defend."
+        "answer": "The pull breaks the opponent's posture and loads their weight forward onto your feet before the extension. If you push and pull simultaneously, the opponent may step backward as the push begins since their weight is still centered over their base. The fraction-of-a-second delay between pulling them forward and extending your legs ensures maximum weight is loaded onto your pushing platform, making the sweep significantly more powerful and harder to defend.",
+        "answer_line": "Pull first to load their weight",
+        "distractors": {
+          "plausible": [
+            "Push first, then pull upper body",
+            "Pull continuously while pushing"
+          ],
+          "trap": [
+            "Push and pull simultaneously"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest pulling force for this sweep?",
-        "answer": "A cross-collar grip combined with a same-side sleeve grip provides the strongest combined pulling vector because the collar grip breaks posture while the sleeve grip prevents the opponent from posting with that hand. Bilateral sleeve grips are a strong alternative that controls both posting options. The key is having at least one grip that prevents the opponent from using their hands to catch themselves as they fall backward."
+        "answer": "A cross-collar grip combined with a same-side sleeve grip provides the strongest combined pulling vector because the collar grip breaks posture while the sleeve grip prevents the opponent from posting with that hand. Bilateral sleeve grips are a strong alternative that controls both posting options. The key is having at least one grip that prevents the opponent from using their hands to catch themselves as they fall backward.",
+        "answer_line": "Cross collar plus same-side sleeve",
+        "distractors": {
+          "plausible": [
+            "Bilateral sleeve grips only",
+            "Single collar grip alone"
+          ],
+          "trap": [
+            "Grip both ankles instead"
+          ]
+        }
       },
       {
         "question": "The sweep succeeds and your opponent falls backward—what is the immediate follow-up sequence?",
-        "answer": "Begin retracting your legs and sitting up during the opponent's fall, not after they land. Pull yourself upright using your grips on their upper body, bring your legs underneath you, and come to your feet through a technical stand-up motion. Maintain at least one controlling grip throughout the transition and advance immediately into a passing position before the opponent can recover guard or sit up. Delayed follow-up negates the sweep's positional advantage."
+        "answer": "Begin retracting your legs and sitting up during the opponent's fall, not after they land. Pull yourself upright using your grips on their upper body, bring your legs underneath you, and come to your feet through a technical stand-up motion. Maintain at least one controlling grip throughout the transition and advance immediately into a passing position before the opponent can recover guard or sit up. Delayed follow-up negates the sweep's positional advantage.",
+        "answer_line": "Sit up and advance immediately",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to land first",
+            "Release grips, stand up fast"
+          ],
+          "trap": [
+            "Let go and disengage to reset"
+          ]
+        }
       },
       {
         "question": "Your opponent consistently posts one hand behind them when you attempt the push—what systematic approach defeats this defense?",
-        "answer": "Control the posting hand preemptively through sleeve grips before initiating the sweep—if you grip their same-side sleeve with your pulling hand, they cannot use that hand to post. Alternatively, direct the push toward the side of the posting hand to collapse the post under their body weight, or redirect the push to the opposite side where no post exists. The most effective long-term solution is the sleeve control approach since it eliminates the defense at its source."
+        "answer": "Control the posting hand preemptively through sleeve grips before initiating the sweep—if you grip their same-side sleeve with your pulling hand, they cannot use that hand to post. Alternatively, direct the push toward the side of the posting hand to collapse the post under their body weight, or redirect the push to the opposite side where no post exists. The most effective long-term solution is the sleeve control approach since it eliminates the defense at its source.",
+        "answer_line": "Grip sleeve of posting hand",
+        "distractors": {
+          "plausible": [
+            "Push toward the post to collapse it",
+            "Redirect push to open side only"
+          ],
+          "trap": [
+            "Ignore the post and push through"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The push sweep is a low-risk technique with minimal injury potential for both practitioners. Primary safety concern involves the opponent falling backward unexpectedly—ensure adequate mat space behind the training partner and avoid performing this technique near walls or other practitioners. Avoid hyperextending your own knees during explosive leg extension by maintaining a slight bend at full extension. When drilling, communicate intensity levels clearly and progress gradually from cooperative to full resistance."
+    "safety_considerations": "The push sweep is a low-risk technique with minimal injury potential for both practitioners. Primary safety concern involves the opponent falling backward unexpectedly—ensure adequate mat space behind the training partner and avoid performing this technique near walls or other practitioners. Avoid hyperextending your own knees during explosive leg extension by maintaining a slight bend at full extension. When drilling, communicate intensity levels clearly and progress gradually from cooperative to full resistance.",
+    "clips": [
+      {
+        "id": "WzT_DVarJGE",
+        "title": "Foot in hip sweep",
+        "by": "Mark VanSchuyver",
+        "vertical": false,
+        "channel": "Mark VanSchuyver",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QiWXoez9cPI",
+        "title": "Foot to Bicep Guard Sweep",
+        "by": "Prodigy MMA coach",
+        "vertical": false,
+        "channel": "Prodigy MMA Australia",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "The Right Way to Get Feet on Biceps Position",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Push Sweep from Feet on Hips Defender",
@@ -367,19 +488,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a push sweep attempt is imminent?",
-        "answer": "The earliest cue is the opponent's sharp pull on your upper body grips, which breaks your posture forward and loads your weight onto their feet. This pulling action always precedes the leg extension because the sweep requires forward weight commitment to be effective. Secondary cues include visible hip elevation and grip reconfiguration, but the pull is the most reliable and earliest indicator."
+        "answer": "The earliest cue is the opponent's sharp pull on your upper body grips, which breaks your posture forward and loads your weight onto their feet. This pulling action always precedes the leg extension because the sweep requires forward weight commitment to be effective. Secondary cues include visible hip elevation and grip reconfiguration, but the pull is the most reliable and earliest indicator.",
+        "answer_line": "Sharp pull on your grips",
+        "distractors": {
+          "plausible": [
+            "Visible hip elevation",
+            "Sudden grip reconfiguration"
+          ],
+          "trap": [
+            "Opponent relaxing their grips"
+          ]
+        }
       },
       {
         "question": "Your weight is already committed forward and you feel the legs beginning to extend—what is your emergency response?",
-        "answer": "Immediately post one hand behind you to catch your fall while simultaneously attempting to strip one foot off your hip with your other hand. Turn your body slightly to the side rather than falling straight backward, which reduces the sweep's effectiveness and creates a scramble opportunity. If the post holds, drive your hips forward to re-center your weight and strip the remaining foot. This is a last-resort defense—the goal is to recognize and respond before reaching this point."
+        "answer": "Immediately post one hand behind you to catch your fall while simultaneously attempting to strip one foot off your hip with your other hand. Turn your body slightly to the side rather than falling straight backward, which reduces the sweep's effectiveness and creates a scramble opportunity. If the post holds, drive your hips forward to re-center your weight and strip the remaining foot. This is a last-resort defense—the goal is to recognize and respond before reaching this point.",
+        "answer_line": "Post hand, strip one foot, turn",
+        "distractors": {
+          "plausible": [
+            "Sit up hard against push",
+            "Grab both of their ankles"
+          ],
+          "trap": [
+            "Fall straight back and relax"
+          ]
+        }
       },
       {
         "question": "How does defending the push sweep create vulnerability to other sweeps from feet-on-hips guard?",
-        "answer": "Widening your base to resist the backward push creates lateral vulnerability to the tripod sweep and sickle sweep. Sitting your weight back to avoid forward commitment gives the opponent time and space to transition to other guards. Posting a hand removes it from grip fighting. This is the core dilemma of feet-on-hips guard defense—each defensive adjustment against one sweep opens vulnerability to another, requiring the top player to pass rather than simply defend."
+        "answer": "Widening your base to resist the backward push creates lateral vulnerability to the tripod sweep and sickle sweep. Sitting your weight back to avoid forward commitment gives the opponent time and space to transition to other guards. Posting a hand removes it from grip fighting. This is the core dilemma of feet-on-hips guard defense—each defensive adjustment against one sweep opens vulnerability to another, requiring the top player to pass rather than simply defend.",
+        "answer_line": "Each defense opens another sweep",
+        "distractors": {
+          "plausible": [
+            "Widening base stops all sweeps",
+            "Sitting back solves it fully"
+          ],
+          "trap": [
+            "Post both hands to block push"
+          ]
+        }
       },
       {
         "question": "What base and weight distribution prevents the push sweep without creating other vulnerabilities?",
-        "answer": "Maintain a medium-width stance with hips back and center of gravity low, distributing weight evenly through both feet on the balls rather than the heels. Keep at least one controlling grip on the opponent's ankles or pants to limit their pushing power while maintaining one hand free for posting or grip fighting. This balanced position resists the backward push without overcommitting laterally, though it requires constant micro-adjustments as the opponent probes for openings."
+        "answer": "Maintain a medium-width stance with hips back and center of gravity low, distributing weight evenly through both feet on the balls rather than the heels. Keep at least one controlling grip on the opponent's ankles or pants to limit their pushing power while maintaining one hand free for posting or grip fighting. This balanced position resists the backward push without overcommitting laterally, though it requires constant micro-adjustments as the opponent probes for openings.",
+        "answer_line": "Medium stance, low hips, one grip",
+        "distractors": {
+          "plausible": [
+            "Wide base, weight on heels",
+            "Sit weight fully back"
+          ],
+          "trap": [
+            "Post both hands for stability"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -402,6 +563,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Live defense against complete sweep system",
         "description": "Positional sparring from feet-on-hips guard where bottom player uses push sweep, tripod sweep, and sickle sweep in combination. Defender must manage base against all three threats simultaneously while working to pass. Develops integrated defensive awareness against the complete system."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GbWF9YVFTNw",
+        "title": "Best Way to Pass Any Guard: Beating Feet on Hips",
+        "by": "Andre Galvao",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 464,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "k812PHP8VlI",
+        "title": "Pressure Passing Concepts vs Open Guard Frames",
+        "by": "Andre Galvao",
+        "vertical": false,
+        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
+        "duration": 481,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Kneebar Control/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "Within modern leg lock systems, the reversal from kneebar control serves as the offensive escape hatch for the bottom player: rather than committing fully to the kneebar finish from bottom, this transition capitalizes on the opponent's defensive reactions to create sweeping opportunities that carry the practitioner on top to side control. The technique bridges the gap between leg attack systems and positional advancement, offering a pathway from bottom leg entanglement to dominant top position by using the existing entanglement as a sweeping lever.\n\nThis reversal becomes particularly valuable when the kneebar finish is well-defended and the bottom player recognizes that continuing to fight for the submission from their back yields diminishing returns. By redirecting energy from the submission attempt into a positional transition, the practitioner trades a low-percentage finish for a high-value positional gain. The technique requires reading the opponent's defensive posture and weight distribution, then using the existing leg entanglement as leverage for the sweep rather than as a submission mechanism.\n\nThe strategic importance of this transition lies in its role within the modern leg lock game. Advanced practitioners understand that leg entanglements serve dual purposes: submission threats and positional control platforms. The ability to seamlessly transition between hunting the kneebar finish and sweeping to top position makes the bottom player's attacks unpredictable, forcing the top player to defend both the submission and the sweep simultaneously. This creates the kind of offensive dilemma that characterizes high-level grappling.",
   "conditions": [
     "Bottom practitioner has established kneebar control with secure arm grips on opponent's leg",
@@ -238,38 +250,147 @@
     "flashcards": [
       {
         "question": "What is the primary setup for the reversal from kneebar control?",
-        "answer": "The primary setup involves threatening the kneebar finish first to force the opponent into a defensive posture. By pulling the leg tight and driving hips forward as if committing to the submission, the opponent must react by bending their knee, posting hands, or shifting weight. Each reaction creates specific openings for different reversal variants. Without this initial submission threat, the opponent maintains an active offensive base that makes sweeping significantly harder."
+        "answer": "The primary setup involves threatening the kneebar finish first to force the opponent into a defensive posture. By pulling the leg tight and driving hips forward as if committing to the submission, the opponent must react by bending their knee, posting hands, or shifting weight. Each reaction creates specific openings for different reversal variants. Without this initial submission threat, the opponent maintains an active offensive base that makes sweeping significantly harder.",
+        "answer_line": "Threaten the finish first",
+        "distractors": {
+          "plausible": [
+            "Go straight for the sweep",
+            "React only after they move"
+          ],
+          "trap": [
+            "Release the leg to sweep"
+          ]
+        }
       },
       {
         "question": "How do you determine which reversal variant to use based on the opponent's defensive reaction?",
-        "answer": "Read the opponent's defensive reaction to your kneebar threat. If they flatten out on their back resisting extension, the roll-through reversal works because they lack base to resist rotational force. If they sit up and post hands behind them, the sit-up drive is available because their weight is behind their hips. If they base wide with their free leg, the hook sweep targets their elevated center of gravity. The opponent's defense dictates your attack path."
+        "answer": "Read the opponent's defensive reaction to your kneebar threat. If they flatten out on their back resisting extension, the roll-through reversal works because they lack base to resist rotational force. If they sit up and post hands behind them, the sit-up drive is available because their weight is behind their hips. If they base wide with their free leg, the hook sweep targets their elevated center of gravity. The opponent's defense dictates your attack path.",
+        "answer_line": "Read their defensive reaction",
+        "distractors": {
+          "plausible": [
+            "Always default to roll-through",
+            "Choose based on your position"
+          ],
+          "trap": [
+            "Force roll-through regardless"
+          ]
+        }
       },
       {
         "question": "What is the most critical grip transition during the reversal?",
-        "answer": "The transition from kneebar submission grips to side control consolidation grips is the most critical moment. You must maintain control of the leg long enough to generate sweep momentum but release early enough to establish crossface and hip control upon reaching top. Releasing too early loses the sweep leverage. Releasing too late means the opponent reguards before you consolidate. The optimal release point is when your body crosses over the opponent's centerline."
+        "answer": "The transition from kneebar submission grips to side control consolidation grips is the most critical moment. You must maintain control of the leg long enough to generate sweep momentum but release early enough to establish crossface and hip control upon reaching top. Releasing too early loses the sweep leverage. Releasing too late means the opponent reguards before you consolidate. The optimal release point is when your body crosses over the opponent's centerline.",
+        "answer_line": "Time release at centerline cross",
+        "distractors": {
+          "plausible": [
+            "Release the grip immediately",
+            "Hold grip until fully mounted"
+          ],
+          "trap": [
+            "Let go of the leg immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand behind them and begins scooting away during the reversal - how do you adjust?",
-        "answer": "When the opponent posts and scoots, immediately chase with your hips to maintain connection. If you close the distance quickly, the sit-up drive becomes available since their posted hand means their weight is shifted backward. If they create too much distance to sweep, redirect back to the kneebar attack since their posting arm is now occupied and their knee defense may be weakened. Never stall between sweep and submission attempts."
+        "answer": "When the opponent posts and scoots, immediately chase with your hips to maintain connection. If you close the distance quickly, the sit-up drive becomes available since their posted hand means their weight is shifted backward. If they create too much distance to sweep, redirect back to the kneebar attack since their posting arm is now occupied and their knee defense may be weakened. Never stall between sweep and submission attempts.",
+        "answer_line": "Chase with hips, don't stall",
+        "distractors": {
+          "plausible": [
+            "Release and reset distance",
+            "Switch straight to hook sweep"
+          ],
+          "trap": [
+            "Stall until they settle"
+          ]
+        }
       },
       {
         "question": "What role does hip movement play in generating sweep momentum for the reversal?",
-        "answer": "Hip movement is the primary force generator for all reversal variants. For the roll-through, hip rotation drives the rolling momentum over the shoulder. For the sit-up drive, hip extension pushes the body forward and upward. For the hook sweep, hip elevation creates the lifting force under the opponent. Arms serve as connectors and steering mechanisms, but attempting to sweep with arm strength alone produces insufficient force against any competent defender's base."
+        "answer": "Hip movement is the primary force generator for all reversal variants. For the roll-through, hip rotation drives the rolling momentum over the shoulder. For the sit-up drive, hip extension pushes the body forward and upward. For the hook sweep, hip elevation creates the lifting force under the opponent. Arms serve as connectors and steering mechanisms, but attempting to sweep with arm strength alone produces insufficient force against any competent defender's base.",
+        "answer_line": "Hips drive it, arms only steer",
+        "distractors": {
+          "plausible": [
+            "Arms and hips share the load",
+            "Shoulders generate the momentum"
+          ],
+          "trap": [
+            "Muscle the sweep with arms"
+          ]
+        }
       },
       {
         "question": "When should you abandon the reversal attempt and return to the kneebar attack?",
-        "answer": "Abandon the reversal when the opponent successfully re-establishes a strong defensive base after your initial sweep attempt, when your grip on their leg is compromised before generating sufficient momentum, or when the opponent creates enough distance that the sweep angle is no longer viable. The decision point is approximately two seconds into the sweep attempt. If you have not generated clear forward momentum by then, the window has closed and continuing wastes energy while exposing you to counters."
+        "answer": "Abandon the reversal when the opponent successfully re-establishes a strong defensive base after your initial sweep attempt, when your grip on their leg is compromised before generating sufficient momentum, or when the opponent creates enough distance that the sweep angle is no longer viable. The decision point is approximately two seconds into the sweep attempt. If you have not generated clear forward momentum by then, the window has closed and continuing wastes energy while exposing you to counters.",
+        "answer_line": "No momentum by two seconds",
+        "distractors": {
+          "plausible": [
+            "Abandon after five seconds",
+            "Only if grip fully breaks"
+          ],
+          "trap": [
+            "Keep forcing it regardless"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from extracting their leg during the reversal transition?",
-        "answer": "Maintain constant pulling pressure on the leg with your arms throughout the sweep, and keep at least one leg hook engaged behind their knee until you are committed to the top position. The most vulnerable moment for leg extraction is during the grip transition from kneebar to side control. Minimize this window by overlapping your grip release with your body arriving in top position. If you feel the leg slipping, immediately tighten your arm grip and recommit to either the sweep or the kneebar rather than losing both."
+        "answer": "Maintain constant pulling pressure on the leg with your arms throughout the sweep, and keep at least one leg hook engaged behind their knee until you are committed to the top position. The most vulnerable moment for leg extraction is during the grip transition from kneebar to side control. Minimize this window by overlapping your grip release with your body arriving in top position. If you feel the leg slipping, immediately tighten your arm grip and recommit to either the sweep or the kneebar rather than losing both.",
+        "answer_line": "Keep hook and pressure until top",
+        "distractors": {
+          "plausible": [
+            "Release grip early for speed",
+            "Switch hands before moving"
+          ],
+          "trap": [
+            "Let go once sweep starts"
+          ]
+        }
       },
       {
         "question": "If the reversal stalls against a strong base, what chain attacks remain available?",
-        "answer": "When the sweep stalls, recycle the entanglement into other threats rather than disengaging. The opponent's widened or posted base often exposes their knee line, so re-threaten the kneebar finish; if they rotate to defend, flow toward an inside ashi or heel hook entry; if they step over to clear the knee line, transition to single leg X-guard for a fresh sweep angle. The reversal and submission threats reinforce each other, keeping you offensive instead of conceding the position."
+        "answer": "When the sweep stalls, recycle the entanglement into other threats rather than disengaging. The opponent's widened or posted base often exposes their knee line, so re-threaten the kneebar finish; if they rotate to defend, flow toward an inside ashi or heel hook entry; if they step over to clear the knee line, transition to single leg X-guard for a fresh sweep angle. The reversal and submission threats reinforce each other, keeping you offensive instead of conceding the position.",
+        "answer_line": "Recycle into kneebar or ashi",
+        "distractors": {
+          "plausible": [
+            "Disengage and reset guard",
+            "Abandon leg, switch to arm"
+          ],
+          "trap": [
+            "Let go of the leg entirely"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Practice kneebar reversals with controlled intensity, particularly during the grip transition phase where sudden releases can cause training partners to fall unexpectedly. Always communicate with your partner about the submission-to-sweep transition to prevent accidental hyperextension during the movement. Tap early if the opponent locks in a counter-kneebar during the scramble, and avoid explosive bridging motions that could damage the knee joint of either practitioner. When drilling at higher resistance, ensure both partners understand the sweep direction to prevent awkward landings."
+    "safety_considerations": "Practice kneebar reversals with controlled intensity, particularly during the grip transition phase where sudden releases can cause training partners to fall unexpectedly. Always communicate with your partner about the submission-to-sweep transition to prevent accidental hyperextension during the movement. Tap early if the opponent locks in a counter-kneebar during the scramble, and avoid explosive bridging motions that could damage the knee joint of either practitioner. When drilling at higher resistance, ensure both partners understand the sweep direction to prevent awkward landings.",
+    "clips": [
+      {
+        "id": "uJi9Pr2xxlI",
+        "title": "Rolling kneebar escape",
+        "by": "Renegade BJJ",
+        "vertical": false,
+        "channel": "Renegade BJJ",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_3SLMuTgp54",
+        "title": "Kneebar escape from half guard",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Oa0Ac9ILYu8",
+        "title": "Kneebar counter into your own kneebar",
+        "by": "Gracie Westchase",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 21,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reversal from Kneebar Control Defender",
@@ -355,23 +476,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is transitioning from kneebar attack to sweep attempt?",
-        "answer": "The earliest cue is a change in hip movement direction. During a kneebar attack, the bottom player drives their hips forward into your knee for extension. When transitioning to a sweep, their hips begin moving rotationally or laterally. You may also feel the arm grip pressure shift from a downward pull toward your feet to a lateral pull across their body. These changes typically precede the sweep by one to two seconds, providing a critical defensive window."
+        "answer": "The earliest cue is a change in hip movement direction. During a kneebar attack, the bottom player drives their hips forward into your knee for extension. When transitioning to a sweep, their hips begin moving rotationally or laterally. You may also feel the arm grip pressure shift from a downward pull toward your feet to a lateral pull across their body. These changes typically precede the sweep by one to two seconds, providing a critical defensive window.",
+        "answer_line": "Hips shift from push to rotate",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in leg pressure",
+            "They release grip completely"
+          ],
+          "trap": [
+            "Wait for the sweep to land"
+          ]
+        }
       },
       {
         "question": "Why is maintaining a forward center of gravity important when defending the reversal?",
-        "answer": "A forward center of gravity means your weight is positioned ahead of your hips, directly countering the two most common sweep directions: forward roll-through and sit-up drive. If your weight is behind your hips, which is common during kneebar defense, any forward momentum from the attacker easily topples you. By keeping weight forward, you create natural resistance to sweeping force and maintain the ability to drive pressure onto the attacker if they attempt to sit up."
+        "answer": "A forward center of gravity means your weight is positioned ahead of your hips, directly countering the two most common sweep directions: forward roll-through and sit-up drive. If your weight is behind your hips, which is common during kneebar defense, any forward momentum from the attacker easily topples you. By keeping weight forward, you create natural resistance to sweeping force and maintain the ability to drive pressure onto the attacker if they attempt to sit up.",
+        "answer_line": "Forward weight resists both sweeps",
+        "distractors": {
+          "plausible": [
+            "Backward weight aids base",
+            "Weight doesn't affect sweeps"
+          ],
+          "trap": [
+            "Lean back to add distance"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt leg extraction during a reversal defense?",
-        "answer": "The optimal extraction moment occurs during the attacker's grip transition phase when they shift from kneebar finishing grips to sweep leverage grips. During this brief window of one to two seconds, their arm control on your leg loosens as they reposition for the sweep. This is the only reliable extraction window because during the kneebar attack phase their grip is maximally tight, and during the sweep phase they have already established sweeping momentum that makes extraction difficult."
+        "answer": "The optimal extraction moment occurs during the attacker's grip transition phase when they shift from kneebar finishing grips to sweep leverage grips. During this brief window of one to two seconds, their arm control on your leg loosens as they reposition for the sweep. This is the only reliable extraction window because during the kneebar attack phase their grip is maximally tight, and during the sweep phase they have already established sweeping momentum that makes extraction difficult.",
+        "answer_line": "During the grip transition window",
+        "distractors": {
+          "plausible": [
+            "During the kneebar attack phase",
+            "After they finish the sweep"
+          ],
+          "trap": [
+            "Yank leg free at any time"
+          ]
+        }
       },
       {
         "question": "Your opponent inserts a butterfly hook under your thigh while maintaining kneebar grips - what is your immediate response?",
-        "answer": "Immediately widen your base by stepping your free leg out laterally and posting your hand on the mat. Then actively kick out the inserted hook by straightening your hooked leg and driving your knee toward the mat. If the hook cannot be removed quickly, shift your weight onto the hooked leg to flatten it against the mat, removing the elevation angle the attacker needs. Do not ignore the hook as it represents imminent sweep danger that escalates rapidly."
+        "answer": "Immediately widen your base by stepping your free leg out laterally and posting your hand on the mat. Then actively kick out the inserted hook by straightening your hooked leg and driving your knee toward the mat. If the hook cannot be removed quickly, shift your weight onto the hooked leg to flatten it against the mat, removing the elevation angle the attacker needs. Do not ignore the hook as it represents imminent sweep danger that escalates rapidly.",
+        "answer_line": "Widen base and kick out hook",
+        "distractors": {
+          "plausible": [
+            "Pull knee in to trap the hook",
+            "Wait to see if hook slips off"
+          ],
+          "trap": [
+            "Ignore hook, defend kneebar only"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defense when the attacker begins a roll-through reversal?",
-        "answer": "When you detect a roll-through signaled by the attacker tucking their chin, rotating their shoulder toward you, and initiating rolling momentum, immediately drop your base low by widening your knees and posting your hands forward. Resist the rotational force by driving your weight perpendicular to the rolling direction. If the roll gains significant momentum, follow the roll and immediately scramble for top position rather than trying to resist it, as fighting a committed roll-through often results in being swept to a worse position."
+        "answer": "When you detect a roll-through signaled by the attacker tucking their chin, rotating their shoulder toward you, and initiating rolling momentum, immediately drop your base low by widening your knees and posting your hands forward. Resist the rotational force by driving your weight perpendicular to the rolling direction. If the roll gains significant momentum, follow the roll and immediately scramble for top position rather than trying to resist it, as fighting a committed roll-through often results in being swept to a worse position.",
+        "answer_line": "Drop base, or follow the roll",
+        "distractors": {
+          "plausible": [
+            "Resist by pulling straight back",
+            "Stiff-arm to stop the rotation"
+          ],
+          "trap": [
+            "Fight the roll to the end"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -394,6 +565,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defensive application",
         "description": "Start in kneebar control bottom versus defender in top position. Attacker attempts reversal at full resistance while defender works all defensive options including base maintenance, leg extraction, and scramble recovery. Defender wins by extracting leg or maintaining position for 30 seconds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go-behind kneebar: keeping the leg when they turn",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dIt0EnHvHJA",
+        "title": "Kneebars from back-step and 50/50: keeping control",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 586,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zN1kDZnJfAY",
+        "title": "Approaching and holding the kneebar",
+        "by": "Kristian Popov",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 209,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -144,6 +144,54 @@ description: "Defend against the calf slicer from twister control. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Twister Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping and countering twister control",
+      "description": "Calf Slicer from Twister Control (Defender) film study: Escaping and countering twister control, taught by Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
+      "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister defense and escape breakdown",
+      "description": "Calf Slicer from Twister Control (Defender) film study: Twister defense and escape breakdown, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oNCcwLYDM_g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oNCcwLYDM_g",
+      "url": "https://www.youtube.com/watch?v=oNCcwLYDM_g",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT201S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping twister side control",
+      "description": "Calf Slicer from Twister Control (Defender) film study: Escaping twister side control, taught by Black Dragon BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hXp34AtDjac/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hXp34AtDjac",
+      "url": "https://www.youtube.com/watch?v=hXp34AtDjac",
+      "creator": { "@type": "Person", "name": "Black Dragon BJJ coach" },
+      "duration": "PT291S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending against the calf slicer from twister control is exceptionally challeng
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Twister Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
+
+<p class="clip-credit"><strong>Escaping and countering twister control</strong> — taught by Matrix Jiu Jitsu · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oNCcwLYDM_g)
+
+<p class="clip-credit"><strong>Twister defense and escape breakdown</strong> — taught by Unknown coach · 3:21 · <a href="https://www.youtube.com/watch?v=oNCcwLYDM_g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hXp34AtDjac)
+
+<p class="clip-credit"><strong>Escaping twister side control</strong> — taught by Black Dragon BJJ coach · 4:51 · <a href="https://www.youtube.com/watch?v=hXp34AtDjac" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

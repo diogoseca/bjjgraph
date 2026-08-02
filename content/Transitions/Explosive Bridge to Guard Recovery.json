@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "North-South/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "North-South bottom is one of the hardest pins to escape, and most exits either surrender the back or concede mount; the explosive bridge to guard recovery is the rare option that returns you to a guard you can actually attack from. This escape capitalizes on the brief windows created during opponent weight shifts, using explosive hip extension to off-balance the top player and immediately inserting the legs to establish a guard position.\n\nThe technique requires precise timing rather than raw strength. The optimal moment occurs when the top player shifts weight to attack submissions, transition to mount, or adjust their base. During these micro-transitions, the perpendicular pressure momentarily decreases, creating an opportunity for the explosive bridge. The bridge must be directed at a 45-degree angle toward the opponent's knees rather than straight up, as this creates rotational force that disrupts their base.\n\nStrategically, this escape serves as a reset mechanism when other North-South escapes fail or are unavailable. Unlike the bridge-and-turn escape to turtle, which requires committing to a turning direction, this technique keeps you on your back in a guard position where your legs become your primary defensive weapons. This makes it particularly valuable for guard players who prefer to work from closed guard or half guard rather than scrambling through turtle positions.",
   "conditions": [
     "Opponent has established North-South control with chest pressure across your torso",
@@ -223,46 +238,175 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Explosive Bridge to Guard Recovery?",
-        "answer": "The primary goal is to create enough space through explosive hip extension to insert your legs between yourself and the opponent, recomposing some form of guard (closed, half, or butterfly) from the bottom of North-South control. This resets the position to one where your legs become defensive weapons."
+        "answer": "The primary goal is to create enough space through explosive hip extension to insert your legs between yourself and the opponent, recomposing some form of guard (closed, half, or butterfly) from the bottom of North-South control. This resets the position to one where your legs become defensive weapons.",
+        "answer_line": "Insert legs, recompose guard",
+        "distractors": {
+          "plausible": [
+            "Bridge to escape to turtle",
+            "Bridge straight up to stand"
+          ],
+          "trap": [
+            "Push opponent off with arms"
+          ]
+        }
       },
       {
         "question": "Why must the bridge be directed at a 45-degree angle rather than straight up?",
-        "answer": "A 45-degree angle toward the opponent's knees creates rotational force that disrupts their base and makes it difficult to ride the bridge. A straight-up bridge allows the opponent to simply follow your hips upward and settle back down with even heavier pressure, wasting your energy without creating escape opportunity."
+        "answer": "A 45-degree angle toward the opponent's knees creates rotational force that disrupts their base and makes it difficult to ride the bridge. A straight-up bridge allows the opponent to simply follow your hips upward and settle back down with even heavier pressure, wasting your energy without creating escape opportunity.",
+        "answer_line": "Diagonal angle breaks their base",
+        "distractors": {
+          "plausible": [
+            "Straight up for maximum height",
+            "45° angled toward their head"
+          ],
+          "trap": [
+            "Bridge straight up into them"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to execute this escape?",
-        "answer": "The optimal window occurs when the opponent shifts weight to transition to mount, set up a submission, or adjust their base position. During these micro-transitions, the perpendicular chest pressure momentarily decreases as they redistribute weight. Bridge timing must coincide with this weight shift rather than fighting against consolidated pressure."
+        "answer": "The optimal window occurs when the opponent shifts weight to transition to mount, set up a submission, or adjust their base position. During these micro-transitions, the perpendicular chest pressure momentarily decreases as they redistribute weight. Bridge timing must coincide with this weight shift rather than fighting against consolidated pressure.",
+        "answer_line": "Bridge when they shift weight",
+        "distractors": {
+          "plausible": [
+            "Bridge when pressure is heaviest",
+            "Bridge right after they settle"
+          ],
+          "trap": [
+            "Bridge continuously to wear them"
+          ]
+        }
       },
       {
         "question": "What are the critical frames needed after completing the bridge?",
-        "answer": "Immediately after the bridge creates elevation, you must establish stiff-arm frames with both hands on the opponent's hips. These frames push their hips away from your centerline and prevent them from driving back down, creating the space necessary to insert your legs for guard recovery."
+        "answer": "Immediately after the bridge creates elevation, you must establish stiff-arm frames with both hands on the opponent's hips. These frames push their hips away from your centerline and prevent them from driving back down, creating the space necessary to insert your legs for guard recovery.",
+        "answer_line": "Stiff-arm frames on their hips",
+        "distractors": {
+          "plausible": [
+            "Underhook their far arm",
+            "Frame on their chest and neck"
+          ],
+          "trap": [
+            "Extend arms to shove them off"
+          ]
+        }
       },
       {
         "question": "Your opponent counters by sprawling their hips away as you bridge - how do you adapt?",
-        "answer": "When the opponent sprawls hips away, closed guard becomes unreachable. Immediately redirect to butterfly guard by inserting both feet as hooks on their inner thighs. The sprawl actually creates space for butterfly entry. Do not chase closed guard when the opponent has created distance with their hips."
+        "answer": "When the opponent sprawls hips away, closed guard becomes unreachable. Immediately redirect to butterfly guard by inserting both feet as hooks on their inner thighs. The sprawl actually creates space for butterfly entry. Do not chase closed guard when the opponent has created distance with their hips.",
+        "answer_line": "Switch to butterfly guard",
+        "distractors": {
+          "plausible": [
+            "Chase and force closed guard",
+            "Re-bridge higher to reach them"
+          ],
+          "trap": [
+            "Let go and turn to turtle"
+          ]
+        }
       },
       {
         "question": "What grip or arm position is required throughout the bridge execution and why?",
-        "answer": "Keep both elbows tight to your ribcage throughout the bridge with forearms creating a protective frame. This prevents arm isolation - if you extend arms away from your body during the escape, the opponent can easily trap an extended arm for a kimura or armbar, converting your escape attempt into their submission opportunity."
+        "answer": "Keep both elbows tight to your ribcage throughout the bridge with forearms creating a protective frame. This prevents arm isolation - if you extend arms away from your body during the escape, the opponent can easily trap an extended arm for a kimura or armbar, converting your escape attempt into their submission opportunity.",
+        "answer_line": "Keep elbows tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Post hands wide for base",
+            "Underhook one arm early"
+          ],
+          "trap": [
+            "Extend arms to push them off"
+          ]
+        }
       },
       {
         "question": "Your opponent consistently drives forward with a crossface whenever you bridge - what chain attack do you use?",
-        "answer": "Use their forward drive momentum against them by converting to a bridge-and-turn escape toward turtle. Their forward pressure creates rotational momentum you can redirect. Alternatively, execute a double bridge sequence where the first bridge draws out their forward counter, and the second bridge exploits the slight relaxation after they defend the first attempt."
+        "answer": "Use their forward drive momentum against them by converting to a bridge-and-turn escape toward turtle. Their forward pressure creates rotational momentum you can redirect. Alternatively, execute a double bridge sequence where the first bridge draws out their forward counter, and the second bridge exploits the slight relaxation after they defend the first attempt.",
+        "answer_line": "Redirect to turtle or double-bridge",
+        "distractors": {
+          "plausible": [
+            "Fight the crossface with strength",
+            "Bridge harder into the crossface"
+          ],
+          "trap": [
+            "Extend arm to frame off face"
+          ]
+        }
       },
       {
         "question": "Why is it important to accept half guard rather than fighting for closed guard when only one leg can be inserted?",
-        "answer": "The window for leg insertion is extremely brief - typically under one second. Fighting for closed guard when only half guard is available delays your escape and allows the opponent time to recover and smash the attempt. Any guard is safer than North-South bottom. Establish half guard immediately, then work to upgrade to closed guard once you have stabilized the position."
+        "answer": "The window for leg insertion is extremely brief - typically under one second. Fighting for closed guard when only half guard is available delays your escape and allows the opponent time to recover and smash the attempt. Any guard is safer than North-South bottom. Establish half guard immediately, then work to upgrade to closed guard once you have stabilized the position.",
+        "answer_line": "Take half guard immediately",
+        "distractors": {
+          "plausible": [
+            "Hold out for closed guard",
+            "Wait for a bigger window"
+          ],
+          "trap": [
+            "Delay bridge until fully clear"
+          ]
+        }
       },
       {
         "question": "What is the direction of force during the bridge and why does it matter biomechanically?",
-        "answer": "The force drives upward and toward the opponent's knees at approximately 45 degrees. This diagonal vector creates a rotational moment arm against their base rather than a linear lift they can absorb. The rotational force pitches them forward over their knees, disrupting their posting and weight distribution in a way that straight upward force cannot achieve."
+        "answer": "The force drives upward and toward the opponent's knees at approximately 45 degrees. This diagonal vector creates a rotational moment arm against their base rather than a linear lift they can absorb. The rotational force pitches them forward over their knees, disrupting their posting and weight distribution in a way that straight upward force cannot achieve.",
+        "answer_line": "Diagonal force toward their knees",
+        "distractors": {
+          "plausible": [
+            "Straight vertical lift force",
+            "Force aimed at their shoulders"
+          ],
+          "trap": [
+            "Push straight up with legs"
+          ]
+        }
       },
       {
         "question": "How does this escape differ strategically from the bridge-and-turn to turtle escape?",
-        "answer": "The bridge to guard recovery keeps you on your back with legs as primary defense, ideal for guard players. The bridge-and-turn commits you to turtle position, requiring scrambling ability. Choose guard recovery when you prefer leg-based defense and have space for leg insertion. Choose turtle when opponent pressure prevents leg insertion or you prefer wrestling-based scrambles."
+        "answer": "The bridge to guard recovery keeps you on your back with legs as primary defense, ideal for guard players. The bridge-and-turn commits you to turtle position, requiring scrambling ability. Choose guard recovery when you prefer leg-based defense and have space for leg insertion. Choose turtle when opponent pressure prevents leg insertion or you prefer wrestling-based scrambles.",
+        "answer_line": "Stay on back, legs as defense",
+        "distractors": {
+          "plausible": [
+            "Both end in the same position",
+            "Turtle recovery uses no legs"
+          ],
+          "trap": [
+            "Always choose turtle over guard"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This technique involves explosive hip extension which can strain the lower back if performed with poor mechanics. Ensure proper bridging form with drive coming from glutes and hamstrings rather than hyperextending the lumbar spine. During drilling, communicate with partners about pressure levels to prevent rib or shoulder injuries from heavy North-South pressure. Avoid this escape if you have active lower back injuries. When practicing at full resistance, ensure the mat surface provides adequate cushioning, as failed attempts result in returning to a pinned position with additional impact. Tap immediately if partner achieves arm isolation during your escape attempt rather than fighting through to prevent shoulder injuries."
+    "safety_considerations": "This technique involves explosive hip extension which can strain the lower back if performed with poor mechanics. Ensure proper bridging form with drive coming from glutes and hamstrings rather than hyperextending the lumbar spine. During drilling, communicate with partners about pressure levels to prevent rib or shoulder injuries from heavy North-South pressure. Avoid this escape if you have active lower back injuries. When practicing at full resistance, ensure the mat surface provides adequate cushioning, as failed attempts result in returning to a pinned position with additional impact. Tap immediately if partner achieves arm isolation during your escape attempt rather than fighting through to prevent shoulder injuries.",
+    "clips": [
+      {
+        "id": "960u_PQy8XM",
+        "title": "Bridge and shrimp side control escape",
+        "by": "White Belt Jiu Jitsu",
+        "vertical": false,
+        "channel": "White Belt Jiu Jitsu",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "D6toRF1vM7s",
+        "title": "Solo hip escape drill on your back",
+        "by": "Move Well Durham",
+        "vertical": false,
+        "channel": "Move Well Durham",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q4e8HHp7avk",
+        "title": "Three tricks to stop your guard getting passed",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 147,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Explosive Bridge to Guard Recovery Defender",
@@ -352,23 +496,73 @@
     "flashcards": [
       {
         "question": "What is the most reliable base adjustment to absorb an explosive bridge from North-South bottom?",
-        "answer": "Sprawl your hips back and widen your knees immediately when you feel upward force. This lowers your center of gravity and creates a broad base that disperses the rotational force of the 45-degree bridge. Drive your chest weight downward rather than fighting the upward force directly. Your goal is to make the bridge feel like pushing against a heavy, wide platform rather than a narrow post."
+        "answer": "Sprawl your hips back and widen your knees immediately when you feel upward force. This lowers your center of gravity and creates a broad base that disperses the rotational force of the 45-degree bridge. Drive your chest weight downward rather than fighting the upward force directly. Your goal is to make the bridge feel like pushing against a heavy, wide platform rather than a narrow post.",
+        "answer_line": "Sprawl hips back, widen knees",
+        "distractors": {
+          "plausible": [
+            "Stand up to break posture",
+            "Squeeze knees together tight"
+          ],
+          "trap": [
+            "Chase their hips upward"
+          ]
+        }
       },
       {
         "question": "Your opponent repeatedly plants their feet and loads their hips - how do you prevent the bridge before it happens?",
-        "answer": "When you feel them plant their feet, immediately shift your weight forward and drive chest pressure harder into their upper body. Consider transitioning toward a submission or mount attempt to force them to use their legs defensively rather than offensively. You can also control one of their legs by hooking it with your foot to disrupt their foot placement and eliminate the stable platform they need for an effective bridge."
+        "answer": "When you feel them plant their feet, immediately shift your weight forward and drive chest pressure harder into their upper body. Consider transitioning toward a submission or mount attempt to force them to use their legs defensively rather than offensively. You can also control one of their legs by hooking it with your foot to disrupt their foot placement and eliminate the stable platform they need for an effective bridge.",
+        "answer_line": "Drive chest weight, hook a leg",
+        "distractors": {
+          "plausible": [
+            "Wait for the bridge to come",
+            "Sit back to reset base"
+          ],
+          "trap": [
+            "Post hands on the mat"
+          ]
+        }
       },
       {
         "question": "How do you convert a failed bridge attempt into a positional advancement or submission opportunity?",
-        "answer": "As their bridge collapses and they return to the mat, they are momentarily exhausted and their arms may be extended from the failed frame attempt. Use this window to slide your knees past their hips for mount, or isolate an extended arm for a kimura or armbar. The post-bridge moment is when their defenses are weakest because they have committed energy to the escape and failed, creating a brief vulnerability you can exploit."
+        "answer": "As their bridge collapses and they return to the mat, they are momentarily exhausted and their arms may be extended from the failed frame attempt. Use this window to slide your knees past their hips for mount, or isolate an extended arm for a kimura or armbar. The post-bridge moment is when their defenses are weakest because they have committed energy to the escape and failed, creating a brief vulnerability you can exploit.",
+        "answer_line": "Slide to mount, attack arm",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral and restart",
+            "Wait for the next bridge"
+          ],
+          "trap": [
+            "Back off to standing"
+          ]
+        }
       },
       {
         "question": "What role does arm control play in preventing the bridge to guard recovery specifically?",
-        "answer": "Arm control is the single most important factor beyond base width. Even if the opponent achieves a strong bridge, they cannot complete the guard recovery without establishing hip frames with their arms. By controlling at least one arm through an underhook or wrist pin, you deny them the bilateral hip frames needed to maintain space after the bridge peaks. Without frames, the space created by the bridge collapses as soon as you drive your weight back down."
+        "answer": "Arm control is the single most important factor beyond base width. Even if the opponent achieves a strong bridge, they cannot complete the guard recovery without establishing hip frames with their arms. By controlling at least one arm through an underhook or wrist pin, you deny them the bilateral hip frames needed to maintain space after the bridge peaks. Without frames, the space created by the bridge collapses as soon as you drive your weight back down.",
+        "answer_line": "Control one arm, deny frames",
+        "distractors": {
+          "plausible": [
+            "Control both legs instead",
+            "Focus on neck control only"
+          ],
+          "trap": [
+            "Ignore arms, add more weight"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges powerfully and gets both hands on your hips as frames - what is your immediate recovery?",
-        "answer": "Do not try to push through their frames with upper body strength. Instead, windshield-wiper your hips to one side to collapse one of their arm frames, then immediately drive your weight down on the side where the frame collapsed. Simultaneously walk your knees forward past their hip line to transition toward mount. If both frames are strong, circle to one side and attack the near arm with a kimura grip, which forces them to release the frame to defend the submission."
+        "answer": "Do not try to push through their frames with upper body strength. Instead, windshield-wiper your hips to one side to collapse one of their arm frames, then immediately drive your weight down on the side where the frame collapsed. Simultaneously walk your knees forward past their hip line to transition toward mount. If both frames are strong, circle to one side and attack the near arm with a kimura grip, which forces them to release the frame to defend the submission.",
+        "answer_line": "Windshield wipe, collapse a frame",
+        "distractors": {
+          "plausible": [
+            "Push through with upper body",
+            "Pull both arms in together"
+          ],
+          "trap": [
+            "Grab both wrists and pull"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -391,6 +585,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds starting from North-South. Top player works to maintain control and advance while bottom player uses bridge to guard recovery and chain escapes. Integrate all defensive tools against realistic escape sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Y1Sxim-5NRc",
+        "title": "Underhook and crossface pin against the bridge",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 261,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_JPZaIcr90c",
+        "title": "Escaping side control against a bigger opponent",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 69,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "IHAsHEanLPw",
+        "title": "Protecting elbows under side control and north-south",
+        "by": "RedBeltJiuJitsu",
+        "vertical": false,
+        "channel": "RedBeltJiuJitsu",
+        "duration": 81,
+        "verified": "2026-07-16"
       }
     ]
   },

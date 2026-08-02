@@ -26,21 +26,33 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Outside Ashi-Garami/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Few counter-attacks reframe a defensive leg-entanglement exchange as sharply as the toe hold from the top of Outside Ashi-Garami. The attacker—whose own leg is trapped in the opponent's entanglement—reaches for the bottom player's exposed foot and secures a figure-four grip, creating powerful rotational force through the ankle, foot, and knee structures. This technique serves as a critical counter-attacking weapon that punishes opponents for maintaining loose leg configurations or becoming overly focused on their own offensive attacks.\n\nThe toe hold functions by isolating the opponent's foot and twisting it inward using a kimura-style figure-four grip locked around the ankle. The rotational force attacks multiple structures simultaneously: the lateral ankle ligaments, the metatarsal joints of the foot, and transmits torque through the tibial-fibular connection to the knee. This multi-joint vulnerability makes the toe hold particularly dangerous and demands careful, progressive application during training. Unlike heel hooks which primarily attack the knee through rotational force on the heel, the toe hold distributes stress across the entire foot-ankle-knee kinetic chain.\n\nStrategically, the toe hold from Outside Ashi creates a powerful dilemma for the bottom player. They must choose between maintaining their offensive leg entanglement and defending their foot from the rotational attack. When the bottom player commits both hands to a heel hook attempt on the top player's trapped leg, their own feet become unprotected. This counter-attacking dynamic makes the toe hold an essential technique for anyone regularly defending leg entanglements, transforming a defensive position into an immediate submission threat that forces the opponent to reconsider their offensive commitment.",
   "safety_considerations": {
     "injury_risks": [
@@ -304,47 +316,157 @@
       {
         "question": "What anatomical structures does the toe hold primarily attack and how does force transmit through the kinetic chain?",
         "answer": "The toe hold attacks multiple structures simultaneously through rotational force. The primary targets are the lateral ankle ligaments (anterior talofibular, calcaneofibular, and posterior talofibular ligaments) and the metatarsal joints of the foot. Secondary stress transmits through the tibial-fibular connection to the knee joint, particularly threatening the lateral collateral ligament and meniscus. This multi-joint chain is what makes the toe hold especially dangerous—structural failure can occur at the ankle, the knee, or both simultaneously.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ankle ligaments, then knee chain",
+        "distractors": {
+          "plausible": [
+            "Ankle ligaments only",
+            "Knee ligaments only"
+          ],
+          "trap": [
+            "Just muscle soreness, not injury"
+          ]
+        }
       },
       {
         "question": "What are the indicators that your opponent is approaching their structural breaking point during the toe hold finish?",
         "answer": "Key indicators include sudden involuntary muscular tension in the opponent's leg as their body reflexively resists the rotation, audible gasps or sharp inhalations indicating acute pain onset, frantic grip-breaking attempts or pulling motions that increase in urgency, verbal distress signals or cursing, and visible facial grimacing. Critically, the toe hold's structural failure threshold is dangerously close to its pain threshold, meaning damage can begin at the same moment the opponent first feels significant pain. At the first sign of these indicators, be prepared for an immediate tap and release.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Involuntary tension + sharp gasps",
+        "distractors": {
+          "plausible": [
+            "Opponent goes limp and relaxes",
+            "Heavy sweating and fatigue"
+          ],
+          "trap": [
+            "Wait to hear the ligament pop"
+          ]
+        }
       },
       {
         "question": "What four elements of control must be established before you can effectively finish the toe hold?",
         "answer": "Before finishing, you need: (1) a fully locked figure-four grip with proper hand placement cupping the ball of the foot and toes, (2) chest-to-foot connection with zero space between the trapped foot and your body creating a stable fulcrum, (3) active leg entanglement maintaining the Outside Ashi-Garami position to prevent opponent hip rotation that would relieve pressure, and (4) stable base through your free leg and hip positioning to prevent being swept during the finish. Without all four elements simultaneously, the finish will either fail entirely or risk causing injury through uncontrolled force application.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip, chest, hooks, and base",
+        "distractors": {
+          "plausible": [
+            "Only need to isolate the foot",
+            "A deep hip pin is enough"
+          ],
+          "trap": [
+            "Crank the ankle before locked in"
+          ]
+        }
       },
       {
         "question": "At what point does the toe hold become effectively inescapable for the opponent?",
         "answer": "The toe hold reaches the point of no escape when three conditions align simultaneously: the figure-four grip is fully locked with the foot pressed tightly against your chest eliminating all extraction space, the opponent's hip rotation is completely blocked by your active leg configuration preventing them from rolling with the pressure, and you have initiated rotational twist past approximately 20-30 degrees of inward rotation where structural tension becomes significant. Before all three conditions are met, the opponent can still extract their foot, rotate their hips to relieve pressure, or strip the figure-four grip. This is why establishing complete control before applying pressure is critical.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip locked, hips blocked, twisted",
+        "distractors": {
+          "plausible": [
+            "Figure-four locked, no twist yet",
+            "Hip block alone, grip loose"
+          ],
+          "trap": [
+            "The instant fingers touch the foot"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that reduces toe hold effectiveness and how do you correct it?",
         "answer": "The most common finishing error is gripping too high on the foot or ankle rather than cupping the ball of the foot and toes. Gripping the shin or upper ankle reduces the mechanical lever arm and diminishes rotational force dramatically. The grip must cup the metatarsal heads, creating maximum distance between the fulcrum point (your forearm positioned under the ankle) and the force application point (your hands on the toes and ball). This distance determines the torque generated. Gripping high essentially creates a weak calf slicer rather than an effective toe hold.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip too high, not the ball of foot",
+        "distractors": {
+          "plausible": [
+            "Not squeezing your knees enough",
+            "Rushing the finish too fast"
+          ],
+          "trap": [
+            "Cup the heel, not the toes"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip if the opponent's foot becomes sweaty and starts slipping during the finishing sequence?",
         "answer": "For slippery feet, adjust your grip by interlocking your fingers more deeply in the figure-four and squeezing your elbows together to create compression-based control rather than relying solely on friction. Press the foot harder against your chest using your entire upper body, not just your arms, to maintain the fulcrum connection. You can also modify the figure-four by gripping your own wrist rather than your hand for a mechanically tighter lock. Never compensate for grip loss by applying explosive force—if the grip fails completely, release and re-establish rather than spiking.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeeze elbows, press with chest",
+        "distractors": {
+          "plausible": [
+            "Just grip harder with fingers",
+            "Abandon grip, switch attacks"
+          ],
+          "trap": [
+            "Explode into a fast crank"
+          ]
+        }
       },
       {
         "question": "Why must toe holds be applied slowly and what specific injury risks exist from rapid or explosive application?",
         "answer": "Toe holds must be applied slowly because the rotational mechanism can cause structural ligament damage before the opponent registers sufficient pain to tap. Rapid application risks: lateral ankle ligament tears requiring 6-12 weeks recovery, ankle joint dislocation requiring 3-6 months with possible surgical reduction, metatarsal fractures requiring 6-8 weeks in a cast or boot, and most critically, knee ligament damage including MCL tears and meniscus injury from torque transmission through the kinetic chain requiring 4-12 months recovery with potential surgery. The ankle's pain threshold is extremely close to its structural failure threshold, meaning damage occurs nearly simultaneously with pain onset. Progressive application over 3-5 seconds gives the opponent adequate time to recognize the threat and tap before structural damage begins.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Pain lags injury, so go slow",
+        "distractors": {
+          "plausible": [
+            "Ligaments hurt before they tear",
+            "Speed only affects your control"
+          ],
+          "trap": [
+            "Crank explosively to beat the tap"
+          ]
+        }
       },
       {
         "question": "In competition, when is the toe hold the highest-percentage counter-attack versus other options from Outside Ashi-Garami Top?",
         "answer": "The toe hold is highest percentage when the opponent's foot is clearly exposed and accessible near your body, they are committed to maintaining their entanglement with both hands occupied on their own offensive attack rather than defending their feet, and their attention is directed away from foot defense. It is lower percentage when the opponent maintains active foot movement making grip establishment difficult, when they have strong frames preventing your reach, when they are actively mobile with good hip movement, or when transitioning to escape would be more energy efficient. Under IBJJF rules toe holds are only legal at brown belt and above, which affects competition applicability. In ADCC and submission-only formats the toe hold is always available as a counter-weapon.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Foot exposed, hands elsewhere",
+        "distractors": {
+          "plausible": [
+            "Anytime you're in ashi garami",
+            "Only after they're exhausted"
+          ],
+          "trap": [
+            "Force it through strong frames"
+          ]
+        }
       },
       {
         "question": "How do you manage the dilemma between maintaining your toe hold attempt and defending your own trapped leg when the opponent counter-attacks?",
         "answer": "This dilemma requires honest real-time assessment of finishing proximity. If your toe hold is further along in the finishing sequence than their counter-attack (figure-four locked, foot on chest, rotation initiated), you may continue and force a simultaneous finish race. If their attack is more advanced or equally developed, you must immediately abandon the toe hold and prioritize defending your own leg—structural damage to your knee from a heel hook is far more severe than a missed toe hold opportunity. The decision point is approximately 2 seconds: if you cannot generate a tap within 2 seconds of recognizing their counter-attack, release and defend. Never stubbornly hold a losing submission exchange.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Race if ahead, else defend leg",
+        "distractors": {
+          "plausible": [
+            "Always finish your own attack first",
+            "Always bail to defend immediately"
+          ],
+          "trap": [
+            "Hold on stubbornly to win the race"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "tUKGafnOlJo",
+        "title": "Slide into Ashi to Straight Toe Hold",
+        "by": "Josh Star-Lord Leduc",
+        "vertical": false,
+        "channel": "Josh Star-Lord Leduc",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zsnGef5-N2g",
+        "title": "Attacking the Toe Hold from Outside Ashi",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 202,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -438,42 +560,122 @@
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a toe hold from Outside Ashi-Garami Top?",
         "answer": "The earliest cue is the opponent redirecting their hands away from their normal defensive positioning—protecting their trapped leg or maintaining frames—and reaching toward your feet. Specifically, watch for their near-side hand moving toward the ball of your foot or your toes. This hand movement precedes the figure-four establishment by 1-2 seconds, providing a critical defensive window where grip prevention is straightforward. The physical sensation of your foot being cupped or gripped is the secondary cue, but by that point you are already behind in the defensive sequence.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand reaching toward your foot",
+        "distractors": {
+          "plausible": [
+            "Feeling your foot get cupped",
+            "Noticing rotation has started"
+          ],
+          "trap": [
+            "Wait for the figure-four to lock"
+          ]
+        }
       },
       {
         "question": "How should you manage the dilemma between defending the toe hold and maintaining your offensive leg entanglement?",
         "answer": "The correct priority depends on the toe hold's progression stage. If you detect the grip attempt early before figure-four establishment, you can often strip the grip with one hand while maintaining your entanglement with your legs—no positional sacrifice needed. If the figure-four is locked but rotation has not started, address it immediately by stripping the cupping hand while keeping your hooks active. Only abandon your entanglement entirely if the toe hold is fully locked with active rotation that you cannot relieve through hip rotation or grip stripping. Critically, the opponent's commitment to the toe hold actually creates advancement opportunities because their hands leave their defensive positioning.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip grip early, keep hooks",
+        "distractors": {
+          "plausible": [
+            "Abandon hooks the moment they grip",
+            "Keep attacking, ignore their grip"
+          ],
+          "trap": [
+            "Let the grip lock in as bait"
+          ]
+        }
       },
       {
         "question": "At what point should you tap to a toe hold rather than continuing to defend?",
         "answer": "Tap immediately when you feel sharp rotational pain in your ankle or knee that you cannot relieve through hip rotation or grip fighting within 2-3 seconds of continuous effort. The toe hold's primary danger is its ability to cause structural ligament damage before pain becomes unbearable—the ankle's structural failure threshold and pain threshold are dangerously close. If the figure-four is fully locked, your foot is pressed against their chest, and your hip rotation is blocked by their leg control, the structural risk is extreme and the submission is essentially complete. In training, always err heavily on the side of tapping early. No training roll justifies ligament surgery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Sharp pain unrelieved in seconds",
+        "distractors": {
+          "plausible": [
+            "Once you hear a loud pop",
+            "When you feel mild discomfort"
+          ],
+          "trap": [
+            "Grit through it to avoid tapping"
+          ]
+        }
       },
       {
         "question": "What defensive technique provides the best chance of escaping a partially applied toe hold where rotation has already begun?",
         "answer": "Rotating your hips in the same direction the opponent is twisting your foot provides the most immediate pressure relief because it collapses the rotational angle between your foot and your leg. This hip rotation buys critical time to strip the figure-four grip. Combine the hip rotation with two-on-one grip fighting targeting the cupping hand (the hand wrapped around your toes and ball of foot) specifically. Once you break that cupping grip, the figure-four loses its structural integrity and you can retract your foot. The combination of hip rotation plus targeted grip stripping is significantly more effective than either technique applied alone.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotate hips with twist, strip grip",
+        "distractors": {
+          "plausible": [
+            "Rotate hips against the twist",
+            "Strip the grip, don't move hips"
+          ],
+          "trap": [
+            "Yank your foot straight out"
+          ]
+        }
       },
       {
         "question": "How can you use the opponent's toe hold attempt to advance your own leg entanglement position?",
         "answer": "When the opponent commits both hands to the toe hold, they remove their hands from defensive hip positioning and frame structures that were preventing your advancement. This creates a window to advance your leg entanglement from Outside Ashi to Inside Ashi-Garami or even toward Saddle. Thread your inside leg deeper into the inside space while their attention and grip resources are focused on your foot. The advancement often forces them to abandon the toe hold entirely to address the worsening entanglement threatening a higher-percentage heel hook. This counter-advancement is the highest-level defensive response because it transforms their offense into your positional improvement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thread leg deeper toward saddle",
+        "distractors": {
+          "plausible": [
+            "Retract foot and reset position",
+            "Stall until they release grip"
+          ],
+          "trap": [
+            "Switch to attacking their arms"
+          ]
+        }
       },
       {
         "question": "What specific anatomical structures are most at risk from a toe hold and how does this inform your defensive urgency?",
         "answer": "The toe hold threatens the lateral ankle ligaments (anterior talofibular, calcaneofibular) through direct rotational force, plus the metatarsal joints through compression and twist. Critically, rotational torque transmits through the tibial-fibular connection to the knee, threatening the MCL and meniscus. This multi-joint kinetic chain means that even if your ankle feels manageable, your knee may be approaching structural failure simultaneously. You cannot rely solely on ankle pain as your warning system. If you feel any rotational pressure that you cannot immediately relieve through hip rotation or grip fighting, treat it as an emergency requiring instant defensive response or immediate tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ankle and knee both at risk",
+        "distractors": {
+          "plausible": [
+            "Foot joints are the only concern",
+            "Nothing above the trapped foot"
+          ],
+          "trap": [
+            "Ignore mild pressure, keep rolling"
+          ]
+        }
       },
       {
         "question": "How does the timing of your defensive response differ between the three stages of a toe hold: initial grip, figure-four lock, and active rotation?",
         "answer": "At the initial grip stage when the opponent cups your foot, defense is straightforward: retract your foot or strip their single-hand grip with minimal effort and no positional sacrifice. At the figure-four lock stage when both arms are connected but no rotation has begun, defense requires more committed two-on-one grip fighting targeting the cupping hand, combined with hip movement to prevent the opponent from settling into position. Once active rotation begins, defense becomes urgent and requires simultaneous hip rotation in the direction of the twist plus aggressive grip stripping. If you cannot relieve pressure within 2-3 seconds of active rotation, tap immediately. Each successive stage demands progressively more energy and urgency, making early recognition and prevention vastly superior to late-stage escape attempts.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Easier early, urgent once rotating",
+        "distractors": {
+          "plausible": [
+            "Same effort at every stage",
+            "Hardest to stop at first grip"
+          ],
+          "trap": [
+            "Relax after the figure-four locks"
+          ]
+        }
       },
       {
         "question": "What is the correct response if you feel a sharp pop or sudden acute pain in your ankle during a toe hold attempt in training?",
         "answer": "Stop all movement immediately and tap emphatically with both verbal and physical signals. Do not attempt to work through any sharp pain or popping sensation. After tapping and being released, do not continue rolling in that session. Inform your training partner and coaching staff, apply ice immediately, and carefully assess the joint's range of motion without forcing it. Even if the pain subsides quickly, a pop may indicate ligament micro-tearing that worsens significantly with continued activity. Seek medical evaluation before returning to any training involving leg locks. In competition, the same principle applies—no match result justifies risking long-term joint damage from a partially torn ligament that could have healed with early intervention and rest.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap now, stop rolling, ice it",
+        "distractors": {
+          "plausible": [
+            "Finish the round, then rest",
+            "Walk it off and self-assess"
+          ],
+          "trap": [
+            "Keep going to salvage the win"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -496,6 +698,26 @@
         "phase": "Phase 4: Counter-Advancement",
         "focus": "Using toe hold defense as a catalyst for positional improvement",
         "description": "Start in Outside Ashi-Garami bottom with partner attempting toe holds at full resistance. Practice defending the toe hold while simultaneously advancing to Inside Ashi-Garami or deeper entanglement. Develop the ability to recognize the positional window created by the opponent's hand commitment and exploit it for advancement while maintaining foot safety."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to Escape the Toe Hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "f4OOg_35Xjk",
+        "title": "How to Defend Against Toe Holds",
+        "by": "The Grappling Academy",
+        "vertical": false,
+        "channel": "The Grappling Academy",
+        "duration": 203,
+        "verified": "2026-07-14"
       }
     ]
   }

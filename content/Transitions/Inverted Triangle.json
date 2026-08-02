@@ -13,25 +13,37 @@
     "inverted",
     "entry-guide"
   ],
-  "from_position": "Triangle Control/Bottom",
+  "from_position": "Triangle Escape Position/Bottom",
   "outcomes": [
     {
-      "to": "Inverted Triangle",
-      "probability": 55,
+      "to": "Triangle Control/Bottom",
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
-      "to": "Triangle Control/Bottom",
-      "probability": 30,
+      "to": "Triangle Escape Position/Bottom",
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Inverted Triangle is an advanced submission variation that attacks the opponent from a reverse angle when they defend the standard front triangle by turning their shoulder inward. Rather than maintaining the traditional triangle configuration with legs wrapped around the neck and one arm, the inverted variation requires rotating your body 180 degrees to attack from the opposite side, placing your legs in a reverse configuration that catches many opponents off guard. This technique transforms a defensive reaction into a submission opportunity by capitalizing on the opponent's movement away from the standard choking angle.\n\nStrategically, the inverted triangle serves as a critical tool in the triangle attack system because it punishes one of the most common defenses—turning the shoulder inward to relieve pressure. When an opponent successfully defends the standard triangle by rotating their trapped shoulder toward your hip, they inadvertently create the opening for the inverted attack. The technique requires excellent hip mobility, spatial awareness, and the ability to maintain leg control while inverting your body position. Advanced practitioners use this as a catch-all solution that makes their entire triangle game more dangerous.\n\nThe biomechanics of the inverted triangle differ significantly from the standard variation. The choking pressure comes from the opposite angle, with your legs positioned to compress the carotid arteries from behind rather than in front. This requires adjusting your hip angle, leg positioning, and grip placement to accommodate the reversed geometry. The inverted triangle also opens up different transition options, including back takes and armbar variations that aren't available from the standard triangle position.",
   "conditions": [
     "Standard triangle control must be established with legs locked around opponent's neck and one arm",
@@ -247,54 +259,203 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that signals the opportunity to attempt an inverted triangle?",
-        "answer": "The primary trigger is when the opponent turns their trapped shoulder inward toward your hip to defend the standard triangle choke. This shoulder rotation, while effective against the front triangle, creates the opening for the inverted attack by moving their neck into the reverse choking angle."
+        "answer": "The primary trigger is when the opponent turns their trapped shoulder inward toward your hip to defend the standard triangle choke. This shoulder rotation, while effective against the front triangle, creates the opening for the inverted attack by moving their neck into the reverse choking angle.",
+        "answer_line": "Shoulder turns in toward hip",
+        "distractors": {
+          "plausible": [
+            "Opponent postures straight up",
+            "Opponent pulls head back"
+          ],
+          "trap": [
+            "Opponent stacks you forward"
+          ]
+        }
       },
       {
         "question": "What grip must you establish before initiating the body rotation for the inverted triangle?",
-        "answer": "You must establish a grip on the opponent's far hip or belt line before rotating. This grip serves as your anchor point for the rotation, allowing you to accelerate through the movement and control their base while maintaining leg connection throughout the transition."
+        "answer": "You must establish a grip on the opponent's far hip or belt line before rotating. This grip serves as your anchor point for the rotation, allowing you to accelerate through the movement and control their base while maintaining leg connection throughout the transition.",
+        "answer_line": "Grip far hip or belt line",
+        "distractors": {
+          "plausible": [
+            "Grip head control only",
+            "Grip near-side sleeve"
+          ],
+          "trap": [
+            "Release triangle to reach hip"
+          ]
+        }
       },
       {
         "question": "In which direction should you rotate your body relative to the opponent's shoulder turn?",
-        "answer": "You should always rotate toward the opponent's back, following the direction of their shoulder rotation. If they turn their right shoulder inward, you rotate to your right (toward their back). Rotating in the opposite direction works against you and pushes their shoulder back into alignment."
+        "answer": "You should always rotate toward the opponent's back, following the direction of their shoulder rotation. If they turn their right shoulder inward, you rotate to your right (toward their back). Rotating in the opposite direction works against you and pushes their shoulder back into alignment.",
+        "answer_line": "Rotate toward their back",
+        "distractors": {
+          "plausible": [
+            "Rotate toward their face",
+            "Rotate away, circle back later"
+          ],
+          "trap": [
+            "Rotate against their shoulder turn"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing up during your inverted triangle rotation—how do you respond?",
-        "answer": "Maintain constant downward pressure on their head throughout the rotation using your head control grip. If posture breaks free significantly, you have two options: accelerate through the rotation using your far hip grip to complete before they fully posture, or abort the inversion and return to standard triangle attacks."
+        "answer": "Maintain constant downward pressure on their head throughout the rotation using your head control grip. If posture breaks free significantly, you have two options: accelerate through the rotation using your far hip grip to complete before they fully posture, or abort the inversion and return to standard triangle attacks.",
+        "answer_line": "Keep downward pressure on the head",
+        "distractors": {
+          "plausible": [
+            "Rush the far-hip rotation now",
+            "Abort back to standard triangle"
+          ],
+          "trap": [
+            "Release head control to reinvert"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines whether the inverted triangle will finish?",
-        "answer": "The hip angle after completing the inversion is the most critical detail. You must angle your hips 30-45 degrees off the opponent's centerline with your choking leg's knee pointing toward their trapped shoulder. A flat, parallel body position creates weak choking pressure that opponents can defend indefinitely."
+        "answer": "The hip angle after completing the inversion is the most critical detail. You must angle your hips 30-45 degrees off the opponent's centerline with your choking leg's knee pointing toward their trapped shoulder. A flat, parallel body position creates weak choking pressure that opponents can defend indefinitely.",
+        "answer_line": "Hips 30-45°, knee to shoulder",
+        "distractors": {
+          "plausible": [
+            "Square hips 90° to opponent",
+            "Angle hips, knee points away"
+          ],
+          "trap": [
+            "Stay flat and parallel to body"
+          ]
+        }
       },
       {
         "question": "What common failure point allows opponents to extract their trapped arm during the inversion?",
-        "answer": "The most common failure point is releasing or loosening the triangle lock during the body rotation to make the turn easier. This momentary loosening creates enough space for the opponent to extract their arm. The lock must remain tight throughout the entire rotation."
+        "answer": "The most common failure point is releasing or loosening the triangle lock during the body rotation to make the turn easier. This momentary loosening creates enough space for the opponent to extract their arm. The lock must remain tight throughout the entire rotation.",
+        "answer_line": "Loosening the lock mid-rotation",
+        "distractors": {
+          "plausible": [
+            "Opponent overpowers grip strength",
+            "Poor hip flexibility mid-turn"
+          ],
+          "trap": [
+            "Delaying the rotation timing"
+          ]
+        }
       },
       {
         "question": "If your opponent stacks you by driving forward during the inverted triangle transition, what is the appropriate response?",
-        "answer": "Continue the rotation through the stack rather than fighting it. The inverted angle actually becomes easier to achieve when stacked because your body weight assists the rotation. If completely flattened and unable to continue, transition to omoplata as the stack defense creates that opening."
+        "answer": "Continue the rotation through the stack rather than fighting it. The inverted angle actually becomes easier to achieve when stacked because your body weight assists the rotation. If completely flattened and unable to continue, transition to omoplata as the stack defense creates that opening.",
+        "answer_line": "Rotate through, weight helps you",
+        "distractors": {
+          "plausible": [
+            "Fight the stack, hold position",
+            "Bail out to closed guard"
+          ],
+          "trap": [
+            "Release lock and post hands"
+          ]
+        }
       },
       {
         "question": "When should you choose armbar over inverted triangle from triangle control?",
-        "answer": "Choose armbar when the opponent defends by posturing up vertically or pulling their head back. This posture defense exposes their arm for the armbar transition. Reserve the inverted triangle specifically for shoulder-turn defense, and use omoplata for stacking defense. Each defensive reaction has its optimal counter."
+        "answer": "Choose armbar when the opponent defends by posturing up vertically or pulling their head back. This posture defense exposes their arm for the armbar transition. Reserve the inverted triangle specifically for shoulder-turn defense, and use omoplata for stacking defense. Each defensive reaction has its optimal counter.",
+        "answer_line": "Posture-up defense means armbar",
+        "distractors": {
+          "plausible": [
+            "Stacking defense means armbar",
+            "Shoulder-turn defense means armbar"
+          ],
+          "trap": [
+            "Any defense, switch to armbar"
+          ]
+        }
       },
       {
         "question": "What is your first priority immediately after completing the body rotation into inverted position?",
-        "answer": "Your first priority is establishing head control by reaching around to pull the opponent's head down toward your hip. This must happen before fine-tuning leg position because without head control, the opponent will posture up and begin escape sequences from the new angle."
+        "answer": "Your first priority is establishing head control by reaching around to pull the opponent's head down toward your hip. This must happen before fine-tuning leg position because without head control, the opponent will posture up and begin escape sequences from the new angle.",
+        "answer_line": "Secure head control first",
+        "distractors": {
+          "plausible": [
+            "Adjust leg angle first",
+            "Tighten choking leg first"
+          ],
+          "trap": [
+            "Release legs to reset position"
+          ]
+        }
       },
       {
         "question": "How does the direction of choking force differ between standard and inverted triangle?",
-        "answer": "In the standard triangle, the choking pressure compresses the carotid arteries from the front with your legs wrapped around the neck attacking from anterior angle. In the inverted triangle, the pressure comes from behind the opponent's neck, with your legs positioned to compress the arteries from a posterior angle after the 180-degree body rotation."
+        "answer": "In the standard triangle, the choking pressure compresses the carotid arteries from the front with your legs wrapped around the neck attacking from anterior angle. In the inverted triangle, the pressure comes from behind the opponent's neck, with your legs positioned to compress the arteries from a posterior angle after the 180-degree body rotation.",
+        "answer_line": "Front pressure vs behind-neck",
+        "distractors": {
+          "plausible": [
+            "Both compress from the front",
+            "Inverted compresses from the side"
+          ],
+          "trap": [
+            "Inverted uses armbar-style pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent extracts their trapped arm midway through your inversion—what chain attack do you pursue?",
-        "answer": "When the opponent extracts their arm during inversion, immediately transition to a back take. The arm extraction creates space between your bodies, and your rotation is already moving you toward their back. Release the triangle configuration and establish a seatbelt grip as you complete the rotation onto their back, converting the failed submission into a dominant position."
+        "answer": "When the opponent extracts their arm during inversion, immediately transition to a back take. The arm extraction creates space between your bodies, and your rotation is already moving you toward their back. Release the triangle configuration and establish a seatbelt grip as you complete the rotation onto their back, converting the failed submission into a dominant position.",
+        "answer_line": "Chain into a back take",
+        "distractors": {
+          "plausible": [
+            "Reset back to closed guard",
+            "Switch straight to armbar"
+          ],
+          "trap": [
+            "Force the triangle lock anyway"
+          ]
+        }
       },
       {
         "question": "What hip mobility prerequisite must you develop before attempting the inverted triangle under live resistance?",
-        "answer": "You need the ability to rotate your hips 180 degrees while maintaining a tight leg triangle configuration around the opponent's neck and shoulder. This requires flexibility in the hip flexors, adductors, and lower back to swing your body underneath without losing the squeeze. Drill the rotation solo and with a compliant partner extensively before adding resistance to prevent lower back strain."
+        "answer": "You need the ability to rotate your hips 180 degrees while maintaining a tight leg triangle configuration around the opponent's neck and shoulder. This requires flexibility in the hip flexors, adductors, and lower back to swing your body underneath without losing the squeeze. Drill the rotation solo and with a compliant partner extensively before adding resistance to prevent lower back strain.",
+        "answer_line": "180° hip rotation, legs tight",
+        "distractors": {
+          "plausible": [
+            "Just need strong grip strength",
+            "Explosive hip thrust power"
+          ],
+          "trap": [
+            "Skip drilling, add resistance early"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The inverted triangle involves significant rotation of your body while maintaining leg pressure on your opponent's neck, creating unique safety concerns. During training, communicate with your partner throughout the rotation phase—the transition can disorient them and they may not realize the submission is tightening from the new angle. Always allow adequate time for your partner to tap before unconsciousness, as blood chokes can cause loss of consciousness within seconds. Practitioners with neck injuries or cervical spine issues should approach this technique cautiously, as the rotation places unusual forces on the spine. The inverted position can also strain your lower back if you lack the hip mobility to complete the rotation smoothly—build flexibility before attempting under resistance. In competition, be prepared for opponents who don't recognize the danger of the inverted angle and may resist beyond their limits. Release immediately upon feeling the tap or observing signs of unconsciousness such as body going limp or cessation of defensive movement."
+    "safety_considerations": "The inverted triangle involves significant rotation of your body while maintaining leg pressure on your opponent's neck, creating unique safety concerns. During training, communicate with your partner throughout the rotation phase—the transition can disorient them and they may not realize the submission is tightening from the new angle. Always allow adequate time for your partner to tap before unconsciousness, as blood chokes can cause loss of consciousness within seconds. Practitioners with neck injuries or cervical spine issues should approach this technique cautiously, as the rotation places unusual forces on the spine. The inverted position can also strain your lower back if you lack the hip mobility to complete the rotation smoothly—build flexibility before attempting under resistance. In competition, be prepared for opponents who don't recognize the danger of the inverted angle and may resist beyond their limits. Release immediately upon feeling the tap or observing signs of unconsciousness such as body going limp or cessation of defensive movement.",
+    "clips": [
+      {
+        "id": "9Z741GgDWj0",
+        "title": "Inverted triangle setup",
+        "by": "Doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 15,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xAW3spYg9vE",
+        "title": "Inverted triangle breakdown",
+        "by": "Bristol Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Bristol Jiu Jitsu",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QPpQnCDw65k",
+        "title": "Crucifix to inverted triangle",
+        "by": "Zen Spot coach",
+        "vertical": false,
+        "channel": "Zen Spot",
+        "duration": 25,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inverted Triangle Defender",
@@ -380,23 +541,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting an inverted triangle rather than continuing the standard triangle attack?",
-        "answer": "The earliest cue is when the opponent releases their head control grip and reaches across your body toward your far hip or belt line. This grip change is the necessary precursor to the rotation—they cannot rotate without an anchor point on your far side. Recognizing this grip switch gives you the maximum defensive window before the rotation begins."
+        "answer": "The earliest cue is when the opponent releases their head control grip and reaches across your body toward your far hip or belt line. This grip change is the necessary precursor to the rotation—they cannot rotate without an anchor point on your far side. Recognizing this grip switch gives you the maximum defensive window before the rotation begins.",
+        "answer_line": "Grip switches to your far hip",
+        "distractors": {
+          "plausible": [
+            "Their neck starts turning",
+            "Their legs suddenly go loose"
+          ],
+          "trap": [
+            "They release the triangle lock"
+          ]
+        }
       },
       {
         "question": "Why is the rotation phase the best window for defensive intervention against the inverted triangle?",
-        "answer": "During the rotation phase, the attacker's triangle lock is at its loosest because their legs must adjust to accommodate the 180-degree body swing. Their head control grip is transitioning, their base is unstable, and they cannot simultaneously rotate and tighten the submission. This transitional state creates the highest probability window for posture recovery, arm extraction, or stacking defense."
+        "answer": "During the rotation phase, the attacker's triangle lock is at its loosest because their legs must adjust to accommodate the 180-degree body swing. Their head control grip is transitioning, their base is unstable, and they cannot simultaneously rotate and tighten the submission. This transitional state creates the highest probability window for posture recovery, arm extraction, or stacking defense.",
+        "answer_line": "Lock loosest, base unstable",
+        "distractors": {
+          "plausible": [
+            "Choke pressure is strongest then",
+            "Opponent is fully committed"
+          ],
+          "trap": [
+            "Wait until rotation completes"
+          ]
+        }
       },
       {
         "question": "Your opponent has completed the inverted triangle rotation and is pulling your head down from the reverse angle—what is your escape priority sequence?",
-        "answer": "First, tuck your chin and create space between your neck and shoulder to reduce immediate choking pressure. Second, address the angle by squaring your hips to the attacker to disrupt the perpendicular geometry they need. Third, work to extract your trapped arm by tucking the elbow tight and driving it toward your hip. Fourth, once the arm is free or the angle is disrupted, posture up and disengage. Do not attempt head extraction until the triangle structure is compromised."
+        "answer": "First, tuck your chin and create space between your neck and shoulder to reduce immediate choking pressure. Second, address the angle by squaring your hips to the attacker to disrupt the perpendicular geometry they need. Third, work to extract your trapped arm by tucking the elbow tight and driving it toward your hip. Fourth, once the arm is free or the angle is disrupted, posture up and disengage. Do not attempt head extraction until the triangle structure is compromised.",
+        "answer_line": "Tuck chin, square hips, free arm",
+        "distractors": {
+          "plausible": [
+            "Extract the arm before anything",
+            "Posture up immediately first"
+          ],
+          "trap": [
+            "Pull head out before freeing arm"
+          ]
+        }
       },
       {
         "question": "You feel the opponent's hips swinging but their rotation is already past 90 degrees—what is the most effective defensive response at this late stage?",
-        "answer": "At this late stage, posture recovery and stacking are less effective because the rotation has too much momentum. Your best option is to spin with their rotation to nullify the angle change, matching their movement to prevent them from achieving the reverse choking position. Simultaneously work to extract your trapped arm during the dynamic scramble that results from both bodies rotating."
+        "answer": "At this late stage, posture recovery and stacking are less effective because the rotation has too much momentum. Your best option is to spin with their rotation to nullify the angle change, matching their movement to prevent them from achieving the reverse choking position. Simultaneously work to extract your trapped arm during the dynamic scramble that results from both bodies rotating.",
+        "answer_line": "Spin with rotation, free arm",
+        "distractors": {
+          "plausible": [
+            "Fight to reverse the rotation",
+            "Stack hard to stop the turn"
+          ],
+          "trap": [
+            "Posture straight up to escape"
+          ]
+        }
       },
       {
         "question": "Why does continuing to turn your shoulder inward accelerate the inverted triangle finish rather than helping your defense?",
-        "answer": "Turning your shoulder inward is the standard triangle defense that works against the front choke, but it is precisely the movement the inverted triangle exploits. Your shoulder turn moves your neck deeper into the reverse choking angle the attacker is creating. The correct response is to reverse direction—square your shoulders back and drive posture upward to fight the new angle rather than feeding into it."
+        "answer": "Turning your shoulder inward is the standard triangle defense that works against the front choke, but it is precisely the movement the inverted triangle exploits. Your shoulder turn moves your neck deeper into the reverse choking angle the attacker is creating. The correct response is to reverse direction—square your shoulders back and drive posture upward to fight the new angle rather than feeding into it.",
+        "answer_line": "Feeds the reverse choke angle",
+        "distractors": {
+          "plausible": [
+            "It only weakens their grip",
+            "It works if done fast enough"
+          ],
+          "trap": [
+            "Keep turning to fully escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -419,6 +630,26 @@
         "phase": "Week 7+",
         "focus": "Live integration and pattern reading",
         "description": "Positional sparring from triangle control where the attacker can choose standard finish, armbar, omoplata, or inverted triangle. Develop the ability to read which attack is coming based on the opponent's grip changes and body movement, and select appropriate defensive response in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "DLmrzSs1hWI",
+        "title": "Triangle defense and escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q2ttnL90Js8",
+        "title": "Escaping a fully locked triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   }

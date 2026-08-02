@@ -176,6 +176,54 @@ description: "Learn to attack the Americana shoulder lock from North-South. Step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from North-South (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North South Kimura to Americana",
+      "description": "Americana from North-South (Attacker) film study: North South Kimura to Americana, taught by PAC Enumclaw.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eBD320q32IA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eBD320q32IA",
+      "url": "https://www.youtube.com/watch?v=eBD320q32IA",
+      "creator": { "@type": "Person", "name": "PAC Enumclaw" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North South Americana",
+      "description": "Americana from North-South (Attacker) film study: North South Americana, taught by Cauliflower Ear Family.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xwp0G1-2p-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xwp0G1-2p-Q",
+      "url": "https://www.youtube.com/watch?v=xwp0G1-2p-Q",
+      "creator": { "@type": "Person", "name": "Cauliflower Ear Family" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North South to Americana",
+      "description": "Americana from North-South (Attacker) film study: North South to Americana, taught by Fenrir Thorvaldsen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nbiGqgXoYxE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nbiGqgXoYxE",
+      "url": "https://www.youtube.com/watch?v=nbiGqgXoYxE",
+      "creator": { "@type": "Person", "name": "Fenrir Thorvaldsen" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the Americana from North-South requires capitalizing on the crush
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from North-South (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eBD320q32IA)
+
+<p class="clip-credit"><strong>North South Kimura to Americana</strong> — taught by PAC Enumclaw · 1:19 · <a href="https://www.youtube.com/watch?v=eBD320q32IA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xwp0G1-2p-Q)
+
+<p class="clip-credit"><strong>North South Americana</strong> — taught by Cauliflower Ear Family · 2:45 · <a href="https://www.youtube.com/watch?v=xwp0G1-2p-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nbiGqgXoYxE)
+
+<p class="clip-credit"><strong>North South to Americana</strong> — taught by Fenrir Thorvaldsen · 2:57 · <a href="https://www.youtube.com/watch?v=nbiGqgXoYxE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

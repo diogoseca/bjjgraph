@@ -34,6 +34,54 @@ description: "Master North-South to Kimura transition in BJJ. Step-by-step arm i
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South to Kimura \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Colossus kimura finishes from north-south",
+      "description": "North-South to Kimura film study: Colossus kimura finishes from north-south, taught by Utopia Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-aEJ1gdSyIM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-aEJ1gdSyIM",
+      "url": "https://www.youtube.com/watch?v=-aEJ1gdSyIM",
+      "creator": { "@type": "Person", "name": "Utopia Martial Arts" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North-south kimura grip to step-over armbar",
+      "description": "North-South to Kimura film study: North-south kimura grip to step-over armbar, taught by Raven Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MQvTMVMiLl4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MQvTMVMiLl4",
+      "url": "https://www.youtube.com/watch?v=MQvTMVMiLl4",
+      "creator": { "@type": "Person", "name": "Raven Jiu Jitsu" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North-south kimura from kesa",
+      "description": "North-South to Kimura film study: North-south kimura from kesa, taught by CORE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MEGPKR9ctWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MEGPKR9ctWY",
+      "url": "https://www.youtube.com/watch?v=MEGPKR9ctWY",
+      "creator": { "@type": "Person", "name": "CORE MMA" },
+      "duration": "PT178S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The transition requires precise timing and grip sequencing. The attacker must ma
 Once the Kimura Trap is established from North-South, the position offers branching attack pathways: finish the Kimura submission directly, use the grip to roll the opponent and take the back, advance to mount while maintaining arm control, or switch to armbar attacks when the opponent straightens their arm defensively. This versatility makes the North-South to Kimura transition a cornerstone of systematic top-game offense, creating cascading dilemmas where every defensive reaction opens a different submission or positional threat.
 
 **From Position**: [[Positions/North-South]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South to Kimura in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-aEJ1gdSyIM)
+
+<p class="clip-credit"><strong>Colossus kimura finishes from north-south</strong> — taught by Utopia Martial Arts · 1:26 · <a href="https://www.youtube.com/watch?v=-aEJ1gdSyIM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MQvTMVMiLl4)
+
+<p class="clip-credit"><strong>North-south kimura grip to step-over armbar</strong> — taught by Raven Jiu Jitsu · 2:11 · <a href="https://www.youtube.com/watch?v=MQvTMVMiLl4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MEGPKR9ctWY)
+
+<p class="clip-credit"><strong>North-south kimura from kesa</strong> — taught by CORE MMA · 2:58 · <a href="https://www.youtube.com/watch?v=MEGPKR9ctWY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -242,7 +326,7 @@ The North-South to Kimura transition is a cornerstone technique in modern BJJ's 
 
 - [[Transitions/Kimura from Half Guard]] - Related Kimura entry from adjacent control position
 
-- [[Transitions/North-South Choke]] - Alternative submission from the same starting position
+- [[Submissions/North-South Choke]] - Alternative submission from the same starting position
 
 - [[Positions/Side Control]] - Common entry position before reaching North-South
 

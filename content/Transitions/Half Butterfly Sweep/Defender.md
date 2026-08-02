@@ -140,6 +140,43 @@ description: "Defend and counter the Half Butterfly Sweep in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Butterfly Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending butterfly hooks",
+      "description": "Half Butterfly Sweep (Defender) film study: Defending butterfly hooks, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wgnw31_o3kk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wgnw31_o3kk",
+      "url": "https://www.youtube.com/watch?v=Wgnw31_o3kk",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why half butterfly guard is a different passing problem",
+      "description": "Half Butterfly Sweep (Defender) film study: Why half butterfly guard is a different passing problem, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9miuP4-v0EE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9miuP4-v0EE",
+      "url": "https://www.youtube.com/watch?v=9miuP4-v0EE",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT192S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the Half Butterfly Sweep requires the top player to recognize the swee
 **Opponent's Starting Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Butterfly Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wgnw31_o3kk)
+
+<p class="clip-credit"><strong>Defending butterfly hooks</strong> — taught by Kohbukan Sisu · 0:58 · <a href="https://www.youtube.com/watch?v=Wgnw31_o3kk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9miuP4-v0EE)
+
+<p class="clip-credit"><strong>Why half butterfly guard is a different passing problem</strong> — taught by John Danaher · 3:12 · <a href="https://www.youtube.com/watch?v=9miuP4-v0EE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -140,6 +140,54 @@ description: "Master defending the Standing Back Control Entry in BJJ. Learn to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Back Control Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping standing back control",
+      "description": "Standing Back Control Entry (Defender) film study: Escaping standing back control, taught by Carrero BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kZd9bvSgaHc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kZd9bvSgaHc",
+      "url": "https://www.youtube.com/watch?v=kZd9bvSgaHc",
+      "creator": { "@type": "Person", "name": "Carrero BJJ" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing rear naked choke defense",
+      "description": "Standing Back Control Entry (Defender) film study: Standing rear naked choke defense, taught by SAMA Self Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rlJlNeccbEw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rlJlNeccbEw",
+      "url": "https://www.youtube.com/watch?v=rlJlNeccbEw",
+      "creator": { "@type": "Person", "name": "SAMA Self Defense" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping back control",
+      "description": "Standing Back Control Entry (Defender) film study: Escaping back control, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I43ALzc733w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I43ALzc733w",
+      "url": "https://www.youtube.com/watch?v=I43ALzc733w",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ From the defender perspective, the opponent's attempt to follow you to standing 
 **Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Back Control Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kZd9bvSgaHc)
+
+<p class="clip-credit"><strong>Escaping standing back control</strong> — taught by Carrero BJJ · 0:56 · <a href="https://www.youtube.com/watch?v=kZd9bvSgaHc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rlJlNeccbEw)
+
+<p class="clip-credit"><strong>Standing rear naked choke defense</strong> — taught by SAMA Self Defense · 0:20 · <a href="https://www.youtube.com/watch?v=rlJlNeccbEw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I43ALzc733w)
+
+<p class="clip-credit"><strong>Escaping back control</strong> — taught by Malachy Friedman · 1:11 · <a href="https://www.youtube.com/watch?v=I43ALzc733w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

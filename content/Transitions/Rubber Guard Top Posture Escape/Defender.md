@@ -148,6 +148,43 @@ description: "Defend against posture escape attempts from Rubber Guard bottom. M
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rubber Guard Top Posture Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Invisible detail for holding rubber guard",
+      "description": "Rubber Guard Top Posture Escape (Defender) film study: Invisible detail for holding rubber guard, taught by Strength \u0026 Honor MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GWR4g4St-yw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GWR4g4St-yw",
+      "url": "https://www.youtube.com/watch?v=GWR4g4St-yw",
+      "creator": { "@type": "Person", "name": "Strength \u0026 Honor MMA" },
+      "duration": "PT142S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why your rubber guard keeps getting passed",
+      "description": "Rubber Guard Top Posture Escape (Defender) film study: Why your rubber guard keeps getting passed, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OXNu_vW7onc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OXNu_vW7onc",
+      "url": "https://www.youtube.com/watch?v=OXNu_vW7onc",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT282S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender, you are the Rubber Guard bottom player working to maintain your
 **Opponent's Starting Position**: [[Positions/Rubber Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rubber Guard Top Posture Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GWR4g4St-yw)
+
+<p class="clip-credit"><strong>Invisible detail for holding rubber guard</strong> — taught by Strength &amp; Honor MMA · 2:22 · <a href="https://www.youtube.com/watch?v=GWR4g4St-yw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OXNu_vW7onc)
+
+<p class="clip-credit"><strong>Why your rubber guard keeps getting passed</strong> — taught by Brandon Mccaghren · 4:42 · <a href="https://www.youtube.com/watch?v=OXNu_vW7onc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

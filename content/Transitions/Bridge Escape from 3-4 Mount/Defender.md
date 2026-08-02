@@ -140,6 +140,43 @@ description: "Defend against bridge escapes from 3-4 mount top. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from 3-4 Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing 3/4 mount with the pry",
+      "description": "Bridge Escape from 3-4 Mount (Defender) film study: Passing 3/4 mount with the pry, taught by Double Phoenix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r3YtZkGq29Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r3YtZkGq29Q",
+      "url": "https://www.youtube.com/watch?v=r3YtZkGq29Q",
+      "creator": { "@type": "Person", "name": "Double Phoenix Jiu Jitsu" },
+      "duration": "PT220S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why most bridge mount escapes fail",
+      "description": "Bridge Escape from 3-4 Mount (Defender) film study: Why most bridge mount escapes fail, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ly8voPPzYaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ly8voPPzYaU",
+      "url": "https://www.youtube.com/watch?v=Ly8voPPzYaU",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the bridge escape from 3-4 mount top requires understanding the specif
 **Opponent's Starting Position**: [[Positions/Mount/3-4 Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from 3-4 Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r3YtZkGq29Q)
+
+<p class="clip-credit"><strong>Passing 3/4 mount with the pry</strong> — taught by Double Phoenix Jiu Jitsu · 3:40 · <a href="https://www.youtube.com/watch?v=r3YtZkGq29Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ly8voPPzYaU)
+
+<p class="clip-credit"><strong>Why most bridge mount escapes fail</strong> — taught by Henry Akins · 1:25 · <a href="https://www.youtube.com/watch?v=Ly8voPPzYaU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

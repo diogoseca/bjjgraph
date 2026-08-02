@@ -176,6 +176,43 @@ description: "Attack with the Kimura from flattened half guard top. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Flattened Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura trap from half guard",
+      "description": "Kimura from Flattened Half Guard (Attacker) film study: Kimura trap from half guard, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P0AuQRSfHfs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P0AuQRSfHfs",
+      "url": "https://www.youtube.com/watch?v=P0AuQRSfHfs",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura from reverse half guard",
+      "description": "Kimura from Flattened Half Guard (Attacker) film study: Kimura from reverse half guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WS4OuwGvi9Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WS4OuwGvi9Y",
+      "url": "https://www.youtube.com/watch?v=WS4OuwGvi9Y",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking with the Kimura from flattened half guard top capitalizes on the signi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Flattened Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P0AuQRSfHfs)
+
+<p class="clip-credit"><strong>Kimura trap from half guard</strong> — taught by Clark Gracie · 1:14 · <a href="https://www.youtube.com/watch?v=P0AuQRSfHfs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WS4OuwGvi9Y)
+
+<p class="clip-credit"><strong>Kimura from reverse half guard</strong> — taught by Kameron Ross · 0:41 · <a href="https://www.youtube.com/watch?v=WS4OuwGvi9Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

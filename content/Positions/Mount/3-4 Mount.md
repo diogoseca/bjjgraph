@@ -34,6 +34,54 @@ description: "Master 3-4 Mount position in BJJ. Complete guide covering asymmetr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "3-4 Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "S-Mount basics",
+      "description": "3-4 Mount film study: S-Mount basics, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FSbR22OOSaE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FSbR22OOSaE",
+      "url": "https://www.youtube.com/watch?v=FSbR22OOSaE",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Take the back from S-Mount",
+      "description": "3-4 Mount film study: Take the back from S-Mount, taught by Andrew Chappelle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aVDYz6OeOnc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aVDYz6OeOnc",
+      "url": "https://www.youtube.com/watch?v=aVDYz6OeOnc",
+      "creator": { "@type": "Person", "name": "Andrew Chappelle" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "S-Mount scissor collar choke",
+      "description": "3-4 Mount film study: S-Mount scissor collar choke, taught by Jiu Jitsu Kid.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KTTMiT_YEoA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KTTMiT_YEoA",
+      "url": "https://www.youtube.com/watch?v=KTTMiT_YEoA",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Kid" },
+      "duration": "PT99S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ Strategically, 3-4 Mount functions as a transitional hub within the mount hierar
 The position scores 4 points in IBJJF competition when held from top, placing it at the highest tier of positional control. Competition footage shows elite practitioners using 3-4 Mount as a launching point for armbar attacks and back takes, with retention rates averaging 60-75% at advanced levels. The position requires constant dynamic adjustment rather than static pressure, making it particularly effective against opponents who rely on timing-based escapes from traditional mount.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 3-4 Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FSbR22OOSaE)
+
+<p class="clip-credit"><strong>S-Mount basics</strong> — taught by ZombieProofBJJ · 1:12 · <a href="https://www.youtube.com/watch?v=FSbR22OOSaE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aVDYz6OeOnc)
+
+<p class="clip-credit"><strong>Take the back from S-Mount</strong> — taught by Andrew Chappelle · 1:23 · <a href="https://www.youtube.com/watch?v=aVDYz6OeOnc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KTTMiT_YEoA)
+
+<p class="clip-credit"><strong>S-Mount scissor collar choke</strong> — taught by Jiu Jitsu Kid · 1:39 · <a href="https://www.youtube.com/watch?v=KTTMiT_YEoA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,21 +223,21 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (24% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (20% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (13% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
 
-- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (17% of attempts)
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (14% of attempts)
 
-- **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** (10% of attempts)
+- **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** (8% of attempts)
 
 - **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (15% of attempts)
+- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (14% of attempts)
 
-- **[[Transitions/Bridge Escape from 3-4 Mount/Attacker|Bridge Escape from 3-4 Mount]]** (5% of attempts)
+- **[[Transitions/Bridge Escape from 3-4 Mount/Attacker|Bridge Escape from 3-4 Mount]]** (8% of attempts)
 
-- **[[Transitions/Elbow Escape from 3-4 Mount/Attacker|Elbow Escape from 3-4 Mount]]** (3% of attempts)
+- **[[Transitions/Elbow Escape from 3-4 Mount/Attacker|Elbow Escape from 3-4 Mount]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -214,25 +298,23 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (37% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (12% of attempts)
 
-- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (8% of attempts)
+- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (7% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (8% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (11% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (10% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (13% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (16% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (26% of attempts)
 
-- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (8% of attempts)
+- **[[Cross Collar Choke from 3-4 Mount/Attacker|Cross Collar Choke from 3-4 Mount]]** (0% of attempts)
 
-- **[[Cross Collar Choke from 3-4 Mount/Attacker|Cross Collar Choke from 3-4 Mount]]** (6% of attempts)
+- **[[Transitions/3-4 Mount to S Mount/Attacker|3-4 Mount to S Mount]]** (8% of attempts)
 
-- **[[Transitions/3-4 Mount to S Mount/Attacker|3-4 Mount to S Mount]]** (3% of attempts)
+- **[[Transitions/3-4 Mount to Technical Mount/Attacker|3-4 Mount to Technical Mount]]** (15% of attempts)
 
-- **[[Transitions/3-4 Mount to Technical Mount/Attacker|3-4 Mount to Technical Mount]]** (2% of attempts)
-
-- **[[Americana from 3-4 Mount/Attacker|Americana from 3-4 Mount]]** (2% of attempts)
+- **[[Americana from 3-4 Mount/Attacker|Americana from 3-4 Mount]]** (8% of attempts)
 
 
 ### Common Mistakes

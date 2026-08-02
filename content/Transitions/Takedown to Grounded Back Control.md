@@ -34,6 +34,54 @@ description: "Learn the Takedown to Grounded Back Control in BJJ. Step-by-step m
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Takedown to Grounded Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mat Return Drill from rear body lock",
+      "description": "Takedown to Grounded Back Control film study: Mat Return Drill from rear body lock, taught by Nicky Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GKrJsIYmycM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GKrJsIYmycM",
+      "url": "https://www.youtube.com/watch?v=GKrJsIYmycM",
+      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mat return to strangle",
+      "description": "Takedown to Grounded Back Control film study: Mat return to strangle, taught by Paul Cale.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ClASMnMYeQk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ClASMnMYeQk",
+      "url": "https://www.youtube.com/watch?v=ClASMnMYeQk",
+      "creator": { "@type": "Person", "name": "Paul Cale" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg Switch Cutback from Rear Bodylock",
+      "description": "Takedown to Grounded Back Control film study: Leg Switch Cutback from Rear Bodylock, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2VCyaassiRI",
+      "url": "https://www.youtube.com/watch?v=2VCyaassiRI",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition should be attempted when the opponent demonstrate
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Takedown to Grounded Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GKrJsIYmycM)
+
+<p class="clip-credit"><strong>Mat Return Drill from rear body lock</strong> — taught by Nicky Rodriguez · 1:24 · <a href="https://www.youtube.com/watch?v=GKrJsIYmycM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ClASMnMYeQk)
+
+<p class="clip-credit"><strong>Mat return to strangle</strong> — taught by Paul Cale · 1:06 · <a href="https://www.youtube.com/watch?v=ClASMnMYeQk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2VCyaassiRI)
+
+<p class="clip-credit"><strong>Leg Switch Cutback from Rear Bodylock</strong> — taught by Procel BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

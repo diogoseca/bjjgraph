@@ -164,6 +164,54 @@ description: "Master posts in BJJ. Learn to plant extended limbs against the mat
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posts \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Active posting to set up and defend submissions",
+      "description": "Posts film study: Active posting to set up and defend submissions, taught by BJJ Cache.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hF0QNMgV6NQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hF0QNMgV6NQ",
+      "url": "https://www.youtube.com/watch?v=hF0QNMgV6NQ",
+      "creator": { "@type": "Person", "name": "BJJ Cache" },
+      "duration": "PT322S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Building structures, frames and posts",
+      "description": "Posts film study: Building structures, frames and posts, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WRnKMbQqnD4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WRnKMbQqnD4",
+      "url": "https://www.youtube.com/watch?v=WRnKMbQqnD4",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT381S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Active toes: posting with the feet",
+      "description": "Posts film study: Active toes: posting with the feet, taught by M1FC.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0WZjs49l8Qk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0WZjs49l8Qk",
+      "url": "https://www.youtube.com/watch?v=0WZjs49l8Qk",
+      "creator": { "@type": "Person", "name": "M1FC" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Posts?
@@ -177,6 +225,42 @@ Posts work on a simple mechanical principle: an extended limb planted in the dir
 Understanding posts transforms both offensive and defensive grappling. Defensively, posts are your last line of base recovery — the difference between getting swept and catching your balance. Offensively, understanding posts reveals how to attack them. Every post the opponent places is a limb that is no longer available for other tasks — it cannot grip, frame, hook, or attack while it is busy keeping them upright. Removing, blocking, or trapping the opponent's posting limb before executing a sweep is one of the most important offensive concepts in BJJ. The sweep does not fail because the technique is wrong; it fails because the opponent posted and you did not account for it.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posts in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hF0QNMgV6NQ)
+
+<p class="clip-credit"><strong>Active posting to set up and defend submissions</strong> — taught by BJJ Cache · 5:22 · <a href="https://www.youtube.com/watch?v=hF0QNMgV6NQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WRnKMbQqnD4)
+
+<p class="clip-credit"><strong>Building structures, frames and posts</strong> — taught by MMA Leech · 6:21 · <a href="https://www.youtube.com/watch?v=WRnKMbQqnD4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0WZjs49l8Qk)
+
+<p class="clip-credit"><strong>Active toes: posting with the feet</strong> — taught by M1FC · 1:10 · <a href="https://www.youtube.com/watch?v=0WZjs49l8Qk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

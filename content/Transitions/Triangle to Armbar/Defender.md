@@ -148,6 +148,54 @@ description: "How to defend against Triangle to Armbar in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle to Armbar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Defense and Escape",
+      "description": "Triangle to Armbar (Defender) film study: Triangle Defense and Escape, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
+      "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar Defense: Stack Escape",
+      "description": "Triangle to Armbar (Defender) film study: Armbar Defense: Stack Escape, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zKieMBkGXxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zKieMBkGXxU",
+      "url": "https://www.youtube.com/watch?v=zKieMBkGXxU",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Escape the Triangle and the Armbar",
+      "description": "Triangle to Armbar (Defender) film study: How to Escape the Triangle and the Armbar, taught by War Room Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZyRbg7ubHio/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZyRbg7ubHio",
+      "url": "https://www.youtube.com/watch?v=ZyRbg7ubHio",
+      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
+      "duration": "PT115S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ Successful defense depends on recognizing the transition in its earliest stages,
 **Opponent's Starting Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle to Armbar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
+
+<p class="clip-credit"><strong>Triangle Defense and Escape</strong> — taught by Daniel Frank · 0:24 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zKieMBkGXxU)
+
+<p class="clip-credit"><strong>Armbar Defense: Stack Escape</strong> — taught by Daniel Frank · 0:32 · <a href="https://www.youtube.com/watch?v=zKieMBkGXxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZyRbg7ubHio)
+
+<p class="clip-credit"><strong>How to Escape the Triangle and the Armbar</strong> — taught by War Room Jiu Jitsu · 1:55 · <a href="https://www.youtube.com/watch?v=ZyRbg7ubHio" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

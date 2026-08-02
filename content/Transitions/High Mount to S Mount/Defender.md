@@ -148,6 +148,43 @@ description: "Defend and counter the High Mount to S Mount transition. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Mount to S Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping S mount to half guard",
+      "description": "High Mount to S Mount (Defender) film study: Escaping S mount to half guard, taught by Paul Schreiner.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TOQ9I4gYOaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TOQ9I4gYOaU",
+      "url": "https://www.youtube.com/watch?v=TOQ9I4gYOaU",
+      "creator": { "@type": "Person", "name": "Paul Schreiner" },
+      "duration": "PT295S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount escape when the standard escapes stall",
+      "description": "High Mount to S Mount (Defender) film study: Mount escape when the standard escapes stall, taught by Gabriel Gonzaga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
+      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
+      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ From the defender's perspective, the High Mount to S Mount transition represents
 **Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Mount to S Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TOQ9I4gYOaU)
+
+<p class="clip-credit"><strong>Escaping S mount to half guard</strong> — taught by Paul Schreiner · 4:55 · <a href="https://www.youtube.com/watch?v=TOQ9I4gYOaU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9252EvCT0q4)
+
+<p class="clip-credit"><strong>Mount escape when the standard escapes stall</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

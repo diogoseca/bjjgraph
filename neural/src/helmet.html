@@ -1,0 +1,104 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Sora:wght@500;600;700&family=Archivo:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;padding:0;height:100%;background:#1a1a2e;overflow:hidden;}
+  *{box-sizing:border-box;}
+  @keyframes ngFadeUp{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+  @keyframes ngHintFade{0%{opacity:0;}12%,68%{opacity:.5;}100%{opacity:0;}}
+  @keyframes ngIntroLife{0%{opacity:0;transform:translateY(10px);}20%{opacity:1;transform:translateY(0);}77%{opacity:1;transform:translateY(0);}100%{opacity:0;transform:translateY(0);}}
+  @keyframes ngTabPulse{0%,100%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 0 rgba(120,160,255,.34);}50%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 7px rgba(120,160,255,0);}}
+  .ng-optionrow{-ms-overflow-style:none;scrollbar-width:none;mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);scroll-padding:0 28px;}
+  .ng-optionrow::-webkit-scrollbar{height:0;display:none;}
+  .ng-optionrow > *{scroll-snap-align:center;}
+  .ng-logo:hover span{color:#fff;}
+  .ng-logo:hover .ng-kbd{opacity:1;color:#9fb0d8;}
+  .ng-logo .ng-kbd span{color:inherit;}
+  @keyframes ngSpin{to{transform:rotate(360deg);}}
+  @keyframes ngCount{from{transform:scaleX(1);}to{transform:scaleX(0);}}
+  @keyframes ngCardIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+  @keyframes ngNudge{0%,100%{transform:translateX(0);}50%{transform:translateX(5px);}}
+  @keyframes ngDeckExpire{0%{filter:grayscale(0) brightness(1);opacity:1;}55%{filter:grayscale(.35) brightness(.92);opacity:.92;}100%{filter:grayscale(1) brightness(.5);opacity:.34;}}
+  @keyframes ngPulseChip{0%,100%{box-shadow:0 0 0 0 rgba(120,170,255,.5);}50%{box-shadow:0 0 0 6px rgba(120,170,255,0);}}
+  .ng-chip-merged{background:transparent!important;border-color:transparent!important;backdrop-filter:none!important;}
+  .ngAcctChip{background:rgba(26,30,52,.66);backdrop-filter:blur(8px);border:1px solid rgba(150,170,210,.2);border-radius:999px;transition:background .2s ease,border-color .2s ease,backdrop-filter .2s ease;}
+  .ngAcctChip.ng-chip-merged{background:transparent;border-color:transparent;backdrop-filter:none;}
+  .ngSignupCta{cursor:pointer;font-size:11.5px;font-weight:700;color:#fff;background:linear-gradient(135deg,#4a6cff,#6a5cff);border-radius:999px;padding:8px 14px;box-shadow:0 3px 14px rgba(74,108,255,.42);white-space:nowrap;letter-spacing:.01em;transition:filter .15s ease,transform .15s ease,box-shadow .15s ease;}
+  .ngSignupCta:hover{filter:brightness(1.08);transform:translateY(-1px);box-shadow:0 5px 18px rgba(74,108,255,.5);}
+  *{scrollbar-width:thin;scrollbar-color:rgba(120,150,210,.32) transparent;}
+  ::-webkit-scrollbar{width:9px;height:9px;}
+  ::-webkit-scrollbar-track{background:transparent;}
+  ::-webkit-scrollbar-thumb{background:rgba(120,150,210,.28);border-radius:8px;border:2px solid transparent;background-clip:content-box;}
+  ::-webkit-scrollbar-thumb:hover{background:rgba(150,180,255,.5);border:2px solid transparent;background-clip:content-box;}
+  ::-webkit-scrollbar-corner{background:transparent;}
+  /* ---------- responsive ---------- */
+  @media (max-width:1023px){
+    .ng-explorer{width:min(330px,86vw)!important;}
+    .ng-drill{width:min(312px,84vw)!important;}
+  }
+  @media (max-width:640px){
+    .ng-logo{top:22px!important;left:18px!important;gap:0!important;}
+    .ng-acctwrap{top:18px!important;right:18px!important;}
+    .ngAcctChip{padding:0!important;}
+    .ng-logo .ng-word,.ng-logo .ng-kbd{display:none!important;}
+    .ng-intro{top:54px!important;left:16px!important;}
+    .ng-intro>div:first-child{font-size:21px!important;}
+    .ng-intro>div:last-child{font-size:12px!important;max-width:228px!important;margin-top:8px!important;}
+    .ng-explorer,.ng-drill{width:80vw!important;}
+    .ng-drilltab{top:auto!important;bottom:28px!important;right:14px!important;left:auto!important;transform:none!important;width:auto!important;min-height:46px!important;box-sizing:border-box!important;flex-direction:row!important;align-items:center!important;border-radius:23px!important;border-right:1px solid rgba(130,160,255,.32)!important;padding:8px 15px!important;gap:0!important;}
+    .ng-drilltab>span:first-child{display:none!important;}
+    .ng-drilltab .ng-dttitle,.ng-drilltab .ng-dtsub{display:none!important;}
+    .ng-drilltab>div{display:none!important;}
+    .ng-drilltab .ng-dt-short{display:block!important;text-align:center!important;}
+    .ngAcctChip>span:first-child{display:none!important;}
+    .ngSignupCta{display:none!important;}
+    .ng-evtoast{width:86vw!important;}
+    .ng-optionrow{padding:10px 12px 6px!important;gap:9px!important;}
+    .ng-legendkey{display:none!important;}
+    .ng-seemore{display:none!important;}
+    .ng-winbar{width:104px!important;}
+    .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
+    .ng-landcard{bottom:206px!important;width:calc(100vw - 20px)!important;max-height:34vh!important;padding:11px 12px 10px!important;}
+    .ng-tut{display:none!important;}
+  }
+
+  /* \u2500\u2500 P2: beat beacon / defense vignette / coach / film shimmer \u2500\u2500 */
+  .ng-beacon{animation:ngBeacon 1.5s ease-in-out infinite;border-radius:12px;}
+  @keyframes ngBeacon{0%,100%{box-shadow:0 0 0 0 rgba(126,224,168,0),0 0 10px 1px rgba(126,224,168,.28)}50%{box-shadow:0 0 0 3px rgba(126,224,168,.22),0 0 22px 5px rgba(126,224,168,.5)}}
+  .ng-vignette{position:fixed;inset:0;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 52%,rgba(226,58,48,.3) 100%);animation:ngHeartbeat 1s ease-in-out infinite;}
+  @keyframes ngHeartbeat{0%,100%{opacity:.5}12%{opacity:1}24%{opacity:.55}34%{opacity:.9}48%{opacity:.5}}
+  /* pointer-events:auto is LOAD-BEARING on every fixed overlay: the property is inherited and
+     the canvas hit-tests above anything that doesn't re-enable it (the option cards set it
+     inline for the same reason). Without it, mouse clicks fall through to the graph. */
+  .ng-coach{pointer-events:auto;position:fixed;left:50%;bottom:218px;transform:translateX(-50%);z-index:70;width:min(340px,calc(100vw - 40px));background:rgba(15,19,30,.97);border:1px solid rgba(126,224,168,.35);border-radius:14px;padding:14px 16px;box-shadow:0 14px 44px rgba(0,0,0,.55);}
+  /* P1b: the question-first landing card — docked directly above the options tray, so the
+     read order is identity -> film -> question -> your hand, top to bottom. */
+  .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(320px,40vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardIn .28s cubic-bezier(.2,.7,.2,1);}
+  .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
+  /* ── MOMENTUM: the arcade announcer + the heat chip. Heat 1→5 = ×2→×6+. ── */
+  .ng-combo-pop{position:fixed;left:50%;top:31%;transform:translate(-50%,-50%);z-index:72;pointer-events:none;text-align:center;font-family:'Space Grotesk',sans-serif;animation:ngComboPop 1.15s cubic-bezier(.2,.7,.2,1) both;}
+  .ng-combo-pop .ng-combo-x{font-size:12px;font-weight:800;letter-spacing:.34em;text-transform:uppercase;color:#9ab0e0;margin-bottom:4px;}
+  .ng-combo-pop .ng-combo-name{font-size:clamp(28px,4.8vw,50px);font-weight:800;font-style:italic;letter-spacing:.03em;color:var(--combo-col,#7ee0a8);text-shadow:0 0 20px var(--combo-glow,rgba(126,224,168,.6)),0 4px 28px rgba(0,0,0,.65);}
+  .ng-combo-pop .ng-combo-sub{margin-top:7px;font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#c9d3e6;}
+  .ng-combo-pop[data-heat="5"] .ng-combo-name{font-size:clamp(34px,5.6vw,60px);}
+  @keyframes ngComboPop{0%{opacity:0;transform:translate(-50%,-50%) scale(.55);}13%{opacity:1;transform:translate(-50%,-50%) scale(1.14);}24%{transform:translate(-50%,-50%) scale(1);}76%{opacity:1;}100%{opacity:0;transform:translate(-50%,-58%) scale(1);}}
+  .ng-momentum{position:fixed;top:74px;right:18px;z-index:6;pointer-events:none;display:flex;align-items:baseline;gap:7px;padding:7px 12px;border-radius:999px;background:rgba(15,19,30,.93);border:1px solid var(--combo-col,rgba(150,170,210,.3));box-shadow:0 0 14px var(--combo-glow,transparent);font-family:'Space Grotesk',sans-serif;animation:ngCardIn .25s ease both;}
+  .ng-momentum b{font-size:14px;color:var(--combo-col,#eef1f6);}
+  .ng-momentum span{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#9ab0e0;}
+  .ng-momentum[data-combo-broken]{animation:ngComboBreak .55s ease both;}
+  @keyframes ngComboBreak{0%{transform:translateX(0);}22%{transform:translateX(-6px);border-color:#ff5f6d;}46%{transform:translateX(5px);}70%{transform:translateX(-3px);}100%{opacity:0;transform:translateY(10px);}}
+  .ng-combo-pop[data-heat="1"],.ng-momentum[data-heat="1"]{--combo-col:#9ad0ff;--combo-glow:rgba(120,180,255,.55);}
+  .ng-combo-pop[data-heat="2"],.ng-momentum[data-heat="2"]{--combo-col:#7ee0a8;--combo-glow:rgba(126,224,168,.6);}
+  .ng-combo-pop[data-heat="3"],.ng-momentum[data-heat="3"]{--combo-col:#e9d75a;--combo-glow:rgba(233,215,90,.6);}
+  .ng-combo-pop[data-heat="4"],.ng-momentum[data-heat="4"]{--combo-col:#ffb45a;--combo-glow:rgba(255,180,90,.62);}
+  .ng-combo-pop[data-heat="5"],.ng-momentum[data-heat="5"]{--combo-col:#ff5f6d;--combo-glow:rgba(255,95,109,.68);}
+  /* P3: the tutorial drip — one step at a time, bottom-left above the legend */
+  /* pointer-events:none — the options tray can scroll under this corner and must stay clickable */
+  .ng-tut{position:fixed;left:16px;bottom:104px;z-index:7;width:238px;pointer-events:none;background:rgba(15,19,30,.96);border:1px solid rgba(126,224,168,.28);border-radius:12px;padding:10px 12px;box-shadow:0 10px 34px rgba(0,0,0,.5);}
+  .ng-tut [data-tut-hide]{pointer-events:auto;}
+  .ng-clip{isolation:isolate;}
+  .ng-clip::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);background-size:230% 100%;background-position:120% 0;animation:ngShimmer 2.2s ease-out .4s 2;pointer-events:none;}
+  @keyframes ngShimmer{to{background-position:-130% 0}}
+  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum{animation:none}}
+</style>
+<script src="technique-content.js"></script>

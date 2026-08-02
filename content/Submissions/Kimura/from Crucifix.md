@@ -34,6 +34,43 @@ description: "Master the Kimura from Crucifix in BJJ. Learn how bilateral arm is
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix kimura",
+      "description": "Kimura from Crucifix film study: Crucifix kimura, taught by Rob.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e_PO61Eu1G8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e_PO61Eu1G8",
+      "url": "https://www.youtube.com/watch?v=e_PO61Eu1G8",
+      "creator": { "@type": "Person", "name": "Rob" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chokes from T-kimura crucifix control",
+      "description": "Kimura from Crucifix film study: Chokes from T-kimura crucifix control, taught by Mig Mag.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZRW3iwnU8yc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZRW3iwnU8yc",
+      "url": "https://www.youtube.com/watch?v=ZRW3iwnU8yc",
+      "creator": { "@type": "Person", "name": "Mig Mag" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +91,7 @@ description: "Master the Kimura from Crucifix in BJJ. Learn how bilateral arm is
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">39% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +115,34 @@ Strategically, the Kimura from Crucifix rewards patient practitioners who establ
 **Starting Position**: [[Positions/Crucifix]] · **From**: [[Positions/Crucifix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e_PO61Eu1G8)
+
+<p class="clip-credit"><strong>Crucifix kimura</strong> — taught by Rob · 0:44 · <a href="https://www.youtube.com/watch?v=e_PO61Eu1G8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZRW3iwnU8yc)
+
+<p class="clip-credit"><strong>Chokes from T-kimura crucifix control</strong> — taught by Mig Mag · 2:41 · <a href="https://www.youtube.com/watch?v=ZRW3iwnU8yc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

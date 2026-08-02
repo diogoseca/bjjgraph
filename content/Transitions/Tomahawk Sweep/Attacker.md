@@ -174,6 +174,43 @@ description: "How to execute Tomahawk Sweep in BJJ. Attacking perspective with s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tomahawk Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X-Guard sweep demonstration",
+      "description": "Tomahawk Sweep (Attacker) film study: X-Guard sweep demonstration, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
+      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-Gi X-Guard sweep breakdown",
+      "description": "Tomahawk Sweep (Attacker) film study: No-Gi X-Guard sweep breakdown, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m-ueyJXiShY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m-ueyJXiShY",
+      "url": "https://www.youtube.com/watch?v=m-ueyJXiShY",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Tomahawk Sweep is a dynamic and powerful technique executed from X-Guard tha
 **From Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tomahawk Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+
+<p class="clip-credit"><strong>X-Guard sweep demonstration</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m-ueyJXiShY)
+
+<p class="clip-credit"><strong>No-Gi X-Guard sweep breakdown</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=m-ueyJXiShY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

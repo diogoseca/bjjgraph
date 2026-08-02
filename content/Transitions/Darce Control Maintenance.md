@@ -34,6 +34,54 @@ description: "Master Darce Control maintenance in BJJ. Complete guide to grip re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Control Maintenance \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short arm darce grip and control details",
+      "description": "Darce Control Maintenance film study: Short arm darce grip and control details, taught by Travis Moore.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XpFxqgrhEgA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XpFxqgrhEgA",
+      "url": "https://www.youtube.com/watch?v=XpFxqgrhEgA",
+      "creator": { "@type": "Person", "name": "Travis Moore" },
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control to north-south darce control",
+      "description": "Darce Control Maintenance film study: Side control to north-south darce control, taught by Gracie Westchase coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
+      "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
+      "creator": { "@type": "Person", "name": "Gracie Westchase coach" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mounted darce control setup (no-gi)",
+      "description": "Darce Control Maintenance film study: Mounted darce control setup (no-gi), taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dpjc7ly_wSY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dpjc7ly_wSY",
+      "url": "https://www.youtube.com/watch?v=dpjc7ly_wSY",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT82S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The maintenance phase is critical because small errors compound rapidly in darce
 From a strategic perspective, Darce Control Maintenance functions as the bridge between entry and finish. Many practitioners rush from entry to submission attempt, but skilled grapplers understand that investing time in the maintenance phase allows them to optimize grip depth, establish the ideal finishing angle, and exhaust the opponent's initial burst of defensive energy before committing to the choke or transitioning to mount, back control, or north-south.
 
 **From Position**: [[Positions/Darce Control]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 66%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Control Maintenance in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XpFxqgrhEgA)
+
+<p class="clip-credit"><strong>Short arm darce grip and control details</strong> — taught by Travis Moore · 2:00 · <a href="https://www.youtube.com/watch?v=XpFxqgrhEgA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
+
+<p class="clip-credit"><strong>Side control to north-south darce control</strong> — taught by Gracie Westchase coach · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dpjc7ly_wSY)
+
+<p class="clip-credit"><strong>Mounted darce control setup (no-gi)</strong> — taught by ZombieProofBJJ · 1:22 · <a href="https://www.youtube.com/watch?v=dpjc7ly_wSY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

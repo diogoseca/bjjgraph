@@ -148,6 +148,43 @@ description: "How to defend against Cartwheel Pass in BJJ. Recognition cues, def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cartwheel Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: when to sit up to escape",
+      "description": "Cartwheel Pass (Defender) film study: Guard retention: when to sit up to escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering from a knee slide pass to butterfly sweep",
+      "description": "Cartwheel Pass (Defender) film study: Recovering from a knee slide pass to butterfly sweep, taught by Italiano BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/86KseinKoSY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/86KseinKoSY",
+      "url": "https://www.youtube.com/watch?v=86KseinKoSY",
+      "creator": { "@type": "Person", "name": "Italiano BJJ" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The most effective defensive window occurs during the passer's setup phase, befo
 **Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cartwheel Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up to escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=86KseinKoSY)
+
+<p class="clip-credit"><strong>Recovering from a knee slide pass to butterfly sweep</strong> — taught by Italiano BJJ · 0:37 · <a href="https://www.youtube.com/watch?v=86KseinKoSY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -176,6 +176,54 @@ description: "How to execute Chin Strap Guillotine in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chin Strap Guillotine from Front Headlock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guillotine From Front Headlock",
+      "description": "Chin Strap Guillotine from Front Headlock (Attacker) film study: Guillotine From Front Headlock, taught by Chris Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GgXRLKAm9pY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GgXRLKAm9pY",
+      "url": "https://www.youtube.com/watch?v=GgXRLKAm9pY",
+      "creator": { "@type": "Person", "name": "Chris Jones" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chin Strap Basics",
+      "description": "Chin Strap Guillotine from Front Headlock (Attacker) film study: Chin Strap Basics, taught by Dante Leon.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7be6L0alFug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7be6L0alFug",
+      "url": "https://www.youtube.com/watch?v=7be6L0alFug",
+      "creator": { "@type": "Person", "name": "Dante Leon" },
+      "duration": "PT166S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Diving Guillotine",
+      "description": "Chin Strap Guillotine from Front Headlock (Attacker) film study: Diving Guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ihbFhV4DA-M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ihbFhV4DA-M",
+      "url": "https://www.youtube.com/watch?v=ihbFhV4DA-M",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT179S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chin Strap Guillotine from Front Headlock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GgXRLKAm9pY)
+
+<p class="clip-credit"><strong>Guillotine From Front Headlock</strong> — taught by Chris Jones · 1:37 · <a href="https://www.youtube.com/watch?v=GgXRLKAm9pY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7be6L0alFug)
+
+<p class="clip-credit"><strong>Chin Strap Basics</strong> — taught by Dante Leon · 2:46 · <a href="https://www.youtube.com/watch?v=7be6L0alFug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ihbFhV4DA-M)
+
+<p class="clip-credit"><strong>Diving Guillotine</strong> — taught by Marcelo Garcia · 2:59 · <a href="https://www.youtube.com/watch?v=ihbFhV4DA-M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

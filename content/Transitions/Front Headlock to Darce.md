@@ -34,6 +34,54 @@ description: "Learn Front Headlock to Darce transition in BJJ. Step-by-step exec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Front Headlock to Darce \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three Darce Choke Finishes",
+      "description": "Front Headlock to Darce film study: Three Darce Choke Finishes, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pnLk6jW0qeI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pnLk6jW0qeI",
+      "url": "https://www.youtube.com/watch?v=pnLk6jW0qeI",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT15S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce vs Anaconda: Grip and Finish Difference",
+      "description": "Front Headlock to Darce film study: Darce vs Anaconda: Grip and Finish Difference, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
+      "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Short Arm Darce from Front Headlock",
+      "description": "Front Headlock to Darce film study: Short Arm Darce from Front Headlock, taught by Travis Moore.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XpFxqgrhEgA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XpFxqgrhEgA",
+      "url": "https://www.youtube.com/watch?v=XpFxqgrhEgA",
+      "creator": { "@type": "Person", "name": "Travis Moore" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The effectiveness of this transition lies in its seamless flow from control to s
 This transition is fundamental to modern no-gi grappling and represents a cornerstone of systematic front headlock attack systems. It combines well with other front headlock finishes, creating a web of attacks that force opponents into submission dilemmas. The Darce entry from front headlock is a Type B submission setup: it leads to Darce Control, a distinct control position where the choke is then finished as a separate sequence. Mastery of this technique provides both a high-percentage path to a finishing position and a powerful platform from which to chain multiple submission attempts.
 
 **From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 44%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Front Headlock to Darce in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pnLk6jW0qeI)
+
+<p class="clip-credit"><strong>Three Darce Choke Finishes</strong> — taught by Bowerhouse MMA · 0:15 · <a href="https://www.youtube.com/watch?v=pnLk6jW0qeI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
+
+<p class="clip-credit"><strong>Darce vs Anaconda: Grip and Finish Difference</strong> — taught by Matt Arroyo · 1:07 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XpFxqgrhEgA)
+
+<p class="clip-credit"><strong>Short Arm Darce from Front Headlock</strong> — taught by Travis Moore · 2:00 · <a href="https://www.youtube.com/watch?v=XpFxqgrhEgA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -242,7 +326,7 @@ The Front Headlock to Darce transition is a cornerstone technique within the sys
 ## Related Techniques
 
 
-- [[Transitions/Darce Choke]] - Primary submission - the finishing technique applied from Darce Control after this transition succeeds
+- [[Submissions/Darce Choke]] - Primary submission - the finishing technique applied from Darce Control after this transition succeeds
 
 - [[Transitions/Front Headlock to Anaconda]] - Alternative attack - closely related transition using similar mechanics but opposite arm configuration
 
@@ -254,9 +338,9 @@ The Front Headlock to Darce transition is a cornerstone technique within the sys
 
 - [[Transitions/Anaconda Choke]] - Chain attack - common switch when Darce is defended by opponent circling toward choking arm
 
-- [[Transitions/Arm Triangle]] - Related choke - uses similar shoulder pressure and arm-in configuration principles
+- [[Submissions/Arm Triangle]] - Related choke - uses similar shoulder pressure and arm-in configuration principles
 
-- [[Transitions/Guillotine Choke]] - Chain attack - natural follow-up when opponent postures up defending the Darce
+- [[Submissions/Guillotine Choke]] - Chain attack - natural follow-up when opponent postures up defending the Darce
 
 - [[Transitions/Darce Setup]] - Related transition - alternative entry path to Darce Control from different angles
 

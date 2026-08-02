@@ -148,6 +148,54 @@ description: "How to defend against the Whizzer overhook in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Whizzer (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dip under sweep as a whizzer counter",
+      "description": "Whizzer (Defender) film study: Dip under sweep as a whizzer counter, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pYljJ1yRXO4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pYljJ1yRXO4",
+      "url": "https://www.youtube.com/watch?v=pYljJ1yRXO4",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT169S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Beating the whizzer on a takedown",
+      "description": "Whizzer (Defender) film study: Beating the whizzer on a takedown, taught by M\u0026A BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1JH5gqQnG8M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1JH5gqQnG8M",
+      "url": "https://www.youtube.com/watch?v=1JH5gqQnG8M",
+      "creator": { "@type": "Person", "name": "M\u0026A BJJ" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dealing with the whizzer",
+      "description": "Whizzer (Defender) film study: Dealing with the whizzer, taught by Jay Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D3D1m7XZtkg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D3D1m7XZtkg",
+      "url": "https://www.youtube.com/watch?v=D3D1m7XZtkg",
+      "creator": { "@type": "Person", "name": "Jay Rodriguez" },
+      "duration": "PT178S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against the Whizzer requires understanding that the overhook controls 
 **Opponent's Starting Position**: [[Positions/Overhook Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Whizzer (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pYljJ1yRXO4)
+
+<p class="clip-credit"><strong>Dip under sweep as a whizzer counter</strong> — taught by JiuJitsu.com · 2:49 · <a href="https://www.youtube.com/watch?v=pYljJ1yRXO4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1JH5gqQnG8M)
+
+<p class="clip-credit"><strong>Beating the whizzer on a takedown</strong> — taught by M&amp;A BJJ · 0:45 · <a href="https://www.youtube.com/watch?v=1JH5gqQnG8M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D3D1m7XZtkg)
+
+<p class="clip-credit"><strong>Dealing with the whizzer</strong> — taught by Jay Rodriguez · 2:58 · <a href="https://www.youtube.com/watch?v=D3D1m7XZtkg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

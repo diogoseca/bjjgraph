@@ -34,6 +34,43 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crotch Ripper \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crotch Ripper finish demonstration",
+      "description": "Crotch Ripper film study: Crotch Ripper finish demonstration, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bsj_vOLnNx4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bsj_vOLnNx4",
+      "url": "https://www.youtube.com/watch?v=Bsj_vOLnNx4",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Crotch Ripper variations",
+      "description": "Crotch Ripper film study: 3 Crotch Ripper variations, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n5BLxIJKuHs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n5BLxIJKuHs",
+      "url": "https://www.youtube.com/watch?v=n5BLxIJKuHs",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -84,6 +121,34 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crotch Ripper in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bsj_vOLnNx4)
+
+<p class="clip-credit"><strong>Crotch Ripper finish demonstration</strong> — taught by Bowerhouse MMA · 0:59 · <a href="https://www.youtube.com/watch?v=Bsj_vOLnNx4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n5BLxIJKuHs)
+
+<p class="clip-credit"><strong>3 Crotch Ripper variations</strong> — taught by Bowerhouse MMA · 1:01 · <a href="https://www.youtube.com/watch?v=n5BLxIJKuHs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -93,7 +158,7 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Crotch Ripper/from Lockdown|Lockdown]] | Bottom | 42% | [[Submissions/Crotch Ripper/from Lockdown/Attacker|Attack →]] | [[Submissions/Crotch Ripper/from Lockdown/Defender|Defend →]] |
+| [[Submissions/Crotch Ripper/from Lockdown|Lockdown]] | Bottom | 62% | [[Submissions/Crotch Ripper/from Lockdown/Attacker|Attack →]] | [[Submissions/Crotch Ripper/from Lockdown/Defender|Defend →]] |
 
 
 </div>
@@ -123,7 +188,7 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 - [[Submissions/Toe Hold]] - Complementary leg lock from similar leg entanglement configurations
 - [[Transitions/Kneebar]] - Alternative leg lock option when Crotch Ripper angle is unavailable
 - [[Submissions/Kimura]] - Upper body submission threat from lockdown when leg attacks are defended
-- [[Transitions/Guillotine Choke]] - Alternative submission when opponent postures up to escape compression
+- [[Submissions/Guillotine Choke]] - Alternative submission when opponent postures up to escape compression
 - [[Submissions/Straight Ankle Lock]] - Basic leg lock from related guard positions sharing leg control principles
 - [[Submissions/Calf Slicer]] - Related compression submission targeting calf muscle from leg entanglement
 - [[Positions/Half Guard/Lockdown]] - Primary position where Crotch Ripper is executed - lockdown control is prerequisite

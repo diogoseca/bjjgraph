@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Quarter Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Knee Through from Quarter is the mount-completing pass where the top player drives the passing knee fully across the opponent's remaining leg control to convert quarter guard top into full mount.",
   "overview": "The Knee Through from Quarter Guard is the direct path to achieving mount from an advanced passing position. When the top player has navigated past the majority of the bottom player's defensive structures and established quarter guard, the knee through represents the final mechanical action—driving the passing knee completely past remaining leg entanglement to establish full mount control. This technique sits at the critical juncture between near-complete pass and dominant position, where proper execution converts positional advantage into four points and direct submission access.\n\nUnlike more complex passing sequences requiring significant body repositioning, the knee through is mechanically straightforward but demands precise timing and pressure coordination. The primary challenge is maintaining sufficient downward pressure through the crossface and chest to prevent the bottom player from recovering defensive frames while simultaneously generating forward drive through the passing knee. This dual requirement—sustained upper body control with active lower body advancement—creates a coordination demand that separates competent execution from technical mastery at the purple and brown belt level.\n\nThe technique's strategic value extends beyond immediate mount achievement. By threatening the knee through, the top player forces the bottom player into desperate defensive reactions that may expose alternative passing pathways or submission entries. The bottom player must commit resources to blocking the knee drive, potentially weakening defenses against darce chokes, kimura traps, or crossface pass variations that exploit the same positional structure. The knee through thus functions as both a primary passing completion and a pressure tool that degrades the entire defensive framework.",
   "conditions": [
@@ -248,38 +260,138 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the knee drive, and how do you recognize it?",
-        "answer": "The optimal timing window opens when the bottom player's remaining defensive structure momentarily weakens—their knee shield drops pressure, their frames collapse under sustained crossface, or they commit to an alternative defense like reaching for an underhook. You recognize this window through tactile feedback: reduced pressure against your passing knee, the opponent's body settling flatter under your weight, or their near-side arm moving away from the defensive frame position. The drive should be initiated within one second of recognizing this window before the opponent can rebuild their defense."
+        "answer": "The optimal timing window opens when the bottom player's remaining defensive structure momentarily weakens—their knee shield drops pressure, their frames collapse under sustained crossface, or they commit to an alternative defense like reaching for an underhook. You recognize this window through tactile feedback: reduced pressure against your passing knee, the opponent's body settling flatter under your weight, or their near-side arm moving away from the defensive frame position. The drive should be initiated within one second of recognizing this window before the opponent can rebuild their defense.",
+        "answer_line": "Drive when their pressure drops",
+        "distractors": {
+          "plausible": [
+            "Go when you feel most stable",
+            "Drive toward their strong side"
+          ],
+          "trap": [
+            "Stall a beat to rebuild base"
+          ]
+        }
       },
       {
         "question": "What conditions must exist in the quarter guard position before the knee through becomes a viable option?",
-        "answer": "Four conditions must exist: your passing knee must be past the opponent's hip line by at least four inches establishing the mechanical angle for the drive, your crossface or upper body control must be sufficient to prevent the opponent from turning or creating frames, the opponent's remaining leg control must be visibly degraded to partial contact rather than full defensive engagement, and your free leg must be posted with stable base to resist sweep attempts during the transition moment. Attempting the knee through without all four conditions significantly reduces success probability."
+        "answer": "Four conditions must exist: your passing knee must be past the opponent's hip line by at least four inches establishing the mechanical angle for the drive, your crossface or upper body control must be sufficient to prevent the opponent from turning or creating frames, the opponent's remaining leg control must be visibly degraded to partial contact rather than full defensive engagement, and your free leg must be posted with stable base to resist sweep attempts during the transition moment. Attempting the knee through without all four conditions significantly reduces success probability.",
+        "answer_line": "Angle, control, degraded leg, base",
+        "distractors": {
+          "plausible": [
+            "Just get the knee past the hip",
+            "Strong crossface is enough alone"
+          ],
+          "trap": [
+            "Drive knee before posting base leg"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that distinguishes a successful knee drive from a failed one?",
-        "answer": "The most critical mechanical detail is maintaining a flat horizontal trajectory during the knee drive rather than lifting the knee in an arc over the opponent's leg. The flat trajectory keeps your hips heavy against the opponent throughout the transition, eliminates the space gap that allows defensive recovery, and completes the pass in the shortest possible time window. Every inch of vertical lift during the drive creates proportional space for the opponent to re-engage defensive hooks or insert frames."
+        "answer": "The most critical mechanical detail is maintaining a flat horizontal trajectory during the knee drive rather than lifting the knee in an arc over the opponent's leg. The flat trajectory keeps your hips heavy against the opponent throughout the transition, eliminates the space gap that allows defensive recovery, and completes the pass in the shortest possible time window. Every inch of vertical lift during the drive creates proportional space for the opponent to re-engage defensive hooks or insert frames.",
+        "answer_line": "Flat trajectory, not lifting over",
+        "distractors": {
+          "plausible": [
+            "Drive knee high and fast",
+            "Speed matters more than path"
+          ],
+          "trap": [
+            "Arc knee up over their leg"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand against your hip and begins hip escaping during your knee drive—how do you adjust?",
-        "answer": "When the opponent frames against your hip during the drive, immediately redirect your crossface pressure diagonally toward their far shoulder to counteract their hip escape direction. Use your free hand to strip or pin their posting arm against their body, eliminating the frame. If their hip escape has already created significant space, you may need to follow their hips and re-establish quarter guard pressure rather than forcing the knee through against an active escape. The key decision is whether the drive can complete before their escape creates enough space for guard recovery."
+        "answer": "When the opponent frames against your hip during the drive, immediately redirect your crossface pressure diagonally toward their far shoulder to counteract their hip escape direction. Use your free hand to strip or pin their posting arm against their body, eliminating the frame. If their hip escape has already created significant space, you may need to follow their hips and re-establish quarter guard pressure rather than forcing the knee through against an active escape. The key decision is whether the drive can complete before their escape creates enough space for guard recovery.",
+        "answer_line": "Angle crossface to far shoulder",
+        "distractors": {
+          "plausible": [
+            "Strip the frame arm first",
+            "Smash their hips flat first"
+          ],
+          "trap": [
+            "Commit the knee through the gap"
+          ]
+        }
       },
       {
         "question": "What grip configurations provide the best control during the knee through transition?",
-        "answer": "The optimal grip configuration involves crossface control with your shoulder driving into their far cheek while your crossface-side hand reaches under their head to grip the far collar or far shoulder for additional turning prevention. Your opposite hand should be posted on the mat for base or controlling the opponent's near-side knee to prevent shield re-insertion. In no-gi, the crossface arm cups the far armpit while the base hand posts on the mat. The grips should create a structural frame that pins the opponent flat rather than relying on muscular pulling."
+        "answer": "The optimal grip configuration involves crossface control with your shoulder driving into their far cheek while your crossface-side hand reaches under their head to grip the far collar or far shoulder for additional turning prevention. Your opposite hand should be posted on the mat for base or controlling the opponent's near-side knee to prevent shield re-insertion. In no-gi, the crossface arm cups the far armpit while the base hand posts on the mat. The grips should create a structural frame that pins the opponent flat rather than relying on muscular pulling.",
+        "answer_line": "Crossface + far grip, base posted",
+        "distractors": {
+          "plausible": [
+            "Grip both collars and pull tight",
+            "Near-side collar + near armpit"
+          ],
+          "trap": [
+            "Both hands to far hip, no crossface"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force application during the knee drive and why does it matter?",
-        "answer": "The force should be directed forward and slightly downward at approximately ten to fifteen degrees below horizontal, driving through the opponent's thigh line rather than over it. This downward angle maintains your hip pressure against the opponent's body throughout the drive, prevents the gap that allows defensive re-engagement, and uses gravity to assist the drive rather than working against it. Upward force application lifts your body off the opponent, creating the exact space they need for defensive recovery. Think of sliding your knee across a table surface rather than stepping over a barrier."
+        "answer": "The force should be directed forward and slightly downward at approximately ten to fifteen degrees below horizontal, driving through the opponent's thigh line rather than over it. This downward angle maintains your hip pressure against the opponent's body throughout the drive, prevents the gap that allows defensive re-engagement, and uses gravity to assist the drive rather than working against it. Upward force application lifts your body off the opponent, creating the exact space they need for defensive recovery. Think of sliding your knee across a table surface rather than stepping over a barrier.",
+        "answer_line": "Forward and slightly downward angle",
+        "distractors": {
+          "plausible": [
+            "Straight forward, flat horizontal",
+            "Upward lift clears the leg faster"
+          ],
+          "trap": [
+            "Drive upward over the thigh"
+          ]
+        }
       },
       {
         "question": "Your knee drive stalls mid-way because the opponent catches your ankle with a last-second hook—what do you do?",
-        "answer": "When caught mid-drive by an ankle hook, do not retreat backward as this returns you to a weaker quarter guard. Instead, increase your crossface pressure to pin them flat while using your free hand to strip the hook from your ankle by pushing their foot off. If the hook is too deep to strip, use a circling motion with your trapped foot to break the hook while maintaining forward pressure. If neither option works within three seconds, accept the position and return to degrading their defensive structure before attempting the drive again."
+        "answer": "When caught mid-drive by an ankle hook, do not retreat backward as this returns you to a weaker quarter guard. Instead, increase your crossface pressure to pin them flat while using your free hand to strip the hook from your ankle by pushing their foot off. If the hook is too deep to strip, use a circling motion with your trapped foot to break the hook while maintaining forward pressure. If neither option works within three seconds, accept the position and return to degrading their defensive structure before attempting the drive again.",
+        "answer_line": "Pin flat, strip or circle the hook",
+        "distractors": {
+          "plausible": [
+            "Retreat to reset quarter guard",
+            "Yank the leg free immediately"
+          ],
+          "trap": [
+            "Back off to loosen the hook"
+          ]
+        }
       },
       {
         "question": "How do you chain the knee through with attacks if the bottom player begins defending before you fully consolidate mount?",
-        "answer": "If the opponent immediately initiates escape attempts as you clear the leg, skip the consolidation phase and flow directly into attacks that capitalize on their defensive movement. If they bridge, ride the bridge and threaten americana on the arm they extend for the upa. If they turn to their side, immediately transition to technical mount and threaten the back take. If they push against your chest with frames, attack the extended arms with armbar entries. The key insight is that defensive reactions during mount establishment are predictable and each one has a corresponding high-percentage attack."
+        "answer": "If the opponent immediately initiates escape attempts as you clear the leg, skip the consolidation phase and flow directly into attacks that capitalize on their defensive movement. If they bridge, ride the bridge and threaten americana on the arm they extend for the upa. If they turn to their side, immediately transition to technical mount and threaten the back take. If they push against your chest with frames, attack the extended arms with armbar entries. The key insight is that defensive reactions during mount establishment are predictable and each one has a corresponding high-percentage attack.",
+        "answer_line": "Skip settling; attack their reaction",
+        "distractors": {
+          "plausible": [
+            "Freeze and rebuild base first",
+            "Ride bridge, then take the back"
+          ],
+          "trap": [
+            "Post a hand out and wait to settle"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The knee through from quarter guard involves significant pressure application through crossface and body weight that requires training awareness. Practitioners should communicate with partners about pressure intensity during drilling and avoid driving the knee directly into sensitive areas including the groin, inner thigh, or knee joint. Aggressive crossface pressure can strain the cervical spine if applied with excessive force rather than structural weight. In training, use progressive resistance to allow the bottom player to develop defensive reactions safely before applying full competition-level pressure. Be particularly mindful during the knee drive phase that your shin does not catch the opponent's knee at an awkward angle during extraction."
+    "safety_considerations": "The knee through from quarter guard involves significant pressure application through crossface and body weight that requires training awareness. Practitioners should communicate with partners about pressure intensity during drilling and avoid driving the knee directly into sensitive areas including the groin, inner thigh, or knee joint. Aggressive crossface pressure can strain the cervical spine if applied with excessive force rather than structural weight. In training, use progressive resistance to allow the bottom player to develop defensive reactions safely before applying full competition-level pressure. Be particularly mindful during the knee drive phase that your shin does not catch the opponent's knee at an awkward angle during extraction.",
+    "clips": [
+      {
+        "id": "Tr-K1pNOb_E",
+        "title": "Knee slide to mount",
+        "by": "Jake Shields",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MHkLdz5_qsw",
+        "title": "Knee slide pass to mount",
+        "by": "Matt McCormick",
+        "vertical": false,
+        "channel": "Matt McCormick",
+        "duration": 79,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Through from Quarter Defender",
@@ -364,23 +476,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that tell you a knee through attempt is imminent?",
-        "answer": "The earliest cues occur during the setup phase before the knee moves: sudden increase in crossface pressure as the opponent pins you flat, the opponent posting their far hand on the mat establishing base for the drive, weight shifting noticeably forward and downward compressing your upper body, and the opponent's passing knee beginning to press forward against your remaining defensive leg contact. Recognizing these setup indicators gives you one to two seconds of additional reaction time compared to waiting for the actual knee drive to begin."
+        "answer": "The earliest cues occur during the setup phase before the knee moves: sudden increase in crossface pressure as the opponent pins you flat, the opponent posting their far hand on the mat establishing base for the drive, weight shifting noticeably forward and downward compressing your upper body, and the opponent's passing knee beginning to press forward against your remaining defensive leg contact. Recognizing these setup indicators gives you one to two seconds of additional reaction time compared to waiting for the actual knee drive to begin.",
+        "answer_line": "Setup pressure before the knee moves",
+        "distractors": {
+          "plausible": [
+            "Wait for the knee slice to start",
+            "Feel the shin already on your thigh"
+          ],
+          "trap": [
+            "Turn belly-down to hide the leg"
+          ]
+        }
       },
       {
         "question": "When defending the knee through, what determines whether you should fight for knee shield re-insertion versus committing to a full hip escape?",
-        "answer": "The decision depends on the space available between the opponent's hip and your body. If there is sufficient space to insert your knee—typically when the opponent has not yet committed their full weight forward—re-inserting the knee shield is more energy efficient and maintains better defensive structure. If the opponent has closed that space with heavy chest-to-chest pressure, the knee cannot physically fit between your bodies and hip escape becomes the only viable option. You must assess this within one second of recognizing the drive attempt."
+        "answer": "The decision depends on the space available between the opponent's hip and your body. If there is sufficient space to insert your knee—typically when the opponent has not yet committed their full weight forward—re-inserting the knee shield is more energy efficient and maintains better defensive structure. If the opponent has closed that space with heavy chest-to-chest pressure, the knee cannot physically fit between your bodies and hip escape becomes the only viable option. You must assess this within one second of recognizing the drive attempt.",
+        "answer_line": "Available hip-to-body space",
+        "distractors": {
+          "plausible": [
+            "How much time has passed",
+            "Your remaining energy level"
+          ],
+          "trap": [
+            "Roll belly-down to reset guard"
+          ]
+        }
       },
       {
         "question": "How do you use the opponent's forward commitment during the knee drive to create counter-offensive opportunities?",
-        "answer": "When the opponent commits weight forward for the knee drive, their lateral stability is temporarily compromised and their base narrows to the posted hand and one leg. This creates vulnerability to sweeps timed to this commitment moment—an underhook sweep pulling them past your body, a hip bump using their forward momentum against them, or a deep half entry that uses their forward weight to pull them over your body. The key is recognizing that the moment of maximum offensive commitment from the passer is simultaneously the moment of maximum sweep vulnerability."
+        "answer": "When the opponent commits weight forward for the knee drive, their lateral stability is temporarily compromised and their base narrows to the posted hand and one leg. This creates vulnerability to sweeps timed to this commitment moment—an underhook sweep pulling them past your body, a hip bump using their forward momentum against them, or a deep half entry that uses their forward weight to pull them over your body. The key is recognizing that the moment of maximum offensive commitment from the passer is simultaneously the moment of maximum sweep vulnerability.",
+        "answer_line": "Sweep the narrowed base mid-drive",
+        "distractors": {
+          "plausible": [
+            "Wait until mount is secured to sweep",
+            "Bridge straight up for an upa"
+          ],
+          "trap": [
+            "Push into their forward pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent has started the knee drive and your knee shield has been cleared—what are your remaining defensive options in priority order?",
-        "answer": "Priority order when the knee shield is cleared: First, explosive hip escape away from the passing direction to create space for leg re-engagement before the knee fully crosses your centerline. Second, frame against the passing knee with both hands using skeletal structure to physically block further advancement while continuing to hip escape. Third, if the knee is nearly past, immediately transition to mount defense fundamentals—establish elbow-knee connection frames and prepare for bridge or elbow escape from mount rather than fighting a lost battle for quarter guard retention."
+        "answer": "Priority order when the knee shield is cleared: First, explosive hip escape away from the passing direction to create space for leg re-engagement before the knee fully crosses your centerline. Second, frame against the passing knee with both hands using skeletal structure to physically block further advancement while continuing to hip escape. Third, if the knee is nearly past, immediately transition to mount defense fundamentals—establish elbow-knee connection frames and prepare for bridge or elbow escape from mount rather than fighting a lost battle for quarter guard retention.",
+        "answer_line": "Hip escape away, make space",
+        "distractors": {
+          "plausible": [
+            "Two-hand frame on knee first",
+            "Reset to quarter guard"
+          ],
+          "trap": [
+            "Turn to turtle, spin free"
+          ]
+        }
       },
       {
         "question": "What role does the underhook play in defending the knee through, and when should you abandon it for other defensive priorities?",
-        "answer": "The underhook serves as both defensive anchor preventing the crossface from flattening you completely and offensive counter-threat forcing the passer to allocate resources to sweep defense. You should maintain the underhook as long as it provides either defensive or offensive value. Abandon the underhook only when maintaining it actively prevents a more critical defensive action—specifically when you need both hands to frame against an imminent knee drive that will achieve mount in the next one to two seconds. In that emergency scenario, survival takes priority over maintaining offensive threats."
+        "answer": "The underhook serves as both defensive anchor preventing the crossface from flattening you completely and offensive counter-threat forcing the passer to allocate resources to sweep defense. You should maintain the underhook as long as it provides either defensive or offensive value. Abandon the underhook only when maintaining it actively prevents a more critical defensive action—specifically when you need both hands to frame against an imminent knee drive that will achieve mount in the next one to two seconds. In that emergency scenario, survival takes priority over maintaining offensive threats.",
+        "answer_line": "Keep it unless mount is imminent",
+        "distractors": {
+          "plausible": [
+            "Frame first, ditch the underhook",
+            "Always hold it for the sweep"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -403,6 +565,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Implementing defensive skills under full competition conditions",
         "description": "Positional sparring from quarter guard bottom with full resistance. Bottom player scores for successful guard recovery or sweep; top player scores for mount achievement. Track success rates over multiple rounds and identify which defensive patterns need refinement. Integrate counter-offensive opportunities from the defensive positions when they present naturally."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xDZucxFVK48",
+        "title": "Defending the knee slice from quarter guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 275,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iq5Ng9kFD2A",
+        "title": "Defend and counter the knee slide pass",
+        "by": "Jordan Preisinger",
+        "vertical": false,
+        "channel": "Jordan Teaches Jiujitsu",
+        "duration": 678,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WMHAX4ATRnM",
+        "title": "Countering the knee through to mount",
+        "by": "SBG coach",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 127,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -170,6 +170,54 @@ description: "How to execute Triangle from De La Riva in BJJ. Attacking perspect
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from De La Riva (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle from De La Riva Guard",
+      "description": "Triangle Choke from De La Riva (Attacker) film study: Triangle from De La Riva Guard, taught by Nartay Kazhekov.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UOFZwIbz9zM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UOFZwIbz9zM",
+      "url": "https://www.youtube.com/watch?v=UOFZwIbz9zM",
+      "creator": { "@type": "Person", "name": "Nartay Kazhekov" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse De La Riva to Triangle",
+      "description": "Triangle Choke from De La Riva (Attacker) film study: Reverse De La Riva to Triangle, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gR54h1IXyGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gR54h1IXyGg",
+      "url": "https://www.youtube.com/watch?v=gR54h1IXyGg",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Easy De La Riva Triangle Choke",
+      "description": "Triangle Choke from De La Riva (Attacker) film study: Easy De La Riva Triangle Choke, taught by Alex Lane.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0EmXVus5m8o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0EmXVus5m8o",
+      "url": "https://www.youtube.com/watch?v=0EmXVus5m8o",
+      "creator": { "@type": "Person", "name": "Alex Lane" },
+      "duration": "PT90S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from De La Riva (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UOFZwIbz9zM)
+
+<p class="clip-credit"><strong>Triangle from De La Riva Guard</strong> — taught by Nartay Kazhekov · 0:25 · <a href="https://www.youtube.com/watch?v=UOFZwIbz9zM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gR54h1IXyGg)
+
+<p class="clip-credit"><strong>Reverse De La Riva to Triangle</strong> — taught by Lucas Lepri · 0:22 · <a href="https://www.youtube.com/watch?v=gR54h1IXyGg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0EmXVus5m8o)
+
+<p class="clip-credit"><strong>Easy De La Riva Triangle Choke</strong> — taught by Alex Lane · 1:30 · <a href="https://www.youtube.com/watch?v=0EmXVus5m8o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -180,6 +180,54 @@ description: "Learn to execute the Re-flatten from Dogfight as the top player. D
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Re-flatten from Dogfight (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Killing the half guard underhook to flatten your opponent",
+      "description": "Re-flatten from Dogfight (Attacker) film study: Killing the half guard underhook to flatten your opponent, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dog Fight Basics: Plan B and Oldschool Sweep",
+      "description": "Re-flatten from Dogfight (Attacker) film study: Dog Fight Basics: Plan B and Oldschool Sweep, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fjDBmFzfhgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fjDBmFzfhgI",
+      "url": "https://www.youtube.com/watch?v=fjDBmFzfhgI",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dogfight Counterattacks: Beating Their Half Guard",
+      "description": "Re-flatten from Dogfight (Attacker) film study: Dogfight Counterattacks: Beating Their Half Guard, taught by Energia Martial Arts coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TlAHoKqCq7M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TlAHoKqCq7M",
+      "url": "https://www.youtube.com/watch?v=TlAHoKqCq7M",
+      "creator": { "@type": "Person", "name": "Energia Martial Arts coach" },
+      "duration": "PT438S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the top player in the dogfight, your primary objective with the re-flatten is
 **From Position**: [[Positions/Dogfight Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Re-flatten from Dogfight (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Killing the half guard underhook to flatten your opponent</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fjDBmFzfhgI)
+
+<p class="clip-credit"><strong>Dog Fight Basics: Plan B and Oldschool Sweep</strong> — taught by Brandon McCaghren · 2:25 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TlAHoKqCq7M)
+
+<p class="clip-credit"><strong>Dogfight Counterattacks: Beating Their Half Guard</strong> — taught by Energia Martial Arts coach · 7:18 · <a href="https://www.youtube.com/watch?v=TlAHoKqCq7M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

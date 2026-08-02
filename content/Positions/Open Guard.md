@@ -34,6 +34,54 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Open Guard film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Open guard warm-up fundamentals",
+      "description": "Open Guard film study: Open guard warm-up fundamentals, taught by Jiu Jitsu Vintage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aYknDsVN5aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aYknDsVN5aM",
+      "url": "https://www.youtube.com/watch?v=aYknDsVN5aM",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Vintage" },
+      "duration": "PT107S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The Y-guard: an open guard secret weapon",
+      "description": "Open Guard film study: The Y-guard: an open guard secret weapon, taught by Felipe Costa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZzAtxR7p_YE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZzAtxR7p_YE",
+      "url": "https://www.youtube.com/watch?v=ZzAtxR7p_YE",
+      "creator": { "@type": "Person", "name": "Felipe Costa" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ Open guard requires constant movement and active management - it's a dynamic rat
 From the top perspective, Open Guard Top represents the fundamental challenge of navigating past an opponent's dynamic leg frames while managing grip battles, maintaining base against sweeps, and creating passing opportunities. Success requires reading the specific guard variation being employed and selecting appropriate passing strategies - pressure passing against close guards, movement passing against distance guards, and systematic dismantling of complex guard structures through grip dominance and angle creation.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aYknDsVN5aM)
+
+<p class="clip-credit"><strong>Open guard warm-up fundamentals</strong> — taught by Jiu Jitsu Vintage · 1:47 · <a href="https://www.youtube.com/watch?v=aYknDsVN5aM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZzAtxR7p_YE)
+
+<p class="clip-credit"><strong>The Y-guard: an open guard secret weapon</strong> — taught by Felipe Costa · 1:01 · <a href="https://www.youtube.com/watch?v=ZzAtxR7p_YE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,45 +223,45 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (23% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (16% of attempts)
 
 - **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (4% of attempts)
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (3% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (4% of attempts)
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (4% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (6% of attempts)
 
-- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (2% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (3% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (2% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (1% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (2% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (3% of attempts)
 
-- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (2% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (13% of attempts)
 
-- **[[Transitions/Scissor Sweep from Open Guard/Attacker|Scissor Sweep from Open Guard]]** (4% of attempts)
+- **[[Transitions/Scissor Sweep from Open Guard/Attacker|Scissor Sweep from Open Guard]]** (2% of attempts)
 
-- **[[Transitions/Open Guard to Deep Half/Attacker|Open Guard to Deep Half]]** (4% of attempts)
+- **[[Transitions/Open Guard to Deep Half/Attacker|Open Guard to Deep Half]]** (3% of attempts)
 
-- **[[Transitions/Open Guard to Collar Sleeve Guard/Attacker|Open Guard to Collar Sleeve Guard]]** (9% of attempts)
+- **[[Transitions/Open Guard to Collar Sleeve Guard/Attacker|Open Guard to Collar Sleeve Guard]]** (0% of attempts)
 
-- **[[Transitions/Open Guard to De La Riva/Attacker|Open Guard to De La Riva]]** (11% of attempts)
+- **[[Transitions/Open Guard to De La Riva/Attacker|Open Guard to De La Riva]]** (5% of attempts)
 
-- **[[Transitions/Open Guard to Double Sleeve Guard/Attacker|Open Guard to Double Sleeve Guard]]** (4% of attempts)
+- **[[Transitions/Open Guard to Double Sleeve Guard/Attacker|Open Guard to Double Sleeve Guard]]** (0% of attempts)
 
-- **[[Transitions/Open Guard to Feet on Hips Guard/Attacker|Open Guard to Feet on Hips Guard]]** (6% of attempts)
+- **[[Transitions/Open Guard to Feet on Hips Guard/Attacker|Open Guard to Feet on Hips Guard]]** (10% of attempts)
 
-- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (4% of attempts)
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (0% of attempts)
 
-- **[[Transitions/Recovery from Failed Sweep/Attacker|Recovery from Failed Sweep]]** (3% of attempts)
+- **[[Transitions/Recovery from Failed Sweep/Attacker|Recovery from Failed Sweep]]** (7% of attempts)
 
-- **[[Transitions/Technical Stand Up from Open Guard/Attacker|Technical Stand Up from Open Guard]]** (5% of attempts)
+- **[[Transitions/Technical Stand Up from Open Guard/Attacker|Technical Stand Up from Open Guard]]** (14% of attempts)
 
 - **[[Transitions/Transition to Clamp Guard/Attacker|Transition to Clamp Guard]]** (2% of attempts)
 
-- **[[Belly Down Armbar from Open Guard/Attacker|Belly Down Armbar from Open Guard]]** (2% of attempts)
+- **[[Belly Down Armbar from Open Guard/Attacker|Belly Down Armbar from Open Guard]]** (1% of attempts)
 
-- **[[Triangle Choke from Open Guard/Attacker|Triangle Choke from Open Guard]]** (4% of attempts)
+- **[[Triangle Choke from Open Guard/Attacker|Triangle Choke from Open Guard]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -242,29 +326,29 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (12% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (15% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (17% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (16% of attempts)
 
 - **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** (4% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (8% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (6% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (8% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (7% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (7% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (8% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (4% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
 
-- **[[Transitions/Float Passing/Attacker|Float Passing]]** (4% of attempts)
+- **[[Transitions/Float Passing/Attacker|Float Passing]]** (9% of attempts)
 
-- **[[Transitions/Open Guard to Double Unders/Attacker|Open Guard to Double Unders]]** (7% of attempts)
+- **[[Transitions/Open Guard to Double Unders/Attacker|Open Guard to Double Unders]]** (2% of attempts)
 
 
 ### Common Mistakes

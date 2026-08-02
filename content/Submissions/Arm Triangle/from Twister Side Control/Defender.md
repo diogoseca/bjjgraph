@@ -150,6 +150,43 @@ description: "Learn to defend the Arm Triangle from Twister Side Control. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Twister Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Fastest Escape Out of the Arm Triangle",
+      "description": "Arm Triangle from Twister Side Control (Defender) film study: The Fastest Escape Out of the Arm Triangle, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
+      "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Arm Triangle Choke Defenses",
+      "description": "Arm Triangle from Twister Side Control (Defender) film study: 3 Arm Triangle Choke Defenses, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fx6qjR6a_xE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fx6qjR6a_xE",
+      "url": "https://www.youtube.com/watch?v=Fx6qjR6a_xE",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Arm Triangle from Twister Side Control requires recognizing the cr
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Twister Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D2vkZGTD78I)
+
+<p class="clip-credit"><strong>The Fastest Escape Out of the Arm Triangle</strong> — taught by Adam Bradley · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fx6qjR6a_xE)
+
+<p class="clip-credit"><strong>3 Arm Triangle Choke Defenses</strong> — taught by MMA Leech · 4:34 · <a href="https://www.youtube.com/watch?v=Fx6qjR6a_xE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

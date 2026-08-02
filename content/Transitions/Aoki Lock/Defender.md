@@ -148,6 +148,43 @@ description: "How to defend against the Aoki Lock in BJJ. Recognition cues, esca
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Aoki Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Aoki lock counter from standard ashi and SLX",
+      "description": "Aoki Lock (Defender) film study: Aoki lock counter from standard ashi and SLX, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p7fy3B6AAbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p7fy3B6AAbA",
+      "url": "https://www.youtube.com/watch?v=p7fy3B6AAbA",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT231S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roll-through leg lock escape",
+      "description": "Aoki Lock (Defender) film study: Roll-through leg lock escape, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Defensive strategies fall into three categories: preventing the finish by disrup
 **Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Aoki Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p7fy3B6AAbA)
+
+<p class="clip-credit"><strong>Aoki lock counter from standard ashi and SLX</strong> — taught by Mads H. · 3:51 · <a href="https://www.youtube.com/watch?v=p7fy3B6AAbA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Roll-through leg lock escape</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 
@@ -222,7 +287,7 @@ Defensive strategies fall into three categories: preventing the finish by disrup
 ### 4. Tap immediately when pressure reaches dangerous threshold on the shoulder joint
 
 - **When to use**: When you feel sharp pain in the shoulder, cannot prevent arm extension, or have no viable escape path remaining
-- **Targets**: [[Transitions/Aoki Lock]]
+- **Targets**: [[Aoki Lock from Aoki Lock Control]]
 - **If successful**: Prevents serious shoulder injury including rotator cuff tears, labrum damage, and dislocation
 - **Risk**: No physical risk - conceding the submission is always the correct choice when safety is threatened
 

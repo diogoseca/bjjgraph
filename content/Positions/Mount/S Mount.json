@@ -294,77 +294,216 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 32
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
       },
       {
         "transition": "Triangle from Mount",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Americana from S Mount",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 3
+        }
       },
       {
         "transition": "Kimura from S Mount",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 8
+        }
       },
       {
         "transition": "Mounted Crucifix Entry",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
       },
       {
         "transition": "Gift Wrap to Back",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 11
+        }
       },
       {
         "transition": "S Mount Armbar Setup",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 19
+        }
       },
       {
         "transition": "S Mount to Mounted Triangle",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 10
+        }
       },
       {
         "transition": "Armbar from S Mount",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 18
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What hip adjustment should you make when your opponent starts to bridge explosively from S Mount bottom?",
-        "answer": "Drop your hips lower and tighter against their shoulder while posting your near foot wider for stability. The bridge creates upward force, so you counter by driving your weight down and forward toward their trapped arm. Keep your center of gravity low and avoid sitting up, which would make you vulnerable to being displaced."
+        "answer": "Drop your hips lower and tighter against their shoulder while posting your near foot wider for stability. The bridge creates upward force, so you counter by driving your weight down and forward toward their trapped arm. Keep your center of gravity low and avoid sitting up, which would make you vulnerable to being displaced.",
+        "answer_line": "Drop hips, drive into shoulder",
+        "distractors": {
+          "plausible": [
+            "Sit up to absorb the bridge",
+            "Widen base, keep hips high"
+          ],
+          "trap": [
+            "Post hands, lift hips up"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and leg positions for maintaining S Mount control?",
-        "answer": "Your near leg extends over their head with foot firmly planted on the mat beyond their far shoulder. Your far leg crosses their torso at chest level, creating a structural barrier. Hands grip their wrist and control the isolated arm - one hand on the wrist, the other securing the elbow or bicep. Your hips must stay glued to their shoulder to eliminate space."
+        "answer": "Your near leg extends over their head with foot firmly planted on the mat beyond their far shoulder. Your far leg crosses their torso at chest level, creating a structural barrier. Hands grip their wrist and control the isolated arm - one hand on the wrist, the other securing the elbow or bicep. Your hips must stay glued to their shoulder to eliminate space.",
+        "answer_line": "Head leg, chest leg, glued hips",
+        "distractors": {
+          "plausible": [
+            "Both legs hook the far hip",
+            "Chest leg first, wrist later"
+          ],
+          "trap": [
+            "Release wrist to grip both legs"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary escape where opponent tries to pull their arm back to their body?",
-        "answer": "Maintain constant two-on-one control of their wrist, keeping their arm extended across your centerline. Drive your hip weight into their shoulder to pin it to the mat. If they start pulling, immediately transition to the armbar finish or switch to a mounted triangle by threading your leg under their chin as they expose the neck."
+        "answer": "Maintain constant two-on-one control of their wrist, keeping their arm extended across your centerline. Drive your hip weight into their shoulder to pin it to the mat. If they start pulling, immediately transition to the armbar finish or switch to a mounted triangle by threading your leg under their chin as they expose the neck.",
+        "answer_line": "Keep two-on-one wrist, pin shoulder",
+        "distractors": {
+          "plausible": [
+            "Let arm bend, chase the elbow",
+            "Switch to armbar grip first"
+          ],
+          "trap": [
+            "Release wrist to block their hip"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you maintain from S Mount top when the opponent is actively defending?",
-        "answer": "Primary grip is wrist control on the isolated arm - never release this without transitioning to another control. Secondary grip pins their far arm or posts on the mat for base. If attacking armbar, add elbow control with your second hand. The wrist grip is non-negotiable; losing it typically means losing the position or submission opportunity."
+        "answer": "Primary grip is wrist control on the isolated arm - never release this without transitioning to another control. Secondary grip pins their far arm or posts on the mat for base. If attacking armbar, add elbow control with your second hand. The wrist grip is non-negotiable; losing it typically means losing the position or submission opportunity.",
+        "answer_line": "Wrist grip primary, never release",
+        "distractors": {
+          "plausible": [
+            "Elbow control first, wrist second",
+            "Post hands for base over grips"
+          ],
+          "trap": [
+            "Switch grips to their far arm"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure from S Mount to drain opponent's energy while maintaining control?",
-        "answer": "Drive your hip bone into their shoulder joint, creating constant grinding pressure. Your weight should flow through this hip connection, not through your hands. The perpendicular body angle allows you to apply focused pressure on their shoulder while your legs control their movement. This pressure forces them to carry your weight through their trapped arm, fatiguing them rapidly."
+        "answer": "Drive your hip bone into their shoulder joint, creating constant grinding pressure. Your weight should flow through this hip connection, not through your hands. The perpendicular body angle allows you to apply focused pressure on their shoulder while your legs control their movement. This pressure forces them to carry your weight through their trapped arm, fatiguing them rapidly.",
+        "answer_line": "Grind hip bone into their shoulder",
+        "distractors": {
+          "plausible": [
+            "Push down with both hands",
+            "Drive knee into their ribs"
+          ],
+          "trap": [
+            "Lean weight onto their chest"
+          ]
+        }
       },
       {
         "question": "Your opponent creates a small hip escape and begins to recover space - what immediate adjustment prevents full escape?",
-        "answer": "Follow their hip movement by scooting your hips with them, maintaining the hip-to-shoulder connection. Do not chase with your upper body first - lead with hip pressure. If space opens, either complete the armbar immediately before they recover, or abandon S Mount and drop back to standard mount to reset. The worst option is staying in compromised S Mount with space."
+        "answer": "Follow their hip movement by scooting your hips with them, maintaining the hip-to-shoulder connection. Do not chase with your upper body first - lead with hip pressure. If space opens, either complete the armbar immediately before they recover, or abandon S Mount and drop back to standard mount to reset. The worst option is staying in compromised S Mount with space.",
+        "answer_line": "Follow with hips, finish or reset",
+        "distractors": {
+          "plausible": [
+            "Chase with upper body first",
+            "Force the finish regardless"
+          ],
+          "trap": [
+            "Stay put and grip harder"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when opponent is actively defending from S Mount bottom?",
-        "answer": "Use structural control rather than muscular effort - let your skeletal frame and body weight do the work through proper positioning. Avoid death-gripping the wrist; instead, use body position to make escape mechanically difficult. If they're defending successfully, return to mount to rest rather than burning energy forcing a low-percentage finish. Patient pressure eventually creates openings."
+        "answer": "Use structural control rather than muscular effort - let your skeletal frame and body weight do the work through proper positioning. Avoid death-gripping the wrist; instead, use body position to make escape mechanically difficult. If they're defending successfully, return to mount to rest rather than burning energy forcing a low-percentage finish. Patient pressure eventually creates openings.",
+        "answer_line": "Use structure, reset to mount",
+        "distractors": {
+          "plausible": [
+            "Grip wrist as hard as possible",
+            "Force the finish through fatigue"
+          ],
+          "trap": [
+            "Release position to re-attack"
+          ]
+        }
       },
       {
         "question": "What should you do immediately after a partial escape where opponent frees their arm but you still have positional control?",
-        "answer": "Immediately transition back to standard mount and consolidate control before they can fully escape. Once in mount, reset your grips and wait for another arm isolation opportunity. Do not chase the escaped arm or attempt to re-enter S Mount while unstable. Secure the position first, then look for the next submission opportunity from a position of control."
+        "answer": "Immediately transition back to standard mount and consolidate control before they can fully escape. Once in mount, reset your grips and wait for another arm isolation opportunity. Do not chase the escaped arm or attempt to re-enter S Mount while unstable. Secure the position first, then look for the next submission opportunity from a position of control.",
+        "answer_line": "Return to mount, consolidate first",
+        "distractors": {
+          "plausible": [
+            "Chase the escaping arm",
+            "Re-enter S Mount immediately"
+          ],
+          "trap": [
+            "Dive for a new submission now"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "nH4ly3vk7WI",
+        "title": "S-Mount armbar, kimura & far-side armbar",
+        "by": "GBCostaMesa",
+        "vertical": false,
+        "channel": "GBCostaMesa",
+        "duration": 24,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2zSi7RlFJEU",
+        "title": "Armbar from S-Mount",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "N-fwXASdMCQ",
+        "title": "Brutal armbar from S-Mount",
+        "by": "Lux's Jiu Jitsu",
+        "vertical": false,
+        "channel": "Lux’s jiu jitsu channel",
+        "duration": 80,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -591,54 +730,318 @@
     "transitions": [
       {
         "transition": "Trap and Roll from S Mount",
-        "attempt_probability": 30
+        "attempt_probability": {
+          "gi": 23,
+          "nogi": 24
+        }
       },
       {
         "transition": "Frame and Shrimp from S Mount",
-        "attempt_probability": 28
+        "attempt_probability": {
+          "gi": 33,
+          "nogi": 32
+        }
       },
       {
         "transition": "Bridge Escape from S Mount",
-        "attempt_probability": 25
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 22
+        }
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 22
+        }
       }
     ],
     "flashcards": [
       {
         "question": "Your opponent drops their weight and starts to extend your trapped arm - what immediate defensive action do you take?",
-        "answer": "Grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or greater. Simultaneously drive your free hand into their near hip to create a frame. Never straighten the arm to resist - bent arms are exponentially harder to attack. If they're pulling hard, curl toward your trapped arm rather than extending away from it."
+        "answer": "Grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or greater. Simultaneously drive your free hand into their near hip to create a frame. Never straighten the arm to resist - bent arms are exponentially harder to attack. If they're pulling hard, curl toward your trapped arm rather than extending away from it.",
+        "answer_line": "Grip collar, keep elbow bent",
+        "distractors": {
+          "plausible": [
+            "Push their hip with both hands",
+            "Pull arm straight to yank free"
+          ],
+          "trap": [
+            "Straighten arm to resist pull"
+          ]
+        }
       },
       {
         "question": "What are the essential body positions you must maintain when trapped in S Mount bottom?",
-        "answer": "Keep your trapped arm bent with hand gripping your collar, elbow tight to your ribs. Your free hand controls opponent's near leg or frames against their hip. Shoulders stay relatively flat to prevent back exposure, but hips should be mobile and ready to escape. Chin tucked to protect neck. Never let both arms extend or get trapped simultaneously."
+        "answer": "Keep your trapped arm bent with hand gripping your collar, elbow tight to your ribs. Your free hand controls opponent's near leg or frames against their hip. Shoulders stay relatively flat to prevent back exposure, but hips should be mobile and ready to escape. Chin tucked to protect neck. Never let both arms extend or get trapped simultaneously.",
+        "answer_line": "Bent arm on collar, control leg",
+        "distractors": {
+          "plausible": [
+            "Both hands frame their hips",
+            "Extend arms to create space"
+          ],
+          "trap": [
+            "Expose back to escape faster"
+          ]
+        }
       },
       {
         "question": "How do you prevent your opponent from stepping fully over your head to complete the armbar?",
-        "answer": "Use your free hand to hook or control their near leg at the knee or shin, physically blocking their ability to step over. This is your primary defensive tool - losing leg control usually means losing the arm. Combine this with hip escaping toward their legs to create distance that makes the step-over mechanically more difficult."
+        "answer": "Use your free hand to hook or control their near leg at the knee or shin, physically blocking their ability to step over. This is your primary defensive tool - losing leg control usually means losing the arm. Combine this with hip escaping toward their legs to create distance that makes the step-over mechanically more difficult.",
+        "answer_line": "Hook their near leg, block step-over",
+        "distractors": {
+          "plausible": [
+            "Push their hip to create space",
+            "Grab their far leg instead"
+          ],
+          "trap": [
+            "Let go of leg to frame face"
+          ]
+        }
       },
       {
         "question": "What grip priorities must you maintain when defending against S Mount attacks?",
-        "answer": "First priority: trapped hand grips own collar to keep arm bent. Second priority: free hand controls opponent's near leg. Never abandon the collar grip to push with both hands - this extends your trapped arm into the submission. The collar grip is non-negotiable; the leg control prevents the finish. Both must be maintained simultaneously."
+        "answer": "First priority: trapped hand grips own collar to keep arm bent. Second priority: free hand controls opponent's near leg. Never abandon the collar grip to push with both hands - this extends your trapped arm into the submission. The collar grip is non-negotiable; the leg control prevents the finish. Both must be maintained simultaneously.",
+        "answer_line": "Trapped hand grips own collar",
+        "distractors": {
+          "plausible": [
+            "Free hand grips collar first",
+            "Free hand controls the far leg"
+          ],
+          "trap": [
+            "Push away with both hands"
+          ]
+        }
       },
       {
         "question": "How should you use hip movement when attempting to escape S Mount bottom?",
-        "answer": "Hip escape toward your opponent's legs (the direction away from your trapped arm) while maintaining arm protection and leg control. Small, controlled shrimps create cumulative space. Do not explosive hip escape without a plan - this often extends the trapped arm. Time your hip movement when opponent adjusts position or attacks, not when they're settled and heavy."
+        "answer": "Hip escape toward your opponent's legs (the direction away from your trapped arm) while maintaining arm protection and leg control. Small, controlled shrimps create cumulative space. Do not explosive hip escape without a plan - this often extends the trapped arm. Time your hip movement when opponent adjusts position or attacks, not when they're settled and heavy.",
+        "answer_line": "Shrimp toward their legs, timed",
+        "distractors": {
+          "plausible": [
+            "Explosive escape without a plan",
+            "Hip escape toward your head"
+          ],
+          "trap": [
+            "Push straight up to stand"
+          ]
+        }
       },
       {
         "question": "Your opponent momentarily releases wrist control to readjust their grip - what do you do?",
-        "answer": "Immediately pull your arm back to your body, gripping your collar before they can re-establish control. This is your window - even a split second of released pressure is an opportunity. Simultaneously hip escape to create distance. If you successfully extract the arm, immediately frame and recover to mount or half guard rather than staying flat."
+        "answer": "Immediately pull your arm back to your body, gripping your collar before they can re-establish control. This is your window - even a split second of released pressure is an opportunity. Simultaneously hip escape to create distance. If you successfully extract the arm, immediately frame and recover to mount or half guard rather than staying flat.",
+        "answer_line": "Pull arm to collar, hip escape",
+        "distractors": {
+          "plausible": [
+            "Push away with both hands",
+            "Wait for a bigger opening"
+          ],
+          "trap": [
+            "Try to sweep before securing arm"
+          ]
+        }
       },
       {
         "question": "How do you manage energy conservation when trapped in S Mount for extended periods?",
-        "answer": "Use defensive structure rather than muscular resistance - let your bent arm and collar grip do the work. Don't fight constantly; wait for opponent's adjustments to attempt escapes. Breathe steadily to avoid panic-induced fatigue. Small positional improvements compound over time. Accept that survival may require patience rather than explosive escape attempts."
+        "answer": "Use defensive structure rather than muscular resistance - let your bent arm and collar grip do the work. Don't fight constantly; wait for opponent's adjustments to attempt escapes. Breathe steadily to avoid panic-induced fatigue. Small positional improvements compound over time. Accept that survival may require patience rather than explosive escape attempts.",
+        "answer_line": "Use structure, wait, breathe steady",
+        "distractors": {
+          "plausible": [
+            "Fight constantly to prevent settle",
+            "Hold breath and brace hard"
+          ],
+          "trap": [
+            "Explode immediately to escape"
+          ]
+        }
       },
       {
         "question": "What should you do if your arm becomes fully extended and opponent has proper armbar control?",
-        "answer": "Tap immediately. Once the arm is fully extended with opponent's hips tight to your shoulder and their legs controlling your body, the armbar is complete. Continuing to resist risks serious elbow injury. There is no shame in tapping to a properly executed submission - train again tomorrow. Recognize the submission is finished before the injury occurs."
+        "answer": "Tap immediately. Once the arm is fully extended with opponent's hips tight to your shoulder and their legs controlling your body, the armbar is complete. Continuing to resist risks serious elbow injury. There is no shame in tapping to a properly executed submission - train again tomorrow. Recognize the submission is finished before the injury occurs.",
+        "answer_line": "Tap immediately",
+        "distractors": {
+          "plausible": [
+            "Wait to see if it tightens more",
+            "Roll toward them to relieve it"
+          ],
+          "trap": [
+            "Fight the extension to escape"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "pUZcLTWHAzk",
+        "title": "Knee and elbow mount escape",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PI7rr0TzmWw",
+        "title": "S Mount Defense",
+        "by": "Dinu Bucalet",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 141,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "WKqvJLpq7nc",
+        "title": "Mount Escape: Dealing with the Switch to S-Mount",
+        "by": "Revolution BJJ coach",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 72,
+        "verified": "2026-07-16"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What body configuration defines S Mount and gives the position its name?",
+      "answer": "S Mount is a mounted position where the top player sits perpendicular to a flattened opponent, one leg posted over the head and the other bent across the torso so the shins form an S-shape around the opponent's near shoulder. The top player's hips rotate off the sternum and shift toward the opponent's head, trading the square chest-to-chest alignment of standard mount for an angled attacking base. The near arm is funneled into the channel between the top player's legs, which is the whole point of the shape. This perpendicular geometry is what isolates the shoulder and preloads the armbar line before any submission is applied.",
+      "answer_line": "Perpendicular legs form an S shape",
+      "distractors": {
+        "plausible": [
+          "Chest-to-chest square mount",
+          "Both legs hook the far hip"
+        ],
+        "trap": [
+          "Sit back with legs flat"
+        ]
+      }
+    },
+    {
+      "question": "Which control points make S Mount function for the top player and constrain the bottom player?",
+      "answer": "The three load-bearing control points are the leg posted over the head, the leg draped across the chest, and the hip pressure pinning the near shoulder to the mat. The over-the-head leg blocks the opponent from sitting up or turning that direction, while the chest-crossing leg pins the torso and denies the hip escape. The near arm trapped between the thighs is the fourth point, tying the upper body to the lower-body frame. Remove any one of these and the S-shape loses its structural closure, which is why both players fight over exactly these contacts.",
+      "answer_line": "Head leg, chest leg, hip pressure",
+      "distractors": {
+        "plausible": [
+          "Both hands controlling the wrist",
+          "Chest pressure like standard mount"
+        ],
+        "trap": [
+          "Grip the far leg for base"
+        ]
+      }
+    },
+    {
+      "question": "How is weight distributed in S Mount, and why does it differ from standard mount?",
+      "answer": "In standard mount the top player's weight drives forward chest-to-chest through the sternum, but in S Mount the weight rotates to bear down through the hip bone onto the opponent's near shoulder. The two posted legs carry the base while the hip acts as the primary pressure point, grinding into the shoulder joint rather than the ribcage. This concentrates force on the arm being attacked and keeps the center of gravity low and toward the opponent's head. The tradeoff is a slightly narrower, more tippable base, which is why the position is inherently transitional rather than a long-term hold.",
+      "answer_line": "Weight through hip into shoulder",
+      "distractors": {
+        "plausible": [
+          "Weight through chest like mount",
+          "Weight through hands and grips"
+        ],
+        "trap": [
+          "Sit back to widen the base"
+        ]
+      }
+    },
+    {
+      "question": "Why is the tightness of the hip-to-shoulder connection the pivotal dynamic in S Mount?",
+      "answer": "The entire position is a race over the gap between the top player's hip and the opponent's near shoulder. When that gap is zero, the arm is trapped, the torso is pinned, and the top player's weight is fully committed into the shoulder. Any space that opens there simultaneously frees the shoulder to move, lets the bottom player begin a hip escape, and lets the trapped arm slide back toward the body. Because a single measurement governs both offense and defense, both players orient their movement around opening or closing that gap rather than around the arm alone.",
+      "answer_line": "Close hip-shoulder gap, no space",
+      "distractors": {
+        "plausible": [
+          "Focus only on wrist control",
+          "Chase the arm, ignore the hip"
+        ],
+        "trap": [
+          "Widen gap to see the arm better"
+        ]
+      }
+    },
+    {
+      "question": "What role does the near arm play in holding the S Mount configuration together?",
+      "answer": "The near arm is the structural hinge of the position: it sits in the channel between the top player's thighs, linking the opponent's upper body to the top player's lower-body frame. Whoever controls the bend of that arm controls the position, because a bent, tucked elbow keeps the shoulder mobile and defensible while a straightened arm surrenders the shoulder to the leverage of the perpendicular angle. The arm is therefore both the top player's primary attacking target and the bottom player's primary thing to protect. Its bend or extension, more than its location, dictates who is winning the exchange.",
+      "answer_line": "Arm's bend decides who's winning",
+      "distractors": {
+        "plausible": [
+          "Arm's location decides control",
+          "Wrist grip alone decides it"
+        ],
+        "trap": [
+          "Straighten arm to trap it fully"
+        ]
+      }
+    },
+    {
+      "question": "How does S Mount differ mechanically from standard mount and from the finished armbar position?",
+      "answer": "Standard mount is square and chest-driven, prioritizing broad positional stability and points, whereas S Mount rotates perpendicular to sacrifice some base in exchange for shoulder isolation and armbar leverage. Compared to the finished armbar, S Mount is the setup stage: the hips are still stacked over the shoulder and the arm may still be bent, rather than the hips dropped to the mat with a fully extended arm across the pelvis. This makes S Mount an intermediate, high-tension state that can advance to the armbar, retreat to mount, or flow to a mounted triangle. Recognizing it as a transitional hub rather than a resting position explains why it is held only briefly.",
+      "answer_line": "Bridge stage: mount to armbar",
+      "distractors": {
+        "plausible": [
+          "Same square pressure as mount",
+          "Identical to finished armbar"
+        ],
+        "trap": [
+          "A resting position to hold long"
+        ]
+      }
+    },
+    {
+      "question": "What is the specific structural job of the leg draped across the opponent's torso in S Mount?",
+      "answer": "The chest-crossing far leg is the wall on the lower half of the S, pinning the opponent's torso to the mat and blocking the hip escape that is the bottom player's fastest route out. Because the top player's hips have rotated off the sternum toward the head, this leg carries the torso-control duty that chest pressure supplies in standard mount, freeing the hips to concentrate on the shoulder. It also closes the bottom edge of the S so the near arm stays funneled between the thighs rather than slipping back to the body. If this leg is stripped or slid under, the torso frees and the whole perpendicular frame unwinds, which is why its placement is contested independently of the over-the-head leg.",
+      "answer_line": "Chest leg pins torso, blocks escape",
+      "distractors": {
+        "plausible": [
+          "Chest leg controls the head instead",
+          "Chest leg only adds base support"
+        ],
+        "trap": [
+          "Slide chest leg under for guard"
+        ]
+      }
+    },
+    {
+      "question": "How does the over-the-head leg govern the escape and finishing geometry that both players contest?",
+      "answer": "The leg posted over the opponent's head is the wall that closes one side of the S and prevents the bottom player from sitting up or rotating toward the head to rebuild posture. For the top player it is also the lever that, when dropped, converts the setup into a finished armbar by trapping the head and extending the arm. For the bottom player, controlling or lifting that leg is the highest-leverage way to reopen the position, because it simultaneously blocks the step-over finish and creates room to turn. The status of that single leg contact largely determines whether the position advances to submission or unwinds toward escape.",
+      "answer_line": "Head leg blocks posture, sets finish",
+      "distractors": {
+        "plausible": [
+          "Head leg is just extra base",
+          "Chest leg controls the finish"
+        ],
+        "trap": [
+          "Drop head leg to free the hips"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "FSbR22OOSaE",
+      "title": "S-Mount basics",
+      "by": "ZombieProofBJJ",
+      "vertical": false,
+      "channel": "ZombieProofBJJ",
+      "duration": 72,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "BDoWDTgzKf8",
+      "title": "Attack options from S-Mount",
+      "by": "DS Team Jiu Jitsu",
+      "vertical": false,
+      "channel": "DS Team Jiu Jitsu School",
+      "duration": 110,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "2Xm_mLp8xwk",
+      "title": "S-Mount troubleshooting",
+      "by": "ZombieProofBJJ",
+      "vertical": false,
+      "channel": "ZombieProofBJJ",
+      "duration": 67,
+      "verified": "2026-07-14"
+    }
+  ]
 }

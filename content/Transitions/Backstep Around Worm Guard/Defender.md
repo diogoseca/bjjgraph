@@ -142,6 +142,43 @@ description: "How to defend against Backstep Around Worm Guard in BJJ. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep Around Worm Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lo sweep counter when opponent steps over the leg",
+      "description": "Backstep Around Worm Guard (Defender) film study: Lo sweep counter when opponent steps over the leg, taught by BJJ Shorts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j7_IF-rCCtM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j7_IF-rCCtM",
+      "url": "https://www.youtube.com/watch?v=j7_IF-rCCtM",
+      "creator": { "@type": "Person", "name": "BJJ Shorts" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse de la worm pass defense",
+      "description": "Backstep Around Worm Guard (Defender) film study: Reverse de la worm pass defense, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U-d9fLP9eAo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U-d9fLP9eAo",
+      "url": "https://www.youtube.com/watch?v=U-d9fLP9eAo",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -155,6 +192,34 @@ The highest-percentage counter is the sit-up back take, which capitalizes on the
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep Around Worm Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j7_IF-rCCtM)
+
+<p class="clip-credit"><strong>Lo sweep counter when opponent steps over the leg</strong> — taught by BJJ Shorts · 1:10 · <a href="https://www.youtube.com/watch?v=j7_IF-rCCtM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U-d9fLP9eAo)
+
+<p class="clip-credit"><strong>Reverse de la worm pass defense</strong> — taught by Satori BJJ · 1:02 · <a href="https://www.youtube.com/watch?v=U-d9fLP9eAo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

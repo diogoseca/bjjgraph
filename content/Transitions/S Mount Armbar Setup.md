@@ -34,6 +34,54 @@ description: "Master the S Mount Armbar Setup in BJJ. Complete guide to transiti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "S Mount Armbar Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from S-mount",
+      "description": "S Mount Armbar Setup film study: Armbar from S-mount, taught by Fenrir Jiu-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
+      "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
+      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu coach" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Switch-side armbar from S-mount",
+      "description": "S Mount Armbar Setup film study: Switch-side armbar from S-mount, taught by Darrin Lillian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5UtNLw7usQk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5UtNLw7usQk",
+      "url": "https://www.youtube.com/watch?v=5UtNLw7usQk",
+      "creator": { "@type": "Person", "name": "Darrin Lillian" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "S-mount armbar, kimura and far-side armbar",
+      "description": "S Mount Armbar Setup film study: S-mount armbar, kimura and far-side armbar, taught by GB Costa Mesa coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nH4ly3vk7WI",
+      "url": "https://www.youtube.com/watch?v=nH4ly3vk7WI",
+      "creator": { "@type": "Person", "name": "GB Costa Mesa coach" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The critical decision in executing this setup is timing: commit too early before
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch S Mount Armbar Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
+
+<p class="clip-credit"><strong>Armbar from S-mount</strong> — taught by Fenrir Jiu-Jitsu coach · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5UtNLw7usQk)
+
+<p class="clip-credit"><strong>Switch-side armbar from S-mount</strong> — taught by Darrin Lillian · 0:50 · <a href="https://www.youtube.com/watch?v=5UtNLw7usQk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nH4ly3vk7WI)
+
+<p class="clip-credit"><strong>S-mount armbar, kimura and far-side armbar</strong> — taught by GB Costa Mesa coach · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

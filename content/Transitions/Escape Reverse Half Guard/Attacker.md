@@ -174,6 +174,43 @@ description: "Execute the Escape from Reverse Half Guard as the bottom player. C
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Reverse Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping bottom reverse half guard: 3 sweeps",
+      "description": "Escape Reverse Half Guard (Attacker) film study: Escaping bottom reverse half guard: 3 sweeps, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BkKzK5GQCZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BkKzK5GQCZA",
+      "url": "https://www.youtube.com/watch?v=BkKzK5GQCZA",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dealing with the switch base from half guard",
+      "description": "Escape Reverse Half Guard (Attacker) film study: Dealing with the switch base from half guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rja-2KKDGb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rja-2KKDGb0",
+      "url": "https://www.youtube.com/watch?v=rja-2KKDGb0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT284S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the bottom player trapped in Reverse Half Guard, your primary objective is re
 **From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Reverse Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BkKzK5GQCZA)
+
+<p class="clip-credit"><strong>Escaping bottom reverse half guard: 3 sweeps</strong> — taught by Kameron Ross · 0:56 · <a href="https://www.youtube.com/watch?v=BkKzK5GQCZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rja-2KKDGb0)
+
+<p class="clip-credit"><strong>Dealing with the switch base from half guard</strong> — taught by Lachlan Giles · 4:44 · <a href="https://www.youtube.com/watch?v=rja-2KKDGb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 16% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 18% of exchanges from this position.",
-      "position": 3
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 21% of exchanges from this position.",
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
       "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 13% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 16% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 14% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Escape Vaporizer",
+      "text": "From this position, attempt Escape Vaporizer. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Vaporizer (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown to Vaporizer",
+      "description": "Vaporizer (Bottom) film study: Lockdown to Vaporizer, taught by Axel Collazo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8ZgEL2zU_jg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8ZgEL2zU_jg",
+      "url": "https://www.youtube.com/watch?v=8ZgEL2zU_jg",
+      "creator": { "@type": "Person", "name": "Axel Collazo" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Vaporizer \u0026 Toe Hook",
+      "description": "Vaporizer (Bottom) film study: The Vaporizer \u0026 Toe Hook, taught by 10th Planet Salt Lake City.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BUGZwZooq4Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BUGZwZooq4Q",
+      "url": "https://www.youtube.com/watch?v=BUGZwZooq4Q",
+      "creator": { "@type": "Person", "name": "10th Planet Salt Lake City" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The Vaporizer serves as a gateway position within the 10th Planet methodology, o
 The effectiveness of the Vaporizer lies in its ability to force reactions from opponents. By creating an uncomfortable position with the whip-up motion and lockdown pressure, defenders are compelled to make defensive choices that often expose them to further attacks. Whether transitioning to the Electric Chair, advancing to the Truck position, or sweeping to dominant positions, the Vaporizer exemplifies the systematic approach to position advancement that defines modern no-gi BJJ strategy.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Vaporizer (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8ZgEL2zU_jg)
+
+<p class="clip-credit"><strong>Lockdown to Vaporizer</strong> — taught by Axel Collazo · 1:38 · <a href="https://www.youtube.com/watch?v=8ZgEL2zU_jg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BUGZwZooq4Q)
+
+<p class="clip-credit"><strong>The Vaporizer &amp; Toe Hook</strong> — taught by 10th Planet Salt Lake City · 1:38 · <a href="https://www.youtube.com/watch?v=BUGZwZooq4Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

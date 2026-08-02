@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The Single Leg Takedown is one of the most fundamental and high-percentage takedowns in Brazilian Jiu-Jitsu and grappling arts, borrowed from wrestling. This technique involves attacking one of the opponent's legs while maintaining control of their upper body, creating an imbalance that forces them to the mat. The single leg is particularly effective in no-gi competition and MMA contexts, where traditional judo-style throws may be more difficult to execute. Unlike double leg takedowns that require deeper penetration and expose the practitioner to guillotine chokes, the single leg offers a more upright finishing position with multiple mechanical advantages. The technique's versatility lies in its numerous finishing variations - from the classic run-the-pipe to trips, dumps, and elevation finishes - allowing practitioners to adapt based on opponent reactions and defensive responses. Mastery of the single leg takedown provides a reliable method for taking the fight to the ground while maintaining dominant positioning, making it an essential skill for competitors at all levels who seek to control where and how the match is contested.",
   "related_content": [
     {
@@ -234,54 +246,203 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical advantage of the single leg takedown compared to the double leg?",
-        "answer": "The single leg maintains a more upright posture which reduces exposure to guillotine chokes and allows for better control of opponent's hip and upper body. It also provides multiple finishing options that can be chained together based on opponent's defensive reactions, whereas double leg typically commits to one direction of force."
+        "answer": "The single leg maintains a more upright posture which reduces exposure to guillotine chokes and allows for better control of opponent's hip and upper body. It also provides multiple finishing options that can be chained together based on opponent's defensive reactions, whereas double leg typically commits to one direction of force.",
+        "answer_line": "Upright posture, multi finishes",
+        "distractors": {
+          "plausible": [
+            "Faster takedown speed",
+            "More explosive power"
+          ],
+          "trap": [
+            "Commit fully like double leg"
+          ]
+        }
       },
       {
         "question": "Why should your head be positioned on the outside of the captured leg rather than between the opponent's legs?",
-        "answer": "Outside head position protects your neck from guillotine chokes, provides better mechanical leverage for driving and controlling opponent's hip, and makes it more difficult for them to square their hips to you for defensive purposes. Inside head position exposes the neck and gives opponent better defensive options."
+        "answer": "Outside head position protects your neck from guillotine chokes, provides better mechanical leverage for driving and controlling opponent's hip, and makes it more difficult for them to square their hips to you for defensive purposes. Inside head position exposes the neck and gives opponent better defensive options.",
+        "answer_line": "Outside head protects neck",
+        "distractors": {
+          "plausible": [
+            "Inside head for tighter control",
+            "Either side works fine"
+          ],
+          "trap": [
+            "Inside head to smother hips"
+          ]
+        }
       },
       {
         "question": "What are three different finishing sequences for the single leg, and when would you use each?",
-        "answer": "Run-the-pipe (driving forward while lifting leg) works when opponent's weight is centered and they're trying to maintain balance. Inside trip works when they're posting heavily on the standing leg. Elevation finish works when they're leaning back or trying to sprawl. The key is reading opponent's weight distribution and defensive posture to select appropriate finish."
+        "answer": "Run-the-pipe (driving forward while lifting leg) works when opponent's weight is centered and they're trying to maintain balance. Inside trip works when they're posting heavily on the standing leg. Elevation finish works when they're leaning back or trying to sprawl. The key is reading opponent's weight distribution and defensive posture to select appropriate finish.",
+        "answer_line": "Match finish to their weight",
+        "distractors": {
+          "plausible": [
+            "Always run the pipe first",
+            "Pick strongest leg lift"
+          ],
+          "trap": [
+            "Force finish regardless of reaction"
+          ]
+        }
       },
       {
         "question": "How do you defend against a guillotine choke attempt when executing a single leg takedown?",
-        "answer": "Primary defense is prevention through proper head position on the outside. If caught, immediately create space by posturing up and hand fighting the choking grip. Either complete the takedown quickly before choke is secured, or release the leg and fully commit to defending the submission. Never stay static with choke partially locked."
+        "answer": "Primary defense is prevention through proper head position on the outside. If caught, immediately create space by posturing up and hand fighting the choking grip. Either complete the takedown quickly before choke is secured, or release the leg and fully commit to defending the submission. Never stay static with choke partially locked.",
+        "answer_line": "Outside head prevents it first",
+        "distractors": {
+          "plausible": [
+            "Power through the choke",
+            "Stay put, wait it out"
+          ],
+          "trap": [
+            "Keep leg, ignore the choke"
+          ]
+        }
       },
       {
         "question": "What is the purpose of the circular movement pattern when controlling the single leg?",
-        "answer": "Circular movement corners the opponent and prevents them from establishing a stable base on their standing leg. It also makes it difficult for them to square their hips to you, which would allow them to defend more effectively or counter. The cornering action forces continuous hopping and balance adjustments that eventually lead to them falling."
+        "answer": "Circular movement corners the opponent and prevents them from establishing a stable base on their standing leg. It also makes it difficult for them to square their hips to you, which would allow them to defend more effectively or counter. The cornering action forces continuous hopping and balance adjustments that eventually lead to them falling.",
+        "answer_line": "Corners them, blocks square hips",
+        "distractors": {
+          "plausible": [
+            "Tires opponent out fast",
+            "Sets up a slam takedown"
+          ],
+          "trap": [
+            "Stay static, drive straight in"
+          ]
+        }
       },
       {
         "question": "How should you modify your single leg approach against an opponent who consistently sprawls effectively?",
-        "answer": "Against effective sprawlers, use better setups to create reactions before shooting, ensure deeper penetration on the initial entry, and be ready to immediately chain to alternative techniques like duck-under or go-behind when sprawl is initiated. You can also use low single variations that avoid the sprawl zone, or fake the single leg to set up upper body attacks."
+        "answer": "Against effective sprawlers, use better setups to create reactions before shooting, ensure deeper penetration on the initial entry, and be ready to immediately chain to alternative techniques like duck-under or go-behind when sprawl is initiated. You can also use low single variations that avoid the sprawl zone, or fake the single leg to set up upper body attacks.",
+        "answer_line": "Better setups, deeper entry",
+        "distractors": {
+          "plausible": [
+            "Shoot harder and faster",
+            "Wait for them to tire"
+          ],
+          "trap": [
+            "Keep shooting same single"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes a strong whizzer as you capture their leg - what adjustments should you make?",
-        "answer": "When opponent establishes a whizzer, use their over-commitment against them by switching to an inside trip finish that uses the whizzer pressure as leverage. Alternatively, limp your arm out of the whizzer while maintaining leg control, or transition to a high crotch position where the whizzer becomes less effective. The key is not fighting the whizzer directly but redirecting its force."
+        "answer": "When opponent establishes a whizzer, use their over-commitment against them by switching to an inside trip finish that uses the whizzer pressure as leverage. Alternatively, limp your arm out of the whizzer while maintaining leg control, or transition to a high crotch position where the whizzer becomes less effective. The key is not fighting the whizzer directly but redirecting its force.",
+        "answer_line": "Use whizzer force, inside trip",
+        "distractors": {
+          "plausible": [
+            "Fight the whizzer directly",
+            "Release leg, reset position"
+          ],
+          "trap": [
+            "Muscle through, force the lift"
+          ]
+        }
       },
       {
         "question": "What are the critical grip requirements for a successful single leg capture?",
-        "answer": "The optimal grip configuration involves one hand securing behind the knee in the popliteal fossa to control the bend of the leg, while the other hand controls the ankle or lower calf for elevation control. Both hands must work together - the knee grip pulls the leg tight to your chest while the ankle grip provides leverage for lifting. Hands clasped together is acceptable but limits finishing options."
+        "answer": "The optimal grip configuration involves one hand securing behind the knee in the popliteal fossa to control the bend of the leg, while the other hand controls the ankle or lower calf for elevation control. Both hands must work together - the knee grip pulls the leg tight to your chest while the ankle grip provides leverage for lifting. Hands clasped together is acceptable but limits finishing options.",
+        "answer_line": "Knee grip tight, ankle lifts",
+        "distractors": {
+          "plausible": [
+            "Clasp both hands together",
+            "Grab ankle with both hands"
+          ],
+          "trap": [
+            "Grip only the pant leg"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window to shoot for a single leg?",
-        "answer": "The optimal timing windows occur when opponent's weight shifts forward (from a snap-down or collar tie pressure), when they step forward aggressively, when they reach for grips with both hands simultaneously, or when they're recovering from defending a feint or level change threat. Avoid shooting when opponent is square with weight back and hands active in defensive position."
+        "answer": "The optimal timing windows occur when opponent's weight shifts forward (from a snap-down or collar tie pressure), when they step forward aggressively, when they reach for grips with both hands simultaneously, or when they're recovering from defending a feint or level change threat. Avoid shooting when opponent is square with weight back and hands active in defensive position.",
+        "answer_line": "Shoot as their weight shifts forward",
+        "distractors": {
+          "plausible": [
+            "Wait until they settle in a stance",
+            "Shoot after they circle away"
+          ],
+          "trap": [
+            "Dive in as your head gets snapped"
+          ]
+        }
       },
       {
         "question": "If your run-the-pipe finish is blocked and opponent posts their far leg wide, what should you do?",
-        "answer": "When the run-the-pipe is blocked with a wide post, immediately transition to the outside trip by hooking your outside leg behind their standing leg while continuing to drive forward pressure. Alternatively, switch to an elevation finish by lifting their captured leg extremely high to break their wide-base stability. The wide post actually creates vulnerability to lateral sweeping motions."
+        "answer": "When the run-the-pipe is blocked with a wide post, immediately transition to the outside trip by hooking your outside leg behind their standing leg while continuing to drive forward pressure. Alternatively, switch to an elevation finish by lifting their captured leg extremely high to break their wide-base stability. The wide post actually creates vulnerability to lateral sweeping motions.",
+        "answer_line": "Switch to outside trip",
+        "distractors": {
+          "plausible": [
+            "Keep driving the run-the-pipe",
+            "Release and reshoot single"
+          ],
+          "trap": [
+            "Push toward their strong post"
+          ]
+        }
       },
       {
         "question": "What direction of force should you apply when lifting the captured leg?",
-        "answer": "The leg should be lifted upward and toward your chest, not just upward. This creates a compound force that both removes their base and compresses their balance point. The upward-and-toward pull forces them onto one foot while the connection to your chest maintains control. Pure upward lifting without the pull toward you allows them to hop away and recover balance."
+        "answer": "The leg should be lifted upward and toward your chest, not just upward. This creates a compound force that both removes their base and compresses their balance point. The upward-and-toward pull forces them onto one foot while the connection to your chest maintains control. Pure upward lifting without the pull toward you allows them to hop away and recover balance.",
+        "answer_line": "Lift up and toward your chest",
+        "distractors": {
+          "plausible": [
+            "Lift straight up only",
+            "Pull leg out and away"
+          ],
+          "trap": [
+            "Push leg down and out"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before initiating a single leg attack?",
-        "answer": "Entry requirements include: proper distance (close enough for penetration but not tied up), opponent's hands occupied or cleared from defensive position, an angle or opening that allows unobstructed access to the lead leg, your own balanced stance allowing explosive level change, and ideally a reaction from the opponent that shifts their weight or attention. Missing any of these significantly reduces success probability."
+        "answer": "Entry requirements include: proper distance (close enough for penetration but not tied up), opponent's hands occupied or cleared from defensive position, an angle or opening that allows unobstructed access to the lead leg, your own balanced stance allowing explosive level change, and ideally a reaction from the opponent that shifts their weight or attention. Missing any of these significantly reduces success probability.",
+        "answer_line": "Distance, angle, hands cleared",
+        "distractors": {
+          "plausible": [
+            "Just close distance fast",
+            "Wait for perfect stillness"
+          ],
+          "trap": [
+            "Shoot when hands are active"
+          ]
+        }
       }
     ],
-    "safety_considerations": "When practicing single leg takedowns, practitioners must be mindful of several safety considerations. Primary among these is knee safety during the penetration step - always control your drop to the mat rather than crashing down, which can cause patellar injuries. Partners should communicate clearly about resistance levels, especially during initial learning phases. Ensure adequate mat space exists for the takedown and follow-through, as practitioners will be moving dynamically across the training area. When defending single legs in training, avoid posting with stiff arms which can lead to wrist, elbow, or shoulder injuries when the takedown is completed. Instead, focus on technical defensive responses like sprawling and repositioning. Be particularly cautious when partner attempts guillotine counters - the person shooting should be prepared to abandon the takedown if the choke becomes dangerous, and both parties should understand safe submission protocols. When falling, tuck your chin to protect against mat contact, and use proper breakfall techniques if available. As with all takedown training, both partners must maintain situational awareness and respect each other's skill level and injury history. Stop immediately if either person feels unstable or at risk during the execution."
+    "safety_considerations": "When practicing single leg takedowns, practitioners must be mindful of several safety considerations. Primary among these is knee safety during the penetration step - always control your drop to the mat rather than crashing down, which can cause patellar injuries. Partners should communicate clearly about resistance levels, especially during initial learning phases. Ensure adequate mat space exists for the takedown and follow-through, as practitioners will be moving dynamically across the training area. When defending single legs in training, avoid posting with stiff arms which can lead to wrist, elbow, or shoulder injuries when the takedown is completed. Instead, focus on technical defensive responses like sprawling and repositioning. Be particularly cautious when partner attempts guillotine counters - the person shooting should be prepared to abandon the takedown if the choke becomes dangerous, and both parties should understand safe submission protocols. When falling, tuck your chin to protect against mat contact, and use proper breakfall techniques if available. As with all takedown training, both partners must maintain situational awareness and respect each other's skill level and injury history. Stop immediately if either person feels unstable or at risk during the execution.",
+    "clips": [
+      {
+        "id": "WDtgYMYppHE",
+        "title": "Single leg finishes for jiu jitsu and MMA",
+        "by": "Steel City MMA",
+        "vertical": false,
+        "channel": "Steel City MMA",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YBG9LkoAMoo",
+        "title": "Sweep single leg takedown finish",
+        "by": "Jarrod Goode",
+        "vertical": false,
+        "channel": "Jarrod Goode",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KilowvsfU2U",
+        "title": "Single leg takedown study",
+        "by": "The Fight Site",
+        "vertical": false,
+        "channel": "The Fight Site",
+        "duration": 89,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Single Leg Takedown Defender",
@@ -373,23 +534,73 @@
     "flashcards": [
       {
         "question": "Your opponent shoots a single leg and their head is positioned on the inside of your captured leg - what counter-attack opportunity does this create?",
-        "answer": "Inside head position exposes their neck to guillotine choke. Immediately secure a chin strap or arm-in guillotine grip by wrapping your near arm around their head and locking your hands together. Pull their head tight against your chest while sprawling your hips back to create downward pressure on their neck. From here you can either finish the standing guillotine, pull guard with the choke locked, or use the guillotine threat to force them to release your leg and defend the submission."
+        "answer": "Inside head position exposes their neck to guillotine choke. Immediately secure a chin strap or arm-in guillotine grip by wrapping your near arm around their head and locking your hands together. Pull their head tight against your chest while sprawling your hips back to create downward pressure on their neck. From here you can either finish the standing guillotine, pull guard with the choke locked, or use the guillotine threat to force them to release your leg and defend the submission.",
+        "answer_line": "Guillotine, chin strap grip",
+        "distractors": {
+          "plausible": [
+            "Sprawl and pull guard only",
+            "Whizzer their near arm"
+          ],
+          "trap": [
+            "Push their head away"
+          ]
+        }
       },
       {
         "question": "What is the correct hip position and weight distribution when your opponent has captured your leg and is attempting to run the pipe?",
-        "answer": "Your hips should be lowered and driven toward the mat with your weight centered over your standing foot, which should be positioned slightly behind your hip line for maximum base. Avoid leaning forward or backward - maintain a slight athletic crouch over the posting leg. The captured leg should have your knee bent to create slack in their grip rather than keeping it straight. Use your free hand to establish a whizzer on their near arm while your other hand crossfaces or posts on their head to prevent forward drive. Your center of gravity must stay directly above your standing foot's contact point with the mat."
+        "answer": "Your hips should be lowered and driven toward the mat with your weight centered over your standing foot, which should be positioned slightly behind your hip line for maximum base. Avoid leaning forward or backward - maintain a slight athletic crouch over the posting leg. The captured leg should have your knee bent to create slack in their grip rather than keeping it straight. Use your free hand to establish a whizzer on their near arm while your other hand crossfaces or posts on their head to prevent forward drive. Your center of gravity must stay directly above your standing foot's contact point with the mat.",
+        "answer_line": "Hips low, weight over base foot",
+        "distractors": {
+          "plausible": [
+            "Lean forward into pressure",
+            "Straighten captured leg"
+          ],
+          "trap": [
+            "Lean back off the base foot"
+          ]
+        }
       },
       {
         "question": "Your opponent has a deep single leg with outside head position and strong forward drive - the takedown seems inevitable. How do you minimize positional damage?",
-        "answer": "When the takedown cannot be prevented, your goal shifts from defense to damage control. Secure a collar grip or overhook before hitting the mat. As you descend, immediately close your guard by wrapping your legs around their waist, converting their takedown into your closed guard rather than allowing them to pass to side control. If possible, establish a guillotine grip during the descent. The difference between landing in closed guard versus conceding side control is enormous - closed guard gives you offensive capability while side control puts you in a purely defensive position requiring energy-intensive escapes."
+        "answer": "When the takedown cannot be prevented, your goal shifts from defense to damage control. Secure a collar grip or overhook before hitting the mat. As you descend, immediately close your guard by wrapping your legs around their waist, converting their takedown into your closed guard rather than allowing them to pass to side control. If possible, establish a guillotine grip during the descent. The difference between landing in closed guard versus conceding side control is enormous - closed guard gives you offensive capability while side control puts you in a purely defensive position requiring energy-intensive escapes.",
+        "answer_line": "Secure grip, close guard down",
+        "distractors": {
+          "plausible": [
+            "Turtle up to protect back",
+            "Sprawl hard till the end"
+          ],
+          "trap": [
+            "Let them pass to side control"
+          ]
+        }
       },
       {
         "question": "How do you time a sprawl correctly against a single leg shot, and what happens if your timing is early versus late?",
-        "answer": "The optimal sprawl timing is the instant you feel or see the level change and forward commitment - your hips must start moving backward and downward before their hands connect with your leg. If your sprawl is early (before they commit), you telegraph your defense and they can adjust to a different attack or fake the shot entirely. If your sprawl is late (after they've secured the leg and begun driving), you lose the mechanical advantage and must rely on whizzer defense and scrambling rather than the clean sprawl. Train to react to the level change trigger rather than trying to predict when the shot is coming."
+        "answer": "The optimal sprawl timing is the instant you feel or see the level change and forward commitment - your hips must start moving backward and downward before their hands connect with your leg. If your sprawl is early (before they commit), you telegraph your defense and they can adjust to a different attack or fake the shot entirely. If your sprawl is late (after they've secured the leg and begun driving), you lose the mechanical advantage and must rely on whizzer defense and scrambling rather than the clean sprawl. Train to react to the level change trigger rather than trying to predict when the shot is coming.",
+        "answer_line": "React the instant level changes",
+        "distractors": {
+          "plausible": [
+            "Sprawl as early as possible",
+            "Sprawl once leg is secured"
+          ],
+          "trap": [
+            "Wait to confirm the shot first"
+          ]
+        }
       },
       {
         "question": "What defensive adjustments should you make when your opponent consistently chains single leg attempts with double leg conversions?",
-        "answer": "Against an opponent who chains single-to-double, you cannot fully commit your sprawl defense to one side because they will switch to the other leg. Instead, use a modified defense: sprawl with hips back but keep your base slightly more square than a full single-leg sprawl. Prioritize hand fighting and head position over pure hip extension. When they attempt the conversion, immediately re-sprawl to the new angle and pummel for underhooks. Consider preemptive strategies like guillotine grips or snap-downs that punish their level change before they can establish any leg control, forcing them to abandon the chain entirely."
+        "answer": "Against an opponent who chains single-to-double, you cannot fully commit your sprawl defense to one side because they will switch to the other leg. Instead, use a modified defense: sprawl with hips back but keep your base slightly more square than a full single-leg sprawl. Prioritize hand fighting and head position over pure hip extension. When they attempt the conversion, immediately re-sprawl to the new angle and pummel for underhooks. Consider preemptive strategies like guillotine grips or snap-downs that punish their level change before they can establish any leg control, forcing them to abandon the chain entirely.",
+        "answer_line": "Stay square, hand fight, re-sprawl",
+        "distractors": {
+          "plausible": [
+            "Drop your hips flat and freeze",
+            "Back up in a straight line"
+          ],
+          "trap": [
+            "Turn away and try to scramble free"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -417,6 +628,35 @@
         "phase": "Month 4+: Proactive defense and counter-wrestling",
         "focus": "Preventing shots through distance management, hand fighting, and counter-offense",
         "description": "Shift from reactive defense to proactive prevention. Work snap-downs and collar ties that discourage shooting, maintain distance that denies clean penetration, and develop counter-attacks that punish level changes. Practice integrating defense into your offensive standing game so that your takedown defense flows naturally into your own attacks. Full live training rounds with emphasis on standing exchanges."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KT91bdZtBU4",
+        "title": "No-gi single leg defense technique",
+        "by": "Ronin Training Center",
+        "vertical": false,
+        "channel": "Ronin Training Center",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "x7NgC69PV9I",
+        "title": "Bo Nickal counter attack breakdown",
+        "by": "Josh Dziewa",
+        "vertical": false,
+        "channel": "Josh Dziewa",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_GTtWGe49ho",
+        "title": "Sprawl to throw-by against the leg attack",
+        "by": "John Beresford",
+        "vertical": false,
+        "channel": "John Beresford",
+        "duration": 101,
+        "verified": "2026-07-15"
       }
     ]
   },

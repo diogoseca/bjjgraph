@@ -174,6 +174,54 @@ description: "Learn to pass the Pocket Half Guard with systematic pressure techn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Pocket Half (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pick pocket method to pass half guard",
+      "description": "Pass Pocket Half (Attacker) film study: Pick pocket method to pass half guard, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TwBbrjRxRRU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TwBbrjRxRRU",
+      "url": "https://www.youtube.com/watch?v=TwBbrjRxRRU",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Z guard pass into side control",
+      "description": "Pass Pocket Half (Attacker) film study: Z guard pass into side control, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nuh4wnROi-c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nuh4wnROi-c",
+      "url": "https://www.youtube.com/watch?v=Nuh4wnROi-c",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing the knee shield half guard",
+      "description": "Pass Pocket Half (Attacker) film study: Passing the knee shield half guard, taught by Sticks and Stones BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OsAvmhwQqCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OsAvmhwQqCo",
+      "url": "https://www.youtube.com/watch?v=OsAvmhwQqCo",
+      "creator": { "@type": "Person", "name": "Sticks and Stones BJJ" },
+      "duration": "PT211S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Pocket Half Guard pass from the attacker's perspective demands a methodical 
 **From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Pocket Half (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TwBbrjRxRRU)
+
+<p class="clip-credit"><strong>Pick pocket method to pass half guard</strong> — taught by Patrick Donabedian · 1:33 · <a href="https://www.youtube.com/watch?v=TwBbrjRxRRU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Nuh4wnROi-c)
+
+<p class="clip-credit"><strong>Z guard pass into side control</strong> — taught by JitzLive · 0:28 · <a href="https://www.youtube.com/watch?v=Nuh4wnROi-c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OsAvmhwQqCo)
+
+<p class="clip-credit"><strong>Passing the knee shield half guard</strong> — taught by Sticks and Stones BJJ · 3:31 · <a href="https://www.youtube.com/watch?v=OsAvmhwQqCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

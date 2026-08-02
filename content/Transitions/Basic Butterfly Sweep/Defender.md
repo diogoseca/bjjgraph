@@ -148,6 +148,54 @@ description: "How to defend against Basic Butterfly Sweep in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Basic Butterfly Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the butterfly sweep",
+      "description": "Basic Butterfly Sweep (Defender) film study: Preventing the butterfly sweep, taught by Matt Thornton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ScOVTa-p3jk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ScOVTa-p3jk",
+      "url": "https://www.youtube.com/watch?v=ScOVTa-p3jk",
+      "creator": { "@type": "Person", "name": "Matt Thornton" },
+      "duration": "PT184S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly hook sweep counter and pass",
+      "description": "Basic Butterfly Sweep (Defender) film study: Butterfly hook sweep counter and pass, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qe7ueI5P5H8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qe7ueI5P5H8",
+      "url": "https://www.youtube.com/watch?v=qe7ueI5P5H8",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three essential butterfly sweep counters",
+      "description": "Basic Butterfly Sweep (Defender) film study: Three essential butterfly sweep counters, taught by Evolve University.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FWoM5TyNelQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FWoM5TyNelQ",
+      "url": "https://www.youtube.com/watch?v=FWoM5TyNelQ",
+      "creator": { "@type": "Person", "name": "Evolve University" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Advanced defenders recognize that aggressive butterfly sweep defense creates its
 **Opponent's Starting Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Basic Butterfly Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ScOVTa-p3jk)
+
+<p class="clip-credit"><strong>Preventing the butterfly sweep</strong> — taught by Matt Thornton · 3:04 · <a href="https://www.youtube.com/watch?v=ScOVTa-p3jk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qe7ueI5P5H8)
+
+<p class="clip-credit"><strong>Butterfly hook sweep counter and pass</strong> — taught by Henry Akins · 1:41 · <a href="https://www.youtube.com/watch?v=qe7ueI5P5H8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FWoM5TyNelQ)
+
+<p class="clip-credit"><strong>Three essential butterfly sweep counters</strong> — taught by Evolve University · 0:31 · <a href="https://www.youtube.com/watch?v=FWoM5TyNelQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

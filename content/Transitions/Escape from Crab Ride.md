@@ -34,6 +34,43 @@ description: "Master the Escape from Crab Ride in BJJ. Learn systematic techniqu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Crab Ride \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the leg ride",
+      "description": "Escape from Crab Ride film study: Escaping the leg ride, taught by Steve Weismann.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F6reAeYmhoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F6reAeYmhoU",
+      "url": "https://www.youtube.com/watch?v=F6reAeYmhoU",
+      "creator": { "@type": "Person", "name": "Steve Weismann" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single hook defense: stopping the second hook",
+      "description": "Escape from Crab Ride film study: Single hook defense: stopping the second hook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DDyJiMgWfnI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DDyJiMgWfnI",
+      "url": "https://www.youtube.com/watch?v=DDyJiMgWfnI",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this escape functions as a race condition. The bottom player must
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Crab Ride in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F6reAeYmhoU)
+
+<p class="clip-credit"><strong>Escaping the leg ride</strong> — taught by Steve Weismann · 0:14 · <a href="https://www.youtube.com/watch?v=F6reAeYmhoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DDyJiMgWfnI)
+
+<p class="clip-credit"><strong>Single hook defense: stopping the second hook</strong> — taught by Lachlan Giles · 1:56 · <a href="https://www.youtube.com/watch?v=DDyJiMgWfnI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the Russian Lasso to De La Riva Guard transition in BJJ. Co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Lasso to De La Riva \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva lasso sweep study",
+      "description": "Russian Lasso to De La Riva film study: De La Riva lasso sweep study, taught by Gustavo Batista.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CfUwaKU11dg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CfUwaKU11dg",
+      "url": "https://www.youtube.com/watch?v=CfUwaKU11dg",
+      "creator": { "@type": "Person", "name": "Gustavo Batista" },
+      "duration": "PT128S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva sweep to back take",
+      "description": "Russian Lasso to De La Riva film study: De La Riva sweep to back take, taught by Michael Hoffman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/meClUae7E6w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/meClUae7E6w",
+      "url": "https://www.youtube.com/watch?v=meClUae7E6w",
+      "creator": { "@type": "Person", "name": "Michael Hoffman" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The mechanical sequence requires precise grip management throughout. The bottom 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Lasso to De La Riva in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CfUwaKU11dg)
+
+<p class="clip-credit"><strong>De La Riva lasso sweep study</strong> — taught by Gustavo Batista · 2:08 · <a href="https://www.youtube.com/watch?v=CfUwaKU11dg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=meClUae7E6w)
+
+<p class="clip-credit"><strong>De La Riva sweep to back take</strong> — taught by Michael Hoffman · 1:03 · <a href="https://www.youtube.com/watch?v=meClUae7E6w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

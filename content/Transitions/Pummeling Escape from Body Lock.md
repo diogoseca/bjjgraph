@@ -34,6 +34,54 @@ description: "Master the pummeling escape from body lock in BJJ. Complete guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pummeling Escape from Body Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Re-pummel to head control",
+      "description": "Pummeling Escape from Body Lock film study: Re-pummel to head control, taught by Chad Lyman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nuSiGy6dw6Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nuSiGy6dw6Y",
+      "url": "https://www.youtube.com/watch?v=nuSiGy6dw6Y",
+      "creator": { "@type": "Person", "name": "Chad Lyman" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ fundamentals: the pummel",
+      "description": "Pummeling Escape from Body Lock film study: BJJ fundamentals: the pummel, taught by Daniel Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0DqO9-LfJZo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0DqO9-LfJZo",
+      "url": "https://www.youtube.com/watch?v=0DqO9-LfJZo",
+      "creator": { "@type": "Person", "name": "Daniel Gracie" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Breaking a body lock by pummeling",
+      "description": "Pummeling Escape from Body Lock film study: Breaking a body lock by pummeling, taught by Nick Diaz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lGGo0H8ems4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lGGo0H8ems4",
+      "url": "https://www.youtube.com/watch?v=lGGo0H8ems4",
+      "creator": { "@type": "Person", "name": "Nick Diaz" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Success depends heavily on timing and hip coordination with arm movement. The op
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pummeling Escape from Body Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nuSiGy6dw6Y)
+
+<p class="clip-credit"><strong>Re-pummel to head control</strong> — taught by Chad Lyman · 0:42 · <a href="https://www.youtube.com/watch?v=nuSiGy6dw6Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0DqO9-LfJZo)
+
+<p class="clip-credit"><strong>BJJ fundamentals: the pummel</strong> — taught by Daniel Gracie · 1:28 · <a href="https://www.youtube.com/watch?v=0DqO9-LfJZo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lGGo0H8ems4)
+
+<p class="clip-credit"><strong>Breaking a body lock by pummeling</strong> — taught by Nick Diaz · 1:02 · <a href="https://www.youtube.com/watch?v=lGGo0H8ems4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

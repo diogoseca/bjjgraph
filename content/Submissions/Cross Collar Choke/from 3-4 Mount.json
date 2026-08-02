@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "3-4 Mount",
   "from_position": "3-4 Mount/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The cross collar choke from 3-4 mount is a gi blood choke where the asymmetric mount's posted-leg base lets the attacker commit both hands to deep cross-collar grips, compressing both carotid arteries to force the tap.",
   "overview": "The cross collar choke from 3-4 mount exploits the asymmetric weight distribution unique to this mount variation, where the top player's posted leg creates a stable platform for maintaining position while both hands work the collar grips. Unlike the standard mounted cross collar choke, the 3-4 configuration provides enhanced base stability during the grip insertion phase, reducing the risk of being swept when reaching for the second collar grip. The posted leg anchors the attacker's weight, allowing them to commit both hands to collar work without sacrificing positional control.\n\nStrategically, this submission functions as a high-pressure finishing tool within the 3-4 mount attack chain. The choke creates a powerful dilemma for the bottom player: defending the collar grips exposes the arms to Americana and armbar attacks, while protecting the arms leaves the neck vulnerable. Advanced practitioners set up the cross collar choke as the primary threat to open secondary submissions, making it central to the 3-4 mount submission system. The gi collar serves as a natural choking mechanism, with the cross-grip configuration compressing both carotid arteries simultaneously for a blood choke finish.\n\nThe 3-4 mount also allows the attacker to use their posted leg to drive forward pressure during the finishing sequence, amplifying the choking force while maintaining balance. This makes the choke particularly dangerous against opponents who rely on bridging as their primary mount escape, since the bridge actually tightens the collar across the neck when grips are already established. Competition footage consistently shows this as a high-percentage finish at the purple belt level and above.",
   "safety_considerations": {
@@ -95,17 +98,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "3-4 Mount/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -261,52 +273,181 @@
       {
         "question": "What anatomical structures does the cross collar choke from 3-4 mount primarily attack?",
         "answer": "The cross collar choke attacks both carotid arteries simultaneously through a scissoring compression created by the cross-grip collar configuration. The wrists and forearm bones create bilateral pressure points on either side of the neck, restricting blood flow to the brain. The lapel material concentrates force on the carotid triangles, making this a blood choke rather than an airway choke when applied correctly with proper wrist positioning lateral to the trachea.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "The windpipe/trachea",
+            "Just one carotid artery"
+          ],
+          "trap": [
+            "Crush trachea for a fast tap"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a two-on-one grip fight against your first collar grip - what adjustment prevents them from stripping it?",
         "answer": "Immediately use your free hand to control their far-side wrist and pin it to the mat, removing half their grip-fighting capacity. Maintain the first collar grip as an anchor and threaten to step over for an armbar on the arm reaching up to strip your grip. This creates a dilemma: they either stop grip fighting to defend the arm attack, giving you the collar back, or they continue fighting your grip and expose the armbar. The grip-fight itself becomes a submission setup.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin far wrist, threaten armbar",
+        "distractors": {
+          "plausible": [
+            "Fight grip with free hand",
+            "Switch to a different grip"
+          ],
+          "trap": [
+            "Sit tall, yank grip free"
+          ]
+        }
       },
       {
         "question": "Why is the 3-4 mount configuration specifically advantageous for the cross collar choke compared to standard mount?",
         "answer": "The 3-4 mount provides a posted leg that maintains base stability when both hands leave the mat to work collar grips. In standard mount, committing both hands to collar work eliminates all posting ability, making the attacker vulnerable to bridge and roll escapes. The posted leg in 3-4 mount acts as an anchor against the bridge direction, allowing the attacker to focus entirely on grip work while maintaining defensive base through the lower body structure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posted leg maintains base",
+        "distractors": {
+          "plausible": [
+            "Lower center of gravity",
+            "Pins both shoulders to mat"
+          ],
+          "trap": [
+            "Both hands committed, no post"
+          ]
+        }
       },
       {
         "question": "You have both collar grips set deep but the opponent is bridging hard toward your posted leg - how do you maintain the choke?",
         "answer": "Ride the bridge by shifting your weight in the same direction while maintaining collar tension. Use the momentum of their bridge to walk your hips higher on their chest, which actually improves your finishing angle. Keep your elbows tight and drive them toward the mat as the opponent settles from the bridge. The post-bridge moment when they return flat is the highest-percentage finishing window because they have expended energy and momentarily relaxed their defensive structure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Ride bridge, raise hips",
+        "distractors": {
+          "plausible": [
+            "Wait out the bridge, stay flat",
+            "Release grip, re-base"
+          ],
+          "trap": [
+            "Lean forward over their head"
+          ]
+        }
       },
       {
         "question": "What indicates the choke is properly compressing the carotid arteries rather than crushing the trachea?",
         "answer": "A properly applied blood choke causes the opponent's face to flush red or purple within seconds, their movements become sluggish, and they may not feel immediate sharp pain. An airway choke, by contrast, causes coughing, gagging, and immediate sharp pain in the throat. If the opponent is making choking or gagging sounds, the wrists are too centered on the trachea rather than positioned on the carotid triangles on either side of the neck. Adjust wrist angle laterally to correct.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Face flushes red, no sharp pain",
+        "distractors": {
+          "plausible": [
+            "Wrists press the center windpipe",
+            "Feel the pulse stop under wrist"
+          ],
+          "trap": [
+            "Loud gagging means it's working"
+          ]
+        }
       },
       {
         "question": "Your first grip is set but you cannot get your second hand past your opponent's chin tuck - what adjustment do you make?",
         "answer": "Drive your forehead or temple into the side of their jaw, using head pressure to rotate their chin away from the collar you are targeting. Simultaneously use your first grip to pull the collar across their neck, tightening the material and creating a crease that your second hand can follow into the collar. If chin tuck persists, drive your elbow into the gap between their chin and chest to wedge their jaw open before inserting the second grip along the exposed collar line.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Head pressure turns chin away",
+        "distractors": {
+          "plausible": [
+            "Pull first grip harder only",
+            "Sit back, wait for chin to lift"
+          ],
+          "trap": [
+            "Both hands rip the chin upward"
+          ]
+        }
       },
       {
         "question": "What are the immediate actions required if your training partner loses consciousness during a cross collar choke?",
         "answer": "Immediately release all collar grips and positional pressure. Place the unconscious partner on their back and elevate their legs slightly to promote blood flow return to the brain. Monitor breathing and be prepared to call for medical assistance. Most blood choke unconsciousness resolves within 10-20 seconds once released, but the partner should not continue training for at least several minutes after regaining consciousness and should be monitored for confusion, headache, or other concerning symptoms.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grips, elevate legs",
+        "distractors": {
+          "plausible": [
+            "Shake them awake immediately",
+            "Sit them upright right away"
+          ],
+          "trap": [
+            "Resume training right away"
+          ]
+        }
       },
       {
         "question": "In competition, you are ahead on points with 90 seconds left and have 3-4 mount with one collar grip set - should you commit to the choke?",
         "answer": "With a points lead, use the collar grip as a control tool and threat rather than fully committing to the finish. Maintain 3-4 mount pressure and keep the first grip deep to limit their defensive options and force them to address the choke threat. Only commit the second hand if you can do so without risking a reversal. If they begin aggressive escape attempts, the collar grip helps maintain mount control. A failed submission attempt that results in lost position could cost you the match.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Control with grip, don't commit",
+        "distractors": {
+          "plausible": [
+            "Abandon grip, stall the clock",
+            "Switch to armbar for the finish"
+          ],
+          "trap": [
+            "Ride high, sink both grips deep"
+          ]
+        }
       },
       {
         "question": "Your opponent has extended arms pushing on your chest to create distance - how does this affect your choke setup?",
         "answer": "Extended arms pushing on your chest are a defensive gift disguised as resistance. Their isolated, extended arms are vulnerable to armbar, Americana, or wrist control attacks. Immediately swim one arm past their push and into the collar, or collapse their extended arm to the mat and insert your grip while passing their frame. The push creates space between their hands and their own neck, making it easier to access the collar material without fighting through tight elbow frames.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Attack the exposed arm",
+        "distractors": {
+          "plausible": [
+            "Wait for them to relax",
+            "Push back to regain space"
+          ],
+          "trap": [
+            "Release mount to reset"
+          ]
+        }
       },
       {
         "question": "What is the critical grip depth indicator that determines whether the cross collar choke can produce a finish?",
         "answer": "The four fingers must pass at least the first knuckle inside the collar, with the palm positioned so the wrist bone applies pressure to the carotid artery when the elbow retracts. A reliable test is whether you can pull the collar tight enough to make visible contact with the opposite side of the neck. If the grip is too shallow, the collar material bunches without creating the necessary compression angle, and the choke degrades into uncomfortable pressure without achieving circulatory restriction.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Past first knuckle, wrist deep",
+        "distractors": {
+          "plausible": [
+            "Two fingers inside the collar",
+            "Palm flat against their chest"
+          ],
+          "trap": [
+            "Shallow grip, sit up and crank"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Cross Collar Chokes",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DrAxA8KUxbo",
+        "title": "Palm-Up Palm-Up Cross Choke",
+        "by": "Avant-Garde BJJ",
+        "vertical": false,
+        "channel": "Avant-Garde BJJ",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zSSw_fUcNxU",
+        "title": "Roger Gracie Cross Choke",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Channel",
+        "duration": 134,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -394,22 +535,62 @@
       {
         "question": "How do you recognize that a cross collar choke from 3-4 mount is being set up?",
         "answer": "The primary recognition cues are the opponent reaching cross-body toward your far collar, their weight shifting forward as they commit to the grip, and head pressure against your jaw to turn your chin away. You may also feel their posted leg driving harder into the mat as they stabilize their base for grip insertion. Any hand entering the collar area from a cross-body angle while in mount signals a cross collar choke setup requiring immediate defensive action.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cross-body reach, head pressure",
+        "distractors": {
+          "plausible": [
+            "Sudden weight shift backward",
+            "Attacker posts both hands down"
+          ],
+          "trap": [
+            "Ignore the hand near collar"
+          ]
+        }
       },
       {
         "question": "What is the safest approach to tapping when caught in a cross collar choke from 3-4 mount?",
         "answer": "Tap immediately and clearly as soon as you feel choking pressure compressing your carotid arteries or when you recognize that both grips are set deep and you cannot strip them. Use a firm, repeated hand tap on the attacker's body or the mat, combined with a verbal tap saying 'tap.' Blood chokes can cause unconsciousness within 5-10 seconds of full application, so there is no benefit to enduring a fully locked choke. Tap early in training to protect long-term brain health.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, firmly, and say tap",
+        "distractors": {
+          "plausible": [
+            "Wait until vision starts to fade",
+            "Hold out for the grips to slip"
+          ],
+          "trap": [
+            "Ride it out and go to sleep"
+          ]
+        }
       },
       {
         "question": "What defensive actions are available at each stage of the cross collar choke setup?",
         "answer": "Before the first grip: maintain collar control with both hands, keep elbows tight, and use frames to prevent collar access. During first grip insertion: immediately apply two-on-one grip stripping with bent arms. Between first and second grip: bridge toward the posted leg side to exploit compromised base, or shrimp to create escape angle. After both grips are set: tuck chin hard, bridge and roll as a desperation attempt, or tap if the choke is locked. Defensive effectiveness drops dramatically at each stage, making early prevention essential.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Defend by stage, strip grips early",
+        "distractors": {
+          "plausible": [
+            "Hold still until the choke is deep",
+            "Only react once pressure builds"
+          ],
+          "trap": [
+            "Straight-arm push, elbows flared"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt a bridge escape against the cross collar choke from 3-4 mount?",
         "answer": "The optimal bridging moment is when the attacker reaches for the second collar grip with their free hand. At this instant, both of their hands are committed to collar work and they cannot post against a bridge. Their weight is typically shifting forward toward your head as they reach, raising their center of gravity. Bridge toward the posted leg side at this moment for the highest probability of a successful reversal, then immediately recover guard before they can reestablish position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "As they reach for 2nd grip",
+        "distractors": {
+          "plausible": [
+            "Right after mount is secured",
+            "Once both grips are set"
+          ],
+          "trap": [
+            "Wait until choke is tight"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -432,6 +613,35 @@
         "phase": "Competition Simulation Sparring",
         "focus": "Defending under realistic pressure with mixed attacks",
         "description": "Full resistance positional sparring from 3-4 mount bottom. Bottom player scores for successful escapes, top player scores for submission or position advancement. Two-minute rounds with the choke as a genuine threat combined with other attacks to simulate competition pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "quuT1NHbY6Y",
+        "title": "Cross Choke Defense: Arm Wrap Throw",
+        "by": "Valente Brothers",
+        "vertical": false,
+        "channel": "Valente BrothersTV",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QIRF2B9riAA",
+        "title": "Cross Choke Defense from Guard",
+        "by": "Wayne Sniffen",
+        "vertical": false,
+        "channel": "Wayne Sniffen",
+        "duration": 105,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "F1qoGHKy_uE",
+        "title": "Defend Cross Choke to Armbar",
+        "by": "Edgar Kruyning",
+        "vertical": false,
+        "channel": "Edgar Kruyning Official",
+        "duration": 22,
+        "verified": "2026-07-14"
       }
     ]
   }

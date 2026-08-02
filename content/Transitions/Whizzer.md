@@ -34,6 +34,43 @@ description: "Master the Whizzer overhook control in BJJ. Essential defensive an
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Whizzer \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Using an overhook to attack",
+      "description": "Whizzer film study: Using an overhook to attack, taught by Patrick Spano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DfUHvTQpzCg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DfUHvTQpzCg",
+      "url": "https://www.youtube.com/watch?v=DfUHvTQpzCg",
+      "creator": { "@type": "Person", "name": "Patrick Spano" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darkside whizzer entry",
+      "description": "Whizzer film study: Darkside whizzer entry, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VopGHIx2g4w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VopGHIx2g4w",
+      "url": "https://www.youtube.com/watch?v=VopGHIx2g4w",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT29S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ Understanding when to establish, maintain, and abandon the Whizzer separates com
 The Whizzer is inherently transitional. Holding it statically wastes energy and gives your opponent time to adapt. The highest-percentage application involves establishing the Whizzer, immediately breaking the opponent's posture with shoulder pressure and head control, reading their defensive reaction, and transitioning within three to five seconds to back control, kimura, or a reversal sweep based on their weight distribution and movement direction.
 
 **From Position**: [[Positions/Overhook Control]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 27%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Whizzer in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DfUHvTQpzCg)
+
+<p class="clip-credit"><strong>Using an overhook to attack</strong> — taught by Patrick Spano · 0:40 · <a href="https://www.youtube.com/watch?v=DfUHvTQpzCg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VopGHIx2g4w)
+
+<p class="clip-credit"><strong>Darkside whizzer entry</strong> — taught by Craig Jones · 0:29 · <a href="https://www.youtube.com/watch?v=VopGHIx2g4w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -256,7 +321,7 @@ The Whizzer functions as a critical connecting technique within the broader BJJ 
 
 - [[Submissions/Kimura]] - Direct submission transition from Whizzer when opponent retracts arm
 
-- [[Transitions/Darce Choke]] - Submission option when opponent drops head forward under Whizzer pressure
+- [[Submissions/Darce Choke]] - Submission option when opponent drops head forward under Whizzer pressure
 
 - [[Transitions/Anaconda Choke]] - Submission option when transitioning from Whizzer to front headlock control
 

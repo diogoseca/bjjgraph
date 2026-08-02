@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Back Control",
   "from_position": "Back Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Short Choke from Back Control is a gi blood choke that closes two cross-collar grips a short distance apart behind the opponent's neck, occluding both carotid arteries through chest expansion to force a rapid tap.",
   "overview": "Set up directly from the seatbelt, the Short Choke turns existing back control into a finish without the attacker ever fighting for the chin. Unlike the Rear Naked Choke which relies on forearm-to-bicep compression, this technique uses the opponent's own gi collar fabric to create a tight cinching mechanism around the neck. The attacker feeds one hand deep into the far-side collar from behind, then grips the near-side collar with the other hand, keeping the distance between grips minimal for maximum choking pressure.\n\nWhat makes this choke particularly dangerous from back control is the defender's inability to see the grips being established. The natural seatbelt position provides direct collar access, and the transition from harness control to collar grips can happen before the defender recognizes the threat. Once both grips are set, the short distance between hands means the choke reaches full arterial compression rapidly, leaving a narrow defensive window. The hooks or body triangle maintain positional control throughout the finishing sequence, preventing escape during choke application.\n\nStrategically, the Short Choke serves as a high-percentage complement to the Rear Naked Choke from back control. When defenders focus hand fighting on preventing the RNC by protecting below the chin, they often leave collar access exposed along the neck. This creates a systematic attacking dilemma where defending one choking threat opens vulnerability to the other. The gi collar provides a mechanical advantage that bare hands cannot replicate, producing a choke that is extremely difficult to strip once the cross-collar grip achieves proper depth past the centerline of the neck.",
   "safety_considerations": {
@@ -95,17 +98,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -273,52 +285,172 @@
       {
         "question": "What anatomical structures does the Short Choke from Back Control primarily target?",
         "answer": "The Short Choke targets both carotid arteries on the lateral sides of the neck through bilateral compression using the gi collar fabric. The collar creates a cinching band that compresses the carotid triangle on each side simultaneously, restricting blood flow to the brain rather than compressing the trachea. Proper grip depth past the neck centerline ensures arterial rather than airway compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Windpipe/trachea compression",
+            "One-sided carotid only"
+          ],
+          "trap": [
+            "Jugular veins only"
+          ]
+        }
       },
       {
         "question": "What positional control must be maintained before committing to the cross-collar grip transition from seatbelt?",
         "answer": "Both hooks must be deep inside the opponent's thighs with active inward heel pressure, or a body triangle must be locked. The seatbelt grip should be secure with the over-the-shoulder arm on the intended choking side. Chest-to-back connection must be tight with forward pressure. Without stable lower body and upper body control, the grip transition creates a vulnerability window the defender can exploit to escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hooks deep or triangle locked",
+        "distractors": {
+          "plausible": [
+            "Seatbelt grip alone is enough",
+            "Just chest-to-back pressure"
+          ],
+          "trap": [
+            "Release hooks, grab collar fast"
+          ]
+        }
       },
       {
         "question": "What is the critical depth threshold for the first collar grip before transitioning the second hand?",
         "answer": "The first collar grip must achieve depth past the centerline of the opponent's neck, with knuckles positioned on or beyond the midline of the throat. You can test this by applying slight inward pressure with the grip hand and feeling the collar become taut across the neck. If the collar has slack or your knuckles have not crossed center, the resulting choke will lack bilateral compression and the opponent can insert defensive fingers between collar and neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knuckles past neck centerline",
+        "distractors": {
+          "plausible": [
+            "Any grip on the collar works",
+            "Depth matters on second hand"
+          ],
+          "trap": [
+            "Shallow grip, muscle through it"
+          ]
+        }
       },
       {
         "question": "Why is chest expansion more effective than arm squeezing for finishing the Short Choke?",
         "answer": "Chest expansion uses the large muscles of the back and the structural rigidity of the ribcage to generate sustained inward pressure through the collar grips, producing powerful bilateral compression without forearm fatigue. Arm squeezing relies on smaller forearm and bicep muscles that tire rapidly and generate less total force. The chest expansion mechanic also maintains your structural connection to the opponent's back, preserving positional control throughout the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Expand chest, engage back muscles",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder with biceps",
+            "Pull collars apart"
+          ],
+          "trap": [
+            "Release hooks to squeeze"
+          ]
+        }
       },
       {
         "question": "How does the Short Choke create a tactical dilemma when combined with the Rear Naked Choke?",
         "answer": "When the attacker threatens the RNC, the defender must commit both hands to chin protection and wrist control below the jawline. This hand positioning leaves the gi collar along the sides of the neck exposed and undefended. Conversely, if the defender raises hands to fight collar grips, they expose the chin and neck for the RNC. The attacker cycles between both threats, using each feint to create openings for the other, forcing the defender into a reactive pattern that eventually yields a finishing opportunity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "RNC-collar dilemma cycle",
+        "distractors": {
+          "plausible": [
+            "Always commit to RNC first",
+            "Ignore collar, chase the chin"
+          ],
+          "trap": [
+            "Commit both hands to one grip"
+          ]
+        }
       },
       {
         "question": "What adjustment should you make if your opponent successfully tucks their chin to block collar depth?",
         "answer": "Use finger-walking technique with small rotational wrist movements to incrementally work the grip deeper against the chin block. Alternatively, use the underhook hand to pull loose lapel fabric from the opponent's belt line, feeding extra material across the neck to bypass the chin obstruction. You can also shift your chest angle slightly to the choking side, changing the insertion vector. Avoid forcing the grip through with raw strength, as this wastes energy and often loosens hook control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Finger-walk the grip deeper",
+        "distractors": {
+          "plausible": [
+            "Force the grip through the chin",
+            "Wait for the chin to lift"
+          ],
+          "trap": [
+            "Abandon back, spin to mount"
+          ]
+        }
       },
       {
         "question": "During the finish, what tells you the Short Choke has passed the point where the opponent can still escape?",
         "answer": "Once both collar grips are past the neck centerline, your elbows are pinned to your ribs, and the opponent's hands have stopped fighting your wrists and gone passive or started slapping, the choke is effectively locked. At that stage the carotids are already occluded and the defender cannot create the space needed to insert fingers or strip a grip. Maintain steady chest expansion rather than re-gripping, and stay alert for the tap, which usually arrives within one to three seconds of full compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hands go limp and stop fighting",
+        "distractors": {
+          "plausible": [
+            "Opponent's face flushes red",
+            "The collar simply feels snug"
+          ],
+          "trap": [
+            "Loosen a grip to sink it deeper"
+          ]
+        }
       },
       {
         "question": "With seconds left on the clock and the opponent defending your collar grips, how do you maximize the chance of a Short Choke finish in competition?",
         "answer": "Commit to the RNC-versus-collar dilemma rather than forcing a single grip: feint the RNC to drag both defending hands under the chin, then snap your over-the-shoulder hand into the exposed far collar and drive your knuckles past center in one motion. Lock the body triangle first so a late escape cannot strip your hooks, keep chest expansion continuous, and finish on the side the defender is not covering. Hunting the open side under time pressure beats grinding on the hand the opponent is already defending.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feint RNC, snap far collar",
+        "distractors": {
+          "plausible": [
+            "Grind the grip they defend",
+            "Wait for the perfect setup"
+          ],
+          "trap": [
+            "Release hooks to reset position"
+          ]
+        }
       },
       {
         "question": "What are the immediate risks of applying the Short Choke with sudden jerking force in training?",
         "answer": "Sudden application can cause loss of consciousness before the training partner has time to recognize the choke and tap. The collar fabric concentrates force efficiently on the carotid arteries, meaning full arterial occlusion can occur within 2-3 seconds of aggressive application. Additionally, sudden jerking can compress the trachea causing throat injury, or strain cervical vertebrae and neck muscles. Always apply progressive pressure over 3-5 seconds minimum in training to allow your partner adequate time to tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Sudden blackout, no tap time",
+        "distractors": {
+          "plausible": [
+            "Only minor muscle soreness",
+            "Risk is just a torn gi"
+          ],
+          "trap": [
+            "Jerk fast for a quicker tap"
+          ]
+        }
       },
       {
         "question": "How should you immediately respond when your training partner taps or goes limp during the Short Choke?",
         "answer": "Immediately release both collar grips and remove all compressive pressure from the neck. Remove your weight from the opponent's torso by disengaging hooks and shifting to the side. Check your partner's consciousness by calling their name and looking for responsive eye movement. If they are unconscious, place them on their back, elevate their legs to restore blood flow to the brain, and monitor their airway until they regain consciousness. Never re-apply the choke in the same training session after an unconsciousness episode.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grips, check response",
+        "distractors": {
+          "plausible": [
+            "Hold briefly to confirm the tap",
+            "Reapply lighter pressure"
+          ],
+          "trap": [
+            "Keep hooks in, ease grip only"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "Sb-atqD_TqQ",
+        "title": "Short Choke from Back Position",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "E_M4Y0_hxsk",
+        "title": "Shirt Choke From Back Mount",
+        "by": "Defender Combatives",
+        "vertical": false,
+        "channel": "Defender Combatives",
+        "duration": 14,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -399,27 +531,77 @@
       {
         "question": "How do you recognize the Short Choke from Back Control is being set up versus a Rear Naked Choke attempt?",
         "answer": "The Short Choke setup is identified by the attacker's hand redirecting toward your gi collar rather than sliding under your chin. You will feel fingers gathering and entering the collar fabric along the side of your neck, and the collar material will begin tightening. In contrast, the RNC setup involves the forearm sliding across the front of the throat below the chin. Distinguishing between these two threats quickly determines whether to defend your collar access or protect your chin.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand redirects to the collar",
+        "distractors": {
+          "plausible": [
+            "Forearm slides under the chin",
+            "Both hands grip the shoulders"
+          ],
+          "trap": [
+            "Ignore the hand, defend hips"
+          ]
+        }
       },
       {
         "question": "What is the safest response when you feel bilateral collar compression has been fully established with the Short Choke?",
         "answer": "Tap immediately using any available signal: hand tap on the attacker or mat, verbal tap, or foot tap. Once both collar grips have achieved depth past the neck centerline and the attacker begins chest expansion, the choke reaches full arterial occlusion within 3-5 seconds. Attempting to escape a fully locked Short Choke risks unconsciousness. Early tapping is always the correct safety decision when the choking mechanism is properly set and you cannot strip either grip.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, any signal",
+        "distractors": {
+          "plausible": [
+            "Try to strip one grip first",
+            "Wait to see if it tightens"
+          ],
+          "trap": [
+            "Fight through three seconds"
+          ]
+        }
       },
       {
         "question": "What is the most effective timing window for defending against the Short Choke from Back Control?",
         "answer": "The most effective defensive window occurs during the attacker's transition from seatbelt grip to the first collar grip. At this moment, the attacker temporarily weakens their upper body control by releasing or loosening the seatbelt to reach for the collar. Your two-on-one grip defense is most effective before the first grip crosses the neck centerline. Once the first grip is deep and the second hand begins transitioning, your defensive options narrow significantly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "During seatbelt-to-collar switch",
+        "distractors": {
+          "plausible": [
+            "After the first grip is deep",
+            "Once chest expansion starts"
+          ],
+          "trap": [
+            "Wait until second hand grips"
+          ]
+        }
       },
       {
         "question": "Why should you target the attacker's wrist rather than pulling the collar fabric away from your neck?",
         "answer": "The gi collar distributes grip force across a wide surface area, making it extremely resistant to being pulled away from the neck once an attacker has established a deep grip. Targeting the attacker's wrist with two-on-one control attacks the weakest point in the grip chain, specifically the connection between their fingers and the collar fabric. Peeling individual fingers and rotating the wrist outward is far more energy-efficient than fighting the structural integrity of the gi material itself.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Attack the gripping wrist",
+        "distractors": {
+          "plausible": [
+            "Pull the collar off your neck",
+            "Tuck your chin down hard"
+          ],
+          "trap": [
+            "Turn away to make space"
+          ]
+        }
       },
       {
         "question": "What escape direction should you turn when combining positional escape with collar grip defense?",
         "answer": "Turn toward the choking side, meaning toward the side where the attacker's primary collar grip is entering. This direction closes the angle that the attacker needs for the collar to cross the centerline, and creates the most efficient hip escape path for recovering to half guard. Turning away from the choke can actually tighten the collar by pulling your neck into the grip. Always combine the turn with an active hip escape to create genuine positional change rather than just rotating in place.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn toward the choking side",
+        "distractors": {
+          "plausible": [
+            "Turn away from the grip",
+            "Escape straight backward"
+          ],
+          "trap": [
+            "Bridge hard to buck them off"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -442,6 +624,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance survival and escape from back control attacks",
         "description": "Full resistance positional sparring starting from back control. Partner uses complete back attack system including RNC, Short Choke, and Bow and Arrow. Practice defensive threat identification and appropriate response selection under pressure. Track successful defenses and escapes across rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bDZntPrcLpg",
+        "title": "Escaping Back Control - Turtle Escape",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up Back Escape",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
       }
     ]
   }

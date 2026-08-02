@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Cross Body Ride/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Transition to Cross Body Ride is a positional shift from standard back control to a perpendicular chest-across-back orientation. This transition is most commonly employed when the opponent begins turtling defensively from back control, particularly when they strip one or both hooks and curl forward onto their knees. Rather than fighting to re-establish hooks from behind, the top player shifts their weight laterally across the opponent's back, converting from a parallel chest-to-back alignment to a perpendicular cross-body position that maintains dominant control through a different mechanical framework.\n\nThe strategic value of this transition lies in its ability to maintain offensive pressure during what would otherwise be a positional regression. When an opponent successfully defends standard back hooks, many practitioners lose the position entirely. The cross body ride provides an alternative control paradigm that preserves the attacking initiative while opening new submission and transition pathways including crucifix entries, crab ride transitions, and re-takes to full back control. The perpendicular angle creates asymmetric pressure that is biomechanically distinct from standard back control, forcing the opponent to solve a fundamentally different defensive problem.\n\nExecution requires precise timing and weight distribution awareness. The top player must commit to the lateral shift at the exact moment the opponent's defensive movement creates the angle, maintaining harness or seatbelt grip throughout the transition to prevent any separation. The chest must stay glued to the opponent's back as the hips rotate from behind to beside, with the near-side knee driving into the opponent's hip to prevent guard recovery. This transition exemplifies the principle that positional control is maintained through continuous adaptation rather than static holding.",
   "conditions": [
     "Opponent is turtling or curling forward from back control, exposing their back laterally",
@@ -236,38 +248,147 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that signals you should transition to cross body ride rather than fight to maintain standard back control?",
-        "answer": "The trigger is when your lower body control through hooks is being successfully compromised but your upper body harness or seatbelt grip remains intact. Specifically, when the opponent strips one or both hooks and begins curling into turtle, this creates the lateral angle opportunity. Fighting to re-insert hooks against an opponent who is actively defending them wastes energy and risks losing the position entirely, while the cross body ride converts their defensive success into your lateral advancement."
+        "answer": "The trigger is when your lower body control through hooks is being successfully compromised but your upper body harness or seatbelt grip remains intact. Specifically, when the opponent strips one or both hooks and begins curling into turtle, this creates the lateral angle opportunity. Fighting to re-insert hooks against an opponent who is actively defending them wastes energy and risks losing the position entirely, while the cross body ride converts their defensive success into your lateral advancement.",
+        "answer_line": "Hooks stripped, harness still intact",
+        "distractors": {
+          "plausible": [
+            "Opponent's hips start turning",
+            "You feel fatigue setting in"
+          ],
+          "trap": [
+            "Re-insert hooks harder immediately"
+          ]
+        }
       },
       {
         "question": "Why must the chest remain in contact with the opponent's back throughout the entire transition?",
-        "answer": "The chest-to-back connection is the single non-negotiable element that preserves control during the transition. It serves as the pivot point around which your hips rotate, maintains weight pressure that prevents the opponent from standing or turning, and ensures there is no separation gap that the opponent could exploit for an escape. If the chest lifts even momentarily, the opponent gains the space needed to sit out, roll, or recover guard. The transition is fundamentally a hip rotation around a fixed chest contact point."
+        "answer": "The chest-to-back connection is the single non-negotiable element that preserves control during the transition. It serves as the pivot point around which your hips rotate, maintains weight pressure that prevents the opponent from standing or turning, and ensures there is no separation gap that the opponent could exploit for an escape. If the chest lifts even momentarily, the opponent gains the space needed to sit out, roll, or recover guard. The transition is fundamentally a hip rotation around a fixed chest contact point.",
+        "answer_line": "Chest stays glued as the pivot point",
+        "distractors": {
+          "plausible": [
+            "Chest presses only at the finish",
+            "Weight shifts to the far knee"
+          ],
+          "trap": [
+            "Lift chest to see the turtle"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your near-side hook and begins turning their hips away from you. Which direction do you rotate and why?",
-        "answer": "Rotate in the same direction the opponent is turning, following their movement rather than opposing it. This is because moving with their momentum allows you to maintain chest contact while your hips swing around to the perpendicular angle naturally. If you rotate against their direction, you create separation as both bodies move apart. Following their turn also positions your near-side knee perfectly to block their far hip once you arrive at the cross body ride angle."
+        "answer": "Rotate in the same direction the opponent is turning, following their movement rather than opposing it. This is because moving with their momentum allows you to maintain chest contact while your hips swing around to the perpendicular angle naturally. If you rotate against their direction, you create separation as both bodies move apart. Following their turn also positions your near-side knee perfectly to block their far hip once you arrive at the cross body ride angle.",
+        "answer_line": "Rotate the way they're turning",
+        "distractors": {
+          "plausible": [
+            "Rotate opposite to stay square",
+            "Block their far hip first"
+          ],
+          "trap": [
+            "Turn belly-down to chase back"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between the halfway point of this transition and the completed cross body ride position?",
-        "answer": "The halfway point is the most vulnerable moment because you have neither the hook control of back control nor the perpendicular pressure of cross body ride. At this halfway position, your hips are angled diagonally with insufficient base on either side, and the opponent has maximum escape options. The completed cross body ride has three established control points: perpendicular chest pressure, near-side knee in the hip, and far-side leg posted for base. This is why the transition must be committed and decisive rather than tentative."
+        "answer": "The halfway point is the most vulnerable moment because you have neither the hook control of back control nor the perpendicular pressure of cross body ride. At this halfway position, your hips are angled diagonally with insufficient base on either side, and the opponent has maximum escape options. The completed cross body ride has three established control points: perpendicular chest pressure, near-side knee in the hip, and far-side leg posted for base. This is why the transition must be committed and decisive rather than tentative.",
+        "answer_line": "Halfway has zero control points",
+        "distractors": {
+          "plausible": [
+            "Halfway keeps perpendicular pressure",
+            "Completed adds fourth control point"
+          ],
+          "trap": [
+            "Float lightly through halfway"
+          ]
+        }
       },
       {
         "question": "How does the near-side knee function differently in cross body ride compared to a hook in standard back control?",
-        "answer": "In standard back control, the hook wraps inside the opponent's thigh from behind, controlling hip rotation through entanglement. In cross body ride, the near-side knee drives into the opponent's hip from the side, acting as a wedge or post that prevents sit-through escapes and guard recovery. The hook controls through wrapping and entangling while the knee controls through blocking and pressure. The knee position also anchors the top player's base, creating a stable tripod with the far-side posting foot."
+        "answer": "In standard back control, the hook wraps inside the opponent's thigh from behind, controlling hip rotation through entanglement. In cross body ride, the near-side knee drives into the opponent's hip from the side, acting as a wedge or post that prevents sit-through escapes and guard recovery. The hook controls through wrapping and entangling while the knee controls through blocking and pressure. The knee position also anchors the top player's base, creating a stable tripod with the far-side posting foot.",
+        "answer_line": "Knee wedges hip; hook wraps thigh",
+        "distractors": {
+          "plausible": [
+            "Knee wraps thigh like the hook",
+            "Both entangle to stop hip turn"
+          ],
+          "trap": [
+            "Lift knee to slide in a hook"
+          ]
+        }
       },
       {
         "question": "Your opponent forward rolls as you begin the transition. What is your response and why?",
-        "answer": "Maintain your harness grip and follow the roll, using the opponent's momentum to accelerate into cross body ride on the opposite side. The harness grip ensures you stay connected through the roll, and your chest should stay in contact with their back throughout the rotation. This works because the roll actually assists your transition to perpendicular orientation. The key is not releasing the grip or panicking during the roll. After they complete the roll, immediately establish near-side knee control and consolidate the cross body position."
+        "answer": "Maintain your harness grip and follow the roll, using the opponent's momentum to accelerate into cross body ride on the opposite side. The harness grip ensures you stay connected through the roll, and your chest should stay in contact with their back throughout the rotation. This works because the roll actually assists your transition to perpendicular orientation. The key is not releasing the grip or panicking during the roll. After they complete the roll, immediately establish near-side knee control and consolidate the cross body position.",
+        "answer_line": "Follow the roll into cross body",
+        "distractors": {
+          "plausible": [
+            "Ride it out on the same side",
+            "Lock near knee before rolling"
+          ],
+          "trap": [
+            "Release grip to post and base"
+          ]
+        }
       },
       {
         "question": "What grip adjustments might be necessary after completing the transition from harness control to cross body ride control?",
-        "answer": "The harness or seatbelt grip that works in standard back control may need adjustment in cross body ride. From the perpendicular angle, you may transition the near-side arm from a seatbelt underhook to a deeper underhook controlling the far arm, or switch to a collar tie controlling the opponent's head. The far-side overhook may shift to a cross-face or whizzer position. The specific adjustment depends on your planned follow-up attack, but the principle is that grip configuration should match the control angle rather than trying to maintain back control grips from a cross body position."
+        "answer": "The harness or seatbelt grip that works in standard back control may need adjustment in cross body ride. From the perpendicular angle, you may transition the near-side arm from a seatbelt underhook to a deeper underhook controlling the far arm, or switch to a collar tie controlling the opponent's head. The far-side overhook may shift to a cross-face or whizzer position. The specific adjustment depends on your planned follow-up attack, but the principle is that grip configuration should match the control angle rather than trying to maintain back control grips from a cross body position.",
+        "answer_line": "Match grip to the new attack angle",
+        "distractors": {
+          "plausible": [
+            "Keep the seatbelt grip unchanged",
+            "Switch both arms to overhooks"
+          ],
+          "trap": [
+            "Release grips to reset the harness"
+          ]
+        }
       },
       {
         "question": "When should you choose to fight for hook re-insertion instead of transitioning to cross body ride?",
-        "answer": "Fight for hook re-insertion when you still have one hook in and reasonable access to re-insert the second, when the opponent has not fully committed to a turtle position and remains somewhat flat, or when you have body triangle available as an alternative to hooks. The cross body ride transition is the better choice when both hooks are being stripped, the opponent is actively curling into a tight turtle ball, or when you have been fighting for hooks for several seconds without success and your energy is being drained in a grip war you are losing."
+        "answer": "Fight for hook re-insertion when you still have one hook in and reasonable access to re-insert the second, when the opponent has not fully committed to a turtle position and remains somewhat flat, or when you have body triangle available as an alternative to hooks. The cross body ride transition is the better choice when both hooks are being stripped, the opponent is actively curling into a tight turtle ball, or when you have been fighting for hooks for several seconds without success and your energy is being drained in a grip war you are losing.",
+        "answer_line": "One hook in, second reachable",
+        "distractors": {
+          "plausible": [
+            "Opponent locked in tight turtle",
+            "Grip war stalled several seconds"
+          ],
+          "trap": [
+            "Release both hooks to reset"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves lateral weight shifting across the opponent's spine and upper back. Avoid dropping weight suddenly or explosively onto the opponent's cervical spine area, as this can cause neck injury. When drilling, initiate the transition smoothly and progressively increase speed only as both partners become comfortable with the movement pattern. Communicate with your training partner about pressure levels, particularly regarding shoulder pressure across the upper back and neck region. In competition, be aware that excessive pressure on the back of the head or neck may constitute a foul depending on the ruleset."
+    "safety_considerations": "This transition involves lateral weight shifting across the opponent's spine and upper back. Avoid dropping weight suddenly or explosively onto the opponent's cervical spine area, as this can cause neck injury. When drilling, initiate the transition smoothly and progressively increase speed only as both partners become comfortable with the movement pattern. Communicate with your training partner about pressure levels, particularly regarding shoulder pressure across the upper back and neck region. In competition, be aware that excessive pressure on the back of the head or neck may constitute a foul depending on the ruleset.",
+    "clips": [
+      {
+        "id": "355ZYLDGjqw",
+        "title": "Getting the leg in: ankle lift to cross body ride",
+        "by": "Hideout Wrestling",
+        "vertical": false,
+        "channel": "Hideout Wrestling",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Kyn30KTFmzc",
+        "title": "Leg riding with a cross body ride",
+        "by": "Grapple Academy",
+        "vertical": false,
+        "channel": "Grapple Academy",
+        "duration": 95,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "h3C7rZzKHVY",
+        "title": "Cross body ride entry from knee shield",
+        "by": "BOWERHOUSE MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 25,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Control to Cross Body Ride Defender",
@@ -353,19 +474,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning to cross body ride rather than simply adjusting hooks?",
-        "answer": "The earliest cue is feeling the opponent's hips begin rotating laterally while their chest pressure remains constant or increases on your back. A hook adjustment feels like the opponent's legs momentarily disengage and re-engage from the same direction. A cross body ride transition feels like the opponent's lower body is swinging to one side while their upper body stays pinned to your back. The harness grip also typically tightens noticeably as they prepare for the rotational shift."
+        "answer": "The earliest cue is feeling the opponent's hips begin rotating laterally while their chest pressure remains constant or increases on your back. A hook adjustment feels like the opponent's legs momentarily disengage and re-engage from the same direction. A cross body ride transition feels like the opponent's lower body is swinging to one side while their upper body stays pinned to your back. The harness grip also typically tightens noticeably as they prepare for the rotational shift.",
+        "answer_line": "Hips rotate, chest pressure holds",
+        "distractors": {
+          "plausible": [
+            "Chest pressure eases as hips shift",
+            "Both hooks briefly disengage"
+          ],
+          "trap": [
+            "Roll toward the swinging legs"
+          ]
+        }
       },
       {
         "question": "Why is the transition moment the optimal escape window rather than waiting until cross body ride is established?",
-        "answer": "During the transition, the opponent's base is temporarily compromised because they are between two stable positions. Their hooks are disengaged, their hips are moving, and their weight distribution is shifting from behind to beside you. This creates approximately a one to two second window where their ability to follow your defensive movement is reduced. Once cross body ride is fully established with chest pressure, near-side knee, and far-side base, the three control points create a stable tripod that is dramatically harder to disrupt."
+        "answer": "During the transition, the opponent's base is temporarily compromised because they are between two stable positions. Their hooks are disengaged, their hips are moving, and their weight distribution is shifting from behind to beside you. This creates approximately a one to two second window where their ability to follow your defensive movement is reduced. Once cross body ride is fully established with chest pressure, near-side knee, and far-side base, the three control points create a stable tripod that is dramatically harder to disrupt.",
+        "answer_line": "Their base is briefly unstable",
+        "distractors": {
+          "plausible": [
+            "Their grips loosen for a second",
+            "You gain leverage as they move"
+          ],
+          "trap": [
+            "Settled ride is easier to break"
+          ]
+        }
       },
       {
         "question": "Your opponent has completed the transition and is now in full cross body ride. What is your defensive priority sequence?",
-        "answer": "First priority is protecting your neck and near-side arm by keeping your chin tucked and elbows tight to your ribs. Second priority is preventing the opponent from flattening you by maintaining knee elevation and hip mobility. Third priority is creating movement through small hip adjustments that prevent the opponent from settling their weight. Fourth priority is chaining escape attempts using sit-outs, hip escapes, and granby rolls in combination rather than committing to single efforts. Accept that escape from consolidated cross body ride requires patience and chained attempts rather than a single explosive movement."
+        "answer": "First priority is protecting your neck and near-side arm by keeping your chin tucked and elbows tight to your ribs. Second priority is preventing the opponent from flattening you by maintaining knee elevation and hip mobility. Third priority is creating movement through small hip adjustments that prevent the opponent from settling their weight. Fourth priority is chaining escape attempts using sit-outs, hip escapes, and granby rolls in combination rather than committing to single efforts. Accept that escape from consolidated cross body ride requires patience and chained attempts rather than a single explosive movement.",
+        "answer_line": "Protect neck and near-side arm",
+        "distractors": {
+          "plausible": [
+            "Stop the flatten before all else",
+            "Chain sit-outs right away"
+          ],
+          "trap": [
+            "Turn belly-down to bridge out"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defense if the opponent transitions to cross body ride from your left side versus your right side?",
-        "answer": "The defensive principles remain the same regardless of side, but the direction of your escape attempts must match the side of the transition. Your sit-out should be directed toward the same side the opponent is arriving from, as this turns you to face them before they consolidate. Your hip escape should be directed away from their arriving knee to create maximum separation. The near-side arm on the side they are arriving from is the arm most at risk for isolation, so prioritize tucking that elbow even more tightly than the far arm."
+        "answer": "The defensive principles remain the same regardless of side, but the direction of your escape attempts must match the side of the transition. Your sit-out should be directed toward the same side the opponent is arriving from, as this turns you to face them before they consolidate. Your hip escape should be directed away from their arriving knee to create maximum separation. The near-side arm on the side they are arriving from is the arm most at risk for isolation, so prioritize tucking that elbow even more tightly than the far arm.",
+        "answer_line": "Sit-out toward their arriving side",
+        "distractors": {
+          "plausible": [
+            "Hip escape toward their near knee",
+            "Tuck the far elbow tightest"
+          ],
+          "trap": [
+            "Turn belly-down to face away"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -388,6 +549,35 @@
         "phase": "Full Resistance Positional Sparring",
         "focus": "Live escape application",
         "description": "Start from back control with partner given full freedom to transition to cross body ride or maintain back control. You score by escaping to guard or standing. Partner scores by establishing cross body ride or advancing to crucifix or back control. Develop the judgment to read which escape option is available in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "923eYpD1E58",
+        "title": "Inside roll escape from turtle vs leg ride",
+        "by": "Kenny Lester",
+        "vertical": false,
+        "channel": "KING OF CATCH WRESTLING CHAMPIONSHIP",
+        "duration": 158,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NxKC6qHEgl8",
+        "title": "Turtle roll counter to cross body ride",
+        "by": "Mark VanSchuyver",
+        "vertical": false,
+        "channel": "Mark VanSchuyver",
+        "duration": 85,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yO4uYmaOEfw",
+        "title": "Defending the turtle breakdown on all fours",
+        "by": "DanTheWolfman",
+        "vertical": false,
+        "channel": "DanTheWolfman",
+        "duration": 102,
+        "verified": "2026-07-15"
       }
     ]
   }

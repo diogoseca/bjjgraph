@@ -34,6 +34,43 @@ description: "Master Pocket Half Guard in BJJ. Deep underhook half guard positio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pocket Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield half guard basics",
+      "description": "Pocket Half Guard film study: Knee shield half guard basics, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q_ND-09HiWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q_ND-09HiWg",
+      "url": "https://www.youtube.com/watch?v=q_ND-09HiWg",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT264S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee shield pocket sweep",
+      "description": "Pocket Half Guard film study: Knee shield pocket sweep, taught by Great Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UPMEXkyqHGc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UPMEXkyqHGc",
+      "url": "https://www.youtube.com/watch?v=UPMEXkyqHGc",
+      "creator": { "@type": "Person", "name": "Great Grappling" },
+      "duration": "PT322S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ From the bottom perspective, Pocket Half Guard excels at generating powerful swe
 From the top perspective, Pocket Half Guard Top represents a dominant pressure-passing position where the top player has secured underhook control while flattening the bottom player's half guard. The underhook provides a powerful control mechanism that nullifies defensive frames and sweep attempts. Modern practitioners have developed this into a cornerstone of pressure-passing systems, particularly effective against defensive guard players who rely on distance management. The position represents a critical strategic battleground where underhook depth, chest pressure, and crossface control determine the outcome.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pocket Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q_ND-09HiWg)
+
+<p class="clip-credit"><strong>Knee shield half guard basics</strong> — taught by MMA Leech · 4:24 · <a href="https://www.youtube.com/watch?v=q_ND-09HiWg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UPMEXkyqHGc)
+
+<p class="clip-credit"><strong>Knee shield pocket sweep</strong> — taught by Great Grappling · 5:22 · <a href="https://www.youtube.com/watch?v=UPMEXkyqHGc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,23 +202,23 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (43% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (12% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (17% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (15% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (17% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (12% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (13% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (7% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (6% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (4% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
 
-- **[[Transitions/Reguard from Pocket Half Guard/Attacker|Reguard from Pocket Half Guard]]** (1% of attempts)
+- **[[Transitions/Reguard from Pocket Half Guard/Attacker|Reguard from Pocket Half Guard]]** (10% of attempts)
 
-- **[[Transitions/Sweep from Pocket Half Guard/Attacker|Sweep from Pocket Half Guard]]** (0% of attempts)
+- **[[Transitions/Sweep from Pocket Half Guard/Attacker|Sweep from Pocket Half Guard]]** (13% of attempts)
 
-- **[[Transitions/Underhook Sweep from Pocket Half/Attacker|Underhook Sweep from Pocket Half]]** (1% of attempts)
+- **[[Transitions/Underhook Sweep from Pocket Half/Attacker|Underhook Sweep from Pocket Half]]** (18% of attempts)
 
 
 ### Common Mistakes
@@ -212,23 +277,23 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (45% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (7% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (12% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
 
-- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (7% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (16% of attempts)
 
-- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (7% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (13% of attempts)
 
-- **[[Transitions/Pass Pocket Half/Attacker|Pass Pocket Half]]** (3% of attempts)
+- **[[Transitions/Pass Pocket Half/Attacker|Pass Pocket Half]]** (11% of attempts)
 
-- **[[Transitions/Smash Pocket Half/Attacker|Smash Pocket Half]]** (1% of attempts)
+- **[[Transitions/Smash Pocket Half/Attacker|Smash Pocket Half]]** (12% of attempts)
 
-- **[[Transitions/Pocket Half Pass/Attacker|Pocket Half Pass]]** (1% of attempts)
+- **[[Transitions/Pocket Half Pass/Attacker|Pocket Half Pass]]** (9% of attempts)
 
 
 ### Common Mistakes

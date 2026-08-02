@@ -93,6 +93,14 @@ description: "How to defend against Deep Half Entry in BJJ. Recognition cues, de
         "@type": "Answer",
         "text": "Against a known deep half player, maintain a wider base from the start in half guard top. Keep your free leg posted further from your body than normal, lowering your center of gravity. Apply constant crossface pressure to limit their ability to create space. Keep your hips heavy and avoid being drawn into forward-pressure passing that feeds their entry. Consider using a backstep passing approach that takes your near leg further from their reach rather than driving it forward into their underhook range."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest recognition cue that a Deep Half Entry is being attempted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cue is the bottom player executing a sharp hip escape that creates a diagonal angle rather than remaining square underneath you. This hip escape creates the entry pathway and is the foundational movement of the entire entry sequence. Recognizing this angle creation before the head threading begins gives you maximum time to apply defensive measures and shut down the entry."
+      }
     }
   ]
 }
@@ -148,6 +156,54 @@ description: "How to defend against Deep Half Entry in BJJ. Recognition cues, de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Deep Half Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing against the deep half guard entry",
+      "description": "Deep Half Entry (Defender) film study: Passing against the deep half guard entry, taught by Koji Shibamoto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qqheiIgQrfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qqheiIgQrfY",
+      "url": "https://www.youtube.com/watch?v=qqheiIgQrfY",
+      "creator": { "@type": "Person", "name": "Koji Shibamoto" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stopping the half guard underhook that feeds deep half",
+      "description": "Deep Half Entry (Defender) film study: Stopping the half guard underhook that feeds deep half, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee slide pass counter to deep half entry",
+      "description": "Deep Half Entry (Defender) film study: Knee slide pass counter to deep half entry, taught by Scott Ryan Chiriboga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K0XMj9BNJ8U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K0XMj9BNJ8U",
+      "url": "https://www.youtube.com/watch?v=K0XMj9BNJ8U",
+      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
+      "duration": "PT133S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +213,42 @@ Defending the Deep Half Entry requires the top player to recognize the attempt e
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Deep Half Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qqheiIgQrfY)
+
+<p class="clip-credit"><strong>Passing against the deep half guard entry</strong> — taught by Koji Shibamoto · 0:33 · <a href="https://www.youtube.com/watch?v=qqheiIgQrfY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stopping the half guard underhook that feeds deep half</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K0XMj9BNJ8U)
+
+<p class="clip-credit"><strong>Knee slide pass counter to deep half entry</strong> — taught by Scott Ryan Chiriboga · 2:13 · <a href="https://www.youtube.com/watch?v=K0XMj9BNJ8U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

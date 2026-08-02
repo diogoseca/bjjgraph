@@ -174,6 +174,54 @@ description: "How to execute Saddle Entry from Top in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Saddle Entry from Top (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle transition from top half guard",
+      "description": "Saddle Entry from Top (Attacker) film study: Saddle transition from top half guard, taught by Thunderdome BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P-rkPE4bjdE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P-rkPE4bjdE",
+      "url": "https://www.youtube.com/watch?v=P-rkPE4bjdE",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ coach" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Easy entry to the saddle from top",
+      "description": "Saddle Entry from Top (Attacker) film study: Easy entry to the saddle from top, taught by Ilya.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HniaoFWTsmI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HniaoFWTsmI",
+      "url": "https://www.youtube.com/watch?v=HniaoFWTsmI",
+      "creator": { "@type": "Person", "name": "Ilya" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gordon Ryan saddle entry breakdown",
+      "description": "Saddle Entry from Top (Attacker) film study: Gordon Ryan saddle entry breakdown, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IOyoyijtaBY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IOyoyijtaBY",
+      "url": "https://www.youtube.com/watch?v=IOyoyijtaBY",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 **From Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Saddle Entry from Top (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P-rkPE4bjdE)
+
+<p class="clip-credit"><strong>Saddle transition from top half guard</strong> — taught by Thunderdome BJJ coach · 0:31 · <a href="https://www.youtube.com/watch?v=P-rkPE4bjdE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HniaoFWTsmI)
+
+<p class="clip-credit"><strong>Easy entry to the saddle from top</strong> — taught by Ilya · 0:53 · <a href="https://www.youtube.com/watch?v=HniaoFWTsmI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IOyoyijtaBY)
+
+<p class="clip-credit"><strong>Gordon Ryan saddle entry breakdown</strong> — taught by Gordon Ryan · 1:25 · <a href="https://www.youtube.com/watch?v=IOyoyijtaBY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

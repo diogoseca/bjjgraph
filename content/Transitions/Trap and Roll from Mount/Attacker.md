@@ -180,6 +180,43 @@ description: "Learn to execute the Trap and Roll reversal from bottom mount. Ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Trap and Roll from Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Trap and roll mount escape, technique 4",
+      "description": "Trap and Roll from Mount (Attacker) film study: Trap and roll mount escape, technique 4, taught by Demian Maia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WJmDwNWTXKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WJmDwNWTXKY",
+      "url": "https://www.youtube.com/watch?v=WJmDwNWTXKY",
+      "creator": { "@type": "Person", "name": "Demian Maia" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "High mount escape, simple and effective",
+      "description": "Trap and Roll from Mount (Attacker) film study: High mount escape, simple and effective, taught by Pathfinder Jiu-Jitsu Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pw76Tizir3k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Pw76Tizir3k",
+      "url": "https://www.youtube.com/watch?v=Pw76Tizir3k",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu Team" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ Executing the Trap and Roll from bottom mount requires precise coordination betw
 **From Position**: [[Positions/Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Trap and Roll from Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WJmDwNWTXKY)
+
+<p class="clip-credit"><strong>Trap and roll mount escape, technique 4</strong> — taught by Demian Maia · 0:40 · <a href="https://www.youtube.com/watch?v=WJmDwNWTXKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Pw76Tizir3k)
+
+<p class="clip-credit"><strong>High mount escape, simple and effective</strong> — taught by Pathfinder Jiu-Jitsu Team · 2:00 · <a href="https://www.youtube.com/watch?v=Pw76Tizir3k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

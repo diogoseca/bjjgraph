@@ -148,6 +148,54 @@ description: "Defend and counter the Smash Half Butterfly pass in BJJ. Learn rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Half Butterfly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention with butterfly hooks vs the smash",
+      "description": "Smash Half Butterfly (Defender) film study: Guard retention with butterfly hooks vs the smash, taught by Diamondback Jiu-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/02sVMQyHuGc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/02sVMQyHuGc",
+      "url": "https://www.youtube.com/watch?v=02sVMQyHuGc",
+      "creator": { "@type": "Person", "name": "Diamondback Jiu-Jitsu coach" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Head frame to stop the hug/smash pass",
+      "description": "Smash Half Butterfly (Defender) film study: Head frame to stop the hug/smash pass, taught by Andrew Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/06-ZO93fJak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/06-ZO93fJak",
+      "url": "https://www.youtube.com/watch?v=06-ZO93fJak",
+      "creator": { "@type": "Person", "name": "Andrew Smith" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Smash pass defense: getting out of trouble",
+      "description": "Smash Half Butterfly (Defender) film study: Smash pass defense: getting out of trouble, taught by Breza Grappling coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NefWzEG3QUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NefWzEG3QUQ",
+      "url": "https://www.youtube.com/watch?v=NefWzEG3QUQ",
+      "creator": { "@type": "Person", "name": "Breza Grappling coach" },
+      "duration": "PT173S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against the Smash Half Butterfly requires recognizing when the top pla
 **Opponent's Starting Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Half Butterfly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=02sVMQyHuGc)
+
+<p class="clip-credit"><strong>Guard retention with butterfly hooks vs the smash</strong> — taught by Diamondback Jiu-Jitsu coach · 1:21 · <a href="https://www.youtube.com/watch?v=02sVMQyHuGc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=06-ZO93fJak)
+
+<p class="clip-credit"><strong>Head frame to stop the hug/smash pass</strong> — taught by Andrew Smith · 1:30 · <a href="https://www.youtube.com/watch?v=06-ZO93fJak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NefWzEG3QUQ)
+
+<p class="clip-credit"><strong>Smash pass defense: getting out of trouble</strong> — taught by Breza Grappling coach · 2:53 · <a href="https://www.youtube.com/watch?v=NefWzEG3QUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

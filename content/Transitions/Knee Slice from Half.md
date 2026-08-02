@@ -34,6 +34,54 @@ description: "Master the Knee Slice from Half Guard pass in BJJ. High-percentage
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Half \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing half guard knee shield with an inside knee cut",
+      "description": "Knee Slice from Half film study: Passing half guard knee shield with an inside knee cut, taught by War Room Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
+      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
+      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Freeing your trapped foot while passing half guard",
+      "description": "Knee Slice from Half film study: Freeing your trapped foot while passing half guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double collar grip to knee slice pass",
+      "description": "Knee Slice from Half film study: Double collar grip to knee slice pass, taught by Clube De Lutas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TIsH40L5AVQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TIsH40L5AVQ",
+      "url": "https://www.youtube.com/watch?v=TIsH40L5AVQ",
+      "creator": { "@type": "Person", "name": "Clube De Lutas" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ What makes this pass particularly effective is its ability to shut down the bott
 This pass represents a cornerstone of modern guard passing systems because it works equally well in gi and no-gi, against all body types, and connects seamlessly to other passing options. When executed with proper timing and pressure, the knee slice becomes nearly unstoppable, forcing the opponent into increasingly desperate defensive reactions that open them up to back takes, mount transitions, or submission attacks.
 
 **From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 52%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Half in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yj_6xcl2emA)
+
+<p class="clip-credit"><strong>Passing half guard knee shield with an inside knee cut</strong> — taught by War Room Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Freeing your trapped foot while passing half guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TIsH40L5AVQ)
+
+<p class="clip-credit"><strong>Double collar grip to knee slice pass</strong> — taught by Clube De Lutas · 0:47 · <a href="https://www.youtube.com/watch?v=TIsH40L5AVQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Crab Ride to Back transition in BJJ. Complete guide to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crab Ride to Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva crab ride back take",
+      "description": "Crab Ride to Back film study: De La Riva crab ride back take, taught by Moncaio Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y6fBPjHzfv4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y6fBPjHzfv4",
+      "url": "https://www.youtube.com/watch?v=Y6fBPjHzfv4",
+      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 escape to back take using crab ride",
+      "description": "Crab Ride to Back film study: 50/50 escape to back take using crab ride, taught by Samuel Braga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aSrT9fosH-s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aSrT9fosH-s",
+      "url": "https://www.youtube.com/watch?v=aSrT9fosH-s",
+      "creator": { "@type": "Person", "name": "Samuel Braga" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crab ride to the back",
+      "description": "Crab Ride to Back film study: Crab ride to the back, taught by Chris Newman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fDyL_vlCuDs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fDyL_vlCuDs",
+      "url": "https://www.youtube.com/watch?v=fDyL_vlCuDs",
+      "creator": { "@type": "Person", "name": "Chris Newman" },
+      "duration": "PT18S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Historically developed and refined through wrestling's emphasis on top control, 
 What makes this transition particularly effective is the combination of mechanical advantage and limited defensive options available to the bottom player. From the Crab Ride, the top player controls crucial aspects of their opponent's base and posture, making it extremely difficult to resist the back take. Understanding proper weight distribution, hook placement, and timing of the roll or slide to back control separates successful execution from defensive stalemates. This technique exemplifies the principle of positional dominance leading to back control, one of the most advantageous positions in all of grappling.
 
 **From Position**: [[Positions/Crab Ride]] (Top)
-**Success Rate**: 72%
+**Success Rate**: 52%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crab Ride to Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y6fBPjHzfv4)
+
+<p class="clip-credit"><strong>De La Riva crab ride back take</strong> — taught by Moncaio Brothers · 0:28 · <a href="https://www.youtube.com/watch?v=Y6fBPjHzfv4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aSrT9fosH-s)
+
+<p class="clip-credit"><strong>50/50 escape to back take using crab ride</strong> — taught by Samuel Braga · 1:05 · <a href="https://www.youtube.com/watch?v=aSrT9fosH-s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fDyL_vlCuDs)
+
+<p class="clip-credit"><strong>Crab ride to the back</strong> — taught by Chris Newman · 0:18 · <a href="https://www.youtube.com/watch?v=fDyL_vlCuDs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

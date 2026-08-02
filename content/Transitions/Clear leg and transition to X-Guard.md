@@ -34,6 +34,43 @@ description: "Master Clear Leg to X-Guard from Leg Knot. Escape leg entanglement
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clear leg and transition to X-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clearing the leg from mount escape into X-Guard",
+      "description": "Clear leg and transition to X-Guard film study: Clearing the leg from mount escape into X-Guard, taught by Masters Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RWtKllp2avU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RWtKllp2avU",
+      "url": "https://www.youtube.com/watch?v=RWtKllp2avU",
+      "creator": { "@type": "Person", "name": "Masters Martial Arts" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shallow K Guard entry off the far leg",
+      "description": "Clear leg and transition to X-Guard film study: Shallow K Guard entry off the far leg, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fQ1z2RLYz4Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fQ1z2RLYz4Q",
+      "url": "https://www.youtube.com/watch?v=fQ1z2RLYz4Q",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The biomechanical foundation of this transition relies on understanding the rela
 Strategically, this transition exemplifies modern leg lock defense philosophy: never simply escape, but escape to a position of advantage. By establishing X-Guard rather than returning to neutral, practitioners maintain lower body control over their opponent while eliminating the immediate leg lock threats. The resulting X-Guard position offers immediate sweep opportunities and leg attack pathways of your own, effectively punishing the opponent for their failed leg entanglement attempt.
 
 **From Position**: [[Positions/Leg Knot]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 34%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clear leg and transition to X-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RWtKllp2avU)
+
+<p class="clip-credit"><strong>Clearing the leg from mount escape into X-Guard</strong> — taught by Masters Martial Arts · 0:54 · <a href="https://www.youtube.com/watch?v=RWtKllp2avU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fQ1z2RLYz4Q)
+
+<p class="clip-credit"><strong>Shallow K Guard entry off the far leg</strong> — taught by Lachlan Giles · 0:42 · <a href="https://www.youtube.com/watch?v=fQ1z2RLYz4Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -245,7 +310,7 @@ Clear Leg to X-Guard fits within the defensive leg entanglement hierarchy as a p
 
 - [[Transitions/Butterfly Sweep]] - Follow-up attack from established X-Guard
 
-- [[Transitions/Heel Hook]] - Primary submission threat being escaped
+- [[Submissions/Heel Hook]] - Primary submission threat being escaped
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Alternative counter-entanglement option from Leg Knot
 

@@ -21,37 +21,37 @@ description: "Escape front headlock control in BJJ. Defensive strategies for avo
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stand and Circle Away",
-      "text": "From this position, attempt Stand and Circle Away. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Stand and Circle Away. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll Through to Reversal",
-      "text": "From this position, attempt Roll Through to Reversal. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Roll Through to Reversal. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag Escape",
-      "text": "From this position, attempt Arm Drag Escape. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Escape front headlock control in BJJ. Defensive strategies for avo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Front Headlock (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock sit-out reversal",
+      "description": "Front Headlock (Bottom) film study: Front headlock sit-out reversal, taught by Takada Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t4xBYQ1VauU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t4xBYQ1VauU",
+      "url": "https://www.youtube.com/watch?v=t4xBYQ1VauU",
+      "creator": { "@type": "Person", "name": "Takada Dojo" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clearing the front headlock",
+      "description": "Front Headlock (Bottom) film study: Clearing the front headlock, taught by The School of Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OZkTT8kT1G8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OZkTT8kT1G8",
+      "url": "https://www.youtube.com/watch?v=OZkTT8kT1G8",
+      "creator": { "@type": "Person", "name": "The School of Wrestling" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Basic front headlock defense",
+      "description": "Front Headlock (Bottom) film study: Basic front headlock defense, taught by Ben Askren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ry5lH-N7O-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ry5lH-N7O-0",
+      "url": "https://www.youtube.com/watch?v=ry5lH-N7O-0",
+      "creator": { "@type": "Person", "name": "Ben Askren" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +218,42 @@ Modern front headlock defense has evolved significantly, particularly in the no-
 Successful front headlock bottom defense requires remaining calm under pressure. This position naturally creates a feeling of vulnerability and urgency, but panicked movements typically result in either submission or back exposure. Systematic defensive responses, combined with patient opportunistic escapes, provide the highest percentage path to safety.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Front Headlock (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t4xBYQ1VauU)
+
+<p class="clip-credit"><strong>Front headlock sit-out reversal</strong> — taught by Takada Dojo · 0:28 · <a href="https://www.youtube.com/watch?v=t4xBYQ1VauU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OZkTT8kT1G8)
+
+<p class="clip-credit"><strong>Clearing the front headlock</strong> — taught by The School of Wrestling · 1:26 · <a href="https://www.youtube.com/watch?v=OZkTT8kT1G8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ry5lH-N7O-0)
+
+<p class="clip-credit"><strong>Basic front headlock defense</strong> — taught by Ben Askren · 1:48 · <a href="https://www.youtube.com/watch?v=ry5lH-N7O-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

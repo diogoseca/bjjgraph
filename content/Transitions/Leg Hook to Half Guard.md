@@ -34,6 +34,54 @@ description: "Master the Leg Hook to Half Guard consolidation in BJJ. Learn weig
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Hook to Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Connecting to half guard with the leg hook",
+      "description": "Leg Hook to Half Guard film study: Connecting to half guard with the leg hook, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/74Vp0Fz4cNo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/74Vp0Fz4cNo",
+      "url": "https://www.youtube.com/watch?v=74Vp0Fz4cNo",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT294S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Simple and effective side control escape to half guard",
+      "description": "Leg Hook to Half Guard film study: Simple and effective side control escape to half guard, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R4-4wiHam98/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R4-4wiHam98",
+      "url": "https://www.youtube.com/watch?v=R4-4wiHam98",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT322S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Chaining escapes from bottom pin",
+      "description": "Leg Hook to Half Guard film study: Chaining escapes from bottom pin, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PARsvWFmssI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PARsvWFmssI",
+      "url": "https://www.youtube.com/watch?v=PARsvWFmssI",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT273S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The transition requires precise timing and weight management. The critical momen
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Hook to Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=74Vp0Fz4cNo)
+
+<p class="clip-credit"><strong>Connecting to half guard with the leg hook</strong> — taught by Bernardo Faria · 4:54 · <a href="https://www.youtube.com/watch?v=74Vp0Fz4cNo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R4-4wiHam98)
+
+<p class="clip-credit"><strong>Simple and effective side control escape to half guard</strong> — taught by Gordon Ryan · 5:22 · <a href="https://www.youtube.com/watch?v=R4-4wiHam98" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PARsvWFmssI)
+
+<p class="clip-credit"><strong>Chaining escapes from bottom pin</strong> — taught by Gordon Ryan · 4:33 · <a href="https://www.youtube.com/watch?v=PARsvWFmssI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

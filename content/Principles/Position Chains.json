@@ -394,39 +394,158 @@
   "flashcards": [
     {
       "question": "What is a position chain in BJJ?",
-      "answer": "A pre-planned sequence of two to four linked positional transitions where each successful advance creates the setup for the next, systematically progressing from neutral or inferior positions toward dominant control or a submission."
+      "answer": "A pre-planned sequence of two to four linked positional transitions where each successful advance creates the setup for the next, systematically progressing from neutral or inferior positions toward dominant control or a submission.",
+      "answer_line": "2-4 planned linked transitions",
+      "distractors": {
+        "plausible": [
+          "Combo of your best techniques",
+          "Improvised counter to reactions"
+        ],
+        "trap": [
+          "Chain moves until you get tired"
+        ]
+      }
     },
     {
       "question": "How many positions should a well-constructed chain contain, and why?",
-      "answer": "Two to four positions. Beyond that, cumulative success probability drops sharply and energy cost outweighs positional gain, leaving you stranded mid-sequence with depleted reserves if a late transition fails."
+      "answer": "Two to four positions. Beyond that, cumulative success probability drops sharply and energy cost outweighs positional gain, leaving you stranded mid-sequence with depleted reserves if a late transition fails.",
+      "answer_line": "Two to four positions",
+      "distractors": {
+        "plausible": [
+          "Five or more for options",
+          "As many as possible"
+        ],
+        "trap": [
+          "Unlimited, just keep chaining"
+        ]
+      }
     },
     {
       "question": "What distinguishes chained play from reactive, technique-by-technique grappling?",
-      "answer": "Chained play follows a planned pathway where each position is deliberately chosen to enable the next, whereas reactive grappling treats every transition as an isolated event with no strategic connection to follow-up movements."
+      "answer": "Chained play follows a planned pathway where each position is deliberately chosen to enable the next, whereas reactive grappling treats every transition as an isolated event with no strategic connection to follow-up movements.",
+      "answer_line": "Planned path, not isolated moves",
+      "distractors": {
+        "plausible": [
+          "Faster tempo of attacks",
+          "More submissions attempted"
+        ],
+        "trap": [
+          "Treat each transition separately"
+        ]
+      }
     },
     {
       "question": "Why must you establish required control points before advancing to the next position in a chain?",
-      "answer": "Advancing before securing the necessary grips, frames, or hooks leaves gaps the opponent exploits to escape the entire sequence, often reversing the position completely rather than merely stopping a single transition."
+      "answer": "Advancing before securing the necessary grips, frames, or hooks leaves gaps the opponent exploits to escape the entire sequence, often reversing the position completely rather than merely stopping a single transition.",
+      "answer_line": "Gaps let opponent escape chain",
+      "distractors": {
+        "plausible": [
+          "Slows your tempo down",
+          "Wastes energy holding position"
+        ],
+        "trap": [
+          "Advance fast before they adjust"
+        ]
+      }
     },
     {
       "question": "How should you respond when an opponent successfully defends a key transition in your chain?",
-      "answer": "Pivot to a pre-planned contingency branch that maintains offensive direction rather than forcing the defended technique, since repeated attempts at a failed move become predictable and invite counterattacks."
+      "answer": "Pivot to a pre-planned contingency branch that maintains offensive direction rather than forcing the defended technique, since repeated attempts at a failed move become predictable and invite counterattacks.",
+      "answer_line": "Pivot to planned contingency",
+      "distractors": {
+        "plausible": [
+          "Retry the same move harder",
+          "Switch to a random new attack"
+        ],
+        "trap": [
+          "Force the defended technique"
+        ]
+      }
     },
     {
       "question": "What role does momentum play in linking positions within a chain?",
-      "answer": "The directional force and the opponent's defensive reaction from one transition can be redirected to power entry into the next position, making chains built on sweeps and passes far more efficient than isolated attempts."
+      "answer": "The directional force and the opponent's defensive reaction from one transition can be redirected to power entry into the next position, making chains built on sweeps and passes far more efficient than isolated attempts.",
+      "answer_line": "Redirect force into next entry",
+      "distractors": {
+        "plausible": [
+          "Only matters in scrambles",
+          "Speed matters more than direction"
+        ],
+        "trap": [
+          "Stop and reset before next move"
+        ]
+      }
     },
     {
       "question": "How do position chains differ when built for competition rather than training?",
-      "answer": "Competition chains should be routed through point-scoring positions such as guard pass, mount, and back control before submission attempts, so points are banked even if the finish fails or time expires."
+      "answer": "Competition chains should be routed through point-scoring positions such as guard pass, mount, and back control before submission attempts, so points are banked even if the finish fails or time expires.",
+      "answer_line": "Route through scoring positions",
+      "distractors": {
+        "plausible": [
+          "Go straight for submission",
+          "Same chain, ignore scoring"
+        ],
+        "trap": [
+          "Skip points, gamble on the finish"
+        ]
+      }
     },
     {
       "question": "How can you defend against an opponent who is executing a position chain?",
-      "answer": "Recognize early chain-entry indicators and interrupt the sequence at its setup stage, before the opponent establishes initial control points and builds the momentum that makes later positions difficult to stop."
+      "answer": "Recognize early chain-entry indicators and interrupt the sequence at its setup stage, before the opponent establishes initial control points and builds the momentum that makes later positions difficult to stop.",
+      "answer_line": "Interrupt chain at setup stage",
+      "distractors": {
+        "plausible": [
+          "Wait, escape the final position",
+          "Focus defense on submission only"
+        ],
+        "trap": [
+          "Let them advance, reverse late"
+        ]
+      }
     },
     {
       "question": "What is a common chain-construction error and how do you correct it?",
-      "answer": "Building overly complex five-plus-position chains with low cumulative odds; instead limit chains to two to four transitions, each with roughly 50%+ success at your skill level, so the overall plan stays realistic."
+      "answer": "Building overly complex five-plus-position chains with low cumulative odds; instead limit chains to two to four transitions, each with roughly 50%+ success at your skill level, so the overall plan stays realistic.",
+      "answer_line": "Trim to 2-4 high-odds moves",
+      "distractors": {
+        "plausible": [
+          "Add more contingency branches",
+          "Only use your A-game moves"
+        ],
+        "trap": [
+          "Keep building longer chains"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "X0pxgQGcvgI",
+      "title": "Combinations and sequencing techniques",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "Marcelo Garcia Jiu-Jitsu",
+      "duration": 872,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "JDpqQJdktq4",
+      "title": "How to develop your own submission chains",
+      "by": "Nick Albin",
+      "vertical": false,
+      "channel": "Chewjitsu",
+      "duration": 287,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "e3NL2SQZPV0",
+      "title": "Seven-submission flow chain",
+      "by": "Johnny Jitsu",
+      "vertical": false,
+      "channel": "Johnny Jitsu",
+      "duration": 76,
+      "verified": "2026-07-15"
     }
   ]
 }

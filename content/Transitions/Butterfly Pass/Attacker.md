@@ -174,6 +174,54 @@ description: "How to execute Butterfly Pass in BJJ. Attacking perspective with s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly guard pass into knee on belly",
+      "description": "Butterfly Pass (Attacker) film study: Butterfly guard pass into knee on belly, taught by Dark Arts Jiu-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IGpcox5vWkw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IGpcox5vWkw",
+      "url": "https://www.youtube.com/watch?v=IGpcox5vWkw",
+      "creator": { "@type": "Person", "name": "Dark Arts Jiu-Jitsu coach" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half butterfly guard pass, no-gi",
+      "description": "Butterfly Pass (Attacker) film study: Half butterfly guard pass, no-gi, taught by Kieran Davern.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ll3fkZ2oQD0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ll3fkZ2oQD0",
+      "url": "https://www.youtube.com/watch?v=Ll3fkZ2oQD0",
+      "creator": { "@type": "Person", "name": "Kieran Davern" },
+      "duration": "PT170S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Folding pass against butterfly guard",
+      "description": "Butterfly Pass (Attacker) film study: Folding pass against butterfly guard, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/231FhaqR008/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/231FhaqR008",
+      "url": "https://www.youtube.com/watch?v=231FhaqR008",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 **From Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IGpcox5vWkw)
+
+<p class="clip-credit"><strong>Butterfly guard pass into knee on belly</strong> — taught by Dark Arts Jiu-Jitsu coach · 1:29 · <a href="https://www.youtube.com/watch?v=IGpcox5vWkw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ll3fkZ2oQD0)
+
+<p class="clip-credit"><strong>Half butterfly guard pass, no-gi</strong> — taught by Kieran Davern · 2:50 · <a href="https://www.youtube.com/watch?v=Ll3fkZ2oQD0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=231FhaqR008)
+
+<p class="clip-credit"><strong>Folding pass against butterfly guard</strong> — taught by Unknown coach · 2:17 · <a href="https://www.youtube.com/watch?v=231FhaqR008" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

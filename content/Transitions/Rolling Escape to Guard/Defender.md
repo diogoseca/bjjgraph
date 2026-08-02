@@ -148,6 +148,10 @@ description: "How to counter the Rolling Escape from Aoki Lock top. Recognition 
 </script>
 
 
+
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +163,8 @@ The key defensive insight is that you do not need to completely prevent the roll
 **Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Bottom)
 
 </section>
+
+
 
 <section id="recognition-cues" class="content-section">
 

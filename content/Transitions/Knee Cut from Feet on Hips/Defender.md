@@ -140,6 +140,54 @@ description: "Complete defensive guide against the knee cut pass from feet on hi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Cut from Feet on Hips (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee slice defense counter",
+      "description": "Knee Cut from Feet on Hips (Defender) film study: Knee slice defense counter, taught by A Day In A Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Da5PAZooedU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Da5PAZooedU",
+      "url": "https://www.youtube.com/watch?v=Da5PAZooedU",
+      "creator": { "@type": "Person", "name": "A Day In A Life" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee slide pass defense counter",
+      "description": "Knee Cut from Feet on Hips (Defender) film study: Knee slide pass defense counter, taught by Alexander Miller.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BIFfZ3bK4ss/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BIFfZ3bK4ss",
+      "url": "https://www.youtube.com/watch?v=BIFfZ3bK4ss",
+      "creator": { "@type": "Person", "name": "Alexander Miller" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard retention response to the knee cut",
+      "description": "Knee Cut from Feet on Hips (Defender) film study: Guard retention response to the knee cut, taught by Cal McDonald.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rP8SOouke1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rP8SOouke1s",
+      "url": "https://www.youtube.com/watch?v=rP8SOouke1s",
+      "creator": { "@type": "Person", "name": "Cal McDonald" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the knee cut from feet on hips, your primary objective i
 **Opponent's Starting Position**: [[Positions/Feet on Hips Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Cut from Feet on Hips (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Da5PAZooedU)
+
+<p class="clip-credit"><strong>Knee slice defense counter</strong> — taught by A Day In A Life · 1:26 · <a href="https://www.youtube.com/watch?v=Da5PAZooedU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BIFfZ3bK4ss)
+
+<p class="clip-credit"><strong>Knee slide pass defense counter</strong> — taught by Alexander Miller · 1:06 · <a href="https://www.youtube.com/watch?v=BIFfZ3bK4ss" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rP8SOouke1s)
+
+<p class="clip-credit"><strong>Guard retention response to the knee cut</strong> — taught by Cal McDonald · 0:57 · <a href="https://www.youtube.com/watch?v=rP8SOouke1s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

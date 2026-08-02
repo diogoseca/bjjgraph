@@ -21,37 +21,37 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Kneebar Control",
-      "text": "From this position, attempt Kneebar from Kneebar Control. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar from Kneebar Control. This technique is attempted in 34% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Kneebar Control Maintenance",
+      "text": "From this position, attempt Kneebar Control Maintenance. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Control Maintenance",
-      "text": "From this position, attempt Kneebar Control Maintenance. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Ankle Lock Finish",
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ankle Lock Finish",
-      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Toe Hold from Kneebar Control",
+      "text": "From this position, attempt Toe Hold from Kneebar Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold from Kneebar Control",
-      "text": "From this position, attempt Toe Hold from Kneebar Control. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Knee on Belly",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kneebar to 50-50 Transition",
+      "text": "From this position, attempt Kneebar to 50-50 Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dog Bar Kneebar",
+      "description": "Kneebar Control (Top) film study: Dog Bar Kneebar, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
+      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Top Half Guard Toe Hold to Kneebar",
+      "description": "Kneebar Control (Top) film study: Top Half Guard Toe Hold to Kneebar, taught by Eliot Marshall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-HT8Vfiq5Pk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-HT8Vfiq5Pk",
+      "url": "https://www.youtube.com/watch?v=-HT8Vfiq5Pk",
+      "creator": { "@type": "Person", "name": "Eliot Marshall" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Go Behind Kneebar",
+      "description": "Kneebar Control (Top) film study: Go Behind Kneebar, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +216,42 @@ The strategic advantage of top position kneebars lies in positional safety - if 
 Defensively, the top practitioner must be aware that committing fully to a kneebar finish may temporarily sacrifice top pressure, creating brief windows where athletic opponents might explode into escapes or reversals. Managing this balance between submission pursuit and positional maintenance represents the key strategic decision point in top position leg attacks.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+
+<p class="clip-credit"><strong>Dog Bar Kneebar</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-HT8Vfiq5Pk)
+
+<p class="clip-credit"><strong>Top Half Guard Toe Hold to Kneebar</strong> — taught by Eliot Marshall · 1:07 · <a href="https://www.youtube.com/watch?v=-HT8Vfiq5Pk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go Behind Kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

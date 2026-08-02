@@ -174,6 +174,43 @@ description: "Complete attacker guide for stripping the overhook from diamond gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Strip from Diamond Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Creating angles in closed guard with the overhook",
+      "description": "Overhook Strip from Diamond Guard (Attacker) film study: Creating angles in closed guard with the overhook, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x_EFpu23jXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/x_EFpu23jXw",
+      "url": "https://www.youtube.com/watch?v=x_EFpu23jXw",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT243S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Overhook attacks from closed guard",
+      "description": "Overhook Strip from Diamond Guard (Attacker) film study: Overhook attacks from closed guard, taught by Jiu Jitsu Evolution Series.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ox8roQ1Jkm4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ox8roQ1Jkm4",
+      "url": "https://www.youtube.com/watch?v=ox8roQ1Jkm4",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Evolution Series" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the top player executing the Overhook Strip from Diamond Guard, your objectiv
 **From Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Strip from Diamond Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=x_EFpu23jXw)
+
+<p class="clip-credit"><strong>Creating angles in closed guard with the overhook</strong> — taught by Gordon Ryan · 4:03 · <a href="https://www.youtube.com/watch?v=x_EFpu23jXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ox8roQ1Jkm4)
+
+<p class="clip-credit"><strong>Overhook attacks from closed guard</strong> — taught by Jiu Jitsu Evolution Series · 0:59 · <a href="https://www.youtube.com/watch?v=ox8roQ1Jkm4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

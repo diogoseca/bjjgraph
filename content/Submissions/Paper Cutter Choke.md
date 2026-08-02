@@ -34,6 +34,54 @@ description: "Master Paper Cutter Choke in BJJ. Complete guide with safety proto
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Paper Cutter Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame to Paper Cutter Choke",
+      "description": "Paper Cutter Choke film study: Kesa Gatame to Paper Cutter Choke, taught by AMAGFightTeam.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AKfEIInO9Tk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AKfEIInO9Tk",
+      "url": "https://www.youtube.com/watch?v=AKfEIInO9Tk",
+      "creator": { "@type": "Person", "name": "AMAGFightTeam" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa to Paper Cutter Choke",
+      "description": "Paper Cutter Choke film study: Kesa to Paper Cutter Choke, taught by Global MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5z7hF2YJxeo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5z7hF2YJxeo",
+      "url": "https://www.youtube.com/watch?v=5z7hF2YJxeo",
+      "creator": { "@type": "Person", "name": "Global MMA" },
+      "duration": "PT112S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Paper Cutter Choke with Lapel",
+      "description": "Paper Cutter Choke film study: Paper Cutter Choke with Lapel, taught by Robert Hugus.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vhFpxC1vCag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vhFpxC1vCag",
+      "url": "https://www.youtube.com/watch?v=vhFpxC1vCag",
+      "creator": { "@type": "Person", "name": "Robert Hugus" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +130,42 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Paper Cutter Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AKfEIInO9Tk)
+
+<p class="clip-credit"><strong>Kesa Gatame to Paper Cutter Choke</strong> — taught by AMAGFightTeam · 0:38 · <a href="https://www.youtube.com/watch?v=AKfEIInO9Tk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5z7hF2YJxeo)
+
+<p class="clip-credit"><strong>Kesa to Paper Cutter Choke</strong> — taught by Global MMA · 1:52 · <a href="https://www.youtube.com/watch?v=5z7hF2YJxeo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vhFpxC1vCag)
+
+<p class="clip-credit"><strong>Paper Cutter Choke with Lapel</strong> — taught by Robert Hugus · 0:42 · <a href="https://www.youtube.com/watch?v=vhFpxC1vCag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -91,7 +175,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 62% | [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Defender|Defend →]] |
+| [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 50% | [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Defender|Defend →]] |
 
 
 </div>
@@ -116,8 +200,8 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 ## Related
 - [[Submissions/Cross Collar Choke]] - Related collar choke using similar grip mechanics from top position
-- [[Transitions/Arm Triangle]] - Common backup submission when paper cutter is defended
-- [[Transitions/Darce Choke]] - Alternative head-and-arm choke from similar top control positions
+- [[Submissions/Arm Triangle]] - Common backup submission when paper cutter is defended
+- [[Submissions/Darce Choke]] - Alternative head-and-arm choke from similar top control positions
 - [[Transitions/Anaconda Choke]] - Complementary front headlock choke sharing neck compression principles
 - [[Submissions/Ezekiel Choke]] - Alternative gi choke applicable from similar top control positions
 - [[Transitions/Clock Choke]] - Related collar choke accessible when standard paper cutter is defended

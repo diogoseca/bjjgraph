@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Leg Drag Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The leg drag from De La Riva Guard is one of the most effective guard passing techniques in modern BJJ, used extensively at the highest levels of competition. The passer strips or neutralizes the DLR hook, controls the bottom player's legs at the ankle or pants level, and drags one leg across the opponent's body while stepping around to establish dominant hip control. This technique exploits the inherent vulnerability in DLR guard structure—the bottom player's commitment to the hook creates predictable leg positioning that the passer can redirect into a powerful passing angle.\n\nThe technique works by converting the bottom player's offensive guard structure into a passing pathway. When the DLR hook is active, the hooked leg is already partially extended toward the passer, making it available for redirection across the opponent's centerline. By controlling the ankle and pulling the leg diagonally while simultaneously circling the hips to the drag side, the passer bypasses the guard entirely and arrives in leg drag control—a dominant position with direct pathways to side control, back control, and mount.\n\nStrategically, the leg drag from DLR occupies a critical position in passing sequences because it chains naturally with toreando passes, knee slices, and backsteps. When a toreando is blocked, the leg drag is a natural continuation in the opposite direction. When a knee slice is stuffed, redirecting into a leg drag catches the guard player during their defensive transition. This chain-ability within a broader passing system makes the leg drag far more dangerous than it would be as an isolated technique, and understanding its integration with complementary passes is essential for consistent guard passing success.",
   "conditions": [
     "Top player is in De La Riva Guard facing an active DLR hook",
@@ -241,38 +253,147 @@
     "flashcards": [
       {
         "question": "What grip must you establish before attempting to clear the DLR hook for the leg drag?",
-        "answer": "You need a strong pants or ankle grip on the hooked leg before attempting to clear the hook. This grip converts the hook removal from a neutral exchange into a passing opportunity—without it, clearing the hook simply resets the guard player's position rather than creating the angle needed for the drag. The grip provides the control needed to redirect the leg across the opponent's centerline immediately after the hook clears."
+        "answer": "You need a strong pants or ankle grip on the hooked leg before attempting to clear the hook. This grip converts the hook removal from a neutral exchange into a passing opportunity—without it, clearing the hook simply resets the guard player's position rather than creating the angle needed for the drag. The grip provides the control needed to redirect the leg across the opponent's centerline immediately after the hook clears.",
+        "answer_line": "Pants/ankle grip before stripping",
+        "distractors": {
+          "plausible": [
+            "Underhook before clearing hook",
+            "Grip their far-side leg first"
+          ],
+          "trap": [
+            "Strip the hook, then grip"
+          ]
+        }
       },
       {
         "question": "Your opponent re-hooks their DLR immediately after you strip it—how do you prevent this recurring problem?",
-        "answer": "The most common reason for re-hooking is a gap between the hook strip and the leg redirect. You must make these movements continuous rather than sequential—as the hook clears, the leg is already being pulled across their centerline. Additionally, circle your freed leg backward and away from their hooking foot to make re-threading mechanically difficult. If they consistently re-hook despite this, switch to a backstep pass that uses their hook commitment against them by stepping behind and around it."
+        "answer": "The most common reason for re-hooking is a gap between the hook strip and the leg redirect. You must make these movements continuous rather than sequential—as the hook clears, the leg is already being pulled across their centerline. Additionally, circle your freed leg backward and away from their hooking foot to make re-threading mechanically difficult. If they consistently re-hook despite this, switch to a backstep pass that uses their hook commitment against them by stepping behind and around it.",
+        "answer_line": "Make strip and drag one motion",
+        "distractors": {
+          "plausible": [
+            "Strip hook, then redirect leg",
+            "Circle leg toward their hook"
+          ],
+          "trap": [
+            "Pause to secure hook control"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force when executing the leg drag from DLR?",
-        "answer": "The force should be diagonal—pulling the leg across the opponent's centerline toward your opposite hip while simultaneously driving your hips forward and around to the drag side. This diagonal vector pins their hip to the mat and prevents rotation. A common error is pulling straight across horizontally, which allows the bottom player to follow the movement with a hip escape. The downward component of the diagonal force eliminates their hip mobility and is what makes the drag stick."
+        "answer": "The force should be diagonal—pulling the leg across the opponent's centerline toward your opposite hip while simultaneously driving your hips forward and around to the drag side. This diagonal vector pins their hip to the mat and prevents rotation. A common error is pulling straight across horizontally, which allows the bottom player to follow the movement with a hip escape. The downward component of the diagonal force eliminates their hip mobility and is what makes the drag stick.",
+        "answer_line": "Diagonal pull down and across",
+        "distractors": {
+          "plausible": [
+            "Straight horizontal pull across",
+            "Pull leg straight up and back"
+          ],
+          "trap": [
+            "Release grip to reset angle"
+          ]
+        }
       },
       {
         "question": "During the leg drag attempt, your opponent transitions to Single Leg X-Guard—what went wrong and how do you adjust?",
-        "answer": "This counter occurs when you create space by lifting the leg too high during the drag or when you fail to control the far leg. The bottom player threads their free leg under your base and hooks your thigh. To prevent this, keep the drag trajectory tight and low to their body and control or block their far leg with your free hand. If they achieve the transition, immediately backstep to disengage their hooks before they can elevate for a sweep."
+        "answer": "This counter occurs when you create space by lifting the leg too high during the drag or when you fail to control the far leg. The bottom player threads their free leg under your base and hooks your thigh. To prevent this, keep the drag trajectory tight and low to their body and control or block their far leg with your free hand. If they achieve the transition, immediately backstep to disengage their hooks before they can elevate for a sweep.",
+        "answer_line": "Keep drag tight, block far leg",
+        "distractors": {
+          "plausible": [
+            "Lift the leg high to clear space",
+            "Chase their hooks with hands"
+          ],
+          "trap": [
+            "Stay committed and power through"
+          ]
+        }
       },
       {
         "question": "What are the ideal conditions that signal the highest-percentage moment to initiate the leg drag from DLR?",
-        "answer": "The optimal timing window is immediately after successfully stripping the ankle grip while the bottom player is reaching to re-grip. During this moment, their DLR hook has lost its primary support structure and they are transitioning between offensive postures. The secondary window is when the bottom player attempts to transition from DLR to another guard such as Reverse DLR or X-Guard, as their hook commitment changes during the transition, creating vulnerability to redirection."
+        "answer": "The optimal timing window is immediately after successfully stripping the ankle grip while the bottom player is reaching to re-grip. During this moment, their DLR hook has lost its primary support structure and they are transitioning between offensive postures. The secondary window is when the bottom player attempts to transition from DLR to another guard such as Reverse DLR or X-Guard, as their hook commitment changes during the transition, creating vulnerability to redirection.",
+        "answer_line": "Right after stripping their grip",
+        "distractors": {
+          "plausible": [
+            "Wait until guard pass is done",
+            "As they re-establish their hook"
+          ],
+          "trap": [
+            "While their hook grip is strongest"
+          ]
+        }
       },
       {
         "question": "How does the leg drag from DLR chain with the toreando pass when the initial attempt is defended?",
-        "answer": "The toreando and leg drag share the same initial grip configuration—double pants or ankle control—and involve similar lateral passing mechanics. When a toreando pass to one side is blocked by the opponent's frames or hip movement, redirect the controlled legs to the opposite side as a leg drag rather than resetting to neutral. This directional change catches the bottom player mid-adjustment and exploits the lag between their defensive reaction to the toreando and the new angle created by the drag."
+        "answer": "The toreando and leg drag share the same initial grip configuration—double pants or ankle control—and involve similar lateral passing mechanics. When a toreando pass to one side is blocked by the opponent's frames or hip movement, redirect the controlled legs to the opposite side as a leg drag rather than resetting to neutral. This directional change catches the bottom player mid-adjustment and exploits the lag between their defensive reaction to the toreando and the new angle created by the drag.",
+        "answer_line": "Redirect legs to opposite side",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral, retry same side",
+            "Switch to a knee slice pass"
+          ],
+          "trap": [
+            "Release leg control, restart"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps an extremely tight DLR hook that you cannot strip directly—what alternative approach leads to the leg drag?",
-        "answer": "Instead of fighting the hook directly, use a backstep motion to extract your leg by stepping backward and around the hook. As your leg clears from behind, the bottom player's leg is already extended and available for the drag. This backstep-to-drag sequence converts their defensive hook retention into a passing pathway. Alternatively, collapse forward to flatten their hips with pressure, which weakens the hook's mechanical advantage, then redirect into the drag as the hook loosens under your weight."
+        "answer": "Instead of fighting the hook directly, use a backstep motion to extract your leg by stepping backward and around the hook. As your leg clears from behind, the bottom player's leg is already extended and available for the drag. This backstep-to-drag sequence converts their defensive hook retention into a passing pathway. Alternatively, collapse forward to flatten their hips with pressure, which weakens the hook's mechanical advantage, then redirect into the drag as the hook loosens under your weight.",
+        "answer_line": "Backstep around the tight hook",
+        "distractors": {
+          "plausible": [
+            "Force the strip with more grip",
+            "Yank straight back to break it"
+          ],
+          "trap": [
+            "Muscle the leg free with no setup"
+          ]
+        }
       },
       {
         "question": "What is the most critical body position to maintain as you complete the drag and transition to leg drag control?",
-        "answer": "Your chest must connect diagonally to their far-side hip or shoulder while your near hip drives into their near-side hip. This cross-body pressure angle prevents them from turning toward you to recover guard or turning away without giving up their back. Your posted leg should be on the drag side with your knee next to their hip, and your weight should be driving forward and down through skeletal alignment rather than muscular effort. Releasing this diagonal connection before upper body control is established allows immediate guard recovery."
+        "answer": "Your chest must connect diagonally to their far-side hip or shoulder while your near hip drives into their near-side hip. This cross-body pressure angle prevents them from turning toward you to recover guard or turning away without giving up their back. Your posted leg should be on the drag side with your knee next to their hip, and your weight should be driving forward and down through skeletal alignment rather than muscular effort. Releasing this diagonal connection before upper body control is established allows immediate guard recovery.",
+        "answer_line": "Chest diagonal to far hip",
+        "distractors": {
+          "plausible": [
+            "Chest square on top of hips",
+            "Weight back, control with arms"
+          ],
+          "trap": [
+            "Release grip once pinned briefly"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The leg drag from DLR is generally low-risk for injury when executed with controlled force. However, aggressive dragging can strain the hip flexors and groin if the bottom player's leg is pulled beyond their flexibility range. Practitioners should communicate about flexibility limitations before drilling. The passer should use progressive force rather than explosive jerking motions when redirecting the leg. Knee torque can occur if the bottom player's foot catches during the hook clearing phase—ensure the foot clears cleanly before redirecting. In training, prioritize controlled repetitions and build speed gradually."
+    "safety_considerations": "The leg drag from DLR is generally low-risk for injury when executed with controlled force. However, aggressive dragging can strain the hip flexors and groin if the bottom player's leg is pulled beyond their flexibility range. Practitioners should communicate about flexibility limitations before drilling. The passer should use progressive force rather than explosive jerking motions when redirecting the leg. Knee torque can occur if the bottom player's foot catches during the hook clearing phase—ensure the foot clears cleanly before redirecting. In training, prioritize controlled repetitions and build speed gradually.",
+    "clips": [
+      {
+        "id": "H9hckrLXcRQ",
+        "title": "De La Riva to leg drag",
+        "by": "Alavanca",
+        "vertical": false,
+        "channel": "Alavanca",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Mtwz27161ZI",
+        "title": "Bullfighter counter to De La Riva into leg drag",
+        "by": "King Mo",
+        "vertical": false,
+        "channel": "King Mo",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Mag1e96DQuY",
+        "title": "De La Riva to leg drag pass",
+        "by": "Sickness Ferro",
+        "vertical": false,
+        "channel": "Sickness Ferro",
+        "duration": 108,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag from DLR Defender",
@@ -358,19 +479,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a leg drag from DLR is being initiated?",
-        "answer": "The earliest cue is the passer stripping your ankle or pants grip and immediately re-gripping both of your pant legs at the knee or ankle level. This double-leg grip is the prerequisite for the drag—without it, they cannot redirect your leg across your body. When you feel both grips being established simultaneously, begin your defensive response immediately rather than waiting for the hook to be cleared."
+        "answer": "The earliest cue is the passer stripping your ankle or pants grip and immediately re-gripping both of your pant legs at the knee or ankle level. This double-leg grip is the prerequisite for the drag—without it, they cannot redirect your leg across your body. When you feel both grips being established simultaneously, begin your defensive response immediately rather than waiting for the hook to be cleared.",
+        "answer_line": "Both pant legs gripped at once",
+        "distractors": {
+          "plausible": [
+            "Single ankle grip established",
+            "Hook already fully cleared"
+          ],
+          "trap": [
+            "Wait until hip pressure lands"
+          ]
+        }
       },
       {
         "question": "Your DLR hook has been cleared and your leg is being pulled across—what is the highest-percentage defensive action at this point?",
-        "answer": "At this stage, re-establishing the DLR hook is unlikely to succeed. Your highest-percentage option is to hip escape in the direction of the drag while inserting your far knee as a shield between you and the passer. This prevents them from establishing the hip-to-hip pressure that completes the control position. Even ending up in half guard rather than DLR is a successful defense—you have prevented full leg drag consolidation and maintained a guard with offensive options."
+        "answer": "At this stage, re-establishing the DLR hook is unlikely to succeed. Your highest-percentage option is to hip escape in the direction of the drag while inserting your far knee as a shield between you and the passer. This prevents them from establishing the hip-to-hip pressure that completes the control position. Even ending up in half guard rather than DLR is a successful defense—you have prevented full leg drag consolidation and maintained a guard with offensive options.",
+        "answer_line": "Hip escape, shield with knee",
+        "distractors": {
+          "plausible": [
+            "Fight to re-establish DLR hook",
+            "Turn belly-down to escape"
+          ],
+          "trap": [
+            "Push straight into their chest"
+          ]
+        }
       },
       {
         "question": "How does your defensive approach change when the passer chains a toreando attempt into a leg drag?",
-        "answer": "When the passer transitions from toreando to leg drag, they change the direction of their pass. Your defensive frames and hip angle from defending the toreando will be oriented in the wrong direction for the drag. The key adjustment is to immediately redirect your hip escape to match the new passing direction. Your hands should prioritize controlling the passer's sleeve on the drag side to prevent the step-around. Anticipating this chain by maintaining centerline hip positioning rather than fully committing to one defensive angle is the most effective preventive measure."
+        "answer": "When the passer transitions from toreando to leg drag, they change the direction of their pass. Your defensive frames and hip angle from defending the toreando will be oriented in the wrong direction for the drag. The key adjustment is to immediately redirect your hip escape to match the new passing direction. Your hands should prioritize controlling the passer's sleeve on the drag side to prevent the step-around. Anticipating this chain by maintaining centerline hip positioning rather than fully committing to one defensive angle is the most effective preventive measure.",
+        "answer_line": "Redirect hips to new angle",
+        "distractors": {
+          "plausible": [
+            "Keep the same defensive angle",
+            "Switch grips to their collar"
+          ],
+          "trap": [
+            "Fully commit frames one direction"
+          ]
+        }
       },
       {
         "question": "What role does your free non-DLR leg play in preventing the leg drag completion?",
-        "answer": "Your free leg is your primary physical barrier against the drag completion. It should be actively placed on the passer's hip on the drag side, acting as a frame that prevents them from stepping around. If they push through this frame, convert it into a butterfly hook or knee shield that creates a secondary defensive structure. A passive or dangling free leg offers zero resistance to the step-around and guarantees the drag completes unopposed."
+        "answer": "Your free leg is your primary physical barrier against the drag completion. It should be actively placed on the passer's hip on the drag side, acting as a frame that prevents them from stepping around. If they push through this frame, convert it into a butterfly hook or knee shield that creates a secondary defensive structure. A passive or dangling free leg offers zero resistance to the step-around and guarantees the drag completes unopposed.",
+        "answer_line": "Frame free leg on their hip",
+        "distractors": {
+          "plausible": [
+            "Keep free leg tucked underneath",
+            "Grip their pants with free leg"
+          ],
+          "trap": [
+            "Let free leg hang relaxed"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -393,6 +554,35 @@
         "phase": "Phase 4: Counter-Offense",
         "focus": "Sweep timing during drag weight transitions",
         "description": "Partner attempts full leg drags while you practice timing sweeps during their weight transition moments. Focus on the underhook entry on their near leg and forward drive when their base is compromised during the step-around. Track sweep success rate to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fFqoFDE2yyw",
+        "title": "Guard retention against the leg drag",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QCEdvqfWZMI",
+        "title": "Matrix defense against the leg drag",
+        "by": "BJJ Lab Zurich",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   }

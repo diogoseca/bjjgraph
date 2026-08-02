@@ -174,6 +174,54 @@ description: "Master the attacking mechanics of the Anaconda to Side Control gat
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda to Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda choke roll and finish",
+      "description": "Anaconda to Side Control (Attacker) film study: Anaconda choke roll and finish, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DHYmDsncdS8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DHYmDsncdS8",
+      "url": "https://www.youtube.com/watch?v=DHYmDsncdS8",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda choke with the gator roll",
+      "description": "Anaconda to Side Control (Attacker) film study: Anaconda choke with the gator roll, taught by Howcast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YLYBOuXKzVQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YLYBOuXKzVQ",
+      "url": "https://www.youtube.com/watch?v=YLYBOuXKzVQ",
+      "creator": { "@type": "Person", "name": "Howcast" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gator roll into anaconda choke",
+      "description": "Anaconda to Side Control (Attacker) film study: Gator roll into anaconda choke, taught by Raw Warrior.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7dgJ9qVHZkM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7dgJ9qVHZkM",
+      "url": "https://www.youtube.com/watch?v=7dgJ9qVHZkM",
+      "creator": { "@type": "Person", "name": "Raw Warrior" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Anaconda to Side Control transition, your objectiv
 **From Position**: [[Positions/Anaconda Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda to Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DHYmDsncdS8)
+
+<p class="clip-credit"><strong>Anaconda choke roll and finish</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=DHYmDsncdS8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YLYBOuXKzVQ)
+
+<p class="clip-credit"><strong>Anaconda choke with the gator roll</strong> — taught by Howcast · 2:09 · <a href="https://www.youtube.com/watch?v=YLYBOuXKzVQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7dgJ9qVHZkM)
+
+<p class="clip-credit"><strong>Gator roll into anaconda choke</strong> — taught by Raw Warrior · 1:56 · <a href="https://www.youtube.com/watch?v=7dgJ9qVHZkM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

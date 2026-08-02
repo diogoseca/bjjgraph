@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "50-50 Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Ashi Garami/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Counter Leg Attack is a leg-lock counter from Inside Sankaku bottom where you entangle the opponent's free leg to neutralize their heel-hook control, reaching a mutual 50-50 Guard or your own Ashi Garami.",
   "overview": "The Counter Leg Attack from Inside Sankaku Bottom represents one of the most sophisticated defensive-offensive transitions in modern leg lock systems. When trapped in the dangerous Inside Sankaku (Honey Hole) position, rather than purely defending the heel hook threat, the bottom player can neutralize the positional disadvantage by entering their own leg entanglement on the opponent's free leg. This strategy transforms a defensive situation into a mutual exchange where both practitioners have submission threats, often resulting in a 50-50 position or creating enough chaos to facilitate escape.\n\nThe technique requires precise timing and understanding of when the opponent's focus shifts to the submission finish, creating windows where their free leg becomes accessible. By threading your legs around their non-entangled leg while simultaneously protecting your trapped heel, you create a dilemma: they must address your counter-attack or risk having their own leg compromised. This forces them to choose between abandoning their superior position or engaging in mutual leg lock exchanges where positional advantage is neutralized.\n\nStrategically, the Counter Leg Attack should be viewed as a last-resort option when standard escapes have failed or when you possess superior leg lock finishing ability compared to your opponent. The transition to 50-50 Guard equalizes the position, while successful entry to your own Ashi Garami can actually reverse the positional hierarchy. Understanding the timing windows, proper leg threading mechanics, and heel protection throughout the counter-attack sequence is essential for success.",
   "conditions": [
@@ -214,46 +229,166 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Counter Leg Attack from Inside Sankaku Bottom?",
-        "answer": "The primary goal is to neutralize the opponent's positional advantage by establishing your own leg entanglement on their free leg. This either creates mutual 50-50 position where neither has advantage, forces them to release Inside Sankaku to defend, or allows you to establish your own Ashi Garami. The counter-attack transforms a losing defensive position into an equal exchange."
+        "answer": "The primary goal is to neutralize the opponent's positional advantage by establishing your own leg entanglement on their free leg. This either creates mutual 50-50 position where neither has advantage, forces them to release Inside Sankaku to defend, or allows you to establish your own Ashi Garami. The counter-attack transforms a losing defensive position into an equal exchange.",
+        "answer_line": "Entangle free leg to 50-50",
+        "distractors": {
+          "plausible": [
+            "Hip escape to open space",
+            "Attack the entangled leg"
+          ],
+          "trap": [
+            "Muscle out with raw strength"
+          ]
+        }
       },
       {
         "question": "Your opponent begins reaching for your heel with two hands - should you attempt the counter-attack?",
-        "answer": "This is actually the optimal timing window to attempt the counter-attack. When they shift both hands to heel grips, their upper body and leg positioning become static as they focus on the finish. Their free leg becomes most accessible during this moment. However, you must assess whether you can complete the thread before they secure the heel - if they already have firm grip with wrist blade on Achilles, tap instead."
+        "answer": "This is actually the optimal timing window to attempt the counter-attack. When they shift both hands to heel grips, their upper body and leg positioning become static as they focus on the finish. Their free leg becomes most accessible during this moment. However, you must assess whether you can complete the thread before they secure the heel - if they already have firm grip with wrist blade on Achilles, tap instead.",
+        "answer_line": "Yes — attack while they're static",
+        "distractors": {
+          "plausible": [
+            "Freeze and wait for their move",
+            "Flatten out and defend the grips"
+          ],
+          "trap": [
+            "Spin away from the rotation"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Counter Leg Attack?",
-        "answer": "The primary grips are: (1) your near-side hand grabbing your own foot or ankle to maintain heel protection throughout, (2) your free leg hooking behind opponent's knee or thigh to establish entanglement, and (3) once 50-50 is established, two-on-one grip control on their ankle. No hand grips on opponent are required during entry - the legs do the work."
+        "answer": "The primary grips are: (1) your near-side hand grabbing your own foot or ankle to maintain heel protection throughout, (2) your free leg hooking behind opponent's knee or thigh to establish entanglement, and (3) once 50-50 is established, two-on-one grip control on their ankle. No hand grips on opponent are required during entry - the legs do the work.",
+        "answer_line": "Grip own foot, hook with free leg",
+        "distractors": {
+          "plausible": [
+            "Two-on-one ankle grip to start",
+            "Grip opponent's pants first"
+          ],
+          "trap": [
+            "Release foot grip to hook faster"
+          ]
+        }
       },
       {
         "question": "How do you determine which leg to target for the counter-attack?",
-        "answer": "Always target the opponent's free leg - the leg that is NOT part of their figure-four entanglement structure around your leg. This leg has minimal defensive resources since their entanglement is committed to controlling you. It is typically their outside leg in the configuration. Never attempt to attack the leg that is part of their active entanglement."
+        "answer": "Always target the opponent's free leg - the leg that is NOT part of their figure-four entanglement structure around your leg. This leg has minimal defensive resources since their entanglement is committed to controlling you. It is typically their outside leg in the configuration. Never attempt to attack the leg that is part of their active entanglement.",
+        "answer_line": "Target their free, outside leg",
+        "distractors": {
+          "plausible": [
+            "Target the entangled leg",
+            "Target whichever leg is closer"
+          ],
+          "trap": [
+            "Try to attack both legs at once"
+          ]
+        }
       },
       {
         "question": "Your opponent has established Inside Sankaku but is focused purely on control rather than submission - is counter-attack advisable?",
-        "answer": "When opponent prioritizes control over submission, their positional awareness of their free leg is higher and counter-attack windows are limited. In this scenario, focus on standard hip escape and leg extraction techniques first. Counter-attack becomes viable when they shift to submission focus or when standard escapes have failed. Patient positional control by them means patient defensive work by you."
+        "answer": "When opponent prioritizes control over submission, their positional awareness of their free leg is higher and counter-attack windows are limited. In this scenario, focus on standard hip escape and leg extraction techniques first. Counter-attack becomes viable when they shift to submission focus or when standard escapes have failed. Patient positional control by them means patient defensive work by you.",
+        "answer_line": "No, hip escape and extract first",
+        "distractors": {
+          "plausible": [
+            "Yes, attack the free leg now",
+            "Yes, their grip is looser"
+          ],
+          "trap": [
+            "Force the leg thread anyway"
+          ]
+        }
       },
       {
         "question": "After successfully entering 50-50 Guard from the counter-attack, what should your immediate priorities be?",
-        "answer": "Immediate priorities are: (1) protect your heel that was previously trapped - it may still be exposed, (2) establish equal or superior control on opponent's leg, (3) assess relative positioning to determine who has inside heel hook angle advantage, and (4) decide whether to attack, defend, or work to separate. The 50-50 is equal but the transition may have left you behind on grip fighting."
+        "answer": "Immediate priorities are: (1) protect your heel that was previously trapped - it may still be exposed, (2) establish equal or superior control on opponent's leg, (3) assess relative positioning to determine who has inside heel hook angle advantage, and (4) decide whether to attack, defend, or work to separate. The 50-50 is equal but the transition may have left you behind on grip fighting.",
+        "answer_line": "Protect heel, fight for grips",
+        "distractors": {
+          "plausible": [
+            "Immediately hunt a submission",
+            "Relax now that it's even"
+          ],
+          "trap": [
+            "Let go of leg control to reset"
+          ]
+        }
       },
       {
         "question": "What body position must you maintain during the leg threading phase?",
-        "answer": "You must keep your shoulder off the mat with core engaged throughout the threading phase. Collapsing flat eliminates the hip mobility necessary to complete the leg insertion around opponent's free leg. Your trapped leg stays in defensive configuration while your hip creates angle by rotating toward their free leg. Upper body posture drives the hip mobility that makes the thread possible."
+        "answer": "You must keep your shoulder off the mat with core engaged throughout the threading phase. Collapsing flat eliminates the hip mobility necessary to complete the leg insertion around opponent's free leg. Your trapped leg stays in defensive configuration while your hip creates angle by rotating toward their free leg. Upper body posture drives the hip mobility that makes the thread possible.",
+        "answer_line": "Shoulder up, hips angle to thread",
+        "distractors": {
+          "plausible": [
+            "Flatten out for max hip drive",
+            "Keep trapped leg passive still"
+          ],
+          "trap": [
+            "Collapse flat to save energy"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between when to tap versus when counter-attack is still viable?",
-        "answer": "Tap immediately if: opponent has two-on-one grip with wrist blade against your Achilles tendon, you feel any rotational pressure on your heel, or you cannot freely move your foot. Counter-attack is viable if: your heel remains hidden against your hip, they are still working to establish grips, or your foot moves freely. The inside heel hook causes injury in milliseconds once locked - there is zero time to decide mid-submission."
+        "answer": "Tap immediately if: opponent has two-on-one grip with wrist blade against your Achilles tendon, you feel any rotational pressure on your heel, or you cannot freely move your foot. Counter-attack is viable if: your heel remains hidden against your hip, they are still working to establish grips, or your foot moves freely. The inside heel hook causes injury in milliseconds once locked - there is zero time to decide mid-submission.",
+        "answer_line": "Tap once they blade the Achilles",
+        "distractors": {
+          "plausible": [
+            "Tap only after you feel pain",
+            "Tap the moment legs entangle"
+          ],
+          "trap": [
+            "Spin out once the heel is caught"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free leg wide to stabilize while adjusting heel grips - how does this change your counter-attack approach?",
-        "answer": "A posted free leg is actually more accessible for the counter-entry because it is extended away from their body and has less defensive retraction ability. However, the wider base also means their Inside Sankaku control may be tighter. Time the thread when their weight shifts onto that posted leg, as they cannot retract and defend while load-bearing. Thread your leg behind the posted knee where the hook catches most easily."
+        "answer": "A posted free leg is actually more accessible for the counter-entry because it is extended away from their body and has less defensive retraction ability. However, the wider base also means their Inside Sankaku control may be tighter. Time the thread when their weight shifts onto that posted leg, as they cannot retract and defend while load-bearing. Thread your leg behind the posted knee where the hook catches most easily.",
+        "answer_line": "More open, thread on weight shift",
+        "distractors": {
+          "plausible": [
+            "Less accessible, wait it out",
+            "Attack it while still airborne"
+          ],
+          "trap": [
+            "Try to sweep from underneath"
+          ]
+        }
       },
       {
         "question": "What is the critical difference in direction of force between the initial hip angle creation and the leg threading phase?",
-        "answer": "During hip angle creation, the force direction is lateral - you push your hips sideways toward the opponent's free leg using your free leg as a push-off point against their hip or the mat. During the threading phase, the force direction shifts to circular and inward - your free leg hooks around their leg in a scooping motion from inside to outside, curling behind their knee. Confusing these force vectors stalls the entry and wastes the angle you created."
+        "answer": "During hip angle creation, the force direction is lateral - you push your hips sideways toward the opponent's free leg using your free leg as a push-off point against their hip or the mat. During the threading phase, the force direction shifts to circular and inward - your free leg hooks around their leg in a scooping motion from inside to outside, curling behind their knee. Confusing these force vectors stalls the entry and wastes the angle you created.",
+        "answer_line": "Lateral hips, then circular hook",
+        "distractors": {
+          "plausible": [
+            "Hook the leg before angling hips",
+            "Same inward force in both phases"
+          ],
+          "trap": [
+            "Straighten both legs to push out"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Counter Leg Attack carries significant injury risk because it is executed while already trapped in a dangerous submission position. The inside heel hook can cause severe and permanent damage to the ACL, MCL, and meniscus within fractions of a second once locked. You must maintain heel protection throughout the entire counter-attack sequence - never sacrifice defensive posture for offensive opportunity. If opponent secures submission grips at any point during your counter-entry, tap immediately rather than trying to complete the movement. Training should progress slowly from static drilling to full resistance over multiple weeks. Always communicate with training partners about tap responsiveness. Never attempt this technique against an opponent you do not trust to release immediately upon tap. The transition to 50-50 creates mutual submission danger - be prepared to tap to their attack even after successful entry if they establish superior angle first."
+    "safety_considerations": "The Counter Leg Attack carries significant injury risk because it is executed while already trapped in a dangerous submission position. The inside heel hook can cause severe and permanent damage to the ACL, MCL, and meniscus within fractions of a second once locked. You must maintain heel protection throughout the entire counter-attack sequence - never sacrifice defensive posture for offensive opportunity. If opponent secures submission grips at any point during your counter-entry, tap immediately rather than trying to complete the movement. Training should progress slowly from static drilling to full resistance over multiple weeks. Always communicate with training partners about tap responsiveness. Never attempt this technique against an opponent you do not trust to release immediately upon tap. The transition to 50-50 creates mutual submission danger - be prepared to tap to their attack even after successful entry if they establish superior angle first.",
+    "clips": [
+      {
+        "id": "7Uc1sEPs5hw",
+        "title": "Inside sankaku counter with inside ashi dive",
+        "by": "Combat by the Minute",
+        "vertical": false,
+        "channel": "Combat by the Minute",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "clVAHxgRadE",
+        "title": "Outside heel hook defense into inside heel hook",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 105,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Leg Attack Defender",
@@ -339,23 +474,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a Counter Leg Attack rather than a standard escape?",
-        "answer": "The earliest cue is the direction of hip rotation. Standard escapes involve hips moving away from you to create extraction distance. Counter Leg Attack requires hips rotating toward your free leg to create threading angle. When you feel the opponent's hips shifting toward your non-entangled side rather than away from you, they are setting up the counter rather than escaping. This directional difference is the critical early warning sign."
+        "answer": "The earliest cue is the direction of hip rotation. Standard escapes involve hips moving away from you to create extraction distance. Counter Leg Attack requires hips rotating toward your free leg to create threading angle. When you feel the opponent's hips shifting toward your non-entangled side rather than away from you, they are setting up the counter rather than escaping. This directional difference is the critical early warning sign.",
+        "answer_line": "Hips rotate toward your free leg",
+        "distractors": {
+          "plausible": [
+            "Hips pull away for extraction",
+            "Hands reach for heel first"
+          ],
+          "trap": [
+            "Wait for grips before reacting"
+          ]
+        }
       },
       {
         "question": "Your opponent has successfully hooked behind your free leg's knee - what is the optimal response at this stage?",
-        "answer": "At this stage, stripping the hook is difficult and often counterproductive. The optimal response is to transition to Saddle by using your legs to capture both of their legs in a double entanglement. Use the fact that their free leg is now committed to hooking you to redirect it into your entanglement structure. If Saddle transition is not available, immediately begin defending your own heel and prepare for 50-50 grip fighting rather than wasting energy fighting the established hook."
+        "answer": "At this stage, stripping the hook is difficult and often counterproductive. The optimal response is to transition to Saddle by using your legs to capture both of their legs in a double entanglement. Use the fact that their free leg is now committed to hooking you to redirect it into your entanglement structure. If Saddle transition is not available, immediately begin defending your own heel and prepare for 50-50 grip fighting rather than wasting energy fighting the established hook.",
+        "answer_line": "Transition into Saddle entanglement",
+        "distractors": {
+          "plausible": [
+            "Strip the hook immediately",
+            "Retract leg to break the hook"
+          ],
+          "trap": [
+            "Fight the hook with raw strength"
+          ]
+        }
       },
       {
         "question": "How should you position your free leg during Inside Sankaku to prevent the Counter Leg Attack from being attempted?",
-        "answer": "Keep your free leg retracted with the knee bent toward your chest, shin angled across opponent's hip line. This creates a physical barrier against threading while maintaining your base. Only extend the leg briefly when posting for balance adjustments, then immediately retract. The leg should feel like a coiled spring - ready to push or block but never passively dangling where opponent can hook behind the knee. Active management of this leg is the primary prevention tool."
+        "answer": "Keep your free leg retracted with the knee bent toward your chest, shin angled across opponent's hip line. This creates a physical barrier against threading while maintaining your base. Only extend the leg briefly when posting for balance adjustments, then immediately retract. The leg should feel like a coiled spring - ready to push or block but never passively dangling where opponent can hook behind the knee. Active management of this leg is the primary prevention tool.",
+        "answer_line": "Retract knee, shin across hips",
+        "distractors": {
+          "plausible": [
+            "Extend leg for a strong base",
+            "Post leg wide for stability"
+          ],
+          "trap": [
+            "Let the leg hang loose to relax"
+          ]
+        }
       },
       {
         "question": "You recognize the counter-attack beginning but already have strong two-handed heel grips - should you address the counter or finish the submission?",
-        "answer": "If you have strong heel grips with your wrist blade properly positioned against the Achilles tendon, finish the submission immediately. The counter-attack requires several seconds to complete the full threading and figure-four configuration, while a properly set heel hook finishes in under two seconds. However, if your grips are preliminary and you are still working toward the finish, address the counter first by retracting your free leg, because a poorly positioned submission attempt will fail and the counter will succeed while you are distracted."
+        "answer": "If you have strong heel grips with your wrist blade properly positioned against the Achilles tendon, finish the submission immediately. The counter-attack requires several seconds to complete the full threading and figure-four configuration, while a properly set heel hook finishes in under two seconds. However, if your grips are preliminary and you are still working toward the finish, address the counter first by retracting your free leg, because a poorly positioned submission attempt will fail and the counter will succeed while you are distracted.",
+        "answer_line": "Finish now if grips are strong",
+        "distractors": {
+          "plausible": [
+            "Always finish, ignore the counter",
+            "Always defend the counter first"
+          ],
+          "trap": [
+            "Reset grips to be extra sure"
+          ]
+        }
       },
       {
         "question": "What is the strategic advantage of transitioning to Saddle when opponent attempts Counter Leg Attack?",
-        "answer": "Transitioning to Saddle captures both opponent's legs in your entanglement rather than just one, which eliminates their counter-attack entirely while dramatically increasing your control and submission percentage. The Saddle sits at the apex of the leg entanglement hierarchy - it offers the tightest control, best heel exposure, and highest submission rate. Opponent's counter-entry motion actually assists this transition because their free leg moves toward your entanglement structure rather than away from it."
+        "answer": "Transitioning to Saddle captures both opponent's legs in your entanglement rather than just one, which eliminates their counter-attack entirely while dramatically increasing your control and submission percentage. The Saddle sits at the apex of the leg entanglement hierarchy - it offers the tightest control, best heel exposure, and highest submission rate. Opponent's counter-entry motion actually assists this transition because their free leg moves toward your entanglement structure rather than away from it.",
+        "answer_line": "Traps both legs, kills counter",
+        "distractors": {
+          "plausible": [
+            "Only slows their counter-attack",
+            "Improves base, not control"
+          ],
+          "trap": [
+            "Give up top leg to speed it up"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -378,6 +563,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional sparring from Inside Sankaku top. Partner uses all available escapes including Counter Leg Attack. Practice integrating prevention, recognition, and response into live exchanges. Develop real-time decision-making between finishing, defending counter, and advancing to Saddle."
+      }
+    ],
+    "clips": [
+      {
+        "id": "PhS9Xj-4KbA",
+        "title": "Escaping the honey hole inside sankaku",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Leglock defense from entanglement",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   },

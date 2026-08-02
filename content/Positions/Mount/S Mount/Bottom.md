@@ -21,25 +21,25 @@ description: "Defend against S Mount attacks in BJJ. Critical escape techniques,
     {
       "@type": "HowToStep",
       "name": "Execute Trap and Roll from S Mount",
-      "text": "From this position, attempt Trap and Roll from S Mount. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Trap and Roll from S Mount. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp from S Mount",
-      "text": "From this position, attempt Frame and Shrimp from S Mount. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp from S Mount. This technique is attempted in 32% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge Escape from S Mount",
-      "text": "From this position, attempt Bridge Escape from S Mount. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Bridge Escape from S Mount. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 22% of exchanges from this position.",
       "position": 4
     }
   ],
@@ -141,6 +141,54 @@ description: "Defend against S Mount attacks in BJJ. Critical escape techniques,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "S Mount (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee and elbow mount escape",
+      "description": "S Mount (Bottom) film study: Knee and elbow mount escape, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUZcLTWHAzk",
+      "url": "https://www.youtube.com/watch?v=pUZcLTWHAzk",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "S Mount Defense",
+      "description": "S Mount (Bottom) film study: S Mount Defense, taught by Dinu Bucalet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PI7rr0TzmWw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PI7rr0TzmWw",
+      "url": "https://www.youtube.com/watch?v=PI7rr0TzmWw",
+      "creator": { "@type": "Person", "name": "Dinu Bucalet" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mount Escape: Dealing with the Switch to S-Mount",
+      "description": "S Mount (Bottom) film study: Mount Escape: Dealing with the Switch to S-Mount, taught by Revolution BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WKqvJLpq7nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WKqvJLpq7nc",
+      "url": "https://www.youtube.com/watch?v=WKqvJLpq7nc",
+      "creator": { "@type": "Person", "name": "Revolution BJJ coach" },
+      "duration": "PT72S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -156,6 +204,42 @@ Escape mechanics typically involve creating space through hip movement, establis
 Mental composure under pressure is perhaps the most critical factor in S Mount bottom survival. The position naturally creates claustrophobic pressure and the imminent threat of submission can lead to panic, which invariably results in technical breakdown and submission. Maintaining calm, focusing on defensive principles, and waiting for the correct moment to escape are essential skills for any practitioner facing this position. Understanding S Mount bottom defense is a fundamental component of comprehensive BJJ defensive systems and appears regularly in competition training.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch S Mount (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pUZcLTWHAzk)
+
+<p class="clip-credit"><strong>Knee and elbow mount escape</strong> — taught by jamielovesmartialarts · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PI7rr0TzmWw)
+
+<p class="clip-credit"><strong>S Mount Defense</strong> — taught by Dinu Bucalet · 2:21 · <a href="https://www.youtube.com/watch?v=PI7rr0TzmWw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WKqvJLpq7nc)
+
+<p class="clip-credit"><strong>Mount Escape: Dealing with the Switch to S-Mount</strong> — taught by Revolution BJJ coach · 1:12 · <a href="https://www.youtube.com/watch?v=WKqvJLpq7nc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

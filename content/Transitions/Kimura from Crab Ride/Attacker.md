@@ -174,6 +174,54 @@ description: "Learn to attack the Kimura from Crab Ride in BJJ. Step-by-step exe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Crab Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Underhook turtle breakdown to kimura",
+      "description": "Kimura from Crab Ride (Attacker) film study: Underhook turtle breakdown to kimura, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aSy-aTKTcfc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aSy-aTKTcfc",
+      "url": "https://www.youtube.com/watch?v=aSy-aTKTcfc",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spiral Ride: wrestling ride to attack the turtle",
+      "description": "Kimura from Crab Ride (Attacker) film study: Spiral Ride: wrestling ride to attack the turtle, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PT50ievI18k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PT50ievI18k",
+      "url": "https://www.youtube.com/watch?v=PT50ievI18k",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT200S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Upgrading turtle attacks from the ride position",
+      "description": "Kimura from Crab Ride (Attacker) film study: Upgrading turtle attacks from the ride position, taught by Bradley Hill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E_v6xwT0X8I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E_v6xwT0X8I",
+      "url": "https://www.youtube.com/watch?v=E_v6xwT0X8I",
+      "creator": { "@type": "Person", "name": "Bradley Hill" },
+      "duration": "PT321S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ From the attacker's perspective, the Kimura from Crab Ride is a calculated explo
 **From Position**: [[Positions/Crab Ride]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Crab Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aSy-aTKTcfc)
+
+<p class="clip-credit"><strong>Underhook turtle breakdown to kimura</strong> — taught by JitzLive · 1:48 · <a href="https://www.youtube.com/watch?v=aSy-aTKTcfc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PT50ievI18k)
+
+<p class="clip-credit"><strong>Spiral Ride: wrestling ride to attack the turtle</strong> — taught by Craig Jones · 3:20 · <a href="https://www.youtube.com/watch?v=PT50ievI18k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E_v6xwT0X8I)
+
+<p class="clip-credit"><strong>Upgrading turtle attacks from the ride position</strong> — taught by Bradley Hill · 5:21 · <a href="https://www.youtube.com/watch?v=E_v6xwT0X8I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

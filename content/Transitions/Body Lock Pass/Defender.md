@@ -148,6 +148,54 @@ description: "How to defend against Body Lock Pass in BJJ. Recognition cues, fra
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Lock Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Body lock pass defense: inside position and elevator sweep",
+      "description": "Body Lock Pass (Defender) film study: Body lock pass defense: inside position and elevator sweep, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YVeeiNy43j4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YVeeiNy43j4",
+      "url": "https://www.youtube.com/watch?v=YVeeiNy43j4",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering a failed body lock pass",
+      "description": "Body Lock Pass (Defender) film study: Countering a failed body lock pass, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9DXogw_sChY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9DXogw_sChY",
+      "url": "https://www.youtube.com/watch?v=9DXogw_sChY",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body lock pass counter",
+      "description": "Body Lock Pass (Defender) film study: Body lock pass counter, taught by Adam Wardzinski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eL2tHbzAe68/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eL2tHbzAe68",
+      "url": "https://www.youtube.com/watch?v=eL2tHbzAe68",
+      "creator": { "@type": "Person", "name": "Adam Wardzinski" },
+      "duration": "PT232S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defensive framework prioritizes three objectives in order: prevent the body 
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Lock Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YVeeiNy43j4)
+
+<p class="clip-credit"><strong>Body lock pass defense: inside position and elevator sweep</strong> — taught by Brian Glick · 2:03 · <a href="https://www.youtube.com/watch?v=YVeeiNy43j4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9DXogw_sChY)
+
+<p class="clip-credit"><strong>Countering a failed body lock pass</strong> — taught by Factory Fresh Jiu Jitsu · 2:19 · <a href="https://www.youtube.com/watch?v=9DXogw_sChY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eL2tHbzAe68)
+
+<p class="clip-credit"><strong>Body lock pass counter</strong> — taught by Adam Wardzinski · 3:52 · <a href="https://www.youtube.com/watch?v=eL2tHbzAe68" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

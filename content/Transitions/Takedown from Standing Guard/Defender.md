@@ -148,6 +148,54 @@ description: "Defend the Takedown from Standing Guard in BJJ. Sprawl mechanics, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Takedown from Standing Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sprawl technique for takedown defense",
+      "description": "Takedown from Standing Guard (Defender) film study: Sprawl technique for takedown defense, taught by Coach Lang.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8AaRLOSM61U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8AaRLOSM61U",
+      "url": "https://www.youtube.com/watch?v=8AaRLOSM61U",
+      "creator": { "@type": "Person", "name": "Coach Lang" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to sprawl against a double leg",
+      "description": "Takedown from Standing Guard (Defender) film study: How to sprawl against a double leg, taught by A-Team BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Io79xaXZx_c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Io79xaXZx_c",
+      "url": "https://www.youtube.com/watch?v=Io79xaXZx_c",
+      "creator": { "@type": "Person", "name": "A-Team BJJ" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Basic sprawl fundamentals",
+      "description": "Takedown from Standing Guard (Defender) film study: Basic sprawl fundamentals, taught by Justin Thurman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yeL15sJvtG8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yeL15sJvtG8",
+      "url": "https://www.youtube.com/watch?v=yeL15sJvtG8",
+      "creator": { "@type": "Person", "name": "Justin Thurman" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Takedown from Standing Guard requires anticipating the opponent's 
 **Opponent's Starting Position**: [[Positions/Standing Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Takedown from Standing Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8AaRLOSM61U)
+
+<p class="clip-credit"><strong>Sprawl technique for takedown defense</strong> — taught by Coach Lang · 0:55 · <a href="https://www.youtube.com/watch?v=8AaRLOSM61U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Io79xaXZx_c)
+
+<p class="clip-credit"><strong>How to sprawl against a double leg</strong> — taught by A-Team BJJ · 0:56 · <a href="https://www.youtube.com/watch?v=Io79xaXZx_c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yeL15sJvtG8)
+
+<p class="clip-credit"><strong>Basic sprawl fundamentals</strong> — taught by Justin Thurman · 0:47 · <a href="https://www.youtube.com/watch?v=yeL15sJvtG8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

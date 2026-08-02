@@ -140,6 +140,54 @@ description: "How to defend the Transition to Double Sleeve Guard in BJJ. Grip p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to Double Sleeve Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defensive gripping vs double sleeve grip",
+      "description": "Open Guard to Double Sleeve Guard (Defender) film study: Defensive gripping vs double sleeve grip, taught by Ronda Rousey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hxEbI6aP5nY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hxEbI6aP5nY",
+      "url": "https://www.youtube.com/watch?v=hxEbI6aP5nY",
+      "creator": { "@type": "Person", "name": "Ronda Rousey" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking double lapel grips",
+      "description": "Open Guard to Double Sleeve Guard (Defender) film study: Breaking double lapel grips, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5dwCJOzItDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5dwCJOzItDE",
+      "url": "https://www.youtube.com/watch?v=5dwCJOzItDE",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two ways to pass the collar and sleeve",
+      "description": "Open Guard to Double Sleeve Guard (Defender) film study: Two ways to pass the collar and sleeve, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4M0VWhDkMA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4M0VWhDkMA",
+      "url": "https://www.youtube.com/watch?v=N4M0VWhDkMA",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender facing an opponent attempting to establish double sleeve guard, 
 **Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to Double Sleeve Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hxEbI6aP5nY)
+
+<p class="clip-credit"><strong>Defensive gripping vs double sleeve grip</strong> — taught by Ronda Rousey · 1:30 · <a href="https://www.youtube.com/watch?v=hxEbI6aP5nY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5dwCJOzItDE)
+
+<p class="clip-credit"><strong>Breaking double lapel grips</strong> — taught by Jean Jacques Machado · 0:56 · <a href="https://www.youtube.com/watch?v=5dwCJOzItDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4M0VWhDkMA)
+
+<p class="clip-credit"><strong>Two ways to pass the collar and sleeve</strong> — taught by Carpio Jiu Jitsu · 1:43 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

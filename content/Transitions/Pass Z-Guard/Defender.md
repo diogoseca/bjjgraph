@@ -140,6 +140,54 @@ description: "Complete defensive guide against the Z-Guard pass. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Z-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle off the z-guard as the passer engages",
+      "description": "Pass Z-Guard (Defender) film study: Triangle off the z-guard as the passer engages, taught by Evolve MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cnW27eV9H8U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cnW27eV9H8U",
+      "url": "https://www.youtube.com/watch?v=cnW27eV9H8U",
+      "creator": { "@type": "Person", "name": "Evolve MMA coach" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Don\u0027t get squashed from Z-guard",
+      "description": "Pass Z-Guard (Defender) film study: Don\u0027t get squashed from Z-guard, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/COMTE898ja8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/COMTE898ja8",
+      "url": "https://www.youtube.com/watch?v=COMTE898ja8",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT156S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee shield guard retention concepts",
+      "description": "Pass Z-Guard (Defender) film study: Knee shield guard retention concepts, taught by Cobrinha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aL8RfesQL5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aL8RfesQL5k",
+      "url": "https://www.youtube.com/watch?v=aL8RfesQL5k",
+      "creator": { "@type": "Person", "name": "Cobrinha" },
+      "duration": "PT254S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Z-Guard pass, your primary objective is maintaining 
 **Opponent's Starting Position**: [[Positions/Z-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Z-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cnW27eV9H8U)
+
+<p class="clip-credit"><strong>Triangle off the z-guard as the passer engages</strong> — taught by Evolve MMA coach · 1:35 · <a href="https://www.youtube.com/watch?v=cnW27eV9H8U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=COMTE898ja8)
+
+<p class="clip-credit"><strong>Don&#39;t get squashed from Z-guard</strong> — taught by Craig Jones · 2:36 · <a href="https://www.youtube.com/watch?v=COMTE898ja8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aL8RfesQL5k)
+
+<p class="clip-credit"><strong>Knee shield guard retention concepts</strong> — taught by Cobrinha · 4:14 · <a href="https://www.youtube.com/watch?v=aL8RfesQL5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

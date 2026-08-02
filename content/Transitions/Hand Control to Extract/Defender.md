@@ -148,6 +148,54 @@ description: "How to defend against Hand Control to Extract in BJJ. Maintain gog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Control to Extract (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard quick fix for hand control",
+      "description": "Hand Control to Extract (Defender) film study: Rubber guard quick fix for hand control, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/huzjQNiJu7Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/huzjQNiJu7Y",
+      "url": "https://www.youtube.com/watch?v=huzjQNiJu7Y",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three ways to gogo clinch and finish",
+      "description": "Hand Control to Extract (Defender) film study: Three ways to gogo clinch and finish, taught by Ben Eddy Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/44w3MWJ0eak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/44w3MWJ0eak",
+      "url": "https://www.youtube.com/watch?v=44w3MWJ0eak",
+      "creator": { "@type": "Person", "name": "Ben Eddy Bravo" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gogoplata from rubber guard details",
+      "description": "Hand Control to Extract (Defender) film study: Gogoplata from rubber guard details, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wn39-wrfsbs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wn39-wrfsbs",
+      "url": "https://www.youtube.com/watch?v=wn39-wrfsbs",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT420S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense requires proactive grip management rather than reactive grip 
 **Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Control to Extract (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=huzjQNiJu7Y)
+
+<p class="clip-credit"><strong>Rubber guard quick fix for hand control</strong> — taught by Brandon McCaghren · 1:05 · <a href="https://www.youtube.com/watch?v=huzjQNiJu7Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=44w3MWJ0eak)
+
+<p class="clip-credit"><strong>Three ways to gogo clinch and finish</strong> — taught by Ben Eddy Bravo · 1:31 · <a href="https://www.youtube.com/watch?v=44w3MWJ0eak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wn39-wrfsbs)
+
+<p class="clip-credit"><strong>Gogoplata from rubber guard details</strong> — taught by Brandon Mccaghren · 7:00 · <a href="https://www.youtube.com/watch?v=wn39-wrfsbs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -21,13 +21,13 @@ description: "Attacking perspective in reversed leg entanglement. Master control
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook from Ushiro",
-      "text": "From this position, attempt Inside Heel Hook from Ushiro. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Inside Heel Hook from Ushiro. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Follow to Back Control",
-      "text": "From this position, attempt Follow to Back Control. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Follow to Back Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,13 +39,13 @@ description: "Attacking perspective in reversed leg entanglement. Master control
     {
       "@type": "HowToStep",
       "name": "Execute Cross Ashi Transition",
-      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook Adjustment",
-      "text": "From this position, attempt Outside Heel Hook Adjustment. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook Adjustment. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
@@ -153,6 +153,43 @@ description: "Attacking perspective in reversed leg entanglement. Master control
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ushiro Ashi-Garami (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top Ushiro to knee bar",
+      "description": "Ushiro Ashi-Garami (Top) film study: Top Ushiro to knee bar, taught by Modesto Judo Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g3j7TZYoW14/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g3j7TZYoW14",
+      "url": "https://www.youtube.com/watch?v=g3j7TZYoW14",
+      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "V grip from top Ushiro transition",
+      "description": "Ushiro Ashi-Garami (Top) film study: V grip from top Ushiro transition, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lTsK9C_a6po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lTsK9C_a6po",
+      "url": "https://www.youtube.com/watch?v=lTsK9C_a6po",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +207,34 @@ The position frequently occurs in high-level no-gi competition when opponents at
 Control maintenance in ushiro ashi-garami requires constant adjustment to the opponent's escape efforts. Unlike more static positions, ushiro ashi-garami exists in a state of dynamic tension where both participants are moving through transitional sequences. The attacker must balance commitment to immediate submission attempts against readiness to follow further positional changes, maintaining offensive initiative throughout the scramble sequence.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ushiro Ashi-Garami (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g3j7TZYoW14)
+
+<p class="clip-credit"><strong>Top Ushiro to knee bar</strong> — taught by Modesto Judo Club · 1:55 · <a href="https://www.youtube.com/watch?v=g3j7TZYoW14" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lTsK9C_a6po)
+
+<p class="clip-credit"><strong>V grip from top Ushiro transition</strong> — taught by Gordon Ryan · 2:20 · <a href="https://www.youtube.com/watch?v=lTsK9C_a6po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

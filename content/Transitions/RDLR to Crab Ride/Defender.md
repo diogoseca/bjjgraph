@@ -148,6 +148,54 @@ description: "Master the defensive perspective against RDLR to Crab Ride in BJJ.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "RDLR to Crab Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defense to reverse De La Riva and foot lock",
+      "description": "RDLR to Crab Ride (Defender) film study: Defense to reverse De La Riva and foot lock, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hdSw-ZmcBRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hdSw-ZmcBRA",
+      "url": "https://www.youtube.com/watch?v=hdSw-ZmcBRA",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering a full inversion",
+      "description": "RDLR to Crab Ride (Defender) film study: Countering a full inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing the reverse De La Riva guard",
+      "description": "RDLR to Crab Ride (Defender) film study: Passing the reverse De La Riva guard, taught by Pathfinder Jiu-Jitsu Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O2krF_r_hQU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O2krF_r_hQU",
+      "url": "https://www.youtube.com/watch?v=O2krF_r_hQU",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu Team" },
+      "duration": "PT155S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against RDLR to Crab Ride requires recognizing inversion attempts earl
 **Opponent's Starting Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch RDLR to Crab Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hdSw-ZmcBRA)
+
+<p class="clip-credit"><strong>Defense to reverse De La Riva and foot lock</strong> — taught by Ninja Pinto · 0:31 · <a href="https://www.youtube.com/watch?v=hdSw-ZmcBRA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O2krF_r_hQU)
+
+<p class="clip-credit"><strong>Passing the reverse De La Riva guard</strong> — taught by Pathfinder Jiu-Jitsu Team · 2:35 · <a href="https://www.youtube.com/watch?v=O2krF_r_hQU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

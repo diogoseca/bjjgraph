@@ -34,6 +34,43 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke Side \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear Triangle from Side Control",
+      "description": "Triangle Choke Side film study: Rear Triangle from Side Control, taught by Onyx Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oyXaGXU3mFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oyXaGXU3mFU",
+      "url": "https://www.youtube.com/watch?v=oyXaGXU3mFU",
+      "creator": { "@type": "Person", "name": "Onyx Martial Arts" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle from Side Control",
+      "description": "Triangle Choke Side film study: Triangle from Side Control, taught by Ricardo Marques.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NA50Ay8yL1k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NA50Ay8yL1k",
+      "url": "https://www.youtube.com/watch?v=NA50Ay8yL1k",
+      "creator": { "@type": "Person", "name": "Ricardo Marques" },
+      "duration": "PT258S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,6 +123,34 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke Side in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oyXaGXU3mFU)
+
+<p class="clip-credit"><strong>Rear Triangle from Side Control</strong> — taught by Onyx Martial Arts · 1:17 · <a href="https://www.youtube.com/watch?v=oyXaGXU3mFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NA50Ay8yL1k)
+
+<p class="clip-credit"><strong>Triangle from Side Control</strong> — taught by Ricardo Marques · 4:18 · <a href="https://www.youtube.com/watch?v=NA50Ay8yL1k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,7 +160,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Triangle Choke Side/from Side Control|Side Control]] | Top | 59% | [[Submissions/Triangle Choke Side/from Side Control/Attacker|Attack →]] | [[Submissions/Triangle Choke Side/from Side Control/Defender|Defend →]] |
+| [[Submissions/Triangle Choke Side/from Side Control|Side Control]] | Top | 50% | [[Submissions/Triangle Choke Side/from Side Control/Attacker|Attack →]] | [[Submissions/Triangle Choke Side/from Side Control/Defender|Defend →]] |
 
 
 </div>
@@ -119,11 +184,11 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Related
 - [[Submissions/Triangle Choke]] - Traditional bottom variation sharing core triangle mechanics but executed from closed guard rather than top position
-- [[Transitions/Arm Triangle]] - Similar blood choke from top position that can be combined with side triangle mechanics when arm is trapped across neck
+- [[Submissions/Arm Triangle]] - Similar blood choke from top position that can be combined with side triangle mechanics when arm is trapped across neck
 - [[Submissions/Kimura]] - Alternative shoulder lock available when opponent defends triangle by extracting their trapped arm from side control
 - [[Submissions/Far Side Armbar]] - Alternative arm attack when triangle setup creates arm isolation opportunities from perpendicular angle
-- [[Transitions/North-South Choke]] - Alternative blood choke from top position accessible via north-south transition during triangle attempts
-- [[Transitions/Darce Choke]] - Head and arm choke with similar perpendicular mechanics and shared defensive reactions from bottom player
+- [[Submissions/North-South Choke]] - Alternative blood choke from top position accessible via north-south transition during triangle attempts
+- [[Submissions/Darce Choke]] - Head and arm choke with similar perpendicular mechanics and shared defensive reactions from bottom player
 - [[Transitions/Anaconda Choke]] - Related front headlock blood choke accessible when opponent defends by turning into attacker
 - [[Submissions/Rear Triangle Choke]] - Triangle variation from back control using rear-mounted leg configuration rather than side angle
 - [[Transitions/Inverted Triangle]] - Bottom-up triangle variation with inverted body positioning and different leg entry mechanics

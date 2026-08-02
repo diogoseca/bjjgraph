@@ -361,43 +361,163 @@
   "flashcards": [
     {
       "question": "What does the Making Smaller Circles principle mean in BJJ?",
-      "answer": "It means refining one technique to extreme precision and efficiency — stripping away wasted motion until it works reflexively against resistance — before expanding to new variations. Depth before breadth."
+      "answer": "It means refining one technique to extreme precision and efficiency — stripping away wasted motion until it works reflexively against resistance — before expanding to new variations. Depth before breadth.",
+      "answer_line": "Depth before breadth",
+      "distractors": {
+        "plausible": [
+          "Learn many moves, refine later",
+          "Perfect form, then add power"
+        ],
+        "trap": [
+          "Collect new moves each week"
+        ]
+      }
     },
     {
       "question": "How do you know a technique's circle is finally 'small enough' to expand from?",
-      "answer": "When it works reliably against resisting opponents who know exactly what is coming, executing with minimal setup and even under fatigue. The signal for expansion is consistent reliability under adversity, not perfection."
+      "answer": "When it works reliably against resisting opponents who know exactly what is coming, executing with minimal setup and even under fatigue. The signal for expansion is consistent reliability under adversity, not perfection.",
+      "answer_line": "Works vs resistance, low effort",
+      "distractors": {
+        "plausible": [
+          "When it feels comfortable to you",
+          "After 100 reps in drilling"
+        ],
+        "trap": [
+          "When you land it once in rolling"
+        ]
+      }
     },
     {
       "question": "Why is one deeply refined sweep more dangerous than fifty surface-level sweeps?",
-      "answer": "The refined sweep has been pressure-tested, stripped of telegraphing, and internalized below conscious thought, so it fires reflexively against resistance. The fifty shallow sweeps collapse the moment a skilled opponent resists."
+      "answer": "The refined sweep has been pressure-tested, stripped of telegraphing, and internalized below conscious thought, so it fires reflexively against resistance. The fifty shallow sweeps collapse the moment a skilled opponent resists.",
+      "answer_line": "Reflexive, untelegraphed, resistant",
+      "distractors": {
+        "plausible": [
+          "More sweeps means more options",
+          "Shallow sweeps are faster to learn"
+        ],
+        "trap": [
+          "Fifty sweeps confuse the opponent"
+        ]
+      }
     },
     {
       "question": "What is the difference between repetition and refinement?",
-      "answer": "Repetition repeats the same movement and can reinforce bad habits. Refinement attaches an intentional improvement target to each rep — eliminating one wasted motion at a time — so the circle actually shrinks toward efficiency."
+      "answer": "Repetition repeats the same movement and can reinforce bad habits. Refinement attaches an intentional improvement target to each rep — eliminating one wasted motion at a time — so the circle actually shrinks toward efficiency.",
+      "answer_line": "Refinement targets one flaw per rep",
+      "distractors": {
+        "plausible": [
+          "Repetition just repeats moves",
+          "More reps automatically improve"
+        ],
+        "trap": [
+          "Grind volume, ignore mistakes"
+        ]
+      }
     },
     {
       "question": "Why should you keep drilling a technique through a plateau?",
-      "answer": "Plateaus are where deep learning happens: the nervous system integrates the refined pattern below conscious awareness. Skill follows a staircase — flat periods of integration precede sudden jumps in ability."
+      "answer": "Plateaus are where deep learning happens: the nervous system integrates the refined pattern below conscious awareness. Skill follows a staircase — flat periods of integration precede sudden jumps in ability.",
+      "answer_line": "Plateaus mean deep integration",
+      "distractors": {
+        "plausible": [
+          "Plateaus mean you've maxed out",
+          "Switch techniques when stuck"
+        ],
+        "trap": [
+          "Stop training until motivated"
+        ]
+      }
     },
     {
       "question": "How do you pressure-test a refinement to confirm it is real?",
-      "answer": "Test the tighter version in positional sparring against progressive resistance. If it survives, the refinement is valid; if it fails, the movement you removed was necessary — restore it and reduce a different element instead."
+      "answer": "Test the tighter version in positional sparring against progressive resistance. If it survives, the refinement is valid; if it fails, the movement you removed was necessary — restore it and reduce a different element instead.",
+      "answer_line": "Spar it under rising resistance",
+      "distractors": {
+        "plausible": [
+          "Ask partners if it looks right",
+          "Test only in drilling, not sparring"
+        ],
+        "trap": [
+          "Abandon it after first failure"
+        ]
+      }
     },
     {
       "question": "What is the most common error practitioners make with this principle?",
-      "answer": "Collecting techniques instead of refining them — building a game a mile wide and an inch deep. They know many moves by name but cannot finish any against a skilled, resisting opponent, defaulting to strength."
+      "answer": "Collecting techniques instead of refining them — building a game a mile wide and an inch deep. They know many moves by name but cannot finish any against a skilled, resisting opponent, defaulting to strength.",
+      "answer_line": "Collecting moves, not refining",
+      "distractors": {
+        "plausible": [
+          "Spending too much time on basics",
+          "Refining too slowly wastes time"
+        ],
+        "trap": [
+          "Relying on strength over technique"
+        ]
+      }
     },
     {
       "question": "How does deep mastery of one technique speed up learning its variations?",
-      "answer": "The understanding of the core mechanic transfers to any variation sharing roughly 70% of those mechanics, so related entries, combinations, and counters are learned quickly once the foundation is internalized."
+      "answer": "The understanding of the core mechanic transfers to any variation sharing roughly 70% of those mechanics, so related entries, combinations, and counters are learned quickly once the foundation is internalized.",
+      "answer_line": "Shared mechanics transfer over",
+      "distractors": {
+        "plausible": [
+          "Confidence alone carries over",
+          "Each variation learned from scratch"
+        ],
+        "trap": [
+          "Skip fundamentals, drill variations"
+        ]
+      }
     },
     {
       "question": "Should Making Smaller Circles be applied only to offensive techniques?",
-      "answer": "No. Escapes, guard retention, and positional defense benefit equally from depth-first refinement. A deeply refined mount escape is as valuable as a deeply refined mount attack and develops the same reflexive quality."
+      "answer": "No. Escapes, guard retention, and positional defense benefit equally from depth-first refinement. A deeply refined mount escape is as valuable as a deeply refined mount attack and develops the same reflexive quality.",
+      "answer_line": "No, defense benefits equally",
+      "distractors": {
+        "plausible": [
+          "Yes, defense needs less precision",
+          "Only guard retention benefits"
+        ],
+        "trap": [
+          "Only refine attacks, skip defense"
+        ]
+      }
     },
     {
       "question": "How does Making Smaller Circles relate to the Maximum Efficiency Principle?",
-      "answer": "Making Smaller Circles is the training methodology that produces maximum efficiency: as circles shrink, wasted movement and energy cost drop. Maximum efficiency is the destination; smaller circles is the journey there."
+      "answer": "Making Smaller Circles is the training methodology that produces maximum efficiency: as circles shrink, wasted movement and energy cost drop. Maximum efficiency is the destination; smaller circles is the journey there.",
+      "answer_line": "Smaller circles is the path there",
+      "distractors": {
+        "plausible": [
+          "They are unrelated concepts",
+          "Efficiency must come first"
+        ],
+        "trap": [
+          "Add more techniques for speed"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "00lR1kpdFzw",
+      "title": "Small circle theory explained",
+      "by": "Wally Jay",
+      "vertical": false,
+      "channel": "Pintados Stickboxing",
+      "duration": 593,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "Undhayz2z8Y",
+      "title": "Small circle wrist lock explanation",
+      "by": "Small Circle Jujitsu",
+      "vertical": false,
+      "channel": "Small Circle Jujitsu",
+      "duration": 22,
+      "verified": "2026-07-15"
     }
   ]
 }

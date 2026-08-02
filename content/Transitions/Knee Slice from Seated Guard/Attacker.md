@@ -174,6 +174,43 @@ description: "Learn to execute the knee slice pass from seated guard in BJJ. Ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Seated Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee cut pass from seated guard",
+      "description": "Knee Slice from Seated Guard (Attacker) film study: Knee cut pass from seated guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Op44Sijyotw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Op44Sijyotw",
+      "url": "https://www.youtube.com/watch?v=Op44Sijyotw",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee cut pass from open guard",
+      "description": "Knee Slice from Seated Guard (Attacker) film study: Knee cut pass from open guard, taught by Affinity Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q_kqgSU9ZAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q_kqgSU9ZAs",
+      "url": "https://www.youtube.com/watch?v=Q_kqgSU9ZAs",
+      "creator": { "@type": "Person", "name": "Affinity Academy" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The knee slice from seated guard is executed by the passer standing or kneeling 
 **From Position**: [[Positions/Seated Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Seated Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Op44Sijyotw)
+
+<p class="clip-credit"><strong>Knee cut pass from seated guard</strong> — taught by BJJ4Breakfast · 2:21 · <a href="https://www.youtube.com/watch?v=Op44Sijyotw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q_kqgSU9ZAs)
+
+<p class="clip-credit"><strong>Knee cut pass from open guard</strong> — taught by Affinity Academy · 2:09 · <a href="https://www.youtube.com/watch?v=Q_kqgSU9ZAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

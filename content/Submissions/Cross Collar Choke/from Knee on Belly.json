@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Knee on Belly",
   "from_position": "Knee on Belly/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The cross collar choke from knee on belly exploits the unique pressure dynamics of this dominant position to create collar grip opportunities unavailable from other starting points. The diaphragm compression from the knee forces the bottom player into immediate defensive reactions—pushing the knee, turning away, or reaching for frames—each of which opens the collar for grip insertion. This creates a feedback loop where the more the bottom player fights the positional pressure, the more vulnerable their neck becomes to the choke.\n\nUnlike the cross collar choke from mount or closed guard, the knee on belly variant benefits from a distinct gravitational advantage during the finish. As both collar grips are secured and the choking pressure begins, dropping weight from knee on belly into a low side control position dramatically increases the strangling force while simultaneously removing the opponent's primary escape route. The transition from high positional pressure to a low finishing position is what makes this variant particularly effective at intermediate and advanced levels.\n\nThe key strategic consideration is grip sequencing. The first grip must be deep and established during a moment of distraction—typically when the opponent reacts to the initial knee pressure. The second grip must be inserted rapidly before the opponent recognizes the threat. Training this submission develops sensitivity to defensive reactions under pressure and the ability to chain positional control into submission finishes.",
   "safety_considerations": {
     "injury_risks": [
@@ -91,17 +94,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Knee on Belly/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -273,52 +285,181 @@
       {
         "question": "What anatomical structures does the cross collar choke from knee on belly primarily attack?",
         "answer": "The cross collar choke attacks both carotid arteries simultaneously through bilateral compression. The crossed collar grips create a scissoring action where each forearm and the collar fabric compress one carotid artery on each side of the neck. This restricts blood flow to the brain, causing unconsciousness within 8-12 seconds of full application. The mechanism is a blood choke, not an airway choke—proper hand positioning ensures the pressure targets the lateral neck rather than the trachea.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "The windpipe, an air choke",
+            "Jugular veins draining blood"
+          ],
+          "trap": [
+            "The cervical spine, a neck crank"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your first collar grip with a two-on-one break—what do you do next?",
         "answer": "Do not immediately re-attempt the grip from the same angle. Instead, increase your KOB pressure sharply to force their hands back to addressing the knee. Their two-on-one grip break required both hands on your wrist, meaning they temporarily abandoned pressure defense. Re-establish KOB control, wait for the next defensive reaction that occupies their hands, and re-insert the grip during that window. Alternatively, switch to a different attack like an armbar if their arm extension during the grip strip created that opportunity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Spike pressure, re-insert grip",
+        "distractors": {
+          "plausible": [
+            "Re-grip the same angle at once",
+            "Sit them up to reset grips"
+          ],
+          "trap": [
+            "Drop KOB pressure to regroup"
+          ]
+        }
       },
       {
         "question": "What indicates you have achieved sufficient grip depth for an effective blood choke versus a trachea crush?",
         "answer": "Sufficient depth means your knuckles contact the side of the opponent's neck at jaw level through the collar fabric, and the collar wraps around the lateral neck covering the carotid artery. If your knuckles are pressing against the front of the throat or your grip is at chest level, the grip is too shallow and will produce trachea pressure. You should feel the collar fabric making a clean path from your grip around the side of the neck—the collar itself becomes the choking surface, not your fist.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knuckles reach jaw level",
+        "distractors": {
+          "plausible": [
+            "Grip set at chest level",
+            "Thumb hooked outside the lapel"
+          ],
+          "trap": [
+            "Drive your fist into the windpipe"
+          ]
+        }
       },
       {
         "question": "Why must you maintain KOB pressure throughout the grip acquisition sequence rather than dropping to finish position early?",
         "answer": "KOB pressure serves a dual purpose: it creates diaphragm compression that forces the opponent to use their hands for breathing relief rather than collar defense, and it pins them flat to prevent the hip movement needed for guard recovery. If you drop early with only one grip secured, the opponent regains full mobility and can sit up, bridge, or shrimp to strip the grip and escape. The knee pressure is what makes the collar accessible—removing it prematurely eliminates your primary advantage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Occupies hands, pins them flat",
+        "distractors": {
+          "plausible": [
+            "Only matters for the first grip",
+            "Makes the squeeze faster"
+          ],
+          "trap": [
+            "Drop to finish with one grip"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sitting up into you as you insert the second grip—what adjustment prevents them from closing the distance?",
         "answer": "Use your established first collar grip to push their head and shoulders back to the mat by straightening your gripping arm and driving your elbow toward the mat. Simultaneously spike your KOB pressure by driving your hips forward and down. If they succeed in partially sitting up, you can use the collar grip to redirect their momentum back down. Only if they fully close the distance and threaten guard recovery should you abandon the choke and work to re-pass.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Push head back, spike KOB",
+        "distractors": {
+          "plausible": [
+            "Abandon the choke and stand up",
+            "Wait for them to settle back"
+          ],
+          "trap": [
+            "Let them sit up into you"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that converts a blood choke into a dangerous trachea crush?",
         "answer": "Squeezing both hands toward the centerline of the throat rather than pulling elbows toward your hips. When you squeeze inward, the pressure concentrates on the trachea rather than spreading across both carotids. The correct finishing mechanic is pulling both elbows toward your own hip bones while expanding your chest outward—this creates the scissoring action where each forearm compresses one carotid through the collar fabric. The outward chest expansion is the key detail most practitioners miss.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Pull elbows to your hips",
+        "distractors": {
+          "plausible": [
+            "Twist both wrists inward",
+            "Pull elbows straight upward"
+          ],
+          "trap": [
+            "Crush hands into the windpipe"
+          ]
+        }
       },
       {
         "question": "How does dropping from KOB to low side control improve your finishing leverage?",
         "answer": "The drop adds your bodyweight to the choking pressure by placing your chest directly on the opponent's chest or shoulder, pinning them flat. In the high KOB position, your arms must generate all the choking force independently. In low side control, your entire upper body drives into the finish. Additionally, the low position eliminates the space beneath you that the opponent needs for bridging or turning escapes. The transition converts an arm-powered choke into a bodyweight-assisted choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Adds bodyweight, pins flat",
+        "distractors": {
+          "plausible": [
+            "Lets you free both hands",
+            "Gives a faster arm squeeze"
+          ],
+          "trap": [
+            "Stand tall and pull the collar"
+          ]
+        }
       },
       {
         "question": "What are the immediate safety protocols if your training partner stops responding during the choke?",
         "answer": "Immediately release both collar grips and remove all pressure from the opponent's body. Place them flat on their back and elevate their legs slightly to promote blood flow to the brain. Check for breathing and consciousness. Most people recover within 5-15 seconds after a blood choke release. Do not shake them or pour water on their face. If they do not regain consciousness within 20 seconds, call for medical assistance. Never continue rolling until the partner is fully alert and oriented.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grips, elevate legs",
+        "distractors": {
+          "plausible": [
+            "Sit them upright right away",
+            "Splash water on their face"
+          ],
+          "trap": [
+            "Keep the choke on and check"
+          ]
+        }
       },
       {
         "question": "In competition, how do you adjust your cross collar choke timing when the opponent is grip-fighting aggressively?",
         "answer": "Against aggressive grip fighters, establish the first collar grip during a transition moment—during the guard pass or side control consolidation—before they can organize their grip defense from KOB. Pre-loading one grip means you only need one insertion from KOB, halving the defensive window. If direct grip insertion is consistently blocked, use KOB attack feints (armbar or baseball bat choke setups) to occupy their hands before committing to the collar grip. Chain attacks force them to choose which threat to address.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Preload grip during transition",
+        "distractors": {
+          "plausible": [
+            "Wait until they tire out",
+            "Attack the same angle again"
+          ],
+          "trap": [
+            "Force the grip with both hands"
+          ]
+        }
       },
       {
         "question": "How do you adjust your grip angle when the opponent's collar is sweat-soaked and slippery?",
         "answer": "With a wet or slippery collar, feed your grips even deeper so that more collar fabric wraps around the neck, increasing friction surface area. Grip with all four fingers inside the collar rather than relying on thumb-over grips. Once both grips are set, lock your wrists by curling your fingers and pulling your elbows tight to your body before dropping to finish—this pre-tension prevents grip slippage during the transition. You can also dry your hands on your own gi pants between attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feed grips deeper, lock wrists",
+        "distractors": {
+          "plausible": [
+            "Pinch the lapel with thumbs",
+            "Finish before setting grips"
+          ],
+          "trap": [
+            "Choke on the bare neck skin"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "hfwzbS9va6M",
+        "title": "Cross choke from knee on belly",
+        "by": "TEAM BERT",
+        "vertical": false,
+        "channel": "TEAM BERT",
+        "duration": 47,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "7N0smA14MFU",
+        "title": "Far lapel cross collar choke from knee on belly",
+        "by": "Martial Arts Institute",
+        "vertical": false,
+        "channel": "Team Martial Arts Institute",
+        "duration": 140,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "bnHem44kqeA",
+        "title": "Cross collar choke from knee on belly",
+        "by": "Evan Cutts",
+        "vertical": false,
+        "channel": "Evan Cutts",
+        "duration": 157,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -412,27 +553,77 @@
       {
         "question": "How do you recognize that a cross collar choke is being set up from knee on belly?",
         "answer": "The primary recognition cue is the attacker's cross-side hand reaching toward your far collar while maintaining KOB. Secondary cues include a sudden increase in knee pressure designed to distract your hands, the attacker releasing their belt or pants grip to free a hand for collar insertion, and feeling knuckles pressing against the side of your neck through the collar. Early recognition before the first grip is secured gives you the best chance of successful defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cross-side hand reaching collar",
+        "distractors": {
+          "plausible": [
+            "Sudden hip escape by attacker",
+            "Attacker grips both sleeves"
+          ],
+          "trap": [
+            "Ignore hand movement, watch hips"
+          ]
+        }
       },
       {
         "question": "When should you tap to the cross collar choke from knee on belly rather than continuing to fight?",
         "answer": "Tap immediately when you feel bilateral carotid compression and cannot strip either grip or create space. Signs that the choke is locked include tunnel vision, a rushing sensation in your ears, or lightheadedness. Do not wait for unconsciousness—tap early and tap clearly using a physical hand tap on the attacker's body, a verbal signal, or a foot tap on the mat. Tapping early in training preserves your health and allows you to drill the defensive sequence again. There is no benefit to going unconscious in practice.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "When it's locked and escape fails",
+        "distractors": {
+          "plausible": [
+            "Only after you feel lightheaded",
+            "Strip both grips before you tap"
+          ],
+          "trap": [
+            "Wait until you nearly black out"
+          ]
+        }
       },
       {
         "question": "Why is defending the first collar grip more important than escaping the knee on belly position?",
         "answer": "Once both collar grips are established deep, the choke becomes extremely difficult to defend regardless of your positional escape attempts. The attacker can drop to a finishing position and complete the choke faster than you can strip two established grips. However, a single collar grip alone cannot finish the choke. Stripping the first grip resets the entire attack and gives you time to work on positional escape from KOB without submission threat. Grip defense is time-critical; positional escape is important but secondary.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "One grip alone cannot finish",
+        "distractors": {
+          "plausible": [
+            "Knee pressure is the real threat",
+            "Grips strip easily once both set"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured the first collar grip and is increasing knee pressure—what is your immediate response?",
         "answer": "Commit both hands to a two-on-one grip strip on the established collar grip immediately. Grab their gripping wrist and sleeve with both hands and peel their fingers from the collar while simultaneously turning your body slightly to the side to create an angle. The knee pressure increase is designed to pull your hands to the knee—resist this instinct and address the grip first. You can tolerate knee pressure temporarily, but you cannot tolerate both collar grips being established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one strip that grip now",
+        "distractors": {
+          "plausible": [
+            "Wait for the second grip",
+            "Bridge hard to unseat the knee"
+          ],
+          "trap": [
+            "Push the knee off with both hands"
+          ]
+        }
       },
       {
         "question": "What is the best escape if both collar grips are already established before you can strip them?",
         "answer": "If both grips are set, your best option is to sit up explosively into the attacker and close the distance before they can drop to finishing position. Wrap your arms around their torso and pull them into you while working to recover closed guard with your legs. At close range, the collar grips lose their finishing leverage because the attacker cannot pull their elbows back toward their hips. From closed guard, you can work two-on-one grip strips from a more stable defensive position. This is a last-resort option that requires significant core strength under pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sit up, close the distance",
+        "distractors": {
+          "plausible": [
+            "Try to strip both grips now",
+            "Bridge and roll them over"
+          ],
+          "trap": [
+            "Push away to create space"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -450,6 +641,35 @@
         "phase": "Phase 3: Full Defense Under Resistance",
         "focus": "Complete defensive sequence from recognition through escape",
         "description": "Partner attacks the cross collar choke from KOB at full speed. Practice the complete defensive chain: recognize the setup, strip or prevent grips, create angle, and recover guard. Include the last-resort sit-up escape for scenarios where both grips are established. Build up to full-resistance positional sparring from bottom of KOB."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How to escape the knee on belly position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "52LxBaUJdcw",
+        "title": "Knee on belly escape to ankle pick",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 131,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XgcesjuXZq4",
+        "title": "Escape the knee on belly before it's too late",
+        "by": "Ryan Robinson",
+        "vertical": false,
+        "channel": "Ryan Robinson BJJ",
+        "duration": 169,
+        "verified": "2026-07-14"
       }
     ]
   }

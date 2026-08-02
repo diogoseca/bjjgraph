@@ -148,6 +148,43 @@ description: "How to defend against Gift Wrap Arm Recovery in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap Arm Recovery (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining the Gift Wrap in Guard",
+      "description": "Gift Wrap Arm Recovery (Defender) film study: Maintaining the Gift Wrap in Guard, taught by Cape May BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4Qe84oTwUVQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4Qe84oTwUVQ",
+      "url": "https://www.youtube.com/watch?v=4Qe84oTwUVQ",
+      "creator": { "@type": "Person", "name": "Cape May BJJ" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Gift Wrap in Two Minutes",
+      "description": "Gift Wrap Arm Recovery (Defender) film study: The Gift Wrap in Two Minutes, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
+      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT112S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Strategically, the defender should view arm recovery attempts as offensive oppor
 **Opponent's Starting Position**: [[Positions/Gift Wrap]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap Arm Recovery (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4Qe84oTwUVQ)
+
+<p class="clip-credit"><strong>Maintaining the Gift Wrap in Guard</strong> — taught by Cape May BJJ · 1:14 · <a href="https://www.youtube.com/watch?v=4Qe84oTwUVQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
+
+<p class="clip-credit"><strong>The Gift Wrap in Two Minutes</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

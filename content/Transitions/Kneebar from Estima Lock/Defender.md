@@ -148,6 +148,54 @@ description: "Defend the Kneebar from Estima Lock transition in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Estima Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "50/50 defense: protecting your leg",
+      "description": "Kneebar from Estima Lock (Defender) film study: 50/50 defense: protecting your leg, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
+      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT161S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Defend and Escape the Kneebar",
+      "description": "Kneebar from Estima Lock (Defender) film study: How to Defend and Escape the Kneebar, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HwU4-0-JBUM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HwU4-0-JBUM",
+      "url": "https://www.youtube.com/watch?v=HwU4-0-JBUM",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT533S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar Defense: Mobilizing Hips, Rotating Knee Down",
+      "description": "Kneebar from Estima Lock (Defender) film study: Kneebar Defense: Mobilizing Hips, Rotating Knee Down, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OE3_AQOkA2A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OE3_AQOkA2A",
+      "url": "https://www.youtube.com/watch?v=OE3_AQOkA2A",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT267S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Kneebar from Estima Lock, you are already in a compr
 **Opponent's Starting Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Estima Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R7lPdQWLOus)
+
+<p class="clip-credit"><strong>50/50 defense: protecting your leg</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HwU4-0-JBUM)
+
+<p class="clip-credit"><strong>How to Defend and Escape the Kneebar</strong> — taught by Stephan Kesting · 8:53 · <a href="https://www.youtube.com/watch?v=HwU4-0-JBUM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OE3_AQOkA2A)
+
+<p class="clip-credit"><strong>Kneebar Defense: Mobilizing Hips, Rotating Knee Down</strong> — taught by RVV BJJ · 4:27 · <a href="https://www.youtube.com/watch?v=OE3_AQOkA2A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

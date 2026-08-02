@@ -174,6 +174,54 @@ description: "How to execute Arm Drag to Back in BJJ. Attacking perspective with
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag to Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Arm Drag from Butterfly to Back Take",
+      "description": "Arm Drag to Back (Attacker) film study: Reverse Arm Drag from Butterfly to Back Take, taught by Jerry Musquiz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MFed9IE8afA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MFed9IE8afA",
+      "url": "https://www.youtube.com/watch?v=MFed9IE8afA",
+      "creator": { "@type": "Person", "name": "Jerry Musquiz" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm Drag from Butterfly Guard",
+      "description": "Arm Drag to Back (Attacker) film study: Arm Drag from Butterfly Guard, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PCPrbetHf4U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PCPrbetHf4U",
+      "url": "https://www.youtube.com/watch?v=PCPrbetHf4U",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three Back Takes from Guard: Arm Drag, Wrist Drag, Swim Under",
+      "description": "Arm Drag to Back (Attacker) film study: Three Back Takes from Guard: Arm Drag, Wrist Drag, Swim Under, taught by AMAZIN BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OgyVXBXFpdA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OgyVXBXFpdA",
+      "url": "https://www.youtube.com/watch?v=OgyVXBXFpdA",
+      "creator": { "@type": "Person", "name": "AMAZIN BJJ" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Arm Drag to Back from the attacker's perspective is about converting grip co
 **From Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag to Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MFed9IE8afA)
+
+<p class="clip-credit"><strong>Reverse Arm Drag from Butterfly to Back Take</strong> — taught by Jerry Musquiz · 0:42 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PCPrbetHf4U)
+
+<p class="clip-credit"><strong>Arm Drag from Butterfly Guard</strong> — taught by Procel BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=PCPrbetHf4U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OgyVXBXFpdA)
+
+<p class="clip-credit"><strong>Three Back Takes from Guard: Arm Drag, Wrist Drag, Swim Under</strong> — taught by AMAZIN BJJ · 0:53 · <a href="https://www.youtube.com/watch?v=OgyVXBXFpdA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,54 @@ description: "How to defend against Reverse X-Guard to Standard X-Guard in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X-Guard to Standard X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backstep pass against X guard",
+      "description": "Reverse X-Guard to Standard X-Guard (Defender) film study: Backstep pass against X guard, taught by Wakizashi Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WsQy2bzQqL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WsQy2bzQqL8",
+      "url": "https://www.youtube.com/watch?v=WsQy2bzQqL8",
+      "creator": { "@type": "Person", "name": "Wakizashi Jiu Jitsu" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to pass X guard",
+      "description": "Reverse X-Guard to Standard X-Guard (Defender) film study: How to pass X guard, taught by Kaynan Duarte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C1lYVhDXwvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C1lYVhDXwvw",
+      "url": "https://www.youtube.com/watch?v=C1lYVhDXwvw",
+      "creator": { "@type": "Person", "name": "Kaynan Duarte" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Four ways to destroy any X-guard",
+      "description": "Reverse X-Guard to Standard X-Guard (Defender) film study: Four ways to destroy any X-guard, taught by Big Oss.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7X2lmPZ4EdI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7X2lmPZ4EdI",
+      "url": "https://www.youtube.com/watch?v=7X2lmPZ4EdI",
+      "creator": { "@type": "Person", "name": "Big Oss" },
+      "duration": "PT731S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Advanced defenders integrate this awareness into their overall X-Guard passing s
 **Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X-Guard to Standard X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WsQy2bzQqL8)
+
+<p class="clip-credit"><strong>Backstep pass against X guard</strong> — taught by Wakizashi Jiu Jitsu · 1:16 · <a href="https://www.youtube.com/watch?v=WsQy2bzQqL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C1lYVhDXwvw)
+
+<p class="clip-credit"><strong>How to pass X guard</strong> — taught by Kaynan Duarte · 1:56 · <a href="https://www.youtube.com/watch?v=C1lYVhDXwvw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7X2lmPZ4EdI)
+
+<p class="clip-credit"><strong>Four ways to destroy any X-guard</strong> — taught by Big Oss · 12:11 · <a href="https://www.youtube.com/watch?v=7X2lmPZ4EdI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

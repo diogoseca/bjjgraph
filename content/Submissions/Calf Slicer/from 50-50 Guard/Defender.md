@@ -144,6 +144,54 @@ description: "Defend against the calf slicer from 50-50 Guard with recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from 50-50 Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel Hook Roll Out Counter to Calf Slicer",
+      "description": "Calf Slicer from 50-50 Guard (Defender) film study: Heel Hook Roll Out Counter to Calf Slicer, taught by Charlie Cosens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KOz3WqQJ3Tk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KOz3WqQJ3Tk",
+      "url": "https://www.youtube.com/watch?v=KOz3WqQJ3Tk",
+      "creator": { "@type": "Person", "name": "Charlie Cosens" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Calf slicer defense into the lockdown",
+      "description": "Calf Slicer from 50-50 Guard (Defender) film study: Calf slicer defense into the lockdown, taught by James Clingerman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4zYNEvdgI2s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4zYNEvdgI2s",
+      "url": "https://www.youtube.com/watch?v=4zYNEvdgI2s",
+      "creator": { "@type": "Person", "name": "James Clingerman" },
+      "duration": "PT270S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Calf slicer late defense options",
+      "description": "Calf Slicer from 50-50 Guard (Defender) film study: Calf slicer late defense options, taught by Ryan Hall student instructor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9l-XOzg5DCA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9l-XOzg5DCA",
+      "url": "https://www.youtube.com/watch?v=9l-XOzg5DCA",
+      "creator": { "@type": "Person", "name": "Ryan Hall student instructor" },
+      "duration": "PT346S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the calf slicer from 50-50 Guard requires recognizing the transition f
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from 50-50 Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KOz3WqQJ3Tk)
+
+<p class="clip-credit"><strong>Heel Hook Roll Out Counter to Calf Slicer</strong> — taught by Charlie Cosens · 0:55 · <a href="https://www.youtube.com/watch?v=KOz3WqQJ3Tk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4zYNEvdgI2s)
+
+<p class="clip-credit"><strong>Calf slicer defense into the lockdown</strong> — taught by James Clingerman · 4:30 · <a href="https://www.youtube.com/watch?v=4zYNEvdgI2s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9l-XOzg5DCA)
+
+<p class="clip-credit"><strong>Calf slicer late defense options</strong> — taught by Ryan Hall student instructor · 5:46 · <a href="https://www.youtube.com/watch?v=9l-XOzg5DCA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

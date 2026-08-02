@@ -34,6 +34,54 @@ description: "Master Modified Scarf Hold in BJJ. Complete guide covering control
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Modified Scarf Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kuzure Kesa Gatame: Study It",
+      "description": "Modified Scarf Hold film study: Kuzure Kesa Gatame: Study It, taught by Judo Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aTsvuZ1vM48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aTsvuZ1vM48",
+      "url": "https://www.youtube.com/watch?v=aTsvuZ1vM48",
+      "creator": { "@type": "Person", "name": "Judo Life" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kuzure kesa gatame, the modified scarf hold explained",
+      "description": "Modified Scarf Hold film study: Kuzure kesa gatame, the modified scarf hold explained, taught by The Judo Way of Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H00LNHGS9zY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H00LNHGS9zY",
+      "url": "https://www.youtube.com/watch?v=H00LNHGS9zY",
+      "creator": { "@type": "Person", "name": "The Judo Way of Life" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Broken scarf hold fundamentals and control",
+      "description": "Modified Scarf Hold film study: Broken scarf hold fundamentals and control, taught by Still Rolling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yglBukra4Bs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yglBukra4Bs",
+      "url": "https://www.youtube.com/watch?v=yglBukra4Bs",
+      "creator": { "@type": "Person", "name": "Still Rolling" },
+      "duration": "PT295S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The learning curve for Modified Scarf Hold is moderate. Beginners can achieve ba
 Competition applicability is high, particularly in gi competitions where the position scores as side control (3 points in IBJJF) and offers excellent opportunities for submission finishes. The position is equally effective in MMA and self-defense contexts due to its superior control and ground-and-pound potential.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Modified Scarf Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aTsvuZ1vM48)
+
+<p class="clip-credit"><strong>Kuzure Kesa Gatame: Study It</strong> — taught by Judo Life · 0:33 · <a href="https://www.youtube.com/watch?v=aTsvuZ1vM48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H00LNHGS9zY)
+
+<p class="clip-credit"><strong>Kuzure kesa gatame, the modified scarf hold explained</strong> — taught by The Judo Way of Life · 0:51 · <a href="https://www.youtube.com/watch?v=H00LNHGS9zY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yglBukra4Bs)
+
+<p class="clip-credit"><strong>Broken scarf hold fundamentals and control</strong> — taught by Still Rolling · 4:55 · <a href="https://www.youtube.com/watch?v=yglBukra4Bs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -145,23 +229,23 @@ Competition applicability is high, particularly in gi competitions where the pos
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (15% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (8% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (9% of attempts)
 
-- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (20% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (12% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (22% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (14% of attempts)
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (16% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (12% of attempts)
 
-- **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** (5% of attempts)
+- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (12% of attempts)
 
-- **[[Transitions/Bridge Escape from Modified Scarf Hold/Attacker|Bridge Escape from Modified Scarf Hold]]** (4% of attempts)
+- **[[Transitions/Bridge Escape from Modified Scarf Hold/Attacker|Bridge Escape from Modified Scarf Hold]]** (9% of attempts)
 
-- **[[Transitions/Bridge from Modified Scarf Hold/Attacker|Bridge from Modified Scarf Hold]]** (3% of attempts)
+- **[[Transitions/Bridge from Modified Scarf Hold/Attacker|Bridge from Modified Scarf Hold]]** (6% of attempts)
 
-- **[[Transitions/Escape Modified Scarf Hold/Attacker|Escape Modified Scarf Hold]]** (4% of attempts)
+- **[[Transitions/Escape Modified Scarf Hold/Attacker|Escape Modified Scarf Hold]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -220,23 +304,23 @@ Competition applicability is high, particularly in gi competitions where the pos
 
 - **[[Americana from Modified Scarf Hold/Attacker|Americana from Modified Scarf Hold]]** (13% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (13% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (8% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (20% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (12% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[North-South Choke from Modified Scarf Hold/Attacker|North-South Choke from Modified Scarf Hold]]** (9% of attempts)
+- **[[North-South Choke from Modified Scarf Hold/Attacker|North-South Choke from Modified Scarf Hold]]** (8% of attempts)
 
-- **[[Arm Triangle from Modified Scarf Hold/Attacker|Arm Triangle from Modified Scarf Hold]]** (9% of attempts)
+- **[[Arm Triangle from Modified Scarf Hold/Attacker|Arm Triangle from Modified Scarf Hold]]** (11% of attempts)
 
-- **[[Transitions/Modified Scarf to Kesa Gatame/Attacker|Modified Scarf to Kesa Gatame]]** (4% of attempts)
+- **[[Transitions/Modified Scarf to Kesa Gatame/Attacker|Modified Scarf to Kesa Gatame]]** (8% of attempts)
 
-- **[[Transitions/Modified Scarf to Mount/Attacker|Modified Scarf to Mount]]** (2% of attempts)
+- **[[Transitions/Modified Scarf to Mount/Attacker|Modified Scarf to Mount]]** (10% of attempts)
 
-- **[[Kimura from Modified Scarf Hold/Attacker|Kimura from Modified Scarf Hold]]** (14% of attempts)
+- **[[Kimura from Modified Scarf Hold/Attacker|Kimura from Modified Scarf Hold]]** (15% of attempts)
 
-- **[[Belly Down Armbar from Modified Scarf Hold/Attacker|Belly Down Armbar from Modified Scarf Hold]]** (4% of attempts)
+- **[[Belly Down Armbar from Modified Scarf Hold/Attacker|Belly Down Armbar from Modified Scarf Hold]]** (5% of attempts)
 
 
 ### Common Mistakes

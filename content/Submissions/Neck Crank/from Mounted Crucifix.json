@@ -19,7 +19,10 @@
   "target_area": "Cervical spine and neck muscles",
   "starting_position": "Mounted Crucifix",
   "from_position": "Mounted Crucifix/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Neck Crank from Mounted Crucifix exploits one of the most dominant control platforms in grappling to apply devastating cervical spine pressure. With the opponent flat on their back and both arms trapped by the attacker's legs, the bottom player has no ability to frame against the head manipulation that produces the crank. The attacker's hands are entirely free to cup the chin, cradle the skull, or lock a gable grip around the head, then apply lateral flexion or rotation against the fixed torso. Because the mounted crucifix eliminates defensive frames, the crank arrives faster and with less effort than from any other position.\n\nWhat distinguishes this variant from the Twister Control neck crank is the direction of force and the nature of body control. From Twister Control, the crank relies on a body triangle locking the torso sideways while rotating the head. From Mounted Crucifix, the opponent is supine and pinned by mount weight, so the attacker drives the head laterally toward the mat or curls it forward into the chest. The arm isolation means the defender cannot wedge a hand between their chin and chest, cannot frame against the attacker's arms, and cannot create the small angles that normally allow neck crank defense. This makes the mounted crucifix variant uniquely difficult to survive once the head grip is secured.\n\nStrategically, the neck crank serves dual purpose from this position. As a primary finish, it is high-percentage against opponents who turtle their chin to defend chokes but leave the crown of the head exposed. As a chain threat, attempting the crank forces the defender to open their neck defending the rotation, which creates direct entries to rear naked choke or arm triangle attacks. The submission pairs naturally with the Mounted Crucifix Armbar—defending the arm exposes the neck, and defending the neck exposes the arm, creating an inescapable dilemma for the bottom player.",
   "safety_considerations": {
     "injury_risks": [
@@ -77,7 +80,7 @@
       "relationship": "Related control position sharing arm isolation mechanics"
     },
     {
-      "name": "Neck Crank",
+      "name": "Neck Crank from Twister Control",
       "relationship": "Parent submission family—this is the mounted crucifix variant"
     },
     {
@@ -96,17 +99,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Mounted Crucifix/Top",
-      "probability": 39,
+      "probability": {
+        "gi": 39,
+        "nogi": 39
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "counter"
     }
   ],
@@ -250,52 +262,172 @@
       {
         "question": "What anatomical structure does the neck crank from mounted crucifix primarily attack?",
         "answer": "The cervical spine—specifically the intervertebral discs and facet joints between C1-C7 vertebrae. The crank applies lateral flexion or rotational force that compresses disc material on one side while stretching ligaments on the opposite side, creating pain through mechanical deformation of spinal structures. Secondary targets include the surrounding neck musculature (sternocleidomastoid, scalenes, trapezius) which are forced beyond their normal range of motion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cervical spine discs & joints",
+        "distractors": {
+          "plausible": [
+            "Neck muscles like traps/SCM",
+            "Vertebral bones themselves"
+          ],
+          "trap": [
+            "The trachea and airway"
+          ]
+        }
       },
       {
         "question": "Why does the mounted crucifix make the neck crank significantly more effective than from other positions?",
         "answer": "The mounted crucifix traps both of the opponent's arms with the attacker's legs, completely eliminating defensive frames. In any other position, the defender can wedge a hand between their chin and chest, push against the attacker's arms, or create angles with their hands. From mounted crucifix, the defender has zero upper-body tools to resist the head manipulation. Combined with mount weight pinning the torso flat, the attacker has free hands operating against a fully immobilized opponent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arms trapped, no frames possible",
+        "distractors": {
+          "plausible": [
+            "Mount weight alone stops defense",
+            "Head is already turned sideways"
+          ],
+          "trap": [
+            "Legs pinned so they can't bridge"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest mechanical advantage for finishing the crank?",
         "answer": "A gable grip (palm-to-palm) that cradles both the front and back of the skull. One hand slides behind the occiput while the other cups under the chin or along the jaw, then the palms lock together. This creates a complete lever system where the back hand serves as the fulcrum and the front hand directs rotational or lateral force. A chin-only grip lacks the posterior anchor needed for effective leverage and slips easily when the opponent rotates their head.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gable grip, palm to palm",
+        "distractors": {
+          "plausible": [
+            "Chin only, no rear anchor",
+            "Single hand behind the head"
+          ],
+          "trap": [
+            "Interlock your fingers"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin tightly to their chest to prevent your grip—what adjustment allows you to still finish?",
         "answer": "Switch from targeting the chin to an over-the-crown grip that attacks forward flexion (curling the head toward the chest) instead of lateral rotation. Alternatively, use your forearm as a wedge under the chin to pry it away from the chest, or threaten an armbar on a trapped arm to force the opponent to move their shoulders, which naturally lifts the chin. The armbar feint is particularly effective because arm defense and chin defense compete for the same postural resources.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to crown grip, flex forward",
+        "distractors": {
+          "plausible": [
+            "Pry the chin up with your knee",
+            "Crank sideways for lateral rotation"
+          ],
+          "trap": [
+            "Loosen hooks to reposition hands"
+          ]
+        }
       },
       {
         "question": "What is the correct speed of force application for the neck crank, and why is this critical for safety?",
         "answer": "Force must be applied slowly and progressively over 3-5 seconds minimum, never with explosive or jerking movements. This is critical because the cervical spine provides minimal proprioceptive warning before catastrophic failure—unlike a joint lock where the defender feels increasing pain along a gradient, spinal compression can transition from uncomfortable to structurally damaging in a fraction of a second. Slow application gives the defender adequate time to recognize the submission and tap before the injury threshold is reached.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, progressive, 3-5+ seconds",
+        "distractors": {
+          "plausible": [
+            "Fast snap once grip is set",
+            "Crank to full force then hold"
+          ],
+          "trap": [
+            "Explosive jerk to finish quick"
+          ]
+        }
       },
       {
         "question": "What is the proper release protocol when your training partner taps to a neck crank?",
         "answer": "Release ALL cranking pressure immediately upon any tap signal—physical tap, verbal tap, or any sign of distress. Do not attempt to 'finish the rep' or hold position. After releasing pressure, gently guide the opponent's head back to neutral spinal alignment before disengaging your body position and arm traps. Verbally check on your partner after every attempt, even when they did not tap, because cervical injuries can present with delayed symptoms.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release instantly, check partner",
+        "distractors": {
+          "plausible": [
+            "Ease off slowly over seconds",
+            "Release, then explain the finish"
+          ],
+          "trap": [
+            "Finish the rep, then release"
+          ]
+        }
       },
       {
         "question": "Your opponent starts an explosive bridge right as you lock your head grip—how do you maintain control and finish?",
         "answer": "Post one hand briefly on the mat to ride the bridge while dropping your hips heavier onto their torso. Because their arms are trapped, the bridge lacks the structural support of a normal mount escape—they cannot post or frame. Wait for the bridge to peak and collapse, then re-secure your gable grip as they settle. The failed explosive effort actually fatigues them and creates a brief window of reduced resistance immediately after, which is the ideal moment to re-apply the crank.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Post hand, ride bridge, drop hips",
+        "distractors": {
+          "plausible": [
+            "Release grip until bridge stops",
+            "Sit upright to broaden base"
+          ],
+          "trap": [
+            "Fight the bridge with brute force"
+          ]
+        }
       },
       {
         "question": "How does the neck crank chain with the Mounted Crucifix Armbar to create an unsolvable dilemma?",
         "answer": "The two submissions attack competing defensive priorities. Defending the armbar requires keeping the elbows tight and arms close to the body, but this posture leaves the head and neck completely exposed to cranking pressure. Defending the neck crank requires chin tucking and shoulder shrugging, which extends the arms and loosens the elbow connection needed to prevent armbars. The attacker can flow between threats based on which defense the opponent prioritizes, ensuring that every defensive commitment opens a new offensive avenue.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow-tight vs chin-tuck conflict",
+        "distractors": {
+          "plausible": [
+            "Both attack the shoulder joint",
+            "Crank always comes first"
+          ],
+          "trap": [
+            "Release arm trap to switch attacks"
+          ]
+        }
       },
       {
         "question": "What body weight distribution should you maintain while applying the neck crank finish?",
         "answer": "Maintain approximately 60-70% of your weight forward onto the opponent's upper chest and shoulder area throughout the finish. This serves two functions: it prevents bridging escapes by loading the opponent's hips, and it anchors the torso flat so the cervical spine is compressed between the cranking hands and the immobilized ribcage. Sitting upright removes this anchor and allows the opponent to roll their torso with the head, dissipating the cranking force. The hips should stay low and heavy while the hands remain mobile for grip adjustments.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "60-70% weight forward, hips heavy",
+        "distractors": {
+          "plausible": [
+            "Weight balanced evenly, sit tall",
+            "Weight back on opponent's hips"
+          ],
+          "trap": [
+            "Post upright for grip mobility"
+          ]
+        }
       },
       {
         "question": "In competition, when should you choose the neck crank over a choke from mounted crucifix?",
         "answer": "Choose the neck crank when the opponent has their chin tucked so tightly that choking grips cannot penetrate below the jaw line, when gi collar access is unavailable in no-gi, or when the opponent's neck musculature is too developed for arm-based chokes to compress the carotid arteries effectively. The crank attacks skeletal structures rather than blood flow, so it bypasses the muscular defenses that protect against chokes. It also works well as a secondary threat after a choke attempt is defended—the defensive chin tuck that stops the choke actually positions the head well for forward-compression cranking.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chin tucked, blocks choke grips",
+        "distractors": {
+          "plausible": [
+            "Whenever you have full mount",
+            "To save energy over the choke"
+          ],
+          "trap": [
+            "Never, chokes are always safer"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "PWvr1NUFxGs",
+        "title": "Filthy Neck Crank",
+        "by": "Neil Melanson",
+        "vertical": false,
+        "channel": "Neil Melanson",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nw1iXWH7rP4",
+        "title": "Crucifix Neck Crank",
+        "by": "Bicudo BJJ",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 40,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -376,22 +508,62 @@
       {
         "question": "What is the first defensive action you should take when you recognize a neck crank is being set up from mounted crucifix?",
         "answer": "Immediately tuck your chin as tightly as possible to your chest and shrug both shoulders up toward your ears. This closes the gaps around your neck that the attacker needs for grip establishment. Because your arms are trapped, this postural defense is your only available tool to deny the head grip. Simultaneously begin subtle hip movement to prevent the attacker from settling into a stable cranking platform.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tuck chin, shrug shoulders up",
+        "distractors": {
+          "plausible": [
+            "Turn head away from the grip",
+            "Try to sit up and stand"
+          ],
+          "trap": [
+            "Push attacker's hands away"
+          ]
+        }
       },
       {
         "question": "When should you tap to a neck crank in training, and why is early tapping essential for this particular submission?",
         "answer": "Tap immediately when you feel any real compressive or rotational pressure on your cervical spine—do not attempt to endure or escape once the crank engages. Unlike joint locks that provide a pain gradient before damage occurs, the cervical spine can transition from moderate discomfort to disc herniation or vertebral injury with almost no warning. The proprioceptive feedback from neck structures is poor compared to limbs, meaning by the time you feel real pain, structural damage may already be occurring. Early tapping is the only safe choice.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Immediately, no pain gradient warns",
+        "distractors": {
+          "plausible": [
+            "Wait for sharp pain to appear",
+            "Try to escape one more time"
+          ],
+          "trap": [
+            "Push through, cranks rarely injure"
+          ]
+        }
       },
       {
         "question": "Why must arm extraction precede mount escape attempts when defending the neck crank from mounted crucifix?",
         "answer": "Attempting mount escapes with arms still trapped exposes your back to the attacker, who can transition to back control while maintaining the arm entanglement—a significantly worse position. Without at least one free arm, you cannot create the defensive frames needed for standard escape mechanics like bridge-and-roll or elbow escape. Arm extraction restores your primary defensive tools, making subsequent positional escapes mechanically possible and safe.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Free an arm before escaping",
+        "distractors": {
+          "plausible": [
+            "Bridge immediately to escape",
+            "Focus on hip movement first"
+          ],
+          "trap": [
+            "Try mount escape, arms trapped"
+          ]
+        }
       },
       {
         "question": "Your attacker has locked a gable grip behind your head—what is your best remaining defensive option?",
         "answer": "With the grip established, your priority shifts to disrupting the finish rather than preventing the setup. Execute an explosive bridge timed to the moment the attacker begins applying cranking pressure, as their weight commitment to the finish compromises their base. Simultaneously drive your hips toward the side opposite the crank direction to create a twisting angle that reduces cervical compression. If you feel genuine spinal pressure at any point, tap immediately—once the grip is locked, the margin between defense and injury narrows rapidly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bridge hard, hips away from crank",
+        "distractors": {
+          "plausible": [
+            "Stay still and wait it out",
+            "Push attacker's chest away"
+          ],
+          "trap": [
+            "Yank your head free by force"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -409,6 +581,26 @@
         "phase": "Phase 3: Full Defensive Sequence",
         "focus": "Connecting defense to escape under competition conditions",
         "description": "Partner attacks the neck crank with full technical execution. Defender works the complete sequence: recognize, chin tuck, bridge to disrupt, extract arm, frame, escape to guard. Emphasize tap discipline—tap immediately when cervical pressure engages. Build comfort with the worst-case position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TrRtPaMCA8I",
+        "title": "Crucifix Escape",
+        "by": "RKBJJ",
+        "vertical": false,
+        "channel": "RKBJJ Class Archive",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "OO92wSXFFV8",
+        "title": "Crucifix Escape",
+        "by": "Left Side Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Left Side Jiu-Jitsu ",
+        "duration": 145,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -34,6 +34,43 @@ description: "Master Estima Lock position in BJJ. Strategic guide covering inver
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Huge Detail on the Estima Lock",
+      "description": "Estima Lock Control film study: Huge Detail on the Estima Lock, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/enJwT6Ttreo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/enJwT6Ttreo",
+      "url": "https://www.youtube.com/watch?v=enJwT6Ttreo",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT137S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima Lock Breaking Mechanics",
+      "description": "Estima Lock Control film study: Estima Lock Breaking Mechanics, taught by Josh Star-Lord Leduc.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7hajltIw4kI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7hajltIw4kI",
+      "url": "https://www.youtube.com/watch?v=7hajltIw4kI",
+      "creator": { "@type": "Person", "name": "Josh Star-Lord Leduc" },
+      "duration": "PT82S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ This position exists as both an offensive control position for the attacker and 
 From the top attacking perspective, the position offers significant control advantages through proper hip placement against the opponent's lower leg, figure-four grip configuration around the heel and forefoot, and body angle optimization that maximizes torque while preventing counters. From the bottom defensive perspective, the position demands immediate recognition of the submission threat, systematic escape protocols addressing both grip control and positional hierarchy, and calm technical execution under pressure to avoid injury. Modern leg lock systems have integrated the Estima Lock as a valuable tool within comprehensive submission chains, making proficiency in both attacking and defending this position essential for contemporary grapplers at all levels.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=enJwT6Ttreo)
+
+<p class="clip-credit"><strong>Huge Detail on the Estima Lock</strong> — taught by Brandon Mccaghren · 2:17 · <a href="https://www.youtube.com/watch?v=enJwT6Ttreo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7hajltIw4kI)
+
+<p class="clip-credit"><strong>Estima Lock Breaking Mechanics</strong> — taught by Josh Star-Lord Leduc · 1:22 · <a href="https://www.youtube.com/watch?v=7hajltIw4kI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,19 +202,17 @@ From the top attacking perspective, the position offers significant control adva
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (23% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (17% of attempts)
 
-- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (41% of attempts)
+- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (25% of attempts)
 
-- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (13% of attempts)
+- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (16% of attempts)
 
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (13% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (11% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (8% of attempts)
+- **[[Transitions/Estima Lock Counter Roll/Attacker|Estima Lock Counter Roll]]** (12% of attempts)
 
-- **[[Transitions/Estima Lock Counter Roll/Attacker|Estima Lock Counter Roll]]** (1% of attempts)
-
-- **[[Transitions/Counter from Estima Lock/Attacker|Counter from Estima Lock]]** (1% of attempts)
+- **[[Transitions/Counter from Estima Lock/Attacker|Counter from Estima Lock]]** (19% of attempts)
 
 
 ### Common Mistakes
@@ -210,17 +273,15 @@ From the top attacking perspective, the position offers significant control adva
 ### Available Transitions
 
 
-- **[[Estima Lock from Estima Lock Control/Attacker|Estima Lock from Estima Lock Control]]** (39% of attempts)
+- **[[Estima Lock from Estima Lock Control/Attacker|Estima Lock from Estima Lock Control]]** (29% of attempts)
 
-- **[[Transitions/Estima Lock to Saddle/Attacker|Estima Lock to Saddle]]** (12% of attempts)
+- **[[Transitions/Estima Lock to Saddle/Attacker|Estima Lock to Saddle]]** (22% of attempts)
 
-- **[[Transitions/Estima Lock to Ashi Garami/Attacker|Estima Lock to Ashi Garami]]** (17% of attempts)
+- **[[Transitions/Estima Lock to Ashi Garami/Attacker|Estima Lock to Ashi Garami]]** (19% of attempts)
 
-- **[[Transitions/Kneebar from Estima Lock/Attacker|Kneebar from Estima Lock]]** (11% of attempts)
+- **[[Transitions/Kneebar from Estima Lock/Attacker|Kneebar from Estima Lock]]** (14% of attempts)
 
-- **[[Transitions/Toe Hold from Estima Lock/Attacker|Toe Hold from Estima Lock]]** (19% of attempts)
-
-- **[[Transitions/Estima Lock/Attacker|Estima Lock]]** (2% of attempts)
+- **[[Transitions/Toe Hold from Estima Lock/Attacker|Toe Hold from Estima Lock]]** (16% of attempts)
 
 
 ### Common Mistakes

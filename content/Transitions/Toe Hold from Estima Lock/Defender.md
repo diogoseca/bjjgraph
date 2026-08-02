@@ -140,6 +140,43 @@ description: "Defend the Toe Hold from Estima Lock in BJJ. Recognition cues, esc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Estima Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape the toe hold",
+      "description": "Toe Hold from Estima Lock (Defender) film study: How to escape the toe hold, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
+      "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering ankle locks with a corkscrew toe hold",
+      "description": "Toe Hold from Estima Lock (Defender) film study: Countering ankle locks with a corkscrew toe hold, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cf-hK1t7qzU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cf-hK1t7qzU",
+      "url": "https://www.youtube.com/watch?v=cf-hK1t7qzU",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the Toe Hold from Estima Lock requires recognizing the grip change fro
 **Opponent's Starting Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Estima Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
+
+<p class="clip-credit"><strong>How to escape the toe hold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cf-hK1t7qzU)
+
+<p class="clip-credit"><strong>Countering ankle locks with a corkscrew toe hold</strong> — taught by Patrick Donabedian · 1:05 · <a href="https://www.youtube.com/watch?v=cf-hK1t7qzU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

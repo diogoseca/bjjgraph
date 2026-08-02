@@ -174,6 +174,54 @@ description: "How to execute Guillotine Counter in BJJ. Attacking perspective wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Counter (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping single and double guillotine grips",
+      "description": "Guillotine Counter (Attacker) film study: Escaping single and double guillotine grips, taught by Cobrinha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dyTKKiajgzQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dyTKKiajgzQ",
+      "url": "https://www.youtube.com/watch?v=dyTKKiajgzQ",
+      "creator": { "@type": "Person", "name": "Cobrinha" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine escape from closed guard to side control",
+      "description": "Guillotine Counter (Attacker) film study: Guillotine escape from closed guard to side control, taught by Street Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lvjRNWzKMPc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lvjRNWzKMPc",
+      "url": "https://www.youtube.com/watch?v=lvjRNWzKMPc",
+      "creator": { "@type": "Person", "name": "Street Jitsu" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing guillotine escape",
+      "description": "Guillotine Counter (Attacker) film study: Standing guillotine escape, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
+      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT44S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Guillotine Counter attacker is the practitioner caught in the guillotine who
 **From Position**: [[Positions/Guillotine Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Counter (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dyTKKiajgzQ)
+
+<p class="clip-credit"><strong>Escaping single and double guillotine grips</strong> — taught by Cobrinha · 0:44 · <a href="https://www.youtube.com/watch?v=dyTKKiajgzQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lvjRNWzKMPc)
+
+<p class="clip-credit"><strong>Guillotine escape from closed guard to side control</strong> — taught by Street Jitsu · 0:27 · <a href="https://www.youtube.com/watch?v=lvjRNWzKMPc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8okq4cIHMO0)
+
+<p class="clip-credit"><strong>Standing guillotine escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

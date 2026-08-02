@@ -34,6 +34,54 @@ description: "Master Ushiro Ashi-Garami (reverse leg entanglement). Complete tec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ushiro Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "4 foot positions for leg locks",
+      "description": "Ushiro Ashi-Garami film study: 4 foot positions for leg locks, taught by Evo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eiI_4VBA-qA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eiI_4VBA-qA",
+      "url": "https://www.youtube.com/watch?v=eiI_4VBA-qA",
+      "creator": { "@type": "Person", "name": "Evo BJJ" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse Ashi Garami to Toe Hold and Knee Bar",
+      "description": "Ushiro Ashi-Garami film study: Reverse Ashi Garami to Toe Hold and Knee Bar, taught by Crosstrain Fight Club coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E5Q5kQTNJuk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E5Q5kQTNJuk",
+      "url": "https://www.youtube.com/watch?v=E5Q5kQTNJuk",
+      "creator": { "@type": "Person", "name": "Crosstrain Fight Club coach" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse X to Ashi Garami Concept",
+      "description": "Ushiro Ashi-Garami film study: Reverse X to Ashi Garami Concept, taught by The Sanctuary BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bf5cJNYCMcA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bf5cJNYCMcA",
+      "url": "https://www.youtube.com/watch?v=Bf5cJNYCMcA",
+      "creator": { "@type": "Person", "name": "The Sanctuary BJJ coach" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The tactical importance of ushiro ashi-garami lies in its role as a transitional
 Understanding the biomechanical differences between ushiro ashi-garami and standard configurations is crucial for technique selection and success rate optimization across skill levels.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ushiro Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eiI_4VBA-qA)
+
+<p class="clip-credit"><strong>4 foot positions for leg locks</strong> — taught by Evo BJJ · 2:42 · <a href="https://www.youtube.com/watch?v=eiI_4VBA-qA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E5Q5kQTNJuk)
+
+<p class="clip-credit"><strong>Reverse Ashi Garami to Toe Hold and Knee Bar</strong> — taught by Crosstrain Fight Club coach · 1:17 · <a href="https://www.youtube.com/watch?v=E5Q5kQTNJuk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bf5cJNYCMcA)
+
+<p class="clip-credit"><strong>Reverse X to Ashi Garami Concept</strong> — taught by The Sanctuary BJJ coach · 1:45 · <a href="https://www.youtube.com/watch?v=Bf5cJNYCMcA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -145,21 +229,21 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 ### Available Transitions
 
 
-- **[[Transitions/Ushiro Ashi-Garami Escape/Attacker|Ushiro Ashi-Garami Escape]]** (11% of attempts)
+- **[[Transitions/Ushiro Ashi-Garami Escape/Attacker|Ushiro Ashi-Garami Escape]]** (21% of attempts)
 
-- **[[Transitions/Inversion to Turtle/Attacker|Inversion to Turtle]]** (39% of attempts)
+- **[[Transitions/Inversion to Turtle/Attacker|Inversion to Turtle]]** (10% of attempts)
 
-- **[[Transitions/Ushiro Ashi-Garami to Deep Half/Attacker|Ushiro Ashi-Garami to Deep Half]]** (11% of attempts)
+- **[[Transitions/Ushiro Ashi-Garami to Deep Half/Attacker|Ushiro Ashi-Garami to Deep Half]]** (7% of attempts)
 
-- **[[Transitions/Single Leg X Recovery/Attacker|Single Leg X Recovery]]** (12% of attempts)
+- **[[Transitions/Single Leg X Recovery/Attacker|Single Leg X Recovery]]** (13% of attempts)
 
-- **[[Transitions/Reverse Heel Hook Counter/Attacker|Reverse Heel Hook Counter]]** (4% of attempts)
+- **[[Transitions/Reverse Heel Hook Counter/Attacker|Reverse Heel Hook Counter]]** (12% of attempts)
 
-- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (14% of attempts)
+- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (18% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (7% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (12% of attempts)
 
-- **[[Transitions/Sweep from Ushiro Ashi-Garami/Attacker|Sweep from Ushiro Ashi-Garami]]** (2% of attempts)
+- **[[Transitions/Sweep from Ushiro Ashi-Garami/Attacker|Sweep from Ushiro Ashi-Garami]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -220,31 +304,31 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 ### Available Transitions
 
 
-- **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** (11% of attempts)
+- **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** (8% of attempts)
 
-- **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** (13% of attempts)
+- **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** (12% of attempts)
 
 - **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (6% of attempts)
 
-- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (8% of attempts)
+- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (7% of attempts)
 
-- **[[Transitions/Outside Heel Hook Adjustment/Attacker|Outside Heel Hook Adjustment]]** (4% of attempts)
+- **[[Transitions/Outside Heel Hook Adjustment/Attacker|Outside Heel Hook Adjustment]]** (8% of attempts)
 
 - **[[Transitions/Return to Outside Ashi/Attacker|Return to Outside Ashi]]** (10% of attempts)
 
-- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (12% of attempts)
+- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (7% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (10% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (11% of attempts)
 
-- **[[Toe Hold from Ushiro Ashi-Garami/Attacker|Toe Hold from Ushiro Ashi-Garami]]** (7% of attempts)
+- **[[Toe Hold from Ushiro Ashi-Garami/Attacker|Toe Hold from Ushiro Ashi-Garami]]** (5% of attempts)
 
-- **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (2% of attempts)
+- **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (8% of attempts)
 
-- **[[Heel Hook from Ushiro Ashi/Attacker|Heel Hook from Ushiro Ashi]]** (3% of attempts)
+- **[[Heel Hook from Ushiro Ashi/Attacker|Heel Hook from Ushiro Ashi]]** (6% of attempts)
 
-- **[[Inside Heel Hook from Ushiro Ashi-Garami/Attacker|Inside Heel Hook from Ushiro Ashi-Garami]]** (10% of attempts)
+- **[[Inside Heel Hook from Ushiro Ashi-Garami/Attacker|Inside Heel Hook from Ushiro Ashi-Garami]]** (7% of attempts)
 
-- **[[Outside Heel Hook from Ushiro Ashi-Garami/Attacker|Outside Heel Hook from Ushiro Ashi-Garami]]** (4% of attempts)
+- **[[Outside Heel Hook from Ushiro Ashi-Garami/Attacker|Outside Heel Hook from Ushiro Ashi-Garami]]** (5% of attempts)
 
 
 ### Common Mistakes

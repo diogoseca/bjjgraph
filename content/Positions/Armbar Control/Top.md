@@ -21,37 +21,37 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Armbar Control",
-      "text": "From this position, attempt Armbar from Armbar Control. This technique is attempted in 55% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Armbar Control. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 23% of exchanges from this position.",
+      "name": "Execute Omoplata from Armbar Control",
+      "text": "From this position, attempt Omoplata from Armbar Control. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata from Armbar Control",
-      "text": "From this position, attempt Omoplata from Armbar Control. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Kimura from Armbar Control",
+      "text": "From this position, attempt Kimura from Armbar Control. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Armbar Control",
-      "text": "From this position, attempt Kimura from Armbar Control. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Back Take from Armbar",
+      "text": "From this position, attempt Back Take from Armbar. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Armbar",
-      "text": "From this position, attempt Back Take from Armbar. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Belly Down Armbar Transition",
+      "text": "From this position, attempt Belly Down Armbar Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Belly Down Armbar Transition",
-      "text": "From this position, attempt Belly Down Armbar Transition. This technique is attempted in 1% of exchanges from this position.",
+      "name": "Execute Triangle from Armbar",
+      "text": "From this position, attempt Triangle from Armbar. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Straight armbar from guard",
+      "description": "Armbar Control (Top) film study: Straight armbar from guard, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I8f9wkX7n4Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I8f9wkX7n4Y",
+      "url": "https://www.youtube.com/watch?v=I8f9wkX7n4Y",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Top side armbar finish",
+      "description": "Armbar Control (Top) film study: Top side armbar finish, taught by Way of BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BFmncj84lNE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BFmncj84lNE",
+      "url": "https://www.youtube.com/watch?v=BFmncj84lNE",
+      "creator": { "@type": "Person", "name": "Way of BJJ" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Roger Gracie armbars",
+      "description": "Armbar Control (Top) film study: Roger Gracie armbars, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ This position is characterized by maximum control over the isolated limb while m
 Armbar Control Top is accessible from multiple positions including mount, guard, side control, and back control, making it one of the most versatile and high-percentage submissions in Brazilian Jiu-Jitsu. The position's effectiveness stems from its ability to isolate a single limb while using the entire body's leverage, creating a mechanical advantage that is difficult to overcome even when the opponent recognizes the danger.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I8f9wkX7n4Y)
+
+<p class="clip-credit"><strong>Straight armbar from guard</strong> — taught by Gracie Charlottesville · 0:30 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BFmncj84lNE)
+
+<p class="clip-credit"><strong>Top side armbar finish</strong> — taught by Way of BJJ · 1:13 · <a href="https://www.youtube.com/watch?v=BFmncj84lNE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Roger Gracie armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

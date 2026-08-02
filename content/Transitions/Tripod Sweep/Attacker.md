@@ -168,6 +168,43 @@ description: "How to execute Tripod Sweep in BJJ. Attacking perspective with set
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tripod Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Collar and sleeve tripod sweep",
+      "description": "Tripod Sweep (Attacker) film study: Collar and sleeve tripod sweep, taught by Alberto Serrano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0AnyD7w2wQE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0AnyD7w2wQE",
+      "url": "https://www.youtube.com/watch?v=0AnyD7w2wQE",
+      "creator": { "@type": "Person", "name": "Alberto Serrano" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The tripod sweep",
+      "description": "Tripod Sweep (Attacker) film study: The tripod sweep, taught by Thomas Mietz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jAZ2IxJI-7E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jAZ2IxJI-7E",
+      "url": "https://www.youtube.com/watch?v=jAZ2IxJI-7E",
+      "creator": { "@type": "Person", "name": "Thomas Mietz" },
+      "duration": "PT96S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +214,34 @@ The Tripod Sweep is a fundamental open guard technique that creates a mechanical
 **From Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tripod Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0AnyD7w2wQE)
+
+<p class="clip-credit"><strong>Collar and sleeve tripod sweep</strong> — taught by Alberto Serrano · 1:29 · <a href="https://www.youtube.com/watch?v=0AnyD7w2wQE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jAZ2IxJI-7E)
+
+<p class="clip-credit"><strong>The tripod sweep</strong> — taught by Thomas Mietz · 1:36 · <a href="https://www.youtube.com/watch?v=jAZ2IxJI-7E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

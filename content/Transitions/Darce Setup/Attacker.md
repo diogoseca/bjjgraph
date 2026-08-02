@@ -168,6 +168,54 @@ description: "How to execute Darce Setup in BJJ. Attacking perspective with setu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Setup (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce choke setup from front headlock",
+      "description": "Darce Setup (Attacker) film study: Darce choke setup from front headlock, taught by Procel BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BMU1_wfjYTw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BMU1_wfjYTw",
+      "url": "https://www.youtube.com/watch?v=BMU1_wfjYTw",
+      "creator": { "@type": "Person", "name": "Procel BJJ coach" },
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mounted darce setup (no-gi)",
+      "description": "Darce Setup (Attacker) film study: Mounted darce setup (no-gi), taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dpjc7ly_wSY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dpjc7ly_wSY",
+      "url": "https://www.youtube.com/watch?v=dpjc7ly_wSY",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Drill to make the darce entry easy to catch",
+      "description": "Darce Setup (Attacker) film study: Drill to make the darce entry easy to catch, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/egZ6dBNmibo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/egZ6dBNmibo",
+      "url": "https://www.youtube.com/watch?v=egZ6dBNmibo",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ The Darce Setup is a crucial transitional technique that transforms front headlo
 **From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Setup (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BMU1_wfjYTw)
+
+<p class="clip-credit"><strong>Darce choke setup from front headlock</strong> — taught by Procel BJJ coach · 1:41 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dpjc7ly_wSY)
+
+<p class="clip-credit"><strong>Mounted darce setup (no-gi)</strong> — taught by ZombieProofBJJ · 1:22 · <a href="https://www.youtube.com/watch?v=dpjc7ly_wSY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=egZ6dBNmibo)
+
+<p class="clip-credit"><strong>Drill to make the darce entry easy to catch</strong> — taught by Brandon Quick · 1:03 · <a href="https://www.youtube.com/watch?v=egZ6dBNmibo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

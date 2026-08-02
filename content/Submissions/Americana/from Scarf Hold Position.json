@@ -20,7 +20,10 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "Scarf Hold Position",
   "from_position": "Scarf Hold Position/Top",
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "Within the americana family, the scarf hold entry occupies a distinct niche because kesa gatame already supplies the head-and-arm control that other variants must first establish. Unlike the Americana from mount or side control, this variant positions the attacker's hands near the target wrist from the outset, shortening the path to the figure-four. The perpendicular seating angle generates rotational leverage on the glenohumeral joint through body mechanics rather than pure arm strength, making this one of the highest-percentage americana setups in grappling.\n\nFrom the scarf hold, the attacker transitions from head control to wrist control while maintaining crushing hip pressure against the opponent's ribcage. The figure-four grip is established with the near arm securing the wrist and the far arm threading behind it, creating the classic paint brush finishing motion. The perpendicular angle means the attacker can use their entire torso rotation to drive the wrist toward the mat, applying substantially more force than arm-based finishes from parallel positions.\n\nDefensively, the bottom player must recognize the grip transition early and fight to straighten their arm before the figure-four locks in. Once the figure-four is secured with the elbow pinned, escape becomes extremely difficult. The scarf hold Americana represents a fundamental submission that rewards patience, grip precision, and understanding of rotational shoulder mechanics over explosive athleticism.",
   "safety_considerations": {
     "injury_risks": [
@@ -115,17 +118,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Scarf Hold Position/Top",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 11,
+      "probability": {
+        "gi": 11,
+        "nogi": 11
+      },
       "result": "counter"
     }
   ],
@@ -276,52 +288,181 @@
       {
         "question": "What anatomical structure does the Americana from Scarf Hold primarily attack?",
         "answer": "The Americana primarily attacks the glenohumeral joint (shoulder) by forcing external rotation beyond its safe range of motion. The rotational pressure stresses the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the labrum. Secondary stress occurs at the AC joint when the arm is driven toward the mat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder (glenohumeral joint)",
+        "distractors": {
+          "plausible": [
+            "Elbow hyperextension",
+            "Wrist and forearm tendons"
+          ],
+          "trap": [
+            "Cervical spine (neck crank)"
+          ]
+        }
       },
       {
         "question": "Your opponent begins straightening their arm as you transition from head control to wrist control - what adjustment prevents this defense?",
         "answer": "Immediately abandon the americana attempt and transition to a kimura grip by circling around their straightened wrist to attack the opposite rotational direction. A straightened arm is the ideal setup for a kimura. Alternatively, use your chest pressure to collapse their extended arm back to bent position by walking your body weight over the elbow before re-attempting the figure-four. Never chase a straightening arm with americana mechanics.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to kimura grip",
+        "distractors": {
+          "plausible": [
+            "Force wrist into figure-four",
+            "Squeeze the headlock tighter"
+          ],
+          "trap": [
+            "Chase the arm, get rolled to guard"
+          ]
+        }
       },
       {
         "question": "What is the correct fulcrum point when finishing the Americana from Scarf Hold?",
         "answer": "The pinned elbow serves as the fulcrum point. It must be pressed firmly against the mat by your near arm before any rotational pressure is applied. The elbow remains stationary while the wrist arcs toward the mat in the paint brush motion. Without a firmly pinned elbow, the opponent can pull their arm toward their body and collapse the submission angle entirely, negating your leverage advantage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pinned elbow on mat",
+        "distractors": {
+          "plausible": [
+            "Locked wrist grip",
+            "Opponent's shoulder"
+          ],
+          "trap": [
+            "Post the elbow up and get bridged"
+          ]
+        }
       },
       {
         "question": "You have the figure-four secured but the opponent is resisting the paint brush by gripping their own belt - what do you do?",
         "answer": "Maintain your figure-four grip and increase hip pressure to further isolate the arm. Use your forearm to peel their grip by driving into the gap between their hand and their belt or waistband. If the grip is too strong to break directly, threaten a transition to armbar by beginning to swing your leg over their head, which forces them to release the belt grip to defend the new threat. Return to the americana once their grip breaks.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Peel grip, threaten armbar",
+        "distractors": {
+          "plausible": [
+            "Yank the wrist harder",
+            "Wait for the grip to tire"
+          ],
+          "trap": [
+            "Drop hip pressure to rip grip"
+          ]
+        }
       },
       {
         "question": "How does the perpendicular angle of Scarf Hold change the Americana finishing mechanics compared to mount?",
         "answer": "The perpendicular angle allows you to use full torso rotation to drive the paint brush motion rather than relying primarily on arm strength as in mount. Your body weight drives through the hip into their ribcage at a 90-degree angle, preventing the opponent from bridging effectively. The scarf hold also provides natural wrist proximity through the existing head-and-arm control, making the grip transition shorter and more efficient than from mount where you must first isolate the arm.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Torso rotation, not arm strength",
+        "distractors": {
+          "plausible": [
+            "Isolate the arm first, then turn",
+            "Crank the wrist with arm power"
+          ],
+          "trap": [
+            "Sit up tall to torque harder"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges explosively during your grip transition from head control to wrist capture - how do you maintain control?",
         "answer": "Widen your base immediately by extending your back leg further behind you and dropping your hip weight lower against their ribcage. Ride the bridge by staying connected through chest pressure rather than posting away. If the bridge is strong enough to create space, abandon the americana attempt and re-establish head control first. Only re-attempt the grip transition when you have consolidated heavy hip pressure and confirmed your base can absorb their bridge.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Widen base, drop hip weight",
+        "distractors": {
+          "plausible": [
+            "Post far hand on the mat",
+            "Squeeze headlock tighter"
+          ],
+          "trap": [
+            "Chase the wrist through the bridge"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the Americana from Scarf Hold in training?",
         "answer": "Apply pressure slowly and progressively over 3-5 seconds minimum. Never jerk, spike, or use sudden rotational force on the shoulder. In drilling, use 10-20% pressure maximum. Always ensure your opponent has clear access to tap with their free hand. Stop immediately at any sign of discomfort without waiting for a formal tap. Never practice repeatedly on the same shoulder in one session. Be especially cautious with training partners who have existing shoulder injuries.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply pressure slow, progressive",
+        "distractors": {
+          "plausible": [
+            "Drill at 60% for realism",
+            "Hold until a formal tap comes"
+          ],
+          "trap": [
+            "Snap the rotation to finish fast"
+          ]
+        }
       },
       {
         "question": "How should you release the Americana from Scarf Hold after your opponent taps?",
         "answer": "Immediately stop all rotational pressure on the shoulder. Release the figure-four grip on the wrist. Carefully lower the arm back to a neutral position without dropping it suddenly, as the shoulder may already be stressed. Release all control of the elbow and allow your opponent to move freely. Verbally check with your partner to confirm they are okay. If they indicate any pain, encourage them to keep the shoulder mobile and seek medical attention if pain persists.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip, lower arm gently",
+        "distractors": {
+          "plausible": [
+            "Drop the arm and reset fast",
+            "Ask if ok before letting go"
+          ],
+          "trap": [
+            "Crank a bit more past the tap"
+          ]
+        }
       },
       {
         "question": "At what point during the Americana application is the submission considered past the point of no escape?",
         "answer": "The point of no escape occurs once the figure-four grip is fully locked with the elbow pinned to the mat and the attacker's hip pressure prevents any torso rotation. At this stage, the defender cannot straighten their arm, grip their belt, or bridge effectively. The only remaining option is to tap. This is why early recognition and defense before the figure-four is secured is critical for the defender, and why the attacker must apply progressive pressure once reaching this control threshold.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four locked, elbow pinned",
+        "distractors": {
+          "plausible": [
+            "When the wrist grip is set",
+            "Once scarf hold is established"
+          ],
+          "trap": [
+            "Only when the shoulder pops"
+          ]
+        }
       },
       {
         "question": "What submission chain options exist when the Americana from Scarf Hold is partially defended?",
         "answer": "If the opponent straightens their arm, transition to kimura by circling the grip to attack opposite rotation. If they turn into you to close the angle, switch to arm triangle by threading your arm around their neck and trapped arm. If they push on your head with their far arm, attack that arm with a far-side armbar or transition to north-south for additional submission options. The scarf hold americana is most effective as part of a chain rather than as an isolated attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chain to kimura or arm triangle",
+        "distractors": {
+          "plausible": [
+            "Crank harder until it finishes",
+            "Switch to a near-side wrist lock"
+          ],
+          "trap": [
+            "Posture up, get scooped into guard"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "a4fJ3xTZYnU",
+        "title": "Side control to Americana (Kata-gatame)",
+        "by": "Sergio Babu Gasparelli",
+        "vertical": false,
+        "channel": "Sergio Babu Gasparelli - MMA - Brazilian Jiu Jitsu",
+        "duration": 57,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2Y5HdBxqPv8",
+        "title": "Attacks from scarf hold",
+        "by": "Goulburn Martial Arts Academy",
+        "vertical": false,
+        "channel": "Goulburn Martial Arts Academy",
+        "duration": 69,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SkFE9CBKvsA",
+        "title": "Modified Americana grip",
+        "by": "BJJ After Forty",
+        "vertical": false,
+        "channel": "BJJ After Forty",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -414,27 +555,77 @@
       {
         "question": "How do you recognize the Americana from Scarf Hold is being set up?",
         "answer": "The primary recognition cue is the attacker releasing head control with their far arm and sliding it toward your near-side wrist. You will also feel increased hip pressure as they load weight over your shoulder, and their near arm will begin pressing your elbow specifically toward the mat. The tactile cue of your forearm being flattened against the mat with your hand palm-up confirms the americana setup is in progress.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Far arm slides to your wrist",
+        "distractors": {
+          "plausible": [
+            "Cross-face pressure increases",
+            "Their shin slides over your hip"
+          ],
+          "trap": [
+            "Wait for the figure-four to lock"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Americana from Scarf Hold to prevent injury?",
         "answer": "Tap early and clearly before you feel sharp pain in the shoulder. Use your free hand to tap firmly on the attacker's body or the mat at least twice. If your free hand is obstructed, tap the mat with your foot or verbalize 'tap' loudly. Do not try to be tough and ride through shoulder pressure - the americana applies force to the rotator cuff and labrum which can tear without warning. Tap the moment you feel the shoulder reaching its end range of comfortable motion.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, before shoulder pain",
+        "distractors": {
+          "plausible": [
+            "Wait for pain, then signal quickly",
+            "One soft tap on your own leg"
+          ],
+          "trap": [
+            "Tough it out, ride the pressure"
+          ]
+        }
       },
       {
         "question": "What defensive options are available when the figure-four grip is partially locked?",
         "answer": "If the figure-four is partially but not fully locked, aggressively strip the grip by pulling your elbow tight to your ribs and rotating your forearm to break the attacker's hand position. Bridge simultaneously to disrupt their base and create enough movement to dislodge the incomplete grip. If the grip is nearly complete, prioritize straightening your arm before the last connection is made, as a straight arm cannot be effectively attacked with americana mechanics.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip grip, pull elbow to ribs",
+        "distractors": {
+          "plausible": [
+            "Bench press their chest upward",
+            "Kick legs to create momentum"
+          ],
+          "trap": [
+            "Roll toward them into the lock"
+          ]
+        }
       },
       {
         "question": "Your opponent has pinned your elbow and is beginning the paint brush motion - what is your last viable defense?",
         "answer": "At this late stage, your options are extremely limited. Grip your own thigh, belt, or waistband with maximum strength to anchor your wrist and resist the paint brush motion. Simultaneously bridge toward the attacker to disrupt their rotational angle. If you cannot stop the progression, tap immediately rather than risking shoulder injury. Once the elbow is pinned and the paint brush begins, the submission is mechanically sound and fighting through it risks serious rotator cuff or labral damage.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Anchor wrist to belt or thigh",
+        "distractors": {
+          "plausible": [
+            "Bridge away from the attacker",
+            "Kick legs to create momentum"
+          ],
+          "trap": [
+            "Endure the crank hunting escape"
+          ]
+        }
       },
       {
         "question": "When should you prioritize tapping rather than continuing escape attempts against the Americana?",
         "answer": "Tap immediately if you feel sharp pain in the shoulder joint, if your arm is being rotated beyond its comfortable range and you cannot stop the progression, if the figure-four is fully locked with your elbow pinned and you have no grip anchor, or if you feel a popping or clicking sensation in the shoulder. In training, err heavily toward tapping early. A shoulder injury can sideline you for months. No training round is worth a torn rotator cuff or dislocated shoulder.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "At sharp pain or full lock",
+        "distractors": {
+          "plausible": [
+            "Only when the escape fails twice",
+            "When your free hand goes numb"
+          ],
+          "trap": [
+            "Hold on to prove you can take it"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -452,6 +643,26 @@
         "phase": "Phase 3: Escape Integration",
         "focus": "Combining americana defense with scarf hold escape sequences",
         "description": "Partner attempts full americana from scarf hold at progressive resistance levels. Defender chains americana defense directly into escape attempts - bridge during grip transition, ghost escape when arm control is disrupted, guard recovery when space is created. 5 rounds of 3 minutes with full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "c5GUAlY1YwE",
+        "title": "Scarf hold headlock escape",
+        "by": "Clinch",
+        "vertical": false,
+        "channel": "Clinch Dirty Boxing-Brazilian Jiu-Jitsu-Krav Maga",
+        "duration": 141,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HMTN5IrV2Mw",
+        "title": "Kesa-gatame escape and armlock",
+        "by": "Kombatan Kali Brianza",
+        "vertical": false,
+        "channel": "Kombatan kali - Brianza",
+        "duration": 15,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -174,6 +174,54 @@ description: "How to execute Rolling to Guard in BJJ. Complete guide covering se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling to Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling to guard from turtle",
+      "description": "Rolling to Guard (Attacker) film study: Rolling to guard from turtle, taught by TSOMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HQc48KjD-lE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HQc48KjD-lE",
+      "url": "https://www.youtube.com/watch?v=HQc48KjD-lE",
+      "creator": { "@type": "Person", "name": "TSOMMA" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering guard from the turtle position",
+      "description": "Rolling to Guard (Attacker) film study: Recovering guard from the turtle position, taught by Gracie Barra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PYk5Ei2IZBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PYk5Ei2IZBk",
+      "url": "https://www.youtube.com/watch?v=PYk5Ei2IZBk",
+      "creator": { "@type": "Person", "name": "Gracie Barra" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle escape with the shoulder roll",
+      "description": "Rolling to Guard (Attacker) film study: Turtle escape with the shoulder roll, taught by BJJake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
+      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
+      "creator": { "@type": "Person", "name": "BJJake" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing Rolling to Guard, your objective is to convert the def
 **From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling to Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HQc48KjD-lE)
+
+<p class="clip-credit"><strong>Rolling to guard from turtle</strong> — taught by TSOMMA · 0:52 · <a href="https://www.youtube.com/watch?v=HQc48KjD-lE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PYk5Ei2IZBk)
+
+<p class="clip-credit"><strong>Recovering guard from the turtle position</strong> — taught by Gracie Barra · 0:53 · <a href="https://www.youtube.com/watch?v=PYk5Ei2IZBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W0TCGKRcniA)
+
+<p class="clip-credit"><strong>Turtle escape with the shoulder roll</strong> — taught by BJJake · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

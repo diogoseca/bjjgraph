@@ -18,6 +18,20 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import slugify as _slugify  # shared single-source slugify
+from _ruleset import (  # gi/no-gi ruleset contract (calibration-v2)
+    RULESETS,
+    is_ruleset_map,
+    any_ruleset_map,
+    available,
+    cell,
+    sum_cells,
+    present_rulesets,
+)
+
+# When True (--strict-ruleset), probability fields MUST be {gi,nogi} maps; bare
+# scalars are rejected. Default False (lenient: accept legacy int OR map) so the
+# pre-migration single-int corpus validates byte-identically.
+STRICT_RULESET = False
 
 try:
     import jsonschema
@@ -312,6 +326,52 @@ def validate_products(data, category):
     return warnings
 
 
+def iter_clips_arrays(data):
+    """Yield (location, clips_list) for every clips array in a content file:
+    root plus any role block (top/bottom/attacker/defender) that carries one."""
+    if not isinstance(data, dict):
+        return
+    if isinstance(data.get("clips"), list):
+        yield "clips", data["clips"]
+    for role in ("top", "bottom", "attacker", "defender"):
+        block = data.get(role)
+        if isinstance(block, dict) and isinstance(block.get("clips"), list):
+            yield f"{role}.clips", block["clips"]
+
+
+def validate_clips(data, category):
+    """Semantic checks on curated YouTube clips that the schema can't express.
+    Returns (errors, warnings): inverted start/end loop bounds are blocking
+    (the player would never play); end-past-duration and duplicate ids are
+    warnings — clips are machine-verified externally by verify_clips.py."""
+    errors = []
+    warnings = []
+    seen_ids = {}
+    for loc, clips in iter_clips_arrays(data):
+        for i, clip in enumerate(clips):
+            if not isinstance(clip, dict):
+                continue
+            where = f"{loc}[{i}]"
+            cid = clip.get("id")
+            start = clip.get("start")
+            end = clip.get("end")
+            duration = clip.get("duration")
+            if isinstance(start, int) and isinstance(end, int) and start >= end:
+                errors.append(f"{where} ('{cid}'): start ({start}) must be < end ({end})")
+            if isinstance(end, int) and isinstance(duration, int) and end > duration:
+                warnings.append(
+                    f"{where} ('{cid}'): end ({end}) exceeds video duration ({duration})"
+                )
+            if cid:
+                if cid in seen_ids:
+                    warnings.append(
+                        f"{where}: duplicate clip id '{cid}' (also at {seen_ids[cid]})"
+                    )
+                else:
+                    seen_ids[cid] = where
+    return errors, warnings
+
+
 def extract_references_from_field(data, field_path, field_config):
     """Extract references from a specific field in the JSON data."""
     references = []
@@ -542,7 +602,16 @@ def validate_success_rate_ordering(data, path=""):
     errors = []
 
     def check_single_rate(rate, location):
-        """Check that a single rate value is 0-100."""
+        """Check that a single rate value is 0-100 (scalar or {gi,nogi} map)."""
+        if is_ruleset_map(rate):
+            for rs in RULESETS:
+                c = rate.get(rs)
+                if isinstance(c, int) and (c < 0 or c > 100):
+                    errors.append(f"{location}[{rs}]: value {c} out of range 0-100")
+            return
+        if STRICT_RULESET and isinstance(rate, int):
+            errors.append(f"{location}: bare scalar {rate}; expected a {{gi,nogi}} map (--strict-ruleset)")
+            return
         if isinstance(rate, int):
             if rate < 0 or rate > 100:
                 errors.append(f"{location}: value {rate} out of range 0-100")
@@ -598,14 +667,21 @@ def validate_attempt_probability_sum(transitions, path=""):
     if not has_attempt_probability:
         return errors
 
-    total = sum(
-        t.get('attempt_probability', 0)
-        for t in transitions
-        if isinstance(t, dict)
-    )
+    dict_transitions = [t for t in transitions if isinstance(t, dict)]
+    ap_values = [t['attempt_probability'] for t in dict_transitions if 'attempt_probability' in t]
 
-    if total != 100:
-        errors.append(f"{path}: attempt_probability sum is {total}, should be 100")
+    if any_ruleset_map(ap_values):
+        # Forked data: each ruleset's available cells must independently sum to 100.
+        for rs in present_rulesets(ap_values):
+            total = sum_cells(dict_transitions, 'attempt_probability', rs)
+            if total != 100:
+                errors.append(f"{path}: attempt_probability[{rs}] sum is {total:g}, should be 100")
+    else:
+        if STRICT_RULESET:
+            errors.append(f"{path}: attempt_probability is a bare scalar; expected {{gi,nogi}} maps (--strict-ruleset)")
+        total = sum(t.get('attempt_probability', 0) for t in dict_transitions)
+        if total != 100:
+            errors.append(f"{path}: attempt_probability sum is {total}, should be 100")
 
     return errors
 
@@ -749,15 +825,21 @@ def validate_transition_outcomes(data, category, content_index, path=""):
         validate_transition_outcomes.alias_index = build_alias_index()
     alias_index = validate_transition_outcomes.alias_index
 
-    # Validate probability sum
-    total_probability = sum(
-        o.get('probability', 0)
-        for o in outcomes
-        if isinstance(o, dict)
-    )
+    # Validate probability sum (per-ruleset when forked; legacy single-sum otherwise)
+    dict_outcomes = [o for o in outcomes if isinstance(o, dict)]
+    prob_values = [o['probability'] for o in dict_outcomes if 'probability' in o]
 
-    if total_probability != 100:
-        errors.append(f"{path}outcomes: probability sum is {total_probability}, should be 100")
+    if any_ruleset_map(prob_values):
+        for rs in present_rulesets(prob_values):
+            total = sum_cells(dict_outcomes, 'probability', rs)
+            if total != 100:
+                errors.append(f"{path}outcomes: probability[{rs}] sum is {total:g}, should be 100")
+    else:
+        if STRICT_RULESET:
+            errors.append(f"{path}outcomes: probability is a bare scalar; expected {{gi,nogi}} maps (--strict-ruleset)")
+        total_probability = sum(o.get('probability', 0) for o in dict_outcomes)
+        if total_probability != 100:
+            errors.append(f"{path}outcomes: probability sum is {total_probability}, should be 100")
 
     # Validate each outcome
     for i, outcome in enumerate(outcomes):
@@ -1051,6 +1133,13 @@ def validate_json_file(json_path, schema, category, strict=False):
     warnings.extend(product_warnings)
     categories["non_blocking"].extend(product_warnings)
 
+    # Curated YouTube clips → inverted loop bounds blocking, the rest warnings
+    clip_errors, clip_warnings = validate_clips(data, category)
+    errors.extend(clip_errors)
+    categories["blocking"].extend(clip_errors)
+    warnings.extend(clip_warnings)
+    categories["non_blocking"].extend(clip_warnings)
+
     # Build content index for cross-file validation (cached in function)
     if not hasattr(validate_json_file, 'content_index'):
         validate_json_file.content_index = build_content_index()
@@ -1092,14 +1181,26 @@ def validate_json_file(json_path, schema, category, strict=False):
         outcomes = data.get('outcomes')
         if outcomes and isinstance(outcomes, list):
             # Reuse the same validation logic as transitions
-            # Validate probability sum
-            total_probability = sum(
-                o.get('probability', 0) for o in outcomes if isinstance(o, dict)
-            )
-            if total_probability != 100:
-                err = f"{json_path.name}:outcomes: probability sum is {total_probability}, should be 100"
-                errors.append(err)
-                categories["blocking"].append(err)
+            # Validate probability sum (per-ruleset when forked; legacy single-sum otherwise)
+            dict_outcomes = [o for o in outcomes if isinstance(o, dict)]
+            prob_values = [o['probability'] for o in dict_outcomes if 'probability' in o]
+            if any_ruleset_map(prob_values):
+                for rs in present_rulesets(prob_values):
+                    total = sum_cells(dict_outcomes, 'probability', rs)
+                    if total != 100:
+                        err = f"{json_path.name}:outcomes: probability[{rs}] sum is {total:g}, should be 100"
+                        errors.append(err)
+                        categories["blocking"].append(err)
+            else:
+                if STRICT_RULESET:
+                    err = f"{json_path.name}:outcomes: probability is a bare scalar; expected {{gi,nogi}} maps (--strict-ruleset)"
+                    errors.append(err)
+                    categories["blocking"].append(err)
+                total_probability = sum(o.get('probability', 0) for o in dict_outcomes)
+                if total_probability != 100:
+                    err = f"{json_path.name}:outcomes: probability sum is {total_probability}, should be 100"
+                    errors.append(err)
+                    categories["blocking"].append(err)
 
             # Validate each outcome
             valid_results = {'success', 'failure', 'counter'}
@@ -1164,26 +1265,36 @@ def validate_category(category, strict=False):
         # Show relative path for nested files
         relative_path = json_file.relative_to(category_path)
 
-        if errors or (warnings and strict):
+        # Severity gate (matches ci-validate.yml charter: the HARD gate fails on
+        # SCHEMA BREAKS only). BLOCKING = schema failures / attempt-sum errors /
+        # invalid-category refs → hard fail. NON_BLOCKING (broken related_content
+        # links, name mismatches, disambiguation/product warnings) + plain warnings
+        # are surfaced but do NOT fail the gate. `--strict` escalates everything.
+        blocking = cats["blocking"]
+        non_blocking = cats["non_blocking"]
+        cat_all = set(blocking) | set(non_blocking)
+        extra_warnings = [w for w in warnings if w not in cat_all]
+        soft = non_blocking + extra_warnings  # non-failing signals
+
+        if blocking or (strict and soft):
             print(f"\n✗ {relative_path}:")
-            for error in cats["blocking"]:
+            for error in blocking:
                 print(f"  - BLOCKING: {error}")
-            for error in cats["non_blocking"]:
+            for error in non_blocking:
                 print(f"  - NON_BLOCKING: {error}")
-            # Print any warnings not already in categories
-            cat_all = set(cats["blocking"]) | set(cats["non_blocking"])
-            for warning in warnings:
-                if warning not in cat_all:
-                    print(f"  - WARNING: {warning}")
-            total_errors += len(errors)
-            if strict:
-                total_errors += len(warnings)
-            failed_files.append(str(relative_path))
-        elif warnings:
-            print(f"⚠ {relative_path}:")
-            for warning in warnings:
+            for warning in extra_warnings:
                 print(f"  - WARNING: {warning}")
-            total_warnings += len(warnings)
+            total_errors += len(blocking)
+            if strict:
+                total_errors += len(soft)
+            failed_files.append(str(relative_path))
+        elif soft:
+            print(f"⚠ {relative_path}:")
+            for warning in non_blocking:
+                print(f"  - NON_BLOCKING: {warning}")
+            for warning in extra_warnings:
+                print(f"  - WARNING: {warning}")
+            total_warnings += len(soft)
         else:
             print(f"✓ {relative_path}")
 
@@ -1242,8 +1353,13 @@ Examples:
     parser.add_argument('--category', choices=list(CATEGORIES.keys()), help='Category to validate')
     parser.add_argument('--all', action='store_true', help='Validate all files in category or all categories')
     parser.add_argument('--strict', action='store_true', help='Strict mode: fail on warnings')
+    parser.add_argument('--strict-ruleset', action='store_true',
+                        help='Require probability fields to be {gi,nogi} maps (post dual-ruleset migration)')
 
     args = parser.parse_args()
+
+    global STRICT_RULESET
+    STRICT_RULESET = args.strict_ruleset
 
     # Validate arguments
     if not (args.file or (args.category and args.all) or args.all):

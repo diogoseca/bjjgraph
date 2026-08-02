@@ -142,6 +142,43 @@ description: "Defend against the Kimura from Lockdown half guard in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Lockdown (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter the Kimura From Half Guard",
+      "description": "Kimura from Lockdown (Defender) film study: Counter the Kimura From Half Guard, taught by Troy Manning.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_JzYqwuH-Q0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_JzYqwuH-Q0",
+      "url": "https://www.youtube.com/watch?v=_JzYqwuH-Q0",
+      "creator": { "@type": "Person", "name": "Troy Manning" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking the Lockdown Half Guard",
+      "description": "Kimura from Lockdown (Defender) film study: Breaking the Lockdown Half Guard, taught by Superhero Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-49CypLW9aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-49CypLW9aM",
+      "url": "https://www.youtube.com/watch?v=-49CypLW9aM",
+      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +189,34 @@ Defending the Kimura from Lockdown requires addressing both the shoulder lock th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Lockdown (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_JzYqwuH-Q0)
+
+<p class="clip-credit"><strong>Counter the Kimura From Half Guard</strong> — taught by Troy Manning · 0:51 · <a href="https://www.youtube.com/watch?v=_JzYqwuH-Q0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-49CypLW9aM)
+
+<p class="clip-credit"><strong>Breaking the Lockdown Half Guard</strong> — taught by Superhero Jiu Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=-49CypLW9aM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

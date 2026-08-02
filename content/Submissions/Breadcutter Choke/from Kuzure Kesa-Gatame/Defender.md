@@ -144,6 +144,54 @@ description: "Defend against the Breadcutter Choke from Kuzure Kesa-Gatame with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Breadcutter Choke from Kuzure Kesa-Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame Pressure Defense with Framing",
+      "description": "Breadcutter Choke from Kuzure Kesa-Gatame (Defender) film study: Kesa Gatame Pressure Defense with Framing, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Modified Kesa-Gatame Escape",
+      "description": "Breadcutter Choke from Kuzure Kesa-Gatame (Defender) film study: Modified Kesa-Gatame Escape, taught by Shane Moore.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5eAmcE9UXNc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5eAmcE9UXNc",
+      "url": "https://www.youtube.com/watch?v=5eAmcE9UXNc",
+      "creator": { "@type": "Person", "name": "Shane Moore" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Scarf Hold (Kesa Gatame) Escape",
+      "description": "Breadcutter Choke from Kuzure Kesa-Gatame (Defender) film study: Scarf Hold (Kesa Gatame) Escape, taught by Bruce Fowler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2okf5X17jeg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2okf5X17jeg",
+      "url": "https://www.youtube.com/watch?v=2okf5X17jeg",
+      "creator": { "@type": "Person", "name": "Bruce Fowler" },
+      "duration": "PT230S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the Breadcutter Choke from Kuzure Kesa-Gatame demands early recognitio
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Breadcutter Choke from Kuzure Kesa-Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense with Framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5eAmcE9UXNc)
+
+<p class="clip-credit"><strong>Modified Kesa-Gatame Escape</strong> — taught by Shane Moore · 2:06 · <a href="https://www.youtube.com/watch?v=5eAmcE9UXNc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2okf5X17jeg)
+
+<p class="clip-credit"><strong>Scarf Hold (Kesa Gatame) Escape</strong> — taught by Bruce Fowler · 3:50 · <a href="https://www.youtube.com/watch?v=2okf5X17jeg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

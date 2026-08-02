@@ -140,6 +140,43 @@ description: "Defend against the Standing Escape from Reverse X-Guard as the bot
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Escape from Reverse X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse X and single leg X guard options",
+      "description": "Standing Escape from Reverse X-Guard (Defender) film study: Reverse X and single leg X guard options, taught by Steven Kaloustian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
+      "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
+      "creator": { "@type": "Person", "name": "Steven Kaloustian" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Honey hole entries from reverse X guard",
+      "description": "Standing Escape from Reverse X-Guard (Defender) film study: Honey hole entries from reverse X guard, taught by BisBros BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QR_mF1mABiw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QR_mF1mABiw",
+      "url": "https://www.youtube.com/watch?v=QR_mF1mABiw",
+      "creator": { "@type": "Person", "name": "BisBros BJJ" },
+      "duration": "PT231S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ When defending against the Standing Escape from Reverse X-Guard, the bottom play
 **Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Escape from Reverse X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EcxCadpBePk)
+
+<p class="clip-credit"><strong>Reverse X and single leg X guard options</strong> — taught by Steven Kaloustian · 1:37 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QR_mF1mABiw)
+
+<p class="clip-credit"><strong>Honey hole entries from reverse X guard</strong> — taught by BisBros BJJ · 3:51 · <a href="https://www.youtube.com/watch?v=QR_mF1mABiw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

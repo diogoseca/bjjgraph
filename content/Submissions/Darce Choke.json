@@ -25,7 +25,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
   "from_position": "Darce Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "variant_uniqueness": "Arm-triangle choke using opponent's own shoulder for bilateral compression",
   "summary": "The Darce is a no-gi arm-triangle blood choke that threads one arm under the opponent's near armpit and across their neck, then closes a figure-four to compress both carotids using their own trapped shoulder.",
   "overview": "The Darce Choke is a highly effective blood choke that targets the carotid arteries through a figure-four arm configuration combined with shoulder pressure. Named after Joe D'Arce who popularized it in no-gi competition, this submission represents one of the most versatile finishing techniques from transitional positions. The mechanics involve threading one arm under the opponent's near arm and around their neck, then clasping your hands together while using your shoulder to create compression on one side and your forearm on the other. This bilateral compression restricts blood flow to the brain, producing a rapid loss of consciousness if not defended.\n\nThe Darce's effectiveness stems from its applicability across multiple positions—front headlock, turtle, scrambles, and even from bottom positions—making it a cornerstone technique in modern no-gi grappling. Unlike traditional gi chokes that rely on fabric grips, the Darce's body mechanics and leverage make it equally effective with or without the gi, though it's primarily considered a no-gi specialist's weapon. The technique creates a powerful dilemma for defenders: protecting the neck exposes the back, while defending the back creates the arm-neck gap needed for the Darce entry.",
@@ -211,6 +214,44 @@
     {
       "name": "Guillotine Control",
       "relationship": "Related control position—guillotine defenses frequently create the arm-neck gap needed for darce entry"
+    }
+  ],
+  "clips": [
+    {
+      "id": "ukb_hx28qsM",
+      "title": "Side Control D'Arce Choke (No Gi)",
+      "by": "ZombieProofBJJ",
+      "vertical": false,
+      "channel": "ZombieProofBJJ",
+      "duration": 74,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "22EYQ2uhxQw",
+      "title": "Side control to north-south D'Arce",
+      "by": "Gracie Westchase",
+      "vertical": false,
+      "channel": "Gracie Westchase ",
+      "duration": 75,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "eEDKC2F3U2k",
+      "title": "Double stack pass to a Darce choke",
+      "by": "All Day MMA and Jiu Jitsu",
+      "vertical": false,
+      "channel": "All Day MMA and Jiu Jitsu ",
+      "duration": 85,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Rosmg5rjo_s",
+      "title": "Darce choke to guard pass",
+      "by": "Josh Presley",
+      "vertical": false,
+      "channel": "Josh Presley",
+      "duration": 121,
+      "verified": "2026-07-14"
     }
   ]
 }

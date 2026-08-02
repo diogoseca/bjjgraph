@@ -433,43 +433,163 @@
   "flashcards": [
     {
       "question": "What is submission defense in BJJ?",
-      "answer": "Submission defense is the systematic skillset of preventing, recognizing, and escaping submission attempts through positioning, framing, grip-fighting, and space generation, rather than relying on panic or isolated escapes."
+      "answer": "Submission defense is the systematic skillset of preventing, recognizing, and escaping submission attempts through positioning, framing, grip-fighting, and space generation, rather than relying on panic or isolated escapes.",
+      "answer_line": "Prevention, recognition, escape",
+      "distractors": {
+        "plausible": [
+          "Only escape once it's locked in",
+          "A handful of key escape moves"
+        ],
+        "trap": [
+          "Power through with strength alone"
+        ]
+      }
     },
     {
       "question": "Why is early recognition more valuable than late-stage escapes?",
-      "answer": "Escape windows are widest before a submission locks in; recognizing grip changes, weight shifts, and angle adjustments early lets you defend while the energy cost is low and success probability remains high."
+      "answer": "Escape windows are widest before a submission locks in; recognizing grip changes, weight shifts, and angle adjustments early lets you defend while the energy cost is low and success probability remains high.",
+      "answer_line": "Widest window, least energy",
+      "distractors": {
+        "plausible": [
+          "Escapes work best once locked in",
+          "Late escapes use less energy"
+        ],
+        "trap": [
+          "Wait for the tap to react"
+        ]
+      }
     },
     {
       "question": "What is the defensive hierarchy that structures submission defense?",
-      "answer": "It proceeds from prevention through positioning, to disrupting the setup, to creating frames, to generating escape space, and finally to a technical escape, escalating in urgency only as the threat tightens."
+      "answer": "It proceeds from prevention through positioning, to disrupting the setup, to creating frames, to generating escape space, and finally to a technical escape, escalating in urgency only as the threat tightens.",
+      "answer_line": "Position, disrupt, frame, escape",
+      "distractors": {
+        "plausible": [
+          "Jump straight to technical escape",
+          "Escape first, then re-frame"
+        ],
+        "trap": [
+          "Muscle out immediately"
+        ]
+      }
     },
     {
       "question": "Why is grip fighting considered the first line of submission defense?",
-      "answer": "Once an opponent secures critical grips like belt control, wrist control, or ankle grips, escapes become exponentially harder, so breaking or preventing those grips stops most submissions before they can materialize."
+      "answer": "Once an opponent secures critical grips like belt control, wrist control, or ankle grips, escapes become exponentially harder, so breaking or preventing those grips stops most submissions before they can materialize.",
+      "answer_line": "Deny grips before they lock in",
+      "distractors": {
+        "plausible": [
+          "Break grips after submission locks",
+          "Focus on strength, ignore grips"
+        ],
+        "trap": [
+          "Let grips lock, then power out"
+        ]
+      }
     },
     {
       "question": "What is the danger of defending submissions with upper-body strength alone?",
-      "answer": "Arms fatigue quickly and frames collapse without hip support, so effective defense must integrate hip escapes, bridging, and shrimping to generate the space that most escapes require."
+      "answer": "Arms fatigue quickly and frames collapse without hip support, so effective defense must integrate hip escapes, bridging, and shrimping to generate the space that most escapes require.",
+      "answer_line": "Arms fatigue, frames collapse",
+      "distractors": {
+        "plausible": [
+          "Hips are optional if arms are strong",
+          "Frames alone stop most subs"
+        ],
+        "trap": [
+          "Rely purely on arm strength"
+        ]
+      }
     },
     {
       "question": "What should you do when caught in a fully locked submission you cannot escape?",
-      "answer": "Make a tactical decision to concede position rather than risk injury — give up the arm to save the choke, or surrender the pass to prevent the leg lock — and tap promptly when an escape is genuinely impossible."
+      "answer": "Make a tactical decision to concede position rather than risk injury — give up the arm to save the choke, or surrender the pass to prevent the leg lock — and tap promptly when an escape is genuinely impossible.",
+      "answer_line": "Tap promptly to avoid injury",
+      "distractors": {
+        "plausible": [
+          "Concede position to escape",
+          "Ask your partner to ease off"
+        ],
+        "trap": [
+          "Explosively muscle your way out"
+        ]
+      }
     },
     {
       "question": "Why does breath control matter when defending submissions?",
-      "answer": "Holding the breath rapidly depletes oxygen, accelerates fatigue, and clouds decision-making; controlled breathing extends defensive capacity, preserves mental clarity, and serves as biofeedback that technique is intact."
+      "answer": "Holding the breath rapidly depletes oxygen, accelerates fatigue, and clouds decision-making; controlled breathing extends defensive capacity, preserves mental clarity, and serves as biofeedback that technique is intact.",
+      "answer_line": "Preserves energy and clarity",
+      "distractors": {
+        "plausible": [
+          "Hold breath to brace for impact",
+          "Breathe fast to power escapes"
+        ],
+        "trap": [
+          "Hold your breath and grind"
+        ]
+      }
     },
     {
       "question": "How does the position-over-submission principle apply to defense?",
-      "answer": "You should fully escape the threat and establish a safe position before attempting any offense, because counter-submitting from an inferior position usually fails against skilled opponents and worsens your situation."
+      "answer": "You should fully escape the threat and establish a safe position before attempting any offense, because counter-submitting from an inferior position usually fails against skilled opponents and worsens your situation.",
+      "answer_line": "Escape fully before attacking",
+      "distractors": {
+        "plausible": [
+          "Counter-submit from bad position",
+          "Submit first, then fix position"
+        ],
+        "trap": [
+          "Chase a submission mid-escape"
+        ]
+      }
     },
     {
       "question": "Which training method best develops realistic submission defense?",
-      "answer": "Submission-specific positional sparring — starting with the submission partially applied and escaping under progressive resistance — builds genuine timing and pressure tolerance without full-round fatigue or injury risk."
+      "answer": "Submission-specific positional sparring — starting with the submission partially applied and escaping under progressive resistance — builds genuine timing and pressure tolerance without full-round fatigue or injury risk.",
+      "answer_line": "Positional sparring from submission",
+      "distractors": {
+        "plausible": [
+          "Cooperative reps with no resistance",
+          "Roll light with smaller partners"
+        ],
+        "trap": [
+          "Escape only after it locks deep"
+        ]
+      }
     },
     {
       "question": "How do experts make submission attempts mechanically impossible rather than just escaping them?",
-      "answer": "They proactively manipulate positioning and connections to deny the angles and grips an attacker needs, defending before the setup even begins instead of reacting after the submission is underway."
+      "answer": "They proactively manipulate positioning and connections to deny the angles and grips an attacker needs, defending before the setup even begins instead of reacting after the submission is underway.",
+      "answer_line": "Deny angles and grips proactively",
+      "distractors": {
+        "plausible": [
+          "React quickly once setup starts",
+          "Rely on speed to beat the setup"
+        ],
+        "trap": [
+          "Wait and counter after it's locked"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "775gXyYzB08",
+      "title": "The first five escapes you need to know",
+      "by": "Knight Jiu-Jitsu",
+      "vertical": false,
+      "channel": "Knight Jiu-Jitsu",
+      "duration": 521,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "kNdKfUdgO4I",
+      "title": "Favorite armbar escape",
+      "by": "Matt Arroyo",
+      "vertical": false,
+      "channel": "Matt Arroyo Jiu Jitsu ",
+      "duration": 92,
+      "verified": "2026-07-15"
     }
   ]
 }

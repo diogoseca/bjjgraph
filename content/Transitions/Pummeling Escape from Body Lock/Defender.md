@@ -132,6 +132,43 @@ description: "Defensive guide for maintaining body lock control against pummelin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pummeling Escape from Body Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Far side underhook pin",
+      "description": "Pummeling Escape from Body Lock (Defender) film study: Far side underhook pin, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mWimgVQrsMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mWimgVQrsMU",
+      "url": "https://www.youtube.com/watch?v=mWimgVQrsMU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT137S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Pummeling Inside Control",
+      "description": "Pummeling Escape from Body Lock (Defender) film study: Leg Pummeling Inside Control, taught by Charles Harriott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w5qnEO1r-lY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w5qnEO1r-lY",
+      "url": "https://www.youtube.com/watch?v=w5qnEO1r-lY",
+      "creator": { "@type": "Person", "name": "Charles Harriott" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +178,34 @@ As the defender maintaining the body lock, your objective is to prevent the oppo
 **Opponent's Starting Position**: [[Positions/Body Lock]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pummeling Escape from Body Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mWimgVQrsMU)
+
+<p class="clip-credit"><strong>Far side underhook pin</strong> — taught by Craig Jones · 2:17 · <a href="https://www.youtube.com/watch?v=mWimgVQrsMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w5qnEO1r-lY)
+
+<p class="clip-credit"><strong>Leg Pummeling Inside Control</strong> — taught by Charles Harriott · 1:53 · <a href="https://www.youtube.com/watch?v=w5qnEO1r-lY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

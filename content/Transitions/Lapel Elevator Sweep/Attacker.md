@@ -168,6 +168,43 @@ description: "How to execute Lapel Elevator Sweep in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Elevator Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapeloplata guard to lapel sweep",
+      "description": "Lapel Elevator Sweep (Attacker) film study: Lapeloplata guard to lapel sweep, taught by Street Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GqeeDnherWw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GqeeDnherWw",
+      "url": "https://www.youtube.com/watch?v=GqeeDnherWw",
+      "creator": { "@type": "Person", "name": "Street Jitsu" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel guard takedown one minute breakdown",
+      "description": "Lapel Elevator Sweep (Attacker) film study: Lapel guard takedown one minute breakdown, taught by Legion AJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_iV0LtOiXNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_iV0LtOiXNY",
+      "url": "https://www.youtube.com/watch?v=_iV0LtOiXNY",
+      "creator": { "@type": "Person", "name": "Legion AJJ" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Strategically, the Lapel Elevator Sweep fits into the broader lapel guard attack
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Elevator Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GqeeDnherWw)
+
+<p class="clip-credit"><strong>Lapeloplata guard to lapel sweep</strong> — taught by Street Jitsu · 0:44 · <a href="https://www.youtube.com/watch?v=GqeeDnherWw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_iV0LtOiXNY)
+
+<p class="clip-credit"><strong>Lapel guard takedown one minute breakdown</strong> — taught by Legion AJJ · 1:04 · <a href="https://www.youtube.com/watch?v=_iV0LtOiXNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

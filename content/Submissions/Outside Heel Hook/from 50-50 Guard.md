@@ -34,6 +34,43 @@ description: "Master the outside heel hook from 50-50 guard. Learn grip mechanic
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from 50-50 Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel Hooks breakdown",
+      "description": "Outside Heel Hook from 50-50 Guard film study: Heel Hooks breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UuluKZKDt8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UuluKZKDt8w",
+      "url": "https://www.youtube.com/watch?v=UuluKZKDt8w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "ADCC-style 50/50 heel hook",
+      "description": "Outside Heel Hook from 50-50 Guard film study: ADCC-style 50/50 heel hook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5RyU5LDc3C4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5RyU5LDc3C4",
+      "url": "https://www.youtube.com/watch?v=5RyU5LDc3C4",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ This submission carries extreme injury risk due to the nature of rotational heel
 **Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] · **From**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from 50-50 Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UuluKZKDt8w)
+
+<p class="clip-credit"><strong>Heel Hooks breakdown</strong> — taught by Lachlan Giles · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5RyU5LDc3C4)
+
+<p class="clip-credit"><strong>ADCC-style 50/50 heel hook</strong> — taught by Lachlan Giles · 1:26 · <a href="https://www.youtube.com/watch?v=5RyU5LDc3C4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -242,11 +307,11 @@ This submission carries extreme injury risk due to the nature of rotational heel
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/50-50 Guard]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement with similar heel exposure angles
 - [[Positions/Ashi Garami/Backside 50-50]] - Alternative entanglement for outside heel hook attacks

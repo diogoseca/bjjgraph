@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Bridge Escape from Reverse Scarf Hold exploits the inherent base vulnerability created by the top player's reverse orientation. In standard side control escapes, bridging mechanics follow predictable patterns against a forward-facing opponent. However, reverse scarf hold's unique configuration—where the top player faces the bottom player's legs rather than their head—creates specific directional weaknesses in the top player's base structure that this bridge escape systematically targets. The optimal bridge direction attacks the top player's weak axis, typically at a 45-degree angle toward their back, where their posting ability is most limited by the reverse orientation.\n\nThe technique centers on timing an explosive angled bridge that disrupts the top player's equilibrium while creating sufficient space for hip insertion and guard recovery. The bridge alone rarely completes the escape; instead, it generates a momentary window where the top player's weight shifts and hip pressure decreases. During this critical window, the bottom player must immediately insert a knee between the bodies to establish half guard before the top player can resettle their weight. This escape rewards patient setup and explosive execution over frantic, repeated bridging attempts that waste energy without creating meaningful positional change.\n\nFrom a strategic perspective, the bridge escape pairs naturally with hip escape and frame-based escape methods from reverse scarf hold bottom. When the top player widens their base to defend against hip escapes, they become more vulnerable to bridge disruption. Conversely, when they tighten their base against bridges, hip escape pathways open. This creates a defensive dilemma system where each escape attempt sets up the conditions for the next, systematically degrading the top player's control until one method succeeds.",
   "conditions": [
     "Trapped under Reverse Scarf Hold with opponent's chest pressure on upper torso",
@@ -247,38 +259,147 @@
     "flashcards": [
       {
         "question": "What is the optimal bridge direction when escaping reverse scarf hold, and why does it differ from standard side control escapes?",
-        "answer": "The optimal bridge direction is at a 45-degree angle toward the top player's back and head. This differs from standard side control escapes because in reverse scarf hold, the top player faces your legs rather than your head, creating a fundamentally different base configuration. Their posting ability is weakest toward their own back due to the reverse orientation, making this the most effective disruption angle. Bridging straight up is ineffective because the reverse scarf position is structurally designed to resist vertical force through the wide leg base."
+        "answer": "The optimal bridge direction is at a 45-degree angle toward the top player's back and head. This differs from standard side control escapes because in reverse scarf hold, the top player faces your legs rather than your head, creating a fundamentally different base configuration. Their posting ability is weakest toward their own back due to the reverse orientation, making this the most effective disruption angle. Bridging straight up is ineffective because the reverse scarf position is structurally designed to resist vertical force through the wide leg base.",
+        "answer_line": "45° toward their back/head",
+        "distractors": {
+          "plausible": [
+            "Straight up, standard bridge",
+            "45° toward their legs"
+          ],
+          "trap": [
+            "Turn belly-down, away from them"
+          ]
+        }
       },
       {
         "question": "Your opponent reaches for a kimura grip while maintaining reverse scarf hold—how does this affect your bridge escape timing?",
-        "answer": "The kimura attempt creates an ideal bridge timing window because the top player must release their far-side control to establish the figure-four grip, temporarily compromising their base width and weight distribution. You should bridge immediately when you feel them commit both hands to the kimura grip, as their posting ability drops dramatically. However, you must protect the targeted arm first—if the kimura is already locked, address the submission defense before attempting any bridge escape. The bridge timing exploits the moment between grip initiation and submission completion."
+        "answer": "The kimura attempt creates an ideal bridge timing window because the top player must release their far-side control to establish the figure-four grip, temporarily compromising their base width and weight distribution. You should bridge immediately when you feel them commit both hands to the kimura grip, as their posting ability drops dramatically. However, you must protect the targeted arm first—if the kimura is already locked, address the submission defense before attempting any bridge escape. The bridge timing exploits the moment between grip initiation and submission completion.",
+        "answer_line": "Bridge when both hands commit",
+        "distractors": {
+          "plausible": [
+            "Bridge as soon as grip starts",
+            "Wait til kimura fully locked"
+          ],
+          "trap": [
+            "Ignore arm, bridge immediately"
+          ]
+        }
       },
       {
         "question": "You bridge explosively but your opponent absorbs it by widening their base—what is your immediate follow-up?",
-        "answer": "Immediately transition to a hip escape in the direction opposite your bridge. When the opponent widens their base to absorb the bridge, they create gaps between their body and yours that a hip escape can exploit. The key is not pausing after the failed bridge—chain directly into the shrimp while the opponent is still adjusting to your bridge direction. This bridge-to-hip-escape chain is the foundation of the reverse scarf hold escape dilemma system, where each method sets up the conditions for the other."
+        "answer": "Immediately transition to a hip escape in the direction opposite your bridge. When the opponent widens their base to absorb the bridge, they create gaps between their body and yours that a hip escape can exploit. The key is not pausing after the failed bridge—chain directly into the shrimp while the opponent is still adjusting to your bridge direction. This bridge-to-hip-escape chain is the foundation of the reverse scarf hold escape dilemma system, where each method sets up the conditions for the other.",
+        "answer_line": "Hip escape opposite bridge dir",
+        "distractors": {
+          "plausible": [
+            "Bridge again, same direction",
+            "Pause, reassess grips"
+          ],
+          "trap": [
+            "Push their head down and hold"
+          ]
+        }
       },
       {
         "question": "What foot positioning generates maximum bridge power from reverse scarf hold bottom?",
-        "answer": "Both feet must be flat on the mat with heels positioned as close to your hips as possible, approximately shoulder-width apart. This position maximizes the mechanical advantage of your hip extensors and gluteal muscles. The feet should be parallel or slightly turned outward for stability. Positioning feet too far from your hips reduces bridge height and power, while feet too close together compromise lateral stability needed for the directional angle. The feet must be planted before the bridge—you cannot generate effective force while simultaneously repositioning."
+        "answer": "Both feet must be flat on the mat with heels positioned as close to your hips as possible, approximately shoulder-width apart. This position maximizes the mechanical advantage of your hip extensors and gluteal muscles. The feet should be parallel or slightly turned outward for stability. Positioning feet too far from your hips reduces bridge height and power, while feet too close together compromise lateral stability needed for the directional angle. The feet must be planted before the bridge—you cannot generate effective force while simultaneously repositioning.",
+        "answer_line": "Heels close to hips, shoulder-width",
+        "distractors": {
+          "plausible": [
+            "Feet wide apart for stability",
+            "Feet far from hips, long lever"
+          ],
+          "trap": [
+            "Feet together, up on toes"
+          ]
+        }
       },
       {
         "question": "What is the critical follow-up action immediately after a successful bridge creates space?",
-        "answer": "The critical follow-up is immediate knee insertion between your body and the opponent's torso, which must begin during the bridge apex rather than after it. The space created by the bridge lasts approximately one to two seconds before the top player resettles their weight. Your near-side knee must penetrate deeply enough to create a structural barrier, angling the shin across the opponent's body. This knee insertion is the bridge between the escape creating space and half guard being established—without it, the bridge energy is completely wasted."
+        "answer": "The critical follow-up is immediate knee insertion between your body and the opponent's torso, which must begin during the bridge apex rather than after it. The space created by the bridge lasts approximately one to two seconds before the top player resettles their weight. Your near-side knee must penetrate deeply enough to create a structural barrier, angling the shin across the opponent's body. This knee insertion is the bridge between the escape creating space and half guard being established—without it, the bridge energy is completely wasted.",
+        "answer_line": "Insert knee during bridge apex",
+        "distractors": {
+          "plausible": [
+            "Insert knee after bridge settles",
+            "Push opponent's hips away first"
+          ],
+          "trap": [
+            "Relax and let space close"
+          ]
+        }
       },
       {
         "question": "Your opponent begins transitioning to mount as you initiate your bridge—how do you adjust?",
-        "answer": "If you detect the mount transition during your bridge (feeling the opponent's leg starting to step over), immediately abort the guard recovery plan and focus on blocking the mount completion. Clamp your near-side elbow to your hip on the side they are stepping toward, creating a physical barrier their leg cannot clear. Use the remaining bridge energy to turn your hips away from the stepping leg. If you can prevent the mount completion, you may end up in half guard or be able to reattempt the escape from the disrupted reverse scarf hold position."
+        "answer": "If you detect the mount transition during your bridge (feeling the opponent's leg starting to step over), immediately abort the guard recovery plan and focus on blocking the mount completion. Clamp your near-side elbow to your hip on the side they are stepping toward, creating a physical barrier their leg cannot clear. Use the remaining bridge energy to turn your hips away from the stepping leg. If you can prevent the mount completion, you may end up in half guard or be able to reattempt the escape from the disrupted reverse scarf hold position.",
+        "answer_line": "Elbow to hip, block the step",
+        "distractors": {
+          "plausible": [
+            "Keep bridging toward guard recovery",
+            "Grab their leg to strip it"
+          ],
+          "trap": [
+            "Turn hips toward stepping leg"
+          ]
+        }
       },
       {
         "question": "Why must the near-side arm remain protected throughout the entire bridge escape sequence?",
-        "answer": "The near-side arm is the primary submission target from reverse scarf hold top, vulnerable to americana, kimura, and straight armbar attacks. During the bridge, your body generates significant momentum and temporarily reduces your ability to defend the arm. If the near arm is exposed at the moment of bridging, the top player can capture it with a submission grip during the escape attempt, converting your escape energy into their finishing leverage. Keeping the elbow glued to the ribs with the hand near the opposite shoulder eliminates this vulnerability while still allowing effective bridge mechanics through hip drive."
+        "answer": "The near-side arm is the primary submission target from reverse scarf hold top, vulnerable to americana, kimura, and straight armbar attacks. During the bridge, your body generates significant momentum and temporarily reduces your ability to defend the arm. If the near arm is exposed at the moment of bridging, the top player can capture it with a submission grip during the escape attempt, converting your escape energy into their finishing leverage. Keeping the elbow glued to the ribs with the hand near the opposite shoulder eliminates this vulnerability while still allowing effective bridge mechanics through hip drive.",
+        "answer_line": "Elbow glued to ribs, hand up",
+        "distractors": {
+          "plausible": [
+            "Post arm wide for base",
+            "Extend arm to frame their hip"
+          ],
+          "trap": [
+            "Reach across for far-side grip"
+          ]
+        }
       },
       {
         "question": "You successfully bridge and insert your knee but cannot fully lock half guard—what alternatives exist for completing the escape?",
-        "answer": "If full half guard cannot be established, several alternatives exist. First, use the inserted knee as a butterfly hook by positioning your foot on the opponent's inner thigh and elevating to create more space for the second leg to engage. Second, transition the knee shield into an open guard frame by extending the leg while establishing collar or sleeve grips to prevent re-engagement. Third, use the partial space to execute a technical stand-up by posting your far hand and driving up to standing position. The key principle is to never give back the space the bridge created—use whatever guard structure you can establish as a platform for further improvement."
+        "answer": "If full half guard cannot be established, several alternatives exist. First, use the inserted knee as a butterfly hook by positioning your foot on the opponent's inner thigh and elevating to create more space for the second leg to engage. Second, transition the knee shield into an open guard frame by extending the leg while establishing collar or sleeve grips to prevent re-engagement. Third, use the partial space to execute a technical stand-up by posting your far hand and driving up to standing position. The key principle is to never give back the space the bridge created—use whatever guard structure you can establish as a platform for further improvement.",
+        "answer_line": "Butterfly hook or knee shield",
+        "distractors": {
+          "plausible": [
+            "Force half guard, hold position",
+            "Abandon knee, reset flat"
+          ],
+          "trap": [
+            "Let knee slide out, re-flatten"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Bridge Escape from Reverse Scarf Hold involves explosive hip extension under load, which can strain the lower back if performed with poor spinal alignment. Keep your chin tucked and core engaged throughout the bridge to protect the cervical and lumbar spine. During training, partners should allow escape at reduced resistance levels before progressing to full resistance. The near-side arm is vulnerable to sudden joint locks during the escape attempt—if your partner catches a submission grip during your bridge, tap immediately rather than trying to power through. Always warm up hip flexors and lower back before drilling bridge mechanics."
+    "safety_considerations": "The Bridge Escape from Reverse Scarf Hold involves explosive hip extension under load, which can strain the lower back if performed with poor spinal alignment. Keep your chin tucked and core engaged throughout the bridge to protect the cervical and lumbar spine. During training, partners should allow escape at reduced resistance levels before progressing to full resistance. The near-side arm is vulnerable to sudden joint locks during the escape attempt—if your partner catches a submission grip during your bridge, tap immediately rather than trying to power through. Always warm up hip flexors and lower back before drilling bridge mechanics.",
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa gatame escape to back take",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QzegNgUUfZs",
+        "title": "Reverse kesa gatame side control escape",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-zFQ6h4yKT4",
+        "title": "Kuzure-kesa-gatame escapes",
+        "by": "Kodokan",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 70,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge Escape from Reverse Scarf Hold Defender",
@@ -362,23 +483,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is preparing a bridge escape from reverse scarf hold bottom?",
-        "answer": "The earliest cue is foot repositioning—feeling or seeing the opponent walk their feet flat onto the mat with heels close to their hips. This shifts them from a passive flat-on-back position to a bridge-ready stance. Secondary cues include establishment of a far-side frame against your hip or shoulder, a deep controlled breath indicating imminent exertion, and subtle core tensing that you can feel through your chest contact. Recognizing these early allows preemptive base adjustment before the explosive bridge initiates."
+        "answer": "The earliest cue is foot repositioning—feeling or seeing the opponent walk their feet flat onto the mat with heels close to their hips. This shifts them from a passive flat-on-back position to a bridge-ready stance. Secondary cues include establishment of a far-side frame against your hip or shoulder, a deep controlled breath indicating imminent exertion, and subtle core tensing that you can feel through your chest contact. Recognizing these early allows preemptive base adjustment before the explosive bridge initiates.",
+        "answer_line": "Feet walk flat, heels to hips",
+        "distractors": {
+          "plausible": [
+            "Deep breath and core tense only",
+            "Far-side frame appears first"
+          ],
+          "trap": [
+            "Wait for the bridge to happen"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges at a 45-degree angle toward your back—what is your immediate base adjustment?",
-        "answer": "Immediately extend your far-side leg further in the direction of their bridge to create a wider posting base on that side. Simultaneously drop your hip weight lower onto their chest and turn your hips slightly toward the bridge direction. If the bridge is powerful enough to significantly displace your weight, abandon the fight to maintain reverse scarf hold and ride the momentum to step over into mount. The worst response is to stiffen and resist the directional force, as this creates a mechanical disadvantage contest that wastes your energy."
+        "answer": "Immediately extend your far-side leg further in the direction of their bridge to create a wider posting base on that side. Simultaneously drop your hip weight lower onto their chest and turn your hips slightly toward the bridge direction. If the bridge is powerful enough to significantly displace your weight, abandon the fight to maintain reverse scarf hold and ride the momentum to step over into mount. The worst response is to stiffen and resist the directional force, as this creates a mechanical disadvantage contest that wastes your energy.",
+        "answer_line": "Widen far leg, drop hip weight",
+        "distractors": {
+          "plausible": [
+            "Sprawl straight back, both legs",
+            "Post hands, let hips float up"
+          ],
+          "trap": [
+            "Stiffen and resist the force"
+          ]
+        }
       },
       {
         "question": "How does attacking the near-side arm preemptively reduce the effectiveness of bridge escape attempts?",
-        "answer": "Attacking the near-side arm with kimura or americana forces the opponent to prioritize arm defense over escape preparation. They must pull their arm back to defensive position, use their far-side hand to defend the submission rather than establishing frames, and abandon foot repositioning to address the immediate threat. This resets their escape preparation timeline and drains energy on defense rather than offense. However, you must maintain base during the submission attempt—committing both hands to the attack without adjusting your base creates a window where a desperate bridge may succeed."
+        "answer": "Attacking the near-side arm with kimura or americana forces the opponent to prioritize arm defense over escape preparation. They must pull their arm back to defensive position, use their far-side hand to defend the submission rather than establishing frames, and abandon foot repositioning to address the immediate threat. This resets their escape preparation timeline and drains energy on defense rather than offense. However, you must maintain base during the submission attempt—committing both hands to the attack without adjusting your base creates a window where a desperate bridge may succeed.",
+        "answer_line": "Forces them to defend, not escape",
+        "distractors": {
+          "plausible": [
+            "Kimura grip alone stops bridge",
+            "Attack far-side arm instead"
+          ],
+          "trap": [
+            "Commit both hands, ignore base"
+          ]
+        }
       },
       {
         "question": "Your opponent executes a powerful bridge that lifts your hips significantly—should you fight to maintain reverse scarf hold or transition?",
-        "answer": "Transition rather than fight. When a bridge generates enough force to significantly displace your hips, attempting to resettle reverse scarf hold creates an energy-intensive scramble with uncertain results. Instead, use the opponent's upward momentum to step your far leg over their body into mount position, converting their escape energy into your positional advancement. This tactical awareness—recognizing when to maintain versus when to transition—separates effective reverse scarf hold players from those who waste energy fighting losing battles to maintain a specific configuration."
+        "answer": "Transition rather than fight. When a bridge generates enough force to significantly displace your hips, attempting to resettle reverse scarf hold creates an energy-intensive scramble with uncertain results. Instead, use the opponent's upward momentum to step your far leg over their body into mount position, converting their escape energy into your positional advancement. This tactical awareness—recognizing when to maintain versus when to transition—separates effective reverse scarf hold players from those who waste energy fighting losing battles to maintain a specific configuration.",
+        "answer_line": "Transition, step over to mount",
+        "distractors": {
+          "plausible": [
+            "Fight to resettle scarf hold",
+            "Sprawl weight back down hard"
+          ],
+          "trap": [
+            "Release control, disengage fully"
+          ]
+        }
       },
       {
         "question": "What is the most common error defenders make when responding to a bridge escape attempt from reverse scarf hold?",
-        "answer": "The most common error is maintaining a narrow base that makes directional bridges highly effective. Many practitioners settle into reverse scarf hold with their legs close together or both knees tightly positioned, which provides excellent pressure but poor resistance against angled bridges. When the opponent bridges at a 45-degree angle toward the defender's back, a narrow base cannot absorb the directional force, leading to displacement and space creation. The correction is maintaining a wide, sprawled base with legs extended at angles, sacrificing some compression for significantly improved bridge resistance."
+        "answer": "The most common error is maintaining a narrow base that makes directional bridges highly effective. Many practitioners settle into reverse scarf hold with their legs close together or both knees tightly positioned, which provides excellent pressure but poor resistance against angled bridges. When the opponent bridges at a 45-degree angle toward the defender's back, a narrow base cannot absorb the directional force, leading to displacement and space creation. The correction is maintaining a wide, sprawled base with legs extended at angles, sacrificing some compression for significantly improved bridge resistance.",
+        "answer_line": "Narrow base vs angled bridges",
+        "distractors": {
+          "plausible": [
+            "Too much forward pressure",
+            "Grips too loose on far side"
+          ],
+          "trap": [
+            "Compress tight, knees together"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -401,6 +572,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense against complete escape systems",
         "description": "Full resistance rounds starting in reverse scarf hold. Top player works to maintain position or advance while bottom player uses complete escape toolkit including bridge escape, hip escape, and frame escape chains. Track retention rate and transition success across rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "Kesa gatame retention and attacks from the top",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RLpcMvQ8GTI",
+        "title": "Mune gatame chest hold pin control",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 66,
+        "verified": "2026-07-16"
       }
     ]
   }

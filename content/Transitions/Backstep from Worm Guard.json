@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Worm Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The backstep from worm guard is a specialized guard passing technique designed to neutralize the lapel entanglement that defines modern worm guard systems. Rather than attempting to strip the lapel wrap from the front—where the bottom player's mechanical advantage is strongest—the backstep redirects the passing vector entirely by stepping the trapped leg backwards and around the bottom player's guard structure. This angular change breaks the lapel tension line and creates passing opportunities that the worm guard configuration cannot defend against without fundamental repositioning.\n\nThe technique draws from the same biomechanical principles that make backstepping effective against other open guards like De La Riva and single leg X-guard: by circling the trapped leg behind the opponent rather than pulling it forward through their control, the passer exploits the one-directional nature of the lapel wrap. The worm guard lapel functions like a one-way ratchet—it prevents forward extraction but becomes slack when the leg moves in the opposite direction. Understanding this asymmetry is key to executing the backstep with proper timing and angle.\n\nFrom a strategic standpoint, the backstep from worm guard serves as a critical secondary option in the passer's toolkit. While the primary approach against worm guard involves systematic lapel stripping, the backstep provides an alternative when the bottom player's grip fighting makes direct lapel removal impractical. The technique carries moderate risk, as the rotational movement during the backstep can expose the passer's back if the bottom player reads the movement early and pursues a back take.",
   "conditions": [
     "Opponent has established worm guard with lapel wrapped around your lead leg",
@@ -245,42 +260,152 @@
     "flashcards": [
       {
         "question": "Why does the backstep exploit a directional weakness in the worm guard lapel wrap?",
-        "answer": "The worm guard lapel wrap creates a one-directional control mechanism that resists forward leg extraction but cannot maintain tension when the leg moves backward. The wrap follows a specific path around the leg that locks against forward movement but creates slack when the leg moves in the opposite direction. The backstep exploits this asymmetry by moving the trapped leg in the direction the wrap cannot follow, causing the lapel to loosen naturally during the rotation."
+        "answer": "The worm guard lapel wrap creates a one-directional control mechanism that resists forward leg extraction but cannot maintain tension when the leg moves backward. The wrap follows a specific path around the leg that locks against forward movement but creates slack when the leg moves in the opposite direction. The backstep exploits this asymmetry by moving the trapped leg in the direction the wrap cannot follow, causing the lapel to loosen naturally during the rotation.",
+        "answer_line": "Wrap resists forward, not backward",
+        "distractors": {
+          "plausible": [
+            "Extract the leg the way it went in",
+            "Rip it free with one fast pull"
+          ],
+          "trap": [
+            "Give your back to unwind the wrap"
+          ]
+        }
       },
       {
         "question": "What is the most critical grip you must establish before initiating the backstep?",
-        "answer": "The upper body anchor grip on the bottom player's far-side collar or far shoulder is the most critical prerequisite. This grip pins the bottom player's torso in place and prevents them from chasing your hip rotation with their own hip adjustment. Without this anchor, the bottom player simply rotates their hips to match your backstep angle, maintaining the lapel tension line throughout your movement and nullifying the entire pass attempt."
+        "answer": "The upper body anchor grip on the bottom player's far-side collar or far shoulder is the most critical prerequisite. This grip pins the bottom player's torso in place and prevents them from chasing your hip rotation with their own hip adjustment. Without this anchor, the bottom player simply rotates their hips to match your backstep angle, maintaining the lapel tension line throughout your movement and nullifying the entire pass attempt.",
+        "answer_line": "Anchor far collar or far shoulder",
+        "distractors": {
+          "plausible": [
+            "Control the trapped leg's ankle",
+            "Grip the near-side collar"
+          ],
+          "trap": [
+            "Release upper grips to free hips"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to initiate the backstep relative to the bottom player's grip activity?",
-        "answer": "Initiate the backstep when the bottom player's lapel grip is momentarily weakened or when their attention is divided by another attack—such as immediately after they commit a hand to a sweep grip or post to adjust their base. Attacking while both their lapel grip and free-leg hook are fully engaged means fighting maximum tension, which stalls the arc. The ideal window is a half-beat of distraction where their grip tension drops, letting your trapped leg load and step before they can re-tension the wrap."
+        "answer": "Initiate the backstep when the bottom player's lapel grip is momentarily weakened or when their attention is divided by another attack—such as immediately after they commit a hand to a sweep grip or post to adjust their base. Attacking while both their lapel grip and free-leg hook are fully engaged means fighting maximum tension, which stalls the arc. The ideal window is a half-beat of distraction where their grip tension drops, letting your trapped leg load and step before they can re-tension the wrap.",
+        "answer_line": "When their lapel grip goes slack",
+        "distractors": {
+          "plausible": [
+            "Right after both hooks are set",
+            "When they fully re-grip the lapel"
+          ],
+          "trap": [
+            "Wait until their sweep fully lands"
+          ]
+        }
       },
       {
         "question": "In which direction must you drive the backstep arc relative to the lapel wrap, and why?",
-        "answer": "Step the trapped leg backward and around the bottom player in the direction opposite the lapel wrap's tension line—the one direction the wrap cannot follow. The lapel functions as a one-way ratchet that resists forward extraction but goes slack when the leg travels the opposite way. Driving the arc against the wrap only tightens it; driving it with the slack direction loosens the entanglement so the shin can shake free during the rotation."
+        "answer": "Step the trapped leg backward and around the bottom player in the direction opposite the lapel wrap's tension line—the one direction the wrap cannot follow. The lapel functions as a one-way ratchet that resists forward extraction but goes slack when the leg travels the opposite way. Driving the arc against the wrap only tightens it; driving it with the slack direction loosens the entanglement so the shin can shake free during the rotation.",
+        "answer_line": "Backstep opposite the wrap's tension",
+        "distractors": {
+          "plausible": [
+            "Circle the leg toward the wrap grip",
+            "Pull the shin straight out first"
+          ],
+          "trap": [
+            "Roll belly-down to free the leg"
+          ]
+        }
       },
       {
         "question": "Your opponent begins chasing your hip rotation during the backstep—how do you respond?",
-        "answer": "Increase downward pressure on the far hip block with your near hand to pin their hips to the mat and prevent further rotation. If they continue tracking despite the hip block, pause the backstep and re-evaluate. Consider switching to a direct lapel strip approach while you still have the collar grip established, or reset your base and attempt the backstep with improved timing when their attention is divided by a different threat."
+        "answer": "Increase downward pressure on the far hip block with your near hand to pin their hips to the mat and prevent further rotation. If they continue tracking despite the hip block, pause the backstep and re-evaluate. Consider switching to a direct lapel strip approach while you still have the collar grip established, or reset your base and attempt the backstep with improved timing when their attention is divided by a different threat.",
+        "answer_line": "Pin far hip, pause and reassess",
+        "distractors": {
+          "plausible": [
+            "Speed up the rotation instantly",
+            "Switch legs to beat the tracking"
+          ],
+          "trap": [
+            "Let go of collar to chase harder"
+          ]
+        }
       },
       {
         "question": "What determines whether you should attempt a backstep versus a direct lapel strip against worm guard?",
-        "answer": "The backstep is the better choice when the bottom player's grip fighting effectively defends direct lapel stripping attempts—when they have strong hand control and can re-feed the lapel as fast as you strip it. The direct lapel strip is preferable when you can isolate their grips and methodically break the lapel connection without exposing your back. The backstep carries more risk of back exposure but bypasses strong grip fighters entirely by changing the passing angle."
+        "answer": "The backstep is the better choice when the bottom player's grip fighting effectively defends direct lapel stripping attempts—when they have strong hand control and can re-feed the lapel as fast as you strip it. The direct lapel strip is preferable when you can isolate their grips and methodically break the lapel connection without exposing your back. The backstep carries more risk of back exposure but bypasses strong grip fighters entirely by changing the passing angle.",
+        "answer_line": "Backstep beats strong grip fighters",
+        "distractors": {
+          "plausible": [
+            "Strip is always the safer choice",
+            "Backstep only against weak guards"
+          ],
+          "trap": [
+            "Always strip to avoid back exposure"
+          ]
+        }
       },
       {
         "question": "Why is it critical to establish side control immediately after clearing the lapel?",
-        "answer": "Any delay between clearing the lapel and establishing chest-to-chest pressure gives the bottom player a window to insert frames, re-feed the lapel, insert a knee for half guard, or transition to a different guard system. A competent guard player needs less than one second to establish defensive structures that prevent the pass from completing. The lapel clearance and side control settlement must be treated as a single continuous motion to prevent guard recovery."
+        "answer": "Any delay between clearing the lapel and establishing chest-to-chest pressure gives the bottom player a window to insert frames, re-feed the lapel, insert a knee for half guard, or transition to a different guard system. A competent guard player needs less than one second to establish defensive structures that prevent the pass from completing. The lapel clearance and side control settlement must be treated as a single continuous motion to prevent guard recovery.",
+        "answer_line": "Delay lets guard recover instantly",
+        "distractors": {
+          "plausible": [
+            "Pass is complete once lapel clears",
+            "Frames only slow the pass down"
+          ],
+          "trap": [
+            "Pause to reset your grips first"
+          ]
+        }
       },
       {
         "question": "The bottom player successfully chases your hips and stuffs the backstep—what passing chain do you flow into?",
-        "answer": "If the hip block fails and they re-establish lapel tension, abandon the pure backstep and chain to the secondary options the worm guard top game already threatens. Use the slack you partially created to drag the cleared leg into a leg drag, or switch to a direct lapel strip now that your collar grip is anchored. Against a knee-shield insertion mid-rotation, convert to a smash or knee-slice pass instead of forcing the arc. The backstep and these passes form a two-pronged dilemma that keeps the bottom player defending multiple threats at once."
+        "answer": "If the hip block fails and they re-establish lapel tension, abandon the pure backstep and chain to the secondary options the worm guard top game already threatens. Use the slack you partially created to drag the cleared leg into a leg drag, or switch to a direct lapel strip now that your collar grip is anchored. Against a knee-shield insertion mid-rotation, convert to a smash or knee-slice pass instead of forcing the arc. The backstep and these passes form a two-pronged dilemma that keeps the bottom player defending multiple threats at once.",
+        "answer_line": "Flow to leg drag or lapel strip",
+        "distractors": {
+          "plausible": [
+            "Restart the same backstep harder",
+            "Abandon the pass, reset guard"
+          ],
+          "trap": [
+            "Force the stuffed backstep through"
+          ]
+        }
       },
       {
         "question": "You feel the bottom player releasing their lapel grip and grabbing your far hip during the backstep—what does this indicate and how should you respond?",
-        "answer": "This indicates the bottom player is abandoning worm guard retention and transitioning to a back take attempt, using your exposed back during the rotation as the entry point. Immediately tighten your elbows to your body to deny underhook access, maintain your collar grip as an anchor, and consider sitting back into them to flatten their back take attempt. If back exposure is severe, abort the pass entirely and face them to reset rather than completing the rotation into a worse position."
+        "answer": "This indicates the bottom player is abandoning worm guard retention and transitioning to a back take attempt, using your exposed back during the rotation as the entry point. Immediately tighten your elbows to your body to deny underhook access, maintain your collar grip as an anchor, and consider sitting back into them to flatten their back take attempt. If back exposure is severe, abort the pass entirely and face them to reset rather than completing the rotation into a worse position.",
+        "answer_line": "Back-take attempt, tighten elbows",
+        "distractors": {
+          "plausible": [
+            "They're abandoning guard entirely",
+            "Just repositioning their base"
+          ],
+          "trap": [
+            "Keep rotating, ignore the reach"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The backstep from worm guard carries minimal direct injury risk as a positional passing technique. However, the rotational movement can strain the knee of the trapped leg if the lapel wrap is extremely tight and the passer forces the backstep against maximum tension. Always ensure adequate lapel slack is developing before committing full rotational force to the backstep arc. Partners should release lapel grips immediately if the passer's knee shows signs of being torqued beyond natural range of motion during the rotation. In training, establish clear communication about resistance levels before drilling."
+    "safety_considerations": "The backstep from worm guard carries minimal direct injury risk as a positional passing technique. However, the rotational movement can strain the knee of the trapped leg if the lapel wrap is extremely tight and the passer forces the backstep against maximum tension. Always ensure adequate lapel slack is developing before committing full rotational force to the backstep arc. Partners should release lapel grips immediately if the passer's knee shows signs of being torqued beyond natural range of motion during the rotation. In training, establish clear communication about resistance levels before drilling.",
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the Polish Worm Rider lapel guard",
+        "by": "Daniel Maira and Nicholas Salles",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "u0D9HUwXuKE",
+        "title": "Passing Lapel Guard",
+        "by": "Vicente Cavalcanti",
+        "vertical": false,
+        "channel": "VICENTE CAVALCANTI",
+        "duration": 70,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Backstep from Worm Guard Defender",
@@ -366,19 +491,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the passer is setting up a backstep rather than a direct lapel strip?",
-        "answer": "The most reliable early indicator is the passer shifting their weight onto the non-trapped leg while simultaneously reaching for your far hip with their near hand to establish a hip block. A direct lapel strip typically involves the passer keeping weight centered and working hands toward the lapel wrap, while the backstep requires the weight transfer and hip block that precede the rotational stepping motion. The hip block reach is particularly telling because it serves no purpose in a direct stripping approach."
+        "answer": "The most reliable early indicator is the passer shifting their weight onto the non-trapped leg while simultaneously reaching for your far hip with their near hand to establish a hip block. A direct lapel strip typically involves the passer keeping weight centered and working hands toward the lapel wrap, while the backstep requires the weight transfer and hip block that precede the rotational stepping motion. The hip block reach is particularly telling because it serves no purpose in a direct stripping approach.",
+        "answer_line": "Weight shifts, reaches for far hip",
+        "distractors": {
+          "plausible": [
+            "Hands work straight to the lapel",
+            "Weight stays centered, pulls in"
+          ],
+          "trap": [
+            "They release the collar grip first"
+          ]
+        }
       },
       {
         "question": "When should you transition from guard retention to a back take attempt during the backstep defense?",
-        "answer": "Transition to a back take when the passer has committed past the point of easy recovery—typically when their trapped leg has cleared the midpoint of the backstep arc and their back is fully exposed. Attempting the back take too early (before commitment) allows the passer to abort and face you. Attempting too late (after they have settled chest pressure) means the passing window has closed. The optimal moment is when the passer's back faces you and their momentum is carrying them away."
+        "answer": "Transition to a back take when the passer has committed past the point of easy recovery—typically when their trapped leg has cleared the midpoint of the backstep arc and their back is fully exposed. Attempting the back take too early (before commitment) allows the passer to abort and face you. Attempting too late (after they have settled chest pressure) means the passing window has closed. The optimal moment is when the passer's back faces you and their momentum is carrying them away.",
+        "answer_line": "After their back fully turns away",
+        "distractors": {
+          "plausible": [
+            "The instant they start the step",
+            "Once they settle chest pressure"
+          ],
+          "trap": [
+            "Wait until the pass is fully secured"
+          ]
+        }
       },
       {
         "question": "Why is inserting a knee shield considered a positional concession even when successful against the backstep?",
-        "answer": "While half guard with knee shield is a defensible position with sweep potential, it represents a significant downgrade from worm guard. In worm guard, you have an advanced lapel-based control system with multiple sweep and back take options, strong retention, and mechanical advantages that make passing very difficult. Half guard bottom, even with knee shield, gives the top player more passing options and does not offer the same level of control. The knee shield should be viewed as damage control rather than a successful defense."
+        "answer": "While half guard with knee shield is a defensible position with sweep potential, it represents a significant downgrade from worm guard. In worm guard, you have an advanced lapel-based control system with multiple sweep and back take options, strong retention, and mechanical advantages that make passing very difficult. Half guard bottom, even with knee shield, gives the top player more passing options and does not offer the same level of control. The knee shield should be viewed as damage control rather than a successful defense.",
+        "answer_line": "Loses worm guard's lapel control",
+        "distractors": {
+          "plausible": [
+            "Equal control, just different grip",
+            "Stops the pass but stalls attacks"
+          ],
+          "trap": [
+            "Turn belly-down to face the legs"
+          ]
+        }
       },
       {
         "question": "Your lapel wrap has been partially cleared during the backstep but the passer has not yet settled into side control—what is your priority?",
-        "answer": "Your priority is establishing any form of guard structure before chest-to-chest contact. Insert your inside knee immediately to create a frame that prevents the passer from settling. From there, assess whether you can recover half guard with knee shield, re-establish butterfly hooks, or insert a De La Riva hook. Do not attempt to re-feed the lapel for worm guard recovery—that window has passed and the priority is preventing the completion of the pass with whatever guard recovery is available."
+        "answer": "Your priority is establishing any form of guard structure before chest-to-chest contact. Insert your inside knee immediately to create a frame that prevents the passer from settling. From there, assess whether you can recover half guard with knee shield, re-establish butterfly hooks, or insert a De La Riva hook. Do not attempt to re-feed the lapel for worm guard recovery—that window has passed and the priority is preventing the completion of the pass with whatever guard recovery is available.",
+        "answer_line": "Insert inside knee to frame",
+        "distractors": {
+          "plausible": [
+            "Recover half guard, knee shield",
+            "Re-establish butterfly hooks"
+          ],
+          "trap": [
+            "Re-feed lapel for worm guard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -401,6 +566,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense and counter-attacking",
         "description": "Positional sparring from worm guard with full resistance. Top player attempts backstep and other passes. Bottom player defends using all available options—hip chasing, back takes, guard transitions, and knee shield recovery. Three-minute rounds with resets after each pass or sweep. Track which defensive option is most effective against each partner."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d8xnLb5JyLc",
+        "title": "Backwards roll counter to the worm guard backstep",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 254,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "6DGnxOUdwdg",
+        "title": "Maintaining lapel guard control to prevent the pass",
+        "by": "Lucas Wilhan",
+        "vertical": false,
+        "channel": "Way of BJJ",
+        "duration": 186,
+        "verified": "2026-07-16"
       }
     ]
   }

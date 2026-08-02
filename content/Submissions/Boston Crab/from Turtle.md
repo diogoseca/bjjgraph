@@ -34,6 +34,54 @@ description: "Master Boston Crab submission in BJJ. Complete guide covering setu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Boston Crab from Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Boston crab as a legit submission",
+      "description": "Boston Crab from Turtle film study: Boston crab as a legit submission, taught by Ramsey Dewey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iarztc8kRHk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iarztc8kRHk",
+      "url": "https://www.youtube.com/watch?v=iarztc8kRHk",
+      "creator": { "@type": "Person", "name": "Ramsey Dewey" },
+      "duration": "PT148S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hammer lock to half boston crab",
+      "description": "Boston Crab from Turtle film study: Hammer lock to half boston crab, taught by Dan The Wolfman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RpE8Itm4M6g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RpE8Itm4M6g",
+      "url": "https://www.youtube.com/watch?v=RpE8Itm4M6g",
+      "creator": { "@type": "Person", "name": "Dan The Wolfman" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar and half boston crab from top",
+      "description": "Boston Crab from Turtle film study: Kneebar and half boston crab from top, taught by Dan The Wolfman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q0qJt_joIog/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q0qJt_joIog",
+      "url": "https://www.youtube.com/watch?v=Q0qJt_joIog",
+      "creator": { "@type": "Person", "name": "Dan The Wolfman" },
+      "duration": "PT276S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 **Starting Position**: [[Positions/Turtle]] · **From**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Boston Crab from Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iarztc8kRHk)
+
+<p class="clip-credit"><strong>Boston crab as a legit submission</strong> — taught by Ramsey Dewey · 2:28 · <a href="https://www.youtube.com/watch?v=iarztc8kRHk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RpE8Itm4M6g)
+
+<p class="clip-credit"><strong>Hammer lock to half boston crab</strong> — taught by Dan The Wolfman · 1:07 · <a href="https://www.youtube.com/watch?v=RpE8Itm4M6g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q0qJt_joIog)
+
+<p class="clip-credit"><strong>Kneebar and half boston crab from top</strong> — taught by Dan The Wolfman · 4:36 · <a href="https://www.youtube.com/watch?v=Q0qJt_joIog" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

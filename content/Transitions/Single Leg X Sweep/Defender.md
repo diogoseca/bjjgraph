@@ -148,6 +148,54 @@ description: "How to defend against Single Leg X Sweep in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X escape to back take",
+      "description": "Single Leg X Sweep (Defender) film study: Single leg X escape to back take, taught by Ronin Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TwE_vhlV13g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TwE_vhlV13g",
+      "url": "https://www.youtube.com/watch?v=TwE_vhlV13g",
+      "creator": { "@type": "Person", "name": "Ronin Training Center" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back-take counter to single leg X",
+      "description": "Single Leg X Sweep (Defender) film study: Back-take counter to single leg X, taught by Eugene Bidchenco.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ycHT2LS41Cw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ycHT2LS41Cw",
+      "url": "https://www.youtube.com/watch?v=ycHT2LS41Cw",
+      "creator": { "@type": "Person", "name": "Eugene Bidchenco" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single leg X defense to rolling back take",
+      "description": "Single Leg X Sweep (Defender) film study: Single leg X defense to rolling back take, taught by Gracie Barra Pymble.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m1nyuMt3IP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m1nyuMt3IP4",
+      "url": "https://www.youtube.com/watch?v=m1nyuMt3IP4",
+      "creator": { "@type": "Person", "name": "Gracie Barra Pymble" },
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defender's strategic framework centers on base management, hook neutralizati
 **Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TwE_vhlV13g)
+
+<p class="clip-credit"><strong>Single leg X escape to back take</strong> — taught by Ronin Training Center · 1:03 · <a href="https://www.youtube.com/watch?v=TwE_vhlV13g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ycHT2LS41Cw)
+
+<p class="clip-credit"><strong>Back-take counter to single leg X</strong> — taught by Eugene Bidchenco · 1:12 · <a href="https://www.youtube.com/watch?v=ycHT2LS41Cw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m1nyuMt3IP4)
+
+<p class="clip-credit"><strong>Single leg X defense to rolling back take</strong> — taught by Gracie Barra Pymble · 1:20 · <a href="https://www.youtube.com/watch?v=m1nyuMt3IP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

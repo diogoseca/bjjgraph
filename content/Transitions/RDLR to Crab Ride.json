@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Crab Ride/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Reverse De La Riva Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Sitting within the modern inversion-based back-attack game, this transition gives the Reverse De La Riva guard player a controlled stopping point short of a full back-take. Rather than committing to a full berimbolo rotation to back control, the technique arrests the inversion at the crab ride—a more secure intermediate position that preserves multiple attacking options while reducing the risk of overcommitting to the inversion. It exploits the same rotational mechanics that power kiss of the dragon entries but channels them into perpendicular back exposure rather than direct hook insertion.\n\nThe technique begins with standard RDLR hook and ankle control, using hip elevation and shoulder rotation to initiate the inversion. As the bottom player threads underneath their opponent, instead of fully rotating to establish back hooks, they arrest the motion at crab ride by inserting a single hook while establishing upper body control from the side. This requires precise timing—too early and you haven't created enough angle, too late and the opponent can sprawl or disengage. The crab ride endpoint offers a natural consolidation point where the attacker can reassess before advancing to full back control or attacking submissions.\n\nStrategically, this transition excels against opponents who have developed strong defenses against direct berimbolo back takes. By stopping at crab ride instead of committing to the full rotation, the attacker avoids the scramble positions that often result from defended berimbolo entries. The crab ride position itself creates a systematic platform for back-taking, crucifix attacks, and rolling sequences that are difficult to defend once established. This makes RDLR to Crab Ride a critical tool in modern guard systems, particularly effective in no-gi competition where the shorter control pathway reduces grip dependency.",
   "conditions": [
     "Strong RDLR hook established with instep hooked behind opponent's far knee",
@@ -231,38 +243,147 @@
     "flashcards": [
       {
         "question": "What is the optimal moment to initiate the inversion for RDLR to Crab Ride?",
-        "answer": "The optimal inversion window opens when the opponent's weight shifts forward onto the hook-side leg, typically during a passing attempt or when they reach to address your ankle grip. Their forward weight commitment prevents them from sprawling effectively when you initiate the rotation. You can also create this window artificially by threatening a waiter sweep, which forces forward weight adjustment to defend, then immediately switching to the inversion. The key indicator is feeling their weight load through your hook—when the hook feels heavy, their base is compromised."
+        "answer": "The optimal inversion window opens when the opponent's weight shifts forward onto the hook-side leg, typically during a passing attempt or when they reach to address your ankle grip. Their forward weight commitment prevents them from sprawling effectively when you initiate the rotation. You can also create this window artificially by threatening a waiter sweep, which forces forward weight adjustment to defend, then immediately switching to the inversion. The key indicator is feeling their weight load through your hook—when the hook feels heavy, their base is compromised.",
+        "answer_line": "Weight loads onto hook side",
+        "distractors": {
+          "plausible": [
+            "As soon as RDLR is established",
+            "When they retreat to standup"
+          ],
+          "trap": [
+            "Whenever hips feel light"
+          ]
+        }
       },
       {
         "question": "What grip and hook conditions must be established before attempting the inversion?",
-        "answer": "Three non-negotiable conditions must be present: deep RDLR hook threaded behind the opponent's far knee with instep engagement around their thigh, a secure near-side hand grip on their far ankle controlling the direction and speed of their potential movement, and hips elevated off the mat with core engaged to create the vertical space needed for threading through. The far leg should also be framing against their near hip. Attempting the inversion without any one of these elements dramatically reduces success probability and increases counter risk."
+        "answer": "Three non-negotiable conditions must be present: deep RDLR hook threaded behind the opponent's far knee with instep engagement around their thigh, a secure near-side hand grip on their far ankle controlling the direction and speed of their potential movement, and hips elevated off the mat with core engaged to create the vertical space needed for threading through. The far leg should also be framing against their near hip. Attempting the inversion without any one of these elements dramatically reduces success probability and increases counter risk.",
+        "answer_line": "Hook, ankle grip, hips up",
+        "distractors": {
+          "plausible": [
+            "Deep hook, no ankle grip yet",
+            "Hips up, grip loose is fine"
+          ],
+          "trap": [
+            "Flat hips, deep hook only"
+          ]
+        }
       },
       {
         "question": "How does hip elevation affect the success of the inversion underneath your opponent?",
-        "answer": "Hip elevation directly determines the available space for threading your body underneath the opponent during the inversion. Higher hips create a larger arc of movement, making it easier to rotate your shoulders through and emerge on the far side. Flat hips eliminate this space entirely, causing the inversion to stall with your body pinned beneath the opponent's weight. The hip height also affects the rotational momentum—elevated hips allow your core to generate the rotational force needed to complete the movement smoothly rather than grinding through resistance."
+        "answer": "Hip elevation directly determines the available space for threading your body underneath the opponent during the inversion. Higher hips create a larger arc of movement, making it easier to rotate your shoulders through and emerge on the far side. Flat hips eliminate this space entirely, causing the inversion to stall with your body pinned beneath the opponent's weight. The hip height also affects the rotational momentum—elevated hips allow your core to generate the rotational force needed to complete the movement smoothly rather than grinding through resistance.",
+        "answer_line": "Higher hips, more thread space",
+        "distractors": {
+          "plausible": [
+            "Hip height only affects speed",
+            "Any hip height works fine"
+          ],
+          "trap": [
+            "Flatten hips to drive through"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the RDLR to Crab Ride fails during the inversion phase?",
-        "answer": "The most common failure point is initiating the inversion without sufficient opponent weight loaded onto the hook side. When the opponent's weight remains centered or shifted away from the hook, they can sprawl, backstep, or simply drive forward to flatten the inverting player before the rotation completes. The ankle grip pull must actively displace their weight before the shoulder rotation begins. A secondary common failure is releasing far leg hip control prematurely, which telegraphs the inversion and allows preemptive defensive positioning."
+        "answer": "The most common failure point is initiating the inversion without sufficient opponent weight loaded onto the hook side. When the opponent's weight remains centered or shifted away from the hook, they can sprawl, backstep, or simply drive forward to flatten the inverting player before the rotation completes. The ankle grip pull must actively displace their weight before the shoulder rotation begins. A secondary common failure is releasing far leg hip control prematurely, which telegraphs the inversion and allows preemptive defensive positioning.",
+        "answer_line": "Inverting before weight loads",
+        "distractors": {
+          "plausible": [
+            "Releasing ankle grip too soon",
+            "Rotating away from the hook"
+          ],
+          "trap": [
+            "Charging forward despite sprawl"
+          ]
+        }
       },
       {
         "question": "Which grip is most critical for controlling the direction of the inversion, and why?",
-        "answer": "The near-side hand grip on the opponent's far ankle is the most critical grip. This grip serves dual purposes: it prevents the opponent from stepping away or disengaging during the inversion, and it controls the direction of the rotational arc by pulling their base in the direction you want to invert toward. Without this grip, the opponent's leg is free to move, eliminating the anchor point that makes the inversion path predictable and controlled. The ankle grip essentially converts an uncontrolled rotation into a steered pathway to crab ride."
+        "answer": "The near-side hand grip on the opponent's far ankle is the most critical grip. This grip serves dual purposes: it prevents the opponent from stepping away or disengaging during the inversion, and it controls the direction of the rotational arc by pulling their base in the direction you want to invert toward. Without this grip, the opponent's leg is free to move, eliminating the anchor point that makes the inversion path predictable and controlled. The ankle grip essentially converts an uncontrolled rotation into a steered pathway to crab ride.",
+        "answer_line": "Near-hand grip on far ankle",
+        "distractors": {
+          "plausible": [
+            "Hook-side collar grip",
+            "Far-side underhook grip"
+          ],
+          "trap": [
+            "Release ankle grip early to rotate"
+          ]
+        }
       },
       {
         "question": "In which direction should you apply rotational force during the inversion to arrive at crab ride?",
-        "answer": "The rotational force should be directed toward the hook side—specifically, your shoulders rotate toward the mat on the same side as your RDLR hook. This creates a rotation that threads your body underneath the opponent from the hook side through to the far side, arriving perpendicular to their spine. The hook serves as the axis of rotation. Rotating in the opposite direction (away from the hook) would pull you away from the opponent rather than threading underneath, resulting in guard disengagement rather than positional advancement."
+        "answer": "The rotational force should be directed toward the hook side—specifically, your shoulders rotate toward the mat on the same side as your RDLR hook. This creates a rotation that threads your body underneath the opponent from the hook side through to the far side, arriving perpendicular to their spine. The hook serves as the axis of rotation. Rotating in the opposite direction (away from the hook) would pull you away from the opponent rather than threading underneath, resulting in guard disengagement rather than positional advancement.",
+        "answer_line": "Rotate shoulders toward hook side",
+        "distractors": {
+          "plausible": [
+            "Rotate away from the hook",
+            "Rotate flat along their spine"
+          ],
+          "trap": [
+            "Rotate away, pull to disengage"
+          ]
+        }
       },
       {
         "question": "Your opponent recognizes the inversion and begins sprawling their hips to the mat—how do you adjust?",
-        "answer": "If the sprawl is early and you haven't committed to the inversion, abort immediately and return to RDLR guard retention. From there, redirect their forward weight commitment into a waiter sweep—their sprawl pressure actually feeds into sweep mechanics since they've loaded their weight forward. If you've already partially committed to the inversion when the sprawl hits, your best option is to maintain your hook and ankle grip while recovering your hips to RDLR position, then reattempt once they relax the sprawl. Never force a stalled inversion against sprawl pressure."
+        "answer": "If the sprawl is early and you haven't committed to the inversion, abort immediately and return to RDLR guard retention. From there, redirect their forward weight commitment into a waiter sweep—their sprawl pressure actually feeds into sweep mechanics since they've loaded their weight forward. If you've already partially committed to the inversion when the sprawl hits, your best option is to maintain your hook and ankle grip while recovering your hips to RDLR position, then reattempt once they relax the sprawl. Never force a stalled inversion against sprawl pressure.",
+        "answer_line": "Abort, return to RDLR retention",
+        "distractors": {
+          "plausible": [
+            "Push through the sprawl harder",
+            "Switch grips and retry instantly"
+          ],
+          "trap": [
+            "Force inversion against sprawl"
+          ]
+        }
       },
       {
         "question": "If the opponent successfully defends the crab ride entry by turning toward you during your arrival, what follow-up attacks become available?",
-        "answer": "When the opponent turns toward you during crab ride establishment, they create back exposure on the opposite side. This opens direct back take opportunities—follow their turning momentum and transition to establishing back hooks rather than fighting to consolidate crab ride against the turn. If they turn aggressively, a guillotine or darce choke may become available as their neck enters your control space. The key principle is to capitalize on their defensive momentum rather than resist it, converting their escape into your next attack."
+        "answer": "When the opponent turns toward you during crab ride establishment, they create back exposure on the opposite side. This opens direct back take opportunities—follow their turning momentum and transition to establishing back hooks rather than fighting to consolidate crab ride against the turn. If they turn aggressively, a guillotine or darce choke may become available as their neck enters your control space. The key principle is to capitalize on their defensive momentum rather than resist it, converting their escape into your next attack.",
+        "answer_line": "Follow turn, take the back",
+        "distractors": {
+          "plausible": [
+            "Force crab ride through it",
+            "Abandon position and reset"
+          ],
+          "trap": [
+            "Release grips, chase harder"
+          ]
+        }
       }
     ],
-    "safety_considerations": "RDLR to Crab Ride involves inversion mechanics that place significant stress on the cervical spine during the threading motion underneath the opponent. Never force the inversion if your neck becomes compressed or your rotation path is blocked by the opponent's weight. Tap immediately if you feel cervical loading during a failed inversion attempt. Training partners should avoid driving full bodyweight onto an inverting player's head or neck. Build cervical stability and inversion comfort progressively through solo drilling before attempting the technique under resistance. Practitioners with existing neck injuries should consult a medical professional before training inversion-based techniques."
+    "safety_considerations": "RDLR to Crab Ride involves inversion mechanics that place significant stress on the cervical spine during the threading motion underneath the opponent. Never force the inversion if your neck becomes compressed or your rotation path is blocked by the opponent's weight. Tap immediately if you feel cervical loading during a failed inversion attempt. Training partners should avoid driving full bodyweight onto an inverting player's head or neck. Build cervical stability and inversion comfort progressively through solo drilling before attempting the technique under resistance. Practitioners with existing neck injuries should consult a medical professional before training inversion-based techniques.",
+    "clips": [
+      {
+        "id": "Y6fBPjHzfv4",
+        "title": "DLR to crab ride back take",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "A1QAE6FNr1c",
+        "title": "De La Riva to crab ride back take, basics",
+        "by": "PTT Chilliwack",
+        "vertical": false,
+        "channel": "PTT Chilliwack",
+        "duration": 180,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a8wrADdyZPA",
+        "title": "Reverse De La Riva to crab ride via inversion",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 229,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "RDLR to Crab Ride Defender",
@@ -347,23 +468,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that indicate an RDLR player is setting up a crab ride entry rather than other RDLR attacks?",
-        "answer": "The key distinguishing cues are hip elevation combined with the far leg releasing its frame on your near hip. While waiter sweeps and kiss of the dragon also use hip elevation, the far leg release specifically indicates commitment to threading underneath you rather than executing a direct sweep. Additionally, the ankle grip pulling strongly across their centerline and their shoulders beginning to rotate toward the mat on the hook side confirm the inversion pathway to crab ride rather than other RDLR offensive options."
+        "answer": "The key distinguishing cues are hip elevation combined with the far leg releasing its frame on your near hip. While waiter sweeps and kiss of the dragon also use hip elevation, the far leg release specifically indicates commitment to threading underneath you rather than executing a direct sweep. Additionally, the ankle grip pulling strongly across their centerline and their shoulders beginning to rotate toward the mat on the hook side confirm the inversion pathway to crab ride rather than other RDLR offensive options.",
+        "answer_line": "Hip rise plus far-leg release",
+        "distractors": {
+          "plausible": [
+            "Hip elevation alone",
+            "Ankle grip pull only"
+          ],
+          "trap": [
+            "Weight rocking back off hook"
+          ]
+        }
       },
       {
         "question": "Your opponent has initiated the inversion and is threading underneath you—what is your immediate defensive priority?",
-        "answer": "Once the inversion is committed, your immediate priority shifts from prevention to damage control. Drive your hips down hard while sprawling forward to compress the available space and slow or stall the inversion. Simultaneously, address the hook by working to strip it before they can emerge on the far side. If they complete the thread, your priority becomes preventing the crab ride hook insertion by keeping your near-side hip tight to the mat and turning toward them before they can establish perpendicular control."
+        "answer": "Once the inversion is committed, your immediate priority shifts from prevention to damage control. Drive your hips down hard while sprawling forward to compress the available space and slow or stall the inversion. Simultaneously, address the hook by working to strip it before they can emerge on the far side. If they complete the thread, your priority becomes preventing the crab ride hook insertion by keeping your near-side hip tight to the mat and turning toward them before they can establish perpendicular control.",
+        "answer_line": "Sprawl hips down, strip hook",
+        "distractors": {
+          "plausible": [
+            "Wait for full thread then react",
+            "Pull guard to reset position"
+          ],
+          "trap": [
+            "Post up and stand to escape"
+          ]
+        }
       },
       {
         "question": "The RDLR player has partially established crab ride but hasn't secured upper body control yet—how do you escape?",
-        "answer": "This is a critical escape window before full consolidation. Immediately turn your shoulders toward the attacker rather than away, which prevents them from establishing the perpendicular chest pressure that completes crab ride. Simultaneously work to strip the single hook by cupping their ankle and pushing it toward the mat while driving your hip to the ground. The combination of turning in and hook stripping creates the space to sit through to guard recovery before they can add upper body control. Speed is essential—this window closes within two to three seconds."
+        "answer": "This is a critical escape window before full consolidation. Immediately turn your shoulders toward the attacker rather than away, which prevents them from establishing the perpendicular chest pressure that completes crab ride. Simultaneously work to strip the single hook by cupping their ankle and pushing it toward the mat while driving your hip to the ground. The combination of turning in and hook stripping creates the space to sit through to guard recovery before they can add upper body control. Speed is essential—this window closes within two to three seconds.",
+        "answer_line": "Turn in, strip the hook",
+        "distractors": {
+          "plausible": [
+            "Push away and stand up",
+            "Turn away to create space"
+          ],
+          "trap": [
+            "Turn away, expose the back"
+          ]
+        }
       },
       {
         "question": "What weight distribution adjustment prevents the RDLR player from loading you for the inversion?",
-        "answer": "Shift your weight backward by sitting your hips behind the line of the RDLR hook rather than over it. Your center of gravity should remain behind your knee line on the hook side, which prevents the attacker from pulling your weight forward onto the hook. Widen your base laterally and keep your posting leg active. If you feel your weight being drawn across their centerline through the ankle grip, immediately post on the opposite side and circle away from the pull direction."
+        "answer": "Shift your weight backward by sitting your hips behind the line of the RDLR hook rather than over it. Your center of gravity should remain behind your knee line on the hook side, which prevents the attacker from pulling your weight forward onto the hook. Widen your base laterally and keep your posting leg active. If you feel your weight being drawn across their centerline through the ankle grip, immediately post on the opposite side and circle away from the pull direction.",
+        "answer_line": "Sit weight behind the hook",
+        "distractors": {
+          "plausible": [
+            "Center weight over the hook",
+            "Lean forward into the hook"
+          ],
+          "trap": [
+            "Load weight onto hook-side leg"
+          ]
+        }
       },
       {
         "question": "Your ankle grip is being pulled strongly across the attacker's centerline from RDLR—what defensive options do you have?",
-        "answer": "First, fight the grip immediately with a two-on-one break using your same-side hand and opposite hand to peel their fingers or redirect their wrist. If the grip is too deep to break cleanly, backstep your hook-side leg away from the pull while widening your base to resist the directional force. As a third option, accept the pull direction but drop your hips low and sprawl in the same direction, converting their pull into your pressure and eliminating the space they need for inversion. Never remain static when your ankle is being controlled—address it within two seconds or concede the positional advantage."
+        "answer": "First, fight the grip immediately with a two-on-one break using your same-side hand and opposite hand to peel their fingers or redirect their wrist. If the grip is too deep to break cleanly, backstep your hook-side leg away from the pull while widening your base to resist the directional force. As a third option, accept the pull direction but drop your hips low and sprawl in the same direction, converting their pull into your pressure and eliminating the space they need for inversion. Never remain static when your ankle is being controlled—address it within two seconds or concede the positional advantage.",
+        "answer_line": "Break grip with two-on-one",
+        "distractors": {
+          "plausible": [
+            "Backstep away without base",
+            "Pull ankle straight back hard"
+          ],
+          "trap": [
+            "Stay still, ignore the grip"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -381,6 +552,35 @@
         "phase": "Phase 3: Live Positional Defense",
         "focus": "Applying defensive skills under full resistance with realistic pressure",
         "description": "Positional sparring starting from RDLR where the bottom player works to achieve crab ride and you work to prevent it and pass the guard. Full resistance from both players. Three-minute rounds with resets when either objective is achieved. Develop the ability to chain defensive options when the first choice is countered and maintain composure under rotational pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hdSw-ZmcBRA",
+        "title": "Defense to reverse De La Riva and foot lock",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "O2krF_r_hQU",
+        "title": "Passing the reverse De La Riva guard",
+        "by": "Pathfinder Jiu-Jitsu Team",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 155,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -34,6 +34,54 @@ description: "Master the pressure pass from Shin-to-Shin Guard. Step-by-step gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pressure from Shin-to-Shin \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin-to-shin guard pass",
+      "description": "Pressure from Shin-to-Shin film study: Shin-to-shin guard pass, taught by Trapp Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2aggDA12emA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2aggDA12emA",
+      "url": "https://www.youtube.com/watch?v=2aggDA12emA",
+      "creator": { "@type": "Person", "name": "Trapp Martial Arts" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi shin-to-shin pass variation",
+      "description": "Pressure from Shin-to-Shin film study: No-gi shin-to-shin pass variation, taught by The Base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rRCor6OwhCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rRCor6OwhCo",
+      "url": "https://www.youtube.com/watch?v=rRCor6OwhCo",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shin slice pass",
+      "description": "Pressure from Shin-to-Shin film study: Shin slice pass, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hPri1wuwCP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hPri1wuwCP8",
+      "url": "https://www.youtube.com/watch?v=hPri1wuwCP8",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Effective execution demands precise understanding of weight distribution mechani
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pressure from Shin-to-Shin in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2aggDA12emA)
+
+<p class="clip-credit"><strong>Shin-to-shin guard pass</strong> — taught by Trapp Martial Arts · 0:55 · <a href="https://www.youtube.com/watch?v=2aggDA12emA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rRCor6OwhCo)
+
+<p class="clip-credit"><strong>No-gi shin-to-shin pass variation</strong> — taught by The Base Jiu Jitsu · 2:16 · <a href="https://www.youtube.com/watch?v=rRCor6OwhCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hPri1wuwCP8)
+
+<p class="clip-credit"><strong>Shin slice pass</strong> — taught by Factory Fresh Jiu Jitsu · 1:46 · <a href="https://www.youtube.com/watch?v=hPri1wuwCP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

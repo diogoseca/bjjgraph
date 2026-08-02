@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Darce Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "North-South/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within the Darce defense hierarchy, the back door sits alongside arm extraction and the granby roll as one of the few reliable answers once the figure-four grip is locked and forward pressure begins to build. It exploits a fundamental weakness in the Darce grip structure—the attacker's control is strongest when the defender moves forward or laterally, but significantly weaker when the defender retreats toward the attacker's back, where the gap between their choking elbow and hip leaves an exit path.\n\nThe technique works by recognizing that the Darce choke requires the attacker to maintain pressure perpendicular to the defender's spine. By stepping or rolling backward through the gap behind the attacker's controlling arm, the defender eliminates the choking angle and creates space to recover guard or establish turtle position. This escape is particularly effective when the Darce is being applied from a perpendicular angle rather than directly in front.\n\nStrategically, the Back Door Escape represents a last-resort option when arm extraction and other primary escapes have failed. Its success depends heavily on timing—attempting this escape too early wastes energy on a complex movement when simpler options remain, while attempting it too late puts you in an even worse position as the choke tightens. Advanced practitioners develop sensitivity to the precise moment when the back door becomes the highest-percentage option based on the attacker's grip depth and hip position.",
   "related_content": [
     {
@@ -202,46 +217,166 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Back Door Escape?",
-        "answer": "The primary goal is to exit the Darce choke by moving backward through the gap behind the attacker's choking arm, eliminating the choking angle and recovering to a defensible position like open guard or turtle. This escape exploits the weakness in Darce control when the defender moves toward the attacker's back rather than away from them."
+        "answer": "The primary goal is to exit the Darce choke by moving backward through the gap behind the attacker's choking arm, eliminating the choking angle and recovering to a defensible position like open guard or turtle. This escape exploits the weakness in Darce control when the defender moves toward the attacker's back rather than away from them.",
+        "answer_line": "Exit backward past the choking arm",
+        "distractors": {
+          "plausible": [
+            "Pull trapped arm straight out",
+            "Pull away from the attacker"
+          ],
+          "trap": [
+            "Turn away and try to stand up"
+          ]
+        }
       },
       {
         "question": "What position do you start Back Door Escape from?",
-        "answer": "This technique starts from Darce Control Bottom, where the attacker has established the arm-in choke configuration with their arm threaded under your armpit and around your neck. The escape is executed when the attacker's weight is committed forward and there is space behind their controlling arm."
+        "answer": "This technique starts from Darce Control Bottom, where the attacker has established the arm-in choke configuration with their arm threaded under your armpit and around your neck. The escape is executed when the attacker's weight is committed forward and there is space behind their controlling arm.",
+        "answer_line": "Darce Control Bottom",
+        "distractors": {
+          "plausible": [
+            "Guillotine Control Bottom",
+            "Kimura Control Bottom"
+          ],
+          "trap": [
+            "Full mount, choke locked in"
+          ]
+        }
       },
       {
         "question": "What are the key grips and frames needed for Back Door Escape?",
-        "answer": "The primary frame is your free hand (not trapped in the choke) placed firmly on the attacker's near hip. This frame creates the push needed to generate rotation momentum. No specific grips are required—the free hand frames rather than grips to allow pushing motion. The trapped arm remains passive until head extraction is complete."
+        "answer": "The primary frame is your free hand (not trapped in the choke) placed firmly on the attacker's near hip. This frame creates the push needed to generate rotation momentum. No specific grips are required—the free hand frames rather than grips to allow pushing motion. The trapped arm remains passive until head extraction is complete.",
+        "answer_line": "Free hand frames on near hip",
+        "distractors": {
+          "plausible": [
+            "Grip attacker's far wrist",
+            "Push off attacker's far knee"
+          ],
+          "trap": [
+            "Grip your own choking arm"
+          ]
+        }
       },
       {
         "question": "How do you counter the Back Door Escape as the attacker?",
-        "answer": "As the attacker, counter by walking your hips backward to close the gap behind your arm, flattening your weight to prevent rotation, and transitioning your grip if the defender begins exiting. If they successfully thread through, immediately transition to back control since their escape direction brings them toward your body."
+        "answer": "As the attacker, counter by walking your hips backward to close the gap behind your arm, flattening your weight to prevent rotation, and transitioning your grip if the defender begins exiting. If they successfully thread through, immediately transition to back control since their escape direction brings them toward your body.",
+        "answer_line": "Walk hips back, flatten weight",
+        "distractors": {
+          "plausible": [
+            "Squeeze the choke tighter now",
+            "Sit back and pull guard"
+          ],
+          "trap": [
+            "Release grip and stand up"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Back Door Escape?",
-        "answer": "The optimal time is when the attacker commits their weight forward to finish the choke, creating a gap behind their control arm, but before the choke is fully locked. The escape should be attempted after recognizing that primary escapes like arm extraction are being shut down. Attempting too early wastes the option, too late risks tightening a dangerous choke."
+        "answer": "The optimal time is when the attacker commits their weight forward to finish the choke, creating a gap behind their control arm, but before the choke is fully locked. The escape should be attempted after recognizing that primary escapes like arm extraction are being shut down. Attempting too early wastes the option, too late risks tightening a dangerous choke.",
+        "answer_line": "When attacker commits forward",
+        "distractors": {
+          "plausible": [
+            "Right when choke first locks",
+            "As soon as grip is secured"
+          ],
+          "trap": [
+            "Only after choke goes tight"
+          ]
+        }
       },
       {
         "question": "Your opponent tightens their Darce as you begin the escape—should you continue?",
-        "answer": "If the choke tightens significantly during your escape attempt, immediately reassess. A partially executed back door that stalls puts you in worse position than the starting point. If you cannot complete the rotation and head extraction within 2-3 seconds, abandon the attempt and either return to arm extraction defense or tap if the choke is dangerously tight."
+        "answer": "If the choke tightens significantly during your escape attempt, immediately reassess. A partially executed back door that stalls puts you in worse position than the starting point. If you cannot complete the rotation and head extraction within 2-3 seconds, abandon the attempt and either return to arm extraction defense or tap if the choke is dangerously tight.",
+        "answer_line": "Abort if stalled 2-3 seconds",
+        "distractors": {
+          "plausible": [
+            "Wait out their grip to tire",
+            "Push their head off with both hands"
+          ],
+          "trap": [
+            "Roll onto your back for space"
+          ]
+        }
       },
       {
         "question": "What body mechanics create the rotation needed for successful escape?",
-        "answer": "The rotation comes from pushing off the attacker's hip with your free hand while simultaneously turning your shoulders toward them (not away). Your head leads the rotation, tucking chin and threading through the gap. The combined hip push and shoulder turn creates torque that spirals your body through the back door opening."
+        "answer": "The rotation comes from pushing off the attacker's hip with your free hand while simultaneously turning your shoulders toward them (not away). Your head leads the rotation, tucking chin and threading through the gap. The combined hip push and shoulder turn creates torque that spirals your body through the back door opening.",
+        "answer_line": "Push hip, turn shoulders in",
+        "distractors": {
+          "plausible": [
+            "Pull head back, arch spine",
+            "Turn shoulders away, sit up"
+          ],
+          "trap": [
+            "Push off attacker's shoulder"
+          ]
+        }
       },
       {
         "question": "How do you chain the Back Door Escape with your follow-up guard recovery?",
-        "answer": "As your head clears and arm extracts, continue the rotation momentum to establish frames before the attacker can readjust. If exiting to turtle, immediately establish tight elbows and begin standard turtle defense. If rotating to open guard, post your free hand and establish feet on opponent's hips while seated. Never pause between escape completion and guard establishment—the transition must be continuous."
+        "answer": "As your head clears and arm extracts, continue the rotation momentum to establish frames before the attacker can readjust. If exiting to turtle, immediately establish tight elbows and begin standard turtle defense. If rotating to open guard, post your free hand and establish feet on opponent's hips while seated. Never pause between escape completion and guard establishment—the transition must be continuous.",
+        "answer_line": "Flow straight into frames",
+        "distractors": {
+          "plausible": [
+            "Pause to check position first",
+            "Stand up before framing"
+          ],
+          "trap": [
+            "Stop and rest in bottom position"
+          ]
+        }
       },
       {
         "question": "What distinguishes when Back Door Escape is preferred over arm extraction?",
-        "answer": "Back Door Escape becomes preferred when arm extraction is being shut down—specifically when the attacker maintains constant inward pressure with their bicep against your neck, keeps their elbow past your spine, or flattens you preventing the space needed for extraction. The back door exploits the opposite vulnerability: weakness to rearward movement when the attacker focuses on preventing lateral arm escape."
+        "answer": "Back Door Escape becomes preferred when arm extraction is being shut down—specifically when the attacker maintains constant inward pressure with their bicep against your neck, keeps their elbow past your spine, or flattens you preventing the space needed for extraction. The back door exploits the opposite vulnerability: weakness to rearward movement when the attacker focuses on preventing lateral arm escape.",
+        "answer_line": "When arm extraction is shut down",
+        "distractors": {
+          "plausible": [
+            "Whenever choke feels loose",
+            "Anytime attacker is tired"
+          ],
+          "trap": [
+            "When flattened, no space left"
+          ]
+        }
       },
       {
         "question": "How does the attacker's hip position determine Back Door Escape viability?",
-        "answer": "If the attacker's hips are positioned perpendicular to your spine (to the side), the back door gap is larger and escape is viable. If they position their hips directly behind you with weight low, the gap closes and back door becomes nearly impossible. During training, develop sensitivity to reading hip position through the pressure distribution on your body to select the appropriate escape."
+        "answer": "If the attacker's hips are positioned perpendicular to your spine (to the side), the back door gap is larger and escape is viable. If they position their hips directly behind you with weight low, the gap closes and back door becomes nearly impossible. During training, develop sensitivity to reading hip position through the pressure distribution on your body to select the appropriate escape.",
+        "answer_line": "Hips perpendicular = gap open",
+        "distractors": {
+          "plausible": [
+            "Hips behind = escape easier",
+            "Hip position doesn't matter"
+          ],
+          "trap": [
+            "Wait for hips low and behind"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Back Door Escape involves rotating while partially in a choke, which carries inherent risk if executed incorrectly or too late. Never attempt this escape when the Darce is fully locked and blood flow restriction is occurring—the rotation can accelerate unconsciousness. Keep chin tucked throughout to protect the airway. In training, communicate with your partner about pressure levels and ensure the choker maintains awareness of your escape attempts to prevent inadvertent tightening during rotation. If you feel significant choking pressure increase during the escape attempt, tap immediately rather than forcing completion. This escape should be drilled extensively at low resistance before attempting in live sparring."
+    "safety_considerations": "The Back Door Escape involves rotating while partially in a choke, which carries inherent risk if executed incorrectly or too late. Never attempt this escape when the Darce is fully locked and blood flow restriction is occurring—the rotation can accelerate unconsciousness. Keep chin tucked throughout to protect the airway. In training, communicate with your partner about pressure levels and ensure the choker maintains awareness of your escape attempts to prevent inadvertent tightening during rotation. If you feel significant choking pressure increase during the escape attempt, tap immediately rather than forcing completion. This escape should be drilled extensively at low resistance before attempting in live sparring.",
+    "clips": [
+      {
+        "id": "Ly89G4iCTSQ",
+        "title": "Turtle escape rolling out to guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pdkUm3nuK34",
+        "title": "Escaping out the back into a darce",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Door Escape Defender",
@@ -326,23 +461,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting the Back Door Escape rather than arm extraction?",
-        "answer": "The earliest cue is the defender placing their free hand on your near hip as a frame while simultaneously turning their shoulders toward you rather than pulling their trapped arm laterally. This combination of hip frame plus inward shoulder rotation is unique to the back door setup and distinct from arm extraction, where the defender pulls their arm across their body and turns away from you."
+        "answer": "The earliest cue is the defender placing their free hand on your near hip as a frame while simultaneously turning their shoulders toward you rather than pulling their trapped arm laterally. This combination of hip frame plus inward shoulder rotation is unique to the back door setup and distinct from arm extraction, where the defender pulls their arm across their body and turns away from you.",
+        "answer_line": "Hip frame plus shoulder turn",
+        "distractors": {
+          "plausible": [
+            "Pulling trapped arm laterally",
+            "Turning head away sharply"
+          ],
+          "trap": [
+            "Sudden explosive bridge up"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating toward you with a strong hip frame—what is your immediate defensive priority?",
-        "answer": "Your immediate priority is closing the gap behind your choking arm by walking your hips backward and driving your elbow tight to your own hip. This must happen before the defender's head can thread through the opening. Simultaneously, increase downward chest pressure to flatten them and eliminate the base they need for rotation. Do not focus on squeezing the choke—address the positional escape first."
+        "answer": "Your immediate priority is closing the gap behind your choking arm by walking your hips backward and driving your elbow tight to your own hip. This must happen before the defender's head can thread through the opening. Simultaneously, increase downward chest pressure to flatten them and eliminate the base they need for rotation. Do not focus on squeezing the choke—address the positional escape first.",
+        "answer_line": "Close gap, flatten their hips",
+        "distractors": {
+          "plausible": [
+            "Squeeze the choke harder now",
+            "Switch to a different choke"
+          ],
+          "trap": [
+            "Let them rotate, chase choke"
+          ]
+        }
       },
       {
         "question": "When should you abandon the Darce grip and transition to north-south instead of fighting to maintain the choke?",
-        "answer": "Abandon the Darce and transition to north-south when the defender's head has already begun clearing your choking arm and you cannot close the gap. At this point, the choking structure is compromised and continuing to squeeze wastes energy while the defender completes the escape. By releasing proactively and sprawling to north-south, you convert a failed submission into dominant top control rather than losing all positional advantage."
+        "answer": "Abandon the Darce and transition to north-south when the defender's head has already begun clearing your choking arm and you cannot close the gap. At this point, the choking structure is compromised and continuing to squeeze wastes energy while the defender completes the escape. By releasing proactively and sprawling to north-south, you convert a failed submission into dominant top control rather than losing all positional advantage.",
+        "answer_line": "When head clears, gap won't close",
+        "distractors": {
+          "plausible": [
+            "Only after choke fully finishes",
+            "Never, always keep squeezing"
+          ],
+          "trap": [
+            "Chase the choke until it taps"
+          ]
+        }
       },
       {
         "question": "How does your hip positioning throughout Darce control prevent the Back Door Escape preemptively?",
-        "answer": "Keeping your hips low and tight against the defender's body throughout Darce control eliminates the gap between your elbow and hip that the back door requires. Your hip should be close enough to your own choking elbow that there is no physical space for the defender to thread their head through. This preventive positioning is far more effective than reacting after the escape has started, because once the defender establishes the hip frame and begins rotating, closing the gap becomes a race you may lose."
+        "answer": "Keeping your hips low and tight against the defender's body throughout Darce control eliminates the gap between your elbow and hip that the back door requires. Your hip should be close enough to your own choking elbow that there is no physical space for the defender to thread their head through. This preventive positioning is far more effective than reacting after the escape has started, because once the defender establishes the hip frame and begins rotating, closing the gap becomes a race you may lose.",
+        "answer_line": "Keep hips low and tight always",
+        "distractors": {
+          "plausible": [
+            "Adjust hips only if they escape",
+            "Keep elbow wide of your hip"
+          ],
+          "trap": [
+            "Post hips high for base"
+          ]
+        }
       },
       {
         "question": "Your opponent's back door escape partially succeeds and they emerge into turtle—how do you capitalize?",
-        "answer": "As the defender exits through the back door into turtle, immediately release the Darce grip and transition to turtle top attack. Establish a seatbelt or harness control on their upper body before they can complete their guard recovery. The defender's escape direction naturally brings them close to your body, which is actually advantageous for taking the back. Insert your near-side hook while driving chest pressure onto their upper back to prevent the standup or granby roll that would complete their escape to guard."
+        "answer": "As the defender exits through the back door into turtle, immediately release the Darce grip and transition to turtle top attack. Establish a seatbelt or harness control on their upper body before they can complete their guard recovery. The defender's escape direction naturally brings them close to your body, which is actually advantageous for taking the back. Insert your near-side hook while driving chest pressure onto their upper back to prevent the standup or granby roll that would complete their escape to guard.",
+        "answer_line": "Release grip, attack the back",
+        "distractors": {
+          "plausible": [
+            "Keep squeezing the old choke",
+            "Let them stand up freely"
+          ],
+          "trap": [
+            "Chase a leg lock instead"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -365,6 +550,35 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Full Darce control sparring rounds where partner uses all escape options including back door. Practice maintaining proper hip position throughout while also threatening the choke finish. Develop the ability to prevent multiple escape attempts in sequence and finish the submission when openings appear. Includes situational sparring from Darce control entry."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FMAWiNfgp74",
+        "title": "Defending the front headlock and darce with a stack",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rgf9QUebMWE",
+        "title": "Darce defense: shutting the choke down early",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IxZ0re1mxeI",
+        "title": "Favorite darce counter from front headlock",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 132,
+        "verified": "2026-07-15"
       }
     ]
   },

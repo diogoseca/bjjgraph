@@ -150,6 +150,43 @@ description: "Defend the cross collar choke from closed guard with early grip re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross choke defense from guard: two tips",
+      "description": "Cross Collar Choke from Closed Guard (Defender) film study: Cross choke defense from guard: two tips, taught by Wayne Sniffen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QIRF2B9riAA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QIRF2B9riAA",
+      "url": "https://www.youtube.com/watch?v=QIRF2B9riAA",
+      "creator": { "@type": "Person", "name": "Wayne Sniffen" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Juji Jime escape: cross collar choke defense",
+      "description": "Cross Collar Choke from Closed Guard (Defender) film study: Juji Jime escape: cross collar choke defense, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/be-iHHhJGng/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/be-iHHhJGng",
+      "url": "https://www.youtube.com/watch?v=be-iHHhJGng",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT130S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the cross collar choke from closed guard demands constant awareness of
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QIRF2B9riAA)
+
+<p class="clip-credit"><strong>Cross choke defense from guard: two tips</strong> — taught by Wayne Sniffen · 1:45 · <a href="https://www.youtube.com/watch?v=QIRF2B9riAA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=be-iHHhJGng)
+
+<p class="clip-credit"><strong>Juji Jime escape: cross collar choke defense</strong> — taught by Peter Mettler · 2:10 · <a href="https://www.youtube.com/watch?v=be-iHHhJGng" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -158,6 +158,54 @@ description: "How to defend against the Armbar Finish in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Armbar Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "My favorite armbar escape",
+      "description": "Armbar from Armbar Control (Defender) film study: My favorite armbar escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hitchhiker armbar escape",
+      "description": "Armbar from Armbar Control (Defender) film study: Hitchhiker armbar escape, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gWfgCEvGZTo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gWfgCEvGZTo",
+      "url": "https://www.youtube.com/watch?v=gWfgCEvGZTo",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Quickest armbar escape: the Hitchhiker",
+      "description": "Armbar from Armbar Control (Defender) film study: Quickest armbar escape: the Hitchhiker, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w6M0NpTMkeU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w6M0NpTMkeU",
+      "url": "https://www.youtube.com/watch?v=w6M0NpTMkeU",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -172,6 +220,42 @@ Strategically, the defender must recognize the difference between early-phase de
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Armbar Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>My favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gWfgCEvGZTo)
+
+<p class="clip-credit"><strong>Hitchhiker armbar escape</strong> — taught by Evolve MMA · 0:58 · <a href="https://www.youtube.com/watch?v=gWfgCEvGZTo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w6M0NpTMkeU)
+
+<p class="clip-credit"><strong>Quickest armbar escape: the Hitchhiker</strong> — taught by Peter Mettler · 0:55 · <a href="https://www.youtube.com/watch?v=w6M0NpTMkeU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

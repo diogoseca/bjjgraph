@@ -27,31 +27,31 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hitchhiker Escape",
-      "text": "From this position, attempt Hitchhiker Escape. This technique is attempted in 23% of exchanges from this position.",
+      "name": "Execute Hitchhiker Escape from Armbar",
+      "text": "From this position, attempt Hitchhiker Escape from Armbar. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Escape to Guard",
-      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Favorite armbar escape",
+      "description": "Armbar Control (Bottom) film study: Favorite armbar escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar escape to RNC",
+      "description": "Armbar Control (Bottom) film study: Armbar escape to RNC, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
+      "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar stack escape",
+      "description": "Armbar Control (Bottom) film study: Armbar stack escape, taught by WNY MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lXpel1GO2Do/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lXpel1GO2Do",
+      "url": "https://www.youtube.com/watch?v=lXpel1GO2Do",
+      "creator": { "@type": "Person", "name": "WNY MMA" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From this position, the defender must balance multiple priorities: preventing th
 Mastery of armbar defense is essential for all practitioners, as the armbar is one of BJJ's most common and effective submissions. Proper defensive technique can transform a dangerous situation into an opportunity for escape and position recovery, making this knowledge crucial for competitive success and training safety.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sDdqvh_1kbA)
+
+<p class="clip-credit"><strong>Armbar escape to RNC</strong> — taught by ZombieProofBJJ · 1:03 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lXpel1GO2Do)
+
+<p class="clip-credit"><strong>Armbar stack escape</strong> — taught by WNY MMA · 0:37 · <a href="https://www.youtube.com/watch?v=lXpel1GO2Do" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -219,7 +303,7 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 <p class="section-subtitle">What should you do from Armbar Control (Bottom)?</p>
 
 **If opponent has not fully extended the arm and legs are not tight across face:**
-- Execute **[[Transitions/Hitchhiker Escape/Attacker|Hitchhiker Escape]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Hitchhiker Escape from Armbar/Attacker|Hitchhiker Escape from Armbar]]** → [[Positions/Half Guard]] (Probability: 60%)
 - Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
@@ -347,7 +431,7 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 - **[[Transitions/Hip Escape to Guard]]** - Primary escape technique - most reliable armbar defense method
 - **[[Positions/Closed Guard]]** - Common escape target - safe position after successful defense
 - **[[Positions/Mount]]** - Common origin - position often attacked from mount
-- **[[Transitions/Hitchhiker Escape]]** - Key escape technique used from this position
+- **[[Transitions/Hitchhiker Escape from Armbar]]** - Key escape technique used from this position
 - **[[Transitions/Stack Defense]]** - Primary defensive response to compromise opponent's finishing angle
 - **[[Positions/Half Guard]]** - Common recovery position after successful escape
 

@@ -148,6 +148,43 @@ description: "How to defend against Lumberjack Sweep in BJJ. Recognition cues, d
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lumberjack Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lumberjack sweep counter from closed guard",
+      "description": "Lumberjack Sweep (Defender) film study: Lumberjack sweep counter from closed guard, taught by Ultra Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wR4D3dH6Jj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wR4D3dH6Jj4",
+      "url": "https://www.youtube.com/watch?v=wR4D3dH6Jj4",
+      "creator": { "@type": "Person", "name": "Ultra Jiu Jitsu Academy" },
+      "duration": "PT191S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Secret to passing half guard without getting swept",
+      "description": "Lumberjack Sweep (Defender) film study: Secret to passing half guard without getting swept, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n6W2voDUWAY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n6W2voDUWAY",
+      "url": "https://www.youtube.com/watch?v=n6W2voDUWAY",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT164S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Lumberjack Sweep requires the top player to recognize the setup ea
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lumberjack Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wR4D3dH6Jj4)
+
+<p class="clip-credit"><strong>Lumberjack sweep counter from closed guard</strong> — taught by Ultra Jiu Jitsu Academy · 3:11 · <a href="https://www.youtube.com/watch?v=wR4D3dH6Jj4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n6W2voDUWAY)
+
+<p class="clip-credit"><strong>Secret to passing half guard without getting swept</strong> — taught by Gordon Ryan · 2:44 · <a href="https://www.youtube.com/watch?v=n6W2voDUWAY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

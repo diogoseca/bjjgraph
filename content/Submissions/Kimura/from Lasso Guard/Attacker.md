@@ -170,6 +170,43 @@ description: "Learn to execute the Kimura shoulder lock from Lasso Guard top. Co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Lasso Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura with the Legs from Guard",
+      "description": "Kimura from Lasso Guard (Attacker) film study: Kimura with the Legs from Guard, taught by Jaime Jara.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Uu4h-eTOU5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Uu4h-eTOU5w",
+      "url": "https://www.youtube.com/watch?v=Uu4h-eTOU5w",
+      "creator": { "@type": "Person", "name": "Jaime Jara" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura with the Legs",
+      "description": "Kimura from Lasso Guard (Attacker) film study: Kimura with the Legs, taught by Brendan Smitke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Afz-rE1YYE0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Afz-rE1YYE0",
+      "url": "https://www.youtube.com/watch?v=Afz-rE1YYE0",
+      "creator": { "@type": "Person", "name": "Brendan Smitke" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +217,34 @@ Attacking with the Kimura from Lasso Guard top requires recognizing the moment w
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Lasso Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Uu4h-eTOU5w)
+
+<p class="clip-credit"><strong>Kimura with the Legs from Guard</strong> — taught by Jaime Jara · 0:31 · <a href="https://www.youtube.com/watch?v=Uu4h-eTOU5w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Afz-rE1YYE0)
+
+<p class="clip-credit"><strong>Kimura with the Legs</strong> — taught by Brendan Smitke · 0:31 · <a href="https://www.youtube.com/watch?v=Afz-rE1YYE0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

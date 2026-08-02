@@ -148,6 +148,54 @@ description: "How to defend against Heel Grab Sweep in BJJ. Recognition cues, de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Grab Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single Leg X Counter With Heel Hook",
+      "description": "Heel Grab Sweep (Defender) film study: Single Leg X Counter With Heel Hook, taught by Charles Allan Price.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e2KVHXnSh_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e2KVHXnSh_o",
+      "url": "https://www.youtube.com/watch?v=e2KVHXnSh_o",
+      "creator": { "@type": "Person", "name": "Charles Allan Price" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Five Passes vs Single Leg X-Guard",
+      "description": "Heel Grab Sweep (Defender) film study: Five Passes vs Single Leg X-Guard, taught by OneontaJiuJitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v2thEjJ0ES0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v2thEjJ0ES0",
+      "url": "https://www.youtube.com/watch?v=v2thEjJ0ES0",
+      "creator": { "@type": "Person", "name": "OneontaJiuJitsu Academy" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single Leg X Guard Options and Counters",
+      "description": "Heel Grab Sweep (Defender) film study: Single Leg X Guard Options and Counters, taught by Steven Kaloustian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
+      "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
+      "creator": { "@type": "Person", "name": "Steven Kaloustian" },
+      "duration": "PT97S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Heel Grab Sweep requires the top player to recognize the threat ea
 **Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Grab Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e2KVHXnSh_o)
+
+<p class="clip-credit"><strong>Single Leg X Counter With Heel Hook</strong> — taught by Charles Allan Price · 1:15 · <a href="https://www.youtube.com/watch?v=e2KVHXnSh_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v2thEjJ0ES0)
+
+<p class="clip-credit"><strong>Five Passes vs Single Leg X-Guard</strong> — taught by OneontaJiuJitsu Academy · 2:01 · <a href="https://www.youtube.com/watch?v=v2thEjJ0ES0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EcxCadpBePk)
+
+<p class="clip-credit"><strong>Single Leg X Guard Options and Counters</strong> — taught by Steven Kaloustian · 1:37 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

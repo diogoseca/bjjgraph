@@ -34,6 +34,43 @@ description: "Master the bridge escape from S Mount in BJJ. Technical guide to t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from S Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the modified/S mount",
+      "description": "Bridge Escape from S Mount film study: Escaping the modified/S mount, taught by Fenrir Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dKsWGZXo3Zw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dKsWGZXo3Zw",
+      "url": "https://www.youtube.com/watch?v=dKsWGZXo3Zw",
+      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount bottom bridge and roll escape",
+      "description": "Bridge Escape from S Mount film study: Mount bottom bridge and roll escape, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2uuP147GoBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2uuP147GoBk",
+      "url": "https://www.youtube.com/watch?v=2uuP147GoBk",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategic context places the bridge escape as one of three primary escape pathwa
 **Success Rate**: 30%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from S Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dKsWGZXo3Zw)
+
+<p class="clip-credit"><strong>Escaping the modified/S mount</strong> — taught by Fenrir Jiu-Jitsu Academy · 2:13 · <a href="https://www.youtube.com/watch?v=dKsWGZXo3Zw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2uuP147GoBk)
+
+<p class="clip-credit"><strong>Mount bottom bridge and roll escape</strong> — taught by Academy Jiu Jitsu · 1:02 · <a href="https://www.youtube.com/watch?v=2uuP147GoBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

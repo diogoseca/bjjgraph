@@ -17,7 +17,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The belly down armbar from side control is a prone elbow lock where the attacker isolates an arm, steps over the opponent's head, and rotates face-down to hyperextend the elbow while eliminating the stacking and hitchhiker escapes.",
   "overview": "The belly down armbar finish from side control is one of the highest-percentage armbar completions available from a top control position. Unlike standard armbar finishes where the attacker lies on their back with the opponent's arm extended between the legs, the belly down variation has the attacker rotating prone over the trapped arm, using body weight and gravity to generate extension force. This mechanical advantage makes the technique extremely difficult to defend once the rotation is complete, as the opponent loses the ability to stack, hitchhiker escape, or bridge into the attacker.\n\nFrom side control specifically, the setup involves isolating the near or far arm through underhook control, wrist pinning, or kimura grip manipulation, then stepping over the opponent's head to establish the perpendicular angle needed for the armbar. The key transition moment is the rotation from the seated or kneeling armbar position to the prone finish, which must be executed while maintaining constant elbow joint control. The side control starting point provides exceptional stability for this transition because the top player already has heavy chest pressure and crossface control that prevents the bottom player from anticipating and defending the arm isolation.\n\nThis technique is particularly effective in competition because opponents defending standard side control submissions like americana and kimura often expose the arm in ways that create direct entries to the belly down armbar. The prone finishing position eliminates the two most common armbar escapes, making it a reliable closer when the arm is successfully isolated.",
   "safety_considerations": {
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
@@ -283,62 +295,211 @@
       {
         "question": "What anatomical structure does the belly down armbar from side control primarily attack?",
         "answer": "The technique primarily attacks the elbow joint through hyperextension, targeting the ulnar collateral ligament and the joint capsule. The belly down position creates a fulcrum at the elbow by positioning the hip bones directly against the elbow crease while pulling the wrist in the opposite direction, generating extension force that exceeds the joint's physiological range of motion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow hyperextension",
+        "distractors": {
+          "plausible": [
+            "Shoulder joint rotation",
+            "Wrist joint compression"
+          ],
+          "trap": [
+            "Torque the shoulder to finish"
+          ]
+        }
       },
       {
         "question": "Why is the belly down position more difficult to escape than a standard supine armbar?",
         "answer": "The belly down position eliminates the two primary armbar escapes: stacking (driving forward over the attacker) is impossible because the attacker is prone with their weight driving downward, and the hitchhiker escape (rotating the thumb toward the mat to relieve pressure) is neutralized because the attacker's body weight pins the arm in place. Additionally, the prone position uses gravity to assist the hyperextension rather than fighting against it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No stacking or hitchhiker escape",
+        "distractors": {
+          "plausible": [
+            "Opponent cannot grip fight at all",
+            "The legs no longer need to squeeze"
+          ],
+          "trap": [
+            "Release the wrist to arch harder"
+          ]
+        }
       },
       {
         "question": "What must be fully accomplished before committing to the step-over rotation?",
         "answer": "The target arm must be completely isolated from the opponent's defensive grip structure with secure two-on-one wrist control established. Premature rotation before full isolation allows the opponent to retract the arm during the transition, leaving the attacker in an unstable position straddling the opponent's head with no submission control and high vulnerability to guard recovery.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Full arm isolation, secure grip",
+        "distractors": {
+          "plausible": [
+            "Head control established first",
+            "Hip switch already completed"
+          ],
+          "trap": [
+            "Start the rotation immediately"
+          ]
+        }
       },
       {
         "question": "Where exactly should the opponent's elbow be positioned relative to your body once belly down?",
         "answer": "The opponent's elbow crease must sit directly against your hip bones, with the elbow joint centered on the hip line. This positioning creates the fulcrum necessary for hyperextension. If the elbow is above the hip line, the force applies to the forearm ineffectively. If below, the leverage is diminished and the opponent can bend the arm to create an escape angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow crease on your hip line",
+        "distractors": {
+          "plausible": [
+            "Elbow crease above the hips",
+            "Elbow crease below the hips"
+          ],
+          "trap": [
+            "Slide elbow past your knees"
+          ]
+        }
       },
       {
         "question": "What is the correct application speed for the belly down armbar finish and why?",
         "answer": "Extension must be applied slowly and progressively, never jerked or spiked. The belly down position creates extreme mechanical advantage that amplifies force far beyond what the attacker may realize. Rapid application can cause catastrophic elbow ligament damage before the opponent has time to process the pain and deliver a tap signal. Gradual pressure gives the defender time to tap safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, progressive extension",
+        "distractors": {
+          "plausible": [
+            "Match tempo to their struggle",
+            "Speed is fine if you warn them"
+          ],
+          "trap": [
+            "Hip-spike it before they tap"
+          ]
+        }
       },
       {
         "question": "How should you release the belly down armbar after your training partner taps?",
         "answer": "Release extension pressure first by lowering the wrist toward the mat and relaxing hip pressure. Then release the knee squeeze around the upper arm. Finally, disengage completely and allow your partner to retract their arm. Check their arm mobility and ask about any discomfort before resuming training. Never hold the position for even a fraction of a second after the tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Extension pressure off first",
+        "distractors": {
+          "plausible": [
+            "Pop the knee clamp open first",
+            "Pull their arm out for them"
+          ],
+          "trap": [
+            "Hold a beat to prove control"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together when you attempt to isolate the arm from side control - what is your response?",
         "answer": "Attack the grip connection directly using a kimura grip to pry the hands apart, drive your knee into the gap between their clasped hands as a wedge, or switch your attack to the other arm which is now less defended because both hands are committed to the clasp. You can also threaten a different submission like an americana to force them to release the clasp defensively.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Kimura grip or knee wedge",
+        "distractors": {
+          "plausible": [
+            "Pull harder on one wrist",
+            "Crossface harder and wait"
+          ],
+          "trap": [
+            "Sit back for the arm, lose top"
+          ]
+        }
       },
       {
         "question": "What is the key breaking-point indicator that tells you the elbow is locked and ready to finish?",
         "answer": "The decisive indicator is when the opponent's thumb points toward the ceiling with the elbow crease facing your hips and no slack remains anywhere in the arm. When the wrist is pinned to your chest, the upper arm is vised between your knees, and your hips are flush against the triceps with zero space, the joint is on its end range. From here even a few degrees of hip arch reaches the breaking point, so this is the moment to slow down and apply gradually rather than accelerate.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Thumb up, zero slack left",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving entirely",
+            "Wrist reaches your hip bone"
+          ],
+          "trap": [
+            "Arch before the arm is locked"
+          ]
+        }
       },
       {
         "question": "What happens if you leave your knees apart instead of squeezing them tightly during the belly down finish?",
         "answer": "The opponent can extract their elbow from between your legs, completely escaping the submission. Without the knee vice around the upper arm, there is nothing preventing the opponent from pulling the arm laterally to free the elbow. This is one of the most common finishing errors and results in losing both the submission and often the positional advantage as the opponent scrambles to guard recovery.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow slips free, they escape",
+        "distractors": {
+          "plausible": [
+            "Only your grip works harder",
+            "Hips lose contact with triceps"
+          ],
+          "trap": [
+            "Knees open, they roll you over"
+          ]
+        }
       },
       {
         "question": "Your two-on-one grip is slipping toward the opponent's hand as you settle belly down - what grip adjustment secures the finish?",
         "answer": "Walk both hands back up the forearm toward the wrist joint so your grip sits just above the wrist crease, not on the slippery hand or fingers. Switch to a palm-to-palm or thumbless monkey grip and clamp the wrist flat against your sternum, keeping your elbows pinched to your ribs so the opponent cannot peel a single finger. Controlling closer to the wrist shortens their lever and removes the rotational slack they need to spin the elbow free.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk grip up to the wrist",
+        "distractors": {
+          "plausible": [
+            "Grab higher onto the fingers",
+            "Switch to a one-hand grip"
+          ],
+          "trap": [
+            "Let go and regrip lower"
+          ]
+        }
       },
       {
         "question": "How does the kimura grip transition create an entry to the belly down armbar?",
         "answer": "When you attack a kimura from side control and the opponent defends by straightening and extending their arm to break the grip, the extended arm creates a direct entry to the armbar. Maintain the kimura grip on the wrist, redirect the straightened arm across your body, step over the head, and rotate to the belly down position. The opponent's own defensive extension actually assists your transition to the higher-percentage finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Opponent straightens arm vs kimura",
+        "distractors": {
+          "plausible": [
+            "Opponent bends the arm in tight",
+            "Opponent bridges into your chest"
+          ],
+          "trap": [
+            "Let go of the wrist entirely"
+          ]
+        }
       },
       {
         "question": "During competition, what strategic advantage does the belly down armbar from side control provide over standard armbar entries?",
         "answer": "The side control starting position means you maintain your 3-point pass advantage even if the armbar attempt fails, as you can return to side control rather than risking a guard recovery. The belly down finish has a significantly higher completion rate than supine armbars because it eliminates stacking and hitchhiker defenses. Additionally, opponents focused on defending standard side control attacks like americana and kimura often expose the arm configurations that create belly down armbar entries.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keeps side control if it fails",
+        "distractors": {
+          "plausible": [
+            "Scores points for the attempt",
+            "Skips the arm isolation step"
+          ],
+          "trap": [
+            "Roll to your back for the arm"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "9wGAI_8zvBQ",
+        "title": "Belly Down Armbar to Counter the Stack",
+        "by": "The Art of Fighting",
+        "vertical": false,
+        "channel": "The Art of Fighting",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5eA_LJK-gJo",
+        "title": "Belly Down Attacks: Armbar and Rear Triangle",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yDxtO6qzOL0",
+        "title": "Belly Down Arm Bar Finish",
+        "by": "Brandoo",
+        "vertical": false,
+        "channel": "Brandoo",
+        "duration": 58,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -424,22 +585,62 @@
       {
         "question": "What is the earliest recognition cue that a belly down armbar is being set up from side control?",
         "answer": "The earliest cue is the attacker shifting from standard crossface or underhook control to actively threading beneath one of your arms or transitioning to a two-on-one wrist grip. This arm isolation phase is the most defensible window and recognizing it early gives you the best chance of prevention through grip fighting and elbow control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shift to two-on-one wrist grip",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure increases",
+            "Hips shift toward your legs"
+          ],
+          "trap": [
+            "Straight-arm push to make space"
+          ]
+        }
       },
       {
         "question": "When should you tap to a belly down armbar rather than continue attempting to escape?",
         "answer": "You should tap immediately when the attacker has achieved the full belly down position with secure two-on-one wrist control and tight knee squeeze around your upper arm. At this point, the mechanical advantage is overwhelming and attempting to muscle out risks catastrophic elbow hyperextension. The belly down armbar applies force faster than most people realize, so tap early and decisively.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Once locked, before extension",
+        "distractors": {
+          "plausible": [
+            "After your escapes have failed",
+            "When his knees clamp your head"
+          ],
+          "trap": [
+            "Only once you feel real pain"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the attacker during the step-over a critical defensive error?",
         "answer": "Turning away from the attacker during the step-over phase actually assists their rotation to the belly down position by creating the exact perpendicular angle they need. It also exposes your back, potentially giving up an even worse position. The correct response is to turn into the attacker by bridging toward them and inserting a knee, which disrupts their rotation and creates a guard recovery opportunity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "It assists their rotation",
+        "distractors": {
+          "plausible": [
+            "It protects your back better",
+            "It opens space to escape"
+          ],
+          "trap": [
+            "Turn away and sit up fast"
+          ]
+        }
       },
       {
         "question": "What defensive posture should you maintain in side control bottom to prevent the arm isolation that starts this attack?",
         "answer": "Keep both elbows pinched tight to your body with hands clasped together, gripping your own wrist, or holding your collar and belt. This connected defensive structure forces the attacker to break a grip connection before isolating an arm, giving you time to recognize the threat and defend. Extended or loose arms are the primary vulnerability that enables this submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbows pinned, hands clasped",
+        "distractors": {
+          "plausible": [
+            "Push their crossface arm away",
+            "Grip their belt with far hand"
+          ],
+          "trap": [
+            "Reach across for an underhook"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -462,6 +663,35 @@
         "phase": "Phase 4: Full Defensive Sequence",
         "focus": "Integrated defense against complete attack",
         "description": "Partner attempts the full belly down armbar sequence from side control with progressive resistance. Practice the defensive hierarchy: prevent isolation, defend step-over, tap if caught. Develop realistic assessment of which defensive window you are in."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Favorite Armbar Escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3EG4Gfs30V8",
+        "title": "Hitchhiker Armbar Escape",
+        "by": "Absolute MMA",
+        "vertical": false,
+        "channel": "Absolute MMA",
+        "duration": 57,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "04LT-fIPlgw",
+        "title": "Armbar Defense: Stack and Hitchhiker Escape",
+        "by": "Gladiators Academy",
+        "vertical": false,
+        "channel": "Gladiators Academy of Youngsville",
+        "duration": 120,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -150,6 +150,43 @@ description: "How to defend against Mir Lock in BJJ. Recognition, escape paths, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mir Lock from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending The Americana Shoulder Lock",
+      "description": "Mir Lock from Side Control (Defender) film study: Defending The Americana Shoulder Lock, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
+      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura Defense from Bottom Side Control",
+      "description": "Mir Lock from Side Control (Defender) film study: Kimura Defense from Bottom Side Control, taught by Gracie Westchase Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MM9rddEgJ58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MM9rddEgJ58",
+      "url": "https://www.youtube.com/watch?v=MM9rddEgJ58",
+      "creator": { "@type": "Person", "name": "Gracie Westchase Coach" },
+      "duration": "PT156S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Mir Lock requires early recognition and immediate preventive actio
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mir Lock from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FNyL93v5fGs)
+
+<p class="clip-credit"><strong>Defending The Americana Shoulder Lock</strong> — taught by Lachlan Giles · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MM9rddEgJ58)
+
+<p class="clip-credit"><strong>Kimura Defense from Bottom Side Control</strong> — taught by Gracie Westchase Coach · 2:36 · <a href="https://www.youtube.com/watch?v=MM9rddEgJ58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

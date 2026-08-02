@@ -140,6 +140,43 @@ description: "Master defending against guard recovery from double unders. Comple
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Double Unders (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the double unders pass",
+      "description": "Guard Recovery from Double Unders (Defender) film study: Finishing the double unders pass, taught by Nicky Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4PxPPv98k4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4PxPPv98k4",
+      "url": "https://www.youtube.com/watch?v=N4PxPPv98k4",
+      "creator": { "@type": "Person", "name": "Nicky Ryan" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double under pass to paper cutter finish",
+      "description": "Guard Recovery from Double Unders (Defender) film study: Double under pass to paper cutter finish, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RIg9zUESSsQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RIg9zUESSsQ",
+      "url": "https://www.youtube.com/watch?v=RIg9zUESSsQ",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT99S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player defending against guard recovery attempts from double unders, 
 **Opponent's Starting Position**: [[Positions/Double Unders]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Double Unders (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4PxPPv98k4)
+
+<p class="clip-credit"><strong>Finishing the double unders pass</strong> — taught by Nicky Ryan · 1:31 · <a href="https://www.youtube.com/watch?v=N4PxPPv98k4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RIg9zUESSsQ)
+
+<p class="clip-credit"><strong>Double under pass to paper cutter finish</strong> — taught by JitzLive · 1:39 · <a href="https://www.youtube.com/watch?v=RIg9zUESSsQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

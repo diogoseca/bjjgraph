@@ -148,6 +148,43 @@ description: "Master defending against Strip Russian Leg Lasso in BJJ. Learn to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Strip Russian Leg Lasso (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Grip chain to retain guard when grips are stripped",
+      "description": "Strip Russian Leg Lasso (Defender) film study: Grip chain to retain guard when grips are stripped, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T_GhZe_MOWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T_GhZe_MOWI",
+      "url": "https://www.youtube.com/watch?v=T_GhZe_MOWI",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Keeping the lasso and hitting the arm drag sweep",
+      "description": "Strip Russian Leg Lasso (Defender) film study: Keeping the lasso and hitting the arm drag sweep, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K4n_MQnR08c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K4n_MQnR08c",
+      "url": "https://www.youtube.com/watch?v=K4n_MQnR08c",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against Strip Russian Leg Lasso, your objective is to maintain y
 **Opponent's Starting Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Strip Russian Leg Lasso (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T_GhZe_MOWI)
+
+<p class="clip-credit"><strong>Grip chain to retain guard when grips are stripped</strong> — taught by Xande Ribeiro · 2:54 · <a href="https://www.youtube.com/watch?v=T_GhZe_MOWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K4n_MQnR08c)
+
+<p class="clip-credit"><strong>Keeping the lasso and hitting the arm drag sweep</strong> — taught by Xande Ribeiro · 2:30 · <a href="https://www.youtube.com/watch?v=K4n_MQnR08c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

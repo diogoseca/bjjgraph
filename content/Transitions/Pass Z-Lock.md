@@ -34,6 +34,54 @@ description: "Master passing Z-Lock Half Guard in BJJ. Systematic approach to ne
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Z-Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Z-guard pass to the back",
+      "description": "Pass Z-Lock film study: Z-guard pass to the back, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GQeS3xTXlb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GQeS3xTXlb0",
+      "url": "https://www.youtube.com/watch?v=GQeS3xTXlb0",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing half and z-guard with tripod base",
+      "description": "Pass Z-Lock film study: Passing half and z-guard with tripod base, taught by Street Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xXb65zA1yzs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xXb65zA1yzs",
+      "url": "https://www.youtube.com/watch?v=xXb65zA1yzs",
+      "creator": { "@type": "Person", "name": "Street Jitsu coach" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Pressure passing the z-guard",
+      "description": "Pass Z-Lock film study: Pressure passing the z-guard, taught by Tacio Carneiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wYHP6wOk4jU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wYHP6wOk4jU",
+      "url": "https://www.youtube.com/watch?v=wYHP6wOk4jU",
+      "creator": { "@type": "Person", "name": "Tacio Carneiro" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this pass rewards patience and methodical progression over explos
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Z-Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GQeS3xTXlb0)
+
+<p class="clip-credit"><strong>Z-guard pass to the back</strong> — taught by Unknown coach · 0:48 · <a href="https://www.youtube.com/watch?v=GQeS3xTXlb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xXb65zA1yzs)
+
+<p class="clip-credit"><strong>Passing half and z-guard with tripod base</strong> — taught by Street Jitsu coach · 1:31 · <a href="https://www.youtube.com/watch?v=xXb65zA1yzs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wYHP6wOk4jU)
+
+<p class="clip-credit"><strong>Pressure passing the z-guard</strong> — taught by Tacio Carneiro · 1:56 · <a href="https://www.youtube.com/watch?v=wYHP6wOk4jU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

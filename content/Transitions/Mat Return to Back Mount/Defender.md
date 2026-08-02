@@ -148,6 +148,54 @@ description: "How to defend against Mat Return to Back Mount in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mat Return to Back Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending standing back control with double unders",
+      "description": "Mat Return to Back Mount (Defender) film study: Defending standing back control with double unders, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k-78AJwPYig/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k-78AJwPYig",
+      "url": "https://www.youtube.com/watch?v=k-78AJwPYig",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rear Body Lock Counters and Defense (No-Gi)",
+      "description": "Mat Return to Back Mount (Defender) film study: Rear Body Lock Counters and Defense (No-Gi), taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DFXdqByRxNg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DFXdqByRxNg",
+      "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT318S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg Switch Cutback to Escape the Rear Body Lock",
+      "description": "Mat Return to Back Mount (Defender) film study: Leg Switch Cutback to Escape the Rear Body Lock, taught by Procel BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2VCyaassiRI",
+      "url": "https://www.youtube.com/watch?v=2VCyaassiRI",
+      "creator": { "@type": "Person", "name": "Procel BJJ coach" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The most common defensive error is passivity. Practitioners who accept the stand
 **Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mat Return to Back Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k-78AJwPYig)
+
+<p class="clip-credit"><strong>Defending standing back control with double unders</strong> — taught by Academy Jiu Jitsu · 1:04 · <a href="https://www.youtube.com/watch?v=k-78AJwPYig" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DFXdqByRxNg)
+
+<p class="clip-credit"><strong>Rear Body Lock Counters and Defense (No-Gi)</strong> — taught by Brian Glick · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2VCyaassiRI)
+
+<p class="clip-credit"><strong>Leg Switch Cutback to Escape the Rear Body Lock</strong> — taught by Procel BJJ coach · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

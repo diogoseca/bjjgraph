@@ -148,6 +148,54 @@ description: "Learn to defend the Inside Ashi-Garami to Ushiro Ashi transition. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi-Garami to Ushiro Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping ashi garami \u2014 leg lock defense",
+      "description": "Inside Ashi-Garami to Ushiro Ashi (Defender) film study: Escaping ashi garami \u2014 leg lock defense, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending and Escaping the Saddle",
+      "description": "Inside Ashi-Garami to Ushiro Ashi (Defender) film study: Defending and Escaping the Saddle, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CFTLb8iywJg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CFTLb8iywJg",
+      "url": "https://www.youtube.com/watch?v=CFTLb8iywJg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT383S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Escape the Inside Ashi Garami Heel Hook",
+      "description": "Inside Ashi-Garami to Ushiro Ashi (Defender) film study: How to Escape the Inside Ashi Garami Heel Hook, taught by Eddie Cummings.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3xEmPci_szw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3xEmPci_szw",
+      "url": "https://www.youtube.com/watch?v=3xEmPci_szw",
+      "creator": { "@type": "Person", "name": "Eddie Cummings" },
+      "duration": "PT164S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ The defender in the Inside Ashi-Garami to Ushiro Ashi transition faces a critica
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi-Garami to Ushiro Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+
+<p class="clip-credit"><strong>Escaping ashi garami — leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CFTLb8iywJg)
+
+<p class="clip-credit"><strong>Defending and Escaping the Saddle</strong> — taught by Lachlan Giles · 6:23 · <a href="https://www.youtube.com/watch?v=CFTLb8iywJg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3xEmPci_szw)
+
+<p class="clip-credit"><strong>How to Escape the Inside Ashi Garami Heel Hook</strong> — taught by Eddie Cummings · 2:44 · <a href="https://www.youtube.com/watch?v=3xEmPci_szw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the hip escape from truck position in BJJ. Step-by-step esc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Truck \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reversing out of the truck",
+      "description": "Hip Escape from Truck film study: Reversing out of the truck, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dWAZQ2VQcjw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dWAZQ2VQcjw",
+      "url": "https://www.youtube.com/watch?v=dWAZQ2VQcjw",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT229S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Advanced Back Escapes",
+      "description": "Hip Escape from Truck film study: Advanced Back Escapes, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hxMggfwKx-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hxMggfwKx-I",
+      "url": "https://www.youtube.com/watch?v=hxMggfwKx-I",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Jiu Jitsu Back Escape System",
+      "description": "Hip Escape from Truck film study: Jiu Jitsu Back Escape System, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N6lKNqUOZoY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N6lKNqUOZoY",
+      "url": "https://www.youtube.com/watch?v=N6lKNqUOZoY",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT675S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ At purple belt and above, the hip escape from truck functions as part of an inte
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Truck in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dWAZQ2VQcjw)
+
+<p class="clip-credit"><strong>Reversing out of the truck</strong> — taught by Coach Brian · 3:49 · <a href="https://www.youtube.com/watch?v=dWAZQ2VQcjw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hxMggfwKx-I)
+
+<p class="clip-credit"><strong>Advanced Back Escapes</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=hxMggfwKx-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N6lKNqUOZoY)
+
+<p class="clip-credit"><strong>Jiu Jitsu Back Escape System</strong> — taught by Matt Arroyo · 11:15 · <a href="https://www.youtube.com/watch?v=N6lKNqUOZoY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

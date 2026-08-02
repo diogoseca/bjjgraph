@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Back Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Bow and Arrow Setup from Standing Back Control is a high-percentage gi transition that converts standing back exposure into grounded back control with an established collar grip, positioning the attacker for one of BJJ's most powerful choking sequences. The technique exploits the vertical nature of standing back control by using a deep collar grip combined with a controlled sit-down to bring both practitioners to the ground, with the attacker already configured for the bow and arrow finishing mechanics. This bypasses the most technically demanding phase of the bow and arrow attack—obtaining a deep collar grip against an opponent who is actively defending their neck from grounded back control.\n\nThe strategic value of this setup lies in its ability to solve two problems simultaneously: the inherent instability of standing back control and the difficulty of establishing collar grips from an already-grounded position. By obtaining the collar grip while standing—where the opponent's collar is more accessible and their defensive hand fighting is compromised by the need to maintain balance—the attacker creates a significant mechanical advantage before the ground phase even begins. The takedown component functions as a consolidation tool that transitions the position to stable ground control while preserving the attacking grip.\n\nThis technique creates a powerful tactical dilemma for the defender. If they focus on stripping the collar grip, they compromise their base and accelerate the takedown. If they widen their stance to resist being taken down, their collar becomes more accessible and the attacker can deepen the grip. This dual-threat structure is what gives the technique its reliability across all competition levels, particularly in gi-based formats where collar access is the primary limiting factor for bow and arrow choke success.",
   "conditions": [
     "Gi must be worn providing collar access for the choking grip",
@@ -248,46 +260,175 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for releasing the seat belt to obtain the collar grip?",
-        "answer": "The optimal window is when the opponent commits both hands to defending the rear naked choke threat. At this moment, their hands are occupied above their neck and cannot interfere with the collar grip transition. The attacker should actively create this window by threatening the RNC first, then executing the grip change during the opponent's defensive reaction."
+        "answer": "The optimal window is when the opponent commits both hands to defending the rear naked choke threat. At this moment, their hands are occupied above their neck and cannot interfere with the collar grip transition. The attacker should actively create this window by threatening the RNC first, then executing the grip change during the opponent's defensive reaction.",
+        "answer_line": "Both hands defending RNC",
+        "distractors": {
+          "plausible": [
+            "Right after securing hooks",
+            "As soon as back is taken"
+          ],
+          "trap": [
+            "Before threatening the choke"
+          ]
+        }
       },
       {
         "question": "Why must the collar grip be obtained before initiating the sit-down takedown?",
-        "answer": "Obtaining the collar grip while standing provides a mechanical advantage because the collar is more accessible in the vertical position and the opponent's hand fighting is compromised by the need to maintain balance. Once on the ground, the opponent can flatten defensively and use both hands specifically to prevent collar access, making grip establishment significantly more difficult."
+        "answer": "Obtaining the collar grip while standing provides a mechanical advantage because the collar is more accessible in the vertical position and the opponent's hand fighting is compromised by the need to maintain balance. Once on the ground, the opponent can flatten defensively and use both hands specifically to prevent collar access, making grip establishment significantly more difficult.",
+        "answer_line": "Collar's open while they balance",
+        "distractors": {
+          "plausible": [
+            "Sit down first for a stable base",
+            "Grip only matters after the sweep"
+          ],
+          "trap": [
+            "Pull guard, then chase the collar"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your collar grip immediately after you release the seat belt—how do you respond?",
-        "answer": "Immediately return to the seat belt configuration by reclaiming the over-shoulder and under-armpit control. Do not persist with a lost collar grip attempt while lacking upper body control. Re-establish the seat belt, confirm chest-to-back pressure and hook security, then threaten the rear naked choke again to recreate the window for a second collar grip attempt."
+        "answer": "Immediately return to the seat belt configuration by reclaiming the over-shoulder and under-armpit control. Do not persist with a lost collar grip attempt while lacking upper body control. Re-establish the seat belt, confirm chest-to-back pressure and hook security, then threaten the rear naked choke again to recreate the window for a second collar grip attempt.",
+        "answer_line": "Return to seat belt control",
+        "distractors": {
+          "plausible": [
+            "Fight for the collar again",
+            "Switch to same-side grip"
+          ],
+          "trap": [
+            "Force the takedown anyway"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between falling backward and sitting to the hip during the takedown?",
-        "answer": "Falling straight backward lands you flat on your back with the opponent stacked on top, making hook maintenance difficult and allowing them to posture up and escape. Sitting to the choking-side hip creates a 45-degree angle that preserves hook position, prevents stacking, and immediately establishes the angular body position needed for the bow and arrow finishing mechanics."
+        "answer": "Falling straight backward lands you flat on your back with the opponent stacked on top, making hook maintenance difficult and allowing them to posture up and escape. Sitting to the choking-side hip creates a 45-degree angle that preserves hook position, prevents stacking, and immediately establishes the angular body position needed for the bow and arrow finishing mechanics.",
+        "answer_line": "Sit to choking-side hip at 45°",
+        "distractors": {
+          "plausible": [
+            "Fall straight back with control",
+            "Sit to non-choking side"
+          ],
+          "trap": [
+            "Fall flat on your back"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base and drops their weight when they feel the collar grip—what adjustment do you make?",
-        "answer": "Rather than pulling them backward against their base, use the collar grip to break their posture forward and downward. When their head drops below their hips, their wide base becomes irrelevant because their center of gravity has shifted. Alternatively, use your hooks to execute a lateral trip while maintaining the collar grip to off-balance them sideways where their wide stance provides no resistance."
+        "answer": "Rather than pulling them backward against their base, use the collar grip to break their posture forward and downward. When their head drops below their hips, their wide base becomes irrelevant because their center of gravity has shifted. Alternatively, use your hooks to execute a lateral trip while maintaining the collar grip to off-balance them sideways where their wide stance provides no resistance.",
+        "answer_line": "Break posture forward, not back",
+        "distractors": {
+          "plausible": [
+            "Pull harder straight backward",
+            "Switch to underhook takedown"
+          ],
+          "trap": [
+            "Muscle a backward throw"
+          ]
+        }
       },
       {
         "question": "What grip depth is required for an effective bow and arrow collar grip and how do you verify it?",
-        "answer": "All four fingers must be inserted past the second knuckle into the collar fabric, with the grip positioned at jaw level or above on the far-side collar. Verify depth by applying a brief downward pull on the collar before initiating the takedown—if the fabric shifts or your fingers slide along the material, the grip is too shallow and must be re-established deeper before proceeding."
+        "answer": "All four fingers must be inserted past the second knuckle into the collar fabric, with the grip positioned at jaw level or above on the far-side collar. Verify depth by applying a brief downward pull on the collar before initiating the takedown—if the fabric shifts or your fingers slide along the material, the grip is too shallow and must be re-established deeper before proceeding.",
+        "answer_line": "Four fingers past 2nd knuckle",
+        "distractors": {
+          "plausible": [
+            "Fingertips hooked at chest level",
+            "Deep thumb grip on near collar"
+          ],
+          "trap": [
+            "Grab loose, then hit the throw"
+          ]
+        }
       },
       {
         "question": "Why is securing the opponent's pant leg essential after landing in grounded back control?",
-        "answer": "The pant leg grip creates the counter-leverage that defines the bow and arrow choke mechanics. Without it, the collar grip alone produces only a simple collar choke with significantly less pressure. The leg grip prevents the opponent from turning toward the attacker, straightens their body to extend the choking line, and creates the opposing force that tightens the collar around the neck when both grips are pulled apart."
+        "answer": "The pant leg grip creates the counter-leverage that defines the bow and arrow choke mechanics. Without it, the collar grip alone produces only a simple collar choke with significantly less pressure. The leg grip prevents the opponent from turning toward the attacker, straightens their body to extend the choking line, and creates the opposing force that tightens the collar around the neck when both grips are pulled apart.",
+        "answer_line": "Counter-leverage that tightens choke",
+        "distractors": {
+          "plausible": [
+            "Stops them standing back up",
+            "Extra point of balance control"
+          ],
+          "trap": [
+            "Release collar, grab both legs"
+          ]
+        }
       },
       {
         "question": "You have completed the setup and landed in grounded back control with the collar grip, but the bow and arrow choke is not producing a tap—what chain attacks are available?",
-        "answer": "If the bow and arrow is stalling, release the pant leg and transition to a standard rear naked choke attempt while maintaining the collar grip as a cross-collar choke threat. Alternatively, use the collar grip to set up an armbar by trapping the opponent's defending arm against the collar and swinging your leg over their head. The collar grip also enables a transition to a clock choke if the opponent turtles, or you can abandon the collar and transition to gift wrap control to isolate an arm for crucifix or armbar entries."
+        "answer": "If the bow and arrow is stalling, release the pant leg and transition to a standard rear naked choke attempt while maintaining the collar grip as a cross-collar choke threat. Alternatively, use the collar grip to set up an armbar by trapping the opponent's defending arm against the collar and swinging your leg over their head. The collar grip also enables a transition to a clock choke if the opponent turtles, or you can abandon the collar and transition to gift wrap control to isolate an arm for crucifix or armbar entries.",
+        "answer_line": "Chain to RNC, armbar, clock choke",
+        "distractors": {
+          "plausible": [
+            "Crank the same collar grip harder",
+            "Reset and restart the setup"
+          ],
+          "trap": [
+            "Cross your ankles to hold them"
+          ]
+        }
       },
       {
         "question": "What direction should force be applied through the collar grip during the controlled sit-down?",
-        "answer": "The collar grip force should be directed downward and toward your choking-side hip in a diagonal line, not straight backward. This diagonal pull breaks the opponent's posture forward while simultaneously loading their weight onto your chest during the descent. The underhook arm drives in the opposite direction—upward and across—creating a cross-force that spirals the opponent off their base and into the controlled takedown path. Pulling straight backward creates a tug-of-war the opponent can resist by simply dropping their weight."
+        "answer": "The collar grip force should be directed downward and toward your choking-side hip in a diagonal line, not straight backward. This diagonal pull breaks the opponent's posture forward while simultaneously loading their weight onto your chest during the descent. The underhook arm drives in the opposite direction—upward and across—creating a cross-force that spirals the opponent off their base and into the controlled takedown path. Pulling straight backward creates a tug-of-war the opponent can resist by simply dropping their weight.",
+        "answer_line": "Diagonal down toward choking hip",
+        "distractors": {
+          "plausible": [
+            "Straight back into the fall",
+            "Straight down into the mat"
+          ],
+          "trap": [
+            "Pull straight backward hard"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to use the cross-collar or same-side collar grip variant in a live situation?",
-        "answer": "Choose the cross-collar grip when the far-side collar is accessible and the opponent's hands are committed high defending the rear naked choke, as this produces the deepest choking angle and highest finishing percentage. Choose the same-side collar grip when the opponent has strong two-on-one defense on your crossing arm, when they are actively stripping far-side grips, or when speed of entry matters more than depth. The same-side grip is faster to obtain since it does not cross the centerline, but produces a shorter lever arm for the choke. Read the opponent's hand position at the moment of grip transition to make this decision."
+        "answer": "Choose the cross-collar grip when the far-side collar is accessible and the opponent's hands are committed high defending the rear naked choke, as this produces the deepest choking angle and highest finishing percentage. Choose the same-side collar grip when the opponent has strong two-on-one defense on your crossing arm, when they are actively stripping far-side grips, or when speed of entry matters more than depth. The same-side grip is faster to obtain since it does not cross the centerline, but produces a shorter lever arm for the choke. Read the opponent's hand position at the moment of grip transition to make this decision.",
+        "answer_line": "Read hand position at grip moment",
+        "distractors": {
+          "plausible": [
+            "Always use cross-collar first",
+            "Pick based on your dominant side"
+          ],
+          "trap": [
+            "Force it through their resistance"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The bow and arrow choke applies extreme pressure to the trachea and carotid arteries, making it one of the most powerful chokes in BJJ. During the setup phase, the controlled takedown from standing carries inherent risk of impact injury if performed recklessly. Always practice the sit-down component slowly with cooperative partners before adding resistance. The collar grip can cause friction burns on the neck and jaw if yanked aggressively. When drilling, ensure training partners communicate clearly about neck pressure and tap immediately when the choke begins to engage. Never jerk or yank the collar grip explosively, as this can cause cervical spine injury. Release all pressure immediately upon tap—the bow and arrow choke can render a partner unconscious in under three seconds when fully applied."
+    "safety_considerations": "The bow and arrow choke applies extreme pressure to the trachea and carotid arteries, making it one of the most powerful chokes in BJJ. During the setup phase, the controlled takedown from standing carries inherent risk of impact injury if performed recklessly. Always practice the sit-down component slowly with cooperative partners before adding resistance. The collar grip can cause friction burns on the neck and jaw if yanked aggressively. When drilling, ensure training partners communicate clearly about neck pressure and tap immediately when the choke begins to engage. Never jerk or yank the collar grip explosively, as this can cause cervical spine injury. Release all pressure immediately upon tap—the bow and arrow choke can render a partner unconscious in under three seconds when fully applied.",
+    "clips": [
+      {
+        "id": "KUvlEU5m1fw",
+        "title": "Standing bow and arrow choke setup",
+        "by": "Edward Anthony",
+        "vertical": false,
+        "channel": "Edward “Scissorhands” Anthony Jiu Jitsu ",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DQQgYqnCVAA",
+        "title": "Standing bow and arrow choke",
+        "by": "Turtles Impact",
+        "vertical": false,
+        "channel": "Turtles impact ",
+        "duration": 116,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eSsnIKo8gLw",
+        "title": "Bow and arrow from standing back control",
+        "by": "Thomas Lisboa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 133,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bow and Arrow Setup from Standing Back Defender",
@@ -373,35 +514,115 @@
     "flashcards": [
       {
         "question": "What is the single most important moment to recognize when defending this setup?",
-        "answer": "The moment the attacker releases their seat belt over-shoulder arm to reach for the collar. This is when their upper body control drops from two arms to one, creating the largest defensive window. Recognizing this cue immediately allows the defender to strip the collar grip attempt or exploit the reduced control to escape back exposure. Missing this window means defending from a significantly worse position."
+        "answer": "The moment the attacker releases their seat belt over-shoulder arm to reach for the collar. This is when their upper body control drops from two arms to one, creating the largest defensive window. Recognizing this cue immediately allows the defender to strip the collar grip attempt or exploit the reduced control to escape back exposure. Missing this window means defending from a significantly worse position.",
+        "answer_line": "When seat belt arm releases",
+        "distractors": {
+          "plausible": [
+            "When hooks are first inserted",
+            "When RNC threat begins"
+          ],
+          "trap": [
+            "Wait until grounded to react"
+          ]
+        }
       },
       {
         "question": "Your attacker has secured a deep collar grip but has not yet initiated the sit-down—what are your defensive priorities?",
-        "answer": "Strip the collar grip immediately using two-on-one hand control before they initiate the takedown. Grab their gripping wrist with both hands and peel the fingers from the collar fabric while simultaneously hunching your shoulders and tucking your chin to make the grip harder to maintain. If the grip cannot be broken, widen your base to resist the sit-down and prepare to turn into the attacker during the inevitable takedown attempt."
+        "answer": "Strip the collar grip immediately using two-on-one hand control before they initiate the takedown. Grab their gripping wrist with both hands and peel the fingers from the collar fabric while simultaneously hunching your shoulders and tucking your chin to make the grip harder to maintain. If the grip cannot be broken, widen your base to resist the sit-down and prepare to turn into the attacker during the inevitable takedown attempt.",
+        "answer_line": "Strip grip two-on-one immediately",
+        "distractors": {
+          "plausible": [
+            "Widen base and wait it out",
+            "Turn away to break the angle"
+          ],
+          "trap": [
+            "Pull away straight backward"
+          ]
+        }
       },
       {
         "question": "You have been taken to the ground with the collar grip intact—what should you address first?",
-        "answer": "Fight the attacker's free hand that is reaching for your pant leg. The bow and arrow choke requires both the collar grip and the leg grip to generate full finishing power. By preventing the pant leg control from being established, you reduce the choke to a significantly less effective collar pull that is easier to survive and escape. Simultaneously work to turn your hips toward the attacker to begin the escape sequence."
+        "answer": "Fight the attacker's free hand that is reaching for your pant leg. The bow and arrow choke requires both the collar grip and the leg grip to generate full finishing power. By preventing the pant leg control from being established, you reduce the choke to a significantly less effective collar pull that is easier to survive and escape. Simultaneously work to turn your hips toward the attacker to begin the escape sequence.",
+        "answer_line": "Deny the pant leg grip",
+        "distractors": {
+          "plausible": [
+            "Strip the collar grip first",
+            "Turtle up to protect neck"
+          ],
+          "trap": [
+            "Push away to create space"
+          ]
+        }
       },
       {
         "question": "Why is turning into the attacker during the takedown transition more effective than resisting the takedown directly?",
-        "answer": "Resisting the takedown directly creates a strength contest that favors the attacker, who has gravity and collar grip leverage working in their favor. Turning into the attacker uses their downward momentum to power your rotation, allows you to break back exposure while they are between standing and grounded positions with compromised control, and positions you to recover guard rather than being taken to grounded back control."
+        "answer": "Resisting the takedown directly creates a strength contest that favors the attacker, who has gravity and collar grip leverage working in their favor. Turning into the attacker uses their downward momentum to power your rotation, allows you to break back exposure while they are between standing and grounded positions with compromised control, and positions you to recover guard rather than being taken to grounded back control.",
+        "answer_line": "Uses their momentum to escape",
+        "distractors": {
+          "plausible": [
+            "Equal strength contest wins",
+            "Stalls until they gas out"
+          ],
+          "trap": [
+            "Brace and push straight back"
+          ]
+        }
       },
       {
         "question": "How does tucking your chin and hunching your shoulders specifically defend against this setup?",
-        "answer": "Chin tucking and shoulder hunching create a physical barrier that reduces the accessible collar space around your neck. The attacker needs to insert four fingers deep into the collar at jaw level, and when your shoulders are raised and chin is pressed down, the collar tightens against your neck and shoulders, making it mechanically impossible to achieve sufficient grip depth for an effective choke. This buys time for active grip fighting defense."
+        "answer": "Chin tucking and shoulder hunching create a physical barrier that reduces the accessible collar space around your neck. The attacker needs to insert four fingers deep into the collar at jaw level, and when your shoulders are raised and chin is pressed down, the collar tightens against your neck and shoulders, making it mechanically impossible to achieve sufficient grip depth for an effective choke. This buys time for active grip fighting defense.",
+        "answer_line": "Blocks collar grip depth",
+        "distractors": {
+          "plausible": [
+            "Protects the neck from strikes",
+            "Keeps head off the mat"
+          ],
+          "trap": [
+            "Look up to see the grip"
+          ]
+        }
       },
       {
         "question": "The attacker feints the rear naked choke but immediately transitions to the collar grip attempt—how does this change your defensive priorities?",
-        "answer": "The feint means the attacker is using the RNC threat to bait your hands high before switching to the collar. Instead of committing both hands fully to the choke defense, keep one hand positioned to intercept the collar grip transition. Develop awareness of the attacker's over-shoulder arm path—if it moves toward your collar rather than under your chin, redirect your defensive hand to intercept the collar grip immediately. Training to distinguish the RNC entry from the collar reach by feel prevents the feint from creating the opening the attacker needs."
+        "answer": "The feint means the attacker is using the RNC threat to bait your hands high before switching to the collar. Instead of committing both hands fully to the choke defense, keep one hand positioned to intercept the collar grip transition. Develop awareness of the attacker's over-shoulder arm path—if it moves toward your collar rather than under your chin, redirect your defensive hand to intercept the collar grip immediately. Training to distinguish the RNC entry from the collar reach by feel prevents the feint from creating the opening the attacker needs.",
+        "answer_line": "Keep one hand ready for collar",
+        "distractors": {
+          "plausible": [
+            "Commit both hands to the choke",
+            "Ignore feints, defend RNC only"
+          ],
+          "trap": [
+            "Drop hands to check for feints"
+          ]
+        }
       },
       {
         "question": "Your initial two-on-one grip strip fails and the attacker secures a deep collar grip—what is your next layer of defense?",
-        "answer": "Immediately shift defensive priority from grip stripping to takedown resistance and transition exploitation. Widen your base and drop your weight to resist the sit-down. Simultaneously begin turning your body toward the attacker's collar grip side, so that when the takedown inevitably comes, you are already rotating to face them. The failed grip strip means you must accept the collar grip and focus on denying the grounded position where the choke can be finished. Keep fighting the collar grip with one hand while using the other for base and turning mechanics."
+        "answer": "Immediately shift defensive priority from grip stripping to takedown resistance and transition exploitation. Widen your base and drop your weight to resist the sit-down. Simultaneously begin turning your body toward the attacker's collar grip side, so that when the takedown inevitably comes, you are already rotating to face them. The failed grip strip means you must accept the collar grip and focus on denying the grounded position where the choke can be finished. Keep fighting the collar grip with one hand while using the other for base and turning mechanics.",
+        "answer_line": "Widen base, turn toward grip side",
+        "distractors": {
+          "plausible": [
+            "Keep stripping the same grip",
+            "Sprawl straight back"
+          ],
+          "trap": [
+            "Turn away from the collar side"
+          ]
+        }
       },
       {
         "question": "You are on the ground and the attacker has the collar grip but you successfully prevent the pant leg grip—what should you do next?",
-        "answer": "Without the pant leg grip, the attacker cannot generate full bow and arrow finishing pressure. Use this window to actively escape rather than simply maintaining the status quo. Turn your hips aggressively toward the attacker while using your free legs to push against their hip or thigh, creating rotation toward them. Strip the collar grip with two-on-one control now that their free hand cannot anchor your leg. The goal is to turn completely to face the attacker and recover guard before they abandon the collar grip and transition to a rear naked choke attempt instead."
+        "answer": "Without the pant leg grip, the attacker cannot generate full bow and arrow finishing pressure. Use this window to actively escape rather than simply maintaining the status quo. Turn your hips aggressively toward the attacker while using your free legs to push against their hip or thigh, creating rotation toward them. Strip the collar grip with two-on-one control now that their free hand cannot anchor your leg. The goal is to turn completely to face the attacker and recover guard before they abandon the collar grip and transition to a rear naked choke attempt instead.",
+        "answer_line": "Turn hips, escape now",
+        "distractors": {
+          "plausible": [
+            "Hold position and stall",
+            "Wait for them to lose the grip"
+          ],
+          "trap": [
+            "Stay flat and turtle up"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -424,6 +645,35 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full-speed defense from standing back control",
         "description": "Partner attempts the complete bow and arrow setup sequence from standing back control at full speed and resistance. Defender applies all defensive layers: grip prevention, base resistance, transition exploitation, and ground-level collar grip stripping. Debrief after each round to identify which defensive layer succeeded or failed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "K1zBxCL_IQ4",
+        "title": "Back escape against collar control",
+        "by": "Dragons Den MMA",
+        "vertical": false,
+        "channel": "Dragons Den MMA",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pVA_anHnk64",
+        "title": "Mechanics for Escaping Back Control",
+        "by": "SBG PDX coach",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 376,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N6lKNqUOZoY",
+        "title": "Jiu Jitsu Back Escape System",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 675,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Invisible Collar/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "New York Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The New York Control to Invisible Collar transition represents a critical lateral reconfiguration within the 10th Planet Rubber Guard system. The bottom player repositions their controlling leg from the overhook-and-shoulder-wrap configuration of New York to slide the shin behind the opponent's neck, creating the signature invisible collar that mimics a cross-collar grip using the practitioner's own calf and shin rather than gi material. This transition maintains offensive pressure during what is fundamentally a grip change, preventing the top player from establishing defensive structures that become effective against any single rubber guard position held too long.\n\nThe strategic value lies in the invisible collar's ability to open distinct submission angles compared to New York Control. Where New York favors triangle and omoplata setups through the overhook configuration, the invisible collar emphasizes gogoplata threats and modified choke mechanics that attack from a steeper angle across the opponent's neck. The transition between these two positions creates a dynamic rubber guard system where the bottom player cycles between complementary attacking configurations, forcing the top player to continuously adapt their defense.\n\nTiming and hip mobility determine success. The critical vulnerability window occurs during the brief moment when the overhook is released and the shin is being repositioned. If the top player recognizes this gap and postures aggressively, they can strip the rubber guard controls entirely. Advanced practitioners disguise the transition by threatening submissions from New York Control first, then using the opponent's defensive reaction as the opening to slide the shin into invisible collar position without resistance.",
   "conditions": [
     "Bottom player has established New York Control with active leg pressure over opponent's shoulder",
@@ -232,38 +244,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the shin slide from New York Control to Invisible Collar?",
-        "answer": "The optimal window occurs when the opponent is actively defending a submission threat from New York Control, such as a triangle or gogoplata setup. Their defensive attention is diverted from leg positioning, and their defensive movement often creates the angle needed for the shin to clear the shoulder. Attempting the transition when the opponent is passively defending with good posture provides the worst timing because they can immediately react to the leg repositioning."
+        "answer": "The optimal window occurs when the opponent is actively defending a submission threat from New York Control, such as a triangle or gogoplata setup. Their defensive attention is diverted from leg positioning, and their defensive movement often creates the angle needed for the shin to clear the shoulder. Attempting the transition when the opponent is passively defending with good posture provides the worst timing because they can immediately react to the leg repositioning.",
+        "answer_line": "While defending a submission",
+        "distractors": {
+          "plausible": [
+            "Right after securing overhook",
+            "When they scramble to pass"
+          ],
+          "trap": [
+            "When they posture passively"
+          ]
+        }
       },
       {
         "question": "What hip flexibility requirements must be met before attempting this transition?",
-        "answer": "The practitioner needs sufficient hip external rotation to maintain the leg wrapped over the opponent's shoulder while simultaneously rotating the hips to create the arc for the shin slide. The shin must travel from a position across the top of the shoulder to behind the back of the neck, requiring at minimum the flexibility to place the shin flat against the back of a training partner's neck from rubber guard. Practitioners who cannot achieve full Mission Control without muscular strain lack the baseline flexibility for this transition."
+        "answer": "The practitioner needs sufficient hip external rotation to maintain the leg wrapped over the opponent's shoulder while simultaneously rotating the hips to create the arc for the shin slide. The shin must travel from a position across the top of the shoulder to behind the back of the neck, requiring at minimum the flexibility to place the shin flat against the back of a training partner's neck from rubber guard. Practitioners who cannot achieve full Mission Control without muscular strain lack the baseline flexibility for this transition.",
+        "answer_line": "Shin flush to neck, no strain",
+        "distractors": {
+          "plausible": [
+            "Basic rubber guard flexibility",
+            "Overhook shoulder mobility only"
+          ],
+          "trap": [
+            "Standard hip flexor stretch"
+          ]
+        }
       },
       {
         "question": "Why must the overhook be maintained until the shin contacts the back of the opponent's neck?",
-        "answer": "The overhook is the primary posture control mechanism in New York Control. Releasing it before the invisible collar is established creates a gap where no primary control exists, giving the opponent a window to posture up and escape the entire rubber guard configuration. The shin behind the neck replaces the overhook's function, so the transition must be overlapping rather than sequential to avoid any control vacuum."
+        "answer": "The overhook is the primary posture control mechanism in New York Control. Releasing it before the invisible collar is established creates a gap where no primary control exists, giving the opponent a window to posture up and escape the entire rubber guard configuration. The shin behind the neck replaces the overhook's function, so the transition must be overlapping rather than sequential to avoid any control vacuum.",
+        "answer_line": "Overlap, never release early",
+        "distractors": {
+          "plausible": [
+            "Release once shin clears shoulder",
+            "Switch to underhook first"
+          ],
+          "trap": [
+            "Release overhook to speed up"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing up as you initiate the shin slide - how do you respond?",
-        "answer": "If the posture break is still recoverable, immediately re-engage the overhook and abort the transition back to New York Control. If the shin is already past the shoulder, redirect it toward the throat for an immediate gogoplata attempt rather than completing the invisible collar. The opponent's upward movement can actually assist a gogoplata attack by creating space for the shin to slide across the throat. Never continue with a half-completed invisible collar transition against active posturing."
+        "answer": "If the posture break is still recoverable, immediately re-engage the overhook and abort the transition back to New York Control. If the shin is already past the shoulder, redirect it toward the throat for an immediate gogoplata attempt rather than completing the invisible collar. The opponent's upward movement can actually assist a gogoplata attack by creating space for the shin to slide across the throat. Never continue with a half-completed invisible collar transition against active posturing.",
+        "answer_line": "Abort or redirect to gogo",
+        "distractors": {
+          "plausible": [
+            "Power through to invisible collar",
+            "Switch to omoplata immediately"
+          ],
+          "trap": [
+            "Force the shin behind neck"
+          ]
+        }
       },
       {
         "question": "What grip does the free hand establish during the shin slide?",
-        "answer": "The free hand has two primary options depending on the opponent's reaction. If the opponent is passive, the free hand grabs your own ankle or shin to guide the leg into position behind the neck. If the opponent is actively defending, the free hand controls their near wrist or pushes their far shoulder away to prevent posture recovery. In both cases, the free hand must be actively engaged throughout the transition rather than hanging idle."
+        "answer": "The free hand has two primary options depending on the opponent's reaction. If the opponent is passive, the free hand grabs your own ankle or shin to guide the leg into position behind the neck. If the opponent is actively defending, the free hand controls their near wrist or pushes their far shoulder away to prevent posture recovery. In both cases, the free hand must be actively engaged throughout the transition rather than hanging idle.",
+        "answer_line": "Guide ankle, or control wrist",
+        "distractors": {
+          "plausible": [
+            "Always grip own ankle",
+            "Always control far wrist"
+          ],
+          "trap": [
+            "Leave it free for balance"
+          ]
+        }
       },
       {
         "question": "How does the direction of hip rotation affect the success of this transition?",
-        "answer": "The hips must rotate toward the overhook side, which creates the arc that carries the shin from the shoulder to behind the neck. Rotating away from the overhook side blocks the shin pathway and makes the transition mechanically impossible. The rotation should be a smooth, continuous movement rather than a sharp jerk, as sudden rotation alerts the opponent and can loosen the controlling leg from its position."
+        "answer": "The hips must rotate toward the overhook side, which creates the arc that carries the shin from the shoulder to behind the neck. Rotating away from the overhook side blocks the shin pathway and makes the transition mechanically impossible. The rotation should be a smooth, continuous movement rather than a sharp jerk, as sudden rotation alerts the opponent and can loosen the controlling leg from its position.",
+        "answer_line": "Rotate toward overhook side",
+        "distractors": {
+          "plausible": [
+            "Quick sharp hip jerk",
+            "Square hips to opponent"
+          ],
+          "trap": [
+            "Rotate away from overhook"
+          ]
+        }
       },
       {
         "question": "What submission chain should you initiate immediately after establishing invisible collar?",
-        "answer": "The gogoplata is the most direct and highest-percentage follow-up because the shin is already positioned behind the neck and only needs to slide across the throat. If the opponent defends the gogoplata by tucking their chin, transition to an omoplata by rotating your hips under their arm while maintaining shin pressure. If they posture against the omoplata, the invisible collar configuration allows a direct triangle setup by swinging the opposite leg across the neck."
+        "answer": "The gogoplata is the most direct and highest-percentage follow-up because the shin is already positioned behind the neck and only needs to slide across the throat. If the opponent defends the gogoplata by tucking their chin, transition to an omoplata by rotating your hips under their arm while maintaining shin pressure. If they posture against the omoplata, the invisible collar configuration allows a direct triangle setup by swinging the opposite leg across the neck.",
+        "answer_line": "Gogoplata first",
+        "distractors": {
+          "plausible": [
+            "Triangle first, then gogo",
+            "Omoplata first, then gogo"
+          ],
+          "trap": [
+            "Release shin, go for armbar"
+          ]
+        }
       },
       {
         "question": "Your first transition attempt is blocked and you return to New York Control - what adjustment makes the second attempt more likely to succeed?",
-        "answer": "Change the setup by threatening a different submission before the second attempt. If the first attempt used a gogoplata feint, use a triangle or omoplata threat for the second. The opponent has now seen the transition once and will be watching for the same setup. Alternatively, attempt the hip switch variant, which uses a different mechanical pathway that the opponent may not recognize as the same transition. Never repeat the identical setup sequence after a failed attempt."
+        "answer": "Change the setup by threatening a different submission before the second attempt. If the first attempt used a gogoplata feint, use a triangle or omoplata threat for the second. The opponent has now seen the transition once and will be watching for the same setup. Alternatively, attempt the hip switch variant, which uses a different mechanical pathway that the opponent may not recognize as the same transition. Never repeat the identical setup sequence after a failed attempt.",
+        "answer_line": "Change setup, don't repeat",
+        "distractors": {
+          "plausible": [
+            "Retry same feint, harder",
+            "Wait for them to relax"
+          ],
+          "trap": [
+            "Repeat identical setup faster"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves significant stress on the hip joint and requires adequate flexibility before attempting. Never force the shin into position against your own body's resistance, as this can strain the hip flexors, groin, or knee. The transition itself does not apply dangerous joint locks or chokes, but the resulting invisible collar position can create neck compression on the opponent. Apply shin pressure gradually and respect tap signals immediately. During training, develop hip flexibility progressively through dedicated stretching before incorporating the technique into live sparring."
+    "safety_considerations": "This transition involves significant stress on the hip joint and requires adequate flexibility before attempting. Never force the shin into position against your own body's resistance, as this can strain the hip flexors, groin, or knee. The transition itself does not apply dangerous joint locks or chokes, but the resulting invisible collar position can create neck compression on the opponent. Apply shin pressure gradually and respect tap signals immediately. During training, develop hip flexibility progressively through dedicated stretching before incorporating the technique into live sparring.",
+    "clips": [
+      {
+        "id": "KCyIwacRKu8",
+        "title": "Invisible Collar from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_3pJ2tPI0gY",
+        "title": "Crackhead Control to Invisible Collar tie",
+        "by": "Fletcher Kirwan",
+        "vertical": false,
+        "channel": "Fletcher Kirwan",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CHT81JnfD2Q",
+        "title": "Invisible Collar choke from rubber guard",
+        "by": "David Thomas",
+        "vertical": false,
+        "channel": "David Thomas",
+        "duration": 57,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "New York Control to Invisible Collar Defender",
@@ -338,23 +459,73 @@
     "flashcards": [
       {
         "question": "What is the primary escape window during the New York to Invisible Collar transition?",
-        "answer": "The primary window occurs when the attacker releases the overhook to complete the shin slide. During this moment, the primary posture control mechanism of New York Control is voluntarily abandoned, creating a gap where the top player can posture up and potentially strip the rubber guard entirely. This window typically lasts one to two seconds and must be exploited immediately upon recognition."
+        "answer": "The primary window occurs when the attacker releases the overhook to complete the shin slide. During this moment, the primary posture control mechanism of New York Control is voluntarily abandoned, creating a gap where the top player can posture up and potentially strip the rubber guard entirely. This window typically lasts one to two seconds and must be exploited immediately upon recognition.",
+        "answer_line": "When overhook is released",
+        "distractors": {
+          "plausible": [
+            "When shin first touches shoulder",
+            "During the initial hip rotation"
+          ],
+          "trap": [
+            "After invisible collar locks"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a committed gogoplata attempt and a feint designed to set up the invisible collar transition?",
-        "answer": "A committed gogoplata involves the shin driving directly toward the throat with hip extension, while the invisible collar feint directs the shin behind the neck with hip rotation toward the overhook side. Watch the direction of hip movement: gogoplata requires hips pushing forward and up, while the invisible collar setup requires lateral hip rotation. The hand positioning also differs, as the invisible collar feint involves the free hand reaching toward the own ankle rather than the opponent's head."
+        "answer": "A committed gogoplata involves the shin driving directly toward the throat with hip extension, while the invisible collar feint directs the shin behind the neck with hip rotation toward the overhook side. Watch the direction of hip movement: gogoplata requires hips pushing forward and up, while the invisible collar setup requires lateral hip rotation. The hand positioning also differs, as the invisible collar feint involves the free hand reaching toward the own ankle rather than the opponent's head.",
+        "answer_line": "Hip direction: up vs lateral",
+        "distractors": {
+          "plausible": [
+            "Speed of the shin movement",
+            "Which leg is used to attack"
+          ],
+          "trap": [
+            "Whether the overhook releases"
+          ]
+        }
       },
       {
         "question": "If the invisible collar is successfully established, what immediate defensive posture should you adopt?",
-        "answer": "Immediately tuck your chin aggressively toward your chest to limit the angle available for gogoplata extension. Bring both hands to the shin behind your neck and begin working to strip it by pushing the ankle away from your body. Keep your hips heavy and resist the urge to posture, as posturing drives your neck into the shin pressure. Begin systematic hip escape toward the side opposite the shin to create space for removal."
+        "answer": "Immediately tuck your chin aggressively toward your chest to limit the angle available for gogoplata extension. Bring both hands to the shin behind your neck and begin working to strip it by pushing the ankle away from your body. Keep your hips heavy and resist the urge to posture, as posturing drives your neck into the shin pressure. Begin systematic hip escape toward the side opposite the shin to create space for removal.",
+        "answer_line": "Tuck chin, strip shin, escape",
+        "distractors": {
+          "plausible": [
+            "Hip escape toward the shin",
+            "Push away with straight arms"
+          ],
+          "trap": [
+            "Posture up immediately"
+          ]
+        }
       },
       {
         "question": "Why is lateral movement more effective than backward movement when defending this transition?",
-        "answer": "Lateral movement disrupts the hip rotation that powers the shin slide from shoulder to behind the neck. The attacker needs a specific angle created by rotating toward the overhook side, and lateral movement by the top player changes this angle, blocking the shin pathway. Backward movement actually stretches the rubber guard configuration without disrupting the angle, often assisting the shin's travel by creating space along the intended path."
+        "answer": "Lateral movement disrupts the hip rotation that powers the shin slide from shoulder to behind the neck. The attacker needs a specific angle created by rotating toward the overhook side, and lateral movement by the top player changes this angle, blocking the shin pathway. Backward movement actually stretches the rubber guard configuration without disrupting the angle, often assisting the shin's travel by creating space along the intended path.",
+        "answer_line": "Lateral movement, not backward",
+        "distractors": {
+          "plausible": [
+            "Push down to flatten guard",
+            "Twist upper body only"
+          ],
+          "trap": [
+            "Move straight backward"
+          ]
+        }
       },
       {
         "question": "Your opponent has attempted this transition twice and returned to New York both times - how should you exploit their persistence?",
-        "answer": "Bait the third attempt by appearing to settle passively in New York Control, then time an explosive posture recovery during the overhook release that you now anticipate. Each failed attempt teaches you the attacker's specific setup tells and timing. Alternatively, preemptively strip the controlling leg from the shoulder when you sense the hip rotation beginning, converting their transition attempt into a complete guard break before they can even begin the shin slide."
+        "answer": "Bait the third attempt by appearing to settle passively in New York Control, then time an explosive posture recovery during the overhook release that you now anticipate. Each failed attempt teaches you the attacker's specific setup tells and timing. Alternatively, preemptively strip the controlling leg from the shoulder when you sense the hip rotation beginning, converting their transition attempt into a complete guard break before they can even begin the shin slide.",
+        "answer_line": "Bait it, then counter timing",
+        "distractors": {
+          "plausible": [
+            "Keep passively waiting it out",
+            "Change your base every round"
+          ],
+          "trap": [
+            "Chase your own submission"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -372,6 +543,35 @@
         "phase": "Phase 3: Live Positional Sparring",
         "focus": "Full-speed defense against rubber guard transitions",
         "description": "Begin in New York Control with partner attempting any rubber guard transition including invisible collar. Defend with full resistance while partner attacks at full speed. Develop the ability to recognize and defend the transition in real time against an actively threatening opponent. Track success rate over multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cY1xCIx-9-I",
+        "title": "Two rubber guard tips and counters",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KCyIwacRKu8",
+        "title": "Invisible Collar Details",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "8wYsegjBqRA",
+        "title": "Invisible Collar Choke from Rubber Guard",
+        "by": "JitsHappens",
+        "vertical": false,
+        "channel": "JitsHappens",
+        "duration": 57,
+        "verified": "2026-07-16"
       }
     ]
   }

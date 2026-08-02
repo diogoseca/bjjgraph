@@ -134,6 +134,54 @@ description: "How to defend against Muscle Sweep in BJJ. Recognition cues, defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Muscle Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Muscle sweep shown in competition",
+      "description": "Muscle Sweep (Defender) film study: Muscle sweep shown in competition, taught by Alliance Jiu Jitsu of Madison.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hu9HmVWc7jU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hu9HmVWc7jU",
+      "url": "https://www.youtube.com/watch?v=hu9HmVWc7jU",
+      "creator": { "@type": "Person", "name": "Alliance Jiu Jitsu of Madison" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Four levels of closed guard sweep defense",
+      "description": "Muscle Sweep (Defender) film study: Four levels of closed guard sweep defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shutting down the muscle sweep",
+      "description": "Muscle Sweep (Defender) film study: Shutting down the muscle sweep, taught by Heath Pedigo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Qqeuy8LgIyc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Qqeuy8LgIyc",
+      "url": "https://www.youtube.com/watch?v=Qqeuy8LgIyc",
+      "creator": { "@type": "Person", "name": "Heath Pedigo" },
+      "duration": "PT144S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +191,42 @@ Defending the Muscle Sweep requires the top player inside closed guard to recogn
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Muscle Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hu9HmVWc7jU)
+
+<p class="clip-credit"><strong>Muscle sweep shown in competition</strong> — taught by Alliance Jiu Jitsu of Madison · 0:22 · <a href="https://www.youtube.com/watch?v=hu9HmVWc7jU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of closed guard sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Qqeuy8LgIyc)
+
+<p class="clip-credit"><strong>Shutting down the muscle sweep</strong> — taught by Heath Pedigo · 2:24 · <a href="https://www.youtube.com/watch?v=Qqeuy8LgIyc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

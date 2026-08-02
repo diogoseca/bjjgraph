@@ -148,6 +148,54 @@ description: "How to defend against Turtle attacks in BJJ. Recognition cues, gri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle Attack Sequence (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping turtle to side control",
+      "description": "Turtle Attack Sequence (Defender) film study: Escaping turtle to side control, taught by Rickson Gracie Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
+      "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
+      "creator": { "@type": "Person", "name": "Rickson Gracie Academy" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering guard from turtle",
+      "description": "Turtle Attack Sequence (Defender) film study: Recovering guard from turtle, taught by Gracie Barra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PYk5Ei2IZBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PYk5Ei2IZBk",
+      "url": "https://www.youtube.com/watch?v=PYk5Ei2IZBk",
+      "creator": { "@type": "Person", "name": "Gracie Barra" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle escape via shoulder roll",
+      "description": "Turtle Attack Sequence (Defender) film study: Turtle escape via shoulder roll, taught by BJJake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
+      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
+      "creator": { "@type": "Person", "name": "BJJake" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender in bottom turtle, you are in a time-critical position where the 
 **Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle Attack Sequence (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
+
+<p class="clip-credit"><strong>Escaping turtle to side control</strong> — taught by Rickson Gracie Academy · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PYk5Ei2IZBk)
+
+<p class="clip-credit"><strong>Recovering guard from turtle</strong> — taught by Gracie Barra · 0:53 · <a href="https://www.youtube.com/watch?v=PYk5Ei2IZBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W0TCGKRcniA)
+
+<p class="clip-credit"><strong>Turtle escape via shoulder roll</strong> — taught by BJJake · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

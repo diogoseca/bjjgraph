@@ -174,6 +174,54 @@ description: "Master the attacker perspective for Strip Russian Leg Lasso. Compl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Strip Russian Leg Lasso (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg drag pass against lasso guard",
+      "description": "Strip Russian Leg Lasso (Attacker) film study: Leg drag pass against lasso guard, taught by Mitsuyoshi Hayakawa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XFCJ_etUWO4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XFCJ_etUWO4",
+      "url": "https://www.youtube.com/watch?v=XFCJ_etUWO4",
+      "creator": { "@type": "Person", "name": "Mitsuyoshi Hayakawa" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing lasso guard through to the back",
+      "description": "Strip Russian Leg Lasso (Attacker) film study: Passing lasso guard through to the back, taught by Gabriel Sousa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9sQAn2ESkMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9sQAn2ESkMU",
+      "url": "https://www.youtube.com/watch?v=9sQAn2ESkMU",
+      "creator": { "@type": "Person", "name": "Gabriel Sousa" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deep lasso guard pass into leg drag",
+      "description": "Strip Russian Leg Lasso (Attacker) film study: Deep lasso guard pass into leg drag, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eXriz8Oz99I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eXriz8Oz99I",
+      "url": "https://www.youtube.com/watch?v=eXriz8Oz99I",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing Strip Russian Leg Lasso, your objective is to systemat
 **From Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Strip Russian Leg Lasso (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XFCJ_etUWO4)
+
+<p class="clip-credit"><strong>Leg drag pass against lasso guard</strong> — taught by Mitsuyoshi Hayakawa · 0:26 · <a href="https://www.youtube.com/watch?v=XFCJ_etUWO4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9sQAn2ESkMU)
+
+<p class="clip-credit"><strong>Passing lasso guard through to the back</strong> — taught by Gabriel Sousa · 1:53 · <a href="https://www.youtube.com/watch?v=9sQAn2ESkMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eXriz8Oz99I)
+
+<p class="clip-credit"><strong>Deep lasso guard pass into leg drag</strong> — taught by Carpio Jiu Jitsu · 2:41 · <a href="https://www.youtube.com/watch?v=eXriz8Oz99I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

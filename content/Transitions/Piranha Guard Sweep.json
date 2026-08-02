@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Piranha Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Piranha Guard Sweep is an advanced lapel-based sweep that exploits the unique mechanical advantages of the Piranha Guard configuration. By threading the opponent's collar through your legs and maintaining strategic grip placements, you create a pulley-like mechanism that generates exceptional posture-breaking leverage. The sweep combines this lapel tension with coordinated hip movement and hook elevation to off-balance the opponent and complete a reversal to mount, one of the most dominant positions in Brazilian Jiu-Jitsu.\n\nThe technique operates on the principle of compound off-balancing, where the lapel pull breaks the opponent's forward-backward base while a butterfly or shin hook attacks their lateral stability simultaneously. This multi-directional force application makes the sweep particularly difficult to defend because the opponent cannot address both vectors at once. The sweep is most effective when the opponent commits weight forward during grip stripping attempts or pressure passing, converting their offensive energy into the fuel for the reversal.\n\nWithin the broader Piranha Guard system, this sweep serves as the primary positional advancement tool, creating a constant threat that forces the top player to maintain conservative posture and base width. This threat alone opens secondary attacks including berimbolo entries, collar drags to back control, and submission setups. The sweep integrates with the complete Piranha Guard attack tree, functioning as both a standalone technique and a chain-starting movement that flows into alternative attacks when the initial sweep is defended.",
   "conditions": [
     "Piranha Guard established with opponent's lapel threaded deep through bottom player's legs",
@@ -245,46 +257,166 @@
     "flashcards": [
       {
         "question": "What is the critical timing window for initiating the Piranha Guard Sweep?",
-        "answer": "The optimal timing window opens when the opponent shifts weight forward during grip stripping attempts or passing setup. This forward commitment reduces their ability to base backward against the sweep direction. Watch for the moment their hands engage with your lapel grips rather than posting on the mat, as this removes their primary base recovery tool and creates maximum vulnerability to the sweep."
+        "answer": "The optimal timing window opens when the opponent shifts weight forward during grip stripping attempts or passing setup. This forward commitment reduces their ability to base backward against the sweep direction. Watch for the moment their hands engage with your lapel grips rather than posting on the mat, as this removes their primary base recovery tool and creates maximum vulnerability to the sweep.",
+        "answer_line": "Hands grip lapel, not posting",
+        "distractors": {
+          "plausible": [
+            "Right when guard pass starts",
+            "When they square up hips"
+          ],
+          "trap": [
+            "Wait for their strong base"
+          ]
+        }
       },
       {
         "question": "What grip configuration must be established before attempting the sweep?",
-        "answer": "Both hands must control the threaded lapel with thumb-inside grips at two strategic points: one grip near where the lapel exits your legs to maintain the threading integrity, and a second grip further along the material to generate pulling leverage. The spacing between grips determines your mechanical advantage, with too-close spacing reducing control range and too-wide spacing weakening individual grip strength."
+        "answer": "Both hands must control the threaded lapel with thumb-inside grips at two strategic points: one grip near where the lapel exits your legs to maintain the threading integrity, and a second grip further along the material to generate pulling leverage. The spacing between grips determines your mechanical advantage, with too-close spacing reducing control range and too-wide spacing weakening individual grip strength.",
+        "answer_line": "Two thumb-inside grips on lapel",
+        "distractors": {
+          "plausible": [
+            "One deep grip, one sleeve grip",
+            "Grips close together for control"
+          ],
+          "trap": [
+            "Pinky-inside grip for strength"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the sweep execution?",
-        "answer": "The diagonal hip bridge combined with rotation is the primary force generator. Rather than bridging straight upward, drive your hips diagonally toward the opposite shoulder while rotating your torso in the sweep direction. This creates a spiraling force that is significantly harder to defend than linear elevation because the opponent cannot simply drop their weight to counter the rotational component."
+        "answer": "The diagonal hip bridge combined with rotation is the primary force generator. Rather than bridging straight upward, drive your hips diagonally toward the opposite shoulder while rotating your torso in the sweep direction. This creates a spiraling force that is significantly harder to defend than linear elevation because the opponent cannot simply drop their weight to counter the rotational component.",
+        "answer_line": "Diagonal bridge toward shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight upward hip bridge",
+            "Rotate first, then bridge"
+          ],
+          "trap": [
+            "Flatten hips and push forward"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on the mat to block the sweep—how do you adjust?",
-        "answer": "When the opponent posts to block, immediately recognize that their posting-side base is now committed. Switch the sweep direction to attack the opposite side where their base is weakest, using the same lapel tension in a new diagonal. Alternatively, the posted arm becomes vulnerable to omoplata if they extend it far enough from their body, converting the blocked sweep into a submission threat."
+        "answer": "When the opponent posts to block, immediately recognize that their posting-side base is now committed. Switch the sweep direction to attack the opposite side where their base is weakest, using the same lapel tension in a new diagonal. Alternatively, the posted arm becomes vulnerable to omoplata if they extend it far enough from their body, converting the blocked sweep into a submission threat.",
+        "answer_line": "Switch sweep to their weak side",
+        "distractors": {
+          "plausible": [
+            "Push harder into the post",
+            "Re-grip and reset the lapel"
+          ],
+          "trap": [
+            "Let go and return to guard"
+          ]
+        }
       },
       {
         "question": "What hook placement generates the most sweeping power in this technique?",
-        "answer": "A butterfly hook positioned under the opponent's near-side thigh close to the hip crease provides maximum elevation leverage. The hook should engage before the sweep motion begins so your foot is already loaded under their weight. Position the hook so that your shin drives upward into their inner thigh, creating both vertical elevation and lateral displacement simultaneously for compound off-balancing."
+        "answer": "A butterfly hook positioned under the opponent's near-side thigh close to the hip crease provides maximum elevation leverage. The hook should engage before the sweep motion begins so your foot is already loaded under their weight. Position the hook so that your shin drives upward into their inner thigh, creating both vertical elevation and lateral displacement simultaneously for compound off-balancing.",
+        "answer_line": "Butterfly hook, near-thigh crease",
+        "distractors": {
+          "plausible": [
+            "Hook under the far-side knee",
+            "Load hook after sweep starts"
+          ],
+          "trap": [
+            "Hook deep into the tailbone"
+          ]
+        }
       },
       {
         "question": "How does the direction of the lapel pull affect sweep success?",
-        "answer": "The lapel must be pulled diagonally across your body toward the opposite hip, not straight backward toward your head. This diagonal vector creates rotational force around your hip pivot point that the opponent cannot resist with linear base widening. The angle of pull should match approximately forty-five degrees from your centerline, aligned with the sweep direction established by your hook placement."
+        "answer": "The lapel must be pulled diagonally across your body toward the opposite hip, not straight backward toward your head. This diagonal vector creates rotational force around your hip pivot point that the opponent cannot resist with linear base widening. The angle of pull should match approximately forty-five degrees from your centerline, aligned with the sweep direction established by your hook placement.",
+        "answer_line": "Pull lapel diagonal, opposite hip",
+        "distractors": {
+          "plausible": [
+            "Pull lapel straight back",
+            "Pull lapel toward your head"
+          ],
+          "trap": [
+            "Pull lapel straight upward"
+          ]
+        }
       },
       {
         "question": "Your opponent strongly resists the sweep by dropping their hips—what chain attack opens up?",
-        "answer": "When the opponent drops and widens their hips to resist, their back becomes exposed because they cannot simultaneously base wide and protect their back. Transition to a berimbolo entry by inverting under the opponent while maintaining lapel control, or execute a collar drag to pull them past you and take the back. The key insight is that base-widening defenses always create back exposure as an inherent trade-off."
+        "answer": "When the opponent drops and widens their hips to resist, their back becomes exposed because they cannot simultaneously base wide and protect their back. Transition to a berimbolo entry by inverting under the opponent while maintaining lapel control, or execute a collar drag to pull them past you and take the back. The key insight is that base-widening defenses always create back exposure as an inherent trade-off.",
+        "answer_line": "Berimbolo or collar drag to back",
+        "distractors": {
+          "plausible": [
+            "Switch to a scissor sweep",
+            "Reset grips and retry sweep"
+          ],
+          "trap": [
+            "Force the same sweep harder"
+          ]
+        }
       },
       {
         "question": "What happens if you lose one lapel grip during the sweep attempt?",
-        "answer": "If the outside grip is lost, immediately increase tension on the remaining inside grip while using your free hand to establish a secondary control point such as a sleeve grip or pant grip at the knee. If the sweep is still viable with reduced control, commit quickly before more grip deterioration occurs. If control is insufficient, abandon the sweep and transition to De La Riva or Collar Sleeve Guard to prevent complete guard loss."
+        "answer": "If the outside grip is lost, immediately increase tension on the remaining inside grip while using your free hand to establish a secondary control point such as a sleeve grip or pant grip at the knee. If the sweep is still viable with reduced control, commit quickly before more grip deterioration occurs. If control is insufficient, abandon the sweep and transition to De La Riva or Collar Sleeve Guard to prevent complete guard loss.",
+        "answer_line": "Add sleeve grip, commit or bail",
+        "distractors": {
+          "plausible": [
+            "Release both grips and reset",
+            "Switch hands to re-grip lapel"
+          ],
+          "trap": [
+            "Chase the lost grip instantly"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from extracting the lapel during sweep setup?",
-        "answer": "Maintain constant tension on both grip points throughout setup, ensuring no slack exists in the lapel thread. Keep your legs active around the threaded material, squeezing slightly to create friction that resists extraction. If you feel the opponent beginning to pull the lapel free, immediately pull your hips closer to them using your hooks, which reduces the available slack they need to extract the material from the threading."
+        "answer": "Maintain constant tension on both grip points throughout setup, ensuring no slack exists in the lapel thread. Keep your legs active around the threaded material, squeezing slightly to create friction that resists extraction. If you feel the opponent beginning to pull the lapel free, immediately pull your hips closer to them using your hooks, which reduces the available slack they need to extract the material from the threading.",
+        "answer_line": "Pull hips in, close the slack",
+        "distractors": {
+          "plausible": [
+            "Loosen legs to reduce friction",
+            "Push hips away for space"
+          ],
+          "trap": [
+            "Release grip tension briefly"
+          ]
+        }
       },
       {
         "question": "What body position ensures successful arrival in mount after the sweep completes?",
-        "answer": "As the sweep reaches its apex and the opponent begins falling, drive your chest forward over their centerline while keeping your hips tight to theirs. Your lead shoulder should cross their midline before their back reaches the mat, establishing inside position. Immediately release the lapel thread and transition to cross-face control or collar grip while settling your hips heavy on their solar plexus to prevent any immediate escape attempts."
+        "answer": "As the sweep reaches its apex and the opponent begins falling, drive your chest forward over their centerline while keeping your hips tight to theirs. Your lead shoulder should cross their midline before their back reaches the mat, establishing inside position. Immediately release the lapel thread and transition to cross-face control or collar grip while settling your hips heavy on their solar plexus to prevent any immediate escape attempts.",
+        "answer_line": "Shoulder crosses midline first",
+        "distractors": {
+          "plausible": [
+            "Sit back and control the legs",
+            "Keep lapel grip through mount"
+          ],
+          "trap": [
+            "Sprawl back and disengage"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Piranha Guard Sweep carries moderate injury risk primarily through uncontrolled lapel tension that can cause neck strain or cervical compression on the top player. Partners should communicate clearly about lapel tension levels and the bottom player must release grips immediately if the top player signals discomfort. The sweep itself can cause the top player to fall awkwardly if executed with excessive force, so controlled drilling with graduated resistance is essential before live application. Be particularly cautious of finger injuries from deep lapel grips during extended training sessions and consider taping fingers preventively when drilling high volumes."
+    "safety_considerations": "The Piranha Guard Sweep carries moderate injury risk primarily through uncontrolled lapel tension that can cause neck strain or cervical compression on the top player. Partners should communicate clearly about lapel tension levels and the bottom player must release grips immediately if the top player signals discomfort. The sweep itself can cause the top player to fall awkwardly if executed with excessive force, so controlled drilling with graduated resistance is essential before live application. Be particularly cautious of finger injuries from deep lapel grips during extended training sessions and consider taping fingers preventively when drilling high volumes.",
+    "clips": [
+      {
+        "id": "DYLeL6H4g6g",
+        "title": "Half guard lapel sweep",
+        "by": "Brazilian Top Team Happy Valley",
+        "vertical": false,
+        "channel": "Brazilian Top Team Happy Valley ",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-epOGEtHwSI",
+        "title": "Half guard lapel sweep, walk around finish",
+        "by": "Brazilian Top Team Happy Valley",
+        "vertical": false,
+        "channel": "Brazilian Top Team Happy Valley ",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Piranha Guard Sweep Defender",
@@ -370,23 +502,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Piranha Guard Sweep is being set up?",
-        "answer": "The earliest cue is the opponent creating a hip angle through a small hip escape while maintaining or increasing lapel tension. This angle creation establishes the sweep direction before the hook engagement or sweep motion begins. Recognizing this preparatory movement gives you the maximum time window to widen your base or strip grips before the sweep develops dangerous momentum."
+        "answer": "The earliest cue is the opponent creating a hip angle through a small hip escape while maintaining or increasing lapel tension. This angle creation establishes the sweep direction before the hook engagement or sweep motion begins. Recognizing this preparatory movement gives you the maximum time window to widen your base or strip grips before the sweep develops dangerous momentum.",
+        "answer_line": "Small hip escape, lapel tension",
+        "distractors": {
+          "plausible": [
+            "Hook engages under the thigh",
+            "Sudden hard bridge attempt"
+          ],
+          "trap": [
+            "Opponent releases the lapel"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to drive forward with pressure when the opponent has the sweep loaded?",
-        "answer": "Forward pressure delivers your weight directly into the attacker's pulling direction, effectively converting your passing energy into sweep momentum. The lapel configuration acts as a redirect mechanism that turns your forward drive into rotational force around their hip pivot. Instead of forward pressure, move laterally to change the angle of engagement and reduce the effectiveness of their directional sweep setup."
+        "answer": "Forward pressure delivers your weight directly into the attacker's pulling direction, effectively converting your passing energy into sweep momentum. The lapel configuration acts as a redirect mechanism that turns your forward drive into rotational force around their hip pivot. Instead of forward pressure, move laterally to change the angle of engagement and reduce the effectiveness of their directional sweep setup.",
+        "answer_line": "Move laterally, not forward",
+        "distractors": {
+          "plausible": [
+            "Drop weight straight down",
+            "Push through with more base"
+          ],
+          "trap": [
+            "Drive forward pressure harder"
+          ]
+        }
       },
       {
         "question": "How should you prioritize defensive actions when caught mid-sweep with your base already compromised?",
-        "answer": "When caught mid-sweep, immediately post your far hand on the mat in the direction you are falling to create a tripod base and prevent complete reversal. From this posted position, drive your hips away from the opponent while working to extract your leg from their hook. If the sweep is nearly complete, transition directly to guard recovery rather than fighting the reversal, accepting momentary positional loss to establish half guard."
+        "answer": "When caught mid-sweep, immediately post your far hand on the mat in the direction you are falling to create a tripod base and prevent complete reversal. From this posted position, drive your hips away from the opponent while working to extract your leg from their hook. If the sweep is nearly complete, transition directly to guard recovery rather than fighting the reversal, accepting momentary positional loss to establish half guard.",
+        "answer_line": "Post far hand, drive hips away",
+        "distractors": {
+          "plausible": [
+            "Fight the hook aggressively",
+            "Sit through to the far side"
+          ],
+          "trap": [
+            "Post the near hand instead"
+          ]
+        }
       },
       {
         "question": "What is the relationship between lapel grip stripping and sweep defense timing?",
-        "answer": "Grip stripping is the proactive defense that prevents sweeps before they develop, while base maintenance is the reactive defense during sweep execution. Ideally, strip the primary lapel grip before the opponent establishes their sweep angle, which removes the mechanical advantage powering the sweep. If grip stripping fails and the sweep is initiated, switch immediately to base maintenance and posting defense rather than continuing to fight grips."
+        "answer": "Grip stripping is the proactive defense that prevents sweeps before they develop, while base maintenance is the reactive defense during sweep execution. Ideally, strip the primary lapel grip before the opponent establishes their sweep angle, which removes the mechanical advantage powering the sweep. If grip stripping fails and the sweep is initiated, switch immediately to base maintenance and posting defense rather than continuing to fight grips.",
+        "answer_line": "Strip grip before angle forms",
+        "distractors": {
+          "plausible": [
+            "Fight grips through the sweep",
+            "Post first, strip grips after"
+          ],
+          "trap": [
+            "Ignore grips, just base hard"
+          ]
+        }
       },
       {
         "question": "Your opponent switches sweep direction after you post to block—what adjustment prevents the reversal?",
-        "answer": "Immediately transfer your post to the new sweep direction while simultaneously dropping your center of gravity lower. The direction switch relies on you being committed to defending one side, so maintain a centered base position between posts rather than fully committing laterally. Use your hands on the mat as mobile pivot points rather than static posts, allowing rapid transfer between sides as the attacker changes sweep directions."
+        "answer": "Immediately transfer your post to the new sweep direction while simultaneously dropping your center of gravity lower. The direction switch relies on you being committed to defending one side, so maintain a centered base position between posts rather than fully committing laterally. Use your hands on the mat as mobile pivot points rather than static posts, allowing rapid transfer between sides as the attacker changes sweep directions.",
+        "answer_line": "Transfer post, lower your center",
+        "distractors": {
+          "plausible": [
+            "Commit fully to one side",
+            "Stand up to reset your base"
+          ],
+          "trap": [
+            "Remove post to re-grip lapel"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -409,6 +591,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Competition-intensity defensive sparring from Piranha Guard top",
         "description": "Full-speed positional sparring starting in Piranha Guard with defender working to neutralize sweeps and pass the guard. Track success rate across rounds and analyze which defensive responses consistently lead to the best passing outcomes and position recovery."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Mw9e-xftPcY",
+        "title": "Dealing with the lapel feed in half guard",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uvuV9GnMvFQ",
+        "title": "Shutting down the lapel guard sweep game",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 458,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U9tV9gNze9A",
+        "title": "Escaping lapel guard: three variations",
+        "by": "Modern BJJ coach",
+        "vertical": false,
+        "channel": "Modern BJJ",
+        "duration": 533,
+        "verified": "2026-07-15"
       }
     ]
   }

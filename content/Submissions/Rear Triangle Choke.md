@@ -34,6 +34,65 @@ description: "Master the Rear Triangle Choke in BJJ. Complete guide to finishing
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear triangle from the back",
+      "description": "Rear Triangle Choke film study: Rear triangle from the back, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l5ayCZh3W78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l5ayCZh3W78",
+      "url": "https://www.youtube.com/watch?v=l5ayCZh3W78",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ushiro sankaku rear triangle from seated back",
+      "description": "Rear Triangle Choke film study: Ushiro sankaku rear triangle from seated back, taught by Chris Reymann.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LQUICOJ82xk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LQUICOJ82xk",
+      "url": "https://www.youtube.com/watch?v=LQUICOJ82xk",
+      "creator": { "@type": "Person", "name": "Chris Reymann" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rear triangle setup from back control",
+      "description": "Rear Triangle Choke film study: Rear triangle setup from back control, taught by Hellfish MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4h-lxaNIqzw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4h-lxaNIqzw",
+      "url": "https://www.youtube.com/watch?v=4h-lxaNIqzw",
+      "creator": { "@type": "Person", "name": "Hellfish MMA" },
+      "duration": "PT189S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Back Triangle Choke",
+      "description": "Rear Triangle Choke film study: Back Triangle Choke, taught by Dr. Deng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w8vzr24_n0s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w8vzr24_n0s",
+      "url": "https://www.youtube.com/watch?v=w8vzr24_n0s",
+      "creator": { "@type": "Person", "name": "Dr. Deng" },
+      "duration": "PT30S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +112,7 @@ description: "Master the Rear Triangle Choke in BJJ. Complete guide to finishing
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Rear Triangle Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Rear Triangle Choke is a back-attack blood choke in which the attacker figure-fours their legs around the opponent\u0027s neck and one trapped arm from behind, sealing both carotid arteries at a posterior angle that defeats standard chin defense." } },
-    { "@type": "Question", "name": "What positions can you finish the Rear Triangle Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Rear Triangle Choke from Back Control, Rear Triangle." } },
+    { "@type": "Question", "name": "What positions can you finish the Rear Triangle Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Rear Triangle Choke from Rear Triangle, Back Control." } },
     { "@type": "Question", "name": "Is the Rear Triangle Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Rear Triangle Choke targets the Neck. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early and release immediately on the tap." } }
   ]
 }
@@ -86,6 +145,50 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l5ayCZh3W78)
+
+<p class="clip-credit"><strong>Rear triangle from the back</strong> — taught by Gracie Charlottesville · 0:32 · <a href="https://www.youtube.com/watch?v=l5ayCZh3W78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LQUICOJ82xk)
+
+<p class="clip-credit"><strong>Ushiro sankaku rear triangle from seated back</strong> — taught by Chris Reymann · 0:40 · <a href="https://www.youtube.com/watch?v=LQUICOJ82xk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4h-lxaNIqzw)
+
+<p class="clip-credit"><strong>Rear triangle setup from back control</strong> — taught by Hellfish MMA · 3:09 · <a href="https://www.youtube.com/watch?v=4h-lxaNIqzw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w8vzr24_n0s)
+
+<p class="clip-credit"><strong>Back Triangle Choke</strong> — taught by Dr. Deng · 0:30 · <a href="https://www.youtube.com/watch?v=w8vzr24_n0s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,8 +198,8 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Rear Triangle Choke/from Back Control|Back Control]] | Top | 58% | [[Submissions/Rear Triangle Choke/from Back Control/Attacker|Attack →]] | [[Submissions/Rear Triangle Choke/from Back Control/Defender|Defend →]] |
-| [[Submissions/Rear Triangle Choke/from Rear Triangle|Rear Triangle]] | Top | 50% | [[Submissions/Rear Triangle Choke/from Rear Triangle/Attacker|Attack →]] | [[Submissions/Rear Triangle Choke/from Rear Triangle/Defender|Defend →]] |
+| [[Submissions/Rear Triangle Choke/from Rear Triangle|Rear Triangle]] | Top | 65% | [[Submissions/Rear Triangle Choke/from Rear Triangle/Attacker|Attack →]] | [[Submissions/Rear Triangle Choke/from Rear Triangle/Defender|Defend →]] |
+| [[Submissions/Rear Triangle Choke/from Back Control|Back Control]] | Top | 65% | [[Submissions/Rear Triangle Choke/from Back Control/Attacker|Attack →]] | [[Submissions/Rear Triangle Choke/from Back Control/Defender|Defend →]] |
 
 
 </div>

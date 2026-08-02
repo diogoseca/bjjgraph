@@ -27,21 +27,33 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Dead Orchard Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Anaconda Choke from Dead Orchard is an advanced blood choke completion technique originating from the 10th Planet Jiu-Jitsu system. This submission represents the terminal phase of the Dead Orchard control sequence, where the practitioner has already invested significant effort establishing a deep anaconda grip configuration with sustained positional pressure. Unlike rushed anaconda finishes from scramble positions, the Dead Orchard finish capitalizes on the systematic defensive breakdown that occurs during extended control, producing substantially higher completion rates against experienced opponents.\n\nThe mechanics target bilateral compression of the carotid arteries through an arm-in choke configuration. The opponent's own trapped arm serves as a fulcrum pressed against one side of their neck while the choking arm compresses the opposite carotid. The finishing sequence involves precise hip walking to achieve optimal compression angle, coordinated grip tightening with shoulder drive, and patient pressure escalation that overwhelms remaining defensive capacity. The position's namesake reflects the trapped, lifeless quality of the opponent's defensive structure by the time the finish is applied.\n\nStrategically, this finish thrives on the dilemma it creates within the broader Dead Orchard system. Opponents who defend aggressively during the control phase burn energy that compromises their ability to resist the finish. Those who conserve energy accept sustained positional damage that progressively weakens their defensive structure. This lose-lose dynamic makes the Anaconda Choke from Dead Orchard one of the highest-percentage finishes available from front headlock-based control systems.",
   "safety_considerations": {
     "injury_risks": [
@@ -106,7 +118,7 @@
     "Brabo Choke",
     "Arm Triangle",
     "Arm in Guillotine",
-    "Chin Strap Guillotine"
+    "Chin Strap Guillotine from Front Headlock"
   ],
   "related_content": [
     {
@@ -295,46 +307,175 @@
       {
         "question": "What anatomical structures does the Anaconda Choke from Dead Orchard primarily target, and how does the arm-in configuration create compression?",
         "answer": "The finish targets bilateral compression of the carotid arteries on both sides of the neck. The arm-in configuration creates a triangle of pressure: the choking arm compresses one carotid, the opponent's own trapped arm acts as a fulcrum pressing against the opposite carotid, and the shoulder drives downward to seal the compression. This bilateral blood restriction produces unconsciousness by cutting cerebral blood flow rather than restricting the airway.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Airway and windpipe restriction",
+            "Single-side carotid pressure"
+          ],
+          "trap": [
+            "Crank the neck for a spinal finish"
+          ]
+        }
       },
       {
         "question": "How do you recognize when the opponent has reached the point of no escape during the finishing sequence?",
         "answer": "The point of no escape occurs when the grip is deep past the far shoulder, hips have achieved optimal compression angle, and the opponent's defensive grips have been cleared. Physical indicators include the opponent's trapped arm going limp against their neck, cessation of active hand fighting, labored or irregular breathing patterns, and a general slowing of defensive movements. At this stage, steady pressure application will produce a tap within four to eight seconds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep grip, set angle, arm goes limp",
+        "distractors": {
+          "plausible": [
+            "They stop bridging for a moment",
+            "Only a tight squeeze matters"
+          ],
+          "trap": [
+            "Release pressure to re-grip deeper"
+          ]
+        }
       },
       {
         "question": "What are the critical indicators that you should release the choke immediately during training?",
         "answer": "Release immediately when you detect any tap signal including verbal, hand tap, or foot tap. Also release if the opponent goes limp, stops moving, exhibits involuntary twitching, makes gurgling sounds, or shows any sign of losing consciousness. If there is any ambiguity about whether a tap occurred, release immediately. In training, prioritize partner safety over finishing the submission. Unconsciousness from blood chokes can occur in as few as four seconds once fully locked.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Any tap or sign of distress",
+        "distractors": {
+          "plausible": [
+            "Only a hand tap counts",
+            "Ease off and ask if they are okay"
+          ],
+          "trap": [
+            "Hold the squeeze until they go limp"
+          ]
+        }
       },
       {
         "question": "Your grip feels tight but the opponent is still defending after ten seconds of sustained pressure. What adjustments should you make?",
-        "answer": "First assess grip depth by feeling for your wrist bone position relative to their far shoulder. If shallow, use body movement to walk it deeper. Next, verify hip angle by checking if your chest is perpendicular to their spine. Walk hips one to two more steps toward their head if needed. Finally, check shoulder pressure height, adjusting to drive more directly into their trapped shoulder. Small positional corrections are far more effective than simply squeezing harder, which fatigues your arms without improving choke mechanics."
+        "answer": "First assess grip depth by feeling for your wrist bone position relative to their far shoulder. If shallow, use body movement to walk it deeper. Next, verify hip angle by checking if your chest is perpendicular to their spine. Walk hips one to two more steps toward their head if needed. Finally, check shoulder pressure height, adjusting to drive more directly into their trapped shoulder. Small positional corrections are far more effective than simply squeezing harder, which fatigues your arms without improving choke mechanics.",
+        "answer_line": "Adjust depth, angle, then pressure",
+        "distractors": {
+          "plausible": [
+            "Reset grip and start over",
+            "Only adjust shoulder height"
+          ],
+          "trap": [
+            "Force a roll, land in their guard"
+          ]
+        }
       },
       {
         "question": "Why is progressive pressure application more effective than explosive squeezing for completing this choke?",
-        "answer": "Progressive pressure prevents the adrenaline-fueled panic response that explosive squeezing triggers in defenders. When squeezed suddenly, opponents generate explosive escape attempts fueled by fight-or-flight response that can create enough space to compromise the grip. Progressive pressure gradually restricts blood flow without triggering this panic threshold. Additionally, sustained progressive pressure fatigues the arms far less than explosive squeezing, allowing the attacker to maintain the attempt longer and make micro-adjustments during application."
+        "answer": "Progressive pressure prevents the adrenaline-fueled panic response that explosive squeezing triggers in defenders. When squeezed suddenly, opponents generate explosive escape attempts fueled by fight-or-flight response that can create enough space to compromise the grip. Progressive pressure gradually restricts blood flow without triggering this panic threshold. Additionally, sustained progressive pressure fatigues the arms far less than explosive squeezing, allowing the attacker to maintain the attempt longer and make micro-adjustments during application.",
+        "answer_line": "Avoids panic, saves arm energy",
+        "distractors": {
+          "plausible": [
+            "Tires their neck muscles first",
+            "Speeds the tap before they defend"
+          ],
+          "trap": [
+            "Rip the squeeze, they burst free"
+          ]
+        }
       },
       {
         "question": "What specific grip adjustments maintain choke effectiveness when the opponent attempts to create space by extending their trapped arm?",
-        "answer": "When the opponent extends their trapped arm, walk your gable grip deeper toward their far shoulder while simultaneously increasing shoulder drive into their trapped shoulder to pin the arm back against their neck. If the arm extension creates significant space, temporarily release shoulder height pressure to slide the grip deeper before re-establishing the downward drive. The key is maintaining circular compression direction toward their far armpit. If the arm fully escapes the grip, immediately transition to darce control or positional advancement rather than chasing the anaconda."
+        "answer": "When the opponent extends their trapped arm, walk your gable grip deeper toward their far shoulder while simultaneously increasing shoulder drive into their trapped shoulder to pin the arm back against their neck. If the arm extension creates significant space, temporarily release shoulder height pressure to slide the grip deeper before re-establishing the downward drive. The key is maintaining circular compression direction toward their far armpit. If the arm fully escapes the grip, immediately transition to darce control or positional advancement rather than chasing the anaconda.",
+        "answer_line": "Walk grip deeper, drive shoulder in",
+        "distractors": {
+          "plausible": [
+            "Release grip fully to reset",
+            "Squeeze tighter without moving"
+          ],
+          "trap": [
+            "Chase the arm as it escapes"
+          ]
+        }
       },
       {
         "question": "How does the finishing angle differ between a standard anaconda choke and the Dead Orchard variation?",
-        "answer": "The standard anaconda finish typically involves a gator roll to achieve the compression angle quickly, relying on the roll's momentum to generate finishing pressure. The Dead Orchard variation instead achieves the finishing angle through deliberate hip walking from an already established control position, producing a more precise and sustainable compression angle. The Dead Orchard angle tends to be tighter because the extended control phase has already flattened the opponent's defensive structure, and the hip walk allows real-time angle optimization based on the opponent's specific body proportions."
+        "answer": "The standard anaconda finish typically involves a gator roll to achieve the compression angle quickly, relying on the roll's momentum to generate finishing pressure. The Dead Orchard variation instead achieves the finishing angle through deliberate hip walking from an already established control position, producing a more precise and sustainable compression angle. The Dead Orchard angle tends to be tighter because the extended control phase has already flattened the opponent's defensive structure, and the hip walk allows real-time angle optimization based on the opponent's specific body proportions.",
+        "answer_line": "Hip walk vs quick gator roll",
+        "distractors": {
+          "plausible": [
+            "Dead Orchard uses gator roll",
+            "Both use identical roll timing"
+          ],
+          "trap": [
+            "Roll faster to skip hip walk"
+          ]
+        }
       },
       {
         "question": "What distinguishes the point where the choke becomes a dangerous neck crank rather than a blood choke, and how do you prevent this?",
         "answer": "The transition from blood choke to neck crank occurs when the hips walk too far past the perpendicular finishing angle, creating a rotational force on the cervical spine rather than bilateral compression on the carotid arteries. You prevent this by stopping the hip walk when you feel maximum compression resistance, which occurs when your chest is approximately perpendicular to the opponent's spine. If the opponent taps from sharp neck pain rather than the gradual tunnel-vision sensation of a blood choke, your angle has drifted into cranking territory and needs correction.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop hips at perpendicular chest",
+        "distractors": {
+          "plausible": [
+            "Neck pain means it is working",
+            "Squeeze the arms harder for depth"
+          ],
+          "trap": [
+            "Keep rotating past the stop point"
+          ]
+        }
       },
       {
         "question": "What competition strategy maximizes finishing probability when time is limited in the final minutes of a match?",
-        "answer": "With limited time, accelerate the Dead Orchard control phase by immediately attacking defensive grips rather than waiting for gradual fatigue. Strip the opponent's free hand aggressively, then commit to the hip walk and finishing squeeze in a compressed timeline. Accept higher energy expenditure for faster execution. If the standard finish stalls after five seconds, immediately attempt the gator roll variation to displace their base and create a new finishing window. The time pressure affects the defender more than the attacker since they cannot rely on survival duration."
+        "answer": "With limited time, accelerate the Dead Orchard control phase by immediately attacking defensive grips rather than waiting for gradual fatigue. Strip the opponent's free hand aggressively, then commit to the hip walk and finishing squeeze in a compressed timeline. Accept higher energy expenditure for faster execution. If the standard finish stalls after five seconds, immediately attempt the gator roll variation to displace their base and create a new finishing window. The time pressure affects the defender more than the attacker since they cannot rely on survival duration.",
+        "answer_line": "Strip grips fast, commit to walk",
+        "distractors": {
+          "plausible": [
+            "Switch to a different submission",
+            "Slow down to conserve energy"
+          ],
+          "trap": [
+            "Dive for the roll and get swept"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully clasps their hands together during your finishing attempt. What is the systematic response to break this defense?",
-        "answer": "Target the bottom hand of the clasp specifically, using your free hand to strip it toward their hip by attacking at the wrist. If direct grip stripping fails, walk your hips further toward their head to increase angular pressure that makes the clasped position structurally weaker. You can also briefly release shoulder pressure then immediately re-drive at a slightly different angle, which forces them to re-establish their clasp and creates a momentary opening. The worst response is to simply squeeze harder against clasped hands, which fatigues your arms without breaking their defense."
+        "answer": "Target the bottom hand of the clasp specifically, using your free hand to strip it toward their hip by attacking at the wrist. If direct grip stripping fails, walk your hips further toward their head to increase angular pressure that makes the clasped position structurally weaker. You can also briefly release shoulder pressure then immediately re-drive at a slightly different angle, which forces them to re-establish their clasp and creates a momentary opening. The worst response is to simply squeeze harder against clasped hands, which fatigues your arms without breaking their defense.",
+        "answer_line": "Strip bottom hand at the wrist",
+        "distractors": {
+          "plausible": [
+            "Pull both hands apart evenly",
+            "Grip the top hand and pull up"
+          ],
+          "trap": [
+            "Release the head to use both hands"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "dr66s8QK9_g",
+        "title": "Anaconda finish details, S-grip",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Ben Eddy Bravo",
+        "duration": 96,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "EbhWFWp-B6s",
+        "title": "How to do an anaconda choke",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PGZUu6JbtDA",
+        "title": "Sneaky anaconda submission (no-gi)",
+        "by": "The Grapple Club",
+        "vertical": false,
+        "channel": "The Grapple Club",
+        "duration": 89,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -429,25 +570,75 @@
       {
         "question": "What is the first defensive priority when you recognize the attacker transitioning from Dead Orchard control to finishing the anaconda choke?",
         "answer": "The first priority is getting your free hand to the choking arm at the elbow joint to create a frame that prevents the grip from tightening into full compression. Do not waste energy pulling at their hands or pushing their body. The elbow is the mechanically weakest point of the choking arm and framing there provides the greatest defensive leverage per unit of energy expended. Simultaneously, tuck your chin and turn your face toward the attacker's body to protect the carotid arteries.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame at the choking arm's elbow",
+        "distractors": {
+          "plausible": [
+            "Pull at their gripping hands",
+            "Push against their body weight"
+          ],
+          "trap": [
+            "Turn your face away from them"
+          ]
+        }
       },
       {
         "question": "When should you absolutely tap rather than continue fighting the anaconda finish?",
         "answer": "Tap immediately when you feel bilateral compression on both carotid arteries combined with any vision changes such as tunnel vision, darkening, or seeing spots. Also tap if you feel a pressure sensation building in your head, hear ringing in your ears, or notice your movements becoming sluggish or uncoordinated. These are signs that cerebral blood flow is significantly compromised. Blood chokes can produce unconsciousness in four to eight seconds, and the transition from functional defense to unconsciousness can happen faster than you can decide to tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Vision changes with neck pressure",
+        "distractors": {
+          "plausible": [
+            "Tap when you run out of breath",
+            "Only tap if the neck hurts sharply"
+          ],
+          "trap": [
+            "Push through until you black out"
+          ]
+        }
       },
       {
         "question": "Why is turning toward the trapped arm side more effective than turning away when defending this choke?",
-        "answer": "Turning toward the trapped arm side changes the compression angle in your favor by moving the carotid arteries away from the primary compression line of the choking arm. Turning away does the opposite by rotating your neck into the choking arm's squeeze direction, actually tightening the bilateral compression. Additionally, turning toward the trapped arm side positions your hips for the hip escape that offers the highest percentage exit from the position, while turning away exposes your back for potential hook insertion and back control transition."
+        "answer": "Turning toward the trapped arm side changes the compression angle in your favor by moving the carotid arteries away from the primary compression line of the choking arm. Turning away does the opposite by rotating your neck into the choking arm's squeeze direction, actually tightening the bilateral compression. Additionally, turning toward the trapped arm side positions your hips for the hip escape that offers the highest percentage exit from the position, while turning away exposes your back for potential hook insertion and back control transition.",
+        "answer_line": "Turn toward the trapped arm side",
+        "distractors": {
+          "plausible": [
+            "Turning away frees your trapped arm",
+            "Turning toward opens your airway"
+          ],
+          "trap": [
+            "Turn away and get choked out"
+          ]
+        }
       },
       {
         "question": "How do you identify the optimal moment to attempt your escape during the finishing sequence?",
-        "answer": "The optimal escape moment occurs during the attacker's hip walking phase when they are mid-step and their pressure distribution temporarily shifts. Feel for the brief moment when shoulder pressure lightens slightly as they reposition their hips. This transitional instant is when their ability to follow your movement is most compromised. Also watch for when the attacker reaches with their free hand to strip your defensive grips, as this momentarily reduces their structural control. Execute your hip escape or roll during these adjustment windows rather than against settled, committed pressure."
+        "answer": "The optimal escape moment occurs during the attacker's hip walking phase when they are mid-step and their pressure distribution temporarily shifts. Feel for the brief moment when shoulder pressure lightens slightly as they reposition their hips. This transitional instant is when their ability to follow your movement is most compromised. Also watch for when the attacker reaches with their free hand to strip your defensive grips, as this momentarily reduces their structural control. Execute your hip escape or roll during these adjustment windows rather than against settled, committed pressure.",
+        "answer_line": "Escape during their hip-walk step",
+        "distractors": {
+          "plausible": [
+            "Escape right after they settle",
+            "Wait for a total pressure release"
+          ],
+          "trap": [
+            "Push hardest against set pressure"
+          ]
+        }
       },
       {
         "question": "What breathing strategy maintains your defensive capacity longest when the choke is partially restricting blood flow?",
         "answer": "Focus on slow, controlled nasal breathing with extended exhalations. Accept that full breaths are not possible and work with shallow but consistent respiratory rhythm. Exhale fully when executing defensive movements or frames, then inhale during brief pauses between movements. Mental calm is essential because panic breathing triggers sympathetic nervous system activation that dramatically accelerates oxygen consumption and fatigue. Your body can function on restricted blood flow longer than most practitioners realize if you remain calm and breathe efficiently rather than gasping.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow nasal breaths, exhale on moves",
+        "distractors": {
+          "plausible": [
+            "Take deep breaths when possible",
+            "Hold breath to conserve oxygen"
+          ],
+          "trap": [
+            "Gasp quickly to get more air"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -470,6 +661,35 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Complete defensive application against full-resistance finishing attempts",
         "description": "Positional sparring starting from established Dead Orchard control with the attacker working to finish at full intensity. Defender uses all available defensive tools—framing, grip fighting, escape timing, and positional awareness—to either prevent the finish or escape to guard recovery. Tap early and often to build pattern recognition safely."
+      }
+    ],
+    "clips": [
+      {
+        "id": "czQckiDogRc",
+        "title": "How to escape the anaconda choke",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda choke defense",
+        "by": "SFS MMA",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "guHPx-OKi0M",
+        "title": "Prevent the sucker drag during anaconda",
+        "by": "Drew Darce",
+        "vertical": false,
+        "channel": "Drew Darce",
+        "duration": 159,
+        "verified": "2026-07-14"
       }
     ]
   }

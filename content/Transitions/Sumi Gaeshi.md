@@ -35,6 +35,54 @@ description: "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, exe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sumi Gaeshi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sumi gaeshi off a single leg attempt",
+      "description": "Sumi Gaeshi film study: Sumi gaeshi off a single leg attempt, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1nAzI48mMJo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1nAzI48mMJo",
+      "url": "https://www.youtube.com/watch?v=1nAzI48mMJo",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three sumi gaeshi entries",
+      "description": "Sumi Gaeshi film study: Three sumi gaeshi entries, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HNtpb3yp6Do/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HNtpb3yp6Do",
+      "url": "https://www.youtube.com/watch?v=HNtpb3yp6Do",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sumi gaeshi corner throw mechanics",
+      "description": "Sumi Gaeshi film study: Sumi gaeshi corner throw mechanics, taught by Judo Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x1BHax6c_zg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/x1BHax6c_zg",
+      "url": "https://www.youtube.com/watch?v=x1BHax6c_zg",
+      "creator": { "@type": "Person", "name": "Judo Life" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -73,6 +121,42 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sumi Gaeshi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1nAzI48mMJo)
+
+<p class="clip-credit"><strong>Sumi gaeshi off a single leg attempt</strong> — taught by Shintaro Higashi · 1:13 · <a href="https://www.youtube.com/watch?v=1nAzI48mMJo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HNtpb3yp6Do)
+
+<p class="clip-credit"><strong>Three sumi gaeshi entries</strong> — taught by Shintaro Higashi · 2:01 · <a href="https://www.youtube.com/watch?v=HNtpb3yp6Do" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=x1BHax6c_zg)
+
+<p class="clip-credit"><strong>Sumi gaeshi corner throw mechanics</strong> — taught by Judo Life · 0:58 · <a href="https://www.youtube.com/watch?v=x1BHax6c_zg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

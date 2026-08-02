@@ -148,6 +148,43 @@ description: "How to defend and counter the transition from Kesa Gatame to Rever
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kesa Gatame to Reverse Kesa-Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse kesa gatame escape to back take",
+      "description": "Kesa Gatame to Reverse Kesa-Gatame (Defender) film study: Reverse kesa gatame escape to back take, taught by Gymnanigains coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
+      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
+      "creator": { "@type": "Person", "name": "Gymnanigains coach" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse kesa gatame escape",
+      "description": "Kesa Gatame to Reverse Kesa-Gatame (Defender) film study: Reverse kesa gatame escape, taught by Coach Paul.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QzegNgUUfZs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QzegNgUUfZs",
+      "url": "https://www.youtube.com/watch?v=QzegNgUUfZs",
+      "creator": { "@type": "Person", "name": "Coach Paul" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The defender must understand that once Reverse Kesa-Gatame is fully established 
 **Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kesa Gatame to Reverse Kesa-Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
+
+<p class="clip-credit"><strong>Reverse kesa gatame escape to back take</strong> — taught by Gymnanigains coach · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QzegNgUUfZs)
+
+<p class="clip-credit"><strong>Reverse kesa gatame escape</strong> — taught by Coach Paul · 1:21 · <a href="https://www.youtube.com/watch?v=QzegNgUUfZs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

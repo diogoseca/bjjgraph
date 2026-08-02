@@ -148,6 +148,43 @@ description: "Defend against the Grip Strip from Buggy Choke transition. Learn t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grip Strip from Buggy Choke (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fake buggy to follow-up attacks",
+      "description": "Grip Strip from Buggy Choke (Defender) film study: Fake buggy to follow-up attacks, taught by Rene Sousa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UOlAQctUf58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UOlAQctUf58",
+      "url": "https://www.youtube.com/watch?v=UOlAQctUf58",
+      "creator": { "@type": "Person", "name": "Rene Sousa" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 buggy choke concepts",
+      "description": "Grip Strip from Buggy Choke (Defender) film study: 3 buggy choke concepts, taught by Kade and Tye Ruotolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0_3YYrWEGoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0_3YYrWEGoU",
+      "url": "https://www.youtube.com/watch?v=0_3YYrWEGoU",
+      "creator": { "@type": "Person", "name": "Kade and Tye Ruotolo" },
+      "duration": "PT201S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Grip Strip from Buggy Choke requires understanding that the top pl
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grip Strip from Buggy Choke (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UOlAQctUf58)
+
+<p class="clip-credit"><strong>Fake buggy to follow-up attacks</strong> — taught by Rene Sousa · 2:54 · <a href="https://www.youtube.com/watch?v=UOlAQctUf58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0_3YYrWEGoU)
+
+<p class="clip-credit"><strong>3 buggy choke concepts</strong> — taught by Kade and Tye Ruotolo · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

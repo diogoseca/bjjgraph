@@ -164,6 +164,54 @@ description: "Master sleeve control in BJJ. Learn grip mechanics, posture breaki
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sleeve Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Understanding gi grips: sleeve and collar control",
+      "description": "Sleeve Control film study: Understanding gi grips: sleeve and collar control, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MR4nJQ6qhuU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MR4nJQ6qhuU",
+      "url": "https://www.youtube.com/watch?v=MR4nJQ6qhuU",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT485S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roger Gracie on collar and sleeve closed guard",
+      "description": "Sleeve Control film study: Roger Gracie on collar and sleeve closed guard, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kPZh0ZZyZj0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kPZh0ZZyZj0",
+      "url": "https://www.youtube.com/watch?v=kPZh0ZZyZj0",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT718S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The missing aspect of sleeve gripping in guard",
+      "description": "Sleeve Control film study: The missing aspect of sleeve gripping in guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1szGHQx-dv0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1szGHQx-dv0",
+      "url": "https://www.youtube.com/watch?v=1szGHQx-dv0",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Sleeve Control?
@@ -177,6 +225,42 @@ The strategic value of sleeve control extends beyond simple grip fighting - it r
 Sleeve control integrates with other fundamental concepts including grip strategy, posture breaking, distance management, and off-balancing. The concept appears across all guard positions - from closed guard collar and sleeve combinations to spider guard extension control to De La Riva manipulation. Mastering sleeve control provides a framework for understanding how to systematically break down an opponent's defensive structure while building your own offensive system.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sleeve Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MR4nJQ6qhuU)
+
+<p class="clip-credit"><strong>Understanding gi grips: sleeve and collar control</strong> — taught by RVV BJJ · 8:05 · <a href="https://www.youtube.com/watch?v=MR4nJQ6qhuU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kPZh0ZZyZj0)
+
+<p class="clip-credit"><strong>Roger Gracie on collar and sleeve closed guard</strong> — taught by Roger Gracie · 11:58 · <a href="https://www.youtube.com/watch?v=kPZh0ZZyZj0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1szGHQx-dv0)
+
+<p class="clip-credit"><strong>The missing aspect of sleeve gripping in guard</strong> — taught by Jon Thomas · 1:20 · <a href="https://www.youtube.com/watch?v=1szGHQx-dv0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

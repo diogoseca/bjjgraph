@@ -19,7 +19,10 @@
   "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
   "starting_position": "Butterfly Guard",
   "from_position": "Butterfly Guard/Bottom",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The Omoplata from Butterfly Guard exploits the seated posture and hook mechanics unique to butterfly guard to create a shoulder lock entry that bypasses many traditional omoplata defenses. Unlike closed guard omoplata entries that rely on breaking posture downward and swinging a leg over a compressed opponent, the butterfly guard version uses hook elevation to destabilize the opponent's base while simultaneously creating the space needed for the attacking leg to clear over the shoulder. The overhook serves as the primary arm control, trapping the limb while the same-side butterfly hook lifts the opponent's weight off the mat.\n\nThis entry chains naturally with butterfly sweep attempts, creating a powerful attacking dilemma. When the opponent posts a hand or shifts weight laterally to defend the butterfly sweep, they expose the posting arm to the overhook-to-omoplata transition. The hip rotation required to swing the leg over the shoulder builds on the same rotational mechanics already present in butterfly sweep execution, making the transition fluid for practitioners with strong butterfly fundamentals. The seated starting posture also eliminates the need for the dramatic hip escape required from flat-back guard positions.\n\nStrategically, the Omoplata from Butterfly Guard occupies a high-value position in modern guard systems because it punishes defensive postures that would otherwise neutralize butterfly sweep threats. Opponents who post wide and low to resist elevation become vulnerable to the leg swing, while those who stay tight and upright remain susceptible to standard butterfly sweeps. This creates a compounding offensive cycle where each defensive adjustment opens a different line of attack, making the butterfly guard bottom player increasingly dangerous as the exchange progresses.",
   "safety_considerations": {
     "injury_risks": [
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],
@@ -266,52 +278,181 @@
       {
         "question": "What anatomical structure does the Omoplata from Butterfly Guard primarily attack?",
         "answer": "The omoplata primarily attacks the shoulder joint complex, targeting the rotator cuff muscles, the glenohumeral joint capsule, and the acromioclavicular joint through internal rotation and extension torque applied by the attacker's legs and perpendicular body positioning.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder joint (rotator cuff)",
+        "distractors": {
+          "plausible": [
+            "Elbow, like an armbar",
+            "Wrist and forearm"
+          ],
+          "trap": [
+            "Neck and windpipe"
+          ]
+        }
       },
       {
         "question": "How does the butterfly hook elevation create the entry opportunity for the omoplata?",
         "answer": "The butterfly hook drives upward into the opponent's inner thigh, lifting their weight off the mat and compromising their base. This elevation creates space between the opponent's shoulder and the attacking leg's path, allowing the far leg to swing over the shoulder without being blocked by compressed posture.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elevates hips, clears leg path",
+        "distractors": {
+          "plausible": [
+            "Pulls collar to break posture",
+            "Underhook lifts the far arm"
+          ],
+          "trap": [
+            "Push off mat and stand up"
+          ]
+        }
       },
       {
         "question": "What is the critical grip that must be maintained throughout the transition from butterfly guard to omoplata position?",
         "answer": "The overhook on the target arm must be maintained throughout the entire transition. The armpit clamps tight over the opponent's tricep while the overhook-side hand grabs collar or wrist as backup. If this grip is lost during the hip rotation, the opponent can withdraw their arm and recover posture completely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep the overhook locked tight",
+        "distractors": {
+          "plausible": [
+            "Underhook on the trapped arm",
+            "Grip the opposite collar"
+          ],
+          "trap": [
+            "Switch to a double sleeve grip"
+          ]
+        }
       },
       {
         "question": "At what point does the forward roll escape become the primary threat, and how do you prevent it?",
         "answer": "The forward roll becomes the primary escape threat once your leg clears over the opponent's shoulder and you begin sitting through to the perpendicular position. Prevent it by immediately securing a grip on the opponent's far hip, belt, or pants. This hip anchor is the highest-priority grip after completing the leg swing.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip far hip or belt at once",
+        "distractors": {
+          "plausible": [
+            "Flatten opponent's chest first",
+            "Control the near-side leg"
+          ],
+          "trap": [
+            "Release grip, sit up straight"
+          ]
+        }
       },
       {
         "question": "What tactile and visual cues indicate the omoplata has reached the shoulder's end range and a tap is imminent?",
         "answer": "As you walk your hips away and lean forward, the opponent's shoulder reaches its rotational limit when their elbow points upward and the upper arm can no longer internally rotate. Their torso pins flat with the trapped arm wound tight; at this point even small increments of forward lean generate sharp pressure, so apply the final degrees slowly and expect the tap immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elbow up, torso flat, arm wound",
+        "distractors": {
+          "plausible": [
+            "Opponent's face flushes red",
+            "Their grip suddenly goes limp"
+          ],
+          "trap": [
+            "Wait for a pop or crack"
+          ]
+        }
       },
       {
         "question": "What is the proper speed for applying finishing pressure in training, and why is this critical?",
         "answer": "Finishing pressure must be applied slowly and progressively over a minimum of 4-6 seconds, gradually increasing the forward lean and rotational torque. The shoulder joint is vulnerable to sudden catastrophic damage including rotator cuff tears and labrum injuries requiring surgical intervention. Competition-speed application must never be used in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, gradual over 4-6 seconds",
+        "distractors": {
+          "plausible": [
+            "Fast snap like competition",
+            "Steady pressure, 1-2 seconds"
+          ],
+          "trap": [
+            "Full speed, maximum torque"
+          ]
+        }
       },
       {
         "question": "How should you respond immediately when your training partner taps to the omoplata?",
         "answer": "Immediately stop all forward pressure and rotational force on the shoulder. Release the leg pinch by unwinding your hip position to neutral. Allow the opponent to slowly extract their trapped arm without resistance. Verbally confirm they are uninjured before continuing the round. Never maintain any pressure after a tap signal.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, release, let them extract",
+        "distractors": {
+          "plausible": [
+            "Ease off slowly, hold position",
+            "Release grip, keep leg trapped"
+          ],
+          "trap": [
+            "Hold a beat to confirm the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand to defend your butterfly sweep. How does this create the omoplata opportunity?",
         "answer": "When the opponent posts their hand to defend the sweep, they shift weight laterally and extend their arm away from their body. This exposes the posting arm to the overhook transition while their compromised base from the sweep defense makes the hook elevation and leg swing easier to execute, creating a natural chain between sweep and submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posted arm exposed to overhook",
+        "distractors": {
+          "plausible": [
+            "Their weight centers, base solid",
+            "Their hand guards against the trap"
+          ],
+          "trap": [
+            "Freeze up and get passed"
+          ]
+        }
       },
       {
         "question": "What body angle relative to your opponent produces maximum finishing leverage in the omoplata?",
         "answer": "A perpendicular 90-degree angle to the opponent's body produces maximum finishing leverage. After the leg clears, sit through and walk your hips away to achieve this angle. A parallel or shallow angle reduces rotational torque and allows the opponent to resist by turning into you or establishing defensive frames against the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Perpendicular, 90-degree angle",
+        "distractors": {
+          "plausible": [
+            "Parallel, chest-to-chest angle",
+            "45-degree angle, hips squared"
+          ],
+          "trap": [
+            "Stay flat, pull straight back"
+          ]
+        }
       },
       {
         "question": "In competition against a resisting opponent, what finishing detail most reliably converts the omoplata into a fast tap?",
         "answer": "Kill the forward roll first by clamping the far hip or belt, then flatten the opponent's chest to the mat before applying any rotation. Most competition omoplatas stall because the attacker rotates the shoulder while the opponent still has space to roll or sit up; eliminating that escape route and pinning the swimming free arm before adding torque is what turns a controlled position into a finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Kill roll, flatten, then rotate",
+        "distractors": {
+          "plausible": [
+            "Rotate the shoulder immediately",
+            "Chase the free swimming hand"
+          ],
+          "trap": [
+            "Release hip control to adjust"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "mXI1NZ5L3eA",
+        "title": "Omoplata from butterfly guard",
+        "by": "BJJ Recap",
+        "vertical": false,
+        "channel": "BJJ Recap",
+        "duration": 39,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "O_uTvq4s3LQ",
+        "title": "Shoulder crunch omoplata",
+        "by": "A BJJ Marriage",
+        "vertical": false,
+        "channel": "A BJJ Marriage",
+        "duration": 87,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zjhkmmfU1gg",
+        "title": "Omoplata details",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 119,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -392,22 +533,62 @@
       {
         "question": "How can you distinguish an Omoplata setup from a standard butterfly sweep attempt?",
         "answer": "The primary distinction is the overhook depth and hook elevation direction. In a standard butterfly sweep, the bottom player uses collar or underhook grips with lateral directional force. For the omoplata entry, you will feel the armpit clamping over your tricep with the hook driving straight upward rather than laterally, and the opponent's hips rotating toward the overhook side.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep overhook, hook drives up",
+        "distractors": {
+          "plausible": [
+            "Collar grip, lateral hook push",
+            "Underhook with hip escape"
+          ],
+          "trap": [
+            "Any butterfly hook elevation"
+          ]
+        }
       },
       {
         "question": "What is the safest response if the omoplata is fully locked and you cannot escape?",
         "answer": "Tap immediately using any available signal, whether verbal, hand tap on opponent or mat, or foot tap. The shoulder joint can sustain catastrophic damage very quickly once the omoplata is fully locked and the attacker begins leaning forward. Never attempt to muscle out of a fully locked omoplata as this dramatically increases the risk of rotator cuff tears, labrum damage, or shoulder capsule injuries.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, any signal",
+        "distractors": {
+          "plausible": [
+            "Turn into attacker, then tap",
+            "Try to roll out first"
+          ],
+          "trap": [
+            "Muscle the arm free"
+          ]
+        }
       },
       {
         "question": "At what stage of the omoplata sequence do your defensive options become most limited?",
         "answer": "Defensive options become most limited once the attacker's leg has fully cleared over your shoulder and they have secured control of your far hip. Before the leg clears, posturing and arm withdrawal are highly effective. After the leg clears but before hip control, the forward roll remains available. Once both are established, only turning into the attacker or tapping remain viable.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg cleared and far hip pinned",
+        "distractors": {
+          "plausible": [
+            "The moment the overhook locks",
+            "During the forward-roll window"
+          ],
+          "trap": [
+            "Only after the shoulder is cranked"
+          ]
+        }
       },
       {
         "question": "What defensive options are available at each stage of the Omoplata from Butterfly Guard?",
         "answer": "Early stage: fight the overhook by keeping elbows tight and posturing up. Mid stage: stack forward aggressively to prevent the leg from clearing over your shoulder. Late stage: forward roll over the trapped shoulder before hip control is established. Final stage: turn into the attacker to reduce the rotation angle, or tap immediately if pressure becomes dangerous to your shoulder joint.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fight grip, stack, roll, turn in",
+        "distractors": {
+          "plausible": [
+            "Posture, roll, stack, turn in",
+            "Stack, fight grip, tap, roll"
+          ],
+          "trap": [
+            "Pull guard, then tap early"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -430,6 +611,35 @@
         "phase": "Phase 4: Counter-Offense Integration",
         "focus": "Turning defense into passing and counter-attacks",
         "description": "Practice converting successful omoplata defenses into guard passes and positional advances. Focus on the stack-to-pass sequence and using the opponent's committed omoplata structure against them to achieve side control or advance position after defending."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best way to escape the omoplata shoulder lock",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Y4TxL4mDSKg",
+        "title": "Defending the omoplata sweep",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 47,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xqBK1Y2BdSg",
+        "title": "Submission escape from the omoplata",
+        "by": "Thiago Stefanutti",
+        "vertical": false,
+        "channel": "thiago stefanutti",
+        "duration": 17,
+        "verified": "2026-07-14"
       }
     ]
   }

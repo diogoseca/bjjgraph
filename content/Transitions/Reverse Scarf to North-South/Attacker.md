@@ -180,6 +180,54 @@ description: "Learn to execute the Reverse Scarf to North-South transition as th
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Scarf to North-South (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modified scarf hold to north-south choke",
+      "description": "Reverse Scarf to North-South (Attacker) film study: Modified scarf hold to north-south choke, taught by Todd Blatchley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LurZB_PfUmA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LurZB_PfUmA",
+      "url": "https://www.youtube.com/watch?v=LurZB_PfUmA",
+      "creator": { "@type": "Person", "name": "Todd Blatchley" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ushiro kesa gatame reverse scarf hold",
+      "description": "Reverse Scarf to North-South (Attacker) film study: Ushiro kesa gatame reverse scarf hold, taught by Grappler Station.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfcnBQnz4ag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfcnBQnz4ag",
+      "url": "https://www.youtube.com/watch?v=dfcnBQnz4ag",
+      "creator": { "@type": "Person", "name": "Grappler Station" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Osaekomi waza: pinning and transition for BJJ",
+      "description": "Reverse Scarf to North-South (Attacker) film study: Osaekomi waza: pinning and transition for BJJ, taught by Samir Seif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9Q6g6Jx27qg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9Q6g6Jx27qg",
+      "url": "https://www.youtube.com/watch?v=9Q6g6Jx27qg",
+      "creator": { "@type": "Person", "name": "Samir Seif" },
+      "duration": "PT222S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the attacker executing the Reverse Scarf to North-South transition, your obje
 **From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Scarf to North-South (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LurZB_PfUmA)
+
+<p class="clip-credit"><strong>Modified scarf hold to north-south choke</strong> — taught by Todd Blatchley · 2:01 · <a href="https://www.youtube.com/watch?v=LurZB_PfUmA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfcnBQnz4ag)
+
+<p class="clip-credit"><strong>Ushiro kesa gatame reverse scarf hold</strong> — taught by Grappler Station · 0:40 · <a href="https://www.youtube.com/watch?v=dfcnBQnz4ag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9Q6g6Jx27qg)
+
+<p class="clip-credit"><strong>Osaekomi waza: pinning and transition for BJJ</strong> — taught by Samir Seif · 3:42 · <a href="https://www.youtube.com/watch?v=9Q6g6Jx27qg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

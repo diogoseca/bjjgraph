@@ -134,6 +134,43 @@ description: "Learn to defend against cross body ride escape attempts in BJJ. Co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Cross Body Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Banana split to back take from cross body ride",
+      "description": "Escape from Cross Body Ride (Defender) film study: Banana split to back take from cross body ride, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ANosXMXKLfQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ANosXMXKLfQ",
+      "url": "https://www.youtube.com/watch?v=ANosXMXKLfQ",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT169S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg and wrist ride combo to rear mount",
+      "description": "Escape from Cross Body Ride (Defender) film study: Leg and wrist ride combo to rear mount, taught by Spring Hill BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AkEySTc0_aw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AkEySTc0_aw",
+      "url": "https://www.youtube.com/watch?v=AkEySTc0_aw",
+      "creator": { "@type": "Person", "name": "Spring Hill BJJ" },
+      "duration": "PT83S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +180,34 @@ Defending against the Escape from Cross Body Ride means maintaining your dominan
 **Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Cross Body Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ANosXMXKLfQ)
+
+<p class="clip-credit"><strong>Banana split to back take from cross body ride</strong> — taught by Bowerhouse MMA · 2:49 · <a href="https://www.youtube.com/watch?v=ANosXMXKLfQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AkEySTc0_aw)
+
+<p class="clip-credit"><strong>Leg and wrist ride combo to rear mount</strong> — taught by Spring Hill BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=AkEySTc0_aw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

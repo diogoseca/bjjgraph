@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 43,
+      "probability": {
+        "gi": 43,
+        "nogi": 43
+      },
       "result": "success"
     },
     {
       "to": "New York/Bottom",
-      "probability": 37,
+      "probability": {
+        "gi": 37,
+        "nogi": 37
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 43,
+  "success_rate": {
+    "gi": 43,
+    "nogi": 43
+  },
   "overview": "The Sweep from New York is a high-percentage reversal within 10th Planet's Rubber Guard system that converts the bottom player's overhook-and-shin control into a direct path to mount. The sweep exploits the structural asymmetry created by New York control: one of the opponent's arms is completely trapped in an overhook, their posture is broken forward by the shin across their back, and their base is already compromised on the trapped-arm side. This creates an ideal platform for a modified hip bump that the opponent cannot post against because their primary posting arm is neutralized.\n\nThe mechanics center on releasing the shin grip at the precise moment you generate an explosive hip bridge angled toward the trapped-arm side. The overhook serves dual purpose: it eliminates the opponent's ability to post with that arm and provides a lever to pull them over your centerline as you bridge. The sweep works best when the opponent attempts to recover posture or create distance, because their upward movement combines with your bridge to generate maximum rotational force. The timing window is narrow but highly reliable once recognized.\n\nStrategically, the Sweep from New York creates a critical dilemma within the Rubber Guard decision tree. If the opponent remains passive to avoid the sweep, they remain trapped in New York where the bottom player can advance to Invisible Collar, Zombie, or Chill Dog for submission attacks. If they actively attempt to escape by posturing, they expose themselves to this sweep. This binary forces the top player into a lose-lose scenario where both defensive and offensive movement carry significant risk, making New York one of the most oppressive bottom positions in no-gi grappling when the sweep threat is credible.",
   "conditions": [
     "Deep overhook must be secured with shoulder tight against opponent's armpit preventing arm extraction",
@@ -249,38 +261,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Sweep from New York?",
-        "answer": "The optimal timing window is the moment the opponent begins driving upward to recover posture or shifting their weight backward to create distance. Their upward or backward momentum combines with your bridge direction, requiring significantly less force to complete the reversal. Executing against a settled, stable opponent with no movement is the lowest-percentage timing and should be avoided in favor of patience."
+        "answer": "The optimal timing window is the moment the opponent begins driving upward to recover posture or shifting their weight backward to create distance. Their upward or backward momentum combines with your bridge direction, requiring significantly less force to complete the reversal. Executing against a settled, stable opponent with no movement is the lowest-percentage timing and should be avoided in favor of patience.",
+        "answer_line": "As they posture up or retreat",
+        "distractors": {
+          "plausible": [
+            "Right after locking overhook",
+            "When they settle into base"
+          ],
+          "trap": [
+            "Against a stable, settled opponent"
+          ]
+        }
       },
       {
         "question": "Why must the bridge angle toward the trapped-arm side rather than straight up?",
-        "answer": "Bridging toward the trapped-arm side at approximately 45 degrees directs the rotational force toward the opponent's structural weakness—the side where their arm is trapped in the overhook and cannot post. A straight upward bridge allows them to post with their free hand on the opposite side, stopping the sweep. The angled bridge attacks the one direction where they have no defensive posting capability."
+        "answer": "Bridging toward the trapped-arm side at approximately 45 degrees directs the rotational force toward the opponent's structural weakness—the side where their arm is trapped in the overhook and cannot post. A straight upward bridge allows them to post with their free hand on the opposite side, stopping the sweep. The angled bridge attacks the one direction where they have no defensive posting capability.",
+        "answer_line": "45° toward the trapped-arm side",
+        "distractors": {
+          "plausible": [
+            "Straight up for max power",
+            "Toward your own strong side"
+          ],
+          "trap": [
+            "Toward their free posting hand"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base significantly when they feel you loading the sweep—how do you adjust?",
-        "answer": "Switch to the angle change sweep variant. Shift your hips laterally first to create a sharper attack angle that bypasses their widened base, then bridge from the new angle. Alternatively, abandon the sweep attempt entirely and use their commitment to base-widening as an opportunity to advance to Invisible Collar or Carni, since their defensive focus on the sweep leaves them vulnerable to positional advancement."
+        "answer": "Switch to the angle change sweep variant. Shift your hips laterally first to create a sharper attack angle that bypasses their widened base, then bridge from the new angle. Alternatively, abandon the sweep attempt entirely and use their commitment to base-widening as an opportunity to advance to Invisible Collar or Carni, since their defensive focus on the sweep leaves them vulnerable to positional advancement.",
+        "answer_line": "Shift hips to change the angle",
+        "distractors": {
+          "plausible": [
+            "Bridge harder with more force",
+            "Switch grip to a cross-collar"
+          ],
+          "trap": [
+            "Release the overhook and reset"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail regarding the shin grip release?",
-        "answer": "The shin grip must be released at the exact moment of bridge initiation—not before and not after. Releasing too early loses posture control before the bridge is ready, allowing the opponent to posture up and escape New York. Releasing too late means the leg is still wrapped around the opponent's back during the bridge, reducing hip power and preventing proper foot planting. The release, foot plant, and bridge must occur as one coordinated movement."
+        "answer": "The shin grip must be released at the exact moment of bridge initiation—not before and not after. Releasing too early loses posture control before the bridge is ready, allowing the opponent to posture up and escape New York. Releasing too late means the leg is still wrapped around the opponent's back during the bridge, reducing hip power and preventing proper foot planting. The release, foot plant, and bridge must occur as one coordinated movement.",
+        "answer_line": "Release exactly at bridge start",
+        "distractors": {
+          "plausible": [
+            "Release just before bridging",
+            "Keep shin wrapped during bridge"
+          ],
+          "trap": [
+            "Release early to posture up first"
+          ]
+        }
       },
       {
         "question": "What grip must be maintained throughout the entire sweep and why?",
-        "answer": "The overhook must be maintained from initiation through sweep completion until mount is fully consolidated. The overhook serves three functions during the sweep: it blocks the opponent's posting arm, provides pulling leverage to generate rotational force, and prevents the opponent from framing or recovering guard during the transition to mount. Releasing it prematurely is the most common reason sweeps succeed mechanically but fail to achieve consolidated mount."
+        "answer": "The overhook must be maintained from initiation through sweep completion until mount is fully consolidated. The overhook serves three functions during the sweep: it blocks the opponent's posting arm, provides pulling leverage to generate rotational force, and prevents the opponent from framing or recovering guard during the transition to mount. Releasing it prematurely is the most common reason sweeps succeed mechanically but fail to achieve consolidated mount.",
+        "answer_line": "Hold overhook until mount locks",
+        "distractors": {
+          "plausible": [
+            "Release once the sweep lands",
+            "Switch to underhook mid-sweep"
+          ],
+          "trap": [
+            "Let go to free hands for grips"
+          ]
+        }
       },
       {
         "question": "How does the sweep threat create a dilemma that improves your submission options from New York?",
-        "answer": "The sweep forces the opponent into a lose-lose scenario. If they remain passive to avoid triggering the sweep timing window, they stay trapped in New York where the bottom player can advance to Invisible Collar, Zombie, or Chill Dog for submissions. If they actively attempt to escape by posturing, they create the exact momentum the sweep exploits. This binary means the opponent must choose between accepting submission danger or sweep danger, making both threats more effective than either would be alone."
+        "answer": "The sweep forces the opponent into a lose-lose scenario. If they remain passive to avoid triggering the sweep timing window, they stay trapped in New York where the bottom player can advance to Invisible Collar, Zombie, or Chill Dog for submissions. If they actively attempt to escape by posturing, they create the exact momentum the sweep exploits. This binary means the opponent must choose between accepting submission danger or sweep danger, making both threats more effective than either would be alone.",
+        "answer_line": "Stay still or feed the sweep",
+        "distractors": {
+          "plausible": [
+            "Fight grips to escape safely",
+            "Posture up slowly to defend"
+          ],
+          "trap": [
+            "Explosively posture to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully extracts their arm from the overhook mid-sweep—what is your immediate response?",
-        "answer": "Immediately transition to triangle control by shooting your leg over their shoulder as the extracted arm creates space between your bodies. The extraction movement naturally positions their arm inside your guard, which is the exact configuration needed for a triangle entry. Do not attempt to re-establish the overhook or continue the sweep without it—the overhook is essential for the sweep but the arm extraction creates a better opportunity through the triangle."
+        "answer": "Immediately transition to triangle control by shooting your leg over their shoulder as the extracted arm creates space between your bodies. The extraction movement naturally positions their arm inside your guard, which is the exact configuration needed for a triangle entry. Do not attempt to re-establish the overhook or continue the sweep without it—the overhook is essential for the sweep but the arm extraction creates a better opportunity through the triangle.",
+        "answer_line": "Switch immediately to triangle",
+        "distractors": {
+          "plausible": [
+            "Re-establish the overhook first",
+            "Continue the sweep without it"
+          ],
+          "trap": [
+            "Chase the arm to re-trap it"
+          ]
+        }
       },
       {
         "question": "What distinguishes the whip-up variant from the standard sweep execution?",
-        "answer": "The whip-up variant uses the rubber guard leg as an active lever during the bridge rather than simply unwrapping it. As you bridge, whip the leg from across the opponent's back to hook behind their far armpit, adding rotational force and providing a posting point to prevent them from rolling through. This variant generates significantly more sweeping power and is used when the opponent has a very strong base that the standard hip bump alone cannot overcome."
+        "answer": "The whip-up variant uses the rubber guard leg as an active lever during the bridge rather than simply unwrapping it. As you bridge, whip the leg from across the opponent's back to hook behind their far armpit, adding rotational force and providing a posting point to prevent them from rolling through. This variant generates significantly more sweeping power and is used when the opponent has a very strong base that the standard hip bump alone cannot overcome.",
+        "answer_line": "Whip leg to hook far armpit",
+        "distractors": {
+          "plausible": [
+            "Unwrap leg before bridging",
+            "Kick leg straight up for lift"
+          ],
+          "trap": [
+            "Release the leg completely early"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Sweep from New York is a positional reversal rather than a joint lock or choke, making it relatively low-risk compared to submission techniques. However, practitioners should be aware of several safety concerns: the explosive bridge can strain the lower back if performed with poor mechanics—drive through the hips rather than arching the lumbar spine. The overhook can create shoulder strain on the trapped opponent if maintained too aggressively during the reversal, so release pressure once mount is established. During training, communicate with your partner about the intensity of the bridge to prevent unexpected impacts when landing in mount. Partners with shoulder injuries should be cautious about the overhook pressure during the sweep rotation."
+    "safety_considerations": "The Sweep from New York is a positional reversal rather than a joint lock or choke, making it relatively low-risk compared to submission techniques. However, practitioners should be aware of several safety concerns: the explosive bridge can strain the lower back if performed with poor mechanics—drive through the hips rather than arching the lumbar spine. The overhook can create shoulder strain on the trapped opponent if maintained too aggressively during the reversal, so release pressure once mount is established. During training, communicate with your partner about the intensity of the bridge to prevent unexpected impacts when landing in mount. Partners with shoulder injuries should be cautious about the overhook pressure during the sweep rotation.",
+    "clips": [
+      {
+        "id": "htWNfAakkAY",
+        "title": "Mexican dead orchard from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Cllvkg2qg-w",
+        "title": "Rubber guard live drills",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jT4wPY2Dc_U",
+        "title": "Dead orchard armbar from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "James O'Brien",
+        "duration": 88,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from New York Defender",
@@ -366,19 +487,59 @@
     "flashcards": [
       {
         "question": "What is the single most important recognition cue that the sweep is about to be attempted?",
-        "answer": "The bottom player releasing their shin grip while maintaining the overhook is the primary pre-sweep indicator. This release is mechanically necessary for the sweep because the bottom player needs to plant both feet on the mat to generate the hip bridge. When you feel the shin pressure across your back disappear but the overhook remains locked, the sweep attempt is imminent and you have a 1-2 second window to establish defensive positioning."
+        "answer": "The bottom player releasing their shin grip while maintaining the overhook is the primary pre-sweep indicator. This release is mechanically necessary for the sweep because the bottom player needs to plant both feet on the mat to generate the hip bridge. When you feel the shin pressure across your back disappear but the overhook remains locked, the sweep attempt is imminent and you have a 1-2 second window to establish defensive positioning.",
+        "answer_line": "Shin grip releases, overhook stays",
+        "distractors": {
+          "plausible": [
+            "Overhook releases, shin stays",
+            "Opponent grips your far collar"
+          ],
+          "trap": [
+            "Opponent tightens their base"
+          ]
+        }
       },
       {
         "question": "Why is widening your base more effective than posting with your hand against this sweep?",
-        "answer": "Widening the base creates structural resistance across your entire body that the bridge cannot overcome, while a hand post creates a single failure point that can be attacked or bypassed. A wide base with low hips removes the sweep angle entirely, making the technique mechanically impossible rather than merely difficult. Additionally, the hand post can be stripped by the bottom player's freed hand, but a wide base cannot be collapsed by a single action."
+        "answer": "Widening the base creates structural resistance across your entire body that the bridge cannot overcome, while a hand post creates a single failure point that can be attacked or bypassed. A wide base with low hips removes the sweep angle entirely, making the technique mechanically impossible rather than merely difficult. Additionally, the hand post can be stripped by the bottom player's freed hand, but a wide base cannot be collapsed by a single action.",
+        "answer_line": "Wide base removes sweep angle",
+        "distractors": {
+          "plausible": [
+            "Hand post blocks the bridge",
+            "Both hands post for stability"
+          ],
+          "trap": [
+            "Post one hand, keep knees together"
+          ]
+        }
       },
       {
         "question": "Your opponent releases the shin grip and you feel them begin to bridge—what is your immediate sequence of defensive actions?",
-        "answer": "Immediately spread your knees wide to widen your base, simultaneously drop your hips heavy toward the mat, and post your free hand firmly on the mat toward the overhook side. These three actions—widen, drop, post—must happen nearly simultaneously within the 1-2 second window before the bridge reaches full power. Do not attempt to pull away or rise up, as both movements assist the sweep mechanics."
+        "answer": "Immediately spread your knees wide to widen your base, simultaneously drop your hips heavy toward the mat, and post your free hand firmly on the mat toward the overhook side. These three actions—widen, drop, post—must happen nearly simultaneously within the 1-2 second window before the bridge reaches full power. Do not attempt to pull away or rise up, as both movements assist the sweep mechanics.",
+        "answer_line": "Widen knees, drop hips, post hand",
+        "distractors": {
+          "plausible": [
+            "Pull away and create distance",
+            "Rise up explosively to escape"
+          ],
+          "trap": [
+            "Push off and try to stand up"
+          ]
+        }
       },
       {
         "question": "How should you recover posture from New York without triggering the sweep?",
-        "answer": "Recover posture incrementally through small movements rather than a single explosive push. First widen your base and establish your free hand post. Then work on grip-fighting the overhook by circling your elbow downward and toward your hip. Only begin rising once the overhook is loosened or extracted. Each small positional improvement should be consolidated before attempting the next, preventing the sudden momentum shifts that the sweep exploits."
+        "answer": "Recover posture incrementally through small movements rather than a single explosive push. First widen your base and establish your free hand post. Then work on grip-fighting the overhook by circling your elbow downward and toward your hip. Only begin rising once the overhook is loosened or extracted. Each small positional improvement should be consolidated before attempting the next, preventing the sudden momentum shifts that the sweep exploits.",
+        "answer_line": "Recover posture in small steps",
+        "distractors": {
+          "plausible": [
+            "One explosive push to stand",
+            "Rip the overhook off quickly"
+          ],
+          "trap": [
+            "Rise fast before basing wide"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -401,6 +562,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed sweep defense within complete New York defense",
         "description": "Start in New York Top at full competition intensity. Partner works all New York attacks—sweeps, submissions, and positional advances. Defend everything while working systematic escape. The sweep defense becomes one component of complete New York Top defensive strategy. Track position retention and escape success across 5-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QzT5BsOqrMk",
+        "title": "Elbow position to shut down rubber guard attacks",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iwcfKUPNZNs",
+        "title": "Why rubber guard doesn't work — beating the position",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 792,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Yct0FnRjGP8",
+        "title": "Pillory counter used against rubber guard",
+        "by": "Gabriel Raindog",
+        "vertical": false,
+        "channel": "gabrielraindog",
+        "duration": 133,
+        "verified": "2026-07-15"
       }
     ]
   }

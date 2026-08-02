@@ -21,37 +21,37 @@ description: "Master Z-Lock Half Guard Bottom in BJJ. Advanced lockdown variatio
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Z-Lock Half Guard Bottom in BJJ. Advanced lockdown variatio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Lock Half Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Electric chair from lockdown half guard",
+      "description": "Z-Lock Half Guard (Bottom) film study: Electric chair from lockdown half guard, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
+      "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lock drag setups from the lockdown",
+      "description": "Z-Lock Half Guard (Bottom) film study: Lock drag setups from the lockdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_5FKNFuCp2E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_5FKNFuCp2E",
+      "url": "https://www.youtube.com/watch?v=_5FKNFuCp2E",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The position is characterized by the bottom player having one leg creating a sta
 Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockdown specialists, the Z-Lock represents an evolution of half guard bottom concepts that prioritizes dynamic movement over static control. Success in this position requires excellent hip mobility, understanding of leverage angles, and the ability to chain multiple attacking sequences together to prevent the opponent from consolidating a passing position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Lock Half Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
+
+<p class="clip-credit"><strong>Electric chair from lockdown half guard</strong> — taught by Brandon Mccaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_5FKNFuCp2E)
+
+<p class="clip-credit"><strong>Lock drag setups from the lockdown</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=_5FKNFuCp2E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

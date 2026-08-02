@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Single Leg X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Standing to Single Leg X transition is a fundamental guard pull entry that converts standing engagement into a powerful leg entanglement position. This technique allows the bottom player to bypass traditional guard establishment and immediately threaten sweeps and leg attacks from a mechanically advantageous position. The Single Leg X position provides superior control of one leg while maintaining distance management and sweep opportunities. Unlike traditional seated guard pulls, this entry creates immediate offensive pressure by compromising the opponent's base and posture simultaneously. The technique is particularly effective in no-gi grappling and modern sport BJJ competition, where dynamic guard pulling has become essential. Success depends on timing the entry during opponent movement, maintaining proper body positioning throughout the transition, and securing critical grips before the opponent can establish defensive posture. The entry functions as a gateway to the entire modern leg entanglement system, connecting standing exchanges directly to Ashi Garami variants, X-Guard sweeps, and direct submission threats like the Straight Ankle Lock.",
   "related_content": [
     {
@@ -225,46 +237,175 @@
     "flashcards": [
       {
         "question": "Why must you drop your hips below the opponent's knee level during the entry to Single Leg X?",
-        "answer": "Dropping hips below the knee level is biomechanically essential for three critical reasons: First, it creates the proper angle for your inside hook to control their leg effectively from underneath their knee joint. Second, it prevents the opponent from driving forward pressure into your chest, which would flatten you and eliminate the guard position. Third, it establishes the foundational hip positioning needed for generating sweep leverage - your hips must be lower than theirs to elevate their leg effectively. Insufficient depth results in easy smash passing or opponent disengagement."
+        "answer": "Dropping hips below the knee level is biomechanically essential for three critical reasons: First, it creates the proper angle for your inside hook to control their leg effectively from underneath their knee joint. Second, it prevents the opponent from driving forward pressure into your chest, which would flatten you and eliminate the guard position. Third, it establishes the foundational hip positioning needed for generating sweep leverage - your hips must be lower than theirs to elevate their leg effectively. Insufficient depth results in easy smash passing or opponent disengagement.",
+        "answer_line": "Sink hips lower than their knee",
+        "distractors": {
+          "plausible": [
+            "Drop hips to their hip level",
+            "Level change speed matters most"
+          ],
+          "trap": [
+            "Sit tall to control posture"
+          ]
+        }
       },
       {
         "question": "What is the primary purpose of the outside foot placement on the opponent's hip in Single Leg X?",
-        "answer": "The outside foot on the hip serves as a dynamic distance regulator and essential frame that prevents forward collapse. It creates the proper spacing between you and your opponent needed for sweep mechanics to function - too close and they can drive pressure and smash you flat, too far and you lose control of their upper body. The foot actively pushes to extend the opponent backward while your inside hook pulls their leg forward, creating opposing forces that off-balance them. This push-pull mechanism is fundamental to all Single Leg X sweeps and transitions."
+        "answer": "The outside foot on the hip serves as a dynamic distance regulator and essential frame that prevents forward collapse. It creates the proper spacing between you and your opponent needed for sweep mechanics to function - too close and they can drive pressure and smash you flat, too far and you lose control of their upper body. The foot actively pushes to extend the opponent backward while your inside hook pulls their leg forward, creating opposing forces that off-balance them. This push-pull mechanism is fundamental to all Single Leg X sweeps and transitions.",
+        "answer_line": "Frame that regulates distance",
+        "distractors": {
+          "plausible": [
+            "Hooks their leg for control",
+            "Anchors your hips to floor"
+          ],
+          "trap": [
+            "Push off to create space"
+          ]
+        }
       },
       {
         "question": "Why should you immediately attempt a sweep after establishing Single Leg X position rather than holding the position statically?",
-        "answer": "Immediate sweep attempts are critical because static Single Leg X positions allow opponents to stabilize their base, establish defensive grips on your pants or belt, and begin methodical passing sequences. The strongest offensive moment is the transition itself - when the opponent is still adjusting to the new position and their base is compromised from your entry. By elevating and attacking within 1-2 seconds of establishing the position, you capitalize on their instability and prevent defensive adjustments. Static positions in modern BJJ are fundamentally weaker than dynamic, constantly-threatening positions."
+        "answer": "Immediate sweep attempts are critical because static Single Leg X positions allow opponents to stabilize their base, establish defensive grips on your pants or belt, and begin methodical passing sequences. The strongest offensive moment is the transition itself - when the opponent is still adjusting to the new position and their base is compromised from your entry. By elevating and attacking within 1-2 seconds of establishing the position, you capitalize on their instability and prevent defensive adjustments. Static positions in modern BJJ are fundamentally weaker than dynamic, constantly-threatening positions.",
+        "answer_line": "Attack before they stabilize",
+        "distractors": {
+          "plausible": [
+            "Hold position, build grips first",
+            "Wait for opponent to overcommit"
+          ],
+          "trap": [
+            "Stay static, control the pace"
+          ]
+        }
       },
       {
         "question": "If your opponent sprawls backward during your entry attempt, what is the most effective response?",
-        "answer": "When the opponent sprawls backward, maintain absolute grip control and follow their backward motion rather than fighting against it. If your inside hook cannot secure the leg position, immediately convert to De La Riva Guard or Reverse De La Riva Guard by adjusting your hook to their opposite leg or inserting it on the outside of their leg. The key principle is never releasing your grips during their defensive movement - grips maintain connection and allow seamless transition between guard positions. Fighting against their sprawl creates space for disengagement and lost control."
+        "answer": "When the opponent sprawls backward, maintain absolute grip control and follow their backward motion rather than fighting against it. If your inside hook cannot secure the leg position, immediately convert to De La Riva Guard or Reverse De La Riva Guard by adjusting your hook to their opposite leg or inserting it on the outside of their leg. The key principle is never releasing your grips during their defensive movement - grips maintain connection and allow seamless transition between guard positions. Fighting against their sprawl creates space for disengagement and lost control.",
+        "answer_line": "Keep grips, flow to DLR/RDLR",
+        "distractors": {
+          "plausible": [
+            "Release grips, reset stance",
+            "Chase with a double leg"
+          ],
+          "trap": [
+            "Fight the sprawl, drive forward"
+          ]
+        }
       },
       {
         "question": "What timing cue should you recognize from a standing position to execute the most successful Single Leg X entry?",
-        "answer": "The optimal timing window occurs when the opponent steps forward or shifts their weight onto their lead leg. During this weight transfer, their base is temporarily compromised and they cannot effectively sprawl backward. Additionally, their forward momentum works in your favor as you drop levels and pull them into the position. Advanced practitioners recognize subtle weight shifts before the actual step occurs, reading hip movement and postural changes. Attempting the entry when the opponent's weight is evenly distributed or favoring their back leg significantly reduces success rates, as they can easily sprawl or disengage."
+        "answer": "The optimal timing window occurs when the opponent steps forward or shifts their weight onto their lead leg. During this weight transfer, their base is temporarily compromised and they cannot effectively sprawl backward. Additionally, their forward momentum works in your favor as you drop levels and pull them into the position. Advanced practitioners recognize subtle weight shifts before the actual step occurs, reading hip movement and postural changes. Attempting the entry when the opponent's weight is evenly distributed or favoring their back leg significantly reduces success rates, as they can easily sprawl or disengage.",
+        "answer_line": "Shoot as they step forward",
+        "distractors": {
+          "plausible": [
+            "Enter when weight is even",
+            "Wait for their back-leg shift"
+          ],
+          "trap": [
+            "Enter when they're set and square"
+          ]
+        }
       },
       {
         "question": "Where exactly should the inside hook be positioned on the opponent's leg for maximum control in Single Leg X?",
-        "answer": "The inside hook must be positioned directly across the back of the opponent's knee joint, with your shin creating horizontal pressure behind their knee and your foot hooking around to their inner thigh area. This specific placement allows you to control the knee joint itself rather than just the thigh muscle. When you elevate with this hook position, you can bend their leg to approximately 90 degrees, compromising their base and creating sweep leverage. Hooks placed too high on the thigh provide insufficient control and allow leg extraction, while hooks too low at the ankle lack the leverage needed for effective sweeps."
+        "answer": "The inside hook must be positioned directly across the back of the opponent's knee joint, with your shin creating horizontal pressure behind their knee and your foot hooking around to their inner thigh area. This specific placement allows you to control the knee joint itself rather than just the thigh muscle. When you elevate with this hook position, you can bend their leg to approximately 90 degrees, compromising their base and creating sweep leverage. Hooks placed too high on the thigh provide insufficient control and allow leg extraction, while hooks too low at the ankle lack the leverage needed for effective sweeps.",
+        "answer_line": "Behind the knee joint",
+        "distractors": {
+          "plausible": [
+            "Too high on the thigh",
+            "Too low at the ankle"
+          ],
+          "trap": [
+            "Skip hook, grip pant leg"
+          ]
+        }
       },
       {
         "question": "Your opponent blocks your inside hook by gripping your ankle as you attempt the entry - how do you adjust?",
-        "answer": "When the opponent blocks your hook insertion by controlling your ankle, you have two immediate options. First, use your outside foot to push their hip and create enough space to free your ankle and re-insert the hook - the push-pull between your foot on their hip and their grip on your ankle often breaks their control. Second, abandon the Single Leg X entry entirely and convert to a Tripod Sweep or Ankle Pick Sweep using your existing grips and their lowered posture. The key is recognizing the block early and transitioning before they can consolidate a passing position. Never fight a static grip battle from the ground."
+        "answer": "When the opponent blocks your hook insertion by controlling your ankle, you have two immediate options. First, use your outside foot to push their hip and create enough space to free your ankle and re-insert the hook - the push-pull between your foot on their hip and their grip on your ankle often breaks their control. Second, abandon the Single Leg X entry entirely and convert to a Tripod Sweep or Ankle Pick Sweep using your existing grips and their lowered posture. The key is recognizing the block early and transitioning before they can consolidate a passing position. Never fight a static grip battle from the ground.",
+        "answer_line": "Push their hip, free ankle",
+        "distractors": {
+          "plausible": [
+            "Yank ankle free by force",
+            "Re-shoot the same hook again"
+          ],
+          "trap": [
+            "Fight the grip battle"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical difference between sitting straight back and sitting to the outside hip during this entry?",
-        "answer": "Sitting straight back places your spine directly in line with the opponent's forward pressure vector, meaning any forward drive goes straight through your center and flattens you. Sitting to the outside hip creates an angular relationship where their forward pressure passes to the side of your body rather than through it. This angle also properly positions your inside hook behind their knee and your outside foot on their hip, creating the two-point control system that defines Single Leg X. The outside hip angle is what transforms a vulnerable seated position into an offensive guard with sweep leverage."
+        "answer": "Sitting straight back places your spine directly in line with the opponent's forward pressure vector, meaning any forward drive goes straight through your center and flattens you. Sitting to the outside hip creates an angular relationship where their forward pressure passes to the side of your body rather than through it. This angle also properly positions your inside hook behind their knee and your outside foot on their hip, creating the two-point control system that defines Single Leg X. The outside hip angle is what transforms a vulnerable seated position into an offensive guard with sweep leverage.",
+        "answer_line": "Angle outside stops flattening",
+        "distractors": {
+          "plausible": [
+            "Sit straight back for speed",
+            "Angle inside toward their hip"
+          ],
+          "trap": [
+            "Sit flat-back, absorb pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy forward pressure after you establish Single Leg X - what chain of responses should you execute?",
-        "answer": "First, extend your outside foot aggressively into their hip to create a frame and halt their forward drive. If the pressure continues despite the frame, angle your hips to the side to redirect their force vector. If they continue pressing through, follow their forward momentum by inverting slightly under their hips and transitioning to full X-Guard by inserting a second hook on their far leg. If X-Guard is not available, use the inversion to enter Ashi Garami positions where their forward commitment actually helps you establish leg entanglement control. The critical rule is never accepting flat-back position under pressure."
+        "answer": "First, extend your outside foot aggressively into their hip to create a frame and halt their forward drive. If the pressure continues despite the frame, angle your hips to the side to redirect their force vector. If they continue pressing through, follow their forward momentum by inverting slightly under their hips and transitioning to full X-Guard by inserting a second hook on their far leg. If X-Guard is not available, use the inversion to enter Ashi Garami positions where their forward commitment actually helps you establish leg entanglement control. The critical rule is never accepting flat-back position under pressure.",
+        "answer_line": "Frame, angle, then invert to X",
+        "distractors": {
+          "plausible": [
+            "Pull guard tighter and hold",
+            "Retract the hook, reset"
+          ],
+          "trap": [
+            "Accept flat back, defend there"
+          ]
+        }
       },
       {
         "question": "What specific grip must be established before initiating the level change, and why is this non-negotiable?",
-        "answer": "A strong sleeve or wrist grip on the same side as your intended inside hook must be established before any level change. This grip is non-negotiable because it serves three functions simultaneously: it prevents the opponent from sprawling backward during your descent, it maintains physical connection between you and the opponent throughout the transition ensuring you don't fall into empty space, and it provides the pulling force needed after position establishment to break their posture forward for sweeps. Without this grip, the opponent can simply step back as you sit, leaving you seated on the mat with no control and vulnerable to passing."
+        "answer": "A strong sleeve or wrist grip on the same side as your intended inside hook must be established before any level change. This grip is non-negotiable because it serves three functions simultaneously: it prevents the opponent from sprawling backward during your descent, it maintains physical connection between you and the opponent throughout the transition ensuring you don't fall into empty space, and it provides the pulling force needed after position establishment to break their posture forward for sweeps. Without this grip, the opponent can simply step back as you sit, leaving you seated on the mat with no control and vulnerable to passing.",
+        "answer_line": "Sleeve or wrist grip, same side",
+        "distractors": {
+          "plausible": [
+            "Collar grip on same side",
+            "Underhook before dropping"
+          ],
+          "trap": [
+            "Change levels grip-free first"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Standing to Single Leg X transition is generally low-risk when executed properly, but several safety considerations must be observed. When dropping to the guard position, ensure adequate mat space and awareness of surroundings to prevent collision with walls, other training partners, or equipment. During initial learning phases, communicate with your partner about the entry timing to prevent unexpected drops that could cause awkward falls or knee impacts. For the partner being pulled into Single Leg X, maintain awareness of leg positioning to avoid twisting forces on the knee joint - if the bottom player's technique is incorrect or overly aggressive, verbally indicate discomfort immediately. When drilling sweep completions, both practitioners should control the descent to the mat rather than allowing hard slams. Partners with existing knee injuries should communicate limitations before drilling this position, as the leg control and elevation can stress knee ligaments if the injured leg is the trapped leg."
+    "safety_considerations": "The Standing to Single Leg X transition is generally low-risk when executed properly, but several safety considerations must be observed. When dropping to the guard position, ensure adequate mat space and awareness of surroundings to prevent collision with walls, other training partners, or equipment. During initial learning phases, communicate with your partner about the entry timing to prevent unexpected drops that could cause awkward falls or knee impacts. For the partner being pulled into Single Leg X, maintain awareness of leg positioning to avoid twisting forces on the knee joint - if the bottom player's technique is incorrect or overly aggressive, verbally indicate discomfort immediately. When drilling sweep completions, both practitioners should control the descent to the mat rather than allowing hard slams. Partners with existing knee injuries should communicate limitations before drilling this position, as the leg control and elevation can stress knee ligaments if the injured leg is the trapped leg.",
+    "clips": [
+      {
+        "id": "7SMKvyR3lUE",
+        "title": "Single leg X pull from standing",
+        "by": "Haven Jiu Jitsu",
+        "vertical": false,
+        "channel": "Haven Jiu Jitsu",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yuTJYpVKrJc",
+        "title": "Simple entry into single leg X guard",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xyy5xm72UJ8",
+        "title": "No-gi guard pull to single leg X",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 139,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing to Single Leg X Defender",
@@ -351,23 +492,73 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive action you can take before the opponent initiates their entry?",
-        "answer": "The most important pre-entry defense is active grip fighting to prevent the opponent from establishing the sleeve or wrist grip they need for the entry. Without this grip, the opponent cannot maintain connection during their level change and descent, meaning they risk falling to an unconnected seated position with no control. Strip grips immediately using two-on-one breaks or circular wrist movements. If you can deny the initial grip, the entire technique chain is disrupted before it begins."
+        "answer": "The most important pre-entry defense is active grip fighting to prevent the opponent from establishing the sleeve or wrist grip they need for the entry. Without this grip, the opponent cannot maintain connection during their level change and descent, meaning they risk falling to an unconnected seated position with no control. Strip grips immediately using two-on-one breaks or circular wrist movements. If you can deny the initial grip, the entire technique chain is disrupted before it begins.",
+        "answer_line": "Fight and strip their grip",
+        "distractors": {
+          "plausible": [
+            "Sprawl early on their hips",
+            "Widen stance for base"
+          ],
+          "trap": [
+            "Let them grip, then sprawl late"
+          ]
+        }
       },
       {
         "question": "Your opponent has already inserted their inside hook behind your knee but has not yet placed their outside foot on your hip - what do you do?",
-        "answer": "This is the critical defensive window where you still have significant options. Immediately drive forward with heavy pressure while controlling their upper body with a crossface or collar tie. Without the outside foot frame on your hip, they cannot regulate distance or prevent your forward drive. Your goal is to flatten them before they can establish that foot. Simultaneously use your free leg to widen your base for stability. If you can collapse their structure before the outside foot is placed, you can often pass directly to side control."
+        "answer": "This is the critical defensive window where you still have significant options. Immediately drive forward with heavy pressure while controlling their upper body with a crossface or collar tie. Without the outside foot frame on your hip, they cannot regulate distance or prevent your forward drive. Your goal is to flatten them before they can establish that foot. Simultaneously use your free leg to widen your base for stability. If you can collapse their structure before the outside foot is placed, you can often pass directly to side control.",
+        "answer_line": "Drive forward, crossface now",
+        "distractors": {
+          "plausible": [
+            "Backstep to create space",
+            "Grip fight their sleeve"
+          ],
+          "trap": [
+            "Wait for their foot placement"
+          ]
+        }
       },
       {
         "question": "Why is circling and changing angles effective against Single Leg X entry attempts?",
-        "answer": "The Single Leg X entry requires specific alignment between the attacker's body and your lead leg. Their inside hook must travel a specific path behind your knee, and their sitting angle must match where your leg is positioned. By circling laterally, you constantly change the target location and force them to readjust their entry angle. This makes timing the entry significantly harder because the angle they prepared for no longer exists by the time they commit to sitting. Continuous movement also prevents them from establishing the stable grip connection needed for a controlled descent."
+        "answer": "The Single Leg X entry requires specific alignment between the attacker's body and your lead leg. Their inside hook must travel a specific path behind your knee, and their sitting angle must match where your leg is positioned. By circling laterally, you constantly change the target location and force them to readjust their entry angle. This makes timing the entry significantly harder because the angle they prepared for no longer exists by the time they commit to sitting. Continuous movement also prevents them from establishing the stable grip connection needed for a controlled descent.",
+        "answer_line": "Breaks entry angle and timing",
+        "distractors": {
+          "plausible": [
+            "Speeds up your sprawl reaction",
+            "Tires opponent out over time"
+          ],
+          "trap": [
+            "Stand still, square up to them"
+          ]
+        }
       },
       {
         "question": "After successfully defending an entry attempt and the opponent is now seated with no hooks, what should your immediate priority be?",
-        "answer": "Your immediate priority is to establish a passing position before they can recover guard or re-attempt the entry. Step forward with strong posture and begin a passing sequence - a toreando or bullfighter pass works well against a seated opponent with no hooks. Secure grips on their legs or pants to control their hip movement and prevent them from re-inserting hooks. Do not stand back and reset to neutral standing, as this simply gives them another opportunity to attempt the entry with adjusted timing. Capitalize on your successful defense by advancing to top control."
+        "answer": "Your immediate priority is to establish a passing position before they can recover guard or re-attempt the entry. Step forward with strong posture and begin a passing sequence - a toreando or bullfighter pass works well against a seated opponent with no hooks. Secure grips on their legs or pants to control their hip movement and prevent them from re-inserting hooks. Do not stand back and reset to neutral standing, as this simply gives them another opportunity to attempt the entry with adjusted timing. Capitalize on your successful defense by advancing to top control.",
+        "answer_line": "Pass immediately, don't reset",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral standing",
+            "Wait for them to stand up"
+          ],
+          "trap": [
+            "Back off and re-engage later"
+          ]
+        }
       },
       {
         "question": "What weight distribution should you maintain when you recognize your opponent is threatening a Single Leg X entry?",
-        "answer": "Shift your weight slightly toward your back foot, approximately 60-40 rear-favoring distribution. This positions your hips further from the opponent's entry path and allows you to sprawl backward quickly when they commit to the level change. Forward weight distribution is the worst possible scenario because it provides exactly the weight shift the opponent needs to time their entry and prevents you from moving your hips backward. Keep knees slightly bent and ready to spring backward. This stance may feel counterintuitive to aggressive grapplers, but against guard pull specialists, defensive posture preservation is essential."
+        "answer": "Shift your weight slightly toward your back foot, approximately 60-40 rear-favoring distribution. This positions your hips further from the opponent's entry path and allows you to sprawl backward quickly when they commit to the level change. Forward weight distribution is the worst possible scenario because it provides exactly the weight shift the opponent needs to time their entry and prevents you from moving your hips backward. Keep knees slightly bent and ready to spring backward. This stance may feel counterintuitive to aggressive grapplers, but against guard pull specialists, defensive posture preservation is essential.",
+        "answer_line": "Weight back, ready to sprawl",
+        "distractors": {
+          "plausible": [
+            "Weight forward, press pace",
+            "Even 50-50 weight distribution"
+          ],
+          "trap": [
+            "Load weight fully forward"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -390,6 +581,35 @@
         "phase": "Week 9-12: Live Standing Defense",
         "focus": "Full resistance defense with passing follow-ups",
         "description": "Start standing with partner who can freely attempt Single Leg X entries, Shin-to-Shin Guard entries, and other guard pulls. You must defend the entry and immediately advance to a passing position. Full competition resistance from both sides. Develop the ability to transition from successful defense directly into guard passing without pausing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "s5o6PRqWi5c",
+        "title": "Stopping the butt scoot: 4 ways to deny the guard pull",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JbRfIo1NTLk",
+        "title": "Clearing the Kneeline - Leg Lock Defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 274,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C1lYVhDXwvw",
+        "title": "How to Pass X-Guard",
+        "by": "Kaynan Duarte",
+        "vertical": false,
+        "channel": "The Grapple Club",
+        "duration": 116,
+        "verified": "2026-07-15"
       }
     ]
   },

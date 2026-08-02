@@ -34,6 +34,43 @@ description: "Master the Inside Heel Hook from Ushiro Ashi-Garami. Step-by-step 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Heel Hook from Ushiro \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm saddle to inside heel hook flow drill",
+      "description": "Inside Heel Hook from Ushiro film study: Arm saddle to inside heel hook flow drill, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QfNKQzy3V_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QfNKQzy3V_w",
+      "url": "https://www.youtube.com/watch?v=QfNKQzy3V_w",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "V grip from top ushiro transition",
+      "description": "Inside Heel Hook from Ushiro film study: V grip from top ushiro transition, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lTsK9C_a6po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lTsK9C_a6po",
+      "url": "https://www.youtube.com/watch?v=lTsK9C_a6po",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,13 +107,41 @@ Strategically, this submission capitalizes on opponents who have partially escap
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Heel Hook from Ushiro in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QfNKQzy3V_w)
+
+<p class="clip-credit"><strong>Arm saddle to inside heel hook flow drill</strong> — taught by Factory Fresh Jiu Jitsu · 0:21 · <a href="https://www.youtube.com/watch?v=QfNKQzy3V_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lTsK9C_a6po)
+
+<p class="clip-credit"><strong>V grip from top ushiro transition</strong> — taught by Gordon Ryan · 2:20 · <a href="https://www.youtube.com/watch?v=lTsK9C_a6po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
 <section id="possible-outcomes" class="content-section">
 
 ## Possible Outcomes
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Inside Heel Hook]] | 55% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
@@ -233,7 +298,7 @@ The Inside Heel Hook from Ushiro occupies a critical position in modern leg lock
 
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position for this technique
 
-- [[Transitions/Heel Hook]] - Parent submission category
+- [[Submissions/Heel Hook]] - Parent submission category
 
 - [[Positions/Ashi Garami/Saddle]] - Alternative position to transition to for higher-control finish
 

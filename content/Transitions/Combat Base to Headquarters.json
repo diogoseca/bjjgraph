@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Headquarters Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Combat Base/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Combat Base to Headquarters transition represents one of the most fundamental positional advancements in modern guard passing. This movement takes the top player from a general-purpose combat base stance—one knee posted, one foot planted inside the opponent's guard—into the more specific and dominant Headquarters Position, where one of the opponent's legs is pinned between the passer's legs with sustained downward knee pressure. This advancement narrows the bottom player's defensive options dramatically while opening multiple high-percentage passing pathways including knee cut, toreando, leg drag, and backstep variations.\n\nThe transition demands precise coordination of grip fighting, weight transfer, and leg positioning. The top player must simultaneously control the opponent's leg, shift their base forward, and drive their knee through to establish the pin—all while maintaining enough structural integrity to resist sweeps and guard recovery attempts. The timing window is critical: moving too early without adequate grip control exposes the passer to butterfly hook elevations and half guard entries, while hesitating too long allows the bottom player to establish defensive frames and hooks that block the advancement entirely.\n\nThis positional improvement serves as the gateway to systematic guard passing. Once headquarters is established, the top player can methodically select passing routes based on the bottom player's defensive reactions, returning to headquarters between attempts rather than overcommitting to single directions. Understanding the Combat Base to Headquarters transition is essential for developing a pressure-based, systematic passing game that controls the opponent's options through measured positional advancement.",
   "conditions": [
     "Established combat base with one knee posted and one foot planted inside opponent's open guard",
@@ -247,42 +259,152 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Combat Base to Headquarters transition?",
-        "answer": "The optimal timing window occurs immediately after breaking the opponent's controlling grips, during their grip reset phase when their legs momentarily stop active guard retention. Secondary windows include when the opponent commits to a single-leg frame (foot on hip) that you can redirect, or when they briefly flatten their hips to rest. The key is recognizing moments of defensive passivity rather than forcing through active resistance."
+        "answer": "The optimal timing window occurs immediately after breaking the opponent's controlling grips, during their grip reset phase when their legs momentarily stop active guard retention. Secondary windows include when the opponent commits to a single-leg frame (foot on hip) that you can redirect, or when they briefly flatten their hips to rest. The key is recognizing moments of defensive passivity rather than forcing through active resistance.",
+        "answer_line": "Opponent's grip-reset phase",
+        "distractors": {
+          "plausible": [
+            "Right after guard opens",
+            "When opponent squares hips up"
+          ],
+          "trap": [
+            "Force through active guard retention"
+          ]
+        }
       },
       {
         "question": "What grip and base conditions must be established before committing to the knee drive?",
-        "answer": "You need a reliable controlling grip on the target leg at knee level or below—pants grip at the knee is ideal in gi. The opponent's guard must be open without closed guard or deep hook entanglements on your posted leg. Your combat base must be stable with upright posture, and any active frames or hooks in the path of your advancing knee must be cleared. Advancing without these conditions dramatically increases the chance of being swept or having the entry blocked."
+        "answer": "You need a reliable controlling grip on the target leg at knee level or below—pants grip at the knee is ideal in gi. The opponent's guard must be open without closed guard or deep hook entanglements on your posted leg. Your combat base must be stable with upright posture, and any active frames or hooks in the path of your advancing knee must be cleared. Advancing without these conditions dramatically increases the chance of being swept or having the entry blocked.",
+        "answer_line": "Leg grip, open guard, hooks cleared",
+        "distractors": {
+          "plausible": [
+            "Stable base alone is enough",
+            "Upright posture before grip"
+          ],
+          "trap": [
+            "Drive knee before clearing hooks"
+          ]
+        }
       },
       {
         "question": "What role does hip engagement play versus upper body lean in the knee drive phase?",
-        "answer": "Hip engagement is the primary driver of the knee advancement—the hips shift forward and slightly downward to propel the knee into the pinning position while the spine remains vertical. Upper body lean is the most common error and creates vulnerability to triangles, armbars, and forward sweeps by shifting the center of gravity over the opponent's guard. The distinction is critical: proper hip-driven advancement maintains base integrity, while upper-body-driven advancement compromises it entirely."
+        "answer": "Hip engagement is the primary driver of the knee advancement—the hips shift forward and slightly downward to propel the knee into the pinning position while the spine remains vertical. Upper body lean is the most common error and creates vulnerability to triangles, armbars, and forward sweeps by shifting the center of gravity over the opponent's guard. The distinction is critical: proper hip-driven advancement maintains base integrity, while upper-body-driven advancement compromises it entirely.",
+        "answer_line": "Hips drive, spine stays vertical",
+        "distractors": {
+          "plausible": [
+            "Lean forward for extra power",
+            "Equal hip and upper body drive"
+          ],
+          "trap": [
+            "Lean over guard to smash pass"
+          ]
+        }
       },
       {
         "question": "What is the most common reason this transition fails at the intermediate level?",
-        "answer": "The most common failure is attempting the knee drive while the opponent still has active hooks or grips that provide leverage for countering. Intermediate practitioners often focus on their own mechanics without adequately clearing the opponent's defensive structures first. The solution is disciplined adherence to the clearing phase—stripping hooks, breaking grips, and creating a clean path before committing weight forward. Patience in the setup phase dramatically increases completion rate."
+        "answer": "The most common failure is attempting the knee drive while the opponent still has active hooks or grips that provide leverage for countering. Intermediate practitioners often focus on their own mechanics without adequately clearing the opponent's defensive structures first. The solution is disciplined adherence to the clearing phase—stripping hooks, breaking grips, and creating a clean path before committing weight forward. Patience in the setup phase dramatically increases completion rate.",
+        "answer_line": "Driving knee before clearing hooks",
+        "distractors": {
+          "plausible": [
+            "Rushing the base before the knee",
+            "Focusing only on own mechanics"
+          ],
+          "trap": [
+            "Muscling through active grips"
+          ]
+        }
       },
       {
         "question": "Your opponent inserts a butterfly hook under your thigh as you begin driving your knee forward—how do you adjust?",
-        "answer": "Stop the forward advance immediately and address the hook before it generates elevation. Post your free hand on the mat for emergency base stability. Drive the hooked leg's knee downward toward the mat to strip the butterfly hook using your hip weight rather than muscular force. Once the hook is stripped, quickly re-establish your controlling grip on the opponent's leg and resume the knee drive before they can reinsert the hook. If the hook is too deep, reset to full combat base and clear it from a stable position."
+        "answer": "Stop the forward advance immediately and address the hook before it generates elevation. Post your free hand on the mat for emergency base stability. Drive the hooked leg's knee downward toward the mat to strip the butterfly hook using your hip weight rather than muscular force. Once the hook is stripped, quickly re-establish your controlling grip on the opponent's leg and resume the knee drive before they can reinsert the hook. If the hook is too deep, reset to full combat base and clear it from a stable position.",
+        "answer_line": "Stop, strip hook with hip weight",
+        "distractors": {
+          "plausible": [
+            "Push through the hook quickly",
+            "Switch your base to the far side"
+          ],
+          "trap": [
+            "Keep driving knee to finish pass"
+          ]
+        }
       },
       {
         "question": "Why must the posting leg be established wide and perpendicular immediately after the leg pin?",
-        "answer": "The wide perpendicular post creates a triangulated base structure that provides multi-directional stability during the most vulnerable phase of the transition—the settling period when you are adjusting grips and establishing upper body control. Without this immediate post, the narrow base makes you susceptible to lateral sweeps and forward-backward off-balancing during a moment when your weight distribution is actively shifting. The perpendicular angle specifically defends against the most common sweep directions from bottom guard."
+        "answer": "The wide perpendicular post creates a triangulated base structure that provides multi-directional stability during the most vulnerable phase of the transition—the settling period when you are adjusting grips and establishing upper body control. Without this immediate post, the narrow base makes you susceptible to lateral sweeps and forward-backward off-balancing during a moment when your weight distribution is actively shifting. The perpendicular angle specifically defends against the most common sweep directions from bottom guard.",
+        "answer_line": "Triangulated base resists sweeps",
+        "distractors": {
+          "plausible": [
+            "Frees your hand for a collar grip",
+            "Speeds up upper body control"
+          ],
+          "trap": [
+            "Narrow base for a faster transition"
+          ]
+        }
       },
       {
         "question": "If the opponent successfully blocks your initial headquarters entry with a strong knee shield, what are your immediate follow-up options?",
-        "answer": "Three primary options exist: first, collapse the knee shield by angling your hips to compress their knee toward the mat while maintaining your pants grip, converting directly into a smash pass trajectory. Second, abandon the headquarters entry and use the opponent's knee shield commitment against them by switching to a toreando pass that redirects around the shield. Third, maintain your combat base grip and wait for the opponent to withdraw the shield, then immediately re-attempt the drive during the withdrawal window. The choice depends on the opponent's grip strength and whether they have secondary frames established."
+        "answer": "Three primary options exist: first, collapse the knee shield by angling your hips to compress their knee toward the mat while maintaining your pants grip, converting directly into a smash pass trajectory. Second, abandon the headquarters entry and use the opponent's knee shield commitment against them by switching to a toreando pass that redirects around the shield. Third, maintain your combat base grip and wait for the opponent to withdraw the shield, then immediately re-attempt the drive during the withdrawal window. The choice depends on the opponent's grip strength and whether they have secondary frames established.",
+        "answer_line": "Collapse shield or switch pass",
+        "distractors": {
+          "plausible": [
+            "Force straight through the shield",
+            "Abandon the leg grip entirely"
+          ],
+          "trap": [
+            "Release grip and disengage"
+          ]
+        }
       },
       {
         "question": "How does the direction of pinning force change between gi and no-gi when establishing the leg trap?",
-        "answer": "In gi, the pants grip at the knee allows you to pull the leg laterally and downward simultaneously, directing force at roughly 45 degrees across the opponent's body while your knee drives vertically down. In no-gi, without the pants grip anchor, the pinning force must be more directly downward through hip weight and knee squeeze, as there is less ability to redirect the leg laterally. No-gi entries often require faster execution because the opponent's leg is more slippery and harder to maintain control of during the transition phase."
+        "answer": "In gi, the pants grip at the knee allows you to pull the leg laterally and downward simultaneously, directing force at roughly 45 degrees across the opponent's body while your knee drives vertically down. In no-gi, without the pants grip anchor, the pinning force must be more directly downward through hip weight and knee squeeze, as there is less ability to redirect the leg laterally. No-gi entries often require faster execution because the opponent's leg is more slippery and harder to maintain control of during the transition phase.",
+        "answer_line": "Gi: 45° pull; no-gi: straight down",
+        "distractors": {
+          "plausible": [
+            "Same angle in gi and no-gi",
+            "No-gi allows more lateral pull"
+          ],
+          "trap": [
+            "Slow down the entry in no-gi"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for establishing upper body control after the leg pin, and why does this order matter?",
-        "answer": "The correct sequence is: leg pin confirmed, wide base posted, then upper body control established as the final phase. This order matters because attempting upper body control before the leg pin is secure allows the opponent to use their leg freedom to recover guard or insert hooks. Attempting upper body control before posting the base wide leaves you vulnerable to sweeps during the grip transition. By the time you reach for the collar, cross-face, or underhook, your lower body structure should be completely stable and self-sustaining."
+        "answer": "The correct sequence is: leg pin confirmed, wide base posted, then upper body control established as the final phase. This order matters because attempting upper body control before the leg pin is secure allows the opponent to use their leg freedom to recover guard or insert hooks. Attempting upper body control before posting the base wide leaves you vulnerable to sweeps during the grip transition. By the time you reach for the collar, cross-face, or underhook, your lower body structure should be completely stable and self-sustaining.",
+        "answer_line": "Leg pin, wide base, then upper body",
+        "distractors": {
+          "plausible": [
+            "Upper body control comes first",
+            "Base and upper body together"
+          ],
+          "trap": [
+            "Reach for the collar before the pin"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves controlled pressure on the opponent's knee and leg during the pinning phase. Apply leg pinning pressure gradually through hip weight rather than explosive knee drops that could damage the opponent's knee joint or meniscus. During drilling, maintain awareness of your partner's knee alignment—if their leg is bent at an awkward angle during the pin, adjust your position before applying full weight. Release immediately if your partner signals discomfort in their knee or hip. The weight transfer phase requires controlled movement to prevent accidental headbutts or elbow strikes during advancement."
+    "safety_considerations": "This transition involves controlled pressure on the opponent's knee and leg during the pinning phase. Apply leg pinning pressure gradually through hip weight rather than explosive knee drops that could damage the opponent's knee joint or meniscus. During drilling, maintain awareness of your partner's knee alignment—if their leg is bent at an awkward angle during the pin, adjust your position before applying full weight. Release immediately if your partner signals discomfort in their knee or hip. The weight transfer phase requires controlled movement to prevent accidental headbutts or elbow strikes during advancement.",
+    "clips": [
+      {
+        "id": "yPxcNpuyr0w",
+        "title": "Knee slice pass from combat base",
+        "by": "5th Element BJJ",
+        "vertical": false,
+        "channel": "5th Element BJJ/MMA",
+        "duration": 143,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "te88wU3Wo6E",
+        "title": "Basic headquarters passing in the gi",
+        "by": "Courage Training Centre",
+        "vertical": false,
+        "channel": "Courage Training Centre",
+        "duration": 192,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Combat Base to Headquarters Defender",
@@ -373,23 +495,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the top player is transitioning from Combat Base to Headquarters?",
-        "answer": "The earliest cue is the passer establishing a pants grip at your knee level with the hand on their posted-knee side, combined with their opposite hand moving to strip your frames or grips. This grip change precedes the physical knee drive by one to two seconds, providing a critical reaction window. Secondary cues include the posted knee shifting inward and forward from its neutral position and a noticeable weight shift onto the posted knee."
+        "answer": "The earliest cue is the passer establishing a pants grip at your knee level with the hand on their posted-knee side, combined with their opposite hand moving to strip your frames or grips. This grip change precedes the physical knee drive by one to two seconds, providing a critical reaction window. Secondary cues include the posted knee shifting inward and forward from its neutral position and a noticeable weight shift onto the posted knee.",
+        "answer_line": "Pants grip at your knee level",
+        "distractors": {
+          "plausible": [
+            "Opponent's hips squaring up",
+            "Weight shift onto rear leg"
+          ],
+          "trap": [
+            "Wait until the knee touches mat"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving their knee toward the mat to pin your leg—what is your highest-priority defensive action?",
-        "answer": "Your highest priority is inserting a knee shield across the passer's torso before their knee passes your thigh line. The knee shield provides a structural barrier that the passer cannot simply power through, buying time for grip establishment and additional defensive layers. If the knee shield window has already passed, the secondary priority is inserting a butterfly hook under their thigh to create elevation and sweep opportunities during their compromised weight transfer phase."
+        "answer": "Your highest priority is inserting a knee shield across the passer's torso before their knee passes your thigh line. The knee shield provides a structural barrier that the passer cannot simply power through, buying time for grip establishment and additional defensive layers. If the knee shield window has already passed, the secondary priority is inserting a butterfly hook under their thigh to create elevation and sweep opportunities during their compromised weight transfer phase.",
+        "answer_line": "Insert knee shield immediately",
+        "distractors": {
+          "plausible": [
+            "Grab a deep underhook first",
+            "Insert butterfly hook first"
+          ],
+          "trap": [
+            "Sit up to scramble away"
+          ]
+        }
       },
       {
         "question": "How does your defensive strategy change depending on whether the passer controls your near or far leg?",
-        "answer": "When the passer controls your near leg (the leg closest to their posted knee), the knee shield is your primary defense since the short distance allows quick frame insertion. When they control your far leg, De La Riva hooks and foot-on-hip frames become more effective because the crossing angle required for the far leg pin creates more time and space for defensive structure establishment. The far leg pin is also inherently weaker for the passer since their body mechanics are less aligned, making your defensive reactions more likely to succeed."
+        "answer": "When the passer controls your near leg (the leg closest to their posted knee), the knee shield is your primary defense since the short distance allows quick frame insertion. When they control your far leg, De La Riva hooks and foot-on-hip frames become more effective because the crossing angle required for the far leg pin creates more time and space for defensive structure establishment. The far leg pin is also inherently weaker for the passer since their body mechanics are less aligned, making your defensive reactions more likely to succeed.",
+        "answer_line": "Near leg: knee shield; far: DLR",
+        "distractors": {
+          "plausible": [
+            "Same defense for either leg",
+            "Far leg is easier for passer"
+          ],
+          "trap": [
+            "Ignore the far leg, it's weaker"
+          ]
+        }
       },
       {
         "question": "Why is it significantly harder to escape headquarters once it is established compared to preventing the entry?",
-        "answer": "Once headquarters is established, the passer has a stable triangulated base, sustained downward pressure on your pinned leg through hip weight and skeletal alignment, and upper body control that limits your framing ability. Escaping requires overcoming all three control layers simultaneously, which demands far more energy than establishing a single preventive frame before the entry. The passer also has multiple passing options that punish escape attempts, creating a dilemma where defensive movement opens passing lanes."
+        "answer": "Once headquarters is established, the passer has a stable triangulated base, sustained downward pressure on your pinned leg through hip weight and skeletal alignment, and upper body control that limits your framing ability. Escaping requires overcoming all three control layers simultaneously, which demands far more energy than establishing a single preventive frame before the entry. The passer also has multiple passing options that punish escape attempts, creating a dilemma where defensive movement opens passing lanes.",
+        "answer_line": "Three control layers combine",
+        "distractors": {
+          "plausible": [
+            "Passer's grip strength alone",
+            "Your legs are just tired"
+          ],
+          "trap": [
+            "Try to power out with your legs"
+          ]
+        }
       },
       {
         "question": "What counter-offensive opportunities exist during the passer's transition from Combat Base to Headquarters?",
-        "answer": "The passer's weight transfer phase creates a narrow window where their base is compromised—weight is shifting forward, the posting leg has not yet been repositioned, and their grips are transitioning between positions. During this window, butterfly hook elevations have the highest success rate for sweeps. Additionally, the passer's forward commitment can be exploited for arm drag entries to back takes or kimura grip attacks on the arm controlling your leg, especially when their opposite hand releases upper body control to clear your frames."
+        "answer": "The passer's weight transfer phase creates a narrow window where their base is compromised—weight is shifting forward, the posting leg has not yet been repositioned, and their grips are transitioning between positions. During this window, butterfly hook elevations have the highest success rate for sweeps. Additionally, the passer's forward commitment can be exploited for arm drag entries to back takes or kimura grip attacks on the arm controlling your leg, especially when their opposite hand releases upper body control to clear your frames.",
+        "answer_line": "Butterfly sweep during weight shift",
+        "distractors": {
+          "plausible": [
+            "Kimura grip at any moment",
+            "Back take after pin is set"
+          ],
+          "trap": [
+            "Wait until headquarters is locked"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -412,6 +584,26 @@
         "phase": "Phase 4: Layered Defense Under Pressure",
         "focus": "Chaining defensive options when primary defense fails",
         "description": "Partner attempts headquarters entry at full speed and resistance with multiple entry variants. Practice layering defenses: if knee shield fails, transition to butterfly hook; if butterfly hook is stripped, recover to De La Riva; if all frames fail, immediately establish half guard structure rather than accepting a bad headquarters position. Develop automatic backup responses."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fIFM4fzVqC0",
+        "title": "Guard retention through the legs",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 240,
+        "verified": "2026-07-15"
       }
     ]
   }

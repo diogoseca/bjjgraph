@@ -34,6 +34,43 @@ description: "Master Estima Lock to Ashi Garami transition in BJJ. Step-by-step 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock to Ashi Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima lock mechanics",
+      "description": "Estima Lock to Ashi Garami film study: Estima lock mechanics, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_6BC8d5B5Hs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_6BC8d5B5Hs",
+      "url": "https://www.youtube.com/watch?v=_6BC8d5B5Hs",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima lock from single leg X and ashi garami",
+      "description": "Estima Lock to Ashi Garami film study: Estima lock from single leg X and ashi garami, taught by BJJ101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6RllPxhcICY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6RllPxhcICY",
+      "url": "https://www.youtube.com/watch?v=6RllPxhcICY",
+      "creator": { "@type": "Person", "name": "BJJ101" },
+      "duration": "PT200S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ This technique capitalizes on the leg control already established in the Estima 
 Strategically, this transition embodies the chain-attack philosophy central to effective leg lock systems. The Estima Lock threatens the ankle joint; when that fails, the ashi garami threatens the heel and knee. Opponents cannot defend both simultaneously, creating the positional dilemmas that lead to submission opportunities. Understanding when to abandon the Estima Lock finish in favor of transitional advancement separates effective leg lockers from those who stall in compromised positions.
 
 **From Position**: [[Positions/Estima Lock Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock to Ashi Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_6BC8d5B5Hs)
+
+<p class="clip-credit"><strong>Estima lock mechanics</strong> — taught by bjjtaro · 0:31 · <a href="https://www.youtube.com/watch?v=_6BC8d5B5Hs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6RllPxhcICY)
+
+<p class="clip-credit"><strong>Estima lock from single leg X and ashi garami</strong> — taught by BJJ101 · 3:20 · <a href="https://www.youtube.com/watch?v=6RllPxhcICY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -229,7 +294,7 @@ The Estima Lock to Ashi Garami transition represents a critical link in modern l
 ## Related Techniques
 
 
-- [[Transitions/Estima Lock]] - Starting position and initial submission threat
+- [[Submissions/Estima Lock]] - Starting position and initial submission threat
 
 - [[Positions/Ashi Garami]] - Target position providing heel hook access
 
@@ -239,7 +304,7 @@ The Estima Lock to Ashi Garami transition represents a critical link in modern l
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Fallback position if ashi garami entry is defended
 
-- [[Transitions/Heel Hook]] - Primary submission from ashi garami after successful transition
+- [[Submissions/Heel Hook]] - Primary submission from ashi garami after successful transition
 
 - [[Submissions/Toe Hold]] - Alternative submission available during transition phase
 

@@ -164,6 +164,54 @@ description: "Master blood choke mechanics in BJJ. Learn carotid artery compress
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Blood Chokes \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The science of the blood choke",
+      "description": "Blood Chokes film study: The science of the blood choke, taught by Josiah Shoon.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IrT8myY3jTQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IrT8myY3jTQ",
+      "url": "https://www.youtube.com/watch?v=IrT8myY3jTQ",
+      "creator": { "@type": "Person", "name": "Josiah Shoon" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How the rear naked choke works anatomically",
+      "description": "Blood Chokes film study: How the rear naked choke works anatomically, taught by Catalyst University.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SiBG3CXr3vQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SiBG3CXr3vQ",
+      "url": "https://www.youtube.com/watch?v=SiBG3CXr3vQ",
+      "creator": { "@type": "Person", "name": "Catalyst University" },
+      "duration": "PT556S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Choking mechanics: darce, anaconda, arm-in guillotine",
+      "description": "Blood Chokes film study: Choking mechanics: darce, anaconda, arm-in guillotine, taught by Jordan Teaches Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wtgggEGnMOo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wtgggEGnMOo",
+      "url": "https://www.youtube.com/watch?v=wtgggEGnMOo",
+      "creator": { "@type": "Person", "name": "Jordan Teaches Jiujitsu" },
+      "duration": "PT1021S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Blood Chokes?
@@ -177,6 +225,42 @@ The defining characteristic of a blood choke is that the opponent may not feel e
 Effective blood choke application requires understanding the anatomy of the neck, proper constriction angles that target the carotid arteries rather than the windpipe, and the mechanical details that differentiate a tight choke from one that merely squeezes. The difference between a blood choke that finishes in seconds and one that an opponent can weather for minutes often comes down to angle, shoulder positioning, and the ability to close all gaps between the choking structures and the neck. At every belt level, refining blood choke mechanics yields immediate returns because this finishing category accounts for the majority of submission victories in both training and competition.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Blood Chokes in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IrT8myY3jTQ)
+
+<p class="clip-credit"><strong>The science of the blood choke</strong> — taught by Josiah Shoon · 1:13 · <a href="https://www.youtube.com/watch?v=IrT8myY3jTQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SiBG3CXr3vQ)
+
+<p class="clip-credit"><strong>How the rear naked choke works anatomically</strong> — taught by Catalyst University · 9:16 · <a href="https://www.youtube.com/watch?v=SiBG3CXr3vQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wtgggEGnMOo)
+
+<p class="clip-credit"><strong>Choking mechanics: darce, anaconda, arm-in guillotine</strong> — taught by Jordan Teaches Jiujitsu · 17:01 · <a href="https://www.youtube.com/watch?v=wtgggEGnMOo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

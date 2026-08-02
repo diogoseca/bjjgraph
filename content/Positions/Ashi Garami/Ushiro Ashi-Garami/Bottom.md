@@ -21,37 +21,37 @@ description: "Defensive perspective in reversed leg entanglement. Learn escape s
     {
       "@type": "HowToStep",
       "name": "Execute Ushiro Ashi-Garami Escape",
-      "text": "From this position, attempt Ushiro Ashi-Garami Escape. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Ushiro Ashi-Garami Escape. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inversion to Turtle",
-      "text": "From this position, attempt Inversion to Turtle. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Inversion to Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ushiro Ashi-Garami to Deep Half",
-      "text": "From this position, attempt Ushiro Ashi-Garami to Deep Half. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Ushiro Ashi-Garami to Deep Half. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Recovery",
-      "text": "From this position, attempt Single Leg X Recovery. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Recovery. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse Heel Hook Counter",
-      "text": "From this position, attempt Reverse Heel Hook Counter. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Reverse Heel Hook Counter. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction to Guard",
-      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Defensive perspective in reversed leg entanglement. Learn escape s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ushiro Ashi-Garami (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping Ashi Garami: leg lock defense",
+      "description": "Ushiro Ashi-Garami (Bottom) film study: Escaping Ashi Garami: leg lock defense, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clearing the Knee Line: Leglock Defense",
+      "description": "Ushiro Ashi-Garami (Bottom) film study: Clearing the Knee Line: Leglock Defense, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JbRfIo1NTLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JbRfIo1NTLk",
+      "url": "https://www.youtube.com/watch?v=JbRfIo1NTLk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT274S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the Inside Ashi Garami Heel Hook",
+      "description": "Ushiro Ashi-Garami (Bottom) film study: Escaping the Inside Ashi Garami Heel Hook, taught by Eddie Cummings.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3xEmPci_szw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3xEmPci_szw",
+      "url": "https://www.youtube.com/watch?v=3xEmPci_szw",
+      "creator": { "@type": "Person", "name": "Eddie Cummings" },
+      "duration": "PT164S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +218,42 @@ The position frequently occurs in high-level no-gi competition when sophisticate
 Energy management in ushiro ashi-garami bottom is critical, as panicked escape attempts often worsen position or create submission opportunities. Systematic clearing of the opponent's legs while controlling distance and managing grips provides the highest success rates across skill levels. Understanding when to prioritize escape versus when to accept transitional positions like turtle or deep half guard is essential for defensive success.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ushiro Ashi-Garami (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+
+<p class="clip-credit"><strong>Escaping Ashi Garami: leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JbRfIo1NTLk)
+
+<p class="clip-credit"><strong>Clearing the Knee Line: Leglock Defense</strong> — taught by Craig Jones · 4:34 · <a href="https://www.youtube.com/watch?v=JbRfIo1NTLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3xEmPci_szw)
+
+<p class="clip-credit"><strong>Escaping the Inside Ashi Garami Heel Hook</strong> — taught by Eddie Cummings · 2:44 · <a href="https://www.youtube.com/watch?v=3xEmPci_szw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

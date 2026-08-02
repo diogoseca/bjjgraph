@@ -134,6 +134,54 @@ description: "Counter the frame to guard escape from Kesa Gatame top. Guide cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame to Guard from Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Beating an opponent who stiff arms and frames",
+      "description": "Frame to Guard from Kesa Gatame (Defender) film study: Beating an opponent who stiff arms and frames, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yjQHCaCmhyo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yjQHCaCmhyo",
+      "url": "https://www.youtube.com/watch?v=yjQHCaCmhyo",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa gatame scarf hold control",
+      "description": "Frame to Guard from Kesa Gatame (Defender) film study: Kesa gatame scarf hold control, taught by Grappler Station.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TfNpVcekHGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TfNpVcekHGg",
+      "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
+      "creator": { "@type": "Person", "name": "Grappler Station" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side control to kesa pressure transition",
+      "description": "Frame to Guard from Kesa Gatame (Defender) film study: Side control to kesa pressure transition, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P64g72jM_co/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P64g72jM_co",
+      "url": "https://www.youtube.com/watch?v=P64g72jM_co",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT221S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +191,42 @@ As the top player maintaining Kesa Gatame when your opponent attempts the frame 
 **Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame to Guard from Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yjQHCaCmhyo)
+
+<p class="clip-credit"><strong>Beating an opponent who stiff arms and frames</strong> — taught by Travis Stevens · 1:54 · <a href="https://www.youtube.com/watch?v=yjQHCaCmhyo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TfNpVcekHGg)
+
+<p class="clip-credit"><strong>Kesa gatame scarf hold control</strong> — taught by Grappler Station · 2:01 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P64g72jM_co)
+
+<p class="clip-credit"><strong>Side control to kesa pressure transition</strong> — taught by Carlos Machado · 3:41 · <a href="https://www.youtube.com/watch?v=P64g72jM_co" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

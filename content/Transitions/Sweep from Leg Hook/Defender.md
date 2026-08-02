@@ -148,6 +148,43 @@ description: "Learn to defend and counter the Sweep from Leg Hook in BJJ. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Leg Hook (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hip flick defense against the hook sweep",
+      "description": "Sweep from Leg Hook (Defender) film study: Hip flick defense against the hook sweep, taught by Satori BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O3YoK7uDtHI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O3YoK7uDtHI",
+      "url": "https://www.youtube.com/watch?v=O3YoK7uDtHI",
+      "creator": { "@type": "Person", "name": "Satori BJJ coach" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic no-gi half guard pass to beat the hook",
+      "description": "Sweep from Leg Hook (Defender) film study: Basic no-gi half guard pass to beat the hook, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_XjuF0no1Uw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_XjuF0no1Uw",
+      "url": "https://www.youtube.com/watch?v=_XjuF0no1Uw",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Sweep from Leg Hook requires the top player to recognize the setup
 **Opponent's Starting Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Leg Hook (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O3YoK7uDtHI)
+
+<p class="clip-credit"><strong>Hip flick defense against the hook sweep</strong> — taught by Satori BJJ coach · 1:20 · <a href="https://www.youtube.com/watch?v=O3YoK7uDtHI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_XjuF0no1Uw)
+
+<p class="clip-credit"><strong>Basic no-gi half guard pass to beat the hook</strong> — taught by Danny Mitchell · 1:29 · <a href="https://www.youtube.com/watch?v=_XjuF0no1Uw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

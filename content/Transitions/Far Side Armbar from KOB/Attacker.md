@@ -174,6 +174,54 @@ description: "Master the attacking mechanics of the far side armbar from knee on
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Far Side Armbar from KOB (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spinning far side armbar from knee on belly",
+      "description": "Far Side Armbar from KOB (Attacker) film study: Spinning far side armbar from knee on belly, taught by Gracie Barra Carlton coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ID3UY0tQkrM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ID3UY0tQkrM",
+      "url": "https://www.youtube.com/watch?v=ID3UY0tQkrM",
+      "creator": { "@type": "Person", "name": "Gracie Barra Carlton coach" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar from knee on belly",
+      "description": "Far Side Armbar from KOB (Attacker) film study: Armbar from knee on belly, taught by Mauricio Gomes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JQMSXF2uVfA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JQMSXF2uVfA",
+      "url": "https://www.youtube.com/watch?v=JQMSXF2uVfA",
+      "creator": { "@type": "Person", "name": "Mauricio Gomes" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Far side armbar from knee on belly details",
+      "description": "Far Side Armbar from KOB (Attacker) film study: Far side armbar from knee on belly details, taught by Tarik.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QJ_rrVbdDDw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QJ_rrVbdDDw",
+      "url": "https://www.youtube.com/watch?v=QJ_rrVbdDDw",
+      "creator": { "@type": "Person", "name": "Tarik" },
+      "duration": "PT169S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The far side armbar from knee on belly targets the opponent's arm furthest from 
 **From Position**: [[Positions/Knee on Belly]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Far Side Armbar from KOB (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ID3UY0tQkrM)
+
+<p class="clip-credit"><strong>Spinning far side armbar from knee on belly</strong> — taught by Gracie Barra Carlton coach · 1:53 · <a href="https://www.youtube.com/watch?v=ID3UY0tQkrM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JQMSXF2uVfA)
+
+<p class="clip-credit"><strong>Armbar from knee on belly</strong> — taught by Mauricio Gomes · 1:20 · <a href="https://www.youtube.com/watch?v=JQMSXF2uVfA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QJ_rrVbdDDw)
+
+<p class="clip-credit"><strong>Far side armbar from knee on belly details</strong> — taught by Tarik · 2:49 · <a href="https://www.youtube.com/watch?v=QJ_rrVbdDDw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,54 @@ description: "How to defend against the Foot Grab Sweep in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Foot Grab Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ankle pick defense",
+      "description": "Foot Grab Sweep (Defender) film study: Ankle pick defense, taught by Kennelly Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2QWHX4NpMvs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2QWHX4NpMvs",
+      "url": "https://www.youtube.com/watch?v=2QWHX4NpMvs",
+      "creator": { "@type": "Person", "name": "Kennelly Wrestling" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ankle Sweep Defense",
+      "description": "Foot Grab Sweep (Defender) film study: Ankle Sweep Defense, taught by Thomas Lisboa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EJr6xXsTiiM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EJr6xXsTiiM",
+      "url": "https://www.youtube.com/watch?v=EJr6xXsTiiM",
+      "creator": { "@type": "Person", "name": "Thomas Lisboa" },
+      "duration": "PT208S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Seated Ankle Grip Counter",
+      "description": "Foot Grab Sweep (Defender) film study: Seated Ankle Grip Counter, taught by Artechoke Media.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IPwFGc4_9do/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IPwFGc4_9do",
+      "url": "https://www.youtube.com/watch?v=IPwFGc4_9do",
+      "creator": { "@type": "Person", "name": "Artechoke Media" },
+      "duration": "PT211S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Defensive success depends on disciplined base management, active grip fighting, 
 **Opponent's Starting Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Foot Grab Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2QWHX4NpMvs)
+
+<p class="clip-credit"><strong>Ankle pick defense</strong> — taught by Kennelly Wrestling · 0:23 · <a href="https://www.youtube.com/watch?v=2QWHX4NpMvs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EJr6xXsTiiM)
+
+<p class="clip-credit"><strong>Ankle Sweep Defense</strong> — taught by Thomas Lisboa · 3:28 · <a href="https://www.youtube.com/watch?v=EJr6xXsTiiM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IPwFGc4_9do)
+
+<p class="clip-credit"><strong>Seated Ankle Grip Counter</strong> — taught by Artechoke Media · 3:31 · <a href="https://www.youtube.com/watch?v=IPwFGc4_9do" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

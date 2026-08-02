@@ -34,6 +34,43 @@ description: "Master the backstep from leg weave in BJJ. Complete guard passing 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Leg Weave \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back stepping from knee cut to side saddle",
+      "description": "Backstep from Leg Weave film study: Back stepping from knee cut to side saddle, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MGlM7DXPKZg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MGlM7DXPKZg",
+      "url": "https://www.youtube.com/watch?v=MGlM7DXPKZg",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg drag pass with back step options",
+      "description": "Backstep from Leg Weave film study: Leg drag pass with back step options, taught by Mr. NogiJiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/39LiloK29bM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/39LiloK29bM",
+      "url": "https://www.youtube.com/watch?v=39LiloK29bM",
+      "creator": { "@type": "Person", "name": "Mr. NogiJiujitsu" },
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this technique serves as a secondary option within the leg weave 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Leg Weave in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MGlM7DXPKZg)
+
+<p class="clip-credit"><strong>Back stepping from knee cut to side saddle</strong> — taught by BJJ4Breakfast · 1:10 · <a href="https://www.youtube.com/watch?v=MGlM7DXPKZg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=39LiloK29bM)
+
+<p class="clip-credit"><strong>Leg drag pass with back step options</strong> — taught by Mr. NogiJiujitsu · 0:41 · <a href="https://www.youtube.com/watch?v=39LiloK29bM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

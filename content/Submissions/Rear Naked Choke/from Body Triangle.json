@@ -20,7 +20,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Body Triangle",
   "from_position": "Body Triangle/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Rear Naked Choke from Body Triangle combines the highest-percentage submission in grappling with the most secure form of back control. The body triangle's figure-four leg lock around the opponent's torso creates constant breathing restriction and prevents standard back escape sequences, giving the attacker extended time to systematically work through the choking sequence without concern for positional loss.\n\nUnlike the standard RNC from hooks where the attacker must constantly manage leg positioning, the body triangle frees both arms entirely for neck attack. The locked legs cannot be cleared through hip escaping or hook removal, meaning the defender must first solve the triangle problem before addressing the choke — a two-layered defensive challenge that dramatically reduces escape success rates. The breathing restriction from the triangle also forces the defender to work urgently, often leading to defensive errors that expose the neck.\n\nThe finishing mechanics remain identical to the standard RNC — the choking arm slides under the chin with the bicep and forearm compressing both carotid arteries — but the body triangle provides a force multiplier. The squeeze from the legs restricts the defender's ability to expand their chest and generate the power needed for effective hand fighting. Competition data consistently shows that RNC attempts from body triangle convert at significantly higher rates than from standard hooks, making this one of the most feared finishing combinations in modern grappling.",
   "safety_considerations": {
     "injury_risks": [
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Body Triangle/Bottom",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
@@ -283,42 +295,142 @@
       {
         "question": "What anatomical structures does the Rear Naked Choke target and why is forearm placement critical?",
         "answer": "The RNC targets both carotid arteries and jugular veins on either side of the neck. The choking forearm compresses one side while the bicep compresses the other, with the crook of the elbow positioned under the chin. This bilateral compression cuts blood flow to the brain, causing unconsciousness within 5-10 seconds. The forearm must angle across the carotid arteries and never directly compress the trachea, as tracheal pressure creates a dangerous air choke with risk of permanent injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotids, elbow under chin",
+        "distractors": {
+          "plausible": [
+            "Compress just one carotid side",
+            "Squeeze arteries, ignore chin"
+          ],
+          "trap": [
+            "Press forearm across windpipe"
+          ]
+        }
       },
       {
         "question": "What indicators confirm the choke is properly positioned before you commit to the finishing squeeze?",
         "answer": "The blade of your forearm should contact both sides of the neck with equal pressure. The crook of your elbow should sit directly under the chin, not shifted to either side. Your non-choking hand should be behind their head with palm cupping your own bicep. You should feel firm contact against the carotid arteries on both sides of the neck. If the forearm is pressing against the front of the throat or windpipe, you must reposition before squeezing.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow crook centered under chin",
+        "distractors": {
+          "plausible": [
+            "Hand grips wrist, not bicep",
+            "Forearm firm on one side only"
+          ],
+          "trap": [
+            "Forearm pressing on the windpipe"
+          ]
+        }
       },
       {
         "question": "How does the body triangle change finishing mechanics compared to a standard hooks-based RNC?",
         "answer": "The body triangle eliminates the need for active leg management, freeing both arms entirely for the choking sequence. The constant breathing restriction creates urgency that forces defensive errors and limits the power the defender can generate for hand fighting. The locked legs prevent hip escaping and turning, which are the primary escape mechanisms from standard hook-based back control. This results in significantly higher finishing rates and longer uninterrupted choking sequences.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frees arms, locks out hip escape",
+        "distractors": {
+          "plausible": [
+            "Legs must still hook actively",
+            "Same escape risk as hooks"
+          ],
+          "trap": [
+            "Loosen triangle to free hands"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin aggressively and you cannot thread the forearm directly — what grip adjustment breaks through?",
         "answer": "Attack from the side by sliding the choking hand along the jawline from the ear rather than forcing through the center. Use the non-choking hand to frame against the forehead, tilting the head away from the choking side. Alternatively, use a short choke variation where forearm pressure across the jaw acts as a lever to pry the chin open, then transition to standard RNC once the defense breaks. The body triangle squeeze limits the defender's ability to maintain a strong chin tuck under sustained pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Slide in from ear, frame forehead",
+        "distractors": {
+          "plausible": [
+            "Force forearm straight through chin",
+            "Pull head straight back hard"
+          ],
+          "trap": [
+            "Release seatbelt to pry the chin"
+          ]
+        }
       },
       {
         "question": "What is the proper release protocol when your partner taps to this choke?",
         "answer": "Immediately release the choking arm upon any tap signal — verbal, physical hand tap, or foot tap. Then unlock and remove the body triangle entirely. Guide your partner to a side-lying recovery position and monitor their consciousness and breathing for at least 30 seconds. If they lost consciousness at any point, keep them lying down until fully alert and never allow them to stand immediately. Any delay in release risks unnecessary injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release on tap, side-lying recovery",
+        "distractors": {
+          "plausible": [
+            "Unlock the body triangle first",
+            "Roll them onto their back to rest"
+          ],
+          "trap": [
+            "Hold choke until they go limp"
+          ]
+        }
       },
       {
         "question": "At what point during the choke setup is the defender effectively past the point of no escape?",
         "answer": "Once the choking arm is fully threaded under the chin with the elbow crook centered and the non-choking hand is secured behind the head on the bicep, escape from body triangle becomes nearly impossible. The combined leg immobilization and locked choking configuration typically produces a tap within 3-5 seconds. The critical transition point is when the choking hand connects to the opposite shoulder — at that moment, hand defense alone cannot prevent the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Choking hand grips own bicep",
+        "distractors": {
+          "plausible": [
+            "As soon as the legs wrap up",
+            "Once forearm touches the neck"
+          ],
+          "trap": [
+            "Never — RNC is always escapable"
+          ]
+        }
       },
       {
         "question": "What common finishing error turns a blood choke into a potentially dangerous tracheal compression?",
         "answer": "Placing the forearm directly across the trachea instead of angling it across the carotid arteries creates an air choke that compresses the windpipe. This is both less effective as a finishing technique and more dangerous, as tracheal damage can result in serious injury requiring weeks of recovery or potentially permanent damage. The correction is ensuring the blade of the forearm contacts both sides of the neck with the crook of the elbow positioned directly under the chin.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Forearm laid across the windpipe",
+        "distractors": {
+          "plausible": [
+            "Gripping too high on the bicep",
+            "Head not glued to the shoulder"
+          ],
+          "trap": [
+            "Cranking the neck to force a tap"
+          ]
+        }
       },
       {
         "question": "How do you coordinate body triangle pressure with choke attempts to maximize finishing effectiveness?",
         "answer": "Use pulsing leg squeezes timed with arm advancement to split the defender's attention. When you strip a defensive grip, simultaneously pulse the triangle to prevent them from resetting their hands. During the final squeeze, coordinate leg and arm pressure together for maximum force multiplication. The defender cannot effectively address both breathing restriction and neck defense simultaneously, so alternating pressure between upper and lower body creates consistent advancement windows.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pulse legs as arm advances",
+        "distractors": {
+          "plausible": [
+            "Squeeze legs only at the end",
+            "Alternate: never both at once"
+          ],
+          "trap": [
+            "Release legs to focus on arms"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "3OkCuU0B0UE",
+        "title": "Attack the Back with a Body Triangle",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 28,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8JwxpgWGsFU",
+        "title": "How to Properly Use a Body Triangle",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Less Impressed More Involved BJJ",
+        "duration": 294,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -412,42 +524,122 @@
       {
         "question": "How do you recognize that a Rear Naked Choke from Body Triangle is being actively set up?",
         "answer": "Key recognition cues include feeling the opponent's forearm sliding along your jawline or collar area, a sudden increase in body triangle squeeze pressure that signals an imminent choking attempt, the non-choking hand framing against your forehead to break your chin tuck, and the stripping of your defensive grips from the collar area. The body triangle squeeze often intensifies immediately before the choking arm commits, as the attacker uses leg pressure to distract from the arm advancement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeeze spikes, forearm nears jaw",
+        "distractors": {
+          "plausible": [
+            "Wait until the arm is locked in",
+            "Triangle loosening signals attack"
+          ],
+          "trap": [
+            "Turn away to look at the arm"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Rear Naked Choke from Body Triangle during training?",
         "answer": "Tap immediately when you feel the choking arm fully lock under your chin with the opponent's hand secured behind your head on the bicep. From body triangle, escape from a locked RNC is nearly impossible because the legs prevent the hip movement needed for any escape technique. The 3-5 second window to unconsciousness from a properly applied blood choke is not enough time to execute an escape. Use any tap method available — verbal, hand tap on opponent or mat, or foot tap on mat. Tapping early preserves your safety and allows more productive training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap the moment the arm locks in",
+        "distractors": {
+          "plausible": [
+            "Wait for pain before signalling",
+            "Assume the grip will slip free"
+          ],
+          "trap": [
+            "Turn in and fight it out"
+          ]
+        }
       },
       {
         "question": "What defensive options remain when the choking arm is partially threaded under your chin?",
         "answer": "Use both hands to grab the choking wrist or forearm and pull it down away from your neck while tucking your chin as tightly as possible. Try to turn your head toward the choking arm side to reduce the angle of attack and prevent further advancement. If you create any space, immediately return to a strong two-handed defensive position on the collar area. This is the critical window — if the arm advances further and the opponent secures the bicep cup, the choke becomes locked and escape probability drops dramatically.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull arm down, tuck chin, turn in",
+        "distractors": {
+          "plausible": [
+            "Turn head away from choking arm",
+            "Push off with both hands on hips"
+          ],
+          "trap": [
+            "Let go and clear the triangle"
+          ]
+        }
       },
       {
         "question": "Why is addressing the body triangle before the choke generally the wrong priority order?",
         "answer": "The body triangle is uncomfortable but not immediately finishing — it restricts breathing but does not cause unconsciousness on its own. The RNC causes unconsciousness within 5-10 seconds of full application. Prioritizing the triangle over neck defense redirects both hands away from your throat, creating an undefended window that the attacker will exploit to lock the choke. The correct order is always neck defense first, breathing management second, and triangle clearing as a tertiary objective when the choke is not actively being advanced.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Neck defense before triangle",
+        "distractors": {
+          "plausible": [
+            "Triangle causes faster blackout",
+            "Both matter exactly equally"
+          ],
+          "trap": [
+            "Use both hands to clear triangle"
+          ]
+        }
       },
       {
         "question": "What is the safest defensive hand position to maintain throughout body triangle back control?",
         "answer": "Keep at least one hand defending your neck at all times by positioning it on your collar, across your throat, or controlling the opponent's choking forearm. The second hand can work on grip fighting, clearing the triangle, or creating frames, but must return to neck defense whenever the opponent advances their choking attempt. The golden rule is never having both hands below your chin simultaneously — this creates an unrecoverable window for the choking arm to lock in position.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "One hand always guards the neck",
+        "distractors": {
+          "plausible": [
+            "Both hands grip fighting is fine",
+            "Alternate hands every few seconds"
+          ],
+          "trap": [
+            "Use both hands to strip triangle"
+          ]
+        }
       },
       {
         "question": "What body angle or positioning minimizes the body triangle's effectiveness while you work on escape?",
         "answer": "Turn your body slightly toward the locked leg side of the triangle, which is the side where the opponent's ankle is tucked behind their knee. This reduces the squeeze angle and decreases the surface area of compression on your ribcage, making breathing easier. Keep your hips slightly angled rather than flat, as this creates less optimal squeezing geometry for the attacker. Avoid turning away from the triangle leg as this often increases compression and gives the attacker better choking angles on the exposed side of your neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn toward the locked-leg side",
+        "distractors": {
+          "plausible": [
+            "Turn away from the triangle leg",
+            "Keep hips flat and squared"
+          ],
+          "trap": [
+            "Arch back to open the ribcage"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions from the standard RNC attempt to applying forearm pressure directly on your jaw — how do you respond?",
         "answer": "When the attacker uses jaw pressure as a lever to pry your chin open, resist the temptation to open your mouth or lift your chin to relieve the discomfort. Clamp your jaw shut, tuck your chin even tighter to your chest, and use both hands to control the forearm applying pressure. The jaw pressure is uncomfortable but not dangerous in itself — the danger comes from capitulating and allowing the forearm to slide under your chin to the neck. Maintain your chin defense through the discomfort rather than giving up the neck to relieve jaw pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clamp jaw, tuck chin, control arm",
+        "distractors": {
+          "plausible": [
+            "Grab the wrist with one hand only",
+            "Wait for the jaw pain to fade"
+          ],
+          "trap": [
+            "Open the mouth and lift the chin"
+          ]
+        }
       },
       {
         "question": "When is the only safe moment to commit both hands to clearing the body triangle lock?",
         "answer": "The only safe time to use both hands on the triangle is when the attacker has fully committed both of their arms to a position that is not threatening your neck — for example, when they are adjusting their upper body grips or transitioning between control configurations. If either of the attacker's hands is near your collar or neck area, you must keep at least one hand defending. Even during a brief two-handed triangle clearing attempt, you must immediately return one hand to neck defense if you feel any advancement of the choking arm toward your chin.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "When both attacker hands are clear",
+        "distractors": {
+          "plausible": [
+            "Anytime the triangle feels tight",
+            "Whenever your grips get stripped"
+          ],
+          "trap": [
+            "Both hands off, ignore arm moves"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -470,6 +662,35 @@
         "phase": "Phase 4: Full Defensive Rounds",
         "focus": "Complete defensive sequences against increasing resistance",
         "description": "Three-minute rounds starting from body triangle with partner attacking at progressive intensity. Practice complete defensive sequences from initial chin protection through choke defense to triangle clearing and guard recovery. Track survival time and escape success rate across sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hgaULMND3ag",
+        "title": "Escaping the Body Triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 129,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ys398a2Trrw",
+        "title": "Escaping the Topside Body Triangle",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 48,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hCu7SXEaXjc",
+        "title": "Defending the Figure 4 from the Back",
+        "by": "Whangarei BJJ",
+        "vertical": false,
+        "channel": "Whangarei BJJ",
+        "duration": 67,
+        "verified": "2026-07-14"
       }
     ]
   }

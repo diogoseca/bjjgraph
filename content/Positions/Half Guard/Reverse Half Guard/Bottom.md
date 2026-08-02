@@ -21,37 +21,37 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Recovery",
-      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura Sweep",
-      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Half Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse half guard sweep to leg drag",
+      "description": "Reverse Half Guard (Bottom) film study: Reverse half guard sweep to leg drag, taught by Fernando Reis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VsPTkiq_OM4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VsPTkiq_OM4",
+      "url": "https://www.youtube.com/watch?v=VsPTkiq_OM4",
+      "creator": { "@type": "Person", "name": "Fernando Reis" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dealing with the switch base from half guard",
+      "description": "Reverse Half Guard (Bottom) film study: Dealing with the switch base from half guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rja-2KKDGb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rja-2KKDGb0",
+      "url": "https://www.youtube.com/watch?v=rja-2KKDGb0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT284S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse half guard sweep from bottom",
+      "description": "Reverse Half Guard (Bottom) film study: Reverse half guard sweep from bottom, taught by The Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sAcNFVwaMBY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sAcNFVwaMBY",
+      "url": "https://www.youtube.com/watch?v=sAcNFVwaMBY",
+      "creator": { "@type": "Person", "name": "The Grappling Academy" },
+      "duration": "PT306S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The reverse half guard creates mechanical advantages through unexpected angles a
 This position is more common in advanced BJJ and no-gi grappling where mobility and dynamic movement are emphasized. It requires good body awareness, hip mobility, and understanding of sweep mechanics. The position serves as both a transitional state during scrambles and a deliberate attacking platform for practitioners who study its specific techniques. While riskier than standard half guard, reverse half guard offers surprising offensive opportunities when executed with proper timing and technique.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Half Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VsPTkiq_OM4)
+
+<p class="clip-credit"><strong>Reverse half guard sweep to leg drag</strong> — taught by Fernando Reis · 1:02 · <a href="https://www.youtube.com/watch?v=VsPTkiq_OM4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rja-2KKDGb0)
+
+<p class="clip-credit"><strong>Dealing with the switch base from half guard</strong> — taught by Lachlan Giles · 4:44 · <a href="https://www.youtube.com/watch?v=rja-2KKDGb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sAcNFVwaMBY)
+
+<p class="clip-credit"><strong>Reverse half guard sweep from bottom</strong> — taught by The Grappling Academy · 5:06 · <a href="https://www.youtube.com/watch?v=sAcNFVwaMBY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

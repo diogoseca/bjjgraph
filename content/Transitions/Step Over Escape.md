@@ -34,6 +34,54 @@ description: "Master the Step Over Escape from Darce Control in BJJ. Leg-over te
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Step Over Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "D\u0027Arce choke escape",
+      "description": "Step Over Escape film study: D\u0027Arce choke escape, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9Sk00Dj1LCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9Sk00Dj1LCk",
+      "url": "https://www.youtube.com/watch?v=9Sk00Dj1LCk",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Darce Defense Islam Makhachev Couldn\u0027t Beat",
+      "description": "Step Over Escape film study: The Darce Defense Islam Makhachev Couldn\u0027t Beat, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JZP9YMFuIiY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JZP9YMFuIiY",
+      "url": "https://www.youtube.com/watch?v=JZP9YMFuIiY",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT313S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the Bottom Side Darce",
+      "description": "Step Over Escape film study: Escaping the Bottom Side Darce, taught by Nick Ortiz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j8d4ozaA_h0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j8d4ozaA_h0",
+      "url": "https://www.youtube.com/watch?v=j8d4ozaA_h0",
+      "creator": { "@type": "Person", "name": "Nick Ortiz" },
+      "duration": "PT270S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ This escape is particularly effective when the opponent has committed to flatten
 Strategically, the Step Over Escape pairs with the Back Door Escape and Counter Roll as the three primary escapes from Darce Control Bottom. Where the Back Door Escape retreats behind the opponent and the Counter Roll inverts through them, the Step Over goes over the top, making it the preferred option when the opponent's weight is shifted low and their head is accessible for the leg to clear. Advanced practitioners chain all three escapes together, forcing the attacker to defend multiple escape vectors simultaneously.
 
 **From Position**: [[Positions/Darce Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 38%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Step Over Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9Sk00Dj1LCk)
+
+<p class="clip-credit"><strong>D&#39;Arce choke escape</strong> — taught by Asaf Mich · 1:01 · <a href="https://www.youtube.com/watch?v=9Sk00Dj1LCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JZP9YMFuIiY)
+
+<p class="clip-credit"><strong>The Darce Defense Islam Makhachev Couldn&#39;t Beat</strong> — taught by Craig Jones · 5:13 · <a href="https://www.youtube.com/watch?v=JZP9YMFuIiY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j8d4ozaA_h0)
+
+<p class="clip-credit"><strong>Escaping the Bottom Side Darce</strong> — taught by Nick Ortiz · 4:30 · <a href="https://www.youtube.com/watch?v=j8d4ozaA_h0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -247,7 +331,7 @@ The Step Over Escape occupies a critical role in the Darce Control Bottom defens
 
 - [[Transitions/Arm Extraction]] - Complementary technique - freeing the trapped arm during or after step over
 
-- [[Transitions/Darce Choke]] - Primary submission threat this escape defends against
+- [[Submissions/Darce Choke]] - Primary submission threat this escape defends against
 
 - [[Transitions/Granby Roll to Guard]] - Related escape using similar rotational mechanics from front headlock positions
 

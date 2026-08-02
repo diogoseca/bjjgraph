@@ -142,6 +142,43 @@ description: "How to defend against the Mount Escape to Half Guard Back Take cha
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount Escape to Half Guard Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the half guard back take from the top",
+      "description": "Mount Escape to Half Guard Back Take (Defender) film study: Countering the half guard back take from the top, taught by JiuJitsu.com coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hHbb7ywVTwU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hHbb7ywVTwU",
+      "url": "https://www.youtube.com/watch?v=hHbb7ywVTwU",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com coach" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Maintaining Top Mount Control Against Escapes",
+      "description": "Mount Escape to Half Guard Back Take (Defender) film study: Maintaining Top Mount Control Against Escapes, taught by Teach Me NoGi coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D_k_8C3UJ5Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D_k_8C3UJ5Y",
+      "url": "https://www.youtube.com/watch?v=D_k_8C3UJ5Y",
+      "creator": { "@type": "Person", "name": "Teach Me NoGi coach" },
+      "duration": "PT199S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +190,34 @@ The critical defensive decision point is the leg extraction. If you feel the opp
 **Opponent's Starting Position**: [[Positions/Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount Escape to Half Guard Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hHbb7ywVTwU)
+
+<p class="clip-credit"><strong>Countering the half guard back take from the top</strong> — taught by JiuJitsu.com coach · 1:03 · <a href="https://www.youtube.com/watch?v=hHbb7ywVTwU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D_k_8C3UJ5Y)
+
+<p class="clip-credit"><strong>Maintaining Top Mount Control Against Escapes</strong> — taught by Teach Me NoGi coach · 3:19 · <a href="https://www.youtube.com/watch?v=D_k_8C3UJ5Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

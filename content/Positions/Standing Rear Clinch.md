@@ -34,6 +34,54 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Rear Clinch \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Easy Takedowns from the Rear Clinch",
+      "description": "Standing Rear Clinch film study: Easy Takedowns from the Rear Clinch, taught by Oneonta Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ovl7eZIzBaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ovl7eZIzBaU",
+      "url": "https://www.youtube.com/watch?v=ovl7eZIzBaU",
+      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu Academy" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single Leg Takedown From the Back",
+      "description": "Standing Rear Clinch film study: Single Leg Takedown From the Back, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/35C990SbApc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/35C990SbApc",
+      "url": "https://www.youtube.com/watch?v=35C990SbApc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT150S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body Lock Escape Using the Switch",
+      "description": "Standing Rear Clinch film study: Body Lock Escape Using the Switch, taught by FreeChannelOpen coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GclkEsj1iE8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GclkEsj1iE8",
+      "url": "https://www.youtube.com/watch?v=GclkEsj1iE8",
+      "creator": { "@type": "Person", "name": "FreeChannelOpen coach" },
+      "duration": "PT146S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ Strategically, Standing Rear Clinch provides multiple advancement pathways inclu
 The Standing Rear Clinch holds particular importance in no-gi grappling and MMA contexts where wrestling-based positions dominate the standing phase, though it remains highly relevant in gi competition where collar and sleeve grips integrate with traditional bodylock and seatbelt controls. Mastery allows practitioners to neutralize guard pullers, force action in stalling situations, and create scoring opportunities through takedowns and back exposure while maintaining offensive initiative throughout the standing phase.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Rear Clinch in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ovl7eZIzBaU)
+
+<p class="clip-credit"><strong>Easy Takedowns from the Rear Clinch</strong> — taught by Oneonta Jiu Jitsu Academy · 0:57 · <a href="https://www.youtube.com/watch?v=ovl7eZIzBaU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=35C990SbApc)
+
+<p class="clip-credit"><strong>Single Leg Takedown From the Back</strong> — taught by John Danaher · 2:30 · <a href="https://www.youtube.com/watch?v=35C990SbApc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GclkEsj1iE8)
+
+<p class="clip-credit"><strong>Body Lock Escape Using the Switch</strong> — taught by FreeChannelOpen coach · 2:26 · <a href="https://www.youtube.com/watch?v=GclkEsj1iE8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,13 +221,11 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 ### Available Transitions
 
 
-- **[[Transitions/Defense from Standing Rear Clinch/Attacker|Defense from Standing Rear Clinch]]** (30% of attempts)
+- **[[Transitions/Defense from Standing Rear Clinch/Attacker|Defense from Standing Rear Clinch]]** (53% of attempts)
 
-- **[[Transitions/Standing Switch from Rear Clinch/Attacker|Standing Switch from Rear Clinch]]** (25% of attempts)
+- **[[Transitions/Standing Switch from Rear Clinch/Attacker|Standing Switch from Rear Clinch]]** (34% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (25% of attempts)
-
-- **[[Transitions/Counter Throw from Standing Rear Clinch/Attacker|Counter Throw from Standing Rear Clinch]]** (20% of attempts)
+- **[[Transitions/Counter Throw from Standing Rear Clinch/Attacker|Counter Throw from Standing Rear Clinch]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -204,29 +286,27 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 ### Available Transitions
 
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (16% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (13% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (12% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (3% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (2% of attempts)
 
-- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (10% of attempts)
+- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (21% of attempts)
 
-- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (8% of attempts)
+- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (6% of attempts)
 
-- **[[Transitions/Mat Return from Rear Clinch/Attacker|Mat Return from Rear Clinch]]** (8% of attempts)
-
-- **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** (8% of attempts)
+- **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** (21% of attempts)
 
 - **[[Transitions/Rear Clinch to Body Lock/Attacker|Rear Clinch to Body Lock]]** (8% of attempts)
 
-- **[[Transitions/Suplex from Rear Clinch/Attacker|Suplex from Rear Clinch]]** (7% of attempts)
+- **[[Transitions/Suplex from Rear Clinch/Attacker|Suplex from Rear Clinch]]** (4% of attempts)
 
-- **[[Transitions/Standing Switch Defense/Attacker|Standing Switch Defense]]** (6% of attempts)
+- **[[Transitions/Standing Switch Defense/Attacker|Standing Switch Defense]]** (4% of attempts)
 
-- **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** (5% of attempts)
+- **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** (12% of attempts)
 
-- **[[Rear Naked Choke from Standing Rear Clinch/Attacker|Rear Naked Choke from Standing Rear Clinch]]** (2% of attempts)
+- **[[Rear Naked Choke from Standing Rear Clinch/Attacker|Rear Naked Choke from Standing Rear Clinch]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -279,7 +359,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 - **[[Positions/Side Control]]** - Common destination via bodylock pass when opponent sits to guard
 
-- **[[Transitions/Mat Return from Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
+- **[[Transitions/Mat Return from Standing Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
 
 - **[[Transitions/Rear Clinch to Body Lock]]** - Grip transition technique for converting seatbelt to bodylock control
 

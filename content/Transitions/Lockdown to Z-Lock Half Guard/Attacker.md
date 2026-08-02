@@ -180,6 +180,54 @@ description: "Step-by-step guide to executing the Transition to Z-Lock Half Guar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown to Z-Lock Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quarter guard concepts",
+      "description": "Lockdown to Z-Lock Half Guard (Attacker) film study: Quarter guard concepts, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMsgoChdaHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMsgoChdaHE",
+      "url": "https://www.youtube.com/watch?v=sMsgoChdaHE",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown clinches",
+      "description": "Lockdown to Z-Lock Half Guard (Attacker) film study: Lockdown clinches, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Understanding the lockdown",
+      "description": "Lockdown to Z-Lock Half Guard (Attacker) film study: Understanding the lockdown, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y0D5lpXsf1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y0D5lpXsf1U",
+      "url": "https://www.youtube.com/watch?v=Y0D5lpXsf1U",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT503S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the attacker executing the Transition to Z-Lock Half Guard, your objective is
 **From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown to Z-Lock Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMsgoChdaHE)
+
+<p class="clip-credit"><strong>Quarter guard concepts</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sMsgoChdaHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown clinches</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y0D5lpXsf1U)
+
+<p class="clip-credit"><strong>Understanding the lockdown</strong> — taught by Brandon McCaghren · 8:23 · <a href="https://www.youtube.com/watch?v=Y0D5lpXsf1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

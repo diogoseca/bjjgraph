@@ -142,6 +142,54 @@ description: "Defend against the ankle lock from X-Guard in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ankle Lock from X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Foot lock and single leg X guard escapes",
+      "description": "Ankle Lock from X-Guard (Defender) film study: Foot lock and single leg X guard escapes, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JSOM86_1lRo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JSOM86_1lRo",
+      "url": "https://www.youtube.com/watch?v=JSOM86_1lRo",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight ankle lock: defence and escapes",
+      "description": "Ankle Lock from X-Guard (Defender) film study: Straight ankle lock: defence and escapes, taught by Jiu Jitsu Brotherhood.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vg-Luhls7yE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vg-Luhls7yE",
+      "url": "https://www.youtube.com/watch?v=vg-Luhls7yE",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Brotherhood" },
+      "duration": "PT164S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the straight ankle lock (beginner)",
+      "description": "Ankle Lock from X-Guard (Defender) film study: Escaping the straight ankle lock (beginner), taught by Kayfabe Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DqoqyOCli0I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DqoqyOCli0I",
+      "url": "https://www.youtube.com/watch?v=DqoqyOCli0I",
+      "creator": { "@type": "Person", "name": "Kayfabe Jiu-Jitsu" },
+      "duration": "PT169S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +200,42 @@ Defending the ankle lock from X-Guard demands early recognition and systematic r
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ankle Lock from X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JSOM86_1lRo)
+
+<p class="clip-credit"><strong>Foot lock and single leg X guard escapes</strong> — taught by James O&#39;Connor · 1:51 · <a href="https://www.youtube.com/watch?v=JSOM86_1lRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vg-Luhls7yE)
+
+<p class="clip-credit"><strong>Straight ankle lock: defence and escapes</strong> — taught by Jiu Jitsu Brotherhood · 2:44 · <a href="https://www.youtube.com/watch?v=vg-Luhls7yE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DqoqyOCli0I)
+
+<p class="clip-credit"><strong>Escaping the straight ankle lock (beginner)</strong> — taught by Kayfabe Jiu-Jitsu · 2:49 · <a href="https://www.youtube.com/watch?v=DqoqyOCli0I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

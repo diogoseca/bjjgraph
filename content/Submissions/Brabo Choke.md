@@ -34,6 +34,54 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Brabo Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce Choke from the Front Headlock",
+      "description": "Brabo Choke film study: Darce Choke from the Front Headlock, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BMU1_wfjYTw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BMU1_wfjYTw",
+      "url": "https://www.youtube.com/watch?v=BMU1_wfjYTw",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half Nelson to D\u0027Arce/Brabo Choke",
+      "description": "Brabo Choke film study: Half Nelson to D\u0027Arce/Brabo Choke, taught by Joshua Clements.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dS5HQNSyuXs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dS5HQNSyuXs",
+      "url": "https://www.youtube.com/watch?v=dS5HQNSyuXs",
+      "creator": { "@type": "Person", "name": "Joshua Clements" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Brabo Choke from Turtle",
+      "description": "Brabo Choke film study: Brabo Choke from Turtle, taught by Thiago Stefanutti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pad9c-Ldljg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pad9c-Ldljg",
+      "url": "https://www.youtube.com/watch?v=pad9c-Ldljg",
+      "creator": { "@type": "Person", "name": "Thiago Stefanutti" },
+      "duration": "PT46S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +130,42 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Brabo Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BMU1_wfjYTw)
+
+<p class="clip-credit"><strong>Darce Choke from the Front Headlock</strong> — taught by Procel BJJ · 1:41 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dS5HQNSyuXs)
+
+<p class="clip-credit"><strong>Half Nelson to D&#39;Arce/Brabo Choke</strong> — taught by Joshua Clements · 1:34 · <a href="https://www.youtube.com/watch?v=dS5HQNSyuXs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pad9c-Ldljg)
+
+<p class="clip-credit"><strong>Brabo Choke from Turtle</strong> — taught by Thiago Stefanutti · 0:46 · <a href="https://www.youtube.com/watch?v=pad9c-Ldljg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -91,7 +175,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Brabo Choke/from Front Headlock|Front Headlock]] | Top | 58% | [[Submissions/Brabo Choke/from Front Headlock/Attacker|Attack →]] | [[Submissions/Brabo Choke/from Front Headlock/Defender|Defend →]] |
+| [[Submissions/Brabo Choke/from Front Headlock|Front Headlock]] | Top | 52% | [[Submissions/Brabo Choke/from Front Headlock/Attacker|Attack →]] | [[Submissions/Brabo Choke/from Front Headlock/Defender|Defend →]] |
 
 
 </div>
@@ -116,11 +200,11 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]] - Same arm-threading family with different entry angle and grip finish
+- [[Submissions/Darce Choke]] - Same arm-threading family with different entry angle and grip finish
 - [[Transitions/Anaconda Choke]] - Complementary head-and-arm choke with opposite arm threading direction
-- [[Transitions/Guillotine Choke]] - Chain submission when opponent lifts head to defend Brabo threading
-- [[Transitions/Arm Triangle]] - Related shoulder-trap choke using opponent's shoulder as part of mechanism
-- [[Transitions/North-South Choke]] - Alternative blood choke available from similar top control positions
+- [[Submissions/Guillotine Choke]] - Chain submission when opponent lifts head to defend Brabo threading
+- [[Submissions/Arm Triangle]] - Related shoulder-trap choke using opponent's shoulder as part of mechanism
+- [[Submissions/North-South Choke]] - Alternative blood choke available from similar top control positions
 - [[Submissions/Rear Naked Choke]] - Back-take alternative finish when Brabo defense gives up the back
 - [[Submissions/Arm in Guillotine]] - Similar trapped-arm choking mechanism from front headlock position
 - [[Submissions/Ezekiel Choke]] - Alternative choke available from similar controlling positions in gi

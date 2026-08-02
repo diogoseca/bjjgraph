@@ -34,6 +34,43 @@ description: "Master the Lapel Strip from Worm Guard in BJJ. Systematic guide to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Strip from Worm Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm Guard 101",
+      "description": "Lapel Strip from Worm Guard film study: Worm Guard 101, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lLvkMU0xdHw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lLvkMU0xdHw",
+      "url": "https://www.youtube.com/watch?v=lLvkMU0xdHw",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT427S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stripping the lapel to pass worm rider guard",
+      "description": "Lapel Strip from Worm Guard film study: Stripping the lapel to pass worm rider guard, taught by Daniel Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aR0dbddbfQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aR0dbddbfQA",
+      "url": "https://www.youtube.com/watch?v=aR0dbddbfQA",
+      "creator": { "@type": "Person", "name": "Daniel Maira" },
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Understanding the lapel strip within the broader worm guard passing context is c
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Strip from Worm Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lLvkMU0xdHw)
+
+<p class="clip-credit"><strong>Worm Guard 101</strong> — taught by Keenan Cornelius · 7:07 · <a href="https://www.youtube.com/watch?v=lLvkMU0xdHw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aR0dbddbfQA)
+
+<p class="clip-credit"><strong>Stripping the lapel to pass worm rider guard</strong> — taught by Daniel Maira · 0:54 · <a href="https://www.youtube.com/watch?v=aR0dbddbfQA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

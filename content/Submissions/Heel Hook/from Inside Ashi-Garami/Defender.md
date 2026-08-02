@@ -87,6 +87,22 @@ description: "Defend the heel hook from Inside Ashi-Garami with early recognitio
         "@type": "Answer",
         "text": "Boot defense works by curling the toes and rotating the foot inward to hide the heel bone from the attacker's grip. Without access to the heel, the attacker cannot establish the rotational control necessary for a heel hook finish. This defense is most effective when initiated immediately upon recognizing the ashi garami entanglement, before any grip is established. It buys critical time to work on more comprehensive escapes like leg extraction or position advancement."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Your opponent has just established Inside Ashi-Garami but has not yet reached for your heel—what is your immediate defensive priority?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hide your heel immediately by pressing it tightly against your own hip, rotating your knee inward and flexing your foot. Your near hand should reach down to grab your own ankle or shin to assist in keeping the heel protected. This is a time-critical action—you have approximately 1-2 seconds before they begin reaching for the heel, and every fraction of a second of hesitation reduces your escape probability dramatically. Because Inside Ashi-Garami lacks a full triangle lock, you also have an early window to attempt leg extraction by pumping your hips back while framing on their hip with your free leg."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the definitive indicators that you must tap immediately rather than continue escape attempts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tap immediately when: (1) opponent has secured a reinforced figure-four grip on your heel with their wrist blade against your Achilles tendon, (2) you feel ANY rotational pressure beginning on your heel, or (3) you cannot freely move your foot within their grip. The inside heel hook can cause complete ligament failure in under one second once the breaking threshold is reached—there is no time to evaluate mid-submission. If you are debating whether to tap, you should already be tapping. No training round or competition match is worth surgical knee reconstruction."
+      }
     }
   ]
 }
@@ -142,6 +158,43 @@ description: "Defend the heel hook from Inside Ashi-Garami with early recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Inside Ashi-Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Irimi ashi garami counter",
+      "description": "Heel Hook from Inside Ashi-Garami (Defender) film study: Irimi ashi garami counter, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
+      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT29S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending and countering the 50/50 heel hook",
+      "description": "Heel Hook from Inside Ashi-Garami (Defender) film study: Defending and countering the 50/50 heel hook, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gpg88DFH9D4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gpg88DFH9D4",
+      "url": "https://www.youtube.com/watch?v=gpg88DFH9D4",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +207,34 @@ The critical defensive window exists between the attacker's initial heel capture
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Inside Ashi-Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
+
+<p class="clip-credit"><strong>Irimi ashi garami counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gpg88DFH9D4)
+
+<p class="clip-credit"><strong>Defending and countering the 50/50 heel hook</strong> — taught by Revolution BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=gpg88DFH9D4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

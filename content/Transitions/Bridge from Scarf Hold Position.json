@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Scarf Hold Position/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "overview": "The Bridge from Scarf Hold Position is the definitive bridge-and-roll reversal targeting a complete position reversal from underneath kesa gatame to landing inside the opponent's closed guard on top. Unlike the bridge escape variant that seeks half guard recovery, this technique commits to rolling the top player entirely over their shoulder line, producing a full reversal where the bottom player emerges in top position. The technique exploits the fundamental structural weakness of scarf hold: the top player's back is partially exposed due to their perpendicular seating angle, creating a viable roll line when their posting ability is compromised through arm trapping and leg hooking.\n\nThe bridge-and-roll reversal carries higher risk than partial escape methods because it requires total commitment to the explosive bridge and follow-through. A half-committed attempt wastes energy and telegraphs your intentions, while a fully committed bridge against a properly based opponent can result in them stepping over to mount during the hip elevation. This risk-reward calculus makes timing the critical variable: the reversal should be attempted when the top player shifts weight for a submission attack, transitions between positions, or momentarily narrows their base. The payoff for correct timing is dramatic, converting a severely disadvantaged bottom pin into an immediate top position with potential to pass guard.\n\nWithin the scarf hold escape hierarchy, the bridge-and-roll reversal occupies the high-risk, high-reward tier below systematic frame-based escapes and ghost escapes in frequency but above them in positional gain when successful. The technique integrates with the broader bridge-and-roll family used across mount escapes and other pin escapes, sharing core mechanics of arm trapping, leg hooking, and explosive hip extension. Even when the full reversal fails, the explosive bridge disrupts the top player's control enough to create follow-up opportunities for alternative escapes.",
   "conditions": [
     "Free arm can reach and secure control of opponent's head-wrapping arm or gi material to eliminate their posting base",
@@ -230,46 +242,166 @@
     "flashcards": [
       {
         "question": "Why is the 45-degree bridge angle critical for the scarf hold reversal rather than a vertical bridge?",
-        "answer": "The 45-degree angle exploits the perpendicular configuration of scarf hold by directing rotational force over the opponent's exposed shoulder line. A vertical bridge only lifts them momentarily before gravity returns them to position, generating no horizontal displacement. The angled bridge converts vertical hip extension power into horizontal rolling momentum that targets the structural weakness of the opponent's back-facing angle, which they cannot resist with simple downward pressure alone."
+        "answer": "The 45-degree angle exploits the perpendicular configuration of scarf hold by directing rotational force over the opponent's exposed shoulder line. A vertical bridge only lifts them momentarily before gravity returns them to position, generating no horizontal displacement. The angled bridge converts vertical hip extension power into horizontal rolling momentum that targets the structural weakness of the opponent's back-facing angle, which they cannot resist with simple downward pressure alone.",
+        "answer_line": "Rolls power over exposed shoulder",
+        "distractors": {
+          "plausible": [
+            "Vertical bridge lifts them higher",
+            "Angle avoids opponent's base"
+          ],
+          "trap": [
+            "Bridge straight up for max height"
+          ]
+        }
       },
       {
         "question": "What is the single most critical control point that must be established before committing to the bridge?",
-        "answer": "Trapping the opponent's head-wrapping arm is the most critical control point. Without this arm secured across your chest, the opponent can immediately post their hand on the mat when they feel the bridge, creating a solid structural base that completely negates the rotational force. The arm trap eliminates their primary posting ability, making the roll mechanically possible. The leg hook and foot positioning enhance the bridge but cannot compensate for a missing arm trap."
+        "answer": "Trapping the opponent's head-wrapping arm is the most critical control point. Without this arm secured across your chest, the opponent can immediately post their hand on the mat when they feel the bridge, creating a solid structural base that completely negates the rotational force. The arm trap eliminates their primary posting ability, making the roll mechanically possible. The leg hook and foot positioning enhance the bridge but cannot compensate for a missing arm trap.",
+        "answer_line": "Trap the head-wrapping arm",
+        "distractors": {
+          "plausible": [
+            "Hook their far leg first",
+            "Secure underhook on near side"
+          ],
+          "trap": [
+            "Bridge first, control after"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far arm wide when they feel you setting up the bridge - how do you adapt?",
-        "answer": "When the opponent widens their base to resist the roll, the full reversal becomes structurally impossible against their wide posting triangle. Convert the bridge attempt into a frame bridge hip escape by using the upward bridge motion to create vertical space between your torso and their weight, then immediately shrimp your hips away and insert your knee for half guard recovery. The wide base that blocks the roll actually creates more space during the vertical bridge phase, making the hip escape variant more viable."
+        "answer": "When the opponent widens their base to resist the roll, the full reversal becomes structurally impossible against their wide posting triangle. Convert the bridge attempt into a frame bridge hip escape by using the upward bridge motion to create vertical space between your torso and their weight, then immediately shrimp your hips away and insert your knee for half guard recovery. The wide base that blocks the roll actually creates more space during the vertical bridge phase, making the hip escape variant more viable.",
+        "answer_line": "Bridge up, shrimp to half guard",
+        "distractors": {
+          "plausible": [
+            "Push through the roll anyway",
+            "Wait for their arm to tire"
+          ],
+          "trap": [
+            "Force the roll into their base"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous counter to this bridge reversal and how do you prevent it?",
-        "answer": "The most dangerous counter is the opponent stepping over to mount as your hips elevate during the bridge. Your upward hip movement creates the space they need to swing their near leg over your body and establish mount, converting your escape attempt into a dramatically worse position. Prevention requires hooking their near leg at the ankle or calf with your bottom leg before bridging, physically preventing the step-over. If you feel the step-over beginning despite the hook, immediately abandon the bridge and clamp elbows to block mount consolidation."
+        "answer": "The most dangerous counter is the opponent stepping over to mount as your hips elevate during the bridge. Your upward hip movement creates the space they need to swing their near leg over your body and establish mount, converting your escape attempt into a dramatically worse position. Prevention requires hooking their near leg at the ankle or calf with your bottom leg before bridging, physically preventing the step-over. If you feel the step-over beginning despite the hook, immediately abandon the bridge and clamp elbows to block mount consolidation.",
+        "answer_line": "Hook their near leg before bridging",
+        "distractors": {
+          "plausible": [
+            "Trap the far arm tighter",
+            "Bridge faster to beat the step-over"
+          ],
+          "trap": [
+            "Bridge high without leg hook"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to execute the bridge-and-roll reversal from scarf hold?",
-        "answer": "The optimal window occurs when the opponent shifts weight to initiate a submission attack or positional transition. When they release partial head control to attack an americana, or shift their hips to transition toward mount or north-south, their base is momentarily compromised and their attention is divided between the attack and base maintenance. This creates a window where the full bridge has maximum effect with minimum energy expenditure because their structural resistance is at its lowest point."
+        "answer": "The optimal window occurs when the opponent shifts weight to initiate a submission attack or positional transition. When they release partial head control to attack an americana, or shift their hips to transition toward mount or north-south, their base is momentarily compromised and their attention is divided between the attack and base maintenance. This creates a window where the full bridge has maximum effect with minimum energy expenditure because their structural resistance is at its lowest point.",
+        "answer_line": "When they attack or shift weight",
+        "distractors": {
+          "plausible": [
+            "Right after they settle in",
+            "When they tighten head control"
+          ],
+          "trap": [
+            "When they're fully based and still"
+          ]
+        }
       },
       {
         "question": "How does this technique differ from the bridge escape to half guard recovery?",
-        "answer": "The bridge-and-roll reversal commits to rolling the opponent completely over their shoulder to land in their closed guard on top, producing a full position reversal. The bridge escape to half guard uses the bridge to create vertical space and then converts to a hip escape for guard recovery without attempting the full roll. The reversal carries higher risk because the committed bridge exposes you to the mount step-over counter, but produces a superior outcome when successful because you end up in top position rather than bottom half guard."
+        "answer": "The bridge-and-roll reversal commits to rolling the opponent completely over their shoulder to land in their closed guard on top, producing a full position reversal. The bridge escape to half guard uses the bridge to create vertical space and then converts to a hip escape for guard recovery without attempting the full roll. The reversal carries higher risk because the committed bridge exposes you to the mount step-over counter, but produces a superior outcome when successful because you end up in top position rather than bottom half guard.",
+        "answer_line": "Full roll to closed guard on top",
+        "distractors": {
+          "plausible": [
+            "Same move, different grip only",
+            "Ends in half guard on bottom"
+          ],
+          "trap": [
+            "Bridge only, skip the roll"
+          ]
+        }
       },
       {
         "question": "Your bridge attempt fails and you land back on the mat in scarf hold - what should your immediate next action be?",
-        "answer": "Immediately chain into a follow-up escape rather than resting or resetting. The failed bridge will have created some positional disruption and space even if the full roll was blocked. Use the momentary space to shrimp your hips away for a frame-based hip escape to half guard, or transition to a ghost escape by turning into the opponent and coming to your knees toward turtle. Never collapse back to the starting position passively after a failed bridge, as the opponent will tighten controls and your energy expenditure is completely wasted without follow-up."
+        "answer": "Immediately chain into a follow-up escape rather than resting or resetting. The failed bridge will have created some positional disruption and space even if the full roll was blocked. Use the momentary space to shrimp your hips away for a frame-based hip escape to half guard, or transition to a ghost escape by turning into the opponent and coming to your knees toward turtle. Never collapse back to the starting position passively after a failed bridge, as the opponent will tighten controls and your energy expenditure is completely wasted without follow-up.",
+        "answer_line": "Chain into hip escape, don't reset",
+        "distractors": {
+          "plausible": [
+            "Reset and reload the bridge",
+            "Rest briefly, then retry"
+          ],
+          "trap": [
+            "Stay still, absorb the pressure"
+          ]
+        }
       },
       {
         "question": "What grip adjustments are needed for no-gi versus gi execution of this reversal?",
-        "answer": "In gi, grip the opponent's sleeve material at the wrist or elbow crease of the head-wrapping arm for the arm trap, providing secure friction-based control that resists circulation. In no-gi, use a wrist-to-wrist grip, C-grip above the elbow, or secure a two-on-one control on the trapped arm since there is no sleeve to grip. The no-gi version requires a tighter squeeze of the trapped arm against your chest because there is less friction keeping the grip secure during the explosive bridge. The leg hook mechanics remain identical across both contexts."
+        "answer": "In gi, grip the opponent's sleeve material at the wrist or elbow crease of the head-wrapping arm for the arm trap, providing secure friction-based control that resists circulation. In no-gi, use a wrist-to-wrist grip, C-grip above the elbow, or secure a two-on-one control on the trapped arm since there is no sleeve to grip. The no-gi version requires a tighter squeeze of the trapped arm against your chest because there is less friction keeping the grip secure during the explosive bridge. The leg hook mechanics remain identical across both contexts.",
+        "answer_line": "No-gi: wrist grip, squeeze tighter",
+        "distractors": {
+          "plausible": [
+            "No-gi: same sleeve grip works fine",
+            "No-gi: skip the arm trap"
+          ],
+          "trap": [
+            "No-gi: grip their collar instead"
+          ]
+        }
       },
       {
         "question": "What is the relationship between the pre-load bump and the main bridge, and why must the bump remain subtle?",
-        "answer": "The pre-load bump shifts the opponent's center of gravity slightly over the intended roll line before the main bridge, ensuring that the explosive hip extension moves them past the tipping point rather than merely displacing them temporarily. The bump must remain subtle because an obvious upward hip movement telegraphs the escape and prompts the opponent to widen their base preemptively, which neutralizes both the bump and the subsequent bridge. The ideal pre-load feels like a minor positional adjustment or breathing movement to the top player, not a deliberate escape setup, preserving the element of surprise for the committed bridge that follows."
+        "answer": "The pre-load bump shifts the opponent's center of gravity slightly over the intended roll line before the main bridge, ensuring that the explosive hip extension moves them past the tipping point rather than merely displacing them temporarily. The bump must remain subtle because an obvious upward hip movement telegraphs the escape and prompts the opponent to widen their base preemptively, which neutralizes both the bump and the subsequent bridge. The ideal pre-load feels like a minor positional adjustment or breathing movement to the top player, not a deliberate escape setup, preserving the element of surprise for the committed bridge that follows.",
+        "answer_line": "Keep the bump subtle, not obvious",
+        "distractors": {
+          "plausible": [
+            "Make the bump big for max power",
+            "Bump replaces the main bridge"
+          ],
+          "trap": [
+            "Bump hard to test their base"
+          ]
+        }
       },
       {
         "question": "You successfully roll the opponent but land in their open guard instead of closed guard - what likely went wrong and how do you capitalize?",
-        "answer": "Landing in open guard rather than closed guard typically indicates insufficient follow-through during the roll, where you paused at the apex of the bridge or failed to drive your body completely through the rotation to settle your hips between their legs. The opponent had time to open their legs and establish defensive frames during the transition. To capitalize, immediately establish combat base posture with hands on their hips and begin a passing sequence before they can close guard or establish grips. Prioritize controlling their legs and preventing guard closure since you have momentary top position advantage from the reversal momentum."
+        "answer": "Landing in open guard rather than closed guard typically indicates insufficient follow-through during the roll, where you paused at the apex of the bridge or failed to drive your body completely through the rotation to settle your hips between their legs. The opponent had time to open their legs and establish defensive frames during the transition. To capitalize, immediately establish combat base posture with hands on their hips and begin a passing sequence before they can close guard or establish grips. Prioritize controlling their legs and preventing guard closure since you have momentary top position advantage from the reversal momentum.",
+        "answer_line": "Pass quickly before guard closes",
+        "distractors": {
+          "plausible": [
+            "Reset and retry the full roll",
+            "Settle in from open guard"
+          ],
+          "trap": [
+            "Wait for them to close guard first"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Bridge reversals from scarf hold involve explosive rotational force through the neck and cervical spine. Always turn your head to the side during the bridge to avoid axial compression on cervical vertebrae. Practice with controlled intensity when learning the timing and commitment required for the full roll. Partners should avoid stacking excessive weight directly on the neck during drilling. The escaping player must ensure adequate warm-up of neck, hip flexors, and glutes before explosive bridge training. Both partners should communicate clearly throughout drills to prevent injury from unexpected explosive movements. Progress resistance gradually across training sessions rather than jumping to full resistance before mechanics are refined."
+    "safety_considerations": "Bridge reversals from scarf hold involve explosive rotational force through the neck and cervical spine. Always turn your head to the side during the bridge to avoid axial compression on cervical vertebrae. Practice with controlled intensity when learning the timing and commitment required for the full roll. Partners should avoid stacking excessive weight directly on the neck during drilling. The escaping player must ensure adequate warm-up of neck, hip flexors, and glutes before explosive bridge training. Both partners should communicate clearly throughout drills to prevent injury from unexpected explosive movements. Progress resistance gradually across training sessions rather than jumping to full resistance before mechanics are refined.",
+    "clips": [
+      {
+        "id": "NBBNLMCFvWM",
+        "title": "Bridge and roll escape from scarf hold",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa gatame bridge escape demo",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge from Scarf Hold Position Defender",
@@ -355,19 +487,59 @@
     "flashcards": [
       {
         "question": "What are the three setup elements that must connect for the bridge reversal to succeed, and which should you prioritize disrupting?",
-        "answer": "The three elements are: arm trap on your head-wrapping arm, leg hook on your near leg, and explosive bridge at 45 degrees. Prioritize preventing the arm trap because it is the most critical element. Without the arm trapped, the bottom player cannot prevent you from posting during the bridge, making the reversal mechanically impossible regardless of bridge power or leg hook position. Keeping your head-wrapping arm mobile and tight is your highest defensive priority."
+        "answer": "The three elements are: arm trap on your head-wrapping arm, leg hook on your near leg, and explosive bridge at 45 degrees. Prioritize preventing the arm trap because it is the most critical element. Without the arm trapped, the bottom player cannot prevent you from posting during the bridge, making the reversal mechanically impossible regardless of bridge power or leg hook position. Keeping your head-wrapping arm mobile and tight is your highest defensive priority.",
+        "answer_line": "Deny the arm trap first",
+        "distractors": {
+          "plausible": [
+            "Block the leg hook first",
+            "Widen your base first"
+          ],
+          "trap": [
+            "Ignore arm, focus on hips"
+          ]
+        }
       },
       {
         "question": "Your bottom opponent lifts their hips for the bridge while you are in scarf hold - should you resist the bridge or transition to a counter?",
-        "answer": "The optimal response is to transition rather than resist. Step your near leg over their body to transition to mount as their hips elevate, using their upward momentum to create the clearance you need. Resisting through strength is an attrition strategy that favors the bottom player who can chain multiple attempts. Converting the bridge into a mount transition turns their escape energy into your positional advancement and is far more efficient than absorbing repeated explosive bridge attempts."
+        "answer": "The optimal response is to transition rather than resist. Step your near leg over their body to transition to mount as their hips elevate, using their upward momentum to create the clearance you need. Resisting through strength is an attrition strategy that favors the bottom player who can chain multiple attempts. Converting the bridge into a mount transition turns their escape energy into your positional advancement and is far more efficient than absorbing repeated explosive bridge attempts.",
+        "answer_line": "Step over to mount, don't resist",
+        "distractors": {
+          "plausible": [
+            "Sprawl and drive weight down",
+            "Match their bridge with yours"
+          ],
+          "trap": [
+            "Brace hard and outmuscle it"
+          ]
+        }
       },
       {
         "question": "When is the mount transition counter most dangerous to attempt against the bridge reversal?",
-        "answer": "The mount counter is most dangerous when the bottom player has secured all three control points (arm trap, leg hook, and 45-degree bridge angle) and commits with full explosive rotational force. In this scenario, attempting to step over risks being carried over by the rotational momentum and losing position entirely. The counter is safest when the bottom player bridges without a secure arm trap or leg hook, as the bridge generates upward motion without the rotational force that would carry you over. Read the setup completion before committing to the step-over."
+        "answer": "The mount counter is most dangerous when the bottom player has secured all three control points (arm trap, leg hook, and 45-degree bridge angle) and commits with full explosive rotational force. In this scenario, attempting to step over risks being carried over by the rotational momentum and losing position entirely. The counter is safest when the bottom player bridges without a secure arm trap or leg hook, as the bridge generates upward motion without the rotational force that would carry you over. Read the setup completion before committing to the step-over.",
+        "answer_line": "When all three controls lock in",
+        "distractors": {
+          "plausible": [
+            "When only the leg hook is set",
+            "The instant their hips rise"
+          ],
+          "trap": [
+            "Whenever you feel any bridge"
+          ]
+        }
       },
       {
         "question": "How do you balance hip pressure for control against the risk of being reversed by the bridge?",
-        "answer": "Hip pressure should be driven downward through your pelvis into the bottom player's ribcage to restrict their breathing and bridge capacity, but your weight must not be committed entirely forward over the roll line. Maintain your center of gravity between your posted base points rather than stacked directly over the bottom player's chest. If you feel the bottom player loading weight toward you, shift pressure slightly backward while widening your base to prevent being loaded over the tipping point for the rotational bridge."
+        "answer": "Hip pressure should be driven downward through your pelvis into the bottom player's ribcage to restrict their breathing and bridge capacity, but your weight must not be committed entirely forward over the roll line. Maintain your center of gravity between your posted base points rather than stacked directly over the bottom player's chest. If you feel the bottom player loading weight toward you, shift pressure slightly backward while widening your base to prevent being loaded over the tipping point for the rotational bridge.",
+        "answer_line": "Press down, shift back if loaded",
+        "distractors": {
+          "plausible": [
+            "Drive all your weight forward",
+            "Center weight over their chest"
+          ],
+          "trap": [
+            "Stack weight onto the roll line"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -390,6 +562,17 @@
         "phase": "Phase 4: Live Positional Maintenance",
         "focus": "Full resistance scarf hold control against all escape types including bridge reversals",
         "description": "Positional sparring from scarf hold with full resistance. Top player maintains position while bottom player chains bridge reversals with hip escapes, ghost escapes, and guard recovery sequences. Top player practices recognizing each escape type and selecting the appropriate defensive or counter response. Three-minute rounds with reset on escape or submission, 5 rounds total."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GBBqXE3VKFA",
+        "title": "Keeping the pin when they bridge",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 257,
+        "verified": "2026-07-15"
       }
     ]
   }

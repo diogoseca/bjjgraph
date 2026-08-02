@@ -34,6 +34,43 @@ description: "Master Reverse Kesa-Gatame in BJJ. Strategic guide covering pin me
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Kesa-Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ushiro-Kesa-Gatame (Reverse Scarf Hold)",
+      "description": "Reverse Kesa-Gatame film study: Ushiro-Kesa-Gatame (Reverse Scarf Hold), taught by Kodokan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SBapox2M2dE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SBapox2M2dE",
+      "url": "https://www.youtube.com/watch?v=SBapox2M2dE",
+      "creator": { "@type": "Person", "name": "Kodokan" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "One Minute Clinic: Ushiro Kesa Gatame",
+      "description": "Reverse Kesa-Gatame film study: One Minute Clinic: Ushiro Kesa Gatame, taught by Nick Delpopolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4EcIrvgi9q4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4EcIrvgi9q4",
+      "url": "https://www.youtube.com/watch?v=4EcIrvgi9q4",
+      "creator": { "@type": "Person", "name": "Nick Delpopolo" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From the bottom perspective, this position presents significant defensive challe
 Strategically, Reverse Kesa-Gatame serves as an excellent transitional position in the pinning hierarchy. Top players often enter this position when opponents turn into them from standard side control, or when flowing between north-south and traditional pins. The position's effectiveness increases significantly in no-gi grappling where collar-based controls are unavailable, making the direct chest pressure and arm isolation even more valuable. Understanding both perspectives of this position is essential for developing a complete pinning and escape game.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Kesa-Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SBapox2M2dE)
+
+<p class="clip-credit"><strong>Ushiro-Kesa-Gatame (Reverse Scarf Hold)</strong> — taught by Kodokan · 0:54 · <a href="https://www.youtube.com/watch?v=SBapox2M2dE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4EcIrvgi9q4)
+
+<p class="clip-credit"><strong>One Minute Clinic: Ushiro Kesa Gatame</strong> — taught by Nick Delpopolo · 1:00 · <a href="https://www.youtube.com/watch?v=4EcIrvgi9q4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,21 +204,21 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (33% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (15% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (14% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (16% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (12% of attempts)
 
 - **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (11% of attempts)
 
-- **[[Transitions/Bridge from Reverse Kesa-Gatame/Attacker|Bridge from Reverse Kesa-Gatame]]** (5% of attempts)
+- **[[Transitions/Bridge from Reverse Kesa-Gatame/Attacker|Bridge from Reverse Kesa-Gatame]]** (12% of attempts)
 
-- **[[Transitions/Escape Reverse Kesa-Gatame/Attacker|Escape Reverse Kesa-Gatame]]** (2% of attempts)
+- **[[Transitions/Escape Reverse Kesa-Gatame/Attacker|Escape Reverse Kesa-Gatame]]** (13% of attempts)
 
-- **[[Transitions/Turn In from Reverse Kesa/Attacker|Turn In from Reverse Kesa]]** (1% of attempts)
+- **[[Transitions/Turn In from Reverse Kesa/Attacker|Turn In from Reverse Kesa]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -214,21 +279,21 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (24% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (15% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
 
-- **[[Kimura from Reverse Kesa-Gatame/Attacker|Kimura from Reverse Kesa-Gatame]]** (15% of attempts)
+- **[[Kimura from Reverse Kesa-Gatame/Attacker|Kimura from Reverse Kesa-Gatame]]** (18% of attempts)
 
-- **[[Americana from Reverse Kesa-Gatame/Attacker|Americana from Reverse Kesa-Gatame]]** (15% of attempts)
+- **[[Americana from Reverse Kesa-Gatame/Attacker|Americana from Reverse Kesa-Gatame]]** (10% of attempts)
 
-- **[[Arm Triangle from Reverse Kesa-Gatame/Attacker|Arm Triangle from Reverse Kesa-Gatame]]** (10% of attempts)
+- **[[Arm Triangle from Reverse Kesa-Gatame/Attacker|Arm Triangle from Reverse Kesa-Gatame]]** (11% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (13% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (11% of attempts)
 
-- **[[Transitions/Reverse Kesa to North-South/Attacker|Reverse Kesa to North-South]]** (5% of attempts)
+- **[[Transitions/Reverse Kesa to North-South/Attacker|Reverse Kesa to North-South]]** (13% of attempts)
 
-- **[[Transitions/Reverse Kesa to Side Control/Attacker|Reverse Kesa to Side Control]]** (3% of attempts)
+- **[[Transitions/Reverse Kesa to Side Control/Attacker|Reverse Kesa to Side Control]]** (14% of attempts)
 
 
 ### Common Mistakes

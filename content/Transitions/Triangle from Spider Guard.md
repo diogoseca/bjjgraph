@@ -34,6 +34,54 @@ description: "Master the Triangle from Spider Guard in BJJ. Learn to convert sle
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Spider Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rafael Mendes Triangle Choke from Guard",
+      "description": "Triangle from Spider Guard film study: Rafael Mendes Triangle Choke from Guard, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DnEJZf_t8PU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DnEJZf_t8PU",
+      "url": "https://www.youtube.com/watch?v=DnEJZf_t8PU",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spider Guard to Triangle or Omoplata",
+      "description": "Triangle from Spider Guard film study: Spider Guard to Triangle or Omoplata, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wl48JJRddV8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wl48JJRddV8",
+      "url": "https://www.youtube.com/watch?v=wl48JJRddV8",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Spider Guard Foot on Bicep Triangle Choke",
+      "description": "Triangle from Spider Guard film study: Spider Guard Foot on Bicep Triangle Choke, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7ItTf1BFDZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7ItTf1BFDZA",
+      "url": "https://www.youtube.com/watch?v=7ItTf1BFDZA",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The entry works by converting the push-pull dynamic of spider guard into a trian
 Strategically, this transition creates a powerful forcing mechanism within the spider guard attack system. The opponent must respect the triangle threat, which opens other attacks like omoplatas, sweeps, and armbars. When the opponent focuses on defending one threat, others become available. This technique connects directly to the broader spider guard offensive framework and serves as a centerpiece attack that makes all other spider guard techniques more dangerous by creating the constant threat of triangle entry.
 
 **From Position**: [[Positions/Spider Guard]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 62%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Spider Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DnEJZf_t8PU)
+
+<p class="clip-credit"><strong>Rafael Mendes Triangle Choke from Guard</strong> — taught by Rafael Mendes · 1:02 · <a href="https://www.youtube.com/watch?v=DnEJZf_t8PU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wl48JJRddV8)
+
+<p class="clip-credit"><strong>Spider Guard to Triangle or Omoplata</strong> — taught by Clark Gracie · 0:54 · <a href="https://www.youtube.com/watch?v=wl48JJRddV8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7ItTf1BFDZA)
+
+<p class="clip-credit"><strong>Spider Guard Foot on Bicep Triangle Choke</strong> — taught by Ritchie Yip · 0:31 · <a href="https://www.youtube.com/watch?v=7ItTf1BFDZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

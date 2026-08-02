@@ -176,6 +176,43 @@ description: "Attack the Bow and Arrow Choke from Truck. Collar grip setup from 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Truck (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mastering the Truck",
+      "description": "Bow and Arrow Choke from Truck (Attacker) film study: Mastering the Truck, taught by 10th Planet Newport.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YqlKl-La88s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YqlKl-La88s",
+      "url": "https://www.youtube.com/watch?v=YqlKl-La88s",
+      "creator": { "@type": "Person", "name": "10th Planet Newport" },
+      "duration": "PT216S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura grip to bow and arrow finish",
+      "description": "Bow and Arrow Choke from Truck (Attacker) film study: Kimura grip to bow and arrow finish, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PsmALCcIBic/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PsmALCcIBic",
+      "url": "https://www.youtube.com/watch?v=PsmALCcIBic",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking with the Bow and Arrow Choke from the Truck requires understanding tha
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Truck (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YqlKl-La88s)
+
+<p class="clip-credit"><strong>Mastering the Truck</strong> — taught by 10th Planet Newport · 3:36 · <a href="https://www.youtube.com/watch?v=YqlKl-La88s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PsmALCcIBic)
+
+<p class="clip-credit"><strong>Kimura grip to bow and arrow finish</strong> — taught by Brandon Quick · 2:11 · <a href="https://www.youtube.com/watch?v=PsmALCcIBic" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

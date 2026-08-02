@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Double Sleeve Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Combat Base/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Grip failure against a competent passer is inevitable, and this transition is the bottom player's rehearsed answer to it—reestablishing closed guard the instant bilateral sleeve control is compromised. When the opponent breaks one or both sleeve grips and begins advancing with passing pressure, the bottom player must abandon the open guard distance game and close the guard before the opponent can establish combat base or initiate passing sequences. This recovery requires releasing sleeve grips, retracting legs from hip or bicep frames, and closing guard around the opponent's torso while preventing them from establishing combat base or initiating passing sequences.\n\nThe technique exploits a narrow timing window created by the opponent's grip-stripping momentum. As the top player commits energy and body position to breaking sleeve grips, their weight often shifts forward or their hands become temporarily occupied, creating the opening the bottom player needs to retract legs and close distance. Skilled practitioners learn to read the grip-stripping pattern and initiate recovery proactively rather than reactively, turning a defensive emergency into a controlled transition that often catches the passer mid-movement with broken posture ideal for immediate closed guard attacks.\n\nThis recovery is a foundational skill for any open guard player, as grip failure is inevitable against competent passers. The ability to smoothly transition from compromised open guard to secure closed guard provides a critical safety net that allows practitioners to play aggressive open guard games without fear of catastrophic guard loss. Without this recovery pathway, every grip break becomes a passing crisis rather than a manageable positional transition.",
   "conditions": [
     "At least one sleeve grip has been compromised or is actively being stripped by the top player",
@@ -230,46 +242,166 @@
     "flashcards": [
       {
         "question": "What is the critical time window for guard recovery after sleeve grip failure in double sleeve guard?",
-        "answer": "The critical window is approximately two to three seconds from the moment sleeve grips are compromised. After this window, the opponent has sufficient time to advance past the bottom player's leg barriers and establish a dominant passing position. Recovery must begin at the instant of grip failure rather than after the opponent has already advanced, as retraction speed decreases exponentially once the passer controls the legs."
+        "answer": "The critical window is approximately two to three seconds from the moment sleeve grips are compromised. After this window, the opponent has sufficient time to advance past the bottom player's leg barriers and establish a dominant passing position. Recovery must begin at the instant of grip failure rather than after the opponent has already advanced, as retraction speed decreases exponentially once the passer controls the legs.",
+        "answer_line": "2-3 seconds after grip loss",
+        "distractors": {
+          "plausible": [
+            "5 seconds after grip loss",
+            "Whenever legs start to sag"
+          ],
+          "trap": [
+            "Wait for them to fully pass"
+          ]
+        }
       },
       {
         "question": "Why should you avoid attempting to re-fight for broken sleeve grips when the opponent is advancing forward?",
-        "answer": "Re-fighting for sleeve grips against a forward-advancing opponent wastes the critical recovery window on a low-percentage action. Reaching for sleeves extends your arms away from your defensive frame structure, creating openings for the passer to collapse distance and pin your shoulders. Additionally, the opponent's forward momentum makes their sleeves moving targets that are extremely difficult to secure under pressure. Closing guard first and then fighting for grips from closed guard is far more efficient."
+        "answer": "Re-fighting for sleeve grips against a forward-advancing opponent wastes the critical recovery window on a low-percentage action. Reaching for sleeves extends your arms away from your defensive frame structure, creating openings for the passer to collapse distance and pin your shoulders. Additionally, the opponent's forward momentum makes their sleeves moving targets that are extremely difficult to secure under pressure. Closing guard first and then fighting for grips from closed guard is far more efficient.",
+        "answer_line": "Close guard first, not re-grip",
+        "distractors": {
+          "plausible": [
+            "Re-grip fast before they advance",
+            "Grab both sleeves harder"
+          ],
+          "trap": [
+            "Reach for sleeves and pull in"
+          ]
+        }
       },
       {
         "question": "How does the hip escape during guard recovery create the angle needed for closing guard?",
-        "answer": "The hip escape moves the bottom player's hips laterally relative to the advancing passer, creating a diagonal angle between the players' centerlines. This angle allows the far leg to travel a shorter distance around the opponent's body to reach their back, making guard closure mechanically easier. Without the hip escape, the bottom player must pull the opponent directly on top of them in a symmetrical position, which requires significantly more leg reach and gives the opponent optimal posture for guard opening."
+        "answer": "The hip escape moves the bottom player's hips laterally relative to the advancing passer, creating a diagonal angle between the players' centerlines. This angle allows the far leg to travel a shorter distance around the opponent's body to reach their back, making guard closure mechanically easier. Without the hip escape, the bottom player must pull the opponent directly on top of them in a symmetrical position, which requires significantly more leg reach and gives the opponent optimal posture for guard opening.",
+        "answer_line": "Hip escape creates closing angle",
+        "distractors": {
+          "plausible": [
+            "Pull straight in, no angle needed",
+            "Square up hips to close guard"
+          ],
+          "trap": [
+            "Push hips away to create space"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent stands up immediately after stripping both sleeve grips?",
-        "answer": "If the opponent stands before leg retraction can begin, abandon the closed guard recovery and immediately transition to feet-on-hips open guard. Place both feet on the opponent's hip bones, establish collar and sleeve grips from the supine position, and work to control their standing posture. Attempting to close guard against a fully standing opponent from flat on your back is extremely low percentage and likely results in being passed during the reaching attempt."
+        "answer": "If the opponent stands before leg retraction can begin, abandon the closed guard recovery and immediately transition to feet-on-hips open guard. Place both feet on the opponent's hip bones, establish collar and sleeve grips from the supine position, and work to control their standing posture. Attempting to close guard against a fully standing opponent from flat on your back is extremely low percentage and likely results in being passed during the reaching attempt.",
+        "answer_line": "Switch to feet-on-hips guard",
+        "distractors": {
+          "plausible": [
+            "Keep chasing closed guard",
+            "Sit up and grab both legs"
+          ],
+          "trap": [
+            "Reach up to close guard anyway"
+          ]
+        }
       },
       {
         "question": "Why is maintaining at least one point of leg contact with the opponent essential throughout the recovery transition?",
-        "answer": "Continuous leg contact prevents the opponent from freely disengaging and resetting at a distance where they can choose their passing angle without resistance. If both legs lose contact simultaneously during the transition from extended to retracted position, the passer can step laterally, redirect around the legs, or drive directly through the gap. Maintaining at least one shin, foot, or knee touching the opponent ensures you retain some ability to track their movement and redirect your recovery to match their passing direction."
+        "answer": "Continuous leg contact prevents the opponent from freely disengaging and resetting at a distance where they can choose their passing angle without resistance. If both legs lose contact simultaneously during the transition from extended to retracted position, the passer can step laterally, redirect around the legs, or drive directly through the gap. Maintaining at least one shin, foot, or knee touching the opponent ensures you retain some ability to track their movement and redirect your recovery to match their passing direction.",
+        "answer_line": "Keep at least one leg touching",
+        "distractors": {
+          "plausible": [
+            "Retract both legs together",
+            "Push both legs away first"
+          ],
+          "trap": [
+            "Release legs to reset distance"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your hip to block your hip escape during recovery—how do you adjust the guard closure mechanics?",
-        "answer": "When the opponent posts on your hip to block the lateral hip escape, you must redirect force rather than fight through it. Use a two-on-one grip on their posting arm to peel it off your hip, which simultaneously removes their block and pulls their weight forward. Alternatively, hip escape in the opposite direction from your initial attempt, using the opponent's committed post as a pivot point. Their hand placement commits their weight to one side, making the reverse-direction hip escape more effective because they cannot adjust quickly enough to block both directions."
+        "answer": "When the opponent posts on your hip to block the lateral hip escape, you must redirect force rather than fight through it. Use a two-on-one grip on their posting arm to peel it off your hip, which simultaneously removes their block and pulls their weight forward. Alternatively, hip escape in the opposite direction from your initial attempt, using the opponent's committed post as a pivot point. Their hand placement commits their weight to one side, making the reverse-direction hip escape more effective because they cannot adjust quickly enough to block both directions.",
+        "answer_line": "Peel post, or hip escape reverse",
+        "distractors": {
+          "plausible": [
+            "Force through the same direction",
+            "Push harder into their post"
+          ],
+          "trap": [
+            "Abandon hip escape, pull collar"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force your legs should generate during guard closure, and why?",
-        "answer": "The primary force direction is a pulling motion toward your own body using your heels and hamstrings, not a squeezing motion with your adductors. Your heels pull the opponent's lower back toward your hips while your knees pinch inward to prevent lateral escape. The pulling force breaks the opponent's posture by loading their weight forward over your centerline, whereas pure squeezing force only compresses their torso without disrupting their base. The heel-pull combined with knee-pinch creates a closed kinetic chain that controls both the opponent's hip position and their ability to posture upright."
+        "answer": "The primary force direction is a pulling motion toward your own body using your heels and hamstrings, not a squeezing motion with your adductors. Your heels pull the opponent's lower back toward your hips while your knees pinch inward to prevent lateral escape. The pulling force breaks the opponent's posture by loading their weight forward over your centerline, whereas pure squeezing force only compresses their torso without disrupting their base. The heel-pull combined with knee-pinch creates a closed kinetic chain that controls both the opponent's hip position and their ability to posture upright.",
+        "answer_line": "Heel pull, not adductor squeeze",
+        "distractors": {
+          "plausible": [
+            "Squeeze knees together hard",
+            "Push heels away from body"
+          ],
+          "trap": [
+            "Push knees out to create space"
+          ]
+        }
       },
       {
         "question": "Your guard recovery attempt fails and the opponent establishes combat base—what are your immediate chain options?",
-        "answer": "When the opponent reaches combat base after a failed recovery, immediately transition to a guard retention strategy appropriate for their stance. If their lead knee is forward, insert a De La Riva hook around it to prevent forward advancement and begin De La Riva guard attacks. If they maintain distance, establish collar and sleeve grips to transition to collar sleeve guard or re-enter double sleeve guard. If they drive forward aggressively from combat base, frame on their shoulders and hip escape to create enough space for butterfly hooks under their thighs, converting to butterfly guard where their forward pressure becomes a sweeping liability."
+        "answer": "When the opponent reaches combat base after a failed recovery, immediately transition to a guard retention strategy appropriate for their stance. If their lead knee is forward, insert a De La Riva hook around it to prevent forward advancement and begin De La Riva guard attacks. If they maintain distance, establish collar and sleeve grips to transition to collar sleeve guard or re-enter double sleeve guard. If they drive forward aggressively from combat base, frame on their shoulders and hip escape to create enough space for butterfly hooks under their thighs, converting to butterfly guard where their forward pressure becomes a sweeping liability.",
+        "answer_line": "DLR hook, grips, or butterfly",
+        "distractors": {
+          "plausible": [
+            "Always default to De La Riva",
+            "Full guard closure attempt only"
+          ],
+          "trap": [
+            "Push away and stand to reset"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize transitioning to if both sleeve grips are stripped simultaneously?",
-        "answer": "The highest-priority grip is a cross collar grip on the same side as your intended hip escape direction. This grip serves triple duty: it provides an anchor preventing the opponent from disengaging during your leg retraction, it generates a pulling vector that breaks their posture forward as you close guard, and it immediately becomes an offensive grip for cross collar choke threats once guard is established. In no-gi, the equivalent priority is a collar tie or head snap that achieves the same forward-pulling effect. Avoid reaching for wrists or sleeves during the crisis window, as these require precision targeting that is unreliable under forward passing pressure."
+        "answer": "The highest-priority grip is a cross collar grip on the same side as your intended hip escape direction. This grip serves triple duty: it provides an anchor preventing the opponent from disengaging during your leg retraction, it generates a pulling vector that breaks their posture forward as you close guard, and it immediately becomes an offensive grip for cross collar choke threats once guard is established. In no-gi, the equivalent priority is a collar tie or head snap that achieves the same forward-pulling effect. Avoid reaching for wrists or sleeves during the crisis window, as these require precision targeting that is unreliable under forward passing pressure.",
+        "answer_line": "Cross collar grip, same side",
+        "distractors": {
+          "plausible": [
+            "Two-on-one wrist tie, far arm",
+            "Pants grip at the far knee"
+          ],
+          "trap": [
+            "Turn away and roll to your knees"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to recover to closed guard or transition to a different guard system when grips fail?",
-        "answer": "The decision depends on three factors: the opponent's distance, their direction of movement, and your remaining points of contact. Close guard recovery when the opponent is driving forward into your space with their hips close to yours, as this proximity makes guard closure mechanically efficient. Transition to butterfly guard when they drive forward with low pressure and their hips drop below your knee line. Transition to De La Riva or collar sleeve guard when the opponent maintains distance or steps laterally after grip stripping, as these guards function at medium range where closed guard closure would require an unrealistic amount of leg extension."
+        "answer": "The decision depends on three factors: the opponent's distance, their direction of movement, and your remaining points of contact. Close guard recovery when the opponent is driving forward into your space with their hips close to yours, as this proximity makes guard closure mechanically efficient. Transition to butterfly guard when they drive forward with low pressure and their hips drop below your knee line. Transition to De La Riva or collar sleeve guard when the opponent maintains distance or steps laterally after grip stripping, as these guards function at medium range where closed guard closure would require an unrealistic amount of leg extension.",
+        "answer_line": "Judge distance, direction, contact",
+        "distractors": {
+          "plausible": [
+            "Always default to closed guard",
+            "Always default to butterfly guard"
+          ],
+          "trap": [
+            "Pull guard closed at any range"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Guard recovery from double sleeve guard is generally low risk, but practitioners should be aware of shoulder strain when maintaining sleeve grips under heavy forward pressure. Release grips cleanly rather than fighting grip strips with a fully locked wrist when the opponent's bodyweight drives through the connection. During training, communicate with partners about intensity of forward pressure to prevent rib compression from sudden weight drops when the bottom player's legs collapse from extended to retracted position. Avoid hyperextending the elbows by keeping a slight bend when framing against aggressive forward drives."
+    "safety_considerations": "Guard recovery from double sleeve guard is generally low risk, but practitioners should be aware of shoulder strain when maintaining sleeve grips under heavy forward pressure. Release grips cleanly rather than fighting grip strips with a fully locked wrist when the opponent's bodyweight drives through the connection. During training, communicate with partners about intensity of forward pressure to prevent rib compression from sudden weight drops when the bottom player's legs collapse from extended to retracted position. Avoid hyperextending the elbows by keeping a slight bend when framing against aggressive forward drives.",
+    "clips": [
+      {
+        "id": "fIFM4fzVqC0",
+        "title": "Guard retention: recovering through the legs",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 240,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Guard retention: recovering around the legs",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Double Sleeve Guard Defender",
@@ -343,23 +475,73 @@
     "flashcards": [
       {
         "question": "What is the highest-percentage moment to advance your pass when your opponent is in double sleeve guard?",
-        "answer": "The highest-percentage moment is immediately after stripping one or both sleeve grips, within the two-to-three-second window before the bottom player can retract their legs and close guard. This window exists because the bottom player's extended leg position—designed for pushing and controlling at distance—becomes a liability without grip support, as extended legs without grips are easy to redirect or pass around."
+        "answer": "The highest-percentage moment is immediately after stripping one or both sleeve grips, within the two-to-three-second window before the bottom player can retract their legs and close guard. This window exists because the bottom player's extended leg position—designed for pushing and controlling at distance—becomes a liability without grip support, as extended legs without grips are easy to redirect or pass around.",
+        "answer_line": "Right after stripping sleeve grip",
+        "distractors": {
+          "plausible": [
+            "After they fully re-close guard",
+            "Once their legs are retracted"
+          ],
+          "trap": [
+            "Wait for them to attack first"
+          ]
+        }
       },
       {
         "question": "Why is blocking the bottom player's far hip critical to preventing guard recovery from double sleeve guard?",
-        "answer": "The far hip is the pivot point for the hip escape that creates the angle necessary for guard closure. Without a lateral hip escape, the bottom player cannot create the diagonal relationship between their body and yours that allows the far leg to thread behind your back efficiently. By pinning or blocking the far hip with your hand or knee, you force the bottom player to attempt guard closure from a flat, symmetrical position, which requires significantly more flexibility and speed to achieve."
+        "answer": "The far hip is the pivot point for the hip escape that creates the angle necessary for guard closure. Without a lateral hip escape, the bottom player cannot create the diagonal relationship between their body and yours that allows the far leg to thread behind your back efficiently. By pinning or blocking the far hip with your hand or knee, you force the bottom player to attempt guard closure from a flat, symmetrical position, which requires significantly more flexibility and speed to achieve.",
+        "answer_line": "Blocks pivot for hip escape",
+        "distractors": {
+          "plausible": [
+            "Blocks their far leg only",
+            "Stops their collar grip"
+          ],
+          "trap": [
+            "Let hips move, block shoulders"
+          ]
+        }
       },
       {
         "question": "Your opponent begins retracting their legs after you strip one sleeve grip—should you chase the legs or drive forward?",
-        "answer": "Drive forward with your entire body rather than chasing retracting legs with your hands. Reaching for legs overextends your arms and pulls your weight forward over a compromised base, potentially allowing the bottom player to use your momentum to pull you into closed guard. Driving forward with your body keeps your base stable, applies pressure through your chest that pins their hips flat, and prevents the hip escape needed for guard closure while maintaining your ability to establish combat base."
+        "answer": "Drive forward with your entire body rather than chasing retracting legs with your hands. Reaching for legs overextends your arms and pulls your weight forward over a compromised base, potentially allowing the bottom player to use your momentum to pull you into closed guard. Driving forward with your body keeps your base stable, applies pressure through your chest that pins their hips flat, and prevents the hip escape needed for guard closure while maintaining your ability to establish combat base.",
+        "answer_line": "Drive forward with your body",
+        "distractors": {
+          "plausible": [
+            "Grab and pull their legs",
+            "Chase the retracting legs"
+          ],
+          "trap": [
+            "Reach hands for both ankles"
+          ]
+        }
       },
       {
         "question": "You strip both sleeve grips but the bottom player immediately shoots a cross collar grip—how does this change your passing approach?",
-        "answer": "The cross collar grip gives the bottom player an anchor for pulling your posture forward and accelerating their guard closure. You must address this grip before committing to forward advancement. Use a two-on-one grip break on the collar grip hand by peeling their fingers while stepping laterally to create an angle that diminishes the grip's pulling effectiveness. Only advance forward once the collar grip is broken or neutralized, as driving into a strong collar grip feeds directly into their recovery mechanics and potentially into cross collar choke threats from closed guard."
+        "answer": "The cross collar grip gives the bottom player an anchor for pulling your posture forward and accelerating their guard closure. You must address this grip before committing to forward advancement. Use a two-on-one grip break on the collar grip hand by peeling their fingers while stepping laterally to create an angle that diminishes the grip's pulling effectiveness. Only advance forward once the collar grip is broken or neutralized, as driving into a strong collar grip feeds directly into their recovery mechanics and potentially into cross collar choke threats from closed guard.",
+        "answer_line": "Break the collar grip first",
+        "distractors": {
+          "plausible": [
+            "Drive forward through the grip",
+            "Ignore it, keep passing"
+          ],
+          "trap": [
+            "Pull into their collar grip"
+          ]
+        }
       },
       {
         "question": "What body position should you maintain when driving forward after a grip strip to prevent being pulled into closed guard?",
-        "answer": "Keep your spine upright with your chest leading rather than your head, hips driving forward through your legs rather than from upper body lean. Your elbows should stay tight to your body to prevent arm isolation for submissions. Distribute your weight through your knees and hips rather than through your hands, which keeps your center of gravity stable and prevents the bottom player from using your forward momentum against you. The key is driving hip pressure through their centerline while keeping your posture high enough to retreat if their legs begin closing around your torso."
+        "answer": "Keep your spine upright with your chest leading rather than your head, hips driving forward through your legs rather than from upper body lean. Your elbows should stay tight to your body to prevent arm isolation for submissions. Distribute your weight through your knees and hips rather than through your hands, which keeps your center of gravity stable and prevents the bottom player from using your forward momentum against you. The key is driving hip pressure through their centerline while keeping your posture high enough to retreat if their legs begin closing around your torso.",
+        "answer_line": "Chest leading, hips driving",
+        "distractors": {
+          "plausible": [
+            "Head leading, lean forward",
+            "Hands driving, weight forward"
+          ],
+          "trap": [
+            "Lean weight onto your hands"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -382,6 +564,26 @@
         "phase": "Phase 4: Live Passing Against Guard Recovery",
         "focus": "Full resistance passing against active double sleeve guard and recovery attempts",
         "description": "Positional sparring starting in double sleeve guard with full resistance. Top player works to strip grips and advance while bottom player practices recovery mechanics. Track passing success rate and identify which recovery responses create the most difficulty for targeted counter-development."
+      }
+    ],
+    "clips": [
+      {
+        "id": "UoJul9UvRao",
+        "title": "Denying straight-arm guard retention while passing",
+        "by": "Cameron Florczak",
+        "vertical": false,
+        "channel": "Cameron Florczak",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering the full inversion recovery",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

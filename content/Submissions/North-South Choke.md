@@ -34,6 +34,54 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelo Garcia - North South Choke",
+      "description": "North-South Choke film study: Marcelo Garcia - North South Choke, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
+      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North South Choke as a Pinning Tool",
+      "description": "North-South Choke film study: North South Choke as a Pinning Tool, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SPXanCnoBYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SPXanCnoBYA",
+      "url": "https://www.youtube.com/watch?v=SPXanCnoBYA",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Modified Scarf Hold North/South choke",
+      "description": "North-South Choke film study: Modified Scarf Hold North/South choke, taught by Todd Blatchley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LurZB_PfUmA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LurZB_PfUmA",
+      "url": "https://www.youtube.com/watch?v=LurZB_PfUmA",
+      "creator": { "@type": "Person", "name": "Todd Blatchley" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +101,7 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the North-South Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The North-South Choke is a body-pressure blood choke finished from North-South and related top pins, burying the attacker\u0027s bicep and shoulder into both carotid arteries with bodyweight rather than a visible arm wrap." } },
-    { "@type": "Question", "name": "What positions can you finish the North-South Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the North-South Choke from Kesa Gatame, Modified Scarf Hold, North-South, Shoulder of Justice, Side Control, Reverse Scarf Hold." } },
+    { "@type": "Question", "name": "What positions can you finish the North-South Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the North-South Choke from North-South, Shoulder of Justice, Kesa Gatame, Modified Scarf Hold, Side Control, Reverse Scarf Hold." } },
     { "@type": "Question", "name": "Is the North-South Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "North-South Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -85,6 +133,42 @@ Unlike traditional arm chokes that rely on conspicuous limb positioning, the Nor
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
+
+<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SPXanCnoBYA)
+
+<p class="clip-credit"><strong>North South Choke as a Pinning Tool</strong> — taught by Craig Jones · 2:15 · <a href="https://www.youtube.com/watch?v=SPXanCnoBYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LurZB_PfUmA)
+
+<p class="clip-credit"><strong>Modified Scarf Hold North/South choke</strong> — taught by Todd Blatchley · 2:01 · <a href="https://www.youtube.com/watch?v=LurZB_PfUmA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -94,11 +178,11 @@ Unlike traditional arm chokes that rely on conspicuous limb positioning, the Nor
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/North-South Choke/from Kesa Gatame|Kesa Gatame]] | Top | 58% | [[Submissions/North-South Choke/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/North-South Choke/from Kesa Gatame/Defender|Defend →]] |
-| [[Submissions/North-South Choke/from Modified Scarf Hold|Modified Scarf Hold]] | Top | 58% | [[Submissions/North-South Choke/from Modified Scarf Hold/Attacker|Attack →]] | [[Submissions/North-South Choke/from Modified Scarf Hold/Defender|Defend →]] |
-| [[Submissions/North-South Choke/from North-South|North-South]] | Top | 58% | [[Submissions/North-South Choke/from North-South/Attacker|Attack →]] | [[Submissions/North-South Choke/from North-South/Defender|Defend →]] |
-| [[Submissions/North-South Choke/from Shoulder of Justice|Shoulder of Justice]] | Top | 58% | [[Submissions/North-South Choke/from Shoulder of Justice/Attacker|Attack →]] | [[Submissions/North-South Choke/from Shoulder of Justice/Defender|Defend →]] |
-| [[Submissions/North-South Choke/from Side Control|Side Control]] | Top | 58% | [[Submissions/North-South Choke/from Side Control/Attacker|Attack →]] | [[Submissions/North-South Choke/from Side Control/Defender|Defend →]] |
+| [[Submissions/North-South Choke/from North-South|North-South]] | Top | 68% | [[Submissions/North-South Choke/from North-South/Attacker|Attack →]] | [[Submissions/North-South Choke/from North-South/Defender|Defend →]] |
+| [[Submissions/North-South Choke/from Shoulder of Justice|Shoulder of Justice]] | Top | 68% | [[Submissions/North-South Choke/from Shoulder of Justice/Attacker|Attack →]] | [[Submissions/North-South Choke/from Shoulder of Justice/Defender|Defend →]] |
+| [[Submissions/North-South Choke/from Kesa Gatame|Kesa Gatame]] | Top | 50% | [[Submissions/North-South Choke/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/North-South Choke/from Kesa Gatame/Defender|Defend →]] |
+| [[Submissions/North-South Choke/from Modified Scarf Hold|Modified Scarf Hold]] | Top | 50% | [[Submissions/North-South Choke/from Modified Scarf Hold/Attacker|Attack →]] | [[Submissions/North-South Choke/from Modified Scarf Hold/Defender|Defend →]] |
+| [[Submissions/North-South Choke/from Side Control|Side Control]] | Top | 50% | [[Submissions/North-South Choke/from Side Control/Attacker|Attack →]] | [[Submissions/North-South Choke/from Side Control/Defender|Defend →]] |
 | [[Submissions/North-South Choke/from Reverse Scarf|Reverse Scarf Hold]] | Top | 42% | [[Submissions/North-South Choke/from Reverse Scarf/Attacker|Attack →]] | [[Submissions/North-South Choke/from Reverse Scarf/Defender|Defend →]] |
 
 
@@ -123,16 +207,16 @@ Unlike traditional arm chokes that rely on conspicuous limb positioning, the Nor
 
 ## Related
 - [[Submissions/Kimura]] - Alternative submission when opponent defends choke by exposing arm
-- [[Transitions/Arm Triangle]] - Mechanically similar blood choke using body pressure and arm positioning
+- [[Submissions/Arm Triangle]] - Mechanically similar blood choke using body pressure and arm positioning
 - [[Submissions/Breadcutter Choke]] - Alternative gi choke from similar top control positions
 - [[Submissions/Far Side Armbar]] - Submission chain option when transitioning through North-South
 - [[Submissions/Cross Collar Choke]] - Alternative gi choke from top control positions
 - [[Submissions/Ezekiel Choke]] - Alternative choke applicable from similar control positions
-- [[Transitions/Darce Choke]] - Related head and arm choke with similar lateral pressure principles
+- [[Submissions/Darce Choke]] - Related head and arm choke with similar lateral pressure principles
 - [[Transitions/Anaconda Choke]] - Related front headlock choke with similar compression mechanics
 - [[Submissions/Baseball Bat Choke]] - Alternative gi choke from side control transitions
 - [[Submissions/Americana]] - Alternative shoulder lock from North-South control
-- [[Transitions/Guillotine Choke]] - Related front choke with different entry mechanics
+- [[Submissions/Guillotine Choke]] - Related front choke with different entry mechanics
 - [[Positions/North-South]] - Primary position from which this choke is executed
 - [[Positions/Side Control]] - Common transitional position before moving to North-South for the choke
 - [[Positions/Side Control/Kesa Gatame]] - Alternative pinning position with similar body positioning concepts for transitioning to North-South

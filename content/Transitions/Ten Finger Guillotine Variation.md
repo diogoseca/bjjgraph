@@ -34,6 +34,54 @@ description: "Master the Ten Finger Guillotine Variation from top control in BJJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ten Finger Guillotine Variation \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg grab ten finger guillotine, no-gi",
+      "description": "Ten Finger Guillotine Variation film study: Leg grab ten finger guillotine, no-gi, taught by Denny Prokopos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vNjdZQOI-cs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vNjdZQOI-cs",
+      "url": "https://www.youtube.com/watch?v=vNjdZQOI-cs",
+      "creator": { "@type": "Person", "name": "Denny Prokopos" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ten finger guillotine off a guard pull",
+      "description": "Ten Finger Guillotine Variation film study: Ten finger guillotine off a guard pull, taught by Jacek Rozwadowski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ULXHSiYaDgg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ULXHSiYaDgg",
+      "url": "https://www.youtube.com/watch?v=ULXHSiYaDgg",
+      "creator": { "@type": "Person", "name": "Jacek Rozwadowski" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to do the ten finger guillotine",
+      "description": "Ten Finger Guillotine Variation film study: How to do the ten finger guillotine, taught by Howcast instructor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tsofKYcYqaA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tsofKYcYqaA",
+      "url": "https://www.youtube.com/watch?v=tsofKYcYqaA",
+      "creator": { "@type": "Person", "name": "Howcast instructor" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,13 +118,49 @@ The finishing mechanics rely on structural compression rather than muscular stre
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ten Finger Guillotine Variation in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vNjdZQOI-cs)
+
+<p class="clip-credit"><strong>Leg grab ten finger guillotine, no-gi</strong> — taught by Denny Prokopos · 1:29 · <a href="https://www.youtube.com/watch?v=vNjdZQOI-cs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ULXHSiYaDgg)
+
+<p class="clip-credit"><strong>Ten finger guillotine off a guard pull</strong> — taught by Jacek Rozwadowski · 1:32 · <a href="https://www.youtube.com/watch?v=ULXHSiYaDgg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tsofKYcYqaA)
+
+<p class="clip-credit"><strong>How to do the ten finger guillotine</strong> — taught by Howcast instructor · 1:53 · <a href="https://www.youtube.com/watch?v=tsofKYcYqaA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
 <section id="possible-outcomes" class="content-section">
 
 ## Possible Outcomes
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Ten Finger Guillotine]] | 55% |
+| Success | [[Ten Finger Guillotine from Guillotine Control]] | 55% |
 | Failure | [[Positions/Guillotine Control]] | 30% |
 | Counter | [[Positions/Closed Guard]] | 15% |
 
@@ -239,7 +323,7 @@ The Ten Finger Guillotine Variation occupies a specialized niche within the fron
 
 - [[Transitions/Arm in Guillotine Variation]] - Related variation - alternative grip when opponent's arm is trapped inside
 
-- [[Submissions/Chin Strap Guillotine]] - Alternative submission - different finishing grip targeting chin and jaw line
+- [[Chin Strap Guillotine from Front Headlock]] - Alternative submission - different finishing grip targeting chin and jaw line
 
 - [[Positions/Front Headlock]] - Parent control category - broader head control system this variation belongs to
 

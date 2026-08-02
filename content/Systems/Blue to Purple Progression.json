@@ -375,35 +375,115 @@
   "flashcards": [
     {
       "question": "How long does the blue to purple belt progression typically take?",
-      "answer": "It typically requires 2-4 years of consistent training, marking the shift from reactive survival skills to proactive game planning with coherent offensive and defensive systems."
+      "answer": "It typically requires 2-4 years of consistent training, marking the shift from reactive survival skills to proactive game planning with coherent offensive and defensive systems.",
+      "answer_line": "2-4 years typically",
+      "distractors": {
+        "plausible": [
+          "6-12 months",
+          "5-7 years"
+        ],
+        "trap": [
+          "Belt time doesn't matter"
+        ]
+      }
     },
     {
       "question": "How many guard systems should a purple belt candidate develop, and what types?",
-      "answer": "Two to three guards played at a high level against resistance — usually one closed guard, one open guard (spider, De La Riva, or butterfly), and one transitional guard (seated, half, or X-guard), each with chained sweeps and submissions."
+      "answer": "Two to three guards played at a high level against resistance — usually one closed guard, one open guard (spider, De La Riva, or butterfly), and one transitional guard (seated, half, or X-guard), each with chained sweeps and submissions.",
+      "answer_line": "Two-three guards, mixed types",
+      "distractors": {
+        "plausible": [
+          "One guard mastered deeply",
+          "Five or more guard variations"
+        ],
+        "trap": [
+          "Only play closed guard"
+        ]
+      }
     },
     {
       "question": "What is the core difference between a blue belt game and a purple belt game?",
-      "answer": "A blue belt reacts and survives with isolated techniques, while a purple belt proactively imposes a coherent game, chaining connected sequences and creating dilemmas where defending one threat opens another."
+      "answer": "A blue belt reacts and survives with isolated techniques, while a purple belt proactively imposes a coherent game, chaining connected sequences and creating dilemmas where defending one threat opens another.",
+      "answer_line": "Purple chains attacks into dilemmas",
+      "distractors": {
+        "plausible": [
+          "Purple just knows more techniques",
+          "Purple relies on strength/pressure"
+        ],
+        "trap": [
+          "Blue belt already has full system"
+        ]
+      }
     },
     {
       "question": "Why are submission chains emphasized over hunting random submissions?",
-      "answer": "Chained submissions create inescapable dilemmas where defending one attack opens another, raising finish rates well above isolated attempts that opponents can simply defend and reset from."
+      "answer": "Chained submissions create inescapable dilemmas where defending one attack opens another, raising finish rates well above isolated attempts that opponents can simply defend and reset from.",
+      "answer_line": "Chains create inescapable dilemmas",
+      "distractors": {
+        "plausible": [
+          "Chains save more energy",
+          "Chains work vs beginners only"
+        ],
+        "trap": [
+          "Isolated subs finish just as well"
+        ]
+      }
     },
     {
       "question": "What is the most common obstacle blue belts face on the path to purple?",
-      "answer": "Accumulating many isolated techniques without systematic integration, producing a scattered game with no coherent strategy; the fix is building connected sequences from 2-3 specialty positions before expanding."
+      "answer": "Accumulating many isolated techniques without systematic integration, producing a scattered game with no coherent strategy; the fix is building connected sequences from 2-3 specialty positions before expanding.",
+      "answer_line": "Too many isolated moves, no system",
+      "distractors": {
+        "plausible": [
+          "Not enough total techniques known",
+          "Too much time drilling defense"
+        ],
+        "trap": [
+          "Add even more new techniques"
+        ]
+      }
     },
     {
       "question": "How does competition validate readiness for purple belt promotion?",
-      "answer": "Competing in 3-5 tournaments proves techniques work against fully resisting opponents under pressure, while developing pre-match routines, adrenaline management, and the resilience to execute a game plan rather than revert to survival mode."
+      "answer": "Competing in 3-5 tournaments proves techniques work against fully resisting opponents under pressure, while developing pre-match routines, adrenaline management, and the resilience to execute a game plan rather than revert to survival mode.",
+      "answer_line": "3-5 tournaments prove it live",
+      "distractors": {
+        "plausible": [
+          "One big win is enough proof",
+          "Only gym sparring matters"
+        ],
+        "trap": [
+          "Skip comps, train more instead"
+        ]
+      }
     },
     {
       "question": "What role does positional sparring play in purple belt drilling?",
-      "answer": "Spending 20-30 minutes per session starting from specific positions builds depth in targeted scenarios — sweeping from closed guard, escaping side control, or passing a particular guard — through deliberate practice with clear objectives."
+      "answer": "Spending 20-30 minutes per session starting from specific positions builds depth in targeted scenarios — sweeping from closed guard, escaping side control, or passing a particular guard — through deliberate practice with clear objectives.",
+      "answer_line": "20-30 min positional sparring",
+      "distractors": {
+        "plausible": [
+          "Free rolling covers this already",
+          "5 minute quick position drills"
+        ],
+        "trap": [
+          "Always start from standing neutral"
+        ]
+      }
     },
     {
       "question": "Why must offensive development be balanced with defense at this level?",
-      "answer": "Overemphasizing offense creates submission vulnerabilities; dedicating time to escape protocols and starting rounds from bad positions like mount or back control builds the defensive competence required for promotion."
+      "answer": "Overemphasizing offense creates submission vulnerabilities; dedicating time to escape protocols and starting rounds from bad positions like mount or back control builds the defensive competence required for promotion.",
+      "answer_line": "Drill escapes from mount/back too",
+      "distractors": {
+        "plausible": [
+          "Focus offense, defense comes later",
+          "Only escape from side control"
+        ],
+        "trap": [
+          "Tap early to save energy in drills"
+        ]
+      }
     }
   ]
 }

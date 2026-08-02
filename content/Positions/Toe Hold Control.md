@@ -34,6 +34,43 @@ description: "Master Toe Hold Control position in BJJ. Strategic guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toe Hold control and finish",
+      "description": "Toe Hold Control film study: Toe Hold control and finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toe Hold entry from 50/50",
+      "description": "Toe Hold Control film study: Toe Hold entry from 50/50, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B_StkmaI3Nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B_StkmaI3Nc",
+      "url": "https://www.youtube.com/watch?v=B_StkmaI3Nc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The position's strategic significance lies in its dual nature as both offensive 
 Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly valuable in rulesets where heel hooks face restrictions. The position teaches fundamental principles of joint isolation, progressive pressure application, and the critical relationship between control and submission that applies across all leg entanglement scenarios. Modern practitioners view this position not as an isolated technique but as an integral component of systematic leg attack sequences, where transitions between ankle locks, toe holds, heel hooks, and kneebars flow seamlessly based on defensive reactions. Mastery requires understanding both the immediate mechanical application and the broader strategic context within comprehensive leg lock systems.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Toe Hold control and finish</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B_StkmaI3Nc)
+
+<p class="clip-credit"><strong>Toe Hold entry from 50/50</strong> — taught by John Danaher · 0:17 · <a href="https://www.youtube.com/watch?v=B_StkmaI3Nc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,21 +202,21 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ### Available Transitions
 
 
-- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (25% of attempts)
+- **[[Transitions/Leg Extraction Escape from Entanglement/Attacker|Leg Extraction Escape from Entanglement]]** (15% of attempts)
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (15% of attempts)
+- **[[Transitions/Inversion Escape from Leg Entanglement/Attacker|Inversion Escape from Leg Entanglement]]** (10% of attempts)
 
 - **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (14% of attempts)
 
 - **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (12% of attempts)
 
-- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (13% of attempts)
+- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (12% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (12% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (9% of attempts)
 
-- **[[Transitions/Boot Defense from Toe Hold/Attacker|Boot Defense from Toe Hold]]** (6% of attempts)
+- **[[Transitions/Boot Defense from Toe Hold/Attacker|Boot Defense from Toe Hold]]** (15% of attempts)
 
-- **[[Transitions/Counter Rotation from Toe Hold/Attacker|Counter Rotation from Toe Hold]]** (3% of attempts)
+- **[[Transitions/Counter Rotation from Toe Hold/Attacker|Counter Rotation from Toe Hold]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -216,23 +281,19 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ### Available Transitions
 
 
-- **[[Toe Hold from Toe Hold Control/Attacker|Toe Hold from Toe Hold Control]]** (13% of attempts)
+- **[[Toe Hold from Toe Hold Control/Attacker|Toe Hold from Toe Hold Control]]** (30% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (21% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (12% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (12% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (15% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (12% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (11% of attempts)
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (12% of attempts)
+- **[[Transitions/Toe Hold to Ashi Garami/Attacker|Toe Hold to Ashi Garami]]** (10% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (11% of attempts)
+- **[[Transitions/Toe Hold to Straight Ankle Lock/Attacker|Toe Hold to Straight Ankle Lock]]** (12% of attempts)
 
-- **[[Transitions/Toe Hold to Ashi Garami/Attacker|Toe Hold to Ashi Garami]]** (5% of attempts)
-
-- **[[Transitions/Toe Hold to Straight Ankle Lock/Attacker|Toe Hold to Straight Ankle Lock]]** (3% of attempts)
-
-- **[[Kneebar from Toe Hold Control/Attacker|Kneebar from Toe Hold Control]]** (11% of attempts)
+- **[[Kneebar from Toe Hold Control/Attacker|Kneebar from Toe Hold Control]]** (10% of attempts)
 
 
 ### Common Mistakes

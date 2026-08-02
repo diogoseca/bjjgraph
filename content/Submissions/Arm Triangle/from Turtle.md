@@ -34,6 +34,54 @@ description: "Master the arm triangle choke from turtle position in BJJ. Learn s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Head \u0026 Arm Choke from Turtle Position",
+      "description": "Arm Triangle from Turtle film study: Head \u0026 Arm Choke from Turtle Position, taught by Pathfinder Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h4izOHcQh2Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h4izOHcQh2Y",
+      "url": "https://www.youtube.com/watch?v=h4izOHcQh2Y",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle Attacks: Arm Triangle",
+      "description": "Arm Triangle from Turtle film study: Turtle Attacks: Arm Triangle, taught by SlothGuard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nD3qXP4o7GM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nD3qXP4o7GM",
+      "url": "https://www.youtube.com/watch?v=nD3qXP4o7GM",
+      "creator": { "@type": "Person", "name": "SlothGuard" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm Triangle from Turtle",
+      "description": "Arm Triangle from Turtle film study: Arm Triangle from Turtle, taught by BTT Evergreen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KHEJ0DygJvc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KHEJ0DygJvc",
+      "url": "https://www.youtube.com/watch?v=KHEJ0DygJvc",
+      "creator": { "@type": "Person", "name": "BTT Evergreen" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +102,7 @@ description: "Master the arm triangle choke from turtle position in BJJ. Learn s
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries (compressed by opponent's own shoulder and your arm)</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">55% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +126,42 @@ At the competition level, this submission serves as a powerful secondary attack 
 **Starting Position**: [[Positions/Turtle]] · **From**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h4izOHcQh2Y)
+
+<p class="clip-credit"><strong>Head &amp; Arm Choke from Turtle Position</strong> — taught by Pathfinder Jiu-Jitsu · 0:50 · <a href="https://www.youtube.com/watch?v=h4izOHcQh2Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nD3qXP4o7GM)
+
+<p class="clip-credit"><strong>Turtle Attacks: Arm Triangle</strong> — taught by SlothGuard · 0:37 · <a href="https://www.youtube.com/watch?v=nD3qXP4o7GM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KHEJ0DygJvc)
+
+<p class="clip-credit"><strong>Arm Triangle from Turtle</strong> — taught by BTT Evergreen · 0:58 · <a href="https://www.youtube.com/watch?v=KHEJ0DygJvc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -244,10 +328,10 @@ At the competition level, this submission serves as a powerful secondary attack 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Positions/Turtle]] - Primary starting position for this submission variant
 - [[Positions/Side Control]] - Common finishing position after flattening opponent

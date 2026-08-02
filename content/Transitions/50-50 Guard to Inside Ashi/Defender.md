@@ -148,6 +148,54 @@ description: "How to defend against 50-50 Guard to Inside Ashi in BJJ. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Guard to Inside Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside sankaku counter",
+      "description": "50-50 Guard to Inside Ashi (Defender) film study: Inside sankaku counter, taught by Alberto Serrano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/67VIHbxcSe8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/67VIHbxcSe8",
+      "url": "https://www.youtube.com/watch?v=67VIHbxcSe8",
+      "creator": { "@type": "Person", "name": "Alberto Serrano" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg defense from ashi garami",
+      "description": "50-50 Guard to Inside Ashi (Defender) film study: Leg defense from ashi garami, taught by The Coop BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
+      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
+      "creator": { "@type": "Person", "name": "The Coop BJJ coach" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inside ashi leg lock defense",
+      "description": "50-50 Guard to Inside Ashi (Defender) film study: Inside ashi leg lock defense, taught by Nick Ortiz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8F_7Y9JpTP0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8F_7Y9JpTP0",
+      "url": "https://www.youtube.com/watch?v=8F_7Y9JpTP0",
+      "creator": { "@type": "Person", "name": "Nick Ortiz" },
+      "duration": "PT101S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The key defensive mindset is prevention over reaction. Once inside ashi is fully
 **Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Guard to Inside Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=67VIHbxcSe8)
+
+<p class="clip-credit"><strong>Inside sankaku counter</strong> — taught by Alberto Serrano · 1:06 · <a href="https://www.youtube.com/watch?v=67VIHbxcSe8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L417yCl_-dc)
+
+<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ coach · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8F_7Y9JpTP0)
+
+<p class="clip-credit"><strong>Inside ashi leg lock defense</strong> — taught by Nick Ortiz · 1:41 · <a href="https://www.youtube.com/watch?v=8F_7Y9JpTP0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

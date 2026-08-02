@@ -164,6 +164,43 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Passing \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The no-gi guard passing system explained",
+      "description": "Guard Passing film study: The no-gi guard passing system explained, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OdscGUlottI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OdscGUlottI",
+      "url": "https://www.youtube.com/watch?v=OdscGUlottI",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT761S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gordon Ryan explains his guard passing system",
+      "description": "Guard Passing film study: Gordon Ryan explains his guard passing system, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RvgT17Xri5g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RvgT17Xri5g",
+      "url": "https://www.youtube.com/watch?v=RvgT17Xri5g",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT374S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Guard Passing?
@@ -173,6 +210,34 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
 Guard Passing represents the fundamental strategic and biomechanical concepts underlying all successful guard passing, providing systematic framework for advancing from guard to dominant pinning positions. Unlike specific passing techniques, guard passing principles are comprehensive conceptual guidelines that apply across all guard types and determine overall passing effectiveness. This concept encompasses the tactical understanding that successful passing requires neutralizing guard retention mechanics, establishing control points, and progressing through stages from open guard to consolidated side control or mount. Guard passing principles serve as both offensive framework enabling position advancement and strategic guide for pass selection based on opponent's defensive patterns. The ability to apply guard passing principles consistently determines offensive effectiveness against guard players, making it one of the most essential conceptual elements for top game development.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Passing in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OdscGUlottI)
+
+<p class="clip-credit"><strong>The no-gi guard passing system explained</strong> — taught by Gordon Ryan · 12:41 · <a href="https://www.youtube.com/watch?v=OdscGUlottI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RvgT17Xri5g)
+
+<p class="clip-credit"><strong>Gordon Ryan explains his guard passing system</strong> — taught by Gordon Ryan · 6:14 · <a href="https://www.youtube.com/watch?v=RvgT17Xri5g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

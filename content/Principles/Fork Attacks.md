@@ -164,6 +164,54 @@ description: "Master Fork Attacks in BJJ. Learn simultaneous multi-threat constr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Fork Attacks \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Understanding offense and attack chains from closed guard",
+      "description": "Fork Attacks film study: Understanding offense and attack chains from closed guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MubbYrvhahY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MubbYrvhahY",
+      "url": "https://www.youtube.com/watch?v=MubbYrvhahY",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT591S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "A full closed guard attack system",
+      "description": "Fork Attacks film study: A full closed guard attack system, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z_FBT8ZDSmo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z_FBT8ZDSmo",
+      "url": "https://www.youtube.com/watch?v=Z_FBT8ZDSmo",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT498S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Creating dilemmas for your opponent",
+      "description": "Fork Attacks film study: Creating dilemmas for your opponent, taught by Be Strong Personal Training.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p8fY7R6Rnu0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p8fY7R6Rnu0",
+      "url": "https://www.youtube.com/watch?v=p8fY7R6Rnu0",
+      "creator": { "@type": "Person", "name": "Be Strong Personal Training" },
+      "duration": "PT135S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Fork Attacks?
@@ -173,6 +221,42 @@ description: "Master Fork Attacks in BJJ. Learn simultaneous multi-threat constr
 Borrowed from the chess idea of forking two pieces with a single move, Fork Attacks—often called dilemma creation—rank among the most sophisticated offensive frameworks in modern BJJ. Unlike simple action-reaction sequences that exploit a single defensive commitment, fork attacks apply across any position where the practitioner has established sufficient control to develop layered, mutually-exclusive attack systems. The framework encompasses the construction of multi-threat structures, the strategic coverage of defensive options, and the systematic exploitation of forced defensive choices through pre-planned branching sequences. Fork Attacks serve as both a finishing mechanism that dramatically increases submission success rates through multiple simultaneous threats, and an efficiency strategy that guarantees a productive outcome regardless of the opponent's defensive choice. Because every escape route the defender selects opens a different prepared attack, the practitioner converts the opponent's own defensive intelligence into the trigger for the next finish. The ability to construct and execute effective forks often determines whether a practitioner can finish elite defensive opponents who rarely succumb to single-threat attacks, making it one of the most powerful offensive concepts available to advanced grapplers.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Fork Attacks in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MubbYrvhahY)
+
+<p class="clip-credit"><strong>Understanding offense and attack chains from closed guard</strong> — taught by Jon Thomas · 9:51 · <a href="https://www.youtube.com/watch?v=MubbYrvhahY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z_FBT8ZDSmo)
+
+<p class="clip-credit"><strong>A full closed guard attack system</strong> — taught by Jon Thomas · 8:18 · <a href="https://www.youtube.com/watch?v=Z_FBT8ZDSmo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p8fY7R6Rnu0)
+
+<p class="clip-credit"><strong>Creating dilemmas for your opponent</strong> — taught by Be Strong Personal Training · 2:15 · <a href="https://www.youtube.com/watch?v=p8fY7R6Rnu0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

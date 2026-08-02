@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Anaconda Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Hindulotine/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Hindulotine to Anaconda Choke transition exploits a common defensive reaction where opponents create space with their near-side arm to relieve guillotine pressure. Rather than fighting to maintain the original choke, this technique flows into an anaconda configuration that uses the defender's own frame against them. The transition represents a fundamental principle in submission grappling: when one attack is defended, the defensive movement itself creates vulnerability to a different attack.\n\nThis transition is particularly effective from the bottom Hindulotine position because the rotational hip angle already creates favorable mechanics for threading the choking arm deeper across the opponent's neck. When the opponent posts their near-side hand or elbow to create space, a window opens to slide your choking arm under their armpit and lock the anaconda grip. The key timing window is narrow - you must recognize the defensive frame and begin the transition before the opponent can retract their arm.\n\nStrategically, threatening this transition forces opponents into a dilemma: maintain tight defensive posture and remain vulnerable to the guillotine, or create space to relieve pressure and expose themselves to the anaconda. Advanced practitioners use this dynamic to control the pace of engagement, keeping opponents reactive rather than allowing them to establish settled defensive positions.",
   "related_content": [
     {
@@ -210,54 +222,203 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that signals you should begin the Hindulotine to Anaconda transition?",
-        "answer": "The trigger is when your opponent creates a defensive frame with their near-side arm by posting their hand or elbow against your body to create space and relieve guillotine pressure. This frame creates the opening needed to thread your arm under their armpit for the anaconda configuration."
+        "answer": "The trigger is when your opponent creates a defensive frame with their near-side arm by posting their hand or elbow against your body to create space and relieve guillotine pressure. This frame creates the opening needed to thread your arm under their armpit for the anaconda configuration.",
+        "answer_line": "Frame posted to relieve pressure",
+        "distractors": {
+          "plausible": [
+            "Opponent posts elbow on mat",
+            "Opponent starts to posture up"
+          ],
+          "trap": [
+            "Opponent fully postures up"
+          ]
+        }
       },
       {
         "question": "How do you maintain neck pressure during the transition without losing the attack?",
-        "answer": "Keep the blade of your forearm pressed firmly against opponent's neck throughout the entire threading motion. Your arm slides deeper across their neck as it goes under the armpit, maintaining constant pressure. Never create a gap between your forearm and their neck during the grip change."
+        "answer": "Keep the blade of your forearm pressed firmly against opponent's neck throughout the entire threading motion. Your arm slides deeper across their neck as it goes under the armpit, maintaining constant pressure. Never create a gap between your forearm and their neck during the grip change.",
+        "answer_line": "Never break forearm-neck contact",
+        "distractors": {
+          "plausible": [
+            "Regrip only after threading arm",
+            "Relax pressure while switching grip"
+          ],
+          "trap": [
+            "Release neck to grab bicep first"
+          ]
+        }
       },
       {
         "question": "What is the correct figure-four grip configuration for the anaconda choke?",
-        "answer": "Your threading arm crosses under opponent's armpit and grabs your opposite bicep, while your free arm cups behind opponent's head or shoulder. Your elbows squeeze together to trap opponent's near-side arm against their own neck. The choking pressure comes from the blade of your forearm against their carotid."
+        "answer": "Your threading arm crosses under opponent's armpit and grabs your opposite bicep, while your free arm cups behind opponent's head or shoulder. Your elbows squeeze together to trap opponent's near-side arm against their own neck. The choking pressure comes from the blade of your forearm against their carotid.",
+        "answer_line": "Thread under, grab own bicep",
+        "distractors": {
+          "plausible": [
+            "Grab opponent's far bicep",
+            "Clasp hands like Kimura grip"
+          ],
+          "trap": [
+            "Release far arm to switch grip"
+          ]
+        }
       },
       {
         "question": "Your opponent starts circling their hips away as you attempt the anaconda transition - how do you adjust?",
-        "answer": "Use your legs to follow their hip movement and maintain connection throughout the transition. If they turn too far, abandon the anaconda and take their back instead, as their rotation exposes it. Alternatively, use butterfly hooks to elevate and off-balance them, stopping the circling motion."
+        "answer": "Use your legs to follow their hip movement and maintain connection throughout the transition. If they turn too far, abandon the anaconda and take their back instead, as their rotation exposes it. Alternatively, use butterfly hooks to elevate and off-balance them, stopping the circling motion.",
+        "answer_line": "Follow hips, take back if too far",
+        "distractors": {
+          "plausible": [
+            "Release guillotine to reposition",
+            "Chase with upper body only"
+          ],
+          "trap": [
+            "Let go and reset to guard"
+          ]
+        }
       },
       {
         "question": "What differentiates the anaconda grip from the darce grip, and why does arm placement matter?",
-        "answer": "The anaconda threads under the opponent's armpit and across the back of their neck, while the darce threads over the shoulder and across the front of their neck. This matters because the finishing mechanics differ - anaconda typically finishes with a roll or hip walk toward the head, while darce finishes with hip pressure toward the trapped arm side."
+        "answer": "The anaconda threads under the opponent's armpit and across the back of their neck, while the darce threads over the shoulder and across the front of their neck. This matters because the finishing mechanics differ - anaconda typically finishes with a roll or hip walk toward the head, while darce finishes with hip pressure toward the trapped arm side.",
+        "answer_line": "Anaconda: under arm, roll to head",
+        "distractors": {
+          "plausible": [
+            "Darce threads under the armpit",
+            "Anaconda finishes toward trapped arm"
+          ],
+          "trap": [
+            "Grip side doesn't affect finish"
+          ]
+        }
       },
       {
         "question": "When is it better to abandon the anaconda transition and return to the standard Hindulotine?",
-        "answer": "Return to standard Hindulotine if: opponent retracts their defensive frame before you can thread under the armpit, you cannot create sufficient space to insert your arm, or opponent begins posturing up before you secure the grip. A weak anaconda attempt is worse than a strong guillotine position."
+        "answer": "Return to standard Hindulotine if: opponent retracts their defensive frame before you can thread under the armpit, you cannot create sufficient space to insert your arm, or opponent begins posturing up before you secure the grip. A weak anaconda attempt is worse than a strong guillotine position.",
+        "answer_line": "Frame retracts before you thread",
+        "distractors": {
+          "plausible": [
+            "Opponent's hips move slightly",
+            "You feel forearm sliding deeper"
+          ],
+          "trap": [
+            "Force the grip through resistance"
+          ]
+        }
       },
       {
         "question": "How do you use hip movement to finish the anaconda after securing the grip?",
-        "answer": "Walk your hips in a circular motion toward opponent's head while squeezing your elbows together. This hip walk compresses the space around their neck and tightens the strangle progressively. Continue the circular movement until you feel the choke tighten sufficiently or opponent taps."
+        "answer": "Walk your hips in a circular motion toward opponent's head while squeezing your elbows together. This hip walk compresses the space around their neck and tightens the strangle progressively. Continue the circular movement until you feel the choke tighten sufficiently or opponent taps.",
+        "answer_line": "Walk hips toward head, squeeze",
+        "distractors": {
+          "plausible": [
+            "Pull with arms, hips stay still",
+            "Walk hips away from head"
+          ],
+          "trap": [
+            "Release bicep grip to pull tighter"
+          ]
+        }
       },
       {
         "question": "What role does opponent's trapped arm play in the anaconda choke mechanics?",
-        "answer": "The trapped arm becomes a wedge that increases choking pressure. When you squeeze your elbows together, their arm is compressed against their own neck and your forearm, creating a smaller space for blood flow. Their defensive frame ironically contributes to the choke's effectiveness."
+        "answer": "The trapped arm becomes a wedge that increases choking pressure. When you squeeze your elbows together, their arm is compressed against their own neck and your forearm, creating a smaller space for blood flow. Their defensive frame ironically contributes to the choke's effectiveness.",
+        "answer_line": "Trapped arm wedges neck tighter",
+        "distractors": {
+          "plausible": [
+            "Trapped arm has no effect",
+            "Trapped arm just limits movement"
+          ],
+          "trap": [
+            "Release trapped arm for space"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully extracts their arm from the anaconda - what is your immediate follow-up?",
-        "answer": "Immediately transition to darce configuration by rethreading your arm over their shoulder instead of under the armpit. The extraction movement typically leaves them in perfect position for the darce. Alternatively, if they create significant distance, return to closed guard control and reset."
+        "answer": "Immediately transition to darce configuration by rethreading your arm over their shoulder instead of under the armpit. The extraction movement typically leaves them in perfect position for the darce. Alternatively, if they create significant distance, return to closed guard control and reset.",
+        "answer_line": "Rethread over shoulder into darce",
+        "distractors": {
+          "plausible": [
+            "Re-attempt same anaconda grip",
+            "Chase with both hands immediately"
+          ],
+          "trap": [
+            "Posture up to reset position"
+          ]
+        }
       },
       {
         "question": "How do you set up the anaconda transition if opponent is not creating defensive frames?",
-        "answer": "Increase guillotine pressure progressively until they are forced to create space. Use hip angle adjustments and intermittent squeezing to make the position uncomfortable. Most opponents will eventually post a hand or elbow to relieve pressure, creating your window. If they absorb pressure without framing, finish the guillotine instead."
+        "answer": "Increase guillotine pressure progressively until they are forced to create space. Use hip angle adjustments and intermittent squeezing to make the position uncomfortable. Most opponents will eventually post a hand or elbow to relieve pressure, creating your window. If they absorb pressure without framing, finish the guillotine instead.",
+        "answer_line": "Increase pressure until they frame",
+        "distractors": {
+          "plausible": [
+            "Wait passively for opponent to move",
+            "Switch hips constantly for angle"
+          ],
+          "trap": [
+            "Release pressure to bait a frame"
+          ]
+        }
       },
       {
         "question": "What grip strength management strategy prevents fatigue during a prolonged Hindulotine to Anaconda sequence?",
-        "answer": "Rely on skeletal structure and body positioning rather than muscular squeezing. Use your forearm blade placement and hip angle to generate choking pressure through leverage rather than grip strength. Lock the figure-four and let your body weight and hip walk do the work, saving muscular effort for maintaining the lock rather than active crushing."
+        "answer": "Rely on skeletal structure and body positioning rather than muscular squeezing. Use your forearm blade placement and hip angle to generate choking pressure through leverage rather than grip strength. Lock the figure-four and let your body weight and hip walk do the work, saving muscular effort for maintaining the lock rather than active crushing.",
+        "answer_line": "Use structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder with each grip",
+            "Alternate grip hands to rest"
+          ],
+          "trap": [
+            "Grip as hard as possible always"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward into you before you can lock the anaconda - what sweep option becomes available?",
-        "answer": "Their forward drive loads weight onto your butterfly hooks or closed guard. Use the momentum to execute a butterfly sweep by elevating with your hooks while maintaining head control, ending in mount with the partial neck grip still active. Their forward pressure becomes the energy source for the sweep, and you can re-establish the anaconda or guillotine from top position."
+        "answer": "Their forward drive loads weight onto your butterfly hooks or closed guard. Use the momentum to execute a butterfly sweep by elevating with your hooks while maintaining head control, ending in mount with the partial neck grip still active. Their forward pressure becomes the energy source for the sweep, and you can re-establish the anaconda or guillotine from top position.",
+        "answer_line": "Butterfly sweep off forward drive",
+        "distractors": {
+          "plausible": [
+            "Push back to stop their drive",
+            "Release neck grip to base out"
+          ],
+          "trap": [
+            "Pull guard closed to stall"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The anaconda choke applies pressure to the carotid arteries and can cause rapid loss of consciousness. Always practice with controlled pressure and tap early when caught. During drilling, apply submissions progressively and release immediately upon tap. Partners should establish clear tap signals before training. Avoid jerking or explosive movements when applying the choke, as this can cause neck strain. If training partner becomes unresponsive, release immediately and place them in recovery position. This technique should not be practiced at full intensity without proper supervision. Those with neck injuries or cervical spine issues should consult medical professionals before training this position."
+    "safety_considerations": "The anaconda choke applies pressure to the carotid arteries and can cause rapid loss of consciousness. Always practice with controlled pressure and tap early when caught. During drilling, apply submissions progressively and release immediately upon tap. Partners should establish clear tap signals before training. Avoid jerking or explosive movements when applying the choke, as this can cause neck strain. If training partner becomes unresponsive, release immediately and place them in recovery position. This technique should not be practiced at full intensity without proper supervision. Those with neck injuries or cervical spine issues should consult medical professionals before training this position.",
+    "clips": [
+      {
+        "id": "RbkOnRb2lvA",
+        "title": "Anaconda choke setup and finish",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LXn5Q-b5Hrw",
+        "title": "Anaconda choke from front headlock",
+        "by": "Toro Bravo Submission Grappling",
+        "vertical": false,
+        "channel": "Toro Bravo Submission Grappling",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "96VSd__Nf-8",
+        "title": "How to hit the anaconda from front headlock",
+        "by": "LI MMA",
+        "vertical": false,
+        "channel": "LI MMA",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hindulotine to Anaconda Choke Defender",
@@ -342,23 +503,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from Hindulotine to Anaconda?",
-        "answer": "The earliest cue is feeling the attacker's forearm begin sliding deeper under your armpit rather than maintaining the standard guillotine squeeze across your throat. This subtle directional change in arm pressure indicates they are threading for the anaconda configuration. You may also feel a brief loosening of the guillotine grip as they reposition their hand for the figure-four lock."
+        "answer": "The earliest cue is feeling the attacker's forearm begin sliding deeper under your armpit rather than maintaining the standard guillotine squeeze across your throat. This subtle directional change in arm pressure indicates they are threading for the anaconda configuration. You may also feel a brief loosening of the guillotine grip as they reposition their hand for the figure-four lock.",
+        "answer_line": "Forearm slides under your armpit",
+        "distractors": {
+          "plausible": [
+            "Guillotine suddenly tightens hard",
+            "Opponent's hips shift wide"
+          ],
+          "trap": [
+            "Push into the choke to escape"
+          ]
+        }
       },
       {
         "question": "Why is retracting your defensive frame the highest-priority defensive action during the transition?",
-        "answer": "Your defensive frame is the exact opening the attacker needs to thread the anaconda grip. By retracting it and pinching your elbow tight to your ribs, you physically block the threading path under your armpit. While this re-exposes you to the guillotine, the guillotine is a known threat you were already managing, whereas allowing the anaconda to lock creates a much more dangerous position with your own arm trapped against your neck."
+        "answer": "Your defensive frame is the exact opening the attacker needs to thread the anaconda grip. By retracting it and pinching your elbow tight to your ribs, you physically block the threading path under your armpit. While this re-exposes you to the guillotine, the guillotine is a known threat you were already managing, whereas allowing the anaconda to lock creates a much more dangerous position with your own arm trapped against your neck.",
+        "answer_line": "Frame is anaconda's only entry",
+        "distractors": {
+          "plausible": [
+            "Guillotine is worse than anaconda",
+            "Posturing beats retracting frame"
+          ],
+          "trap": [
+            "Keep framing to fight guillotine"
+          ]
+        }
       },
       {
         "question": "Your opponent has locked the anaconda figure-four but has not yet started the hip walk - what is your best defensive action?",
-        "answer": "Use your free hand to attack the figure-four grip at the point where the attacker's hand grabs their bicep. Pull on their choking wrist to create space between your neck and their forearm. Simultaneously move your hips away from them to reduce compression and prevent the hip walk from tightening the strangle. Keep your chin tucked to your free-side shoulder to protect the carotid arteries while you fight the grip."
+        "answer": "Use your free hand to attack the figure-four grip at the point where the attacker's hand grabs their bicep. Pull on their choking wrist to create space between your neck and their forearm. Simultaneously move your hips away from them to reduce compression and prevent the hip walk from tightening the strangle. Keep your chin tucked to your free-side shoulder to protect the carotid arteries while you fight the grip.",
+        "answer_line": "Pull their wrist, hips away",
+        "distractors": {
+          "plausible": [
+            "Push their elbow off your neck",
+            "Bridge and roll immediately"
+          ],
+          "trap": [
+            "Posture up hard to break grip"
+          ]
+        }
       },
       {
         "question": "When during the transition is posturing up most likely to succeed as a defensive option?",
-        "answer": "Posturing up is most effective during the brief moment when the attacker releases their guillotine grip to rethread for the anaconda, as this creates a momentary gap in neck control. This window typically lasts less than one second. If the anaconda grip is already locked, posturing becomes counterproductive because driving your head upward actually tightens the constricting loop around your neck and trapped arm."
+        "answer": "Posturing up is most effective during the brief moment when the attacker releases their guillotine grip to rethread for the anaconda, as this creates a momentary gap in neck control. This window typically lasts less than one second. If the anaconda grip is already locked, posturing becomes counterproductive because driving your head upward actually tightens the constricting loop around your neck and trapped arm.",
+        "answer_line": "During the brief regrip gap only",
+        "distractors": {
+          "plausible": [
+            "Right when guillotine grip starts",
+            "Once figure-four is fully locked"
+          ],
+          "trap": [
+            "Posture up after anaconda locks"
+          ]
+        }
       },
       {
         "question": "How should you modify your defensive frames against the Hindulotine to avoid giving the anaconda entry?",
-        "answer": "Instead of posting your hand or elbow away from your body to create space against the guillotine, keep your defensive frames tight with elbows pinched to your ribs. Use your forearms and wrists to create smaller frames that relieve guillotine pressure without opening the space under your armpit needed for the anaconda. Alternatively, frame on the attacker's hip rather than against their chest, as this creates distance without exposing the armpit path."
+        "answer": "Instead of posting your hand or elbow away from your body to create space against the guillotine, keep your defensive frames tight with elbows pinched to your ribs. Use your forearms and wrists to create smaller frames that relieve guillotine pressure without opening the space under your armpit needed for the anaconda. Alternatively, frame on the attacker's hip rather than against their chest, as this creates distance without exposing the armpit path.",
+        "answer_line": "Keep elbows pinched, frame on hip",
+        "distractors": {
+          "plausible": [
+            "Post hand wide for max distance",
+            "Frame with straight arm on chest"
+          ],
+          "trap": [
+            "Post elbow away from your body"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -381,6 +592,35 @@
         "phase": "Week 7+",
         "focus": "Live integration and counter-offense",
         "description": "Defend the transition in live rolling from established Hindulotine positions. Track recognition speed and success rate. Develop counter-offense by using successful defense to improve position rather than simply surviving. Practice transitioning from defense to passing or scrambling to neutral position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "At1_GDu4hSc",
+        "title": "Quick anaconda choke escape",
+        "by": "ArtOfSayingGoodbye",
+        "vertical": false,
+        "channel": "ArtOfSayingGoodbye",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda choke defense",
+        "by": "SFS MMA",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "czQckiDogRc",
+        "title": "How to escape the anaconda choke (no-gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   },

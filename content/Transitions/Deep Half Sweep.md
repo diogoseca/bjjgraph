@@ -34,6 +34,54 @@ description: "Master the Deep Half Sweep in BJJ. Step-by-step guide to hip-lift 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Deep Half Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Deep half sweep \u2014 the Faria sweep",
+      "description": "Deep Half Sweep film study: Deep half sweep \u2014 the Faria sweep, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4EpYNsTwjWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4EpYNsTwjWY",
+      "url": "https://www.youtube.com/watch?v=4EpYNsTwjWY",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Deep half guard sweep demonstration",
+      "description": "Deep Half Sweep film study: Deep half guard sweep demonstration, taught by Kyle Dimmitt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
+      "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
+      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-gi deep half guard sweep in one minute",
+      "description": "Deep Half Sweep film study: No-gi deep half guard sweep in one minute, taught by Prism Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v7MopqNBzwY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v7MopqNBzwY",
+      "url": "https://www.youtube.com/watch?v=v7MopqNBzwY",
+      "creator": { "@type": "Person", "name": "Prism Jiu Jitsu" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The Deep Half Sweep is most effective when the opponent commits their weight for
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Deep Half Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4EpYNsTwjWY)
+
+<p class="clip-credit"><strong>Deep half sweep — the Faria sweep</strong> — taught by Team Daruma Dojo · 1:11 · <a href="https://www.youtube.com/watch?v=4EpYNsTwjWY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
+
+<p class="clip-credit"><strong>Deep half guard sweep demonstration</strong> — taught by Kyle Dimmitt · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v7MopqNBzwY)
+
+<p class="clip-credit"><strong>No-gi deep half guard sweep in one minute</strong> — taught by Prism Jiu Jitsu · 0:53 · <a href="https://www.youtube.com/watch?v=v7MopqNBzwY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -251,7 +335,7 @@ The Deep Half Sweep occupies a central role in the deep half guard system as the
 
 - [[Transitions/Backstep from Deep Half]] - Common defensive counter by top player against sweep attempts
 
-- [[Transitions/Deep Half Entry from Half Guard]] - Primary entry pathway to reach deep half sweep position
+- [[Transitions/Deep Half Entry]] - Primary entry pathway to reach deep half sweep position
 
 - [[Positions/Half Guard/Electric Chair]] - Alternative submission option from similar deep half positioning
 

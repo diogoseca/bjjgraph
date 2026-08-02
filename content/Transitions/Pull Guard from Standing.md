@@ -34,6 +34,54 @@ description: "Master pulling guard from standing in BJJ. Complete guide covering
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pull Guard from Standing \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Collar and sleeve guard pull",
+      "description": "Pull Guard from Standing film study: Collar and sleeve guard pull, taught by The Fang Den.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_CR9bNLYuEk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_CR9bNLYuEk",
+      "url": "https://www.youtube.com/watch?v=_CR9bNLYuEk",
+      "creator": { "@type": "Person", "name": "The Fang Den" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing closed guard pull to sweep",
+      "description": "Pull Guard from Standing film study: Standing closed guard pull to sweep, taught by Doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XS1e697it5c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XS1e697it5c",
+      "url": "https://www.youtube.com/watch?v=XS1e697it5c",
+      "creator": { "@type": "Person", "name": "Doug" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "One-grip guard pull to collar sleeve",
+      "description": "Pull Guard from Standing film study: One-grip guard pull to collar sleeve, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s1l1pyN6DsE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s1l1pyN6DsE",
+      "url": "https://www.youtube.com/watch?v=s1l1pyN6DsE",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT139S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ At the competitive level, the guard pull is far more nuanced than simply sitting
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pull Guard from Standing in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_CR9bNLYuEk)
+
+<p class="clip-credit"><strong>Collar and sleeve guard pull</strong> — taught by The Fang Den · 0:55 · <a href="https://www.youtube.com/watch?v=_CR9bNLYuEk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XS1e697it5c)
+
+<p class="clip-credit"><strong>Standing closed guard pull to sweep</strong> — taught by Doug · 0:27 · <a href="https://www.youtube.com/watch?v=XS1e697it5c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s1l1pyN6DsE)
+
+<p class="clip-credit"><strong>One-grip guard pull to collar sleeve</strong> — taught by Carpio Jiu Jitsu · 2:19 · <a href="https://www.youtube.com/watch?v=s1l1pyN6DsE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -255,7 +339,7 @@ The guard pull from standing serves as the primary gateway between the standing 
 
 - [[Positions/De La Riva Guard]] - Alternative guard system accessible from sitting guard pull variations
 
-- [[Transitions/Arm Drag from Standing]] - Alternative standing entry to a dominant position when the opponent defends the guard pull
+- [[Transitions/Arm Drag]] - Alternative standing entry to a dominant position when the opponent defends the guard pull
 
 - [[Transitions/50-50 Entry from Standing]] - Related standing-to-ground transition entering a leg entanglement instead of guard
 

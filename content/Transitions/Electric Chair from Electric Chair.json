@@ -15,22 +15,34 @@
   "from_position": "Electric Chair/Bottom",
   "outcomes": [
     {
-      "to": "game-over",
-      "probability": 45,
+      "to": "Mount/Top",
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Electric Chair/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Sitting at the apex of the 10th Planet lockdown system, this finish is what elevates lockdown half guard from a pure sweeping platform into a legitimate submission threat that opponents cannot ignore. It converts the Electric Chair sweeping position into a direct submission by maximizing the splitting pressure on the opponent's trapped leg, targeting the groin, hip flexors, and inner thigh structures through coordinated extension of the lockdown, underhook pull, and ankle control. The submission shares mechanical similarities with the Banana Split but is distinguished by its specific entry from the lockdown configuration and the unique leverage angles created by the figure-four leg entanglement.\n\nThe finish relies on three synchronized control points working in concert: the lockdown maintaining downward pressure on the opponent's near leg, the deep underhook stretching their upper body in the opposite direction, and the far hand pulling their ankle outward to create the splitting action. When executed with proper timing and hip angle, the pressure builds progressively through the opponent's groin and hip flexor complex until it becomes overwhelming and forces a tap. The technique is most effective when the opponent has committed their weight forward to defend the Old School sweep, inadvertently limiting their ability to retract their trapped leg and close the split angle.\n\nAs a direct submission, the Electric Chair represents the ultimate threat that makes the entire lockdown sweeping game viable. Its primary strategic value lies in the dilemma it creates alongside the Old School sweep: opponents who base out to prevent being swept expose themselves to increased splitting pressure, while those who address the submission by pulling their leg back become light and vulnerable to positional reversals. This dual-threat dynamic forces opponents into a lose-lose situation that defines the tactical richness of the Electric Chair position.",
   "variants_and_adaptations": [
     {
@@ -236,38 +248,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Electric Chair?",
-        "answer": "The optimal timing is when your opponent commits their weight forward to defend the Old School sweep or when they attempt to drive through with crossface pressure. This forward commitment makes it mechanically difficult for them to retract their trapped leg, and their defensive weight distribution actually amplifies the splitting pressure as they cannot simultaneously address the submission threat and maintain their base."
+        "answer": "The optimal timing is when your opponent commits their weight forward to defend the Old School sweep or when they attempt to drive through with crossface pressure. This forward commitment makes it mechanically difficult for them to retract their trapped leg, and their defensive weight distribution actually amplifies the splitting pressure as they cannot simultaneously address the submission threat and maintain their base.",
+        "answer_line": "When they commit weight forward",
+        "distractors": {
+          "plausible": [
+            "Right after securing lockdown",
+            "When they sit back and relax"
+          ],
+          "trap": [
+            "Before underhook is secured"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can attempt the Electric Chair?",
-        "answer": "Three conditions must be met: a secure lockdown with no slack in the figure-four configuration, a deep underhook reaching across the opponent's back to their far lat or belt, and control of the opponent's near ankle with your far hand. Additionally, your hips should be angled approximately 45 degrees to create perpendicular splitting force. Attempting the finish without any of these components reduces effectiveness dramatically."
+        "answer": "Three conditions must be met: a secure lockdown with no slack in the figure-four configuration, a deep underhook reaching across the opponent's back to their far lat or belt, and control of the opponent's near ankle with your far hand. Additionally, your hips should be angled approximately 45 degrees to create perpendicular splitting force. Attempting the finish without any of these components reduces effectiveness dramatically.",
+        "answer_line": "Lockdown, underhook, ankle grip",
+        "distractors": {
+          "plausible": [
+            "Lockdown and underhook only",
+            "Ankle grip before lockdown"
+          ],
+          "trap": [
+            "Attempt without hip angle set"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that makes the Electric Chair effective?",
-        "answer": "The perpendicular hip angle is the most critical mechanical detail. By rotating your hips approximately 45 degrees away from your opponent, you transform the splitting force from a linear pull into a perpendicular wedge that targets the groin and hip flexors at their weakest angle. This perpendicular force is what distinguishes an effective finish from a position that an opponent can simply resist through leg strength."
+        "answer": "The perpendicular hip angle is the most critical mechanical detail. By rotating your hips approximately 45 degrees away from your opponent, you transform the splitting force from a linear pull into a perpendicular wedge that targets the groin and hip flexors at their weakest angle. This perpendicular force is what distinguishes an effective finish from a position that an opponent can simply resist through leg strength.",
+        "answer_line": "45-degree perpendicular hip angle",
+        "distractors": {
+          "plausible": [
+            "Strong lockdown tension",
+            "Deep underhook control"
+          ],
+          "trap": [
+            "Pulling straight back on leg"
+          ]
+        }
       },
       {
         "question": "What are the most common failure points when attempting this submission?",
-        "answer": "The three most common failure points are: losing lockdown tension while securing the ankle grip, which allows leg extraction; using arm strength instead of hip extension to power the split, which fatigues quickly; and failing to establish the proper hip angle before applying pressure, which allows the opponent to resist through simple leg straightening. Each of these failures converts the submission attempt into a wasted effort that may expose you to guard passes."
+        "answer": "The three most common failure points are: losing lockdown tension while securing the ankle grip, which allows leg extraction; using arm strength instead of hip extension to power the split, which fatigues quickly; and failing to establish the proper hip angle before applying pressure, which allows the opponent to resist through simple leg straightening. Each of these failures converts the submission attempt into a wasted effort that may expose you to guard passes.",
+        "answer_line": "Using arms instead of hips",
+        "distractors": {
+          "plausible": [
+            "Losing hip angle under pressure",
+            "Grabbing ankle before lockdown"
+          ],
+          "trap": [
+            "Releasing underhook to grip ankle"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the most secure ankle control during the finish?",
-        "answer": "The heel cup grip, where your palm wraps around the back of the heel with fingers curling under the Achilles tendon, provides the most secure hold because it captures the narrowest part of the ankle structure. This grip resists stripping better than a mid-foot grip and allows you to redirect the ankle pull direction throughout the finish. If the heel cup is not available, a C-grip around the ankle joint with thumb on one side serves as an effective alternative."
+        "answer": "The heel cup grip, where your palm wraps around the back of the heel with fingers curling under the Achilles tendon, provides the most secure hold because it captures the narrowest part of the ankle structure. This grip resists stripping better than a mid-foot grip and allows you to redirect the ankle pull direction throughout the finish. If the heel cup is not available, a C-grip around the ankle joint with thumb on one side serves as an effective alternative.",
+        "answer_line": "Heel cup grip on Achilles",
+        "distractors": {
+          "plausible": [
+            "Mid-foot grip for control",
+            "C-grip around ankle joint"
+          ],
+          "trap": [
+            "Grabbing toes to twist ankle"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force application in this submission?",
-        "answer": "The primary force direction is a perpendicular split created by three opposing vectors: the lockdown drives the opponent's trapped leg downward and away, the underhook pulls their upper body toward you and upward, and the ankle control pulls their near leg outward toward your hip. The hip bridge adds a vertical component that amplifies all three vectors simultaneously. The result is a compound splitting force through the groin that cannot be resisted from a single defensive direction."
+        "answer": "The primary force direction is a perpendicular split created by three opposing vectors: the lockdown drives the opponent's trapped leg downward and away, the underhook pulls their upper body toward you and upward, and the ankle control pulls their near leg outward toward your hip. The hip bridge adds a vertical component that amplifies all three vectors simultaneously. The result is a compound splitting force through the groin that cannot be resisted from a single defensive direction.",
+        "answer_line": "Perpendicular split, three vectors",
+        "distractors": {
+          "plausible": [
+            "Straight-line pull downward",
+            "Upward pull from underhook only"
+          ],
+          "trap": [
+            "Pull ankle straight to hip only"
+          ]
+        }
       },
       {
         "question": "Your opponent begins straightening their trapped leg to resist the split - how do you adjust?",
-        "answer": "Increase lockdown downward pressure immediately by pulling your heel down harder on their thigh. If they continue straightening, their extension actually creates momentum you can redirect by transitioning to the Old School sweep, rolling backward while maintaining the underhook. Their straight leg becomes a lever that amplifies the sweep. If you want to maintain the submission attempt, re-angle your hips to find a new perpendicular vector against their straightened leg."
+        "answer": "Increase lockdown downward pressure immediately by pulling your heel down harder on their thigh. If they continue straightening, their extension actually creates momentum you can redirect by transitioning to the Old School sweep, rolling backward while maintaining the underhook. Their straight leg becomes a lever that amplifies the sweep. If you want to maintain the submission attempt, re-angle your hips to find a new perpendicular vector against their straightened leg.",
+        "answer_line": "Increase lockdown pressure down",
+        "distractors": {
+          "plausible": [
+            "Pull ankle harder toward hip",
+            "Re-angle hips for new vector"
+          ],
+          "trap": [
+            "Release lockdown, chase ankle"
+          ]
+        }
       },
       {
         "question": "If the Electric Chair is blocked, what are the most effective chain attacks?",
-        "answer": "The primary chain attack is the Old School sweep, which uses the same lockdown and underhook control but redirects the energy from splitting into rolling reversal. If the opponent defends both, transitioning to the Truck by using their leg extraction attempt to insert crab ride hooks is highly effective. A third option is flowing to Deep Half Guard by diving underneath the opponent when the lockdown is partially compromised, maintaining offensive initiative rather than resetting to neutral half guard."
+        "answer": "The primary chain attack is the Old School sweep, which uses the same lockdown and underhook control but redirects the energy from splitting into rolling reversal. If the opponent defends both, transitioning to the Truck by using their leg extraction attempt to insert crab ride hooks is highly effective. A third option is flowing to Deep Half Guard by diving underneath the opponent when the lockdown is partially compromised, maintaining offensive initiative rather than resetting to neutral half guard.",
+        "answer_line": "Old School sweep first",
+        "distractors": {
+          "plausible": [
+            "Truck via crab ride hooks",
+            "Deep Half Guard dive"
+          ],
+          "trap": [
+            "Release lockdown, reset guard"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Electric Chair targets the groin, hip flexors, and adductor muscles with intense splitting pressure that can cause severe injury if applied recklessly. Always apply the split progressively over 2-3 seconds rather than jerking or exploding into the finish, as the groin and hip flexor structures can tear rapidly once their tolerance threshold is exceeded. Release all control points immediately upon feeling or hearing any tap signal, including hand taps, verbal taps, and foot taps. Be especially cautious with training partners who have pre-existing hip, groin, or knee injuries, as the Electric Chair places significant stress on all of these structures simultaneously. In training, communicate with your partner about pressure levels and establish clear tap protocols before drilling this submission. Never hold the split after a tap, as even a few additional seconds of pressure can cause muscle tears or ligament damage."
+    "safety_considerations": "The Electric Chair targets the groin, hip flexors, and adductor muscles with intense splitting pressure that can cause severe injury if applied recklessly. Always apply the split progressively over 2-3 seconds rather than jerking or exploding into the finish, as the groin and hip flexor structures can tear rapidly once their tolerance threshold is exceeded. Release all control points immediately upon feeling or hearing any tap signal, including hand taps, verbal taps, and foot taps. Be especially cautious with training partners who have pre-existing hip, groin, or knee injuries, as the Electric Chair places significant stress on all of these structures simultaneously. In training, communicate with your partner about pressure levels and establish clear tap protocols before drilling this submission. Never hold the split after a tap, as even a few additional seconds of pressure can cause muscle tears or ligament damage.",
+    "clips": [
+      {
+        "id": "I8HLek9eCbg",
+        "title": "Electric Chair Submission",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "X7JA72d-3vw",
+        "title": "Electric Chair Submission Finish",
+        "by": "Dan M.",
+        "vertical": false,
+        "channel": "Dan M.",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pIoiYLBb_Vg",
+        "title": "Electric Chair Submission",
+        "by": "Panacea BJJ",
+        "vertical": false,
+        "channel": "PanaceaBJJ",
+        "duration": 76,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Electric Chair from Electric Chair Defender",
@@ -348,23 +469,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the Electric Chair is being attempted?",
-        "answer": "The earliest cue is when the bottom player releases one hand from their underhook or other upper body control to reach for your near ankle. This grip change signals the transition from sweep threat to submission attempt and represents your best window for defense, as the finish requires ankle control to create the splitting action."
+        "answer": "The earliest cue is when the bottom player releases one hand from their underhook or other upper body control to reach for your near ankle. This grip change signals the transition from sweep threat to submission attempt and represents your best window for defense, as the finish requires ankle control to create the splitting action.",
+        "answer_line": "Hand releases to grab ankle",
+        "distractors": {
+          "plausible": [
+            "Hips angle to 45 degrees",
+            "Underhook reaches your back"
+          ],
+          "trap": [
+            "Wait until legs feel split"
+          ]
+        }
       },
       {
         "question": "Why is stripping the ankle grip prioritized over breaking the lockdown when defending?",
-        "answer": "The ankle grip is the control point that creates the splitting action which defines the Electric Chair. Without ankle control, the attacker can only apply lockdown pressure and underhook extension, which creates sweep threats but not the perpendicular groin split needed for the submission. Breaking the lockdown is harder, takes longer, and the attacker can often re-engage it, whereas stripping the ankle grip immediately neutralizes the submission threat."
+        "answer": "The ankle grip is the control point that creates the splitting action which defines the Electric Chair. Without ankle control, the attacker can only apply lockdown pressure and underhook extension, which creates sweep threats but not the perpendicular groin split needed for the submission. Breaking the lockdown is harder, takes longer, and the attacker can often re-engage it, whereas stripping the ankle grip immediately neutralizes the submission threat.",
+        "answer_line": "Ankle grip creates the split",
+        "distractors": {
+          "plausible": [
+            "Lockdown is easier to break",
+            "Underhook is the real threat"
+          ],
+          "trap": [
+            "Focus on breaking lockdown first"
+          ]
+        }
       },
       {
         "question": "How should you rotate your hips to defend the Electric Chair?",
-        "answer": "Rotate your hips toward the attacker rather than away from them. Rotating toward the attacker closes the splitting angle by bringing your trapped leg closer to your free leg, reducing the perpendicular force on your groin. Rotating away from the attacker actually increases the split angle and makes the submission more effective. Combined with internal rotation of the trapped leg and forward driving pressure, hip rotation toward the attacker is the most effective way to neutralize the finish."
+        "answer": "Rotate your hips toward the attacker rather than away from them. Rotating toward the attacker closes the splitting angle by bringing your trapped leg closer to your free leg, reducing the perpendicular force on your groin. Rotating away from the attacker actually increases the split angle and makes the submission more effective. Combined with internal rotation of the trapped leg and forward driving pressure, hip rotation toward the attacker is the most effective way to neutralize the finish.",
+        "answer_line": "Rotate hips toward attacker",
+        "distractors": {
+          "plausible": [
+            "Internal rotate trapped leg only",
+            "Drive forward without rotating"
+          ],
+          "trap": [
+            "Rotate hips away from attacker"
+          ]
+        }
       },
       {
         "question": "What is the risk of defending too aggressively with forward pressure against the Electric Chair?",
-        "answer": "Excessive forward pressure makes you vulnerable to the Old School sweep, which uses the same lockdown and underhook control but redirects your momentum into a backward roll. The attacker can exploit your committed forward weight by releasing the ankle grip and rolling you over. The key is to apply enough forward pressure to limit their hip angle without committing so much weight that you cannot recover base if they initiate the sweep."
+        "answer": "Excessive forward pressure makes you vulnerable to the Old School sweep, which uses the same lockdown and underhook control but redirects your momentum into a backward roll. The attacker can exploit your committed forward weight by releasing the ankle grip and rolling you over. The key is to apply enough forward pressure to limit their hip angle without committing so much weight that you cannot recover base if they initiate the sweep.",
+        "answer_line": "Exposes you to Old School sweep",
+        "distractors": {
+          "plausible": [
+            "Loses the underhook position",
+            "Tires your hip flexors fast"
+          ],
+          "trap": [
+            "Commit full weight forward"
+          ]
+        }
       },
       {
         "question": "When should you tap rather than continue defending the Electric Chair?",
-        "answer": "Tap immediately if you feel sharp pain in your groin, hip flexor, or inner thigh, or if the splitting pressure reaches a level where you cannot close the angle through any defensive action. The groin and hip flexor structures can tear rapidly once their tolerance threshold is exceeded, and the injury risk increases exponentially as the split deepens. In training, there is no benefit to enduring dangerous levels of splitting pressure. Tap early, reset, and work on earlier defensive recognition."
+        "answer": "Tap immediately if you feel sharp pain in your groin, hip flexor, or inner thigh, or if the splitting pressure reaches a level where you cannot close the angle through any defensive action. The groin and hip flexor structures can tear rapidly once their tolerance threshold is exceeded, and the injury risk increases exponentially as the split deepens. In training, there is no benefit to enduring dangerous levels of splitting pressure. Tap early, reset, and work on earlier defensive recognition.",
+        "answer_line": "Sharp groin or hip flexor pain",
+        "distractors": {
+          "plausible": [
+            "Once your partner asks if you're ok",
+            "After a slow three-count elapses"
+          ],
+          "trap": [
+            "Grit it out until pressure fades"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -387,6 +558,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Defending the finish under full competition conditions",
         "description": "Start from established Electric Chair position with bottom player having all grips. Full resistance from both partners with controlled intensity. Defender works to escape the position entirely while managing the submission threat. Track escape rate and identify remaining defensive gaps over multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown and Electric Chair Counters and Escapes",
+        "by": "Coach Dennis",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pzpqHP-xx0I",
+        "title": "Electric Chair: the 3 micro battles to win",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 630,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "M_aipFOoBEA",
+        "title": "Lockdown Half Guard: electric chair details and counters",
+        "by": "Cheat Code Jiu Jitsu",
+        "vertical": false,
+        "channel": "Cheat Code Jiu Jitsu",
+        "duration": 775,
+        "verified": "2026-07-15"
       }
     ]
   }

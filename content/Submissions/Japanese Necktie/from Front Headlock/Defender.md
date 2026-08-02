@@ -150,6 +150,54 @@ description: "How to defend against Japanese Necktie in BJJ. Recognition, escape
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Japanese Necktie from Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the necktie hand switch",
+      "description": "Japanese Necktie from Front Headlock (Defender) film study: Preventing the necktie hand switch, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jDbywpDs3Tw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jDbywpDs3Tw",
+      "url": "https://www.youtube.com/watch?v=jDbywpDs3Tw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Prevent and escape the neck tie",
+      "description": "Japanese Necktie from Front Headlock (Defender) film study: Prevent and escape the neck tie, taught by Ben Egli.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zlN9lpUiZpY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zlN9lpUiZpY",
+      "url": "https://www.youtube.com/watch?v=zlN9lpUiZpY",
+      "creator": { "@type": "Person", "name": "Ben Egli" },
+      "duration": "PT146S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front headlock defense drill",
+      "description": "Japanese Necktie from Front Headlock (Defender) film study: Front headlock defense drill, taught by Kyoshi Pitassi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EoRv3QK4dmM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EoRv3QK4dmM",
+      "url": "https://www.youtube.com/watch?v=EoRv3QK4dmM",
+      "creator": { "@type": "Person", "name": "Kyoshi Pitassi" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ The Japanese Necktie defense centers on three critical priorities: preventing th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Japanese Necktie from Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jDbywpDs3Tw)
+
+<p class="clip-credit"><strong>Preventing the necktie hand switch</strong> — taught by Lachlan Giles · 2:09 · <a href="https://www.youtube.com/watch?v=jDbywpDs3Tw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zlN9lpUiZpY)
+
+<p class="clip-credit"><strong>Prevent and escape the neck tie</strong> — taught by Ben Egli · 2:26 · <a href="https://www.youtube.com/watch?v=zlN9lpUiZpY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EoRv3QK4dmM)
+
+<p class="clip-credit"><strong>Front headlock defense drill</strong> — taught by Kyoshi Pitassi · 0:37 · <a href="https://www.youtube.com/watch?v=EoRv3QK4dmM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

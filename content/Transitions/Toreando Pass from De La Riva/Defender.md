@@ -148,6 +148,54 @@ description: "Complete defensive guide against the Toreando Pass from De La Riva
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando Pass from De La Riva (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toreando defense with roll counter",
+      "description": "Toreando Pass from De La Riva (Defender) film study: Toreando defense with roll counter, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ad4250mBWKc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ad4250mBWKc",
+      "url": "https://www.youtube.com/watch?v=Ad4250mBWKc",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Framing the guard versus the toreando pass",
+      "description": "Toreando Pass from De La Riva (Defender) film study: Framing the guard versus the toreando pass, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3w8W6dr2Bw8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3w8W6dr2Bw8",
+      "url": "https://www.youtube.com/watch?v=3w8W6dr2Bw8",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to defend the toreando pass",
+      "description": "Toreando Pass from De La Riva (Defender) film study: How to defend the toreando pass, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nlPQCYdoITc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nlPQCYdoITc",
+      "url": "https://www.youtube.com/watch?v=nlPQCYdoITc",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT239S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Toreando Pass from De La Riva Guard requires understanding the att
 **Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando Pass from De La Riva (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ad4250mBWKc)
+
+<p class="clip-credit"><strong>Toreando defense with roll counter</strong> — taught by Revolution BJJ · 1:24 · <a href="https://www.youtube.com/watch?v=Ad4250mBWKc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3w8W6dr2Bw8)
+
+<p class="clip-credit"><strong>Framing the guard versus the toreando pass</strong> — taught by Rafael Mendes · 0:40 · <a href="https://www.youtube.com/watch?v=3w8W6dr2Bw8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nlPQCYdoITc)
+
+<p class="clip-credit"><strong>How to defend the toreando pass</strong> — taught by Jon Thomas · 3:59 · <a href="https://www.youtube.com/watch?v=nlPQCYdoITc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

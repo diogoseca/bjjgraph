@@ -21,37 +21,37 @@ description: "Master Old School Top in BJJ half guard. Control opponent's lockdo
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Break and Pass",
-      "text": "From this position, attempt Lockdown Break and Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Break and Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce from Lockdown Counter",
-      "text": "From this position, attempt Darce from Lockdown Counter. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Darce from Lockdown Counter. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface from Old School",
-      "text": "From this position, attempt Crossface from Old School. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Crossface from Old School. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Old School Top in BJJ half guard. Control opponent's lockdo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Old School (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stop the half guard underhook",
+      "description": "Old School (Top) film study: Stop the half guard underhook, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Top lockdown turk",
+      "description": "Old School (Top) film study: Top lockdown turk, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lwwIfCAA7Zc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lwwIfCAA7Zc",
+      "url": "https://www.youtube.com/watch?v=lwwIfCAA7Zc",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT207S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Safely escaping the lockdown from top",
+      "description": "Old School (Top) film study: Safely escaping the lockdown from top, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xIkXPK5h-4A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xIkXPK5h-4A",
+      "url": "https://www.youtube.com/watch?v=xIkXPK5h-4A",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT438S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The position gained prominence through 10th Planet Jiu-Jitsu's lockdown system, 
 From Old School Top, the practitioner can transition to passing positions like side control, mount, or back control, or can attack with submissions including the straight ankle lock, toe hold, or even kimura from the whizzer grip. The position demands patience and systematic pressure application rather than explosive movements, as hasty actions often lead directly into the opponent's lockdown sweep attempts.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Old School (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stop the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lwwIfCAA7Zc)
+
+<p class="clip-credit"><strong>Top lockdown turk</strong> — taught by Craig Jones · 3:27 · <a href="https://www.youtube.com/watch?v=lwwIfCAA7Zc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xIkXPK5h-4A)
+
+<p class="clip-credit"><strong>Safely escaping the lockdown from top</strong> — taught by Lachlan Giles · 7:18 · <a href="https://www.youtube.com/watch?v=xIkXPK5h-4A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

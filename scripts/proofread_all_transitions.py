@@ -32,6 +32,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))  # make the shared help
 from claude_infer import call_claude as _infer_call_claude
 from _atomic_io import atomic_write_json
 from _prob_norm import largest_remainder_round as _largest_remainder_round
+from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
 
 try:
     from tqdm import tqdm
@@ -639,7 +640,7 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
     # Load file
     try:
         with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
+            data = reduce_to_scalar(json.load(f), frame="nogi")  # read-only audit: no-gi headline frame
     except Exception as e:
         print(f"  ERROR: Could not load {file_path}: {e}")
         return result_info

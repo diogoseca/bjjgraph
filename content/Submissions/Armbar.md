@@ -35,6 +35,65 @@ description: "Master the Armbar submission in BJJ. Complete guide covering setup
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from S-Mount",
+      "description": "Armbar film study: Armbar from S-Mount, taught by Fenrir Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
+      "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
+      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Brutal armbar from S-mount",
+      "description": "Armbar film study: Brutal armbar from S-mount, taught by Lux\u0027s Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N-fwXASdMCQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N-fwXASdMCQ",
+      "url": "https://www.youtube.com/watch?v=N-fwXASdMCQ",
+      "creator": { "@type": "Person", "name": "Lux\u0027s Jiu Jitsu" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Overhook closed guard to rolling armbar",
+      "description": "Armbar film study: Overhook closed guard to rolling armbar, taught by BOWERHOUSE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XVxTzuJ1F60/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XVxTzuJ1F60",
+      "url": "https://www.youtube.com/watch?v=XVxTzuJ1F60",
+      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Roger Gracie armbars",
+      "description": "Armbar film study: Roger Gracie armbars, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +113,7 @@ description: "Master the Armbar submission in BJJ. Complete guide covering setup
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Armbar?", "acceptedAnswer": { "@type": "Answer", "text": "The Armbar is a fundamental BJJ joint lock that hyperextends the opponent\u0027s elbow by trapping their straightened arm between your legs and bridging your hips against the joint as a fulcrum, forcing the tap." } },
-    { "@type": "Question", "name": "What positions can you finish the Armbar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Armbar from Mount, Crucifix, Closed Guard, Side Control, Back Control, Armbar Control, S Mount, Technical Mount, High Mount, Knee on Belly." } },
+    { "@type": "Question", "name": "What positions can you finish the Armbar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Armbar from High Mount, S Mount, Crucifix, Closed Guard, Back Control, Mount, Knee on Belly, Armbar Control, Side Control, Technical Mount." } },
     { "@type": "Question", "name": "Is the Armbar dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Armbar targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early and release immediately on the tap." } }
   ]
 }
@@ -90,6 +149,50 @@ As one of the first submissions taught to beginners and one of the last perfecte
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
+
+<p class="clip-credit"><strong>Armbar from S-Mount</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N-fwXASdMCQ)
+
+<p class="clip-credit"><strong>Brutal armbar from S-mount</strong> — taught by Lux&#39;s Jiu Jitsu · 1:20 · <a href="https://www.youtube.com/watch?v=N-fwXASdMCQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XVxTzuJ1F60)
+
+<p class="clip-credit"><strong>Overhook closed guard to rolling armbar</strong> — taught by BOWERHOUSE MMA · 1:00 · <a href="https://www.youtube.com/watch?v=XVxTzuJ1F60" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Roger Gracie armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -99,19 +202,19 @@ As one of the first submissions taught to beginners and one of the last perfecte
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Armbar/from Mount|Mount]] | Top | 68% | [[Submissions/Armbar/from Mount/Attacker|Attack →]] | [[Submissions/Armbar/from Mount/Defender|Defend →]] |
-| [[Submissions/Armbar/from Crucifix|Crucifix]] | Top | 62% | [[Submissions/Armbar/from Crucifix/Attacker|Attack →]] | [[Submissions/Armbar/from Crucifix/Defender|Defend →]] |
-| [[Submissions/Armbar/from Guard|Closed Guard]] | Bottom | 62% | [[Submissions/Armbar/from Guard/Attacker|Attack →]] | [[Submissions/Armbar/from Guard/Defender|Defend →]] |
-| [[Submissions/Armbar/from Side Control|Side Control]] | Top | 62% | [[Submissions/Armbar/from Side Control/Attacker|Attack →]] | [[Submissions/Armbar/from Side Control/Defender|Defend →]] |
+| [[Submissions/Armbar/from High Mount|High Mount]] | Top | 68% | [[Submissions/Armbar/from High Mount/Attacker|Attack →]] | [[Submissions/Armbar/from High Mount/Defender|Defend →]] |
+| [[Submissions/Armbar/from S Mount|S Mount]] | Top | 68% | [[Submissions/Armbar/from S Mount/Attacker|Attack →]] | [[Submissions/Armbar/from S Mount/Defender|Defend →]] |
+| [[Submissions/Armbar/from Crucifix|Crucifix]] | Top | 65% | [[Submissions/Armbar/from Crucifix/Attacker|Attack →]] | [[Submissions/Armbar/from Crucifix/Defender|Defend →]] |
 | [[Submissions/Armbar/Rolling Armbar from Closed Guard|Closed Guard]] | Bottom | 60% | [[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Attack →]] | [[Submissions/Armbar/Rolling Armbar from Closed Guard/Defender|Defend →]] |
 | [[Submissions/Armbar/from Back|Back Control]] | Top | 60% | [[Submissions/Armbar/from Back/Attacker|Attack →]] | [[Submissions/Armbar/from Back/Defender|Defend →]] |
 | [[Submissions/Armbar/Reverse Armbar from Mount|Mount]] | Top | 58% | [[Submissions/Armbar/Reverse Armbar from Mount/Attacker|Attack →]] | [[Submissions/Armbar/Reverse Armbar from Mount/Defender|Defend →]] |
-| [[Submissions/Armbar/from Armbar Control|Armbar Control]] | Top | 58% | [[Submissions/Armbar/from Armbar Control/Attacker|Attack →]] | [[Submissions/Armbar/from Armbar Control/Defender|Defend →]] |
 | [[Submissions/Armbar/from Back with Legs|Back Control]] | Top | 58% | [[Submissions/Armbar/from Back with Legs/Attacker|Attack →]] | [[Submissions/Armbar/from Back with Legs/Defender|Defend →]] |
-| [[Submissions/Armbar/from S Mount|S Mount]] | Top | 55% | [[Submissions/Armbar/from S Mount/Attacker|Attack →]] | [[Submissions/Armbar/from S Mount/Defender|Defend →]] |
-| [[Submissions/Armbar/from Technical Mount|Technical Mount]] | Top | 55% | [[Submissions/Armbar/from Technical Mount/Attacker|Attack →]] | [[Submissions/Armbar/from Technical Mount/Defender|Defend →]] |
-| [[Submissions/Armbar/from High Mount|High Mount]] | Top | 50% | [[Submissions/Armbar/from High Mount/Attacker|Attack →]] | [[Submissions/Armbar/from High Mount/Defender|Defend →]] |
-| [[Submissions/Armbar/from Knee on Belly|Knee on Belly]] | Top | 45% | [[Submissions/Armbar/from Knee on Belly/Attacker|Attack →]] | [[Submissions/Armbar/from Knee on Belly/Defender|Defend →]] |
+| [[Submissions/Armbar/from Knee on Belly|Knee on Belly]] | Top | 58% | [[Submissions/Armbar/from Knee on Belly/Attacker|Attack →]] | [[Submissions/Armbar/from Knee on Belly/Defender|Defend →]] |
+| [[Submissions/Armbar/from Guard|Closed Guard]] | Bottom | 52% | [[Submissions/Armbar/from Guard/Attacker|Attack →]] | [[Submissions/Armbar/from Guard/Defender|Defend →]] |
+| [[Submissions/Armbar/from Armbar Control|Armbar Control]] | Top | 50% | [[Submissions/Armbar/from Armbar Control/Attacker|Attack →]] | [[Submissions/Armbar/from Armbar Control/Defender|Defend →]] |
+| [[Submissions/Armbar/from Side Control|Side Control]] | Top | 50% | [[Submissions/Armbar/from Side Control/Attacker|Attack →]] | [[Submissions/Armbar/from Side Control/Defender|Defend →]] |
+| [[Submissions/Armbar/from Mount|Mount]] | Top | 48% | [[Submissions/Armbar/from Mount/Attacker|Attack →]] | [[Submissions/Armbar/from Mount/Defender|Defend →]] |
+| [[Submissions/Armbar/from Technical Mount|Technical Mount]] | Top | 45% | [[Submissions/Armbar/from Technical Mount/Attacker|Attack →]] | [[Submissions/Armbar/from Technical Mount/Defender|Defend →]] |
 
 
 </div>

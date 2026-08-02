@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Modified Scarf Hold/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "overview": "Within the bottom escape system of the side-control family, the bridge is the most powerful answer to crushing chest-to-chest pressure precisely because it recruits the strongest muscle groups in the body, the glutes, hamstrings, and spinal erectors, to generate upward force that disrupts the top player's base and weight distribution. From the bottom of Modified Scarf Hold, that explosive hip extension is channeled either into a full reversal or into the space needed to begin a secondary escape, making it a cornerstone of any complete pin-escape game.\n\nThe strategic importance of this escape is significant. Modified Scarf Hold bottom is one of the most oppressive positions in BJJ, with sustained chest pressure that restricts breathing and drains energy rapidly. Without a reliable bridge escape, the bottom player faces mounting submission threats as fatigue accumulates. The bridge provides an explosive answer to this positional crisis, forcing the top player to react to powerful upward force rather than settling into comfortable attacking sequences.\n\nTiming is the critical variable separating successful bridge escapes from wasted energy. The bridge works best when the top player shifts weight, whether reaching for a submission, adjusting grips, or transitioning between positions. Bridging against a fully settled opponent with optimal weight distribution rarely succeeds and accelerates fatigue. Advanced practitioners develop the patience to wait for the correct timing window while maintaining defensive posture, then commit fully to the bridge with directional intent toward the opponent's weak posting side.",
   "variants_and_adaptations": [
     {
@@ -242,38 +254,147 @@
     "flashcards": [
       {
         "question": "What is the optimal foot position before executing the bridge from Modified Scarf Hold?",
-        "answer": "Plant both feet flat on the mat as close to your hips as possible, approximately shoulder-width apart. This compact positioning maximizes the mechanical advantage of your glutes and hamstrings, generating the greatest possible upward force. Feet positioned too far from your hips reduce bridging power significantly and create a shallow bridge angle that your opponent can easily ride without losing base."
+        "answer": "Plant both feet flat on the mat as close to your hips as possible, approximately shoulder-width apart. This compact positioning maximizes the mechanical advantage of your glutes and hamstrings, generating the greatest possible upward force. Feet positioned too far from your hips reduce bridging power significantly and create a shallow bridge angle that your opponent can easily ride without losing base.",
+        "answer_line": "Feet flat, close to hips",
+        "distractors": {
+          "plausible": [
+            "Feet wide for extra stability",
+            "Feet slightly extended from hips"
+          ],
+          "trap": [
+            "Feet far apart, knees pointed out"
+          ]
+        }
       },
       {
         "question": "How do you determine which direction to bridge against an opponent in Modified Scarf Hold?",
-        "answer": "Bridge toward your opponent's weakest posting angle, typically the direction where they have least hand support or base. Feel for which side their weight is distributed toward and bridge to the opposite side. If their hand is posted on your far side, bridge toward their near side. The goal is directing force where they have minimal structural support to prevent the roll."
+        "answer": "Bridge toward your opponent's weakest posting angle, typically the direction where they have least hand support or base. Feel for which side their weight is distributed toward and bridge to the opposite side. If their hand is posted on your far side, bridge toward their near side. The goal is directing force where they have minimal structural support to prevent the roll.",
+        "answer_line": "Toward their weak/open side",
+        "distractors": {
+          "plausible": [
+            "Toward the side they're facing",
+            "Away from their base hand"
+          ],
+          "trap": [
+            "Toward their strongest post"
+          ]
+        }
       },
       {
         "question": "What is the most critical timing window for executing this bridge escape?",
-        "answer": "The optimal timing window occurs when your opponent shifts their weight, whether reaching for a submission, adjusting grips, or beginning a transition to another position. During these moments, their base is temporarily compromised and weight distribution is in flux. Bridging during a fully settled pin wastes energy and rarely succeeds, so patience to wait for the right moment is essential for effective energy management."
+        "answer": "The optimal timing window occurs when your opponent shifts their weight, whether reaching for a submission, adjusting grips, or beginning a transition to another position. During these moments, their base is temporarily compromised and weight distribution is in flux. Bridging during a fully settled pin wastes energy and rarely succeeds, so patience to wait for the right moment is essential for effective energy management.",
+        "answer_line": "When they shift weight mid-move",
+        "distractors": {
+          "plausible": [
+            "Right after settling into pin",
+            "As soon as pin is secured"
+          ],
+          "trap": [
+            "Bridge repeatedly to wear them down"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand wide to block your bridge direction - how do you adjust?",
-        "answer": "Switch bridge direction immediately toward the opposite side where they now lack the posting arm. Their committed post on one side creates vulnerability on the other side. Advanced practitioners will fake the bridge one direction to draw the post, then bridge explosively the opposite way. The key insight is that every defensive commitment creates an opening elsewhere."
+        "answer": "Switch bridge direction immediately toward the opposite side where they now lack the posting arm. Their committed post on one side creates vulnerability on the other side. Advanced practitioners will fake the bridge one direction to draw the post, then bridge explosively the opposite way. The key insight is that every defensive commitment creates an opening elsewhere.",
+        "answer_line": "Switch bridge to open side",
+        "distractors": {
+          "plausible": [
+            "Push through the blocked side",
+            "Wait for hand to reposition"
+          ],
+          "trap": [
+            "Bridge straight into their post"
+          ]
+        }
       },
       {
         "question": "What happens if your bridge creates space but does not achieve a full reversal?",
-        "answer": "If the bridge creates separation but fails to complete the roll, immediately transition to an alternative escape rather than collapsing back flat. Use the momentary space to insert a knee shield for half guard recovery, turn to turtle position, or execute a shrimp for full guard recovery. Never waste the space created by returning to the flat starting position, as you have spent energy creating an opportunity that must be converted."
+        "answer": "If the bridge creates separation but fails to complete the roll, immediately transition to an alternative escape rather than collapsing back flat. Use the momentary space to insert a knee shield for half guard recovery, turn to turtle position, or execute a shrimp for full guard recovery. Never waste the space created by returning to the flat starting position, as you have spent energy creating an opportunity that must be converted.",
+        "answer_line": "Chain into shrimp or knee shield",
+        "distractors": {
+          "plausible": [
+            "Reset flat and rebridge later",
+            "Hold position and wait it out"
+          ],
+          "trap": [
+            "Return to flat starting position"
+          ]
+        }
       },
       {
         "question": "What is the role of your free arm during the bridge execution?",
-        "answer": "Your free arm serves as a directional frame that guides the bridge rotation and prevents your opponent from re-settling. Position it against their hip or ribcage on the side you are bridging toward, creating a lever that assists the rolling motion. During the bridge, this arm pushes in coordination with your hip drive to create maximum rotational force. After the roll completes, it immediately transitions to securing control on top."
+        "answer": "Your free arm serves as a directional frame that guides the bridge rotation and prevents your opponent from re-settling. Position it against their hip or ribcage on the side you are bridging toward, creating a lever that assists the rolling motion. During the bridge, this arm pushes in coordination with your hip drive to create maximum rotational force. After the roll completes, it immediately transitions to securing control on top.",
+        "answer_line": "Frame their hip, lever the roll",
+        "distractors": {
+          "plausible": [
+            "Push down on far shoulder",
+            "Grab their far arm sleeve"
+          ],
+          "trap": [
+            "Post it flat on the mat"
+          ]
+        }
       },
       {
         "question": "How should you manage your energy if your first bridge attempt fails?",
-        "answer": "After a failed bridge, immediately return to defensive frames rather than attempting another bridge right away. Re-establish breathing, protect your near arm, and wait for the next timing window. Repeated failed bridges deplete energy exponentially faster than waiting and create increasingly dangerous counter opportunities for the top player. One well-timed explosive bridge is worth more than five weak attempts."
+        "answer": "After a failed bridge, immediately return to defensive frames rather than attempting another bridge right away. Re-establish breathing, protect your near arm, and wait for the next timing window. Repeated failed bridges deplete energy exponentially faster than waiting and create increasingly dangerous counter opportunities for the top player. One well-timed explosive bridge is worth more than five weak attempts.",
+        "answer_line": "Reset frames, wait to rebridge",
+        "distractors": {
+          "plausible": [
+            "Immediately bridge again harder",
+            "Chain bridges back to back"
+          ],
+          "trap": [
+            "Keep bridging until it works"
+          ]
+        }
       },
       {
         "question": "Your opponent begins attacking an americana while maintaining Modified Scarf Hold - should you bridge?",
-        "answer": "Yes, this is an excellent timing window because reaching for the americana requires your opponent to release some control and shift weight toward your arm. Bridge explosively as their base is compromised by the submission attempt. The americana setup forces them to commit hands to your arm, leaving less base available to block the bridge. However, protect the targeted arm simultaneously by keeping it close to your body during the bridge execution."
+        "answer": "Yes, this is an excellent timing window because reaching for the americana requires your opponent to release some control and shift weight toward your arm. Bridge explosively as their base is compromised by the submission attempt. The americana setup forces them to commit hands to your arm, leaving less base available to block the bridge. However, protect the targeted arm simultaneously by keeping it close to your body during the bridge execution.",
+        "answer_line": "Yes—bridge, protect the arm",
+        "distractors": {
+          "plausible": [
+            "No, defend the americana first",
+            "Stall until they release grip"
+          ],
+          "trap": [
+            "Yank the arm free, then bridge"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Bridge escapes involve explosive spinal extension and rotation under load. Warm up the lower back, hip flexors, and cervical spine before drilling. Practice controlled bridges before explosive versions to establish proper movement patterns. Training partners should maintain reasonable pressure during drilling to prevent excessive cervical spine compression. Stop immediately if you feel sharp pain in the neck, lower back, or shoulders during bridging motions. Practitioners with pre-existing spinal conditions should consult their instructor before drilling explosive bridges."
+    "safety_considerations": "Bridge escapes involve explosive spinal extension and rotation under load. Warm up the lower back, hip flexors, and cervical spine before drilling. Practice controlled bridges before explosive versions to establish proper movement patterns. Training partners should maintain reasonable pressure during drilling to prevent excessive cervical spine compression. Stop immediately if you feel sharp pain in the neck, lower back, or shoulders during bridging motions. Practitioners with pre-existing spinal conditions should consult their instructor before drilling explosive bridges.",
+    "clips": [
+      {
+        "id": "NBBNLMCFvWM",
+        "title": "Bridge and roll escape from scarf hold",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa gatame bridge escape demo",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_HjmunOXVtY",
+        "title": "Kuzure kesa gatame escape variations",
+        "by": "Utah Shudokan",
+        "vertical": false,
+        "channel": "Utah Shudokan USA",
+        "duration": 70,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge from Modified Scarf Hold Defender",
@@ -352,19 +473,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is preparing to bridge from Modified Scarf Hold bottom?",
-        "answer": "Watch for foot repositioning as the primary cue. When your opponent plants both feet flat near their hips, they are loading their posterior chain for a bridge. Additional cues include their free arm moving to frame on your hip establishing directional intent, a deep preparatory breath indicating imminent exertion, and head turning to one side establishing the rotational angle. Recognizing these preparatory movements gives you time to adjust weight and posting before the bridge launches."
+        "answer": "Watch for foot repositioning as the primary cue. When your opponent plants both feet flat near their hips, they are loading their posterior chain for a bridge. Additional cues include their free arm moving to frame on your hip establishing directional intent, a deep preparatory breath indicating imminent exertion, and head turning to one side establishing the rotational angle. Recognizing these preparatory movements gives you time to adjust weight and posting before the bridge launches.",
+        "answer_line": "Feet planting flat near hips",
+        "distractors": {
+          "plausible": [
+            "Hand posting on your hip",
+            "A deep breath before exertion"
+          ],
+          "trap": [
+            "Wait until hips rise to react"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel your opponent beginning to bridge?",
-        "answer": "Drop your chest pressure lower and drive your hips forward into your opponent rather than pushing straight down. Shift weight toward the direction they are bridging to load their effort with additional mass they must displace. Stay on your toes to maintain mobility so you can adjust quickly if they switch directions. The key principle is flowing with the bridge force while maintaining chest contact rather than attempting to resist upward force with static weight alone."
+        "answer": "Drop your chest pressure lower and drive your hips forward into your opponent rather than pushing straight down. Shift weight toward the direction they are bridging to load their effort with additional mass they must displace. Stay on your toes to maintain mobility so you can adjust quickly if they switch directions. The key principle is flowing with the bridge force while maintaining chest contact rather than attempting to resist upward force with static weight alone.",
+        "answer_line": "Drop chest, drive hips, load them",
+        "distractors": {
+          "plausible": [
+            "Push straight down harder",
+            "Sprawl back onto your heels"
+          ],
+          "trap": [
+            "Lean back and post your hands"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges explosively and you feel your base being compromised - what is your best response?",
-        "answer": "If the bridge is strong enough to threaten reversal, immediately transition to mount by walking your knees over their hips as the bridge creates space. Use their upward momentum to slide into mount rather than fighting to maintain a broken Modified Scarf Hold position. This converts a potential escape into a positional advancement. If the bridge direction takes you forward rather than laterally, transition to north-south to maintain top control."
+        "answer": "If the bridge is strong enough to threaten reversal, immediately transition to mount by walking your knees over their hips as the bridge creates space. Use their upward momentum to slide into mount rather than fighting to maintain a broken Modified Scarf Hold position. This converts a potential escape into a positional advancement. If the bridge direction takes you forward rather than laterally, transition to north-south to maintain top control.",
+        "answer_line": "Walk knees over into mount",
+        "distractors": {
+          "plausible": [
+            "Fight to hold scarf hold",
+            "Sprawl back to flatten them"
+          ],
+          "trap": [
+            "Release grips, reset neutral"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to use your opponent's bridge attempt to advance position rather than simply maintaining Modified Scarf Hold?",
-        "answer": "Advance position when the bridge creates sufficient space between your bodies that re-settling Modified Scarf Hold would require a full positional reset. If their hips elevate significantly or they create rotation, the path to mount or north-south is often shorter than fighting back to the original pin. The general rule is: if you can slide your knee over their hip during the bridge, take mount; if they turn into you creating forward space, take north-south."
+        "answer": "Advance position when the bridge creates sufficient space between your bodies that re-settling Modified Scarf Hold would require a full positional reset. If their hips elevate significantly or they create rotation, the path to mount or north-south is often shorter than fighting back to the original pin. The general rule is: if you can slide your knee over their hip during the bridge, take mount; if they turn into you creating forward space, take north-south.",
+        "answer_line": "When space allows mount/N-S",
+        "distractors": {
+          "plausible": [
+            "Whenever any bridge happens",
+            "Only after passing full guard"
+          ],
+          "trap": [
+            "Always reset to original pin"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -387,6 +548,26 @@
         "phase": "Live Defense Integration",
         "focus": "Full resistance bridge defense in rolling context",
         "description": "Start in Modified Scarf Hold during live rolling with full resistance. Partner uses bridge as part of a complete escape game including chains to hip escape, turtle, and guard recovery. Defend the bridge while maintaining offensive threat and positional awareness."
+      }
+    ],
+    "clips": [
+      {
+        "id": "M7RJFVturi4",
+        "title": "Holding kesa gatame against the bridge escape",
+        "by": "Harry Grech",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 244,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RLpcMvQ8GTI",
+        "title": "Mune gatame chest hold pin control",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 66,
+        "verified": "2026-07-16"
       }
     ]
   }

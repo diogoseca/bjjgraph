@@ -406,35 +406,144 @@
   "flashcards": [
     {
       "question": "What is positional hierarchy in BJJ?",
-      "answer": "It is the strategic ranking of positions by control, submission access, escape difficulty, and competitive scoring, used to decide which positions to seek, hold, or trade for advantage rather than treating all positions as equal."
+      "answer": "It is the strategic ranking of positions by control, submission access, escape difficulty, and competitive scoring, used to decide which positions to seek, hold, or trade for advantage rather than treating all positions as equal.",
+      "answer_line": "Ranking positions by strategic value",
+      "distractors": {
+        "plausible": [
+          "Ranking by submission count alone",
+          "Whichever position feels comfortable"
+        ],
+        "trap": [
+          "Treating all positions as equal"
+        ]
+      }
     },
     {
       "question": "Why should you advance position before attempting a submission from an inferior spot?",
-      "answer": "Submissions from inferior positions have low success rates and high downside; if they fail you often descend further, so securing mount or back control first raises the finish rate while stripping the opponent of escapes."
+      "answer": "Submissions from inferior positions have low success rates and high downside; if they fail you often descend further, so securing mount or back control first raises the finish rate while stripping the opponent of escapes.",
+      "answer_line": "Advance position, then attack",
+      "distractors": {
+        "plausible": [
+          "Attack fast before they defend",
+          "Submit immediately for surprise"
+        ],
+        "trap": [
+          "Force submissions from any spot"
+        ]
+      }
     },
     {
       "question": "When is giving up a position actually a strategic gain?",
-      "answer": "When the position you trade into ranks higher on the hierarchy - offering better control, more submission access, or harder escapes for the opponent - making the exchange a net climb rather than a loss."
+      "answer": "When the position you trade into ranks higher on the hierarchy - offering better control, more submission access, or harder escapes for the opponent - making the exchange a net climb rather than a loss.",
+      "answer_line": "Trading up the hierarchy",
+      "distractors": {
+        "plausible": [
+          "Any position swap works fine",
+          "Giving up mount for guard"
+        ],
+        "trap": [
+          "Giving up back for side control"
+        ]
+      }
     },
     {
       "question": "What does the defensive hierarchy tell you to prioritize when stuck in a bad position?",
-      "answer": "Prevent further descent first: stop the worse position, such as a back take from turtle, before attempting any offense, allocating defensive urgency in proportion to the hierarchical danger of each position."
+      "answer": "Prevent further descent first: stop the worse position, such as a back take from turtle, before attempting any offense, allocating defensive urgency in proportion to the hierarchical danger of each position.",
+      "answer_line": "Stop further descent first",
+      "distractors": {
+        "plausible": [
+          "Attack a submission immediately",
+          "Escape to guard right away"
+        ],
+        "trap": [
+          "Ignore position, hunt for a choke"
+        ]
+      }
     },
     {
       "question": "How does competition scoring relate to positional hierarchy?",
-      "answer": "Points roughly mirror the hierarchy - mount and back control score highest while sweeps and passes reward climbing - so playing the hierarchy and maximizing points usually align in a competition setting."
+      "answer": "Points roughly mirror the hierarchy - mount and back control score highest while sweeps and passes reward climbing - so playing the hierarchy and maximizing points usually align in a competition setting.",
+      "answer_line": "Points mirror the hierarchy",
+      "distractors": {
+        "plausible": [
+          "Points ignore position value",
+          "Only submissions score points"
+        ],
+        "trap": [
+          "Sacrifice position to score fast"
+        ]
+      }
     },
     {
       "question": "What common error involves personal position preference?",
-      "answer": "Chasing favorite or comfortable positions that rank lower than available alternatives, sacrificing objective strategic advantage for familiarity instead of developing the higher-value positions that the hierarchy favors."
+      "answer": "Chasing favorite or comfortable positions that rank lower than available alternatives, sacrificing objective strategic advantage for familiarity instead of developing the higher-value positions that the hierarchy favors.",
+      "answer_line": "Chasing comfort over hierarchy",
+      "distractors": {
+        "plausible": [
+          "Copying your favorite instructor",
+          "Avoiding positions you're weak at"
+        ],
+        "trap": [
+          "Never leaving your best position"
+        ]
+      }
     },
     {
       "question": "How do you decide whether to attack a submission or keep advancing position?",
-      "answer": "Compare the submission's likely success from the current spot against the gain from advancing first; if a higher position would raise the finish rate more than an immediate attempt, keep climbing before attacking."
+      "answer": "Compare the submission's likely success from the current spot against the gain from advancing first; if a higher position would raise the finish rate more than an immediate attempt, keep climbing before attacking.",
+      "answer_line": "Compare finish rate vs advancing",
+      "distractors": {
+        "plausible": [
+          "Always attack when available",
+          "Always advance, never submit"
+        ],
+        "trap": [
+          "Submit blind from any position"
+        ]
+      }
     },
     {
       "question": "Why is abandoning a dominant position for a low-percentage submission a mistake?",
-      "answer": "It trades a secure high-hierarchy position for a speculative finish; if the submission fails you often lose the position entirely, a poor risk-reward exchange that discards hard-earned strategic advantage."
+      "answer": "It trades a secure high-hierarchy position for a speculative finish; if the submission fails you often lose the position entirely, a poor risk-reward exchange that discards hard-earned strategic advantage.",
+      "answer_line": "Trades security for a gamble",
+      "distractors": {
+        "plausible": [
+          "It wastes too much match time",
+          "It tires you out too fast"
+        ],
+        "trap": [
+          "Always finish when you see it"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "JMrGBjDctd4",
+      "title": "Understanding jiu-jitsu: the positional hierarchy",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 1548,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "x_IrC_-zzYU",
+      "title": "White belt positional guide: the hierarchy",
+      "by": "Will Brooks",
+      "vertical": false,
+      "channel": "Will Brooks Official",
+      "duration": 598,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "duFyN9AoWyE",
+      "title": "Positional hierarchy explained, part 2",
+      "by": "Dark Horse BJJ",
+      "vertical": false,
+      "channel": "Dark Horse Brazilian Jiu Jitsu",
+      "duration": 119,
+      "verified": "2026-07-15"
     }
   ]
 }

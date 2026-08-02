@@ -21,7 +21,7 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
     {
       "@type": "HowToStep",
       "name": "Execute Sickle Sweep",
-      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Tripod Sweep",
-      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elevator Sweep",
-      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Open Guard (Bottom) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 attacks from collar \u0026 sleeve guard",
+      "description": "Open Guard (Bottom) film study: 3 attacks from collar \u0026 sleeve guard, taught by Giancarlo Bodoni.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SehIaBibwYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SehIaBibwYY",
+      "url": "https://www.youtube.com/watch?v=SehIaBibwYY",
+      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Tomoe nage overhead sweep from open guard",
+      "description": "Open Guard (Bottom) film study: Tomoe nage overhead sweep from open guard, taught by Sapateiro Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fM9jaU9qlUE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fM9jaU9qlUE",
+      "url": "https://www.youtube.com/watch?v=fM9jaU9qlUE",
+      "creator": { "@type": "Person", "name": "Sapateiro Jiu-Jitsu" },
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
 Open Guard Bottom is a dynamic family of guard positions where the bottom player's legs are not closed around the opponent, allowing for greater mobility and attack variety at the cost of some defensive security. This position offers exceptional offensive versatility through numerous variations (butterfly, spider, lasso, de la riva, reverse de la riva, x-guard, single leg x), creating a complex strategic landscape. Open Guard serves as both a starting point for sweeps and submissions and as a transitional hub connecting various guard systems. The position emphasizes active engagement through foot and hand control, distance management, and constant threat creation. Unlike closed guard's reliance on leg lock for control, open guard requires continuous adjustment and reactive positioning based on opponent movement. This makes it simultaneously more demanding and more versatile, rewarding practitioners who develop strong grip fighting, hip mobility, and transition fluency. Success in open guard bottom depends on reading opponent's posture within 2-3 seconds and immediately transitioning to the appropriate specific guard system - Spider for kneeling opponents, De La Riva for standing opponents, Butterfly for forward pressure. The guard player must create constant dilemmas through simultaneous threats of sweeps and submissions, preventing the passer from settling into their preferred strategy.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SehIaBibwYY)
+
+<p class="clip-credit"><strong>3 attacks from collar &amp; sleeve guard</strong> — taught by Giancarlo Bodoni · 0:16 · <a href="https://www.youtube.com/watch?v=SehIaBibwYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fM9jaU9qlUE)
+
+<p class="clip-credit"><strong>Tomoe nage overhead sweep from open guard</strong> — taught by Sapateiro Jiu-Jitsu · 0:35 · <a href="https://www.youtube.com/watch?v=fM9jaU9qlUE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

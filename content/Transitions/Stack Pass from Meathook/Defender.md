@@ -148,6 +148,54 @@ description: "Defend against the Stack Pass from Meathook as the bottom Rubber G
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Meathook (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard: preventing the pass",
+      "description": "Stack Pass from Meathook (Defender) film study: Rubber guard: preventing the pass, taught by For\u00e7a Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E3sCfrFKJDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E3sCfrFKJDE",
+      "url": "https://www.youtube.com/watch?v=E3sCfrFKJDE",
+      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber guard quick fix",
+      "description": "Stack Pass from Meathook (Defender) film study: Rubber guard quick fix, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/huzjQNiJu7Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/huzjQNiJu7Y",
+      "url": "https://www.youtube.com/watch?v=huzjQNiJu7Y",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Prison guard breakdown",
+      "description": "Stack Pass from Meathook (Defender) film study: Prison guard breakdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PFFTzx1Ih_Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PFFTzx1Ih_Q",
+      "url": "https://www.youtube.com/watch?v=PFFTzx1Ih_Q",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Stack Pass from Meathook, you are the bottom player 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Meathook]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Meathook (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E3sCfrFKJDE)
+
+<p class="clip-credit"><strong>Rubber guard: preventing the pass</strong> — taught by Força Martial Arts · 2:38 · <a href="https://www.youtube.com/watch?v=E3sCfrFKJDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=huzjQNiJu7Y)
+
+<p class="clip-credit"><strong>Rubber guard quick fix</strong> — taught by Brandon McCaghren · 1:05 · <a href="https://www.youtube.com/watch?v=huzjQNiJu7Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PFFTzx1Ih_Q)
+
+<p class="clip-credit"><strong>Prison guard breakdown</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=PFFTzx1Ih_Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

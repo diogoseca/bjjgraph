@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Spider Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Ringworm Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Ringworm to Spider Guard transition represents a strategic conversion from lapel-based control to sleeve-based open guard, allowing the bottom player to shift from the specialized Ringworm Guard system to the more versatile Spider Guard framework. This transition is particularly valuable when the opponent begins systematically addressing the lapel wrap or when the guard player wants to access Spider Guard's proven sweep and submission chains. Rather than clinging to a deteriorating lapel configuration, the skilled practitioner recognizes the optimal moment to convert their positional advantage into a guard system with broader offensive options.\n\nThe technical core of this transition involves releasing the lapel grip while simultaneously capturing sleeve control and establishing feet on the opponent's biceps. The timing is critical: the guard player must secure at least one sleeve grip before fully abandoning the lapel, creating a brief moment of dual control that bridges the two guard systems. This transition exploits the opponent's focus on lapel extraction, as their hands commit to grip fighting the lapel rather than defending against sleeve acquisition. The grip exchange must be executed as a smooth, coordinated sequence rather than two separate actions.\n\nStrategically, this transition sits within the broader lapel guard ecosystem as an exit ramp to conventional gi guard play. It makes the bottom player's guard game more unpredictable and harder to strategize against, forcing the top player to defend both lapel-based and sleeve-based attacks within the same exchange. Practitioners who develop this transition gain the ability to flow between guard systems based on what the opponent gives them, embodying the principle that the best guard is the one your opponent cannot predict.",
   "conditions": [
     "Bottom player has established Ringworm Guard with lapel wrap around opponent's leg",
@@ -235,38 +247,138 @@
     "flashcards": [
       {
         "question": "What is the most critical timing window for initiating the Ringworm to Spider Guard transition?",
-        "answer": "The optimal timing window is when the opponent commits their hands to extracting the lapel wrap, momentarily abandoning sleeve defense. At this point, their hands are occupied with the lapel rather than protecting their sleeves, creating a natural opening for sleeve acquisition. Initiating too early wastes a functional Ringworm Guard, while too late means the lapel is already broken with nothing secured to replace it."
+        "answer": "The optimal timing window is when the opponent commits their hands to extracting the lapel wrap, momentarily abandoning sleeve defense. At this point, their hands are occupied with the lapel rather than protecting their sleeves, creating a natural opening for sleeve acquisition. Initiating too early wastes a functional Ringworm Guard, while too late means the lapel is already broken with nothing secured to replace it.",
+        "answer_line": "When hands leave sleeves for lapel",
+        "distractors": {
+          "plausible": [
+            "Right when lapel wrap locks in",
+            "As soon as you grip collar"
+          ],
+          "trap": [
+            "After lapel wrap is broken"
+          ]
+        }
       },
       {
         "question": "Why must you secure at least one sleeve grip before releasing the lapel wrap?",
-        "answer": "Releasing the lapel before establishing sleeve control creates a complete control vacuum where neither the Ringworm nor Spider Guard system is active. This gap allows the opponent to advance freely into a passing position with no resistance. The brief period of dual control, holding lapel and sleeve simultaneously, is the bridge that enables a safe transition between guard systems."
+        "answer": "Releasing the lapel before establishing sleeve control creates a complete control vacuum where neither the Ringworm nor Spider Guard system is active. This gap allows the opponent to advance freely into a passing position with no resistance. The brief period of dual control, holding lapel and sleeve simultaneously, is the bridge that enables a safe transition between guard systems.",
+        "answer_line": "Sleeve first, then release lapel",
+        "distractors": {
+          "plausible": [
+            "Release lapel, then grab sleeve",
+            "Grip both sleeves before releasing"
+          ],
+          "trap": [
+            "Release lapel to free your hands"
+          ]
+        }
       },
       {
         "question": "Your opponent begins pulling their arm back as you reach for the sleeve - how do you adjust?",
-        "answer": "Rather than chasing the withdrawing arm, immediately retighten the lapel wrap and reset your Ringworm Guard. Chasing the arm extends your body and creates vulnerability. Wait for the next opportunity when the opponent re-engages their arms for lapel extraction. Alternatively, use your foot to hook behind their elbow and pull the arm back toward you before gripping."
+        "answer": "Rather than chasing the withdrawing arm, immediately retighten the lapel wrap and reset your Ringworm Guard. Chasing the arm extends your body and creates vulnerability. Wait for the next opportunity when the opponent re-engages their arms for lapel extraction. Alternatively, use your foot to hook behind their elbow and pull the arm back toward you before gripping.",
+        "answer_line": "Retighten lapel, reset Ringworm",
+        "distractors": {
+          "plausible": [
+            "Chase the retreating arm",
+            "Switch grip to their wrist"
+          ],
+          "trap": [
+            "Let go of lapel, grab collar"
+          ]
+        }
       },
       {
         "question": "What grip depth and position on the sleeve provides the best Spider Guard control?",
-        "answer": "Secure a deep four-finger grip at or above the opponent's elbow crease, where the sleeve material is thickest. This position maximizes the lever arm length for controlling their arm movement and provides the strongest mechanical connection between your grip and your foot on their bicep. Gripping lower on the forearm or wrist reduces control significantly and allows easier grip breaks."
+        "answer": "Secure a deep four-finger grip at or above the opponent's elbow crease, where the sleeve material is thickest. This position maximizes the lever arm length for controlling their arm movement and provides the strongest mechanical connection between your grip and your foot on their bicep. Gripping lower on the forearm or wrist reduces control significantly and allows easier grip breaks.",
+        "answer_line": "Deep grip at elbow crease",
+        "distractors": {
+          "plausible": [
+            "Grip just below the wrist",
+            "Pinch grip near the cuff"
+          ],
+          "trap": [
+            "Grab high on the shoulder"
+          ]
+        }
       },
       {
         "question": "Where exactly should you place your feet during spider hook establishment and why?",
-        "answer": "Place the ball of your foot on the inner bicep area, specifically in the crook of the elbow or just above it on the upper bicep. This placement creates maximum pushing leverage because your foot acts against the weakest point of their arm structure. Placing too high on the shoulder reduces control, while placing on the forearm lacks the mechanical advantage needed for effective distance management and sweep setups."
+        "answer": "Place the ball of your foot on the inner bicep area, specifically in the crook of the elbow or just above it on the upper bicep. This placement creates maximum pushing leverage because your foot acts against the weakest point of their arm structure. Placing too high on the shoulder reduces control, while placing on the forearm lacks the mechanical advantage needed for effective distance management and sweep setups.",
+        "answer_line": "Ball of foot on inner bicep",
+        "distractors": {
+          "plausible": [
+            "Foot flat on the shoulder",
+            "Foot on the forearm"
+          ],
+          "trap": [
+            "Foot pressed into their chest"
+          ]
+        }
       },
       {
         "question": "The opponent drives forward with pressure just as you release the lapel - what is your immediate response?",
-        "answer": "Use your already-established spider hook on one side to push them back while framing with your free hand against their shoulder or chest. If the forward pressure is too strong, convert it into a sweep opportunity by extending under them or use a butterfly hook with your free leg to redirect their momentum overhead. The key is using their forward energy against them rather than trying to stop it directly."
+        "answer": "Use your already-established spider hook on one side to push them back while framing with your free hand against their shoulder or chest. If the forward pressure is too strong, convert it into a sweep opportunity by extending under them or use a butterfly hook with your free leg to redirect their momentum overhead. The key is using their forward energy against them rather than trying to stop it directly.",
+        "answer_line": "Push with hook, frame free hand",
+        "distractors": {
+          "plausible": [
+            "Post hands and stiff-arm them",
+            "Pull guard closed immediately"
+          ],
+          "trap": [
+            "Release both hooks and scoot back"
+          ]
+        }
       },
       {
         "question": "How does maintaining hip elevation affect the success of this transition?",
-        "answer": "Elevated hips are critical because they preserve sweeping leverage and mobility throughout the transition. Flat hips eliminate the ability to create angles, make foot repositioning slow and difficult, and signal to the opponent that they can apply crushing forward pressure safely. Staying on your shoulder or side ensures that once Spider Guard is established, you can immediately threaten sweeps without needing to first elevate and reposition."
+        "answer": "Elevated hips are critical because they preserve sweeping leverage and mobility throughout the transition. Flat hips eliminate the ability to create angles, make foot repositioning slow and difficult, and signal to the opponent that they can apply crushing forward pressure safely. Staying on your shoulder or side ensures that once Spider Guard is established, you can immediately threaten sweeps without needing to first elevate and reposition.",
+        "answer_line": "Elevated hips preserve sweeps",
+        "distractors": {
+          "plausible": [
+            "Flat hips for stability",
+            "Elevate only after guard set"
+          ],
+          "trap": [
+            "Flatten hips to block pressure"
+          ]
+        }
       },
       {
         "question": "If your first attempt at the transition fails and you fall back to Ringworm Guard, what should you assess before trying again?",
-        "answer": "Assess why the attempt failed by identifying whether it was a timing issue, grip acquisition problem, or opponent recognition of the transition. Check that your lapel wrap is still functional and retighten if needed. Evaluate whether the opponent has adjusted their arm defense to specifically counter sleeve grips. Consider varying your approach by trying the hybrid variant or lasso detour on the next attempt to avoid being predictable."
+        "answer": "Assess why the attempt failed by identifying whether it was a timing issue, grip acquisition problem, or opponent recognition of the transition. Check that your lapel wrap is still functional and retighten if needed. Evaluate whether the opponent has adjusted their arm defense to specifically counter sleeve grips. Consider varying your approach by trying the hybrid variant or lasso detour on the next attempt to avoid being predictable.",
+        "answer_line": "Diagnose why, retighten, vary",
+        "distractors": {
+          "plausible": [
+            "Immediately retry same grip",
+            "Switch positions entirely"
+          ],
+          "trap": [
+            "Abandon guard, turtle up"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves grip changes and position shifts that carry minimal direct injury risk compared to submissions or joint locks. However, practitioners should exercise caution with foot placement on biceps to avoid accidental contact with the training partner's face or eyes during the repositioning phase. Communicate with training partners during initial drill phases when practicing the grip exchange sequence. Avoid explosive foot movements near the opponent's face. If grip fatigue develops during repeated drilling, rest to prevent finger and forearm strain that can lead to overuse injuries."
+    "safety_considerations": "This transition involves grip changes and position shifts that carry minimal direct injury risk compared to submissions or joint locks. However, practitioners should exercise caution with foot placement on biceps to avoid accidental contact with the training partner's face or eyes during the repositioning phase. Communicate with training partners during initial drill phases when practicing the grip exchange sequence. Avoid explosive foot movements near the opponent's face. If grip fatigue develops during repeated drilling, rest to prevent finger and forearm strain that can lead to overuse injuries.",
+    "clips": [
+      {
+        "id": "RKSB3YVVxTQ",
+        "title": "Keymaster Guard to Spider Guard Sweep",
+        "by": "UFAI Grappling",
+        "vertical": false,
+        "channel": "UFAI GRAPPLING",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2j0T2PHb1z4",
+        "title": "Spider Guard Overhead Sweep to Knee on Belly",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 43,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ringworm to Spider Guard Defender",
@@ -351,19 +463,59 @@
     "flashcards": [
       {
         "question": "What is the primary vulnerability in the bottom player's guard during the Ringworm to Spider Guard transition?",
-        "answer": "The primary vulnerability is the grip exchange moment when the bottom player releases the lapel wrap to capture the second sleeve. During this brief window of approximately one to two seconds, neither the Ringworm Guard's lapel control nor Spider Guard's sleeve-and-bicep system is fully active, creating a control gap that the top player can exploit with forward pressure or grip prevention."
+        "answer": "The primary vulnerability is the grip exchange moment when the bottom player releases the lapel wrap to capture the second sleeve. During this brief window of approximately one to two seconds, neither the Ringworm Guard's lapel control nor Spider Guard's sleeve-and-bicep system is fully active, creating a control gap that the top player can exploit with forward pressure or grip prevention.",
+        "answer_line": "Grip exchange control gap",
+        "distractors": {
+          "plausible": [
+            "Weak lapel grip strength",
+            "Exposed back during setup"
+          ],
+          "trap": [
+            "Overextended legs on entry"
+          ]
+        }
       },
       {
         "question": "Why is retreating and creating distance a poor defensive response when the bottom player attempts this transition?",
-        "answer": "Spider Guard requires distance to function effectively since the bottom player needs space to extend their legs and place feet on your biceps. Retreating provides exactly the distance they need and makes Spider Guard establishment easier. Instead, closing distance by driving forward during the transition denies the space required for spider hooks and forces the bottom player into close-range positions where Spider Guard cannot be maintained."
+        "answer": "Spider Guard requires distance to function effectively since the bottom player needs space to extend their legs and place feet on your biceps. Retreating provides exactly the distance they need and makes Spider Guard establishment easier. Instead, closing distance by driving forward during the transition denies the space required for spider hooks and forces the bottom player into close-range positions where Spider Guard cannot be maintained.",
+        "answer_line": "Close distance, deny space",
+        "distractors": {
+          "plausible": [
+            "Retreat to create distance",
+            "Circle out to the side"
+          ],
+          "trap": [
+            "Back away and stand up"
+          ]
+        }
       },
       {
         "question": "How should you adjust your hand positioning when you recognize the transition is being initiated?",
-        "answer": "Immediately shift hand focus from lapel extraction to sleeve defense. Pull your elbows tight to your ribs to reduce sleeve accessibility, and if possible, grip the bottom player's wrists or forearms to prevent them from capturing your sleeves. Prioritize denying the second sleeve grip since the bottom player needs both sleeves for full Spider Guard. One sleeve grip alone produces a much weaker hybrid guard."
+        "answer": "Immediately shift hand focus from lapel extraction to sleeve defense. Pull your elbows tight to your ribs to reduce sleeve accessibility, and if possible, grip the bottom player's wrists or forearms to prevent them from capturing your sleeves. Prioritize denying the second sleeve grip since the bottom player needs both sleeves for full Spider Guard. One sleeve grip alone produces a much weaker hybrid guard.",
+        "answer_line": "Elbows tight, deny second sleeve",
+        "distractors": {
+          "plausible": [
+            "Grip their collar tightly",
+            "Push both hands to their hips"
+          ],
+          "trap": [
+            "Reach to strip their grips"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured one sleeve grip and is reaching for the second - what is your best response?",
-        "answer": "Address the immediate threat of the second sleeve grip by controlling their reaching hand with your free arm while simultaneously driving your trapped arm downward toward their hip to reduce the effectiveness of their single spider hook. If you prevent the second grip, you face a half-spider configuration that is much easier to pass than full Spider Guard. You can then systematically address the single grip and begin your passing sequence."
+        "answer": "Address the immediate threat of the second sleeve grip by controlling their reaching hand with your free arm while simultaneously driving your trapped arm downward toward their hip to reduce the effectiveness of their single spider hook. If you prevent the second grip, you face a half-spider configuration that is much easier to pass than full Spider Guard. You can then systematically address the single grip and begin your passing sequence.",
+        "answer_line": "Block second grip, drive arm down",
+        "distractors": {
+          "plausible": [
+            "Strip the first sleeve grip",
+            "Pull both arms to your chest"
+          ],
+          "trap": [
+            "Let go and pull guard back"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -386,6 +538,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense and counter-passing",
         "description": "Begin with partner in established Ringworm Guard. Partner chooses when to initiate the Spider Guard transition. You must both defend the transition and capitalize on any openings to advance your passing position. Track outcomes across multiple rounds to identify defensive success patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jhNqsGmnJX4",
+        "title": "Throw Pass Against Spider Guard",
+        "by": "Ultra Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Ultra Jiu Jitsu Academy",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "Correct Feet on Biceps Position and Counters",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8IGX--2XTos",
+        "title": "Throw By Pass Against Spider Guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 149,
+        "verified": "2026-07-15"
       }
     ]
   }

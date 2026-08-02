@@ -21,7 +21,7 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Garami",
-      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 2% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook Defense Escape",
-      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 43% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Standing Escape",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Counter-entangle to 50-50 Guard",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Ashi-Garami (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping and Countering Cross Ashi Garami",
+      "description": "Cross Ashi-Garami (Bottom) film study: Escaping and Countering Cross Ashi Garami, taught by Lux\u0027s Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FUjlpGRjU44/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FUjlpGRjU44",
+      "url": "https://www.youtube.com/watch?v=FUjlpGRjU44",
+      "creator": { "@type": "Person", "name": "Lux\u0027s Jiu Jitsu" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Irimi Ashi Garami Counter",
+      "description": "Cross Ashi-Garami (Bottom) film study: Irimi Ashi Garami Counter, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
+      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT29S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The position is characterized by the opponent having your leg trapped between th
 Cross Ashi-Garami Bottom is considered a medium-risk position because while heel hook submissions are available to the top player, the bottom practitioner has multiple pathways to escape, enter their own leg attacks, or transition to more favorable positions. Success in this position depends on remaining calm under pressure, maintaining proper defensive leg configuration, and capitalizing on the opponent's positional adjustments to create escape or counter-attack opportunities.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Ashi-Garami (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FUjlpGRjU44)
+
+<p class="clip-credit"><strong>Escaping and Countering Cross Ashi Garami</strong> — taught by Lux&#39;s Jiu Jitsu · 0:45 · <a href="https://www.youtube.com/watch?v=FUjlpGRjU44" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
+
+<p class="clip-credit"><strong>Irimi Ashi Garami Counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -343,7 +408,7 @@ From established cross ashi bottom position, partner deliberately creates openin
 - **[[Positions/Ashi Garami/Saddle]]** - Common transition target from cross ashi for top player
 - **[[Transitions/Ashi Garami Escape]]** - Primary escape technique from this position
 - **[[Transitions/Inside Ashi Entry]]** - Counter-attack transition to establish own leg control
-- **[[Transitions/Heel Hook]]** - Primary submission threat from opponent in this position
+- **[[Submissions/Heel Hook]]** - Primary submission threat from opponent in this position
 - **[[Submissions/Straight Ankle Lock]]** - Alternative submission threat from cross ashi position
 - **[[Positions/X-Guard]]** - Recovery position through X-guard to ashi transition
 - **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative recovery position from saddle defense

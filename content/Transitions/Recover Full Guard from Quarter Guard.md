@@ -34,6 +34,54 @@ description: "Master Recover Full Guard from Quarter Guard in BJJ. Expert guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Recover Full Guard from Quarter Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quarter guard fundamentals",
+      "description": "Recover Full Guard from Quarter Guard film study: Quarter guard fundamentals, taught by RGA South Herts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S8qzvGaBp74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S8qzvGaBp74",
+      "url": "https://www.youtube.com/watch?v=S8qzvGaBp74",
+      "creator": { "@type": "Person", "name": "RGA South Herts" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering from 3/4 Mount: Hooks Recovery",
+      "description": "Recover Full Guard from Quarter Guard film study: Recovering from 3/4 Mount: Hooks Recovery, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e8LWit7OEv4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e8LWit7OEv4",
+      "url": "https://www.youtube.com/watch?v=e8LWit7OEv4",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT241S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping 3/4 Mount to Recover Guard",
+      "description": "Recover Full Guard from Quarter Guard film study: Escaping 3/4 Mount to Recover Guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CApqOyD9Lvo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CApqOyD9Lvo",
+      "url": "https://www.youtube.com/watch?v=CApqOyD9Lvo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT556S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this recovery represents the last viable opportunity to retain gu
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Recover Full Guard from Quarter Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S8qzvGaBp74)
+
+<p class="clip-credit"><strong>Quarter guard fundamentals</strong> — taught by RGA South Herts · 1:06 · <a href="https://www.youtube.com/watch?v=S8qzvGaBp74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e8LWit7OEv4)
+
+<p class="clip-credit"><strong>Recovering from 3/4 Mount: Hooks Recovery</strong> — taught by Lachlan Giles · 4:01 · <a href="https://www.youtube.com/watch?v=e8LWit7OEv4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CApqOyD9Lvo)
+
+<p class="clip-credit"><strong>Escaping 3/4 Mount to Recover Guard</strong> — taught by Lachlan Giles · 9:16 · <a href="https://www.youtube.com/watch?v=CApqOyD9Lvo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -164,6 +164,54 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dealing with Pressure \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending top pressure and transitioning to attack",
+      "description": "Dealing with Pressure film study: Defending top pressure and transitioning to attack, taught by Firas Zahabi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EOJsjsYYmX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EOJsjsYYmX0",
+      "url": "https://www.youtube.com/watch?v=EOJsjsYYmX0",
+      "creator": { "@type": "Person", "name": "Firas Zahabi" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defensive BJJ: the five position system",
+      "description": "Dealing with Pressure film study: Defensive BJJ: the five position system, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HYON7oAvB2s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HYON7oAvB2s",
+      "url": "https://www.youtube.com/watch?v=HYON7oAvB2s",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT982S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to breathe when trapped and getting crushed",
+      "description": "Dealing with Pressure film study: How to breathe when trapped and getting crushed, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Vf07y7rmsxE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Vf07y7rmsxE",
+      "url": "https://www.youtube.com/watch?v=Vf07y7rmsxE",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT545S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Dealing with Pressure?
@@ -173,6 +221,42 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
 In Brazilian Jiu-Jitsu, many top-game specialists win primarily by imposing crushing, suffocating control rather than by chaining submissions, which makes the bottom player's ability to manage that load a decisive skill. Unlike specific escape techniques, dealing with pressure is a comprehensive conceptual framework that applies across all bottom positions where an opponent applies weight, compression, and control to limit mobility and breathing. This concept encompasses the physical endurance, technical positioning, psychological composure, and strategic approach required to survive and escape pressure-based control systems. Dealing with pressure serves as both a survival mechanism that prevents submission and positional deterioration, and a foundation for creating escape opportunities through managed space creation and frame maintenance. The ability to effectively deal with pressure often determines whether a practitioner can escape bad positions or succumbs to submission or exhaustion, making it one of the most essential defensive elements in BJJ.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dealing with Pressure in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EOJsjsYYmX0)
+
+<p class="clip-credit"><strong>Defending top pressure and transitioning to attack</strong> — taught by Firas Zahabi · 1:02 · <a href="https://www.youtube.com/watch?v=EOJsjsYYmX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HYON7oAvB2s)
+
+<p class="clip-credit"><strong>Defensive BJJ: the five position system</strong> — taught by Priit Mihkelson · 16:22 · <a href="https://www.youtube.com/watch?v=HYON7oAvB2s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Vf07y7rmsxE)
+
+<p class="clip-credit"><strong>How to breathe when trapped and getting crushed</strong> — taught by Stephan Kesting · 9:05 · <a href="https://www.youtube.com/watch?v=Vf07y7rmsxE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

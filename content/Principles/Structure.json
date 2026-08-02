@@ -369,43 +369,154 @@
   "flashcards": [
     {
       "question": "What is the difference between Structure and Posture in BJJ?",
-      "answer": "Posture refers specifically to spinal alignment, while Structure is the broader whole-body concept covering how every bone and joint — arms, hips, legs, and spine — aligns to transmit or resist force. Good posture is necessary but not sufficient for good structure."
+      "answer": "Posture refers specifically to spinal alignment, while Structure is the broader whole-body concept covering how every bone and joint — arms, hips, legs, and spine — aligns to transmit or resist force. Good posture is necessary but not sufficient for good structure.",
+      "answer_line": "Structure is broader than posture",
+      "distractors": {
+        "plausible": [
+          "Posture and structure are identical",
+          "Posture is the broader concept"
+        ],
+        "trap": [
+          "Only spine alignment matters"
+        ]
+      }
     },
     {
       "question": "What is bone stacking and why does it matter?",
-      "answer": "Bone stacking is aligning skeletal segments so force travels directly through bone rather than requiring muscle to bridge structural gaps. A stacked straight-arm frame transmits an opponent's pressure into your skeleton at almost no energy cost, whereas a bent frame must be held by fatiguing muscle."
+      "answer": "Bone stacking is aligning skeletal segments so force travels directly through bone rather than requiring muscle to bridge structural gaps. A stacked straight-arm frame transmits an opponent's pressure into your skeleton at almost no energy cost, whereas a bent frame must be held by fatiguing muscle.",
+      "answer_line": "Stack bones so force skips muscle",
+      "distractors": {
+        "plausible": [
+          "Bent frames save more energy",
+          "Muscle strength beats alignment"
+        ],
+        "trap": [
+          "Keep elbow bent for flexibility"
+        ]
+      }
     },
     {
       "question": "How can you tell during a roll that your structure has broken?",
-      "answer": "Feel for muscular fatigue in a supposedly static position. If holding the position requires constant muscular effort, force is being held by muscle instead of traveling through aligned bone, which means a joint or segment is out of alignment and needs correcting."
+      "answer": "Feel for muscular fatigue in a supposedly static position. If holding the position requires constant muscular effort, force is being held by muscle instead of traveling through aligned bone, which means a joint or segment is out of alignment and needs correcting.",
+      "answer_line": "Fatigue signals broken structure",
+      "distractors": {
+        "plausible": [
+          "Fatigue just means low cardio",
+          "Fatigue means opponent is stronger"
+        ],
+        "trap": [
+          "Push harder through the fatigue"
+        ]
+      }
     },
     {
       "question": "When should you be rigid versus flexible with your structure?",
-      "answer": "Be rigid when you need to resist a sweep, hold a frame, or transmit pressure into the opponent. Be flexible when you need to absorb, redirect, or flow with an explosion or transition. The expert switches between these states reflexively based on the incoming force."
+      "answer": "Be rigid when you need to resist a sweep, hold a frame, or transmit pressure into the opponent. Be flexible when you need to absorb, redirect, or flow with an explosion or transition. The expert switches between these states reflexively based on the incoming force.",
+      "answer_line": "Rigid to resist, flexible to flow",
+      "distractors": {
+        "plausible": [
+          "Stay rigid in every situation",
+          "Stay flexible in every situation"
+        ],
+        "trap": [
+          "Go rigid against a fast explosion"
+        ]
+      }
     },
     {
       "question": "Why is connecting your structure to the ground important?",
-      "answer": "The mat is the strongest available anchor point. In top positions, driving weight through your skeleton into the opponent and into the mat creates crushing pressure; in bottom positions, bracing frames against the mat lets the ground absorb the opponent's force instead of your muscles."
+      "answer": "The mat is the strongest available anchor point. In top positions, driving weight through your skeleton into the opponent and into the mat creates crushing pressure; in bottom positions, bracing frames against the mat lets the ground absorb the opponent's force instead of your muscles.",
+      "answer_line": "Mat anchors your structure",
+      "distractors": {
+        "plausible": [
+          "Air posture works just as well",
+          "Only top position needs the mat"
+        ],
+        "trap": [
+          "Lift off the mat for power"
+        ]
+      }
     },
     {
       "question": "Why should you break an opponent's structure before attempting a technique?",
-      "answer": "Techniques require far more force and succeed at much lower rates against a structurally sound opponent. Disrupting their alignment first — breaking posture, collapsing frames, disconnecting base from upper body — dramatically increases finishing and sweeping success rates."
+      "answer": "Techniques require far more force and succeed at much lower rates against a structurally sound opponent. Disrupting their alignment first — breaking posture, collapsing frames, disconnecting base from upper body — dramatically increases finishing and sweeping success rates.",
+      "answer_line": "Break their structure first",
+      "distractors": {
+        "plausible": [
+          "Attack technique before posture",
+          "Speed beats breaking structure"
+        ],
+        "trap": [
+          "Attack sound structure head-on"
+        ]
+      }
     },
     {
       "question": "What is the kinetic chain in the context of structure?",
-      "answer": "The kinetic chain is the connected sequence of joints from your point of force application back to your anchor (usually the mat). A break at any single joint dissipates force and forces muscles to compensate, so the whole chain must stay aligned for a technique to feel effortless."
+      "answer": "The kinetic chain is the connected sequence of joints from your point of force application back to your anchor (usually the mat). A break at any single joint dissipates force and forces muscles to compensate, so the whole chain must stay aligned for a technique to feel effortless.",
+      "answer_line": "Aligned joint chain to anchor",
+      "distractors": {
+        "plausible": [
+          "Only the working joint matters",
+          "Chain strength beats alignment"
+        ],
+        "trap": [
+          "Let one joint bend for reach"
+        ]
+      }
     },
     {
       "question": "What is the most common structural error and how do you fix it?",
-      "answer": "Using muscular effort to compensate for poor skeletal alignment instead of fixing the alignment. The fix is to treat fatigue as a diagnostic signal: when a position feels effortful, adjust structure (straighten an arm, shift a hip, align a shoulder) to make it effortless rather than muscling through."
+      "answer": "Using muscular effort to compensate for poor skeletal alignment instead of fixing the alignment. The fix is to treat fatigue as a diagnostic signal: when a position feels effortful, adjust structure (straighten an arm, shift a hip, align a shoulder) to make it effortless rather than muscling through.",
+      "answer_line": "Muscling through bad alignment",
+      "distractors": {
+        "plausible": [
+          "Skipping warmups causes it",
+          "Being too flexible causes it"
+        ],
+        "trap": [
+          "Muscle harder to fix fatigue"
+        ]
+      }
     },
     {
       "question": "How does Structure relate to Pressure?",
-      "answer": "Structure is the delivery mechanism for pressure. Body weight only transfers as heavy, effortless pressure when it travels through aligned, bone-stacked skeleton; without structure that weight dissipates into muscular effort and feels light to the opponent."
+      "answer": "Structure is the delivery mechanism for pressure. Body weight only transfers as heavy, effortless pressure when it travels through aligned, bone-stacked skeleton; without structure that weight dissipates into muscular effort and feels light to the opponent.",
+      "answer_line": "Structure delivers pressure",
+      "distractors": {
+        "plausible": [
+          "Pressure comes from muscle mass",
+          "Pressure and structure unrelated"
+        ],
+        "trap": [
+          "Bend arms to add more pressure"
+        ]
+      }
     },
     {
       "question": "What does task-specific structural configuration mean?",
-      "answer": "Different tasks demand different alignments — the bone stacking optimal for top pressure differs from that for passing the guard, which differs from that for holding a defensive frame. Practitioners must learn multiple configurations and deploy the correct one for each situation."
+      "answer": "Different tasks demand different alignments — the bone stacking optimal for top pressure differs from that for passing the guard, which differs from that for holding a defensive frame. Practitioners must learn multiple configurations and deploy the correct one for each situation.",
+      "answer_line": "Structure varies per task",
+      "distractors": {
+        "plausible": [
+          "One structure fits every task",
+          "Only top pressure needs structure"
+        ],
+        "trap": [
+          "Use passing structure for defense"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "KuZtR1mogvY",
+      "title": "How base, posture and connection work in BJJ",
+      "by": "SBG PDX",
+      "vertical": false,
+      "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+      "duration": 222,
+      "verified": "2026-07-15"
     }
   ]
 }

@@ -148,6 +148,54 @@ description: "Complete guide to defending the Lockdown Whizzer Pass from lockdow
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown Whizzer Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Beating the whizzer from half guard dogfight",
+      "description": "Lockdown Whizzer Pass (Defender) film study: Beating the whizzer from half guard dogfight, taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Whizzer counter from half butterfly guard",
+      "description": "Lockdown Whizzer Pass (Defender) film study: Whizzer counter from half butterfly guard, taught by RKBJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/McIs6aNz4Tk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/McIs6aNz4Tk",
+      "url": "https://www.youtube.com/watch?v=McIs6aNz4Tk",
+      "creator": { "@type": "Person", "name": "RKBJJ coach" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Stopping the half guard underhook",
+      "description": "Lockdown Whizzer Pass (Defender) film study: Stopping the half guard underhook, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Lockdown Whizzer Pass, your primary challenge is pre
 **Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown Whizzer Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
+
+<p class="clip-credit"><strong>Beating the whizzer from half guard dogfight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=McIs6aNz4Tk)
+
+<p class="clip-credit"><strong>Whizzer counter from half butterfly guard</strong> — taught by RKBJJ coach · 0:51 · <a href="https://www.youtube.com/watch?v=McIs6aNz4Tk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stopping the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

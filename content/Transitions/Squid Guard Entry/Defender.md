@@ -148,6 +148,54 @@ description: "How to defend against Squid Guard Entry in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Squid Guard Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the worm rider lapel guard",
+      "description": "Squid Guard Entry (Defender) film study: Passing the worm rider lapel guard, taught by Daniel Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aR0dbddbfQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aR0dbddbfQA",
+      "url": "https://www.youtube.com/watch?v=aR0dbddbfQA",
+      "creator": { "@type": "Person", "name": "Daniel Maira" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fio dental lapel guard pass",
+      "description": "Squid Guard Entry (Defender) film study: Fio dental lapel guard pass, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U6h4HKtwqU4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U6h4HKtwqU4",
+      "url": "https://www.youtube.com/watch?v=U6h4HKtwqU4",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse de la worm smash pass defense",
+      "description": "Squid Guard Entry (Defender) film study: Reverse de la worm smash pass defense, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U-d9fLP9eAo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U-d9fLP9eAo",
+      "url": "https://www.youtube.com/watch?v=U-d9fLP9eAo",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ When prevention fails and the arm wrap is partially or fully established, the de
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Squid Guard Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aR0dbddbfQA)
+
+<p class="clip-credit"><strong>Passing the worm rider lapel guard</strong> — taught by Daniel Maira · 0:54 · <a href="https://www.youtube.com/watch?v=aR0dbddbfQA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U6h4HKtwqU4)
+
+<p class="clip-credit"><strong>Fio dental lapel guard pass</strong> — taught by Ninja Pinto · 1:49 · <a href="https://www.youtube.com/watch?v=U6h4HKtwqU4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U-d9fLP9eAo)
+
+<p class="clip-credit"><strong>Reverse de la worm smash pass defense</strong> — taught by Satori BJJ · 1:02 · <a href="https://www.youtube.com/watch?v=U-d9fLP9eAo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

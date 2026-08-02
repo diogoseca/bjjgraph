@@ -34,6 +34,54 @@ description: "Master Reverse X to Ashi Garami Entry in BJJ. Transition from Reve
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X to Ashi Garami Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly to reverse X to cross ashi garami",
+      "description": "Reverse X to Ashi Garami Entry film study: Butterfly to reverse X to cross ashi garami, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GqE4UobpkMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GqE4UobpkMs",
+      "url": "https://www.youtube.com/watch?v=GqE4UobpkMs",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse X to ashi garami",
+      "description": "Reverse X to Ashi Garami Entry film study: Reverse X to ashi garami, taught by The Sanctuary BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bf5cJNYCMcA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bf5cJNYCMcA",
+      "url": "https://www.youtube.com/watch?v=Bf5cJNYCMcA",
+      "creator": { "@type": "Person", "name": "The Sanctuary BJJ" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse X-guard to cross ashi garami",
+      "description": "Reverse X to Ashi Garami Entry film study: Reverse X-guard to cross ashi garami, taught by Ascend Institute.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RIo0PSEgxSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RIo0PSEgxSg",
+      "url": "https://www.youtube.com/watch?v=RIo0PSEgxSg",
+      "creator": { "@type": "Person", "name": "Ascend Institute" },
+      "duration": "PT257S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this technique creates a powerful dilemma for the top player: def
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X to Ashi Garami Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GqE4UobpkMs)
+
+<p class="clip-credit"><strong>Butterfly to reverse X to cross ashi garami</strong> — taught by Bowerhouse MMA · 1:28 · <a href="https://www.youtube.com/watch?v=GqE4UobpkMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bf5cJNYCMcA)
+
+<p class="clip-credit"><strong>Reverse X to ashi garami</strong> — taught by The Sanctuary BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=Bf5cJNYCMcA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RIo0PSEgxSg)
+
+<p class="clip-credit"><strong>Reverse X-guard to cross ashi garami</strong> — taught by Ascend Institute · 4:17 · <a href="https://www.youtube.com/watch?v=RIo0PSEgxSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -251,7 +335,7 @@ Reverse X to Ashi Garami Entry serves as a critical connection between the moder
 
 - [[Transitions/Back Take from Ashi]] - Follow-up when opponent backsteps out of entanglement
 
-- [[Transitions/Heel Hook]] - Primary submission from completed Ashi Garami
+- [[Submissions/Heel Hook]] - Primary submission from completed Ashi Garami
 
 - [[Positions/X-Guard]] - Related guard with similar elevation and entry mechanics
 

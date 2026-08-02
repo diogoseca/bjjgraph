@@ -174,6 +174,43 @@ description: "Learn to execute the X-Guard Technical Stand Up with step-by-step 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard Technical Stand Up (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X guard to technical stand up sweep",
+      "description": "X-Guard Technical Stand Up (Attacker) film study: X guard to technical stand up sweep, taught by Sdotbell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zfKTZUtT7ec/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zfKTZUtT7ec",
+      "url": "https://www.youtube.com/watch?v=zfKTZUtT7ec",
+      "creator": { "@type": "Person", "name": "Sdotbell" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X-guard to technical stand up to back take",
+      "description": "X-Guard Technical Stand Up (Attacker) film study: X-guard to technical stand up to back take, taught by Aibar Orazaly.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uN_h80PhmkY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uN_h80PhmkY",
+      "url": "https://www.youtube.com/watch?v=uN_h80PhmkY",
+      "creator": { "@type": "Person", "name": "Aibar Orazaly" },
+      "duration": "PT10S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The X-Guard Technical Stand Up requires precise coordination between your leg ho
 **From Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard Technical Stand Up (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zfKTZUtT7ec)
+
+<p class="clip-credit"><strong>X guard to technical stand up sweep</strong> — taught by Sdotbell · 1:01 · <a href="https://www.youtube.com/watch?v=zfKTZUtT7ec" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uN_h80PhmkY)
+
+<p class="clip-credit"><strong>X-guard to technical stand up to back take</strong> — taught by Aibar Orazaly · 0:10 · <a href="https://www.youtube.com/watch?v=uN_h80PhmkY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

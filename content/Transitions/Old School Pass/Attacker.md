@@ -174,6 +174,32 @@ description: "Complete guide to executing the Old School Pass in BJJ. Master whi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Old School Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown sweep details",
+      "description": "Old School Pass (Attacker) film study: Lockdown sweep details, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/08cbHHs_NsM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/08cbHHs_NsM",
+      "url": "https://www.youtube.com/watch?v=08cbHHs_NsM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +209,26 @@ The Old School Pass from the attacker perspective requires establishing and main
 **From Position**: [[Positions/Half Guard/Old School]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Old School Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=08cbHHs_NsM)
+
+<p class="clip-credit"><strong>Lockdown sweep details</strong> — taught by Eddie Bravo · 0:53 · <a href="https://www.youtube.com/watch?v=08cbHHs_NsM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Combat Base/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 75,
+  "success_rate": {
+    "gi": 75,
+    "nogi": 75
+  },
   "overview": "Inside an opponent's guard, the moment your posture is broken is the moment you lose access to passing and become a target for collar chokes, armbars, triangles, and sweeps—which is exactly why posture recovery sits at the foundation of every top player's guard-passing game. Breaking your posture is one of the guard player's primary objectives, so your ability to systematically rebuild structure neutralizes their entire offensive platform and forces them to re-establish control. The technique involves a deliberate sequence of creating space, establishing proper base, and using controlled hip-driven movement to return to an advantageous, upright position.\n\nMastering posture recovery is crucial because it represents the difference between maintaining offensive potential and being swept or submitted. When your posture is broken inside closed guard, you face immediate threats including collar chokes, armbars, triangles, and various sweeps. The guard player's entire offensive system depends on maintaining broken posture, so your ability to recover neutralizes their game plan and forces them to re-establish control.\n\nWhen executed properly, posture recovery neutralizes the guard player's attacks while preserving your energy and positioning for continued passing attempts. The technique chains directly into combat base establishment and guard opening sequences, making it the essential first link in any guard passing chain. Advanced practitioners develop the ability to recover posture while simultaneously addressing submission threats and transitioning immediately into passing attacks, turning a defensive moment into an offensive opportunity.",
   "conditions": [
     "Posture has been broken by opponent's pulling grips or leg pressure",
@@ -242,46 +254,166 @@
     "flashcards": [
       {
         "question": "What is the primary movement that creates distance during posture recovery?",
-        "answer": "Driving the hips backward and downward away from the opponent using the posterior chain is the primary movement. This hip drive creates the necessary distance to begin straightening the spine and recovering upright posture. The movement should be initiated from the legs and hips, not from pulling with the upper body or jerking the head back. The force vector is directly away from the opponent, not upward."
+        "answer": "Driving the hips backward and downward away from the opponent using the posterior chain is the primary movement. This hip drive creates the necessary distance to begin straightening the spine and recovering upright posture. The movement should be initiated from the legs and hips, not from pulling with the upper body or jerking the head back. The force vector is directly away from the opponent, not upward.",
+        "answer_line": "Hip drive back and down",
+        "distractors": {
+          "plausible": [
+            "Push straight up with arms",
+            "Pull chest away first"
+          ],
+          "trap": [
+            "Yank head back to escape"
+          ]
+        }
       },
       {
         "question": "Why should you avoid leading posture recovery with your head or neck?",
-        "answer": "Leading with the head or neck creates significant injury risk to the cervical spine, particularly if the opponent is pulling down with collar grips that load the neck under extension. Additionally, it telegraphs your intention and makes it easier for the opponent to time counters such as triangles and armbars. Proper recovery initiates from the hips with progressive spinal straightening from lumbar through thoracic to cervical, ensuring force is distributed across the entire posterior chain."
+        "answer": "Leading with the head or neck risks cervical spine injury and telegraphs your recovery, letting the opponent time triangles and armbars. The danger is greatest when the opponent is pulling down with collar grips that load the neck under extension. Proper recovery initiates from the hips with progressive spinal straightening from lumbar through thoracic to cervical, ensuring force is distributed across the entire posterior chain rather than concentrated on the neck.",
+        "distractors": {
+          "plausible": [
+            "It only slows your recovery",
+            "It tires your neck muscles"
+          ],
+          "trap": [
+            "Snap head back to shed the grip"
+          ]
+        },
+        "answer_line": "Head lead risks cervical injury"
       },
       {
         "question": "Your opponent pivots their hips for an armbar as you begin recovering posture - how do you adjust?",
-        "answer": "Immediately tuck the targeted elbow tight to your ribs and posture explosively to the opposite side of the armbar attempt. Drive your weight forward over their attacking leg to kill the hip angle they need to finish. Avoid pulling the arm straight back, which plays into their leverage. Instead, stack forward while keeping the elbow bent and connected to your body. Once the immediate threat passes, resume posture recovery with awareness that the arm attack may be re-attempted."
+        "answer": "Immediately tuck the targeted elbow tight to your ribs and posture explosively to the opposite side of the armbar attempt. Drive your weight forward over their attacking leg to kill the hip angle they need to finish. Avoid pulling the arm straight back, which plays into their leverage. Instead, stack forward while keeping the elbow bent and connected to your body. Once the immediate threat passes, resume posture recovery with awareness that the arm attack may be re-attempted.",
+        "answer_line": "Tuck elbow, stack forward",
+        "distractors": {
+          "plausible": [
+            "Pull arm straight back",
+            "Posture straight up fast"
+          ],
+          "trap": [
+            "Rip arm free by extending it"
+          ]
+        }
       },
       {
         "question": "What grip must you address before committing to the major recovery movement?",
-        "answer": "The cross collar grip is the most dangerous grip that must be addressed first, as it allows the opponent to both maintain broken posture and threaten cross collar chokes during your recovery. Use a two-on-one grip break by grabbing their gripping wrist with both hands and pushing toward their thumb while rotating your shoulders away. Sleeve grips can often be managed during recovery, but a deep collar grip will pull you back down or choke you if not neutralized before committing to the hip drive."
+        "answer": "Break the cross collar grip first, because it both holds your posture broken and threatens cross collar chokes during your recovery. Use a two-on-one grip break by grabbing their gripping wrist with both hands and pushing toward their thumb while rotating your shoulders away. Sleeve grips can often be managed during recovery, but a deep collar grip will pull you back down or choke you if not neutralized before committing to the hip drive.",
+        "distractors": {
+          "plausible": [
+            "Break the sleeve grip first",
+            "Break both grips together"
+          ],
+          "trap": [
+            "Pull straight back into choke"
+          ]
+        },
+        "answer_line": "Break the cross collar grip"
       },
       {
         "question": "What is the optimal timing window for initiating posture recovery against an active guard player?",
-        "answer": "The optimal window occurs when the opponent is transitioning between attacks or adjusting their grips. During grip changes, their pulling power temporarily drops as they release one hand to reposition. Similarly, after a failed submission attempt, there is a brief reset period where their leg and arm control is looser. Timing your explosive hip drive to coincide with these moments of reduced control dramatically increases recovery success rate and reduces the likelihood of being countered mid-recovery."
+        "answer": "The optimal window occurs when the opponent is transitioning between attacks or adjusting their grips. During grip changes, their pulling power temporarily drops as they release one hand to reposition. Similarly, after a failed submission attempt, there is a brief reset period where their leg and arm control is looser. Timing your explosive hip drive to coincide with these moments of reduced control dramatically increases recovery success rate and reduces the likelihood of being countered mid-recovery.",
+        "answer_line": "Mid grip-change or reset",
+        "distractors": {
+          "plausible": [
+            "Right after they secure guard",
+            "During their steady control"
+          ],
+          "trap": [
+            "Mid-submission attempt"
+          ]
+        }
       },
       {
         "question": "How does establishing a wide base contribute to successful posture recovery?",
-        "answer": "A wide base with knees spread outward provides multi-directional stability and prevents sweeps during the recovery movement. It creates a strong triangular foundation that allows you to generate power from your legs to drive your hips backward without being toppled laterally. The wide base also makes it difficult for the opponent to execute scissor sweeps or hip bumps because your center of gravity is low and distributed across a broader area, requiring significantly more force to displace."
+        "answer": "A wide base with knees spread outward provides multi-directional stability and prevents sweeps during the recovery movement. It creates a strong triangular foundation that allows you to generate power from your legs to drive your hips backward without being toppled laterally. The wide base also makes it difficult for the opponent to execute scissor sweeps or hip bumps because your center of gravity is low and distributed across a broader area, requiring significantly more force to displace.",
+        "answer_line": "Stops sweeps, adds stability",
+        "distractors": {
+          "plausible": [
+            "Speeds up the hip drive",
+            "Protects only from behind"
+          ],
+          "trap": [
+            "Narrow base for quick posts"
+          ]
+        }
       },
       {
         "question": "Your opponent has a deep collar grip and begins pulling you into a cross collar choke as you try to recover - what is your response?",
-        "answer": "Do not attempt to posture through the choke. Instead, immediately address the choking grip by tucking your chin to your chest to buy time, then using both hands in a two-on-one configuration to strip the deep collar grip by pushing their wrist toward their thumb direction. If the grip is too deep to strip, transition to the standing posture recovery variant where your body weight creates leverage to break the grip angle. Only resume the seated recovery after the collar grip is broken or controlled."
+        "answer": "Do not attempt to posture through the choke. Instead, immediately address the choking grip by tucking your chin to your chest to buy time, then using both hands in a two-on-one configuration to strip the deep collar grip by pushing their wrist toward their thumb direction. If the grip is too deep to strip, transition to the standing posture recovery variant where your body weight creates leverage to break the grip angle. Only resume the seated recovery after the collar grip is broken or controlled.",
+        "answer_line": "Tuck chin, strip the grip",
+        "distractors": {
+          "plausible": [
+            "Pull your head straight back",
+            "Grab their wrist one-handed"
+          ],
+          "trap": [
+            "Posture up through the choke"
+          ]
+        }
       },
       {
         "question": "What are the critical differences in recovery mechanics between closed guard and open guard?",
-        "answer": "In closed guard, the locked ankles behind your back add significant pulling power to the opponent's posture break, requiring you to either open the guard first or generate enough hip drive to overcome the leg squeeze. Standing recovery may be necessary against strong closed guard players. In open guard, recovery is mechanically easier since there is no locked leg circuit, but you must manage the opponent's feet on your hips or biceps during recovery. Open guard recovery requires controlling their shin or ankle grips while driving back, while closed guard recovery prioritizes collar grip breaks and potentially standing up to break the ankle lock."
+        "answer": "In closed guard, the locked ankles behind your back add significant pulling power to the opponent's posture break, requiring you to either open the guard first or generate enough hip drive to overcome the leg squeeze. Standing recovery may be necessary against strong closed guard players. In open guard, recovery is mechanically easier since there is no locked leg circuit, but you must manage the opponent's feet on your hips or biceps during recovery. Open guard recovery requires controlling their shin or ankle grips while driving back, while closed guard recovery prioritizes collar grip breaks and potentially standing up to break the ankle lock.",
+        "answer_line": "Closed guard legs add power",
+        "distractors": {
+          "plausible": [
+            "Open guard is always harder",
+            "Closed guard needs no grip breaks"
+          ],
+          "trap": [
+            "Ignore leg control in open guard"
+          ]
+        }
       },
       {
         "question": "After successfully recovering posture, what immediate actions prevent your opponent from re-breaking it?",
-        "answer": "Immediately establish combat base with one knee posted and opposite foot planted flat to create a stable triangulated platform. Secure controlling grips on the opponent's pants at the knees or their collar to manage distance. Apply light downward pressure through your hips to prevent them from sitting up to re-engage. Break any remaining attacking grips they hold before they can re-establish pulling control. Begin your guard opening sequence promptly rather than pausing in recovered posture, as delay gives the opponent time to reset their attacking grips and re-break your posture."
+        "answer": "Immediately establish combat base with one knee posted and opposite foot planted flat to create a stable triangulated platform. Secure controlling grips on the opponent's pants at the knees or their collar to manage distance. Apply light downward pressure through your hips to prevent them from sitting up to re-engage. Break any remaining attacking grips they hold before they can re-establish pulling control. Begin your guard opening sequence promptly rather than pausing in recovered posture, as delay gives the opponent time to reset their attacking grips and re-break your posture.",
+        "answer_line": "Combat base, grips, press down",
+        "distractors": {
+          "plausible": [
+            "Pause to catch your breath",
+            "Immediately stand to disengage"
+          ],
+          "trap": [
+            "Release all grips to reset"
+          ]
+        }
       },
       {
         "question": "Your opponent shifts their hips to create an angle while you attempt to recover - how does this change your recovery approach?",
-        "answer": "An angled opponent is setting up asymmetric attacks like triangle, omoplata, or armbar from an angle. You must address the angle before continuing recovery by squaring your hips back to center relative to their body. Drive your knee on the side they are angling toward into the space between their hip and the mat to close the angle. Keep the arm on the angled side tight to your body to prevent isolation. Once you have re-centered, resume the standard recovery sequence. Ignoring the angle and continuing straight-line recovery exposes you to the submission they are creating with the hip shift."
+        "answer": "An angled opponent is setting up asymmetric attacks like triangle, omoplata, or armbar from an angle. You must address the angle before continuing recovery by squaring your hips back to center relative to their body. Drive your knee on the side they are angling toward into the space between their hip and the mat to close the angle. Keep the arm on the angled side tight to your body to prevent isolation. Once you have re-centered, resume the standard recovery sequence. Ignoring the angle and continuing straight-line recovery exposes you to the submission they are creating with the hip shift.",
+        "answer_line": "Square hips, close the angle",
+        "distractors": {
+          "plausible": [
+            "Continue straight-line recovery",
+            "Match their angle mirrored"
+          ],
+          "trap": [
+            "Extend arm to create space"
+          ]
+        }
       }
     ],
-    "safety_considerations": "When practicing posture recovery, controlled application is essential to avoid neck and back strain. Never practice with jerky or violent movements that could strain the cervical spine or lower back. Both partners should communicate clearly, especially during early learning phases. The person on bottom should release grips immediately if the top person signals discomfort in their neck or back. Be aware of submission threats including armbar, triangle, and collar choke while recovering posture, and practice defensive awareness alongside the recovery technique. Do not push or drive into your partner's face during recovery, as this can cause injury. Build core and back strength gradually through supplementary training to support safe posture work. Always warm up properly before drilling posture recovery, particularly focusing on neck mobility and spinal flexibility."
+    "safety_considerations": "When practicing posture recovery, controlled application is essential to avoid neck and back strain. Never practice with jerky or violent movements that could strain the cervical spine or lower back. Both partners should communicate clearly, especially during early learning phases. The person on bottom should release grips immediately if the top person signals discomfort in their neck or back. Be aware of submission threats including armbar, triangle, and collar choke while recovering posture, and practice defensive awareness alongside the recovery technique. Do not push or drive into your partner's face during recovery, as this can cause injury. Build core and back strength gradually through supplementary training to support safe posture work. Always warm up properly before drilling posture recovery, particularly focusing on neck mobility and spinal flexibility.",
+    "clips": [
+      {
+        "id": "RrD643OqTao",
+        "title": "Posture up and pass the closed guard",
+        "by": "Rickson Gracie",
+        "vertical": false,
+        "channel": "Gallerr",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jx120fTdOfA",
+        "title": "Common guard mistake that gives up posture",
+        "by": "Rickson Gracie",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 58,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Posture Recovery Defender",
@@ -367,19 +499,59 @@
     "flashcards": [
       {
         "question": "What are the primary tactile cues that indicate your opponent is about to attempt posture recovery?",
-        "answer": "The earliest cue is feeling the opponent's knees spread wider against your thighs as they establish a wider base for stability. Next, you will feel their hands shift from neutral positions to pushing frames on your hips, biceps, or chest. The most decisive cue is feeling their core brace and an explosive backward drive through their hips. Secondary cues include grip fighting on your collar with a two-on-one configuration and one foot posting flat on the mat for a standing recovery variant."
+        "answer": "The earliest cue is feeling the opponent's knees spread wider against your thighs as they establish a wider base for stability. Next, you will feel their hands shift from neutral positions to pushing frames on your hips, biceps, or chest. The most decisive cue is feeling their core brace and an explosive backward drive through their hips. Secondary cues include grip fighting on your collar with a two-on-one configuration and one foot posting flat on the mat for a standing recovery variant.",
+        "answer_line": "Wide knees, frames, hip brace",
+        "distractors": {
+          "plausible": [
+            "Sudden grip release only",
+            "Slow steady arm pressure"
+          ],
+          "trap": [
+            "Relaxed breathing pattern"
+          ]
+        }
       },
       {
         "question": "Why is attacking during posture recovery attempts more effective than purely defensive grip retention?",
-        "answer": "Purely defensive grip retention is a battle of attrition that the top player eventually wins through repeated attempts and superior leverage from top position. Attacking during recovery is more effective because the recovery movement creates predictable body mechanics and momentary vulnerabilities. Extended arms create armbar opportunities, weight shifting backward creates hip bump sweep openings, and asymmetric arm positions create triangle entries. Offensive counters end the positional exchange decisively rather than prolonging a defensive struggle that depletes your grip endurance."
+        "answer": "Purely defensive grip retention is a battle of attrition that the top player eventually wins through repeated attempts and superior leverage from top position. Attacking during recovery is more effective because the recovery movement creates predictable body mechanics and momentary vulnerabilities. Extended arms create armbar opportunities, weight shifting backward creates hip bump sweep openings, and asymmetric arm positions create triangle entries. Offensive counters end the positional exchange decisively rather than prolonging a defensive struggle that depletes your grip endurance.",
+        "answer_line": "Attacks exploit recovery gaps",
+        "distractors": {
+          "plausible": [
+            "Grip retention wins over time",
+            "Defense drains less energy"
+          ],
+          "trap": [
+            "Wait out their grip strength"
+          ]
+        }
       },
       {
         "question": "How should you adjust your guard when the opponent initiates a standing posture recovery?",
-        "answer": "When the opponent posts one foot to stand, immediately transition your feet from crossed ankles to active foot placement on their hips to control distance. Grab both sleeves or wrists to prevent them from establishing grip control during the stand-up. If they achieve full standing position, transition to open guard systems such as collar-sleeve, De La Riva, or lasso guard rather than desperately trying to maintain closed guard against a standing opponent. The standing recovery changes the guard dynamic fundamentally, requiring you to adapt rather than fight for a position that is no longer mechanically viable."
+        "answer": "When the opponent posts one foot to stand, immediately transition your feet from crossed ankles to active foot placement on their hips to control distance. Grab both sleeves or wrists to prevent them from establishing grip control during the stand-up. If they achieve full standing position, transition to open guard systems such as collar-sleeve, De La Riva, or lasso guard rather than desperately trying to maintain closed guard against a standing opponent. The standing recovery changes the guard dynamic fundamentally, requiring you to adapt rather than fight for a position that is no longer mechanically viable.",
+        "answer_line": "Feet to hips, switch open guard",
+        "distractors": {
+          "plausible": [
+            "Keep ankles locked tighter",
+            "Pull them back down by collar"
+          ],
+          "trap": [
+            "Chase legs, abandon grips"
+          ]
+        }
       },
       {
         "question": "What is the optimal hip angle to maintain when defending against posture recovery?",
-        "answer": "An angled hip position of approximately 30 to 45 degrees off center is optimal because it prevents the opponent from driving straight back with maximum mechanical advantage. The angle creates asymmetric pressure that is harder to overcome and simultaneously opens submission pathways. The direction of your angle should be toward the side where you have the stronger grip or where you detect the opponent's arm is more exposed. Maintaining this angle requires active hip work and cannot be achieved from a flat, square-on-back position."
+        "answer": "An angled hip position of approximately 30 to 45 degrees off center is optimal because it prevents the opponent from driving straight back with maximum mechanical advantage. The angle creates asymmetric pressure that is harder to overcome and simultaneously opens submission pathways. The direction of your angle should be toward the side where you have the stronger grip or where you detect the opponent's arm is more exposed. Maintaining this angle requires active hip work and cannot be achieved from a flat, square-on-back position.",
+        "answer_line": "30-45 degree angled hips",
+        "distractors": {
+          "plausible": [
+            "Fully square hips to opponent",
+            "Max 90 degree side angle"
+          ],
+          "trap": [
+            "Flatten hips for base"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -402,6 +574,35 @@
         "phase": "Month 3+: Competition Integration",
         "focus": "Maintaining broken posture against skilled passers in live training",
         "description": "Incorporate posture retention and counter-attacking into regular sparring rounds. Focus on maintaining offensive initiative from closed guard against partners who are specifically working posture recovery. Develop the timing to switch between grip retention and attacks based on real-time assessment of opponent commitment. Practice under fatigue conditions to ensure defensive habits hold when tired."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TCinYYTF2BA",
+        "title": "When they stand up from your closed guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dTWJ181R4uo",
+        "title": "Breaking posture in closed guard",
+        "by": "Gracie Westchase",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UhYqXfpluYs",
+        "title": "Detail to strengthen your closed guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 75,
+        "verified": "2026-07-15"
       }
     ]
   },

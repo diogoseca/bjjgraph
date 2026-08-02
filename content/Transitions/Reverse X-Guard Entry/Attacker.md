@@ -168,6 +168,54 @@ description: "How to execute Reverse X-Guard Entry in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X-Guard Entry (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm drag to shin-on-shin entry into reverse X",
+      "description": "Reverse X-Guard Entry (Attacker) film study: Arm drag to shin-on-shin entry into reverse X, taught by Grapple Box.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z6LuZH7yfP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z6LuZH7yfP4",
+      "url": "https://www.youtube.com/watch?v=Z6LuZH7yfP4",
+      "creator": { "@type": "Person", "name": "Grapple Box" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single leg X, X guard and reverse X guard options",
+      "description": "Reverse X-Guard Entry (Attacker) film study: Single leg X, X guard and reverse X guard options, taught by Steven Kaloustian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
+      "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
+      "creator": { "@type": "Person", "name": "Steven Kaloustian" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse X-guard entry breakdown",
+      "description": "Reverse X-Guard Entry (Attacker) film study: Reverse X-guard entry breakdown, taught by Black Flag Submission Company.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dISye8G6dpU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dISye8G6dpU",
+      "url": "https://www.youtube.com/watch?v=dISye8G6dpU",
+      "creator": { "@type": "Person", "name": "Black Flag Submission Company" },
+      "duration": "PT191S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 **From Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X-Guard Entry (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z6LuZH7yfP4)
+
+<p class="clip-credit"><strong>Arm drag to shin-on-shin entry into reverse X</strong> — taught by Grapple Box · 0:23 · <a href="https://www.youtube.com/watch?v=Z6LuZH7yfP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EcxCadpBePk)
+
+<p class="clip-credit"><strong>Single leg X, X guard and reverse X guard options</strong> — taught by Steven Kaloustian · 1:37 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dISye8G6dpU)
+
+<p class="clip-credit"><strong>Reverse X-guard entry breakdown</strong> — taught by Black Flag Submission Company · 3:11 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

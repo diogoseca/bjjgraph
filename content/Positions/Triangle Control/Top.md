@@ -21,37 +21,37 @@ description: "Master Triangle Control defense from top in BJJ. Learn escape tech
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Escape",
-      "text": "From this position, attempt Triangle Escape. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Escape. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Triangle Control",
+      "text": "From this position, attempt Guard Recovery from Triangle Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery from Triangle Control",
-      "text": "From this position, attempt Guard Recovery from Triangle Control. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Triangle Clear to Side",
+      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Clear to Side",
-      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Posture Up from Triangle",
+      "text": "From this position, attempt Posture Up from Triangle. This technique is attempted in 19% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Posture Up from Triangle",
-      "text": "From this position, attempt Posture Up from Triangle. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Stack Escape from Triangle",
+      "text": "From this position, attempt Stack Escape from Triangle. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Triangle Control defense from top in BJJ. Learn escape tech
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle choke posture-up escape",
+      "description": "Triangle Control (Top) film study: Triangle choke posture-up escape, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
+      "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape the triangle choke",
+      "description": "Triangle Control (Top) film study: How to escape the triangle choke, taught by Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +203,34 @@ This position is commonly reached when the bottom player successfully sets up a 
 The defensive hierarchy from Triangle Control Top follows a clear priority sequence. First, prevent the lock from being completed by keeping posture and fighting the ankle cross. Second, if the lock is established, address the angle by squaring the opponent's hips to reduce choking efficiency. Third, systematically work escape sequences that combine posture recovery with circular movement. Advanced defenders develop the ability to recognize triangle setups before they materialize, aborting the attack during its entry phase rather than fighting from a fully locked position. The top player must also remain aware of secondary threats including armbar transitions, omoplata sweeps, and back takes that the bottom player can chain from triangle control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
+
+<p class="clip-credit"><strong>Triangle choke posture-up escape</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to escape the triangle choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

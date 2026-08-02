@@ -174,6 +174,54 @@ description: "Master hook insertion from seat belt back control. Learn systemati
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seat Belt to Full Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Seatbelt control and attacks from the back",
+      "description": "Seat Belt to Full Back Control (Attacker) film study: Seatbelt control and attacks from the back, taught by Royal Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t_5HZQV-Xmo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t_5HZQV-Xmo",
+      "url": "https://www.youtube.com/watch?v=t_5HZQV-Xmo",
+      "creator": { "@type": "Person", "name": "Royal Grappling Academy" },
+      "duration": "PT275S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Establishing Hooks and Rear Mount - Near Side Entries",
+      "description": "Seat Belt to Full Back Control (Attacker) film study: Establishing Hooks and Rear Mount - Near Side Entries, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NUMXYYjEszU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NUMXYYjEszU",
+      "url": "https://www.youtube.com/watch?v=NUMXYYjEszU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT509S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Seat Belt and Rear Naked Choke",
+      "description": "Seat Belt to Full Back Control (Attacker) film study: Seat Belt and Rear Naked Choke, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8xNRxgQ9MGU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8xNRxgQ9MGU",
+      "url": "https://www.youtube.com/watch?v=8xNRxgQ9MGU",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT444S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing Seat Belt to Full Back Control, your objective is conv
 **From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seat Belt to Full Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t_5HZQV-Xmo)
+
+<p class="clip-credit"><strong>Seatbelt control and attacks from the back</strong> — taught by Royal Grappling Academy · 4:35 · <a href="https://www.youtube.com/watch?v=t_5HZQV-Xmo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NUMXYYjEszU)
+
+<p class="clip-credit"><strong>Establishing Hooks and Rear Mount - Near Side Entries</strong> — taught by John Danaher · 8:29 · <a href="https://www.youtube.com/watch?v=NUMXYYjEszU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8xNRxgQ9MGU)
+
+<p class="clip-credit"><strong>Seat Belt and Rear Naked Choke</strong> — taught by Marcelo Garcia · 7:24 · <a href="https://www.youtube.com/watch?v=8xNRxgQ9MGU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

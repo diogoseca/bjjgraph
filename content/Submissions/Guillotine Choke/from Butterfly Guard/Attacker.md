@@ -170,6 +170,43 @@ description: "Learn to attack the Guillotine Choke from Butterfly Guard with ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Butterfly Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guillotine from Butterfly Guard",
+      "description": "Guillotine Choke from Butterfly Guard (Attacker) film study: Guillotine from Butterfly Guard, taught by Jake Shields.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SAWvSovVk4A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SAWvSovVk4A",
+      "url": "https://www.youtube.com/watch?v=SAWvSovVk4A",
+      "creator": { "@type": "Person", "name": "Jake Shields" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine Choke from Butterfly Guard",
+      "description": "Guillotine Choke from Butterfly Guard (Attacker) film study: Guillotine Choke from Butterfly Guard, taught by Modesto Judo Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z75kDSCIeN4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z75kDSCIeN4",
+      "url": "https://www.youtube.com/watch?v=Z75kDSCIeN4",
+      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +217,34 @@ Attacking the Guillotine Choke from Butterfly Guard combines the sweeping threat
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Butterfly Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SAWvSovVk4A)
+
+<p class="clip-credit"><strong>Guillotine from Butterfly Guard</strong> — taught by Jake Shields · 1:04 · <a href="https://www.youtube.com/watch?v=SAWvSovVk4A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z75kDSCIeN4)
+
+<p class="clip-credit"><strong>Guillotine Choke from Butterfly Guard</strong> — taught by Modesto Judo Club · 1:16 · <a href="https://www.youtube.com/watch?v=Z75kDSCIeN4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

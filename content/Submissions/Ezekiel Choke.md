@@ -35,6 +35,65 @@ description: "Master the Ezekiel Choke in BJJ. Complete guide to sleeve-based bl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ezekiel Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ezekiel Choke from Closed Guard with a Twist",
+      "description": "Ezekiel Choke film study: Ezekiel Choke from Closed Guard with a Twist, taught by BJJ After Forty.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U0bEVMh07b0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U0bEVMh07b0",
+      "url": "https://www.youtube.com/watch?v=U0bEVMh07b0",
+      "creator": { "@type": "Person", "name": "BJJ After Forty" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Ezekiel To End All Ezekiels (No Gi)",
+      "description": "Ezekiel Choke film study: The Ezekiel To End All Ezekiels (No Gi), taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B7_MjC4WAoI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B7_MjC4WAoI",
+      "url": "https://www.youtube.com/watch?v=B7_MjC4WAoI",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ezekiel Choke from Mount",
+      "description": "Ezekiel Choke film study: Ezekiel Choke from Mount, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/omNMiDmWt5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/omNMiDmWt5w",
+      "url": "https://www.youtube.com/watch?v=omNMiDmWt5w",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Sneaky Easy Ezekiel Choke",
+      "description": "Ezekiel Choke film study: Sneaky Easy Ezekiel Choke, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/73ukcOj5s74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/73ukcOj5s74",
+      "url": "https://www.youtube.com/watch?v=73ukcOj5s74",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +113,7 @@ description: "Master the Ezekiel Choke in BJJ. Complete guide to sleeve-based bl
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Ezekiel Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Ezekiel Choke is a gi blood choke that uses your own sleeve as a fulcrum to compress both carotid arteries, finishable from mount, side control, and other dominant top positions even when the opponent\u0027s hands are free." } },
-    { "@type": "Question", "name": "What positions can you finish the Ezekiel Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Ezekiel Choke from Mount, Side Control, Closed Guard." } },
+    { "@type": "Question", "name": "What positions can you finish the Ezekiel Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Ezekiel Choke from Closed Guard, Side Control, Mount." } },
     { "@type": "Question", "name": "Is the Ezekiel Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Ezekiel Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -90,6 +149,50 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ezekiel Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U0bEVMh07b0)
+
+<p class="clip-credit"><strong>Ezekiel Choke from Closed Guard with a Twist</strong> — taught by BJJ After Forty · 2:29 · <a href="https://www.youtube.com/watch?v=U0bEVMh07b0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B7_MjC4WAoI)
+
+<p class="clip-credit"><strong>The Ezekiel To End All Ezekiels (No Gi)</strong> — taught by Henry Akins · 1:27 · <a href="https://www.youtube.com/watch?v=B7_MjC4WAoI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=omNMiDmWt5w)
+
+<p class="clip-credit"><strong>Ezekiel Choke from Mount</strong> — taught by Procel BJJ · 1:50 · <a href="https://www.youtube.com/watch?v=omNMiDmWt5w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=73ukcOj5s74)
+
+<p class="clip-credit"><strong>Sneaky Easy Ezekiel Choke</strong> — taught by Johnny Jitsu · 0:59 · <a href="https://www.youtube.com/watch?v=73ukcOj5s74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -99,9 +202,9 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Ezekiel Choke/from Mount|Mount]] | Top | 58% | [[Submissions/Ezekiel Choke/from Mount/Attacker|Attack →]] | [[Submissions/Ezekiel Choke/from Mount/Defender|Defend →]] |
-| [[Submissions/Ezekiel Choke/from Side Control|Side Control]] | Top | 58% | [[Submissions/Ezekiel Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Ezekiel Choke/from Side Control/Defender|Defend →]] |
-| [[Submissions/Ezekiel Choke/from Closed Guard|Closed Guard]] | Top | 40% | [[Submissions/Ezekiel Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Ezekiel Choke/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Ezekiel Choke/from Closed Guard|Closed Guard]] | Top | 65% | [[Submissions/Ezekiel Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Ezekiel Choke/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Ezekiel Choke/from Side Control|Side Control]] | Top | 50% | [[Submissions/Ezekiel Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Ezekiel Choke/from Side Control/Defender|Defend →]] |
+| [[Submissions/Ezekiel Choke/from Mount|Mount]] | Top | 48% | [[Submissions/Ezekiel Choke/from Mount/Attacker|Attack →]] | [[Submissions/Ezekiel Choke/from Mount/Defender|Defend →]] |
 
 
 </div>
@@ -131,14 +234,14 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]] - Related blood choke using arm-in head-and-arm compression from similar top positions
+- [[Submissions/Arm Triangle]] - Related blood choke using arm-in head-and-arm compression from similar top positions
 - [[Submissions/Cross Collar Choke]] - Complementary gi choke creating attack dilemma when alternated with Ezekiel from mount
 - [[Submissions/Far Side Armbar]] - Chain submission available when opponent defends Ezekiel with high hands exposing arms
 - [[Submissions/Breadcutter Choke]] - Alternative gi choke from side control sharing similar top-position setup opportunities
-- [[Transitions/North-South Choke]] - Transition choke when moving to north-south during opponent's Ezekiel defense
+- [[Submissions/North-South Choke]] - Transition choke when moving to north-south during opponent's Ezekiel defense
 - [[Submissions/Baseball Bat Choke]] - Alternative gi choke applicable from similar dominant top control positions
-- [[Transitions/Guillotine Choke]] - Front headlock choke with similar bilateral carotid compression mechanics
-- [[Transitions/Darce Choke]] - Related arm-in choke sharing bilateral compression principles against carotid arteries
+- [[Submissions/Guillotine Choke]] - Front headlock choke with similar bilateral carotid compression mechanics
+- [[Submissions/Darce Choke]] - Related arm-in choke sharing bilateral compression principles against carotid arteries
 - [[Transitions/Anaconda Choke]] - Related arm-in choke with similar bilateral neck compression mechanics
 - [[Submissions/Triangle Choke]] - Chain submission when opponent extends arms to defend Ezekiel setup
 - [[Submissions/Americana]] - Complementary shoulder lock chaining when opponent extends arms in Ezekiel defense

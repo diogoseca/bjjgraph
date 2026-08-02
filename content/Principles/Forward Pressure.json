@@ -361,35 +361,144 @@
   "flashcards": [
     {
       "question": "What is forward pressure in BJJ?",
-      "answer": "Forward pressure is the application of continuous, directional advancing force - through weight, connection points, and skeletal structure - to collapse an opponent's frames, eliminate space, and drive positional advancement."
+      "answer": "Forward pressure is the application of continuous, directional advancing force - through weight, connection points, and skeletal structure - to collapse an opponent's frames, eliminate space, and drive positional advancement.",
+      "answer_line": "Sustained pressure collapses frames",
+      "distractors": {
+        "plausible": [
+          "One hard shove to end position",
+          "Just heavy bodyweight on top"
+        ],
+        "trap": [
+          "Ease off pressure to save energy"
+        ]
+      }
     },
     {
       "question": "Why should forward pressure be generated from bodyweight and skeletal structure rather than muscular strength?",
-      "answer": "Using bodyweight and skeletal alignment lets you sustain pressure for entire rounds without fatiguing, keeps you sensitive to the opponent's reactions, and makes the pressure far harder to defend than predictable muscular force."
+      "answer": "Using bodyweight and skeletal alignment lets you sustain pressure for entire rounds without fatiguing, keeps you sensitive to the opponent's reactions, and makes the pressure far harder to defend than predictable muscular force.",
+      "answer_line": "No fatigue, stays hard to predict",
+      "distractors": {
+        "plausible": [
+          "Frees your hands for grip fighting",
+          "Works better for smaller athletes"
+        ],
+        "trap": [
+          "Muscle through to overpower faster"
+        ]
+      }
     },
     {
       "question": "What should you do when forward pressure meets a strong, mechanically sound frame?",
-      "answer": "Rather than forcing directly into it, adjust the pressure vector to bypass or undermine the frame - change angles or target a different connection point, following the path of least resistance instead of grinding into resistance."
+      "answer": "Rather than forcing directly into it, adjust the pressure vector to bypass or undermine the frame - change angles or target a different connection point, following the path of least resistance instead of grinding into resistance.",
+      "answer_line": "Change angle, don't grind into it",
+      "distractors": {
+        "plausible": [
+          "Push harder through the frame",
+          "Reset and restart the pressure"
+        ],
+        "trap": [
+          "Grind harder until frame breaks"
+        ]
+      }
     },
     {
       "question": "How does sustained forward pressure create submission opportunities?",
-      "answer": "Sustained pressure produces defensive fatigue and forces compensatory reactions; as the opponent bridges, frames, or exposes limbs to relieve the pressure, those reactions open windows for chokes, joint locks, and back takes."
+      "answer": "Sustained pressure produces defensive fatigue and forces compensatory reactions; as the opponent bridges, frames, or exposes limbs to relieve the pressure, those reactions open windows for chokes, joint locks, and back takes.",
+      "answer_line": "Fatigue forces limbs to expose",
+      "distractors": {
+        "plausible": [
+          "Speed overwhelms their reactions",
+          "Strength pins them in place"
+        ],
+        "trap": [
+          "Rest often to conserve energy"
+        ]
+      }
     },
     {
       "question": "What is a pressure dilemma and why is it effective?",
-      "answer": "A pressure dilemma is coordinating force along multiple vectors - such as crossface plus hip pressure - so that defending one threat exposes the other, making comprehensive defense mechanically impossible for the opponent."
+      "answer": "A pressure dilemma is coordinating force along multiple vectors - such as crossface plus hip pressure - so that defending one threat exposes the other, making comprehensive defense mechanically impossible for the opponent.",
+      "answer_line": "Two vectors, can't defend both",
+      "distractors": {
+        "plausible": [
+          "Crossface alone locks them down",
+          "Attack fastest limb available"
+        ],
+        "trap": [
+          "Focus all force on one point"
+        ]
+      }
     },
     {
       "question": "What is the most common error when first applying forward pressure?",
-      "answer": "Applying maximum force immediately before establishing base and connection points, which leaves you off-balanced and vulnerable to sweeps while burning energy without achieving any positional advancement."
+      "answer": "Applying maximum force immediately before establishing base and connection points, which leaves you off-balanced and vulnerable to sweeps while burning energy without achieving any positional advancement.",
+      "answer_line": "Max force before base is set",
+      "distractors": {
+        "plausible": [
+          "Not enough pressure applied",
+          "Pressure without a clear target"
+        ],
+        "trap": [
+          "Ignoring grips to push harder"
+        ]
+      }
     },
     {
       "question": "Why is base a prerequisite for effective forward pressure?",
-      "answer": "Advancing force without a stable base makes the top player easy to redirect into sweeps and reversals, so pressure must always be applied from a structure that resists counter-attack and off-balancing."
+      "answer": "Advancing force without a stable base makes the top player easy to redirect into sweeps and reversals, so pressure must always be applied from a structure that resists counter-attack and off-balancing.",
+      "answer_line": "No base means easy to sweep",
+      "distractors": {
+        "plausible": [
+          "Base helps you see openings",
+          "Base conserves grip strength"
+        ],
+        "trap": [
+          "Skip base to advance faster"
+        ]
+      }
     },
     {
       "question": "Why is constant uniform pressure less effective than varied pressure?",
-      "answer": "Constant pressure lets the opponent adapt and build a sustainable defensive structure; modulating intensity and angle and pulsing the force prevents adaptation and creates reactive moments that expose vulnerabilities."
+      "answer": "Constant pressure lets the opponent adapt and build a sustainable defensive structure; modulating intensity and angle and pulsing the force prevents adaptation and creates reactive moments that expose vulnerabilities.",
+      "answer_line": "Opponents adapt to constant force",
+      "distractors": {
+        "plausible": [
+          "Varied pressure looks more skilled",
+          "Constant pressure wastes energy"
+        ],
+        "trap": [
+          "Hold one steady grind to the end"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "mzAgY0QUtnc",
+      "title": "Pressure: the science behind your jiu jitsu",
+      "by": "RVV BJJ",
+      "vertical": false,
+      "channel": "RVV BJJ",
+      "duration": 785,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "OdscGUlottI",
+      "title": "Gordon Ryan's no-gi pressure passing system",
+      "by": "Gordon Ryan",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 761,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "GZbesQUVTao",
+      "title": "Danaher on driving forward into the opponent",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "Dohn Janaher ",
+      "duration": 15,
+      "verified": "2026-07-15"
     }
   ]
 }

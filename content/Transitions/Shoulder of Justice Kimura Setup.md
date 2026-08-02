@@ -34,6 +34,54 @@ description: "Master the Kimura setup from Shoulder of Justice in BJJ. Learn how
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shoulder of Justice Kimura Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from side control",
+      "description": "Shoulder of Justice Kimura Setup film study: Kimura from side control, taught by Alavanca.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/awNPX8E6bf4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/awNPX8E6bf4",
+      "url": "https://www.youtube.com/watch?v=awNPX8E6bf4",
+      "creator": { "@type": "Person", "name": "Alavanca" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Setting up the kimura from side control",
+      "description": "Shoulder of Justice Kimura Setup film study: Setting up the kimura from side control, taught by Heiho Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g-e2ZrNsoNQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g-e2ZrNsoNQ",
+      "url": "https://www.youtube.com/watch?v=g-e2ZrNsoNQ",
+      "creator": { "@type": "Person", "name": "Heiho Dojo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura from side control breakdown",
+      "description": "Shoulder of Justice Kimura Setup film study: Kimura from side control breakdown, taught by Josh Cooksley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WZYSrAW32D4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WZYSrAW32D4",
+      "url": "https://www.youtube.com/watch?v=WZYSrAW32D4",
+      "creator": { "@type": "Person", "name": "Josh Cooksley" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This transition represents a Type C positional control tool within the BJJ state
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shoulder of Justice Kimura Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=awNPX8E6bf4)
+
+<p class="clip-credit"><strong>Kimura from side control</strong> — taught by Alavanca · 0:16 · <a href="https://www.youtube.com/watch?v=awNPX8E6bf4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g-e2ZrNsoNQ)
+
+<p class="clip-credit"><strong>Setting up the kimura from side control</strong> — taught by Heiho Dojo · 1:01 · <a href="https://www.youtube.com/watch?v=g-e2ZrNsoNQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WZYSrAW32D4)
+
+<p class="clip-credit"><strong>Kimura from side control breakdown</strong> — taught by Josh Cooksley · 2:16 · <a href="https://www.youtube.com/watch?v=WZYSrAW32D4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -243,7 +327,7 @@ The Shoulder of Justice Kimura Setup serves as the primary bridge between the Sh
 
 - [[Positions/Kimura Trap]] - Primary target position - successful setup establishes figure-four Kimura control
 
-- [[Transitions/North-South Choke]] - Alternative submission pathway from shoulder pressure when the opponent turns away rather than extending the near arm
+- [[Submissions/North-South Choke]] - Alternative submission pathway from shoulder pressure when the opponent turns away rather than extending the near arm
 
 - [[Positions/Side Control]] - Parent position family - Shoulder of Justice is a specialized side control variation
 

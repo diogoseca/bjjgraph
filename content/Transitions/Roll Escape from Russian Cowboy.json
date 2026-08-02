@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Russian Cowboy/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Truck/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Roll Escape from Russian Cowboy is a dynamic defensive technique employed when trapped in the bottom of Russian Cowboy control, a single-hook back control variant common in no-gi grappling. This escape generates rotational momentum to dislodge the opponent's asymmetric hook configuration and transition into turtle position, where a wider array of defensive and recovery options become available. The technique carries significant risk because rolling in the wrong direction feeds directly into the opponent's truck entry, making directional awareness and explosive commitment absolutely critical to success.\n\nFrom a strategic standpoint, the roll escape represents a high-commitment bailout option within the Russian Cowboy escape hierarchy. It is typically attempted when frame-based escapes, hip escapes, and hand fighting have been neutralized by a well-consolidated top player. The rolling motion exploits the fundamental asymmetry of Russian Cowboy control: because only one hook is engaged, rotational force directed toward the free leg side can overwhelm the top player's ability to follow and maintain connection. However, the technique demands full commitment once initiated, as half-measures leave the bottom player with compromised frames and increased exposure to truck transitions.\n\nThis escape integrates into the broader back defense system as a last-resort option that bridges Russian Cowboy bottom to the turtle defense framework. Practitioners who drill this technique develop critical proprioceptive awareness of hook positioning and rotational timing that transfers to other back defense scenarios, including traditional back control escapes and truck defense sequences.",
   "conditions": [
     "Trapped in Russian Cowboy bottom position with opponent's single hook established",
@@ -234,38 +246,138 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the roll escape from Russian Cowboy?",
-        "answer": "The optimal timing window occurs when the opponent's chest pressure momentarily lightens, typically during grip adjustments, hook repositioning, or submission setup transitions. These moments create brief windows where rotational resistance is reduced and explosive movement can overcome the remaining control. Attempting the roll while the opponent's weight is fully settled and consolidated dramatically reduces success probability."
+        "answer": "The optimal timing window occurs when the opponent's chest pressure momentarily lightens, typically during grip adjustments, hook repositioning, or submission setup transitions. These moments create brief windows where rotational resistance is reduced and explosive movement can overcome the remaining control. Attempting the roll while the opponent's weight is fully settled and consolidated dramatically reduces success probability.",
+        "answer_line": "When chest pressure lightens",
+        "distractors": {
+          "plausible": [
+            "Right as hook is threaded",
+            "Only during submission attempts"
+          ],
+          "trap": [
+            "When their weight is fully settled"
+          ]
+        }
       },
       {
         "question": "Why is rolling direction critical and how do you determine the correct direction?",
-        "answer": "Rolling toward the hook side feeds directly into the opponent's truck entry because the rotation assists their second leg threading mechanics. You must always roll toward the free leg side where no hook exists. Identify the hook by feeling which leg is threaded under your thigh, then commit your rotation exclusively to the opposite direction. If you cannot determine hook placement under pressure, this escape should not be attempted."
+        "answer": "Rolling toward the hook side feeds directly into the opponent's truck entry because the rotation assists their second leg threading mechanics. You must always roll toward the free leg side where no hook exists. Identify the hook by feeling which leg is threaded under your thigh, then commit your rotation exclusively to the opposite direction. If you cannot determine hook placement under pressure, this escape should not be attempted.",
+        "answer_line": "Roll toward the free-leg side",
+        "distractors": {
+          "plausible": [
+            "Roll toward the tighter grip",
+            "Roll based on stronger arm"
+          ],
+          "trap": [
+            "Roll toward the hook side"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines whether this escape succeeds or fails?",
-        "answer": "Full commitment to the rotational movement is the single most important mechanical factor. The roll must be executed as one explosive continuous motion from loading through landing. Half-committed rolls lose momentum before completing the rotation, leaving you exposed in a worse position with your back partially turned and frames compromised. Generate rotational force from your hips and core rather than your shoulders to maintain power throughout the entire movement."
+        "answer": "Full commitment to the rotational movement is the single most important mechanical factor. The roll must be executed as one explosive continuous motion from loading through landing. Half-committed rolls lose momentum before completing the rotation, leaving you exposed in a worse position with your back partially turned and frames compromised. Generate rotational force from your hips and core rather than your shoulders to maintain power throughout the entire movement.",
+        "answer_line": "Full commitment, no hesitation",
+        "distractors": {
+          "plausible": [
+            "Ease into the rotation slowly",
+            "Pause mid-roll to reset grips"
+          ],
+          "trap": [
+            "Power the roll from shoulders"
+          ]
+        }
       },
       {
         "question": "Your opponent tightens their seatbelt grip as you begin loading for the roll - how do you adjust?",
-        "answer": "If the seatbelt tightens during your loading phase, you must first address the grip before continuing the escape. Use a two-on-one strip to peel their top arm below your chin line, then immediately re-initiate the roll before they can re-establish the grip. Attempting to roll through a tight seatbelt dramatically increases the risk of being choked during the rotation when your neck is most vulnerable to compression."
+        "answer": "If the seatbelt tightens during your loading phase, you must first address the grip before continuing the escape. Use a two-on-one strip to peel their top arm below your chin line, then immediately re-initiate the roll before they can re-establish the grip. Attempting to roll through a tight seatbelt dramatically increases the risk of being choked during the rotation when your neck is most vulnerable to compression.",
+        "answer_line": "Strip grip, then re-initiate roll",
+        "distractors": {
+          "plausible": [
+            "Push through the tight seatbelt",
+            "Wait for grip to loosen"
+          ],
+          "trap": [
+            "Roll through the tight seatbelt"
+          ]
+        }
       },
       {
         "question": "What grip on the hooking leg is most effective and why?",
-        "answer": "Grip the opponent's ankle or heel of the hooking foot with a C-grip using your near hand. This grip placement provides maximum leverage for controlling leg position during the roll and prevents the opponent from deepening their hook as you rotate. Gripping higher on the shin or knee provides less control and allows the foot to slip free during the rotational motion, potentially re-engaging the hook in a worse position."
+        "answer": "Grip the opponent's ankle or heel of the hooking foot with a C-grip using your near hand. This grip placement provides maximum leverage for controlling leg position during the roll and prevents the opponent from deepening their hook as you rotate. Gripping higher on the shin or knee provides less control and allows the foot to slip free during the rotational motion, potentially re-engaging the hook in a worse position.",
+        "answer_line": "C-grip the ankle or heel",
+        "distractors": {
+          "plausible": [
+            "Grip high on the shin bone",
+            "Palm grip on top of foot"
+          ],
+          "trap": [
+            "Grab the far-side ankle"
+          ]
+        }
       },
       {
         "question": "If the roll escape is blocked and you cannot complete the rotation, what should you do next?",
-        "answer": "If the roll is stuffed mid-rotation, do not attempt to reverse back to your original position as this creates maximum vulnerability. Instead immediately transition to a hip escape toward the direction you were rolling, using whatever space was created by the partial rotation. The partial roll often loosens the opponent's control enough for a conventional hip escape to succeed. Chain directly into another escape rather than resetting to the original trapped position."
+        "answer": "If the roll is stuffed mid-rotation, do not attempt to reverse back to your original position as this creates maximum vulnerability. Instead immediately transition to a hip escape toward the direction you were rolling, using whatever space was created by the partial rotation. The partial roll often loosens the opponent's control enough for a conventional hip escape to succeed. Chain directly into another escape rather than resetting to the original trapped position.",
+        "answer_line": "Chain into a hip escape",
+        "distractors": {
+          "plausible": [
+            "Push back to original spot",
+            "Pause and reset your base"
+          ],
+          "trap": [
+            "Reverse back to start position"
+          ]
+        }
       },
       {
         "question": "What are the primary recovery options available from turtle after a successful roll escape?",
-        "answer": "From turtle after the successful roll escape, immediately work toward guard recovery through a granby roll to closed guard, sit-through to half guard, or technical standup to standing. The opponent will typically be momentarily displaced after the escape, creating a brief window for these secondary techniques. Prioritize guard recovery over standup if the opponent is still in close proximity, as technical standup requires more space to complete safely."
+        "answer": "From turtle after the successful roll escape, immediately work toward guard recovery through a granby roll to closed guard, sit-through to half guard, or technical standup to standing. The opponent will typically be momentarily displaced after the escape, creating a brief window for these secondary techniques. Prioritize guard recovery over standup if the opponent is still in close proximity, as technical standup requires more space to complete safely.",
+        "answer_line": "Granby, sit-through, or standup",
+        "distractors": {
+          "plausible": [
+            "Stand up immediately every time",
+            "Wait flat for space to open"
+          ],
+          "trap": [
+            "Stand up before recovering guard"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your roll and begins threading their second leg - what is your emergency response?",
-        "answer": "If the opponent follows the roll into truck entry, immediately control both of their ankles with your hands to prevent full truck consolidation. Extend your legs to create distance between your knees and prevent the lockdown component. Begin working leg extraction by pushing their hooking feet away while creating hip separation. This is a critical emergency response that must be drilled separately as a truck defense skill to prevent the counter from becoming a positional disaster."
+        "answer": "If the opponent follows the roll into truck entry, immediately control both of their ankles with your hands to prevent full truck consolidation. Extend your legs to create distance between your knees and prevent the lockdown component. Begin working leg extraction by pushing their hooking feet away while creating hip separation. This is a critical emergency response that must be drilled separately as a truck defense skill to prevent the counter from becoming a positional disaster.",
+        "answer_line": "Control both ankles, extend legs",
+        "distractors": {
+          "plausible": [
+            "Try to out-roll the entry",
+            "Grip their far wrist instead"
+          ],
+          "trap": [
+            "Let your legs collapse together"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Roll Escape from Russian Cowboy carries inherent cervical spine risk due to the rolling motion under opponent pressure. Always tuck the chin firmly to protect the neck throughout the roll. Avoid attempting this escape when your neck is already compromised or when the opponent has deep collar or neck control. In training, communicate with your partner about rolling speed and direction to prevent unexpected neck compression. Start drilling at low intensity and gradually increase speed. Stop immediately if you feel any sharp pain in the neck, spine, or shoulders during the rolling motion. Practitioners with pre-existing neck injuries should consult their instructor before incorporating this technique."
+    "safety_considerations": "The Roll Escape from Russian Cowboy carries inherent cervical spine risk due to the rolling motion under opponent pressure. Always tuck the chin firmly to protect the neck throughout the roll. Avoid attempting this escape when your neck is already compromised or when the opponent has deep collar or neck control. In training, communicate with your partner about rolling speed and direction to prevent unexpected neck compression. Start drilling at low intensity and gradually increase speed. Stop immediately if you feel any sharp pain in the neck, spine, or shoulders during the rolling motion. Practitioners with pre-existing neck injuries should consult their instructor before incorporating this technique.",
+    "clips": [
+      {
+        "id": "Ly89G4iCTSQ",
+        "title": "Turtle No Grips Escape: Rolling to Guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll Under to Backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Roll Escape from Russian Cowboy Defender",
@@ -345,19 +457,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that indicate a roll escape attempt from Russian Cowboy bottom?",
-        "answer": "The earliest cues include the bottom player reaching for your hooking ankle or foot, shifting their hip weight toward your free leg side, and tucking their chin more aggressively while rounding their shoulders preparing to roll. You may also feel them create rotational tension through their core before the explosive movement. These loading patterns typically occur one to two seconds before the actual roll, providing a window for preemptive counter-pressure."
+        "answer": "The earliest cues include the bottom player reaching for your hooking ankle or foot, shifting their hip weight toward your free leg side, and tucking their chin more aggressively while rounding their shoulders preparing to roll. You may also feel them create rotational tension through their core before the explosive movement. These loading patterns typically occur one to two seconds before the actual roll, providing a window for preemptive counter-pressure.",
+        "answer_line": "Reaching for the hook ankle",
+        "distractors": {
+          "plausible": [
+            "Sudden stillness and silence",
+            "Grabbing your far-side collar"
+          ],
+          "trap": [
+            "Complete relaxation in hips"
+          ]
+        }
       },
       {
         "question": "Should you follow the roll or attempt to kill the rotation, and what factors determine this decision?",
-        "answer": "The decision depends on your hook depth and upper body control quality. If your hook is deep and seatbelt is tight, kill the rotation by sprawling your hips and driving chest weight forward because you have sufficient control to prevent the escape entirely. If your hook is shallow or your grips have been partially stripped, follow the roll and thread your second leg to transition into truck position, converting their escape attempt into your positional advancement to an even more dominant position."
+        "answer": "The decision depends on your hook depth and upper body control quality. If your hook is deep and seatbelt is tight, kill the rotation by sprawling your hips and driving chest weight forward because you have sufficient control to prevent the escape entirely. If your hook is shallow or your grips have been partially stripped, follow the roll and thread your second leg to transition into truck position, converting their escape attempt into your positional advancement to an even more dominant position.",
+        "answer_line": "Depends on hook depth & grips",
+        "distractors": {
+          "plausible": [
+            "Always kill the rotation",
+            "Always follow into truck"
+          ],
+          "trap": [
+            "Release grips to reset position"
+          ]
+        }
       },
       {
         "question": "How do you maintain control if the bottom player begins a roll escape while you are mid-submission setup?",
-        "answer": "Abandon the submission attempt immediately and prioritize positional control. Drive your chest weight down onto their upper back while sprawling your hips to kill rotational momentum. Re-establish your primary control points including seatbelt and hook depth before resuming any submission attempts. Continuing a submission setup while the opponent is mid-escape is the most common way to lose the Russian Cowboy position entirely, as your attention and grips are divided."
+        "answer": "Abandon the submission attempt immediately and prioritize positional control. Drive your chest weight down onto their upper back while sprawling your hips to kill rotational momentum. Re-establish your primary control points including seatbelt and hook depth before resuming any submission attempts. Continuing a submission setup while the opponent is mid-escape is the most common way to lose the Russian Cowboy position entirely, as your attention and grips are divided.",
+        "answer_line": "Abandon sub, sprawl and drive chest",
+        "distractors": {
+          "plausible": [
+            "Finish submission attempt fast",
+            "Hold grips and wait it out"
+          ],
+          "trap": [
+            "Keep finishing the submission"
+          ]
+        }
       },
       {
         "question": "What is the correct response if you fail to prevent the roll and the bottom player reaches turtle?",
-        "answer": "Immediately transition to turtle top attacking position by maintaining whatever upper body connection you still have from the Russian Cowboy control. Drive your chest onto their back, establish harness or seatbelt control, and begin working for back control with hooks. The key is not allowing any separation during the transition. If you maintain chest contact throughout their roll, you arrive in turtle top with significant control advantages over a standard turtle approach."
+        "answer": "Immediately transition to turtle top attacking position by maintaining whatever upper body connection you still have from the Russian Cowboy control. Drive your chest onto their back, establish harness or seatbelt control, and begin working for back control with hooks. The key is not allowing any separation during the transition. If you maintain chest contact throughout their roll, you arrive in turtle top with significant control advantages over a standard turtle approach.",
+        "answer_line": "Stay chest-connected to turtle top",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral before reengaging",
+            "Chase hooks before grips"
+          ],
+          "trap": [
+            "Release contact, then re-approach"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -380,6 +532,26 @@
         "phase": "Live Positional Sparring",
         "focus": "Full integration with all escape and counter options",
         "description": "Positional sparring from Russian Cowboy where the bottom player can use any escape including the roll. Top player must recognize and counter all escapes, choosing the appropriate response between killing the roll and following into truck in real-time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "W0TCGKRcniA",
+        "title": "Turtle escape via shoulder roll",
+        "by": "BJJake",
+        "vertical": false,
+        "channel": "BJJake",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ft6OyIZ6vPs",
+        "title": "Turtle Escape & Back-Exposure System",
+        "by": "Jozef Chen",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 149,
+        "verified": "2026-07-16"
       }
     ]
   }

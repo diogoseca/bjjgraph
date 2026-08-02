@@ -148,6 +148,54 @@ description: "Defend the guard pull from clinch in BJJ. Recognition cues, sprawl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pull from Clinch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the no-gi 2-on-1 guard pull",
+      "description": "Guard Pull from Clinch (Defender) film study: Countering the no-gi 2-on-1 guard pull, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HC0O_1S2r9g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HC0O_1S2r9g",
+      "url": "https://www.youtube.com/watch?v=HC0O_1S2r9g",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT169S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "2 Techniques to Shut Down Guard Pullers",
+      "description": "Guard Pull from Clinch (Defender) film study: 2 Techniques to Shut Down Guard Pullers, taught by Chad Hardy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yn8x62U6QHs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yn8x62U6QHs",
+      "url": "https://www.youtube.com/watch?v=Yn8x62U6QHs",
+      "creator": { "@type": "Person", "name": "Chad Hardy" },
+      "duration": "PT167S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Block the Guard Jump and Protect Your Knees",
+      "description": "Guard Pull from Clinch (Defender) film study: How to Block the Guard Jump and Protect Your Knees, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BSmG5ty4tHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BSmG5ty4tHQ",
+      "url": "https://www.youtube.com/watch?v=BSmG5ty4tHQ",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT268S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against a guard pull from clinch, your primary objective is to e
 **Opponent's Starting Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pull from Clinch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HC0O_1S2r9g)
+
+<p class="clip-credit"><strong>Countering the no-gi 2-on-1 guard pull</strong> — taught by BJJ4Breakfast · 2:49 · <a href="https://www.youtube.com/watch?v=HC0O_1S2r9g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Yn8x62U6QHs)
+
+<p class="clip-credit"><strong>2 Techniques to Shut Down Guard Pullers</strong> — taught by Chad Hardy · 2:47 · <a href="https://www.youtube.com/watch?v=Yn8x62U6QHs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BSmG5ty4tHQ)
+
+<p class="clip-credit"><strong>How to Block the Guard Jump and Protect Your Knees</strong> — taught by Chewjitsu · 4:28 · <a href="https://www.youtube.com/watch?v=BSmG5ty4tHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

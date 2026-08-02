@@ -21,37 +21,37 @@ description: "Master top inverted lasso guard defense. Complete guide to prevent
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Pass",
-      "text": "From this position, attempt Lasso Guard Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Lasso Guard Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Arm Extraction and Pass",
+      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 23% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cartwheel Pass",
-      "text": "From this position, attempt Cartwheel Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Cartwheel Pass. This technique is attempted in 2% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master top inverted lasso guard defense. Complete guide to prevent
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Lasso Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Lasso with Longstep + Footwork",
+      "description": "Inverted Lasso Guard (Top) film study: Passing the Lasso with Longstep + Footwork, taught by Bryce Nie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XSkn8eAmtJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XSkn8eAmtJU",
+      "url": "https://www.youtube.com/watch?v=XSkn8eAmtJU",
+      "creator": { "@type": "Person", "name": "Bryce Nie" },
+      "duration": "PT150S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the Lasso-Half Guard",
+      "description": "Inverted Lasso Guard (Top) film study: Passing the Lasso-Half Guard, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Q3S5alr1j4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Q3S5alr1j4",
+      "url": "https://www.youtube.com/watch?v=3Q3S5alr1j4",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT162S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ Three primary defensive strategies exist: arm extraction (removing the lassoed l
 Advanced top players learn to create dilemmas in reverse - making the inverted position itself uncomfortable enough that bottom players must abandon it or risk exhaustion. This involves strategic pressure application on the inverted shoulders, controlling the hips to prevent rotation, and threatening submissions or passes that force a return to upright guard. The goal is making inverted lasso untenable as a holding position, converting it from an offensive threat to a desperate defensive attempt.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Lasso Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XSkn8eAmtJU)
+
+<p class="clip-credit"><strong>Passing the Lasso with Longstep + Footwork</strong> — taught by Bryce Nie · 2:30 · <a href="https://www.youtube.com/watch?v=XSkn8eAmtJU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3Q3S5alr1j4)
+
+<p class="clip-credit"><strong>Passing the Lasso-Half Guard</strong> — taught by Roger Gracie · 2:42 · <a href="https://www.youtube.com/watch?v=3Q3S5alr1j4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

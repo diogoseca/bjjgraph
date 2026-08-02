@@ -34,6 +34,43 @@ description: "Master the Americana shoulder lock from Reverse Kesa-Gatame. Compl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Reverse Kesa-Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inverted Americana",
+      "description": "Americana from Reverse Kesa-Gatame film study: Inverted Americana, taught by Adrian Nielsen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uaHf3d_aCso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uaHf3d_aCso",
+      "url": "https://www.youtube.com/watch?v=uaHf3d_aCso",
+      "creator": { "@type": "Person", "name": "Adrian Nielsen" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "One-Handed Americana / Keylock Submission",
+      "description": "Americana from Reverse Kesa-Gatame film study: One-Handed Americana / Keylock Submission, taught by Mastermind Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iGVWSwxKCII/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iGVWSwxKCII",
+      "url": "https://www.youtube.com/watch?v=iGVWSwxKCII",
+      "creator": { "@type": "Person", "name": "Mastermind Martial Arts" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Strategically, this Americana integrates into a powerful submission chain from r
 **Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] · **From**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Reverse Kesa-Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uaHf3d_aCso)
+
+<p class="clip-credit"><strong>Inverted Americana</strong> — taught by Adrian Nielsen · 0:56 · <a href="https://www.youtube.com/watch?v=uaHf3d_aCso" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iGVWSwxKCII)
+
+<p class="clip-credit"><strong>One-Handed Americana / Keylock Submission</strong> — taught by Mastermind Martial Arts · 2:21 · <a href="https://www.youtube.com/watch?v=iGVWSwxKCII" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -242,7 +307,7 @@ Strategically, this Americana integrates into a powerful submission chain from r
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Arm Crush]]
 - [[Positions/Side Control/Reverse Kesa-Gatame]] - Starting position for this submission variant
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold family position with similar submission opportunities

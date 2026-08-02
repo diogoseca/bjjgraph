@@ -34,6 +34,43 @@ description: "Master the hip escape from crucifix in BJJ. Complete guide to shri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple crucifix escape breakdown",
+      "description": "Hip Escape from Crucifix film study: Simple crucifix escape breakdown, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wrg5Tx-88yM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wrg5Tx-88yM",
+      "url": "https://www.youtube.com/watch?v=Wrg5Tx-88yM",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the crucifix step by step",
+      "description": "Hip Escape from Crucifix film study: Escaping the crucifix step by step, taught by Shem Rock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/41koUZWmeHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/41koUZWmeHE",
+      "url": "https://www.youtube.com/watch?v=41koUZWmeHE",
+      "creator": { "@type": "Person", "name": "Shem Rock" },
+      "duration": "PT146S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The technique serves as a critical survival skill in the crucifix escape hierarc
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wrg5Tx-88yM)
+
+<p class="clip-credit"><strong>Simple crucifix escape breakdown</strong> — taught by Coach Brian · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=41koUZWmeHE)
+
+<p class="clip-credit"><strong>Escaping the crucifix step by step</strong> — taught by Shem Rock · 2:26 · <a href="https://www.youtube.com/watch?v=41koUZWmeHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -180,6 +180,43 @@ description: "Execute the leg extraction from truck to recover turtle position. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction from Truck (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the Truck by Flipping It",
+      "description": "Leg Extraction from Truck (Attacker) film study: Countering the Truck by Flipping It, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NhxDerwXxSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NhxDerwXxSU",
+      "url": "https://www.youtube.com/watch?v=NhxDerwXxSU",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT640S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister side control from the truck",
+      "description": "Leg Extraction from Truck (Attacker) film study: Twister side control from the truck, taught by JitsHappens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c1nV0kji8Uc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c1nV0kji8Uc",
+      "url": "https://www.youtube.com/watch?v=c1nV0kji8Uc",
+      "creator": { "@type": "Person", "name": "JitsHappens" },
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -191,6 +228,34 @@ Your extraction mechanics must work against the opponent's hook configuration wh
 **From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction from Truck (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NhxDerwXxSU)
+
+<p class="clip-credit"><strong>Countering the Truck by Flipping It</strong> — taught by Brandon McCaghren · 10:40 · <a href="https://www.youtube.com/watch?v=NhxDerwXxSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c1nV0kji8Uc)
+
+<p class="clip-credit"><strong>Twister side control from the truck</strong> — taught by JitsHappens · 0:35 · <a href="https://www.youtube.com/watch?v=c1nV0kji8Uc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

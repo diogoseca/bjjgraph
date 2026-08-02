@@ -34,6 +34,54 @@ description: "Master passing Reverse Half Guard in BJJ. Complete guide to leg ex
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Reverse Half \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard pass against deep half",
+      "description": "Pass Reverse Half film study: Guard pass against deep half, taught by Koji Shibamoto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qqheiIgQrfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qqheiIgQrfY",
+      "url": "https://www.youtube.com/watch?v=qqheiIgQrfY",
+      "creator": { "@type": "Person", "name": "Koji Shibamoto" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Freeing your foot while passing half guard",
+      "description": "Pass Reverse Half film study: Freeing your foot while passing half guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back step pass from half guard",
+      "description": "Pass Reverse Half film study: Back step pass from half guard, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f2K9q9nQV1Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f2K9q9nQV1Y",
+      "url": "https://www.youtube.com/watch?v=f2K9q9nQV1Y",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Successful execution demands reading the bottom player's defensive reactions. Wh
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Reverse Half in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qqheiIgQrfY)
+
+<p class="clip-credit"><strong>Guard pass against deep half</strong> — taught by Koji Shibamoto · 0:33 · <a href="https://www.youtube.com/watch?v=qqheiIgQrfY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Freeing your foot while passing half guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f2K9q9nQV1Y)
+
+<p class="clip-credit"><strong>Back step pass from half guard</strong> — taught by Bowerhouse MMA · 2:16 · <a href="https://www.youtube.com/watch?v=f2K9q9nQV1Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

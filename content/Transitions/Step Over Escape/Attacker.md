@@ -180,6 +180,54 @@ description: "How to execute Step Over Escape in BJJ. Attacking perspective with
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Step Over Escape (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "D\u0027Arce choke escape",
+      "description": "Step Over Escape (Attacker) film study: D\u0027Arce choke escape, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9Sk00Dj1LCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9Sk00Dj1LCk",
+      "url": "https://www.youtube.com/watch?v=9Sk00Dj1LCk",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Darce Defense Islam Makhachev Couldn\u0027t Beat",
+      "description": "Step Over Escape (Attacker) film study: The Darce Defense Islam Makhachev Couldn\u0027t Beat, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JZP9YMFuIiY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JZP9YMFuIiY",
+      "url": "https://www.youtube.com/watch?v=JZP9YMFuIiY",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT313S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the Bottom Side Darce",
+      "description": "Step Over Escape (Attacker) film study: Escaping the Bottom Side Darce, taught by Nick Ortiz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j8d4ozaA_h0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j8d4ozaA_h0",
+      "url": "https://www.youtube.com/watch?v=j8d4ozaA_h0",
+      "creator": { "@type": "Person", "name": "Nick Ortiz" },
+      "duration": "PT270S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -193,6 +241,42 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 **From Position**: [[Positions/Darce Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Step Over Escape (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9Sk00Dj1LCk)
+
+<p class="clip-credit"><strong>D&#39;Arce choke escape</strong> — taught by Asaf Mich · 1:01 · <a href="https://www.youtube.com/watch?v=9Sk00Dj1LCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JZP9YMFuIiY)
+
+<p class="clip-credit"><strong>The Darce Defense Islam Makhachev Couldn&#39;t Beat</strong> — taught by Craig Jones · 5:13 · <a href="https://www.youtube.com/watch?v=JZP9YMFuIiY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j8d4ozaA_h0)
+
+<p class="clip-credit"><strong>Escaping the Bottom Side Darce</strong> — taught by Nick Ortiz · 4:30 · <a href="https://www.youtube.com/watch?v=j8d4ozaA_h0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

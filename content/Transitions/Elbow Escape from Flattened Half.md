@@ -34,6 +34,54 @@ description: "Master the elbow escape from flattened half guard in BJJ. Systemat
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape from Flattened Half \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard recovery trick when you get smashed",
+      "description": "Elbow Escape from Flattened Half film study: Guard recovery trick when you get smashed, taught by Finesse Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
+      "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
+      "creator": { "@type": "Person", "name": "Finesse Jiujitsu" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reclaiming closed guard from half guard",
+      "description": "Elbow Escape from Flattened Half film study: Reclaiming closed guard from half guard, taught by Daniel Lima.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5sdZak2bil4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5sdZak2bil4",
+      "url": "https://www.youtube.com/watch?v=5sdZak2bil4",
+      "creator": { "@type": "Person", "name": "Daniel Lima" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Recovering when flattened in half guard",
+      "description": "Elbow Escape from Flattened Half film study: Recovering when flattened in half guard, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NWie1oi3JSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NWie1oi3JSg",
+      "url": "https://www.youtube.com/watch?v=NWie1oi3JSg",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Understanding the timing dimension of this escape separates intermediate from ad
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape from Flattened Half in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BhNZGloJ56c)
+
+<p class="clip-credit"><strong>Guard recovery trick when you get smashed</strong> — taught by Finesse Jiujitsu · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5sdZak2bil4)
+
+<p class="clip-credit"><strong>Reclaiming closed guard from half guard</strong> — taught by Daniel Lima · 0:26 · <a href="https://www.youtube.com/watch?v=5sdZak2bil4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NWie1oi3JSg)
+
+<p class="clip-credit"><strong>Recovering when flattened in half guard</strong> — taught by Inverted Gear · 4:34 · <a href="https://www.youtube.com/watch?v=NWie1oi3JSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

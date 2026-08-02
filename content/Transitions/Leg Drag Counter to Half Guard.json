@@ -13,21 +13,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 48,
+  "success_rate": {
+    "gi": 48,
+    "nogi": 48
+  },
   "summary": "The Leg Drag Counter to Half Guard is a bottom-player escape from leg drag control: you frame, time your hip escape to the passer's weight shifts, free the trapped knee, and thread your outside leg to recapture half guard.",
   "overview": "The Leg Drag Counter to Half Guard is an essential defensive technique that allows the bottom player to recover a fighting position from one of the most compromised guard passing scenarios in modern BJJ. When caught in leg drag control, your options are limited—your crossed leg restricts hip mobility, your back is threatened, and traditional guard retention fails. This counter specifically targets the opponent's leg control to recapture half guard, transforming a defensive crisis into a workable position.\n\nThe technique exploits the transitional nature of leg drag control. While the passer maintains significant pressure, they must eventually adjust grips or shift weight to consolidate to side control or pursue the back take. These micro-adjustments create windows where their leg control weakens. By timing your hip movement to these moments and aggressively securing an underhook or knee position, you can thread your outside leg around their near leg and lock in a half guard configuration that stops their passing momentum.\n\nStrategically, this counter represents the middle path between complete guard recovery and accepting an inferior position. Rather than fighting for closed guard (often impossible from leg drag bottom) or conceding to turtle (giving up initiative), recovering half guard maintains your offensive potential while immediately neutralizing the back take threat. From half guard, you have sweeps, back takes, and leg lock entries available—making this counter a crucial bridge technique in any comprehensive guard retention system.",
   "related_content": [
@@ -205,46 +217,175 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to attempt this escape from leg drag bottom?",
-        "answer": "The optimal window is when the opponent shifts weight or adjusts grips—typically when transitioning from leg drag to side control, reaching for the back, or resetting their leg control. Static pressure makes escape nearly impossible; movement creates opportunity. You must train sensitivity to feel these micro-adjustments."
+        "answer": "The optimal window is when the opponent shifts weight or adjusts grips—typically when transitioning from leg drag to side control, reaching for the back, or resetting their leg control. Static pressure makes escape nearly impossible; movement creates opportunity. You must train sensitivity to feel these micro-adjustments.",
+        "answer_line": "When they shift weight/grips",
+        "distractors": {
+          "plausible": [
+            "Only when totally flattened",
+            "Right after they secure leg drag"
+          ],
+          "trap": [
+            "Force it through static pressure"
+          ]
+        }
       },
       {
         "question": "Why is staying flat on your back important during the hip escape phase?",
-        "answer": "Staying flat prevents back exposure that occurs when you turn onto your side. Turning away from the opponent is their primary path to back control—flat shoulders limit their angle while still allowing hip movement for escape. Your hips move diagonally while your shoulders remain square."
+        "answer": "Staying flat prevents back exposure that occurs when you turn onto your side. Turning away from the opponent is their primary path to back control—flat shoulders limit their angle while still allowing hip movement for escape. Your hips move diagonally while your shoulders remain square.",
+        "answer_line": "Stay flat, hips move diagonally",
+        "distractors": {
+          "plausible": [
+            "Turn onto your side to escape",
+            "Square shoulders, stay still"
+          ],
+          "trap": [
+            "Turn away to create space"
+          ]
+        }
       },
       {
         "question": "What are the critical frames needed before attempting leg recovery?",
-        "answer": "The primary frame is against the opponent's shoulder or bicep with your near-side elbow, preventing them from settling weight. The secondary frame controls their head or crossfaces back with your far arm. Both frames must be structural—using bone alignment rather than muscular effort—to generate space for the hip escape that precedes leg extraction."
+        "answer": "The primary frame is against the opponent's shoulder or bicep with your near-side elbow, preventing them from settling weight. The secondary frame controls their head or crossfaces back with your far arm. Both frames must be structural—using bone alignment rather than muscular effort—to generate space for the hip escape that precedes leg extraction.",
+        "answer_line": "Frame shoulder, control head",
+        "distractors": {
+          "plausible": [
+            "Frame chest, control hips",
+            "Push knees to create space"
+          ],
+          "trap": [
+            "Push off with only arm strength"
+          ]
+        }
       },
       {
         "question": "Why should you use circular knee motion rather than pulling your leg straight back?",
-        "answer": "Circular motion (knee to chest, then out) bypasses the opponent's grip mechanics. Pulling straight back fights directly against their control and leverage. The circular path exploits the gap in their grip line created by your hip escape angle, requiring less force and creating a better insertion angle for the outside leg."
+        "answer": "Circular motion (knee to chest, then out) bypasses the opponent's grip mechanics. Pulling straight back fights directly against their control and leverage. The circular path exploits the gap in their grip line created by your hip escape angle, requiring less force and creating a better insertion angle for the outside leg.",
+        "answer_line": "Knee to chest, then out",
+        "distractors": {
+          "plausible": [
+            "Pull leg straight back fast",
+            "Kick leg out to the side"
+          ],
+          "trap": [
+            "Yank leg against their grip"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls back and re-secures their grip when you attempt the counter—what do you do?",
-        "answer": "Abort the attempt immediately and reset your frames. Do not force the technique against a sprawled opponent—the mechanical advantage shifts entirely to them. Maintain defensive frames, protect your back, control your breathing, and wait for the next weight shift opportunity. Patience is essential; one well-timed attempt beats three forced ones."
+        "answer": "Abort the attempt immediately and reset your frames. Do not force the technique against a sprawled opponent—the mechanical advantage shifts entirely to them. Maintain defensive frames, protect your back, control your breathing, and wait for the next weight shift opportunity. Patience is essential; one well-timed attempt beats three forced ones.",
+        "answer_line": "Abort, reset frames, wait",
+        "distractors": {
+          "plausible": [
+            "Push through with more force",
+            "Switch to the other leg"
+          ],
+          "trap": [
+            "Force the escape anyway"
+          ]
+        }
       },
       {
         "question": "What grip must your outside leg establish on their near leg, and why is speed critical?",
-        "answer": "Your outside leg must hook behind their knee or thigh with your instep or heel, then immediately triangle with your other leg to lock the half guard configuration. Speed is critical because any delay allows the opponent to clear the loose leg and re-establish their passing position or advance to side control. The lock must happen within a fraction of a second of insertion."
+        "answer": "Your outside leg must hook behind their knee or thigh with your instep or heel, then immediately triangle with your other leg to lock the half guard configuration. Speed is critical because any delay allows the opponent to clear the loose leg and re-establish their passing position or advance to side control. The lock must happen within a fraction of a second of insertion.",
+        "answer_line": "Hook leg, triangle instantly",
+        "distractors": {
+          "plausible": [
+            "Hook leg, then adjust grips",
+            "Triangle first, then hook leg"
+          ],
+          "trap": [
+            "Pause to secure a deep hook"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward and flattens you during the escape attempt—how do you adjust?",
-        "answer": "Use a bridge-and-frame combination to create momentary space. Bridge explosively to displace their weight, then immediately hip escape during the split second they are adjusting to your movement. The bridge alone does not create the escape—it creates the opening for the hip escape that follows. Do not bridge and pause; the sequence must be continuous."
+        "answer": "Use a bridge-and-frame combination to create momentary space. Bridge explosively to displace their weight, then immediately hip escape during the split second they are adjusting to your movement. The bridge alone does not create the escape—it creates the opening for the hip escape that follows. Do not bridge and pause; the sequence must be continuous.",
+        "answer_line": "Bridge explosively, then escape",
+        "distractors": {
+          "plausible": [
+            "Bridge hard, then pause to reset",
+            "Frame only, skip the bridge"
+          ],
+          "trap": [
+            "Stay flat and wait it out"
+          ]
+        }
       },
       {
         "question": "What determines the quality of the half guard you recover into?",
-        "answer": "The upper body battle determines half guard quality. Securing an underhook on the trapped-leg side gives you immediate access to sweeps and back takes. If the underhook is denied, establishing a knee shield creates distance and prevents flattening. Without either control, the opponent crossfaces and flattens you, making the recovered half guard nearly as bad as the original leg drag. The leg lock is necessary but insufficient—upper body control is what makes the position offensive."
+        "answer": "The upper body battle determines half guard quality. Securing an underhook on the trapped-leg side gives you immediate access to sweeps and back takes. If the underhook is denied, establishing a knee shield creates distance and prevents flattening. Without either control, the opponent crossfaces and flattens you, making the recovered half guard nearly as bad as the original leg drag. The leg lock is necessary but insufficient—upper body control is what makes the position offensive.",
+        "answer_line": "Underhook or knee shield",
+        "distractors": {
+          "plausible": [
+            "Tight leg lockdown alone",
+            "Deep half guard immediately"
+          ],
+          "trap": [
+            "Let them crossface freely"
+          ]
+        }
       },
       {
         "question": "How does this counter chain into offensive half guard attacks after successful execution?",
-        "answer": "Upon securing half guard with an underhook, immediately threaten the back take by driving into their far hip and coming up to dogfight. If underhook is denied, establish knee shield and look for collar drags or arm drags. The lockdown is available for controlling their posture and setting up electric chair sweeps or whip-up entries. Each follow-up creates a dilemma that prevents the opponent from simply re-passing."
+        "answer": "Upon securing half guard with an underhook, immediately threaten the back take by driving into their far hip and coming up to dogfight. If underhook is denied, establish knee shield and look for collar drags or arm drags. The lockdown is available for controlling their posture and setting up electric chair sweeps or whip-up entries. Each follow-up creates a dilemma that prevents the opponent from simply re-passing.",
+        "answer_line": "Underhook, then back take",
+        "distractors": {
+          "plausible": [
+            "Lockdown, then triangle",
+            "Knee shield, then pass"
+          ],
+          "trap": [
+            "Release grips to reset guard"
+          ]
+        }
       },
       {
         "question": "How does body type affect execution of this escape?",
-        "answer": "Shorter or stockier practitioners may find the deep half variant more accessible, diving underneath the opponent's center of gravity. Longer limbs facilitate the traditional half guard lock at distance because the outside leg reaches further. Against heavier opponents, timing becomes more critical as forcing the escape against settled weight is ineffective regardless of body type—you must wait for movement windows rather than relying on strength."
+        "answer": "Shorter or stockier practitioners may find the deep half variant more accessible, diving underneath the opponent's center of gravity. Longer limbs facilitate the traditional half guard lock at distance because the outside leg reaches further. Against heavier opponents, timing becomes more critical as forcing the escape against settled weight is ineffective regardless of body type—you must wait for movement windows rather than relying on strength.",
+        "answer_line": "Stocky: deep half; tall: lock",
+        "distractors": {
+          "plausible": [
+            "Taller players prefer deep half",
+            "Body type beats timing always"
+          ],
+          "trap": [
+            "Force strength over timing"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This technique is relatively low-risk compared to other escapes as it does not involve explosive bridging or inversion. The primary injury concern is knee strain from forcing the leg extraction against strong resistance—never yank your trapped leg straight back against a locked grip. If your leg feels torqued during the escape attempt, stop and reset. Training partners should allow controlled practice by providing graduated resistance rather than death-gripping the leg drag. Practitioners with existing knee or hip injuries should work the technique at reduced intensity and avoid forcing leg position against resistance. Ensure proper warm-up focusing on hip mobility before drilling leg drag defense sequences."
+    "safety_considerations": "This technique is relatively low-risk compared to other escapes as it does not involve explosive bridging or inversion. The primary injury concern is knee strain from forcing the leg extraction against strong resistance—never yank your trapped leg straight back against a locked grip. If your leg feels torqued during the escape attempt, stop and reset. Training partners should allow controlled practice by providing graduated resistance rather than death-gripping the leg drag. Practitioners with existing knee or hip injuries should work the technique at reduced intensity and avoid forcing leg position against resistance. Ensure proper warm-up focusing on hip mobility before drilling leg drag defense sequences.",
+    "clips": [
+      {
+        "id": "fFqoFDE2yyw",
+        "title": "Guard retention against the leg drag",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PeRFLNak-1U",
+        "title": "Side Kipping to Retain Guard and Defeat the Leg Drag",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 233,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard Retention: When to Sit Up Escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag Counter to Half Guard Defender",
@@ -321,23 +462,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is about to attempt the half guard counter?",
-        "answer": "The earliest cue is when the bottom player establishes a frame against your shoulder or bicep with their near-side elbow. This frame is the prerequisite for their hip escape—without it, they cannot generate the space needed for leg extraction. Collapsing this frame immediately shuts down the escape before it begins."
+        "answer": "The earliest cue is when the bottom player establishes a frame against your shoulder or bicep with their near-side elbow. This frame is the prerequisite for their hip escape—without it, they cannot generate the space needed for leg extraction. Collapsing this frame immediately shuts down the escape before it begins.",
+        "answer_line": "Elbow frame on your shoulder",
+        "distractors": {
+          "plausible": [
+            "Hip escape movement begins",
+            "Outside leg reaching for yours"
+          ],
+          "trap": [
+            "Ignore it, it's too early"
+          ]
+        }
       },
       {
         "question": "Why is active advancement from leg drag more effective than static retention against this counter?",
-        "answer": "Static leg drag control inevitably creates the grip adjustments and weight shifts the bottom player exploits to time their escape. Every moment you stall, you generate micro-opportunities for their counter. Active advancement toward side control, mount, or back take eliminates these windows by forcing the bottom player to defend new threats rather than executing their escape sequence."
+        "answer": "Static leg drag control inevitably creates the grip adjustments and weight shifts the bottom player exploits to time their escape. Every moment you stall, you generate micro-opportunities for their counter. Active advancement toward side control, mount, or back take eliminates these windows by forcing the bottom player to defend new threats rather than executing their escape sequence.",
+        "answer_line": "Advance, don't stall in position",
+        "distractors": {
+          "plausible": [
+            "Hold tight and wait them out",
+            "Reset grips repeatedly"
+          ],
+          "trap": [
+            "Stay static to save energy"
+          ]
+        }
       },
       {
         "question": "Your grip on the dragged leg is slipping and the bottom player is beginning to extract their knee—what is your best response?",
-        "answer": "Immediately abandon the leg drag and drive laterally into side control consolidation. Trying to re-secure a failing grip wastes time and energy while the bottom player completes their escape. By releasing the leg and establishing crossface and hip control for side control, you trade the leg drag for a consolidated dominant position before they can lock half guard."
+        "answer": "Immediately abandon the leg drag and drive laterally into side control consolidation. Trying to re-secure a failing grip wastes time and energy while the bottom player completes their escape. By releasing the leg and establishing crossface and hip control for side control, you trade the leg drag for a consolidated dominant position before they can lock half guard.",
+        "answer_line": "Abandon leg, take side control",
+        "distractors": {
+          "plausible": [
+            "Re-secure the slipping grip",
+            "Chase the leg with both hands"
+          ],
+          "trap": [
+            "Hold on and fight the grip"
+          ]
+        }
       },
       {
         "question": "How should you respond when you feel the bottom player's outside leg reaching for your near leg?",
-        "answer": "This is a late-stage recognition cue meaning the escape is well advanced. Immediately sprawl your near leg back to deny the hook, or transition to side control by driving your chest over their torso and establishing crossface. If you can pull your leg free before they triangle, do so and consolidate. If they lock the triangle, accept half guard top and begin your passing sequence immediately."
+        "answer": "This is a late-stage recognition cue meaning the escape is well advanced. Immediately sprawl your near leg back to deny the hook, or transition to side control by driving your chest over their torso and establishing crossface. If you can pull your leg free before they triangle, do so and consolidate. If they lock the triangle, accept half guard top and begin your passing sequence immediately.",
+        "answer_line": "Sprawl leg back or crossface",
+        "distractors": {
+          "plausible": [
+            "Wait to see if they lock it",
+            "Push their head down"
+          ],
+          "trap": [
+            "Let them triangle, then relax"
+          ]
+        }
       },
       {
         "question": "What is the relationship between your shoulder control and the bottom player's ability to execute this counter?",
-        "answer": "Your shoulder or head control prevents the bottom player from generating frames, which are the essential first step of their escape sequence. Without frames, they cannot create the hip separation needed for leg extraction. Maintaining constant shoulder pressure or crossface makes the counter nearly impossible to initiate. If you lose shoulder control, the escape becomes available regardless of how tight your leg grip is."
+        "answer": "Your shoulder or head control prevents the bottom player from generating frames, which are the essential first step of their escape sequence. Without frames, they cannot create the hip separation needed for leg extraction. Maintaining constant shoulder pressure or crossface makes the counter nearly impossible to initiate. If you lose shoulder control, the escape becomes available regardless of how tight your leg grip is.",
+        "answer_line": "Shoulder control blocks frames",
+        "distractors": {
+          "plausible": [
+            "Leg control alone stops it",
+            "Hip pressure matters most"
+          ],
+          "trap": [
+            "Release shoulder, grip legs harder"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -360,6 +551,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Positional sparring starting in leg drag control. You must advance to a consolidated position or submit before partner recovers half guard. Track advancement rate and identify which escape variations give you the most trouble for targeted improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "LmPBnck5SS4",
+        "title": "Leg drag answer to the bolo counter",
+        "by": "Grapplers Planet",
+        "vertical": false,
+        "channel": "Grapplers Planet",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RRgLRw-fRM0",
+        "title": "Weave pass: keep the trapped leg to stop half guard recovery",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 65,
+        "verified": "2026-07-16"
       }
     ]
   },

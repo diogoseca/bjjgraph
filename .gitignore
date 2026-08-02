@@ -41,6 +41,22 @@ paa_output/
 output.txt
 **/output.txt
 
+# Calibration pipeline artifacts (regenerable via calibrate_probabilities.py; DO NOT COMMIT)
+calibration_cases.json
+calibration_results.json
+calibration_proposals.json
+calibration_results.partial.json
+
+# Q3 occurrence-elicitation working state (per-agent ballots persisted for credit-outage
+# resume; final provenance is committed as occurrence_calibration.json instead)
+occurrence_elicitation/
+
+# YouTube clip sourcing working state (resumable per-slot state + raw search results +
+# review.html; the applied clips live in content/*.json which IS committed)
+clips_sourcing/
+# regenerable from occurrence_calibration.json via `occurrence_moe.py --aggregate`
+occurrence_preview.md
+
 # Package manager lock files (optional - uncomment if needed)
 # package-lock.json
 # yarn.lock
@@ -49,3 +65,35 @@ __pycache__/
 .claude
 .playwright-mcp/
 scripts/list-claude-sessions.sh
+
+# Neural Graph front-end (neural-graph branch): generated data (built at deploy, like graph.json)
+# + local build/analysis working dir. The generator script (scripts/regenerate_neural_data.py) IS tracked.
+source/quartz/static/neural/
+neural/dist/
+neural/build/.tmp/
+neural-render.jpeg
+# raw Claude-Design dump is ignored; keep only the build inputs the bundle needs
+neural/src/*
+!neural/src/app.src.jsx
+!neural/src/xdc-template.html
+!neural/src/helmet.html
+!neural/src/props.json
+!neural/src/technique-content.js
+
+# Playwright journey-suite artifacts (e2e/gallery keyframes are regenerated per run)
+e2e/report/
+e2e/report-gen/
+e2e/test-results/
+test-results/
+e2e/gallery/
+
+# Paired-debugging sessions (journals + shared-browser profile/pids are per-session scratch)
+e2e/paired/
+
+# Dev snapshot captures (written by scripts/dev-serve.mjs; see CLAUDE.md "Dev Snapshots").
+# Only this subdir — the rest of tests/artifacts/ is tracked.
+tests/artifacts/snapshots/
+node_modules/
+
+# Transient local-agent coordination notes (this checkout only; repo is public)
+HANDOFF.md

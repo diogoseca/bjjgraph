@@ -34,6 +34,43 @@ description: "Master Leg Extraction to Guard from Ushiro Ashi-Garami. Learn syst
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction to Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg entanglement escapes fundamentals",
+      "description": "Leg Extraction to Guard film study: Leg entanglement escapes fundamentals, taught by Jeremy Skinner.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c-LUX8aDBUE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c-LUX8aDBUE",
+      "url": "https://www.youtube.com/watch?v=c-LUX8aDBUE",
+      "creator": { "@type": "Person", "name": "Jeremy Skinner" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping ashi garami back to guard",
+      "description": "Leg Extraction to Guard film study: Escaping ashi garami back to guard, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Timing is paramount for this technique. The optimal window occurs when your oppo
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction to Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c-LUX8aDBUE)
+
+<p class="clip-credit"><strong>Leg entanglement escapes fundamentals</strong> — taught by Jeremy Skinner · 0:35 · <a href="https://www.youtube.com/watch?v=c-LUX8aDBUE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+
+<p class="clip-credit"><strong>Escaping ashi garami back to guard</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

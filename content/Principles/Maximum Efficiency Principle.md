@@ -164,6 +164,43 @@ description: "Master the principle of maximum efficiency with minimum effort in 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Maximum Efficiency Principle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Seiryoku zenyo: maximum efficiency explained",
+      "description": "Maximum Efficiency Principle film study: Seiryoku zenyo: maximum efficiency explained, taught by Shizen Style.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ks_uL6k4NBQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ks_uL6k4NBQ",
+      "url": "https://www.youtube.com/watch?v=ks_uL6k4NBQ",
+      "creator": { "@type": "Person", "name": "Shizen Style" },
+      "duration": "PT612S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing with maximum efficiency (seiryoku zenyo)",
+      "description": "Maximum Efficiency Principle film study: Finishing with maximum efficiency (seiryoku zenyo), taught by Jukido Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YIyv8x8tmuI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YIyv8x8tmuI",
+      "url": "https://www.youtube.com/watch?v=YIyv8x8tmuI",
+      "creator": { "@type": "Person", "name": "Jukido Academy" },
+      "duration": "PT344S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Maximum Efficiency Principle?
@@ -177,6 +214,34 @@ This principle permeates every aspect of BJJ, from the smallest grip adjustment 
 At its core, maximum efficiency teaches practitioners to work smarter rather than harder, creating a technical framework where success is measured not by how much energy you expend, but by how effectively you control and submit opponents while remaining relaxed and composed. This principle becomes increasingly important as practitioners advance through the belt ranks, forming the foundation for developing sophisticated game strategies and sustainable long-term practice.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Maximum Efficiency Principle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ks_uL6k4NBQ)
+
+<p class="clip-credit"><strong>Seiryoku zenyo: maximum efficiency explained</strong> — taught by Shizen Style · 10:12 · <a href="https://www.youtube.com/watch?v=ks_uL6k4NBQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YIyv8x8tmuI)
+
+<p class="clip-credit"><strong>Finishing with maximum efficiency (seiryoku zenyo)</strong> — taught by Jukido Academy · 5:44 · <a href="https://www.youtube.com/watch?v=YIyv8x8tmuI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

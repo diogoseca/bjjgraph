@@ -148,6 +148,43 @@ description: "Learn to defend against the Sweep from Leg Weave. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Leg Weave (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg weave and leg staple pins to stop the sweep",
+      "description": "Sweep from Leg Weave (Defender) film study: Leg weave and leg staple pins to stop the sweep, taught by Fox Den coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sNbJLknPgQM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sNbJLknPgQM",
+      "url": "https://www.youtube.com/watch?v=sNbJLknPgQM",
+      "creator": { "@type": "Person", "name": "Fox Den coach" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg weave guard pass mechanics",
+      "description": "Sweep from Leg Weave (Defender) film study: Leg weave guard pass mechanics, taught by F.I.T.E. Fit coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CkE-XEU26nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CkE-XEU26nc",
+      "url": "https://www.youtube.com/watch?v=CkE-XEU26nc",
+      "creator": { "@type": "Person", "name": "F.I.T.E. Fit coach" },
+      "duration": "PT90S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the top player maintaining the leg weave passing position, you must recognize
 **Opponent's Starting Position**: [[Positions/Leg Weave]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Leg Weave (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sNbJLknPgQM)
+
+<p class="clip-credit"><strong>Leg weave and leg staple pins to stop the sweep</strong> — taught by Fox Den coach · 1:48 · <a href="https://www.youtube.com/watch?v=sNbJLknPgQM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CkE-XEU26nc)
+
+<p class="clip-credit"><strong>Leg weave guard pass mechanics</strong> — taught by F.I.T.E. Fit coach · 1:30 · <a href="https://www.youtube.com/watch?v=CkE-XEU26nc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

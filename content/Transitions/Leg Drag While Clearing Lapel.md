@@ -34,6 +34,43 @@ description: "Master the Leg Drag While Clearing Lapel pass in BJJ. Simultaneous
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag While Clearing Lapel \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard passing breakdown",
+      "description": "Leg Drag While Clearing Lapel film study: Guard passing breakdown, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cr4bYMXDG6k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cr4bYMXDG6k",
+      "url": "https://www.youtube.com/watch?v=cr4bYMXDG6k",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kick leg drag pass vs Paulo Miyao",
+      "description": "Leg Drag While Clearing Lapel film study: Kick leg drag pass vs Paulo Miyao, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DwA_p23SzNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DwA_p23SzNY",
+      "url": "https://www.youtube.com/watch?v=DwA_p23SzNY",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT30S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The fundamental insight is that the leg drag motion naturally creates the angle 
 Strategically, this technique excels against opponents who rely heavily on lapel guard systems. Rather than engaging in extended grip battles that favor the bottom player's energy efficiency, you convert directly to a passing position. The leg drag position achieved offers immediate submission threats including leg attacks and back exposure, making this a high-value transition that changes the entire complexion of the exchange.
 
 **From Position**: [[Positions/Lapel Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag While Clearing Lapel in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cr4bYMXDG6k)
+
+<p class="clip-credit"><strong>Guard passing breakdown</strong> — taught by Andre Galvao · 1:29 · <a href="https://www.youtube.com/watch?v=cr4bYMXDG6k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DwA_p23SzNY)
+
+<p class="clip-credit"><strong>Kick leg drag pass vs Paulo Miyao</strong> — taught by Keenan Cornelius · 0:30 · <a href="https://www.youtube.com/watch?v=DwA_p23SzNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

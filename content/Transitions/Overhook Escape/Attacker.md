@@ -168,6 +168,54 @@ description: "How to execute Overhook Escape in BJJ. Attacking perspective with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Escape (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple rubber guard escape",
+      "description": "Overhook Escape (Attacker) film study: Simple rubber guard escape, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Eddie Bravo breaks down the overhook",
+      "description": "Overhook Escape (Attacker) film study: Eddie Bravo breaks down the overhook, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WCtTNo4o0Cs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WCtTNo4o0Cs",
+      "url": "https://www.youtube.com/watch?v=WCtTNo4o0Cs",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber guard to cobra clinch overhook control",
+      "description": "Overhook Escape (Attacker) film study: Rubber guard to cobra clinch overhook control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E7LsXddfXRM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E7LsXddfXRM",
+      "url": "https://www.youtube.com/watch?v=E7LsXddfXRM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Timing proves critical to successful execution. The optimal window for escape oc
 **From Position**: [[Positions/Rubber Guard/New York Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Escape (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+
+<p class="clip-credit"><strong>Simple rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WCtTNo4o0Cs)
+
+<p class="clip-credit"><strong>Eddie Bravo breaks down the overhook</strong> — taught by Eddie Bravo · 2:19 · <a href="https://www.youtube.com/watch?v=WCtTNo4o0Cs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E7LsXddfXRM)
+
+<p class="clip-credit"><strong>Rubber guard to cobra clinch overhook control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=E7LsXddfXRM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

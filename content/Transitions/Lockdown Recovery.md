@@ -34,6 +34,54 @@ description: "Master Lockdown Recovery from Modified Mount bottom. Step-by-step 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown Recovery \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Advanced lockdown details and re-entry",
+      "description": "Lockdown Recovery film study: Advanced lockdown details and re-entry, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AmOMN0S1v8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AmOMN0S1v8Q",
+      "url": "https://www.youtube.com/watch?v=AmOMN0S1v8Q",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown clinches to lock the legs back up",
+      "description": "Lockdown Recovery film study: Lockdown clinches to lock the legs back up, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deep down the lockdown hole",
+      "description": "Lockdown Recovery film study: Deep down the lockdown hole, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6r4DoDXcHcs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6r4DoDXcHcs",
+      "url": "https://www.youtube.com/watch?v=6r4DoDXcHcs",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,9 +110,45 @@ description: "Master Lockdown Recovery from Modified Mount bottom. Step-by-step 
 Lockdown Recovery is a specialized escape from Modified Mount that exploits the position's asymmetric structure to capture the opponent's posted leg and establish the powerful Lockdown half guard control. When mounted in Modified Mount, the opponent's posted leg creates both stability for them and an opportunity for the bottom practitioner - that extended leg is vulnerable to being captured if proper timing and technique are applied. The escape centers on creating enough hip space through frames and movement to shoot your legs around the posted leg and establish the figure-four lockdown configuration before the opponent can retract. This technique represents a fundamental principle in BJJ defensive strategy: rather than fighting directly against the mount, you transition to a position where your leg control creates immediate problems for the top player. Once Lockdown is established, the dynamic shifts dramatically - the opponent cannot effectively pass or mount because their leg mobility is completely compromised. The technique requires precise timing, as attempting the leg capture too early leaves you vulnerable to submission attempts, while waiting too long allows the opponent to consolidate mount or transition to a more dominant position. Advanced practitioners use this recovery as part of a broader escape system, threatening the Lockdown entry to create reactions that open other escape paths like deep half guard or standard hip escapes.
 
 **From Position**: [[Positions/Mount/Modified Mount]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 35%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown Recovery in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AmOMN0S1v8Q)
+
+<p class="clip-credit"><strong>Advanced lockdown details and re-entry</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=AmOMN0S1v8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown clinches to lock the legs back up</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6r4DoDXcHcs)
+
+<p class="clip-credit"><strong>Deep down the lockdown hole</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=6r4DoDXcHcs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

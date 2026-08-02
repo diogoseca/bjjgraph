@@ -98,35 +98,115 @@
     "flashcards": [
       {
         "question": "What is the optimal chest placement for maintaining maximum control in Cross Body Ride?",
-        "answer": "Position your chest perpendicular across the opponent's upper back, with your sternum contacting the area between their shoulder blades and spine. This creates downward pressure that collapses their turtle structure while your shoulder drives into their near-side shoulder blade. The perpendicular angle prevents them from rolling in either direction and maximizes your weight transfer efficiency."
+        "answer": "Position your chest perpendicular across the opponent's upper back, with your sternum contacting the area between their shoulder blades and spine. This creates downward pressure that collapses their turtle structure while your shoulder drives into their near-side shoulder blade. The perpendicular angle prevents them from rolling in either direction and maximizes your weight transfer efficiency.",
+        "answer_line": "Perpendicular chest across back",
+        "distractors": {
+          "plausible": [
+            "Parallel chest along spine",
+            "Chest low, hips heavy on back"
+          ],
+          "trap": [
+            "Drop full weight onto hips"
+          ]
+        }
       },
       {
         "question": "Your opponent suddenly shifts their weight forward and attempts to stand - what immediate adjustment do you make?",
-        "answer": "Immediately transition your weight forward onto their shoulders to drive them back down while simultaneously threading your near-side arm deeper under their armpit for seatbelt control. Use your far leg to post wide for base, then consider transitioning to crab ride if they continue standing attempts. Never chase their hips backward - stay connected to their upper body and let your weight work."
+        "answer": "Immediately transition your weight forward onto their shoulders to drive them back down while simultaneously threading your near-side arm deeper under their armpit for seatbelt control. Use your far leg to post wide for base, then consider transitioning to crab ride if they continue standing attempts. Never chase their hips backward - stay connected to their upper body and let your weight work.",
+        "answer_line": "Drive weight forward, seatbelt arm",
+        "distractors": {
+          "plausible": [
+            "Chase their hips as they rise",
+            "Pull them back down by hips"
+          ],
+          "trap": [
+            "Release grips and re-shoot legs"
+          ]
+        }
       },
       {
         "question": "What are the three primary control points you must establish before attempting transitions?",
-        "answer": "First, establish chest-to-back connection with perpendicular pressure across their spine. Second, secure near-side control through an underhook, overhook, or seatbelt grip that prevents them from turning into you. Third, control their far hip with your near-side knee or hook to prevent guard recovery. These three points create a stable platform for any back attack transition."
+        "answer": "First, establish chest-to-back connection with perpendicular pressure across their spine. Second, secure near-side control through an underhook, overhook, or seatbelt grip that prevents them from turning into you. Third, control their far hip with your near-side knee or hook to prevent guard recovery. These three points create a stable platform for any back attack transition.",
+        "answer_line": "Chest-to-back pressure first",
+        "distractors": {
+          "plausible": [
+            "Secure far-side underhook first",
+            "Far-hip control before seatbelt"
+          ],
+          "trap": [
+            "Abandon hips to finish the choke"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from executing a successful granby roll escape?",
-        "answer": "Maintain heavy forward pressure through your chest into their shoulders rather than sitting back on their hips. When you sense them loading for the roll by shifting weight to one shoulder, immediately adjust your angle to follow their intended direction while increasing pressure. Your near-side hook should block their hip from initiating the rotation. If they commit to rolling, follow them and use their momentum to accelerate your back take."
+        "answer": "Maintain heavy forward pressure through your chest into their shoulders rather than sitting back on their hips. When you sense them loading for the roll by shifting weight to one shoulder, immediately adjust your angle to follow their intended direction while increasing pressure. Your near-side hook should block their hip from initiating the rotation. If they commit to rolling, follow them and use their momentum to accelerate your back take.",
+        "answer_line": "Follow their roll, add pressure",
+        "distractors": {
+          "plausible": [
+            "Sit back on hips to block roll",
+            "Pull back against the rotation"
+          ],
+          "trap": [
+            "Release chest pressure to reset"
+          ]
+        }
       },
       {
         "question": "When transitioning from cross body ride to back control, what is the critical error that causes position loss?",
-        "answer": "The critical error is releasing chest pressure prematurely before securing the seatbelt grip and at least one hook. Many practitioners lift their chest to insert hooks, which creates space for the opponent to turn, granby, or sit to guard. Instead, maintain crushing chest pressure throughout the entire transition, threading your arms for seatbelt while your chest pins them, only inserting hooks once upper body control is fully secured."
+        "answer": "The critical error is releasing chest pressure prematurely before securing the seatbelt grip and at least one hook. Many practitioners lift their chest to insert hooks, which creates space for the opponent to turn, granby, or sit to guard. Instead, maintain crushing chest pressure throughout the entire transition, threading your arms for seatbelt while your chest pins them, only inserting hooks once upper body control is fully secured.",
+        "answer_line": "Releasing chest pressure too early",
+        "distractors": {
+          "plausible": [
+            "Inserting both hooks at once",
+            "Securing seatbelt before hooks"
+          ],
+          "trap": [
+            "Lifting chest to jam hooks in fast"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their arms tight and refuses to expose them for crucifix entries - what strategy breaks this defense?",
-        "answer": "When the opponent hides their arms, they sacrifice base and mobility. Use this to your advantage by threatening the back take more aggressively, forcing them to post a hand to prevent flattening. Alternatively, apply heavy shoulder pressure while walking your hips toward their head, which eventually forces them to extend an arm for balance. The key is creating dilemmas rather than waiting for mistakes."
+        "answer": "When the opponent hides their arms, they sacrifice base and mobility. Use this to your advantage by threatening the back take more aggressively, forcing them to post a hand to prevent flattening. Alternatively, apply heavy shoulder pressure while walking your hips toward their head, which eventually forces them to extend an arm for balance. The key is creating dilemmas rather than waiting for mistakes.",
+        "answer_line": "Pressure toward head, force a post",
+        "distractors": {
+          "plausible": [
+            "Pry the arm out with your hands",
+            "Wait patiently for a mistake"
+          ],
+          "trap": [
+            "Grab the wrist and yank it free"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining dominant cross body control?",
-        "answer": "Efficient control relies on skeletal structure rather than muscular effort. Position your weight through your shoulder and chest bones into their back, keeping your core engaged but relaxed. Avoid gripping excessively - use hooks and wedges instead of death grips. Move only when necessary, letting gravity and bone-on-bone pressure do the work. The opponent should feel crushed while you feel relatively relaxed."
+        "answer": "Efficient control relies on skeletal structure rather than muscular effort. Position your weight through your shoulder and chest bones into their back, keeping your core engaged but relaxed. Avoid gripping excessively - use hooks and wedges instead of death grips. Move only when necessary, letting gravity and bone-on-bone pressure do the work. The opponent should feel crushed while you feel relatively relaxed.",
+        "answer_line": "Bone pressure, not muscle grip",
+        "distractors": {
+          "plausible": [
+            "Grip tightly to prevent any movement",
+            "Constant motion to tire opponent"
+          ],
+          "trap": [
+            "Squeeze with arms to hold position"
+          ]
+        }
       },
       {
         "question": "What signals indicate the optimal moment to commit to a back take transition?",
-        "answer": "Watch for these triggers: opponent's weight shifts forward as they try to build base, their near arm extends to post or push, they attempt to sit through toward your hooks, or they begin rotating their hips toward you. Any defensive reaction that moves their weight away from the center creates the window. The moment their structure breaks, immediately secure seatbelt and begin hook insertion while they're compromised."
+        "answer": "Watch for these triggers: opponent's weight shifts forward as they try to build base, their near arm extends to post or push, they attempt to sit through toward your hooks, or they begin rotating their hips toward you. Any defensive reaction that moves their weight away from the center creates the window. The moment their structure breaks, immediately secure seatbelt and begin hook insertion while they're compromised.",
+        "answer_line": "Any weight shift breaking structure",
+        "distractors": {
+          "plausible": [
+            "Only when they go fully limp",
+            "Wait until they stop moving"
+          ],
+          "trap": [
+            "Attack the instant you get on top"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -324,47 +404,109 @@
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 50
+        "attempt_probability": {
+          "gi": 23,
+          "nogi": 19
+        }
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 10
+        }
       },
       {
         "transition": "Twister from Cross Body Ride",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 8
+        }
       },
       {
         "transition": "Turtle Flatten to Side Control",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 10
+        }
       },
       {
         "transition": "Turtle to Truck",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 13
+        }
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Darce from Turtle",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 8
+        }
       },
       {
         "transition": "Cross Body to Back Control",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 8
+        }
       },
       {
         "transition": "Cross Body to Side Control",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 6
+        }
       },
       {
         "transition": "Twister Entry",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 4
+        }
       },
       {
         "transition": "Short Choke from Cross Body",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "tQdLbooJjvI",
+        "title": "Get to the far hip and hold it in place",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 13,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aX87dPPVcGU",
+        "title": "Cross body ride back take vs turtle",
+        "by": "Paul McVeigh",
+        "vertical": false,
+        "channel": "Paul Mcveigh",
+        "duration": 107,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PTe4-NhLXf8",
+        "title": "Shallow cross face detail",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 24,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -412,35 +554,115 @@
     "flashcards": [
       {
         "question": "What is your first defensive priority when caught in cross body ride bottom?",
-        "answer": "Immediately protect your neck by tucking your chin tightly to your chest and bringing your hands to your collar/neck area. Simultaneously keep your elbows pinned to your ribs to prevent arm isolation for crucifix or kimura attacks. This defensive shell buys time to assess the situation and plan your escape, preventing immediate submission threats while you work on position improvement."
+        "answer": "Immediately protect your neck by tucking your chin tightly to your chest and bringing your hands to your collar/neck area. Simultaneously keep your elbows pinned to your ribs to prevent arm isolation for crucifix or kimura attacks. This defensive shell buys time to assess the situation and plan your escape, preventing immediate submission threats while you work on position improvement.",
+        "answer_line": "Tuck chin, elbows to ribs",
+        "distractors": {
+          "plausible": [
+            "Post hands wide for base first",
+            "Push hips back immediately"
+          ],
+          "trap": [
+            "Extend arms to frame off shoulders"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving heavy shoulder pressure to flatten you - how do you maintain your structure?",
-        "answer": "Widen your base by spreading your knees slightly and driving your hips away from the pressure angle. Post on your forearm on the side receiving pressure rather than a flat hand, as this creates a stronger frame. Keep your core engaged and resist the urge to flatten - even maintaining a few inches of elevation preserves your escape options. If you feel yourself collapsing, immediately hip escape in the direction opposite the pressure."
+        "answer": "Widen your base by spreading your knees slightly and driving your hips away from the pressure angle. Post on your forearm on the side receiving pressure rather than a flat hand, as this creates a stronger frame. Keep your core engaged and resist the urge to flatten - even maintaining a few inches of elevation preserves your escape options. If you feel yourself collapsing, immediately hip escape in the direction opposite the pressure.",
+        "answer_line": "Post forearm, widen base",
+        "distractors": {
+          "plausible": [
+            "Post flat palm for more base",
+            "Flatten out to conserve energy"
+          ],
+          "trap": [
+            "Push straight into the pressure"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt a granby roll escape?",
-        "answer": "Execute the granby roll when your opponent commits their weight forward during a back take attempt or when they shift to adjust their grip. The key indicator is feeling their chest pressure lighten momentarily or shift to one side. Roll toward the side where their weight is committed - they'll struggle to follow if they're already moving that direction. Never attempt a granby when they have heavy settled pressure, as this wastes energy and often worsens position."
+        "answer": "Execute the granby roll when your opponent commits their weight forward during a back take attempt or when they shift to adjust their grip. The key indicator is feeling their chest pressure lighten momentarily or shift to one side. Roll toward the side where their weight is committed - they'll struggle to follow if they're already moving that direction. Never attempt a granby when they have heavy settled pressure, as this wastes energy and often worsens position.",
+        "answer_line": "When their chest pressure lightens",
+        "distractors": {
+          "plausible": [
+            "Anytime you feel discomfort",
+            "Right after they insert a hook"
+          ],
+          "trap": [
+            "Roll while pressure is heavy and set"
+          ]
+        }
       },
       {
         "question": "How do you prevent arm isolation when the opponent is hunting for crucifix?",
-        "answer": "Keep both elbows glued to your ribs at all times, with forearms creating frames close to your body. If they control one wrist, immediately pull that arm back toward your centerline while shifting your hips away. The key is never extending your arms to post or push - any extended arm becomes a lever for crucifix entry. Use your entire torso to rotate and retract any compromised arm rather than fighting their grip strength directly."
+        "answer": "Keep both elbows glued to your ribs at all times, with forearms creating frames close to your body. If they control one wrist, immediately pull that arm back toward your centerline while shifting your hips away. The key is never extending your arms to post or push - any extended arm becomes a lever for crucifix entry. Use your entire torso to rotate and retract any compromised arm rather than fighting their grip strength directly.",
+        "answer_line": "Elbows glued, retract trapped wrist",
+        "distractors": {
+          "plausible": [
+            "Fight grip strength hand to hand",
+            "Post the arm to create space"
+          ],
+          "trap": [
+            "Extend arm to push them away"
+          ]
+        }
       },
       {
         "question": "What role does hip movement play in surviving and escaping cross body ride?",
-        "answer": "Hip movement is your primary escape engine from this position. Mobile hips prevent flattening, create angles for escape, and disrupt opponent's weight distribution. Small constant hip adjustments keep your opponent reactive rather than offensive. For escapes, explosive hip movement in one direction while creating a frame in the opposite direction generates the space needed to insert guards or stand. Static hips equal certain position loss."
+        "answer": "Hip movement is your primary escape engine from this position. Mobile hips prevent flattening, create angles for escape, and disrupt opponent's weight distribution. Small constant hip adjustments keep your opponent reactive rather than offensive. For escapes, explosive hip movement in one direction while creating a frame in the opposite direction generates the space needed to insert guards or stand. Static hips equal certain position loss.",
+        "answer_line": "Constant hip movement drives escape",
+        "distractors": {
+          "plausible": [
+            "Keep hips still, conserve energy",
+            "Move hips only after hooks in"
+          ],
+          "trap": [
+            "Stay flat and wait for a mistake"
+          ]
+        }
       },
       {
         "question": "Your opponent has nearly flattened you and is securing hooks - what is your emergency response?",
-        "answer": "The moment you feel hooks entering, this becomes your highest priority to address before they're fully secured. Immediately bridge explosively to one side while reaching back to fight the near-side hook. Even if you can't prevent both hooks, preventing the second hook preserves escape options. If hooks are secured, immediately protect your neck and work to clear one hook at a time using your legs to trap and peel their feet. Time is critical - every second they consolidate makes escape exponentially harder."
+        "answer": "The moment you feel hooks entering, this becomes your highest priority to address before they're fully secured. Immediately bridge explosively to one side while reaching back to fight the near-side hook. Even if you can't prevent both hooks, preventing the second hook preserves escape options. If hooks are secured, immediately protect your neck and work to clear one hook at a time using your legs to trap and peel their feet. Time is critical - every second they consolidate makes escape exponentially harder.",
+        "answer_line": "Bridge hard, fight the near hook",
+        "distractors": {
+          "plausible": [
+            "Wait until both hooks are in",
+            "Focus only on neck protection"
+          ],
+          "trap": [
+            "Turn to face them, exposing back"
+          ]
+        }
       },
       {
         "question": "How do you chain escape attempts when individual techniques are being shut down?",
-        "answer": "Never commit to a single escape attempt - always chain techniques based on opponent's reaction. If your granby roll is blocked, use that momentum to attempt a sit-out in the opposite direction. If they follow your hip escape, immediately stand to technical base. The goal is continuous movement that prevents the opponent from settling their weight. Create a decision tree: first attempt creates reaction, second attempt exploits that reaction, third attempt capitalizes if they over-correct."
+        "answer": "Never commit to a single escape attempt - always chain techniques based on opponent's reaction. If your granby roll is blocked, use that momentum to attempt a sit-out in the opposite direction. If they follow your hip escape, immediately stand to technical base. The goal is continuous movement that prevents the opponent from settling their weight. Create a decision tree: first attempt creates reaction, second attempt exploits that reaction, third attempt capitalizes if they over-correct.",
+        "answer_line": "Chain escapes off their reaction",
+        "distractors": {
+          "plausible": [
+            "Repeat the same escape harder",
+            "Wait still for one opening"
+          ],
+          "trap": [
+            "Commit fully to first escape try"
+          ]
+        }
       },
       {
         "question": "What grip fighting priorities should you maintain while defending?",
-        "answer": "Focus on preventing the opponent from completing their seatbelt control first - this is their primary control configuration for back takes. Fight any hand reaching across your body by tucking your chin and using your hands near your neck defensively. Strip grips by adjusting your posture rather than hand fighting directly - your movement makes grips less effective. Don't sacrifice neck protection to fight grips, but do address any belt, collar, or wrist grips during your escape attempts."
+        "answer": "Focus on preventing the opponent from completing their seatbelt control first - this is their primary control configuration for back takes. Fight any hand reaching across your body by tucking your chin and using your hands near your neck defensively. Strip grips by adjusting your posture rather than hand fighting directly - your movement makes grips less effective. Don't sacrifice neck protection to fight grips, but do address any belt, collar, or wrist grips during your escape attempts.",
+        "answer_line": "Stop seatbelt, protect neck first",
+        "distractors": {
+          "plausible": [
+            "Hand-fight every grip directly",
+            "Prioritize stripping grips first"
+          ],
+          "trap": [
+            "Let go of neck to strip grips"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -615,40 +837,230 @@
     "transitions": [
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 15
+        }
       },
       {
         "transition": "Turtle to Guard",
-        "attempt_probability": 38
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Turtle to Standing",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 15
+        }
       },
       {
         "transition": "Sit Through to Guard",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 15
+        }
       },
       {
         "transition": "Peterson Roll",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 12
+        }
       },
       {
         "transition": "Hip Escape from Cross Body Ride",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 8
+        }
       },
       {
         "transition": "Roll Escape from Cross Body Ride",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 6
+        }
       },
       {
         "transition": "Escape from Cross Body Ride",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "d312j3n9fIw",
+        "title": "Turtle defence: sit out, head on back",
+        "by": "Mjolnir Fight Club",
+        "vertical": false,
+        "channel": "Mjølnir Fight Club",
+        "duration": 30,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "923eYpD1E58",
+        "title": "Inside roll escape from turtle",
+        "by": "Kenny Lester",
+        "vertical": false,
+        "channel": "KING OF CATCH WRESTLING CHAMPIONSHIP",
+        "duration": 158,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zxSKKUroV6Q",
+        "title": "So many ways to escape the turtle",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 214,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What spatial configuration defines the Cross Body Ride and distinguishes it from a standard turtle-top ride?",
+      "answer": "The defining feature is the top player lying perpendicular across the turtled player's back rather than facing the same direction over the spine. This cross-body orientation directs the top player's chest and shoulder weight laterally across the opponent's shoulder blades and spine instead of front-to-back. The perpendicular alignment is what generates the collapsing pressure and raises the cost of the standard granby and sit-out escapes that a parallel ride leaves more open, because the bottom player must now reorient against a sideways load. Trading the mobility of a parallel ride for this fixed perpendicular angle is the position's central bargain.",
+      "answer_line": "Perpendicular, chest on blades",
+      "distractors": {
+        "plausible": [
+          "Parallel ride facing same way",
+          "Same as standard turtle-top ride"
+        ],
+        "trap": [
+          "Sit on hips for a stable base"
+        ]
+      }
+    },
+    {
+      "question": "Why does the perpendicular angle create pressure that the bottom player's standard turtle defenses cannot neutralize?",
+      "answer": "In a parallel ride the bottom player can rotate their spine along its long axis to shed weight, but perpendicular pressure loads the shoulder blades laterally against that axis, where the turtle structure has no rotational give. The bottom player's frames and hip escapes are oriented to shed front-to-back force, so cross-body weight arrives on an unprotected vector. This forces the collapsing player to reorient their entire base rather than simply adjusting a frame. The mismatch between the direction of pressure and the direction of the defensive structure is what makes the ride so difficult to relieve.",
+      "answer_line": "Loads blades against rotation axis",
+      "distractors": {
+        "plausible": [
+          "Same load as front-to-back pressure",
+          "Easily shed like parallel pressure"
+        ],
+        "trap": [
+          "Weak angle, easy to bridge out"
+        ]
+      }
+    },
+    {
+      "question": "What are the shared control points that both players are fighting over in the Cross Body Ride?",
+      "answer": "The contested control points are the near-side arm, the far hip, and the seatbelt (harness) connection across the torso. Whoever controls the near arm dictates whether a crucifix or arm isolation is available, and control of the far hip determines whether guard recovery or a roll-through is possible. The seatbelt grip is the shared axis of the position: it anchors the top player's chest to the back and is the first thing the bottom player fights to prevent. These same three points define success for both players from opposite directions.",
+      "answer_line": "Near arm, far hip, seatbelt",
+      "distractors": {
+        "plausible": [
+          "Both wrists and both ankles",
+          "Head control and near-side hip"
+        ],
+        "trap": [
+          "Far arm and near-side ankle only"
+        ]
+      }
+    },
+    {
+      "question": "How is weight distributed in the Cross Body Ride and why does the top player keep their hips off the opponent?",
+      "answer": "Weight is loaded downward through the top player's chest and shoulder into the opponent's shoulder blades and spine, while the top player's hips stay to the side and slightly back rather than resting on the opponent. Keeping the hips light and off the body preserves the mobility needed to follow the bottom player's rotation and prevents the bottom player from bridging into the hips to reverse. This creates a see-saw where the upper body crushes while the lower body floats as a mobile base. Concentrating weight through skeletal contact rather than the hips is what lets the top player stay heavy yet responsive.",
+      "answer_line": "Chest heavy, hips light and mobile",
+      "distractors": {
+        "plausible": [
+          "Hips heavy for maximum control",
+          "Weight evenly on hips and chest"
+        ],
+        "trap": [
+          "Sit hips down to prevent bridging"
+        ]
+      }
+    },
+    {
+      "question": "What forcing-function dilemma does the Cross Body Ride impose on the bottom player regardless of who is playing it?",
+      "answer": "The perpendicular pressure forces the bottom player into a binary choice: expose the back by flattening, or post a limb and expose that arm to isolation. Every defensive reaction opens a specific offensive lane — flattening invites a back take, posting an arm invites a crucifix, and standing invites a crab-ride transition. This branching decision tree is intrinsic to the geometry of the position, not to either player's intent. Understanding that any movement solves one problem while creating another is the shared mental model that defines play from both sides.",
+      "answer_line": "Every reaction opens new attack",
+      "distractors": {
+        "plausible": [
+          "Only flattening creates danger",
+          "Posting an arm is always safe"
+        ],
+        "trap": [
+          "Staying frozen avoids all risk"
+        ]
+      }
+    },
+    {
+      "question": "How does the Cross Body Ride differ from full Back Control, and why is it considered a transitional state?",
+      "answer": "In back control the top player is chest-to-back and parallel with hooks inserted inside the thighs, whereas the Cross Body Ride is perpendicular with weight on the shoulder blades and no hooks yet established. The ride is a bridge because it controls the turtle while the top player is still hunting for the seatbelt-plus-hooks configuration that defines back control. The primary success path from the ride is precisely to convert the perpendicular pin into a parallel back take. It is therefore best understood as the staging position from which back control is earned, not a destination in itself.",
+      "answer_line": "No hooks yet, still perpendicular",
+      "distractors": {
+        "plausible": [
+          "Same as back control, just no belt",
+          "Parallel ride with hooks half in"
+        ],
+        "trap": [
+          "It's the finished dominant position"
+        ]
+      }
+    },
+    {
+      "question": "Why is continuous movement rather than static holding a shared dynamic of the Cross Body Ride?",
+      "answer": "The perpendicular angle only remains dominant while the top player follows the opponent's rotation, because a static ride lets the bottom player reorient their base and re-square underneath the pressure. Both players are locked in a race: the top player must keep re-establishing the perpendicular line as the bottom player continuously tries to turn back into a defensible angle. This makes the position inherently dynamic, a constant repositioning contest rather than a settled pin. The player who stops moving first cedes the geometric advantage to the other.",
+      "answer_line": "Static ride lets them re-square",
+      "distractors": {
+        "plausible": [
+          "Hold still once pressure is heavy",
+          "Movement only needed early on"
+        ],
+        "trap": [
+          "Settle in and stop adjusting angle"
+        ]
+      }
+    },
+    {
+      "question": "What makes Cross Body Ride especially prevalent in no-gi grappling compared to gi settings?",
+      "answer": "The ride relies on body-to-body seatbelt control and chest-driven perpendicular pressure rather than on lapel or collar grips, so it does not lose potency when gi handles are unavailable. In the gi a top player can often ride turtle using collar and belt grips, but no-gi removes those anchors and elevates positions like this that control through structure and weight. Its friction-and-pressure mechanics translate directly to no-gi where grip-based rides break down. This is why it features prominently in modern no-gi turtle-attack systems built around the harness.",
+      "answer_line": "Controls via structure, not gi grips",
+      "distractors": {
+        "plausible": [
+          "Requires collar and belt grips",
+          "Works only with a gi lapel"
+        ],
+        "trap": [
+          "Depends on sleeve and pant grips"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "-OJPjHh2F7A",
+      "title": "Back-taking concepts from turtle",
+      "by": "Chase Namba",
+      "vertical": false,
+      "channel": "Chase Namba",
+      "duration": 245,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "P47fz4EuVWQ",
+      "title": "Peel back: leg riding from the sit-out",
+      "by": "WrestlingTournaments.com",
+      "vertical": false,
+      "channel": "WrestlingTournaments․com",
+      "duration": 103,
+      "verified": "2026-07-14"
+    }
+  ]
 }

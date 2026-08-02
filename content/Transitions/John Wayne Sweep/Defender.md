@@ -148,6 +148,54 @@ description: "How to defend against the John Wayne Sweep in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "John Wayne Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending butterfly hooks",
+      "description": "John Wayne Sweep (Defender) film study: Defending butterfly hooks, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wgnw31_o3kk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wgnw31_o3kk",
+      "url": "https://www.youtube.com/watch?v=Wgnw31_o3kk",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly hook sweep counter and pass",
+      "description": "John Wayne Sweep (Defender) film study: Butterfly hook sweep counter and pass, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qe7ueI5P5H8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qe7ueI5P5H8",
+      "url": "https://www.youtube.com/watch?v=qe7ueI5P5H8",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to not get swept from butterfly guard",
+      "description": "John Wayne Sweep (Defender) film study: How to not get swept from butterfly guard, taught by Adam Wardzinski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JODB5UZDwQQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JODB5UZDwQQ",
+      "url": "https://www.youtube.com/watch?v=JODB5UZDwQQ",
+      "creator": { "@type": "Person", "name": "Adam Wardzinski" },
+      "duration": "PT443S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Effective defense integrates grip fighting, base management, and tactical weight
 **Opponent's Starting Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch John Wayne Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wgnw31_o3kk)
+
+<p class="clip-credit"><strong>Defending butterfly hooks</strong> — taught by Kohbukan Sisu · 0:58 · <a href="https://www.youtube.com/watch?v=Wgnw31_o3kk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qe7ueI5P5H8)
+
+<p class="clip-credit"><strong>Butterfly hook sweep counter and pass</strong> — taught by Henry Akins · 1:41 · <a href="https://www.youtube.com/watch?v=qe7ueI5P5H8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JODB5UZDwQQ)
+
+<p class="clip-credit"><strong>How to not get swept from butterfly guard</strong> — taught by Adam Wardzinski · 7:23 · <a href="https://www.youtube.com/watch?v=JODB5UZDwQQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

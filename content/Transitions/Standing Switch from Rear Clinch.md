@@ -34,6 +34,54 @@ description: "Master the Standing Switch from Rear Clinch in BJJ. Wrestling-base
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Switch from Rear Clinch \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg switch cutback from rear bodylock",
+      "description": "Standing Switch from Rear Clinch film study: Leg switch cutback from rear bodylock, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2VCyaassiRI",
+      "url": "https://www.youtube.com/watch?v=2VCyaassiRI",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The standing switch for wrestling and MMA",
+      "description": "Standing Switch from Rear Clinch film study: The standing switch for wrestling and MMA, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NJfpYHK2N2I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NJfpYHK2N2I",
+      "url": "https://www.youtube.com/watch?v=NJfpYHK2N2I",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Wrestling reversals: switch from bottom",
+      "description": "Standing Switch from Rear Clinch film study: Wrestling reversals: switch from bottom, taught by American University Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qCGs54kGvQo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qCGs54kGvQo",
+      "url": "https://www.youtube.com/watch?v=qCGs54kGvQo",
+      "creator": { "@type": "Person", "name": "American University Wrestling" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Within the broader standing escape system, the switch complements hand fighting,
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Switch from Rear Clinch in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2VCyaassiRI)
+
+<p class="clip-credit"><strong>Leg switch cutback from rear bodylock</strong> — taught by Procel BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NJfpYHK2N2I)
+
+<p class="clip-credit"><strong>The standing switch for wrestling and MMA</strong> — taught by Danny Mitchell · 1:54 · <a href="https://www.youtube.com/watch?v=NJfpYHK2N2I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qCGs54kGvQo)
+
+<p class="clip-credit"><strong>Wrestling reversals: switch from bottom</strong> — taught by American University Wrestling · 0:31 · <a href="https://www.youtube.com/watch?v=qCGs54kGvQo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -258,7 +342,7 @@ The Standing Switch from Rear Clinch occupies a critical node in the standing es
 
 - [[Positions/Body Lock]] - Related grip configuration that the switch must clear during execution
 
-- [[Transitions/Arm Drag from Standing]] - Similar reversal concept using arm drag mechanics from neutral standing position
+- [[Transitions/Arm Drag]] - Similar reversal concept using arm drag mechanics from neutral standing position
 
 
 </section>

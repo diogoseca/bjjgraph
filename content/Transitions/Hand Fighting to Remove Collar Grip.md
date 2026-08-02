@@ -34,6 +34,43 @@ description: "Master hand fighting to remove collar grip from invisible collar b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Fighting to Remove Collar Grip \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Collar grip breaks for BJJ",
+      "description": "Hand Fighting to Remove Collar Grip film study: Collar grip breaks for BJJ, taught by Martial Arts and Wellness.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jeCozm_smUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jeCozm_smUo",
+      "url": "https://www.youtube.com/watch?v=jeCozm_smUo",
+      "creator": { "@type": "Person", "name": "Martial Arts and Wellness" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three grip breaks for your jiu jitsu",
+      "description": "Hand Fighting to Remove Collar Grip film study: Three grip breaks for your jiu jitsu, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J6RdX606DrY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J6RdX606DrY",
+      "url": "https://www.youtube.com/watch?v=J6RdX606DrY",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +107,34 @@ Strategically, this technique serves as the gateway to all other back control es
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Fighting to Remove Collar Grip in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jeCozm_smUo)
+
+<p class="clip-credit"><strong>Collar grip breaks for BJJ</strong> — taught by Martial Arts and Wellness · 1:02 · <a href="https://www.youtube.com/watch?v=jeCozm_smUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J6RdX606DrY)
+
+<p class="clip-credit"><strong>Three grip breaks for your jiu jitsu</strong> — taught by Malachy Friedman · 1:04 · <a href="https://www.youtube.com/watch?v=J6RdX606DrY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
 <section id="possible-outcomes" class="content-section">
 
 ## Possible Outcomes
@@ -78,7 +143,7 @@ Strategically, this technique serves as the gateway to all other back control es
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 55% |
 | Failure | [[Positions/Rubber Guard/Invisible Collar]] | 30% |
-| Counter | [[Submissions/Cross Collar Choke]] | 15% |
+| Counter | [[Cross Collar Choke from Invisible Collar]] | 15% |
 
 
 </section>

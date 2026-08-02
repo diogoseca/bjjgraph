@@ -77,35 +77,115 @@
     "flashcards": [
       {
         "question": "What is the first priority when you find yourself caught in Ringworm Guard?",
-        "answer": "The first priority is breaking the lapel grip before attempting any aggressive passing. The wrap severely limits safe movement options, and attempting to pass while the lapel is still secured typically results in sweeps or back exposure. You must address the grip systematically before progressing to extraction or passing sequences."
+        "answer": "The first priority is breaking the lapel grip before attempting any aggressive passing. The wrap severely limits safe movement options, and attempting to pass while the lapel is still secured typically results in sweeps or back exposure. You must address the grip systematically before progressing to extraction or passing sequences.",
+        "answer_line": "Break the lapel grip first",
+        "distractors": {
+          "plausible": [
+            "Pass aggressively right away",
+            "Extract the leg immediately"
+          ],
+          "trap": [
+            "Posture up and stack them"
+          ]
+        }
       },
       {
         "question": "Your opponent starts pulling the lapel tighter and creating an angle - what adjustment should you make?",
-        "answer": "When the opponent tightens the lapel and creates angles, you should immediately address the secondary grips they're establishing with their free hands. Control their grip-fighting hand to prevent them from securing collar or sleeve grips that facilitate sweeps. Simultaneously, work to square your hips and maintain heavy pressure through your free leg to resist the angular off-balancing."
+        "answer": "When the opponent tightens the lapel and creates angles, you should immediately address the secondary grips they're establishing with their free hands. Control their grip-fighting hand to prevent them from securing collar or sleeve grips that facilitate sweeps. Simultaneously, work to square your hips and maintain heavy pressure through your free leg to resist the angular off-balancing.",
+        "answer_line": "Control their grip-fighting hand",
+        "distractors": {
+          "plausible": [
+            "Square hips, ignore their hands",
+            "Push forward to flatten them"
+          ],
+          "trap": [
+            "Free the trapped leg by force"
+          ]
+        }
       },
       {
         "question": "Why is explosive movement particularly dangerous when trapped in Ringworm Guard?",
-        "answer": "The lapel wrap acts as a lever that converts explosive energy into sweeping momentum. When you make sudden direction changes or explosive movements, the bottom player can redirect that energy using the lapel connection, often resulting in dramatic position reversals. Controlled, methodical movements allow you to maintain base and prevent your own energy from being used against you."
+        "answer": "The lapel wrap acts as a lever that converts explosive energy into sweeping momentum. When you make sudden direction changes or explosive movements, the bottom player can redirect that energy using the lapel connection, often resulting in dramatic position reversals. Controlled, methodical movements allow you to maintain base and prevent your own energy from being used against you.",
+        "answer_line": "Wrap turns force into a sweep",
+        "distractors": {
+          "plausible": [
+            "It wastes energy needlessly",
+            "It telegraphs your next move"
+          ],
+          "trap": [
+            "Explode hard to break free"
+          ]
+        }
       },
       {
         "question": "What are the essential grips you need to establish for successful extraction?",
-        "answer": "You need both hands committed to the grip-breaking sequence - one hand controlling the lapel tail near the bottom player's grip to prevent re-securing, and the other hand working to peel the lapel away from your leg. Additionally, you should establish a grip on their sleeve or wrist to control their grip-fighting ability while preventing secondary controls."
+        "answer": "You need both hands committed to the grip-breaking sequence - one hand controlling the lapel tail near the bottom player's grip to prevent re-securing, and the other hand working to peel the lapel away from your leg. Additionally, you should establish a grip on their sleeve or wrist to control their grip-fighting ability while preventing secondary controls.",
+        "answer_line": "Lapel tail control plus sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Both hands stripping the lapel",
+            "Collar grip and pants grip"
+          ],
+          "trap": [
+            "Grab a single deep underhook"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight when the opponent has secure lapel control?",
-        "answer": "Keep your weight distributed primarily through your free leg and maintain a low base with your hips heavy. Avoid committing weight forward over the trapped leg, as this creates ideal sweeping angles. Your center of gravity should stay slightly back to prevent the opponent from loading you for back takes or sweeps while you work the extraction."
+        "answer": "Keep your weight distributed primarily through your free leg and maintain a low base with your hips heavy. Avoid committing weight forward over the trapped leg, as this creates ideal sweeping angles. Your center of gravity should stay slightly back to prevent the opponent from loading you for back takes or sweeps while you work the extraction.",
+        "answer_line": "Weight back on the free leg",
+        "distractors": {
+          "plausible": [
+            "Even weight on both legs",
+            "Weight forward to press through"
+          ],
+          "trap": [
+            "Load weight onto trapped leg"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a sweeping motion - how do you recover base without getting swept?",
-        "answer": "When the sweep begins, immediately widen your base with your free leg and drop your hips lower rather than trying to step out with the trapped leg. Post with your free hand if necessary, and circle away from the direction of the sweep while simultaneously working to strip the lapel grip. Do not try to pressure forward through the sweep - this accelerates the position loss."
+        "answer": "When the sweep begins, immediately widen your base with your free leg and drop your hips lower rather than trying to step out with the trapped leg. Post with your free hand if necessary, and circle away from the direction of the sweep while simultaneously working to strip the lapel grip. Do not try to pressure forward through the sweep - this accelerates the position loss.",
+        "answer_line": "Widen base and drop hips low",
+        "distractors": {
+          "plausible": [
+            "Step out with the trapped leg",
+            "Push forward through the sweep"
+          ],
+          "trap": [
+            "Pressure forward into the sweep"
+          ]
+        }
       },
       {
         "question": "What is the strategic trade-off between standing extraction versus ground-based grip breaking?",
-        "answer": "Standing extraction creates distance that makes ground-based attacks harder for the opponent but requires good balance and exposes you to being pulled back down. Ground-based grip breaking keeps you more stable but allows the opponent to continuously work for secondary controls and sweeps. Choose standing when the opponent has multiple control points established; choose ground-based when you have isolated the lapel grip as the only problem."
+        "answer": "Standing extraction creates distance that makes ground-based attacks harder for the opponent but requires good balance and exposes you to being pulled back down. Ground-based grip breaking keeps you more stable but allows the opponent to continuously work for secondary controls and sweeps. Choose standing when the opponent has multiple control points established; choose ground-based when you have isolated the lapel grip as the only problem.",
+        "answer_line": "Standing distances, ground stable",
+        "distractors": {
+          "plausible": [
+            "Standing is always the safer bet",
+            "Ground control stops all attacks"
+          ],
+          "trap": [
+            "Go to ground with multiple grips"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from transitioning to your back during the extraction process?",
-        "answer": "Keep your shoulders square and facing the opponent throughout the extraction - never turn your back toward them. Maintain elbow connection to your body to prevent underhooks, and keep your head position neutral or slightly forward. If you feel them loading for a back take, immediately abort the extraction attempt and reset to a squared position before trying again."
+        "answer": "Keep your shoulders square and facing the opponent throughout the extraction - never turn your back toward them. Maintain elbow connection to your body to prevent underhooks, and keep your head position neutral or slightly forward. If you feel them loading for a back take, immediately abort the extraction attempt and reset to a squared position before trying again.",
+        "answer_line": "Keep shoulders squared to opponent",
+        "distractors": {
+          "plausible": [
+            "Turn slightly to escape pressure",
+            "Drop head down to defend collar"
+          ],
+          "trap": [
+            "Turn back to shuck the hips"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -263,27 +343,65 @@
     "transitions": [
       {
         "transition": "Lapel Grip Break and Posture Recovery",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 28,
+          "nogi": 0
+        }
       },
       {
         "transition": "Leg Extraction from Lapel Wrap",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 0
+        }
       },
       {
         "transition": "Stack Pass with Lapel Control Negation",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 0
+        }
       },
       {
         "transition": "Standing Guard Pass with Distance Creation",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 41
+        }
       },
       {
         "transition": "Smash Pass Counter",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 28
+        }
       },
       {
         "transition": "Standing Reset to Open Guard",
-        "attempt_probability": 19
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 31
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the Polish worm / lapel guard",
+        "by": "Daniel Maira",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lACga4DakTM",
+        "title": "Modern lapel guard passing",
+        "by": "Romulo Barral",
+        "vertical": false,
+        "channel": "Romulo Barral",
+        "duration": 121,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -332,35 +450,115 @@
     "flashcards": [
       {
         "question": "What is the most critical element for maintaining Ringworm Guard control?",
-        "answer": "Constant tension on the lapel wrap is the most critical element. The lapel must remain tight against the opponent's leg throughout all movements and transitions. Any slack allows the opponent to extract their leg and escape the position. The tension should be maintained by pulling the lapel tail toward your hip or chest while using your legs to control the opponent's upper body."
+        "answer": "Constant tension on the lapel wrap is the most critical element. The lapel must remain tight against the opponent's leg throughout all movements and transitions. Any slack allows the opponent to extract their leg and escape the position. The tension should be maintained by pulling the lapel tail toward your hip or chest while using your legs to control the opponent's upper body.",
+        "answer_line": "Constant tension on the lapel wrap",
+        "distractors": {
+          "plausible": [
+            "Constant hip movement and framing",
+            "Strong hand grip strength alone"
+          ],
+          "trap": [
+            "Release tension to reset angle"
+          ]
+        }
       },
       {
         "question": "Your opponent starts aggressively trying to strip the lapel grip - how do you respond?",
-        "answer": "When the opponent attacks the lapel grip, immediately create an angle by hip escaping away from them while maintaining tension on the wrap. This makes their grip-breaking leverage less effective. Simultaneously, use your free hand to control their grip-fighting wrist or sleeve, preventing them from getting both hands on the lapel. If they persist, transition to a sweep or back take while they're focused on the grip."
+        "answer": "When the opponent attacks the lapel grip, immediately create an angle by hip escaping away from them while maintaining tension on the wrap. This makes their grip-breaking leverage less effective. Simultaneously, use your free hand to control their grip-fighting wrist or sleeve, preventing them from getting both hands on the lapel. If they persist, transition to a sweep or back take while they're focused on the grip.",
+        "answer_line": "Hip escape angle, keep tension",
+        "distractors": {
+          "plausible": [
+            "Release grip to re-secure fresh",
+            "Match grip strength head-on"
+          ],
+          "trap": [
+            "Let go of the lapel to reset"
+          ]
+        }
       },
       {
         "question": "What are the essential secondary grips that complement the lapel wrap?",
-        "answer": "The primary secondary grips are sleeve control on the opponent's far arm to prevent posting during sweeps, and collar grip to assist with posture breaking and angle creation. Pants grip at the knee on the non-wrapped leg can also control their base. These secondary grips create a multi-point control system that prevents escape and sets up offensive attacks."
+        "answer": "The primary secondary grips are sleeve control on the opponent's far arm to prevent posting during sweeps, and collar grip to assist with posture breaking and angle creation. Pants grip at the knee on the non-wrapped leg can also control their base. These secondary grips create a multi-point control system that prevents escape and sets up offensive attacks.",
+        "answer_line": "Sleeve, collar, and knee pants grip",
+        "distractors": {
+          "plausible": [
+            "Double sleeve control both arms",
+            "Collar grip and belt grip only"
+          ],
+          "trap": [
+            "Grab a deep single leg grip"
+          ]
+        }
       },
       {
         "question": "How should you position your hips to maintain the guard effectively?",
-        "answer": "Your hips should be angled approximately 30-45 degrees off-center, not flat on the mat. This angle creates sweeping leverage and makes it harder for the opponent to drive forward into a smash pass. Keep your hips mobile and ready to shift further to either side based on the opponent's movements. Staying on your side or shoulder maintains mobility and offensive capability."
+        "answer": "Your hips should be angled approximately 30-45 degrees off-center, not flat on the mat. This angle creates sweeping leverage and makes it harder for the opponent to drive forward into a smash pass. Keep your hips mobile and ready to shift further to either side based on the opponent's movements. Staying on your side or shoulder maintains mobility and offensive capability.",
+        "answer_line": "Hips angled 30-45 degrees, on side",
+        "distractors": {
+          "plausible": [
+            "Hips flat and square to mat",
+            "Hips angled fully perpendicular"
+          ],
+          "trap": [
+            "Flatten out fully on your back"
+          ]
+        }
       },
       {
         "question": "Your opponent begins standing up to create distance - what adjustment do you make?",
-        "answer": "When the opponent stands, immediately extend your hips upward and outward while maintaining the lapel tension. Use your leg frames to follow their elevation by placing feet on hips or a butterfly hook to control distance. The standing position actually creates sweeping opportunities - their base is narrower and the lapel wrap becomes even more restrictive. Prepare to attack with sweeps that capitalize on their elevated center of gravity."
+        "answer": "When the opponent stands, immediately extend your hips upward and outward while maintaining the lapel tension. Use your leg frames to follow their elevation by placing feet on hips or a butterfly hook to control distance. The standing position actually creates sweeping opportunities - their base is narrower and the lapel wrap becomes even more restrictive. Prepare to attack with sweeps that capitalize on their elevated center of gravity.",
+        "answer_line": "Extend hips, frame, hunt the sweep",
+        "distractors": {
+          "plausible": [
+            "Pull them back down immediately",
+            "Release the wrap to stand too"
+          ],
+          "trap": [
+            "Let go and scramble to your feet"
+          ]
+        }
       },
       {
         "question": "How do you prevent being flattened when the opponent drives pressure forward?",
-        "answer": "Use leg frames aggressively - shin shields against their hips and butterfly hooks under their thighs create space and prevent forward pressure. Your free leg should always be working to frame, never passive. Additionally, maintain shoulder elevation by staying on your side rather than flat on your back. If they begin flattening you, immediately hip escape to recreate the angle before they consolidate."
+        "answer": "Use leg frames aggressively - shin shields against their hips and butterfly hooks under their thighs create space and prevent forward pressure. Your free leg should always be working to frame, never passive. Additionally, maintain shoulder elevation by staying on your side rather than flat on your back. If they begin flattening you, immediately hip escape to recreate the angle before they consolidate.",
+        "answer_line": "Shin frames and butterfly hooks",
+        "distractors": {
+          "plausible": [
+            "Stay flat and absorb the pressure",
+            "Push with both hands on hips"
+          ],
+          "trap": [
+            "Let the trapped leg go passive"
+          ]
+        }
       },
       {
         "question": "What energy management strategy keeps you effective during extended guard retention?",
-        "answer": "Let the lapel wrap do the work rather than constantly muscling for control. The mechanical advantage of the wrap means minimal grip strength is needed once properly threaded. Use efficient hip movement and leg frames rather than constant pulling. When the opponent rests, you rest - match their energy output rather than burning yourself out with constant movement. Save explosive effort for the actual sweep or submission attempts."
+        "answer": "Let the lapel wrap do the work rather than constantly muscling for control. The mechanical advantage of the wrap means minimal grip strength is needed once properly threaded. Use efficient hip movement and leg frames rather than constant pulling. When the opponent rests, you rest - match their energy output rather than burning yourself out with constant movement. Save explosive effort for the actual sweep or submission attempts.",
+        "answer_line": "Let the wrap work, save your bursts",
+        "distractors": {
+          "plausible": [
+            "Constantly muscle the grip tight",
+            "Match their pace move for move"
+          ],
+          "trap": [
+            "Burn energy on nonstop movement"
+          ]
+        }
       },
       {
         "question": "If you feel the opponent beginning to extract their leg from the wrap, how do you recover?",
-        "answer": "Immediately retighten the wrap by pulling the lapel tail while using your legs to re-engage their body and disrupt their extraction motion. If the wrap is coming loose, consider transitioning to Squid Guard or Worm Guard before losing control completely - better to have a related lapel position than no control at all. You can also attempt an immediate sweep or back take while they're focused on extraction rather than defense."
+        "answer": "Immediately retighten the wrap by pulling the lapel tail while using your legs to re-engage their body and disrupt their extraction motion. If the wrap is coming loose, consider transitioning to Squid Guard or Worm Guard before losing control completely - better to have a related lapel position than no control at all. You can also attempt an immediate sweep or back take while they're focused on extraction rather than defense.",
+        "answer_line": "Retighten wrap or shift systems",
+        "distractors": {
+          "plausible": [
+            "Release and reattack the grip",
+            "Chase the leg across the mat"
+          ],
+          "trap": [
+            "Abandon guard, scramble to top"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -523,32 +721,216 @@
     "transitions": [
       {
         "transition": "Ringworm Sweep to Back Control",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 30,
+          "nogi": 0
+        }
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 34
+        }
       },
       {
-        "transition": "Omoplata to Sweep",
-        "attempt_probability": 13
+        "transition": "Omoplata Sweep",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 28
+        }
       },
       {
         "transition": "Lapel Sweep to Back",
-        "attempt_probability": 16
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 0
+        }
       },
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 36
+        }
       },
       {
         "transition": "Ringworm Guard to Worm Guard",
-        "attempt_probability": 23
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 0
+        }
       },
       {
         "transition": "Ringworm to Spider Guard",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 2
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "ARmiJRANTpg",
+        "title": "Worm guard to back choke",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "qua4MaF2d98",
+        "title": "Reverse omoplata from worm guard",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 49,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BHwU-bbyvkc",
+        "title": "Worm guard sweep and berimbolo",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 89,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Ringworm Guard and distinguishes it from a standard open guard?",
+      "answer": "Ringworm Guard is defined by the bottom player threading the top player's own lapel around the top player's leg, then securing the lapel tail near their own hip or chest. This creates a mechanical tether that ties one of the top player's legs to the bottom player's control system, rather than relying on hand grips alone. Unlike standard open guard, where grips can be released and re-fought freely, the lapel wrap acts as a semi-permanent leash that persists even when the bottom player's hands are occupied elsewhere. This leg-to-body connection is the single feature that makes the position what it is.",
+      "answer_line": "Lapel leashes the leg to your hip",
+      "distractors": {
+        "plausible": [
+          "Overhook control on the near arm",
+          "Double sleeve grip from bottom"
+        ],
+        "trap": [
+          "Standard open guard hand fighting"
+        ]
+      }
+    },
+    {
+      "question": "Why is constant tension on the lapel wrap the central shared dynamic of this position?",
+      "answer": "The lapel wrap only controls the leg while it stays taut against the back of the knee or thigh; any slack immediately lets the trapped leg slide free and collapses the configuration. For the bottom player, maintaining tension via the lapel tail is what preserves the leash, while for the top player, generating slack through leg extraction or grip stripping is the entire escape objective. This shared truth means both players are constantly fighting over the same variable, wrap tightness, which is why the position lives or dies on tension rather than on any single attack or defense. The mechanical friction of the lapel around the leg does the work, not raw grip strength.",
+      "answer_line": "Tension keeps the leg leashed",
+      "distractors": {
+        "plausible": [
+          "Grip strength decides the fight",
+          "Hip movement alone controls leg"
+        ],
+        "trap": [
+          "Slack lets you finish the sweep"
+        ]
+      }
+    },
+    {
+      "question": "How does the lapel tether alter the top player's base and weight distribution compared to a free-legged pass?",
+      "answer": "With one leg leashed to the bottom player, the top player loses the ability to freely step, post, or redistribute weight through that limb, forcing them to carry most of their base on the free leg. This restricted base makes their weight distribution predictable and pushes them into a narrower stance that is easier to off-balance. Committing weight forward over the trapped leg opens a direct sweeping angle, so the top player must keep their center of gravity biased toward the free side. The mechanical disadvantage is symmetrical: the same tether that gives the bottom player leverage is precisely what compromises the top player's foundation.",
+      "answer_line": "Base shifts to the free leg",
+      "distractors": {
+        "plausible": [
+          "Weight splits evenly both legs",
+          "Wider stance improves their base"
+        ],
+        "trap": [
+          "Load weight onto trapped leg"
+        ]
+      }
+    },
+    {
+      "question": "What role do the bottom player's leg frames and hooks play alongside the lapel wrap?",
+      "answer": "The lapel wrap controls the top player's leg, but it does not by itself manage distance or prevent the top player from driving forward and flattening the bottom player. Leg frames such as shin shields, foot-on-hip frames, and butterfly hooks handle that second job by controlling the top player's upper body and hips. Together the lapel wrap and the leg engagement form a two-tier control system: the wrap tethers the lower body while the frames manage pressure and distance. Neither element alone is sufficient, which is why the position always pairs lapel control with active leg engagement.",
+      "answer_line": "Frames handle pressure, not the leg",
+      "distractors": {
+        "plausible": [
+          "Wrap alone stops all forward drive",
+          "Frames replace the lapel control"
+        ],
+        "trap": [
+          "Drop frames once wrap is tight"
+        ]
+      }
+    },
+    {
+      "question": "Why does creating a lateral angle matter to both players in Ringworm Guard?",
+      "answer": "Angle is the currency of the position because the lapel wrap converts hip displacement into rotational force on the top player's tethered leg. When the bottom player shifts their hips laterally while keeping the wrap tight, they twist the top player's base and expose the back for sweeps and back takes. Conversely, the top player must continually square their hips back toward the bottom player to neutralize that rotation and recover a stable base. The struggle over angle, rather than over raw position, is the defining tug-of-war that runs beneath every exchange here.",
+      "answer_line": "Angle twists their tethered base",
+      "distractors": {
+        "plausible": [
+          "Angle only matters for sweeps",
+          "Square hips always wins angle"
+        ],
+        "trap": [
+          "Stay flat to control the angle"
+        ]
+      }
+    },
+    {
+      "question": "How does Ringworm Guard differ mechanically from its sister positions Worm Guard and Squid Guard?",
+      "answer": "All three belong to Keenan Cornelius's lapel guard family and share the core principle of using the opponent's own lapel as an extension of the grips, but they differ in how and where the lapel is threaded. Worm Guard wraps the lapel to create a lever across the opponent's hips with a different leg configuration, while Squid Guard uses a distinct wrapping methodology and body position. Ringworm Guard is characterized specifically by the lapel wrapping around the opponent's leg near the knee or thigh, which is the configuration the name refers to. Because the wraps are related, players commonly transition between these positions when one configuration begins to loosen, treating them as interchangeable fallbacks within one system.",
+      "answer_line": "Wraps the lapel around the leg",
+      "distractors": {
+        "plausible": [
+          "Wraps lapel across the hips",
+          "Uses an unrelated grip system"
+        ],
+        "trap": [
+          "Identical position, different name"
+        ]
+      }
+    },
+    {
+      "question": "Why is Ringworm Guard fundamentally a gi-dependent position with no no-gi equivalent?",
+      "answer": "The entire control mechanism relies on threading and tensioning a lapel, which only exists as a graspable, wrappable piece of fabric in the gi. Without the jacket, there is no material to leash the leg, so the leg-to-body tether that defines the position simply cannot be formed. This is why the position appears almost exclusively in IBJJF and gi-based competition, and why the attempt rates for every ringworm-specific technique collapse to zero in no-gi. Players attempting a similar leg-entanglement game without the gi must fall back on physical hooks and grips, which produce different, less persistent control.",
+      "answer_line": "No gi fabric, no leg leash",
+      "distractors": {
+        "plausible": [
+          "Works fine with a rash guard",
+          "No-gi swaps grips for lapel"
+        ],
+        "trap": [
+          "Use belt grips as a substitute"
+        ]
+      }
+    },
+    {
+      "question": "Why does the rigid lapel connection between the two bodies reward methodical movement over explosive bursts?",
+      "answer": "Because the wrap rigidly links the trapped leg to the bottom player's body, energy put into the connection travels through the lapel rather than dissipating freely. When the top player explodes to escape, the lapel acts as a lever that lets the bottom player redirect that momentum into a sweep instead of a clean exit. This coupling is why hasty, forceful movement backfires and why exchanges in Ringworm Guard tend to be incremental and controlled rather than scrambly. The tether effectively turns committed force into leverage the wrap can borrow against.",
+      "answer_line": "Wrap redirects force into a sweep",
+      "distractors": {
+        "plausible": [
+          "Explosive bursts tire opponent out",
+          "Quick movement hides your intent"
+        ],
+        "trap": [
+          "Explode hard to snap the tether"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "QzwnLW735U8",
+      "title": "Worm guard breakdown",
+      "by": "Erich Munis",
+      "vertical": false,
+      "channel": "Deep Dive JJ",
+      "duration": 53,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "4W-dStVHCIQ",
+      "title": "Lapel guard instructional overview",
+      "by": "Bradley Hill",
+      "vertical": false,
+      "channel": "The Grapple Club",
+      "duration": 90,
+      "verified": "2026-07-14"
+    }
+  ]
 }

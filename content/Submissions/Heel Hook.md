@@ -34,6 +34,65 @@ description: "Master the Heel Hook in BJJ. Complete safety-first guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "True 50/50 heel hook",
+      "description": "Heel Hook film study: True 50/50 heel hook, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U1vlUbJN3sc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U1vlUbJN3sc",
+      "url": "https://www.youtube.com/watch?v=U1vlUbJN3sc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Heel hooks breakdown",
+      "description": "Heel Hook film study: Heel hooks breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UuluKZKDt8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UuluKZKDt8w",
+      "url": "https://www.youtube.com/watch?v=UuluKZKDt8w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Get the 50/50 heel hook",
+      "description": "Heel Hook film study: Get the 50/50 heel hook, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eb6ujAO09SY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eb6ujAO09SY",
+      "url": "https://www.youtube.com/watch?v=eb6ujAO09SY",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Nasty heel hook from outside ashi garami",
+      "description": "Heel Hook film study: Nasty heel hook from outside ashi garami, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
+      "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +112,7 @@ description: "Master the Heel Hook in BJJ. Complete safety-first guide covering 
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Heel Hook?", "acceptedAnswer": { "@type": "Answer", "text": "The Heel Hook is a rotational leg-lock submission that twists the heel to torque the knee and ankle ligaments simultaneously, attacked from Ashi Garami entanglements such as the saddle and 50-50, and existing in inside and outside variants." } },
-    { "@type": "Question", "name": "What positions can you finish the Heel Hook from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Heel Hook from Saddle, 50-50 Guard, Ashi Garami, Backside 50-50, Carni, Cross Ashi-Garami, Grasshopper Guard, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, Ushiro Ashi-Garami." } },
+    { "@type": "Question", "name": "What positions can you finish the Heel Hook from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Heel Hook from Ashi Garami, Carni, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, 50-50 Guard, Backside 50-50, Cross Ashi-Garami, Grasshopper Guard, Saddle, Ushiro Ashi-Garami." } },
     { "@type": "Question", "name": "Is the Heel Hook dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Heel Hook targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early and release immediately on the tap." } }
   ]
 }
@@ -89,6 +148,50 @@ Successful heel hook application demands mastery of positional control, understa
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U1vlUbJN3sc)
+
+<p class="clip-credit"><strong>True 50/50 heel hook</strong> — taught by John Danaher · 0:34 · <a href="https://www.youtube.com/watch?v=U1vlUbJN3sc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UuluKZKDt8w)
+
+<p class="clip-credit"><strong>Heel hooks breakdown</strong> — taught by Lachlan Giles · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eb6ujAO09SY)
+
+<p class="clip-credit"><strong>Get the 50/50 heel hook</strong> — taught by Asaf Mich · 2:03 · <a href="https://www.youtube.com/watch?v=eb6ujAO09SY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m4sGDhukUmk)
+
+<p class="clip-credit"><strong>Nasty heel hook from outside ashi garami</strong> — taught by Craig Jones · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -98,17 +201,17 @@ Successful heel hook application demands mastery of positional control, understa
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Heel Hook/from Saddle|Saddle]] | Top | 50% | [[Submissions/Heel Hook/from Saddle/Attacker|Attack →]] | [[Submissions/Heel Hook/from Saddle/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Ashi Garami|Ashi Garami]] | Bottom | 60% | [[Submissions/Heel Hook/from Ashi Garami/Attacker|Attack →]] | [[Submissions/Heel Hook/from Ashi Garami/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Carni|Carni]] | Bottom | 60% | [[Submissions/Heel Hook/from Carni/Attacker|Attack →]] | [[Submissions/Heel Hook/from Carni/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Honey Hole|Honey Hole]] | Top | 60% | [[Submissions/Heel Hook/from Honey Hole/Attacker|Attack →]] | [[Submissions/Heel Hook/from Honey Hole/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Inside Ashi-Garami|Inside Ashi-Garami]] | Top | 60% | [[Submissions/Heel Hook/from Inside Ashi-Garami/Attacker|Attack →]] | [[Submissions/Heel Hook/from Inside Ashi-Garami/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Inside Sankaku|Inside Sankaku]] | Top | 60% | [[Submissions/Heel Hook/from Inside Sankaku/Attacker|Attack →]] | [[Submissions/Heel Hook/from Inside Sankaku/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Kneebar Control|Kneebar Control]] | Bottom | 60% | [[Submissions/Heel Hook/from Kneebar Control/Attacker|Attack →]] | [[Submissions/Heel Hook/from Kneebar Control/Defender|Defend →]] |
 | [[Submissions/Heel Hook/from 50-50 Guard|50-50 Guard]] | Top | 45% | [[Submissions/Heel Hook/from 50-50 Guard/Attacker|Attack →]] | [[Submissions/Heel Hook/from 50-50 Guard/Defender|Defend →]] |
-| [[Submissions/Heel Hook/from Ashi Garami|Ashi Garami]] | Bottom | 45% | [[Submissions/Heel Hook/from Ashi Garami/Attacker|Attack →]] | [[Submissions/Heel Hook/from Ashi Garami/Defender|Defend →]] |
 | [[Submissions/Heel Hook/from Backside 50-50|Backside 50-50]] | Bottom | 45% | [[Submissions/Heel Hook/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Heel Hook/from Backside 50-50/Defender|Defend →]] |
-| [[Submissions/Heel Hook/from Carni|Carni]] | Bottom | 45% | [[Submissions/Heel Hook/from Carni/Attacker|Attack →]] | [[Submissions/Heel Hook/from Carni/Defender|Defend →]] |
 | [[Submissions/Heel Hook/from Cross Ashi-Garami|Cross Ashi-Garami]] | Top | 45% | [[Submissions/Heel Hook/from Cross Ashi-Garami/Attacker|Attack →]] | [[Submissions/Heel Hook/from Cross Ashi-Garami/Defender|Defend →]] |
 | [[Submissions/Heel Hook/from Grasshopper Guard|Grasshopper Guard]] | Bottom | 45% | [[Submissions/Heel Hook/from Grasshopper Guard/Attacker|Attack →]] | [[Submissions/Heel Hook/from Grasshopper Guard/Defender|Defend →]] |
-| [[Submissions/Heel Hook/from Honey Hole|Honey Hole]] | Top | 45% | [[Submissions/Heel Hook/from Honey Hole/Attacker|Attack →]] | [[Submissions/Heel Hook/from Honey Hole/Defender|Defend →]] |
-| [[Submissions/Heel Hook/from Inside Ashi-Garami|Inside Ashi-Garami]] | Top | 45% | [[Submissions/Heel Hook/from Inside Ashi-Garami/Attacker|Attack →]] | [[Submissions/Heel Hook/from Inside Ashi-Garami/Defender|Defend →]] |
-| [[Submissions/Heel Hook/from Inside Sankaku|Inside Sankaku]] | Top | 45% | [[Submissions/Heel Hook/from Inside Sankaku/Attacker|Attack →]] | [[Submissions/Heel Hook/from Inside Sankaku/Defender|Defend →]] |
-| [[Submissions/Heel Hook/from Kneebar Control|Kneebar Control]] | Bottom | 45% | [[Submissions/Heel Hook/from Kneebar Control/Attacker|Attack →]] | [[Submissions/Heel Hook/from Kneebar Control/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Saddle|Saddle]] | Top | 45% | [[Submissions/Heel Hook/from Saddle/Attacker|Attack →]] | [[Submissions/Heel Hook/from Saddle/Defender|Defend →]] |
 | [[Submissions/Heel Hook/from Ushiro Ashi|Ushiro Ashi-Garami]] | Top | 45% | [[Submissions/Heel Hook/from Ushiro Ashi/Attacker|Attack →]] | [[Submissions/Heel Hook/from Ushiro Ashi/Defender|Defend →]] |
 
 
@@ -136,12 +239,12 @@ Successful heel hook application demands mastery of positional control, understa
 
 ## Related
 - [[Submissions/Inside Heel Hook]] - Inside variation targeting knee ligaments through internal rotation from Saddle and Inside Ashi-Garami
-- [[Transitions/Outside Heel Hook]] - Outside variation attacking through external rotation from Outside Ashi-Garami and Cross Ashi-Garami
+- [[Submissions/Outside Heel Hook]] - Outside variation attacking through external rotation from Outside Ashi-Garami and Cross Ashi-Garami
 - [[Transitions/Kneebar]] - Alternative leg lock from similar entanglements when heel is hidden and opponent straightens leg
 - [[Submissions/Toe Hold]] - Complementary foot lock that chains with heel hook when opponent defends rotation
 - [[Submissions/Straight Ankle Lock]] - Lower-risk leg lock sharing positional requirements from ashi-garami positions
 - [[Submissions/Calf Slicer]] - Compression lock available from similar leg entanglements as secondary attack
-- [[Transitions/Estima Lock]] - Foot lock variation targeting ankle from similar guard passing scenarios
+- [[Submissions/Estima Lock]] - Foot lock variation targeting ankle from similar guard passing scenarios
 - [[Submissions/Achilles Lock]] - Related ankle submission sharing straight-line finishing mechanics from ashi-garami
 - [[Positions/Leg Entanglement]] - Foundational principle governing all heel hook positions and control mechanics
 - [[Positions/X-Guard]] - Common entry position for leg entanglements leading to heel hook opportunities

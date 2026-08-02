@@ -34,6 +34,54 @@ description: "Master the Inverted Lasso Sweep in BJJ. Complete guide to sweep me
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Lasso Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Balloon Style Lasso Sweep",
+      "description": "Inverted Lasso Sweep film study: Balloon Style Lasso Sweep, taught by BJJ Recap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nR1yhcIgsp8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nR1yhcIgsp8",
+      "url": "https://www.youtube.com/watch?v=nR1yhcIgsp8",
+      "creator": { "@type": "Person", "name": "BJJ Recap" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Formiga\u0027s Overhead Sweeps",
+      "description": "Inverted Lasso Sweep film study: Formiga\u0027s Overhead Sweeps, taught by Evo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kElMIPxxmXE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kElMIPxxmXE",
+      "url": "https://www.youtube.com/watch?v=kElMIPxxmXE",
+      "creator": { "@type": "Person", "name": "Evo BJJ" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sweep From Reverse De La Riva and Lasso",
+      "description": "Inverted Lasso Sweep film study: Sweep From Reverse De La Riva and Lasso, taught by DS Team Jiu Jitsu School.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3XktZRzvfIU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3XktZRzvfIU",
+      "url": "https://www.youtube.com/watch?v=3XktZRzvfIU",
+      "creator": { "@type": "Person", "name": "DS Team Jiu Jitsu School" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the Inverted Lasso Sweep serves as the anchor technique in a broa
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Lasso Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nR1yhcIgsp8)
+
+<p class="clip-credit"><strong>Balloon Style Lasso Sweep</strong> — taught by BJJ Recap · 0:28 · <a href="https://www.youtube.com/watch?v=nR1yhcIgsp8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kElMIPxxmXE)
+
+<p class="clip-credit"><strong>Formiga&#39;s Overhead Sweeps</strong> — taught by Evo BJJ · 0:39 · <a href="https://www.youtube.com/watch?v=kElMIPxxmXE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3XktZRzvfIU)
+
+<p class="clip-credit"><strong>Sweep From Reverse De La Riva and Lasso</strong> — taught by DS Team Jiu Jitsu School · 2:11 · <a href="https://www.youtube.com/watch?v=3XktZRzvfIU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

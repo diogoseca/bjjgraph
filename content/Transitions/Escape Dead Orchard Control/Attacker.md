@@ -174,6 +174,54 @@ description: "Execute the Dead Orchard Control escape in BJJ. Step-by-step guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Dead Orchard Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape the Anaconda Choke",
+      "description": "Escape Dead Orchard Control (Attacker) film study: How to Escape the Anaconda Choke, taught by ArtOfSayingGoodbye.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/At1_GDu4hSc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/At1_GDu4hSc",
+      "url": "https://www.youtube.com/watch?v=At1_GDu4hSc",
+      "creator": { "@type": "Person", "name": "ArtOfSayingGoodbye" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda Choke Defense Plus Counter",
+      "description": "Escape Dead Orchard Control (Attacker) film study: Anaconda Choke Defense Plus Counter, taught by Cyril Robert.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s94GexEkoQ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s94GexEkoQ0",
+      "url": "https://www.youtube.com/watch?v=s94GexEkoQ0",
+      "creator": { "@type": "Person", "name": "Cyril Robert" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Anaconda Choke Defense",
+      "description": "Escape Dead Orchard Control (Attacker) film study: Anaconda Choke Defense, taught by Mamba BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N9MbEtAv_Lw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N9MbEtAv_Lw",
+      "url": "https://www.youtube.com/watch?v=N9MbEtAv_Lw",
+      "creator": { "@type": "Person", "name": "Mamba BJJ" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the practitioner trapped in Dead Orchard Control, your task is to systematica
 **From Position**: [[Positions/Dead Orchard Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Dead Orchard Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=At1_GDu4hSc)
+
+<p class="clip-credit"><strong>How to Escape the Anaconda Choke</strong> — taught by ArtOfSayingGoodbye · 0:23 · <a href="https://www.youtube.com/watch?v=At1_GDu4hSc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s94GexEkoQ0)
+
+<p class="clip-credit"><strong>Anaconda Choke Defense Plus Counter</strong> — taught by Cyril Robert · 0:43 · <a href="https://www.youtube.com/watch?v=s94GexEkoQ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N9MbEtAv_Lw)
+
+<p class="clip-credit"><strong>Anaconda Choke Defense</strong> — taught by Mamba BJJ · 1:02 · <a href="https://www.youtube.com/watch?v=N9MbEtAv_Lw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

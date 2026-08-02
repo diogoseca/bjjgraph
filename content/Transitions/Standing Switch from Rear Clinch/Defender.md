@@ -140,6 +140,43 @@ description: "Defend against the Standing Switch from Rear Clinch. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Switch from Rear Clinch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear bodylock: kimura counter to the sweep",
+      "description": "Standing Switch from Rear Clinch (Defender) film study: Rear bodylock: kimura counter to the sweep, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8l-W5VTZC3E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8l-W5VTZC3E",
+      "url": "https://www.youtube.com/watch?v=8l-W5VTZC3E",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing Rear Body Lock: Counters, Attacks and Defense",
+      "description": "Standing Switch from Rear Clinch (Defender) film study: Standing Rear Body Lock: Counters, Attacks and Defense, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DFXdqByRxNg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DFXdqByRxNg",
+      "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT318S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the Standing Switch, your objective is to maintain your 
 **Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Switch from Rear Clinch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8l-W5VTZC3E)
+
+<p class="clip-credit"><strong>Rear bodylock: kimura counter to the sweep</strong> — taught by SBG Australia · 0:21 · <a href="https://www.youtube.com/watch?v=8l-W5VTZC3E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DFXdqByRxNg)
+
+<p class="clip-credit"><strong>Standing Rear Body Lock: Counters, Attacks and Defense</strong> — taught by Brian Glick · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

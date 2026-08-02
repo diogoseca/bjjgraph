@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Granby to Closed Guard is a dynamic defensive recovery technique that uses the Granby roll motion to transition from compromised bottom positions back to closed guard. This technique is essential for practitioners who find themselves in turtle, side control escape scenarios, or other defensive positions where traditional guard recovery methods are unavailable. The movement combines a shoulder roll with hip rotation to create space and redirect momentum, allowing you to insert your legs between you and your opponent to re-establish guard.\n\nThe technique is particularly valuable because it works against forward pressure, using the opponent's weight and momentum against them. When executed properly, the Granby roll creates a brief window where your opponent's base is compromised, allowing you to thread your legs through and secure closed guard. This recovery method is fundamental to modern BJJ defensive systems and forms the foundation for numerous escape sequences.\n\nMastery of the Granby to Closed Guard provides practitioners with a reliable escape route from dangerous positions, reducing the effectiveness of common pinning attacks and creating opportunities to return to offensive guard play. The technique requires good body awareness, hip mobility, and timing, but once developed becomes an instinctive defensive reaction that can save matches.",
   "related_content": [
     {
@@ -218,54 +230,203 @@
     "flashcards": [
       {
         "question": "Why is it critical to create space with hip extension before initiating the Granby roll?",
-        "answer": "Creating space before the roll is essential because it provides the physical room needed to complete the rotational movement without being pinned by the opponent's weight. Without this initial space, the opponent's pressure will prevent your shoulders from rotating properly, leaving you stuck in a vulnerable position mid-movement. The hip extension also momentarily disrupts the opponent's base and creates the timing window for successful execution."
+        "answer": "Creating space before the roll is essential because it provides the physical room needed to complete the rotational movement without being pinned by the opponent's weight. Without this initial space, the opponent's pressure will prevent your shoulders from rotating properly, leaving you stuck in a vulnerable position mid-movement. The hip extension also momentarily disrupts the opponent's base and creates the timing window for successful execution.",
+        "answer_line": "Creates room to rotate shoulders",
+        "distractors": {
+          "plausible": [
+            "Disrupts their base first",
+            "Buys time to read reaction"
+          ],
+          "trap": [
+            "Skip space, roll straight away"
+          ]
+        }
       },
       {
         "question": "What is the proper sequential order for inserting your legs when establishing closed guard from the Granby roll?",
-        "answer": "The inside leg (closest to the opponent) must be threaded first to create an immediate frame and barrier, followed immediately by the outside leg hooking around the opponent's back. This sequential insertion maintains defensive frames throughout the movement and prevents the opponent from following you through the roll or passing your guard. Threading both legs simultaneously creates gaps that skilled opponents can exploit."
+        "answer": "The inside leg (closest to the opponent) must be threaded first to create an immediate frame and barrier, followed immediately by the outside leg hooking around the opponent's back. This sequential insertion maintains defensive frames throughout the movement and prevents the opponent from following you through the roll or passing your guard. Threading both legs simultaneously creates gaps that skilled opponents can exploit.",
+        "answer_line": "Inside leg first as a frame",
+        "distractors": {
+          "plausible": [
+            "Outside leg hooks in first",
+            "Hook the back, then frame inside"
+          ],
+          "trap": [
+            "Thread both legs at once"
+          ]
+        }
       },
       {
         "question": "How should you adapt your Granby to Closed Guard if the opponent sprawls backward as you begin the roll?",
-        "answer": "When the opponent sprawls backward, you should complete the roll into a seated guard position rather than attempting to force closed guard. From seated guard, you can establish butterfly hooks, work for closed guard with better positioning, or transition to other open guard systems. Attempting to force closed guard against a sprawled opponent typically results in failed guard establishment and vulnerable positioning."
+        "answer": "When the opponent sprawls backward, you should complete the roll into a seated guard position rather than attempting to force closed guard. From seated guard, you can establish butterfly hooks, work for closed guard with better positioning, or transition to other open guard systems. Attempting to force closed guard against a sprawled opponent typically results in failed guard establishment and vulnerable positioning.",
+        "answer_line": "Settle into seated guard instead",
+        "distractors": {
+          "plausible": [
+            "Force closed guard through pressure",
+            "Abort roll and turtle back up"
+          ],
+          "trap": [
+            "Chase full mount from there"
+          ]
+        }
       },
       {
         "question": "What is the biomechanical purpose of keeping your chin tucked and body compact throughout the Granby roll?",
-        "answer": "Keeping the chin tucked protects the cervical spine and ensures the roll occurs across the shoulders and upper back rather than directly on the head, preventing neck injuries. The compact body position (knees to chest, elbows tight) serves multiple purposes: it protects limbs from submission attacks, creates a more efficient rotational motion with better momentum, reduces the time your back is exposed, and makes it harder for opponents to stop or counter the movement. A compact shape also allows faster completion of the technique."
+        "answer": "Keeping the chin tucked protects the cervical spine and ensures the roll occurs across the shoulders and upper back rather than directly on the head, preventing neck injuries. The compact body position (knees to chest, elbows tight) serves multiple purposes: it protects limbs from submission attacks, creates a more efficient rotational motion with better momentum, reduces the time your back is exposed, and makes it harder for opponents to stop or counter the movement. A compact shape also allows faster completion of the technique.",
+        "answer_line": "Protects neck, speeds the roll",
+        "distractors": {
+          "plausible": [
+            "Only shields arms from submissions",
+            "Lets you watch the opponent mid-roll"
+          ],
+          "trap": [
+            "Lift chin to sight the landing"
+          ]
+        }
       },
       {
         "question": "Why is rolling diagonally away from the opponent superior to rolling straight backward?",
-        "answer": "Rolling diagonally moves your shoulders and back away from the opponent's centerline and attacking hands, making it much more difficult for them to secure back control during the vulnerable rotation phase. A straight backward roll keeps you aligned with their attack trajectory and often results in them taking your back or maintaining dominant position. The diagonal angle also creates better positioning for threading your legs and establishing guard frames, as it naturally creates the space and angle needed for effective leg insertion."
+        "answer": "Rolling diagonally moves your shoulders and back away from the opponent's centerline and attacking hands, making it much more difficult for them to secure back control during the vulnerable rotation phase. A straight backward roll keeps you aligned with their attack trajectory and often results in them taking your back or maintaining dominant position. The diagonal angle also creates better positioning for threading your legs and establishing guard frames, as it naturally creates the space and angle needed for effective leg insertion.",
+        "answer_line": "Escapes their centerline attack",
+        "distractors": {
+          "plausible": [
+            "Rolls faster along the mat",
+            "Keeps hips squared to opponent"
+          ],
+          "trap": [
+            "Roll straight back for control"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent secures a grip on your leg during the Granby roll, preventing full closed guard closure?",
-        "answer": "Accept the open guard position that results from their leg control (butterfly, half guard, or single leg X-guard depending on which leg they control) rather than forcing closed guard. Work methodically to break their grip while maintaining your guard structure, or transition immediately to attacks available from that open guard position. Forcing closed guard against a strong leg grip often results in guard passing opportunities for the opponent. Advanced practitioners can use this grip as an entry to specific open guard attacks or sweeps."
+        "answer": "Accept the open guard position that results from their leg control (butterfly, half guard, or single leg X-guard depending on which leg they control) rather than forcing closed guard. Work methodically to break their grip while maintaining your guard structure, or transition immediately to attacks available from that open guard position. Forcing closed guard against a strong leg grip often results in guard passing opportunities for the opponent. Advanced practitioners can use this grip as an entry to specific open guard attacks or sweeps.",
+        "answer_line": "Accept open guard, don't force it",
+        "distractors": {
+          "plausible": [
+            "Kick free and re-close guard",
+            "Switch legs to escape the grip"
+          ],
+          "trap": [
+            "Force closed guard through the grip"
+          ]
+        }
       },
       {
         "question": "What timing indicators signal the optimal moment to initiate the Granby roll from turtle position?",
-        "answer": "The optimal timing occurs when the opponent commits their weight forward, particularly when they drive chest pressure into your back or reach around your body for grips. This forward commitment temporarily compromises their base and adds momentum to your roll. Additionally, the moment when they transition between control points (such as switching from harness grip to attempting hooks) creates a brief window where their pressure is reduced. Initiating when they are heavy and forward uses their weight against them, while initiating during grip transitions exploits momentary looseness in their control."
+        "answer": "The optimal timing occurs when the opponent commits their weight forward, particularly when they drive chest pressure into your back or reach around your body for grips. This forward commitment temporarily compromises their base and adds momentum to your roll. Additionally, the moment when they transition between control points (such as switching from harness grip to attempting hooks) creates a brief window where their pressure is reduced. Initiating when they are heavy and forward uses their weight against them, while initiating during grip transitions exploits momentary looseness in their control.",
+        "answer_line": "Heavy lean or grip transition",
+        "distractors": {
+          "plausible": [
+            "When opponent is light and mobile",
+            "Right after they secure hooks"
+          ],
+          "trap": [
+            "Wait until they take your back"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inserting hooks as you initiate your Granby roll - how do you adjust your technique?",
-        "answer": "Accelerate the roll immediately and prioritize speed over perfection. The hook insertion indicates you are behind in the timing battle. Roll more aggressively toward the corner (diagonal) to create maximum distance from their hips. As you complete the rotation, use your legs to actively kick and clear their hooking leg before they can secure it. If one hook gets in, you can still complete the roll and work from half guard or use your free leg to pry their hook out during the transition. The key is not abandoning the roll - a partially successful guard recovery is far better than allowing full back control."
+        "answer": "Accelerate the roll immediately and prioritize speed over perfection. The hook insertion indicates you are behind in the timing battle. Roll more aggressively toward the corner (diagonal) to create maximum distance from their hips. As you complete the rotation, use your legs to actively kick and clear their hooking leg before they can secure it. If one hook gets in, you can still complete the roll and work from half guard or use your free leg to pry their hook out during the transition. The key is not abandoning the roll - a partially successful guard recovery is far better than allowing full back control.",
+        "answer_line": "Speed up, roll through, clear hook",
+        "distractors": {
+          "plausible": [
+            "Stop and reset to turtle",
+            "Slow down to control the hook"
+          ],
+          "trap": [
+            "Abandon roll, give up the back"
+          ]
+        }
       },
       {
         "question": "What grip configuration should your hands maintain during the Granby roll and guard insertion?",
-        "answer": "During the roll itself, keep your arms tight to your body with elbows in to protect against arm attacks and maintain compactness. As you complete the rotation and begin threading legs, your hands should immediately work to establish collar and sleeve grips (gi) or wrist and head control (no-gi). The inside hand typically reaches for collar or behind the head to break posture, while the outside hand controls their posting arm or sleeve to prevent them from creating distance. These grips should be established simultaneously with or immediately after closing the guard to prevent the opponent from posturing up and beginning their escape sequence."
+        "answer": "During the roll itself, keep your arms tight to your body with elbows in to protect against arm attacks and maintain compactness. As you complete the rotation and begin threading legs, your hands should immediately work to establish collar and sleeve grips (gi) or wrist and head control (no-gi). The inside hand typically reaches for collar or behind the head to break posture, while the outside hand controls their posting arm or sleeve to prevent them from creating distance. These grips should be established simultaneously with or immediately after closing the guard to prevent the opponent from posturing up and beginning their escape sequence.",
+        "answer_line": "Tight elbows, then collar-sleeve",
+        "distractors": {
+          "plausible": [
+            "Grip collar before starting roll",
+            "Underhooks first, grips later"
+          ],
+          "trap": [
+            "Grip only after they posture up"
+          ]
+        }
       },
       {
         "question": "How does the direction of force application differ between the initial hip extension and the subsequent shoulder roll?",
-        "answer": "The initial hip extension applies force linearly backward and slightly upward, pushing your hips away from the opponent to create space between your bodies. This is a pushing motion that temporarily disrupts their weight distribution. The subsequent shoulder roll applies rotational force in a diagonal arc, with the inside shoulder dropping and rotating under while the outside hip drives over the top. The direction shifts from linear (away) to rotational (around). Understanding this force transition is crucial because attempting to rotate without first creating linear space results in failed technique, while trying to create space during the rotation phase is mechanically inefficient."
+        "answer": "The initial hip extension applies force linearly backward and slightly upward, pushing your hips away from the opponent to create space between your bodies. This is a pushing motion that temporarily disrupts their weight distribution. The subsequent shoulder roll applies rotational force in a diagonal arc, with the inside shoulder dropping and rotating under while the outside hip drives over the top. The direction shifts from linear (away) to rotational (around). Understanding this force transition is crucial because attempting to rotate without first creating linear space results in failed technique, while trying to create space during the rotation phase is mechanically inefficient.",
+        "answer_line": "Linear push, then diagonal rotation",
+        "distractors": {
+          "plausible": [
+            "Rotational push, then linear pull",
+            "Both phases are purely linear"
+          ],
+          "trap": [
+            "Rotate first, create space after"
+          ]
+        }
       },
       {
         "question": "What guard retention options should you chain to if closed guard cannot be established?",
-        "answer": "If closed guard fails, immediately establish the strongest open guard available based on your leg positioning: butterfly guard if both legs are in front with hooks available, half guard if one leg is between theirs, single leg X-guard if you have ankle control on one leg, or collar-sleeve guard if you have upper body grips established. The key principle is never accepting a guardless bottom position - always have the next guard ready before abandoning the closed guard attempt. Priority should be given to guards that offer immediate sweep threats to discourage the opponent from continuing their passing pressure."
+        "answer": "If closed guard fails, immediately establish the strongest open guard available based on your leg positioning: butterfly guard if both legs are in front with hooks available, half guard if one leg is between theirs, single leg X-guard if you have ankle control on one leg, or collar-sleeve guard if you have upper body grips established. The key principle is never accepting a guardless bottom position - always have the next guard ready before abandoning the closed guard attempt. Priority should be given to guards that offer immediate sweep threats to discourage the opponent from continuing their passing pressure.",
+        "answer_line": "Chain to nearest open guard",
+        "distractors": {
+          "plausible": [
+            "Default straight to full guard",
+            "Turtle up and reset position"
+          ],
+          "trap": [
+            "Accept a guardless bottom position"
+          ]
+        }
       },
       {
         "question": "How do you modify the Granby to Closed Guard when the opponent has established a tight seatbelt grip?",
-        "answer": "With a seatbelt grip, you must address the choking arm before or during the roll. Use your hands to fight the over-arm (choking arm) grip by two-on-one stripping while simultaneously initiating the roll. The roll direction should go toward the underhook side (away from the choking arm) to make their grip work against them. Alternatively, use the roll momentum to strip the grip as you rotate - the rotational force can help break grips that would be unmovable in static positions. If the grip is too deep, consider rolling toward it instead and transitioning to a back exposure escape before attempting guard recovery."
+        "answer": "With a seatbelt grip, you must address the choking arm before or during the roll. Use your hands to fight the over-arm (choking arm) grip by two-on-one stripping while simultaneously initiating the roll. The roll direction should go toward the underhook side (away from the choking arm) to make their grip work against them. Alternatively, use the roll momentum to strip the grip as you rotate - the rotational force can help break grips that would be unmovable in static positions. If the grip is too deep, consider rolling toward it instead and transitioning to a back exposure escape before attempting guard recovery.",
+        "answer_line": "Strip choke arm, roll away from it",
+        "distractors": {
+          "plausible": [
+            "Roll toward the choking arm side",
+            "Ignore grip, roll as normal"
+          ],
+          "trap": [
+            "Pull into the seatbelt to escape"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Granby to Closed Guard is generally a safe technique when executed with proper mechanics, but practitioners must be mindful of several safety considerations. Most importantly, never allow your head to bear weight during the roll - the movement should occur exclusively across the shoulders and upper back. Rolling onto the head or neck can cause serious cervical spine injuries. Always keep the chin tucked tightly to the chest throughout the movement. Practitioners with neck, shoulder, or upper back injuries should consult with medical professionals before practicing this technique. When training, ensure adequate mat space is available to complete the roll without obstruction, as collisions with walls or other practitioners during rotation can cause injury. Partners should provide appropriate resistance levels based on the practitioner's skill level and training phase. Beginners should master the solo movement mechanics before adding partner resistance. The rapid rotational movement can cause dizziness in some practitioners initially; if this occurs, reduce repetition frequency until vestibular adaptation occurs. Proper warm-up of the shoulders, neck, and hips is essential before practicing this technique intensively."
+    "safety_considerations": "The Granby to Closed Guard is generally a safe technique when executed with proper mechanics, but practitioners must be mindful of several safety considerations. Most importantly, never allow your head to bear weight during the roll - the movement should occur exclusively across the shoulders and upper back. Rolling onto the head or neck can cause serious cervical spine injuries. Always keep the chin tucked tightly to the chest throughout the movement. Practitioners with neck, shoulder, or upper back injuries should consult with medical professionals before practicing this technique. When training, ensure adequate mat space is available to complete the roll without obstruction, as collisions with walls or other practitioners during rotation can cause injury. Partners should provide appropriate resistance levels based on the practitioner's skill level and training phase. Beginners should master the solo movement mechanics before adding partner resistance. The rapid rotational movement can cause dizziness in some practitioners initially; if this occurs, reduce repetition frequency until vestibular adaptation occurs. Proper warm-up of the shoulders, neck, and hips is essential before practicing this technique intensively.",
+    "clips": [
+      {
+        "id": "vyphbya8ZVQ",
+        "title": "Basic granby roll technique",
+        "by": "Danny Mitchell",
+        "vertical": false,
+        "channel": "Danny Mitchell MMA",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ww3UlhG2GzI",
+        "title": "Progression of the granby roll",
+        "by": "Ryan Loder",
+        "vertical": false,
+        "channel": "UFC Fighter Ryan Loder",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "W0TCGKRcniA",
+        "title": "Turtle escape with the shoulder roll",
+        "by": "BJJake",
+        "vertical": false,
+        "channel": "BJJake",
+        "duration": 21,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Granby to Closed Guard Defender",
@@ -350,23 +511,73 @@
     "flashcards": [
       {
         "question": "What is the earliest physical cue that indicates a bottom player is about to attempt a Granby roll from turtle?",
-        "answer": "The earliest cue is an explosive hip extension backward that creates space between your chest and their back. This hip push is the mandatory first step of every Granby roll because the bottom player needs clearance to begin rotating their shoulders. You may also feel a sudden compacting of their body as they pull their knees toward their chest and tighten their elbows. Recognizing this hip extension as the trigger allows you to respond with a sprawl before the rotation phase even begins."
+        "answer": "The earliest cue is an explosive hip extension backward that creates space between your chest and their back. This hip push is the mandatory first step of every Granby roll because the bottom player needs clearance to begin rotating their shoulders. You may also feel a sudden compacting of their body as they pull their knees toward their chest and tighten their elbows. Recognizing this hip extension as the trigger allows you to respond with a sprawl before the rotation phase even begins.",
+        "answer_line": "Explosive hip push creates space",
+        "distractors": {
+          "plausible": [
+            "Sudden reach for an underhook",
+            "Shift to flatten their hips"
+          ],
+          "trap": [
+            "Wait for their legs to thread"
+          ]
+        }
       },
       {
         "question": "Why is following the rotation to take the back often more effective than trying to stop the Granby roll entirely?",
-        "answer": "Following the rotation exploits the bottom player's commitment to the movement. Once they have initiated the roll with significant momentum, stopping it requires enormous force and often results in a scramble. By instead circling your hips in the same direction and maintaining your seatbelt grip, you use their rotational energy to improve your position. The bottom player cannot abort the roll mid-rotation, so your follow-through typically results in deeper back control with hooks inserted during the transition, converting their escape attempt into a worse position for them."
+        "answer": "Following the rotation exploits the bottom player's commitment to the movement. Once they have initiated the roll with significant momentum, stopping it requires enormous force and often results in a scramble. By instead circling your hips in the same direction and maintaining your seatbelt grip, you use their rotational energy to improve your position. The bottom player cannot abort the roll mid-rotation, so your follow-through typically results in deeper back control with hooks inserted during the transition, converting their escape attempt into a worse position for them.",
+        "answer_line": "Rides momentum into back control",
+        "distractors": {
+          "plausible": [
+            "Stops the roll before it starts",
+            "Matches their speed to escape"
+          ],
+          "trap": [
+            "Fight the rotation head-on"
+          ]
+        }
       },
       {
         "question": "Your opponent initiates a Granby roll and you feel them beginning to thread their inside leg between your bodies - what is the immediate correction?",
-        "answer": "Drive your near-side hip forward and down to close the space that their leg is threading through, pinning their leg against their own body or the mat. Simultaneously, tighten your chest pressure against their back to prevent further rotation. If their leg has partially entered, use your near-side arm to frame against their thigh and push it back out while maintaining upper body control with your other arm. The goal is to deny the leg frame that becomes their first guard barrier. If the leg is fully inserted, immediately work to pass it before the second leg arrives and guard is closed."
+        "answer": "Drive your near-side hip forward and down to close the space that their leg is threading through, pinning their leg against their own body or the mat. Simultaneously, tighten your chest pressure against their back to prevent further rotation. If their leg has partially entered, use your near-side arm to frame against their thigh and push it back out while maintaining upper body control with your other arm. The goal is to deny the leg frame that becomes their first guard barrier. If the leg is fully inserted, immediately work to pass it before the second leg arrives and guard is closed.",
+        "answer_line": "Close hip space, frame the thigh",
+        "distractors": {
+          "plausible": [
+            "Grab both ankles and pull away",
+            "Sprawl back to reset posture"
+          ],
+          "trap": [
+            "Let leg in, chase the far hook"
+          ]
+        }
       },
       {
         "question": "How should your weight distribution change when you sense a Granby roll attempt versus maintaining standard turtle top control?",
-        "answer": "In standard turtle top control, your weight is distributed with approximately 70% through your chest onto their upper back and 30% through your hips for mobility. When you sense a Granby attempt, shift to sprawl-based distribution with 80-90% of your weight driving downward through your shoulders and chest while your legs extend back and hips drop. This increased forward and downward pressure makes it mechanically much harder for the bottom player to create the space needed for rotation. The trade-off is reduced mobility, but this is acceptable because your priority shifts from attacking to preventing the escape."
+        "answer": "In standard turtle top control, your weight is distributed with approximately 70% through your chest onto their upper back and 30% through your hips for mobility. When you sense a Granby attempt, shift to sprawl-based distribution with 80-90% of your weight driving downward through your shoulders and chest while your legs extend back and hips drop. This increased forward and downward pressure makes it mechanically much harder for the bottom player to create the space needed for rotation. The trade-off is reduced mobility, but this is acceptable because your priority shifts from attacking to preventing the escape.",
+        "answer_line": "Drive more weight through chest",
+        "distractors": {
+          "plausible": [
+            "Shift weight fully onto hips",
+            "Lighten pressure to stay mobile"
+          ],
+          "trap": [
+            "Stand up to increase base"
+          ]
+        }
       },
       {
         "question": "What makes the shoulder block defense more reliable than the sprawl defense against the Granby roll?",
-        "answer": "The shoulder block is more precise and targets the specific mechanical requirement of the technique. The Granby roll requires the inside shoulder to drop and rotate diagonally. By posting your hand directly on that shoulder joint and driving it into the mat, you prevent the exact movement that initiates the roll without needing to reorganize your entire body position as a sprawl requires. The shoulder block also keeps your other hand free to maintain seatbelt or harness control. However, the sprawl is more reliable against explosive attempts where you lack time for precise shoulder targeting, so both tools should be developed."
+        "answer": "The shoulder block is more precise and targets the specific mechanical requirement of the technique. The Granby roll requires the inside shoulder to drop and rotate diagonally. By posting your hand directly on that shoulder joint and driving it into the mat, you prevent the exact movement that initiates the roll without needing to reorganize your entire body position as a sprawl requires. The shoulder block also keeps your other hand free to maintain seatbelt or harness control. However, the sprawl is more reliable against explosive attempts where you lack time for precise shoulder targeting, so both tools should be developed.",
+        "answer_line": "Pins the exact rotating shoulder",
+        "distractors": {
+          "plausible": [
+            "Blocks their hips from moving",
+            "Works better on explosive attempts"
+          ],
+          "trap": [
+            "Release grip to fully sprawl"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -389,6 +600,35 @@
         "phase": "Phase 4: Week 9+ - Live Integration and Adaptation",
         "focus": "Defending Granby rolls within full rolling contexts including Granby variants",
         "description": "Full live rolling with specific attention to turtle top scenarios. Bottom player uses all Granby variants (standard, reverse, double, standing) and chains them with other escapes. Top player must recognize and defend each variant appropriately while maintaining offensive initiative. Review performance after each session and identify which variants create the most difficulty for targeted drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "oijKoS9siS4",
+        "title": "Rolling back take from turtle",
+        "by": "JiuJitsu.com coach",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6ns9XP2BsjQ",
+        "title": "Back take from the turtle position",
+        "by": "Evolve MMA coach",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9eP5msv3Qsk",
+        "title": "Crab ride to counter granby rolls",
+        "by": "Duck-Jitsu coach",
+        "vertical": false,
+        "channel": "Duck_Jitsu",
+        "duration": 234,
+        "verified": "2026-07-15"
       }
     ]
   },

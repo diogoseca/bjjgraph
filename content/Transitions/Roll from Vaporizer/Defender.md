@@ -134,6 +134,43 @@ description: "Learn to defend the Roll from Vaporizer in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll from Vaporizer (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the Peterson roll turnover",
+      "description": "Roll from Vaporizer (Defender) film study: Preventing the Peterson roll turnover, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MVR2PubZGn8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MVR2PubZGn8",
+      "url": "https://www.youtube.com/watch?v=MVR2PubZGn8",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT256S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking the lockdown to shut down the vaporizer",
+      "description": "Roll from Vaporizer (Defender) film study: Breaking the lockdown to shut down the vaporizer, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xb4-phb4BhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xb4-phb4BhE",
+      "url": "https://www.youtube.com/watch?v=Xb4-phb4BhE",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT251S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +180,34 @@ As the defender—the top player in the Vaporizer—your goal is to prevent the 
 **Opponent's Starting Position**: [[Positions/Vaporizer]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll from Vaporizer (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MVR2PubZGn8)
+
+<p class="clip-credit"><strong>Preventing the Peterson roll turnover</strong> — taught by Bernardo Faria · 4:16 · <a href="https://www.youtube.com/watch?v=MVR2PubZGn8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xb4-phb4BhE)
+
+<p class="clip-credit"><strong>Breaking the lockdown to shut down the vaporizer</strong> — taught by Matt Arroyo · 4:11 · <a href="https://www.youtube.com/watch?v=Xb4-phb4BhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

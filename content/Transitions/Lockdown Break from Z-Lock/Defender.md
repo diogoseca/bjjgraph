@@ -134,6 +134,43 @@ description: "Defend against the lockdown break from Z-Lock Half Guard bottom. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown Break from Z-Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown clinches to hold the Z-lock",
+      "description": "Lockdown Break from Z-Lock (Defender) film study: Lockdown clinches to hold the Z-lock, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown stomp to butterfly guard",
+      "description": "Lockdown Break from Z-Lock (Defender) film study: Lockdown stomp to butterfly guard, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LYeQDaZhVL0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LYeQDaZhVL0",
+      "url": "https://www.youtube.com/watch?v=LYeQDaZhVL0",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT123S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +180,34 @@ As the bottom player in Z-Lock Half Guard, defending the lockdown break is essen
 **Opponent's Starting Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown Break from Z-Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown clinches to hold the Z-lock</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LYeQDaZhVL0)
+
+<p class="clip-credit"><strong>Lockdown stomp to butterfly guard</strong> — taught by Brandon Mccaghren · 2:03 · <a href="https://www.youtube.com/watch?v=LYeQDaZhVL0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

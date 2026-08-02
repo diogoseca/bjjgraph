@@ -148,6 +148,43 @@ description: "Complete guide to defending against butterfly hook control passes 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Butterfly Hook Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention with butterfly hooks vs the pass",
+      "description": "Pass Butterfly Hook Control (Defender) film study: Guard retention with butterfly hooks vs the pass, taught by Diamondback Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/02sVMQyHuGc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/02sVMQyHuGc",
+      "url": "https://www.youtube.com/watch?v=02sVMQyHuGc",
+      "creator": { "@type": "Person", "name": "Diamondback Jiu-Jitsu" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard recovery variation against the pass",
+      "description": "Pass Butterfly Hook Control (Defender) film study: Guard recovery variation against the pass, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SMTORT8NDGw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SMTORT8NDGw",
+      "url": "https://www.youtube.com/watch?v=SMTORT8NDGw",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT185S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the butterfly guard player, defending against passes requires proactive hook 
 **Opponent's Starting Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Butterfly Hook Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=02sVMQyHuGc)
+
+<p class="clip-credit"><strong>Guard retention with butterfly hooks vs the pass</strong> — taught by Diamondback Jiu-Jitsu · 1:21 · <a href="https://www.youtube.com/watch?v=02sVMQyHuGc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SMTORT8NDGw)
+
+<p class="clip-credit"><strong>Guard recovery variation against the pass</strong> — taught by Marcelo Garcia · 3:05 · <a href="https://www.youtube.com/watch?v=SMTORT8NDGw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

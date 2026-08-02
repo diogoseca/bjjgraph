@@ -148,6 +148,54 @@ description: "Defend against the Double Jump to Mount transition. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Jump to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stiff arm escape from full mount",
+      "description": "Double Jump to Mount (Defender) film study: Stiff arm escape from full mount, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hyQouCv4tDs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hyQouCv4tDs",
+      "url": "https://www.youtube.com/watch?v=hyQouCv4tDs",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT13S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sitting Turtle to Running Man Defense",
+      "description": "Double Jump to Mount (Defender) film study: Sitting Turtle to Running Man Defense, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zgvlMKLWxAI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zgvlMKLWxAI",
+      "url": "https://www.youtube.com/watch?v=zgvlMKLWxAI",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT224S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle Escape \u0026 Back-Exposure System",
+      "description": "Double Jump to Mount (Defender) film study: Turtle Escape \u0026 Back-Exposure System, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
+      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT149S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defender must understand that passive resistance from a flattened belly-down
 **Opponent's Starting Position**: [[Positions/Double Jump]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Jump to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hyQouCv4tDs)
+
+<p class="clip-credit"><strong>Stiff arm escape from full mount</strong> — taught by Andy Tong · 0:13 · <a href="https://www.youtube.com/watch?v=hyQouCv4tDs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zgvlMKLWxAI)
+
+<p class="clip-credit"><strong>Sitting Turtle to Running Man Defense</strong> — taught by Priit Mihkelson · 3:44 · <a href="https://www.youtube.com/watch?v=zgvlMKLWxAI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
+
+<p class="clip-credit"><strong>Turtle Escape &amp; Back-Exposure System</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

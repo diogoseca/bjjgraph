@@ -34,6 +34,43 @@ description: "Learn the Sitting Guard Pull in BJJ. Step-by-step guide to safely 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sitting Guard Pull \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard pull to X guard sweep setup",
+      "description": "Sitting Guard Pull film study: Guard pull to X guard sweep setup, taught by Jackson Souza.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jAQul3bwCv4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jAQul3bwCv4",
+      "url": "https://www.youtube.com/watch?v=jAQul3bwCv4",
+      "creator": { "@type": "Person", "name": "Jackson Souza" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Competition-tested ways to pull guard",
+      "description": "Sitting Guard Pull film study: Competition-tested ways to pull guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B4_5rH7Vae0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B4_5rH7Vae0",
+      "url": "https://www.youtube.com/watch?v=B4_5rH7Vae0",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -64,9 +101,37 @@ The Sitting Guard Pull is one of the most fundamental and reliable methods for e
 The sitting guard pull's high success rate across all skill levels makes it an essential technique for competitors who prefer playing guard, as it reliably achieves the desired position while minimizing risk of injury or positional disadvantage. The critical window of vulnerability occurs during the descent phase, where grip tension and controlled movement determine whether you land in a strong guard or give your opponent a free passing opportunity. Mastery of this technique provides a solid platform for developing a comprehensive guard game, and the mechanical principles transfer directly to guard recovery situations throughout a match.
 
 **From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 75%
+**Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sitting Guard Pull in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jAQul3bwCv4)
+
+<p class="clip-credit"><strong>Guard pull to X guard sweep setup</strong> — taught by Jackson Souza · 0:17 · <a href="https://www.youtube.com/watch?v=jAQul3bwCv4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B4_5rH7Vae0)
+
+<p class="clip-credit"><strong>Competition-tested ways to pull guard</strong> — taught by Jon Thomas · 3:27 · <a href="https://www.youtube.com/watch?v=B4_5rH7Vae0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

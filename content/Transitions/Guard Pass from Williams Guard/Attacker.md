@@ -174,6 +174,43 @@ description: "Complete guide to passing Williams Guard from top position. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from Williams Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side smash pass to side control",
+      "description": "Guard Pass from Williams Guard (Attacker) film study: Side smash pass to side control, taught by Owen Livesey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MpWpNkQwBGA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MpWpNkQwBGA",
+      "url": "https://www.youtube.com/watch?v=MpWpNkQwBGA",
+      "creator": { "@type": "Person", "name": "Owen Livesey" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single underhook stack pass",
+      "description": "Guard Pass from Williams Guard (Attacker) film study: Single underhook stack pass, taught by Robot Dolphin Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TVCEKt1ObOI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TVCEKt1ObOI",
+      "url": "https://www.youtube.com/watch?v=TVCEKt1ObOI",
+      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
+      "duration": "PT197S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Passing Williams Guard from the top requires a disciplined two-phase approach th
 **From Position**: [[Positions/Williams Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from Williams Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MpWpNkQwBGA)
+
+<p class="clip-credit"><strong>Side smash pass to side control</strong> — taught by Owen Livesey · 1:13 · <a href="https://www.youtube.com/watch?v=MpWpNkQwBGA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TVCEKt1ObOI)
+
+<p class="clip-credit"><strong>Single underhook stack pass</strong> — taught by Robot Dolphin Jiu-Jitsu · 3:17 · <a href="https://www.youtube.com/watch?v=TVCEKt1ObOI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Kimura Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura trap rolling sweep from bottom side control",
+      "description": "Rolling Kimura Escape film study: Kimura trap rolling sweep from bottom side control, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YvTmqi750wQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YvTmqi750wQ",
+      "url": "https://www.youtube.com/watch?v=YvTmqi750wQ",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi kimura trap roll",
+      "description": "Rolling Kimura Escape film study: No-gi kimura trap roll, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEhMKdFPV9U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEhMKdFPV9U",
+      "url": "https://www.youtube.com/watch?v=WEhMKdFPV9U",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura trap roll from half guard",
+      "description": "Rolling Kimura Escape film study: Kimura trap roll from half guard, taught by Combat Arts Strength and Conditioning.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3scKusIPsC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3scKusIPsC8",
+      "url": "https://www.youtube.com/watch?v=3scKusIPsC8",
+      "creator": { "@type": "Person", "name": "Combat Arts Strength and Conditioning" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Success depends heavily on recognizing the exact moment when your opponent is co
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Kimura Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YvTmqi750wQ)
+
+<p class="clip-credit"><strong>Kimura trap rolling sweep from bottom side control</strong> — taught by Mat Life Training Center · 0:31 · <a href="https://www.youtube.com/watch?v=YvTmqi750wQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEhMKdFPV9U)
+
+<p class="clip-credit"><strong>No-gi kimura trap roll</strong> — taught by Robyn Sheehan · 1:00 · <a href="https://www.youtube.com/watch?v=WEhMKdFPV9U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3scKusIPsC8)
+
+<p class="clip-credit"><strong>Kimura trap roll from half guard</strong> — taught by Combat Arts Strength and Conditioning · 0:51 · <a href="https://www.youtube.com/watch?v=3scKusIPsC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

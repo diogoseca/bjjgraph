@@ -34,6 +34,65 @@ description: "Master Z-Lock Half Guard in BJJ. Advanced lockdown variation with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Lock Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Z lock sideways knee bar",
+      "description": "Z-Lock Half Guard film study: Z lock sideways knee bar, taught by Junny Ocasio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pFlYpsbltZw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pFlYpsbltZw",
+      "url": "https://www.youtube.com/watch?v=pFlYpsbltZw",
+      "creator": { "@type": "Person", "name": "Junny Ocasio" },
+      "duration": "PT396S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting and Maintaining the Lockdown",
+      "description": "Z-Lock Half Guard film study: Getting and Maintaining the Lockdown, taught by Submissions101 coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q_3D98PnTWA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q_3D98PnTWA",
+      "url": "https://www.youtube.com/watch?v=q_3D98PnTWA",
+      "creator": { "@type": "Person", "name": "Submissions101 coach" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Prison Guard Breakdown",
+      "description": "Z-Lock Half Guard film study: Prison Guard Breakdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
+      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Lockdown to Butterfly Guard with the Stomp",
+      "description": "Z-Lock Half Guard film study: Lockdown to Butterfly Guard with the Stomp, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LYeQDaZhVL0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LYeQDaZhVL0",
+      "url": "https://www.youtube.com/watch?v=LYeQDaZhVL0",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT123S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +125,50 @@ The position is particularly effective in no-gi grappling where traditional grip
 Developed primarily within the 10th Planet system and refined by lockdown specialists, the Z-Lock creates genuine dilemmas for top players who cannot simultaneously defend lockdown-based attacks and butterfly-based threats. The position requires significant technical understanding and hip flexibility but rewards practitioners with dynamic sweep opportunities, back take sequences, and submission paths that keep opponents defensive even from bottom position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Lock Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pFlYpsbltZw)
+
+<p class="clip-credit"><strong>Z lock sideways knee bar</strong> — taught by Junny Ocasio · 6:36 · <a href="https://www.youtube.com/watch?v=pFlYpsbltZw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q_3D98PnTWA)
+
+<p class="clip-credit"><strong>Getting and Maintaining the Lockdown</strong> — taught by Submissions101 coach · 1:23 · <a href="https://www.youtube.com/watch?v=q_3D98PnTWA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gFYyMkaMz34)
+
+<p class="clip-credit"><strong>Prison Guard Breakdown</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LYeQDaZhVL0)
+
+<p class="clip-credit"><strong>Lockdown to Butterfly Guard with the Stomp</strong> — taught by Brandon McCaghren · 2:03 · <a href="https://www.youtube.com/watch?v=LYeQDaZhVL0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -135,25 +238,25 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (30% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (14% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (14% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (13% of attempts)
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (11% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (5% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (13% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (7% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (8% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (12% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (8% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (12% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (8% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (5% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (5% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (12% of attempts)
 
-- **[[Transitions/Escape Z-Lock Half Guard/Attacker|Escape Z-Lock Half Guard]]** (2% of attempts)
+- **[[Transitions/Escape Z-Lock Half Guard/Attacker|Escape Z-Lock Half Guard]]** (11% of attempts)
 
-- **[[Transitions/Sweep from Z-Lock Half Guard/Attacker|Sweep from Z-Lock Half Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Z-Lock Half Guard/Attacker|Sweep from Z-Lock Half Guard]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -214,25 +317,25 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (28% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (10% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (8% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (13% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (4% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (14% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (11% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (8% of attempts)
 
-- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (8% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (7% of attempts)
 
-- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (6% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (7% of attempts)
 
-- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (5% of attempts)
+- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (19% of attempts)
 
-- **[[Transitions/Lockdown Break from Z-Lock/Attacker|Lockdown Break from Z-Lock]]** (2% of attempts)
+- **[[Transitions/Lockdown Break from Z-Lock/Attacker|Lockdown Break from Z-Lock]]** (16% of attempts)
 
-- **[[Transitions/Pass Z-Lock/Attacker|Pass Z-Lock]]** (1% of attempts)
+- **[[Transitions/Pass Z-Lock/Attacker|Pass Z-Lock]]** (12% of attempts)
 
 
 ### Common Mistakes

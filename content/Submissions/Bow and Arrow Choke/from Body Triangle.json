@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Body Triangle",
   "from_position": "Body Triangle/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Bow and Arrow Choke from Body Triangle is a high-percentage gi blood choke from back control where the figure-four leg lock prevents rotational escape while a deep cross-collar grip and body extension compress both carotid arteries.",
   "overview": "The Bow and Arrow Choke from Body Triangle combines the most secure form of back control with one of the highest-percentage gi chokes in Brazilian Jiu-Jitsu. By maintaining the body triangle's figure-four leg lock around your opponent's torso, you eliminate the primary escape mechanism that normally defeats the standard bow and arrow—turning into the attacker and creating rotational space. The body triangle's constant breathing restriction forces your opponent into a defensive crisis, managing both suffocating leg pressure and the tightening collar choke simultaneously.\n\nThe mechanics differ from the standard bow and arrow in critical ways. The body triangle provides a stable base that allows full commitment of both hands to the choking configuration without risking positional loss. Your cross-collar grip feeds deep behind the neck while the opposite hand controls the far leg, creating a diagonal line of force across the opponent's body. As you extend and arch, the collar tightens across both carotid arteries while the triangle prevents any rotational escape that would normally relieve choking pressure.\n\nAt the competition level, this combination represents one of the most dominant finishing sequences from back control. The defender faces a near-impossible defensive puzzle: clearing the collar grip requires removing hands from triangle defense, while addressing the triangle opens the neck to deeper collar penetration. This technical dilemma makes the body triangle bow and arrow a reliable finish even against skilled opponents who typically survive standard back attacks.",
   "safety_considerations": {
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Body Triangle/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -260,52 +272,172 @@
       {
         "question": "What anatomical structures does the bow and arrow choke from body triangle attack?",
         "answer": "The choke compresses both carotid arteries on each side of the neck using the collar fabric and forearm as the primary choking mechanisms. The cross-collar grip pulls the gi fabric across one carotid while the blade of the forearm presses against the opposite carotid. This bilateral arterial compression restricts blood flow to the brain, producing unconsciousness within 5-10 seconds of a clean application.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Trachea and windpipe only",
+            "Vagus nerve pressure point"
+          ],
+          "trap": [
+            "Crank neck for spinal pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin deeply and shrugs their shoulders during your collar grip attempt - what adjustment prevents them from blocking the grip?",
         "answer": "Work the collar grip behind the chin rather than trying to force it over the chin. Use your free hand to frame against their forehead or temple to create separation between their chin and chest. Pulse the body triangle pressure to force them to prioritize breathing, which often causes them to momentarily lift their chin. Time the collar feed during that breathing window when their defensive posture relaxes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feed behind the chin, not over it",
+        "distractors": {
+          "plausible": [
+            "Force the collar across the jaw",
+            "Pry the chin up with your thumb"
+          ],
+          "trap": [
+            "Drop triangle to grip two-handed"
+          ]
+        }
       },
       {
         "question": "What are the two primary grip anchor points needed before committing to the finishing extension?",
         "answer": "You need a deep cross-collar grip with four fingers behind the neck and knuckles against the cervical spine, plus a pants grip on the far knee or lower thigh. These two anchor points create the diagonal tension line that makes the choke mechanically effective. The collar grip provides the choking pressure while the pants grip prevents hip rotation and body curl that would relieve the pressure. Extending without both grips secured significantly reduces finishing probability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep collar grip + pants grip",
+        "distractors": {
+          "plausible": [
+            "Collar grip and near-wrist grip",
+            "Two hooks plus collar grip"
+          ],
+          "trap": [
+            "Extend before securing grips"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your pants grip during the extension phase - how do you maintain the choke?",
         "answer": "Immediately regrip the pants, belt, or far hip to re-establish the second anchor point. If regripping is not possible, use the freed hand to control their wrist and prevent them from stripping the collar grip as well. The collar grip alone still produces meaningful choking pressure because the body triangle prevents the rotation that would normally relieve it. Alternatively, switch to a rear naked choke setup using the freed hand while maintaining the collar pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Regrip pants, belt, or far hip",
+        "distractors": {
+          "plausible": [
+            "Strip their hands with both arms",
+            "Release and reset the choke"
+          ],
+          "trap": [
+            "Let go of collar to chase leg"
+          ]
+        }
       },
       {
         "question": "What makes the body triangle variant of the bow and arrow more secure than the standard version with hooks?",
         "answer": "The body triangle eliminates the opponent's primary escape mechanism—hip rotation and turning into the attacker. With standard hooks, the defender can systematically clear hooks and turn to face the attacker during the choke setup, breaking the choking angle. The body triangle's figure-four lock prevents this rotation entirely, allowing the attacker to commit both hands fully to the choke without positional risk. Additionally, the breathing restriction from the triangle creates a compounding pressure that accelerates the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Triangle blocks hip rotation",
+        "distractors": {
+          "plausible": [
+            "Triangle chokes on its own",
+            "Triangle stops shoulder shrug"
+          ],
+          "trap": [
+            "Cross the ankles to lock it"
+          ]
+        }
       },
       {
         "question": "At what point during the sequence does the choke become inescapable for most practitioners?",
         "answer": "The choke becomes extremely difficult to escape once both the deep collar grip and pants grip are established and the attacker begins the extension. Before the extension begins, the defender can still fight grips effectively. Once the diagonal tension line is created with both anchor points loaded and the body is extending, the mechanical advantage overwhelmingly favors the attacker. At this point, the defender's best option is to tap rather than attempt to fight through the pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both grips set, extension begins",
+        "distractors": {
+          "plausible": [
+            "Once the collar grip alone is set",
+            "As soon as the triangle locks"
+          ],
+          "trap": [
+            "Only once breathing stops"
+          ]
+        }
       },
       {
         "question": "What is the proper application speed for this choke and what signals require immediate release?",
         "answer": "Apply the extension progressively over 3-5 seconds minimum, never jerking or spiking the pressure. This speed allows your training partner to recognize the choke and tap before arterial compression causes unconsciousness. Release immediately upon any tap signal including verbal tap, hand tap on your body or the mat, foot tap on the mat, any audible distress sound, or loss of resistance indicating unconsciousness. After release, check your partner's consciousness and responsiveness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "3-5 sec progressive, tap = release",
+        "distractors": {
+          "plausible": [
+            "Fast spike, release on tap",
+            "Slow 10+ sec, verbal tap only"
+          ],
+          "trap": [
+            "Full speed, ignore early taps"
+          ]
+        }
       },
       {
         "question": "How should you release this choke after a tap to prevent injury?",
         "answer": "Upon receiving any tap signal, immediately release the collar grip first to stop arterial compression, then release the pants grip and body triangle simultaneously. Allow your opponent's head to return to a neutral position without forcing any movement. Check for consciousness and responsiveness. If your opponent lost consciousness before tapping, elevate their legs, ensure their airway is clear, and monitor them until they are fully responsive. Never leave an unconscious training partner unattended.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release collar grip first",
+        "distractors": {
+          "plausible": [
+            "Release body triangle first",
+            "Force their head back to center"
+          ],
+          "trap": [
+            "Hold the choke a beat longer"
+          ]
+        }
       },
       {
         "question": "Your opponent begins fighting your collar grip with both hands, leaving their arms exposed - what transition should you consider?",
         "answer": "When both their hands commit to collar defense, their arms are extended and exposed. Immediately consider transitioning to an armbar by isolating the reaching arm and swinging your leg over their head, or transition to a crucifix by trapping one of their outstretched arms with your leg. The body triangle maintains positional control throughout either transition. You can also bait the collar defense repeatedly, attacking the arm each time they reach, creating a collar-or-arm dilemma.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Armbar or crucifix exposed arm",
+        "distractors": {
+          "plausible": [
+            "Roll them over into mount",
+            "Abandon attack, reset to guard"
+          ],
+          "trap": [
+            "Release triangle to chase arm"
+          ]
+        }
       },
       {
         "question": "In competition, how do you set up this choke against an opponent who is actively defending the collar grip entry?",
         "answer": "Use grip-fighting sequences to create windows of opportunity. Alternate between threatening the rear naked choke and the collar grip so the opponent cannot dedicate both hands to one defense. Increase body triangle pressure in pulses to force breathing-focused moments where collar defense relaxes. Use your free hand to strip their grip from their own collar before feeding your choking hand. Another effective strategy is to secure the collar grip from seatbelt position before transitioning to body triangle, establishing the grip when the opponent is focused on defending hooks.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Alternate RNC and collar threats",
+        "distractors": {
+          "plausible": [
+            "Rush the grip before hooks lock",
+            "Flatten them out and force it"
+          ],
+          "trap": [
+            "Release triangle to free a hand"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "xqNhZVNhxnE",
+        "title": "Bow and Arrow Choke from Back Control",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "R5LFNqtx1ps",
+        "title": "Bow & Arrow Choke",
+        "by": "Gracie Barra",
+        "vertical": false,
+        "channel": "Gracie Barra Jiu-jitsu",
+        "duration": 66,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -387,42 +519,122 @@
       {
         "question": "How do you recognize that the bow and arrow choke from body triangle is being set up?",
         "answer": "The key recognition cues are: the attacker's top hand releases from seatbelt position and moves toward your far collar, you feel fingers entering the collar behind your neck, and the attacker's other hand begins reaching toward your far knee for the pants grip. Early recognition during the seatbelt release is critical because this is the best window for defensive action before the choking grips are established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand leaves seatbelt for far collar",
+        "distractors": {
+          "plausible": [
+            "Feel the triangle tighten first",
+            "Feel a backward weight shift"
+          ],
+          "trap": [
+            "Wait until extension to react"
+          ]
+        }
       },
       {
         "question": "What is the safest response when the bow and arrow choke is fully locked with both grips set and extension has begun?",
         "answer": "Tap immediately using any available signal—verbal, hand tap on body or mat, or foot tap on the mat. Once both the deep collar grip and pants grip are established and the attacker is extending, the choke is mechanically locked and escape probability is extremely low. Continuing to fight through a fully locked bow and arrow choke risks unconsciousness and potential injury from sustained arterial compression. Recognizing when to tap is a critical safety skill.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, any signal",
+        "distractors": {
+          "plausible": [
+            "Try to clear the triangle first",
+            "Turn into attacker to escape"
+          ],
+          "trap": [
+            "Fight through, wait it out"
+          ]
+        }
       },
       {
         "question": "What defensive options are available at each stage of the bow and arrow choke setup?",
         "answer": "During the seatbelt release phase, attempt to turn into the attacker to recover guard while upper body control is reduced. During the collar grip insertion phase, use two-on-one grip fighting to strip the hand from your collar before it is set deep. During the pants grip phase, control your own far knee to block the second anchor point. Once both grips are established and extension begins, your only realistic option is to tap and reset. Each stage has a narrowing window of defensive effectiveness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, strip grip, block knee",
+        "distractors": {
+          "plausible": [
+            "Focus only on clearing triangle",
+            "Wait to defend until extension"
+          ],
+          "trap": [
+            "Roll away, feeding the collar"
+          ]
+        }
       },
       {
         "question": "Why is defending the collar grip more important than escaping the body triangle?",
         "answer": "The body triangle restricts breathing and is uncomfortable, but it cannot finish the match by itself. The bow and arrow choke produces unconsciousness through arterial compression and can end the match in seconds. If you focus on clearing the triangle while the attacker establishes choking grips, you will likely be finished before the triangle is cleared. Prioritizing collar defense keeps you in the fight, while prioritizing triangle escape often results in being choked during the escape attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Choke finishes fast, triangle can't",
+        "distractors": {
+          "plausible": [
+            "Triangle causes more real damage",
+            "Both are equal priority threats"
+          ],
+          "trap": [
+            "Focus on triangle escape first"
+          ]
+        }
       },
       {
         "question": "What is the biggest mistake defenders make when the choking forearm begins pressing against their neck?",
         "answer": "The most common mistake is pulling down on the choking forearm, which actually tightens the collar across the neck because the gi fabric is anchored at the collar grip behind the neck. Pulling the forearm down increases the choking pressure rather than relieving it. Instead, defenders should attack the grip itself by stripping fingers from the collar fabric at the wrist insertion point, pushing the hand away from the collar rather than fighting the forearm pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pulling down on the forearm",
+        "distractors": {
+          "plausible": [
+            "Turning head into the pressure",
+            "Tucking the chin too hard"
+          ],
+          "trap": [
+            "Bridging hard into choking arm"
+          ]
+        }
       },
       {
         "question": "How should you position your body to reduce the effectiveness of the choke before extension begins?",
         "answer": "Turn your shoulders slightly toward the attacker's choking arm side to reduce the cross-body angle that makes the choke effective. Keep your chin tucked firmly to your chest with shoulders shrugged to create a structural barrier against collar penetration. Avoid lying flat on your back, which gives the attacker maximum leverage for the extension. Instead, stay slightly on your side facing the choking arm, which compresses the space available for the collar to tighten across your neck and makes grip depth harder to achieve.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn shoulders toward choking arm",
+        "distractors": {
+          "plausible": [
+            "Lie flat to maximize base",
+            "Turn away from the choking arm"
+          ],
+          "trap": [
+            "Relax chin to breathe easier"
+          ]
+        }
       },
       {
         "question": "Your two-on-one grip strip fails and the attacker's collar grip is now consolidated behind your neck - what is your last viable defensive option before the extension?",
         "answer": "Block the pants grip on your far leg by controlling your own knee or trapping the attacker's reaching hand with your near-side hand. Without the second anchor point, the attacker cannot create the diagonal tension line needed for maximum choking pressure. If you can deny the pants grip, the attacker must either release the collar to fight for the leg or attempt the choke without full extension, which significantly reduces finishing effectiveness and may give you time to re-engage collar grip stripping.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Block the pants grip on far knee",
+        "distractors": {
+          "plausible": [
+            "Retry the two-on-one collar strip",
+            "Shrug shoulders and wait it out"
+          ],
+          "trap": [
+            "Straighten out flat to relieve it"
+          ]
+        }
       },
       {
         "question": "What specific injury risks should a defender be aware of when caught in this choke during training?",
         "answer": "The primary risk is loss of consciousness from bilateral carotid compression, which can occur within 5-10 seconds of a clean choke application. A secondary risk is neck strain or cervical injury if the attacker applies torque during the extension, especially if the defender resists by turning their head forcefully. TMJ and jaw injuries occur when a shallow collar grip rides up onto the chin and the attacker extends with force. Rib compression from the body triangle combined with the choke extension can cause intercostal strain. Defenders must tap early and clearly to avoid these risks.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Unconsciousness in 5-10 seconds",
+        "distractors": {
+          "plausible": [
+            "Windpipe crush is the main risk",
+            "Blackout takes 30+ seconds"
+          ],
+          "trap": [
+            "No real risk, tapping optional"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -440,6 +652,26 @@
         "phase": "Escape Integration",
         "focus": "Full defensive sequences against increasing resistance",
         "description": "Partner works the complete bow and arrow setup from body triangle at progressively increasing resistance from 50% to 80%. Defender uses all available tools: recognition, grip defense, turning attempts, pants grip blocking. Practice tapping at the appropriate moment when the choke locks in fully. Develop judgment for when defense is still viable versus when tapping is the correct response."
+      }
+    ],
+    "clips": [
+      {
+        "id": "485wvqwlBYA",
+        "title": "Defending Back Control Face Down",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hgaULMND3ag",
+        "title": "Escaping the Body Triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 129,
+        "verified": "2026-07-14"
       }
     ]
   }

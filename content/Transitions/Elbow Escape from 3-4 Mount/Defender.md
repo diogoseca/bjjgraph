@@ -148,6 +148,32 @@ description: "Prevent the Elbow Escape from 3-4 Mount as the top player. Learn t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape from 3-4 Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining mount: preventing the elbow escape",
+      "description": "Elbow Escape from 3-4 Mount (Defender) film study: Maintaining mount: preventing the elbow escape, taught by St. Paul Brazilian Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iS017eyM0eQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iS017eyM0eQ",
+      "url": "https://www.youtube.com/watch?v=iS017eyM0eQ",
+      "creator": { "@type": "Person", "name": "St. Paul Brazilian Jiu Jitsu" },
+      "duration": "PT264S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +183,26 @@ As the top player defending against the Elbow Escape from 3-4 Mount, your object
 **Opponent's Starting Position**: [[Positions/Mount/3-4 Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape from 3-4 Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iS017eyM0eQ)
+
+<p class="clip-credit"><strong>Maintaining mount: preventing the elbow escape</strong> — taught by St. Paul Brazilian Jiu Jitsu · 4:24 · <a href="https://www.youtube.com/watch?v=iS017eyM0eQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

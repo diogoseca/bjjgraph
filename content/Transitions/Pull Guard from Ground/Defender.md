@@ -93,6 +93,14 @@ description: "Learn to defend and counter ground guard pulls in BJJ. Recognition
         "@type": "Answer",
         "text": "Against a ground guard pull, your hands should prioritize hip-level frames rather than the chest-level posture control used against standing pulls. Place both hands on opponent's hips or inner thighs to create a structural barrier at the exact level where their legs will attempt to wrap. This frame placement intercepts the leg wrap at its origin point rather than fighting it after legs are already around your body. Against standing pulls, hands typically control posture at collar and elbow level since the threat comes from being pulled downward. The different threat vectors require different frame heights and angles."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the most critical timing window for defending against a guard pull?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most critical window is the two-second gap between when the opponent begins their descent and when their guard structure solidifies with locked ankles or established hooks. During this window, the puller's legs are transitioning and not yet in a defensive configuration. Driving forward with immediate passing pressure during this moment bypasses their intended guard entirely. The secondary window is before the pull starts — during grip establishment — when stripping grips prevents the pull from initiating at all. Missing both windows means accepting the guard and working a systematic guard opening, which is significantly harder."
+      }
     }
   ]
 }
@@ -148,6 +156,54 @@ description: "Learn to defend and counter ground guard pulls in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pull Guard from Ground (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to counter sit-up guard",
+      "description": "Pull Guard from Ground (Defender) film study: How to counter sit-up guard, taught by Avant-Garde BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G1PKGe_q9P0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G1PKGe_q9P0",
+      "url": "https://www.youtube.com/watch?v=G1PKGe_q9P0",
+      "creator": { "@type": "Person", "name": "Avant-Garde BJJ" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard pull counter",
+      "description": "Pull Guard from Ground (Defender) film study: Guard pull counter, taught by Koji Shibamoto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F5oVtO4w2eA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F5oVtO4w2eA",
+      "url": "https://www.youtube.com/watch?v=F5oVtO4w2eA",
+      "creator": { "@type": "Person", "name": "Koji Shibamoto" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sit-up guard counter to windshield wiper pass",
+      "description": "Pull Guard from Ground (Defender) film study: Sit-up guard counter to windshield wiper pass, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pIh1n8YS3J8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pIh1n8YS3J8",
+      "url": "https://www.youtube.com/watch?v=pIh1n8YS3J8",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +213,42 @@ As the defender against Pull Guard from Ground, you are the top player whose opp
 **Opponent's Starting Position**: [[Positions/Standing Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pull Guard from Ground (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G1PKGe_q9P0)
+
+<p class="clip-credit"><strong>How to counter sit-up guard</strong> — taught by Avant-Garde BJJ · 0:58 · <a href="https://www.youtube.com/watch?v=G1PKGe_q9P0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F5oVtO4w2eA)
+
+<p class="clip-credit"><strong>Guard pull counter</strong> — taught by Koji Shibamoto · 0:14 · <a href="https://www.youtube.com/watch?v=F5oVtO4w2eA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pIh1n8YS3J8)
+
+<p class="clip-credit"><strong>Sit-up guard counter to windshield wiper pass</strong> — taught by Carpio Jiu Jitsu · 1:38 · <a href="https://www.youtube.com/watch?v=pIh1n8YS3J8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

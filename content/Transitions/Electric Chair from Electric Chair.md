@@ -34,6 +34,54 @@ description: "Master the Electric Chair finish from lockdown half guard. Complet
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Electric Chair from Electric Chair \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Electric Chair Submission",
+      "description": "Electric Chair from Electric Chair film study: Electric Chair Submission, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I8HLek9eCbg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I8HLek9eCbg",
+      "url": "https://www.youtube.com/watch?v=I8HLek9eCbg",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Electric Chair Submission Finish",
+      "description": "Electric Chair from Electric Chair film study: Electric Chair Submission Finish, taught by Dan M..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X7JA72d-3vw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X7JA72d-3vw",
+      "url": "https://www.youtube.com/watch?v=X7JA72d-3vw",
+      "creator": { "@type": "Person", "name": "Dan M." },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Electric Chair Submission",
+      "description": "Electric Chair from Electric Chair film study: Electric Chair Submission, taught by Panacea BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pIoiYLBb_Vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pIoiYLBb_Vg",
+      "url": "https://www.youtube.com/watch?v=pIoiYLBb_Vg",
+      "creator": { "@type": "Person", "name": "Panacea BJJ" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The finish relies on three synchronized control points working in concert: the l
 As a direct submission, the Electric Chair represents the ultimate threat that makes the entire lockdown sweeping game viable. Its primary strategic value lies in the dilemma it creates alongside the Old School sweep: opponents who base out to prevent being swept expose themselves to increased splitting pressure, while those who address the submission by pulling their leg back become light and vulnerable to positional reversals. This dual-threat dynamic forces opponents into a lose-lose situation that defines the tactical richness of the Electric Chair position.
 
 **From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
-**Success Rate**: 45%
+**Success Rate**: 42%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Electric Chair from Electric Chair in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I8HLek9eCbg)
+
+<p class="clip-credit"><strong>Electric Chair Submission</strong> — taught by bjjtaro · 0:25 · <a href="https://www.youtube.com/watch?v=I8HLek9eCbg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X7JA72d-3vw)
+
+<p class="clip-credit"><strong>Electric Chair Submission Finish</strong> — taught by Dan M. · 0:55 · <a href="https://www.youtube.com/watch?v=X7JA72d-3vw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pIoiYLBb_Vg)
+
+<p class="clip-credit"><strong>Electric Chair Submission</strong> — taught by Panacea BJJ · 1:16 · <a href="https://www.youtube.com/watch?v=pIoiYLBb_Vg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -76,7 +160,7 @@ As a direct submission, the Electric Chair represents the ultimate threat that m
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 45% |
+| Success | [[Positions/Mount]] | 45% |
 | Failure | [[Positions/Half Guard/Electric Chair]] | 35% |
 | Counter | [[Positions/Half Guard]] | 20% |
 

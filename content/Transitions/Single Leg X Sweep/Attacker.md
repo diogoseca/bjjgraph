@@ -174,6 +174,43 @@ description: "How to execute Single Leg X Sweep in BJJ. Attacking perspective wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X sweep to 50/50 transition",
+      "description": "Single Leg X Sweep (Attacker) film study: Single leg X sweep to 50/50 transition, taught by Won-hee Cho.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TVQXVTX6Szw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TVQXVTX6Szw",
+      "url": "https://www.youtube.com/watch?v=TVQXVTX6Szw",
+      "creator": { "@type": "Person", "name": "Won-hee Cho" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Modified single leg X guard sweep",
+      "description": "Single Leg X Sweep (Attacker) film study: Modified single leg X guard sweep, taught by Escapology BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ElAdD4QuxXk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ElAdD4QuxXk",
+      "url": "https://www.youtube.com/watch?v=ElAdD4QuxXk",
+      "creator": { "@type": "Person", "name": "Escapology BJJ" },
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +224,34 @@ The Single Leg X Sweep is a cornerstone technique in modern leg entanglement sys
 **From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TVQXVTX6Szw)
+
+<p class="clip-credit"><strong>Single leg X sweep to 50/50 transition</strong> — taught by Won-hee Cho · 0:23 · <a href="https://www.youtube.com/watch?v=TVQXVTX6Szw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ElAdD4QuxXk)
+
+<p class="clip-credit"><strong>Modified single leg X guard sweep</strong> — taught by Escapology BJJ · 2:40 · <a href="https://www.youtube.com/watch?v=ElAdD4QuxXk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

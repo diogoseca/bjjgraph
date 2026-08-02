@@ -148,6 +148,54 @@ description: "Defend against the Old School Pass in BJJ. Recognition cues, defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Old School Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown strategies against the top pass",
+      "description": "Old School Pass (Defender) film study: Lockdown strategies against the top pass, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oSQ7BHerIow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oSQ7BHerIow",
+      "url": "https://www.youtube.com/watch?v=oSQ7BHerIow",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard recovery and lockdown defense",
+      "description": "Old School Pass (Defender) film study: Half guard recovery and lockdown defense, taught by Robot Dolphin Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zNYVPT5XExU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zNYVPT5XExU",
+      "url": "https://www.youtube.com/watch?v=zNYVPT5XExU",
+      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Strategy-based lockdown escape",
+      "description": "Old School Pass (Defender) film study: Strategy-based lockdown escape, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rHT8G14Gbb8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rHT8G14Gbb8",
+      "url": "https://www.youtube.com/watch?v=rHT8G14Gbb8",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Old School Pass requires maintaining the integrity of your three-p
 **Opponent's Starting Position**: [[Positions/Half Guard/Old School]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Old School Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oSQ7BHerIow)
+
+<p class="clip-credit"><strong>Lockdown strategies against the top pass</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=oSQ7BHerIow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zNYVPT5XExU)
+
+<p class="clip-credit"><strong>Half guard recovery and lockdown defense</strong> — taught by Robot Dolphin Jiu-Jitsu · 3:14 · <a href="https://www.youtube.com/watch?v=zNYVPT5XExU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rHT8G14Gbb8)
+
+<p class="clip-credit"><strong>Strategy-based lockdown escape</strong> — taught by Jean Jacques Machado · 2:39 · <a href="https://www.youtube.com/watch?v=rHT8G14Gbb8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

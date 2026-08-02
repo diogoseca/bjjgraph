@@ -164,6 +164,54 @@ description: "Master rotational submission mechanics in BJJ. Learn how twisting 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rotational Breaks \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ankle lock breaking mechanics: grips and rotation",
+      "description": "Rotational Breaks film study: Ankle lock breaking mechanics: grips and rotation, taught by Energia Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-6m7kyxrgRM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-6m7kyxrgRM",
+      "url": "https://www.youtube.com/watch?v=-6m7kyxrgRM",
+      "creator": { "@type": "Person", "name": "Energia Martial Arts" },
+      "duration": "PT760S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Danaher\u0027s key detail for rotational ankle locks",
+      "description": "Rotational Breaks film study: Danaher\u0027s key detail for rotational ankle locks, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nF301WIHEdw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nF301WIHEdw",
+      "url": "https://www.youtube.com/watch?v=nF301WIHEdw",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT933S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Push, shake and rotate to break structure",
+      "description": "Rotational Breaks film study: Push, shake and rotate to break structure, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XXPJc-i4_Co/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XXPJc-i4_Co",
+      "url": "https://www.youtube.com/watch?v=XXPJc-i4_Co",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT12S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Rotational Breaks?
@@ -177,6 +225,42 @@ What makes rotational breaks particularly dangerous is the relative lack of prop
 The core mechanic is consistent across all rotational submissions: isolate the joint, control the limb segments on both sides of the target joint, and apply rotational force while preventing the opponent from rotating their body to relieve the pressure. The attacker must create a closed system where the only thing that can give is the joint itself.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rotational Breaks in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-6m7kyxrgRM)
+
+<p class="clip-credit"><strong>Ankle lock breaking mechanics: grips and rotation</strong> — taught by Energia Martial Arts · 12:40 · <a href="https://www.youtube.com/watch?v=-6m7kyxrgRM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nF301WIHEdw)
+
+<p class="clip-credit"><strong>Danaher&#39;s key detail for rotational ankle locks</strong> — taught by John Danaher · 15:33 · <a href="https://www.youtube.com/watch?v=nF301WIHEdw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XXPJc-i4_Co)
+
+<p class="clip-credit"><strong>Push, shake and rotate to break structure</strong> — taught by John Danaher · 0:12 · <a href="https://www.youtube.com/watch?v=XXPJc-i4_Co" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

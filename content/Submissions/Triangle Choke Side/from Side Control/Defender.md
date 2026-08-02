@@ -150,6 +150,43 @@ description: "How to defend against Triangle Choke Side in BJJ. Recognition, esc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke Side from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape a Triangle Choke",
+      "description": "Triangle Choke Side from Side Control (Defender) film study: How to Escape a Triangle Choke, taught by Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "4 Triangle Choke Defenses",
+      "description": "Triangle Choke Side from Side Control (Defender) film study: 4 Triangle Choke Defenses, taught by Ramsey Dewey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RzLPbrQAaRM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RzLPbrQAaRM",
+      "url": "https://www.youtube.com/watch?v=RzLPbrQAaRM",
+      "creator": { "@type": "Person", "name": "Ramsey Dewey" },
+      "duration": "PT245S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ Successful defense combines proactive arm management with reactive escape mechan
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke Side from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to Escape a Triangle Choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RzLPbrQAaRM)
+
+<p class="clip-credit"><strong>4 Triangle Choke Defenses</strong> — taught by Ramsey Dewey · 4:05 · <a href="https://www.youtube.com/watch?v=RzLPbrQAaRM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

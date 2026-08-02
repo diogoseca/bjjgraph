@@ -148,6 +148,43 @@ description: "Defensive guide to maintaining Russian Cowboy against escape attem
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Russian Cowboy (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Why you keep losing the back \u2014 holding back control",
+      "description": "Escape from Russian Cowboy (Defender) film study: Why you keep losing the back \u2014 holding back control, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lpgcKpIgClw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lpgcKpIgClw",
+      "url": "https://www.youtube.com/watch?v=lpgcKpIgClw",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Holding twister side control",
+      "description": "Escape from Russian Cowboy (Defender) film study: Holding twister side control, taught by JitsHappens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c1nV0kji8Uc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c1nV0kji8Uc",
+      "url": "https://www.youtube.com/watch?v=c1nV0kji8Uc",
+      "creator": { "@type": "Person", "name": "JitsHappens" },
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the Russian Cowboy top player defending against the escape, your objective is
 **Opponent's Starting Position**: [[Positions/Russian Cowboy]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Russian Cowboy (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lpgcKpIgClw)
+
+<p class="clip-credit"><strong>Why you keep losing the back — holding back control</strong> — taught by Brandon McCaghren · 2:23 · <a href="https://www.youtube.com/watch?v=lpgcKpIgClw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c1nV0kji8Uc)
+
+<p class="clip-credit"><strong>Holding twister side control</strong> — taught by JitsHappens · 0:35 · <a href="https://www.youtube.com/watch?v=c1nV0kji8Uc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

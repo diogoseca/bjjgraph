@@ -148,6 +148,43 @@ description: "How to defend against Russian Tie to Back Take in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Tie to Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "2-on-1 defense",
+      "description": "Russian Tie to Back Take (Defender) film study: 2-on-1 defense, taught by Youssif Hemida.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uVsLdcUuxJg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uVsLdcUuxJg",
+      "url": "https://www.youtube.com/watch?v=uVsLdcUuxJg",
+      "creator": { "@type": "Person", "name": "Youssif Hemida" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the 2-on-1 with a double leg",
+      "description": "Russian Tie to Back Take (Defender) film study: Countering the 2-on-1 with a double leg, taught by Shelton Mack.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wP6QjxaklRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wP6QjxaklRk",
+      "url": "https://www.youtube.com/watch?v=wP6QjxaklRk",
+      "creator": { "@type": "Person", "name": "Shelton Mack" },
+      "duration": "PT242S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The defender must avoid passive reactions like simply trying to pull the arm bac
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Tie to Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uVsLdcUuxJg)
+
+<p class="clip-credit"><strong>2-on-1 defense</strong> — taught by Youssif Hemida · 2:38 · <a href="https://www.youtube.com/watch?v=uVsLdcUuxJg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wP6QjxaklRk)
+
+<p class="clip-credit"><strong>Countering the 2-on-1 with a double leg</strong> — taught by Shelton Mack · 4:02 · <a href="https://www.youtube.com/watch?v=wP6QjxaklRk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

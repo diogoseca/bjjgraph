@@ -34,6 +34,54 @@ description: "Hook Leg and Take Back from Buggy Choke. Step-by-step back take wh
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hook Leg and Take Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hip switch to back take",
+      "description": "Hook Leg and Take Back film study: Hip switch to back take, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f3PJ06A_bWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f3PJ06A_bWQ",
+      "url": "https://www.youtube.com/watch?v=f3PJ06A_bWQ",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling back take from turtle",
+      "description": "Hook Leg and Take Back film study: Rolling back take from turtle, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oijKoS9siS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oijKoS9siS4",
+      "url": "https://www.youtube.com/watch?v=oijKoS9siS4",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back take from the turtle position",
+      "description": "Hook Leg and Take Back film study: Back take from the turtle position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6ns9XP2BsjQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6ns9XP2BsjQ",
+      "url": "https://www.youtube.com/watch?v=6ns9XP2BsjQ",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The technical foundation relies on timing the leg hook insertion precisely as th
 Strategically, this technique represents the positional advancement pathway within the buggy choke attack system. When opponents recognize the immediate choking threat and prioritize escaping to guard over remaining static, the Hook Leg and Take Back punishes this defensive choice with an even more dominant position. Understanding this transition elevates the buggy choke from a single-path attack to a branching system where the opponent's defensive selection determines which dominant outcome you achieve.
 
 **From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 39%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hook Leg and Take Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f3PJ06A_bWQ)
+
+<p class="clip-credit"><strong>Hip switch to back take</strong> — taught by Gordon Ryan · 0:19 · <a href="https://www.youtube.com/watch?v=f3PJ06A_bWQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oijKoS9siS4)
+
+<p class="clip-credit"><strong>Rolling back take from turtle</strong> — taught by JiuJitsu.com · 0:41 · <a href="https://www.youtube.com/watch?v=oijKoS9siS4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6ns9XP2BsjQ)
+
+<p class="clip-credit"><strong>Back take from the turtle position</strong> — taught by Evolve MMA · 1:06 · <a href="https://www.youtube.com/watch?v=6ns9XP2BsjQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

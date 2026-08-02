@@ -140,6 +140,43 @@ description: "Complete defensive guide against the Knee Slice from Reverse X-Gua
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Reverse X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Wrestle-up counter to the knee cut across the hip",
+      "description": "Knee Slice from Reverse X-Guard (Defender) film study: Wrestle-up counter to the knee cut across the hip, taught by ZeGrapplez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dqgSUNvoVsQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dqgSUNvoVsQ",
+      "url": "https://www.youtube.com/watch?v=dqgSUNvoVsQ",
+      "creator": { "@type": "Person", "name": "ZeGrapplez" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee slide pass defense counter",
+      "description": "Knee Slice from Reverse X-Guard (Defender) film study: Knee slide pass defense counter, taught by Alexander Miller.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BIFfZ3bK4ss/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BIFfZ3bK4ss",
+      "url": "https://www.youtube.com/watch?v=BIFfZ3bK4ss",
+      "creator": { "@type": "Person", "name": "Alexander Miller" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender in Reverse X-Guard Bottom facing a knee slice pass attempt, your
 **Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Reverse X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dqgSUNvoVsQ)
+
+<p class="clip-credit"><strong>Wrestle-up counter to the knee cut across the hip</strong> — taught by ZeGrapplez · 1:31 · <a href="https://www.youtube.com/watch?v=dqgSUNvoVsQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BIFfZ3bK4ss)
+
+<p class="clip-credit"><strong>Knee slide pass defense counter</strong> — taught by Alexander Miller · 1:06 · <a href="https://www.youtube.com/watch?v=BIFfZ3bK4ss" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

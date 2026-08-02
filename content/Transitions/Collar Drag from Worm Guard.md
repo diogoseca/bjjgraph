@@ -34,6 +34,43 @@ description: "Master the collar drag from worm guard in BJJ. Step-by-step guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Drag from Worm Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel guard takedown one minute breakdown",
+      "description": "Collar Drag from Worm Guard film study: Lapel guard takedown one minute breakdown, taught by Legion AJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_iV0LtOiXNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_iV0LtOiXNY",
+      "url": "https://www.youtube.com/watch?v=_iV0LtOiXNY",
+      "creator": { "@type": "Person", "name": "Legion AJJ" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worm guard single leg takedown",
+      "description": "Collar Drag from Worm Guard film study: Worm guard single leg takedown, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U6HzzQ0lO0M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U6HzzQ0lO0M",
+      "url": "https://www.youtube.com/watch?v=U6HzzQ0lO0M",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The collar drag also functions as an excellent chain attack within the worm guar
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Drag from Worm Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_iV0LtOiXNY)
+
+<p class="clip-credit"><strong>Lapel guard takedown one minute breakdown</strong> — taught by Legion AJJ · 1:04 · <a href="https://www.youtube.com/watch?v=_iV0LtOiXNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U6HzzQ0lO0M)
+
+<p class="clip-credit"><strong>Worm guard single leg takedown</strong> — taught by Revolution BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=U6HzzQ0lO0M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

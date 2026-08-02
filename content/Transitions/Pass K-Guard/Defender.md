@@ -140,6 +140,43 @@ description: "Learn to defend the K-Guard pass from the bottom player perspectiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass K-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard Retention: When To Use the Sit Up Escape",
+      "description": "Pass K-Guard (Defender) film study: Guard Retention: When To Use the Sit Up Escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shallow K Guard Retention",
+      "description": "Pass K-Guard (Defender) film study: Shallow K Guard Retention, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fQ1z2RLYz4Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fQ1z2RLYz4Q",
+      "url": "https://www.youtube.com/watch?v=fQ1z2RLYz4Q",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending against the K-Guard pass from the bottom player's perspective requires
 **Opponent's Starting Position**: [[Positions/K-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass K-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard Retention: When To Use the Sit Up Escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fQ1z2RLYz4Q)
+
+<p class="clip-credit"><strong>Shallow K Guard Retention</strong> — taught by Lachlan Giles · 0:42 · <a href="https://www.youtube.com/watch?v=fQ1z2RLYz4Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

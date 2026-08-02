@@ -144,6 +144,54 @@ description: "Defend against the guillotine choke from Twister Control. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Twister Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing guillotine escape",
+      "description": "Guillotine Choke from Twister Control (Defender) film study: Standing guillotine escape, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
+      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine choke escape and defense",
+      "description": "Guillotine Choke from Twister Control (Defender) film study: Guillotine choke escape and defense, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v-CRBRea_KY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v-CRBRea_KY",
+      "url": "https://www.youtube.com/watch?v=v-CRBRea_KY",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT319S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guillotine defence details",
+      "description": "Guillotine Choke from Twister Control (Defender) film study: Guillotine defence details, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/46LaXNe6rJo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/46LaXNe6rJo",
+      "url": "https://www.youtube.com/watch?v=46LaXNe6rJo",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT594S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the guillotine from Twister Control requires recognizing that your esc
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Twister Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8okq4cIHMO0)
+
+<p class="clip-credit"><strong>Standing guillotine escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v-CRBRea_KY)
+
+<p class="clip-credit"><strong>Guillotine choke escape and defense</strong> — taught by Chewjitsu · 5:19 · <a href="https://www.youtube.com/watch?v=v-CRBRea_KY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=46LaXNe6rJo)
+
+<p class="clip-credit"><strong>Guillotine defence details</strong> — taught by Wim Deputter · 9:54 · <a href="https://www.youtube.com/watch?v=46LaXNe6rJo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

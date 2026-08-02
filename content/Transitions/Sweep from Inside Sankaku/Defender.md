@@ -140,6 +140,43 @@ description: "Master defending the Sweep from Inside Sankaku. Learn to recognize
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Inside Sankaku (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside sankaku counter: honey stick escape",
+      "description": "Sweep from Inside Sankaku (Defender) film study: Inside sankaku counter: honey stick escape, taught by Combat by the Minute.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bJHew8wUS88/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bJHew8wUS88",
+      "url": "https://www.youtube.com/watch?v=bJHew8wUS88",
+      "creator": { "@type": "Person", "name": "Combat by the Minute" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside sankaku counter to inside heel hook",
+      "description": "Sweep from Inside Sankaku (Defender) film study: Inside sankaku counter to inside heel hook, taught by Pedro Rocha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q1JgpfFRDA4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q1JgpfFRDA4",
+      "url": "https://www.youtube.com/watch?v=q1JgpfFRDA4",
+      "creator": { "@type": "Person", "name": "Pedro Rocha" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the Sweep from Inside Sankaku, you are the top player ma
 **Opponent's Starting Position**: [[Positions/Inside Sankaku]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Inside Sankaku (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bJHew8wUS88)
+
+<p class="clip-credit"><strong>Inside sankaku counter: honey stick escape</strong> — taught by Combat by the Minute · 1:32 · <a href="https://www.youtube.com/watch?v=bJHew8wUS88" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q1JgpfFRDA4)
+
+<p class="clip-credit"><strong>Inside sankaku counter to inside heel hook</strong> — taught by Pedro Rocha · 2:43 · <a href="https://www.youtube.com/watch?v=q1JgpfFRDA4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Back Control/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Crucifix/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Posture defense from the rear triangle addresses one of BJJ's most urgent survival scenarios. The rear triangle combines back control dominance with triangle choke mechanics, creating extreme carotid pressure while trapping one arm and severely limiting the defender's movement options. Without posture recovery, the bottom player faces rapidly escalating submission danger as the choking leg compresses the neck and the opponent optimizes finishing angles from behind.\n\nThe technique centers on using skeletal structure and frame-based leverage rather than muscular strength to counteract the forward-pulling force of the triangle configuration. By driving the chin toward the ceiling, pressing the shoulders back against the choking leg, and establishing control grips on the opponent's locking ankle, the defender systematically reduces choking pressure and creates the space necessary for arm extraction and subsequent escape sequences. Posture recovery serves as the foundational first step in most rear triangle escape chains, as attempting arm extraction or body rotation without first addressing broken posture typically results in the choke tightening further.\n\nThe timing window for effective posture defense is narrow and position-dependent. Best results occur before the triangle is fully locked and the opponent has optimized their hip angle toward the trapped arm side. Once full lock is established with compressed knees and angled hips, pure posture defense becomes significantly harder and must be combined with grip fighting and rotational escape elements to create viable escape opportunities.",
   "conditions": [
     "Defender is caught in rear triangle with one arm trapped inside the triangle structure",
@@ -253,38 +265,147 @@
     "flashcards": [
       {
         "question": "What is the first priority when caught in a rear triangle and why does it take precedence over posture recovery?",
-        "answer": "Chin protection takes absolute first priority. Tuck your chin tightly to your chest and turn your face toward the non-choking leg side. This must happen before any posture recovery because an unprotected neck under full triangle compression can lead to unconsciousness within seconds, whereas broken posture without neck exposure gives you time to work systematic escape sequences."
+        "answer": "Chin protection takes absolute first priority. Tuck your chin tightly to your chest and turn your face toward the non-choking leg side. This must happen before any posture recovery because an unprotected neck under full triangle compression can lead to unconsciousness within seconds, whereas broken posture without neck exposure gives you time to work systematic escape sequences.",
+        "answer_line": "Tuck chin, turn away from choke",
+        "distractors": {
+          "plausible": [
+            "Drive shoulders back immediately",
+            "Grip the ankle lock first"
+          ],
+          "trap": [
+            "Reach across for far-side grip"
+          ]
+        }
       },
       {
         "question": "Why should you attack the locking ankle before attempting to drive your shoulders back for posture?",
-        "answer": "The figure-four lock created by the ankle behind the knee is the triangle's primary compression mechanism. Fighting posture against an intact lock pits your back and neck muscles against the opponent's entire leg structure, which you cannot win. Disrupting the lock first reduces the compressive force significantly, making subsequent posture recovery achievable with sustainable effort rather than exhausting muscular force."
+        "answer": "The figure-four lock created by the ankle behind the knee is the triangle's primary compression mechanism. Fighting posture against an intact lock pits your back and neck muscles against the opponent's entire leg structure, which you cannot win. Disrupting the lock first reduces the compressive force significantly, making subsequent posture recovery achievable with sustainable effort rather than exhausting muscular force.",
+        "answer_line": "Break the ankle lock first",
+        "distractors": {
+          "plausible": [
+            "Posture back with pure strength",
+            "Squeeze knees to relieve pressure"
+          ],
+          "trap": [
+            "Pull head straight back hard"
+          ]
+        }
       },
       {
         "question": "Your opponent angles their hips aggressively toward your trapped arm during your posture attempt—how do you adjust?",
-        "answer": "Do not posture directly backward, as this drives your neck deeper into the optimized choking angle. Instead, angle your posture recovery toward the non-choking leg side, directing your shoulder drive away from the opponent's hip orientation. This changes the force vector so your posture movement reduces rather than increases the carotid pressure, and creates a rotational component that can further disrupt the triangle alignment."
+        "answer": "Do not posture directly backward, as this drives your neck deeper into the optimized choking angle. Instead, angle your posture recovery toward the non-choking leg side, directing your shoulder drive away from the opponent's hip orientation. This changes the force vector so your posture movement reduces rather than increases the carotid pressure, and creates a rotational component that can further disrupt the triangle alignment.",
+        "answer_line": "Angle posture to non-choking side",
+        "distractors": {
+          "plausible": [
+            "Posture straight back harder",
+            "Pull trapped arm free first"
+          ],
+          "trap": [
+            "Turn face into the choking leg"
+          ]
+        }
       },
       {
         "question": "What grip should your free hand prioritize and why is grip placement on the locking ankle critical?",
-        "answer": "Grip the locking ankle where it hooks behind the opponent's knee, targeting the foot or ankle bone itself. This grip must be on the ankle rather than the shin or calf because the ankle is the fulcrum of the figure-four lock. Pulling the ankle out of the knee crook breaks the entire locking mechanism, whereas gripping the shin only creates a pushing match against the full triangle structure without disrupting the lock point."
+        "answer": "Grip the locking ankle where it hooks behind the opponent's knee, targeting the foot or ankle bone itself. This grip must be on the ankle rather than the shin or calf because the ankle is the fulcrum of the figure-four lock. Pulling the ankle out of the knee crook breaks the entire locking mechanism, whereas gripping the shin only creates a pushing match against the full triangle structure without disrupting the lock point.",
+        "answer_line": "Grip the ankle, not the shin",
+        "distractors": {
+          "plausible": [
+            "Grip the shin to push it off",
+            "Grip the opponent's top knee"
+          ],
+          "trap": [
+            "Let go and post both hands wide"
+          ]
+        }
       },
       {
         "question": "You feel the opponent starting to trap your free arm with their hands during your posture defense—what is your immediate response?",
-        "answer": "Immediately retract your free arm to your body, keeping the elbow tight to your ribs on its own side. Never reach across your centerline where both arms become vulnerable. If the opponent secures your free arm, they transition to crucifix where you have zero defensive options. Sacrifice the ankle grip temporarily if needed—losing the grip is recoverable, but losing your free arm is catastrophic."
+        "answer": "Immediately retract your free arm to your body, keeping the elbow tight to your ribs on its own side. Never reach across your centerline where both arms become vulnerable. If the opponent secures your free arm, they transition to crucifix where you have zero defensive options. Sacrifice the ankle grip temporarily if needed—losing the grip is recoverable, but losing your free arm is catastrophic.",
+        "answer_line": "Retract arm, elbow tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Reach across to break the grip",
+            "Keep pulling the ankle grip"
+          ],
+          "trap": [
+            "Extend arm to push off hip"
+          ]
+        }
       },
       {
         "question": "What is the optimal direction of force when driving shoulders back for posture recovery?",
-        "answer": "Drive the crown of your head toward the ceiling rather than pulling your head backward. This engages the stronger erector spinae and trapezius muscles rather than just the cervical extensors. Simultaneously press your shoulders into the choking leg as a wedge, creating a structural resistance point. The upward vector also naturally tucks the chin, maintaining neck protection while recovering posture."
+        "answer": "Drive the crown of your head toward the ceiling rather than pulling your head backward. This engages the stronger erector spinae and trapezius muscles rather than just the cervical extensors. Simultaneously press your shoulders into the choking leg as a wedge, creating a structural resistance point. The upward vector also naturally tucks the chin, maintaining neck protection while recovering posture.",
+        "answer_line": "Drive crown of head upward",
+        "distractors": {
+          "plausible": [
+            "Pull head straight backward",
+            "Push shoulders down and forward"
+          ],
+          "trap": [
+            "Yank head back explosively"
+          ]
+        }
       },
       {
         "question": "Your posture defense succeeds and the triangle structure loosens—what is the immediate follow-up?",
-        "answer": "Post your free hand on the opponent's top knee or hip to maintain the recovered space and prevent them from re-breaking your posture. Then begin working arm extraction by rotating the trapped shoulder inward and pressing the elbow tight to your ribs. Do not celebrate the space—immediately transition to the next escape phase because the opponent will fight to re-establish the triangle within seconds."
+        "answer": "Post your free hand on the opponent's top knee or hip to maintain the recovered space and prevent them from re-breaking your posture. Then begin working arm extraction by rotating the trapped shoulder inward and pressing the elbow tight to your ribs. Do not celebrate the space—immediately transition to the next escape phase because the opponent will fight to re-establish the triangle within seconds.",
+        "answer_line": "Post hand, extract trapped arm",
+        "distractors": {
+          "plausible": [
+            "Pause and reset breathing",
+            "Immediately stand to escape"
+          ],
+          "trap": [
+            "Release ankle grip to celebrate"
+          ]
+        }
       },
       {
         "question": "How do you manage breathing and energy expenditure during posture defense from rear triangle?",
-        "answer": "Breathe through your nose in controlled patterns using diaphragmatic breathing rather than chest breathing, which is restricted by the triangle compression. Apply steady progressive pressure rather than explosive bursts, as the opponent's legs can absorb and counter sudden force more easily than sustained structural pressure. Accept that escape will take 15-30 seconds of methodical work rather than one explosive movement. Conserve muscular energy by letting your skeleton do the structural work wherever possible."
+        "answer": "Breathe through your nose in controlled patterns using diaphragmatic breathing rather than chest breathing, which is restricted by the triangle compression. Apply steady progressive pressure rather than explosive bursts, as the opponent's legs can absorb and counter sudden force more easily than sustained structural pressure. Accept that escape will take 15-30 seconds of methodical work rather than one explosive movement. Conserve muscular energy by letting your skeleton do the structural work wherever possible.",
+        "answer_line": "Nose breathe, steady pressure",
+        "distractors": {
+          "plausible": [
+            "Explosive bursts to break free",
+            "Hold breath, brace hard"
+          ],
+          "trap": [
+            "Chest breathe, rush the escape"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Rear triangle training carries inherent choking risks due to direct carotid compression. Always tap immediately when feeling blood flow restriction, lightheadedness, or visual changes during training. Begin posture defense drilling with partners applying minimal triangle pressure and gradually increase intensity across sessions. Never attempt to fight through a fully locked choke to practice the escape, as loss of consciousness can occur within seconds of full carotid occlusion. Establish clear tap signals before drilling and ensure training partners release immediately upon feeling any tap. Monitor training partners for signs of confusion or unresponsiveness that may indicate impaired blood flow even without a verbal or physical tap signal."
+    "safety_considerations": "Rear triangle training carries inherent choking risks due to direct carotid compression. Always tap immediately when feeling blood flow restriction, lightheadedness, or visual changes during training. Begin posture defense drilling with partners applying minimal triangle pressure and gradually increase intensity across sessions. Never attempt to fight through a fully locked choke to practice the escape, as loss of consciousness can occur within seconds of full carotid occlusion. Establish clear tap signals before drilling and ensure training partners release immediately upon feeling any tap. Monitor training partners for signs of confusion or unresponsiveness that may indicate impaired blood flow even without a verbal or physical tap signal.",
+    "clips": [
+      {
+        "id": "_bfIvH9wB8Y",
+        "title": "Triangle defense: posture",
+        "by": "P3 Martial Arts",
+        "vertical": false,
+        "channel": "P3 Martial Arts",
+        "duration": 112,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Triangle choke posture up escape",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Posture Defense from Rear Triangle Defender",
@@ -370,23 +491,73 @@
     "flashcards": [
       {
         "question": "What is your immediate response when you feel the opponent gripping your locking ankle from inside the rear triangle?",
-        "answer": "Immediately squeeze your knees together to increase triangle compression and use your free hand to pull the opponent's head forward, re-breaking their posture. Simultaneously, fight to keep your locking ankle deep behind your knee by curling your toes and pressing the ankle into the knee crook. The ankle grip is the single most dangerous threat to the triangle's integrity and must be addressed before the opponent generates any leverage on it."
+        "answer": "Immediately squeeze your knees together to increase triangle compression and use your free hand to pull the opponent's head forward, re-breaking their posture. Simultaneously, fight to keep your locking ankle deep behind your knee by curling your toes and pressing the ankle into the knee crook. The ankle grip is the single most dangerous threat to the triangle's integrity and must be addressed before the opponent generates any leverage on it.",
+        "answer_line": "Squeeze knees, keep ankle deep",
+        "distractors": {
+          "plausible": [
+            "Release ankle, focus on squeeze",
+            "Pull opponent's wrist away"
+          ],
+          "trap": [
+            "Loosen knees to conserve energy"
+          ]
+        }
       },
       {
         "question": "When should you consider abandoning the rear triangle and transitioning to standard back control?",
-        "answer": "Transition to standard back control when the opponent has recovered significant posture, your locking ankle has been partially stripped, and the triangle compression is no longer threatening a finish. Recognizing this tipping point and transitioning proactively preserves your dominant back position. Clinging to a deteriorating triangle risks losing all control if the opponent completes their posture defense and immediately chains into back control escapes."
+        "answer": "Transition to standard back control when the opponent has recovered significant posture, your locking ankle has been partially stripped, and the triangle compression is no longer threatening a finish. Recognizing this tipping point and transitioning proactively preserves your dominant back position. Clinging to a deteriorating triangle risks losing all control if the opponent completes their posture defense and immediately chains into back control escapes.",
+        "answer_line": "Switch to back control early",
+        "distractors": {
+          "plausible": [
+            "Hold triangle until it finishes",
+            "Wait for a full ankle strip"
+          ],
+          "trap": [
+            "Cling to triangle, chase finish"
+          ]
+        }
       },
       {
         "question": "How do you create a crucifix opportunity from the opponent's posture defense attempt?",
-        "answer": "Watch for the opponent reaching their free arm across their centerline to grip your locking ankle. When this arm extends away from their body, capture it with your hands and secure it with an overhook or by threading it between your legs. The key timing window is when the opponent commits their free arm to the ankle grip, as retraction becomes difficult once they are pulling on the ankle. Maintain triangle compression during the arm capture to prevent escape."
+        "answer": "Watch for the opponent reaching their free arm across their centerline to grip your locking ankle. When this arm extends away from their body, capture it with your hands and secure it with an overhook or by threading it between your legs. The key timing window is when the opponent commits their free arm to the ankle grip, as retraction becomes difficult once they are pulling on the ankle. Maintain triangle compression during the arm capture to prevent escape.",
+        "answer_line": "Capture the free arm reaching out",
+        "distractors": {
+          "plausible": [
+            "Wait for both arms to trap",
+            "Grab the ankle grip hand only"
+          ],
+          "trap": [
+            "Release triangle to chase arm"
+          ]
+        }
       },
       {
         "question": "What hip adjustment maximizes your triangle's resistance to the opponent's posture recovery?",
-        "answer": "Angle your hips aggressively toward the trapped arm side, creating a diagonal compression vector across the opponent's neck rather than a horizontal one. This hip angle forces the opponent to fight not just upward against the compression but also laterally against the angled force, approximately doubling the structural resistance they must overcome. Combined with pulling the opponent's head toward the non-choking side, this creates a spiraling pressure that posture recovery alone cannot address."
+        "answer": "Angle your hips aggressively toward the trapped arm side, creating a diagonal compression vector across the opponent's neck rather than a horizontal one. This hip angle forces the opponent to fight not just upward against the compression but also laterally against the angled force, approximately doubling the structural resistance they must overcome. Combined with pulling the opponent's head toward the non-choking side, this creates a spiraling pressure that posture recovery alone cannot address.",
+        "answer_line": "Angle hips toward trapped arm",
+        "distractors": {
+          "plausible": [
+            "Angle hips away from trapped arm",
+            "Square hips flat for stability"
+          ],
+          "trap": [
+            "Open hips to relieve compression"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving their shoulders back with sustained pressure—how do you differentiate between a posture defense you can counter and one requiring positional transition?",
-        "answer": "Assess three indicators: first, whether your locking ankle is still secured behind your knee (if stripped, transition immediately); second, whether your knees can still compress around the opponent's neck and trapped arm (if space has opened, the triangle is compromised); third, whether you can still pull the opponent's head forward with your hands (if your pulling force is insufficient, they have recovered too much posture). If two or more indicators are negative, transition to back control rather than fighting a lost triangle."
+        "answer": "Assess three indicators: first, whether your locking ankle is still secured behind your knee (if stripped, transition immediately); second, whether your knees can still compress around the opponent's neck and trapped arm (if space has opened, the triangle is compromised); third, whether you can still pull the opponent's head forward with your hands (if your pulling force is insufficient, they have recovered too much posture). If two or more indicators are negative, transition to back control rather than fighting a lost triangle.",
+        "answer_line": "Assess ankle, squeeze, pull force",
+        "distractors": {
+          "plausible": [
+            "Judge by opponent's effort alone",
+            "Transition at first sign of strain"
+          ],
+          "trap": [
+            "Keep fighting until fully stripped"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -409,6 +580,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-resistance application of defensive counters",
         "description": "Start in rear triangle with partner attempting escape. Apply all counter-techniques against full resistance while tracking maintenance rate across rounds. Identify which posture defense variants give you the most difficulty and develop targeted counter-strategies for each."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-lMabjvtaLk",
+        "title": "Entries into the rear triangle back position",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 252,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BLouv3W29lg",
+        "title": "The Python back triangle system",
+        "by": "Mint Flow Jiu-Jitsu",
+        "vertical": false,
+        "channel": "BJJ BLACK BELT⚫️MINT FLOW JIU-JITSU ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-lMJHL8SXlA",
+        "title": "Back triangle choke",
+        "by": "Dr. Deng",
+        "vertical": false,
+        "channel": "Dr. Deng",
+        "duration": 23,
+        "verified": "2026-07-15"
       }
     ]
   }

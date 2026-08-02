@@ -132,6 +132,54 @@ description: "Defend against the Re-pull Half Guard from Dogfight. Learn to capi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Re-pull Half Guard from Dogfight (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Denying the half guard underhook from the top",
+      "description": "Re-pull Half Guard from Dogfight (Defender) film study: Denying the half guard underhook from the top, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Slice Pass vs Dog Fight Half Guard",
+      "description": "Re-pull Half Guard from Dogfight (Defender) film study: Knee Slice Pass vs Dog Fight Half Guard, taught by Dante Leon.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wWD_Ofjz0ZI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wWD_Ofjz0ZI",
+      "url": "https://www.youtube.com/watch?v=wWD_Ofjz0ZI",
+      "creator": { "@type": "Person", "name": "Dante Leon" },
+      "duration": "PT272S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing the Dog Fight with an Elbow Post",
+      "description": "Re-pull Half Guard from Dogfight (Defender) film study: Passing the Dog Fight with an Elbow Post, taught by JT Torres.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b4T_3UW9TVc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b4T_3UW9TVc",
+      "url": "https://www.youtube.com/watch?v=b4T_3UW9TVc",
+      "creator": { "@type": "Person", "name": "JT Torres" },
+      "duration": "PT235S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +189,42 @@ As the top player in dogfight, your opponent's attempt to re-pull half guard rep
 **Opponent's Starting Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Re-pull Half Guard from Dogfight (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Denying the half guard underhook from the top</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wWD_Ofjz0ZI)
+
+<p class="clip-credit"><strong>Knee Slice Pass vs Dog Fight Half Guard</strong> — taught by Dante Leon · 4:32 · <a href="https://www.youtube.com/watch?v=wWD_Ofjz0ZI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=b4T_3UW9TVc)
+
+<p class="clip-credit"><strong>Passing the Dog Fight with an Elbow Post</strong> — taught by JT Torres · 3:55 · <a href="https://www.youtube.com/watch?v=b4T_3UW9TVc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

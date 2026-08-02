@@ -13,22 +13,34 @@
   "from_position": "Armbar Control/Top",
   "outcomes": [
     {
-      "to": "Belly Down Armbar",
-      "probability": 50,
+      "to": "Belly Down Armbar from Armbar Control",
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Belly Down Armbar Transition is a follow-the-roll finish where the attacker chases an opponent escaping the supine armbar by turning to their stomach, maintaining arm isolation to complete the submission from a gravity-assisted prone position.",
   "overview": "The belly down armbar transition is executed from armbar control when the opponent attempts to escape by rolling to their stomach. This is one of the most common armbar defense reactions, particularly at intermediate and advanced levels where practitioners instinctively turn away from the hyperextension threat. Rather than releasing the submission, a skilled attacker follows the roll, maintaining arm isolation throughout the transition and converting the escape attempt into a prone finishing position where the opponent has drastically fewer defensive options.\n\nThe strategic value of this transition extends beyond the immediate finish. When opponents know you can follow their roll to belly-down, they become hesitant to turn, which paradoxically makes the standard supine armbar easier to complete. This creates a genuine dilemma: the defender must choose between staying on their back and defending the standard armbar or rolling belly-down and facing this transition. Neither option is safe when the attacker is proficient in both finishes, and this is precisely the kind of offensive fork that collapses defensive decision-making.\n\nThe belly-down position offers distinct mechanical advantages for the attacker. Gravity assists the extension force as the attacker drives hips toward the mat while pulling the arm upward. The opponent cannot use their legs for defensive leverage when prone, and their ability to create angles or stack is severely compromised. However, the transition itself is the vulnerable moment where technical errors most commonly occur, making precise timing, continuous grip pressure, and efficient leg repositioning essential skills for reliable execution.",
   "conditions": [
@@ -232,38 +244,147 @@
     "flashcards": [
       {
         "question": "When is the optimal moment to initiate the belly down armbar transition?",
-        "answer": "The optimal moment is the instant you feel the opponent's hip bridge and shoulder rotation beginning, before their full body commits to the roll. Anticipating the roll allows you to follow smoothly rather than chase. If you wait until they are already halfway through the rotation, you will likely lose grip contact or arrive at the belly-down position with compromised control."
+        "answer": "The optimal moment is the instant you feel the opponent's hip bridge and shoulder rotation beginning, before their full body commits to the roll. Anticipating the roll allows you to follow smoothly rather than chase. If you wait until they are already halfway through the rotation, you will likely lose grip contact or arrive at the belly-down position with compromised control.",
+        "answer_line": "At first bridge and shoulder turn",
+        "distractors": {
+          "plausible": [
+            "Once they're halfway rotated",
+            "After their hips fully commit"
+          ],
+          "trap": [
+            "Wait until the roll finishes"
+          ]
+        }
       },
       {
         "question": "What grip configuration must be maintained throughout the entire belly-down transition?",
-        "answer": "A two-handed wrist control where both hands lock around the opponent's wrist with thumbs wrapping the bone. For maximum security, use a figure-four grip where one hand controls the wrist and the other grips your own wrist to reinforce. The grip must never be released or loosened during any phase of the transition, as even momentary slack allows arm extraction."
+        "answer": "A two-handed wrist control where both hands lock around the opponent's wrist with thumbs wrapping the bone. For maximum security, use a figure-four grip where one hand controls the wrist and the other grips your own wrist to reinforce. The grip must never be released or loosened during any phase of the transition, as even momentary slack allows arm extraction.",
+        "answer_line": "Two-hand wrist grip, never release",
+        "distractors": {
+          "plausible": [
+            "Single hand grip, thumb wrapped",
+            "Switch hands mid-transition"
+          ],
+          "trap": [
+            "Loosen grip to reposition hands"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement that enables you to follow the opponent's roll successfully?",
-        "answer": "Your hips must rotate in the same direction and at the same speed as the opponent's shoulder. Think of your hip as attached to their shoulder by a short rope. As they turn, you pivot on your base hip to track their rotation, maintaining constant contact pressure. The hip leads the transition while your upper body follows, keeping the entire kinetic chain connected through the hip-to-shoulder point."
+        "answer": "Your hips must rotate in the same direction and at the same speed as the opponent's shoulder. Think of your hip as attached to their shoulder by a short rope. As they turn, you pivot on your base hip to track their rotation, maintaining constant contact pressure. The hip leads the transition while your upper body follows, keeping the entire kinetic chain connected through the hip-to-shoulder point.",
+        "answer_line": "Hips rotate with their shoulder",
+        "distractors": {
+          "plausible": [
+            "Shoulders lead, hips follow",
+            "Match speed, opposite direction"
+          ],
+          "trap": [
+            "Release hip pressure to reposition"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together during the transition to prevent arm extension - how do you respond?",
-        "answer": "Wedge your knee between their forearms at the clasped point and use a prying motion to separate their hands. If the clasp is too strong, switch to a wrist lock threat by rotating the trapped wrist laterally, which forces them to release the defensive clasp to protect the smaller joint. You can also wait in the belly-down position with heavy pressure until fatigue forces them to release."
+        "answer": "Wedge your knee between their forearms at the clasped point and use a prying motion to separate their hands. If the clasp is too strong, switch to a wrist lock threat by rotating the trapped wrist laterally, which forces them to release the defensive clasp to protect the smaller joint. You can also wait in the belly-down position with heavy pressure until fatigue forces them to release.",
+        "answer_line": "Knee wedge, pry the clasp apart",
+        "distractors": {
+          "plausible": [
+            "Pull the wrist straight out",
+            "Grip break with a two-hand pull"
+          ],
+          "trap": [
+            "Release grip to reset position"
+          ]
+        }
       },
       {
         "question": "What direction should force be applied when finishing the belly-down armbar?",
-        "answer": "Force should be directed in two simultaneous vectors: your hips drive downward toward the mat while your hands pull the wrist toward your chest. The mat provides the backstop against the opponent's body, and gravity assists both vectors. Your back arches slightly to increase the distance between your hips and hands, maximizing the lever arm across the elbow joint."
+        "answer": "Force should be directed in two simultaneous vectors: your hips drive downward toward the mat while your hands pull the wrist toward your chest. The mat provides the backstop against the opponent's body, and gravity assists both vectors. Your back arches slightly to increase the distance between your hips and hands, maximizing the lever arm across the elbow joint.",
+        "answer_line": "Hips down, hands pull to chest",
+        "distractors": {
+          "plausible": [
+            "Pull straight up and back",
+            "Push hands away from chest"
+          ],
+          "trap": [
+            "Lean back without hip pressure"
+          ]
+        }
       },
       {
         "question": "What happens if you lose leg control during the belly-down transition?",
-        "answer": "Without knee pinch and leg control, the opponent can rotate the trapped arm, changing the elbow angle and potentially extracting it from the hyperextension plane entirely. They can also use the freed space to hip escape, turn back to their side, or begin recovering guard. If leg control is lost mid-transition, immediately re-establish knee pinch before attempting to finish, or transition to a different control position rather than forcing a compromised submission."
+        "answer": "Without knee pinch and leg control, the opponent can rotate the trapped arm, changing the elbow angle and potentially extracting it from the hyperextension plane entirely. They can also use the freed space to hip escape, turn back to their side, or begin recovering guard. If leg control is lost mid-transition, immediately re-establish knee pinch before attempting to finish, or transition to a different control position rather than forcing a compromised submission.",
+        "answer_line": "They can rotate the arm and escape",
+        "distractors": {
+          "plausible": [
+            "Nothing changes, finish still works",
+            "They tap immediately from pain"
+          ],
+          "trap": [
+            "Force the finish anyway"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand and begins to push up during the transition - what adjustment do you make?",
-        "answer": "Drive your weight through their shoulder to collapse the posted arm. Use your chest and hip pressure to flatten them back to the mat. If they maintain the post, hook their posting arm with your leg to remove the base point. Alternatively, shift your weight further toward their head, making the post less effective as a structural support by changing the angle of force they must resist."
+        "answer": "Drive your weight through their shoulder to collapse the posted arm. Use your chest and hip pressure to flatten them back to the mat. If they maintain the post, hook their posting arm with your leg to remove the base point. Alternatively, shift your weight further toward their head, making the post less effective as a structural support by changing the angle of force they must resist.",
+        "answer_line": "Drive weight through the shoulder",
+        "distractors": {
+          "plausible": [
+            "Grab the free hand to control it",
+            "Push against the post directly"
+          ],
+          "trap": [
+            "Release pressure to reset angle"
+          ]
+        }
       },
       {
         "question": "If the belly-down finish is blocked because the opponent keeps their arm bent, what chain attacks are available?",
-        "answer": "From the belly-down position with a bent arm, you can transition to a kimura by adjusting your grip to a figure-four on their bent arm and torquing the shoulder. You can also release to top turtle position and attack with a back take, clock choke, or front headlock series. If you still have the wrist, a wrist lock becomes available by rotating the hand against the joint while maintaining belly-down pressure."
+        "answer": "From the belly-down position with a bent arm, you can transition to a kimura by adjusting your grip to a figure-four on their bent arm and torquing the shoulder. You can also release to top turtle position and attack with a back take, clock choke, or front headlock series. If you still have the wrist, a wrist lock becomes available by rotating the hand against the joint while maintaining belly-down pressure.",
+        "answer_line": "Switch to kimura or turtle attacks",
+        "distractors": {
+          "plausible": [
+            "Force the arm straight harder",
+            "Abandon position, reset to guard"
+          ],
+          "trap": [
+            "Release the wrist to re-grip"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The belly down armbar applies extreme leverage to the elbow joint from a position where the opponent has severely limited ability to signal a tap. Always watch for verbal taps, body slaps with the free hand, and foot stomping on the mat. Apply finishing pressure gradually during training and never crank the arm explosively. The prone position can compress the opponent's neck and face if bodyweight is misapplied to the head area. Release immediately upon any tap signal. In competition, the referee may not have clear sight lines when the opponent is face-down, so prioritize controlled application over speed."
+    "safety_considerations": "The belly down armbar applies extreme leverage to the elbow joint from a position where the opponent has severely limited ability to signal a tap. Always watch for verbal taps, body slaps with the free hand, and foot stomping on the mat. Apply finishing pressure gradually during training and never crank the arm explosively. The prone position can compress the opponent's neck and face if bodyweight is misapplied to the head area. Release immediately upon any tap signal. In competition, the referee may not have clear sight lines when the opponent is face-down, so prioritize controlled application over speed.",
+    "clips": [
+      {
+        "id": "134Ibutiqxg",
+        "title": "Overhook attacks: triangle and belly down armbar",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZKmdEwOYI28",
+        "title": "Belly down armbar from mount",
+        "by": "One Jiu-Jitsu",
+        "vertical": false,
+        "channel": "ONE JIU-JITSU",
+        "duration": 157,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1uhVD0tAQYc",
+        "title": "Belly down armbar from closed guard",
+        "by": "Hellfish MMA",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 152,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Belly Down Armbar Transition Defender",
@@ -349,23 +470,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that the attacker is following your roll to belly-down?",
-        "answer": "The earliest cues are the attacker's grip tightening on your wrist just as you initiate your roll and their legs loosening from across your face and chest. If you feel their hips tracking your shoulder instead of separating as you turn, they have committed to following. These cues occur within the first half-second of the roll and represent your best defensive window."
+        "answer": "The earliest cues are the attacker's grip tightening on your wrist just as you initiate your roll and their legs loosening from across your face and chest. If you feel their hips tracking your shoulder instead of separating as you turn, they have committed to following. These cues occur within the first half-second of the roll and represent your best defensive window.",
+        "answer_line": "Grip tightens, leg control loosens",
+        "distractors": {
+          "plausible": [
+            "Legs tighten across your chest",
+            "They release the wrist grip"
+          ],
+          "trap": [
+            "Continue rolling with momentum"
+          ]
+        }
       },
       {
         "question": "When is the best defensive window during the belly-down armbar transition?",
-        "answer": "The best window is during the mid-transition moment when the attacker is shifting from supine to prone. During this phase, their leg control is temporarily reduced because they must reposition their legs from the standard armbar configuration to the belly-down clamp. This window lasts approximately one to two seconds and represents the point where the attacker has the least structural control over your body."
+        "answer": "The best window is during the mid-transition moment when the attacker is shifting from supine to prone. During this phase, their leg control is temporarily reduced because they must reposition their legs from the standard armbar configuration to the belly-down clamp. This window lasts approximately one to two seconds and represents the point where the attacker has the least structural control over your body.",
+        "answer_line": "During the supine-to-prone shift",
+        "distractors": {
+          "plausible": [
+            "Right when the roll begins",
+            "After they reach belly-down"
+          ],
+          "trap": [
+            "Wait until fully belly-down"
+          ]
+        }
       },
       {
         "question": "What is the most critical hand position to prevent the belly-down finish?",
-        "answer": "Clasped hands with fingers interlocked or one hand gripping the opposite wrist, with the trapped elbow bent to maximum flexion. This two-handed defensive structure prevents the attacker from straightening your arm, which is the prerequisite for the belly-down finish. The clasp must be tight against your chest or shoulder, not extended away from your body where the attacker can more easily break it."
+        "answer": "Clasped hands with fingers interlocked or one hand gripping the opposite wrist, with the trapped elbow bent to maximum flexion. This two-handed defensive structure prevents the attacker from straightening your arm, which is the prerequisite for the belly-down finish. The clasp must be tight against your chest or shoulder, not extended away from your body where the attacker can more easily break it.",
+        "answer_line": "Clasp hands, bend elbow to chest",
+        "distractors": {
+          "plausible": [
+            "Straight arm, push them away",
+            "One-hand grip, arm extended"
+          ],
+          "trap": [
+            "Extend the clasp away from body"
+          ]
+        }
       },
       {
         "question": "Why is turning into the attacker sometimes better than continuing the belly-down roll?",
-        "answer": "Turning into the attacker reverses the transition and returns you to the standard supine armbar position where you have access to established defensive techniques like the hitchhiker escape, stack defense, and hip escape to guard. The belly-down position has fewer proven escape routes and the attacker has gravity working in their favor. Returning to supine gives you more options and better-understood defensive mechanics."
+        "answer": "Turning into the attacker reverses the transition and returns you to the standard supine armbar position where you have access to established defensive techniques like the hitchhiker escape, stack defense, and hip escape to guard. The belly-down position has fewer proven escape routes and the attacker has gravity working in their favor. Returning to supine gives you more options and better-understood defensive mechanics.",
+        "answer_line": "Turn in to reach supine defenses",
+        "distractors": {
+          "plausible": [
+            "Keep rolling to escape faster",
+            "Continue belly-down, fight grip"
+          ],
+          "trap": [
+            "Push away and stand up"
+          ]
+        }
       },
       {
         "question": "How should you signal a tap when caught belly-down and unable to use your trapped hand?",
-        "answer": "Use your free hand to tap the attacker's body, leg, or the mat repeatedly and clearly. Verbal taps by saying 'tap' loudly are essential when your free hand is also compromised. You can also stomp your feet on the mat. In training, always have multiple tap signals ready and communicate them to your training partner before beginning. Never rely solely on the trapped hand for signaling."
+        "answer": "Use your free hand to tap the attacker's body, leg, or the mat repeatedly and clearly. Verbal taps by saying 'tap' loudly are essential when your free hand is also compromised. You can also stomp your feet on the mat. In training, always have multiple tap signals ready and communicate them to your training partner before beginning. Never rely solely on the trapped hand for signaling.",
+        "answer_line": "Tap free hand or shout 'tap'",
+        "distractors": {
+          "plausible": [
+            "Tap using the trapped hand",
+            "Nod your head to signal"
+          ],
+          "trap": [
+            "Stay silent and muscle out"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -388,6 +559,35 @@
         "phase": "Phase 4: Live Defensive Rounds",
         "focus": "Full-speed application in positional sparring",
         "description": "Begin rounds in standard armbar control bottom. Defend everything the top player attempts, including the belly-down transition. Track your escape rate over 10-round sets. Goal is to escape or survive 60% of belly-down attempts through proper technique rather than strength."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Armbar escape when they have the arm extended",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "E3mDnJiv28Y",
+        "title": "Armbar escape: spin under when stacked",
+        "by": "OMJJJ",
+        "vertical": false,
+        "channel": "OMJJJ",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "04LT-fIPlgw",
+        "title": "Armbar defense: stack and hitchhiker escape",
+        "by": "Gladiators Academy",
+        "vertical": false,
+        "channel": "Gladiators Academy of Youngsville",
+        "duration": 120,
+        "verified": "2026-07-15"
       }
     ]
   }

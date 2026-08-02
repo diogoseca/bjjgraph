@@ -34,6 +34,43 @@ description: "Master guard recovery from Squid Guard in BJJ. Complete guide cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Squid Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Getting back to closed guard from open guard",
+      "description": "Guard Recovery from Squid Guard film study: Getting back to closed guard from open guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8Ue1bEeU3B4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8Ue1bEeU3B4",
+      "url": "https://www.youtube.com/watch?v=8Ue1bEeU3B4",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Late stage guard recovery to lasso",
+      "description": "Guard Recovery from Squid Guard film study: Late stage guard recovery to lasso, taught by Chelsea Leah.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1ZeXvHBibi8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1ZeXvHBibi8",
+      "url": "https://www.youtube.com/watch?v=1ZeXvHBibi8",
+      "creator": { "@type": "Person", "name": "Chelsea Leah" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,6 +104,34 @@ The critical challenge unique to Squid Guard recovery is the asymmetric leg posi
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Squid Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8Ue1bEeU3B4)
+
+<p class="clip-credit"><strong>Getting back to closed guard from open guard</strong> — taught by Jon Thomas · 0:50 · <a href="https://www.youtube.com/watch?v=8Ue1bEeU3B4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1ZeXvHBibi8)
+
+<p class="clip-credit"><strong>Late stage guard recovery to lasso</strong> — taught by Chelsea Leah · 2:27 · <a href="https://www.youtube.com/watch?v=1ZeXvHBibi8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

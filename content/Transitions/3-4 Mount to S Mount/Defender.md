@@ -148,6 +148,43 @@ description: "Essential defensive guide for preventing the 3-4 Mount to S Mount 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "3-4 Mount to S Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping S-mount to half guard",
+      "description": "3-4 Mount to S Mount (Defender) film study: Escaping S-mount to half guard, taught by Paul Schreiner.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TOQ9I4gYOaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TOQ9I4gYOaU",
+      "url": "https://www.youtube.com/watch?v=TOQ9I4gYOaU",
+      "creator": { "@type": "Person", "name": "Paul Schreiner" },
+      "duration": "PT295S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 ways to escape S-mount",
+      "description": "3-4 Mount to S Mount (Defender) film study: 3 ways to escape S-mount, taught by Kuleana Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4trL8JTMeJM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4trL8JTMeJM",
+      "url": "https://www.youtube.com/watch?v=4trL8JTMeJM",
+      "creator": { "@type": "Person", "name": "Kuleana Jiu-Jitsu" },
+      "duration": "PT277S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the 3-4 Mount to S Mount transition requires recognizing the attack be
 **Opponent's Starting Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 3-4 Mount to S Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TOQ9I4gYOaU)
+
+<p class="clip-credit"><strong>Escaping S-mount to half guard</strong> — taught by Paul Schreiner · 4:55 · <a href="https://www.youtube.com/watch?v=TOQ9I4gYOaU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4trL8JTMeJM)
+
+<p class="clip-credit"><strong>3 ways to escape S-mount</strong> — taught by Kuleana Jiu-Jitsu · 4:37 · <a href="https://www.youtube.com/watch?v=4trL8JTMeJM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

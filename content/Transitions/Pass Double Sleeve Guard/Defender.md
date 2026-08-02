@@ -140,6 +140,43 @@ description: "Complete defensive guide for retaining Double Sleeve Guard against
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Double Sleeve Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sleeve Gripping Tip to Improve Your Guard",
+      "description": "Pass Double Sleeve Guard (Defender) film study: Sleeve Gripping Tip to Improve Your Guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aSl-rfbmfyM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aSl-rfbmfyM",
+      "url": "https://www.youtube.com/watch?v=aSl-rfbmfyM",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT217S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Most Common Guard Retention Problem",
+      "description": "Pass Double Sleeve Guard (Defender) film study: Most Common Guard Retention Problem, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_K4ydd1ofgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_K4ydd1ofgI",
+      "url": "https://www.youtube.com/watch?v=_K4ydd1ofgI",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT220S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender in Double Sleeve Guard, your objective is to maintain your bilat
 **Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Double Sleeve Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aSl-rfbmfyM)
+
+<p class="clip-credit"><strong>Sleeve Gripping Tip to Improve Your Guard</strong> — taught by Jon Thomas · 3:37 · <a href="https://www.youtube.com/watch?v=aSl-rfbmfyM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_K4ydd1ofgI)
+
+<p class="clip-credit"><strong>Most Common Guard Retention Problem</strong> — taught by Jon Thomas · 3:40 · <a href="https://www.youtube.com/watch?v=_K4ydd1ofgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -140,6 +140,43 @@ description: "Learn to maintain Reverse Mount against escape attempts. Strategie
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Reverse Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three ways to maintain mount",
+      "description": "Escape Reverse Mount (Defender) film study: Three ways to maintain mount, taught by Exodus Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d-4IYhVS7sc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d-4IYhVS7sc",
+      "url": "https://www.youtube.com/watch?v=d-4IYhVS7sc",
+      "creator": { "@type": "Person", "name": "Exodus Jiu Jitsu coach" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Holding the middle mount",
+      "description": "Escape Reverse Mount (Defender) film study: Holding the middle mount, taught by SBG coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RTMJDbZnFO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RTMJDbZnFO0",
+      "url": "https://www.youtube.com/watch?v=RTMJDbZnFO0",
+      "creator": { "@type": "Person", "name": "SBG coach" },
+      "duration": "PT154S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player in reverse mount facing an escape attempt, your role shifts fr
 **Opponent's Starting Position**: [[Positions/Reverse Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Reverse Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d-4IYhVS7sc)
+
+<p class="clip-credit"><strong>Three ways to maintain mount</strong> — taught by Exodus Jiu Jitsu coach · 1:46 · <a href="https://www.youtube.com/watch?v=d-4IYhVS7sc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RTMJDbZnFO0)
+
+<p class="clip-credit"><strong>Holding the middle mount</strong> — taught by SBG coach · 2:34 · <a href="https://www.youtube.com/watch?v=RTMJDbZnFO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

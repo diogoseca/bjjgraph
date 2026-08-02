@@ -34,6 +34,54 @@ description: "Learn Counter Ashi Entry in BJJ. Establish your own leg entangleme
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Ashi Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modern leglock counters",
+      "description": "Counter Ashi Entry film study: Modern leglock counters, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SyP61TJ7ckI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SyP61TJ7ckI",
+      "url": "https://www.youtube.com/watch?v=SyP61TJ7ckI",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Five leglock counters to ashi garami",
+      "description": "Counter Ashi Entry film study: Five leglock counters to ashi garami, taught by BJJ Black Belt Dad.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QMgsMSTRSBI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QMgsMSTRSBI",
+      "url": "https://www.youtube.com/watch?v=QMgsMSTRSBI",
+      "creator": { "@type": "Person", "name": "BJJ Black Belt Dad" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg defense from ashi garami",
+      "description": "Counter Ashi Entry film study: Leg defense from ashi garami, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
+      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The technique exploits the inherent vulnerability in leg entanglement exchanges�
 Strategically, Counter Ashi Entry represents the counter-attacking philosophy within the leg lock game. Rather than purely defensive extraction, it embraces the bilateral nature of leg entanglements and seeks to gain superior position within the exchange. Success requires understanding positional hierarchy, recognizing optimal entry timing, and maintaining awareness of both offensive opportunities and defensive vulnerabilities throughout the transition.
 
 **From Position**: [[Positions/Ashi Garami]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 44%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Ashi Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SyP61TJ7ckI)
+
+<p class="clip-credit"><strong>Modern leglock counters</strong> — taught by Craig Jones · 1:26 · <a href="https://www.youtube.com/watch?v=SyP61TJ7ckI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
+
+<p class="clip-credit"><strong>Five leglock counters to ashi garami</strong> — taught by BJJ Black Belt Dad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L417yCl_-dc)
+
+<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -241,7 +325,7 @@ Counter Ashi Entry represents the counter-attacking layer of the leg lock system
 
 - [[Transitions/Ashi Garami Escape]] - Alternative defensive option from same starting position
 
-- [[Transitions/Heel Hook]] - Primary submission threat during bilateral exchange
+- [[Submissions/Heel Hook]] - Primary submission threat during bilateral exchange
 
 - [[Submissions/Straight Ankle Lock]] - Immediate follow-up submission from established Outside Ashi
 

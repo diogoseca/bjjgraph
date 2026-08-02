@@ -176,6 +176,54 @@ description: "Learn to attack with the Ezekiel Choke from mount. Step-by-step sl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ezekiel Choke from Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ezekiel Choke from Mount",
+      "description": "Ezekiel Choke from Mount (Attacker) film study: Ezekiel Choke from Mount, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/omNMiDmWt5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/omNMiDmWt5w",
+      "url": "https://www.youtube.com/watch?v=omNMiDmWt5w",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sneaky Easy Ezekiel Choke",
+      "description": "Ezekiel Choke from Mount (Attacker) film study: Sneaky Easy Ezekiel Choke, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/73ukcOj5s74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/73ukcOj5s74",
+      "url": "https://www.youtube.com/watch?v=73ukcOj5s74",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Setting Up the Ezekiel Choke from Mount",
+      "description": "Ezekiel Choke from Mount (Attacker) film study: Setting Up the Ezekiel Choke from Mount, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w-KCxVQFMOU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w-KCxVQFMOU",
+      "url": "https://www.youtube.com/watch?v=w-KCxVQFMOU",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT221S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the Ezekiel Choke from mount combines the dominant position's cru
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ezekiel Choke from Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=omNMiDmWt5w)
+
+<p class="clip-credit"><strong>Ezekiel Choke from Mount</strong> — taught by Procel BJJ · 1:50 · <a href="https://www.youtube.com/watch?v=omNMiDmWt5w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=73ukcOj5s74)
+
+<p class="clip-credit"><strong>Sneaky Easy Ezekiel Choke</strong> — taught by Johnny Jitsu · 0:59 · <a href="https://www.youtube.com/watch?v=73ukcOj5s74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w-KCxVQFMOU)
+
+<p class="clip-credit"><strong>Setting Up the Ezekiel Choke from Mount</strong> — taught by Roger Gracie · 3:41 · <a href="https://www.youtube.com/watch?v=w-KCxVQFMOU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

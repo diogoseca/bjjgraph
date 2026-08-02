@@ -164,6 +164,54 @@ description: "Master posture breaking in BJJ. Learn systematic methods to disrup
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Posture and posture breaking from the guard",
+      "description": "Posture film study: Posture and posture breaking from the guard, taught by TakingItToTheMMAT.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WtnCe6LPJJ8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WtnCe6LPJJ8",
+      "url": "https://www.youtube.com/watch?v=WtnCe6LPJJ8",
+      "creator": { "@type": "Person", "name": "TakingItToTheMMAT" },
+      "duration": "PT479S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The posture concept that stops you getting crushed",
+      "description": "Posture film study: The posture concept that stops you getting crushed, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/onODo5EQkrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/onODo5EQkrk",
+      "url": "https://www.youtube.com/watch?v=onODo5EQkrk",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT359S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Common posture mistake made by guard players",
+      "description": "Posture film study: Common posture mistake made by guard players, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jx120fTdOfA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jx120fTdOfA",
+      "url": "https://www.youtube.com/watch?v=jx120fTdOfA",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Posture?
@@ -173,6 +221,42 @@ description: "Master posture breaking in BJJ. Learn systematic methods to disrup
 Posture represents the fundamental skill of disrupting an opponent's spinal alignment and structural stability from guard positions to create offensive opportunities and prevent defensive capability. Unlike specific techniques, posture breaking is a comprehensive conceptual framework that applies across all guard variations and directly determines success in bottom positions. This concept encompasses the biomechanical understanding that an opponent with broken posture cannot effectively generate passing pressure, defend submissions, or maintain base, making posture breaking the primary offensive priority from guard. Posture breaking serves as both an offensive prerequisite that enables sweeps and submissions, and a defensive mechanism that prevents guard passing by eliminating opponent's pressure capability. The ability to consistently break and maintain broken posture often determines success from guard positions, making it one of the most essential conceptual elements in bottom game development.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WtnCe6LPJJ8)
+
+<p class="clip-credit"><strong>Posture and posture breaking from the guard</strong> — taught by TakingItToTheMMAT · 7:59 · <a href="https://www.youtube.com/watch?v=WtnCe6LPJJ8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=onODo5EQkrk)
+
+<p class="clip-credit"><strong>The posture concept that stops you getting crushed</strong> — taught by Brandon McCaghren · 5:59 · <a href="https://www.youtube.com/watch?v=onODo5EQkrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jx120fTdOfA)
+
+<p class="clip-credit"><strong>Common posture mistake made by guard players</strong> — taught by Rickson Gracie · 0:58 · <a href="https://www.youtube.com/watch?v=jx120fTdOfA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

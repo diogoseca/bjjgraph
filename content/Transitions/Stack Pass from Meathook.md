@@ -34,6 +34,43 @@ description: "Master the Stack Pass from Meathook in BJJ. Complete guide to esca
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Meathook \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping and passing the rubber guard",
+      "description": "Stack Pass from Meathook film study: Escaping and passing the rubber guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard break into stack pass",
+      "description": "Stack Pass from Meathook film study: Guard break into stack pass, taught by Einar Fri\u00f0geirs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xQIZEMLolpU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xQIZEMLolpU",
+      "url": "https://www.youtube.com/watch?v=xQIZEMLolpU",
+      "creator": { "@type": "Person", "name": "Einar Fri\u00f0geirs" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Stack passing from Meathook represents one of the more aggressive escape options
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Meathook in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+
+<p class="clip-credit"><strong>Escaping and passing the rubber guard</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xQIZEMLolpU)
+
+<p class="clip-credit"><strong>Guard break into stack pass</strong> — taught by Einar Friðgeirs · 0:21 · <a href="https://www.youtube.com/watch?v=xQIZEMLolpU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

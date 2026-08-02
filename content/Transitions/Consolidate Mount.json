@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "High Mount/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Consolidate Mount is the critical transition between achieving mount position and establishing dominant control. Too many practitioners rush to attack immediately after achieving mount, only to have their opponent escape during the chaotic moments of position change. This technique emphasizes the fundamental principle that position must be secured before submission hunting begins. The consolidation process involves controlling hip movement, eliminating frames, and advancing to higher mount variations.\n\nBy patiently consolidating first, you create a stable attacking platform while simultaneously draining your opponent's defensive resources. The sequence follows a strict progression: drop weight to pin hips, insert grapevines to neutralize lower body movement, systematically swim inside frames, isolate arms, and then incrementally walk knees toward the armpits. Each phase builds on the previous, and skipping steps invariably leads to lost position.\n\nThis methodical approach transforms a fleeting positional achievement into a suffocating dominant position where submissions become inevitable rather than hopeful. Competition data consistently shows that practitioners who spend 5-10 seconds consolidating before attacking have dramatically higher submission rates from mount than those who immediately hunt for finishes.",
   "related_content": [
     {
@@ -199,46 +211,166 @@
     "flashcards": [
       {
         "question": "Why should you drop your weight immediately after achieving mount?",
-        "answer": "Dropping weight immediately pins your opponent's hips to the mat, restricts their breathing, and prevents them from building momentum for bridges or hip escapes. This initial pressure is critical because the moment you achieve mount is when your opponent will make their most explosive escape attempt."
+        "answer": "Dropping weight immediately pins your opponent's hips to the mat, restricts their breathing, and prevents them from building momentum for bridges or hip escapes. This initial pressure is critical because the moment you achieve mount is when your opponent will make their most explosive escape attempt.",
+        "answer_line": "Pin hips, stop escape momentum",
+        "distractors": {
+          "plausible": [
+            "Set up an early submission",
+            "Establish grips first"
+          ],
+          "trap": [
+            "Posture up for space"
+          ]
+        }
       },
       {
         "question": "What is the primary purpose of grapevine hooks during mount consolidation?",
-        "answer": "Grapevine hooks neutralize your opponent's lower body by preventing hip escapes and reducing bridging power. By hooking your feet inside their thighs, you control their leg movement and make it nearly impossible for them to generate the hip motion needed for standard mount escapes."
+        "answer": "Grapevine hooks neutralize your opponent's lower body by preventing hip escapes and reducing bridging power. By hooking your feet inside their thighs, you control their leg movement and make it nearly impossible for them to generate the hip motion needed for standard mount escapes.",
+        "answer_line": "Prevent hip escapes and bridges",
+        "distractors": {
+          "plausible": [
+            "Set up a back take",
+            "Lock in for a triangle"
+          ],
+          "trap": [
+            "Free your legs to advance"
+          ]
+        }
       },
       {
         "question": "Your opponent creates a strong frame on your hips with both hands. How do you eliminate this?",
-        "answer": "Swim your arms inside their frames using elbow-to-elbow connection, then drive your elbows to the mat to pin their arms. You can also use cross-face pressure to force one arm across their body, or trap their wrist to the mat with your hand while maintaining chest pressure."
+        "answer": "Swim your arms inside their frames using elbow-to-elbow connection, then drive your elbows to the mat to pin their arms. You can also use cross-face pressure to force one arm across their body, or trap their wrist to the mat with your hand while maintaining chest pressure.",
+        "answer_line": "Swim inside, pin elbows to mat",
+        "distractors": {
+          "plausible": [
+            "Pry their wrists apart",
+            "Push frames down with hands"
+          ],
+          "trap": [
+            "Posture up and lean back"
+          ]
+        }
       },
       {
         "question": "Why is it a mistake to attempt submissions immediately after achieving mount?",
-        "answer": "Attacking too early creates openings for escape. When you posture up or shift weight for a submission, you relieve the pressure that keeps your opponent pinned. Failed attempts create scrambles where opponents often recover guard. Consolidating first ensures your attacking platform is stable and your opponent's defensive resources are depleted."
+        "answer": "Attacking too early creates openings for escape. When you posture up or shift weight for a submission, you relieve the pressure that keeps your opponent pinned. Failed attempts create scrambles where opponents often recover guard. Consolidating first ensures your attacking platform is stable and your opponent's defensive resources are depleted.",
+        "answer_line": "Early attacks relieve pressure",
+        "distractors": {
+          "plausible": [
+            "Opponent expects the attack",
+            "You risk fatigue first"
+          ],
+          "trap": [
+            "Attack fast before they adjust"
+          ]
+        }
       },
       {
         "question": "What is the correct timing and method for walking your knees to high mount?",
-        "answer": "Walk knees up incrementally only after frames are eliminated, maintaining heavy hip pressure throughout. Each knee advance should meet minimal resistance. If opponent creates space during your climb, stop and re-establish pressure before continuing. The climb should take 5-10 seconds of controlled advancement."
+        "answer": "Walk knees up incrementally only after frames are eliminated, maintaining heavy hip pressure throughout. Each knee advance should meet minimal resistance. If opponent creates space during your climb, stop and re-establish pressure before continuing. The climb should take 5-10 seconds of controlled advancement.",
+        "answer_line": "Walk knees only after frames die",
+        "distractors": {
+          "plausible": [
+            "Rush knees up immediately",
+            "Walk knees before grapevines"
+          ],
+          "trap": [
+            "Posture up to walk knees fast"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts an elbow-knee escape while you're consolidating. What is your response?",
-        "answer": "Block their hip with your knee on the escape side and increase chest pressure to prevent them from turning. If they begin creating space, immediately re-close the gap before they can insert a knee shield. Anticipate the escape direction and position your blocking knee before they commit to the movement."
+        "answer": "Block their hip with your knee on the escape side and increase chest pressure to prevent them from turning. If they begin creating space, immediately re-close the gap before they can insert a knee shield. Anticipate the escape direction and position your blocking knee before they commit to the movement.",
+        "answer_line": "Block hip with knee, add pressure",
+        "distractors": {
+          "plausible": [
+            "Grab far arm and cross-face",
+            "Sit back and reset base"
+          ],
+          "trap": [
+            "Posture up to see the escape"
+          ]
+        }
       },
       {
         "question": "When should you choose technical mount transition over high mount consolidation?",
-        "answer": "Choose technical mount when your opponent defends high mount by keeping their elbows extremely tight to their body, making it impossible to walk your knees into their armpits. Technical mount provides a different attacking angle while maintaining dominant control and opens up back take opportunities."
+        "answer": "Choose technical mount when your opponent defends high mount by keeping their elbows extremely tight to their body, making it impossible to walk your knees into their armpits. Technical mount provides a different attacking angle while maintaining dominant control and opens up back take opportunities.",
+        "answer_line": "When elbows stay tight to body",
+        "distractors": {
+          "plausible": [
+            "When opponent is exhausted",
+            "When you want a quick sub"
+          ],
+          "trap": [
+            "When they grapevine your legs"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that mount consolidation is complete and you can begin attacking?",
-        "answer": "Mount is consolidated when: you've achieved high mount with knees in armpits, opponent's frames are eliminated, their arms are controlled or isolated, they've stopped making explosive escape attempts and are conserving energy, and you feel stable enough to shift weight for attacks without risk of being swept."
+        "answer": "Mount is consolidated when: you've achieved high mount with knees in armpits, opponent's frames are eliminated, their arms are controlled or isolated, they've stopped making explosive escape attempts and are conserving energy, and you feel stable enough to shift weight for attacks without risk of being swept.",
+        "answer_line": "Knees in armpits, frames gone",
+        "distractors": {
+          "plausible": [
+            "Opponent stopped moving at all",
+            "You've secured a choke grip"
+          ],
+          "trap": [
+            "You feel tired, time to attack"
+          ]
+        }
       },
       {
         "question": "Your opponent traps your foot with their legs during the grapevine phase. How do you free it without losing position?",
-        "answer": "Maintain heavy chest pressure and avoid pulling your leg straight back, which creates space. Instead, use a circular motion to extract the foot by rotating your hip outward. If necessary, switch to a low hook on the opposite side while keeping weight forward, then re-establish the grapevine once you have freed the leg."
+        "answer": "Maintain heavy chest pressure and avoid pulling your leg straight back, which creates space. Instead, use a circular motion to extract the foot by rotating your hip outward. If necessary, switch to a low hook on the opposite side while keeping weight forward, then re-establish the grapevine once you have freed the leg.",
+        "answer_line": "Rotate hip, extract circularly",
+        "distractors": {
+          "plausible": [
+            "Yank leg straight back",
+            "Switch to a triangle instead"
+          ],
+          "trap": [
+            "Pull leg back hard and fast"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize during the arm isolation phase of consolidation?",
-        "answer": "Prioritize the cross-face grip, driving your forearm under their chin and controlling the far-side shoulder. This grip flattens your opponent, prevents them from turning into you, and exposes the near-side arm for isolation. The cross-face also creates psychological pressure that forces defensive reactions you can exploit for advancement."
+        "answer": "Prioritize the cross-face grip, driving your forearm under their chin and controlling the far-side shoulder. This grip flattens your opponent, prevents them from turning into you, and exposes the near-side arm for isolation. The cross-face also creates psychological pressure that forces defensive reactions you can exploit for advancement.",
+        "answer_line": "Cross-face, control far shoulder",
+        "distractors": {
+          "plausible": [
+            "Grab both wrists tightly",
+            "Underhook the near arm"
+          ],
+          "trap": [
+            "Posture up for a collar grip"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Mount consolidation is generally low-risk when performed correctly. Avoid crushing pressure on the sternum for extended periods during training, as this can cause discomfort or breathing difficulty for your partner. When using grapevines, be careful not to hyperextend your partner's knees by driving your hooks too aggressively. During drilling, establish clear tapping protocols so partners can indicate when pressure becomes excessive. Ensure your training partner can breathe adequately throughout the consolidation process."
+    "safety_considerations": "Mount consolidation is generally low-risk when performed correctly. Avoid crushing pressure on the sternum for extended periods during training, as this can cause discomfort or breathing difficulty for your partner. When using grapevines, be careful not to hyperextend your partner's knees by driving your hooks too aggressively. During drilling, establish clear tapping protocols so partners can indicate when pressure becomes excessive. Ensure your training partner can breathe adequately throughout the consolidation process.",
+    "clips": [
+      {
+        "id": "J2xs_-sAJMc",
+        "title": "Gordon Ryan's mount system and control",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJTube",
+        "duration": 239,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kft2AkvKhWU",
+        "title": "Best way to control and hold the mount",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 538,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Consolidate Mount Defender",
@@ -327,23 +459,73 @@
     "flashcards": [
       {
         "question": "Why is it critical to begin your escape attempt within the first 3-5 seconds of being mounted?",
-        "answer": "The first seconds after mount is achieved represent the highest escape probability because the attacker has not yet settled their weight, inserted grapevines, or eliminated your frames. Once the consolidation sequence progresses past the weight-settling and grapevine phase, escape probabilities drop dramatically because your bridging power, hip mobility, and framing ability are all compromised."
+        "answer": "The first seconds after mount is achieved represent the highest escape probability because the attacker has not yet settled their weight, inserted grapevines, or eliminated your frames. Once the consolidation sequence progresses past the weight-settling and grapevine phase, escape probabilities drop dramatically because your bridging power, hip mobility, and framing ability are all compromised.",
+        "answer_line": "Before weight settles and hooks in",
+        "distractors": {
+          "plausible": [
+            "Opponent hasn't found grips yet",
+            "Referee resets position soon"
+          ],
+          "trap": [
+            "Wait for opponent to relax"
+          ]
+        }
       },
       {
         "question": "Your opponent has settled mount and is beginning to insert grapevine hooks. What is your defensive priority?",
-        "answer": "Your immediate priority is preventing the grapevines from being fully established. Straighten your legs and use heel pressure to push the attacker's feet outward before they can hook inside your thighs. If one grapevine is already in, focus on preventing the second while simultaneously framing on the hips and attempting a hip escape to the side of the free leg."
+        "answer": "Your immediate priority is preventing the grapevines from being fully established. Straighten your legs and use heel pressure to push the attacker's feet outward before they can hook inside your thighs. If one grapevine is already in, focus on preventing the second while simultaneously framing on the hips and attempting a hip escape to the side of the free leg.",
+        "answer_line": "Heel-push feet before hooks lock",
+        "distractors": {
+          "plausible": [
+            "Grab both wrists and frame",
+            "Bridge hard immediately"
+          ],
+          "trap": [
+            "Let one hook in, relax"
+          ]
+        }
       },
       {
         "question": "How do you recognize when the attacker is transitioning from low mount consolidation to walking their knees toward high mount?",
-        "answer": "The key recognition cues are: the attacker releases grapevines and begins shifting weight forward, you feel knee pressure advancing along your ribs toward your armpits, and the attacker's frames shift from controlling your arms at hip level to controlling your arms at shoulder level. This transition creates a brief window where the attacker's base is compromised as they move one knee at a time."
+        "answer": "The key recognition cues are: the attacker releases grapevines and begins shifting weight forward, you feel knee pressure advancing along your ribs toward your armpits, and the attacker's frames shift from controlling your arms at hip level to controlling your arms at shoulder level. This transition creates a brief window where the attacker's base is compromised as they move one knee at a time.",
+        "answer_line": "Knee pressure creeps to armpits",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar",
+            "They post their hands wide"
+          ],
+          "trap": [
+            "They release all pressure fully"
+          ]
+        }
       },
       {
         "question": "What makes the upa escape a viable option during mount consolidation, and when should you avoid it?",
-        "answer": "The upa is viable when you can trap the attacker's arm and same-side foot simultaneously, typically during a weight shift as they reach for grips or begin walking knees up. Avoid the upa when the attacker has wide base with grapevines fully inserted, as the trapped legs prevent the rolling motion. Also avoid it when neither arm nor foot can be properly trapped, as an incomplete upa wastes energy and exposes your back."
+        "answer": "The upa is viable when you can trap the attacker's arm and same-side foot simultaneously, typically during a weight shift as they reach for grips or begin walking knees up. Avoid the upa when the attacker has wide base with grapevines fully inserted, as the trapped legs prevent the rolling motion. Also avoid it when neither arm nor foot can be properly trapped, as an incomplete upa wastes energy and exposes your back.",
+        "answer_line": "Trap same-side arm and foot",
+        "distractors": {
+          "plausible": [
+            "Anytime opponent is heavy",
+            "When both hooks are locked in"
+          ],
+          "trap": [
+            "Attempt upa with no trap set"
+          ]
+        }
       },
       {
         "question": "Your opponent has eliminated your frames and is walking knees toward high mount. What is your last viable defensive option?",
-        "answer": "At this late stage, your best option is to time an explosive hip escape to the moment the attacker lifts one knee to advance. As they shift weight to walk that knee up, their base becomes asymmetric for a split second. Use that instant to shrimp hard toward the side of the advancing knee, creating enough space to insert your elbow and then knee between bodies for half guard recovery."
+        "answer": "At this late stage, your best option is to time an explosive hip escape to the moment the attacker lifts one knee to advance. As they shift weight to walk that knee up, their base becomes asymmetric for a split second. Use that instant to shrimp hard toward the side of the advancing knee, creating enough space to insert your elbow and then knee between bodies for half guard recovery.",
+        "answer_line": "Shrimp as they lift a knee",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively upward",
+            "Frame and push off hips"
+          ],
+          "trap": [
+            "Wait for full mount lock"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -366,6 +548,35 @@
         "phase": "Week 7+",
         "focus": "Live escape integration",
         "description": "Full resistance positional sparring starting from mount; chain all defensive tools together against a partner using complete consolidation technique with submission threats"
+      }
+    ],
+    "clips": [
+      {
+        "id": "9252EvCT0q4",
+        "title": "A mount escape that actually works",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "boWprABmeaU",
+        "title": "The Dagestani mount escape",
+        "by": "Danny Mitchell",
+        "vertical": false,
+        "channel": "Danny Mitchell MMA",
+        "duration": 145,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QHuh7h0VDOM",
+        "title": "Mount escape against the crossface",
+        "by": "Fenix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Fenix Jiu Jitsu",
+        "duration": 135,
+        "verified": "2026-07-15"
       }
     ]
   },

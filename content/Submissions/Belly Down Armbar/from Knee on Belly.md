@@ -34,6 +34,54 @@ description: "Master the belly down armbar finish from knee on belly in BJJ. Com
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Knee on Belly \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from Knee on Belly",
+      "description": "Belly Down Armbar from Knee on Belly film study: Armbar from Knee on Belly, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jxZaCP3bBuM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jxZaCP3bBuM",
+      "url": "https://www.youtube.com/watch?v=jxZaCP3bBuM",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee on Belly 180 Armbar to Triangle",
+      "description": "Belly Down Armbar from Knee on Belly film study: Knee on Belly 180 Armbar to Triangle, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/88n5GiAWE_c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/88n5GiAWE_c",
+      "url": "https://www.youtube.com/watch?v=88n5GiAWE_c",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two Knee on Belly Armbars",
+      "description": "Belly Down Armbar from Knee on Belly film study: Two Knee on Belly Armbars, taught by Ferdi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sz2tFpKi9lg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sz2tFpKi9lg",
+      "url": "https://www.youtube.com/watch?v=sz2tFpKi9lg",
+      "creator": { "@type": "Person", "name": "Ferdi" },
+      "duration": "PT115S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ From a defensive perspective, the speed of the transition from knee on belly pre
 **Starting Position**: [[Positions/Knee on Belly]] · **From**: [[Positions/Knee on Belly]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Knee on Belly in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jxZaCP3bBuM)
+
+<p class="clip-credit"><strong>Armbar from Knee on Belly</strong> — taught by Team Daruma Dojo · 1:05 · <a href="https://www.youtube.com/watch?v=jxZaCP3bBuM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=88n5GiAWE_c)
+
+<p class="clip-credit"><strong>Knee on Belly 180 Armbar to Triangle</strong> — taught by Ritchie Yip · 0:35 · <a href="https://www.youtube.com/watch?v=88n5GiAWE_c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sz2tFpKi9lg)
+
+<p class="clip-credit"><strong>Two Knee on Belly Armbars</strong> — taught by Ferdi · 1:55 · <a href="https://www.youtube.com/watch?v=sz2tFpKi9lg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

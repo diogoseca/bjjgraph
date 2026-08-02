@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Reverse X-Guard/Bottom",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Inverted Guard/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Reverse X-Guard Entry is a dynamic transition from inverted guard that establishes powerful leg entanglement control beneath your opponent. Unlike standard X-Guard where you face your opponent, Reverse X-Guard positions you facing away, with your hooks controlling their near leg while your body extends beneath them. This creates exceptional off-balancing potential and sweep opportunities that are difficult to defend because your opponent cannot see your lower body mechanics.\n\nThe entry requires precise timing and hip mobility, as you must thread your legs through while maintaining upper body connection. The position excels against opponents who maintain upright posture from inverted guard rather than applying stack pressure. Once established, Reverse X-Guard offers high-percentage sweeps, transitions to standard X-Guard, Single Leg X entries, and direct back take opportunities when opponents overcommit to regaining base.\n\nThis technique represents a sophisticated evolution in modern guard play, bridging inverted guard mobility with the powerful mechanical advantages of X-Guard systems. Practitioners who develop proficiency find it becomes a reliable pathway when standard berimbolo or back take entries are blocked.",
   "related_content": [
     {
@@ -202,54 +214,203 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Reverse X-Guard Entry?",
-        "answer": "The primary goal is to establish Reverse X-Guard position, where your legs create an X-configuration controlling opponent's base while you face away from them. This position offers powerful sweep mechanics, transitions to other leg entanglements, and back take opportunities that are difficult to defend because opponents cannot see your lower body movements."
+        "answer": "The primary goal is to establish Reverse X-Guard position, where your legs create an X-configuration controlling opponent's base while you face away from them. This position offers powerful sweep mechanics, transitions to other leg entanglements, and back take opportunities that are difficult to defend because opponents cannot see your lower body movements.",
+        "answer_line": "Establish Reverse X-Guard control",
+        "distractors": {
+          "plausible": [
+            "Invert and stall for time",
+            "Take the back right away"
+          ],
+          "trap": [
+            "Release grips to spin free"
+          ]
+        }
       },
       {
         "question": "What position do you start Reverse X-Guard Entry from, and what conditions must exist?",
-        "answer": "This technique starts from Inverted Guard with your shoulders and upper back anchored to the mat, hips elevated, and legs positioned toward your opponent. You need an established inverted guard with proper weight distribution, active grips on the opponent's ankle and sleeve, and the opponent must be maintaining relatively upright posture rather than applying stack pressure."
+        "answer": "This technique starts from Inverted Guard with your shoulders and upper back anchored to the mat, hips elevated, and legs positioned toward your opponent. You need an established inverted guard with proper weight distribution, active grips on the opponent's ankle and sleeve, and the opponent must be maintaining relatively upright posture rather than applying stack pressure.",
+        "answer_line": "Inverted guard, opponent upright",
+        "distractors": {
+          "plausible": [
+            "Inverted, opponent stacking",
+            "Guard with no grips secured"
+          ],
+          "trap": [
+            "Flat on back, legs extended"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Reverse X-Guard Entry and why is the pants grip non-negotiable?",
-        "answer": "The essential grips are a pants grip on opponent's near-side ankle or cuff with your same-side hand, and a secondary grip on their sleeve, collar, or belt with your other hand. The pants grip is non-negotiable because it prevents the opponent from stepping away during the threading phase. Without it, they simply disengage and you are left inverted without control, which is an extremely vulnerable position."
+        "answer": "The essential grips are a pants grip on opponent's near-side ankle or cuff with your same-side hand, and a secondary grip on their sleeve, collar, or belt with your other hand. The pants grip is non-negotiable because it prevents the opponent from stepping away during the threading phase. Without it, they simply disengage and you are left inverted without control, which is an extremely vulnerable position.",
+        "answer_line": "Pants grip ankle plus sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Collar grip plus belt grip",
+            "Two hands on far sleeve"
+          ],
+          "trap": [
+            "Let go of legs, grip only collar"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to attempt Reverse X-Guard Entry?",
-        "answer": "The optimal timing is when opponent maintains upright posture from inverted guard top position rather than applying stack pressure. Specifically, look for moments when their weight shifts slightly forward or when they are reaching for grips with their hands, which momentarily compromises their base and creates space beneath their hips for threading your leg through."
+        "answer": "The optimal timing is when opponent maintains upright posture from inverted guard top position rather than applying stack pressure. Specifically, look for moments when their weight shifts slightly forward or when they are reaching for grips with their hands, which momentarily compromises their base and creates space beneath their hips for threading your leg through.",
+        "answer_line": "Opponent upright and reaching",
+        "distractors": {
+          "plausible": [
+            "When opponent stacks pressure",
+            "Any time you're inverted"
+          ],
+          "trap": [
+            "When they've passed both hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent recognizes your entry and posts their hand on your hip to block threading. How do you respond?",
-        "answer": "Attack their posting hand with a two-on-one grip using both hands to strip and redirect the obstruction, creating the window for your leg to thread beneath their hips. Alternatively, use the posting hand as a pivot point - their commitment to blocking one pathway often opens another, such as a berimbolo entry on the opposite side or a direct back take via Kiss of the Dragon."
+        "answer": "Attack their posting hand with a two-on-one grip using both hands to strip and redirect the obstruction, creating the window for your leg to thread beneath their hips. Alternatively, use the posting hand as a pivot point - their commitment to blocking one pathway often opens another, such as a berimbolo entry on the opposite side or a direct back take via Kiss of the Dragon.",
+        "answer_line": "Two-on-one strip the post",
+        "distractors": {
+          "plausible": [
+            "Push through the post arm",
+            "Switch to double leg takedown"
+          ],
+          "trap": [
+            "Abandon grips and re-guard"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between where the crossing hook must land versus where it commonly ends up as an error?",
-        "answer": "The crossing hook must travel completely past opponent's centerline to land on their far hip or behind their far thigh. The common error is threading too shallow and hooking the near hip instead. The far hip placement creates true mechanical control and prevents easy clearing, while the near hip placement provides minimal leverage and is easily defeated by a simple step."
+        "answer": "The crossing hook must travel completely past opponent's centerline to land on their far hip or behind their far thigh. The common error is threading too shallow and hooking the near hip instead. The far hip placement creates true mechanical control and prevents easy clearing, while the near hip placement provides minimal leverage and is easily defeated by a simple step.",
+        "answer_line": "Hook must reach far hip",
+        "distractors": {
+          "plausible": [
+            "Hook the near hip firmly",
+            "Hook behind near knee"
+          ],
+          "trap": [
+            "Hook shallow, then adjust later"
+          ]
+        }
       },
       {
         "question": "Your opponent begins applying stack pressure as you start threading your leg. What immediate adjustment do you make?",
-        "answer": "Abandon the Reverse X-Guard Entry attempt and execute a granby roll to the opposite side of their pressure. Use their forward driving momentum to assist your rotation rather than fighting against the stack. This converts their offensive pressure into your escape mechanism and allows you to recover to De La Riva, seated guard, or attempt a berimbolo on the other side."
+        "answer": "Abandon the Reverse X-Guard Entry attempt and execute a granby roll to the opposite side of their pressure. Use their forward driving momentum to assist your rotation rather than fighting against the stack. This converts their offensive pressure into your escape mechanism and allows you to recover to De La Riva, seated guard, or attempt a berimbolo on the other side.",
+        "answer_line": "Granby roll away from stack",
+        "distractors": {
+          "plausible": [
+            "Push back against the stack",
+            "Hold position and wait it out"
+          ],
+          "trap": [
+            "Post hands and try to stand"
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between Reverse X-Guard sweeps and standard X-Guard sweeps?",
-        "answer": "In standard X-Guard, you typically sweep by extending your legs and pushing opponent backward or lifting them overhead. In Reverse X-Guard, because you face away from them, your sweeps work by pulling their base out from under them - extending creates a downward pressure on their near leg while your hooks disrupt their far-side base, toppling them sideways or forward over your body rather than backward."
+        "answer": "In standard X-Guard, you typically sweep by extending your legs and pushing opponent backward or lifting them overhead. In Reverse X-Guard, because you face away from them, your sweeps work by pulling their base out from under them - extending creates a downward pressure on their near leg while your hooks disrupt their far-side base, toppling them sideways or forward over your body rather than backward.",
+        "answer_line": "Pull their base out sideways",
+        "distractors": {
+          "plausible": [
+            "Push them straight backward",
+            "Lift them overhead like X-Guard"
+          ],
+          "trap": [
+            "Extend legs and push forward hard"
+          ]
+        }
       },
       {
         "question": "What chain attacks should you prepare if opponent successfully defends your Reverse X-Guard Entry by stepping their far leg back?",
-        "answer": "When opponent steps their far leg back, immediately redirect to Single Leg X-Guard on their near leg that remains in range, or use the momentum of their retreat to come up to a technical standup. If you maintain the pants grip during their backstep, you can also follow their motion into a standard X-Guard entry on the retreating leg or convert to a leg drag position as you come up."
+        "answer": "When opponent steps their far leg back, immediately redirect to Single Leg X-Guard on their near leg that remains in range, or use the momentum of their retreat to come up to a technical standup. If you maintain the pants grip during their backstep, you can also follow their motion into a standard X-Guard entry on the retreating leg or convert to a leg drag position as you come up.",
+        "answer_line": "Switch to Single Leg X on near leg",
+        "distractors": {
+          "plausible": [
+            "Chase the retreating far leg",
+            "Reset to closed guard"
+          ],
+          "trap": [
+            "Release pants grip to reset"
+          ]
+        }
       },
       {
         "question": "Why must you maintain shoulder blade contact with the mat throughout the entry?",
-        "answer": "The shoulder blades serve as fixed anchor points that create rotational stability during the hip movement. If your shoulders rise, you lose the mechanical base needed to generate threading force and become susceptible to being pushed or pulled off-balance. The anchored shoulders also protect your neck from compression and maintain the structural integrity needed for the transition."
+        "answer": "The shoulder blades serve as fixed anchor points that create rotational stability during the hip movement. If your shoulders rise, you lose the mechanical base needed to generate threading force and become susceptible to being pushed or pulled off-balance. The anchored shoulders also protect your neck from compression and maintain the structural integrity needed for the transition.",
+        "answer_line": "Anchors rotation, protects neck",
+        "distractors": {
+          "plausible": [
+            "Keeps hips flat on the mat",
+            "Frees hands for gripping"
+          ],
+          "trap": [
+            "Lift shoulders for more power"
+          ]
+        }
       },
       {
         "question": "You have established the crossing hook but your inside hook keeps slipping before you can consolidate. What is the mechanical cause and correction?",
-        "answer": "The most common cause is that your hips are not sufficiently elevated, allowing your inside leg to approach at a flat angle rather than hooking upward behind the opponent's knee. The correction is to drive your hips higher by pressing through your shoulders before inserting the inside hook, creating the upward angle needed for the hook to catch behind the knee. Also verify your crossing hook is locked deep enough to anchor your hip position while you set the second hook."
+        "answer": "The most common cause is that your hips are not sufficiently elevated, allowing your inside leg to approach at a flat angle rather than hooking upward behind the opponent's knee. The correction is to drive your hips higher by pressing through your shoulders before inserting the inside hook, creating the upward angle needed for the hook to catch behind the knee. Also verify your crossing hook is locked deep enough to anchor your hip position while you set the second hook.",
+        "answer_line": "Elevate hips before hooking",
+        "distractors": {
+          "plausible": [
+            "Grip tighter with the hands",
+            "Hook flatter behind the knee"
+          ],
+          "trap": [
+            "Drop hips to create space"
+          ]
+        }
       },
       {
         "question": "How do you differentiate in the moment between an opponent you should attempt this entry against versus one you should not?",
-        "answer": "Attempt the entry against opponents who are standing relatively upright, reaching for grips, or shifting weight laterally - these all create space beneath their hips. Do not attempt against opponents who are already driving forward with stack pressure, have established strong grips on both your legs, or are actively circling to pass. The key diagnostic is whether you can feel space beneath their hips when you elevate yours. If their weight immediately compresses you, the entry pathway is closed."
+        "answer": "Attempt the entry against opponents who are standing relatively upright, reaching for grips, or shifting weight laterally - these all create space beneath their hips. Do not attempt against opponents who are already driving forward with stack pressure, have established strong grips on both your legs, or are actively circling to pass. The key diagnostic is whether you can feel space beneath their hips when you elevate yours. If their weight immediately compresses you, the entry pathway is closed.",
+        "answer_line": "Feel space beneath their hips",
+        "distractors": {
+          "plausible": [
+            "Check if they're circling to pass",
+            "Wait for them to grip your legs"
+          ],
+          "trap": [
+            "Attempt whenever they stack hard"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Reverse X-Guard Entry requires significant hip and spine mobility. Practitioners should develop adequate flexibility before attempting this technique in live training. The inverted position places some stress on the cervical spine - always maintain shoulder blade contact with the mat and avoid allowing weight to compress your neck. If opponent applies stack pressure during the entry attempt, immediately abandon and granby roll to prevent neck injury. When drilling, partners should apply graduated resistance and communicate clearly about pressure levels. Practitioners with existing neck or lower back issues should consult with a medical professional and their instructor before incorporating inverted techniques into their game."
+    "safety_considerations": "Reverse X-Guard Entry requires significant hip and spine mobility. Practitioners should develop adequate flexibility before attempting this technique in live training. The inverted position places some stress on the cervical spine - always maintain shoulder blade contact with the mat and avoid allowing weight to compress your neck. If opponent applies stack pressure during the entry attempt, immediately abandon and granby roll to prevent neck injury. When drilling, partners should apply graduated resistance and communicate clearly about pressure levels. Practitioners with existing neck or lower back issues should consult with a medical professional and their instructor before incorporating inverted techniques into their game.",
+    "clips": [
+      {
+        "id": "Z6LuZH7yfP4",
+        "title": "Arm drag to shin-on-shin entry into reverse X",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EcxCadpBePk",
+        "title": "Single leg X, X guard and reverse X guard options",
+        "by": "Steven Kaloustian",
+        "vertical": false,
+        "channel": "Steven Kaloustian",
+        "duration": 97,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dISye8G6dpU",
+        "title": "Reverse X-guard entry breakdown",
+        "by": "Black Flag Submission Company",
+        "vertical": false,
+        "channel": "Black Flag Submission Company",
+        "duration": 191,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse X-Guard Entry Defender",
@@ -333,23 +494,73 @@
     "flashcards": [
       {
         "question": "What is the earliest visual cue that your opponent is attempting a Reverse X-Guard Entry rather than a standard berimbolo?",
-        "answer": "The key differentiator is the direction of their threading leg. In a berimbolo, the opponent rotates underneath you and their leg hooks your far hip from the outside while pulling your body over theirs. In Reverse X-Guard Entry, their leg threads between your legs from underneath, traveling past your centerline to hook behind your far hip from the inside. The threading motion is more linear and directed upward rather than the circular rolling motion of berimbolo."
+        "answer": "The key differentiator is the direction of their threading leg. In a berimbolo, the opponent rotates underneath you and their leg hooks your far hip from the outside while pulling your body over theirs. In Reverse X-Guard Entry, their leg threads between your legs from underneath, traveling past your centerline to hook behind your far hip from the inside. The threading motion is more linear and directed upward rather than the circular rolling motion of berimbolo.",
+        "answer_line": "Leg threads inside, not outside",
+        "distractors": {
+          "plausible": [
+            "Opponent rolls under your hips",
+            "Leg hooks your far hip outside"
+          ],
+          "trap": [
+            "Any leg movement means berimbolo"
+          ]
+        }
       },
       {
         "question": "Your opponent has threaded one leg but the crossing hook is not yet locked. What is the most effective immediate response?",
-        "answer": "Backstep your far leg sharply at a 45-degree angle away from the threading direction while simultaneously driving your hips forward to flatten their position. This removes the target for the crossing hook and compresses the space they need to curl their leg into the hook position. Follow immediately with a passing attempt while their guard structure is compromised - a knee slice or smash pass is most effective in this window."
+        "answer": "Backstep your far leg sharply at a 45-degree angle away from the threading direction while simultaneously driving your hips forward to flatten their position. This removes the target for the crossing hook and compresses the space they need to curl their leg into the hook position. Follow immediately with a passing attempt while their guard structure is compromised - a knee slice or smash pass is most effective in this window.",
+        "answer_line": "Backstep 45 degrees, flatten hips",
+        "distractors": {
+          "plausible": [
+            "Pull the leg straight back",
+            "Wait for the hook to lock"
+          ],
+          "trap": [
+            "Push forward into their hips"
+          ]
+        }
       },
       {
         "question": "Why is stripping the pants grip on your ankle a higher priority than fighting the threading leg directly?",
-        "answer": "The pants grip on your ankle serves as the anchor that prevents you from disengaging entirely. Without this grip, you can simply step away and reset to a neutral passing position at any point during the entry. Fighting the threading leg while the grip remains means you are working against the mechanical constraint of your anchored leg, which dramatically reduces the effectiveness of backstepping, base widening, and all other defensive movements. Remove the anchor first and the rest of the defense becomes straightforward."
+        "answer": "The pants grip on your ankle serves as the anchor that prevents you from disengaging entirely. Without this grip, you can simply step away and reset to a neutral passing position at any point during the entry. Fighting the threading leg while the grip remains means you are working against the mechanical constraint of your anchored leg, which dramatically reduces the effectiveness of backstepping, base widening, and all other defensive movements. Remove the anchor first and the rest of the defense becomes straightforward.",
+        "answer_line": "Strip the anchor grip first",
+        "distractors": {
+          "plausible": [
+            "Fight the threading leg first",
+            "Widen base before gripping"
+          ],
+          "trap": [
+            "Ignore the grip, rip leg free"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully establishes full Reverse X-Guard. What defensive priorities remain?",
-        "answer": "Once full Reverse X-Guard is established, your priorities shift from preventing the position to surviving it. Immediately widen your base with your free leg, drive your hips forward to prevent elevation, and control their upper body grips to prevent off-balancing pulls. Do not try to rip your leg free as this usually results in losing balance. Instead, work to systematically address hooks by applying downward pressure to flatten their hip elevation while maintaining your own base. Look for opportunities to smash pass when they extend for a sweep."
+        "answer": "Once full Reverse X-Guard is established, your priorities shift from preventing the position to surviving it. Immediately widen your base with your free leg, drive your hips forward to prevent elevation, and control their upper body grips to prevent off-balancing pulls. Do not try to rip your leg free as this usually results in losing balance. Instead, work to systematically address hooks by applying downward pressure to flatten their hip elevation while maintaining your own base. Look for opportunities to smash pass when they extend for a sweep.",
+        "answer_line": "Widen base, flatten their hips",
+        "distractors": {
+          "plausible": [
+            "Rip your leg free immediately",
+            "Pull their upper body in tight"
+          ],
+          "trap": [
+            "Yank your trapped leg out"
+          ]
+        }
       },
       {
         "question": "How should your defensive strategy change between gi and no-gi when facing Reverse X-Guard Entry?",
-        "answer": "In gi, the opponent's pants grip is stronger and harder to strip, making early prevention even more critical. Use sleeve grips and collar control proactively to disrupt their upper body anchoring before they can establish the pants grip. In no-gi, the ankle grip is weaker (c-grip on Achilles) and can be stripped more easily by simple ankle rotation and pulling, so you have a larger window for reactive defense. However, in no-gi the transition is often faster because the opponent does not need to establish fabric grips, so your recognition and reaction time must compensate."
+        "answer": "In gi, the opponent's pants grip is stronger and harder to strip, making early prevention even more critical. Use sleeve grips and collar control proactively to disrupt their upper body anchoring before they can establish the pants grip. In no-gi, the ankle grip is weaker (c-grip on Achilles) and can be stripped more easily by simple ankle rotation and pulling, so you have a larger window for reactive defense. However, in no-gi the transition is often faster because the opponent does not need to establish fabric grips, so your recognition and reaction time must compensate.",
+        "answer_line": "Gi: block grips; no-gi: strip fast",
+        "distractors": {
+          "plausible": [
+            "Same defense in both rulesets",
+            "No-gi grips are stronger to strip"
+          ],
+          "trap": [
+            "Ignore grips, rely on speed only"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -372,6 +583,26 @@
         "phase": "Week 7+",
         "focus": "Full positional sparring with defensive focus",
         "description": "Live sparring rounds starting from inverted guard top position with specific focus on shutting down all entry attempts. Partner uses full technique arsenal from inverted guard while you practice integrated defense. Track success rates and identify which entry variations give you the most trouble for targeted drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hdSw-ZmcBRA",
+        "title": "Defense to reverse De La Riva and foot lock",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Leglock defense concepts",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   },

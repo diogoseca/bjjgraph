@@ -140,6 +140,43 @@ description: "Complete guide to defending against the Escape Z-Lock Half Guard. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Z-Lock Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Octopus half guard to back take",
+      "description": "Escape Z-Lock Half Guard (Defender) film study: Octopus half guard to back take, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J6xUry__YUE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J6xUry__YUE",
+      "url": "https://www.youtube.com/watch?v=J6xUry__YUE",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Entry into octopus half guard",
+      "description": "Escape Z-Lock Half Guard (Defender) film study: Entry into octopus half guard, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H8HJ6jZ7ztI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H8HJ6jZ7ztI",
+      "url": "https://www.youtube.com/watch?v=H8HJ6jZ7ztI",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against this escape, you are the top player in Z-Lock Half Guard
 **Opponent's Starting Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Z-Lock Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J6xUry__YUE)
+
+<p class="clip-credit"><strong>Octopus half guard to back take</strong> — taught by Craig Jones · 0:21 · <a href="https://www.youtube.com/watch?v=J6xUry__YUE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H8HJ6jZ7ztI)
+
+<p class="clip-credit"><strong>Entry into octopus half guard</strong> — taught by Craig Jones · 1:16 · <a href="https://www.youtube.com/watch?v=H8HJ6jZ7ztI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

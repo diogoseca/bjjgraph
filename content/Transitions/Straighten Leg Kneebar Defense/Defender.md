@@ -140,6 +140,43 @@ description: "Learn to counter the straighten leg kneebar defense in BJJ. Techni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straighten Leg Kneebar Defense (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Go-behind kneebar when they defend the leg",
+      "description": "Straighten Leg Kneebar Defense (Defender) film study: Go-behind kneebar when they defend the leg, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Re-countering the kneebar counter",
+      "description": "Straighten Leg Kneebar Defense (Defender) film study: Re-countering the kneebar counter, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Oa0Ac9ILYu8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Oa0Ac9ILYu8",
+      "url": "https://www.youtube.com/watch?v=Oa0Ac9ILYu8",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ When your opponent begins straightening their leg against your kneebar control, 
 **Opponent's Starting Position**: [[Positions/Kneebar Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straighten Leg Kneebar Defense (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go-behind kneebar when they defend the leg</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Oa0Ac9ILYu8)
+
+<p class="clip-credit"><strong>Re-countering the kneebar counter</strong> — taught by Gracie Westchase · 0:21 · <a href="https://www.youtube.com/watch?v=Oa0Ac9ILYu8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -174,6 +174,43 @@ description: "Learn to execute the Escape from Truck as the attacker. Step-by-st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Truck (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the truck safely",
+      "description": "Escape from Truck (Attacker) film study: Defending the truck safely, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G8L5cY5gr-A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G8L5cY5gr-A",
+      "url": "https://www.youtube.com/watch?v=G8L5cY5gr-A",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Granby roll from the bottom",
+      "description": "Escape from Truck (Attacker) film study: Granby roll from the bottom, taught by WrestlingTournaments.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jLhXI8-7vzw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jLhXI8-7vzw",
+      "url": "https://www.youtube.com/watch?v=jLhXI8-7vzw",
+      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +222,34 @@ Your escape sequence follows a strict priority hierarchy: protect the neck first
 **From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Truck (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G8L5cY5gr-A)
+
+<p class="clip-credit"><strong>Defending the truck safely</strong> — taught by Brandon McCaghren · 1:46 · <a href="https://www.youtube.com/watch?v=G8L5cY5gr-A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jLhXI8-7vzw)
+
+<p class="clip-credit"><strong>Granby roll from the bottom</strong> — taught by WrestlingTournaments.com · 1:15 · <a href="https://www.youtube.com/watch?v=jLhXI8-7vzw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

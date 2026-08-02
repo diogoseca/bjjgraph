@@ -168,6 +168,54 @@ description: "How to execute Kneebar Finish in BJJ. Attacking perspective with s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar Finish (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-Gi Kneebar Finish Mechanics",
+      "description": "Kneebar Finish (Attacker) film study: No-Gi Kneebar Finish Mechanics, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/12rNXPlqVXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/12rNXPlqVXo",
+      "url": "https://www.youtube.com/watch?v=12rNXPlqVXo",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Bar Finish",
+      "description": "Kneebar Finish (Attacker) film study: Knee Bar Finish, taught by Ken Shamrock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4dnPuMo_-W8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4dnPuMo_-W8",
+      "url": "https://www.youtube.com/watch?v=4dnPuMo_-W8",
+      "creator": { "@type": "Person", "name": "Ken Shamrock" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Go Behind Kneebar",
+      "description": "Kneebar Finish (Attacker) film study: Go Behind Kneebar, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ What makes this finish particularly effective from Carni is the element of surpr
 **From Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar Finish (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=12rNXPlqVXo)
+
+<p class="clip-credit"><strong>No-Gi Kneebar Finish Mechanics</strong> — taught by Unknown · 0:20 · <a href="https://www.youtube.com/watch?v=12rNXPlqVXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4dnPuMo_-W8)
+
+<p class="clip-credit"><strong>Knee Bar Finish</strong> — taught by Ken Shamrock · 0:21 · <a href="https://www.youtube.com/watch?v=4dnPuMo_-W8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go Behind Kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -236,7 +320,7 @@ What makes this finish particularly effective from Carni is the element of surpr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Kneebar]] | 65% |
+| Success | [[Kneebar from Carni]] | 65% |
 | Failure | [[Positions/Rubber Guard/Carni]] | 25% |
 | Counter | [[Positions/Half Guard]] | 10% |
 

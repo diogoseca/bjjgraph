@@ -148,6 +148,43 @@ description: "How to defend against Pressure Pass Through Squid in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pressure Pass Through Squid (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg isolation reguard against the pass",
+      "description": "Pressure Pass Through Squid (Defender) film study: Leg isolation reguard against the pass, taught by Tyler Van Kill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ERrAiHHy6hE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ERrAiHHy6hE",
+      "url": "https://www.youtube.com/watch?v=ERrAiHHy6hE",
+      "creator": { "@type": "Person", "name": "Tyler Van Kill" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Short lasso guard retention",
+      "description": "Pressure Pass Through Squid (Defender) film study: Short lasso guard retention, taught by Dean Lewis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QT_3oCZJ-3Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QT_3oCZJ-3Y",
+      "url": "https://www.youtube.com/watch?v=QT_3oCZJ-3Y",
+      "creator": { "@type": "Person", "name": "Dean Lewis" },
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Your most dangerous counter is the sit-up back take, which exploits the fact tha
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pressure Pass Through Squid (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ERrAiHHy6hE)
+
+<p class="clip-credit"><strong>Leg isolation reguard against the pass</strong> — taught by Tyler Van Kill · 1:44 · <a href="https://www.youtube.com/watch?v=ERrAiHHy6hE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QT_3oCZJ-3Y)
+
+<p class="clip-credit"><strong>Short lasso guard retention</strong> — taught by Dean Lewis · 3:14 · <a href="https://www.youtube.com/watch?v=QT_3oCZJ-3Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

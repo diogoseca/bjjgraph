@@ -394,35 +394,144 @@
   "flashcards": [
     {
       "question": "What distinguishes Center of Gravity from simply applying heavy pressure?",
-      "answer": "It is the strategic allocation and dynamic modulation of weight across contact points to serve control, transitions, and energy efficiency, not the maximizing of total weight, which only produces predictable, exploitable pressure."
+      "answer": "It is the strategic allocation and dynamic modulation of weight across contact points to serve control, transitions, and energy efficiency, not the maximizing of total weight, which only produces predictable, exploitable pressure.",
+      "answer_line": "Modulate weight, not maximize",
+      "distractors": {
+        "plausible": [
+          "Apply max weight everywhere",
+          "Distribute weight evenly always"
+        ],
+        "trap": [
+          "Pile all weight onto one point"
+        ]
+      }
     },
     {
       "question": "Why concentrate weight on control targets while keeping base points lighter?",
-      "answer": "Concentrating pressure on the opponent's hips, chest, or head shuts down the most dangerous escape vectors, while reserving enough weight on base points preserves the stability needed to resist sweeps and reversals."
+      "answer": "Concentrating pressure on the opponent's hips, chest, or head shuts down the most dangerous escape vectors, while reserving enough weight on base points preserves the stability needed to resist sweeps and reversals.",
+      "answer_line": "Heavy on hips/chest, light on base",
+      "distractors": {
+        "plausible": [
+          "Pressure everywhere equally hard",
+          "Light on hips, heavy on base"
+        ],
+        "trap": [
+          "Drop all base weight forward"
+        ]
+      }
     },
     {
       "question": "How does asymmetric loading create a dilemma for the bottom player?",
-      "answer": "By trapping the opponent on one side while controlling the other, every defensive choice—accepting the pressure or turning to escape—exposes them to a technical attack, so all of their options favor the top player."
+      "answer": "By trapping the opponent on one side while controlling the other, every defensive choice—accepting the pressure or turning to escape—exposes them to a technical attack, so all of their options favor the top player.",
+      "answer_line": "Trap one side, attack the other",
+      "distractors": {
+        "plausible": [
+          "Pressure both sides equally",
+          "Control only the far side"
+        ],
+        "trap": [
+          "Let them pick their escape side"
+        ]
+      }
     },
     {
       "question": "What is the danger of committing too much weight to pressure?",
-      "answer": "Overcommitting weight compromises base integrity, leaving you open to sweeps and reversals the moment the opponent explosively changes direction or exploits the overextended distribution from a seemingly dominant position."
+      "answer": "Overcommitting weight compromises base integrity, leaving you open to sweeps and reversals the moment the opponent explosively changes direction or exploits the overextended distribution from a seemingly dominant position.",
+      "answer_line": "Lose base, get swept",
+      "distractors": {
+        "plausible": [
+          "Slows down your submissions",
+          "Tires you out too quickly"
+        ],
+        "trap": [
+          "Lean all weight forward, no base"
+        ]
+      }
     },
     {
       "question": "Why is skeletal alignment preferred over muscular effort for maintaining pressure?",
-      "answer": "Loading weight through bones and gravity sustains relentless pressure with minimal energy, whereas muscular effort drains stamina fast, makes distribution rigid and unresponsive, and collapses once fatigue sets in."
+      "answer": "Loading weight through bones and gravity sustains relentless pressure with minimal energy, whereas muscular effort drains stamina fast, makes distribution rigid and unresponsive, and collapses once fatigue sets in.",
+      "answer_line": "Bones sustain it, muscles fatigue",
+      "distractors": {
+        "plausible": [
+          "Muscle gives more raw pressure",
+          "Both work equally over time"
+        ],
+        "trap": [
+          "Flex muscles hard the whole roll"
+        ]
+      }
     },
     {
       "question": "How should weight distribution differ against an explosive opponent versus a technical escaper?",
-      "answer": "Use heavier, more static pressure to limit an explosive opponent's movement, but keep lighter, mobile distribution against a technical escaper who requires constant micro-adjustments to stay ahead of their frames."
+      "answer": "Use heavier, more static pressure to limit an explosive opponent's movement, but keep lighter, mobile distribution against a technical escaper who requires constant micro-adjustments to stay ahead of their frames.",
+      "answer_line": "Static vs explosive, mobile vs tech",
+      "distractors": {
+        "plausible": [
+          "Light pressure vs explosive foe",
+          "Same pressure for every opponent"
+        ],
+        "trap": [
+          "Stay static vs a technical escaper"
+        ]
+      }
     },
     {
       "question": "What role does tactile pressure reading play in dynamic weight modulation?",
-      "answer": "Sensing the opponent's response through contact lets you detect escape intentions before visible movement, so you can add pressure where space is forming and lighten it where they have already stopped resisting."
+      "answer": "Sensing the opponent's response through contact lets you detect escape intentions before visible movement, so you can add pressure where space is forming and lighten it where they have already stopped resisting.",
+      "answer_line": "Feel resistance before it moves",
+      "distractors": {
+        "plausible": [
+          "Watch their hands for tells",
+          "React only after they move"
+        ],
+        "trap": [
+          "Ignore feedback, hold pressure fixed"
+        ]
+      }
     },
     {
       "question": "How does Center of Gravity enable transitions rather than impede them?",
-      "answer": "Coordinating weight shifts with technical execution turns redistribution into the mechanism that creates the reactions and pathways for smooth movement, instead of leaving weight committed where it blocks the transition."
+      "answer": "Coordinating weight shifts with technical execution turns redistribution into the mechanism that creates the reactions and pathways for smooth movement, instead of leaving weight committed where it blocks the transition.",
+      "answer_line": "Shift weight to create the opening",
+      "distractors": {
+        "plausible": [
+          "Keep weight fixed during transition",
+          "Shift weight after the transition"
+        ],
+        "trap": [
+          "Commit all weight before moving"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "chuU8FWlF4o",
+      "title": "Weight distribution for movement in grappling",
+      "by": "12 Gauge MMA",
+      "vertical": false,
+      "channel": "12 Gauge MMA",
+      "duration": 73,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "QtN_TQNFXlI",
+      "title": "Center of gravity and pressure explained",
+      "by": "RVV BJJ",
+      "vertical": false,
+      "channel": "RVV BJJ",
+      "duration": 283,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "eU2MKcq5we0",
+      "title": "Principles of pressure passing",
+      "by": "Bernardo Faria",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 353,
+      "verified": "2026-07-15"
     }
   ]
 }

@@ -174,6 +174,54 @@ description: "Complete guide to executing the Toreando pass from Headquarters Po
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando from Headquarters (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toreando pass to north-south",
+      "description": "Toreando from Headquarters (Attacker) film study: Toreando pass to north-south, taught by Jay Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1Kfm5zqB8GQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1Kfm5zqB8GQ",
+      "url": "https://www.youtube.com/watch?v=1Kfm5zqB8GQ",
+      "creator": { "@type": "Person", "name": "Jay Rodriguez" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Headquarters guard passing simplified",
+      "description": "Toreando from Headquarters (Attacker) film study: Headquarters guard passing simplified, taught by Knight Jiu-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/quM3u9Jxthg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/quM3u9Jxthg",
+      "url": "https://www.youtube.com/watch?v=quM3u9Jxthg",
+      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu coach" },
+      "duration": "PT261S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Modified toreando guard pass",
+      "description": "Toreando from Headquarters (Attacker) film study: Modified toreando guard pass, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S65D0wxPZ7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S65D0wxPZ7c",
+      "url": "https://www.youtube.com/watch?v=S65D0wxPZ7c",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT752S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Toreando from Headquarters rewards the passer who can read distance-creation
 **From Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando from Headquarters (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1Kfm5zqB8GQ)
+
+<p class="clip-credit"><strong>Toreando pass to north-south</strong> — taught by Jay Rodriguez · 2:45 · <a href="https://www.youtube.com/watch?v=1Kfm5zqB8GQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=quM3u9Jxthg)
+
+<p class="clip-credit"><strong>Headquarters guard passing simplified</strong> — taught by Knight Jiu-Jitsu coach · 4:21 · <a href="https://www.youtube.com/watch?v=quM3u9Jxthg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S65D0wxPZ7c)
+
+<p class="clip-credit"><strong>Modified toreando guard pass</strong> — taught by Andre Galvao · 12:32 · <a href="https://www.youtube.com/watch?v=S65D0wxPZ7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

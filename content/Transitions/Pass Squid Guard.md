@@ -34,6 +34,54 @@ description: "Master passing Squid Guard in BJJ. Complete guide to clearing lape
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Squid Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the lapel/fio dental guard",
+      "description": "Pass Squid Guard film study: Passing the lapel/fio dental guard, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U6h4HKtwqU4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U6h4HKtwqU4",
+      "url": "https://www.youtube.com/watch?v=U6h4HKtwqU4",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Super simple squid guard pass",
+      "description": "Pass Squid Guard film study: Super simple squid guard pass, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jnh1v9nIPpU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jnh1v9nIPpU",
+      "url": "https://www.youtube.com/watch?v=Jnh1v9nIPpU",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to pass the lapel squid guard",
+      "description": "Pass Squid Guard film study: How to pass the lapel squid guard, taught by Nick Salles and Danny Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nPT4tqORpOA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nPT4tqORpOA",
+      "url": "https://www.youtube.com/watch?v=nPT4tqORpOA",
+      "creator": { "@type": "Person", "name": "Nick Salles and Danny Maira" },
+      "duration": "PT672S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This pass integrates into the broader guard passing system as a specialized resp
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Squid Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U6h4HKtwqU4)
+
+<p class="clip-credit"><strong>Passing the lapel/fio dental guard</strong> — taught by Ninja Pinto · 1:49 · <a href="https://www.youtube.com/watch?v=U6h4HKtwqU4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jnh1v9nIPpU)
+
+<p class="clip-credit"><strong>Super simple squid guard pass</strong> — taught by Andre Galvao · 0:57 · <a href="https://www.youtube.com/watch?v=Jnh1v9nIPpU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nPT4tqORpOA)
+
+<p class="clip-credit"><strong>How to pass the lapel squid guard</strong> — taught by Nick Salles and Danny Maira · 11:12 · <a href="https://www.youtube.com/watch?v=nPT4tqORpOA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

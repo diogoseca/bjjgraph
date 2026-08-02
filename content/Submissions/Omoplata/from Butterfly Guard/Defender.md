@@ -136,6 +136,54 @@ description: "Defend the Omoplata from Butterfly Guard with early recognition, p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Butterfly Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Best way to escape the omoplata shoulder lock",
+      "description": "Omoplata from Butterfly Guard (Defender) film study: Best way to escape the omoplata shoulder lock, taught by John Connors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
+      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
+      "creator": { "@type": "Person", "name": "John Connors" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the omoplata sweep",
+      "description": "Omoplata from Butterfly Guard (Defender) film study: Defending the omoplata sweep, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y4TxL4mDSKg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y4TxL4mDSKg",
+      "url": "https://www.youtube.com/watch?v=Y4TxL4mDSKg",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Submission escape from the omoplata",
+      "description": "Omoplata from Butterfly Guard (Defender) film study: Submission escape from the omoplata, taught by Thiago Stefanutti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqBK1Y2BdSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqBK1Y2BdSg",
+      "url": "https://www.youtube.com/watch?v=xqBK1Y2BdSg",
+      "creator": { "@type": "Person", "name": "Thiago Stefanutti" },
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +194,42 @@ Defending the Omoplata from Butterfly Guard requires recognizing the attack earl
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Butterfly Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
+
+<p class="clip-credit"><strong>Best way to escape the omoplata shoulder lock</strong> — taught by John Connors · 1:02 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y4TxL4mDSKg)
+
+<p class="clip-credit"><strong>Defending the omoplata sweep</strong> — taught by Ninja Pinto · 0:47 · <a href="https://www.youtube.com/watch?v=Y4TxL4mDSKg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqBK1Y2BdSg)
+
+<p class="clip-credit"><strong>Submission escape from the omoplata</strong> — taught by Thiago Stefanutti · 0:17 · <a href="https://www.youtube.com/watch?v=xqBK1Y2BdSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

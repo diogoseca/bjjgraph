@@ -34,6 +34,54 @@ description: "Learn Shrimp Escape in BJJ. Step-by-step execution from Side Contr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shrimp Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shrimping from side mount",
+      "description": "Shrimp Escape film study: Shrimping from side mount, taught by Kinesiology College.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nf8lVz7bKvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nf8lVz7bKvw",
+      "url": "https://www.youtube.com/watch?v=nf8lVz7bKvw",
+      "creator": { "@type": "Person", "name": "Kinesiology College" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shrimp and recover guard from bottom side control",
+      "description": "Shrimp Escape film study: Shrimp and recover guard from bottom side control, taught by Concept BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CifmPSV7aXY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CifmPSV7aXY",
+      "url": "https://www.youtube.com/watch?v=CifmPSV7aXY",
+      "creator": { "@type": "Person", "name": "Concept BJJ" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shrimp escape from bottom mount",
+      "description": "Shrimp Escape film study: Shrimp escape from bottom mount, taught by Kovar\u0027s Satori Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RRfU3YxQ2Sw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RRfU3YxQ2Sw",
+      "url": "https://www.youtube.com/watch?v=RRfU3YxQ2Sw",
+      "creator": { "@type": "Person", "name": "Kovar\u0027s Satori Academy" },
+      "duration": "PT172S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,9 +110,45 @@ description: "Learn Shrimp Escape in BJJ. Step-by-step execution from Side Contr
 The Shrimp Escape, also known as the hip escape, is one of the most fundamental and essential defensive movements in Brazilian Jiu-Jitsu. This technique allows a practitioner trapped in side control to create space, recover their guard, and neutralize their opponent's positional dominance. The shrimping motion involves a coordinated hip movement that generates distance between you and your opponent, enabling you to insert your knee shield or establish frames that prevent further advancement. The effectiveness of the shrimp escape lies in its mechanical efficiency—by bridging slightly and then explosively moving your hips away from your opponent while posting with your far leg, you create the angular space necessary for guard recovery. This technique is not merely an escape; it represents a fundamental principle of creating space under pressure that applies across countless defensive scenarios in BJJ. Mastery of the shrimp escape is essential for survival in bottom positions and serves as the foundation for more advanced escapes and recoveries throughout your jiu-jitsu journey.
 
 **From Position**: [[Positions/Side Control]] (Bottom)
-**Success Rate**: 62%
+**Success Rate**: 36%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shrimp Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nf8lVz7bKvw)
+
+<p class="clip-credit"><strong>Shrimping from side mount</strong> — taught by Kinesiology College · 0:35 · <a href="https://www.youtube.com/watch?v=nf8lVz7bKvw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CifmPSV7aXY)
+
+<p class="clip-credit"><strong>Shrimp and recover guard from bottom side control</strong> — taught by Concept BJJ · 2:21 · <a href="https://www.youtube.com/watch?v=CifmPSV7aXY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RRfU3YxQ2Sw)
+
+<p class="clip-credit"><strong>Shrimp escape from bottom mount</strong> — taught by Kovar&#39;s Satori Academy · 2:52 · <a href="https://www.youtube.com/watch?v=RRfU3YxQ2Sw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -204,7 +288,7 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 ## Variations
 
 
-**Ghost Escape**: When opponent has secured deep cross-face or underhook controls, the ghost escape involves turning away from opponent (facing down) while shrimping, using the rotation to slip out from under their grips. The bottom player turns their back momentarily, uses the shrimp motion to slide out, then immediately recovers to turtle or guard. (When to use: When opponent has dominant head and arm control making traditional frames impossible)
+**Ghost Escape from Side Control**: When opponent has secured deep cross-face or underhook controls, the ghost escape involves turning away from opponent (facing down) while shrimping, using the rotation to slip out from under their grips. The bottom player turns their back momentarily, uses the shrimp motion to slide out, then immediately recovers to turtle or guard. (When to use: When opponent has dominant head and arm control making traditional frames impossible)
 
 
 **Running Man Escape**: A more dynamic variation involving alternating leg movements similar to running in place while on your side. Each leg pumps in sequence, creating continuous micro-adjustments that prevent opponent from settling their weight. This is combined with standard shrimp mechanics but adds rhythmic leg movement. (When to use: Against opponents who are skilled at following shrimp movements and maintaining pressure)
@@ -243,7 +327,7 @@ The shrimp escape is the foundational defensive technique that connects multiple
 
 - [[Transitions/Bridge and Roll]] - Alternative escape from side control using opposite mechanical principle
 
-- [[Transitions/Ghost Escape]] - Advanced variation using shrimp mechanics with direction reversal
+- [[Transitions/Ghost Escape from Side Control]] - Advanced variation using shrimp mechanics with direction reversal
 
 - [[Positions/Open Guard]] - Intermediate guard recovery position when closed guard cannot be immediately established
 

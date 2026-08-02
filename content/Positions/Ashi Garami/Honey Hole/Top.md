@@ -21,37 +21,37 @@ description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control wi
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook from Honey Hole",
-      "text": "From this position, attempt Outside Heel Hook from Honey Hole. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook from Honey Hole. This technique is attempted in 7% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Honey Hole",
-      "text": "From this position, attempt Heel Hook from Honey Hole. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Honey Hole. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Toe Hold from Honey Hole",
+      "text": "From this position, attempt Toe Hold from Honey Hole. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold from Honey Hole",
-      "text": "From this position, attempt Toe Hold from Honey Hole. This technique is attempted in 7% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Back Take from Ashi",
-      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 12% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 6% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Estima Lock from Honey Hole",
       "text": "From this position, attempt Estima Lock from Honey Hole. This technique is attempted in 2% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Backside 50-50 Entry from Ashi",
+      "text": "From this position, attempt Backside 50-50 Entry from Ashi. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Honey Hole (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Honey Hole Heel Hook from Bow and Arrow",
+      "description": "Honey Hole (Top) film study: Honey Hole Heel Hook from Bow and Arrow, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3KAO2Ck4HRg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3KAO2Ck4HRg",
+      "url": "https://www.youtube.com/watch?v=3KAO2Ck4HRg",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Saddle Entries from Guard",
+      "description": "Honey Hole (Top) film study: Saddle Entries from Guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
+      "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single Leg X to Honey Hole Heel Hook",
+      "description": "Honey Hole (Top) film study: Single Leg X to Honey Hole Heel Hook, taught by Ilya Bodnya.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
+      "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
+      "creator": { "@type": "Person", "name": "Ilya Bodnya" },
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The Honey Hole represents the culmination of modern leg lock development, refine
 This position excels in no-gi grappling and submission-only rulesets where leg attacks are permitted. It requires careful control and technical precision to maintain while setting up submissions. The risk level is medium because improper execution can result in counter-entanglements or leg lock exposure for the attacker. The position's effectiveness stems from its ability to create mechanical disadvantage for the defender while establishing multiple submission threats simultaneously.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Honey Hole (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3KAO2Ck4HRg)
+
+<p class="clip-credit"><strong>Honey Hole Heel Hook from Bow and Arrow</strong> — taught by JitzLive · 0:52 · <a href="https://www.youtube.com/watch?v=3KAO2Ck4HRg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
+
+<p class="clip-credit"><strong>Saddle Entries from Guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
+
+<p class="clip-credit"><strong>Single Leg X to Honey Hole Heel Hook</strong> — taught by Ilya Bodnya · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -220,18 +304,18 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 **If opponent attempts hip rotation to escape entanglement:**
 - Execute **[[Principles/Hip Pressure/Attacker|Hip Pressure]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 70%)
 - Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Submissions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent tries to extract trapped leg by pulling knee to chest:**
 - Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 80%)
 - Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 65%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent attempts to establish inside position for reversal:**
 - Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Submissions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
 
 
@@ -347,7 +431,7 @@ Partner in bottom position attempts one specific escape technique at 75% intensi
 - **[[Positions/Ashi Garami/Saddle]]** - Advanced variation with enhanced control through different leg configuration
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Foundational leg entanglement that precedes honey hole entry
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative leg entanglement with different control mechanics
-- **[[Transitions/Heel Hook]]** - Primary submission finish from this position
+- **[[Submissions/Heel Hook]]** - Primary submission finish from this position
 - **[[Transitions/Kneebar]]** - Secondary submission option when heel is defended
 - **[[Positions/Back Control]]** - Transition target when opponent turns away to escape
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Related leg entanglement with different strategic purpose

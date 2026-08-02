@@ -34,6 +34,54 @@ description: "Master the Russian Cowboy to Back Control transition. Learn to con
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Cowboy to Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Russian Cowboy double deep hook attacks",
+      "description": "Russian Cowboy to Back Control film study: Russian Cowboy double deep hook attacks, taught by 10th Planet Rochester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kGoEjQMRp3I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kGoEjQMRp3I",
+      "url": "https://www.youtube.com/watch?v=kGoEjQMRp3I",
+      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
+      "duration": "PT193S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Entries Into Rear Triangle Back Position",
+      "description": "Russian Cowboy to Back Control film study: Entries Into Rear Triangle Back Position, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMabjvtaLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMabjvtaLk",
+      "url": "https://www.youtube.com/watch?v=-lMabjvtaLk",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT252S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inserting the Second Hook to Take the Back",
+      "description": "Russian Cowboy to Back Control film study: Inserting the Second Hook to Take the Back, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F_647CBBmIY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F_647CBBmIY",
+      "url": "https://www.youtube.com/watch?v=F_647CBBmIY",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition requires balancing the risk of destabilizing curr
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Cowboy to Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kGoEjQMRp3I)
+
+<p class="clip-credit"><strong>Russian Cowboy double deep hook attacks</strong> — taught by 10th Planet Rochester · 3:13 · <a href="https://www.youtube.com/watch?v=kGoEjQMRp3I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMabjvtaLk)
+
+<p class="clip-credit"><strong>Entries Into Rear Triangle Back Position</strong> — taught by John Danaher · 4:12 · <a href="https://www.youtube.com/watch?v=-lMabjvtaLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F_647CBBmIY)
+
+<p class="clip-credit"><strong>Inserting the Second Hook to Take the Back</strong> — taught by Gordon Ryan · 1:45 · <a href="https://www.youtube.com/watch?v=F_647CBBmIY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

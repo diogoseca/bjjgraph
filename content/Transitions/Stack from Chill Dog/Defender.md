@@ -148,6 +148,54 @@ description: "Learn to defend the Stack from Chill Dog as the bottom player. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack from Chill Dog (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder lock defending the double under stack pass",
+      "description": "Stack from Chill Dog (Defender) film study: Shoulder lock defending the double under stack pass, taught by Tony Casarez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dH6Cj-nv3vU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dH6Cj-nv3vU",
+      "url": "https://www.youtube.com/watch?v=dH6Cj-nv3vU",
+      "creator": { "@type": "Person", "name": "Tony Casarez" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stack Attack: dealing with the stack in rubber guard",
+      "description": "Stack from Chill Dog (Defender) film study: Stack Attack: dealing with the stack in rubber guard, taught by Submissions101 coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/12F5eAkrS4s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/12F5eAkrS4s",
+      "url": "https://www.youtube.com/watch?v=12F5eAkrS4s",
+      "creator": { "@type": "Person", "name": "Submissions101 coach" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Prison Guard breakdown from rubber guard",
+      "description": "Stack from Chill Dog (Defender) film study: Prison Guard breakdown from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
+      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The stack attacks the fundamental structure of your Chill Dog defense by loading
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack from Chill Dog (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dH6Cj-nv3vU)
+
+<p class="clip-credit"><strong>Shoulder lock defending the double under stack pass</strong> — taught by Tony Casarez · 1:02 · <a href="https://www.youtube.com/watch?v=dH6Cj-nv3vU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=12F5eAkrS4s)
+
+<p class="clip-credit"><strong>Stack Attack: dealing with the stack in rubber guard</strong> — taught by Submissions101 coach · 1:45 · <a href="https://www.youtube.com/watch?v=12F5eAkrS4s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gFYyMkaMz34)
+
+<p class="clip-credit"><strong>Prison Guard breakdown from rubber guard</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

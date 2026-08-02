@@ -140,6 +140,43 @@ description: "Complete guide to defending and countering the Butterfly Half Guar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Half Guard Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stopping the half guard underhook from top",
+      "description": "Butterfly Half Guard Sweep (Defender) film study: Stopping the half guard underhook from top, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why half butterfly guard is a different passing problem",
+      "description": "Butterfly Half Guard Sweep (Defender) film study: Why half butterfly guard is a different passing problem, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9miuP4-v0EE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9miuP4-v0EE",
+      "url": "https://www.youtube.com/watch?v=9miuP4-v0EE",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT192S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the Butterfly Half Guard Sweep requires the top player to recognize th
 **Opponent's Starting Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Half Guard Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stopping the half guard underhook from top</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9miuP4-v0EE)
+
+<p class="clip-credit"><strong>Why half butterfly guard is a different passing problem</strong> — taught by John Danaher · 3:12 · <a href="https://www.youtube.com/watch?v=9miuP4-v0EE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

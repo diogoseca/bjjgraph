@@ -180,6 +180,43 @@ description: "Master the offensive transition from 3-4 Mount to S Mount. Step-by
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "3-4 Mount to S Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "S-mount troubleshooting (no-gi)",
+      "description": "3-4 Mount to S Mount (Attacker) film study: S-mount troubleshooting (no-gi), taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2Xm_mLp8xwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2Xm_mLp8xwk",
+      "url": "https://www.youtube.com/watch?v=2Xm_mLp8xwk",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Transition to S-mount",
+      "description": "3-4 Mount to S Mount (Attacker) film study: Transition to S-mount, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RsNdjwonGkw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RsNdjwonGkw",
+      "url": "https://www.youtube.com/watch?v=RsNdjwonGkw",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ From the attacker's perspective, the 3-4 Mount to S Mount transition is a calcul
 **From Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 3-4 Mount to S Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2Xm_mLp8xwk)
+
+<p class="clip-credit"><strong>S-mount troubleshooting (no-gi)</strong> — taught by ZombieProofBJJ · 1:07 · <a href="https://www.youtube.com/watch?v=2Xm_mLp8xwk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RsNdjwonGkw)
+
+<p class="clip-credit"><strong>Transition to S-mount</strong> — taught by Procel BJJ · 2:12 · <a href="https://www.youtube.com/watch?v=RsNdjwonGkw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -27,31 +27,31 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hand 
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turn In and Face",
-      "text": "From this position, attempt Turn In and Face. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Turn In and Face. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape from Back Control",
-      "text": "From this position, attempt Hip Escape from Back Control. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape from Back Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,43 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hand 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Up from Back Control",
+      "description": "Back Control (Bottom) film study: Standing Up from Back Control, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Running Man Back Escape",
+      "description": "Back Control (Bottom) film study: Running Man Back Escape, taught by Jiu Jitsu Modern.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3RbOD9fhi20/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3RbOD9fhi20",
+      "url": "https://www.youtube.com/watch?v=3RbOD9fhi20",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Modern" },
+      "duration": "PT210S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -170,6 +207,34 @@ Successful defense from back control requires understanding the hierarchy of con
 The escape hierarchy follows a strict sequence: neck defense first through chin tuck and two-on-one grip control on the choking arm, then seatbelt grip stripping to free your upper body, then hook removal through hip escape and leg manipulation, and finally rotation to face your opponent and establish guard. Each phase must be addressed before progressing to the next. Attempting to skip steps, such as fighting hooks before securing neck defense, consistently results in submission. Advanced practitioners develop the ability to chain multiple escape attempts together, using the opponent's defensive adjustments as windows for secondary escape directions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing Up from Back Control</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3RbOD9fhi20)
+
+<p class="clip-credit"><strong>Running Man Back Escape</strong> — taught by Jiu Jitsu Modern · 3:30 · <a href="https://www.youtube.com/watch?v=3RbOD9fhi20" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

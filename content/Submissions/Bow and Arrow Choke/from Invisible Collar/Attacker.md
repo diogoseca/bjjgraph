@@ -176,6 +176,43 @@ description: "Learn to attack with the Bow and Arrow Choke from Invisible Collar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Invisible Collar (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Choke details from back control",
+      "description": "Bow and Arrow Choke from Invisible Collar (Attacker) film study: Choke details from back control, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3GprqnqZKA4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3GprqnqZKA4",
+      "url": "https://www.youtube.com/watch?v=3GprqnqZKA4",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT150S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bow and arrow finishing detail",
+      "description": "Bow and Arrow Choke from Invisible Collar (Attacker) film study: Bow and arrow finishing detail, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T7exag4wRXE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T7exag4wRXE",
+      "url": "https://www.youtube.com/watch?v=T7exag4wRXE",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT104S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ The Bow and Arrow Choke from Invisible Collar gives the attacker a significant t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Invisible Collar (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3GprqnqZKA4)
+
+<p class="clip-credit"><strong>Choke details from back control</strong> — taught by Roger Gracie · 2:30 · <a href="https://www.youtube.com/watch?v=3GprqnqZKA4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T7exag4wRXE)
+
+<p class="clip-credit"><strong>Bow and arrow finishing detail</strong> — taught by Henry Akins · 1:44 · <a href="https://www.youtube.com/watch?v=T7exag4wRXE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

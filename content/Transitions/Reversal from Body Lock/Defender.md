@@ -148,6 +148,43 @@ description: "Defend against the Reversal from Body Lock in BJJ. Maintain body l
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reversal from Body Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Body lock pass details: holding it through resistance",
+      "description": "Reversal from Body Lock (Defender) film study: Body lock pass details: holding it through resistance, taught by Nicky Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/we3wrU-Ctbw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/we3wrU-Ctbw",
+      "url": "https://www.youtube.com/watch?v=we3wrU-Ctbw",
+      "creator": { "@type": "Person", "name": "Nicky Ryan" },
+      "duration": "PT466S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Beating the step over from body lock",
+      "description": "Reversal from Body Lock (Defender) film study: Beating the step over from body lock, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y-gsdLH2YBs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y-gsdLH2YBs",
+      "url": "https://www.youtube.com/watch?v=y-gsdLH2YBs",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT242S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against the Reversal from Body Lock, you are the body lock holde
 **Opponent's Starting Position**: [[Positions/Body Lock]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reversal from Body Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=we3wrU-Ctbw)
+
+<p class="clip-credit"><strong>Body lock pass details: holding it through resistance</strong> — taught by Nicky Ryan · 7:46 · <a href="https://www.youtube.com/watch?v=we3wrU-Ctbw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y-gsdLH2YBs)
+
+<p class="clip-credit"><strong>Beating the step over from body lock</strong> — taught by Craig Jones · 4:02 · <a href="https://www.youtube.com/watch?v=y-gsdLH2YBs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

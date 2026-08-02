@@ -21,13 +21,13 @@ description: "Master grasshopper guard from top. Complete guide to countering in
     {
       "@type": "HowToStep",
       "name": "Execute Back Step Pass",
-      "text": "From this position, attempt Back Step Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
@@ -45,13 +45,13 @@ description: "Master grasshopper guard from top. Complete guide to countering in
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl and Disengage",
-      "text": "From this position, attempt Sprawl and Disengage. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Sprawl and Disengage. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master grasshopper guard from top. Complete guide to countering in
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grasshopper Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a full inversion from the top",
+      "description": "Grasshopper Guard (Top) film study: Countering a full inversion from the top, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Grasshopper guard pass",
+      "description": "Grasshopper Guard (Top) film study: Grasshopper guard pass, taught by Binhtri Vu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bWZFXzzs05U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bWZFXzzs05U",
+      "url": "https://www.youtube.com/watch?v=bWZFXzzs05U",
+      "creator": { "@type": "Person", "name": "Binhtri Vu" },
+      "duration": "PT347S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ Successful top play against grasshopper guard requires a combination of pressure
 The position also demands excellent leg lock defense awareness. Many of the bottom player's attacks come suddenly from the inverted position - rolling kneebars, ankle locks, and leg entanglements can appear with minimal warning. Your posture, base width, and ability to recognize submission entries become critical for safely navigating the position and advancing to more dominant positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grasshopper Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion from the top</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bWZFXzzs05U)
+
+<p class="clip-credit"><strong>Grasshopper guard pass</strong> — taught by Binhtri Vu · 5:47 · <a href="https://www.youtube.com/watch?v=bWZFXzzs05U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Complete Leg Weave Pass in BJJ. Detailed guide to finis
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Complete Leg Weave Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg weave guard pass in the gi",
+      "description": "Complete Leg Weave Pass film study: Leg weave guard pass in the gi, taught by F.I.T.E. Fit.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CkE-XEU26nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CkE-XEU26nc",
+      "url": "https://www.youtube.com/watch?v=CkE-XEU26nc",
+      "creator": { "@type": "Person", "name": "F.I.T.E. Fit" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the knee shield with the leg weave",
+      "description": "Complete Leg Weave Pass film study: Passing the knee shield with the leg weave, taught by BJJ for Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4LIBFmas-oE",
+      "url": "https://www.youtube.com/watch?v=4LIBFmas-oE",
+      "creator": { "@type": "Person", "name": "BJJ for Breakfast" },
+      "duration": "PT153S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Simple knee shield pass using the leg weave",
+      "description": "Complete Leg Weave Pass film study: Simple knee shield pass using the leg weave, taught by BJJ for Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cs9xSx57Rpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cs9xSx57Rpg",
+      "url": "https://www.youtube.com/watch?v=Cs9xSx57Rpg",
+      "creator": { "@type": "Person", "name": "BJJ for Breakfast" },
+      "duration": "PT176S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Within the broader guard passing ecosystem, the Complete Leg Weave Pass function
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Complete Leg Weave Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CkE-XEU26nc)
+
+<p class="clip-credit"><strong>Leg weave guard pass in the gi</strong> — taught by F.I.T.E. Fit · 1:30 · <a href="https://www.youtube.com/watch?v=CkE-XEU26nc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4LIBFmas-oE)
+
+<p class="clip-credit"><strong>Passing the knee shield with the leg weave</strong> — taught by BJJ for Breakfast · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cs9xSx57Rpg)
+
+<p class="clip-credit"><strong>Simple knee shield pass using the leg weave</strong> — taught by BJJ for Breakfast · 2:56 · <a href="https://www.youtube.com/watch?v=Cs9xSx57Rpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

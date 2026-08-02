@@ -154,6 +154,43 @@ description: "How to defend against guard opening in BJJ. Recognition cues, guar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Opening Sequence (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping a standing opponent in your closed guard",
+      "description": "Guard Opening Sequence (Defender) film study: Keeping a standing opponent in your closed guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9PIbVkxs7I8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9PIbVkxs7I8",
+      "url": "https://www.youtube.com/watch?v=9PIbVkxs7I8",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT127S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Common mistake made by guard players",
+      "description": "Guard Opening Sequence (Defender) film study: Common mistake made by guard players, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jx120fTdOfA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jx120fTdOfA",
+      "url": "https://www.youtube.com/watch?v=jx120fTdOfA",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -163,6 +200,34 @@ As the defender against the Guard Opening Sequence, you are the closed guard bot
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Opening Sequence (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9PIbVkxs7I8)
+
+<p class="clip-credit"><strong>Keeping a standing opponent in your closed guard</strong> — taught by Jean Jacques Machado · 2:07 · <a href="https://www.youtube.com/watch?v=9PIbVkxs7I8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jx120fTdOfA)
+
+<p class="clip-credit"><strong>Common mistake made by guard players</strong> — taught by Rickson Gracie · 0:58 · <a href="https://www.youtube.com/watch?v=jx120fTdOfA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

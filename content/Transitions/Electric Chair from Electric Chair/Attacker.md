@@ -174,6 +174,54 @@ description: "How to execute the Electric Chair groin-splitting submission from 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Electric Chair from Electric Chair (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Electric Chair Submission",
+      "description": "Electric Chair from Electric Chair (Attacker) film study: Electric Chair Submission, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I8HLek9eCbg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I8HLek9eCbg",
+      "url": "https://www.youtube.com/watch?v=I8HLek9eCbg",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Electric Chair Submission Finish",
+      "description": "Electric Chair from Electric Chair (Attacker) film study: Electric Chair Submission Finish, taught by Dan M..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X7JA72d-3vw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X7JA72d-3vw",
+      "url": "https://www.youtube.com/watch?v=X7JA72d-3vw",
+      "creator": { "@type": "Person", "name": "Dan M." },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Electric Chair Submission",
+      "description": "Electric Chair from Electric Chair (Attacker) film study: Electric Chair Submission, taught by Panacea BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pIoiYLBb_Vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pIoiYLBb_Vg",
+      "url": "https://www.youtube.com/watch?v=pIoiYLBb_Vg",
+      "creator": { "@type": "Person", "name": "Panacea BJJ" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Electric Chair from the attacker's perspective is a methodical submission th
 **From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Electric Chair from Electric Chair (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I8HLek9eCbg)
+
+<p class="clip-credit"><strong>Electric Chair Submission</strong> — taught by bjjtaro · 0:25 · <a href="https://www.youtube.com/watch?v=I8HLek9eCbg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X7JA72d-3vw)
+
+<p class="clip-credit"><strong>Electric Chair Submission Finish</strong> — taught by Dan M. · 0:55 · <a href="https://www.youtube.com/watch?v=X7JA72d-3vw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pIoiYLBb_Vg)
+
+<p class="clip-credit"><strong>Electric Chair Submission</strong> — taught by Panacea BJJ · 1:16 · <a href="https://www.youtube.com/watch?v=pIoiYLBb_Vg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -239,7 +323,7 @@ The Electric Chair from the attacker's perspective is a methodical submission th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 45% |
+| Success | [[Positions/Mount]] | 45% |
 | Failure | [[Positions/Half Guard/Electric Chair]] | 35% |
 | Counter | [[Positions/Half Guard]] | 20% |
 

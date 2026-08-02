@@ -34,6 +34,54 @@ description: "Master the stack pass from inverted guard in BJJ. Complete guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack from Inverted \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a full inversion",
+      "description": "Stack from Inverted film study: Countering a full inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to pass the inverted guard",
+      "description": "Stack from Inverted film study: How to pass the inverted guard, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M6gK8yjDFGE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M6gK8yjDFGE",
+      "url": "https://www.youtube.com/watch?v=M6gK8yjDFGE",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Stack pass to back take",
+      "description": "Stack from Inverted film study: Stack pass to back take, taught by Tony Casarez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bq_WmrzAMgs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bq_WmrzAMgs",
+      "url": "https://www.youtube.com/watch?v=bq_WmrzAMgs",
+      "creator": { "@type": "Person", "name": "Tony Casarez" },
+      "duration": "PT139S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The technique requires precise timing. Initiating the stack too early allows the
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack from Inverted in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M6gK8yjDFGE)
+
+<p class="clip-credit"><strong>How to pass the inverted guard</strong> — taught by Wim Deputter · 1:31 · <a href="https://www.youtube.com/watch?v=M6gK8yjDFGE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bq_WmrzAMgs)
+
+<p class="clip-credit"><strong>Stack pass to back take</strong> — taught by Tony Casarez · 2:19 · <a href="https://www.youtube.com/watch?v=bq_WmrzAMgs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

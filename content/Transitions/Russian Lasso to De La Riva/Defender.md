@@ -148,6 +148,43 @@ description: "Defend against the Russian Lasso to De La Riva transition. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Lasso to De La Riva (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Over-under stack pass against De La Riva",
+      "description": "Russian Lasso to De La Riva (Defender) film study: Over-under stack pass against De La Riva, taught by Steven Balance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/krtNPm3OXtc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/krtNPm3OXtc",
+      "url": "https://www.youtube.com/watch?v=krtNPm3OXtc",
+      "creator": { "@type": "Person", "name": "Steven Balance" },
+      "duration": "PT163S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Collar and sleeve to shut down deep De La Riva",
+      "description": "Russian Lasso to De La Riva (Defender) film study: Collar and sleeve to shut down deep De La Riva, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6yFTfWUTJiI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6yFTfWUTJiI",
+      "url": "https://www.youtube.com/watch?v=6yFTfWUTJiI",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT272S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the Russian Lasso to De La Riva transition requires recognizin
 **Opponent's Starting Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Lasso to De La Riva (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=krtNPm3OXtc)
+
+<p class="clip-credit"><strong>Over-under stack pass against De La Riva</strong> — taught by Steven Balance · 2:43 · <a href="https://www.youtube.com/watch?v=krtNPm3OXtc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6yFTfWUTJiI)
+
+<p class="clip-credit"><strong>Collar and sleeve to shut down deep De La Riva</strong> — taught by Lucas Lepri · 4:32 · <a href="https://www.youtube.com/watch?v=6yFTfWUTJiI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -142,6 +142,43 @@ description: "Defend against the hip rotation escape from Electric Chair in BJJ.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Rotation Escape from Electric Chair (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Electric chair sweep technique breakdown",
+      "description": "Hip Rotation Escape from Electric Chair (Defender) film study: Electric chair sweep technique breakdown, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9CxxyZEd7-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9CxxyZEd7-E",
+      "url": "https://www.youtube.com/watch?v=9CxxyZEd7-E",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Electric chair sweep from lockdown",
+      "description": "Hip Rotation Escape from Electric Chair (Defender) film study: Electric chair sweep from lockdown, taught by Moncaio Brothers Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/adarj-QUB4Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/adarj-QUB4Y",
+      "url": "https://www.youtube.com/watch?v=adarj-QUB4Y",
+      "creator": { "@type": "Person", "name": "Moncaio Brothers Jiujitsu" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ As the defender against the hip rotation escape, you are the Electric Chair top 
 **Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Rotation Escape from Electric Chair (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9CxxyZEd7-E)
+
+<p class="clip-credit"><strong>Electric chair sweep technique breakdown</strong> — taught by Asaf Mich · 1:16 · <a href="https://www.youtube.com/watch?v=9CxxyZEd7-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=adarj-QUB4Y)
+
+<p class="clip-credit"><strong>Electric chair sweep from lockdown</strong> — taught by Moncaio Brothers Jiujitsu · 0:47 · <a href="https://www.youtube.com/watch?v=adarj-QUB4Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

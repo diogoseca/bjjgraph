@@ -21,31 +21,31 @@ description: "Control twister side control from top position with systematic sub
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Shoulder of Justice",
-      "text": "From this position, attempt Side Control to Shoulder of Justice. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Shoulder of Justice. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke from Twister Side Control",
-      "text": "From this position, attempt Darce Choke from Twister Side Control. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Darce Choke from Twister Side Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Twister Side Control",
-      "text": "From this position, attempt Kimura from Twister Side Control. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Twister Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
@@ -153,6 +153,54 @@ description: "Control twister side control from top position with systematic sub
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister Side Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister side control",
+      "description": "Twister Side Control (Top) film study: Twister side control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
+      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister side attacks",
+      "description": "Twister Side Control (Top) film study: Twister side attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Truck options from twister side control",
+      "description": "Twister Side Control (Top) film study: Truck options from twister side control, taught by Jeremiah Vance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/im8KbQUyxLY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/im8KbQUyxLY",
+      "url": "https://www.youtube.com/watch?v=im8KbQUyxLY",
+      "creator": { "@type": "Person", "name": "Jeremiah Vance" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +218,42 @@ From a strategic perspective, Twister Side Control functions as a high-risk, hig
 The learning progression for Twister Side Control top is significant, with beginners often struggling to maintain the position while simultaneously pursuing submissions. The coordination required to manage leg hooks, shoulder pressure, and submission mechanics challenges practitioners accustomed to more static control positions. Intermediate practitioners develop better positional maintenance and can threaten submissions with moderate success, though finish rates remain lower than elite practitioners. Advanced players integrate Twister Side Control seamlessly into their overall top game, using it as both a finishing platform and a transitional tool to other dominant positions when submission attempts are defended.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister Side Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R55lmkc6Mus)
+
+<p class="clip-credit"><strong>Twister side control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Twister side attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=im8KbQUyxLY)
+
+<p class="clip-credit"><strong>Truck options from twister side control</strong> — taught by Jeremiah Vance · 0:42 · <a href="https://www.youtube.com/watch?v=im8KbQUyxLY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -226,7 +310,7 @@ The learning progression for Twister Side Control top is significant, with begin
 
 
 **If bottom player attempts to turn into top player to create frames or relieve pressure:**
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Submissions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[game-over]] (Probability: 65%)
 
 
@@ -242,7 +326,7 @@ The learning progression for Twister Side Control top is significant, with begin
 
 **If bottom player extends near arm to frame or post during escape attempt:**
 - Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[game-over]] (Probability: 68%)
-- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 55%)
 
 
 
@@ -350,7 +434,7 @@ Start from various positions (truck, side control, failed back take). Partner pr
 
 - **[[Positions/Twister Control/Truck]]** - Primary entry position and related control structure within twister system
 - **[[Positions/Twister Control]]** - Advanced progression when achieving full twister setup mechanics
-- **[[Transitions/Darce Choke]]** - High-percentage submission option when bottom player turns into top player
+- **[[Submissions/Darce Choke]]** - High-percentage submission option when bottom player turns into top player
 - **[[Transitions/Anaconda Choke]]** - Alternative front choke option from similar positional structure
 - **[[Positions/Back Control]]** - Common transition when bottom player exposes back during escape attempts
 - **[[Positions/Kimura Trap]]** - Submission control option when bottom player extends arm to frame

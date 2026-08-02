@@ -21,37 +21,37 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Half Guard",
-      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Guillotine Setup",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,43 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "K-Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "K Guard Defense and Pass",
+      "description": "K-Guard (Top) film study: K Guard Defense and Pass, taught by Pure Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/91eO9lV-sVE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/91eO9lV-sVE",
+      "url": "https://www.youtube.com/watch?v=91eO9lV-sVE",
+      "creator": { "@type": "Person", "name": "Pure Grappling" },
+      "duration": "PT281S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K Guard Defense",
+      "description": "K-Guard (Top) film study: K Guard Defense, taught by Rodrigo Lopes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JxDViUC4xhk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JxDViUC4xhk",
+      "url": "https://www.youtube.com/watch?v=JxDViUC4xhk",
+      "creator": { "@type": "Person", "name": "Rodrigo Lopes" },
+      "duration": "PT289S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -168,6 +205,34 @@ The K-Guard Top position is characterized by facing a dynamic retention system t
 Strategically, K-Guard Top represents a transitional position where the top player is working to consolidate passing pressure while the bottom player attempts to create offensive opportunities or recover full guard. Success from this position requires understanding how to redirect the bottom player's hook tension, flatten their defensive structure through shoulder pressure and hip positioning, and time passing sequences to coincide with moments when the bottom player's frames are compromised. The position demands patience and systematic pressure to overcome the bottom player's dynamic retention mechanics and advance to more dominant positions like side control or mount.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch K-Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=91eO9lV-sVE)
+
+<p class="clip-credit"><strong>K Guard Defense and Pass</strong> — taught by Pure Grappling · 4:41 · <a href="https://www.youtube.com/watch?v=91eO9lV-sVE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JxDViUC4xhk)
+
+<p class="clip-credit"><strong>K Guard Defense</strong> — taught by Rodrigo Lopes · 4:49 · <a href="https://www.youtube.com/watch?v=JxDViUC4xhk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

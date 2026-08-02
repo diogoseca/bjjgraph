@@ -34,6 +34,43 @@ description: "Master recovering knee shield from flattened half guard in BJJ. Co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Recover Knee Shield from Flattened Half \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield half guard recovery",
+      "description": "Recover Knee Shield from Flattened Half film study: Knee shield half guard recovery, taught by United Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hXAs2HsP9Cg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hXAs2HsP9Cg",
+      "url": "https://www.youtube.com/watch?v=hXAs2HsP9Cg",
+      "creator": { "@type": "Person", "name": "United Martial Arts" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stopping the half guard underhook",
+      "description": "Recover Knee Shield from Flattened Half film study: Stopping the half guard underhook, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The strategic importance of this transition cannot be overstated. Without the ab
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Recover Knee Shield from Flattened Half in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hXAs2HsP9Cg)
+
+<p class="clip-credit"><strong>Knee shield half guard recovery</strong> — taught by United Martial Arts · 2:01 · <a href="https://www.youtube.com/watch?v=hXAs2HsP9Cg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stopping the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

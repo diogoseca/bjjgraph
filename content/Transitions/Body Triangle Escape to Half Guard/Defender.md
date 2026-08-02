@@ -148,6 +148,54 @@ description: "Defend against the body triangle escape in BJJ. Learn to maintain 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Triangle Escape to Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Locking the body triangle to hold the back",
+      "description": "Body Triangle Escape to Half Guard (Defender) film study: Locking the body triangle to hold the back, taught by Grapple Box coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3OkCuU0B0UE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3OkCuU0B0UE",
+      "url": "https://www.youtube.com/watch?v=3OkCuU0B0UE",
+      "creator": { "@type": "Person", "name": "Grapple Box coach" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the body triangle footlock defense",
+      "description": "Body Triangle Escape to Half Guard (Defender) film study: Countering the body triangle footlock defense, taught by MMA Academy coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CUZLhGfADcA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CUZLhGfADcA",
+      "url": "https://www.youtube.com/watch?v=CUZLhGfADcA",
+      "creator": { "@type": "Person", "name": "MMA Academy coach" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body triangle mechanics from the back",
+      "description": "Body Triangle Escape to Half Guard (Defender) film study: Body triangle mechanics from the back, taught by MMA Academy coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v0OBjBZ1Jug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v0OBjBZ1Jug",
+      "url": "https://www.youtube.com/watch?v=v0OBjBZ1Jug",
+      "creator": { "@type": "Person", "name": "MMA Academy coach" },
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender in the Body Triangle Escape to Half Guard, you are the back cont
 **Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Triangle Escape to Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3OkCuU0B0UE)
+
+<p class="clip-credit"><strong>Locking the body triangle to hold the back</strong> — taught by Grapple Box coach · 0:28 · <a href="https://www.youtube.com/watch?v=3OkCuU0B0UE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CUZLhGfADcA)
+
+<p class="clip-credit"><strong>Countering the body triangle footlock defense</strong> — taught by MMA Academy coach · 0:51 · <a href="https://www.youtube.com/watch?v=CUZLhGfADcA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v0OBjBZ1Jug)
+
+<p class="clip-credit"><strong>Body triangle mechanics from the back</strong> — taught by MMA Academy coach · 0:54 · <a href="https://www.youtube.com/watch?v=v0OBjBZ1Jug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

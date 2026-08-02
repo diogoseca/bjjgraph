@@ -180,6 +180,54 @@ description: "Master heel hook defense escape execution from Honey Hole bottom. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook Defense Escape (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending heel hooks - core escape concepts",
+      "description": "Heel Hook Defense Escape (Attacker) film study: Defending heel hooks - core escape concepts, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
+      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The one key idea for defending heel hooks",
+      "description": "Heel Hook Defense Escape (Attacker) film study: The one key idea for defending heel hooks, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z0WDtUMkBP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z0WDtUMkBP8",
+      "url": "https://www.youtube.com/watch?v=Z0WDtUMkBP8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT170S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double outside ashi heel hook running man escape",
+      "description": "Heel Hook Defense Escape (Attacker) film study: Double outside ashi heel hook running man escape, taught by Grappling Game Changer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2RLgyzWN71Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2RLgyzWN71Y",
+      "url": "https://www.youtube.com/watch?v=2RLgyzWN71Y",
+      "creator": { "@type": "Person", "name": "Grappling Game Changer" },
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the person executing the Heel Hook Defense Escape, you are caught in the Hone
 **From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook Defense Escape (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+
+<p class="clip-credit"><strong>Defending heel hooks - core escape concepts</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z0WDtUMkBP8)
+
+<p class="clip-credit"><strong>The one key idea for defending heel hooks</strong> — taught by Lachlan Giles · 2:50 · <a href="https://www.youtube.com/watch?v=Z0WDtUMkBP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2RLgyzWN71Y)
+
+<p class="clip-credit"><strong>Double outside ashi heel hook running man escape</strong> — taught by Grappling Game Changer · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -140,6 +140,54 @@ description: "Defend the collar sleeve to spider guard transition. Learn to reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Sleeve to Spider Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the cross spider grip",
+      "description": "Collar Sleeve to Spider Guard (Defender) film study: Countering the cross spider grip, taught by BJJ Lab Z\u00fcrich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uS8G8ETMHc8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uS8G8ETMHc8",
+      "url": "https://www.youtube.com/watch?v=uS8G8ETMHc8",
+      "creator": { "@type": "Person", "name": "BJJ Lab Z\u00fcrich" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Handling strong grips in spider guard",
+      "description": "Collar Sleeve to Spider Guard (Defender) film study: Handling strong grips in spider guard, taught by Animal BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HeV1fqXa8RM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HeV1fqXa8RM",
+      "url": "https://www.youtube.com/watch?v=HeV1fqXa8RM",
+      "creator": { "@type": "Person", "name": "Animal BJJ" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three grip breaks against sleeve grips",
+      "description": "Collar Sleeve to Spider Guard (Defender) film study: Three grip breaks against sleeve grips, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J6RdX606DrY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J6RdX606DrY",
+      "url": "https://www.youtube.com/watch?v=J6RdX606DrY",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender facing the collar sleeve to spider guard transition, your object
 **Opponent's Starting Position**: [[Positions/Collar Sleeve Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Sleeve to Spider Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uS8G8ETMHc8)
+
+<p class="clip-credit"><strong>Countering the cross spider grip</strong> — taught by BJJ Lab Zürich · 1:07 · <a href="https://www.youtube.com/watch?v=uS8G8ETMHc8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HeV1fqXa8RM)
+
+<p class="clip-credit"><strong>Handling strong grips in spider guard</strong> — taught by Animal BJJ · 0:53 · <a href="https://www.youtube.com/watch?v=HeV1fqXa8RM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J6RdX606DrY)
+
+<p class="clip-credit"><strong>Three grip breaks against sleeve grips</strong> — taught by Malachy Friedman · 1:04 · <a href="https://www.youtube.com/watch?v=J6RdX606DrY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

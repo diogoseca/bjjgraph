@@ -174,6 +174,54 @@ description: "How to execute Front Headlock to Darce in BJJ. Attacking perspecti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Front Headlock to Darce (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three Darce Choke Finishes",
+      "description": "Front Headlock to Darce (Attacker) film study: Three Darce Choke Finishes, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pnLk6jW0qeI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pnLk6jW0qeI",
+      "url": "https://www.youtube.com/watch?v=pnLk6jW0qeI",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT15S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce vs Anaconda: Grip and Finish Difference",
+      "description": "Front Headlock to Darce (Attacker) film study: Darce vs Anaconda: Grip and Finish Difference, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
+      "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Short Arm Darce from Front Headlock",
+      "description": "Front Headlock to Darce (Attacker) film study: Short Arm Darce from Front Headlock, taught by Travis Moore.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XpFxqgrhEgA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XpFxqgrhEgA",
+      "url": "https://www.youtube.com/watch?v=XpFxqgrhEgA",
+      "creator": { "@type": "Person", "name": "Travis Moore" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 **From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Front Headlock to Darce (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pnLk6jW0qeI)
+
+<p class="clip-credit"><strong>Three Darce Choke Finishes</strong> — taught by Bowerhouse MMA · 0:15 · <a href="https://www.youtube.com/watch?v=pnLk6jW0qeI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
+
+<p class="clip-credit"><strong>Darce vs Anaconda: Grip and Finish Difference</strong> — taught by Matt Arroyo · 1:07 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XpFxqgrhEgA)
+
+<p class="clip-credit"><strong>Short Arm Darce from Front Headlock</strong> — taught by Travis Moore · 2:00 · <a href="https://www.youtube.com/watch?v=XpFxqgrhEgA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

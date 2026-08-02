@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Squid Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Passing Squid Guard is fundamentally a fabric-clearing problem before it is a passing problem: the bottom player's asymmetrical lapel wrap and threading-leg configuration must be dismantled before any orthodox passing mechanic can be applied. Unlike standard open guard passes where grip fighting and directional pressure are the primary concerns, Squid Guard passing demands a preliminary phase dedicated entirely to removing the fabric entanglement that defines the position, combined with strict postural discipline.\n\nThe passing strategy centers on a three-phase approach: first establishing stable posture and preventing the bottom player's inversion attempts, second stripping or clearing the lapel wrap that restricts the passer's mobility, and third executing a directional pass once the primary control mechanism has been neutralized. The critical insight is that attempting any standard passing technique while the lapel remains entangled around your leg will fail because the bottom player retains mechanical leverage through the fabric connection.\n\nThis pass integrates into the broader guard passing system as a specialized response to modern lapel-based guards. The principles of posture maintenance, grip stripping, and systematic entanglement clearing transfer directly to passing other lapel guards such as Worm Guard and Lapel Guard. Success requires patience and technical precision rather than explosive athleticism, making it particularly effective for methodical passers who prefer systematic approaches over speed-based passing.",
   "conditions": [
     "Bottom player has established Squid Guard with lapel wrapped around your leg or body",
@@ -251,46 +266,175 @@
     "flashcards": [
       {
         "question": "Why must you clear the lapel entanglement before attempting any directional pass?",
-        "answer": "The lapel creates a mechanical tether between the guard player's hand and your leg that restricts your movement and provides constant off-balancing leverage. Any passing attempt with the lapel still attached allows the guard player to redirect your momentum into sweeps, arrest your forward progress, or use the tension to recover their guard structure. The entanglement must be fully removed to restore your freedom of movement for standard passing mechanics."
+        "answer": "The lapel creates a mechanical tether between the guard player's hand and your leg that restricts your movement and provides constant off-balancing leverage. Any passing attempt with the lapel still attached allows the guard player to redirect your momentum into sweeps, arrest your forward progress, or use the tension to recover their guard structure. The entanglement must be fully removed to restore your freedom of movement for standard passing mechanics.",
+        "answer_line": "Restores mobility to pass",
+        "distractors": {
+          "plausible": [
+            "Weakens their grip strength",
+            "Sets up a submission entry"
+          ],
+          "trap": [
+            "Power through with lapel attached"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inverting while you strip their lapel grip - what is your immediate response?",
-        "answer": "Immediately abandon the lapel strip and sprawl your hips backward while driving heavy shoulder pressure into their inverting body. The inversion threatens back exposure which is a far worse outcome than remaining in their guard. Once you have stuffed the inversion by flattening them back down, resume the lapel clearing from the stabilized position. Never sacrifice back safety for grip stripping progress."
+        "answer": "Immediately abandon the lapel strip and sprawl your hips backward while driving heavy shoulder pressure into their inverting body. The inversion threatens back exposure which is a far worse outcome than remaining in their guard. Once you have stuffed the inversion by flattening them back down, resume the lapel clearing from the stabilized position. Never sacrifice back safety for grip stripping progress.",
+        "answer_line": "Sprawl and stuff the inversion",
+        "distractors": {
+          "plausible": [
+            "Finish stripping the lapel first",
+            "Chase the leg for a leglock"
+          ],
+          "trap": [
+            "Let go and step back entirely"
+          ]
+        }
       },
       {
         "question": "What is the critical role of controlling the guard player's free hand during the passing sequence?",
-        "answer": "The free hand is the guard player's primary tool for deepening the lapel entanglement, adjusting grips, and re-establishing control after you begin stripping. Without controlling it via sleeve or wrist grip, every inch of lapel you successfully strip gets immediately replaced or the guard player establishes new control points. Controlling the free hand transforms the clearing sequence from an adversarial fight into a one-sided dismantling process."
+        "answer": "The free hand is the guard player's primary tool for deepening the lapel entanglement, adjusting grips, and re-establishing control after you begin stripping. Without controlling it via sleeve or wrist grip, every inch of lapel you successfully strip gets immediately replaced or the guard player establishes new control points. Controlling the free hand transforms the clearing sequence from an adversarial fight into a one-sided dismantling process.",
+        "answer_line": "Pin their free hand with a grip",
+        "distractors": {
+          "plausible": [
+            "Grip their far collar instead",
+            "Trap their leg to stop hooks"
+          ],
+          "trap": [
+            "Ignore the free hand, strip faster"
+          ]
+        }
       },
       {
         "question": "How should your base and weight distribution differ when facing Squid Guard compared to standard open guards?",
-        "answer": "Against Squid Guard, you need a significantly wider stance with lower hips and bent knees to resist the constant directional pull of the lapel tension. Standard open guard passing often uses a more mobile, upright stance, but the lapel creates persistent off-balancing force that will topple a narrow base. Distribute weight across both legs rather than favoring the passing side, and be prepared to counterbalance by shifting weight opposite to the direction of lapel pull."
+        "answer": "Against Squid Guard, you need a significantly wider stance with lower hips and bent knees to resist the constant directional pull of the lapel tension. Standard open guard passing often uses a more mobile, upright stance, but the lapel creates persistent off-balancing force that will topple a narrow base. Distribute weight across both legs rather than favoring the passing side, and be prepared to counterbalance by shifting weight opposite to the direction of lapel pull.",
+        "answer_line": "Wide low base, weight both legs",
+        "distractors": {
+          "plausible": [
+            "Narrow stance for mobility",
+            "Load weight on passing side"
+          ],
+          "trap": [
+            "Stand tall to see the grip better"
+          ]
+        }
       },
       {
         "question": "What determines whether you should backstep clear or direct strip the lapel?",
-        "answer": "The depth and direction of the lapel wrap determines the clearing method. If the lapel is wrapped shallowly around the outside of your knee or ankle, a direct strip by pulling the fabric in the reverse direction of the wrap is efficient. If the wrap is deep, passing between your legs, or wrapped multiple times, a backstep creates slack in the fabric by moving your leg away from the wrap direction, making the strip significantly easier. Deep wraps almost always require the backstep approach."
+        "answer": "The depth and direction of the lapel wrap determines the clearing method. If the lapel is wrapped shallowly around the outside of your knee or ankle, a direct strip by pulling the fabric in the reverse direction of the wrap is efficient. If the wrap is deep, passing between your legs, or wrapped multiple times, a backstep creates slack in the fabric by moving your leg away from the wrap direction, making the strip significantly easier. Deep wraps almost always require the backstep approach.",
+        "answer_line": "Deep wrap: backstep; shallow: strip",
+        "distractors": {
+          "plausible": [
+            "Always backstep for safety",
+            "Always strip, ignore wrap depth"
+          ],
+          "trap": [
+            "Yank straight back regardless"
+          ]
+        }
       },
       {
         "question": "Why is hesitation after clearing the lapel one of the most costly errors in this passing sequence?",
-        "answer": "The moment the lapel is cleared represents a brief window where the guard player has lost their primary control mechanism and has not yet established a replacement. This window lasts only two to three seconds before they can re-grip the lapel, transition to a different guard, or establish new control points. Hesitation wastes this window entirely and forces you to restart the entire clearing process against a guard player who is now prepared for your approach."
+        "answer": "The moment the lapel is cleared represents a brief window where the guard player has lost their primary control mechanism and has not yet established a replacement. This window lasts only two to three seconds before they can re-grip the lapel, transition to a different guard, or establish new control points. Hesitation wastes this window entirely and forces you to restart the entire clearing process against a guard player who is now prepared for your approach.",
+        "answer_line": "Attack instantly in the window",
+        "distractors": {
+          "plausible": [
+            "Reset base before advancing",
+            "Check grips before continuing"
+          ],
+          "trap": [
+            "Pause to celebrate the strip"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions from Squid Guard to standard De La Riva during your pass attempt - how do you adapt?",
-        "answer": "Recognize the transition immediately as an opportunity rather than a setback. The guard player has voluntarily abandoned their strongest control mechanism, the lapel entanglement. Switch to your standard De La Riva passing approach, which is a far simpler problem than Squid Guard passing. Common options include knee slice, backstep, or leg drag. The fact that they felt compelled to transition indicates your passing pressure was effective."
+        "answer": "Recognize the transition immediately as an opportunity rather than a setback. The guard player has voluntarily abandoned their strongest control mechanism, the lapel entanglement. Switch to your standard De La Riva passing approach, which is a far simpler problem than Squid Guard passing. Common options include knee slice, backstep, or leg drag. The fact that they felt compelled to transition indicates your passing pressure was effective.",
+        "answer_line": "Switch to standard DLR passing",
+        "distractors": {
+          "plausible": [
+            "Chase the lapel that's now gone",
+            "Stay cautious, they gained ground"
+          ],
+          "trap": [
+            "Retreat and reset the pass"
+          ]
+        }
       },
       {
         "question": "What grip configuration gives you the best control during the lapel stripping phase?",
-        "answer": "The optimal configuration is one hand controlling the guard player's free sleeve or wrist to prevent re-gripping, while the other hand performs the lapel strip by gripping the lapel fabric near the point where it contacts your leg. Grip the lapel close to your body rather than near their hand, as this gives you better leverage for stripping and prevents them from simply adjusting the wrap angle. Your sleeve-controlling hand should maintain constant pressure throughout."
+        "answer": "The optimal configuration is one hand controlling the guard player's free sleeve or wrist to prevent re-gripping, while the other hand performs the lapel strip by gripping the lapel fabric near the point where it contacts your leg. Grip the lapel close to your body rather than near their hand, as this gives you better leverage for stripping and prevents them from simply adjusting the wrap angle. Your sleeve-controlling hand should maintain constant pressure throughout.",
+        "answer_line": "Control sleeve, strip lapel close",
+        "distractors": {
+          "plausible": [
+            "Strip lapel near their hand",
+            "Grip both sleeves simultaneously"
+          ],
+          "trap": [
+            "Drop sleeve grip to strip faster"
+          ]
+        }
       },
       {
         "question": "In which direction must you pull the lapel to strip it, and why does direction matter more than strength?",
-        "answer": "Pull the fabric in the exact reverse of its wrap direction, tracing the wrap backward out of the entanglement. Pulling in any other direction tightens or pivots the wrap against your leg, so even maximal grip strength fails to free it. Identifying the wrap direction first lets a controlled, low-effort pull peel the lapel away cleanly, which is why systematic clearing consistently outperforms explosive yanking and saves the energy you need to complete the pass."
+        "answer": "Pull the fabric in the exact reverse of its wrap direction, tracing the wrap backward out of the entanglement. Pulling in any other direction tightens or pivots the wrap against your leg, so even maximal grip strength fails to free it. Identifying the wrap direction first lets a controlled, low-effort pull peel the lapel away cleanly, which is why systematic clearing consistently outperforms explosive yanking and saves the energy you need to complete the pass.",
+        "answer_line": "Pull reverse of wrap direction",
+        "distractors": {
+          "plausible": [
+            "Pull straight up with force",
+            "Pull toward their gripping hand"
+          ],
+          "trap": [
+            "Yank hardest direction available"
+          ]
+        }
       },
       {
         "question": "After clearing the lapel, your knee slice stalls against a strong frame - what chain attack keeps you progressing?",
-        "answer": "Do not force the original direction. Switch your angle and feed their framing arm across their body to enter a leg drag, or step over into a backstep pass toward their hip. Because the lapel is cleared you now have full mobility, so flow between knee slice, leg drag, and backstep based on which frame they commit to. Keep your free hand pinning their near hip throughout the switch so they cannot re-insert a hook or re-feed the lapel during the transition."
+        "answer": "Do not force the original direction. Switch your angle and feed their framing arm across their body to enter a leg drag, or step over into a backstep pass toward their hip. Because the lapel is cleared you now have full mobility, so flow between knee slice, leg drag, and backstep based on which frame they commit to. Keep your free hand pinning their near hip throughout the switch so they cannot re-insert a hook or re-feed the lapel during the transition.",
+        "answer_line": "Chain to leg drag or backstep",
+        "distractors": {
+          "plausible": [
+            "Power through the same direction",
+            "Switch to a toreando pass"
+          ],
+          "trap": [
+            "Abandon pass and reset to guard"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Squid Guard passing involves significant tension on both practitioners' joints, particularly the passer's knee when entangled by the lapel wrap. Avoid explosive yanking motions to free the lapel, as sudden force can stress the knee joint in unexpected directions. If the lapel wrap creates uncomfortable torque on your knee, stop and communicate with your training partner to adjust rather than forcing through the position. During stacking variations, be mindful of the bottom player's neck and spine compression. In training, use controlled progressive resistance rather than explosive movements."
+    "safety_considerations": "Squid Guard passing involves significant tension on both practitioners' joints, particularly the passer's knee when entangled by the lapel wrap. Avoid explosive yanking motions to free the lapel, as sudden force can stress the knee joint in unexpected directions. If the lapel wrap creates uncomfortable torque on your knee, stop and communicate with your training partner to adjust rather than forcing through the position. During stacking variations, be mindful of the bottom player's neck and spine compression. In training, use controlled progressive resistance rather than explosive movements.",
+    "clips": [
+      {
+        "id": "U6h4HKtwqU4",
+        "title": "Passing the lapel/fio dental guard",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Jnh1v9nIPpU",
+        "title": "Super simple squid guard pass",
+        "by": "Andre Galvao",
+        "vertical": false,
+        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nPT4tqORpOA",
+        "title": "How to pass the lapel squid guard",
+        "by": "Nick Salles and Danny Maira",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 672,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Squid Guard Defender",
@@ -377,19 +521,59 @@
     "flashcards": [
       {
         "question": "When is the optimal moment to initiate a back take attempt against a passer clearing your Squid Guard?",
-        "answer": "The optimal moment is when the passer commits a hand to the lapel strip and leans their weight forward or to one side. This commitment narrows their base and removes one hand from defensive positioning, creating the postural compromise needed for a successful inversion. Attempting the back take before this commitment means the passer has full defensive capacity to sprawl and stuff your rotation."
+        "answer": "The optimal moment is when the passer commits a hand to the lapel strip and leans their weight forward or to one side. This commitment narrows their base and removes one hand from defensive positioning, creating the postural compromise needed for a successful inversion. Attempting the back take before this commitment means the passer has full defensive capacity to sprawl and stuff your rotation.",
+        "answer_line": "When they commit weight to strip",
+        "distractors": {
+          "plausible": [
+            "As soon as lapel contact begins",
+            "After they fully clear the lapel"
+          ],
+          "trap": [
+            "Invert immediately at first grip"
+          ]
+        }
       },
       {
         "question": "Your lapel grip has been partially stripped and you cannot re-establish it - what should you do?",
-        "answer": "Immediately transition to a secondary guard rather than fighting to restore a compromised Squid Guard. If your threading hook is still in place, transition to standard De La Riva by adjusting your hook depth and establishing collar or sleeve grips. If the hook is also compromised, recover to Spider Guard or basic open guard using your upper body grips as anchors during the transition. A clean guard transition preserves defensive integrity."
+        "answer": "Immediately transition to a secondary guard rather than fighting to restore a compromised Squid Guard. If your threading hook is still in place, transition to standard De La Riva by adjusting your hook depth and establishing collar or sleeve grips. If the hook is also compromised, recover to Spider Guard or basic open guard using your upper body grips as anchors during the transition. A clean guard transition preserves defensive integrity.",
+        "answer_line": "Transition to a secondary guard",
+        "distractors": {
+          "plausible": [
+            "Fight to re-grip the lapel",
+            "Invert to reclaim the position"
+          ],
+          "trap": [
+            "Release all grips and reset neutral"
+          ]
+        }
       },
       {
         "question": "How does the threading hook function differently when the lapel is intact versus when it has been stripped?",
-        "answer": "With the lapel intact, the threading hook works in combination with the fabric tension to create compound control that restricts the passer's mobility from multiple angles simultaneously. Without the lapel, the threading hook alone provides only single-directional control similar to a standard De La Riva hook. This reduced control means the passer can address the hook with standard leg pummeling techniques. You must compensate by increasing hook activity and establishing stronger upper body grips."
+        "answer": "With the lapel intact, the threading hook works in combination with the fabric tension to create compound control that restricts the passer's mobility from multiple angles simultaneously. Without the lapel, the threading hook alone provides only single-directional control similar to a standard De La Riva hook. This reduced control means the passer can address the hook with standard leg pummeling techniques. You must compensate by increasing hook activity and establishing stronger upper body grips.",
+        "answer_line": "Increase hook activity, add grips",
+        "distractors": {
+          "plausible": [
+            "Hook alone still fully controls",
+            "Switch hooks to the far leg"
+          ],
+          "trap": [
+            "Release the hook, rely on grips only"
+          ]
+        }
       },
       {
         "question": "What visual cue tells you the passer is about to commit to a directional pass after clearing your lapel?",
-        "answer": "Watch for the passer's hips to lower and shift to one side while their chest angle changes from perpendicular to angled toward their chosen passing direction. Their hands will transition from grip fighting or lapel stripping to controlling your legs or hips for directional passing. This weight shift and hand transition is the critical window where you must either re-establish guard control or commit to a counter-attack, because once they begin the directional pass, defensive options narrow rapidly."
+        "answer": "Watch for the passer's hips to lower and shift to one side while their chest angle changes from perpendicular to angled toward their chosen passing direction. Their hands will transition from grip fighting or lapel stripping to controlling your legs or hips for directional passing. This weight shift and hand transition is the critical window where you must either re-establish guard control or commit to a counter-attack, because once they begin the directional pass, defensive options narrow rapidly.",
+        "answer_line": "Hips drop, hands shift to legs",
+        "distractors": {
+          "plausible": [
+            "Increased grip fighting tempo",
+            "Slower breathing, relaxed posture"
+          ],
+          "trap": [
+            "Wait for them to fully pass"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -412,6 +596,35 @@
         "phase": "Phase 4: Full Resistance Defense",
         "focus": "Complete defensive system against live passing attempts",
         "description": "Timed rounds where the partner attempts to pass your Squid Guard at full competitive intensity. Apply the complete defensive system including grip retention, counter-attacks, and guard transitions. Track which phase of the passing sequence you most frequently lose position and target that phase for improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "mIUc5788gsw",
+        "title": "Squid guard entry vs standing opponent into sweep",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5M1TLgoOBNU",
+        "title": "Playing squid guard: five key tricks",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 564,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "l1h7Cu36NUs",
+        "title": "Squid guard sweep from the pass attempt",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 311,
+        "verified": "2026-07-15"
       }
     ]
   }

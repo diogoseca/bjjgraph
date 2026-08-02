@@ -34,6 +34,54 @@ description: "Learn the calf slicer from saddle position with step-by-step finis
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Saddle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Honey Hole / Calf Slicer from Lapel Guard",
+      "description": "Calf Slicer from Saddle film study: Honey Hole / Calf Slicer from Lapel Guard, taught by Vicente Cavalcanti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7ni5VwepAbs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7ni5VwepAbs",
+      "url": "https://www.youtube.com/watch?v=7ni5VwepAbs",
+      "creator": { "@type": "Person", "name": "Vicente Cavalcanti" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Calf slicer from the saddle",
+      "description": "Calf Slicer from Saddle film study: Calf slicer from the saddle, taught by Scott Ryan Chiriboga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FDCL7MV5G7s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FDCL7MV5G7s",
+      "url": "https://www.youtube.com/watch?v=FDCL7MV5G7s",
+      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Linking honey hole, kneebars and calf slicers",
+      "description": "Calf Slicer from Saddle film study: Linking honey hole, kneebars and calf slicers, taught by Kevin Berbrich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Io-zglFj2q0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Io-zglFj2q0",
+      "url": "https://www.youtube.com/watch?v=Io-zglFj2q0",
+      "creator": { "@type": "Person", "name": "Kevin Berbrich" },
+      "duration": "PT299S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ At competition level, this submission serves as a critical complement to heel ho
 **Starting Position**: [[Positions/Ashi Garami/Saddle]] · **From**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Saddle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7ni5VwepAbs)
+
+<p class="clip-credit"><strong>Honey Hole / Calf Slicer from Lapel Guard</strong> — taught by Vicente Cavalcanti · 1:12 · <a href="https://www.youtube.com/watch?v=7ni5VwepAbs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FDCL7MV5G7s)
+
+<p class="clip-credit"><strong>Calf slicer from the saddle</strong> — taught by Scott Ryan Chiriboga · 1:18 · <a href="https://www.youtube.com/watch?v=FDCL7MV5G7s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Io-zglFj2q0)
+
+<p class="clip-credit"><strong>Linking honey hole, kneebars and calf slicers</strong> — taught by Kevin Berbrich · 4:59 · <a href="https://www.youtube.com/watch?v=Io-zglFj2q0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -222,7 +306,7 @@ At competition level, this submission serves as a critical complement to heel ho
 
 ## Related
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Bicep Slicer]]
 - [[Positions/Aoki Lock Control]]

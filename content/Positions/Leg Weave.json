@@ -253,77 +253,216 @@
     "transitions": [
       {
         "transition": "Leg Weave Pass",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 27,
+          "nogi": 26
+        }
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 32
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 14
+        }
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 11
+        }
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       },
       {
         "transition": "Over-Under Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 10
+        }
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 8
+        }
       },
       {
         "transition": "Back Step",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
       },
       {
         "transition": "Backstep from Leg Weave",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Complete Leg Weave Pass",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Leg Weave Pass Completion",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       }
     ],
     "flashcards": [
       {
         "question": "Your opponent begins bridging explosively while you're in leg weave - what adjustment prevents them from creating space?",
-        "answer": "Drop your weight immediately by lowering your hips and driving your chest into their shoulder. Maintain your weaved leg deep and use your far hand to post on the mat for stability. The key is anticipating the bridge and settling your weight before they generate momentum, not reacting after they've already created space."
+        "answer": "Drop your weight immediately by lowering your hips and driving your chest into their shoulder. Maintain your weaved leg deep and use your far hand to post on the mat for stability. The key is anticipating the bridge and settling your weight before they generate momentum, not reacting after they've already created space.",
+        "answer_line": "Settle weight before they bridge",
+        "distractors": {
+          "plausible": [
+            "React by posting late",
+            "Grip crossface, ignore hips"
+          ],
+          "trap": [
+            "Rise up to block the bridge"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining leg weave control against an active opponent?",
-        "answer": "The primary grips are collar control with your crossface-side hand to prevent them sitting up, and far hip or pants grip to control their rotation. In no-gi, underhook on the near side combined with head pressure replaces collar control. The weaved leg itself becomes a third point of control, pinning their bottom leg while your grips manage upper body movement."
+        "answer": "The primary grips are collar control with your crossface-side hand to prevent them sitting up, and far hip or pants grip to control their rotation. In no-gi, underhook on the near side combined with head pressure replaces collar control. The weaved leg itself becomes a third point of control, pinning their bottom leg while your grips manage upper body movement.",
+        "answer_line": "Collar control plus far hip grip",
+        "distractors": {
+          "plausible": [
+            "Underhook only, ignore hips",
+            "Far hip grip, skip collar"
+          ],
+          "trap": [
+            "Grab both sleeves, release legs"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary escape when opponent attempts to recover knee shield?",
-        "answer": "As they try to insert their knee, drive your weaved leg deeper while simultaneously increasing chest pressure toward their head. Use your far hand to block their knee from coming inside by posting on their thigh. The key is recognizing the attempt early and smothering it before their knee gets between your bodies - once the shield is half-established, you must address it rather than forcing through."
+        "answer": "As they try to insert their knee, drive your weaved leg deeper while simultaneously increasing chest pressure toward their head. Use your far hand to block their knee from coming inside by posting on their thigh. The key is recognizing the attempt early and smothering it before their knee gets between your bodies - once the shield is half-established, you must address it rather than forcing through.",
+        "answer_line": "Drive leg deep, smother early",
+        "distractors": {
+          "plausible": [
+            "Wait for knee inside then react",
+            "Push knee back after insert"
+          ],
+          "trap": [
+            "Let shield in, pass anyway"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you maintain when the opponent actively fights your controls?",
-        "answer": "First priority is maintaining the weave depth - if your leg comes out, the position is lost. Second priority is upper body control to prevent sitting up, whether through collar, underhook, or crossface. Third is far hip control to prevent rotation. If forced to choose, keep the weave and reestablish upper body control through pressure rather than abandoning leg position for grips."
+        "answer": "First priority is maintaining the weave depth - if your leg comes out, the position is lost. Second priority is upper body control to prevent sitting up, whether through collar, underhook, or crossface. Third is far hip control to prevent rotation. If forced to choose, keep the weave and reestablish upper body control through pressure rather than abandoning leg position for grips.",
+        "answer_line": "Weave depth first, then upper body",
+        "distractors": {
+          "plausible": [
+            "Grips first, weave depth second",
+            "Chase hip control over weave"
+          ],
+          "trap": [
+            "Abandon weave to get sleeve grip"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure in leg weave without exhausting yourself?",
-        "answer": "Pressure comes from structural positioning, not muscle tension. Keep your hips low and let gravity do the work by relaxing into the position rather than actively pushing. Your chest pressure should come from body position with your shoulder driving into their chest. Use your weaved leg like an anchor point and distribute weight across chest, shoulder, and leg rather than holding yourself up with arms."
+        "answer": "Pressure comes from structural positioning, not muscle tension. Keep your hips low and let gravity do the work by relaxing into the position rather than actively pushing. Your chest pressure should come from body position with your shoulder driving into their chest. Use your weaved leg like an anchor point and distribute weight across chest, shoulder, and leg rather than holding yourself up with arms.",
+        "answer_line": "Structural weight, not muscle",
+        "distractors": {
+          "plausible": [
+            "Push hard with arms constantly",
+            "Hold yourself up on hands"
+          ],
+          "trap": [
+            "Grind nonstop to wear them down"
+          ]
+        }
       },
       {
         "question": "Your opponent starts turning away to attempt turtle - what movement pattern should you follow?",
-        "answer": "Immediately begin circling toward their back while maintaining your weave. As they turn, your weaved leg becomes a hook that prevents them from completing the turtle. Simultaneously transition your upper body grips to establish seat belt control. The key is following their rotation rather than trying to stop it - their turn actually accelerates your back take if you maintain connection and circle with them."
+        "answer": "Immediately begin circling toward their back while maintaining your weave. As they turn, your weaved leg becomes a hook that prevents them from completing the turtle. Simultaneously transition your upper body grips to establish seat belt control. The key is following their rotation rather than trying to stop it - their turn actually accelerates your back take if you maintain connection and circle with them.",
+        "answer_line": "Circle to back, keep the weave",
+        "distractors": {
+          "plausible": [
+            "Stop the turn, hold position",
+            "Chase hips, drop the weave"
+          ],
+          "trap": [
+            "Let go and dive for the far arm"
+          ]
+        }
       },
       {
         "question": "How do you manage energy during extended leg weave sequences against a defensive opponent?",
-        "answer": "Settle your weight and establish control points rather than constantly driving. Create waves of pressure followed by brief consolidation periods. Let the opponent carry your weight while you use the position to rest. Make them work to escape by maintaining threatening position without constant exertion. When you do attack, use explosive bursts on single passing attempts rather than sustained grinding pressure."
+        "answer": "Settle your weight and establish control points rather than constantly driving. Create waves of pressure followed by brief consolidation periods. Let the opponent carry your weight while you use the position to rest. Make them work to escape by maintaining threatening position without constant exertion. When you do attack, use explosive bursts on single passing attempts rather than sustained grinding pressure.",
+        "answer_line": "Settle, consolidate, burst later",
+        "distractors": {
+          "plausible": [
+            "Grind pressure the whole time",
+            "Rest fully, ignore control points"
+          ],
+          "trap": [
+            "Force the pass with brute strength"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes and gets their knee shield halfway established - how do you recover full leg weave control?",
-        "answer": "Rather than fighting directly against their inserted knee, angle your hips and drive your shoulder into the knee shield to collapse it. Use your far hand to control their bottom leg and prevent them from establishing full shield. Sometimes the best recovery is accepting the partial loss and transitioning to a complementary pass like knee slice that uses their shield position against them rather than forcing back to pure leg weave."
+        "answer": "Rather than fighting directly against their inserted knee, angle your hips and drive your shoulder into the knee shield to collapse it. Use your far hand to control their bottom leg and prevent them from establishing full shield. Sometimes the best recovery is accepting the partial loss and transitioning to a complementary pass like knee slice that uses their shield position against them rather than forcing back to pure leg weave.",
+        "answer_line": "Collapse shield, angle shoulder in",
+        "distractors": {
+          "plausible": [
+            "Fight the knee straight on",
+            "Abandon and reset from scratch"
+          ],
+          "trap": [
+            "Yank the leg out by force"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "sNbJLknPgQM",
+        "title": "Leg weave and leg staple passing pins",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 108,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aN2S7_WAhq4",
+        "title": "Leg weave to knee slide pass",
+        "by": "Modern BJJ",
+        "vertical": false,
+        "channel": "Modern BJJ",
+        "duration": 118,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "4LIBFmas-oE",
+        "title": "Passing knee shield with leg weave",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 153,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -553,74 +692,344 @@
     "transitions": [
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 21
+        }
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 12
+        }
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 10
+        }
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Dogfight Position",
-        "attempt_probability": 27
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 12
+        }
       },
       {
         "transition": "Lockdown Recovery",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
       },
       {
         "transition": "Half Guard Recovery",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 14
+        }
       },
       {
         "transition": "Leg Weave Escape to Half Guard",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 11
+        }
       },
       {
         "transition": "Sweep from Leg Weave",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
       }
     ],
     "flashcards": [
       {
         "question": "The top player drives heavy crossface and you feel yourself getting flattened - what immediate frame adjustment do you make?",
-        "answer": "Drive your near-side forearm into the crossface bicep or shoulder to create a wedge that prevents your head from being driven further. Simultaneously turn your head away from the crossface and tuck your chin. Use your far-side hand to frame on their hip. The frame isn't meant to push them away but to stop the flattening progression so you can create hip movement."
+        "answer": "Drive your near-side forearm into the crossface bicep or shoulder to create a wedge that prevents your head from being driven further. Simultaneously turn your head away from the crossface and tuck your chin. Use your far-side hand to frame on their hip. The frame isn't meant to push them away but to stop the flattening progression so you can create hip movement.",
+        "answer_line": "Forearm wedge, turn head away",
+        "distractors": {
+          "plausible": [
+            "Push their chest off with palm",
+            "Turn into the crossface"
+          ],
+          "trap": [
+            "Stiff-arm their hip, ignore head"
+          ]
+        }
       },
       {
         "question": "What are the essential frames for surviving leg weave bottom before attempting escapes?",
-        "answer": "Primary frame is forearm on opponent's neck or shoulder - this prevents complete chest compression. Secondary frame is your far hand on their hip to control their rotation and pressure angles. Your bottom leg knee should angle toward their body as a tertiary frame. These three points create a defensive structure that buys time for hip movement and escape attempts."
+        "answer": "Primary frame is forearm on opponent's neck or shoulder - this prevents complete chest compression. Secondary frame is your far hand on their hip to control their rotation and pressure angles. Your bottom leg knee should angle toward their body as a tertiary frame. These three points create a defensive structure that buys time for hip movement and escape attempts.",
+        "answer_line": "Forearm frame, far hand on hip",
+        "distractors": {
+          "plausible": [
+            "Both hands on their chest",
+            "Frame with legs only"
+          ],
+          "trap": [
+            "Push both arms into their face"
+          ]
+        }
       },
       {
         "question": "How do you shut down the passing attempt when you feel them beginning the knee slice sequence?",
-        "answer": "The moment you feel their weight shift toward the knee slice, pump your hips hard away from them while simultaneously driving your near-side knee between your bodies. Even a partial knee shield insertion disrupts their passing angle. If too late for knee shield, pumping away creates enough space to transition to deep half by diving under their base rather than fighting the pass directly."
+        "answer": "The moment you feel their weight shift toward the knee slice, pump your hips hard away from them while simultaneously driving your near-side knee between your bodies. Even a partial knee shield insertion disrupts their passing angle. If too late for knee shield, pumping away creates enough space to transition to deep half by diving under their base rather than fighting the pass directly.",
+        "answer_line": "Pump hips, knee between bodies",
+        "distractors": {
+          "plausible": [
+            "Wait then push their knee away",
+            "Hold still, absorb the pressure"
+          ],
+          "trap": [
+            "Turn belly down to block it"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you fight for when your frames are being stripped?",
-        "answer": "First priority is re-establishing the frame on their neck or shoulder - this is survival. Second is maintaining your far-side hook at all costs, as losing this accelerates the pass. Third is fighting for the underhook on your near side, which gives you offensive options. If forced to choose, keep the hook and neck frame - you can't sweep without the hook, and you can't escape without the frame."
+        "answer": "First priority is re-establishing the frame on their neck or shoulder - this is survival. Second is maintaining your far-side hook at all costs, as losing this accelerates the pass. Third is fighting for the underhook on your near side, which gives you offensive options. If forced to choose, keep the hook and neck frame - you can't sweep without the hook, and you can't escape without the frame.",
+        "answer_line": "Reframe neck first, keep hook",
+        "distractors": {
+          "plausible": [
+            "Fight for underhook above all",
+            "Regrip sleeves before frames"
+          ],
+          "trap": [
+            "Let go of hook to fix the frame"
+          ]
+        }
       },
       {
         "question": "How should you manage your energy when being pressured in leg weave bottom?",
-        "answer": "Don't spend energy pushing against their weight - use frames to deflect pressure rather than resist it. Make small hip adjustments constantly rather than waiting and making explosive efforts. Breathe deliberately and don't hold your breath under pressure. Accept that you're in a bad position and work systematically rather than panicking. Save explosive energy for commitment to one specific escape when the timing is right."
+        "answer": "Don't spend energy pushing against their weight - use frames to deflect pressure rather than resist it. Make small hip adjustments constantly rather than waiting and making explosive efforts. Breathe deliberately and don't hold your breath under pressure. Accept that you're in a bad position and work systematically rather than panicking. Save explosive energy for commitment to one specific escape when the timing is right.",
+        "answer_line": "Deflect with frames, small moves",
+        "distractors": {
+          "plausible": [
+            "Push back hard against weight",
+            "Wait passively for one big burst"
+          ],
+          "trap": [
+            "Hold your breath and brace"
+          ]
+        }
       },
       {
         "question": "Your opponent partially clears your hook but hasn't completed the pass yet - what movement creates an opportunity to recover?",
-        "answer": "This is actually an opportunity window. As they clear your hook, their base often becomes momentarily less stable. Use this moment to explosively hip escape and turn toward them for a dogfight position, or dive deep under them for deep half if they're moving forward. The key is recognizing this transition moment and committing fully to one escape direction rather than trying to recover the lost hook position."
+        "answer": "This is actually an opportunity window. As they clear your hook, their base often becomes momentarily less stable. Use this moment to explosively hip escape and turn toward them for a dogfight position, or dive deep under them for deep half if they're moving forward. The key is recognizing this transition moment and committing fully to one escape direction rather than trying to recover the lost hook position.",
+        "answer_line": "Explosive hip escape, commit",
+        "distractors": {
+          "plausible": [
+            "Fight to recover the lost hook",
+            "Wait for them to fully pass"
+          ],
+          "trap": [
+            "Turn belly down and stall"
+          ]
+        }
       },
       {
         "question": "How do you prevent back exposure when coming up to dogfight from leg weave bottom?",
-        "answer": "Keep your inside elbow tight to your body and your shoulder connected to their chest as you come up. Never lead with your shoulder turning away from them. Come up on your elbow first, then hand, maintaining chest-to-chest connection throughout. If you feel their arm starting to snake around your back, flatten back down and reset rather than continuing up and giving away back control."
+        "answer": "Keep your inside elbow tight to your body and your shoulder connected to their chest as you come up. Never lead with your shoulder turning away from them. Come up on your elbow first, then hand, maintaining chest-to-chest connection throughout. If you feel their arm starting to snake around your back, flatten back down and reset rather than continuing up and giving away back control.",
+        "answer_line": "Elbow tight, chest stays connected",
+        "distractors": {
+          "plausible": [
+            "Lead with the shoulder turning away",
+            "Post hand first, elbow trails"
+          ],
+          "trap": [
+            "Turn back fully to stand up"
+          ]
+        }
       },
       {
         "question": "The top player has settled their weight and you've been stuck in leg weave for extended time - how do you restart your defensive activity?",
-        "answer": "First, reset your breathing and mental composure. Then begin micro-adjustments: small hip bumps, tiny angle changes, and testing their reactions without committing to escapes. Look for which direction they counter least strongly. Once you identify a weakness in their positioning, commit to a coordinated escape using frames, hips, and legs together. The worst mistake is staying passive - even small movement prevents complete position consolidation."
+        "answer": "First, reset your breathing and mental composure. Then begin micro-adjustments: small hip bumps, tiny angle changes, and testing their reactions without committing to escapes. Look for which direction they counter least strongly. Once you identify a weakness in their positioning, commit to a coordinated escape using frames, hips, and legs together. The worst mistake is staying passive - even small movement prevents complete position consolidation.",
+        "answer_line": "Micro-adjust, test their reactions",
+        "distractors": {
+          "plausible": [
+            "Stay still and wait to be fresh",
+            "Force one big escape immediately"
+          ],
+          "trap": [
+            "Go limp until they get careless"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "9i-U4ivd108",
+        "title": "3-step defense to the weave pass",
+        "by": "Pendergrass Academy",
+        "vertical": false,
+        "channel": "Pendergrass Academy of Martial Arts",
+        "duration": 116,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zCsPGrS3ewI",
+        "title": "Knee slice counter sweep",
+        "by": "Steve Haydock",
+        "vertical": false,
+        "channel": "Steve Haydock Jiu Jitsu Academy",
+        "duration": 67,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the leg weave and distinguishes it from a standard half guard exchange?",
+      "answer": "Leg weave is a half-guard passing control in which the top player threads their knee-side leg between the bottom player's legs so the weaved shin or knee crosses the bottom player's hip line or thigh. This threading pins the bottom player's lower leg and neutralizes their ability to reinsert knee shield, butterfly hooks, or framing legs. Unlike a neutral half guard where both players retain balanced leg connection, the weave creates an asymmetric leg tangle that mechanically favors the passer. The position is fundamentally transitional, existing as a control checkpoint between guard engagement and a completed pass rather than a settled resting state.",
+      "answer_line": "Knee threads past bottom's hip line",
+      "distractors": {
+        "plausible": [
+          "Both legs tangled evenly",
+          "Top leg hooks outside only"
+        ],
+        "trap": [
+          "Bottom leg wraps top's waist"
+        ]
+      }
+    },
+    {
+      "question": "Why is the depth of the weaved leg the single most important variable governing who controls the position?",
+      "answer": "The weave only disrupts the bottom player's defensive structure once the top player's knee penetrates past the bottom player's hip line, so depth determines whether the leg functions as a control point or a liability. A deep weave pins the bottom leg and denies knee shield reinsertion, locking the asymmetric advantage in the passer's favor. A shallow weave leaves room for the bottom player to recover hooks, frame the knee, or attack the exposed leg. Because depth is the fulcrum of the exchange, both players fight over it constantly: the passer drives to deepen and the bottom player pumps hips to shallow it out.",
+      "answer_line": "Depth decides who holds control",
+      "distractors": {
+        "plausible": [
+          "Grip strength matters more",
+          "Upper body alone decides it"
+        ],
+        "trap": [
+          "Shallow weave locks the pass"
+        ]
+      }
+    },
+    {
+      "question": "How is weight and pressure distributed across the three contact points that hold the leg weave together?",
+      "answer": "Control rests on three points working together: the weaved leg anchoring the bottom leg, the supporting outside leg providing base, and upper-body connection through chest, shoulder, and grips. Effective pressure comes from skeletal structure and low hips rather than muscular pushing, letting body weight settle through the chest into the bottom player's torso. Committing too much weight onto the weaved leg alone collapses the base and invites sweeps, so the load stays distributed between leg, base, and hands. This structural distribution is what lets the top player rest heavy while the bottom player carries the weight and works to escape.",
+      "answer_line": "Split weight: leg, base, chest",
+      "distractors": {
+        "plausible": [
+          "Load weight onto the weaved leg",
+          "Push down through the arms"
+        ],
+        "trap": [
+          "Stack all weight on the hooking leg"
+        ]
+      }
+    },
+    {
+      "question": "What role does upper-body control play in the leg weave beyond the leg threading itself?",
+      "answer": "The leg thread only addresses the lower body, so without upper-body connection the bottom player can sit up, frame, or create the angle needed to recover guard. A crossface, underhook, collar tie, or collar grip flattens the bottom player's shoulders and prevents them from posting up onto an elbow. This upper-body control is what converts the leg tangle into genuine flattening pressure, closing the space the bottom player needs to shrimp or reframe. The frame battle at the shoulder line and the neck is therefore as decisive as the leg depth in determining whether the position holds.",
+      "answer_line": "Crossface flattens, stops sit-up",
+      "distractors": {
+        "plausible": [
+          "Leg thread alone flattens them",
+          "Grip the far leg to flatten"
+        ],
+        "trap": [
+          "Release upper body to free hands"
+        ]
+      }
+    },
+    {
+      "question": "Which frames and connections are the contested currency that decides whether the position stays locked or breaks down?",
+      "answer": "The exchange turns on competing frames: the bottom player fights for a forearm on the neck or shoulder plus a hand on the hip to prevent flattening and rotation, while the top player fights for crossface or underhook to erase those frames. The near-side underhook is especially pivotal because whoever wins it controls the upper-body connection and the angle of pressure. The bottom player's far-side half-guard hook is the remaining leg connection that prevents an immediate pass, so it is defended and attacked with equal intensity. Control of the position is essentially the aggregate result of these simultaneous frame and hook battles.",
+      "answer_line": "Underhook battle decides control",
+      "distractors": {
+        "plausible": [
+          "Ankle grip decides control",
+          "Collar tie beats all other frames"
+        ],
+        "trap": [
+          "Ignore the hook, chase submissions"
+        ]
+      }
+    },
+    {
+      "question": "Why does the leg weave create a passing dilemma rather than a single line of attack, and how does that shape both players' decisions?",
+      "answer": "Because the weave pins the bottom leg while freeing the top player's outside leg and grips, it opens several passing directions at once: knee slice to the near side, leg drag if the bottom player turns, and smash or over-under if they flatten. Defending one threat necessarily opens another, so the bottom player cannot commit fully to a single defense without conceding an alternate lane. This forces the position to remain dynamic, with the passer chaining threats to prevent the bottom player from settling into any one defensive posture. The shared dynamic is that stalling favors the passer, so both players are pushed toward continuous reaction and counter.",
+      "answer_line": "Pinned leg opens several pass lanes",
+      "distractors": {
+        "plausible": [
+          "Only knee slice is available",
+          "Weave forces a single defense"
+        ],
+        "trap": [
+          "Commit fully to one pass line"
+        ]
+      }
+    },
+    {
+      "question": "How does the leg weave relate to and transition into its adjacent positions on both sides of the exchange?",
+      "answer": "Leg weave sits downstream of half guard, where it typically develops as the top player threads through during a passing sequence, and upstream of side control, which is the passer's primary completion target. If the bottom player reframes and pumps hips they can recover knee shield half guard, while diving under forward pressure leads to deep half guard and coming up on the elbow leads to a dogfight. It shares its pressure-passing logic with headquarters position and can flow into leg drag control when the bottom player turns. Understanding it as a branching hub rather than an endpoint is what lets both players anticipate where the exchange resolves.",
+      "answer_line": "Bridges half guard to side control",
+      "distractors": {
+        "plausible": [
+          "Endpoint position, no transitions",
+          "Leads only to mount directly"
+        ],
+        "trap": [
+          "Always resets back to closed guard"
+        ]
+      }
+    },
+    {
+      "question": "What makes the leg weave an inherently unstable, time-limited position for both players rather than a place to settle?",
+      "answer": "The asymmetric leg tangle and constant frame battle mean the configuration is always resolving toward a pass or an escape rather than holding statically. The passer burns position if they stall because the bottom player uses any settling to reframe and recover, while the bottom player's retention and energy drain rapidly under sustained pressure. Micro-adjustments in hips, frames, and weight are continuous on both sides, so neither player can afford to freeze. This transitional nature is a defining feature: the leg weave is a passing checkpoint measured in seconds, not a controlling position meant to be maintained.",
+      "answer_line": "Always resolving, never settled",
+      "distractors": {
+        "plausible": [
+          "Stable position meant to be held",
+          "Improves the longer you stay"
+        ],
+        "trap": [
+          "Freeze in place to conserve energy"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "G5SOKMLRvMU",
+      "title": "Passing guard using the legs",
+      "by": "SBG Rossendale",
+      "vertical": false,
+      "channel": "SBG Rossendale 3rd Degree Black Belt BJJ",
+      "duration": 144,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "DxZL6K050Ng",
+      "title": "Leg Weave Tripod Pass",
+      "by": "Reding Martial Arts coach",
+      "vertical": false,
+      "channel": "Reding Martial Arts",
+      "duration": 183,
+      "verified": "2026-07-16"
+    },
+    {
+      "id": "GzYXnXJ0Uok",
+      "title": "Over Under Pass Variation",
+      "by": "Craig Lyman",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 173,
+      "verified": "2026-07-16"
+    }
+  ]
 }

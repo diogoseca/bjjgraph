@@ -148,6 +148,43 @@ description: "How to defend against Leg Drag to Inside Ashi in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Inside Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modern leglock counters and defensive concepts",
+      "description": "Leg Drag to Inside Ashi (Defender) film study: Modern leglock counters and defensive concepts, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SyP61TJ7ckI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SyP61TJ7ckI",
+      "url": "https://www.youtube.com/watch?v=SyP61TJ7ckI",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leglock defense from inside leg entanglements",
+      "description": "Leg Drag to Inside Ashi (Defender) film study: Leglock defense from inside leg entanglements, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
+      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The defender's primary advantage is timing. The transition from leg drag to ashi
 **Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Inside Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SyP61TJ7ckI)
+
+<p class="clip-credit"><strong>Modern leglock counters and defensive concepts</strong> — taught by Craig Jones · 1:26 · <a href="https://www.youtube.com/watch?v=SyP61TJ7ckI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+
+<p class="clip-credit"><strong>Leglock defense from inside leg entanglements</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -84,35 +84,115 @@
     "flashcards": [
       {
         "question": "Your opponent begins bridging explosively toward your posting leg - what adjustment do you make to maintain position?",
-        "answer": "Immediately widen your base leg further from their body while simultaneously dropping your head past their far shoulder. This redirects the bridge force harmlessly across your body rather than over your base. Keep your hip pressure constant and let their bridge exhaust their energy while you remain structurally sound. If the bridge is particularly powerful, momentarily shift more weight onto your posting knee to anchor against the rolling direction."
+        "answer": "Immediately widen your base leg further from their body while simultaneously dropping your head past their far shoulder. This redirects the bridge force harmlessly across your body rather than over your base. Keep your hip pressure constant and let their bridge exhaust their energy while you remain structurally sound. If the bridge is particularly powerful, momentarily shift more weight onto your posting knee to anchor against the rolling direction.",
+        "answer_line": "Widen base, drop head past shoulder",
+        "distractors": {
+          "plausible": [
+            "Sink hips down harder",
+            "Post free hand on their chest"
+          ],
+          "trap": [
+            "Bring base leg in closer"
+          ]
+        }
       },
       {
         "question": "What are the two critical control points for the trapped arm and why are both necessary?",
-        "answer": "You must control both the shoulder (through armpit pressure clamping down on their upper arm) and the wrist (through grip or arm positioning). Controlling only the wrist allows them to rotate their shoulder and thread the arm free during hip escapes. Controlling only the shoulder permits them to extend the arm and create pushing frames. Both points together create a closed kinetic chain that prevents arm recovery."
+        "answer": "You must control both the shoulder (through armpit pressure clamping down on their upper arm) and the wrist (through grip or arm positioning). Controlling only the wrist allows them to rotate their shoulder and thread the arm free during hip escapes. Controlling only the shoulder permits them to extend the arm and create pushing frames. Both points together create a closed kinetic chain that prevents arm recovery.",
+        "answer_line": "Clamp armpit AND control wrist",
+        "distractors": {
+          "plausible": [
+            "Just clamp the shoulder tightly",
+            "Just grip the wrist hard"
+          ],
+          "trap": [
+            "Let go of arm, control legs"
+          ]
+        }
       },
       {
         "question": "Your opponent uses their free arm to push against your chest and create space - how do you shut this down?",
-        "answer": "Stay low with your chest parallel to the mat rather than sitting upright. Their push has no leverage point when your weight is already distributed low across their torso. If needed, use your head position on their far side to redirect any pushing force. The key is preventing them from getting their elbow underneath their push - keep your chest heavy and deny the space needed for effective framing."
+        "answer": "Stay low with your chest parallel to the mat rather than sitting upright. Their push has no leverage point when your weight is already distributed low across their torso. If needed, use your head position on their far side to redirect any pushing force. The key is preventing them from getting their elbow underneath their push - keep your chest heavy and deny the space needed for effective framing.",
+        "answer_line": "Stay low, chest flat on them",
+        "distractors": {
+          "plausible": [
+            "Sit up to block the push",
+            "Push back against their arm"
+          ],
+          "trap": [
+            "Raise hips to create space"
+          ]
+        }
       },
       {
         "question": "What is the proper weight distribution through your body to maintain maximum control with minimum energy expenditure?",
-        "answer": "Channel approximately 70% of your weight through your hip into their ribs and 30% through your chest onto their upper body. Your posting leg should be weight-bearing only for balance, not for pressure generation. Relax your upper body muscles and let skeletal alignment maintain the chest position - tension in your arms and shoulders wastes energy and actually reduces control effectiveness."
+        "answer": "Channel approximately 70% of your weight through your hip into their ribs and 30% through your chest onto their upper body. Your posting leg should be weight-bearing only for balance, not for pressure generation. Relax your upper body muscles and let skeletal alignment maintain the chest position - tension in your arms and shoulders wastes energy and actually reduces control effectiveness.",
+        "answer_line": "70% hip, 30% chest, stay relaxed",
+        "distractors": {
+          "plausible": [
+            "Equal weight through hip and chest",
+            "Tense arms for max pressure"
+          ],
+          "trap": [
+            "Weight mostly through chest"
+          ]
+        }
       },
       {
         "question": "How do you use hip pressure directionally rather than just applying downward weight?",
-        "answer": "Direct your hip pressure at a 45-degree angle toward their far hip, not straight down into the mat. This angular pressure prevents them from turning into you or away from you - it pins their torso in place. Think of driving your hip through their body toward their far hip bone. This directional pressure is far more controlling than simply being heavy."
+        "answer": "Direct your hip pressure at a 45-degree angle toward their far hip, not straight down into the mat. This angular pressure prevents them from turning into you or away from you - it pins their torso in place. Think of driving your hip through their body toward their far hip bone. This directional pressure is far more controlling than simply being heavy.",
+        "answer_line": "45° hip pressure toward far hip",
+        "distractors": {
+          "plausible": [
+            "Straight down for max heaviness",
+            "Angle pressure toward near hip"
+          ],
+          "trap": [
+            "Drive pressure toward their head"
+          ]
+        }
       },
       {
         "question": "Your opponent starts attempting to recover guard by turning into you - what immediate action prevents this while creating offensive opportunity?",
-        "answer": "Their turn into you opens the mount transition. As they turn, slide your near knee across their belly while maintaining arm control. Their own turning motion helps you advance. If they stop turning to prevent mount, they return to the original position under your control. This creates a lose-lose dilemma where their escape attempt enables your advancement."
+        "answer": "Their turn into you opens the mount transition. As they turn, slide your near knee across their belly while maintaining arm control. Their own turning motion helps you advance. If they stop turning to prevent mount, they return to the original position under your control. This creates a lose-lose dilemma where their escape attempt enables your advancement.",
+        "answer_line": "Slide knee across belly to mount",
+        "distractors": {
+          "plausible": [
+            "Stop the turn immediately",
+            "Follow their far leg instead"
+          ],
+          "trap": [
+            "Release arm control to reposition"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining this position against a strong opponent?",
-        "answer": "The primary grip is your armpit clamp on their trapped upper arm, reinforced by your same-side hand controlling their wrist or forearm. Your free hand posts on the mat near their far hip for base, or controls their far-side lapel in gi to prevent turning. In no-gi, your free hand can crossface or underhook their far-side neck. The grip hierarchy prioritizes armpit clamp first, wrist control second, and far-side control third."
+        "answer": "The primary grip is your armpit clamp on their trapped upper arm, reinforced by your same-side hand controlling their wrist or forearm. Your free hand posts on the mat near their far hip for base, or controls their far-side lapel in gi to prevent turning. In no-gi, your free hand can crossface or underhook their far-side neck. The grip hierarchy prioritizes armpit clamp first, wrist control second, and far-side control third.",
+        "answer_line": "Armpit clamp, wrist, far-side grip",
+        "distractors": {
+          "plausible": [
+            "Wrist grip is most important",
+            "Far-side lapel grip comes first"
+          ],
+          "trap": [
+            "Underhook their near-side leg"
+          ]
+        }
       },
       {
         "question": "How do you recover position after your opponent partially escapes by inserting a knee shield between your bodies?",
-        "answer": "Do not fight the knee shield directly by trying to smash through it. Instead, maintain your arm control and use your hip to backstep around the knee shield, re-angling your body to re-establish chest-to-chest contact from a new angle. Alternatively, transition to North-South to bypass the knee entirely while keeping arm control. The knee shield only works if you engage it head-on - lateral movement defeats it while preserving your dominant grip on the trapped arm."
+        "answer": "Do not fight the knee shield directly by trying to smash through it. Instead, maintain your arm control and use your hip to backstep around the knee shield, re-angling your body to re-establish chest-to-chest contact from a new angle. Alternatively, transition to North-South to bypass the knee entirely while keeping arm control. The knee shield only works if you engage it head-on - lateral movement defeats it while preserving your dominant grip on the trapped arm.",
+        "answer_line": "Backstep around the knee shield",
+        "distractors": {
+          "plausible": [
+            "Smash through the knee directly",
+            "Switch base leg to power through"
+          ],
+          "trap": [
+            "Push straight into the shield"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -293,47 +373,93 @@
     "transitions": [
       {
         "transition": "Americana from Kuzure Kesa-Gatame",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Far Side Armbar",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 18
+        }
       },
       {
         "transition": "Kimura from Kuzure Kesa-Gatame",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 16
+        }
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 14
+        }
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 12
+        }
       },
       {
         "transition": "Paper Cutter Choke from Kuzure Kesa-Gatame",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 0
+        }
       },
       {
         "transition": "Arm Triangle from Kuzure Kesa-Gatame",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 13
+        }
       },
       {
         "transition": "Breadcutter Choke from Kuzure Kesa-Gatame",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 0
+        }
       },
       {
         "transition": "Armbar on Free Arm",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 10
+        }
       },
       {
         "transition": "Gift Wrap Control",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 10
+        }
       },
       {
         "transition": "Belly Down Armbar from Kuzure Kesa-Gatame",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "tfykooWW-xk",
+        "title": "Triangle Attacks from Kuzure Kesa Gatame",
+        "by": "Chokes And More",
+        "vertical": false,
+        "channel": "Chokes And More",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "oXzrusNRq70",
+        "title": "Kuzure Kesa Gatame (Broken Scarf Hold)",
+        "by": "Sampson Judo",
+        "vertical": false,
+        "channel": "Sampson Judo",
+        "duration": 19,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -377,35 +503,115 @@
     "flashcards": [
       {
         "question": "Your opponent shifts their weight forward to attack your trapped arm with an americana - what escape opportunity does this create?",
-        "answer": "Their forward weight shift removes pressure from your hips and creates space behind them. This is the ideal moment for a bridge and roll toward their posting leg, or to begin hip escaping away while their attention is on the submission. Their commitment to the attack opens defensive opportunities - time your explosive movement to coincide with their deepest commitment to the submission grip."
+        "answer": "Their forward weight shift removes pressure from your hips and creates space behind them. This is the ideal moment for a bridge and roll toward their posting leg, or to begin hip escaping away while their attention is on the submission. Their commitment to the attack opens defensive opportunities - time your explosive movement to coincide with their deepest commitment to the submission grip.",
+        "answer_line": "Bridge/roll toward their base leg",
+        "distractors": {
+          "plausible": [
+            "Pull your arm straight to defend",
+            "Wait passively for pressure to ease"
+          ],
+          "trap": [
+            "Try to out-muscle the americana"
+          ]
+        }
       },
       {
         "question": "What is the correct position for your trapped arm to prevent immediate submission while maintaining recovery potential?",
-        "answer": "Keep the trapped arm bent at approximately 90 degrees with your elbow tight to your ribs. Never let the arm fully extend (armbar threat) or collapse completely against your body (americana threat). Maintain slight internal rotation at the shoulder to prevent the americana finish angle. This defensive arm position buys time and keeps recovery options open."
+        "answer": "Keep the trapped arm bent at approximately 90 degrees with your elbow tight to your ribs. Never let the arm fully extend (armbar threat) or collapse completely against your body (americana threat). Maintain slight internal rotation at the shoulder to prevent the americana finish angle. This defensive arm position buys time and keeps recovery options open.",
+        "answer_line": "Elbow tight, arm bent at 90°",
+        "distractors": {
+          "plausible": [
+            "Fully extend the arm to push away",
+            "Let the arm go loose and relaxed"
+          ],
+          "trap": [
+            "Straighten arm to frame off hip"
+          ]
+        }
       },
       {
         "question": "How should you use your free arm during escape attempts rather than simply pushing against your opponent?",
-        "answer": "Your free arm creates structural frames that maintain minimal space during hip movement - it's not for generating pushing force. Frame against their hip or shoulder to create a wedge that prevents them from closing distance as you shrimp. Pushing wastes energy because they can simply wait for your arm to fatigue. Framing maintains space efficiently using skeletal structure."
+        "answer": "Your free arm creates structural frames that maintain minimal space during hip movement - it's not for generating pushing force. Frame against their hip or shoulder to create a wedge that prevents them from closing distance as you shrimp. Pushing wastes energy because they can simply wait for your arm to fatigue. Framing maintains space efficiently using skeletal structure.",
+        "answer_line": "Frame with free arm, don't push",
+        "distractors": {
+          "plausible": [
+            "Push hard against their hip",
+            "Grip their far arm for base"
+          ],
+          "trap": [
+            "Post palm flat and shove chest"
+          ]
+        }
       },
       {
         "question": "Why is bridging directly upward ineffective from this position and what direction should you bridge instead?",
-        "answer": "Bridging straight up allows your opponent to simply wait and settle their weight back down when you land - you've wasted explosive energy without creating meaningful change. Instead, bridge at a perpendicular angle targeting their posting leg. This attacks their base structure and can actually create a weight shift or roll opportunity. The angular bridge disrupts their balance rather than just lifting them temporarily."
+        "answer": "Bridging straight up allows your opponent to simply wait and settle their weight back down when you land - you've wasted explosive energy without creating meaningful change. Instead, bridge at a perpendicular angle targeting their posting leg. This attacks their base structure and can actually create a weight shift or roll opportunity. The angular bridge disrupts their balance rather than just lifting them temporarily.",
+        "answer_line": "Bridge angled at their base leg",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up explosively",
+            "Bridge toward their far shoulder"
+          ],
+          "trap": [
+            "Bridge into their chest weight"
+          ]
+        }
       },
       {
         "question": "What are the signs that your opponent is about to transition to mount, and how do you prevent it?",
-        "answer": "Watch for them lifting their near hip or beginning to slide their knee across your belly. Their head may also begin moving toward your far side. To prevent the mount, immediately turn toward them (paradoxically), getting your back more toward the mat. This denies the space they need to slide their knee across. You may also insert your knee as a shield between your bodies during their transition attempt."
+        "answer": "Watch for them lifting their near hip or beginning to slide their knee across your belly. Their head may also begin moving toward your far side. To prevent the mount, immediately turn toward them (paradoxically), getting your back more toward the mat. This denies the space they need to slide their knee across. You may also insert your knee as a shield between your bodies during their transition attempt.",
+        "answer_line": "Turn toward them, insert knee",
+        "distractors": {
+          "plausible": [
+            "Push their knee back with your hand",
+            "Extend your legs to create space"
+          ],
+          "trap": [
+            "Turn away to open scramble room"
+          ]
+        }
       },
       {
         "question": "How do you manage breathing under the constant rib pressure of this position?",
-        "answer": "Force controlled diaphragmatic breathing despite the pressure - your belly should expand, not your chest. Breathe in during moments of slightly reduced pressure (when opponent adjusts or attacks) and exhale slowly during peak pressure. Panic breathing with rapid shallow breaths accelerates fatigue and clouds tactical thinking. Accept the discomfort and maintain slow, controlled breathing patterns."
+        "answer": "Force controlled diaphragmatic breathing despite the pressure - your belly should expand, not your chest. Breathe in during moments of slightly reduced pressure (when opponent adjusts or attacks) and exhale slowly during peak pressure. Panic breathing with rapid shallow breaths accelerates fatigue and clouds tactical thinking. Accept the discomfort and maintain slow, controlled breathing patterns.",
+        "answer_line": "Diaphragm breathe, inhale when eased",
+        "distractors": {
+          "plausible": [
+            "Hold breath during peak pressure",
+            "Take fast shallow breaths"
+          ],
+          "trap": [
+            "Breathe into your chest, not belly"
+          ]
+        }
       },
       {
         "question": "When should you attempt to recover your trapped arm versus accepting its position and working other escapes?",
-        "answer": "Prioritize arm recovery when your opponent shifts weight forward for submissions or makes adjustments - these moments reduce armpit pressure on your shoulder. If they maintain constant heavy pressure on your arm, attempting recovery wastes energy and may create submission openings. In high-pressure scenarios, work escapes like the Granby Roll that don't require arm recovery first, then recover the arm once you've changed the positional dynamic."
+        "answer": "Prioritize arm recovery when your opponent shifts weight forward for submissions or makes adjustments - these moments reduce armpit pressure on your shoulder. If they maintain constant heavy pressure on your arm, attempting recovery wastes energy and may create submission openings. In high-pressure scenarios, work escapes like the Granby Roll that don't require arm recovery first, then recover the arm once you've changed the positional dynamic.",
+        "answer_line": "Recover arm when their weight shifts",
+        "distractors": {
+          "plausible": [
+            "Always fight to free the arm first",
+            "Wait for a big explosive opening"
+          ],
+          "trap": [
+            "Yank arm free under heavy pressure"
+          ]
+        }
       },
       {
         "question": "Your escape attempt fails and your opponent recaptures heavy control - what should your immediate response be?",
-        "answer": "Return immediately to defensive breathing and structural arm positioning. Do not chain another explosive attempt right away - this burns energy against peak pressure. Reset your frames, recover mentally, and wait for the next timing window (their adjustment, submission attempt, or fatigue-induced pressure reduction). Failed escapes are expected; the key is not compounding the energy loss with additional poorly-timed attempts."
+        "answer": "Return immediately to defensive breathing and structural arm positioning. Do not chain another explosive attempt right away - this burns energy against peak pressure. Reset your frames, recover mentally, and wait for the next timing window (their adjustment, submission attempt, or fatigue-induced pressure reduction). Failed escapes are expected; the key is not compounding the energy loss with additional poorly-timed attempts.",
+        "answer_line": "Reset frames and breathe, wait",
+        "distractors": {
+          "plausible": [
+            "Chain another explosive escape now",
+            "Push harder against their pressure"
+          ],
+          "trap": [
+            "Immediately attempt escape again"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -553,32 +759,216 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 22
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 21
+        }
       },
       {
         "transition": "Arm Recovery to Guard",
-        "attempt_probability": 16
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 20
+        }
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 12
+        }
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Re-Guard from Headquarters",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Frame Escape from Kuzure Kesa",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "qdycaYFRfa4",
+        "title": "Kuzure Kesa Gatame Escape",
+        "by": "Dojo Tarraco",
+        "vertical": false,
+        "channel": "Dojo Tarraco",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame Escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense w/ Framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What single structural feature distinguishes Kuzure Kesa-Gatame from a traditional Kesa-Gatame (scarf hold)?",
+      "answer": "Traditional Kesa-Gatame controls the opponent's head, wrapping the near arm around the head while their near arm is clamped under the top player's armpit. Kuzure Kesa-Gatame ('broken' or modified scarf hold) abandons that head wrap and instead isolates one of the opponent's arms across the torso, clamped between the top player's armpit and chest. The primary line of control therefore runs through the trapped shoulder and the hip rather than through the head. This shift converts a largely holding position into a submission platform, because the isolated arm is immediately exposed to armlocks and shoulder locks.",
+      "answer_line": "Isolates arm, not the head",
+      "distractors": {
+        "plausible": [
+          "Wraps the head like traditional hold",
+          "Controls both arms instead of one"
+        ],
+        "trap": [
+          "Abandons hip control for headlock"
+        ]
+      }
+    },
+    {
+      "question": "How is the load distributed between the top player's hip and chest in this pin, and why does that matter to both players?",
+      "answer": "The dominant weight vector runs through the hip into the opponent's lower ribs, roughly a hip-heavy split with the chest adding only a lighter load across the upper torso. For the pinning player this hip-forward channel is what restricts breathing and mobility while keeping the chest free to adjust. For the pinned player, recognizing that the pressure originates at the hip rather than the chest tells them where hip escapes and framing must be directed. The position lives or dies on that hip-to-rib contact, so both athletes are fundamentally fighting over that single connection.",
+      "answer_line": "Hip-heavy pressure into their ribs",
+      "distractors": {
+        "plausible": [
+          "Even split between hip and chest",
+          "Chest-heavy pressure on their face"
+        ],
+        "trap": [
+          "All weight through the chest only"
+        ]
+      }
+    },
+    {
+      "question": "Why is directional (angled) hip pressure toward the far hip more controlling than simply stacking weight straight down?",
+      "answer": "Pure downward weight only resists gravity and can be waited out, but pressure driven at roughly a forty-five-degree angle toward the opponent's far hip pins the torso against rotation in either direction. This angled vector simultaneously blocks turning in toward the pin and turning away to expose the back. It wedges the torso flat against the mat rather than merely making it heavy. Consequently the rotational movement that most side-control escapes require cannot be generated until that angle is disrupted.",
+      "answer_line": "Angled pressure blocks rotation",
+      "distractors": {
+        "plausible": [
+          "Straight-down weight is heaviest",
+          "Angle pressure toward their head"
+        ],
+        "trap": [
+          "Drop pressure straight down only"
+        ]
+      }
+    },
+    {
+      "question": "What role does the trapped arm's dual control, at both shoulder and wrist, play in defining the position?",
+      "answer": "The isolated arm must be pinned at the shoulder (through the armpit clamp) and at the wrist or forearm simultaneously to lock a closed kinetic chain. Shoulder control alone lets the arm extend into a pushing frame, while wrist control alone lets the shoulder rotate and thread the arm free during a hip escape. Only when both ends are captured does the arm become a genuine control point and submission handle rather than a defensive tool. This two-point capture is what separates Kuzure Kesa-Gatame from ordinary side control, where both of the bottom player's arms remain free to frame.",
+      "answer_line": "Control shoulder and wrist together",
+      "distractors": {
+        "plausible": [
+          "Wrist control alone is enough",
+          "Shoulder clamp alone is enough"
+        ],
+        "trap": [
+          "Let wrist go, chase the far leg"
+        ]
+      }
+    },
+    {
+      "question": "How do the top player's wide base leg and far-side head placement counter bridging and rolling?",
+      "answer": "The base leg posts wide with the knee bent and foot flat, forming a tripod with the hip and sitting bone that resists being tipped over. The head is carried low on the far side of the opponent, past the shoulder line, so any bridging force is redirected across the base rather than up and over it. Together these produce a broad, low center of gravity that converts an explosive bridge into wasted energy. Because of this, a purely upward bridge cannot lift a well-based Kuzure Kesa-Gatame; the tripod has to be disrupted first.",
+      "answer_line": "Wide base, head past far shoulder",
+      "distractors": {
+        "plausible": [
+          "Narrow base for quick mobility",
+          "Keep head centered on their chest"
+        ],
+        "trap": [
+          "Post head on their near shoulder"
+        ]
+      }
+    },
+    {
+      "question": "Why does isolating one arm make this position structurally more constraining than standard side control?",
+      "answer": "In standard side control both of the bottom player's arms stay free to build frames, hip escape, and recover guard. In Kuzure Kesa-Gatame one arm is trapped across the top player's torso, which halves the available framing structure and holds the shoulder line pinned. The same isolation that removes a defensive frame simultaneously creates a live armbar, americana, and kimura threat that has to be managed continuously. This single arm-isolation feature is what makes the position both harder to defend from underneath and more offensively rich from on top.",
+      "answer_line": "Arm trap halves frames, opens subs",
+      "distractors": {
+        "plausible": [
+          "Controls the near leg and hip",
+          "Extra chest pressure pins you flat"
+        ],
+        "trap": [
+          "Both arms stay free to frame"
+        ]
+      }
+    },
+    {
+      "question": "What makes Kuzure Kesa-Gatame function as a bridge position between standard side control and mount?",
+      "answer": "Because the pin is anchored through the hip and the trapped arm rather than a chest-to-chest crossface, the top player keeps enough mobility to slide a knee across the belly toward mount without surrendering arm control. When the bottom player turns in to defend, that rotation feeds the mount transition; when they turn away it exposes the back. The position therefore sits on a hinge between holding, advancing to mount, and taking the back, governed by which way the bottom player rotates. This transitional flexibility, paired with immediate submissions, is why it is treated as a high-value control rather than a static hold.",
+      "answer_line": "Hinges toward mount or back control",
+      "distractors": {
+        "plausible": [
+          "Always leads straight to submission",
+          "Locks into one static position"
+        ],
+        "trap": [
+          "Sacrifices hip control for the choke"
+        ]
+      }
+    },
+    {
+      "question": "How does the near leg's configuration change what the position offers to each side?",
+      "answer": "The near leg (closest to the opponent) can either hook over the opponent's hip to add rotational control or extend out to widen the base, depending on what is needed. Hooking the hip increases pinning power and helps kill hip escapes but slightly narrows the base, while extending it maximizes stability against rolls at the cost of some hip control. This adjustable leg is a shared pivot point in the exchange: the bottom player's hip movement is either checked by the hook or given room by the extended posture. Reading which configuration is in play tells both athletes whether the immediate battle is over hip mobility or over base stability.",
+      "answer_line": "Hook hip to pin, extend to base",
+      "distractors": {
+        "plausible": [
+          "Always hook the hip for max control",
+          "Always extend the leg for stability"
+        ],
+        "trap": [
+          "Cross the leg over for a triangle"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "aTsvuZ1vM48",
+      "title": "Kuzure Kesa Gatame: Study It",
+      "by": "Judo Life",
+      "vertical": false,
+      "channel": "Judo Life",
+      "duration": 33,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "TfNpVcekHGg",
+      "title": "Kesa Gatame - Basic Scarf Hold",
+      "by": "Grappler Station",
+      "vertical": false,
+      "channel": "Grappler Station",
+      "duration": 121,
+      "verified": "2026-07-14"
+    }
+  ]
 }

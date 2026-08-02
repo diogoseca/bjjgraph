@@ -34,6 +34,43 @@ description: "Master the kneebar from Honey Hole in BJJ. Complete guide to hip e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Honey Hole \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bow and Arrow to Kneebar from Honey Hole",
+      "description": "Kneebar from Honey Hole film study: Bow and Arrow to Kneebar from Honey Hole, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3KAO2Ck4HRg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3KAO2Ck4HRg",
+      "url": "https://www.youtube.com/watch?v=3KAO2Ck4HRg",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar from Side Saddle / Honey Hole",
+      "description": "Kneebar from Honey Hole film study: Kneebar from Side Saddle / Honey Hole, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tm98rJZCvdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tm98rJZCvdc",
+      "url": "https://www.youtube.com/watch?v=tm98rJZCvdc",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT253S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ In competition, this attack chain is a hallmark of systematic leg lock play. Eli
 **Starting Position**: [[Positions/Ashi Garami/Honey Hole]] · **From**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Honey Hole in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3KAO2Ck4HRg)
+
+<p class="clip-credit"><strong>Bow and Arrow to Kneebar from Honey Hole</strong> — taught by JitzLive · 0:52 · <a href="https://www.youtube.com/watch?v=3KAO2Ck4HRg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tm98rJZCvdc)
+
+<p class="clip-credit"><strong>Kneebar from Side Saddle / Honey Hole</strong> — taught by BJJ4Breakfast · 4:13 · <a href="https://www.youtube.com/watch?v=tm98rJZCvdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -243,7 +308,7 @@ In competition, this attack chain is a hallmark of systematic leg lock play. Eli
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Flying Kneebar]]

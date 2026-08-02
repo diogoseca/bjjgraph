@@ -180,6 +180,43 @@ description: "Master the Escape Reverse Mount technique from bottom position. Le
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Reverse Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inverted mount escape to ashi garami",
+      "description": "Escape Reverse Mount (Attacker) film study: Inverted mount escape to ashi garami, taught by Thunderdome BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bNdt6jVatj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bNdt6jVatj4",
+      "url": "https://www.youtube.com/watch?v=bNdt6jVatj4",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ coach" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse mount scrambles and escapes",
+      "description": "Escape Reverse Mount (Attacker) film study: Reverse mount scrambles and escapes, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XQ4fwGrXV2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XQ4fwGrXV2Q",
+      "url": "https://www.youtube.com/watch?v=XQ4fwGrXV2Q",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the bottom player trapped in reverse mount, your primary objective is to esca
 **From Position**: [[Positions/Reverse Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Reverse Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bNdt6jVatj4)
+
+<p class="clip-credit"><strong>Inverted mount escape to ashi garami</strong> — taught by Thunderdome BJJ coach · 0:43 · <a href="https://www.youtube.com/watch?v=bNdt6jVatj4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XQ4fwGrXV2Q)
+
+<p class="clip-credit"><strong>Reverse mount scrambles and escapes</strong> — taught by Unknown coach · 0:23 · <a href="https://www.youtube.com/watch?v=XQ4fwGrXV2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

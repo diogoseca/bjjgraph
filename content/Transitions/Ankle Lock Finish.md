@@ -34,6 +34,54 @@ description: "Master the Ankle Lock Finish from Ushiro Ashi-Garami. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ankle Lock Finish \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Straight ankle lock finish",
+      "description": "Ankle Lock Finish film study: Straight ankle lock finish, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PsyAVXfRhyY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PsyAVXfRhyY",
+      "url": "https://www.youtube.com/watch?v=PsyAVXfRhyY",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight ankle lock breakdown",
+      "description": "Ankle Lock Finish film study: Straight ankle lock breakdown, taught by Tex Johnson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3h9twIIueXU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3h9twIIueXU",
+      "url": "https://www.youtube.com/watch?v=3h9twIIueXU",
+      "creator": { "@type": "Person", "name": "Tex Johnson" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Achilles lock finish from guard",
+      "description": "Ankle Lock Finish film study: Achilles lock finish from guard, taught by Kinesiology College.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9gbX4ppi95c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9gbX4ppi95c",
+      "url": "https://www.youtube.com/watch?v=9gbX4ppi95c",
+      "creator": { "@type": "Person", "name": "Kinesiology College" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ This transition capitalizes on the opponent's compromised defensive position dur
 Strategically, the Ankle Lock Finish serves as a high-percentage option when heel hook access is compromised by the opponent's defensive hand fighting or when ruleset restrictions limit heel hook application. The straight ankle lock provides a legal submission across all major competition formats while maintaining offensive pressure that prevents the opponent from completing their escape sequence. Success requires precise timing, proper grip establishment, and coordinated breaking mechanics that account for the reversed entanglement geometry.
 
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 38%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ankle Lock Finish in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PsyAVXfRhyY)
+
+<p class="clip-credit"><strong>Straight ankle lock finish</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3h9twIIueXU)
+
+<p class="clip-credit"><strong>Straight ankle lock breakdown</strong> — taught by Tex Johnson · 0:49 · <a href="https://www.youtube.com/watch?v=3h9twIIueXU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9gbX4ppi95c)
+
+<p class="clip-credit"><strong>Achilles lock finish from guard</strong> — taught by Kinesiology College · 0:57 · <a href="https://www.youtube.com/watch?v=9gbX4ppi95c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -251,7 +335,7 @@ The Ankle Lock Finish integrates into the modern leg lock system as a critical f
 
 - [[Transitions/Outside Ashi Entry]] - Related leg entanglement transition
 
-- [[Transitions/Estima Lock]] - Alternative grip when boot defense prevents standard finish
+- [[Submissions/Estima Lock]] - Alternative grip when boot defense prevents standard finish
 
 - [[Submissions/Straight Ankle Lock]] - Related submission with similar breaking mechanics
 

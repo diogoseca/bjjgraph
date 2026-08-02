@@ -140,6 +140,54 @@ description: "Defend against the Modified Scarf Hold to Kesa Gatame transition. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Modified Scarf to Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame escape",
+      "description": "Modified Scarf to Kesa Gatame (Defender) film study: Kesa Gatame escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kuzure-kesa-gatame escapes",
+      "description": "Modified Scarf to Kesa Gatame (Defender) film study: Kuzure-kesa-gatame escapes, taught by Kodokan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-zFQ6h4yKT4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-zFQ6h4yKT4",
+      "url": "https://www.youtube.com/watch?v=-zFQ6h4yKT4",
+      "creator": { "@type": "Person", "name": "Kodokan" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escape kesa gatame by bridge and roll",
+      "description": "Modified Scarf to Kesa Gatame (Defender) film study: Escape kesa gatame by bridge and roll, taught by Judo Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C98ztdlur4E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C98ztdlur4E",
+      "url": "https://www.youtube.com/watch?v=C98ztdlur4E",
+      "creator": { "@type": "Person", "name": "Judo Life" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Modified Scarf to Kesa Gatame transition requires recognizing the 
 **Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Modified Scarf to Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa Gatame escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-zFQ6h4yKT4)
+
+<p class="clip-credit"><strong>Kuzure-kesa-gatame escapes</strong> — taught by Kodokan · 1:10 · <a href="https://www.youtube.com/watch?v=-zFQ6h4yKT4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C98ztdlur4E)
+
+<p class="clip-credit"><strong>Escape kesa gatame by bridge and roll</strong> — taught by Judo Life · 1:17 · <a href="https://www.youtube.com/watch?v=C98ztdlur4E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

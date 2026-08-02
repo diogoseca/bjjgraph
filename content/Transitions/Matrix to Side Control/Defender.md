@@ -142,6 +142,54 @@ description: "Defend against the Matrix to Side Control transition in BJJ. Recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Matrix to Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stiff arm escape timing and speed drill",
+      "description": "Matrix to Side Control (Defender) film study: Stiff arm escape timing and speed drill, taught by Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qZFnfPF6N9o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qZFnfPF6N9o",
+      "url": "https://www.youtube.com/watch?v=qZFnfPF6N9o",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering Guard from the Turtle",
+      "description": "Matrix to Side Control (Defender) film study: Recovering Guard from the Turtle, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/61unSJ7vu4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/61unSJ7vu4I",
+      "url": "https://www.youtube.com/watch?v=61unSJ7vu4I",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT413S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping Side Control",
+      "description": "Matrix to Side Control (Defender) film study: Escaping Side Control, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CA1uP2THJdY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CA1uP2THJdY",
+      "url": "https://www.youtube.com/watch?v=CA1uP2THJdY",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT588S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ From the defender's perspective, the Matrix to Side Control transition represent
 **Opponent's Starting Position**: [[Positions/Matrix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Matrix to Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qZFnfPF6N9o)
+
+<p class="clip-credit"><strong>Stiff arm escape timing and speed drill</strong> — taught by Matrix Jiu Jitsu · 1:11 · <a href="https://www.youtube.com/watch?v=qZFnfPF6N9o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=61unSJ7vu4I)
+
+<p class="clip-credit"><strong>Recovering Guard from the Turtle</strong> — taught by Lachlan Giles · 6:53 · <a href="https://www.youtube.com/watch?v=61unSJ7vu4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CA1uP2THJdY)
+
+<p class="clip-credit"><strong>Escaping Side Control</strong> — taught by Lachlan Giles · 9:48 · <a href="https://www.youtube.com/watch?v=CA1uP2THJdY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

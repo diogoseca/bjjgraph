@@ -34,6 +34,43 @@ description: "Master the elbow escape from back control in BJJ. Complete guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape from Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape back control with a 2-on-1",
+      "description": "Elbow Escape from Back film study: Escape back control with a 2-on-1, taught by John Connors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pt6pcB6i8tU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Pt6pcB6i8tU",
+      "url": "https://www.youtube.com/watch?v=Pt6pcB6i8tU",
+      "creator": { "@type": "Person", "name": "John Connors" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back escape into a half guard sweep",
+      "description": "Elbow Escape from Back film study: Back escape into a half guard sweep, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zU2Baz5qm78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zU2Baz5qm78",
+      "url": "https://www.youtube.com/watch?v=zU2Baz5qm78",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT190S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategic integration of this escape with other back escape methods creates a la
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape from Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Pt6pcB6i8tU)
+
+<p class="clip-credit"><strong>Escape back control with a 2-on-1</strong> — taught by John Connors · 1:43 · <a href="https://www.youtube.com/watch?v=Pt6pcB6i8tU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zU2Baz5qm78)
+
+<p class="clip-credit"><strong>Back escape into a half guard sweep</strong> — taught by Carpio Jiu Jitsu · 3:10 · <a href="https://www.youtube.com/watch?v=zU2Baz5qm78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

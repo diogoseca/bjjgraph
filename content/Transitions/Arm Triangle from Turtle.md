@@ -34,6 +34,43 @@ description: "Master the Arm Triangle from Turtle in BJJ. Complete guide coverin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm triangle from turtle",
+      "description": "Arm Triangle from Turtle film study: Arm triangle from turtle, taught by BTT Evergreen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KHEJ0DygJvc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KHEJ0DygJvc",
+      "url": "https://www.youtube.com/watch?v=KHEJ0DygJvc",
+      "creator": { "@type": "Person", "name": "BTT Evergreen" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Head and arm choke from the turtle position",
+      "description": "Arm Triangle from Turtle film study: Head and arm choke from the turtle position, taught by Pathfinder Jiu-Jitsu Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h4izOHcQh2Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h4izOHcQh2Y",
+      "url": "https://www.youtube.com/watch?v=h4izOHcQh2Y",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu Team" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,13 +105,41 @@ The arm triangle from turtle has become increasingly popular in modern no-gi com
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KHEJ0DygJvc)
+
+<p class="clip-credit"><strong>Arm triangle from turtle</strong> — taught by BTT Evergreen · 0:58 · <a href="https://www.youtube.com/watch?v=KHEJ0DygJvc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h4izOHcQh2Y)
+
+<p class="clip-credit"><strong>Head and arm choke from the turtle position</strong> — taught by Pathfinder Jiu-Jitsu Team · 0:50 · <a href="https://www.youtube.com/watch?v=h4izOHcQh2Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
 <section id="possible-outcomes" class="content-section">
 
 ## Possible Outcomes
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Arm Triangle]] | 55% |
+| Success | [[Positions/Side Control]] | 55% |
 | Failure | [[Positions/Front Headlock]] | 25% |
 | Failure | [[Positions/Half Guard]] | 10% |
 | Counter | [[Positions/Closed Guard]] | 10% |
@@ -245,7 +310,7 @@ The arm triangle from turtle represents a crucial component of the top turtle at
 
 - [[Positions/Front Headlock]] - Control position during setup and failure outcome
 
-- [[Transitions/Arm Triangle]] - Parent submission system
+- [[Submissions/Arm Triangle]] - Parent submission system
 
 - [[Transitions/Anaconda from Turtle]] - Alternative front headlock attack from same position
 
@@ -255,9 +320,9 @@ The arm triangle from turtle represents a crucial component of the top turtle at
 
 - [[Transitions/Crucifix from Turtle]] - Alternative attack when opponent extends posting arm
 
-- [[Transitions/North-South Choke]] - Similar perpendicular finishing mechanics
+- [[Submissions/North-South Choke]] - Similar perpendicular finishing mechanics
 
-- [[Transitions/Darce Choke]] - Related front headlock submission system
+- [[Submissions/Darce Choke]] - Related front headlock submission system
 
 - [[Transitions/Arm Triangle from Top]] - Related arm triangle entry from side control
 

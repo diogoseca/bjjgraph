@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Crucifix/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Back Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Crucifix Transition from standing back control represents a sophisticated positional advancement that capitalizes on defensive grip fighting attempts by your opponent. When you have standing back control and your opponent begins actively fighting your harness grip with one or both hands, they create the opening for this transition by exposing their arms. The crucifix position that results is one of the most dominant control positions in grappling, offering complete arm isolation and multiple high-percentage submission options including rear naked choke variations, armbar attacks, and neck cranks.\n\nStrategically, this transition punishes opponents who prioritize grip fighting over protecting their base. Rather than viewing their defensive hand fighting as a problem, the crucifix entry reframes it as an opportunity. The standing variant is particularly effective because the opponent cannot use the mat to frame or create defensive barriers. Their extended arm becomes a lever you can capture and use to break them down while simultaneously trapping both arms in the finished crucifix position.\n\nThe transition requires precise timing and commitment. You must recognize when the opponent's arm is sufficiently extended during their defensive movement, then explosively capture it while maintaining your chest-to-back connection. The standing nature of this entry often flows naturally into a mat return where you secure the legs and complete the crucifix position on the ground. Advanced practitioners use this as a reliable chain attack when initial choke attempts are successfully defended.",
   "conditions": [
     "You have established standing back control with harness or seat belt grip",
@@ -222,50 +234,189 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Crucifix Transition?",
-        "answer": "The primary goal is to advance from standing back control to the crucifix position by capturing one of opponent's arms when they extend it during defensive grip fighting. This creates a dominant control position with both arms isolated and multiple high-percentage submission options available."
+        "answer": "The primary goal is to advance from standing back control to the crucifix position by capturing one of opponent's arms when they extend it during defensive grip fighting. This creates a dominant control position with both arms isolated and multiple high-percentage submission options available.",
+        "answer_line": "Capture arm, advance to crucifix",
+        "distractors": {
+          "plausible": [
+            "Maintain standing back control",
+            "Finish rear naked choke now"
+          ],
+          "trap": [
+            "Release grips, shoot takedown"
+          ]
+        }
       },
       {
         "question": "What position do you start Crucifix Transition from?",
-        "answer": "This technique starts from Standing Back Control with you in the top position, meaning you have chest-to-back connection with harness or seat belt grip while both practitioners are standing. The opponent's grip fighting creates the opening for the transition."
+        "answer": "This technique starts from Standing Back Control with you in the top position, meaning you have chest-to-back connection with harness or seat belt grip while both practitioners are standing. The opponent's grip fighting creates the opening for the transition.",
+        "answer_line": "Standing back control, top",
+        "distractors": {
+          "plausible": [
+            "Grounded back control",
+            "Turtle top position"
+          ],
+          "trap": [
+            "Guard, opponent standing"
+          ]
+        }
       },
       {
         "question": "What creates the opportunity to attempt the crucifix transition?",
-        "answer": "The opportunity arises when the opponent extends their arm away from their body during defensive grip fighting attempts. When they reach back to strip your choking arm or push away your control hand, they expose their arm for capture. This is why you should threaten chokes first to force defensive reactions."
+        "answer": "The opportunity arises when the opponent extends their arm away from their body during defensive grip fighting attempts. When they reach back to strip your choking arm or push away your control hand, they expose their arm for capture. This is why you should threaten chokes first to force defensive reactions.",
+        "answer_line": "Opponent extends arm defending",
+        "distractors": {
+          "plausible": [
+            "Opponent turtles to defend",
+            "Opponent grips your wrist"
+          ],
+          "trap": [
+            "Opponent postures to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent extends their arm but keeps their elbow bent at ninety degrees - can you still capture it?",
-        "answer": "A bent arm at ninety degrees with a tight elbow is difficult to capture for the crucifix transition. You need the arm sufficiently extended where the elbow moves away from their body. If they maintain tight elbows while grip fighting, attack the neck directly since they are not defending it, or use this positioning to break them down to grounded back control."
+        "answer": "A bent arm at ninety degrees with a tight elbow is difficult to capture for the crucifix transition. You need the arm sufficiently extended where the elbow moves away from their body. If they maintain tight elbows while grip fighting, attack the neck directly since they are not defending it, or use this positioning to break them down to grounded back control.",
+        "answer_line": "No, elbow must extend away",
+        "distractors": {
+          "plausible": [
+            "Yes, trap it immediately",
+            "Yes, use two-on-one grip"
+          ],
+          "trap": [
+            "Yes, drop to truck now"
+          ]
+        }
       },
       {
         "question": "Which arm do you use to redirect opponent's extended arm - the choking arm or the control arm?",
-        "answer": "Use the control arm, which is the arm positioned under opponent's armpit in the harness configuration. This arm redirects their extended arm across their body while your choking arm maintains threat to the neck. Releasing the harness to grab with both hands creates escape opportunities."
+        "answer": "Use the control arm, which is the arm positioned under opponent's armpit in the harness configuration. This arm redirects their extended arm across their body while your choking arm maintains threat to the neck. Releasing the harness to grab with both hands creates escape opportunities.",
+        "answer_line": "Control arm redirects it",
+        "distractors": {
+          "plausible": [
+            "Choking arm redirects it",
+            "Both hands release harness"
+          ],
+          "trap": [
+            "Let go, grab with both hands"
+          ]
+        }
       },
       {
         "question": "How do you prevent opponent's arm from escaping once you initiate the capture?",
-        "answer": "Create redundant control points by both trapping their upper arm between your leg and hip and controlling their wrist with your hand. The leg trap alone is not secure enough during the dynamic mat transition. Wrist control ensures they cannot slip free even if the leg trap loosens momentarily."
+        "answer": "Create redundant control points by both trapping their upper arm between your leg and hip and controlling their wrist with your hand. The leg trap alone is not secure enough during the dynamic mat transition. Wrist control ensures they cannot slip free even if the leg trap loosens momentarily.",
+        "answer_line": "Leg trap plus wrist control",
+        "distractors": {
+          "plausible": [
+            "Leg trap alone is enough",
+            "Wrist control alone suffices"
+          ],
+          "trap": [
+            "Let go of leg trap to reset"
+          ]
+        }
       },
       {
         "question": "Your opponent drops their weight explosively when you begin the arm capture - what is your response?",
-        "answer": "Follow them down and transition to truck position rather than fighting to maintain standing. Their dropping creates momentum you can use to establish leg entanglement. From truck, you can work back to crucifix or pursue alternative attacks like calf slicer entries. The key is not to fight their descent but to use it."
+        "answer": "Follow them down and transition to truck position rather than fighting to maintain standing. Their dropping creates momentum you can use to establish leg entanglement. From truck, you can work back to crucifix or pursue alternative attacks like calf slicer entries. The key is not to fight their descent but to use it.",
+        "answer_line": "Follow down to truck",
+        "distractors": {
+          "plausible": [
+            "Fight to stay standing",
+            "Pull them back upright"
+          ],
+          "trap": [
+            "Release grips, sprawl back"
+          ]
+        }
       },
       {
         "question": "What is the finishing position after completing the mat return in the crucifix transition?",
-        "answer": "After the mat return, you should land with opponent on their side, your legs triangled around their trapped arm and torso, and your arms controlling both of their arms (one trapped by your legs, one controlled over their head). Their neck should be exposed for rear naked choke variations or the armbar should be available on either arm."
+        "answer": "After the mat return, you should land with opponent on their side, your legs triangled around their trapped arm and torso, and your arms controlling both of their arms (one trapped by your legs, one controlled over their head). Their neck should be exposed for rear naked choke variations or the armbar should be available on either arm.",
+        "answer_line": "Legs trap arm, arms control both",
+        "distractors": {
+          "plausible": [
+            "Opponent flat, back exposed",
+            "Both arms free, neck trapped"
+          ],
+          "trap": [
+            "Opponent face down, arms free"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand on the ground to resist the takedown - how do you adjust?",
-        "answer": "A posted hand creates a new opportunity rather than a problem. You can attack the posted arm with a kimura grip since it is extended and bearing weight, making it vulnerable to shoulder lock entries. Alternatively, sweep the posting hand away using your free hand to collapse their base and complete the mat return. Never ignore a posted hand as it also means they have stopped defending their neck."
+        "answer": "A posted hand creates a new opportunity rather than a problem. You can attack the posted arm with a kimura grip since it is extended and bearing weight, making it vulnerable to shoulder lock entries. Alternatively, sweep the posting hand away using your free hand to collapse their base and complete the mat return. Never ignore a posted hand as it also means they have stopped defending their neck.",
+        "answer_line": "Attack posted arm or sweep it",
+        "distractors": {
+          "plausible": [
+            "Ignore it, finish takedown",
+            "Grab the post to pull in"
+          ],
+          "trap": [
+            "Release control to stop post"
+          ]
+        }
       },
       {
         "question": "Why is threatening the choke before the crucifix entry critical to the technique's success?",
-        "answer": "Threatening the rear naked choke forces your opponent into a defensive dilemma. If they do not grip fight, you finish the choke. If they do grip fight, they extend their arms and create the opening for the crucifix entry. Without the initial choke threat, the opponent has no reason to extend their arms and can maintain a tight defensive shell that denies the crucifix opportunity entirely. The choke threat is the catalyst that makes the entire transition possible."
+        "answer": "Threatening the rear naked choke forces your opponent into a defensive dilemma. If they do not grip fight, you finish the choke. If they do grip fight, they extend their arms and create the opening for the crucifix entry. Without the initial choke threat, the opponent has no reason to extend their arms and can maintain a tight defensive shell that denies the crucifix opportunity entirely. The choke threat is the catalyst that makes the entire transition possible.",
+        "answer_line": "Forces arm extension to defend",
+        "distractors": {
+          "plausible": [
+            "Tires opponent out faster",
+            "Distracts from crucifix setup"
+          ],
+          "trap": [
+            "Skip choke, go straight for arm"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force when driving the trapped arm across opponent's centerline?",
-        "answer": "The force should be directed diagonally across and slightly downward, pushing opponent's elbow across their midline toward the opposite hip. This diagonal angle prevents them from simply pulling the arm straight back and uses the mechanical disadvantage of their shoulder joint at that angle. Your control arm pushes from underneath while your chest pressure from behind prevents them from rotating to follow the arm."
+        "answer": "The force should be directed diagonally across and slightly downward, pushing opponent's elbow across their midline toward the opposite hip. This diagonal angle prevents them from simply pulling the arm straight back and uses the mechanical disadvantage of their shoulder joint at that angle. Your control arm pushes from underneath while your chest pressure from behind prevents them from rotating to follow the arm.",
+        "answer_line": "Diagonal, down across midline",
+        "distractors": {
+          "plausible": [
+            "Straight back toward you",
+            "Straight down to the mat"
+          ],
+          "trap": [
+            "Pull arm out and away"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The crucifix transition involves taking an opponent to the ground from standing, which carries inherent impact risks. Practice the mat return on appropriate surfaces with mats thick enough to absorb the fall. The partner being taken down should understand how to safely receive the takedown by not posting with extended arms which risks wrist and elbow injuries. During training, communicate clearly about the timing of the takedown so your partner can prepare. The arm trap itself is not dangerous when properly applied, but the crucifix position leads to submissions that can cause injury if applied too quickly. Always allow sufficient time for training partners to tap when applying finishes from the completed crucifix. Avoid this transition on hard surfaces or when fatigued, as the dynamic movement requires precise control."
+    "safety_considerations": "The crucifix transition involves taking an opponent to the ground from standing, which carries inherent impact risks. Practice the mat return on appropriate surfaces with mats thick enough to absorb the fall. The partner being taken down should understand how to safely receive the takedown by not posting with extended arms which risks wrist and elbow injuries. During training, communicate clearly about the timing of the takedown so your partner can prepare. The arm trap itself is not dangerous when properly applied, but the crucifix position leads to submissions that can cause injury if applied too quickly. Always allow sufficient time for training partners to tap when applying finishes from the completed crucifix. Avoid this transition on hard surfaces or when fatigued, as the dynamic movement requires precise control.",
+    "clips": [
+      {
+        "id": "VEhXnr55SOU",
+        "title": "Three crucifix entries from live rolls",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uQn6tbgVeGA",
+        "title": "Arm drag entry to the crucifix",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "X8spZ0nmvuo",
+        "title": "Crucifix into north south control",
+        "by": "Koji Shibamoto",
+        "vertical": false,
+        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
+        "duration": 40,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crucifix Transition Defender",
@@ -356,23 +507,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a crucifix entry rather than continuing a standard choke attack?",
-        "answer": "The earliest cue is feeling your opponent's control arm shift from maintaining the harness to actively pushing your elbow across your centerline. In a standard choke attack, the control arm stays locked in the harness while the choking arm advances toward your chin. When the control arm begins redirecting your arm instead, this signals the transition to crucifix entry and you must react immediately."
+        "answer": "The earliest cue is feeling your opponent's control arm shift from maintaining the harness to actively pushing your elbow across your centerline. In a standard choke attack, the control arm stays locked in the harness while the choking arm advances toward your chin. When the control arm begins redirecting your arm instead, this signals the transition to crucifix entry and you must react immediately.",
+        "answer_line": "Control arm pushes your elbow",
+        "distractors": {
+          "plausible": [
+            "Choking arm advances faster",
+            "Chest pressure suddenly drops"
+          ],
+          "trap": [
+            "Opponent releases harness grip"
+          ]
+        }
       },
       {
         "question": "Why is dropping to turtle considered a favorable defensive outcome when facing a crucifix entry?",
-        "answer": "Turtle is favorable compared to full crucifix because in turtle you retain defensive frames (elbows to knees), your arms are not isolated, and you have established escape pathways including granby rolls, sit-throughs, and technical stand-ups. The full crucifix eliminates all defensive frames by trapping both arms, making escape extremely difficult. Accepting turtle early denies your opponent the standing leverage needed for the crucifix mat return."
+        "answer": "Turtle is favorable compared to full crucifix because in turtle you retain defensive frames (elbows to knees), your arms are not isolated, and you have established escape pathways including granby rolls, sit-throughs, and technical stand-ups. The full crucifix eliminates all defensive frames by trapping both arms, making escape extremely difficult. Accepting turtle early denies your opponent the standing leverage needed for the crucifix mat return.",
+        "answer_line": "Keeps frames, escape routes open",
+        "distractors": {
+          "plausible": [
+            "Avoids the choke entirely",
+            "Buys time to stand back up"
+          ],
+          "trap": [
+            "Turtle traps both your arms"
+          ]
+        }
       },
       {
         "question": "Your opponent has captured your arm and is stepping their leg through - is it too late to defend?",
-        "answer": "It is not too late but the window is closing rapidly. During the leg step through, you can still turn aggressively into your opponent before the leg locks around your arm and torso. Use a two-on-one grip to strip their wrist control while rotating your torso toward them. If the leg is already past your arm, drop your weight immediately to turtle rather than allowing the standing mat return. The critical threshold is when both the leg trap and wrist control are secured simultaneously."
+        "answer": "It is not too late but the window is closing rapidly. During the leg step through, you can still turn aggressively into your opponent before the leg locks around your arm and torso. Use a two-on-one grip to strip their wrist control while rotating your torso toward them. If the leg is already past your arm, drop your weight immediately to turtle rather than allowing the standing mat return. The critical threshold is when both the leg trap and wrist control are secured simultaneously.",
+        "answer_line": "No, turn in, strip the wrist",
+        "distractors": {
+          "plausible": [
+            "Yes, nothing more to do",
+            "No, pull your arm straight out"
+          ],
+          "trap": [
+            "Post your free hand and wait"
+          ]
+        }
       },
       {
         "question": "How should you modify your grip fighting approach to defend both the choke and the crucifix simultaneously?",
-        "answer": "Fight the choking hand using short, compact movements with your elbows staying within six inches of your ribs at all times. Use wrist rotation and two-on-one grip breaks at close range rather than reaching fully behind your head to grab opponent's hands. This compact grip fighting style addresses the choke threat while keeping your elbows close enough to deny the arm extension needed for crucifix entry. Accept that this style is slightly less effective against the choke but dramatically reduces crucifix vulnerability."
+        "answer": "Fight the choking hand using short, compact movements with your elbows staying within six inches of your ribs at all times. Use wrist rotation and two-on-one grip breaks at close range rather than reaching fully behind your head to grab opponent's hands. This compact grip fighting style addresses the choke threat while keeping your elbows close enough to deny the arm extension needed for crucifix entry. Accept that this style is slightly less effective against the choke but dramatically reduces crucifix vulnerability.",
+        "answer_line": "Compact grips, elbows in tight",
+        "distractors": {
+          "plausible": [
+            "Full extension grip breaks",
+            "Two-hand reach behind head"
+          ],
+          "trap": [
+            "Reach wide to strip both hands"
+          ]
+        }
       },
       {
         "question": "Your opponent abandons the crucifix attempt and returns to threatening the choke - how should you adjust your defense?",
-        "answer": "Maintain heightened elbow awareness even after the crucifix attempt fails. Your opponent has now shown you they hunt for the crucifix, meaning future grip fighting must be even more disciplined. Continue using compact movements near your ribs. Recognize that they may cycle between choke threats and crucifix attempts to catch you in a moment of extended grip fighting. Consider dropping to turtle preemptively if you cannot maintain both choke defense and elbow discipline simultaneously."
+        "answer": "Maintain heightened elbow awareness even after the crucifix attempt fails. Your opponent has now shown you they hunt for the crucifix, meaning future grip fighting must be even more disciplined. Continue using compact movements near your ribs. Recognize that they may cycle between choke threats and crucifix attempts to catch you in a moment of extended grip fighting. Consider dropping to turtle preemptively if you cannot maintain both choke defense and elbow discipline simultaneously.",
+        "answer_line": "Stay disciplined, elbows tight",
+        "distractors": {
+          "plausible": [
+            "Relax, threat is over now",
+            "Switch to aggressive grip fighting"
+          ],
+          "trap": [
+            "Extend arms to counter-grip"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -395,6 +596,26 @@
         "phase": "Week 7+",
         "focus": "Live defensive application",
         "description": "Incorporate crucifix defense into live rolling from standing back control bottom. Focus on maintaining elbow discipline throughout extended grip fighting exchanges and reacting automatically when crucifix entries begin. Track which defensive options you select and refine timing through repetition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Yqd86F2qjHs",
+        "title": "Universal back escape",
+        "by": "The Academy MN",
+        "vertical": false,
+        "channel": "The Academy MN",
+        "duration": 95,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KBvb1LqGwnA",
+        "title": "Back escape when they take the underhook side",
+        "by": "Martial Arts and Wellness",
+        "vertical": false,
+        "channel": "Martial Arts and Wellness ",
+        "duration": 149,
+        "verified": "2026-07-15"
       }
     ]
   },

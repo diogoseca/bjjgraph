@@ -174,6 +174,54 @@ description: "Master the offensive sweep from Clamp Guard. Learn to time sweep e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Clamp Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder crunch sweep from butterfly guard",
+      "description": "Sweep from Clamp Guard (Attacker) film study: Shoulder crunch sweep from butterfly guard, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KLwqvzhW3A8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KLwqvzhW3A8",
+      "url": "https://www.youtube.com/watch?v=KLwqvzhW3A8",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shoulder crunch sweep breakdown",
+      "description": "Sweep from Clamp Guard (Attacker) film study: Shoulder crunch sweep breakdown, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nyZwifeL_Do/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nyZwifeL_Do",
+      "url": "https://www.youtube.com/watch?v=nyZwifeL_Do",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The clamp guard: control and sweep mechanics",
+      "description": "Sweep from Clamp Guard (Attacker) film study: The clamp guard: control and sweep mechanics, taught by Fenrir Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A6OG_3e1srY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/A6OG_3e1srY",
+      "url": "https://www.youtube.com/watch?v=A6OG_3e1srY",
+      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the Sweep from Clamp Guard requires understanding how arm isolation fu
 **From Position**: [[Positions/Clamp Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Clamp Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KLwqvzhW3A8)
+
+<p class="clip-credit"><strong>Shoulder crunch sweep from butterfly guard</strong> — taught by Gordon Ryan · 0:19 · <a href="https://www.youtube.com/watch?v=KLwqvzhW3A8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nyZwifeL_Do)
+
+<p class="clip-credit"><strong>Shoulder crunch sweep breakdown</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=nyZwifeL_Do" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=A6OG_3e1srY)
+
+<p class="clip-credit"><strong>The clamp guard: control and sweep mechanics</strong> — taught by Fenrir Jiu-Jitsu · 2:17 · <a href="https://www.youtube.com/watch?v=A6OG_3e1srY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

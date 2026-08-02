@@ -148,6 +148,43 @@ description: "Defend against the Z-Guard sweep from top position. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Z-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the Z-Guard and knee shield",
+      "description": "Sweep from Z-Guard (Defender) film study: Countering the Z-Guard and knee shield, taught by Chris Standing.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BNb_ZIq6JhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BNb_ZIq6JhE",
+      "url": "https://www.youtube.com/watch?v=BNb_ZIq6JhE",
+      "creator": { "@type": "Person", "name": "Chris Standing" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee shield counter into the saddle",
+      "description": "Sweep from Z-Guard (Defender) film study: Knee shield counter into the saddle, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wuOCvhp-uZg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wuOCvhp-uZg",
+      "url": "https://www.youtube.com/watch?v=wuOCvhp-uZg",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT18S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender (top player) facing the Sweep from Z-Guard, your primary objecti
 **Opponent's Starting Position**: [[Positions/Z-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Z-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BNb_ZIq6JhE)
+
+<p class="clip-credit"><strong>Countering the Z-Guard and knee shield</strong> — taught by Chris Standing · 2:20 · <a href="https://www.youtube.com/watch?v=BNb_ZIq6JhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wuOCvhp-uZg)
+
+<p class="clip-credit"><strong>Knee shield counter into the saddle</strong> — taught by Thunderdome BJJ · 0:18 · <a href="https://www.youtube.com/watch?v=wuOCvhp-uZg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

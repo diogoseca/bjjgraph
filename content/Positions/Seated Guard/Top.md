@@ -21,13 +21,13 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bodylock Pass from Seated",
-      "text": "From this position, attempt Bodylock Pass from Seated. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Bodylock Pass from Seated. This technique is attempted in 21% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seated Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing a Seated Guard With Underhooks",
+      "description": "Seated Guard (Top) film study: Passing a Seated Guard With Underhooks, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zT3JjOR838w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zT3JjOR838w",
+      "url": "https://www.youtube.com/watch?v=zT3JjOR838w",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering a Full Inversion While Passing",
+      "description": "Seated Guard (Top) film study: Countering a Full Inversion While Passing, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Application Against a Seated Opponent",
+      "description": "Seated Guard (Top) film study: Application Against a Seated Opponent, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Es7T1KjTUpI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Es7T1KjTUpI",
+      "url": "https://www.youtube.com/watch?v=Es7T1KjTUpI",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT157S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The strategic challenge of passing Seated Guard lies in controlling opponent's m
 Seated Guard Top works best when you establish dominant grips (collar, sleeves, or pants) before closing distance. Maintaining standing posture gives you mobility to avoid sweeps but leaves you vulnerable to ankle picks and single leg attacks. Dropping to knees provides more pressure but allows opponent to insert butterfly hooks or transition to other guards. Most effective strategy involves constant stance switching and angle changes to keep opponent guessing while systematically limiting their offensive options.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seated Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zT3JjOR838w)
+
+<p class="clip-credit"><strong>Passing a Seated Guard With Underhooks</strong> — taught by John Danaher · 2:23 · <a href="https://www.youtube.com/watch?v=zT3JjOR838w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a Full Inversion While Passing</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Es7T1KjTUpI)
+
+<p class="clip-credit"><strong>Application Against a Seated Opponent</strong> — taught by John Danaher · 2:37 · <a href="https://www.youtube.com/watch?v=Es7T1KjTUpI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

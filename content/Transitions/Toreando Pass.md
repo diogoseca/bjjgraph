@@ -35,6 +35,54 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toreando straight to side control",
+      "description": "Toreando Pass film study: Toreando straight to side control, taught by Joao Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JZHp3VI-X_g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JZHp3VI-X_g",
+      "url": "https://www.youtube.com/watch?v=JZHp3VI-X_g",
+      "creator": { "@type": "Person", "name": "Joao Mendes" },
+      "duration": "PT237S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toreando pass quick instructional",
+      "description": "Toreando Pass film study: Toreando pass quick instructional, taught by Maverick TV coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wVcOSPR18y8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wVcOSPR18y8",
+      "url": "https://www.youtube.com/watch?v=wVcOSPR18y8",
+      "creator": { "@type": "Person", "name": "Maverick TV coach" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Toreando pass complete guide",
+      "description": "Toreando Pass film study: Toreando pass complete guide, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BZCnqNI9CVI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BZCnqNI9CVI",
+      "url": "https://www.youtube.com/watch?v=BZCnqNI9CVI",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT594S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard passing technique that exploits superior grips and angular movement to control and redirect the opponent's legs. Named after the bullfighter's movements when evading a charging bull, this pass emphasizes controlling the opponent's knees or pant legs while stepping laterally to create passing angles. The technique is particularly effective against players who rely on open guard systems like De La Riva, Spider Guard, or Collar Sleeve Guard. By dominating the leg grips and using explosive lateral movement, the passer forces the guard player's legs to one side while their upper body remains stationary, creating a clear path to side control or knee on belly. The Toreando Pass is a cornerstone of modern guard passing systems, valued for its versatility across gi and no-gi contexts, its effectiveness against multiple guard styles, and its ability to chain seamlessly with other passing sequences. When executed correctly, it creates immense pressure on the opponent's defensive structure while maintaining the passer's balance and base throughout the movement.
 
 **From Position**: [[Positions/Open Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 42%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JZHp3VI-X_g)
+
+<p class="clip-credit"><strong>Toreando straight to side control</strong> — taught by Joao Mendes · 3:57 · <a href="https://www.youtube.com/watch?v=JZHp3VI-X_g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wVcOSPR18y8)
+
+<p class="clip-credit"><strong>Toreando pass quick instructional</strong> — taught by Maverick TV coach · 3:14 · <a href="https://www.youtube.com/watch?v=wVcOSPR18y8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BZCnqNI9CVI)
+
+<p class="clip-credit"><strong>Toreando pass complete guide</strong> — taught by Jon Thomas · 9:54 · <a href="https://www.youtube.com/watch?v=BZCnqNI9CVI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

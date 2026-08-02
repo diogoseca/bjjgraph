@@ -21,7 +21,7 @@ description: "Master Deep Half Guard Top with defensive counters, pressure maint
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master Deep Half Guard Top with defensive counters, pressure maint
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Half Guard",
-      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Back Step Pass",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Deep Half Guard Top with defensive counters, pressure maint
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Deep Half Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top Deep Half Guard Counter to Back Take",
+      "description": "Deep Half Guard (Top) film study: Top Deep Half Guard Counter to Back Take, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hHbb7ywVTwU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hHbb7ywVTwU",
+      "url": "https://www.youtube.com/watch?v=hHbb7ywVTwU",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stop the Half Guard Underhook",
+      "description": "Deep Half Guard (Top) film study: Stop the Half Guard Underhook, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Pass the Deep Half Guard",
+      "description": "Deep Half Guard (Top) film study: How to Pass the Deep Half Guard, taught by Dimitrius Souza.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2mom9Urqxa4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2mom9Urqxa4",
+      "url": "https://www.youtube.com/watch?v=2mom9Urqxa4",
+      "creator": { "@type": "Person", "name": "Dimitrius Souza" },
+      "duration": "PT237S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The position is deceptive because the top player appears to be winning, but deep
 Success from top position requires understanding the sweep mechanics your opponent is attempting, maintaining proper weight distribution to counter these sweeps, and systematically working to extract your trapped leg and establish dominant passing pressure. Patience is essential, as rushing to pass without proper defensive positioning often results in sweeps or back exposure.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Deep Half Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hHbb7ywVTwU)
+
+<p class="clip-credit"><strong>Top Deep Half Guard Counter to Back Take</strong> — taught by JiuJitsu.com · 1:03 · <a href="https://www.youtube.com/watch?v=hHbb7ywVTwU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stop the Half Guard Underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2mom9Urqxa4)
+
+<p class="clip-credit"><strong>How to Pass the Deep Half Guard</strong> — taught by Dimitrius Souza · 3:57 · <a href="https://www.youtube.com/watch?v=2mom9Urqxa4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -164,6 +164,43 @@ description: "Master control point hierarchy in BJJ. Learn systematic control ac
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Control Point Hierarchy \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The positional hierarchy explained",
+      "description": "Control Point Hierarchy film study: The positional hierarchy explained, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OVNThMHxY4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OVNThMHxY4k",
+      "url": "https://www.youtube.com/watch?v=OVNThMHxY4k",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT275S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Positional guide: ranking control positions",
+      "description": "Control Point Hierarchy film study: Positional guide: ranking control positions, taught by Will Brooks.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x_IrC_-zzYU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/x_IrC_-zzYU",
+      "url": "https://www.youtube.com/watch?v=x_IrC_-zzYU",
+      "creator": { "@type": "Person", "name": "Will Brooks" },
+      "duration": "PT598S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Control Point Hierarchy?
@@ -177,6 +214,34 @@ The fundamental principle underlying Control Point Hierarchy is that not all con
 Mastery of Control Point Hierarchy requires understanding both the offensive and defensive implications of each control point. Offensively, practitioners learn to recognize which control points unlock specific attacks and position advancements. Defensively, they understand which control points must be defended at all costs to prevent submission or positional advancement. This dual understanding creates a chess-like approach to grappling where every grip, frame, and position has strategic significance within the broader hierarchy of control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Control Point Hierarchy in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OVNThMHxY4k)
+
+<p class="clip-credit"><strong>The positional hierarchy explained</strong> — taught by Lachlan Giles · 4:35 · <a href="https://www.youtube.com/watch?v=OVNThMHxY4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=x_IrC_-zzYU)
+
+<p class="clip-credit"><strong>Positional guide: ranking control positions</strong> — taught by Will Brooks · 9:58 · <a href="https://www.youtube.com/watch?v=x_IrC_-zzYU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

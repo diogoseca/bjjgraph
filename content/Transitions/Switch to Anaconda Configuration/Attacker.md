@@ -174,6 +174,43 @@ description: "How to execute Switch to Anaconda Configuration in BJJ. Attacking 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Switch to Anaconda Configuration (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda vs D\u0027Arce: switching between configurations",
+      "description": "Switch to Anaconda Configuration (Attacker) film study: Anaconda vs D\u0027Arce: switching between configurations, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
+      "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda choke entry for wrestlers",
+      "description": "Switch to Anaconda Configuration (Attacker) film study: Anaconda choke entry for wrestlers, taught by The B-Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OWVMvV4gmIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OWVMvV4gmIo",
+      "url": "https://www.youtube.com/watch?v=OWVMvV4gmIo",
+      "creator": { "@type": "Person", "name": "The B-Team" },
+      "duration": "PT235S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +224,34 @@ The anaconda configuration offers a distinct advantage over maintaining the bugg
 **From Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Switch to Anaconda Configuration (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
+
+<p class="clip-credit"><strong>Anaconda vs D&#39;Arce: switching between configurations</strong> — taught by Matt Arroyo · 1:07 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OWVMvV4gmIo)
+
+<p class="clip-credit"><strong>Anaconda choke entry for wrestlers</strong> — taught by The B-Team · 3:55 · <a href="https://www.youtube.com/watch?v=OWVMvV4gmIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

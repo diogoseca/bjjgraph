@@ -176,6 +176,54 @@ description: "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Choke from Dead Orchard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda finish details, S-grip",
+      "description": "Anaconda Choke from Dead Orchard (Attacker) film study: Anaconda finish details, S-grip, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dr66s8QK9_g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dr66s8QK9_g",
+      "url": "https://www.youtube.com/watch?v=dr66s8QK9_g",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to do an anaconda choke",
+      "description": "Anaconda Choke from Dead Orchard (Attacker) film study: How to do an anaconda choke, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EbhWFWp-B6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EbhWFWp-B6s",
+      "url": "https://www.youtube.com/watch?v=EbhWFWp-B6s",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sneaky anaconda submission (no-gi)",
+      "description": "Anaconda Choke from Dead Orchard (Attacker) film study: Sneaky anaconda submission (no-gi), taught by The Grapple Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PGZUu6JbtDA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PGZUu6JbtDA",
+      "url": "https://www.youtube.com/watch?v=PGZUu6JbtDA",
+      "creator": { "@type": "Person", "name": "The Grapple Club" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Executing the Anaconda Choke from Dead Orchard requires mastery of sustained pos
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Choke from Dead Orchard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dr66s8QK9_g)
+
+<p class="clip-credit"><strong>Anaconda finish details, S-grip</strong> — taught by Ben Eddy · 1:36 · <a href="https://www.youtube.com/watch?v=dr66s8QK9_g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EbhWFWp-B6s)
+
+<p class="clip-credit"><strong>How to do an anaconda choke</strong> — taught by Brandon McCaghren · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PGZUu6JbtDA)
+
+<p class="clip-credit"><strong>Sneaky anaconda submission (no-gi)</strong> — taught by The Grapple Club · 1:29 · <a href="https://www.youtube.com/watch?v=PGZUu6JbtDA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

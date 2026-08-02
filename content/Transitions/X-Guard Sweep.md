@@ -34,6 +34,54 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X guard sweep",
+      "description": "X-Guard Sweep film study: X guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
+      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X-guard sweep and pass",
+      "description": "X-Guard Sweep film study: X-guard sweep and pass, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7OnjPU1WjH4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7OnjPU1WjH4",
+      "url": "https://www.youtube.com/watch?v=7OnjPU1WjH4",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-gi X-guard sweep",
+      "description": "X-Guard Sweep film study: No-gi X-guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m-ueyJXiShY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m-ueyJXiShY",
+      "url": "https://www.youtube.com/watch?v=m-ueyJXiShY",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The X-Guard Sweep serves as a cornerstone technique within the broader X-Guard a
 Strategically, the X-Guard Sweep creates a powerful dilemma for the standing opponent. If they maintain an upright posture, the elevation sweep is available. If they lower their base to defend, transitions to Single Leg X or leg entanglements open up. If they attempt to step back, the sweeper can follow with inversions or deep half entries. This branching threat tree makes X-Guard one of the most tactically rich sweeping positions in modern grappling.
 
 **From Position**: [[Positions/X-Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 44%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+
+<p class="clip-credit"><strong>X guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7OnjPU1WjH4)
+
+<p class="clip-credit"><strong>X-guard sweep and pass</strong> — taught by Marcelo Garcia · 0:35 · <a href="https://www.youtube.com/watch?v=7OnjPU1WjH4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m-ueyJXiShY)
+
+<p class="clip-credit"><strong>No-gi X-guard sweep</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=m-ueyJXiShY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

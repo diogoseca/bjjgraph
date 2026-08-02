@@ -174,6 +174,43 @@ description: "Execute the Kneebar from Estima Lock transition in BJJ. Step-by-st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Estima Lock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima Lock demonstration",
+      "description": "Kneebar from Estima Lock (Attacker) film study: Estima Lock demonstration, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_6BC8d5B5Hs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_6BC8d5B5Hs",
+      "url": "https://www.youtube.com/watch?v=_6BC8d5B5Hs",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima Lock breakdown",
+      "description": "Kneebar from Estima Lock (Attacker) film study: Estima Lock breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8Wum2xWu8b8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8Wum2xWu8b8",
+      "url": "https://www.youtube.com/watch?v=8Wum2xWu8b8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the Kneebar from Estima Lock, your objective is to cap
 **From Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Estima Lock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_6BC8d5B5Hs)
+
+<p class="clip-credit"><strong>Estima Lock demonstration</strong> — taught by bjjtaro · 0:31 · <a href="https://www.youtube.com/watch?v=_6BC8d5B5Hs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8Wum2xWu8b8)
+
+<p class="clip-credit"><strong>Estima Lock breakdown</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=8Wum2xWu8b8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

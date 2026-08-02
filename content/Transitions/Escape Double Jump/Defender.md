@@ -140,6 +140,43 @@ description: "Learn to defend against the Escape Double Jump as the top player. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Double Jump (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Pass the Flat Half Guard",
+      "description": "Escape Double Jump (Defender) film study: How to Pass the Flat Half Guard, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
+      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Passing Tip to Shut Down Recovery",
+      "description": "Escape Double Jump (Defender) film study: Guard Passing Tip to Shut Down Recovery, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o3PZRQSZStQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o3PZRQSZStQ",
+      "url": "https://www.youtube.com/watch?v=o3PZRQSZStQ",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ The defender in Escape Double Jump is the top player who has successfully stoppe
 **Opponent's Starting Position**: [[Positions/Double Jump]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Double Jump (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8WbQvytyCX0)
+
+<p class="clip-credit"><strong>How to Pass the Flat Half Guard</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o3PZRQSZStQ)
+
+<p class="clip-credit"><strong>Guard Passing Tip to Shut Down Recovery</strong> — taught by Henry Akins · 1:24 · <a href="https://www.youtube.com/watch?v=o3PZRQSZStQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

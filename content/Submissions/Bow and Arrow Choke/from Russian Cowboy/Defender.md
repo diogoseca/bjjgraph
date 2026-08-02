@@ -136,6 +136,54 @@ description: "Defensive guide against the Bow and Arrow Choke from Russian Cowbo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Russian Cowboy (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bow and arrow choke escape",
+      "description": "Bow and Arrow Choke from Russian Cowboy (Defender) film study: Bow and arrow choke escape, taught by Revolution BJJ Ashland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fEWUEDI_ng4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fEWUEDI_ng4",
+      "url": "https://www.youtube.com/watch?v=fEWUEDI_ng4",
+      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending back control \u2014 face down sprawled",
+      "description": "Bow and Arrow Choke from Russian Cowboy (Defender) film study: Defending back control \u2014 face down sprawled, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/485wvqwlBYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/485wvqwlBYA",
+      "url": "https://www.youtube.com/watch?v=485wvqwlBYA",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back escape \u2014 standing up",
+      "description": "Bow and Arrow Choke from Russian Cowboy (Defender) film study: Back escape \u2014 standing up, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -148,6 +196,42 @@ Effective defense operates on a timeline: early-phase defense focuses on grip pr
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Russian Cowboy (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fEWUEDI_ng4)
+
+<p class="clip-credit"><strong>Bow and arrow choke escape</strong> — taught by Revolution BJJ Ashland · 1:13 · <a href="https://www.youtube.com/watch?v=fEWUEDI_ng4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=485wvqwlBYA)
+
+<p class="clip-credit"><strong>Defending back control — face down sprawled</strong> — taught by Academy Jiu Jitsu · 1:32 · <a href="https://www.youtube.com/watch?v=485wvqwlBYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Back escape — standing up</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

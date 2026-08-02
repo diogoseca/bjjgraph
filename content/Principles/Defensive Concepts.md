@@ -164,6 +164,43 @@ description: "Master defensive concepts in BJJ with systematic frameworks for su
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Defensive Concepts \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention and defensive structure",
+      "description": "Defensive Concepts film study: Guard retention and defensive structure, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ce_0XT1BBQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ce_0XT1BBQA",
+      "url": "https://www.youtube.com/watch?v=ce_0XT1BBQA",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT1251S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The first five escapes you need to know",
+      "description": "Defensive Concepts film study: The first five escapes you need to know, taught by Knight Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/775gXyYzB08/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/775gXyYzB08",
+      "url": "https://www.youtube.com/watch?v=775gXyYzB08",
+      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
+      "duration": "PT521S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Defensive Concepts?
@@ -173,6 +210,34 @@ description: "Master defensive concepts in BJJ with systematic frameworks for su
 Defensive Concepts represents the comprehensive philosophical and strategic framework that governs all defensive decision-making, prioritization, and execution in Brazilian Jiu-Jitsu. Unlike specific defensive techniques, defensive concepts constitute the overarching principles and mental models that enable practitioners to navigate defensive scenarios effectively across all positions and circumstances. This conceptual framework encompasses the hierarchical prioritization of defensive objectives, the strategic approach to resource allocation under pressure, and the psychological framework that enables calm technical execution despite being in disadvantageous positions. Defensive concepts serve as both a strategic philosophy that informs all defensive choices and a practical decision-making framework that guides technique selection and timing. The ability to internalize sound defensive concepts often determines whether a practitioner can maintain competitive viability from inferior positions or becomes overwhelmed by opponent pressure, making it one of the most sophisticated and essential conceptual elements in BJJ.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Defensive Concepts in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ce_0XT1BBQA)
+
+<p class="clip-credit"><strong>Guard retention and defensive structure</strong> — taught by John Danaher · 20:51 · <a href="https://www.youtube.com/watch?v=ce_0XT1BBQA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=775gXyYzB08)
+
+<p class="clip-credit"><strong>The first five escapes you need to know</strong> — taught by Knight Jiu-Jitsu · 8:41 · <a href="https://www.youtube.com/watch?v=775gXyYzB08" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

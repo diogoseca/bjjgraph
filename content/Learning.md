@@ -41,120 +41,126 @@ description: "Level up your BJJ with strategy, training methods, and competition
     {
       "@type": "ListItem",
       "position": 3,
+      "name": "Conscious Mastery",
+      "url": "https://bjjgraph.org/Learning/conscious-mastery"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
       "name": "Defend With Purpose",
       "url": "https://bjjgraph.org/Learning/defend-with-purpose"
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 5,
       "name": "Double Down on Strengths",
       "url": "https://bjjgraph.org/Learning/double-down-on-strengths"
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 6,
       "name": "Economy of Motion",
       "url": "https://bjjgraph.org/Learning/economy-of-motion"
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 7,
       "name": "Funneling",
       "url": "https://bjjgraph.org/Learning/funneling"
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 8,
       "name": "Investing in Loss",
       "url": "https://bjjgraph.org/Learning/investing-in-loss"
     },
     {
       "@type": "ListItem",
-      "position": 8,
+      "position": 9,
       "name": "Layers of Guard",
       "url": "https://bjjgraph.org/Learning/layers-of-guard"
     },
     {
       "@type": "ListItem",
-      "position": 9,
+      "position": 10,
       "name": "Mask Your Intentions",
       "url": "https://bjjgraph.org/Learning/mask-your-intentions"
     },
     {
       "@type": "ListItem",
-      "position": 10,
+      "position": 11,
       "name": "Path of Least Resistance",
       "url": "https://bjjgraph.org/Learning/path-of-least-resistance"
     },
     {
       "@type": "ListItem",
-      "position": 11,
+      "position": 12,
       "name": "Pattern Interrupts",
       "url": "https://bjjgraph.org/Learning/pattern-interrupts"
     },
     {
       "@type": "ListItem",
-      "position": 12,
+      "position": 13,
       "name": "Phases of Guard",
       "url": "https://bjjgraph.org/Learning/phases-of-guard"
     },
     {
       "@type": "ListItem",
-      "position": 13,
+      "position": 14,
       "name": "Phases of Passing",
       "url": "https://bjjgraph.org/Learning/phases-of-passing"
     },
     {
       "@type": "ListItem",
-      "position": 14,
+      "position": 15,
       "name": "Position Over Submission",
       "url": "https://bjjgraph.org/Learning/position-over-submission"
     },
     {
       "@type": "ListItem",
-      "position": 15,
+      "position": 16,
       "name": "Predictable Responses",
       "url": "https://bjjgraph.org/Learning/predictable-responses"
     },
     {
       "@type": "ListItem",
-      "position": 16,
+      "position": 17,
       "name": "Prevention Over Cure",
       "url": "https://bjjgraph.org/Learning/prevention-over-cure"
     },
     {
       "@type": "ListItem",
-      "position": 17,
+      "position": 18,
       "name": "Probabilistic Thinking",
       "url": "https://bjjgraph.org/Learning/probabilistic-thinking"
     },
     {
       "@type": "ListItem",
-      "position": 18,
+      "position": 19,
       "name": "Static vs Dynamic Control",
       "url": "https://bjjgraph.org/Learning/static-vs-dynamic-control"
     },
     {
       "@type": "ListItem",
-      "position": 19,
+      "position": 20,
       "name": "Technique Chaining",
       "url": "https://bjjgraph.org/Learning/technique-chaining"
     },
     {
       "@type": "ListItem",
-      "position": 20,
+      "position": 21,
       "name": "Timing Windows",
       "url": "https://bjjgraph.org/Learning/timing-windows"
     },
     {
       "@type": "ListItem",
-      "position": 21,
+      "position": 22,
       "name": "Training Intensity",
       "url": "https://bjjgraph.org/Learning/training-intensity"
     },
     {
       "@type": "ListItem",
-      "position": 22,
+      "position": 23,
       "name": "Training Partner Diversity",
       "url": "https://bjjgraph.org/Learning/training-partner-diversity"
     }
@@ -194,6 +200,10 @@ Master the BJJ strategy of attacking where your opponent is weakest. Learn to id
 ### [[Committed Techniques]]
 
 Learn why choosing BJJ techniques with high position retention on failure separates smart grapplers from reckless ones. Favor moves that keep you safe when they do not work.
+
+### [[Conscious Mastery]]
+
+Learn how tiered BJJ flashcards -- family, position, and role level -- plus the knowledge graph build conscious mastery: instant, deliberate recall at grandmaster speed.
 
 ### [[Defend With Purpose]]
 

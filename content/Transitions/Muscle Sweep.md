@@ -34,6 +34,54 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Learn setup, g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Muscle Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Muscle Swipes sweep from closed guard",
+      "description": "Muscle Sweep film study: Muscle Swipes sweep from closed guard, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rten_ydcZiQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rten_ydcZiQ",
+      "url": "https://www.youtube.com/watch?v=rten_ydcZiQ",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Closed guard sweep when opponent hugs your head",
+      "description": "Muscle Sweep film study: Closed guard sweep when opponent hugs your head, taught by Jiu Jitsu Five-O.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xDOjrYFJf5Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xDOjrYFJf5Y",
+      "url": "https://www.youtube.com/watch?v=xDOjrYFJf5Y",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Basic arm-trap sweep from closed guard",
+      "description": "Muscle Sweep film study: Basic arm-trap sweep from closed guard, taught by Leandro Lo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qFek-0mauW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qFek-0mauW8",
+      "url": "https://www.youtube.com/watch?v=qFek-0mauW8",
+      "creator": { "@type": "Person", "name": "Leandro Lo" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +113,42 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Muscle Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rten_ydcZiQ)
+
+<p class="clip-credit"><strong>Muscle Swipes sweep from closed guard</strong> — taught by Xande Ribeiro · 0:43 · <a href="https://www.youtube.com/watch?v=rten_ydcZiQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xDOjrYFJf5Y)
+
+<p class="clip-credit"><strong>Closed guard sweep when opponent hugs your head</strong> — taught by Jiu Jitsu Five-O · 1:10 · <a href="https://www.youtube.com/watch?v=xDOjrYFJf5Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qFek-0mauW8)
+
+<p class="clip-credit"><strong>Basic arm-trap sweep from closed guard</strong> — taught by Leandro Lo · 1:03 · <a href="https://www.youtube.com/watch?v=qFek-0mauW8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

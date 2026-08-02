@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Knee on Belly/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The KOB to Side Control transition is a fundamental consolidation movement where the top player deliberately drops from Knee on Belly into a crossface side control position. While Knee on Belly offers dynamic attacking potential and scoring opportunities, there are strategic moments when returning to side control provides superior positional stability and access to different submission chains. This transition occurs most frequently when the bottom player's defensive activity — framing against the knee, shrimping, or attempting sit-up escapes — compromises the top player's ability to maintain effective KOB pressure.\n\nThe critical challenge lies in maintaining constant pressure throughout the transition. The brief moment when the knee lifts off the belly and the body drops to perpendicular chest contact creates a vulnerability window where the bottom player can insert frames, recover a knee shield, or begin shrimping to half guard. Skilled practitioners minimize this window by establishing upper body control — crossface and hip control — before initiating the knee drop, ensuring seamless pressure transfer from vertical knee pressure to horizontal chest pressure.\n\nStrategically, this transition fits within a larger pressure cycling system. The top player who can flow between KOB, side control, mount, and north-south creates constant positional dilemmas that exhaust the bottom player's defensive resources. Returning to side control is not a retreat but a deliberate positional reset that enables fresh attacking angles, different submission entries, and renewed pressure from a mechanically advantageous platform.",
   "conditions": [
     "Established Knee on Belly position with at least one controlling grip on collar or belt",
@@ -228,42 +240,161 @@
     "flashcards": [
       {
         "question": "What is the most critical grip to establish before initiating the drop from KOB to side control?",
-        "answer": "The crossface grip or collar control on the near side is the most critical pre-transition grip. This grip controls the opponent's head position and prevents them from turning into you during the weight transfer. Without head control established before the drop, the opponent can create angles, insert frames, and begin escape sequences during the vulnerable transition window. The crossface must be in place before the knee leaves the belly."
+        "answer": "The crossface grip or collar control on the near side is the most critical pre-transition grip. This grip controls the opponent's head position and prevents them from turning into you during the weight transfer. Without head control established before the drop, the opponent can create angles, insert frames, and begin escape sequences during the vulnerable transition window. The crossface must be in place before the knee leaves the belly.",
+        "answer_line": "Near-side crossface or collar",
+        "distractors": {
+          "plausible": [
+            "Underhook the far arm first",
+            "Block far hip before head"
+          ],
+          "trap": [
+            "Let go of grips to move faster"
+          ]
+        }
       },
       {
         "question": "Your opponent frames against your hip as you begin the transition — how do you adjust?",
-        "answer": "Follow their hip movement with your body rather than fighting their frames directly. Maintain chest or shoulder contact while driving your crossface to flatten them. If their frame is strong enough to create significant space, abort the transition and re-establish KOB rather than forcing a compromised side control. A solid KOB is superior to a loose side control where the opponent has frames established and space to work."
+        "answer": "Follow their hip movement with your body rather than fighting their frames directly. Maintain chest or shoulder contact while driving your crossface to flatten them. If their frame is strong enough to create significant space, abort the transition and re-establish KOB rather than forcing a compromised side control. A solid KOB is superior to a loose side control where the opponent has frames established and space to work.",
+        "answer_line": "Follow hip, keep chest contact",
+        "distractors": {
+          "plausible": [
+            "Power through the frame",
+            "Switch to far-side attack"
+          ],
+          "trap": [
+            "Rip the knee off immediately"
+          ]
+        }
       },
       {
         "question": "Why must you block the far hip before removing your knee from the opponent's belly?",
-        "answer": "The far hip block prevents the opponent from inserting their knee during the transition window when knee pressure is removed but chest pressure has not yet been established. Without the hip block, the opponent's natural defensive reaction is to shrimp and insert a knee shield or recover half guard through the space created as the knee lifts. The hip block eliminates this escape pathway and keeps the opponent flat for the chest drop."
+        "answer": "The far hip block prevents the opponent from inserting their knee during the transition window when knee pressure is removed but chest pressure has not yet been established. Without the hip block, the opponent's natural defensive reaction is to shrimp and insert a knee shield or recover half guard through the space created as the knee lifts. The hip block eliminates this escape pathway and keeps the opponent flat for the chest drop.",
+        "answer_line": "Blocks knee shield insertion",
+        "distractors": {
+          "plausible": [
+            "Keeps opponent's shoulders pinned",
+            "Prevents them turning away"
+          ],
+          "trap": [
+            "Lift knee first to seat weight"
+          ]
+        }
       },
       {
         "question": "What is the primary vulnerability window during the KOB to side control transition?",
-        "answer": "The primary vulnerability window occurs during the moment between when the knee lifts off the opponent's belly and when the chest establishes perpendicular contact across their torso. During this brief phase, the focused downward pressure of KOB has been removed but the distributed pressure of side control has not yet been applied. The bottom player experiences a momentary reduction in pinning force that creates opportunity for framing, shrimping, and guard recovery."
+        "answer": "The primary vulnerability window occurs during the moment between when the knee lifts off the opponent's belly and when the chest establishes perpendicular contact across their torso. During this brief phase, the focused downward pressure of KOB has been removed but the distributed pressure of side control has not yet been applied. The bottom player experiences a momentary reduction in pinning force that creates opportunity for framing, shrimping, and guard recovery.",
+        "answer_line": "Knee-lift to chest-contact gap",
+        "distractors": {
+          "plausible": [
+            "Right after chest lands",
+            "Just before initiating transition"
+          ],
+          "trap": [
+            "Only during grip fighting"
+          ]
+        }
       },
       {
         "question": "Your opponent inserts their knee during the transition and recovers half guard — what went wrong?",
-        "answer": "The most likely error was failing to block the opponent's far hip before initiating the knee drop. Without the hip block, the opponent's knee had a clear path to insert between your bodies. The secondary error may have been transitioning too slowly, giving the opponent time to recognize the movement and react with a knee insertion. The fix is establishing the far hip block before the knee leaves the belly and completing the drop decisively."
+        "answer": "The most likely error was failing to block the opponent's far hip before initiating the knee drop. Without the hip block, the opponent's knee had a clear path to insert between your bodies. The secondary error may have been transitioning too slowly, giving the opponent time to recognize the movement and react with a knee insertion. The fix is establishing the far hip block before the knee leaves the belly and completing the drop decisively.",
+        "answer_line": "Didn't block the far hip",
+        "distractors": {
+          "plausible": [
+            "Crossface wasn't tight enough",
+            "Transitioned too slowly"
+          ],
+          "trap": [
+            "Should've dropped knee harder"
+          ]
+        }
       },
       {
         "question": "When is it strategically advantageous to return to side control rather than advancing to mount from KOB?",
-        "answer": "Returning to side control is advantageous when the opponent's defensive activity makes KOB maintenance energy-expensive, when you want to access side control submission chains like americana and kimura that are unavailable from KOB, when you need to reset your attacking posture after a failed submission attempt, or when the opponent is actively threatening to reverse you from KOB through strong framing. Side control offers superior stability and sustainability compared to KOB."
+        "answer": "Returning to side control is advantageous when the opponent's defensive activity makes KOB maintenance energy-expensive, when you want to access side control submission chains like americana and kimura that are unavailable from KOB, when you need to reset your attacking posture after a failed submission attempt, or when the opponent is actively threatening to reverse you from KOB through strong framing. Side control offers superior stability and sustainability compared to KOB.",
+        "answer_line": "KOB getting costly to hold",
+        "distractors": {
+          "plausible": [
+            "Opponent stops defending entirely",
+            "You want faster submissions"
+          ],
+          "trap": [
+            "Never — always advance to mount"
+          ]
+        }
       },
       {
         "question": "What direction should your pressure travel as you transition from vertical knee pressure to horizontal chest pressure?",
-        "answer": "Your pressure should travel forward and downward in a continuous arc from the vertical knee axis to the horizontal chest axis. Think of it as a rotational pressure transfer where the contact point shifts from your knee driving down into the solar plexus to your chest and shoulder driving across the opponent's upper body. At no point should the pressure lift upward or away from the opponent — the weight simply redirects its vector from vertical to horizontal while maintaining constant force on the opponent's body."
+        "answer": "Your pressure should travel forward and downward in a continuous arc from the vertical knee axis to the horizontal chest axis. Think of it as a rotational pressure transfer where the contact point shifts from your knee driving down into the solar plexus to your chest and shoulder driving across the opponent's upper body. At no point should the pressure lift upward or away from the opponent — the weight simply redirects its vector from vertical to horizontal while maintaining constant force on the opponent's body.",
+        "answer_line": "Forward-down arc, never up",
+        "distractors": {
+          "plausible": [
+            "Straight down then across",
+            "Lift slightly then drop chest"
+          ],
+          "trap": [
+            "Pull up and spin around"
+          ]
+        }
       },
       {
         "question": "Your opponent blocks the direct knee drop with a strong knee shield — what chain attack keeps you progressing?",
-        "answer": "Treat the blocked drop as a fork rather than forcing through it. Drive your shoulder into the knee shield and use a knee-slice or backstep to clear it, or abandon the side control destination entirely and step over to mount as their shield occupies the space, or rotate toward their head into north-south if they turn into you. The opponent's commitment to the knee shield opens these alternative pathways, so chain into whichever their reaction exposes instead of stalling against the frame."
+        "answer": "Treat the blocked drop as a fork rather than forcing through it. Drive your shoulder into the knee shield and use a knee-slice or backstep to clear it, or abandon the side control destination entirely and step over to mount as their shield occupies the space, or rotate toward their head into north-south if they turn into you. The opponent's commitment to the knee shield opens these alternative pathways, so chain into whichever their reaction exposes instead of stalling against the frame.",
+        "answer_line": "Clear shield or go north-south",
+        "distractors": {
+          "plausible": [
+            "Force the same knee drop harder",
+            "Switch to armbar attempt"
+          ],
+          "trap": [
+            "Back away and reset guard pass"
+          ]
+        }
       },
       {
         "question": "What entry conditions must exist before you commit to dropping from KOB to side control?",
-        "answer": "You need at least one upper-body control point established (collar grip or a developing crossface), your near hand free to block the opponent's far hip, and their near arm managed so it cannot insert a frame during the drop. The decision should be driven by the opponent's escalating defensive activity making KOB energy-expensive — if your KOB pressure is still effective and unthreatened, dropping to side control needlessly surrenders the mobility and point-scoring advantage of the higher position."
+        "answer": "You need at least one upper-body control point established (collar grip or a developing crossface), your near hand free to block the opponent's far hip, and their near arm managed so it cannot insert a frame during the drop. The decision should be driven by the opponent's escalating defensive activity making KOB energy-expensive — if your KOB pressure is still effective and unthreatened, dropping to side control needlessly surrenders the mobility and point-scoring advantage of the higher position.",
+        "answer_line": "Upper grip + hand free for hip",
+        "distractors": {
+          "plausible": [
+            "Opponent flat on their back",
+            "Full crossface locked in"
+          ],
+          "trap": [
+            "Drop whenever KOB feels stable"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The KOB to Side Control transition carries low injury risk compared to submissions or explosive sweeps. The primary safety concern is avoiding dropping your knee directly onto the opponent's ribs or sternum with uncontrolled force during the transition — slide the knee off rather than dropping it sharply. In training, communicate with your partner about pressure levels and transition speed. Be mindful that the crossface can cause neck strain if applied aggressively during the settling phase. Ensure the transition is practiced at controlled speeds before adding resistance."
+    "safety_considerations": "The KOB to Side Control transition carries low injury risk compared to submissions or explosive sweeps. The primary safety concern is avoiding dropping your knee directly onto the opponent's ribs or sternum with uncontrolled force during the transition — slide the knee off rather than dropping it sharply. In training, communicate with your partner about pressure levels and transition speed. Be mindful that the crossface can cause neck strain if applied aggressively during the settling phase. Ensure the transition is practiced at controlled speeds before adding resistance.",
+    "clips": [
+      {
+        "id": "sM2SRp7XxOY",
+        "title": "Side control to knee on belly transition",
+        "by": "Cary BJJ coach",
+        "vertical": false,
+        "channel": "Cary Brazilian Jiu-Jitsu",
+        "duration": 198,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iEpga9txZe8",
+        "title": "Side control to knee on belly transition",
+        "by": "Fighter Training",
+        "vertical": false,
+        "channel": "Fighter Training",
+        "duration": 311,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "I-4771NfsUA",
+        "title": "Switching the knee in knee on belly",
+        "by": "Fabio Leopoldo",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 74,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "KOB to Side Control Defender",
@@ -344,23 +475,73 @@
     "flashcards": [
       {
         "question": "What is the first recognition cue that your opponent is transitioning from KOB to side control?",
-        "answer": "The first cue is the opponent lowering their center of gravity and dropping their hips toward the mat while their knee begins sliding laterally off your torso. You may also feel a slight reduction in focused downward pressure as their weight begins redistributing from vertical knee pressure toward horizontal chest contact. Grip changes — particularly reaching for a crossface or collar grip — confirm the intent to consolidate to side control."
+        "answer": "The first cue is the opponent lowering their center of gravity and dropping their hips toward the mat while their knee begins sliding laterally off your torso. You may also feel a slight reduction in focused downward pressure as their weight begins redistributing from vertical knee pressure toward horizontal chest contact. Grip changes — particularly reaching for a crossface or collar grip — confirm the intent to consolidate to side control.",
+        "answer_line": "Hips drop, knee slides off",
+        "distractors": {
+          "plausible": [
+            "Opponent grabs your far sleeve",
+            "Sudden increase in pressure"
+          ],
+          "trap": [
+            "They post their far hand up"
+          ]
+        }
       },
       {
         "question": "When during the KOB to side control transition is the optimal window to attempt guard recovery?",
-        "answer": "The optimal window is the brief moment between when the opponent's knee lifts off your belly and when their chest establishes full perpendicular contact with your torso. During this phase, focused downward pressure has been removed but distributed chest pressure has not yet settled. This is when the total pinning force is at its lowest point, giving you the maximum opportunity to insert frames, shrimp, and recover guard before the weight resettles."
+        "answer": "The optimal window is the brief moment between when the opponent's knee lifts off your belly and when their chest establishes full perpendicular contact with your torso. During this phase, focused downward pressure has been removed but distributed chest pressure has not yet settled. This is when the total pinning force is at its lowest point, giving you the maximum opportunity to insert frames, shrimp, and recover guard before the weight resettles.",
+        "answer_line": "Between knee-lift and chest-down",
+        "distractors": {
+          "plausible": [
+            "Right when chest first lands",
+            "Before they start moving at all"
+          ],
+          "trap": [
+            "After crossface is locked in"
+          ]
+        }
       },
       {
         "question": "Why is inserting a knee shield more effective than pushing with extended arms during this transition?",
-        "answer": "A knee shield uses your strongest body structure — the skeletal frame of your leg — to create a structural barrier that the opponent cannot simply pressure through. Extended arms are weaker, expose you to kimura and americana attacks, and create only vertical force against a horizontal settling motion. The knee shield simultaneously creates distance, blocks chest contact, and provides a foundation for further guard recovery. It addresses the mechanical problem of the transition directly."
+        "answer": "A knee shield uses your strongest body structure — the skeletal frame of your leg — to create a structural barrier that the opponent cannot simply pressure through. Extended arms are weaker, expose you to kimura and americana attacks, and create only vertical force against a horizontal settling motion. The knee shield simultaneously creates distance, blocks chest contact, and provides a foundation for further guard recovery. It addresses the mechanical problem of the transition directly.",
+        "answer_line": "Leg frame beats weak arm push",
+        "distractors": {
+          "plausible": [
+            "Arms create more distance",
+            "Arms are faster to insert"
+          ],
+          "trap": [
+            "Push chest away with both hands"
+          ]
+        }
       },
       {
         "question": "Your opponent drops from KOB but you fail to recover guard — what should you do immediately?",
-        "answer": "Immediately establish defensive frames against their crossface and hip to prevent full side control consolidation. Protect your neck from the crossface by framing with your near forearm against their shoulder, tuck your elbows tight to prevent arm isolation for submissions, and begin working standard side control escape sequences. Do not panic or stop moving — chain escape attempts together and look for opportunities when the opponent transitions or attacks from their newly established side control."
+        "answer": "Immediately establish defensive frames against their crossface and hip to prevent full side control consolidation. Protect your neck from the crossface by framing with your near forearm against their shoulder, tuck your elbows tight to prevent arm isolation for submissions, and begin working standard side control escape sequences. Do not panic or stop moving — chain escape attempts together and look for opportunities when the opponent transitions or attacks from their newly established side control.",
+        "answer_line": "Frame neck and hip, tuck elbows",
+        "distractors": {
+          "plausible": [
+            "Wait for them to settle first",
+            "Push away with straight arms"
+          ],
+          "trap": [
+            "Turn away to hide the neck"
+          ]
+        }
       },
       {
         "question": "How does defending the KOB to side control transition differ from escaping an established side control?",
-        "answer": "Defending during the transition exploits a temporary vulnerability window where the opponent's pressure is in flux and not yet consolidated. The total pinning force is lower during the transition than in established side control, making frame insertion and hip escapes more achievable. In established side control, the opponent has settled their full weight, secured crossface control, and blocked your hips — requiring more energy and more complex escape sequences. The transition defense is proactive and opportunistic, while side control escape is reactive and grinding."
+        "answer": "Defending during the transition exploits a temporary vulnerability window where the opponent's pressure is in flux and not yet consolidated. The total pinning force is lower during the transition than in established side control, making frame insertion and hip escapes more achievable. In established side control, the opponent has settled their full weight, secured crossface control, and blocked your hips — requiring more energy and more complex escape sequences. The transition defense is proactive and opportunistic, while side control escape is reactive and grinding.",
+        "answer_line": "Transition window is proactive",
+        "distractors": {
+          "plausible": [
+            "Both require identical effort",
+            "Established escape is easier"
+          ],
+          "trap": [
+            "Wait passively for the transition"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -383,6 +564,35 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Applying transition defense in rolling",
         "description": "During positional sparring from KOB, actively look for and exploit the KOB to side control transition window. Track your success rate at recovering guard during transitions versus having to escape established side control. Develop the habit of always attempting guard recovery during any positional transition rather than passively accepting the new position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How to escape the knee on belly position",
+        "by": "Evolve MMA coach",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IU-kgtU5ng0",
+        "title": "Knee on belly reversal from bottom",
+        "by": "South Island BJJ coach",
+        "vertical": false,
+        "channel": "South Island Bjj",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "52LxBaUJdcw",
+        "title": "Knee on belly escape to technical stand up",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 131,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -34,6 +34,54 @@ description: "Master twister side control in BJJ. Complete strategic guide cover
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister side control",
+      "description": "Twister Side Control film study: Twister side control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
+      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister side attacks",
+      "description": "Twister Side Control film study: Twister side attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Smash side control",
+      "description": "Twister Side Control film study: Smash side control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oBya4BEW_XU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oBya4BEW_XU",
+      "url": "https://www.youtube.com/watch?v=oBya4BEW_XU",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,6 +124,42 @@ From a game theory perspective, Twister Side Control exemplifies the dilemma-cre
 The learning curve for Twister Side Control is significant, requiring practitioners to develop specialized skills including leg entanglement maintenance, torque application, and submission chains. Beginners often struggle with the position's unconventional mechanics and the coordination required to maintain control while pursuing submissions. Intermediate practitioners develop better positional understanding and can maintain the position under pressure, though finishing rates remain moderate. Advanced practitioners integrate Twister Side Control seamlessly into their overall game, using it as both a finishing position and a transitional platform to other dominant positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R55lmkc6Mus)
+
+<p class="clip-credit"><strong>Twister side control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Twister side attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oBya4BEW_XU)
+
+<p class="clip-credit"><strong>Smash side control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=oBya4BEW_XU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -147,23 +231,23 @@ The learning curve for Twister Side Control is significant, requiring practition
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (10% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (10% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (7% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (16% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (14% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (16% of attempts)
 
-- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (31% of attempts)
+- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (9% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (13% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (10% of attempts)
 
-- **[[Transitions/Escape Twister Side Control/Attacker|Escape Twister Side Control]]** (4% of attempts)
+- **[[Transitions/Escape Twister Side Control/Attacker|Escape Twister Side Control]]** (12% of attempts)
 
-- **[[Transitions/Frame from Twister Side Control/Attacker|Frame from Twister Side Control]]** (2% of attempts)
+- **[[Transitions/Frame from Twister Side Control/Attacker|Frame from Twister Side Control]]** (11% of attempts)
 
-- **[[Transitions/Turn In from Twister Side Control/Attacker|Turn In from Twister Side Control]]** (1% of attempts)
+- **[[Transitions/Turn In from Twister Side Control/Attacker|Turn In from Twister Side Control]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -224,31 +308,31 @@ The learning curve for Twister Side Control is significant, requiring practition
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (13% of attempts)
+- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (8% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (11% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (10% of attempts)
 
-- **[[Darce Choke from Twister Side Control/Attacker|Darce Choke from Twister Side Control]]** (9% of attempts)
+- **[[Darce Choke from Twister Side Control/Attacker|Darce Choke from Twister Side Control]]** (10% of attempts)
 
-- **[[Kimura from Twister Side Control/Attacker|Kimura from Twister Side Control]]** (9% of attempts)
+- **[[Kimura from Twister Side Control/Attacker|Kimura from Twister Side Control]]** (8% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (6% of attempts)
 
 - **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (7% of attempts)
 
 - **[[Arm Triangle from Twister Side Control/Attacker|Arm Triangle from Twister Side Control]]** (7% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (7% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (6% of attempts)
 
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (7% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (8% of attempts)
 
-- **[[Calf Slicer from Twister Side Control/Attacker|Calf Slicer from Twister Side Control]]** (5% of attempts)
+- **[[Calf Slicer from Twister Side Control/Attacker|Calf Slicer from Twister Side Control]]** (6% of attempts)
 
-- **[[Transitions/Twister SC to Back Take/Attacker|Twister SC to Back Take]]** (4% of attempts)
+- **[[Transitions/Twister SC to Back Take/Attacker|Twister SC to Back Take]]** (7% of attempts)
 
-- **[[Transitions/Twister SC to Truck/Attacker|Twister SC to Truck]]** (3% of attempts)
+- **[[Transitions/Twister SC to Truck/Attacker|Twister SC to Truck]]** (8% of attempts)
 
-- **[[Twister from Twister Side Control/Attacker|Twister from Twister Side Control]]** (7% of attempts)
+- **[[Twister from Twister Side Control/Attacker|Twister from Twister Side Control]]** (9% of attempts)
 
 
 ### Common Mistakes

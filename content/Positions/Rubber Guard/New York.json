@@ -94,35 +94,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts driving their shin deeper across your back - what immediate adjustment should you make?",
-        "answer": "Immediately widen your base by spreading your knees apart to create a stable triangular foundation. This prevents being swept and gives you a platform to begin fighting for posture. Simultaneously, use your free hand to grip-fight against their shin-controlling hand to prevent them from consolidating deeper control. Do not attempt to pull backward while they have strong shin control, as this will accelerate their advancement to more dominant positions."
+        "answer": "Immediately widen your base by spreading your knees apart to create a stable triangular foundation. This prevents being swept and gives you a platform to begin fighting for posture. Simultaneously, use your free hand to grip-fight against their shin-controlling hand to prevent them from consolidating deeper control. Do not attempt to pull backward while they have strong shin control, as this will accelerate their advancement to more dominant positions.",
+        "answer_line": "Widen base, grip-fight their hand",
+        "distractors": {
+          "plausible": [
+            "Posture up before basing out",
+            "Frame off their hip first"
+          ],
+          "trap": [
+            "Pull back away from the shin"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for escaping New York Top and why does order matter?",
-        "answer": "The correct sequence is: base first, posture second, overhook extraction third, guard pass fourth. Order matters because each step creates the structural foundation for the next. Without base, posture attempts result in sweeps. Without posture, overhook extraction fails because the shin leverage keeps the arm pinned. Attempting to skip steps or address elements out of sequence allows the bottom player to counter and advance to more dominant positions or submissions."
+        "answer": "The correct sequence is: base first, posture second, overhook extraction third, guard pass fourth. Order matters because each step creates the structural foundation for the next. Without base, posture attempts result in sweeps. Without posture, overhook extraction fails because the shin leverage keeps the arm pinned. Attempting to skip steps or address elements out of sequence allows the bottom player to counter and advance to more dominant positions or submissions.",
+        "answer_line": "Base, posture, extract, pass",
+        "distractors": {
+          "plausible": [
+            "Posture first, then base",
+            "Extract arm before basing"
+          ],
+          "trap": [
+            "Skip straight to passing guard"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and frames you need to establish when beginning your escape?",
-        "answer": "Your free hand should establish a frame on their hip or belt to prevent them from following your hip movement. The trapped arm should focus on blocking their overhook from deepening rather than immediately extracting. Your knees need to create a wide base for stability. Grip-fighting the opponent's shin-gripping hand is essential for creating the opening needed to begin posture recovery. These frames prevent advancement while you work systematically toward escape."
+        "answer": "Your free hand should establish a frame on their hip or belt to prevent them from following your hip movement. The trapped arm should focus on blocking their overhook from deepening rather than immediately extracting. Your knees need to create a wide base for stability. Grip-fighting the opponent's shin-gripping hand is essential for creating the opening needed to begin posture recovery. These frames prevent advancement while you work systematically toward escape.",
+        "answer_line": "Frame hip, block overhook, base",
+        "distractors": {
+          "plausible": [
+            "Pull trapped arm free first",
+            "Post both hands flat on mat"
+          ],
+          "trap": [
+            "Yank overhook arm straight out"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary submission threat (triangle) during your escape attempt?",
-        "answer": "Keep your trapped elbow tight to your body and pointed downward rather than flaring out. When you feel them attempting to elevate their hips or shoot their leg over your shoulder, immediately posture toward the trapped arm side while driving your weight forward to flatten their hips. If the triangle is already being locked, stack them immediately by driving forward and up while turning toward the choking leg to relieve pressure and create extraction opportunities."
+        "answer": "Keep your trapped elbow tight to your body and pointed downward rather than flaring out. When you feel them attempting to elevate their hips or shoot their leg over your shoulder, immediately posture toward the trapped arm side while driving your weight forward to flatten their hips. If the triangle is already being locked, stack them immediately by driving forward and up while turning toward the choking leg to relieve pressure and create extraction opportunities.",
+        "answer_line": "Tuck elbow down, then stack",
+        "distractors": {
+          "plausible": [
+            "Flare elbow out for space",
+            "Pull head back to escape"
+          ],
+          "trap": [
+            "Flare trapped elbow outward"
+          ]
+        }
       },
       {
         "question": "What adjustments should you make when the opponent drives forward aggressively trying to advance to Chill Dog or Gogoplata?",
-        "answer": "When they drive forward, use their momentum against them by accepting the forward pressure momentarily while stacking them. Drive your shoulder into their hips and begin to walk your knees forward to flatten them. This stacking defense neutralizes both Chill Dog and Gogoplata threats because it removes the hip elevation they need. From the stacked position, you can begin working to extract your arm and pass to side control."
+        "answer": "When they drive forward, use their momentum against them by accepting the forward pressure momentarily while stacking them. Drive your shoulder into their hips and begin to walk your knees forward to flatten them. This stacking defense neutralizes both Chill Dog and Gogoplata threats because it removes the hip elevation they need. From the stacked position, you can begin working to extract your arm and pass to side control.",
+        "answer_line": "Stack them, flatten their hips",
+        "distractors": {
+          "plausible": [
+            "Pull away from the pressure",
+            "Post up against their chest"
+          ],
+          "trap": [
+            "Retreat and give up position"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure to prevent being swept while maintaining base in New York Top?",
-        "answer": "Apply downward pressure through your hips and chest while keeping your base wide with knees spread. Your weight should be distributed across both knees rather than concentrated on the trapped arm side where your base is compromised. Drive your hips down and back slightly rather than forward, which prevents them from using hip bumps. Keep your free hand posted or framing on their hip to feel for hip movement that signals sweep attempts."
+        "answer": "Apply downward pressure through your hips and chest while keeping your base wide with knees spread. Your weight should be distributed across both knees rather than concentrated on the trapped arm side where your base is compromised. Drive your hips down and back slightly rather than forward, which prevents them from using hip bumps. Keep your free hand posted or framing on their hip to feel for hip movement that signals sweep attempts.",
+        "answer_line": "Weight both knees, hips back",
+        "distractors": {
+          "plausible": [
+            "Load weight onto trapped side",
+            "Drive hips forward hard"
+          ],
+          "trap": [
+            "Post weight on trapped arm side"
+          ]
+        }
       },
       {
         "question": "You've managed to partially recover posture but your arm remains trapped - what do you do next?",
-        "answer": "With partial posture recovered, immediately grip-fight their shin-controlling hand while maintaining your posture through core engagement. Circle your trapped elbow downward and toward your hip in a corkscrew motion rather than pulling straight back. As you extract, keep your weight on your knees and be ready to immediately address their guard retention attempts. Have your passing grip ready to control their legs the moment your arm comes free."
+        "answer": "With partial posture recovered, immediately grip-fight their shin-controlling hand while maintaining your posture through core engagement. Circle your trapped elbow downward and toward your hip in a corkscrew motion rather than pulling straight back. As you extract, keep your weight on your knees and be ready to immediately address their guard retention attempts. Have your passing grip ready to control their legs the moment your arm comes free.",
+        "answer_line": "Corkscrew elbow toward hip",
+        "distractors": {
+          "plausible": [
+            "Pull elbow straight backward",
+            "Rush to standing immediately"
+          ],
+          "trap": [
+            "Yank arm straight back out"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during an extended engagement in New York Top?",
-        "answer": "Work methodically rather than explosively - calm systematic movements are 60% more successful and conserve energy. Take brief micro-pauses between escape attempts to allow grip strength recovery but never remain static for more than 3-5 seconds. Prioritize efficiency over speed, using leverage and body positioning rather than muscular exertion. Accept that escape may take 30-60 seconds of methodical work rather than a single explosive movement, and pace yourself accordingly."
+        "answer": "Work methodically rather than explosively - calm systematic movements are 60% more successful and conserve energy. Take brief micro-pauses between escape attempts to allow grip strength recovery but never remain static for more than 3-5 seconds. Prioritize efficiency over speed, using leverage and body positioning rather than muscular exertion. Accept that escape may take 30-60 seconds of methodical work rather than a single explosive movement, and pace yourself accordingly.",
+        "answer_line": "Work methodically, not explosively",
+        "distractors": {
+          "plausible": [
+            "Prioritize speed over leverage",
+            "Rest fully still between tries"
+          ],
+          "trap": [
+            "Explode all-out in one burst"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -294,31 +374,72 @@
     "transitions": [
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 19
+        "attempt_probability": {
+          "gi": 25,
+          "nogi": 26
+        }
       },
       {
         "transition": "Overhook Extraction",
-        "attempt_probability": 19
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
       },
       {
         "transition": "Guard Opening Sequence",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
       },
       {
-        "transition": "Stack Defense",
-        "attempt_probability": 25
+        "transition": "Stack Pass",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 14
+        }
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 10
+        }
       },
       {
         "transition": "Posture Recovery to Closed Guard",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "New York Pass to Side Control",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 11
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "iwcfKUPNZNs",
+        "title": "Why Rubber Guard fails: the top player's counters",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 792,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NfR86wov0f8",
+        "title": "Rubber Guard theory from both sides",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 264,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -365,35 +486,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts widening their base and circling away from your overhook - what adjustment do you make?",
-        "answer": "Immediately rotate your hips to follow their movement while tightening your overhook grip. As they widen base and circle, this creates the perfect opening for Carni position - rotate your body toward the overhook side and begin threading your leg for omoplata control. Their base widening actually compromises their ability to resist the rotational movement. If they stop circling, use the angle you've gained to threaten the omoplata sweep."
+        "answer": "Immediately rotate your hips to follow their movement while tightening your overhook grip. As they widen base and circle, this creates the perfect opening for Carni position - rotate your body toward the overhook side and begin threading your leg for omoplata control. Their base widening actually compromises their ability to resist the rotational movement. If they stop circling, use the angle you've gained to threaten the omoplata sweep.",
+        "answer_line": "Rotate hips, thread for omoplata",
+        "distractors": {
+          "plausible": [
+            "Release overhook to reset",
+            "Chase with a forward drive"
+          ],
+          "trap": [
+            "Let go of the overhook grip"
+          ]
+        }
       },
       {
         "question": "What are the essential grip configurations for maintaining strong New York control?",
-        "answer": "The overhook arm must wrap deep around the opponent's tricep with your shoulder tight against their armpit - not just controlling the elbow. Your shin-gripping hand should hold near the ankle with a full wrap grip, positioned between ankle and lower calf. The combination of deep overhook and high ankle grip creates maximum leverage. Your free hand (non-overhook side) should be ready to assist with transitions or defend their grip fighting attempts."
+        "answer": "The overhook arm must wrap deep around the opponent's tricep with your shoulder tight against their armpit - not just controlling the elbow. Your shin-gripping hand should hold near the ankle with a full wrap grip, positioned between ankle and lower calf. The combination of deep overhook and high ankle grip creates maximum leverage. Your free hand (non-overhook side) should be ready to assist with transitions or defend their grip fighting attempts.",
+        "answer_line": "Deep overhook, high ankle grip",
+        "distractors": {
+          "plausible": [
+            "Shallow overhook at the elbow",
+            "Grip mid-calf loosely"
+          ],
+          "trap": [
+            "Grip only at the elbow joint"
+          ]
+        }
       },
       {
         "question": "How do you distribute your weight and hip position to maintain New York against a strong posture recovery attempt?",
-        "answer": "Keep your hips angled slightly toward the overhook side rather than flat on your back. This angle loads their weight onto the compromised trapped arm side. Your core must remain engaged continuously to maintain hip elevation - the moment you relax, they can drive forward. Pull with your shin grip to maintain constant downward pressure on their shoulders. Small circular hip adjustments prevent them from establishing a stable platform for posture recovery."
+        "answer": "Keep your hips angled slightly toward the overhook side rather than flat on your back. This angle loads their weight onto the compromised trapped arm side. Your core must remain engaged continuously to maintain hip elevation - the moment you relax, they can drive forward. Pull with your shin grip to maintain constant downward pressure on their shoulders. Small circular hip adjustments prevent them from establishing a stable platform for posture recovery.",
+        "answer_line": "Hips angled toward overhook side",
+        "distractors": {
+          "plausible": [
+            "Hips flat and squared up",
+            "Relax core to save energy"
+          ],
+          "trap": [
+            "Lie flat with hips squared"
+          ]
+        }
       },
       {
         "question": "What is the primary escape your opponent will attempt and how do you shut it down?",
-        "answer": "The primary escape is overhook extraction by pulling their elbow back toward their hip. Shut this down by maintaining shoulder-to-armpit pressure and deepening your overhook whenever you feel them pulling. If they begin successful extraction, immediately transition to triangle control by shooting your leg over their shoulder as their arm comes free. Their extraction attempt actually creates the opening for the triangle because their arm is positioned inside your guard as it extracts."
+        "answer": "The primary escape is overhook extraction by pulling their elbow back toward their hip. Shut this down by maintaining shoulder-to-armpit pressure and deepening your overhook whenever you feel them pulling. If they begin successful extraction, immediately transition to triangle control by shooting your leg over their shoulder as their arm comes free. Their extraction attempt actually creates the opening for the triangle because their arm is positioned inside your guard as it extracts.",
+        "answer_line": "Deepen overhook, then triangle",
+        "distractors": {
+          "plausible": [
+            "Release grip to reset posture",
+            "Switch to armbar immediately"
+          ],
+          "trap": [
+            "Loosen overhook to let them move"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward aggressively trying to flatten you - how do you use this against them?",
-        "answer": "Accept their forward drive and use it to advance to Chill Dog or Invisible Collar. As they drive in, swim your free hand to the back of their head for Invisible Collar, or thread your leg deeper to begin Chill Dog setup for gogoplata. Their forward pressure actually assists these transitions because it brings their head closer and compresses the space you need to control. The key is recognizing their drive as an opportunity rather than a threat."
+        "answer": "Accept their forward drive and use it to advance to Chill Dog or Invisible Collar. As they drive in, swim your free hand to the back of their head for Invisible Collar, or thread your leg deeper to begin Chill Dog setup for gogoplata. Their forward pressure actually assists these transitions because it brings their head closer and compresses the space you need to control. The key is recognizing their drive as an opportunity rather than a threat.",
+        "answer_line": "Advance to Chill Dog/Collar",
+        "distractors": {
+          "plausible": [
+            "Brace and push them back",
+            "Retreat to closed guard"
+          ],
+          "trap": [
+            "Push back against their drive"
+          ]
+        }
       },
       {
         "question": "How do you apply offensive pressure from New York to force reactions you can exploit?",
-        "answer": "Use your shin across their back as a lever by pulling with your grip and engaging your hip flexors. This constant pulling pressure forces them to resist continuously, depleting their energy faster than yours. Simultaneously use your overhook to control their posting arm's angle, preventing them from establishing any stable position. Cycle through minor attack feints every 5-10 seconds to keep them reacting rather than implementing their escape plan. Their defensive reactions reveal which attack pathway will be highest percentage."
+        "answer": "Use your shin across their back as a lever by pulling with your grip and engaging your hip flexors. This constant pulling pressure forces them to resist continuously, depleting their energy faster than yours. Simultaneously use your overhook to control their posting arm's angle, preventing them from establishing any stable position. Cycle through minor attack feints every 5-10 seconds to keep them reacting rather than implementing their escape plan. Their defensive reactions reveal which attack pathway will be highest percentage.",
+        "answer_line": "Pull shin lever, feint attacks",
+        "distractors": {
+          "plausible": [
+            "Hold static, wait them out",
+            "Squeeze overhook continuously"
+          ],
+          "trap": [
+            "Stay still and conserve grip"
+          ]
+        }
       },
       {
         "question": "You feel your hip flexibility failing and can't maintain shin-to-shoulder connection - what's your recovery protocol?",
-        "answer": "Immediately transition to your strongest available attack before control degrades completely. If you can threaten triangle or armbar, do so now while you still have overhook control. If that's not available, pull them into tighter closed guard while maintaining the overhook - this gives you recovery time while keeping offensive options. Never simply release and return to neutral closed guard if you can avoid it, as this wastes the positional advantage you created. Use the time in closed guard to rest your hips before re-attempting New York."
+        "answer": "Immediately transition to your strongest available attack before control degrades completely. If you can threaten triangle or armbar, do so now while you still have overhook control. If that's not available, pull them into tighter closed guard while maintaining the overhook - this gives you recovery time while keeping offensive options. Never simply release and return to neutral closed guard if you can avoid it, as this wastes the positional advantage you created. Use the time in closed guard to rest your hips before re-attempting New York.",
+        "answer_line": "Attack now or tighten closed guard",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral closed guard",
+            "Stop and start completely over"
+          ],
+          "trap": [
+            "Release back to neutral guard"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during extended New York control while maintaining offensive threat?",
-        "answer": "New York control is structurally efficient - the opponent expends more energy defending than you do attacking. Use your skeletal structure rather than muscular effort by keeping your overhook locked at the joint rather than squeezing constantly. Your shin grip should use finger strength positioned for leverage rather than pure grip strength. Cycle through attack threats every 5-10 seconds to keep them reactive, but commit fully only when you feel genuine openings. This prevents the energy waste of uncommitted attacks while maintaining constant pressure."
+        "answer": "New York control is structurally efficient - the opponent expends more energy defending than you do attacking. Use your skeletal structure rather than muscular effort by keeping your overhook locked at the joint rather than squeezing constantly. Your shin grip should use finger strength positioned for leverage rather than pure grip strength. Cycle through attack threats every 5-10 seconds to keep them reactive, but commit fully only when you feel genuine openings. This prevents the energy waste of uncommitted attacks while maintaining constant pressure.",
+        "answer_line": "Use structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Squeeze grips constantly",
+            "Attack nonstop without pause"
+          ],
+          "trap": [
+            "Muscle the grips continuously"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -569,52 +770,242 @@
     "transitions": [
       {
         "transition": "New York to Invisible Collar",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 14
+        }
       },
       {
         "transition": "Progression to Zombie",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 11
+        }
       },
       {
         "transition": "Advance to Chill Dog",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 15
+        }
       },
       {
         "transition": "Rotate to Carni",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Gogoplata",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
       },
       {
         "transition": "Armbar from New York",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 6
+        }
       },
       {
         "transition": "Omoplata to Back",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Sweep from New York",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 6
+        }
       },
       {
         "transition": "Belly Down Armbar from New York",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 3
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "jT4wPY2Dc_U",
+        "title": "Dead Orchard Armbar from Rubber Guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "James O'Brien",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Cllvkg2qg-w",
+        "title": "Rubber Guard Live Drills",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the New York position and distinguishes it from ordinary closed guard?",
+      "answer": "New York is defined by two simultaneous control points held by the bottom player: a deep overhook wrapping one of the top player's arms, and the bottom player's own shin pulled high across the top player's upper back, secured by a same-side grip on that shin near the ankle. Unlike closed guard, where the legs simply encircle the waist and posture can be re-established by sitting up, the shin-across-the-back component actively pins the top player's head and shoulders forward so upright posture is mechanically blocked. The overhook removes one posting arm rather than merely framing against it. Together these create a closed kinetic chain between the bottom player's leg, hand, and the top player's upper body that neither player can ignore, which is why New York functions as an attacking hub rather than a neutral holding position.",
+      "answer_line": "Deep overhook + shin across back",
+      "distractors": {
+        "plausible": [
+          "Underhook plus leg triangle",
+          "Both legs locked at ankles"
+        ],
+        "trap": [
+          "Same as closed guard, no shin"
+        ]
+      }
+    },
+    {
+      "question": "Why is the closed kinetic chain formed by the shin-grip so central to how New York behaves for both players?",
+      "answer": "The bottom player's hand gripping their own shin links their leg, torso, and grip into a single closed loop wrapped across the top player's upper back. Because both ends of the force are anchored to the same body, the loop resists opening far better than an open frame that relies on pushing against the opponent. For the top player this means brute-force posture recovery fails, since pulling backward tensions the loop rather than breaking it, and the correct answer is to attack the grip or the shin's angle rather than fight the head directly. For the bottom player it means the position is self-reinforcing only while that hand-to-shin connection is live, so the loop is simultaneously the source of control and the single point of failure both players fight over.",
+      "answer_line": "Loop resists opening under load",
+      "distractors": {
+        "plausible": [
+          "Open frame beats a closed loop",
+          "Overhook alone creates the loop"
+        ],
+        "trap": [
+          "Pulling straight back breaks it"
+        ]
+      }
+    },
+    {
+      "question": "What weight and posture dynamic between the two players determines whether New York holds or collapses?",
+      "answer": "New York holds when the top player's posture stays broken forward and their weight loads onto the trapped-arm side, because the overhook has removed that side's posting base. The bottom player keeps their hips angled toward the overhook side rather than flat, which channels the top player's weight onto the compromised corner and denies a stable platform. If the top player can drive their weight forward and down to flatten the bottom player's hips, the shin-to-shoulder connection is compressed out and the loop opens. The tension is therefore a race between the bottom player maintaining hip elevation and angle versus the top player forcing the hips flat, and whoever wins that exchange controls whether the configuration survives.",
+      "answer_line": "Trapped-side weight keeps it",
+      "distractors": {
+        "plausible": [
+          "Even weight keeps it stable",
+          "Squared posture keeps it stable"
+        ],
+        "trap": [
+          "Flattening hips keeps it locked"
+        ]
+      }
+    },
+    {
+      "question": "Why is hip and lower-back flexibility a defining constraint of the New York configuration for both roles?",
+      "answer": "The position only exists while the bottom player's shin can reach across and stay pinned to the top player's upper back, which demands deep hip flexion and rotation held under load. A practitioner without that range cannot seat the shin high enough, so the control degrades into ordinary closed guard regardless of grip strength. Because the whole structure depends on that shin-to-shoulder connection, flexibility failure is a shared clock: as the bottom player's hips fatigue the loop loosens on its own, which is precisely the window the top player is timing their escape against. This is why New York is treated as a time-limited transitional position rather than a place either player can rest.",
+      "answer_line": "Shin must reach high under load",
+      "distractors": {
+        "plausible": [
+          "Grip strength alone secures it",
+          "Only the overhook needs mobility"
+        ],
+        "trap": [
+          "Flexibility doesn't affect control"
+        ]
+      }
+    },
+    {
+      "question": "How does the overhook function as a control mechanism rather than just an arm wrap in New York?",
+      "answer": "The overhook is seated deep around the top player's tricep with the bottom player's shoulder pressed tight into the top player's armpit, not merely hooked at the elbow. Seated this deep it eliminates one of the top player's two posting arms, so half their base for pressure and balance is gone, and it prevents that arm from re-entering to defend the neck or hips. The depth matters because a shallow overhook that only traps the forearm can be extracted by drawing the elbow back to the hip, which restores the base and unravels the position. The overhook and the shin control also reinforce each other: the shin holds posture broken so the trapped arm cannot straighten to escape, while the overhook keeps that arm from posting to relieve the shin pressure.",
+      "answer_line": "Removes one posting arm",
+      "distractors": {
+        "plausible": [
+          "Only traps the forearm loosely",
+          "Just frames against the elbow"
+        ],
+        "trap": [
+          "Shallow elbow hook is enough"
+        ]
+      }
+    },
+    {
+      "question": "What makes New York a transitional hub rather than a stable holding position for either player?",
+      "answer": "Every reaction the top player offers opens a different pathway, so the configuration is inherently unstable and reads as a decision point rather than a resting place. If the top player stays low and works to extract the arm, deeper controls like Invisible Collar or Zombie open; if they drive forward to flatten, threading pathways toward Chill Dog or the gogoplata appear; if they widen base and circle away, rotational attacks like Carni and the omoplata become available. Because the flexibility and grip demands also give the position a short shelf life, standing still favors whichever player is not fatiguing, which is normally the top player recovering base. Both players therefore treat New York as a place to move through, with the bottom player cycling attacks and the top player racing to escape before commitment.",
+      "answer_line": "Every reaction opens new attack",
+      "distractors": {
+        "plausible": [
+          "It's a safe resting position",
+          "Only one escape path exists"
+        ],
+        "trap": [
+          "Best held static and rested in"
+        ]
+      }
+    },
+    {
+      "question": "How does New York differ from Mission Control, and why is that difference significant to both players?",
+      "answer": "Mission Control is the entry-level rubber guard hold where the bottom player keeps one leg high on the top player's shoulder and pins the trapped arm, prioritizing stability and posture control over immediate attack. New York advances from it by committing the shin across the back and securing the same-side self-grip on that shin, trading some of that stability for a far more aggressive posture break and direct access to the submission web. The significance is that Mission Control is a relatively safe parking spot the bottom player can hold and reset from, whereas New York is a live attacking configuration with a ticking flexibility clock. For the top player this means the threat level and the correct urgency of the escape both rise sharply the moment Mission Control converts into New York.",
+      "answer_line": "New York adds shin self-grip",
+      "distractors": {
+        "plausible": [
+          "Mission Control is more aggressive",
+          "New York is the safer hold"
+        ],
+        "trap": [
+          "Treat New York as a resting spot"
+        ]
+      }
+    },
+    {
+      "question": "Why does breaking the top player's posture before establishing New York matter to the resulting configuration?",
+      "answer": "New York requires the top player already hunched forward so the shin can be seated high on the upper back and the overhook swum in deep; against an upright, based-out opponent neither control point can be established without fighting their full structure. Attempting entry on good posture wastes energy and typically fails, because the top player can simply drive in and flatten the bottom player before the loop closes. This is why the position is entered from an already-compromised posture, usually broken down first from closed guard, and it explains a shared truth of the configuration: New York is a consequence of a prior posture break, not the tool that creates one. The top player's counter-strategy mirrors this, since restoring even partial posture begins to strip the shin's angle and reopen their base.",
+      "answer_line": "Requires posture already broken",
+      "distractors": {
+        "plausible": [
+          "Creates the posture break itself",
+          "Works against upright opponents"
+        ],
+        "trap": [
+          "Enter it before breaking posture"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "tWAZbCiWQ9E",
+      "title": "Rubber Guard Philosophy",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "h1XzZDsUxHQ",
+      "title": "Eddie Bravo explains Rubber Guard",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "JAN FERNANDEZ ",
+      "duration": 111,
+      "verified": "2026-07-14"
+    }
+  ]
 }

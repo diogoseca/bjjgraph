@@ -35,6 +35,54 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kosoto Gari \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Minor outer reap kosoto gari for judo and BJJ",
+      "description": "Kosoto Gari film study: Minor outer reap kosoto gari for judo and BJJ, taught by Conway.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9nFKizOUCdI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9nFKizOUCdI",
+      "url": "https://www.youtube.com/watch?v=9nFKizOUCdI",
+      "creator": { "@type": "Person", "name": "Conway" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fast ko soto gari entry",
+      "description": "Kosoto Gari film study: Fast ko soto gari entry, taught by Grappler Kingdom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sX02CGHnOag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sX02CGHnOag",
+      "url": "https://www.youtube.com/watch?v=sX02CGHnOag",
+      "creator": { "@type": "Person", "name": "Grappler Kingdom" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kosoto gari demonstration",
+      "description": "Kosoto Gari film study: Kosoto gari demonstration, taught by Casimiro Bento.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H5lOkLcs1tM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H5lOkLcs1tM",
+      "url": "https://www.youtube.com/watch?v=H5lOkLcs1tM",
+      "creator": { "@type": "Person", "name": "Casimiro Bento" },
+      "duration": "PT40S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ As modern BJJ competition increasingly begins on the feet, Kosoto Gari has earne
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kosoto Gari in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9nFKizOUCdI)
+
+<p class="clip-credit"><strong>Minor outer reap kosoto gari for judo and BJJ</strong> — taught by Conway · 0:21 · <a href="https://www.youtube.com/watch?v=9nFKizOUCdI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sX02CGHnOag)
+
+<p class="clip-credit"><strong>Fast ko soto gari entry</strong> — taught by Grappler Kingdom · 0:42 · <a href="https://www.youtube.com/watch?v=sX02CGHnOag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H5lOkLcs1tM)
+
+<p class="clip-credit"><strong>Kosoto gari demonstration</strong> — taught by Casimiro Bento · 0:40 · <a href="https://www.youtube.com/watch?v=H5lOkLcs1tM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Butterfly Half Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Transition to Butterfly Half Guard is a positional advancement technique executed by the top player when facing an opponent's full butterfly guard. The objective is to systematically clear one of the two butterfly hooks while maintaining top pressure, converting the symmetrical double-hook threat of butterfly guard into the asymmetric and more manageable butterfly half guard configuration. This transition is fundamental to any butterfly guard passing strategy because it reduces the bottom player's sweeping power by eliminating one elevator hook while trapping the remaining leg in half guard entanglement.\n\nThe technical challenge lies in clearing one hook without creating the space or angle that allows the bottom player to re-insert it or, worse, transition to X-Guard or single leg X. The top player must coordinate upper body pressure through crossface or shoulder drive with precise hip movement to pin one knee to the mat while stepping the free leg past the hook. Timing is critical: the best windows occur when the bottom player commits to a sweep attempt on one side, momentarily weakening hook retention on the other.\n\nFrom a strategic perspective, this transition represents the first checkpoint in a systematic butterfly guard passing sequence. Rather than attempting to pass butterfly guard in a single explosive movement, high-level passers break the problem into stages: clear one hook to reach butterfly half guard, then address the remaining hook and half guard trap from a position of greater stability. This incremental approach reduces risk and forces the bottom player to solve increasingly difficult retention problems. The transition also creates opportunities for submission entries, as the bottom player's defensive reactions to hook clearing often expose the neck or arms.",
   "conditions": [
     "Opponent has both butterfly hooks inserted under your thighs",
@@ -241,38 +253,138 @@
     "flashcards": [
       {
         "question": "Why must you establish upper body control before attempting to clear a butterfly hook?",
-        "answer": "Upper body control through crossface or collar tie restricts the opponent's ability to rotate their torso and follow your hip movement. Without it, the bottom player can freely adjust their hook angle to match any clearing attempt you make. The crossface specifically turns their head away, breaking the kinetic chain between their upper body and the hook side, creating the structural disconnect needed for the hook to be cleared against their resistance."
+        "answer": "Upper body control through crossface or collar tie restricts the opponent's ability to rotate their torso and follow your hip movement. Without it, the bottom player can freely adjust their hook angle to match any clearing attempt you make. The crossface specifically turns their head away, breaking the kinetic chain between their upper body and the hook side, creating the structural disconnect needed for the hook to be cleared against their resistance.",
+        "answer_line": "Crossface breaks the kinetic chain",
+        "distractors": {
+          "plausible": [
+            "Control the legs first",
+            "Flatten hips before clearing"
+          ],
+          "trap": [
+            "Grip the far pant leg"
+          ]
+        }
       },
       {
         "question": "What is the most critical timing window for clearing a butterfly hook?",
-        "answer": "The optimal window occurs when the opponent initiates a sweep attempt on one side, momentarily committing their weight and attention to driving that hook. The non-attacking hook becomes weaker because their hip is loaded toward the sweep direction and their focus shifts away from maintaining bilateral hook pressure. This counter-timing approach exploits their offensive commitment rather than fighting against a fully balanced butterfly guard structure."
+        "answer": "The optimal window occurs when the opponent initiates a sweep attempt on one side, momentarily committing their weight and attention to driving that hook. The non-attacking hook becomes weaker because their hip is loaded toward the sweep direction and their focus shifts away from maintaining bilateral hook pressure. This counter-timing approach exploits their offensive commitment rather than fighting against a fully balanced butterfly guard structure.",
+        "answer_line": "Their sweep attempt, off-hook",
+        "distractors": {
+          "plausible": [
+            "Right after they insert hooks",
+            "When they sit up to grip"
+          ],
+          "trap": [
+            "Wait for full stalemate"
+          ]
+        }
       },
       {
         "question": "Your opponent has a deep underhook on their right side with strong hooks - which hook should you target first and why?",
-        "answer": "Target the left hook first, opposite to their dominant right underhook. Their right underhook gives them superior structural control on that side, making hook re-insertion easier and creating back take threats if you shift weight there. The left side, without the underhook support, has weaker retention capability. Clearing the weaker hook first gives you a stable half guard position from which you can then address the stronger underhook side."
+        "answer": "Target the left hook first, opposite to their dominant right underhook. Their right underhook gives them superior structural control on that side, making hook re-insertion easier and creating back take threats if you shift weight there. The left side, without the underhook support, has weaker retention capability. Clearing the weaker hook first gives you a stable half guard position from which you can then address the stronger underhook side.",
+        "answer_line": "Left hook, away from underhook",
+        "distractors": {
+          "plausible": [
+            "Right hook to kill underhook",
+            "Clear both hooks simultaneously"
+          ],
+          "trap": [
+            "Clear the underhook-side hook"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from transitioning to X-Guard during your hook clearing attempt?",
-        "answer": "Keep your hips low and heavy throughout the transition, never allowing space underneath your body. If you feel a foot placement on your hip, immediately squat your hips down and retract to combat base rather than continuing the clearing attempt. The key prevention is maintaining chest-to-chest contact and low hip position, which removes the vertical space X-Guard requires. Additionally, controlling their far hip with your hand limits their ability to rotate into the X-Guard angle."
+        "answer": "Keep your hips low and heavy throughout the transition, never allowing space underneath your body. If you feel a foot placement on your hip, immediately squat your hips down and retract to combat base rather than continuing the clearing attempt. The key prevention is maintaining chest-to-chest contact and low hip position, which removes the vertical space X-Guard requires. Additionally, controlling their far hip with your hand limits their ability to rotate into the X-Guard angle.",
+        "answer_line": "Squat hips low, retract to base",
+        "distractors": {
+          "plausible": [
+            "Push through despite foot contact",
+            "Control near hip, not far"
+          ],
+          "trap": [
+            "Post up to create space"
+          ]
+        }
       },
       {
         "question": "What specific hip movement clears the butterfly hook most effectively?",
-        "answer": "Drive your hip forward and downward into their knee on the target side, pushing their knee toward the mat. This collapses the hook angle from underneath rather than trying to pull your leg out laterally. Your hip physically presses their thigh downward, eliminating the upward elevation capacity of the hook. Combined with squeezing both knees together to compress the overall butterfly structure, this creates a direct path to step your leg through and past the neutralized hook."
+        "answer": "Drive your hip forward and downward into their knee on the target side, pushing their knee toward the mat. This collapses the hook angle from underneath rather than trying to pull your leg out laterally. Your hip physically presses their thigh downward, eliminating the upward elevation capacity of the hook. Combined with squeezing both knees together to compress the overall butterfly structure, this creates a direct path to step your leg through and past the neutralized hook.",
+        "answer_line": "Drive hip down into their knee",
+        "distractors": {
+          "plausible": [
+            "Pull leg out laterally",
+            "Lift hip to elevate over hook"
+          ],
+          "trap": [
+            "Yank your foot straight back"
+          ]
+        }
       },
       {
         "question": "You clear one hook successfully but the opponent immediately starts working to re-insert it - what are your first three actions?",
-        "answer": "First, post your freed leg wide to create a stable base that prevents being swept during the recovery scramble. Second, drive your crossface shoulder deeper to turn their head further away from the cleared side, breaking their ability to follow your hip with their leg. Third, drop your hip weight heavy on the cleared side to physically block the re-insertion path with your body mass. These three actions must happen within the first two to three seconds of clearing the hook, before the opponent can reorganize their structure."
+        "answer": "First, post your freed leg wide to create a stable base that prevents being swept during the recovery scramble. Second, drive your crossface shoulder deeper to turn their head further away from the cleared side, breaking their ability to follow your hip with their leg. Third, drop your hip weight heavy on the cleared side to physically block the re-insertion path with your body mass. These three actions must happen within the first two to three seconds of clearing the hook, before the opponent can reorganize their structure.",
+        "answer_line": "Post wide, crossface, hip heavy",
+        "distractors": {
+          "plausible": [
+            "Retreat to reset posture",
+            "Switch immediately to back take"
+          ],
+          "trap": [
+            "Release crossface to create space"
+          ]
+        }
       },
       {
         "question": "Why is stepping through the hook more effective than pulling your leg backward to clear it?",
-        "answer": "Pulling backward creates distance between you and the opponent, which gives them space to recover seated posture, re-insert hooks, or transition to alternative guards like X-Guard that require space. Stepping through maintains chest-to-chest pressure and forward momentum, which keeps the opponent compressed and limits their movement options. The step-through also naturally transitions your leg into a half guard passing position rather than leaving you in no-man's land outside their guard."
+        "answer": "Pulling backward creates distance between you and the opponent, which gives them space to recover seated posture, re-insert hooks, or transition to alternative guards like X-Guard that require space. Stepping through maintains chest-to-chest pressure and forward momentum, which keeps the opponent compressed and limits their movement options. The step-through also naturally transitions your leg into a half guard passing position rather than leaving you in no-man's land outside their guard.",
+        "answer_line": "Stepping keeps chest pressure on",
+        "distractors": {
+          "plausible": [
+            "Pulling back is faster to pass",
+            "Stepping avoids the scramble"
+          ],
+          "trap": [
+            "Pull back to reset base"
+          ]
+        }
       },
       {
         "question": "How should you adjust your approach when the opponent has a collar-and-sleeve grip configuration instead of underhooks?",
-        "answer": "Collar-and-sleeve grips give the opponent distance-based control rather than close-range power. Strip the sleeve grip first because it controls your posting hand and limits your ability to base during the transition. Once the sleeve grip is broken, close the distance aggressively with chest pressure to nullify the collar grip's effectiveness at range. The hook clearing mechanics remain the same, but the preparation phase requires additional grip fighting to remove the distance management tools before you can establish the chest contact needed for the transition."
+        "answer": "Collar-and-sleeve grips give the opponent distance-based control rather than close-range power. Strip the sleeve grip first because it controls your posting hand and limits your ability to base during the transition. Once the sleeve grip is broken, close the distance aggressively with chest pressure to nullify the collar grip's effectiveness at range. The hook clearing mechanics remain the same, but the preparation phase requires additional grip fighting to remove the distance management tools before you can establish the chest contact needed for the transition.",
+        "answer_line": "Strip the sleeve grip first",
+        "distractors": {
+          "plausible": [
+            "Break the collar grip first",
+            "Match their grips symmetrically"
+          ],
+          "trap": [
+            "Back away to break both grips"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves moderate forward pressure and hip-level contact. Avoid driving excessive pressure into the opponent's knee joint when pinning their hook down, as this can strain the medial collateral ligament. Partners should communicate clearly during drilling, especially when the bottom player feels uncomfortable knee pressure. The step-through motion should be controlled rather than explosive to prevent accidentally driving the knee into the opponent's hip or groin area. Always warm up hips and knees before drilling this transition extensively."
+    "safety_considerations": "This transition involves moderate forward pressure and hip-level contact. Avoid driving excessive pressure into the opponent's knee joint when pinning their hook down, as this can strain the medial collateral ligament. Partners should communicate clearly during drilling, especially when the bottom player feels uncomfortable knee pressure. The step-through motion should be controlled rather than explosive to prevent accidentally driving the knee into the opponent's hip or groin area. Always warm up hips and knees before drilling this transition extensively.",
+    "clips": [
+      {
+        "id": "hTQ29eG4cqY",
+        "title": "Half guard sit-up to butterfly sweep",
+        "by": "Bjj Picanha",
+        "vertical": false,
+        "channel": "Bjj Picanha",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F403VM7eBSM",
+        "title": "Butterfly sweep from half guard",
+        "by": "William Metts",
+        "vertical": false,
+        "channel": "William Metts",
+        "duration": 49,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Guard to Butterfly Half Guard Defender",
@@ -358,19 +470,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting to clear your butterfly hook?",
-        "answer": "The earliest cue is feeling your opponent drive their knees together, compressing the space between your hooks. This knee pinch is the preparatory movement for most hook clearing sequences because it collapses the lateral angle your hooks need for effective elevation. When you feel this compression, immediately drive your hooks outward and upward to resist the squeeze, and prepare to counter-attack or adjust your position."
+        "answer": "The earliest cue is feeling your opponent drive their knees together, compressing the space between your hooks. This knee pinch is the preparatory movement for most hook clearing sequences because it collapses the lateral angle your hooks need for effective elevation. When you feel this compression, immediately drive your hooks outward and upward to resist the squeeze, and prepare to counter-attack or adjust your position.",
+        "answer_line": "Knees driving together",
+        "distractors": {
+          "plausible": [
+            "Their hands posting on mat",
+            "Sudden hip bridge upward"
+          ],
+          "trap": [
+            "Wait for the hook to slip out"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully clears one hook and is settling into butterfly half guard top - what is your immediate priority?",
-        "answer": "Your immediate priority is to either re-insert the cleared hook within the first three to five seconds before they establish control, or transition proactively to a related guard system like deep half guard or lockdown. Do not remain passively in butterfly half guard hoping to re-insert later. If the opponent has established crossface and wide base, re-insertion becomes very difficult, so transitioning to deep half by diving under their hips or locking down the trapped leg is often the higher-percentage response."
+        "answer": "Your immediate priority is to either re-insert the cleared hook within the first three to five seconds before they establish control, or transition proactively to a related guard system like deep half guard or lockdown. Do not remain passively in butterfly half guard hoping to re-insert later. If the opponent has established crossface and wide base, re-insertion becomes very difficult, so transitioning to deep half by diving under their hips or locking down the trapped leg is often the higher-percentage response.",
+        "answer_line": "Re-insert hook or go deep half",
+        "distractors": {
+          "plausible": [
+            "Wait and reassess calmly",
+            "Focus on off-balancing sweep"
+          ],
+          "trap": [
+            "Give up bottom hook entirely"
+          ]
+        }
       },
       {
         "question": "How does maintaining an underhook prevent hook clearing on that side?",
-        "answer": "The underhook creates a direct structural connection between your shoulder and the opponent's armpit, preventing them from driving crossface on that side. Without the crossface, they cannot turn your head away to break the kinetic chain between your upper body and hook. The underhook also allows you to follow their hip movement by pulling yourself toward them as they shift weight, keeping your hook properly positioned underneath their thigh. This combination of crossface prevention and movement tracking makes the underhook side significantly more resistant to clearing."
+        "answer": "The underhook creates a direct structural connection between your shoulder and the opponent's armpit, preventing them from driving crossface on that side. Without the crossface, they cannot turn your head away to break the kinetic chain between your upper body and hook. The underhook also allows you to follow their hip movement by pulling yourself toward them as they shift weight, keeping your hook properly positioned underneath their thigh. This combination of crossface prevention and movement tracking makes the underhook side significantly more resistant to clearing.",
+        "answer_line": "Blocks crossface, tracks hips",
+        "distractors": {
+          "plausible": [
+            "Adds extra hook pressure",
+            "Locks their far leg down"
+          ],
+          "trap": [
+            "Frees your hand to grip pants"
+          ]
+        }
       },
       {
         "question": "When should you attempt a counter-sweep versus focusing purely on hook retention?",
-        "answer": "Attempt a counter-sweep when the opponent commits their weight asymmetrically to clear one hook, creating a clear directional imbalance that you can exploit. The trigger is feeling their center of mass shift decisively to one side. If their weight shift is moderate or exploratory, focus on retention. If they commit strongly and you can feel their base compromised in the opposite direction, execute a butterfly sweep immediately using their own weight commitment as the catalyst. The key distinction is whether their weight shift is tentative or fully committed."
+        "answer": "Attempt a counter-sweep when the opponent commits their weight asymmetrically to clear one hook, creating a clear directional imbalance that you can exploit. The trigger is feeling their center of mass shift decisively to one side. If their weight shift is moderate or exploratory, focus on retention. If they commit strongly and you can feel their base compromised in the opposite direction, execute a butterfly sweep immediately using their own weight commitment as the catalyst. The key distinction is whether their weight shift is tentative or fully committed.",
+        "answer_line": "When weight fully commits",
+        "distractors": {
+          "plausible": [
+            "Anytime they touch your hook",
+            "Only after hooks are cleared"
+          ],
+          "trap": [
+            "Sweep during tentative shifts"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -393,6 +545,26 @@
         "phase": "Phase 4: Full Resistance Integration",
         "focus": "Combining retention, counters, and transitions against live resistance",
         "description": "Positional sparring starting in full butterfly guard against partner actively working to clear hooks and pass. Integrate retention, counter-sweeps, and proactive transitions based on real-time reads. Track how often you maintain full butterfly versus transition versus get passed to identify areas for improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "BkT2cQdqqgU",
+        "title": "How to pass the butterfly guard",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 117,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s5MYmM58Ipg",
+        "title": "Passing from smash by baiting the butterfly hook",
+        "by": "JT Torres",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 198,
+        "verified": "2026-07-15"
       }
     ]
   }

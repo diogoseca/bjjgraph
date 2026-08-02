@@ -180,6 +180,54 @@ description: "Execute the inversion escape from leg entanglement with proper rol
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inversion Escape from Leg Entanglement (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Heel Hook Escape",
+      "description": "Inversion Escape from Leg Entanglement (Attacker) film study: Reverse Heel Hook Escape, taught by GrapplingMechanics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F25hAnFk5uc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F25hAnFk5uc",
+      "url": "https://www.youtube.com/watch?v=F25hAnFk5uc",
+      "creator": { "@type": "Person", "name": "GrapplingMechanics" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Entanglement Escapes and Heel Hooks",
+      "description": "Inversion Escape from Leg Entanglement (Attacker) film study: Leg Entanglement Escapes and Heel Hooks, taught by Jeremy Skinner.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c-LUX8aDBUE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c-LUX8aDBUE",
+      "url": "https://www.youtube.com/watch?v=c-LUX8aDBUE",
+      "creator": { "@type": "Person", "name": "Jeremy Skinner" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg Lock Escape - Roll Through",
+      "description": "Inversion Escape from Leg Entanglement (Attacker) film study: Leg Lock Escape - Roll Through, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the person executing the inversion escape, your objective is to use rotationa
 **From Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inversion Escape from Leg Entanglement (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F25hAnFk5uc)
+
+<p class="clip-credit"><strong>Reverse Heel Hook Escape</strong> — taught by GrapplingMechanics · 0:54 · <a href="https://www.youtube.com/watch?v=F25hAnFk5uc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c-LUX8aDBUE)
+
+<p class="clip-credit"><strong>Leg Entanglement Escapes and Heel Hooks</strong> — taught by Jeremy Skinner · 0:35 · <a href="https://www.youtube.com/watch?v=c-LUX8aDBUE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg Lock Escape - Roll Through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

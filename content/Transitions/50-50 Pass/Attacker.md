@@ -174,6 +174,43 @@ description: "How to execute 50-50 Pass in BJJ. Attacking perspective with setup
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "50/50 pass to back take",
+      "description": "50-50 Pass (Attacker) film study: 50/50 pass to back take, taught by BJJ Recap coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gRTPtnZgdKA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gRTPtnZgdKA",
+      "url": "https://www.youtube.com/watch?v=gRTPtnZgdKA",
+      "creator": { "@type": "Person", "name": "BJJ Recap coach" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 to leg drag pass",
+      "description": "50-50 Pass (Attacker) film study: 50/50 to leg drag pass, taught by Muny Munoz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dFTRdgvZoPU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dFTRdgvZoPU",
+      "url": "https://www.youtube.com/watch?v=dFTRdgvZoPU",
+      "creator": { "@type": "Person", "name": "Muny Munoz" },
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The 50-50 Pass is a critical escape and passing sequence from one of Brazilian J
 **From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gRTPtnZgdKA)
+
+<p class="clip-credit"><strong>50/50 pass to back take</strong> — taught by BJJ Recap coach · 0:38 · <a href="https://www.youtube.com/watch?v=gRTPtnZgdKA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dFTRdgvZoPU)
+
+<p class="clip-credit"><strong>50/50 to leg drag pass</strong> — taught by Muny Munoz · 0:17 · <a href="https://www.youtube.com/watch?v=dFTRdgvZoPU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

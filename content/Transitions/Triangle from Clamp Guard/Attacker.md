@@ -174,6 +174,54 @@ description: "Complete attacking guide for the Triangle from Clamp Guard. Step-b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Clamp Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clamp guard to triangle choke",
+      "description": "Triangle from Clamp Guard (Attacker) film study: Clamp guard to triangle choke, taught by Modesto Judo Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UWdTY2pVj08/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UWdTY2pVj08",
+      "url": "https://www.youtube.com/watch?v=UWdTY2pVj08",
+      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle attack from guard",
+      "description": "Triangle from Clamp Guard (Attacker) film study: Triangle attack from guard, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OC8IOTnsETk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OC8IOTnsETk",
+      "url": "https://www.youtube.com/watch?v=OC8IOTnsETk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rolling triangle from the clamp",
+      "description": "Triangle from Clamp Guard (Attacker) film study: Rolling triangle from the clamp, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gQWXO_L0jbU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gQWXO_L0jbU",
+      "url": "https://www.youtube.com/watch?v=gQWXO_L0jbU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT223S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Triangle from Clamp Guard represents one of the highest-percentage triangle 
 **From Position**: [[Positions/Clamp Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Clamp Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UWdTY2pVj08)
+
+<p class="clip-credit"><strong>Clamp guard to triangle choke</strong> — taught by Modesto Judo Club · 1:34 · <a href="https://www.youtube.com/watch?v=UWdTY2pVj08" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OC8IOTnsETk)
+
+<p class="clip-credit"><strong>Triangle attack from guard</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=OC8IOTnsETk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gQWXO_L0jbU)
+
+<p class="clip-credit"><strong>Rolling triangle from the clamp</strong> — taught by John Danaher · 3:43 · <a href="https://www.youtube.com/watch?v=gQWXO_L0jbU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

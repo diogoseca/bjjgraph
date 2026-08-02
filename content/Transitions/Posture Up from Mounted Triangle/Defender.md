@@ -148,6 +148,43 @@ description: "Defend against posture up escape attempts from mounted triangle to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Up from Mounted Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finish the mounted triangle without losing top",
+      "description": "Posture Up from Mounted Triangle (Defender) film study: Finish the mounted triangle without losing top, taught by Lux.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zwb5LTgOm1o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zwb5LTgOm1o",
+      "url": "https://www.youtube.com/watch?v=zwb5LTgOm1o",
+      "creator": { "@type": "Person", "name": "Lux" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing the mounted triangle",
+      "description": "Posture Up from Mounted Triangle (Defender) film study: Finishing the mounted triangle, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1hjapzU7lQg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1hjapzU7lQg",
+      "url": "https://www.youtube.com/watch?v=1hjapzU7lQg",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Maintaining the mounted triangle against a posture up escape requires active cou
 **Opponent's Starting Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Up from Mounted Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zwb5LTgOm1o)
+
+<p class="clip-credit"><strong>Finish the mounted triangle without losing top</strong> — taught by Lux · 0:45 · <a href="https://www.youtube.com/watch?v=zwb5LTgOm1o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1hjapzU7lQg)
+
+<p class="clip-credit"><strong>Finishing the mounted triangle</strong> — taught by Brandon McCaghren · 2:57 · <a href="https://www.youtube.com/watch?v=1hjapzU7lQg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

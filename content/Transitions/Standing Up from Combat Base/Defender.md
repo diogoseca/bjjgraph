@@ -148,6 +148,54 @@ description: "Defend against standing up from combat base in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Up from Combat Base (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three counters to a standing guard passer",
+      "description": "Standing Up from Combat Base (Defender) film study: Three counters to a standing guard passer, taught by For\u00e7a Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Grlx4UvAHDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Grlx4UvAHDE",
+      "url": "https://www.youtube.com/watch?v=Grlx4UvAHDE",
+      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
+      "duration": "PT221S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly Guard Against a Standing Passer",
+      "description": "Standing Up from Combat Base (Defender) film study: Butterfly Guard Against a Standing Passer, taught by Adam Wardzinski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N2SZ9sJ_IlQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N2SZ9sJ_IlQ",
+      "url": "https://www.youtube.com/watch?v=N2SZ9sJ_IlQ",
+      "creator": { "@type": "Person", "name": "Adam Wardzinski" },
+      "duration": "PT447S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Top 5 Guard Retention Mistakes",
+      "description": "Standing Up from Combat Base (Defender) film study: Top 5 Guard Retention Mistakes, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iTrQzYeCvHM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iTrQzYeCvHM",
+      "url": "https://www.youtube.com/watch?v=iTrQzYeCvHM",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT436S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the stand-up from combat base, your objective is to prev
 **Opponent's Starting Position**: [[Positions/Combat Base]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Up from Combat Base (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Grlx4UvAHDE)
+
+<p class="clip-credit"><strong>Three counters to a standing guard passer</strong> — taught by Força Martial Arts · 3:41 · <a href="https://www.youtube.com/watch?v=Grlx4UvAHDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N2SZ9sJ_IlQ)
+
+<p class="clip-credit"><strong>Butterfly Guard Against a Standing Passer</strong> — taught by Adam Wardzinski · 7:27 · <a href="https://www.youtube.com/watch?v=N2SZ9sJ_IlQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iTrQzYeCvHM)
+
+<p class="clip-credit"><strong>Top 5 Guard Retention Mistakes</strong> — taught by Lachlan Giles · 7:16 · <a href="https://www.youtube.com/watch?v=iTrQzYeCvHM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

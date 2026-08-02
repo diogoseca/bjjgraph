@@ -174,6 +174,43 @@ description: "Learn to execute the Rubber Guard Sweep with precise hip mechanics
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rubber Guard Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard sweep demonstration",
+      "description": "Rubber Guard Sweep (Attacker) film study: Rubber guard sweep demonstration, taught by CholoMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mg-kER88CBw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mg-kER88CBw",
+      "url": "https://www.youtube.com/watch?v=mg-kER88CBw",
+      "creator": { "@type": "Person", "name": "CholoMMA" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Jersey sweep from rubber guard",
+      "description": "Rubber Guard Sweep (Attacker) film study: Jersey sweep from rubber guard, taught by Richie Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CmuBRahwA7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CmuBRahwA7c",
+      "url": "https://www.youtube.com/watch?v=CmuBRahwA7c",
+      "creator": { "@type": "Person", "name": "Richie Martinez" },
+      "duration": "PT125S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Rubber Guard Sweep requires precise timing and coordination betwee
 **From Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rubber Guard Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mg-kER88CBw)
+
+<p class="clip-credit"><strong>Rubber guard sweep demonstration</strong> — taught by CholoMMA · 0:50 · <a href="https://www.youtube.com/watch?v=mg-kER88CBw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CmuBRahwA7c)
+
+<p class="clip-credit"><strong>Jersey sweep from rubber guard</strong> — taught by Richie Martinez · 2:05 · <a href="https://www.youtube.com/watch?v=CmuBRahwA7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

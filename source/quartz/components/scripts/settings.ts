@@ -2,11 +2,18 @@
 // localStorage-based with optional Supabase cloud sync
 
 export type GameMode = "off" | "normal" | "hard" | "ultra"
+// Front-end variant: "neural" = the Neural Graph experience (default since v1.54.0 — mounted
+// client-side on top of the same static HTML, see variant.inline.ts), "legacy" = the classic
+// Quartz UI (?variant=legacy escape hatch, kept for comparison). The static/SEO surface is
+// identical for both; only the client presentation differs, so this is purely a client-side
+// preference.
+export type Variant = "legacy" | "neural"
 
 export interface BJJSettings {
   gameMode: GameMode
   dailyGoal: number
   showFlashcards: boolean
+  variant: Variant
 }
 
 export interface DailyProgress {
@@ -29,11 +36,13 @@ const PROGRESS_KEY = "bjj-daily-progress"
 const STREAK_KEY = "bjj-streak"
 
 const VALID_GAME_MODES: GameMode[] = ["off", "normal", "hard", "ultra"]
+const VALID_VARIANTS: Variant[] = ["legacy", "neural"]
 
 export const DEFAULT_SETTINGS: BJJSettings = {
   gameMode: "off",
   dailyGoal: 30,
   showFlashcards: true,
+  variant: "neural",
 }
 
 const today = localDateKey
@@ -98,6 +107,9 @@ function sanitizeSettings(parsed: Partial<BJJSettings>): BJJSettings {
   )
   if (!VALID_GAME_MODES.includes(merged.gameMode)) {
     merged.gameMode = DEFAULT_SETTINGS.gameMode
+  }
+  if (!VALID_VARIANTS.includes(merged.variant)) {
+    merged.variant = DEFAULT_SETTINGS.variant
   }
   merged.showFlashcards = !!merged.showFlashcards
   return merged

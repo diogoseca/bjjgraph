@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Dogfight Position/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Crossface from Dogfight is a fundamental top player technique for shutting down the bottom player's offensive momentum when they have elevated to the kneeling dogfight position from half guard. The top player drives their shoulder blade or forearm across the opponent's face and neck to turn their head away, break their upright posture, and systematically flatten them back to the mat. This technique directly neutralizes the underhook—the bottom player's primary offensive weapon—by creating a mechanical disadvantage that prevents forward driving pressure and elevated posture maintenance.\n\nStrategically, the crossface represents the top player's most direct answer to the dogfight dilemma. Rather than engaging in a prolonged underhook battle where the bottom player holds initiative and can chain sweeps and back takes, the crossface bypasses the grip fight by attacking posture and head position. The shoulder blade drives into the opponent's jaw or cheekbone while the whizzer tightens on the underhook arm, creating a dual control mechanism that systematically collapses the bottom player's structure. As the opponent flattens, the top player drops their hips, sprawls to extract the trapped leg, and completes the pass to side control.\n\nThe technique is particularly effective because it rewards proper angle, timing, and weight distribution rather than raw strength. Advanced practitioners time the crossface to coincide with the opponent's forward drive, redirecting their momentum downward. The crossface can be applied with varying intensity—from a controlling pressure that gradually erodes posture to an aggressive flattening tool that forces immediate positional regression. This adaptability makes it effective across body types and competitive contexts, forming a cornerstone of half guard top strategy.",
   "conditions": [
     "Both players elevated in kneeling dogfight position with active grip engagement",
@@ -239,38 +251,138 @@
     "flashcards": [
       {
         "question": "When is the ideal moment to initiate the crossface against an opponent who has come up to the dogfight position?",
-        "answer": "The optimal timing is when the opponent drives forward with their underhook, committing their weight and momentum toward you. At this moment, their base is loaded forward and their ability to retreat or change direction is momentarily compromised. By redirecting their forward momentum downward with the crossface, you use their own energy against them rather than fighting a static battle against their established posture."
+        "answer": "The optimal timing is when the opponent drives forward with their underhook, committing their weight and momentum toward you. At this moment, their base is loaded forward and their ability to retreat or change direction is momentarily compromised. By redirecting their forward momentum downward with the crossface, you use their own energy against them rather than fighting a static battle against their established posture.",
+        "answer_line": "When they drive underhook forward",
+        "distractors": {
+          "plausible": [
+            "Right as dogfight position forms",
+            "After they stall and reset"
+          ],
+          "trap": [
+            "Once their base is fully settled"
+          ]
+        }
       },
       {
         "question": "What grip and control prerequisites must be established before attempting the crossface from dogfight?",
-        "answer": "You must have a secure whizzer or overhook on the opponent's underhook arm with your elbow pulled tight to your ribs, your shoulder positioned on the near side of the opponent's face with access to the jawline, and sufficient base through your posted free hand or leg to generate forward driving force. Without the whizzer controlling the underhook, the crossface attempt exposes you to back takes and sweeps."
+        "answer": "You must have a secure whizzer or overhook on the opponent's underhook arm with your elbow pulled tight to your ribs, your shoulder positioned on the near side of the opponent's face with access to the jawline, and sufficient base through your posted free hand or leg to generate forward driving force. Without the whizzer controlling the underhook, the crossface attempt exposes you to back takes and sweeps.",
+        "answer_line": "Whizzer locked, elbow tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Underhook on their far arm",
+            "Grip their far collar first"
+          ],
+          "trap": [
+            "Release whizzer to free hand"
+          ]
+        }
       },
       {
         "question": "Which part of your body should make primary contact with the opponent's face during the crossface, and why is this contact point important?",
-        "answer": "The bony edge of your shoulder blade (scapula) should make primary contact with the opponent's jawline or cheekbone. This contact point is important because bone-on-bone pressure creates concentrated force that is far more structurally disruptive than soft tissue contact. The shoulder blade acts as a wedge that turns the head with mechanical precision, and the discomfort forces reactive head turning that accelerates postural collapse."
+        "answer": "The bony edge of your shoulder blade (scapula) should make primary contact with the opponent's jawline or cheekbone. This contact point is important because bone-on-bone pressure creates concentrated force that is far more structurally disruptive than soft tissue contact. The shoulder blade acts as a wedge that turns the head with mechanical precision, and the discomfort forces reactive head turning that accelerates postural collapse.",
+        "answer_line": "Shoulder blade into the jawline",
+        "distractors": {
+          "plausible": [
+            "Forearm bone across the jaw",
+            "Palm heel into the cheekbone"
+          ],
+          "trap": [
+            "Push against their collarbone"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the crossface fails to flatten the opponent in dogfight?",
-        "answer": "The most common failure is driving the crossface horizontally rather than at a downward angle. When the force is directed sideways, the opponent can absorb it by posting their free leg wide and bracing against the lateral pressure. The crossface must be driven at a 45-degree downward angle into the jaw to create force that pushes the opponent toward the mat, combining shoulder pressure with hip drop to use gravity as an ally."
+        "answer": "The most common failure is driving the crossface horizontally rather than at a downward angle. When the force is directed sideways, the opponent can absorb it by posting their free leg wide and bracing against the lateral pressure. The crossface must be driven at a 45-degree downward angle into the jaw to create force that pushes the opponent toward the mat, combining shoulder pressure with hip drop to use gravity as an ally.",
+        "answer_line": "Driving horizontal, not downward",
+        "distractors": {
+          "plausible": [
+            "Not enough whizzer pressure",
+            "Head positioned too high"
+          ],
+          "trap": [
+            "Drive straight up and over"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully frames against your shoulder with their free hand, preventing your crossface from landing. How do you adjust?",
-        "answer": "Swim your crossface arm underneath or around the opponent's framing arm to bypass the stiff arm entirely. If their arm is extended to frame, this creates a kimura opportunity by capturing the extended wrist and rotating their shoulder. Alternatively, change the angle by stepping your base leg to the opposite side and attacking from a new angle that their frame does not cover. The key is working around the frame rather than forcing through it."
+        "answer": "Swim your crossface arm underneath or around the opponent's framing arm to bypass the stiff arm entirely. If their arm is extended to frame, this creates a kimura opportunity by capturing the extended wrist and rotating their shoulder. Alternatively, change the angle by stepping your base leg to the opposite side and attacking from a new angle that their frame does not cover. The key is working around the frame rather than forcing through it.",
+        "answer_line": "Swim under the framing arm",
+        "distractors": {
+          "plausible": [
+            "Push harder through the frame",
+            "Switch to double underhooks"
+          ],
+          "trap": [
+            "Release underhook to peel frame"
+          ]
+        }
       },
       {
         "question": "In which direction should you drive the crossface pressure, and how does this relate to the opponent's base in dogfight?",
-        "answer": "Drive the crossface at a 45-degree downward angle, directing force toward the mat on the far side of the opponent's body. This direction matters because the opponent's base in dogfight is primarily supported by their knees underneath their hips. Downward-angled pressure collapses their structure by driving their head and shoulders below their hips, breaking the vertical alignment they need to maintain the kneeling posture and generate forward underhook pressure."
+        "answer": "Drive the crossface at a 45-degree downward angle, directing force toward the mat on the far side of the opponent's body. This direction matters because the opponent's base in dogfight is primarily supported by their knees underneath their hips. Downward-angled pressure collapses their structure by driving their head and shoulders below their hips, breaking the vertical alignment they need to maintain the kneeling posture and generate forward underhook pressure.",
+        "answer_line": "45-degree angle toward the mat",
+        "distractors": {
+          "plausible": [
+            "Straight down onto their spine",
+            "Sideways across their face"
+          ],
+          "trap": [
+            "Pull upward to break posture"
+          ]
+        }
       },
       {
         "question": "The opponent defends your crossface by sitting back to a knee shield before you can flatten them. What do you chain into?",
-        "answer": "The partial crossface has already compromised their posture, so do not waste energy trying to re-establish the dogfight. Instead, follow them down with heavy chest pressure and immediately chain into a Knee Slice Pass or Smash Pass against the knee shield. The crossface and these pressure passes share the same forward weight-distribution principles, making the transition seamless. Keep your head and shoulder pressure active throughout so the knee shield cannot fully reset your distance."
+        "answer": "The partial crossface has already compromised their posture, so do not waste energy trying to re-establish the dogfight. Instead, follow them down with heavy chest pressure and immediately chain into a Knee Slice Pass or Smash Pass against the knee shield. The crossface and these pressure passes share the same forward weight-distribution principles, making the transition seamless. Keep your head and shoulder pressure active throughout so the knee shield cannot fully reset your distance.",
+        "answer_line": "Chain into a knee slice pass",
+        "distractors": {
+          "plausible": [
+            "Reset back to dogfight control",
+            "Switch to a double leg takedown"
+          ],
+          "trap": [
+            "Release pressure to reset"
+          ]
+        }
       },
       {
         "question": "After flattening the opponent and arriving in side control, how can you immediately chain the crossface pressure into an attack?",
-        "answer": "The same crossface that flattened the opponent transitions directly into side-control submissions. Maintain the shoulder and forearm pressure across the jaw and, as you settle your hips, trap the near arm for an Americana or step over and bury your head for an Arm Triangle as the opponent turns their face away from the pressure. Because the head control is never released, you arrive in side control already attacking rather than resetting, denying the opponent any recovery window."
+        "answer": "The same crossface that flattened the opponent transitions directly into side-control submissions. Maintain the shoulder and forearm pressure across the jaw and, as you settle your hips, trap the near arm for an Americana or step over and bury your head for an Arm Triangle as the opponent turns their face away from the pressure. Because the head control is never released, you arrive in side control already attacking rather than resetting, denying the opponent any recovery window.",
+        "answer_line": "Trap the arm for an Americana",
+        "distractors": {
+          "plausible": [
+            "Release head control, hunt legs",
+            "Reset to knee-on-belly first"
+          ],
+          "trap": [
+            "Let go of crossface to switch base"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The crossface involves significant pressure on the face, jaw, and neck. Apply pressure progressively rather than with sudden explosive force to avoid accidental jaw injuries or neck strains. Be aware that driving the shoulder blade into the throat rather than the jaw can cause tracheal compression—always target the jawline and cheekbone. In training, communicate with your partner about pressure intensity and release immediately if they tap or express discomfort. Avoid cranking or twisting motions on the neck."
+    "safety_considerations": "The crossface involves significant pressure on the face, jaw, and neck. Apply pressure progressively rather than with sudden explosive force to avoid accidental jaw injuries or neck strains. Be aware that driving the shoulder blade into the throat rather than the jaw can cause tracheal compression—always target the jawline and cheekbone. In training, communicate with your partner about pressure intensity and release immediately if they tap or express discomfort. Avoid cranking or twisting motions on the neck.",
+    "clips": [
+      {
+        "id": "3Jqz8_dbsfM",
+        "title": "Quarter guard dogfight scoop control",
+        "by": "Christopher Hendrick",
+        "vertical": false,
+        "channel": "Christopher Hendrick",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eA9MZmfVrmA",
+        "title": "Setting a Crossface: Crucial Skill of Half Guard Passing",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 435,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crossface from Dogfight Defender",
@@ -355,19 +467,59 @@
     "flashcards": [
       {
         "question": "What are the earliest tactile cues that indicate your opponent is about to attempt a crossface in the dogfight?",
-        "answer": "The earliest cues are a tightening of the whizzer with the opponent's elbow pulling close to their ribs, their near shoulder beginning to angle toward your face rather than maintaining neutral position, and a subtle lowering of their hips signaling preparation for gravitational pressure. You may also feel their head shift to the far side of your body, creating the fulcrum angle needed for the crossface rotation. Recognizing these pre-attack signals gives you a one-to-two-second window to preempt the crossface."
+        "answer": "The earliest cues are a tightening of the whizzer with the opponent's elbow pulling close to their ribs, their near shoulder beginning to angle toward your face rather than maintaining neutral position, and a subtle lowering of their hips signaling preparation for gravitational pressure. You may also feel their head shift to the far side of your body, creating the fulcrum angle needed for the crossface rotation. Recognizing these pre-attack signals gives you a one-to-two-second window to preempt the crossface.",
+        "answer_line": "Whizzer tightens, shoulder angles in",
+        "distractors": {
+          "plausible": [
+            "Their hips rise up high",
+            "Grip fights on your far wrist"
+          ],
+          "trap": [
+            "They loosen underhook pressure"
+          ]
+        }
       },
       {
         "question": "What is the single most important defensive action when you feel crossface pressure being applied in dogfight?",
-        "answer": "The single most important action is tucking your chin toward your underhook side and driving your forehead into the opponent's chest or neck. This prevents the crossface from turning your head—which is the primary mechanism by which the crossface breaks posture. When the head stays turned toward the underhook, the opponent cannot generate the rotational force needed to flatten you. This chin tuck must be combined with continued forward pressure through the underhook."
+        "answer": "The single most important action is tucking your chin toward your underhook side and driving your forehead into the opponent's chest or neck. This prevents the crossface from turning your head—which is the primary mechanism by which the crossface breaks posture. When the head stays turned toward the underhook, the opponent cannot generate the rotational force needed to flatten you. This chin tuck must be combined with continued forward pressure through the underhook.",
+        "answer_line": "Tuck chin, drive forehead forward",
+        "distractors": {
+          "plausible": [
+            "Post free hand on their hip",
+            "Turn head away from pressure"
+          ],
+          "trap": [
+            "Let go of underhook to frame"
+          ]
+        }
       },
       {
         "question": "How can you convert a crossface attempt into a back take opportunity?",
-        "answer": "When the opponent commits heavily to the crossface, they drive their shoulder forward and drop their level, which often creates space behind their body. By ducking your head under the crossfacing shoulder and circling toward their back, you can bypass the pressure entirely and begin establishing back control. The key is timing the duck-under with the moment of maximum commitment—when the opponent has fully loaded their weight into the crossface and cannot quickly change direction to prevent the back take."
+        "answer": "When the opponent commits heavily to the crossface, they drive their shoulder forward and drop their level, which often creates space behind their body. By ducking your head under the crossfacing shoulder and circling toward their back, you can bypass the pressure entirely and begin establishing back control. The key is timing the duck-under with the moment of maximum commitment—when the opponent has fully loaded their weight into the crossface and cannot quickly change direction to prevent the back take.",
+        "answer_line": "Duck under, circle to their back",
+        "distractors": {
+          "plausible": [
+            "Push into their chest and stand",
+            "Sit out to recover guard"
+          ],
+          "trap": [
+            "Pull them in tight and stall"
+          ]
+        }
       },
       {
         "question": "Why is maintaining your underhook depth critical when defending against the crossface?",
-        "answer": "The underhook serves as your primary structural support and offensive threat in the dogfight. If you abandon it to defend the crossface with both hands, you lose the mechanical structure that keeps you upright and the offensive threat that forces the opponent to respect your sweeps. The underhook creates a forward driving vector that opposes the crossface pressure, and its depth determines how much leverage you can generate. A deep underhook reaching the far shoulder provides maximum resistance, while a shallow underhook at the hip provides almost none."
+        "answer": "The underhook serves as your primary structural support and offensive threat in the dogfight. If you abandon it to defend the crossface with both hands, you lose the mechanical structure that keeps you upright and the offensive threat that forces the opponent to respect your sweeps. The underhook creates a forward driving vector that opposes the crossface pressure, and its depth determines how much leverage you can generate. A deep underhook reaching the far shoulder provides maximum resistance, while a shallow underhook at the hip provides almost none.",
+        "answer_line": "Deep underhook to the far shoulder",
+        "distractors": {
+          "plausible": [
+            "Shallow underhook at the hip",
+            "Both hands framing the face"
+          ],
+          "trap": [
+            "Abandon underhook for two hands"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -390,6 +542,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance crossface defense in dogfight",
         "description": "Full resistance positional sparring starting in dogfight. Top player attempts crossface and pass while bottom player defends and counters. Track success rates for both players over 2-minute rounds. Develop the ability to integrate crossface defense into the broader dogfight game under competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GE3rFdjxA-M",
+        "title": "Dog fight counter",
+        "by": "Cauliflower Ear Family",
+        "vertical": false,
+        "channel": "Cauliflower Ear Family",
+        "duration": 194,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mjOUm-T1Rr0",
+        "title": "Standing up to reach over the whizzer",
+        "by": "John Beresford",
+        "vertical": false,
+        "channel": "John Beresford",
+        "duration": 85,
+        "verified": "2026-07-15"
       }
     ]
   }

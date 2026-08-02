@@ -34,6 +34,43 @@ description: "Master the Knee Through pass in BJJ. Systematic half guard passing
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Through \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin to shin knee slice pass",
+      "description": "Knee Through film study: Shin to shin knee slice pass, taught by Jake Shields.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zQXG0nOceks/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zQXG0nOceks",
+      "url": "https://www.youtube.com/watch?v=zQXG0nOceks",
+      "creator": { "@type": "Person", "name": "Jake Shields" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee slice pass to shin staple",
+      "description": "Knee Through film study: Knee slice pass to shin staple, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wDnDzslTMk8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wDnDzslTMk8",
+      "url": "https://www.youtube.com/watch?v=wDnDzslTMk8",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This pass forms the cornerstone of pressure-based passing systems and serves as 
 **Success Rate**: 68%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Through in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zQXG0nOceks)
+
+<p class="clip-credit"><strong>Shin to shin knee slice pass</strong> — taught by Jake Shields · 1:40 · <a href="https://www.youtube.com/watch?v=zQXG0nOceks" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wDnDzslTMk8)
+
+<p class="clip-credit"><strong>Knee slice pass to shin staple</strong> — taught by Clark Gracie · 1:15 · <a href="https://www.youtube.com/watch?v=wDnDzslTMk8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -249,7 +314,7 @@ The Knee Through pass represents a fundamental element in the pressure passing s
 
 - [[Submissions/Kimura]] - Common submission follow-up after establishing side control from the pass
 
-- [[Transitions/Darce Choke]] - Submission opportunity when opponent turns into you during pass
+- [[Submissions/Darce Choke]] - Submission opportunity when opponent turns into you during pass
 
 - [[Positions/Half Guard/Deep Half Guard]] - Counter position opponent may attempt during leg extraction phase
 

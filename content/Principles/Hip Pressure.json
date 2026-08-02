@@ -398,43 +398,163 @@
   "flashcards": [
     {
       "question": "What is hip pressure in BJJ?",
-      "answer": "Hip pressure is the application of bodyweight through hip-to-hip contact to pin an opponent's lower body, nullify their shrimps, bridges, and turns, and build stable platforms for passing, control, and submission."
+      "answer": "Hip pressure is the application of bodyweight through hip-to-hip contact to pin an opponent's lower body, nullify their shrimps, bridges, and turns, and build stable platforms for passing, control, and submission.",
+      "answer_line": "Hip-to-hip weight pins lower body",
+      "distractors": {
+        "plausible": [
+          "Chest pressure controls upper body",
+          "Squeeze hips with legs for control"
+        ],
+        "trap": [
+          "Drop all weight, forget your base"
+        ]
+      }
     },
     {
       "question": "How does hip pressure differ from general pressure?",
-      "answer": "General pressure manages total bodyweight across all contact points, whereas hip pressure specifically channels weight through the pelvis to immobilize the opponent's lower body and shut down their hip movement."
+      "answer": "General pressure manages total bodyweight across all contact points, whereas hip pressure specifically channels weight through the pelvis to immobilize the opponent's lower body and shut down their hip movement.",
+      "answer_line": "Targets hips, not total bodyweight",
+      "distractors": {
+        "plausible": [
+          "Same as pressure, just heavier",
+          "Focuses weight on chest instead"
+        ],
+        "trap": [
+          "Ignore hips, crush the shoulders"
+        ]
+      }
     },
     {
       "question": "Which fundamental defensive movements does hip pressure neutralize?",
-      "answer": "It targets the opponent's most basic escapes — shrimping (hip escape), bridging, and turning to their side — by pinning the hips and removing the space those movements require to function."
+      "answer": "It targets the opponent's most basic escapes — shrimping (hip escape), bridging, and turning to their side — by pinning the hips and removing the space those movements require to function.",
+      "answer_line": "Shuts down shrimp, bridge, turn",
+      "distractors": {
+        "plausible": [
+          "Stops only bridging escapes",
+          "Prevents guard recovery only"
+        ],
+        "trap": [
+          "Lets hips move to bait a sweep"
+        ]
+      }
     },
     {
       "question": "Why must hip pressure be paired with a stable upper-body base?",
-      "answer": "Committing weight through the hips without a secure base on the hands or elbows leaves you off-balance and open to sweeps and reversals; base lets you press heavily while staying stable."
+      "answer": "Committing weight through the hips without a secure base on the hands or elbows leaves you off-balance and open to sweeps and reversals; base lets you press heavily while staying stable.",
+      "answer_line": "Base prevents sweeps and reversals",
+      "distractors": {
+        "plausible": [
+          "Base is optional if hips are heavy",
+          "Base matters only when passing"
+        ],
+        "trap": [
+          "Post no hands, ride hips alone"
+        ]
+      }
     },
     {
       "question": "What does 'be heavy on them, light on yourself' mean for hip pressure?",
-      "answer": "It means projecting maximum crushing weight into the opponent's hips while keeping your own hips mobile, so you can advance, transition, and attack without ever sacrificing the pin."
+      "answer": "It means projecting maximum crushing weight into the opponent's hips while keeping your own hips mobile, so you can advance, transition, and attack without ever sacrificing the pin.",
+      "answer_line": "Crush their hips, keep own mobile",
+      "distractors": {
+        "plausible": [
+          "Be heavy everywhere, all the time",
+          "Stay light to move faster only"
+        ],
+        "trap": [
+          "Sink weight into your own base"
+        ]
+      }
     },
     {
       "question": "How do you maintain hip pressure during a transition?",
-      "answer": "Coordinate upper and lower body so hip contact never fully releases; slide or rotate the hips while keeping connection to prevent the pressure windows that let opponents escape mid-movement."
+      "answer": "Coordinate upper and lower body so hip contact never fully releases; slide or rotate the hips while keeping connection to prevent the pressure windows that let opponents escape mid-movement.",
+      "answer_line": "Never fully release hip contact",
+      "distractors": {
+        "plausible": [
+          "Release briefly, then reconnect",
+          "Keep upper body pinned, hips free"
+        ],
+        "trap": [
+          "Pop hips up to switch angles fast"
+        ]
+      }
     },
     {
       "question": "What are the main hip-pressure vectors and when do you use each?",
-      "answer": "Downward pressure flattens and pins, forward pressure advances position past the legs, and angled pressure opens passing lanes while preempting hip escapes — each chosen to match the position's objective."
+      "answer": "Downward pressure flattens and pins, forward pressure advances position past the legs, and angled pressure opens passing lanes while preempting hip escapes — each chosen to match the position's objective.",
+      "answer_line": "Downward, forward, angled pressure",
+      "distractors": {
+        "plausible": [
+          "Only downward pressure matters",
+          "Forward pressure alone passes guard"
+        ],
+        "trap": [
+          "Push straight back to reset"
+        ]
+      }
     },
     {
       "question": "How does hip pressure combine with shoulder pressure or crossface?",
-      "answer": "Hip pressure locks the lower body while shoulder pressure or crossface pins the upper body, so the opponent cannot frame or bridge — together they form a complete pin with no free escape route."
+      "answer": "Hip pressure locks the lower body while shoulder pressure or crossface pins the upper body, so the opponent cannot frame or bridge — together they form a complete pin with no free escape route.",
+      "answer_line": "Crossface pins top, hips pin bottom",
+      "distractors": {
+        "plausible": [
+          "Hip pressure alone is enough",
+          "Crossface replaces hip pressure"
+        ],
+        "trap": [
+          "Free the shoulders to focus hips"
+        ]
+      }
     },
     {
       "question": "What is the most common error when applying hip pressure?",
-      "answer": "Overcommitting all bodyweight through the hips without keeping base, which destroys balance and hands the opponent sweeps, reversals, or framing opportunities instead of yielding control."
+      "answer": "Overcommitting all bodyweight through the hips without keeping base, which destroys balance and hands the opponent sweeps, reversals, or framing opportunities instead of yielding control.",
+      "answer_line": "Overcommitting weight, no base",
+      "distractors": {
+        "plausible": [
+          "Applying too little hip weight",
+          "Angling pressure the wrong way"
+        ],
+        "trap": [
+          "Release base to sink in harder"
+        ]
+      }
     },
     {
       "question": "How does hip pressure function during a knee slice pass?",
-      "answer": "As you slice through, hip pressure pins the opponent's bottom hip to the mat, stopping them from recovering guard or inserting frames so you can complete the pass and consolidate top control."
+      "answer": "As you slice through, hip pressure pins the opponent's bottom hip to the mat, stopping them from recovering guard or inserting frames so you can complete the pass and consolidate top control.",
+      "answer_line": "Pins bottom hip, stops recovery",
+      "distractors": {
+        "plausible": [
+          "Pins top hip, blocks frames",
+          "Pressure comes from the knee only"
+        ],
+        "trap": [
+          "Lighten hips to slice faster"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "eU2MKcq5we0",
+      "title": "Principles of pressure passing",
+      "by": "Bernardo Faria",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 353,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "mzAgY0QUtnc",
+      "title": "The science of pressure in jiu jitsu",
+      "by": "RVV BJJ",
+      "vertical": false,
+      "channel": "RVV BJJ",
+      "duration": 785,
+      "verified": "2026-07-15"
     }
   ]
 }

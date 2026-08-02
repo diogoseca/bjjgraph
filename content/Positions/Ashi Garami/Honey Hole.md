@@ -34,6 +34,54 @@ description: "Master Honey Hole position in BJJ. Advanced leg entanglement with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Honey Hole \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Locks: Enter the System",
+      "description": "Honey Hole film study: Leg Locks: Enter the System, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F5rdV0PUuDc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F5rdV0PUuDc",
+      "url": "https://www.youtube.com/watch?v=F5rdV0PUuDc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT176S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside Sankaku Entries",
+      "description": "Honey Hole film study: Inside Sankaku Entries, taught by Dynamic Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jn_JST6ZJ3o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jn_JST6ZJ3o",
+      "url": "https://www.youtube.com/watch?v=Jn_JST6ZJ3o",
+      "creator": { "@type": "Person", "name": "Dynamic Martial Arts" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Honey Hole from Single Leg X",
+      "description": "Honey Hole film study: Honey Hole from Single Leg X, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VmxgqU-ScTM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VmxgqU-ScTM",
+      "url": "https://www.youtube.com/watch?v=VmxgqU-ScTM",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT34S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ The position's strategic significance stems from its asymmetric control dynamics
 From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappling, particularly in submission-only and IBJJF brown/black belt competition where heel hooks are legal. The position's development through modern leg lock pioneers and subsequent adoption by elite competitors has made it a fundamental component of contemporary leg lock systems. Understanding both offensive and defensive aspects of this position is essential for any serious no-gi practitioner, as the submission threat timeline is measured in seconds rather than minutes, requiring immediate recognition and response from the defensive perspective.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Honey Hole in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F5rdV0PUuDc)
+
+<p class="clip-credit"><strong>Leg Locks: Enter the System</strong> — taught by John Danaher · 2:56 · <a href="https://www.youtube.com/watch?v=F5rdV0PUuDc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jn_JST6ZJ3o)
+
+<p class="clip-credit"><strong>Inside Sankaku Entries</strong> — taught by Dynamic Martial Arts · 2:18 · <a href="https://www.youtube.com/watch?v=Jn_JST6ZJ3o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VmxgqU-ScTM)
+
+<p class="clip-credit"><strong>Honey Hole from Single Leg X</strong> — taught by Danny Mitchell · 0:34 · <a href="https://www.youtube.com/watch?v=VmxgqU-ScTM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,27 +221,21 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Transitions/Inversion Escape/Attacker|Inversion Escape]]** (14% of attempts)
+- **[[Transitions/Inversion Escape/Attacker|Inversion Escape]]** (11% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (9% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (13% of attempts)
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (7% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (12% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (36% of attempts)
+- **[[Transitions/Reverse the entanglement to Outside Ashi/Attacker|Reverse the entanglement to Outside Ashi]]** (7% of attempts)
 
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (3% of attempts)
+- **[[Transitions/Grip Break/Attacker|Grip Break]]** (25% of attempts)
 
-- **[[Transitions/Reverse the entanglement to Outside Ashi/Attacker|Reverse the entanglement to Outside Ashi]]** (8% of attempts)
+- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (12% of attempts)
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (13% of attempts)
-
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (1% of attempts)
-
-- **[[Transitions/Sweep from Honey Hole/Attacker|Sweep from Honey Hole]]** (1% of attempts)
-
-- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
+- **[[Transitions/Sweep from Honey Hole/Attacker|Sweep from Honey Hole]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -222,27 +300,25 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Honey Hole/Attacker|Outside Heel Hook from Honey Hole]]** (10% of attempts)
+- **[[Outside Heel Hook from Honey Hole/Attacker|Outside Heel Hook from Honey Hole]]** (7% of attempts)
 
-- **[[Heel Hook from Honey Hole/Attacker|Heel Hook from Honey Hole]]** (37% of attempts)
+- **[[Heel Hook from Honey Hole/Attacker|Heel Hook from Honey Hole]]** (13% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (12% of attempts)
+- **[[Toe Hold from Honey Hole/Attacker|Toe Hold from Honey Hole]]** (8% of attempts)
 
-- **[[Toe Hold from Honey Hole/Attacker|Toe Hold from Honey Hole]]** (7% of attempts)
-
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (12% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (6% of attempts)
 
 - **[[Estima Lock from Honey Hole/Attacker|Estima Lock from Honey Hole]]** (2% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (2% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (11% of attempts)
 
-- **[[Calf Slicer from Honey Hole/Attacker|Calf Slicer from Honey Hole]]** (2% of attempts)
+- **[[Calf Slicer from Honey Hole/Attacker|Calf Slicer from Honey Hole]]** (4% of attempts)
 
-- **[[Transitions/Honey Hole to Saddle/Attacker|Honey Hole to Saddle]]** (2% of attempts)
+- **[[Transitions/Honey Hole to Saddle/Attacker|Honey Hole to Saddle]]** (11% of attempts)
 
-- **[[Inside Heel Hook from Honey Hole/Attacker|Inside Heel Hook from Honey Hole]]** (2% of attempts)
+- **[[Inside Heel Hook from Honey Hole/Attacker|Inside Heel Hook from Honey Hole]]** (29% of attempts)
 
-- **[[Kneebar from Honey Hole/Attacker|Kneebar from Honey Hole]]** (12% of attempts)
+- **[[Kneebar from Honey Hole/Attacker|Kneebar from Honey Hole]]** (9% of attempts)
 
 
 ### Common Mistakes

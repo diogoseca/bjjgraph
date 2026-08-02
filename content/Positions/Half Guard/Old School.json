@@ -98,35 +98,115 @@
     "flashcards": [
       {
         "question": "Your opponent begins to bridge and roll toward the lockdown side - what immediate adjustment prevents the sweep?",
-        "answer": "Post your free leg wider with the knee angled outward at 45 degrees while simultaneously driving increased crossface pressure and dropping your chest weight onto their sternum. The wide base removes their sweeping angle while the increased pressure prevents them from completing the rotation. Never try to balance by posting on your hands - keep weight through your chest."
+        "answer": "Post your free leg wider with the knee angled outward at 45 degrees while simultaneously driving increased crossface pressure and dropping your chest weight onto their sternum. The wide base removes their sweeping angle while the increased pressure prevents them from completing the rotation. Never try to balance by posting on your hands - keep weight through your chest.",
+        "answer_line": "Wide leg post, chest pressure",
+        "distractors": {
+          "plausible": [
+            "Post hands wide for balance",
+            "Narrow base, more crossface"
+          ],
+          "trap": [
+            "Post on hands, lift hips"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and pressure points for maintaining Old School Top position?",
-        "answer": "The three essential control points are: 1) Deep whizzer threaded under opponent's armpit with hand gripping your own thigh or their hip, 2) Heavy crossface pressure with shoulder driving into their jaw/face forcing head turn, and 3) Chest-to-chest connection with weight distributed forward. These create a structural framework that prevents both sweeping and reguarding attempts."
+        "answer": "The three essential control points are: 1) Deep whizzer threaded under opponent's armpit with hand gripping your own thigh or their hip, 2) Heavy crossface pressure with shoulder driving into their jaw/face forcing head turn, and 3) Chest-to-chest connection with weight distributed forward. These create a structural framework that prevents both sweeping and reguarding attempts.",
+        "answer_line": "Whizzer, crossface, chest-to-chest",
+        "distractors": {
+          "plausible": [
+            "Underhook, head control, hips",
+            "Crossface only, weight back"
+          ],
+          "trap": [
+            "Base on hands, sit up tall"
+          ]
+        }
       },
       {
         "question": "How do you shut down the Old School Sweep when opponent has underhook and head control established?",
-        "answer": "Drive your whizzer deep and clamp your elbow tight to your body to control their underhooking arm's mobility. Increase crossface pressure dramatically to turn their head away and break their pulling angle. Keep hips low and heavy - never raise them as this feeds directly into their sweep mechanics. Post free leg extremely wide to remove their rotational leverage entirely."
+        "answer": "Drive your whizzer deep and clamp your elbow tight to your body to control their underhooking arm's mobility. Increase crossface pressure dramatically to turn their head away and break their pulling angle. Keep hips low and heavy - never raise them as this feeds directly into their sweep mechanics. Post free leg extremely wide to remove their rotational leverage entirely.",
+        "answer_line": "Deep whizzer, hips low, wide post",
+        "distractors": {
+          "plausible": [
+            "Fight underhook, raise hips",
+            "Crossface only, narrow base"
+          ],
+          "trap": [
+            "Raise hips to create space"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish when first recognizing opponent's lockdown?",
-        "answer": "First priority is the whizzer - thread it deep immediately before they can secure strong underhook position. Second priority is establishing crossface pressure with opposite shoulder. Third is controlling their far arm to prevent them securing head control. These must happen in rapid sequence within 2-3 seconds of recognizing the lockdown configuration."
+        "answer": "First priority is the whizzer - thread it deep immediately before they can secure strong underhook position. Second priority is establishing crossface pressure with opposite shoulder. Third is controlling their far arm to prevent them securing head control. These must happen in rapid sequence within 2-3 seconds of recognizing the lockdown configuration.",
+        "answer_line": "Whizzer deep first",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure first",
+            "Control far arm first"
+          ],
+          "trap": [
+            "Stand up to pass"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure to flatten the bottom player without creating space they can exploit?",
-        "answer": "Drive your weight forward and downward through your chest, not through your hips or hands. Your sternum should press directly into their sternum while your crossface shoulder drives into their face. Keep hands light and only for balance adjustments. This creates smothering pressure that limits their hip mobility - the foundation of all lockdown attacks."
+        "answer": "Drive your weight forward and downward through your chest, not through your hips or hands. Your sternum should press directly into their sternum while your crossface shoulder drives into their face. Keep hands light and only for balance adjustments. This creates smothering pressure that limits their hip mobility - the foundation of all lockdown attacks.",
+        "answer_line": "Chest weight down, hands light",
+        "distractors": {
+          "plausible": [
+            "Push down through the hands",
+            "Drive weight through hips"
+          ],
+          "trap": [
+            "Post heavy on hands for base"
+          ]
+        }
       },
       {
         "question": "Your opponent begins pumping the lockdown to create sweep momentum - how do you anticipate and counter this?",
-        "answer": "Feel for the rhythm of their leg extension attempts and time your base adjustments accordingly. When you feel them beginning to extend, immediately sprawl your hips slightly back while maintaining chest connection and driving crossface pressure. The sprawl removes the leverage they need while keeping your weight on them prevents the space creation they're seeking."
+        "answer": "Feel for the rhythm of their leg extension attempts and time your base adjustments accordingly. When you feel them beginning to extend, immediately sprawl your hips slightly back while maintaining chest connection and driving crossface pressure. The sprawl removes the leverage they need while keeping your weight on them prevents the space creation they're seeking.",
+        "answer_line": "Sprawl hips back, keep chest tight",
+        "distractors": {
+          "plausible": [
+            "Raise hips to avoid the pump",
+            "Pull away to reset base"
+          ],
+          "trap": [
+            "Stand up to escape the pump"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when stuck in extended Old School Top battles?",
-        "answer": "Relax into the position using skeletal structure rather than muscular tension for control. Your whizzer should be deep enough that it holds structurally without squeezing. Crossface pressure comes from body weight positioning, not shoulder muscle. Breathe steadily and avoid reactive explosive movements that burn energy - patience and systematic pressure exhaust them faster than you."
+        "answer": "Relax into the position using skeletal structure rather than muscular tension for control. Your whizzer should be deep enough that it holds structurally without squeezing. Crossface pressure comes from body weight positioning, not shoulder muscle. Breathe steadily and avoid reactive explosive movements that burn energy - patience and systematic pressure exhaust them faster than you.",
+        "answer_line": "Use structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Squeeze whizzer hard always",
+            "Explode often to stay ahead"
+          ],
+          "trap": [
+            "Muscle through with bursts"
+          ]
+        }
       },
       {
         "question": "Opponent partially escapes your crossface and begins coming up to dogfight - what recovery sequence prevents position loss?",
-        "answer": "Immediately increase whizzer pressure to stop their rotation while sprawling your hips back to remove their lifting angle. If they're already coming up, switch your whizzer to an underhook and circle toward their back rather than fighting for the flattened position. The back take becomes available when they commit to coming up - use their momentum against them rather than fighting it directly."
+        "answer": "Immediately increase whizzer pressure to stop their rotation while sprawling your hips back to remove their lifting angle. If they're already coming up, switch your whizzer to an underhook and circle toward their back rather than fighting for the flattened position. The back take becomes available when they commit to coming up - use their momentum against them rather than fighting it directly.",
+        "answer_line": "Switch whizzer to underhook, back",
+        "distractors": {
+          "plausible": [
+            "Fight to re-flatten immediately",
+            "Pull crossface back on harder"
+          ],
+          "trap": [
+            "Let them stand to reset position"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -298,35 +378,88 @@
     "transitions": [
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 33
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 18
+        }
       },
       {
         "transition": "Crossface Pass",
-        "attempt_probability": 21
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 12
+        }
       },
       {
         "transition": "Lockdown Break and Pass",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 14
+        }
       },
       {
         "transition": "Darce from Lockdown Counter",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 11
+        }
       },
       {
         "transition": "Crossface from Old School",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       },
       {
         "transition": "Defend Old School Sweep",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 14
+        }
       },
       {
         "transition": "Old School Pass",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 7
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stop the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lwwIfCAA7Zc",
+        "title": "Top lockdown turk",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 207,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xIkXPK5h-4A",
+        "title": "Safely escaping the lockdown from top",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 438,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -377,35 +510,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts driving heavy crossface pressure to flatten you - what adjustment maintains your sweeping position?",
-        "answer": "Immediately pump the lockdown by extending your legs to create space and prevent being flattened. Simultaneously pull your underhook tighter and drive your head into their chest on the underhook side. If you feel yourself going flat, transition to deep half guard entry rather than fighting a losing battle. The angle is everything - once flat, your sweep leverage disappears entirely."
+        "answer": "Immediately pump the lockdown by extending your legs to create space and prevent being flattened. Simultaneously pull your underhook tighter and drive your head into their chest on the underhook side. If you feel yourself going flat, transition to deep half guard entry rather than fighting a losing battle. The angle is everything - once flat, your sweep leverage disappears entirely.",
+        "answer_line": "Pump lockdown, tighten underhook",
+        "distractors": {
+          "plausible": [
+            "Push against crossface harder",
+            "Hold still, wait it out"
+          ],
+          "trap": [
+            "Let them flatten you fully"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining Old School Bottom position?",
-        "answer": "Three essential grips work together: 1) Deep underhook with elbow tight to your ribs and hand gripping high on opponent's back or shoulder, 2) Head control with opposite arm wrapping around their head and hand gripping behind their neck, 3) Lockdown figure-four configuration with bottom foot hooking their ankle and legs actively extending. All three must work in concert - losing any one significantly reduces sweep effectiveness."
+        "answer": "Three essential grips work together: 1) Deep underhook with elbow tight to your ribs and hand gripping high on opponent's back or shoulder, 2) Head control with opposite arm wrapping around their head and hand gripping behind their neck, 3) Lockdown figure-four configuration with bottom foot hooking their ankle and legs actively extending. All three must work in concert - losing any one significantly reduces sweep effectiveness.",
+        "answer_line": "Underhook, head control, lockdown",
+        "distractors": {
+          "plausible": [
+            "Whizzer, crossface, chest weight",
+            "Overhook, collar tie, hooks"
+          ],
+          "trap": [
+            "Flat back, both hands framing"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary escape of freeing their trapped leg?",
-        "answer": "Actively extend the lockdown by driving your knees away while pulling with your hooked foot on their ankle. This creates constant tension that prevents leg extraction. When you feel them trying to pull their leg out, increase lockdown extension immediately and pull their head down harder to prevent them from generating the posture needed for extraction. The leg can only come free if you allow slack in the figure-four configuration."
+        "answer": "Actively extend the lockdown by driving your knees away while pulling with your hooked foot on their ankle. This creates constant tension that prevents leg extraction. When you feel them trying to pull their leg out, increase lockdown extension immediately and pull their head down harder to prevent them from generating the posture needed for extraction. The leg can only come free if you allow slack in the figure-four configuration.",
+        "answer_line": "Extend lockdown, pull head down",
+        "distractors": {
+          "plausible": [
+            "Loosen lockdown to reposition",
+            "Squeeze knees together tight"
+          ],
+          "trap": [
+            "Release lockdown, chase legs"
+          ]
+        }
       },
       {
         "question": "What grip priority sequence should you follow when establishing Old School from half guard?",
-        "answer": "First secure the lockdown on their trapped leg - this is your foundation. Second, fight for the underhook on one side before they can establish whizzer control. Third, use your free arm to control their head once underhook is secured. This sequence matters because without lockdown they can base, without underhook you lack sweep power, and without head control they can posture up and defend everything."
+        "answer": "First secure the lockdown on their trapped leg - this is your foundation. Second, fight for the underhook on one side before they can establish whizzer control. Third, use your free arm to control their head once underhook is secured. This sequence matters because without lockdown they can base, without underhook you lack sweep power, and without head control they can posture up and defend everything.",
+        "answer_line": "Secure the lockdown foundation first",
+        "distractors": {
+          "plausible": [
+            "Win the underhook before anything",
+            "Grab their head, then hunt hooks"
+          ],
+          "trap": [
+            "Turn belly-down for the sweep"
+          ]
+        }
       },
       {
         "question": "How should you apply pulling pressure to break opponent's posture without losing your angle?",
-        "answer": "Pull their head down and across toward the underhook side using a combination of arm pull and hip rotation. Your hips should stay angled toward the underhook, not flatten to accommodate the pull. Think of creating a spiral motion - as you pull their head down, your body coils tighter on your side, building sweep tension. Never pull straight down as this flattens you and loses geometric advantage."
+        "answer": "Pull their head down and across toward the underhook side using a combination of arm pull and hip rotation. Your hips should stay angled toward the underhook, not flatten to accommodate the pull. Think of creating a spiral motion - as you pull their head down, your body coils tighter on your side, building sweep tension. Never pull straight down as this flattens you and loses geometric advantage.",
+        "answer_line": "Pull head across, angle hips",
+        "distractors": {
+          "plausible": [
+            "Pull straight down hard",
+            "Flatten hips, pull head back"
+          ],
+          "trap": [
+            "Pull head straight down flat"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to posture up strongly - how do you anticipate and prevent this escape?",
-        "answer": "Feel for the moment their weight starts shifting backward and immediately respond by extending your lockdown while pulling harder on both head and underhook. If they're already partially up, pump the lockdown aggressively to off-balance them forward, then re-secure controls as they compensate. You can also transition the sweep timing - their posture attempt often creates the forward weight shift you need for the actual sweep."
+        "answer": "Feel for the moment their weight starts shifting backward and immediately respond by extending your lockdown while pulling harder on both head and underhook. If they're already partially up, pump the lockdown aggressively to off-balance them forward, then re-secure controls as they compensate. You can also transition the sweep timing - their posture attempt often creates the forward weight shift you need for the actual sweep.",
+        "answer_line": "Extend lockdown, pull harder",
+        "distractors": {
+          "plausible": [
+            "Release grips, reset angle",
+            "Push their hips back down"
+          ],
+          "trap": [
+            "Let them posture, then react"
+          ]
+        }
       },
       {
         "question": "How do you manage energy in extended Old School battles without abandoning sweep attempts?",
-        "answer": "Use structural holds rather than muscular squeezing. Your lockdown should hold through leg position, not calf strength. Your underhook pulls using back engagement, not bicep burn. Rest in the tension rather than fighting through it. When you feel opponent relaxing or adjusting, that's when to explode with the sweep - save energy for the right moment rather than constantly pulling at 100%."
+        "answer": "Use structural holds rather than muscular squeezing. Your lockdown should hold through leg position, not calf strength. Your underhook pulls using back engagement, not bicep burn. Rest in the tension rather than fighting through it. When you feel opponent relaxing or adjusting, that's when to explode with the sweep - save energy for the right moment rather than constantly pulling at 100%.",
+        "answer_line": "Structural hold, explode late",
+        "distractors": {
+          "plausible": [
+            "Squeeze lockdown constantly",
+            "Pull with bicep, not back"
+          ],
+          "trap": [
+            "Muscle grips at full power"
+          ]
+        }
       },
       {
         "question": "Opponent partially breaks your head control and begins establishing crossface - what recovery sequence maintains your attacking position?",
-        "answer": "Immediately frame against their crossface shoulder with your freed arm to prevent full establishment. Simultaneously pump lockdown to create space and prevent flattening. If their crossface is too strong, accept the transition to deep half guard by diving under their hips rather than getting flattened and passed. The key is maintaining hip mobility - any position where you're on your side with active hips is better than flat on your back."
+        "answer": "Immediately frame against their crossface shoulder with your freed arm to prevent full establishment. Simultaneously pump lockdown to create space and prevent flattening. If their crossface is too strong, accept the transition to deep half guard by diving under their hips rather than getting flattened and passed. The key is maintaining hip mobility - any position where you're on your side with active hips is better than flat on your back.",
+        "answer_line": "Frame crossface, pump lockdown",
+        "distractors": {
+          "plausible": [
+            "Fight crossface, stay flat",
+            "Abandon lockdown, reguard"
+          ],
+          "trap": [
+            "Stay flat and wait it out"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -591,36 +804,207 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 46
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 21
+        }
       },
       {
         "transition": "Electric Chair Transition",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 11
+        }
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 15
+        }
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 12
+        }
       },
       {
         "transition": "Dogfight Position",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Old School Sweep from Bottom",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 15
+        }
       },
       {
         "transition": "Old School to Half Guard",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Old School Position Sweep",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "Jnc2siD9cak",
+        "title": "Old school half guard sweep",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 12,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tTroLgpLJ1k",
+        "title": "Godfather sweep from lockdown half guard",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 11,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What is the defining leg configuration that makes Old School distinct from ordinary half guard?",
+      "answer": "Old School is built on the lockdown, a figure-four leg entanglement where the bottom player traps one of the top player's legs between their own, hooks the top player's ankle or instep with the bottom foot, and drives the upper knee into the back of the trapped thigh. Actively extending both legs stretches the top player's trapped leg away from their center, robbing them of base on that side. This leg tie-up is the structural anchor of the position: it immobilizes the trapped limb and generates the rotational leverage that plain half guard lacks. Without the lockdown extension the configuration collapses back into standard half guard.",
+      "answer_line": "Lockdown figure-four, extend",
+      "distractors": {
+        "plausible": [
+          "Knee shield across the hip",
+          "Basic half guard leg wrap"
+        ],
+        "trap": [
+          "Loosen legs to create space"
+        ]
+      }
+    },
+    {
+      "question": "Why is the fight for the underhook the central upper-body battle that determines who controls Old School?",
+      "answer": "The same shoulder line can only be won by one player: whoever threads the underhook denies the other. When the bottom player secures a deep underhook they gain the lifting leverage to rotate the top player over the trapped leg. When the top player instead wins the overhook, or whizzer, on that arm they clamp the shoulder down, kill the rotation, and start driving toward a pass. Because the underhook and whizzer are mirror images competing for the identical arm, the position is decided at that shoulder more than anywhere else.",
+      "answer_line": "Same arm: underhook vs whizzer",
+      "distractors": {
+        "plausible": [
+          "Both fight for head control",
+          "Grip fight is over the legs"
+        ],
+        "trap": [
+          "Ignore the arm, fight the hips"
+        ]
+      }
+    },
+    {
+      "question": "How does head and posture control function as a shared control point in Old School?",
+      "answer": "Whoever controls the head controls the spine's ability to posture, and posture is what lets the top player base and pass. The bottom player pulls the head down and across toward the underhook side to break posture and coil the sweep, while the top player fights to lift the head and drive a crossface that turns the bottom player's face away and flattens them. This is a direct tug-of-war over the same head, so the head position is a reliable read on which player currently holds the initiative. Broken posture favors the bottom player's sweep; recovered posture and crossface favor the top player's pass.",
+      "answer_line": "Head control decides posture",
+      "distractors": {
+        "plausible": [
+          "Leg control decides posture",
+          "Grip strength decides it all"
+        ],
+        "trap": [
+          "Ignore the head, fight hips"
+        ]
+      }
+    },
+    {
+      "question": "What makes Old School a launching position rather than a stalling or holding position?",
+      "answer": "The lockdown plus underhook creates constant sweeping tension that neither player can safely ignore, so the configuration is inherently unstable and time-sensitive. The bottom player is loaded to rotate the top player over the trapped leg toward mount or the back, while the top player must keep advancing pressure toward a pass before that leverage matures. Because staying still lets the bottom player build the sweep, both sides are forced into active work rather than passive holding. This offensive urgency is why Old School has a short natural lifespan compared to genuine control positions.",
+      "answer_line": "Constant tension forces action",
+      "distractors": {
+        "plausible": [
+          "Stalling is safe for bottom",
+          "Top can rest and wait it out"
+        ],
+        "trap": [
+          "Hold still, let it stabilize"
+        ]
+      }
+    },
+    {
+      "question": "How does weight distribution and hip angle govern the sweep-versus-pass exchange in Old School?",
+      "answer": "The bottom player must stay on their side with hips angled toward the underhook, placing a shoulder under the top player's center of gravity to create a fulcrum for rotation. The top player counters by driving chest weight downward and forward to flatten the bottom player onto their back, because a flat bottom player loses the geometric angle the sweep requires. Whoever wins this angle battle wins the exchange: hips on-side and coiled means the sweep is live, hips flattened means the pass is near. The whole position is therefore a contest over whether the bottom player can keep their hip angle against the top player's flattening pressure.",
+      "answer_line": "Hips on-side = sweep is live",
+      "distractors": {
+        "plausible": [
+          "Flat hips still favor bottom",
+          "Weight on hands decides angle"
+        ],
+        "trap": [
+          "Let hips flatten, force sweep"
+        ]
+      }
+    },
+    {
+      "question": "What is the dilemma that couples the Old School Sweep and the Electric Chair threat?",
+      "answer": "The lockdown's extension attacks the top player's trapped leg in two conflicting directions at once. If the top player keeps their weight forward and posture broken, the underhook-driven sweep can roll them over the trapped leg toward mount. If they instead try to clear the leg by extending it away, they feed the Electric Chair, where the bottom player splits and hyperextends the exposed leg. This two-horned threat means the top player's escape from one danger opens the other, which is precisely why Old School is offensively potent from the bottom.",
+      "answer_line": "Clear leg feeds Electric Chair",
+      "distractors": {
+        "plausible": [
+          "Lockdown only threatens the sweep",
+          "Crossface prevents both threats"
+        ],
+        "trap": [
+          "Yank the knee straight to escape"
+        ]
+      }
+    },
+    {
+      "question": "How does Old School differ mechanically from a knee shield half guard?",
+      "answer": "In knee shield half guard the bottom player wedges a shin across the top player's hip or torso to create distance and frame outward, making it a spacing and defensive-recovery structure. Old School removes that shin frame entirely and instead ties the legs together in the lockdown while closing all distance through the underhook and head control. The intent is opposite: knee shield manages space to stay safe, while Old School eliminates space to generate rotational offense. This is why breaking the lockdown often sends the exchange back toward knee shield or standard half guard.",
+      "answer_line": "Old School closes space, attacks",
+      "distractors": {
+        "plausible": [
+          "Both use a shin frame to space",
+          "Knee shield ties the legs too"
+        ],
+        "trap": [
+          "Wedge a shin to create space"
+        ]
+      }
+    },
+    {
+      "question": "Why is the connection between the two players' torsos so critical to Old School regardless of who holds the advantage?",
+      "answer": "Any gap between the chests lets the disadvantaged player either recover posture and base or hip out and reguard, dissolving the position. The bottom player relies on chest-to-chest connection to keep the top player's weight loaded onto the sweeping fulcrum, while the top player relies on the same connection to smother hip movement and prevent reguarding. Because both sweep leverage and passing pressure depend on that unbroken contact, space is the common enemy for whoever currently leads. This shared reliance on tight connection is what makes Old School a close-contact, low-space battle by nature.",
+      "answer_line": "Tight chest connection = control",
+      "distractors": {
+        "plausible": [
+          "Space helps whoever is behind",
+          "Only the top player needs it"
+        ],
+        "trap": [
+          "Create space to reset position"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "Jnc2siD9cak",
+      "title": "Old school half guard sweep",
+      "by": "Ritchie Yip",
+      "vertical": false,
+      "channel": "Ritchie Yip",
+      "duration": 12,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "_1o_3IT7Yj8",
+      "title": "Old school sweep from half guard",
+      "by": "Dave Peters",
+      "vertical": false,
+      "channel": "Alliance Richmond Hill",
+      "duration": 108,
+      "verified": "2026-07-14"
+    }
+  ]
 }

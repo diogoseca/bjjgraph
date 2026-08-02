@@ -21,38 +21,26 @@ description: "Master attacking from Carni position in BJJ. Advanced leg entangle
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Carni",
-      "text": "From this position, attempt Heel Hook from Carni. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Carni. This technique is attempted in 45% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Kneebar Finish",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Roll to Truck",
-      "text": "From this position, attempt Roll to Truck. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Calf Slicer from Carni",
+      "text": "From this position, attempt Calf Slicer from Carni. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Carni to Gogoplata Setup",
+      "text": "From this position, attempt Carni to Gogoplata Setup. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 11% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -153,6 +141,32 @@ description: "Master attacking from Carni position in BJJ. Advanced leg entangle
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Carni (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top lock clinch for the leglock control",
+      "description": "Carni (Bottom) film study: Top lock clinch for the leglock control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EMyodFAwXZk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EMyodFAwXZk",
+      "url": "https://www.youtube.com/watch?v=EMyodFAwXZk",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +180,26 @@ What makes the Carni particularly effective from bottom is the energy efficiency
 The technical requirements for effective Carni play from bottom include precise heel control, the ability to maintain inside positioning with the top leg, mobility in the hips to invert or roll as needed, and the situational awareness to recognize which attack path is available based on the opponent's defensive reactions. Advanced practitioners can chain between heel hook threats, saddle transitions, back takes, and kneebar attacks seamlessly, creating a submission system that is extremely difficult to defend against even for elite-level opponents.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Carni (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EMyodFAwXZk)
+
+<p class="clip-credit"><strong>Top lock clinch for the leglock control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=EMyodFAwXZk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -237,7 +271,7 @@ The technical requirements for effective Carni play from bottom include precise 
 
 
 **If opponent extends leg and attempts to create distance:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Transitions/Heel Hook]] (Probability: 70%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[Submissions/Heel Hook]] (Probability: 70%)
 - Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 60%)
 
 
@@ -369,7 +403,7 @@ Start from Carni position with clear rules: if heel is defended, transition to s
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related entanglement - alternative leg position with different attack angles
 - **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Entry position - common guard to initiate Carni entries
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related control position - shares similar leg entanglement principles
-- **[[Transitions/Heel Hook]]** - Primary submission - most common finish from Carni position
+- **[[Submissions/Heel Hook]]** - Primary submission - most common finish from Carni position
 - **[[Calf Slicer from Truck]]** - Secondary submission - accessed via truck transition from Carni
 - **[[Transitions/Kneebar]]** - Alternative submission - opportunistic finish when opponent extends leg
 - **[[Positions/Ashi Garami/Honey Hole]]** - Related finishing position - alternative leg entanglement for submissions

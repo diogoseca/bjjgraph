@@ -148,6 +148,43 @@ description: "How to counter hand fighting defense from back control in BJJ. Mai
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Fighting from Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Key concepts for finishing the rear naked choke",
+      "description": "Hand Fighting from Back (Defender) film study: Key concepts for finishing the rear naked choke, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q9Deu0fqLH0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q9Deu0fqLH0",
+      "url": "https://www.youtube.com/watch?v=Q9Deu0fqLH0",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rear naked choke grip fighting to the finish",
+      "description": "Hand Fighting from Back (Defender) film study: Rear naked choke grip fighting to the finish, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
+      "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 **Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Fighting from Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q9Deu0fqLH0)
+
+<p class="clip-credit"><strong>Key concepts for finishing the rear naked choke</strong> — taught by Gordon Ryan · 0:24 · <a href="https://www.youtube.com/watch?v=Q9Deu0fqLH0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=70jECxFfCSA)
+
+<p class="clip-credit"><strong>Rear naked choke grip fighting to the finish</strong> — taught by Gordon Ryan · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 
@@ -200,7 +265,7 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 ### 1. Switch choking arm by withdrawing the controlled arm and immediately attacking with the opposite arm over the other shoulder
 
 - **When to use**: When opponent has fully committed both hands to your primary choking arm and cannot redirect quickly enough
-- **Targets**: [[Submissions/Rear Naked Choke]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Opponent must release established grips and redirect both hands to new threat, creating a brief window where choke can advance past their defense
 - **Risk**: Momentarily weakens your seatbelt control during the switch, creating a potential escape window if opponent times hip escape during transition
 
@@ -214,7 +279,7 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 ### 3. Drive choking arm elbow tight to opponent's body and re-pummel underneath their defending hands to re-establish deeper neck access
 
 - **When to use**: When opponent has stripped your choking arm to a shallow position but has not yet cleared it fully across their body
-- **Targets**: [[Submissions/Rear Naked Choke]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Regains deep choking position despite their defensive grips, advancing the choke past the point where two-on-one defense is effective
 - **Risk**: Requires significant grip strength and may fatigue your arm if opponent's defensive grips are well-established
 
@@ -239,9 +304,9 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 
 Maintain hooks and harness control while defeating hand fighting through arm switches, re-pummel sequences, and grip fighting. Use body compression to fatigue opponent's grip endurance. Cycle between choking arm attacks and positional adjustments to keep opponent reactive and prevent them from building escape momentum.
 
-### → [[Submissions/Rear Naked Choke]]
+### → [[Positions/Mount]]
 
-Finish the rear naked choke by exploiting the windows created during hand fighting exchanges. Time arm switches when opponent is mid-grip adjustment, use gift wrap to eliminate one defensive arm, or wait for grip fatigue to allow deep choking arm penetration past their declining two-on-one resistance.
+When hand fighting is defeated, capitalize by advancing position rather than forcing a stalled choke. Time arm switches when opponent is mid-grip adjustment, use gift wrap to eliminate one defensive arm, or drain grip endurance through compression until the opponent surrenders the back and you ride the exchange forward into mount as they turn to defend.
 
 
 

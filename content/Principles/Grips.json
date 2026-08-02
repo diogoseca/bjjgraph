@@ -404,43 +404,172 @@
   "flashcards": [
     {
       "question": "What is grip fighting in BJJ?",
-      "answer": "Grip fighting is the continuous battle to establish, break, retain, and prevent hand-and-cloth controls that decide who can impose their game, dictate exchanges, and access offense across positions."
+      "answer": "Grip fighting is the continuous battle to establish, break, retain, and prevent hand-and-cloth controls that decide who can impose their game, dictate exchanges, and access offense across positions.",
+      "answer_line": "Fight to control all grips",
+      "distractors": {
+        "plausible": [
+          "Only breaking their grips",
+          "Just gripping the gi collar"
+        ],
+        "trap": [
+          "Grab anything, hold on tight"
+        ]
+      }
     },
     {
       "question": "Why should grips be broken with leverage rather than strength?",
-      "answer": "Leverage-based breaking—two-hands-on-one, correct breaking angles, and timing the break to the opponent's movement—conserves energy and works against stronger opponents, whereas muscling grips fatigues you quickly and fails against good structure."
+      "answer": "Leverage-based breaking—two-hands-on-one, correct breaking angles, and timing the break to the opponent's movement—conserves energy and works against stronger opponents, whereas muscling grips fatigues you quickly and fails against good structure.",
+      "answer_line": "Conserves energy, beats strength",
+      "distractors": {
+        "plausible": [
+          "Break with one hand at the wrist",
+          "Rip both hands straight downward"
+        ],
+        "trap": [
+          "Strip grip by turning your back"
+        ]
+      }
     },
     {
       "question": "What is the difference between grip prevention and grip breaking?",
-      "answer": "Prevention is proactive hand fighting that intercepts a grip before it is established; breaking removes a grip already secured. Prevention is cheaper energetically and keeps you off the defensive rather than fighting uphill."
+      "answer": "Prevention is proactive hand fighting that intercepts a grip before it is established; breaking removes a grip already secured. Prevention is cheaper energetically and keeps you off the defensive rather than fighting uphill.",
+      "answer_line": "Prevent early, don't just break",
+      "distractors": {
+        "plausible": [
+          "Break grips as they land",
+          "Breaking is easier than prevent"
+        ],
+        "trap": [
+          "Let grip set, then power out"
+        ]
+      }
     },
     {
       "question": "What does grip sequencing mean and why does it matter?",
-      "answer": "Grip sequencing is ordering grip acquisitions so each control enables the next higher-value grip, building cascading advantages that limit the opponent's defensive options and open attacks or positional improvements."
+      "answer": "Grip sequencing is ordering grip acquisitions so each control enables the next higher-value grip, building cascading advantages that limit the opponent's defensive options and open attacks or positional improvements.",
+      "answer_line": "Chain grips to build advantage",
+      "distractors": {
+        "plausible": [
+          "Grab strongest grip first only",
+          "Take any grip available fast"
+        ],
+        "trap": [
+          "Grip randomly, adjust later"
+        ]
+      }
     },
     {
       "question": "How does grip fighting change in no-gi?",
-      "answer": "Without cloth, control shifts to wrists, elbows, head and neck, plus over- and underhooks, with frames and body positioning replacing fabric grips; timing must adapt to the increased slipperiness of skin and compression wear."
+      "answer": "Without cloth, control shifts to wrists, elbows, head and neck, plus over- and underhooks, with frames and body positioning replacing fabric grips; timing must adapt to the increased slipperiness of skin and compression wear.",
+      "answer_line": "Grip joints & hooks, not cloth",
+      "distractors": {
+        "plausible": [
+          "Keep gripping sleeves & collars",
+          "Grip fighting matters less no-gi"
+        ],
+        "trap": [
+          "Give up underhook, grab the head"
+        ]
+      }
     },
     {
       "question": "What is a common error in grip fighting and how do you correct it?",
-      "answer": "A common error is gripping without a clear objective; correct it by tying every grip to a specific technique or positional goal so you only spend energy on grips that advance your game plan."
+      "answer": "A common error is gripping without a clear objective; correct it by tying every grip to a specific technique or positional goal so you only spend energy on grips that advance your game plan.",
+      "answer_line": "Grip with a clear purpose",
+      "distractors": {
+        "plausible": [
+          "Grip as much as possible",
+          "Match opponent's grip count"
+        ],
+        "trap": [
+          "Grip whatever is closest"
+        ]
+      }
     },
     {
       "question": "Why is grip hierarchy recognition important?",
-      "answer": "It tells you which grips are dominant versus neutral, which must be broken immediately, and which can be tolerated, so you spend energy on the grip battles that actually decide the position rather than every exchange."
+      "answer": "It tells you which grips are dominant versus neutral, which must be broken immediately, and which can be tolerated, so you spend energy on the grip battles that actually decide the position rather than every exchange.",
+      "answer_line": "Fight the grips that matter",
+      "distractors": {
+        "plausible": [
+          "Break every grip equally",
+          "Contest only opponent's strongest"
+        ],
+        "trap": [
+          "Ignore grips, focus on legs"
+        ]
+      }
     },
     {
       "question": "In closed guard, which grips should the bottom player prioritize?",
-      "answer": "Cross-collar grips for choke threats and sleeve grips for breaking posture, while denying the opponent's grips on the belt or pants that would let them stand up and re-posture out of danger."
+      "answer": "Cross-collar grips for choke threats and sleeve grips for breaking posture, while denying the opponent's grips on the belt or pants that would let them stand up and re-posture out of danger.",
+      "answer_line": "Cross-collar and sleeve control",
+      "distractors": {
+        "plausible": [
+          "Both sleeves, ignore collar",
+          "Pant grips to stop stand-up"
+        ],
+        "trap": [
+          "Let them grip belt to stand"
+        ]
+      }
     },
     {
       "question": "How does grip fighting relate to guard passing?",
-      "answer": "Winning the grip exchange is a prerequisite to passing—the passer must secure passing grips on pants or hips while stripping the guard player's retention grips before pressure, speed, or torque passes can work."
+      "answer": "Winning the grip exchange is a prerequisite to passing—the passer must secure passing grips on pants or hips while stripping the guard player's retention grips before pressure, speed, or torque passes can work.",
+      "answer_line": "Win grips before you pass",
+      "distractors": {
+        "plausible": [
+          "Pass fast, ignore their grips",
+          "Speed alone beats grip fighting"
+        ],
+        "trap": [
+          "Pass with no grips at all"
+        ]
+      }
     },
     {
       "question": "How can misdirection be used in grip fighting?",
-      "answer": "Threatening or feinting a grip in one area draws a predictable defensive reaction, opening a window to secure your true primary grip elsewhere with far less resistance than a direct attempt would meet."
+      "answer": "Threatening or feinting a grip in one area draws a predictable defensive reaction, opening a window to secure your true primary grip elsewhere with far less resistance than a direct attempt would meet.",
+      "answer_line": "Feint one grip, take another",
+      "distractors": {
+        "plausible": [
+          "Always grip the same side",
+          "Announce your grip target"
+        ],
+        "trap": [
+          "Attack the obvious grip only"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "n6EUwvCkWJ8",
+      "title": "Complete BJJ grip fighting guide",
+      "by": "Jordan Preisinger",
+      "vertical": false,
+      "channel": "Jordan Teaches Jiujitsu",
+      "duration": 534,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "WO-YzdWoUnw",
+      "title": "Judo grip fighting secret for grapplers",
+      "by": "Travis Stevens",
+      "vertical": false,
+      "channel": "Travis Stevens",
+      "duration": 298,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "86SrcnnJ6BY",
+      "title": "One grip fighting rule every white belt should know",
+      "by": "Chewjitsu",
+      "vertical": false,
+      "channel": "Chewjitsu",
+      "duration": 294,
+      "verified": "2026-07-15"
     }
   ]
 }

@@ -34,6 +34,32 @@ description: "Master the Explosive Bridge to Turtle escape from Mounted Crucifix
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Explosive Bridge to Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle no-grips escape rolling to guard",
+      "description": "Explosive Bridge to Turtle film study: Turtle no-grips escape rolling to guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ly89G4iCTSQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ly89G4iCTSQ",
+      "url": "https://www.youtube.com/watch?v=Ly89G4iCTSQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +92,29 @@ Strategically, this escape prioritizes extracting yourself from immediate submis
 The technique requires precise timing and total commitment - half-hearted attempts fail and waste energy. Ideally executed when the opponent shifts weight to set up submissions, the explosive bridge catches them off-balance and creates the rotational momentum needed to free trapped arms and complete the turn to turtle. Understanding this escape's place in the defensive hierarchy is crucial: it represents a calculated retreat to a recoverable position rather than a reversal attempt.
 
 **From Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Explosive Bridge to Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ly89G4iCTSQ)
+
+<p class="clip-credit"><strong>Turtle no-grips escape rolling to guard</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=Ly89G4iCTSQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

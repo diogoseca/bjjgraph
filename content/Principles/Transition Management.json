@@ -401,35 +401,144 @@
   "flashcards": [
     {
       "question": "What is transition management in BJJ?",
-      "answer": "It is the strategic skill of controlling movement between positions — recognizing timing windows, weighing risk against reward, and preserving structure — so each position change advances your game rather than exposing you to counters."
+      "answer": "It is the strategic skill of controlling movement between positions — recognizing timing windows, weighing risk against reward, and preserving structure — so each position change advances your game rather than exposing you to counters.",
+      "answer_line": "Manage timing, risk, structure",
+      "distractors": {
+        "plausible": [
+          "Move as fast as possible",
+          "Transition on every opening"
+        ],
+        "trap": [
+          "Attack nonstop, ignore risk"
+        ]
+      }
     },
     {
       "question": "How do you recognize an optimal window to initiate a transition?",
-      "answer": "Read the opponent's weight distribution, grip configuration, posture, and attention; the best windows open when they are off-balance, structurally compromised, or preoccupied with a defensive task and least able to counter."
+      "answer": "Read the opponent's weight distribution, grip configuration, posture, and attention; the best windows open when they are off-balance, structurally compromised, or preoccupied with a defensive task and least able to counter.",
+      "answer_line": "Move when opponent is off-balance",
+      "distractors": {
+        "plausible": [
+          "Move once you feel tired",
+          "Move after opponent resets grips"
+        ],
+        "trap": [
+          "Move when opponent grips tightly"
+        ]
+      }
     },
     {
       "question": "Why should you plan a backup pathway before attempting a transition?",
-      "answer": "Single transitions without contingencies hit dead ends when defended, forcing scrambles or regression; pre-planned backups let you flow immediately into a secondary option the instant the primary movement is blocked."
+      "answer": "Single transitions without contingencies hit dead ends when defended, forcing scrambles or regression; pre-planned backups let you flow immediately into a secondary option the instant the primary movement is blocked.",
+      "answer_line": "Always have a backup option",
+      "distractors": {
+        "plausible": [
+          "Commit fully to one pathway",
+          "Improvise only if it fails"
+        ],
+        "trap": [
+          "Abandon position if blocked"
+        ]
+      }
     },
     {
       "question": "What is the danger of overcommitting to a failed transition?",
-      "answer": "Momentum carries you into increasingly vulnerable, inferior states; you must read defensive success cues — base recovery, grip establishment, weight shifts — and abort to a backup rather than force the movement."
+      "answer": "Momentum carries you into increasingly vulnerable, inferior states; you must read defensive success cues — base recovery, grip establishment, weight shifts — and abort to a backup rather than force the movement.",
+      "answer_line": "Abort to backup if defended",
+      "distractors": {
+        "plausible": [
+          "Push through with more force",
+          "Pause and reassess slowly"
+        ],
+        "trap": [
+          "Keep driving until it lands"
+        ]
+      }
     },
     {
       "question": "How does positional hierarchy inform transition decisions?",
-      "answer": "It provides the evaluative scale for whether a movement is genuine advancement or risks regression, so you only spend energy and accept exposure when the positional gain clearly justifies the risk involved."
+      "answer": "It provides the evaluative scale for whether a movement is genuine advancement or risks regression, so you only spend energy and accept exposure when the positional gain clearly justifies the risk involved.",
+      "answer_line": "Only advance if position improves",
+      "distractors": {
+        "plausible": [
+          "Move whenever an opening appears",
+          "Prioritize speed over position"
+        ],
+        "trap": [
+          "Trade position for a submission"
+        ]
+      }
     },
     {
       "question": "Why is maintaining structural integrity critical during transitions?",
-      "answer": "Preserving base, frames, and connection controls throughout a movement prevents the temporary gaps a transition creates from becoming the openings an opponent uses to counter, reverse, or pass."
+      "answer": "Preserving base, frames, and connection controls throughout a movement prevents the temporary gaps a transition creates from becoming the openings an opponent uses to counter, reverse, or pass.",
+      "answer_line": "Keep base and frames intact",
+      "distractors": {
+        "plausible": [
+          "Prioritize speed over base",
+          "Focus on grips over posture"
+        ],
+        "trap": [
+          "Drop frames to move faster"
+        ]
+      }
     },
     {
       "question": "What does it mean to control transitional momentum?",
-      "answer": "It is regulating speed and commitment so you finish the position change before the opponent reacts, without overextending past the point where recovery becomes impossible if the movement is countered."
+      "answer": "It is regulating speed and commitment so you finish the position change before the opponent reacts, without overextending past the point where recovery becomes impossible if the movement is countered.",
+      "answer_line": "Move fast but stay recoverable",
+      "distractors": {
+        "plausible": [
+          "Always move as slow as possible",
+          "Commit fully once you start"
+        ],
+        "trap": [
+          "Sprint through with no brakes"
+        ]
+      }
     },
     {
       "question": "How do expert practitioners differ from intermediates in transition management?",
-      "answer": "Experts manufacture windows by deliberately manipulating the opponent's attention and structure, chain seamless pre-planned sequences, and never sacrifice defensive security for offensive advancement."
+      "answer": "Experts manufacture windows by deliberately manipulating the opponent's attention and structure, chain seamless pre-planned sequences, and never sacrifice defensive security for offensive advancement.",
+      "answer_line": "Create windows, chain, stay safe",
+      "distractors": {
+        "plausible": [
+          "React only to given openings",
+          "Chain moves without checking safety"
+        ],
+        "trap": [
+          "Sacrifice defense for offense"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "fd2D5hlHTL8",
+      "title": "Gordon Ryan's mount system: transitioning between controls",
+      "by": "Sebastian Brosche",
+      "vertical": false,
+      "channel": "Less Impressed More Involved BJJ",
+      "duration": 587,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "PARsvWFmssI",
+      "title": "Chaining escapes from bottom pins",
+      "by": "Gordon Ryan",
+      "vertical": false,
+      "channel": "Gordon Ryan",
+      "duration": 273,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "w-uHMVyJDS8",
+      "title": "Knee cut pass into triangle or armbar",
+      "by": "Southern Scrap Nation",
+      "vertical": false,
+      "channel": "Southern Scrap Nation",
+      "duration": 61,
+      "verified": "2026-07-15"
     }
   ]
 }

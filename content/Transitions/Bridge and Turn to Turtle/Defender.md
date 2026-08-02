@@ -148,6 +148,54 @@ description: "How to defend against Bridge and Turn to Turtle from North-South t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge and Turn to Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to hold north south and stop the turn",
+      "description": "Bridge and Turn to Turtle (Defender) film study: How to hold north south and stop the turn, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LdjrPT6Wt7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LdjrPT6Wt7c",
+      "url": "https://www.youtube.com/watch?v=LdjrPT6Wt7c",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Holding the north-south pin against bigger opponents",
+      "description": "Bridge and Turn to Turtle (Defender) film study: Holding the north-south pin against bigger opponents, taught by Robot Dolphin Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-ecaH6u_6oM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-ecaH6u_6oM",
+      "url": "https://www.youtube.com/watch?v=-ecaH6u_6oM",
+      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
+      "duration": "PT214S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Systematically attacking and holding top pins",
+      "description": "Bridge and Turn to Turtle (Defender) film study: Systematically attacking and holding top pins, taught by StrongBro BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aw8Gofk52so/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aw8Gofk52so",
+      "url": "https://www.youtube.com/watch?v=aw8Gofk52so",
+      "creator": { "@type": "Person", "name": "StrongBro BJJ" },
+      "duration": "PT438S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Understanding the biomechanics of the escape allows you to anticipate and counte
 **Opponent's Starting Position**: [[Positions/North-South]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge and Turn to Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LdjrPT6Wt7c)
+
+<p class="clip-credit"><strong>How to hold north south and stop the turn</strong> — taught by Inverted Gear · 2:01 · <a href="https://www.youtube.com/watch?v=LdjrPT6Wt7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-ecaH6u_6oM)
+
+<p class="clip-credit"><strong>Holding the north-south pin against bigger opponents</strong> — taught by Robot Dolphin Jiu-Jitsu · 3:34 · <a href="https://www.youtube.com/watch?v=-ecaH6u_6oM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aw8Gofk52so)
+
+<p class="clip-credit"><strong>Systematically attacking and holding top pins</strong> — taught by StrongBro BJJ · 7:18 · <a href="https://www.youtube.com/watch?v=aw8Gofk52so" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

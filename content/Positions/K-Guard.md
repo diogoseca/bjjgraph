@@ -35,6 +35,54 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "K-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "K guard entry to saddle",
+      "description": "K-Guard film study: K guard entry to saddle, taught by bjj doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KBkoWJtMeNA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KBkoWJtMeNA",
+      "url": "https://www.youtube.com/watch?v=KBkoWJtMeNA",
+      "creator": { "@type": "Person", "name": "bjj doug" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K Guard 50/50 entry to inside heel hook",
+      "description": "K-Guard film study: K Guard 50/50 entry to inside heel hook, taught by BJJ GeekOut.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ieR8CJ1EUM8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ieR8CJ1EUM8",
+      "url": "https://www.youtube.com/watch?v=ieR8CJ1EUM8",
+      "creator": { "@type": "Person", "name": "BJJ GeekOut" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "K guard alternative entry",
+      "description": "K-Guard film study: K guard alternative entry, taught by Morto BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ottOBmhsyP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ottOBmhsyP8",
+      "url": "https://www.youtube.com/watch?v=ottOBmhsyP8",
+      "creator": { "@type": "Person", "name": "Morto BJJ" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ The position excels as both a retention platform and an offensive launching poin
 Strategically, K-Guard represents a transitional hub position where the bottom practitioner can seamlessly flow between retention mode and explosive attack sequences, while the top player must balance forward pressure with defensive awareness of sweeps and back-takes. The position demands technical precision from both players - the bottom player must maintain active tension in both hooks while creating continuous angle changes, and the top player must systematically break down defensive structures through grip fighting and weight distribution. Success in this position requires understanding the push-pull dynamics, timing transitions correctly, and recognizing when to shift between offensive and defensive priorities based on opponent reactions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch K-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KBkoWJtMeNA)
+
+<p class="clip-credit"><strong>K guard entry to saddle</strong> — taught by bjj doug · 0:28 · <a href="https://www.youtube.com/watch?v=KBkoWJtMeNA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ieR8CJ1EUM8)
+
+<p class="clip-credit"><strong>K Guard 50/50 entry to inside heel hook</strong> — taught by BJJ GeekOut · 0:14 · <a href="https://www.youtube.com/watch?v=ieR8CJ1EUM8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ottOBmhsyP8)
+
+<p class="clip-credit"><strong>K guard alternative entry</strong> — taught by Morto BJJ · 1:32 · <a href="https://www.youtube.com/watch?v=ottOBmhsyP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -141,27 +225,27 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ### Available Transitions
 
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (11% of attempts)
 
-- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (11% of attempts)
+- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (15% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (29% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (8% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (8% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (6% of attempts)
 
-- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (7% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (3% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (12% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (10% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (6% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (6% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (14% of attempts)
 
-- **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** (4% of attempts)
+- **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** (6% of attempts)
 
-- **[[Transitions/K-Guard Sweep/Attacker|K-Guard Sweep]]** (2% of attempts)
+- **[[Transitions/K-Guard Sweep/Attacker|K-Guard Sweep]]** (9% of attempts)
 
-- **[[Transitions/K-Guard to Single Leg X/Attacker|K-Guard to Single Leg X]]** (1% of attempts)
+- **[[Transitions/K-Guard to Single Leg X/Attacker|K-Guard to Single Leg X]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -222,23 +306,21 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (25% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (15% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (14% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (14% of attempts)
 
-- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (16% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (10% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (10% of attempts)
 
-- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (10% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (7% of attempts)
 
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (6% of attempts)
+- **[[Transitions/Backstep from K-Guard/Attacker|Backstep from K-Guard]]** (21% of attempts)
 
-- **[[Transitions/Backstep from K-Guard/Attacker|Backstep from K-Guard]]** (3% of attempts)
-
-- **[[Transitions/Pass K-Guard/Attacker|Pass K-Guard]]** (2% of attempts)
+- **[[Transitions/Pass K-Guard/Attacker|Pass K-Guard]]** (11% of attempts)
 
 
 ### Common Mistakes

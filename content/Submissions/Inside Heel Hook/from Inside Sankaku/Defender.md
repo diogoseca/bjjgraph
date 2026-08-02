@@ -150,6 +150,43 @@ description: "Defend and escape the Inside Sankaku heel hook finish with early r
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Heel Hook from Inside Sankaku (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending Heel Hooks",
+      "description": "Inside Heel Hook from Inside Sankaku (Defender) film study: Defending Heel Hooks, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
+      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside Sankaku Counter to Inside Heel Hook",
+      "description": "Inside Heel Hook from Inside Sankaku (Defender) film study: Inside Sankaku Counter to Inside Heel Hook, taught by Pedro Rocha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q1JgpfFRDA4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q1JgpfFRDA4",
+      "url": "https://www.youtube.com/watch?v=q1JgpfFRDA4",
+      "creator": { "@type": "Person", "name": "Pedro Rocha" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the heel hook from Inside Sankaku is one of the most urgent defensive 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Heel Hook from Inside Sankaku (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+
+<p class="clip-credit"><strong>Defending Heel Hooks</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q1JgpfFRDA4)
+
+<p class="clip-credit"><strong>Inside Sankaku Counter to Inside Heel Hook</strong> — taught by Pedro Rocha · 2:43 · <a href="https://www.youtube.com/watch?v=q1JgpfFRDA4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

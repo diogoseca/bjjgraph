@@ -148,6 +148,43 @@ description: "How to defend against the Sickle Sweep from De La Riva Guard in BJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sickle Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shutting down De La Riva guard",
+      "description": "Sickle Sweep (Defender) film study: Shutting down De La Riva guard, taught by Stretch To Strength.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b87q6MAFQXs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b87q6MAFQXs",
+      "url": "https://www.youtube.com/watch?v=b87q6MAFQXs",
+      "creator": { "@type": "Person", "name": "Stretch To Strength" },
+      "duration": "PT144S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to deal with a strong De La Riva",
+      "description": "Sickle Sweep (Defender) film study: How to deal with a strong De La Riva, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-XU_JoO9Hhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-XU_JoO9Hhg",
+      "url": "https://www.youtube.com/watch?v=-XU_JoO9Hhg",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Advanced defenders learn to use the Sickle Sweep attempt as a passing opportunit
 **Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sickle Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=b87q6MAFQXs)
+
+<p class="clip-credit"><strong>Shutting down De La Riva guard</strong> — taught by Stretch To Strength · 2:24 · <a href="https://www.youtube.com/watch?v=b87q6MAFQXs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-XU_JoO9Hhg)
+
+<p class="clip-credit"><strong>How to deal with a strong De La Riva</strong> — taught by Mikey Musumeci · 2:18 · <a href="https://www.youtube.com/watch?v=-XU_JoO9Hhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -148,6 +148,54 @@ description: "How to defend against Ringworm Sweep to Back Control in BJJ. Recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ringworm Sweep to Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dealing with lapel feeding in half guard",
+      "description": "Ringworm Sweep to Back Control (Defender) film study: Dealing with lapel feeding in half guard, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mw9e-xftPcY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mw9e-xftPcY",
+      "url": "https://www.youtube.com/watch?v=Mw9e-xftPcY",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the worm and lapel guard",
+      "description": "Ringworm Sweep to Back Control (Defender) film study: Countering the worm and lapel guard, taught by Kevin Nguyen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wB2JljlB1Rg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wB2JljlB1Rg",
+      "url": "https://www.youtube.com/watch?v=wB2JljlB1Rg",
+      "creator": { "@type": "Person", "name": "Kevin Nguyen" },
+      "duration": "PT210S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Best guard pass against the lapel guard",
+      "description": "Ringworm Sweep to Back Control (Defender) film study: Best guard pass against the lapel guard, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kS0xQoF6jmU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kS0xQoF6jmU",
+      "url": "https://www.youtube.com/watch?v=kS0xQoF6jmU",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT651S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense depends heavily on timing - early intervention through grip s
 **Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ringworm Sweep to Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mw9e-xftPcY)
+
+<p class="clip-credit"><strong>Dealing with lapel feeding in half guard</strong> — taught by Inverted Gear · 1:32 · <a href="https://www.youtube.com/watch?v=Mw9e-xftPcY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wB2JljlB1Rg)
+
+<p class="clip-credit"><strong>Countering the worm and lapel guard</strong> — taught by Kevin Nguyen · 3:30 · <a href="https://www.youtube.com/watch?v=wB2JljlB1Rg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kS0xQoF6jmU)
+
+<p class="clip-credit"><strong>Best guard pass against the lapel guard</strong> — taught by Andre Galvao · 10:51 · <a href="https://www.youtube.com/watch?v=kS0xQoF6jmU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

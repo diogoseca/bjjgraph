@@ -148,6 +148,43 @@ description: "Defend and counter the Complete Leg Weave Pass in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Complete Leg Weave Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defeating the leg weave pass with the underhook",
+      "description": "Complete Leg Weave Pass (Defender) film study: Defeating the leg weave pass with the underhook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZXt2yzy0BL0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZXt2yzy0BL0",
+      "url": "https://www.youtube.com/watch?v=ZXt2yzy0BL0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT249S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the leg weave pass",
+      "description": "Complete Leg Weave Pass (Defender) film study: Defending the leg weave pass, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PKvaosk3gGc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PKvaosk3gGc",
+      "url": "https://www.youtube.com/watch?v=PKvaosk3gGc",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT197S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Complete Leg Weave Pass requires understanding the critical window
 **Opponent's Starting Position**: [[Positions/Leg Weave]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Complete Leg Weave Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZXt2yzy0BL0)
+
+<p class="clip-credit"><strong>Defeating the leg weave pass with the underhook</strong> — taught by Lachlan Giles · 4:09 · <a href="https://www.youtube.com/watch?v=ZXt2yzy0BL0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PKvaosk3gGc)
+
+<p class="clip-credit"><strong>Defending the leg weave pass</strong> — taught by Jon Thomas · 3:17 · <a href="https://www.youtube.com/watch?v=PKvaosk3gGc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -366,35 +366,115 @@
   "flashcards": [
     {
       "question": "What are the three control checkpoints the Rubber Guard to Triangle System passes through before the finish?",
-      "answer": "The system advances from rubber guard, to Mission Control (a deep overhook isolating the trapped arm), to New York (the choking leg brought across the shoulder), and only then locks the triangle."
+      "answer": "The system advances from rubber guard, to Mission Control (a deep overhook isolating the trapped arm), to New York (the choking leg brought across the shoulder), and only then locks the triangle.",
+      "answer_line": "Mission Control, New York, triangle",
+      "distractors": {
+        "plausible": [
+          "Overhook, gogoplata, then choke",
+          "Underhook, invert, armbar finish"
+        ],
+        "trap": [
+          "Release overhook, throw leg up"
+        ]
+      }
     },
     {
       "question": "Why must you break the opponent's posture before establishing rubber guard?",
-      "answer": "With posture intact the opponent can post and drive forward, stripping the high leg instantly; breaking posture first keeps them folded so the foot can be secured deep in the elbow crook."
+      "answer": "With posture intact the opponent can post and drive forward, stripping the high leg instantly; breaking posture first keeps them folded so the foot can be secured deep in the elbow crook.",
+      "answer_line": "Break posture before high leg",
+      "distractors": {
+        "plausible": [
+          "High leg first, posture second",
+          "Break grips before posture"
+        ],
+        "trap": [
+          "Rely on strength to hold leg"
+        ]
+      }
     },
     {
       "question": "Where should the finishing foot be placed in the triangle, and why does it matter?",
-      "answer": "The foot is placed on the opposite leg's bicep rather than behind the knee, which shortens the angle and produces a tighter blood choke instead of a loose, leg-strength-dependent lock."
+      "answer": "The foot is placed on the opposite leg's bicep rather than behind the knee, which shortens the angle and produces a tighter blood choke instead of a loose, leg-strength-dependent lock.",
+      "answer_line": "Foot on the bicep, not knee",
+      "distractors": {
+        "plausible": [
+          "Foot on the near shoulder",
+          "Foot on opposite shin"
+        ],
+        "trap": [
+          "Foot behind the far knee"
+        ]
+      }
     },
     {
       "question": "What submission opens up when the opponent extracts the trapped arm to defend the triangle?",
-      "answer": "Pulling the trapped arm free exposes the omoplata, letting you switch to Omoplata Control or sweep rather than chasing a now-compromised triangle and losing offensive pressure."
+      "answer": "Pulling the trapped arm free exposes the omoplata, letting you switch to Omoplata Control or sweep rather than chasing a now-compromised triangle and losing offensive pressure.",
+      "answer_line": "Omoplata opens up",
+      "distractors": {
+        "plausible": [
+          "Armbar opens up",
+          "Kimura opens up"
+        ],
+        "trap": [
+          "Chase the fading triangle"
+        ]
+      }
     },
     {
       "question": "How should you respond when the opponent stacks hard to defend a locked triangle?",
-      "answer": "Use the stack energy to return to Mission Control with the overhook and leg pressure intact, or throw a leg over the head and convert to an armbar against the forward-driving pressure."
+      "answer": "Use the stack energy to return to Mission Control with the overhook and leg pressure intact, or throw a leg over the head and convert to an armbar against the forward-driving pressure.",
+      "answer_line": "Return to Mission Control or armbar",
+      "distractors": {
+        "plausible": [
+          "Hold triangle tighter, wait it out",
+          "Release everything, reset guard"
+        ],
+        "trap": [
+          "Fight the stack, keep legs locked"
+        ]
+      }
     },
     {
       "question": "Why is the Mission Control overhook taken above the elbow rather than on the forearm?",
-      "answer": "A deep overhook above the elbow isolates the arm and stops the opponent from retracting it during the move to New York, preserving the angle the triangle depends on."
+      "answer": "A deep overhook above the elbow isolates the arm and stops the opponent from retracting it during the move to New York, preserving the angle the triangle depends on.",
+      "answer_line": "Above elbow stops arm retracting",
+      "distractors": {
+        "plausible": [
+          "Forearm grip is tighter control",
+          "Wrist grip for better isolation"
+        ],
+        "trap": [
+          "Let the arm slide free to pummel"
+        ]
+      }
     },
     {
       "question": "What physical attribute is foundational to the Rubber Guard to Triangle System?",
-      "answer": "Extreme hip and hamstring flexibility is foundational, since the high leg, rubber guard control, and triangle entries all depend on the bottom player's hip mobility and range of motion."
+      "answer": "Extreme hip and hamstring flexibility is foundational, since the high leg, rubber guard control, and triangle entries all depend on the bottom player's hip mobility and range of motion.",
+      "answer_line": "Hip and hamstring flexibility",
+      "distractors": {
+        "plausible": [
+          "Grip strength and forearm size",
+          "Core strength and balance"
+        ],
+        "trap": [
+          "Brute strength over technique"
+        ]
+      }
     },
     {
       "question": "What does the 'fork attack' principle mean within this system?",
-      "answer": "It means forcing the opponent to choose between defending a submission and defending position, so each defensive choice opens a different attack and offensive pressure never stops."
+      "answer": "It means forcing the opponent to choose between defending a submission and defending position, so each defensive choice opens a different attack and offensive pressure never stops.",
+      "answer_line": "Force submission vs position choice",
+      "distractors": {
+        "plausible": [
+          "Attack same limb repeatedly",
+          "Overwhelm with speed, not choices"
+        ],
+        "trap": [
+          "Commit fully to one submission"
+        ]
+      }
     }
   ]
 }

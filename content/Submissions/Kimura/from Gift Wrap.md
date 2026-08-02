@@ -34,6 +34,43 @@ description: "Master the Kimura from Gift Wrap in BJJ. Complete guide to transit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Gift Wrap \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gift Wrap T-Bag Kimura",
+      "description": "Kimura from Gift Wrap film study: Gift Wrap T-Bag Kimura, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8sdF_KhIVik/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8sdF_KhIVik",
+      "url": "https://www.youtube.com/watch?v=8sdF_KhIVik",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Split Gift Wrap to Kimura",
+      "description": "Kimura from Gift Wrap film study: Split Gift Wrap to Kimura, taught by Watauga BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c23mDOOXANw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c23mDOOXANw",
+      "url": "https://www.youtube.com/watch?v=c23mDOOXANw",
+      "creator": { "@type": "Person", "name": "Watauga BJJ" },
+      "duration": "PT33S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +91,7 @@ description: "Master the Kimura from Gift Wrap in BJJ. Complete guide to transit
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">37% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +115,34 @@ Strategically, this submission fits within a larger Gift Wrap attack system wher
 **Starting Position**: [[Positions/Gift Wrap]] · **From**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Gift Wrap in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8sdF_KhIVik)
+
+<p class="clip-credit"><strong>Gift Wrap T-Bag Kimura</strong> — taught by JitzLive · 1:04 · <a href="https://www.youtube.com/watch?v=8sdF_KhIVik" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c23mDOOXANw)
+
+<p class="clip-credit"><strong>Split Gift Wrap to Kimura</strong> — taught by Watauga BJJ · 0:33 · <a href="https://www.youtube.com/watch?v=c23mDOOXANw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -223,7 +288,6 @@ Strategically, this submission fits within a larger Gift Wrap attack system wher
 
 ## Related
 - [[Submissions/Kimura]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Americana]]
 - [[Submissions/Reverse Kimura]]

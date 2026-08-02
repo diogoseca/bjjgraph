@@ -21,37 +21,37 @@ description: "Master Butterfly Hook Control Top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Pass",
-      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Smash",
-      "text": "From this position, attempt Butterfly Smash. This technique is attempted in 34% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Smash. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 12% of exchanges from this position.",
-      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
       "text": "From this position, attempt Pressure Pass. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 7% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Weave Pass",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Butterfly Hook Control Top in BJJ. Complete guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Hook Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending and removing butterfly hooks",
+      "description": "Butterfly Hook Control (Top) film study: Defending and removing butterfly hooks, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wgnw31_o3kk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wgnw31_o3kk",
+      "url": "https://www.youtube.com/watch?v=Wgnw31_o3kk",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Removing butterfly hooks",
+      "description": "Butterfly Hook Control (Top) film study: Removing butterfly hooks, taught by SBG PDX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqkFPzJTspk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqkFPzJTspk",
+      "url": "https://www.youtube.com/watch?v=xqkFPzJTspk",
+      "creator": { "@type": "Person", "name": "SBG PDX" },
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing half butterfly guard",
+      "description": "Butterfly Hook Control (Top) film study: Passing half butterfly guard, taught by Morto BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LIITsrlsAaI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LIITsrlsAaI",
+      "url": "https://www.youtube.com/watch?v=LIITsrlsAaI",
+      "creator": { "@type": "Person", "name": "Morto BJJ" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The top player faces a unique strategic challenge: the opponent's hooks create c
 Effective top play requires understanding how to distribute weight to minimize sweep vulnerability while maintaining forward pressure that prevents the bottom player from creating angles. The goal is to systematically neutralize the hooks through proper positioning, then transition to more stable passing positions such as headquarters, knee slice, or leg weave passes. Critical to success is recognizing when the opponent commits to a sweep direction and using that commitment to pass in the opposite direction or establish dominant grips.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Hook Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wgnw31_o3kk)
+
+<p class="clip-credit"><strong>Defending and removing butterfly hooks</strong> — taught by Kohbukan Sisu · 0:58 · <a href="https://www.youtube.com/watch?v=Wgnw31_o3kk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqkFPzJTspk)
+
+<p class="clip-credit"><strong>Removing butterfly hooks</strong> — taught by SBG PDX · 2:02 · <a href="https://www.youtube.com/watch?v=xqkFPzJTspk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LIITsrlsAaI)
+
+<p class="clip-credit"><strong>Passing half butterfly guard</strong> — taught by Morto BJJ · 1:10 · <a href="https://www.youtube.com/watch?v=LIITsrlsAaI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

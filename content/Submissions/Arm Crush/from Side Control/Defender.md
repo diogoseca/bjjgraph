@@ -144,6 +144,54 @@ description: "How to defend against Arm Crush in BJJ. Recognition, escape paths,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Crush from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control escape to submission",
+      "description": "Arm Crush from Side Control (Defender) film study: Side control escape to submission, taught by Fit To Fight.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vg8z-4ENucg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vg8z-4ENucg",
+      "url": "https://www.youtube.com/watch?v=vg8z-4ENucg",
+      "creator": { "@type": "Person", "name": "Fit To Fight" },
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control escape when you\u0027re getting crushed",
+      "description": "Arm Crush from Side Control (Defender) film study: Side control escape when you\u0027re getting crushed, taught by AMAZIN BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lvAmtGuetEI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lvAmtGuetEI",
+      "url": "https://www.youtube.com/watch?v=lvAmtGuetEI",
+      "creator": { "@type": "Person", "name": "AMAZIN BJJ" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side control escape - grips in detail",
+      "description": "Arm Crush from Side Control (Defender) film study: Side control escape - grips in detail, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RnXjO_-Ayr8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RnXjO_-Ayr8",
+      "url": "https://www.youtube.com/watch?v=RnXjO_-Ayr8",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT286S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the Arm Crush requires early recognition and immediate action because 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Crush from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vg8z-4ENucg)
+
+<p class="clip-credit"><strong>Side control escape to submission</strong> — taught by Fit To Fight · 2:02 · <a href="https://www.youtube.com/watch?v=vg8z-4ENucg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lvAmtGuetEI)
+
+<p class="clip-credit"><strong>Side control escape when you&#39;re getting crushed</strong> — taught by AMAZIN BJJ · 2:54 · <a href="https://www.youtube.com/watch?v=lvAmtGuetEI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RnXjO_-Ayr8)
+
+<p class="clip-credit"><strong>Side control escape - grips in detail</strong> — taught by Wim Deputter · 4:46 · <a href="https://www.youtube.com/watch?v=RnXjO_-Ayr8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

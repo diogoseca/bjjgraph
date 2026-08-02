@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "North-South/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Reverse Kesa-Gatame/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Reverse Kesa to North-South is a pin-advancement transition where the top player rotates from reverse scarf hold toward the opponent's head into north-south, maintaining unbroken chest pressure to open new submissions while disrupting escape timing.",
   "overview": "The Reverse Kesa to North-South transition is a fundamental pin advancement where the top player rotates from reverse scarf hold into north-south position while maintaining continuous chest pressure. This transition exploits the natural body alignment of reverse kesa-gatame, where the top player already faces toward the opponent's legs, requiring a controlled rotation toward the opponent's head to achieve the perpendicular chest-to-chest alignment that defines north-south. The rotation follows the arc of the opponent's torso, treating the chest as a wheel that rolls across their upper body without lifting.\n\nStrategically, this transition serves multiple purposes within the pinning hierarchy. It allows the top player to access north-south specific attacks like the north-south choke and kimura while disrupting the bottom player's escape timing. The rotation is particularly effective when the bottom player bridges toward their own head attempting to create space, as this movement aligns with the top player's transitional direction. Skilled practitioners use this transition reactively, capitalizing on the opponent's defensive momentum rather than forcing the rotation against resistance.\n\nThe critical technical challenge lies in maintaining pressure continuity during the rotation. Any gap in chest contact during the transition creates space for the bottom player to insert frames, recover half guard, or begin hip escape sequences. Arm control must transition smoothly from the reverse kesa far-arm trap to north-south underhooks as the body completes its arc, ensuring the bottom player never has both arms free simultaneously during the positional change.",
   "conditions": [
@@ -232,46 +244,175 @@
     "flashcards": [
       {
         "question": "What is the most critical body mechanic during the rotation from reverse kesa to north-south?",
-        "answer": "Continuous chest-to-torso contact throughout the entire rotation is the single most critical mechanic. Your sternum must maintain constant downward pressure against the opponent's upper body, rolling across their torso like a wheel rather than lifting and repositioning. Any gap in chest contact creates space for frames, hip escapes, or guard recovery. The rotation should feel like your chest is glued to their body while your legs and hips move around them."
+        "answer": "Continuous chest-to-torso contact throughout the entire rotation is the single most critical mechanic. Your sternum must maintain constant downward pressure against the opponent's upper body, rolling across their torso like a wheel rather than lifting and repositioning. Any gap in chest contact creates space for frames, hip escapes, or guard recovery. The rotation should feel like your chest is glued to their body while your legs and hips move around them.",
+        "answer_line": "Constant chest-to-torso contact",
+        "distractors": {
+          "plausible": [
+            "Heavy hip pressure throughout",
+            "Fast feet around the head"
+          ],
+          "trap": [
+            "Lift chest to reposition quickly"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges explosively toward their head as you begin the transition - how do you respond?",
-        "answer": "Use their bridging momentum to accelerate your rotation rather than fighting against it. Their bridge directed toward their head creates force in the exact direction you want to travel. Stay connected to their torso and ride the bridge, letting their energy carry you through the rotation faster. As they return to the mat after the bridge fails, you arrive in north-south with your weight already settling. Their own escape attempt became the fuel for your advancement."
+        "answer": "Use their bridging momentum to accelerate your rotation rather than fighting against it. Their bridge directed toward their head creates force in the exact direction you want to travel. Stay connected to their torso and ride the bridge, letting their energy carry you through the rotation faster. As they return to the mat after the bridge fails, you arrive in north-south with your weight already settling. Their own escape attempt became the fuel for your advancement.",
+        "answer_line": "Ride the bridge to accelerate",
+        "distractors": {
+          "plausible": [
+            "Stop rotation and reset base",
+            "Drive weight down to stall it"
+          ],
+          "trap": [
+            "Release grip and back away"
+          ]
+        }
       },
       {
         "question": "What makes the rotation midpoint the most vulnerable phase of this transition?",
-        "answer": "At the midpoint, your body is awkwardly positioned between reverse kesa and north-south with compromised base alignment. Your arm control is transitioning between grips, potentially leaving a window where neither the old nor new grip is fully secure. Your feet are mid-walk with a narrower base than at either endpoint. The opponent can exploit this instability for bridges, frame insertion, or knee recovery. You must commit to moving through the midpoint quickly rather than pausing there."
+        "answer": "At the midpoint, your body is awkwardly positioned between reverse kesa and north-south with compromised base alignment. Your arm control is transitioning between grips, potentially leaving a window where neither the old nor new grip is fully secure. Your feet are mid-walk with a narrower base than at either endpoint. The opponent can exploit this instability for bridges, frame insertion, or knee recovery. You must commit to moving through the midpoint quickly rather than pausing there.",
+        "answer_line": "Base and grip are mid-transition",
+        "distractors": {
+          "plausible": [
+            "Chest pressure is at its highest",
+            "Opponent's hips are fully pinned"
+          ],
+          "trap": [
+            "Pause there to reset your grips"
+          ]
+        }
       },
       {
         "question": "How should you handle the arm control exchange during the transition?",
-        "answer": "Use an overlapping grip strategy where you secure the new north-south underhook with one hand before releasing the reverse kesa armpit clamp with the other. At no point should both of the opponent's arms be free simultaneously. The grip exchange happens during the second half of the rotation as you pass the midpoint. Pre-position your hand for the north-south underhook as you approach the transition point, then execute a smooth switch that maintains continuous control on at least one arm."
+        "answer": "Use an overlapping grip strategy where you secure the new north-south underhook with one hand before releasing the reverse kesa armpit clamp with the other. At no point should both of the opponent's arms be free simultaneously. The grip exchange happens during the second half of the rotation as you pass the midpoint. Pre-position your hand for the north-south underhook as you approach the transition point, then execute a smooth switch that maintains continuous control on at least one arm.",
+        "answer_line": "Overlap grips, never both free",
+        "distractors": {
+          "plausible": [
+            "Release old grip first, then new",
+            "Switch grips at the very start"
+          ],
+          "trap": [
+            "Let go of both arms to switch fast"
+          ]
+        }
       },
       {
         "question": "When should you abort the transition and return to reverse kesa instead of completing the rotation?",
-        "answer": "Abort when the opponent establishes a strong frame before you reach the midpoint, when you feel your chest lift significantly off their torso creating a gap you cannot close, or when the opponent inserts a knee before you pass the halfway mark. Returning to reverse kesa from the first quarter of the rotation is straightforward, but attempting to retreat from past the midpoint is more difficult. Make the abort decision early. A secure reverse kesa is always better than a compromised north-south."
+        "answer": "Abort when the opponent establishes a strong frame before you reach the midpoint, when you feel your chest lift significantly off their torso creating a gap you cannot close, or when the opponent inserts a knee before you pass the halfway mark. Returning to reverse kesa from the first quarter of the rotation is straightforward, but attempting to retreat from past the midpoint is more difficult. Make the abort decision early. A secure reverse kesa is always better than a compromised north-south.",
+        "answer_line": "Abort early, before the midpoint",
+        "distractors": {
+          "plausible": [
+            "Abort only after north-south locks",
+            "Push through any frame you feel"
+          ],
+          "trap": [
+            "Never abort, always finish rotation"
+          ]
+        }
       },
       {
         "question": "What specific foot movement pattern should you use during the rotation and why?",
-        "answer": "Walk your feet in small steps of approximately six inches each, tracing a semicircular arc around the opponent's head. Each step maintains at least one foot firmly posted on the mat at all times. Never jump, hop, or cross your feet during the walk. Small steps preserve your base width throughout the rotation, preventing the opponent from exploiting a narrow stance for bridge and roll escapes. The deliberate walking pattern also keeps your hips low and heavy, which maintains chest pressure throughout the arc."
+        "answer": "Walk your feet in small steps of approximately six inches each, tracing a semicircular arc around the opponent's head. Each step maintains at least one foot firmly posted on the mat at all times. Never jump, hop, or cross your feet during the walk. Small steps preserve your base width throughout the rotation, preventing the opponent from exploiting a narrow stance for bridge and roll escapes. The deliberate walking pattern also keeps your hips low and heavy, which maintains chest pressure throughout the arc.",
+        "answer_line": "Small steps, one foot posted",
+        "distractors": {
+          "plausible": [
+            "Big steps to cover ground fast",
+            "Cross feet to pivot quicker"
+          ],
+          "trap": [
+            "Jump-step to close the gap fast"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force you should maintain throughout this transition?",
-        "answer": "The primary force direction is downward into the opponent's chest at all times. While your body rotates horizontally around their torso, the downward pressure vector must remain constant. Think of your chest as having gravity pulling it into their upper body regardless of where you are in the arc. If downward pressure decreases at any point, you are either lifting your chest or distributing weight incorrectly onto your feet and arms rather than through your torso. The rotational movement is secondary to maintaining this constant downward pressure."
+        "answer": "The primary force direction is downward into the opponent's chest at all times. While your body rotates horizontally around their torso, the downward pressure vector must remain constant. Think of your chest as having gravity pulling it into their upper body regardless of where you are in the arc. If downward pressure decreases at any point, you are either lifting your chest or distributing weight incorrectly onto your feet and arms rather than through your torso. The rotational movement is secondary to maintaining this constant downward pressure.",
+        "answer_line": "Constant downward chest pressure",
+        "distractors": {
+          "plausible": [
+            "Forward drive toward their head",
+            "Rotational force around the arc"
+          ],
+          "trap": [
+            "Push weight through feet and arms"
+          ]
+        }
       },
       {
         "question": "Your opponent inserts a frame during the midpoint but you are already past fifty percent of the rotation - should you continue or retreat?",
-        "answer": "Continue through to north-south rather than retreating. Past the midpoint, retreating to reverse kesa requires fighting back through the same vulnerable zone you just crossed, and you would be moving against the frame rather than past it. Drive your shoulder into the frame to collapse it as you complete the rotation. Your forward momentum and the remaining rotational arc will carry you past the frame into north-south where you can use full perpendicular chest pressure to flatten it. Only retreat if the frame is so strong that forward progress has completely stalled."
+        "answer": "Continue through to north-south rather than retreating. Past the midpoint, retreating to reverse kesa requires fighting back through the same vulnerable zone you just crossed, and you would be moving against the frame rather than past it. Drive your shoulder into the frame to collapse it as you complete the rotation. Your forward momentum and the remaining rotational arc will carry you past the frame into north-south where you can use full perpendicular chest pressure to flatten it. Only retreat if the frame is so strong that forward progress has completely stalled.",
+        "answer_line": "Continue, drive through the frame",
+        "distractors": {
+          "plausible": [
+            "Retreat back to reverse kesa",
+            "Stop and reinforce your base"
+          ],
+          "trap": [
+            "Fight straight back through frame"
+          ]
+        }
       },
       {
         "question": "How does this transition chain with attacks from north-south once you arrive?",
-        "answer": "Upon arriving in north-south, you have immediate access to the north-south choke by threading your choking arm under the opponent's neck during or just after the grip transition. The kimura becomes available by isolating either arm with your north-south underhooks. If the opponent creates frames to prevent your weight from settling, you can transition to mount by stepping over while their arms are occupied with framing. The transition itself can be used as a feint to draw defensive reactions that open submission entries from the original reverse kesa position."
+        "answer": "Upon arriving in north-south, you have immediate access to the north-south choke by threading your choking arm under the opponent's neck during or just after the grip transition. The kimura becomes available by isolating either arm with your north-south underhooks. If the opponent creates frames to prevent your weight from settling, you can transition to mount by stepping over while their arms are occupied with framing. The transition itself can be used as a feint to draw defensive reactions that open submission entries from the original reverse kesa position.",
+        "answer_line": "North-south choke or kimura",
+        "distractors": {
+          "plausible": [
+            "Armbar from the far side",
+            "Rear naked choke setup"
+          ],
+          "trap": [
+            "Release grips to hunt for armbar"
+          ]
+        }
       },
       {
         "question": "What grip configuration do you need in reverse kesa before initiating the transition?",
-        "answer": "You need your far-side arm clamping the opponent's far arm tightly under your armpit with your elbow squeezed against your ribs, creating a complete seal that prevents arm extraction. Your near-side arm should be posted or controlling the mat for base, not committed to a grip that will complicate the rotation. The armpit clamp is the anchor grip that you maintain through the first half of the rotation before exchanging to the north-south underhook. If the armpit clamp is loose or the opponent's arm is partially free, consolidate this grip before beginning any rotational movement."
+        "answer": "You need your far-side arm clamping the opponent's far arm tightly under your armpit with your elbow squeezed against your ribs, creating a complete seal that prevents arm extraction. Your near-side arm should be posted or controlling the mat for base, not committed to a grip that will complicate the rotation. The armpit clamp is the anchor grip that you maintain through the first half of the rotation before exchanging to the north-south underhook. If the armpit clamp is loose or the opponent's arm is partially free, consolidate this grip before beginning any rotational movement.",
+        "answer_line": "Far-arm clamp sealed under armpit",
+        "distractors": {
+          "plausible": [
+            "Near-arm clamp, far-arm posted",
+            "Both arms clamped tight for base"
+          ],
+          "trap": [
+            "Release far-arm clamp before moving"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves significant chest pressure changes that can temporarily restrict the bottom player's breathing. Maintain awareness of your training partner's comfort level during drilling, particularly when establishing north-south pressure after the rotation completes. Avoid dropping weight suddenly onto the chest upon arrival. During progressive resistance phases, communicate with your partner about pressure intensity. In competition the transition is generally low-risk for joint injuries, but sustained heavy pressure requires conditioning from both practitioners to train safely over extended sessions."
+    "safety_considerations": "This transition involves significant chest pressure changes that can temporarily restrict the bottom player's breathing. Maintain awareness of your training partner's comfort level during drilling, particularly when establishing north-south pressure after the rotation completes. Avoid dropping weight suddenly onto the chest upon arrival. During progressive resistance phases, communicate with your partner about pressure intensity. In competition the transition is generally low-risk for joint injuries, but sustained heavy pressure requires conditioning from both practitioners to train safely over extended sessions.",
+    "clips": [
+      {
+        "id": "2AiDW2rNJxg",
+        "title": "Transitioning from failed kesa gatame",
+        "by": "ceedublyew",
+        "vertical": false,
+        "channel": "ceedublyew",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9WHh3xu6Apo",
+        "title": "Reverse kesa gatame control",
+        "by": "Alex Kennedy",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 175,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LdjrPT6Wt7c",
+        "title": "How to hold north south",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse Kesa to North-South Defender",
@@ -356,31 +497,101 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating the Reverse Kesa to North-South transition?",
-        "answer": "The earliest cue is a shift in chest pressure from your shoulder area toward your sternum, indicating the top player's body is beginning to rotate. This is followed by their hip pressure decreasing on your near-side ribs as they lift slightly to begin the arc. You may also hear or feel their feet beginning to walk in small steps around your head through vibrations on the mat. Recognizing the pressure shift before the feet start moving gives you the maximum defensive window."
+        "answer": "The earliest cue is a shift in chest pressure from your shoulder area toward your sternum, indicating the top player's body is beginning to rotate. This is followed by their hip pressure decreasing on your near-side ribs as they lift slightly to begin the arc. You may also hear or feel their feet beginning to walk in small steps around your head through vibrations on the mat. Recognizing the pressure shift before the feet start moving gives you the maximum defensive window.",
+        "answer_line": "Chest pressure shifts to sternum",
+        "distractors": {
+          "plausible": [
+            "Hips drive harder into your ribs",
+            "Opponent grips your far arm tighter"
+          ],
+          "trap": [
+            "Wait until feet fully walk around"
+          ]
+        }
       },
       {
         "question": "Why is the grip exchange phase the best window for recovering half guard?",
-        "answer": "During the grip exchange, the top player must release their reverse kesa armpit clamp on your far arm to establish a north-south underhook. Even with overlapping grips, there is a brief moment where the control on your far arm weakens enough to create movement opportunity. Simultaneously, the top player's attention is divided between completing the rotation and securing new grips. This combination of loosened arm control and divided attention creates the widest window for inserting your near knee and closing half guard before north-south consolidates."
+        "answer": "During the grip exchange, the top player must release their reverse kesa armpit clamp on your far arm to establish a north-south underhook. Even with overlapping grips, there is a brief moment where the control on your far arm weakens enough to create movement opportunity. Simultaneously, the top player's attention is divided between completing the rotation and securing new grips. This combination of loosened arm control and divided attention creates the widest window for inserting your near knee and closing half guard before north-south consolidates.",
+        "answer_line": "Far-arm clamp releases briefly",
+        "distractors": {
+          "plausible": [
+            "Near-arm control weakens",
+            "All top grips fully release"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       },
       {
         "question": "Your bridge attempt during the rotation was absorbed and the top player is now past the midpoint - what should you do?",
-        "answer": "Shift immediately from the bridge strategy to frame insertion. Place your forearms against their chest to create structural barriers that slow or prevent the rotation from completing. Simultaneously begin hip escaping perpendicular to the rotation direction. If frames hold, the top player may be forced to retreat. If they continue through your frames, prioritize inserting your near knee for half guard recovery before their north-south pressure settles. Do not waste energy on a second bridge when the first failed."
+        "answer": "Shift immediately from the bridge strategy to frame insertion. Place your forearms against their chest to create structural barriers that slow or prevent the rotation from completing. Simultaneously begin hip escaping perpendicular to the rotation direction. If frames hold, the top player may be forced to retreat. If they continue through your frames, prioritize inserting your near knee for half guard recovery before their north-south pressure settles. Do not waste energy on a second bridge when the first failed.",
+        "answer_line": "Frame up and hip escape",
+        "distractors": {
+          "plausible": [
+            "Bridge again with more force",
+            "Push straight up to stand"
+          ],
+          "trap": [
+            "Turtle up to protect your back"
+          ]
+        }
       },
       {
         "question": "How should your hip escape direction differ when defending this transition versus escaping established north-south?",
-        "answer": "When defending the transition mid-rotation, hip escape perpendicular to the arc path rather than directly away from the opponent. This exploits lateral vulnerability that exists during the rotation but disappears once north-south is established. In established north-south, you must hip escape along the opponent's body axis to create distance. The perpendicular escape during the transition is more effective because the top player's momentum carries them along the arc and they cannot redirect laterally without restarting their base alignment."
+        "answer": "When defending the transition mid-rotation, hip escape perpendicular to the arc path rather than directly away from the opponent. This exploits lateral vulnerability that exists during the rotation but disappears once north-south is established. In established north-south, you must hip escape along the opponent's body axis to create distance. The perpendicular escape during the transition is more effective because the top player's momentum carries them along the arc and they cannot redirect laterally without restarting their base alignment.",
+        "answer_line": "Escape perpendicular to the arc",
+        "distractors": {
+          "plausible": [
+            "Same escape as north-south",
+            "Escape along their body axis"
+          ],
+          "trap": [
+            "Stay still and wait for stalemate"
+          ]
+        }
       },
       {
         "question": "The top player has completed the rotation and is settling into north-south - what is your last-resort defensive priority?",
-        "answer": "Immediately get your forearms perpendicular to the top player's chest to create skeletal frames before their weight fully consolidates. Your elbows must stay tight to your ribs for structural integrity. Even partial frames are valuable because they prevent full chest-to-chest compression and preserve breathing space. Simultaneously begin small hip escapes to incrementally create distance. The goal shifts from preventing the transition to establishing the minimum defensive structure needed to begin a north-south escape sequence. Acting within the first two to three seconds of their arrival is critical before underhooks lock in."
+        "answer": "Immediately get your forearms perpendicular to the top player's chest to create skeletal frames before their weight fully consolidates. Your elbows must stay tight to your ribs for structural integrity. Even partial frames are valuable because they prevent full chest-to-chest compression and preserve breathing space. Simultaneously begin small hip escapes to incrementally create distance. The goal shifts from preventing the transition to establishing the minimum defensive structure needed to begin a north-south escape sequence. Acting within the first two to three seconds of their arrival is critical before underhooks lock in.",
+        "answer_line": "Frame forearms, elbows tight",
+        "distractors": {
+          "plausible": [
+            "Push both hands to their hips",
+            "Bridge hard to throw them off"
+          ],
+          "trap": [
+            "Relax and wait for a mistake"
+          ]
+        }
       },
       {
         "question": "How do you decide between bridging early versus waiting for the grip exchange window to insert a knee?",
-        "answer": "Bridge early if the top player's initial weight shift is tentative or their base has not yet adjusted to the new direction, as a strong bridge can abort the transition entirely. Wait for the grip exchange if the top player initiates with strong committed momentum that would absorb your bridge. Read their commitment level in the first half-second of the rotation. A tentative start with light pressure shift favors the early bridge. An aggressive committed rotation with maintained pressure favors patience and targeting the grip exchange window for half guard recovery."
+        "answer": "Bridge early if the top player's initial weight shift is tentative or their base has not yet adjusted to the new direction, as a strong bridge can abort the transition entirely. Wait for the grip exchange if the top player initiates with strong committed momentum that would absorb your bridge. Read their commitment level in the first half-second of the rotation. A tentative start with light pressure shift favors the early bridge. An aggressive committed rotation with maintained pressure favors patience and targeting the grip exchange window for half guard recovery.",
+        "answer_line": "Bridge early if shift is tentative",
+        "distractors": {
+          "plausible": [
+            "Wait for their base to adjust first",
+            "Read grips, then pick the bridge"
+          ],
+          "trap": [
+            "Bridge into their committed drive"
+          ]
+        }
       },
       {
         "question": "What role does your far arm play in defending this transition?",
-        "answer": "Your far arm is your primary defensive tool since it is typically the arm not trapped by the reverse kesa clamp. Use it to create frames against the top player's chest or shoulder during the rotation, to grab their far leg as it passes within reach to stall the foot walk, or to push against their hip to create space for your near knee to insert. Keep this arm bent with the elbow close to your body for structural strength rather than extending it, which creates isolation opportunities for the top player. The far arm must be active throughout the transition, ready to execute whichever defensive option the specific timing window permits."
+        "answer": "Your far arm is your primary defensive tool since it is typically the arm not trapped by the reverse kesa clamp. Use it to create frames against the top player's chest or shoulder during the rotation, to grab their far leg as it passes within reach to stall the foot walk, or to push against their hip to create space for your near knee to insert. Keep this arm bent with the elbow close to your body for structural strength rather than extending it, which creates isolation opportunities for the top player. The far arm must be active throughout the transition, ready to execute whichever defensive option the specific timing window permits.",
+        "answer_line": "Frame, grab leg, or create space",
+        "distractors": {
+          "plausible": [
+            "Grip their far arm for control",
+            "Push straight up to bridge"
+          ],
+          "trap": [
+            "Extend arm fully to create distance"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -403,6 +614,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integration into live rolling scenarios",
         "description": "Begin in reverse kesa with the top player free to transition to north-south or attack from reverse kesa. Defender must defend all threats while specifically looking for the north-south transition to intercept. This integrates transition defense with broader positional escape work and develops the ability to recognize and respond to the transition amid other offensive threats."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa gatame escape to back take",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2EZfzJb_-tA",
+        "title": "North south escape",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rmT52A--V3Q",
+        "title": "How to escape north south",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 203,
+        "verified": "2026-07-15"
       }
     ]
   }

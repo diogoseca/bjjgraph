@@ -34,6 +34,54 @@ description: "Transition from collar sleeve to spider guard in BJJ. Master grip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Sleeve to Spider Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Collar spider grip to pant grip break to omoplata",
+      "description": "Collar Sleeve to Spider Guard film study: Collar spider grip to pant grip break to omoplata, taught by Outer Heaven Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rv4bJYHncSA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rv4bJYHncSA",
+      "url": "https://www.youtube.com/watch?v=Rv4bJYHncSA",
+      "creator": { "@type": "Person", "name": "Outer Heaven Jiu Jitsu" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spider same side collar tomoe nage to triangle",
+      "description": "Collar Sleeve to Spider Guard film study: Spider same side collar tomoe nage to triangle, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YUBd4HUfuYQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YUBd4HUfuYQ",
+      "url": "https://www.youtube.com/watch?v=YUBd4HUfuYQ",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT159S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Spider guard transition drill",
+      "description": "Collar Sleeve to Spider Guard film study: Spider guard transition drill, taught by Heroes Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QHuA7VaehJ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QHuA7VaehJ0",
+      "url": "https://www.youtube.com/watch?v=QHuA7VaehJ0",
+      "creator": { "@type": "Person", "name": "Heroes Martial Arts" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition is most effective when the opponent begins defend
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Sleeve to Spider Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rv4bJYHncSA)
+
+<p class="clip-credit"><strong>Collar spider grip to pant grip break to omoplata</strong> — taught by Outer Heaven Jiu Jitsu · 1:14 · <a href="https://www.youtube.com/watch?v=Rv4bJYHncSA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YUBd4HUfuYQ)
+
+<p class="clip-credit"><strong>Spider same side collar tomoe nage to triangle</strong> — taught by Mikey Musumeci · 2:39 · <a href="https://www.youtube.com/watch?v=YUBd4HUfuYQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QHuA7VaehJ0)
+
+<p class="clip-credit"><strong>Spider guard transition drill</strong> — taught by Heroes Martial Arts · 2:43 · <a href="https://www.youtube.com/watch?v=QHuA7VaehJ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

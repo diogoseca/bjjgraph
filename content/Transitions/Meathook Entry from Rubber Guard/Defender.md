@@ -134,6 +134,43 @@ description: "Defend the Meathook Entry from Rubber Guard top. Learn recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Meathook Entry from Rubber Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending and countering the overhook clamp",
+      "description": "Meathook Entry from Rubber Guard (Defender) film study: Defending and countering the overhook clamp, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
+      "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing basics against rubber guard",
+      "description": "Meathook Entry from Rubber Guard (Defender) film study: Passing basics against rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SYl7QbIRELM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SYl7QbIRELM",
+      "url": "https://www.youtube.com/watch?v=SYl7QbIRELM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +180,34 @@ Defending the Meathook Entry requires the top player to recognize the leg climb 
 **Opponent's Starting Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Meathook Entry from Rubber Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
+
+<p class="clip-credit"><strong>Defending and countering the overhook clamp</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SYl7QbIRELM)
+
+<p class="clip-credit"><strong>Passing basics against rubber guard</strong> — taught by Eddie Bravo · 1:59 · <a href="https://www.youtube.com/watch?v=SYl7QbIRELM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

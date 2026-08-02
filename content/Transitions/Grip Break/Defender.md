@@ -148,6 +148,43 @@ description: "How to defend against Grip Break in BJJ. Recognition cues, defensi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grip Break (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Staying on top of the grips",
+      "description": "Grip Break (Defender) film study: Staying on top of the grips, taught by Fernando Yamasaki.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IlsPTI0z29w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IlsPTI0z29w",
+      "url": "https://www.youtube.com/watch?v=IlsPTI0z29w",
+      "creator": { "@type": "Person", "name": "Fernando Yamasaki" },
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking Off the Sleeve When Grips Won\u0027t Break",
+      "description": "Grip Break (Defender) film study: Attacking Off the Sleeve When Grips Won\u0027t Break, taught by BeyondGrappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v6M9iAlWO9s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v6M9iAlWO9s",
+      "url": "https://www.youtube.com/watch?v=v6M9iAlWO9s",
+      "creator": { "@type": "Person", "name": "BeyondGrappling" },
+      "duration": "PT83S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ Effective grip retention is not simply squeezing harder. It requires understandi
 **Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grip Break (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IlsPTI0z29w)
+
+<p class="clip-credit"><strong>Staying on top of the grips</strong> — taught by Fernando Yamasaki · 1:41 · <a href="https://www.youtube.com/watch?v=IlsPTI0z29w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v6M9iAlWO9s)
+
+<p class="clip-credit"><strong>Attacking Off the Sleeve When Grips Won&#39;t Break</strong> — taught by BeyondGrappling · 1:23 · <a href="https://www.youtube.com/watch?v=v6M9iAlWO9s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

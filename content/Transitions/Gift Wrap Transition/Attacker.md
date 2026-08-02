@@ -174,6 +174,54 @@ description: "How to execute Gift Wrap Transition in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap Transition (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gift wrap back take",
+      "description": "Gift Wrap Transition (Attacker) film study: Gift wrap back take, taught by BJJ Lab Z\u00fcrich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EOv5GYpUYDw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EOv5GYpUYDw",
+      "url": "https://www.youtube.com/watch?v=EOv5GYpUYDw",
+      "creator": { "@type": "Person", "name": "BJJ Lab Z\u00fcrich" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount to gift wrap to submission",
+      "description": "Gift Wrap Transition (Attacker) film study: Mount to gift wrap to submission, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3yIMfhGHnk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3yIMfhGHnk",
+      "url": "https://www.youtube.com/watch?v=X3yIMfhGHnk",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gift wrap to armbar from mount",
+      "description": "Gift Wrap Transition (Attacker) film study: Gift wrap to armbar from mount, taught by The Fight Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KwhoNiUJboI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KwhoNiUJboI",
+      "url": "https://www.youtube.com/watch?v=KwhoNiUJboI",
+      "creator": { "@type": "Person", "name": "The Fight Coach" },
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The transition rewards patience and methodical execution. Rushing the arm isolat
 **From Position**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap Transition (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EOv5GYpUYDw)
+
+<p class="clip-credit"><strong>Gift wrap back take</strong> — taught by BJJ Lab Zürich · 1:09 · <a href="https://www.youtube.com/watch?v=EOv5GYpUYDw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X3yIMfhGHnk)
+
+<p class="clip-credit"><strong>Mount to gift wrap to submission</strong> — taught by Henry Akins · 1:32 · <a href="https://www.youtube.com/watch?v=X3yIMfhGHnk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KwhoNiUJboI)
+
+<p class="clip-credit"><strong>Gift wrap to armbar from mount</strong> — taught by The Fight Coach · 1:27 · <a href="https://www.youtube.com/watch?v=KwhoNiUJboI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

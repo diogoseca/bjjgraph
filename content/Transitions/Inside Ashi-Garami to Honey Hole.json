@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Honey Hole/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Inside Ashi-Garami to Honey Hole transition represents one of the most important positional advancements in modern leg lock systems. This transition converts a foundational leg entanglement into the dominant saddle configuration, dramatically increasing control and submission threat. The movement requires threading your outside leg through opponent's legs to establish the figure-four triangle that defines Honey Hole position.\n\nStrategically, this transition should be attempted when opponent defends your initial attacks by rotating their knee inward or when you need greater control before finishing. The Honey Hole provides superior heel exposure and hip control compared to basic Inside Ashi-Garami, making submissions significantly higher percentage. The transition exploits opponent's defensive reactions—when they focus on hiding their heel, they often neglect the space you need to advance your leg configuration.\n\nThe timing window for this transition typically opens when opponent commits weight to defend one attack, creating the momentary looseness in their defensive posture that allows your leg to thread through. Masters of this transition recognize that it functions as part of an attack chain: threatening straight ankle lock forces defensive posture that opens Honey Hole entry, and vice versa. The position after successful transition places you in arguably the most dominant leg entanglement in grappling.",
   "conditions": [
     "Established Inside Ashi-Garami with secure heel control",
@@ -229,50 +241,189 @@
     "flashcards": [
       {
         "question": "What is the primary goal of transitioning from Inside Ashi-Garami to Honey Hole?",
-        "answer": "The primary goal is establishing the figure-four triangle around opponent's leg, which provides dramatically superior control and submission access compared to basic Inside Ashi-Garami. Honey Hole eliminates most defensive options by trapping the hip and exposes the heel for immediate inside heel hook threat, converting a controlling position into a finishing position."
+        "answer": "The primary goal is establishing the figure-four triangle around opponent's leg, which provides dramatically superior control and submission access compared to basic Inside Ashi-Garami. Honey Hole eliminates most defensive options by trapping the hip and exposes the heel for immediate inside heel hook threat, converting a controlling position into a finishing position.",
+        "answer_line": "Lock triangle, expose heel",
+        "distractors": {
+          "plausible": [
+            "Just improve hip control",
+            "Set up straight ankle lock"
+          ],
+          "trap": [
+            "Release heel to reposition legs"
+          ]
+        }
       },
       {
         "question": "What position do you start this transition from and what must be established first?",
-        "answer": "This technique starts from the Inside Ashi-Garami/Top position - the attacker controlling the leg entanglement. Before initiating, you must have secure heel control with C-grip or figure-four, inside leg positioned across opponent's hip preventing rotation, and outside leg hooked behind their knee. All control points must be solid before attempting to thread your leg through."
+        "answer": "This technique starts from the Inside Ashi-Garami/Top position - the attacker controlling the leg entanglement. Before initiating, you must have secure heel control with C-grip or figure-four, inside leg positioned across opponent's hip preventing rotation, and outside leg hooked behind their knee. All control points must be solid before attempting to thread your leg through.",
+        "answer_line": "Secure heel, hip, knee hook first",
+        "distractors": {
+          "plausible": [
+            "Start threading immediately",
+            "Grip collar before threading"
+          ],
+          "trap": [
+            "Release outside hook to thread"
+          ]
+        }
       },
       {
         "question": "What defensive reaction from your opponent creates the optimal timing window for this transition?",
-        "answer": "The optimal window opens when opponent rotates their knee inward to defend heel exposure or commits their attention to stripping your heel grip. This defensive focus creates momentary looseness in their hip and leg positioning that allows your leg to thread through. Threatening straight ankle lock specifically forces the knee-inward rotation that opens Honey Hole entry."
+        "answer": "The optimal window opens when opponent rotates their knee inward to defend heel exposure or commits their attention to stripping your heel grip. This defensive focus creates momentary looseness in their hip and leg positioning that allows your leg to thread through. Threatening straight ankle lock specifically forces the knee-inward rotation that opens Honey Hole entry.",
+        "answer_line": "Threaten ankle lock, knee rotates in",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to relax fully",
+            "Attack when they sit up"
+          ],
+          "trap": [
+            "Loosen heel grip to bait reaction"
+          ]
+        }
       },
       {
         "question": "Your opponent kicks their free leg over your threading leg as you attempt the transition - how do you respond?",
-        "answer": "Immediately abort the threading attempt and return to solid Inside Ashi-Garami control. Re-establish all control points, then threaten straight ankle lock to force their defensive reaction. Their blocking attempt indicates they recognized your intention - vary your timing on next attempt or threaten more aggressively before transitioning to create genuine defensive commitment before threading."
+        "answer": "Immediately abort the threading attempt and return to solid Inside Ashi-Garami control. Re-establish all control points, then threaten straight ankle lock to force their defensive reaction. Their blocking attempt indicates they recognized your intention - vary your timing on next attempt or threaten more aggressively before transitioning to create genuine defensive commitment before threading.",
+        "answer_line": "Abort, reset control, retry later",
+        "distractors": {
+          "plausible": [
+            "Force the thread through anyway",
+            "Switch straight to 50-50 fight"
+          ],
+          "trap": [
+            "Release heel grip and reset grips"
+          ]
+        }
       },
       {
         "question": "What grip must you maintain throughout the entire transition and why?",
-        "answer": "You must maintain heel control throughout the entire transition without any loosening. The heel grip is your anchor point - if released during threading, opponent will extract their leg before you can complete the triangle. Keep heel pulled tight to your chest using your arms while your legs perform the threading movement. Your upper body grip work remains constant while lower body repositions."
+        "answer": "You must maintain heel control throughout the entire transition without any loosening. The heel grip is your anchor point - if released during threading, opponent will extract their leg before you can complete the triangle. Keep heel pulled tight to your chest using your arms while your legs perform the threading movement. Your upper body grip work remains constant while lower body repositions.",
+        "answer_line": "Heel grip pulled tight to chest",
+        "distractors": {
+          "plausible": [
+            "Collar grip stays constant",
+            "Outside leg hook stays locked"
+          ],
+          "trap": [
+            "Loosen heel grip while threading"
+          ]
+        }
       },
       {
         "question": "How do you coordinate hip elevation with leg threading for maximum efficiency?",
-        "answer": "Bridge your hips upward at the exact moment you begin withdrawing your outside leg from behind opponent's knee. The hip elevation creates space beneath your body for the threading motion while simultaneously maintaining pressure on opponent through your inside leg. This should be one coordinated explosive motion - hips up, leg withdraws, threads through, hooks triangle - not four separate steps."
+        "answer": "Bridge your hips upward at the exact moment you begin withdrawing your outside leg from behind opponent's knee. The hip elevation creates space beneath your body for the threading motion while simultaneously maintaining pressure on opponent through your inside leg. This should be one coordinated explosive motion - hips up, leg withdraws, threads through, hooks triangle - not four separate steps.",
+        "answer_line": "Bridge and thread as one motion",
+        "distractors": {
+          "plausible": [
+            "Bridge fully first, then thread",
+            "Pull the inside leg out first"
+          ],
+          "trap": [
+            "Turn belly-down to free the leg"
+          ]
+        }
       },
       {
         "question": "What body alignment must you maintain during the transition and why is this critical?",
-        "answer": "Maintain perpendicular body alignment with your chest facing opponent's trapped leg throughout the transition. Losing this alignment by rotating your upper body away reduces control, allows opponent to sit up and create frames, and may expose your own legs to counter-entanglement. Your legs change position but your torso orientation to opponent remains constant."
+        "answer": "Maintain perpendicular body alignment with your chest facing opponent's trapped leg throughout the transition. Losing this alignment by rotating your upper body away reduces control, allows opponent to sit up and create frames, and may expose your own legs to counter-entanglement. Your legs change position but your torso orientation to opponent remains constant.",
+        "answer_line": "Chest stays square to trapped leg",
+        "distractors": {
+          "plausible": [
+            "Rotate torso to face opponent's head",
+            "Square hips, torso can rotate freely"
+          ],
+          "trap": [
+            "Turn away to gain threading angle"
+          ]
+        }
       },
       {
         "question": "Your opponent straightens their trapped leg and drives their hips away from you during your threading attempt - what options do you have?",
-        "answer": "A straightened leg creates a direct kneebar opportunity - control above their knee with your arms and extend your hips for the finish. Alternatively, scoot your hips forward to close the distance they created and reattempt from closer range. If they've created too much space, abandon the Honey Hole attempt and attack the kneebar, which becomes higher percentage against an extended leg than forcing the original transition."
+        "answer": "A straightened leg creates a direct kneebar opportunity - control above their knee with your arms and extend your hips for the finish. Alternatively, scoot your hips forward to close the distance they created and reattempt from closer range. If they've created too much space, abandon the Honey Hole attempt and attack the kneebar, which becomes higher percentage against an extended leg than forcing the original transition.",
+        "answer_line": "Attack kneebar on straight leg",
+        "distractors": {
+          "plausible": [
+            "Chase distance, force the thread",
+            "Release control, reset entirely"
+          ],
+          "trap": [
+            "Abandon position, let leg go"
+          ]
+        }
       },
       {
         "question": "Your opponent begins counter-threading their own leg during your transition to establish 50-50 - what determines your next action?",
-        "answer": "If your thread is ahead of theirs, complete your triangle first - arriving in 50-50 with the triangle already locked gives you superior inside position and grip advantage. If their counter-thread matches your timing, accept 50-50 but immediately fight for inside position control and heel access. If their counter-thread is faster, abort your transition and focus on establishing inside position in the developing 50-50 before they secure it."
+        "answer": "If your thread is ahead of theirs, complete your triangle first - arriving in 50-50 with the triangle already locked gives you superior inside position and grip advantage. If their counter-thread matches your timing, accept 50-50 but immediately fight for inside position control and heel access. If their counter-thread is faster, abort your transition and focus on establishing inside position in the developing 50-50 before they secure it.",
+        "answer_line": "Race thread; whoever's ahead wins",
+        "distractors": {
+          "plausible": [
+            "Always finish your triangle first",
+            "Immediately accept 50-50 passively"
+          ],
+          "trap": [
+            "Release heel to stop their thread"
+          ]
+        }
       },
       {
         "question": "How does this transition fit into a complete Inside Ashi-Garami attack sequence?",
-        "answer": "This transition functions as the link between initial control and finishing position. The typical sequence flows: establish Inside Ashi-Garami, threaten straight ankle lock forcing knee-inward defense, transition to Honey Hole through the space created, finish with inside heel hook from dominant saddle position. Each step creates the conditions for the next, forming an integrated attack chain."
+        "answer": "This transition functions as the link between initial control and finishing position. The typical sequence flows: establish Inside Ashi-Garami, threaten straight ankle lock forcing knee-inward defense, transition to Honey Hole through the space created, finish with inside heel hook from dominant saddle position. Each step creates the conditions for the next, forming an integrated attack chain.",
+        "answer_line": "Control, ankle threat, thread, hook",
+        "distractors": {
+          "plausible": [
+            "Skip straight to heel hook",
+            "Threaten kneebar before threading"
+          ],
+          "trap": [
+            "Release control between each step"
+          ]
+        }
       },
       {
         "question": "What is the direction of force application during the leg threading phase?",
-        "answer": "The threading leg drives medially through the gap between opponent's legs, directed toward the far side of their trapped thigh. Your hip rotates slightly inward to facilitate the threading angle. Simultaneously, your arms pull the heel toward your chest (upward and toward you), and your inside leg maintains lateral pressure across their hip. These three force vectors work together: arms anchor, inside leg frames, outside leg threads through the space created."
+        "answer": "The threading leg drives medially through the gap between opponent's legs, directed toward the far side of their trapped thigh. Your hip rotates slightly inward to facilitate the threading angle. Simultaneously, your arms pull the heel toward your chest (upward and toward you), and your inside leg maintains lateral pressure across their hip. These three force vectors work together: arms anchor, inside leg frames, outside leg threads through the space created.",
+        "answer_line": "Thread medial, arms pull heel in",
+        "distractors": {
+          "plausible": [
+            "Push hip laterally, arms relax",
+            "Drive leg straight up, not through"
+          ],
+          "trap": [
+            "Release heel to free threading leg"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves advanced leg entanglement mechanics with significant injury potential if performed incorrectly or against uncooperative partners without proper training. The resulting Honey Hole position provides access to heel hooks that can cause catastrophic knee ligament damage (ACL, MCL, meniscus tears) within seconds. Practice only with experienced partners who understand tap protocols. Never apply heel hook pressure during transition drilling. Ensure both training partners have explicit understanding that taps must be immediate and releases must be instant. This technique should only be trained after developing solid foundation in straight ankle locks and basic leg entanglement safety. Avoid training this transition when fatigued, as technical errors during threading can expose your own legs to counter-attacks. Competition application should be limited to rulesets where heel hooks are legal (IBJJF brown/black belt no-gi, ADCC, submission-only events)."
+    "safety_considerations": "This transition involves advanced leg entanglement mechanics with significant injury potential if performed incorrectly or against uncooperative partners without proper training. The resulting Honey Hole position provides access to heel hooks that can cause catastrophic knee ligament damage (ACL, MCL, meniscus tears) within seconds. Practice only with experienced partners who understand tap protocols. Never apply heel hook pressure during transition drilling. Ensure both training partners have explicit understanding that taps must be immediate and releases must be instant. This technique should only be trained after developing solid foundation in straight ankle locks and basic leg entanglement safety. Avoid training this transition when fatigued, as technical errors during threading can expose your own legs to counter-attacks. Competition application should be limited to rulesets where heel hooks are legal (IBJJF brown/black belt no-gi, ADCC, submission-only events).",
+    "clips": [
+      {
+        "id": "xCrW5MBmqig",
+        "title": "Entering the saddle / honey hole / 411 position",
+        "by": "Foundation Chicago",
+        "vertical": false,
+        "channel": "Foundation Chicago",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVYMMNbJjRk",
+        "title": "Ashi garami to 411 transition",
+        "by": "BJJ Battalion",
+        "vertical": false,
+        "channel": "BJJ Battalion",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N2weatRR_V4",
+        "title": "Cross ashi (saddle / 411) entry",
+        "by": "bjj doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inside Ashi-Garami to Honey Hole Defender",
@@ -363,23 +514,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting the Inside Ashi-Garami to Honey Hole transition?",
-        "answer": "The earliest and most reliable cue is feeling the attacker's outside leg unhook from behind your knee and begin withdrawing toward their body. This precedes the actual threading motion and gives you the maximum defensive window. Secondary cues include their hip bridge upward and any brief loosening of inside leg pressure across your hip. Reacting at this early stage gives you the best chance of successful defense."
+        "answer": "The earliest and most reliable cue is feeling the attacker's outside leg unhook from behind your knee and begin withdrawing toward their body. This precedes the actual threading motion and gives you the maximum defensive window. Secondary cues include their hip bridge upward and any brief loosening of inside leg pressure across your hip. Reacting at this early stage gives you the best chance of successful defense.",
+        "answer_line": "Feel their outside leg unhook",
+        "distractors": {
+          "plausible": [
+            "Feel heel grip tighten first",
+            "See their hips bridge first"
+          ],
+          "trap": [
+            "Wait until triangle is locked"
+          ]
+        }
       },
       {
         "question": "Why is blocking with your free leg the highest-percentage defensive option against this transition?",
-        "answer": "Your free leg can physically obstruct the threading path before the attacker's leg enters the gap between your legs. By kicking your free leg over their withdrawing outside leg, you create a mechanical barrier that prevents threading entirely. This defense addresses the root cause of the transition (leg threading) rather than its symptoms, and requires only timing and awareness rather than explosiveness or strength."
+        "answer": "Your free leg can physically obstruct the threading path before the attacker's leg enters the gap between your legs. By kicking your free leg over their withdrawing outside leg, you create a mechanical barrier that prevents threading entirely. This defense addresses the root cause of the transition (leg threading) rather than its symptoms, and requires only timing and awareness rather than explosiveness or strength.",
+        "answer_line": "Blocks the thread path entirely",
+        "distractors": {
+          "plausible": [
+            "Buys time to counter-thread",
+            "Weakens their heel grip strength"
+          ],
+          "trap": [
+            "Kick free leg away from danger"
+          ]
+        }
       },
       {
         "question": "Your opponent threatens a straight ankle lock and then immediately begins withdrawing their outside leg - how do you split your defensive attention?",
-        "answer": "Defend the ankle lock with your arms and upper body by controlling their grip and rotating your foot, but keep your lower body awareness focused on their leg movement. The submission threat is often a deliberate setup for the transition rather than a genuine finishing attempt. When you feel their outside leg unhook, immediately shift priority to blocking the threading path with your free leg, even if it means accepting slightly more pressure on the ankle lock temporarily."
+        "answer": "Defend the ankle lock with your arms and upper body by controlling their grip and rotating your foot, but keep your lower body awareness focused on their leg movement. The submission threat is often a deliberate setup for the transition rather than a genuine finishing attempt. When you feel their outside leg unhook, immediately shift priority to blocking the threading path with your free leg, even if it means accepting slightly more pressure on the ankle lock temporarily.",
+        "answer_line": "Defend lock, watch for leg unhook",
+        "distractors": {
+          "plausible": [
+            "Fully commit to ankle lock defense",
+            "Ignore lock, block leg immediately"
+          ],
+          "trap": [
+            "Release foot rotation to block leg"
+          ]
+        }
       },
       {
         "question": "When is counter-threading to 50-50 the correct defensive choice rather than attempting to block the transition entirely?",
-        "answer": "Counter-threading is correct when the attacker's outside leg has already entered the gap between your legs and blocking is no longer possible. At this stage, preventing the thread is too late, but you can still race to establish symmetrical entanglement before they complete their triangle. 50-50 bottom is a significantly better position than Honey Hole bottom because it provides equal attacking and defensive options rather than the extreme asymmetry of Honey Hole."
+        "answer": "Counter-threading is correct when the attacker's outside leg has already entered the gap between your legs and blocking is no longer possible. At this stage, preventing the thread is too late, but you can still race to establish symmetrical entanglement before they complete their triangle. 50-50 bottom is a significantly better position than Honey Hole bottom because it provides equal attacking and defensive options rather than the extreme asymmetry of Honey Hole.",
+        "answer_line": "Leg's in the gap, race to 50-50",
+        "distractors": {
+          "plausible": [
+            "Anytime thread attempt begins",
+            "Only after Honey Hole is locked"
+          ],
+          "trap": [
+            "Try to strip the heel grip instead"
+          ]
+        }
       },
       {
         "question": "What should you do if the attacker successfully establishes Honey Hole despite your defensive efforts?",
-        "answer": "Immediately shift to Honey Hole bottom defense protocols: protect your heel by rotating your knee inward, fight their heel grip with both hands, and attempt explosive rotation toward their legs to counter-entangle into 50-50 before they secure breaking mechanics. Do not continue trying to undo the threading - the triangle is locked. Every second in Honey Hole increases submission danger exponentially, so escape attempts must be immediate and fully committed."
+        "answer": "Immediately shift to Honey Hole bottom defense protocols: protect your heel by rotating your knee inward, fight their heel grip with both hands, and attempt explosive rotation toward their legs to counter-entangle into 50-50 before they secure breaking mechanics. Do not continue trying to undo the threading - the triangle is locked. Every second in Honey Hole increases submission danger exponentially, so escape attempts must be immediate and fully committed.",
+        "answer_line": "Protect heel, rotate to 50-50",
+        "distractors": {
+          "plausible": [
+            "Keep fighting to undo the thread",
+            "Wait, conserve energy, stall"
+          ],
+          "trap": [
+            "Relax and accept the position"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -402,6 +603,26 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full resistance positional sparring starting from Inside Ashi-Garami top defending the leg attack. Partner's goal is Honey Hole entry or submission. Your goal is preventing the transition and escaping the entanglement. Track success rate and identify which attacker setups consistently bypass your defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8D4EFJ3kG9w",
+        "title": "3 escapes from saddle / 411 / honey hole",
+        "by": "Because Jitsu",
+        "vertical": false,
+        "channel": "Because Jitsu",
+        "duration": 200,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xgvsUAW8h8o",
+        "title": "Inside heel hook escape flow drill",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 90,
+        "verified": "2026-07-15"
       }
     ]
   },

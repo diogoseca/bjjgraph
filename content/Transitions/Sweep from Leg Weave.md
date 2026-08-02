@@ -34,6 +34,54 @@ description: "Master the Sweep from Leg Weave in BJJ. Counter leg weave passing 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Leg Weave \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling omoplata counter to the leg weave pass",
+      "description": "Sweep from Leg Weave film study: Rolling omoplata counter to the leg weave pass, taught by Maven Martial Arts coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0xW6B99fsKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0xW6B99fsKk",
+      "url": "https://www.youtube.com/watch?v=0xW6B99fsKk",
+      "creator": { "@type": "Person", "name": "Maven Martial Arts coach" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roll-under sweep vs late-stage knee cut",
+      "description": "Sweep from Leg Weave film study: Roll-under sweep vs late-stage knee cut, taught by Revolution BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z9z_IKORSsw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z9z_IKORSsw",
+      "url": "https://www.youtube.com/watch?v=z9z_IKORSsw",
+      "creator": { "@type": "Person", "name": "Revolution BJJ coach" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three-step counter to the leg weave pass",
+      "description": "Sweep from Leg Weave film study: Three-step counter to the leg weave pass, taught by PAMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9i-U4ivd108/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9i-U4ivd108",
+      "url": "https://www.youtube.com/watch?v=9i-U4ivd108",
+      "creator": { "@type": "Person", "name": "PAMA coach" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This technique occupies an important strategic niche in the guard retention hier
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Leg Weave in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0xW6B99fsKk)
+
+<p class="clip-credit"><strong>Rolling omoplata counter to the leg weave pass</strong> — taught by Maven Martial Arts coach · 0:18 · <a href="https://www.youtube.com/watch?v=0xW6B99fsKk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z9z_IKORSsw)
+
+<p class="clip-credit"><strong>Roll-under sweep vs late-stage knee cut</strong> — taught by Revolution BJJ coach · 1:24 · <a href="https://www.youtube.com/watch?v=z9z_IKORSsw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9i-U4ivd108)
+
+<p class="clip-credit"><strong>Three-step counter to the leg weave pass</strong> — taught by PAMA coach · 1:56 · <a href="https://www.youtube.com/watch?v=9i-U4ivd108" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -150,6 +150,54 @@ description: "Defend against the Americana from Modified Scarf Hold. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Modified Scarf Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame Pressure Defense with Framing",
+      "description": "Americana from Modified Scarf Hold (Defender) film study: Kesa Gatame Pressure Defense with Framing, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Four scarf hold escapes",
+      "description": "Americana from Modified Scarf Hold (Defender) film study: Four scarf hold escapes, taught by Grappling Nerds.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bHneNFyONwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bHneNFyONwo",
+      "url": "https://www.youtube.com/watch?v=bHneNFyONwo",
+      "creator": { "@type": "Person", "name": "Grappling Nerds" },
+      "duration": "PT602S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Modified kesa gatame escape",
+      "description": "Americana from Modified Scarf Hold (Defender) film study: Modified kesa gatame escape, taught by Shane Moore.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5eAmcE9UXNc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5eAmcE9UXNc",
+      "url": "https://www.youtube.com/watch?v=5eAmcE9UXNc",
+      "creator": { "@type": "Person", "name": "Shane Moore" },
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Americana from Modified Scarf Hold presents unique challenges due 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Modified Scarf Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense with Framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bHneNFyONwo)
+
+<p class="clip-credit"><strong>Four scarf hold escapes</strong> — taught by Grappling Nerds · 10:02 · <a href="https://www.youtube.com/watch?v=bHneNFyONwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5eAmcE9UXNc)
+
+<p class="clip-credit"><strong>Modified kesa gatame escape</strong> — taught by Shane Moore · 2:06 · <a href="https://www.youtube.com/watch?v=5eAmcE9UXNc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

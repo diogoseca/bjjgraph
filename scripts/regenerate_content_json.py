@@ -43,6 +43,7 @@ from scripts.claude_infer import call_claude as _infer_call_claude
 from scripts.peak_throttle import is_peak as _is_peak, PACIFIC as _PEAK_PACIFIC
 from scripts._atomic_io import atomic_write_json
 from scripts._prob_norm import largest_remainder_round as _largest_remainder_round
+from scripts._ruleset import as_map, cell, any_ruleset_map, RULESETS  # {gi,nogi} contract; loads are RAW since Q3 (real divergence)
 
 
 def _is_peak_now() -> bool:
@@ -463,6 +464,32 @@ def build_response_schema(category: str, template_type: str = None) -> dict:
                 category_schema["required"] = [
                     r for r in category_schema["required"] if r != "products"
                 ]
+        # `clips` is curated film-study data (machine-verified YouTube IDs) — never
+        # authored by AI. Strip it from root and every role block so the model cannot
+        # return or invent it; the save path re-merges the original verbatim.
+        if isinstance(category_schema.get("properties"), dict):
+            props = category_schema["properties"]
+            props.pop("clips", None)
+            for role in ("top", "bottom", "attacker", "defender"):
+                role_props = props.get(role)
+                if isinstance(role_props, dict) and isinstance(role_props.get("properties"), dict):
+                    role_props["properties"].pop("clips", None)
+        # `answer_line` + `distractors` are curated one-line MC data (authored + verified
+        # outside this pipeline). Strip from every flashcards-array item schema so the model
+        # cannot return or invent them; restore_mc re-merges the original verbatim by question.
+        def _strip_mc(node):
+            if isinstance(node, dict):
+                if (node.get("type") == "array" and isinstance(node.get("items"), dict)
+                        and isinstance(node["items"].get("properties"), dict)
+                        and "question" in node["items"]["properties"]):
+                    node["items"]["properties"].pop("answer_line", None)
+                    node["items"]["properties"].pop("distractors", None)
+                for v in node.values():
+                    _strip_mc(v)
+            elif isinstance(node, list):
+                for v in node:
+                    _strip_mc(v)
+        _strip_mc(category_schema)
     except Exception:
         category_schema = {"type": "object", "required": ["name"],
                           "properties": {"name": {"type": "string"}}}
@@ -650,6 +677,8 @@ REQUIREMENTS:
 - NEVER change this entity's own top-level `name`. For a nested submission variant (file lives in a `<Family>/` subfolder), `name` MUST stay the FULL `"<Family> from <Position>"` form (e.g. "Americana from Mount") — do NOT shorten it to the filename (e.g. "from Mount"). The graph keys submissions by this `name`; shortening it collides every family's same-position variant onto one node and breaks aggregation and edges.
 - All content must be technically accurate and reflect BJJ best practices
 - Safety sections must be comprehensive (especially for submissions)
+- DO NOT add, remove, or modify any `clips` field (root or role-nested) — it is curated, machine-verified film-study data managed outside this pipeline and must be omitted from your output entirely (it is re-merged automatically)
+- DO NOT add, remove, or modify any `answer_line` or `distractors` field on any flashcard — they are curated one-line multiple-choice data managed outside this pipeline and must be omitted from your output entirely (they are re-merged automatically)
 """
 
 
@@ -1440,7 +1469,8 @@ def save_transition_stub(stub: dict) -> bool:
 # =============================================================================
 
 def load_json(path: Path) -> Optional[dict]:
-    """Load JSON file."""
+    """Load JSON file RAW (no ruleset reduce): process_file saves what it loads, and a
+    reduced load would flatten divergent {gi,nogi} maps, destroying the gi frame (Q3+)."""
     try:
         with open(path, 'r', encoding='utf-8') as f:
             return json.load(f)
@@ -1507,12 +1537,137 @@ def check_structural_preservation(original: dict, fixed: dict, category: str) ->
                 "PRESERVATION: 'products' is curated affiliate data and must not change; "
                 "omit it from your output (it is re-merged automatically)."
             )
+    # `clips` is curated film-study data the AI must never alter (any category). The
+    # save path re-merges it via restore_clips before this runs — sanity backstop.
+    def _clips_of(d, holder):
+        block = d.get(holder) if holder else d
+        return block.get("clips") if isinstance(block, dict) else None
+    for holder in (None, "top", "bottom", "attacker", "defender"):
+        if _clips_of(original, holder) != _clips_of(fixed, holder):
+            where = f"{holder}.clips" if holder else "clips"
+            errors.append(
+                f"PRESERVATION: '{where}' is curated film-study data and must not change; "
+                "omit it from your output (it is re-merged automatically)."
+            )
     return errors
 
 
 # _largest_remainder_round is imported from scripts._prob_norm so this module and
 # proofread_all_transitions.py share one correct normalizer (clamps negatives,
 # rescales proportionally to sum 100, even-distributes the all-zero case).
+
+
+def restore_attempt_probabilities(original: dict, fixed: dict) -> int:
+    """Q3 curation-safety: `attempt_probability` is panel-calibrated occurrence data
+    (real {gi,nogi} divergence). Re-merge the ORIGINAL values by (role, transition name)
+    so an LLM refresh can never flatten or re-invent them. Transitions Claude newly adds
+    keep their value (normalize_probabilities then re-fixes each frame's sum). Returns
+    the number of values restored."""
+
+    def containers(d):
+        if not isinstance(d, dict):
+            return
+        for role in ("top", "bottom"):
+            rd = d.get(role)
+            if isinstance(rd, dict):
+                yield role, rd.get("transitions")
+        yield None, d.get("transitions")  # SINGLE/neutral root
+
+    orig_idx = {}
+    for role, trans in containers(original):
+        if isinstance(trans, list):
+            for t in trans:
+                if isinstance(t, dict) and t.get("transition") and "attempt_probability" in t:
+                    orig_idx[(role, t["transition"])] = t["attempt_probability"]
+
+    restored = 0
+    for role, trans in containers(fixed):
+        if isinstance(trans, list):
+            for t in trans:
+                if isinstance(t, dict) and (role, t.get("transition")) in orig_idx:
+                    ov = orig_idx[(role, t.get("transition"))]
+                    if t.get("attempt_probability") != ov:
+                        t["attempt_probability"] = ov
+                        restored += 1
+    return restored
+
+
+def restore_mc(original: dict, fixed: dict) -> int:
+    """Curation-safety: one-line `answer_line` + graded `distractors` are curated MC data
+    excluded from the AI response contract. Re-merge the ORIGINAL by flashcard question text
+    (across root + role + tier flashcard arrays) so enrichment can never drop, reword, or
+    invent them. Returns the number of MC fields restored/stripped."""
+    if not isinstance(original, dict) or not isinstance(fixed, dict):
+        return 0
+    orig_by_q = {}
+
+    def collect(o):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k.startswith("flashcards") and isinstance(v, list):
+                    for c in v:
+                        if isinstance(c, dict) and c.get("question"):
+                            mc = {f: c[f] for f in ("answer_line", "distractors") if f in c}
+                            orig_by_q[c["question"]] = mc
+                else:
+                    collect(v)
+        elif isinstance(o, list):
+            for v in o:
+                collect(v)
+
+    collect(original)
+    n = 0
+
+    def apply(o):
+        nonlocal n
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k.startswith("flashcards") and isinstance(v, list):
+                    for c in v:
+                        if not isinstance(c, dict):
+                            continue
+                        mc = orig_by_q.get(c.get("question"), {})
+                        for f in ("answer_line", "distractors"):
+                            if f in mc:
+                                if c.get(f) != mc[f]:
+                                    c[f] = mc[f]; n += 1
+                            elif f in c:
+                                c.pop(f); n += 1
+                else:
+                    apply(v)
+        elif isinstance(o, list):
+            for v in o:
+                apply(v)
+
+    apply(fixed)
+    return n
+
+
+def restore_clips(original: dict, fixed: dict) -> int:
+    """Curation-safety: `clips` is machine-verified YouTube film-study data excluded
+    from the AI response contract (like Systems `products`). Restore the original
+    verbatim — root and every role block — so enrichment can never drop, reorder,
+    or invent video IDs. Returns the number of clips arrays restored/removed."""
+    if not isinstance(original, dict) or not isinstance(fixed, dict):
+        return 0
+
+    def sync(orig_holder, fixed_holder):
+        if not isinstance(orig_holder, dict) or not isinstance(fixed_holder, dict):
+            return 0
+        orig_clips = orig_holder.get("clips")
+        if orig_clips is not None:
+            if fixed_holder.get("clips") != orig_clips:
+                fixed_holder["clips"] = orig_clips
+                return 1
+        elif "clips" in fixed_holder:
+            fixed_holder.pop("clips")
+            return 1
+        return 0
+
+    restored = sync(original, fixed)
+    for role in ("top", "bottom", "attacker", "defender"):
+        restored += sync(original.get(role), fixed.get(role))
+    return restored
 
 
 def normalize_probabilities(data: dict, category: str) -> bool:
@@ -1529,6 +1684,26 @@ def normalize_probabilities(data: dict, category: str) -> bool:
     def fix_group(items, key):
         nonlocal changed
         if not isinstance(items, list) or not items:
+            return
+        # {gi,nogi} maps (Q3+: real divergence): normalize each frame independently.
+        if any_ruleset_map(it.get(key) for it in items if isinstance(it, dict)):
+            for rs in RULESETS:
+                vals = []
+                for it in items:
+                    c = cell(it.get(key, 0), rs) if isinstance(it, dict) else None
+                    try:
+                        vals.append(max(0.0, float(c if c is not None else 0)))
+                    except (TypeError, ValueError):
+                        vals.append(0.0)
+                if round(sum(vals)) == 100:
+                    continue
+                for it, nv in zip(items, _largest_remainder_round(vals, 100)):
+                    if isinstance(it, dict):
+                        m = as_map(it.get(key, 0))
+                        if m.get(rs) != nv:
+                            m[rs] = nv
+                            changed = True
+                        it[key] = m
             return
         vals = []
         for it in items:
@@ -1707,6 +1882,21 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
                 fixed_content["products"] = orig_products
             else:
                 fixed_content.pop("products", None)
+
+        # Curation-safety: `clips` is machine-verified film-study data excluded from the
+        # AI response contract (all categories). Restore root + role-nested arrays verbatim.
+        if isinstance(original_data, dict):
+            n_clips = restore_clips(original_data, fixed_content)
+            restore_mc(original_data, fixed_content)  # curated one-line MC re-merge
+            if n_clips:
+                tprint(f"{tag}Restored {n_clips} curated clips array(s)")
+
+        # Curation-safety (Q3): attempt_probability is panel-calibrated occurrence data —
+        # restore the original (possibly gi/no-gi divergent) values by transition name.
+        if category == "Positions" and isinstance(original_data, dict):
+            n_restored = restore_attempt_probabilities(original_data, fixed_content)
+            if n_restored:
+                tprint(f"{tag}Restored {n_restored} calibrated attempt_probability value(s)")
 
         # Curation-safety (2D): auto-normalize probabilities to sum exactly 100 instead
         # of failing/retrying on a near-miss. Preserves Claude's relative weighting and

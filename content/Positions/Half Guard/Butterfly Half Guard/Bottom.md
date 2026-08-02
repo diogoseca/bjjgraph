@@ -21,37 +21,37 @@ description: "Master bottom butterfly half guard - hybrid position combining but
     {
       "@type": "HowToStep",
       "name": "Execute 100% Sweep",
-      "text": "From this position, attempt 100% Sweep. This technique is attempted in 36% of exchanges from this position.",
+      "text": "From this position, attempt 100% Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master bottom butterfly half guard - hybrid position combining but
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Half Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelo Garcia Short Hook Sweep",
+      "description": "Butterfly Half Guard (Bottom) film study: Marcelo Garcia Short Hook Sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MlMwtCvfYlQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MlMwtCvfYlQ",
+      "url": "https://www.youtube.com/watch?v=MlMwtCvfYlQ",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcelo Garcia Butterfly Sweep",
+      "description": "Butterfly Half Guard (Bottom) film study: Marcelo Garcia Butterfly Sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
+      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Butterfly Hook Back Take from Half Guard",
+      "description": "Butterfly Half Guard (Bottom) film study: Butterfly Hook Back Take from Half Guard, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WoSyrVZ1VvY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WoSyrVZ1VvY",
+      "url": "https://www.youtube.com/watch?v=WoSyrVZ1VvY",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +214,42 @@ From bottom butterfly half guard, the practitioner has access to multiple high-p
 Success in butterfly half guard bottom requires mastering several key technical elements: maintaining active upward pressure through the butterfly hook, establishing and retaining upper body control through underhooks or collar ties, preserving seated or semi-reclined posture to prevent being flattened, and constantly adjusting hip angles to optimize sweep mechanics. The position demands active engagement rather than passive maintenance - the bottom player must continuously threaten attacks to keep the opponent reactive and prevent them from settling into strong defensive positions or initiating their own passing sequences.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Half Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MlMwtCvfYlQ)
+
+<p class="clip-credit"><strong>Marcelo Garcia Short Hook Sweep</strong> — taught by Marcelo Garcia · 0:57 · <a href="https://www.youtube.com/watch?v=MlMwtCvfYlQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
+
+<p class="clip-credit"><strong>Marcelo Garcia Butterfly Sweep</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WoSyrVZ1VvY)
+
+<p class="clip-credit"><strong>Butterfly Hook Back Take from Half Guard</strong> — taught by Procel BJJ · 0:55 · <a href="https://www.youtube.com/watch?v=WoSyrVZ1VvY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

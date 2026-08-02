@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Recovery from Failed Sweep is the transitional skill of converting a stuffed open-guard sweep into an immediate scramble, using residual momentum and retained grips to fight back toward a standing or top position instead of resettling into guard.",
   "overview": "Recovery from Failed Sweep represents one of the most critical transitional skills in Brazilian Jiu-Jitsu, transforming what would otherwise be a wasted effort into a legitimate positional advancement opportunity. When a sweep attempt from open guard is partially defended or stuffed, the resulting chaos creates a narrow window where the guard player can redirect their momentum, build up from bottom position, and engage in a scramble for top control. Rather than simply accepting the failed sweep and resettling into guard, the experienced practitioner immediately transitions into scramble mode, using whatever momentum and connection remains to fight for a dominant position.\n\nThis technique bridges the gap between guard play and wrestling-based scrambling, requiring the practitioner to shift from a supine guard-playing mentality to an explosive, hip-driven wrestling approach within a fraction of a second. The key insight is that a sweep does not need to achieve a clean reversal to be effective. Even a partially successful sweep that creates enough displacement can be converted into a productive scramble. At the purple and brown belt level, the ability to chain failed sweeps into scrambles significantly increases overall sweep effectiveness, because opponents cannot simply defend the initial sweep and relax. Every sweep attempt carries the threat of a follow-up scramble, creating a compounding offensive pressure that forces defensive reactions from the top player throughout the exchange.\n\nThe scramble from failed sweep also serves as a critical mental framework. Practitioners who view sweep attempts as binary success-or-failure events miss the vast middle ground where partial sweeps generate positional chaos that favors the more prepared and decisive athlete. Developing this transitional skill transforms your entire guard game from a series of isolated sweep attempts into a continuous offensive chain where each technique flows into the next opportunity.",
   "conditions": [
@@ -235,38 +247,138 @@
     "flashcards": [
       {
         "question": "What is the most critical timing window for initiating the scramble after a sweep fails?",
-        "answer": "The scramble must be initiated within 1-2 seconds of recognizing the sweep failure. Beyond this window, the opponent recovers their base and establishes stable defensive positioning that makes the scramble significantly harder. The momentum from the original sweep attempt dissipates rapidly, and the opponent's weight redistributes to counter any follow-up. Immediate action while the opponent is still adjusting from their sweep defense is essential for success."
+        "answer": "The scramble must be initiated within 1-2 seconds of recognizing the sweep failure. Beyond this window, the opponent recovers their base and establishes stable defensive positioning that makes the scramble significantly harder. The momentum from the original sweep attempt dissipates rapidly, and the opponent's weight redistributes to counter any follow-up. Immediate action while the opponent is still adjusting from their sweep defense is essential for success.",
+        "answer_line": "Act within 1-2 seconds",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to settle",
+            "Reset guard before moving"
+          ],
+          "trap": [
+            "Stall to catch your breath"
+          ]
+        }
       },
       {
         "question": "Your opponent defends your scissor sweep by posting their hand wide - how do you transition to a scramble?",
-        "answer": "When your opponent posts their hand against your scissor sweep, their weight shifts laterally and their base becomes temporarily compromised on the posting side. Redirect your momentum by turning toward the posting side, maintaining your collar grip, and using your bottom leg to push off the mat while your top leg disengages from the scissor position. Come to your knees on the posting side where the opponent has committed their hand to the mat, giving you an underhook opportunity since their posting arm cannot defend it simultaneously."
+        "answer": "When your opponent posts their hand against your scissor sweep, their weight shifts laterally and their base becomes temporarily compromised on the posting side. Redirect your momentum by turning toward the posting side, maintaining your collar grip, and using your bottom leg to push off the mat while your top leg disengages from the scissor position. Come to your knees on the posting side where the opponent has committed their hand to the mat, giving you an underhook opportunity since their posting arm cannot defend it simultaneously.",
+        "answer_line": "Turn into posted hand, underhook",
+        "distractors": {
+          "plausible": [
+            "Push straight through the post",
+            "Continue original sweep direction"
+          ],
+          "trap": [
+            "Release collar, chase the leg"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize maintaining when transitioning from failed sweep to scramble?",
-        "answer": "The collar grip is the highest-priority grip to maintain because it provides control over the opponent's posture, prevents them from creating distance, and gives you a pulling handle to assist your build-up to knees. If the collar grip is lost, a sleeve grip or wrist control allows you to prevent them from posting or framing against your scramble entry. The worst scenario is losing all upper body grips, which leaves only leg hooks for connection and makes building up against a prepared opponent extremely difficult."
+        "answer": "The collar grip is the highest-priority grip to maintain because it provides control over the opponent's posture, prevents them from creating distance, and gives you a pulling handle to assist your build-up to knees. If the collar grip is lost, a sleeve grip or wrist control allows you to prevent them from posting or framing against your scramble entry. The worst scenario is losing all upper body grips, which leaves only leg hooks for connection and makes building up against a prepared opponent extremely difficult.",
+        "answer_line": "Collar grip first",
+        "distractors": {
+          "plausible": [
+            "Sleeve grip is top priority",
+            "Pant grip is top priority"
+          ],
+          "trap": [
+            "Let go, grab both ankles"
+          ]
+        }
       },
       {
         "question": "How does the direction of your failed sweep affect the optimal scramble entry angle?",
-        "answer": "The scramble entry should redirect perpendicular to the original sweep direction rather than continuing to push the same way. If the sweep was lateral like a scissor sweep, redirect forward or backward. If the sweep was forward like a hip bump, redirect laterally. This direction change exploits the fact that the opponent's defensive weight is set against the original vector, and the perpendicular redirect catches them with unbalanced weight distribution, creating a mechanical advantage for your scramble entry."
+        "answer": "The scramble entry should redirect perpendicular to the original sweep direction rather than continuing to push the same way. If the sweep was lateral like a scissor sweep, redirect forward or backward. If the sweep was forward like a hip bump, redirect laterally. This direction change exploits the fact that the opponent's defensive weight is set against the original vector, and the perpendicular redirect catches them with unbalanced weight distribution, creating a mechanical advantage for your scramble entry.",
+        "answer_line": "Redirect perpendicular to sweep",
+        "distractors": {
+          "plausible": [
+            "Push harder same direction",
+            "Redirect opposite same line"
+          ],
+          "trap": [
+            "Stand up and abandon control"
+          ]
+        }
       },
       {
         "question": "What is the role of the near-side underhook during the scramble from failed sweep?",
-        "answer": "The underhook is the primary positional weapon during the scramble because it provides three critical advantages: directional control over the opponent's upper body movement, prevention of the crossface that would flatten you back to bottom, and a platform for completing the position reversal to top. The near-side underhook should be attacked immediately upon building up to knees. Without the underhook, the opponent can drive a crossface and flatten you back to guard, negating the entire scramble attempt."
+        "answer": "The underhook is the primary positional weapon during the scramble because it provides three critical advantages: directional control over the opponent's upper body movement, prevention of the crossface that would flatten you back to bottom, and a platform for completing the position reversal to top. The near-side underhook should be attacked immediately upon building up to knees. Without the underhook, the opponent can drive a crossface and flatten you back to guard, negating the entire scramble attempt.",
+        "answer_line": "Blocks crossface, powers reversal",
+        "distractors": {
+          "plausible": [
+            "Mainly for takedown power",
+            "Used to control the legs"
+          ],
+          "trap": [
+            "Trade it for a collar tie"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls back when you attempt to scramble up after a failed de la riva sweep - what adjustment should you make?",
-        "answer": "When the opponent sprawls, their hips drop back and their weight drives forward through their hands and chest. Rather than fighting the sprawl directly, redirect underneath for a deep half guard entry by threading your near shoulder under their hip line while they are committed forward. Alternatively, if you maintained collar control, snap them forward as they sprawl to pull their weight over your body and continue the sweep from the new angle. The sprawl actually removes their base from underneath them if you can redirect the forward momentum below their center of gravity."
+        "answer": "When the opponent sprawls, their hips drop back and their weight drives forward through their hands and chest. Rather than fighting the sprawl directly, redirect underneath for a deep half guard entry by threading your near shoulder under their hip line while they are committed forward. Alternatively, if you maintained collar control, snap them forward as they sprawl to pull their weight over your body and continue the sweep from the new angle. The sprawl actually removes their base from underneath them if you can redirect the forward momentum below their center of gravity.",
+        "answer_line": "Deep half or snap their collar",
+        "distractors": {
+          "plausible": [
+            "Drive your head into their chest",
+            "Stand tall to break free"
+          ],
+          "trap": [
+            "Roll to your knees and turtle"
+          ]
+        }
       },
       {
         "question": "What are the consequences of attempting the scramble without maintaining any grip connection to your opponent?",
-        "answer": "Without grip connection, the opponent can simply disengage, step back, and reset to their preferred standing or combat base passing position with full composure. You expend significant energy building up to your knees only to face a fully reset opponent with superior positioning and fresh passing grips. The grip connection serves as a tether that forces the opponent to deal with your scramble attempt rather than backing away. Gripless scramble attempts rarely succeed because the opponent retains complete freedom of movement and can choose when and how to re-engage."
+        "answer": "Without grip connection, the opponent can simply disengage, step back, and reset to their preferred standing or combat base passing position with full composure. You expend significant energy building up to your knees only to face a fully reset opponent with superior positioning and fresh passing grips. The grip connection serves as a tether that forces the opponent to deal with your scramble attempt rather than backing away. Gripless scramble attempts rarely succeed because the opponent retains complete freedom of movement and can choose when and how to re-engage.",
+        "answer_line": "Opponent resets to base cleanly",
+        "distractors": {
+          "plausible": [
+            "Opponent gets swept anyway",
+            "You gain a scramble advantage"
+          ],
+          "trap": [
+            "Shoot in for a takedown blind"
+          ]
+        }
       },
       {
         "question": "How should you adjust your scramble approach when your opponent is significantly larger or stronger?",
-        "answer": "Against larger opponents, speed and angle creation become paramount over power-based exchanges. Prioritize getting to your knees quickly using technical stand-up mechanics rather than extended clinch battles where size advantages compound over time. Look for immediate back exposure rather than face-to-face scrambles where the larger opponent can use their weight. Use direction changes and level changes more aggressively to negate strength advantages, and consider transitioning to leg entanglements from the scramble if upper body exchanges are being dominated by size."
+        "answer": "Against larger opponents, speed and angle creation become paramount over power-based exchanges. Prioritize getting to your knees quickly using technical stand-up mechanics rather than extended clinch battles where size advantages compound over time. Look for immediate back exposure rather than face-to-face scrambles where the larger opponent can use their weight. Use direction changes and level changes more aggressively to negate strength advantages, and consider transitioning to leg entanglements from the scramble if upper body exchanges are being dominated by size.",
+        "answer_line": "Speed, angles, attack the back",
+        "distractors": {
+          "plausible": [
+            "Match grip strength, out-muscle",
+            "Slow down, control the pace"
+          ],
+          "trap": [
+            "Engage in a prolonged clinch battle"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Scrambles involve rapid direction changes and explosive movements that stress the neck, shoulders, and knees. Avoid posting on fully extended arms during direction changes as this risks wrist and elbow hyperextension injuries. During training, communicate with your partner when transitioning through scramble positions to prevent accidental head-to-head collisions. Progress gradually from slow drilling to full-speed scramble work to build the proprioceptive awareness needed for safe execution. Be particularly cautious of knee torque when legs become entangled during the transition, and tap immediately if any joint is caught at an unnatural angle."
+    "safety_considerations": "Scrambles involve rapid direction changes and explosive movements that stress the neck, shoulders, and knees. Avoid posting on fully extended arms during direction changes as this risks wrist and elbow hyperextension injuries. During training, communicate with your partner when transitioning through scramble positions to prevent accidental head-to-head collisions. Progress gradually from slow drilling to full-speed scramble work to build the proprioceptive awareness needed for safe execution. Be particularly cautious of knee torque when legs become entangled during the transition, and tap immediately if any joint is caught at an unnatural angle.",
+    "clips": [
+      {
+        "id": "GC0tdc01ASI",
+        "title": "Single leg reversal off a failed attack",
+        "by": "Foundation Chicago",
+        "vertical": false,
+        "channel": "Foundation Chicago",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "495HaYBg-mY",
+        "title": "Single leg reversal from turtle",
+        "by": "Brian",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 36,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Recovery from Failed Sweep Defender",
@@ -352,19 +464,59 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive action when you recognize your opponent initiating a scramble after their failed sweep?",
-        "answer": "Immediately drive your crossface through their jawline to the far side while dropping your hips low and applying forward sprawl pressure. The crossface prevents the underhook that powers the entire scramble entry sequence. Without the underhook, the opponent cannot build a stable base to their knees and their scramble attempt collapses. Timing is critical because the crossface must be established before the opponent turns fully to their side and threads their arm for the underhook."
+        "answer": "Immediately drive your crossface through their jawline to the far side while dropping your hips low and applying forward sprawl pressure. The crossface prevents the underhook that powers the entire scramble entry sequence. Without the underhook, the opponent cannot build a stable base to their knees and their scramble attempt collapses. Timing is critical because the crossface must be established before the opponent turns fully to their side and threads their arm for the underhook.",
+        "answer_line": "Crossface to kill the underhook",
+        "distractors": {
+          "plausible": [
+            "Sprawl and grab a leg",
+            "Post hands and stand up"
+          ],
+          "trap": [
+            "Let them build, then crossface"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when your opponent begins building up from bottom position?",
-        "answer": "Drop your hips low and drive weight forward through your chest and shoulder into the opponent's upper body, pressing diagonally downward toward the mat rather than straight down. Avoid having your weight centered over your own knees, which creates space underneath for deep half guard entries or underhook access. The goal is to compress the space between the opponent and the mat, making it mechanically impossible for them to build up. Keep your base wide enough to prevent being tipped if they redirect the scramble laterally."
+        "answer": "Drop your hips low and drive weight forward through your chest and shoulder into the opponent's upper body, pressing diagonally downward toward the mat rather than straight down. Avoid having your weight centered over your own knees, which creates space underneath for deep half guard entries or underhook access. The goal is to compress the space between the opponent and the mat, making it mechanically impossible for them to build up. Keep your base wide enough to prevent being tipped if they redirect the scramble laterally.",
+        "answer_line": "Drop hips, drive diagonal weight",
+        "distractors": {
+          "plausible": [
+            "Stack weight straight down",
+            "Weight centered over own knees"
+          ],
+          "trap": [
+            "Stand tall, disengage upward"
+          ]
+        }
       },
       {
         "question": "Your opponent has established an underhook during the scramble entry - what is your recovery sequence?",
-        "answer": "First, immediately overhook the underhooking arm with a deep whizzer to prevent them from driving through to top position. Second, circle your hips away from the underhook side to reduce their leverage and create a less favorable angle for their drive. Third, use the whizzer to pull their elbow above their shoulder, weakening the underhook structurally. Fourth, drive your crossface back through as you strip the underhook. If the underhook is too deep to strip, switch to a front headlock position by circling toward their head side and applying a snap-down."
+        "answer": "First, immediately overhook the underhooking arm with a deep whizzer to prevent them from driving through to top position. Second, circle your hips away from the underhook side to reduce their leverage and create a less favorable angle for their drive. Third, use the whizzer to pull their elbow above their shoulder, weakening the underhook structurally. Fourth, drive your crossface back through as you strip the underhook. If the underhook is too deep to strip, switch to a front headlock position by circling toward their head side and applying a snap-down.",
+        "answer_line": "Whizzer, circle away, strip it",
+        "distractors": {
+          "plausible": [
+            "Push through with more force",
+            "Grab a leg to counter"
+          ],
+          "trap": [
+            "Turtle up and stall"
+          ]
+        }
       },
       {
         "question": "When is it strategically better to disengage and reset rather than fighting the scramble from top?",
-        "answer": "Disengage when the scramble has reached a neutral position where neither player has clear advantage and continued fighting risks conceding a worse position than a clean reset. If the opponent has achieved a solid base with good head position and a deep underhook, fighting the scramble from a compromised angle is likely to result in losing top position entirely. A clean reset to standing allows you to re-engage from your preferred passing stance with full posture and base. The typical decision point is 2-3 seconds into a scramble where the opponent has matched your intensity."
+        "answer": "Disengage when the scramble has reached a neutral position where neither player has clear advantage and continued fighting risks conceding a worse position than a clean reset. If the opponent has achieved a solid base with good head position and a deep underhook, fighting the scramble from a compromised angle is likely to result in losing top position entirely. A clean reset to standing allows you to re-engage from your preferred passing stance with full posture and base. The typical decision point is 2-3 seconds into a scramble where the opponent has matched your intensity.",
+        "answer_line": "Disengage at neutral, reset stance",
+        "distractors": {
+          "plausible": [
+            "Always fight to the finish",
+            "Never concede, force it"
+          ],
+          "trap": [
+            "Dive for a submission blind"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -387,6 +539,26 @@
         "phase": "Phase 4: Competition Simulation",
         "focus": "Full-speed scramble defense under match conditions",
         "description": "Live sparring rounds where the training partner is specifically tasked with attempting sweep-to-scramble chains from open guard. Practice reading the transitions under full competitive intensity with scoring and time pressure. Review rounds to identify patterns in successful and failed defensive responses."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZAOF5qNApJ0",
+        "title": "Counters to a failed butterfly sweep",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0WGfhsAIZeg",
+        "title": "Half guard sweep vs freeing the trapped leg",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 112,
+        "verified": "2026-07-16"
       }
     ]
   }

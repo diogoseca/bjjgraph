@@ -176,6 +176,43 @@ description: "Learn to attack with the calf slicer from Carni. Step-by-step comp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Carni (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Calf slicers from every entanglement",
+      "description": "Calf Slicer from Carni (Attacker) film study: Calf slicers from every entanglement, taught by Energia Martial Arts coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9EwRjvWPBZE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9EwRjvWPBZE",
+      "url": "https://www.youtube.com/watch?v=9EwRjvWPBZE",
+      "creator": { "@type": "Person", "name": "Energia Martial Arts coach" },
+      "duration": "PT389S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Calf slicer mechanics and finishing detail",
+      "description": "Calf Slicer from Carni (Attacker) film study: Calf slicer mechanics and finishing detail, taught by Cut to the Bone coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1qIYj8RLBWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1qIYj8RLBWY",
+      "url": "https://www.youtube.com/watch?v=1qIYj8RLBWY",
+      "creator": { "@type": "Person", "name": "Cut to the Bone coach" },
+      "duration": "PT312S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking with the calf slicer from Carni requires reading the opponent's defens
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Carni (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9EwRjvWPBZE)
+
+<p class="clip-credit"><strong>Calf slicers from every entanglement</strong> — taught by Energia Martial Arts coach · 6:29 · <a href="https://www.youtube.com/watch?v=9EwRjvWPBZE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1qIYj8RLBWY)
+
+<p class="clip-credit"><strong>Calf slicer mechanics and finishing detail</strong> — taught by Cut to the Bone coach · 5:12 · <a href="https://www.youtube.com/watch?v=1qIYj8RLBWY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

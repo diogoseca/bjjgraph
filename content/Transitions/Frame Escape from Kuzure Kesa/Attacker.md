@@ -174,6 +174,43 @@ description: "Step-by-step guide to executing the frame escape from Kuzure Kesa-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame Escape from Kuzure Kesa (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa gatame pressure defense using proper framing",
+      "description": "Frame Escape from Kuzure Kesa (Attacker) film study: Kesa gatame pressure defense using proper framing, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Scarf hold escape from kesa gatame",
+      "description": "Frame Escape from Kuzure Kesa (Attacker) film study: Scarf hold escape from kesa gatame, taught by Bruce Fowler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2okf5X17jeg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2okf5X17jeg",
+      "url": "https://www.youtube.com/watch?v=2okf5X17jeg",
+      "creator": { "@type": "Person", "name": "Bruce Fowler" },
+      "duration": "PT230S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the frame escape from Kuzure Kesa-Gatame requires understanding the pr
 **From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame Escape from Kuzure Kesa (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa gatame pressure defense using proper framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2okf5X17jeg)
+
+<p class="clip-credit"><strong>Scarf hold escape from kesa gatame</strong> — taught by Bruce Fowler · 3:50 · <a href="https://www.youtube.com/watch?v=2okf5X17jeg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

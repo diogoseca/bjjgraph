@@ -148,6 +148,54 @@ description: "How to defend against Buggy Choke to Front Headlock in BJJ. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke to Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front Headlock Defense - Farside Peek Out",
+      "description": "Buggy Choke to Front Headlock (Defender) film study: Front Headlock Defense - Farside Peek Out, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lV4cgzaVhb8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lV4cgzaVhb8",
+      "url": "https://www.youtube.com/watch?v=lV4cgzaVhb8",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sucker Drag Defense Against The Front Headlock",
+      "description": "Buggy Choke to Front Headlock (Defender) film study: Sucker Drag Defense Against The Front Headlock, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c8N4F3EgOZk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c8N4F3EgOZk",
+      "url": "https://www.youtube.com/watch?v=c8N4F3EgOZk",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front head and arm escape - duck under to turtle",
+      "description": "Buggy Choke to Front Headlock (Defender) film study: Front head and arm escape - duck under to turtle, taught by United Fighter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynXB4QKxzOs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynXB4QKxzOs",
+      "url": "https://www.youtube.com/watch?v=ynXB4QKxzOs",
+      "creator": { "@type": "Person", "name": "United Fighter" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ From a systemic perspective, the most successful defensive approach treats the t
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke to Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lV4cgzaVhb8)
+
+<p class="clip-credit"><strong>Front Headlock Defense - Farside Peek Out</strong> — taught by Procel BJJ · 1:04 · <a href="https://www.youtube.com/watch?v=lV4cgzaVhb8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c8N4F3EgOZk)
+
+<p class="clip-credit"><strong>Sucker Drag Defense Against The Front Headlock</strong> — taught by Procel BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=c8N4F3EgOZk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynXB4QKxzOs)
+
+<p class="clip-credit"><strong>Front head and arm escape - duck under to turtle</strong> — taught by United Fighter · 0:58 · <a href="https://www.youtube.com/watch?v=ynXB4QKxzOs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

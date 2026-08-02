@@ -140,6 +140,43 @@ description: "How to prevent and defend the Transition to Shoulder of Justice fr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Shoulder of Justice (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Elbow escape and shrimp to replace guard",
+      "description": "Side Control to Shoulder of Justice (Defender) film study: Elbow escape and shrimp to replace guard, taught by Champions Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/myIsFYohrNA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/myIsFYohrNA",
+      "url": "https://www.youtube.com/watch?v=myIsFYohrNA",
+      "creator": { "@type": "Person", "name": "Champions Jiu Jitsu coach" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control bottom escape fundamentals",
+      "description": "Side Control to Shoulder of Justice (Defender) film study: Side control bottom escape fundamentals, taught by Cane Prevost.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sdV37h_k8Wg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sdV37h_k8Wg",
+      "url": "https://www.youtube.com/watch?v=sdV37h_k8Wg",
+      "creator": { "@type": "Person", "name": "Cane Prevost" },
+      "duration": "PT268S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the Transition to Shoulder of Justice requires recognizing the attack 
 **Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Shoulder of Justice (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=myIsFYohrNA)
+
+<p class="clip-credit"><strong>Elbow escape and shrimp to replace guard</strong> — taught by Champions Jiu Jitsu coach · 0:32 · <a href="https://www.youtube.com/watch?v=myIsFYohrNA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sdV37h_k8Wg)
+
+<p class="clip-credit"><strong>Side control bottom escape fundamentals</strong> — taught by Cane Prevost · 4:28 · <a href="https://www.youtube.com/watch?v=sdV37h_k8Wg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

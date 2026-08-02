@@ -34,6 +34,43 @@ description: "Master the toe hold from cross ashi-garami with grip mechanics, ro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Cross Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Craig Jones Toe Hold Crossover",
+      "description": "Toe Hold from Cross Ashi-Garami film study: Craig Jones Toe Hold Crossover, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Trick to Fix Your Cross Ashi Leg Lock",
+      "description": "Toe Hold from Cross Ashi-Garami film study: Trick to Fix Your Cross Ashi Leg Lock, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nVfqMfVpTVk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nVfqMfVpTVk",
+      "url": "https://www.youtube.com/watch?v=nVfqMfVpTVk",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 **Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Cross Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Craig Jones Toe Hold Crossover</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nVfqMfVpTVk)
+
+<p class="clip-credit"><strong>Trick to Fix Your Cross Ashi Leg Lock</strong> — taught by Factory Fresh Jiu Jitsu · 0:55 · <a href="https://www.youtube.com/watch?v=nVfqMfVpTVk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -238,11 +303,11 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Aoki Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Primary starting position for this toe hold variant
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Closely related leg entanglement with similar toe hold mechanics

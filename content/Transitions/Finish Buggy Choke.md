@@ -34,6 +34,54 @@ description: "Complete the Buggy Choke submission from turtle top. Master grip t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Finish Buggy Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The buggy choke from bottom side control",
+      "description": "Finish Buggy Choke film study: The buggy choke from bottom side control, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-b7Avb1x7g8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-b7Avb1x7g8",
+      "url": "https://www.youtube.com/watch?v=-b7Avb1x7g8",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Buggy choke setup and finish",
+      "description": "Finish Buggy Choke film study: Buggy choke setup and finish, taught by Warrior Camp.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b8WaAW1Q3po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b8WaAW1Q3po",
+      "url": "https://www.youtube.com/watch?v=b8WaAW1Q3po",
+      "creator": { "@type": "Person", "name": "Warrior Camp" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Fixing common buggy choke mistakes",
+      "description": "Finish Buggy Choke film study: Fixing common buggy choke mistakes, taught by Yoga for BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0VDUwuyT6N4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0VDUwuyT6N4",
+      "url": "https://www.youtube.com/watch?v=0VDUwuyT6N4",
+      "creator": { "@type": "Person", "name": "Yoga for BJJ" },
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The finishing mechanics distinguish this technique from the positional control p
 Strategically, committing to the finish requires reading opponent defensive reactions. Static opponents who focus purely on grip fighting without movement create ideal finishing opportunities. However, opponents who move aggressively toward back escapes or sitting to guard may offer better positional advancement opportunities than forcing a contested choke. The finish should be executed with progressive pressure rather than explosive yanking, maximizing technical efficiency while minimizing energy expenditure and reducing injury risk to training partners.
 
 **From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 20%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Finish Buggy Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-b7Avb1x7g8)
+
+<p class="clip-credit"><strong>The buggy choke from bottom side control</strong> — taught by ZombieProofBJJ · 1:01 · <a href="https://www.youtube.com/watch?v=-b7Avb1x7g8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=b8WaAW1Q3po)
+
+<p class="clip-credit"><strong>Buggy choke setup and finish</strong> — taught by Warrior Camp · 0:36 · <a href="https://www.youtube.com/watch?v=b8WaAW1Q3po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0VDUwuyT6N4)
+
+<p class="clip-credit"><strong>Fixing common buggy choke mistakes</strong> — taught by Yoga for BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=0VDUwuyT6N4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -76,7 +160,7 @@ Strategically, committing to the finish requires reading opponent defensive reac
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Buggy Choke]] | 58% |
+| Success | [[Buggy Choke from Half Guard]] | 58% |
 | Failure | [[Positions/Buggy Choke]] | 30% |
 | Counter | [[Positions/Half Guard]] | 12% |
 
@@ -245,7 +329,7 @@ Finish Buggy Choke represents the terminal attack option from the buggy choke co
 
 - [[Positions/Twister Control/Truck]] - Transition option when opponent granby rolls
 
-- [[Transitions/Darce Choke]] - Alternative choke when opponent turns into attack
+- [[Submissions/Darce Choke]] - Alternative choke when opponent turns into attack
 
 - [[Transitions/Anaconda Choke]] - Related front headlock submission option
 

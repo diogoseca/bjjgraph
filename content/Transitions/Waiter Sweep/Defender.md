@@ -148,6 +148,54 @@ description: "How to defend against the Waiter Sweep in BJJ. Recognition cues, d
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Waiter Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the butterfly sweep with hip switching",
+      "description": "Waiter Sweep (Defender) film study: Defending the butterfly sweep with hip switching, taught by Trujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LT6RXdUY-VQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LT6RXdUY-VQ",
+      "url": "https://www.youtube.com/watch?v=LT6RXdUY-VQ",
+      "creator": { "@type": "Person", "name": "Trujitsu" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Four levels of sweep defense",
+      "description": "Waiter Sweep (Defender) film study: Four levels of sweep defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Simple counters to a failed butterfly sweep",
+      "description": "Waiter Sweep (Defender) film study: Simple counters to a failed butterfly sweep, taught by Oneonta Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZAOF5qNApJ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZAOF5qNApJ0",
+      "url": "https://www.youtube.com/watch?v=ZAOF5qNApJ0",
+      "creator": { "@type": "Person", "name": "Oneonta Jiu-Jitsu" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Waiter Sweep requires understanding the biomechanical sequence the
 **Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Waiter Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LT6RXdUY-VQ)
+
+<p class="clip-credit"><strong>Defending the butterfly sweep with hip switching</strong> — taught by Trujitsu · 1:08 · <a href="https://www.youtube.com/watch?v=LT6RXdUY-VQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZAOF5qNApJ0)
+
+<p class="clip-credit"><strong>Simple counters to a failed butterfly sweep</strong> — taught by Oneonta Jiu-Jitsu · 1:38 · <a href="https://www.youtube.com/watch?v=ZAOF5qNApJ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

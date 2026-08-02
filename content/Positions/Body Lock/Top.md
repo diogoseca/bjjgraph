@@ -21,7 +21,7 @@ description: "Master body lock control from top position. Dominant standing cont
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master body lock control from top position. Dominant standing cont
     {
       "@type": "HowToStep",
       "name": "Execute Tani Otoshi",
-      "text": "From this position, attempt Tani Otoshi. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Tani Otoshi. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kosoto Gake",
-      "text": "From this position, attempt Kosoto Gake. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Kosoto Gake. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mat Return to Back Mount",
-      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Harai Goshi",
-      "text": "From this position, attempt Harai Goshi. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Harai Goshi. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master body lock control from top position. Dominant standing cont
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Lock (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Nicky Rod\u0027s body lock pass demo",
+      "description": "Body Lock (Top) film study: Nicky Rod\u0027s body lock pass demo, taught by Professor Buck.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sztjmLZYxIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sztjmLZYxIQ",
+      "url": "https://www.youtube.com/watch?v=sztjmLZYxIQ",
+      "creator": { "@type": "Person", "name": "Professor Buck" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body lock takedown from standing",
+      "description": "Body Lock (Top) film study: Body lock takedown from standing, taught by Sean Sherk.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/91Fgpe788no/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/91Fgpe788no",
+      "url": "https://www.youtube.com/watch?v=91Fgpe788no",
+      "creator": { "@type": "Person", "name": "Sean Sherk" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Nicky Rod explains his body lock pass",
+      "description": "Body Lock (Top) film study: Nicky Rod explains his body lock pass, taught by Nicky Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/spB8qALp5rA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/spB8qALp5rA",
+      "url": "https://www.youtube.com/watch?v=spB8qALp5rA",
+      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
+      "duration": "PT221S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The effectiveness of the body lock stems from its biomechanical superiority - by
 Modern no-gi competition has elevated the body lock to a primary offensive weapon, with elite competitors using systematic approaches to establish this control and transition to back control or dominant ground positions. The position requires proper execution of grip mechanics, hip pressure, chest connection, and immediate attack timing to maximize effectiveness before opponents can establish defensive measures.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Lock (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sztjmLZYxIQ)
+
+<p class="clip-credit"><strong>Nicky Rod&#39;s body lock pass demo</strong> — taught by Professor Buck · 0:38 · <a href="https://www.youtube.com/watch?v=sztjmLZYxIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=91Fgpe788no)
+
+<p class="clip-credit"><strong>Body lock takedown from standing</strong> — taught by Sean Sherk · 1:13 · <a href="https://www.youtube.com/watch?v=91Fgpe788no" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=spB8qALp5rA)
+
+<p class="clip-credit"><strong>Nicky Rod explains his body lock pass</strong> — taught by Nicky Rodriguez · 3:41 · <a href="https://www.youtube.com/watch?v=spB8qALp5rA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

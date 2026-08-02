@@ -174,6 +174,54 @@ description: "How to execute Reverse Heel Hook Counter in BJJ. Attacking perspec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Heel Hook Counter (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside heel hook counter to inside heel hook",
+      "description": "Reverse Heel Hook Counter (Attacker) film study: Outside heel hook counter to inside heel hook, taught by Holy Grail BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
+      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending and countering the inside heel hook",
+      "description": "Reverse Heel Hook Counter (Attacker) film study: Defending and countering the inside heel hook, taught by Jahred Dell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DF2AYLPbeHc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DF2AYLPbeHc",
+      "url": "https://www.youtube.com/watch?v=DF2AYLPbeHc",
+      "creator": { "@type": "Person", "name": "Jahred Dell" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Counter outside ashi by rolling to 50/50 heel hook",
+      "description": "Reverse Heel Hook Counter (Attacker) film study: Counter outside ashi by rolling to 50/50 heel hook, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/up34T04wt_U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/up34T04wt_U",
+      "url": "https://www.youtube.com/watch?v=up34T04wt_U",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT107S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The psychological dimension of this counter is significant. Opponents who have b
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Heel Hook Counter (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=clVAHxgRadE)
+
+<p class="clip-credit"><strong>Outside heel hook counter to inside heel hook</strong> — taught by Holy Grail BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DF2AYLPbeHc)
+
+<p class="clip-credit"><strong>Defending and countering the inside heel hook</strong> — taught by Jahred Dell · 1:10 · <a href="https://www.youtube.com/watch?v=DF2AYLPbeHc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=up34T04wt_U)
+
+<p class="clip-credit"><strong>Counter outside ashi by rolling to 50/50 heel hook</strong> — taught by Robyn Sheehan · 1:47 · <a href="https://www.youtube.com/watch?v=up34T04wt_U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -246,7 +330,7 @@ The psychological dimension of this counter is significant. Opponents who have b
 |--------|----------|-------------|
 | Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 50% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
-| Counter | [[Transitions/Heel Hook]] | 20% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -257,7 +341,7 @@ The psychological dimension of this counter is significant. Opponents who have b
 
 <p class="section-subtitle">How might your opponent counter Reverse Heel Hook Counter?</p>
 
-- **Opponent accelerates their heel hook finish before you can establish counter position, forcing you to tap or accept injury** (Effectiveness: High) - Your Response: If opponent accelerates, abandon counter and prioritize heel defense. Resume systematic escape rather than racing to a losing exchange. → Leads to [[Transitions/Heel Hook]]
+- **Opponent accelerates their heel hook finish before you can establish counter position, deepening into saddle control as you defend** (Effectiveness: High) - Your Response: If opponent accelerates, abandon counter and prioritize heel defense. Concede position to saddle if needed rather than racing to a losing exchange. → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent withdraws attacking leg when sensing counter attempt, returning to neutral entanglement** (Effectiveness: Medium) - Your Response: Use their withdrawal momentum to continue your escape sequence or transition to single leg x-guard as they retract. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent transitions to saddle or honey hole before you establish inside position, deepening control** (Effectiveness: High) - Your Response: Recognize saddle transition early and switch to turtle escape or granby roll rather than forcing failed counter. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent posts with free leg and creates distance, preventing your counter-entanglement entry** (Effectiveness: Medium) - Your Response: Use their posting motion to create space for your own leg extraction, converting to escape rather than counter. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]

@@ -148,6 +148,54 @@ description: "Complete defensive guide against the knee slice pass from butterfl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Butterfly Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee slide recovery into butterfly sweep",
+      "description": "Knee Slice from Butterfly Half (Defender) film study: Knee slide recovery into butterfly sweep, taught by Italiano BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/86KseinKoSY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/86KseinKoSY",
+      "url": "https://www.youtube.com/watch?v=86KseinKoSY",
+      "creator": { "@type": "Person", "name": "Italiano BJJ" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the knee slice pass",
+      "description": "Knee Slice from Butterfly Half (Defender) film study: Countering the knee slice pass, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yiIHeo7NgsE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yiIHeo7NgsE",
+      "url": "https://www.youtube.com/watch?v=yiIHeo7NgsE",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee slice defense counter",
+      "description": "Knee Slice from Butterfly Half (Defender) film study: Knee slice defense counter, taught by A Day In A Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Da5PAZooedU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Da5PAZooedU",
+      "url": "https://www.youtube.com/watch?v=Da5PAZooedU",
+      "creator": { "@type": "Person", "name": "A Day In A Life" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the knee slice from butterfly half guard bottom centers on preserving 
 **Opponent's Starting Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Butterfly Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=86KseinKoSY)
+
+<p class="clip-credit"><strong>Knee slide recovery into butterfly sweep</strong> — taught by Italiano BJJ · 0:37 · <a href="https://www.youtube.com/watch?v=86KseinKoSY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yiIHeo7NgsE)
+
+<p class="clip-credit"><strong>Countering the knee slice pass</strong> — taught by Kohbukan Sisu · 0:58 · <a href="https://www.youtube.com/watch?v=yiIHeo7NgsE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Da5PAZooedU)
+
+<p class="clip-credit"><strong>Knee slice defense counter</strong> — taught by A Day In A Life · 1:26 · <a href="https://www.youtube.com/watch?v=Da5PAZooedU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

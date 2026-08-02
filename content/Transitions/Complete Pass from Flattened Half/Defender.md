@@ -140,6 +140,54 @@ description: "Defend the guard pass from flattened half guard. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Complete Pass from Flattened Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Complete Pass from Flattened Half (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering when flattened in half guard",
+      "description": "Complete Pass from Flattened Half (Defender) film study: Recovering when flattened in half guard, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NWie1oi3JSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NWie1oi3JSg",
+      "url": "https://www.youtube.com/watch?v=NWie1oi3JSg",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT274S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Whip down: avoid getting flattened in half guard",
+      "description": "Complete Pass from Flattened Half (Defender) film study: Whip down: avoid getting flattened in half guard, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xu_94V0uSBY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xu_94V0uSBY",
+      "url": "https://www.youtube.com/watch?v=Xu_94V0uSBY",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT215S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Complete Pass from Flattened Half Guard, you are in 
 **Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Complete Pass from Flattened Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NWie1oi3JSg)
+
+<p class="clip-credit"><strong>Recovering when flattened in half guard</strong> — taught by Inverted Gear · 4:34 · <a href="https://www.youtube.com/watch?v=NWie1oi3JSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xu_94V0uSBY)
+
+<p class="clip-credit"><strong>Whip down: avoid getting flattened in half guard</strong> — taught by Chosen Few BJJ · 3:35 · <a href="https://www.youtube.com/watch?v=Xu_94V0uSBY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

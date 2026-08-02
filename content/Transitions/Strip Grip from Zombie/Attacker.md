@@ -174,6 +174,43 @@ description: "Learn to systematically strip grips from the Zombie lockdown posit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Strip Grip from Zombie (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two rubber guard grip details in one minute",
+      "description": "Strip Grip from Zombie (Attacker) film study: Two rubber guard grip details in one minute, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cY1xCIx-9-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cY1xCIx-9-I",
+      "url": "https://www.youtube.com/watch?v=cY1xCIx-9-I",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Eddie Bravo: Lockdown Strategies",
+      "description": "Strip Grip from Zombie (Attacker) film study: Eddie Bravo: Lockdown Strategies, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g0gKqgv_Bbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g0gKqgv_Bbc",
+      "url": "https://www.youtube.com/watch?v=g0gKqgv_Bbc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the Strip Grip from Zombie, your objective is to metho
 **From Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Strip Grip from Zombie (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cY1xCIx-9-I)
+
+<p class="clip-credit"><strong>Two rubber guard grip details in one minute</strong> — taught by Brandon Mccaghren · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g0gKqgv_Bbc)
+
+<p class="clip-credit"><strong>Eddie Bravo: Lockdown Strategies</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=g0gKqgv_Bbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

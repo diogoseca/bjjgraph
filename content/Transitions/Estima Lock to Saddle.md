@@ -34,6 +34,54 @@ description: "Learn Estima Lock to Saddle in BJJ. Backstep from footlock control
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock to Saddle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Randy roll entry into the saddle",
+      "description": "Estima Lock to Saddle film study: Randy roll entry into the saddle, taught by Greg Melita.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fQ8qh6az6_Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fQ8qh6az6_Y",
+      "url": "https://www.youtube.com/watch?v=fQ8qh6az6_Y",
+      "creator": { "@type": "Person", "name": "Greg Melita" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shoulder roll into cross ashi saddle",
+      "description": "Estima Lock to Saddle film study: Shoulder roll into cross ashi saddle, taught by bjj doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eRQVlYxFx1Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eRQVlYxFx1Y",
+      "url": "https://www.youtube.com/watch?v=eRQVlYxFx1Y",
+      "creator": { "@type": "Person", "name": "bjj doug" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "K guard entry to the saddle",
+      "description": "Estima Lock to Saddle film study: K guard entry to the saddle, taught by bjj doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KBkoWJtMeNA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KBkoWJtMeNA",
+      "url": "https://www.youtube.com/watch?v=KBkoWJtMeNA",
+      "creator": { "@type": "Person", "name": "bjj doug" },
+      "duration": "PT28S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The mechanical foundation of this transition relies on the backstep—a rotation
 Timing is critical for this transition. Executing too early abandons a potentially viable Estima Lock finish, while executing too late allows the opponent to extract their leg entirely or establish strong defensive frames. The optimal window occurs when you recognize the opponent's defense is working—their ankle rotation reduces your footlock pressure, their free leg threatens your balance, or their hip escape begins creating dangerous space. Reading these signals and immediately initiating the backstep preserves offensive momentum rather than losing the position entirely.
 
 **From Position**: [[Positions/Estima Lock Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock to Saddle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fQ8qh6az6_Y)
+
+<p class="clip-credit"><strong>Randy roll entry into the saddle</strong> — taught by Greg Melita · 0:26 · <a href="https://www.youtube.com/watch?v=fQ8qh6az6_Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eRQVlYxFx1Y)
+
+<p class="clip-credit"><strong>Shoulder roll into cross ashi saddle</strong> — taught by bjj doug · 0:42 · <a href="https://www.youtube.com/watch?v=eRQVlYxFx1Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KBkoWJtMeNA)
+
+<p class="clip-credit"><strong>K guard entry to the saddle</strong> — taught by bjj doug · 0:28 · <a href="https://www.youtube.com/watch?v=KBkoWJtMeNA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -231,7 +315,7 @@ The Estima Lock to Saddle transition sits at a critical junction in modern leg l
 ## Related Techniques
 
 
-- [[Transitions/Estima Lock]] - Starting position for this transition
+- [[Submissions/Estima Lock]] - Starting position for this transition
 
 - [[Positions/Ashi Garami/Saddle]] - Target position achieved through successful backstep
 
@@ -251,7 +335,7 @@ The Estima Lock to Saddle transition sits at a critical junction in modern leg l
 
 - [[Positions/Ashi Garami]] - Parent category of leg entanglement positions
 
-- [[Transitions/Heel Hook]] - Primary finishing submission available from Saddle
+- [[Submissions/Heel Hook]] - Primary finishing submission available from Saddle
 
 
 </section>

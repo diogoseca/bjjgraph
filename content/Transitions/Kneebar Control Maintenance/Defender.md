@@ -140,6 +140,54 @@ description: "Complete guide to escaping kneebar control maintenance in BJJ. Lea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar Control Maintenance (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Defend a Kneebar and Prevent a Backstep Pass",
+      "description": "Kneebar Control Maintenance (Defender) film study: How to Defend a Kneebar and Prevent a Backstep Pass, taught by Andrew Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
+      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
+      "creator": { "@type": "Person", "name": "Andrew Smith" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Bar Defense to Back Take",
+      "description": "Kneebar Control Maintenance (Defender) film study: Knee Bar Defense to Back Take, taught by Bicudo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
+      "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
+      "creator": { "@type": "Person", "name": "Bicudo BJJ" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar Knee Shield Entry and Prevention",
+      "description": "Kneebar Control Maintenance (Defender) film study: Kneebar Knee Shield Entry and Prevention, taught by ZeGrapplez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EUM4FxTRW_4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EUM4FxTRW_4",
+      "url": "https://www.youtube.com/watch?v=EUM4FxTRW_4",
+      "creator": { "@type": "Person", "name": "ZeGrapplez" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender trapped in bottom kneebar control, your immediate priority is pr
 **Opponent's Starting Position**: [[Positions/Kneebar Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar Control Maintenance (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wBRG0fY94fs)
+
+<p class="clip-credit"><strong>How to Defend a Kneebar and Prevent a Backstep Pass</strong> — taught by Andrew Smith · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
+
+<p class="clip-credit"><strong>Knee Bar Defense to Back Take</strong> — taught by Bicudo BJJ · 0:22 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EUM4FxTRW_4)
+
+<p class="clip-credit"><strong>Kneebar Knee Shield Entry and Prevention</strong> — taught by ZeGrapplez · 1:32 · <a href="https://www.youtube.com/watch?v=EUM4FxTRW_4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

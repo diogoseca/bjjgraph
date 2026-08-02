@@ -140,6 +140,54 @@ description: "Guide to defending against Inside Ashi degradation from Saddle top
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Fight to Inside Ashi from Saddle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle escape into leg drag flow drill",
+      "description": "Fight to Inside Ashi from Saddle (Defender) film study: Saddle escape into leg drag flow drill, taught by Travis Anderson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C3bPRoMwGPo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C3bPRoMwGPo",
+      "url": "https://www.youtube.com/watch?v=C3bPRoMwGPo",
+      "creator": { "@type": "Person", "name": "Travis Anderson" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending and Escaping the Saddle",
+      "description": "Fight to Inside Ashi from Saddle (Defender) film study: Defending and Escaping the Saddle, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CFTLb8iywJg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CFTLb8iywJg",
+      "url": "https://www.youtube.com/watch?v=CFTLb8iywJg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT383S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the Inside Ashi Garami Heel Hook",
+      "description": "Fight to Inside Ashi from Saddle (Defender) film study: Escaping the Inside Ashi Garami Heel Hook, taught by Eddie Cummings.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3xEmPci_szw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3xEmPci_szw",
+      "url": "https://www.youtube.com/watch?v=3xEmPci_szw",
+      "creator": { "@type": "Person", "name": "Eddie Cummings" },
+      "duration": "PT164S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the fight to Inside Ashi, you are the Saddle top player 
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Fight to Inside Ashi from Saddle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C3bPRoMwGPo)
+
+<p class="clip-credit"><strong>Saddle escape into leg drag flow drill</strong> — taught by Travis Anderson · 1:10 · <a href="https://www.youtube.com/watch?v=C3bPRoMwGPo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CFTLb8iywJg)
+
+<p class="clip-credit"><strong>Defending and Escaping the Saddle</strong> — taught by Lachlan Giles · 6:23 · <a href="https://www.youtube.com/watch?v=CFTLb8iywJg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3xEmPci_szw)
+
+<p class="clip-credit"><strong>Escaping the Inside Ashi Garami Heel Hook</strong> — taught by Eddie Cummings · 2:44 · <a href="https://www.youtube.com/watch?v=3xEmPci_szw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

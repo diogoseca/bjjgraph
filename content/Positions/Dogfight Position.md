@@ -34,6 +34,54 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dogfight Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half Guard to the Dogfight",
+      "description": "Dogfight Position film study: Half Guard to the Dogfight, taught by The Base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X4jR2wWOy2M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X4jR2wWOy2M",
+      "url": "https://www.youtube.com/watch?v=X4jR2wWOy2M",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dog Fight Basics: Plan B \u0026 Old School Sweep",
+      "description": "Dogfight Position film study: Dog Fight Basics: Plan B \u0026 Old School Sweep, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fjDBmFzfhgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fjDBmFzfhgI",
+      "url": "https://www.youtube.com/watch?v=fjDBmFzfhgI",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Understanding the Timing of the Dog Fight",
+      "description": "Dogfight Position film study: Understanding the Timing of the Dog Fight, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0uz58YFhIv8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0uz58YFhIv8",
+      "url": "https://www.youtube.com/watch?v=0uz58YFhIv8",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT187S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ From a strategic perspective, Dogfight is a neutral-to-slightly-advantageous pos
 The position is favored in modern no-gi grappling and has become a cornerstone of competitive half guard systems at the highest levels. Unlike traditional flat half guard positions, Dogfight rewards aggressive, forward-moving practitioners who can maintain their frames and capitalize on their opponent's balance disruptions. The position's dynamic nature means it rarely remains static for long—both players must be prepared to flow between attacks, defenses, and transitions while reading their opponent's weight distribution and grip commitments. Success in Dogfight requires constant activity, superior grip fighting skills, and the ability to chain multiple techniques together as positions shift rapidly.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dogfight Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X4jR2wWOy2M)
+
+<p class="clip-credit"><strong>Half Guard to the Dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fjDBmFzfhgI)
+
+<p class="clip-credit"><strong>Dog Fight Basics: Plan B &amp; Old School Sweep</strong> — taught by Brandon Mccaghren · 2:25 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0uz58YFhIv8)
+
+<p class="clip-credit"><strong>Understanding the Timing of the Dog Fight</strong> — taught by Brandon Mccaghren · 3:07 · <a href="https://www.youtube.com/watch?v=0uz58YFhIv8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,13 +221,13 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 ### Available Transitions
 
 
-- **[[Transitions/Dogfight Sweep/Attacker|Dogfight Sweep]]** (25% of attempts)
+- **[[Transitions/Dogfight Sweep/Attacker|Dogfight Sweep]]** (27% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (25% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (17% of attempts)
 
-- **[[Transitions/Forward Drive Sweep from Dogfight/Attacker|Forward Drive Sweep from Dogfight]]** (20% of attempts)
+- **[[Transitions/Forward Drive Sweep from Dogfight/Attacker|Forward Drive Sweep from Dogfight]]** (15% of attempts)
 
-- **[[Transitions/Underhook Sweep from Dogfight/Attacker|Underhook Sweep from Dogfight]]** (15% of attempts)
+- **[[Transitions/Underhook Sweep from Dogfight/Attacker|Underhook Sweep from Dogfight]]** (26% of attempts)
 
 - **[[Transitions/Re-pull Half Guard from Dogfight/Attacker|Re-pull Half Guard from Dogfight]]** (15% of attempts)
 
@@ -210,11 +294,11 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 ### Available Transitions
 
 
-- **[[Transitions/Crossface from Dogfight/Attacker|Crossface from Dogfight]]** (35% of attempts)
+- **[[Transitions/Crossface from Dogfight/Attacker|Crossface from Dogfight]]** (34% of attempts)
 
-- **[[Transitions/Re-flatten from Dogfight/Attacker|Re-flatten from Dogfight]]** (35% of attempts)
+- **[[Transitions/Re-flatten from Dogfight/Attacker|Re-flatten from Dogfight]]** (40% of attempts)
 
-- **[[Transitions/Snap Down from Dogfight/Attacker|Snap Down from Dogfight]]** (30% of attempts)
+- **[[Transitions/Snap Down from Dogfight/Attacker|Snap Down from Dogfight]]** (26% of attempts)
 
 
 ### Common Mistakes

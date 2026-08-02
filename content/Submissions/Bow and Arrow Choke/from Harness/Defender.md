@@ -142,6 +142,54 @@ description: "Essential defense guide against the Bow and Arrow Choke from Harne
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Harness (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bow and arrow choke escape",
+      "description": "Bow and Arrow Choke from Harness (Defender) film study: Bow and arrow choke escape, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Iz0aesx6cKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Iz0aesx6cKk",
+      "url": "https://www.youtube.com/watch?v=Iz0aesx6cKk",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bow and arrow choke escape",
+      "description": "Bow and Arrow Choke from Harness (Defender) film study: Bow and arrow choke escape, taught by Revolution BJJ Ashland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fEWUEDI_ng4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fEWUEDI_ng4",
+      "url": "https://www.youtube.com/watch?v=fEWUEDI_ng4",
+      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back escape \u2014 standing up",
+      "description": "Bow and Arrow Choke from Harness (Defender) film study: Back escape \u2014 standing up, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +200,42 @@ Defending the Bow and Arrow Choke from Harness requires early recognition and im
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Harness (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Iz0aesx6cKk)
+
+<p class="clip-credit"><strong>Bow and arrow choke escape</strong> — taught by Revolution BJJ · 0:36 · <a href="https://www.youtube.com/watch?v=Iz0aesx6cKk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fEWUEDI_ng4)
+
+<p class="clip-credit"><strong>Bow and arrow choke escape</strong> — taught by Revolution BJJ Ashland · 1:13 · <a href="https://www.youtube.com/watch?v=fEWUEDI_ng4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Back escape — standing up</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

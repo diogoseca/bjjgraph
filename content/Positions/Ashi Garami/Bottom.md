@@ -21,37 +21,37 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 58% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Ashi Transition",
-      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Ashi Garami",
-      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry",
-      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Ashi Garami",
-      "text": "From this position, attempt Toe Hold from Ashi Garami. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Ashi Garami. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ashi Garami (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Irimi ashi garami counter",
+      "description": "Ashi Garami (Bottom) film study: Irimi ashi garami counter, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
+      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT29S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stop Getting Leg Locked: Ashi Garami Defense Tips",
+      "description": "Ashi Garami (Bottom) film study: Stop Getting Leg Locked: Ashi Garami Defense Tips, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mycu_0dRZg8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mycu_0dRZg8",
+      "url": "https://www.youtube.com/watch?v=mycu_0dRZg8",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT331S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "50/50 Defense: Protecting Your Leg",
+      "description": "Ashi Garami (Bottom) film study: 50/50 Defense: Protecting Your Leg, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
+      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +216,42 @@ Defensive considerations from bottom Ashi Garami involve protecting your own hee
 Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics including hip positioning for angle creation, inside space control through knee-inside pressure, hook placement for both control and advancement, and transitional movements between variations that maintain connection throughout. Competition application demands strategic decision-making about when to pursue leg entanglements versus alternative guard retention or sweeping options, understanding that premature leg lock attempts from inferior hierarchy positions waste energy and expose you to counter-attacks. The position family's technical depth and strategic complexity make it a complete system worthy of dedicated study and progressive training rather than supplementary technique collection.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ashi Garami (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
+
+<p class="clip-credit"><strong>Irimi ashi garami counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mycu_0dRZg8)
+
+<p class="clip-credit"><strong>Stop Getting Leg Locked: Ashi Garami Defense Tips</strong> — taught by Brandon Mccaghren · 5:31 · <a href="https://www.youtube.com/watch?v=mycu_0dRZg8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R7lPdQWLOus)
+
+<p class="clip-credit"><strong>50/50 Defense: Protecting Your Leg</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -222,7 +306,7 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 
 **If opponent exposes heel through poor positioning, grip failure, or defensive extraction error:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 60%)
 - Execute **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 40%)
 
 
@@ -239,7 +323,7 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 **If you have achieved Inside Ashi with good inside space control and stable connection points:**
 - Execute **[[Transitions/Inside Ashi-Garami to Cross Ashi/Attacker|Inside Ashi-Garami to Cross Ashi]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
 - Execute **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 35%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 20%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 20%)
 
 
 **If opponent's base collapses and they fall flat with limited hip mobility during extraction:**
@@ -362,7 +446,7 @@ Partner aggressively attempts leg extraction from your Outside or Inside Ashi co
 - **[[Positions/X-Guard]]** - Shares leg hooking principles and serves as transitional position between traditional guards and leg entanglements
 - **[[Positions/Ashi Garami/Saddle]]** - Apex of leg entanglement hierarchy and primary finishing position for heel hook attacks from bottom
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - First major advancement from Outside Ashi providing superior control and finishing angles for submissions
-- **[[Transitions/Heel Hook]]** - Primary submission threat from advanced Ashi Garami positions when proper heel exposure is achieved
+- **[[Submissions/Heel Hook]]** - Primary submission threat from advanced Ashi Garami positions when proper heel exposure is achieved
 - **[[Positions/K-Guard]]** - Modern guard system designed for direct entries into various Ashi Garami configurations
 
 

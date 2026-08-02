@@ -174,6 +174,54 @@ description: "Master the back control to turtle escape in BJJ. Learn systematic 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle from Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle escape from back control",
+      "description": "Turtle from Back Control (Attacker) film study: Turtle escape from back control, taught by Adnan Sadiq.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dHanNAj6B80/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dHanNAj6B80",
+      "url": "https://www.youtube.com/watch?v=dHanNAj6B80",
+      "creator": { "@type": "Person", "name": "Adnan Sadiq" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back escape to turtle by shrugging",
+      "description": "Turtle from Back Control (Attacker) film study: Back escape to turtle by shrugging, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/waVFl1Ip6VU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/waVFl1Ip6VU",
+      "url": "https://www.youtube.com/watch?v=waVFl1Ip6VU",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping back control with both hooks in",
+      "description": "Turtle from Back Control (Attacker) film study: Escaping back control with both hooks in, taught by Dinu Bucalet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wwa4llL0E1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wwa4llL0E1s",
+      "url": "https://www.youtube.com/watch?v=wwa4llL0E1s",
+      "creator": { "@type": "Person", "name": "Dinu Bucalet" },
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the person escaping back control, your goal is to systematically dismantle th
 **From Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle from Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dHanNAj6B80)
+
+<p class="clip-credit"><strong>Turtle escape from back control</strong> — taught by Adnan Sadiq · 0:38 · <a href="https://www.youtube.com/watch?v=dHanNAj6B80" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=waVFl1Ip6VU)
+
+<p class="clip-credit"><strong>Back escape to turtle by shrugging</strong> — taught by Andy Tong · 0:33 · <a href="https://www.youtube.com/watch?v=waVFl1Ip6VU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wwa4llL0E1s)
+
+<p class="clip-credit"><strong>Escaping back control with both hooks in</strong> — taught by Dinu Bucalet · 2:39 · <a href="https://www.youtube.com/watch?v=wwa4llL0E1s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

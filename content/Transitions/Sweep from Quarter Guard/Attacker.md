@@ -174,6 +174,54 @@ description: "Learn to execute the Sweep from Quarter Guard as the bottom player
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Quarter Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quarter guard concepts",
+      "description": "Sweep from Quarter Guard (Attacker) film study: Quarter guard concepts, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMsgoChdaHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMsgoChdaHE",
+      "url": "https://www.youtube.com/watch?v=sMsgoChdaHE",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quarter guard back step to heel hook",
+      "description": "Sweep from Quarter Guard (Attacker) film study: Quarter guard back step to heel hook, taught by Subforce Women.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9OVINPV6FkY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9OVINPV6FkY",
+      "url": "https://www.youtube.com/watch?v=9OVINPV6FkY",
+      "creator": { "@type": "Person", "name": "Subforce Women" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Prison guard breakdown",
+      "description": "Sweep from Quarter Guard (Attacker) film study: Prison guard breakdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PFFTzx1Ih_Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PFFTzx1Ih_Q",
+      "url": "https://www.youtube.com/watch?v=PFFTzx1Ih_Q",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Sweep from Quarter Guard, you are operating from a
 **From Position**: [[Positions/Quarter Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Quarter Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMsgoChdaHE)
+
+<p class="clip-credit"><strong>Quarter guard concepts</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sMsgoChdaHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9OVINPV6FkY)
+
+<p class="clip-credit"><strong>Quarter guard back step to heel hook</strong> — taught by Subforce Women · 0:30 · <a href="https://www.youtube.com/watch?v=9OVINPV6FkY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PFFTzx1Ih_Q)
+
+<p class="clip-credit"><strong>Prison guard breakdown</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=PFFTzx1Ih_Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

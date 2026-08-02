@@ -148,6 +148,43 @@ description: "How to defend against Triangle to Back in BJJ. Recognition cues, d
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle to Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 Ways to Defend the Back Take",
+      "description": "Triangle to Back (Defender) film study: 3 Ways to Defend the Back Take, taught by Roberto \"Cyborg\" Abreu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OltjLaTW3wQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OltjLaTW3wQ",
+      "url": "https://www.youtube.com/watch?v=OltjLaTW3wQ",
+      "creator": { "@type": "Person", "name": "Roberto \"Cyborg\" Abreu" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending Back Control Face Down and Sprawled",
+      "description": "Triangle to Back (Defender) film study: Defending Back Control Face Down and Sprawled, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/485wvqwlBYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/485wvqwlBYA",
+      "url": "https://www.youtube.com/watch?v=485wvqwlBYA",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The defensive strategy centers on preventing the opponent from completing all th
 **Opponent's Starting Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle to Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OltjLaTW3wQ)
+
+<p class="clip-credit"><strong>3 Ways to Defend the Back Take</strong> — taught by Roberto &#34;Cyborg&#34; Abreu · 1:29 · <a href="https://www.youtube.com/watch?v=OltjLaTW3wQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=485wvqwlBYA)
+
+<p class="clip-credit"><strong>Defending Back Control Face Down and Sprawled</strong> — taught by Academy Jiu Jitsu · 1:32 · <a href="https://www.youtube.com/watch?v=485wvqwlBYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

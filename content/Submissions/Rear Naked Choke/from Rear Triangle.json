@@ -21,7 +21,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Rear Triangle",
   "from_position": "Rear Triangle/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Rear Naked Choke from Rear Triangle represents one of the highest-percentage finishing combinations in modern grappling. By establishing a triangle configuration with the legs around the opponent's neck and one trapped arm, the attacker creates a control framework that fundamentally changes the RNC dynamic. The triangle legs handle positional retention and limit the opponent's primary defense—two-handed grip fighting—because one arm is already trapped inside the leg structure. This frees both hands to work exclusively on establishing the choking grip.\n\nUnlike the standard RNC from back control, where significant energy is spent managing hooks, maintaining the seatbelt, and fighting hand grips simultaneously, the rear triangle version separates these tasks between upper and lower body. The legs maintain control while the arms attack. This division of labor produces a significantly higher finishing rate and reduces the energy expenditure required to complete the submission. The trapped arm also acts as a wedge that enhances choking pressure on the carotid artery.\n\nStrategically, this submission creates a cascading dilemma: defending the triangle squeeze exposes the neck to the RNC, while defending the RNC opens space for the triangle to finish directly. Skilled attackers cycle fluidly between these threats, making the combination extremely difficult to survive once fully established.",
   "safety_considerations": {
     "injury_risks": [
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
@@ -261,52 +273,181 @@
       {
         "question": "What anatomical structures does the Rear Naked Choke from Rear Triangle primarily attack?",
         "answer": "The RNC attacks both carotid arteries simultaneously. The blade of the choking forearm compresses one carotid while the bicep of the choking arm compresses the other. The supporting hand behind the head prevents the opponent from pulling away. The triangle legs add additional compression on the carotid from the trapped-arm side, creating a three-point pressure system that produces rapid blood flow restriction to the brain.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "The windpipe alone",
+            "One carotid artery only"
+          ],
+          "trap": [
+            "The cervical spine (crank)"
+          ]
+        }
       },
       {
         "question": "Why does the rear triangle configuration make the RNC significantly more effective than from standard back control?",
         "answer": "The triangle legs trap one of the opponent's arms inside the leg structure, eliminating their most effective defense—the two-on-one grip fight where both hands work together to strip the choking arm. With one arm immobilized, the defender has only one free hand to fight two attacking arms. Additionally, the triangle legs handle all positional control, freeing both of the attacker's hands to work exclusively on establishing and finishing the choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Traps arm, frees both hands",
+        "distractors": {
+          "plausible": [
+            "Only adds extra squeeze",
+            "Speeds up the choke only"
+          ],
+          "trap": [
+            "Lets you release grips early"
+          ]
+        }
       },
       {
         "question": "Your opponent has their chin tucked tightly and you cannot thread your forearm underneath—what are your two best options?",
         "answer": "First, use a swimming motion where you work your hand along the jawline from one side, using your fingers to walk past the chin before turning the wrist to seat the forearm. Second, squeeze the triangle legs harder to create a compounding leg choke that forces the opponent to address the leg threat, which typically lifts the chin enough to thread the forearm underneath. Alternate between these approaches to create a rhythm that overwhelms the chin defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Swim jaw, squeeze legs",
+        "distractors": {
+          "plausible": [
+            "Yank forearm through force",
+            "Switch to different choke"
+          ],
+          "trap": [
+            "Pull head back hard"
+          ]
+        }
       },
       {
         "question": "What is the correct forearm placement to ensure a blood choke rather than an airway choke?",
         "answer": "The blade of the forearm (the bony edge of the radius) must sit laterally across the neck, compressing the carotid arteries on each side. The forearm should NOT press directly on the front of the throat or trachea. Thread the arm deep enough that the elbow sits centered under the chin, placing the forearm and bicep on opposite sides of the neck. If you feel cartilage or the opponent coughs, adjust laterally until you are on soft tissue over the arteries.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Blade laterally, not throat",
+        "distractors": {
+          "plausible": [
+            "Forearm flat on the chin",
+            "Wrist bone under the ear"
+          ],
+          "trap": [
+            "Drive into the windpipe hard"
+          ]
+        }
       },
       {
         "question": "Your opponent is grip-fighting your choking wrist with their free hand—how do you break through this defense?",
         "answer": "Use your non-choking hand to strip their grip by peeling fingers or redirecting their wrist away from the defensive position. Once cleared, immediately re-thread the choking arm before they re-establish the grip. If the grip fight is persistent, use the triangle leg squeeze to create pain and urgency that distracts from the grip defense. You can also switch to attacking the free arm itself with a kimura threat, which forces them to release your choking wrist to defend the shoulder lock.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip grip, rethread fast",
+        "distractors": {
+          "plausible": [
+            "Muscle through the grip",
+            "Switch arms mid-choke"
+          ],
+          "trap": [
+            "Release triangle to free hand"
+          ]
+        }
       },
       {
         "question": "What should you do immediately if your training partner goes limp during the choke application?",
         "answer": "Immediately release all choking pressure from both the arms and the triangle legs. Gently guide your partner to a side-lying recovery position. Do NOT allow them to sit up or stand. Monitor their breathing and consciousness. Most practitioners regain consciousness within 5-20 seconds. If they do not wake within 30 seconds or have irregular breathing, call for medical assistance. Stay calm, keep them lying down, and reassure them when they wake.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, side-lying recovery",
+        "distractors": {
+          "plausible": [
+            "Sit them up immediately",
+            "Shake them awake quickly"
+          ],
+          "trap": [
+            "Keep pressure a few more sec"
+          ]
+        }
       },
       {
         "question": "How does the dual compression from triangle legs and choking arms compound the finishing pressure?",
         "answer": "The triangle legs compress the carotid artery on the trapped-arm side from a posterior angle while the choking forearm and bicep compress both carotids from an anterior angle. This creates three distinct pressure vectors converging on the blood supply to the brain rather than the typical two from a standard RNC. The result is faster onset of blood restriction and a shorter window for the opponent to escape. The defender must address both pressure sources simultaneously, which is significantly more difficult than defending a single choking mechanism.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Three blood-flow vectors",
+        "distractors": {
+          "plausible": [
+            "Doubles the airway squeeze",
+            "Adds a joint-lock finish"
+          ],
+          "trap": [
+            "Neck-crank supplies the finish"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the choke is properly set and will produce a finish?",
         "answer": "The forearm blade sits laterally across one carotid with the bicep pressing the other, the elbow is centered under the chin, and the figure-four is locked behind the head. The opponent's defensive movements weaken or become erratic, and you feel their body relax slightly. In training, a properly set blood choke produces a tap within 3-8 seconds of full application. If you have been squeezing for more than 10 seconds without a tap, the placement is likely off—release, adjust, and re-apply rather than adding more force.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Blade on carotid, figure-four locked",
+        "distractors": {
+          "plausible": [
+            "Opponent gasps loudly",
+            "Tap only after 20 seconds"
+          ],
+          "trap": [
+            "Crank harder to force the tap"
+          ]
+        }
       },
       {
         "question": "When should you abandon the RNC attempt and switch to an alternative submission from rear triangle?",
         "answer": "Abandon the RNC if the opponent has established a strong grip defense that you cannot strip after two clear attempts, if you are losing triangle tightness while fighting for the choke, or if the opponent is successfully creating rotation away from the choking arm. In these cases, transition to the triangle choke finish by squeezing legs and angling hips, attack the trapped arm with an armbar by extending hips, or switch to a bow and arrow grip if wearing the gi. The rear triangle supports multiple submissions—never force a single finish at the cost of the position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "After 2 failed strip attempts",
+        "distractors": {
+          "plausible": [
+            "Never abandon, keep forcing",
+            "Switch after 30 seconds max"
+          ],
+          "trap": [
+            "Force choke, ignore rotation"
+          ]
+        }
       },
       {
         "question": "What is the proper speed and progression for applying this choke in training versus competition?",
         "answer": "In training, apply the choke slowly over 3-5 seconds minimum, allowing your partner to feel the pressure build and tap before any risk of unconsciousness. Never snap or jerk into the finish. In competition, the choke can be applied more quickly once the grip is locked, but the initial arm threading should still be controlled to ensure proper carotid placement. The rear triangle variant finishes faster than standard RNC due to compounding pressure, so extra caution in training is warranted because the margin between a secured choke and unconsciousness is shorter.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, controlled build in training",
+        "distractors": {
+          "plausible": [
+            "Same speed in comp and drilling",
+            "Rush the grip in competition"
+          ],
+          "trap": [
+            "Snap into the finish"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "Sb-atqD_TqQ",
+        "title": "Short Choke from Back Position",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "F5o8VrMw1SE",
+        "title": "Back Take and Rear Naked Choke",
+        "by": "Dr. Deng",
+        "vertical": false,
+        "channel": "Dr. Deng",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-lMabjvtaLk",
+        "title": "Entries Into Rear Triangle Back Position",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 252,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -399,22 +540,62 @@
       {
         "question": "What is the earliest moment you can recognize the RNC attack from rear triangle and what should your immediate response be?",
         "answer": "The earliest recognition point is when the opponent releases their control on your free arm or seatbelt grip and begins swimming their hand toward your chin line. Your immediate response is to tuck your chin firmly to your chest, shrug your shoulders up, and bring your free hand to your collarbone ready to intercept the choking wrist. Acting in this early window is the difference between a stalled attack and a locked choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tuck chin, shrug, block hand",
+        "distractors": {
+          "plausible": [
+            "Wait until arm is under chin",
+            "Grab the top leg first"
+          ],
+          "trap": [
+            "Turn away, exposing the neck"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Rear Naked Choke from Rear Triangle to avoid injury?",
         "answer": "Tap immediately when you feel the figure-four grip lock behind your head with the forearm properly seated under your chin across the carotid arteries. From this position with the triangle adding compression, you have approximately 3-5 seconds before loss of consciousness. Do not wait to feel dizzy or see spots—these are signs that unconsciousness is imminent. Tap early and often in training. There is no benefit to holding out once the choke is structurally complete.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap when figure-four locks",
+        "distractors": {
+          "plausible": [
+            "Tap when vision blurs",
+            "Wait to see if it loosens"
+          ],
+          "trap": [
+            "Hold out until you feel dizzy"
+          ]
+        }
       },
       {
         "question": "Why is extracting the trapped arm from the triangle the most important long-term defensive goal?",
         "answer": "The trapped arm is what makes the entire attack system work. It prevents you from using both hands for grip defense against the RNC, it acts as a wedge that increases carotid pressure from the triangle legs, and it limits your ability to create rotation or frames for escape. Once the arm is extracted, you restore full defensive capacity with both hands, the triangle loses its structural choke, and you can defend the position like standard back control where escape rates are significantly higher.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Restores two-hand defense",
+        "distractors": {
+          "plausible": [
+            "Only eases leg fatigue",
+            "Opens a path to stand up"
+          ],
+          "trap": [
+            "Ignore arm, escape hips only"
+          ]
+        }
       },
       {
         "question": "What defensive adjustments should you make if the opponent begins squeezing the triangle legs harder while setting up the RNC?",
         "answer": "When the triangle squeeze intensifies, immediately grip the opponent's top leg at the ankle or behind the knee with your free hand to resist further tightening. Turn your chin toward the non-choking side and press your trapped arm's elbow against the inner thigh of the bottom triangle leg to create a wedge. Use short controlled breaths through your nose to manage the restricted blood flow. These combined actions prevent the triangle from finishing on its own and maintain enough defensive structure to fight the incoming RNC.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip leg, wedge elbow, breathe",
+        "distractors": {
+          "plausible": [
+            "Fight the choking arm only",
+            "Hold breath and go still"
+          ],
+          "trap": [
+            "Yank trapped arm free fast"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -437,6 +618,35 @@
         "phase": "Phase 4: Full Resistance Survival",
         "focus": "Defending and escaping under competition-level pressure",
         "description": "Positional sparring starting in rear triangle bottom with partner attacking the RNC at full intensity. Defender earns points for preventing the choke for 60 seconds, additional points for escaping the position entirely. Build the composure and technical precision needed for real defensive scenarios."
+      }
+    ],
+    "clips": [
+      {
+        "id": "X1pU1OdFhtU",
+        "title": "Escaping the Rear Naked Choke",
+        "by": "Usher BJJ",
+        "vertical": false,
+        "channel": "USHER BJJ",
+        "duration": 89,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ALOnfwB5yGQ",
+        "title": "Escaping the body triangle from the back",
+        "by": "Jiu-Jitsu Times",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Times",
+        "duration": 216,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RscLPT0F-DE",
+        "title": "Best way to escape the body triangle",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 595,
+        "verified": "2026-07-15"
       }
     ]
   }

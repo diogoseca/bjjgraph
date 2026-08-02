@@ -148,6 +148,54 @@ description: "Defend against Reverse Half Guard passing in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Reverse Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse half guard sweep to leg drag",
+      "description": "Pass Reverse Half (Defender) film study: Reverse half guard sweep to leg drag, taught by Fernando Reis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VsPTkiq_OM4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VsPTkiq_OM4",
+      "url": "https://www.youtube.com/watch?v=VsPTkiq_OM4",
+      "creator": { "@type": "Person", "name": "Fernando Reis" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse half guard to reverse electric chair",
+      "description": "Pass Reverse Half (Defender) film study: Reverse half guard to reverse electric chair, taught by Attic Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gRtCwqjwYhc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gRtCwqjwYhc",
+      "url": "https://www.youtube.com/watch?v=gRtCwqjwYhc",
+      "creator": { "@type": "Person", "name": "Attic Jiu-Jitsu" },
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inverted half guard sweep to back take",
+      "description": "Pass Reverse Half (Defender) film study: Inverted half guard sweep to back take, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcRISvtG3g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcRISvtG3g",
+      "url": "https://www.youtube.com/watch?v=iwcRISvtG3g",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against Pass Reverse Half, you are in reverse half guard bottom�
 **Opponent's Starting Position**: [[Positions/Half Guard/Reverse Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Reverse Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VsPTkiq_OM4)
+
+<p class="clip-credit"><strong>Reverse half guard sweep to leg drag</strong> — taught by Fernando Reis · 1:02 · <a href="https://www.youtube.com/watch?v=VsPTkiq_OM4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gRtCwqjwYhc)
+
+<p class="clip-credit"><strong>Reverse half guard to reverse electric chair</strong> — taught by Attic Jiu-Jitsu · 1:39 · <a href="https://www.youtube.com/watch?v=gRtCwqjwYhc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcRISvtG3g)
+
+<p class="clip-credit"><strong>Inverted half guard sweep to back take</strong> — taught by Carpio Jiu Jitsu · 1:56 · <a href="https://www.youtube.com/watch?v=iwcRISvtG3g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

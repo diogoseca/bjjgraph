@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Butterfly/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Rolling Back Take from Half Butterfly exploits the dynamic structure of half butterfly guard to create a direct path to the opponent's back through a controlled rolling motion. When the top player defends standard butterfly sweeps by posting wide or shifting weight laterally, the bottom player leverages their deep underhook and butterfly hook elevation to duck beneath the opponent's arm and roll through to back control. This technique bypasses the traditional sweep-to-top sequence entirely, converting a bottom guard position directly into the most dominant position in BJJ without passing through intermediate positions.\n\nThe rolling mechanic relies on precise timing and coordinated body movement rather than raw strength or explosiveness. The bottom player must synchronize butterfly hook elevation, underhook depth, and head positioning to create a smooth rotational arc that carries them behind the opponent. The technique is particularly effective against opponents who over-commit to defending traditional half butterfly sweeps by posting their hands or widening their base, as these defensive reactions create the exact space and angle needed to initiate the roll. When properly executed, the momentum of the roll makes it extremely difficult for the top player to recover, as they are carried forward while the bottom player circles behind them.\n\nThis technique exemplifies the offensive potential of hybrid guard positions, where combining half guard retention with butterfly hook dynamics creates unexpected attacking vectors that pure half guard or pure butterfly guard cannot achieve independently. The rolling back take punishes predictable defensive patterns and rewards practitioners who develop sensitivity to weight distribution shifts, making it a high-value addition to any half butterfly player's arsenal.",
   "conditions": [
     "Established half butterfly guard with active butterfly hook maintaining upward pressure on opponent's free-side thigh",
@@ -233,38 +245,147 @@
     "flashcards": [
       {
         "question": "Your opponent posts their hand wide to defend against a standard butterfly sweep - how does this create the opening for the rolling back take?",
-        "answer": "When the opponent posts their hand to defend the sweep, they shift weight to their posting arm and create space under their opposite armpit. This is the ideal moment to deepen your underhook past their now-elevated arm and duck your head under. The posting hand cannot simultaneously defend the lateral sweep and prevent the rolling motion in the opposite direction, creating the tactical dilemma that makes this combination effective."
+        "answer": "When the opponent posts their hand to defend the sweep, they shift weight to their posting arm and create space under their opposite armpit. This is the ideal moment to deepen your underhook past their now-elevated arm and duck your head under. The posting hand cannot simultaneously defend the lateral sweep and prevent the rolling motion in the opposite direction, creating the tactical dilemma that makes this combination effective.",
+        "answer_line": "Deepen underhook, duck under arm",
+        "distractors": {
+          "plausible": [
+            "Push off posted hand instead",
+            "Finish standard butterfly sweep"
+          ],
+          "trap": [
+            "Release underhook to re-angle"
+          ]
+        }
       },
       {
         "question": "What are the minimum control points that must be established before committing to the rolling back take?",
-        "answer": "Three control points are required: a deep underhook reaching at minimum the opponent's far hip, an active butterfly hook with upward elevation pressure under the opponent's thigh, and half guard control of the opponent's trapped leg to prevent disengagement. Additionally, sufficient space must exist to thread your head beneath the opponent's armpit. Missing any of these prerequisites significantly reduces success probability and increases counter risk."
+        "answer": "Three control points are required: a deep underhook reaching at minimum the opponent's far hip, an active butterfly hook with upward elevation pressure under the opponent's thigh, and half guard control of the opponent's trapped leg to prevent disengagement. Additionally, sufficient space must exist to thread your head beneath the opponent's armpit. Missing any of these prerequisites significantly reduces success probability and increases counter risk.",
+        "answer_line": "Deep underhook + hook + leg trap",
+        "distractors": {
+          "plausible": [
+            "Underhook alone is enough",
+            "Hook elevation without underhook"
+          ],
+          "trap": [
+            "Release leg control to roll faster"
+          ]
+        }
       },
       {
         "question": "What is the most critical body position during the mid-roll phase to maintain connection with the opponent?",
-        "answer": "Your chest must maintain constant contact with the opponent's body throughout the entire rolling arc. During the mid-roll, your ear should be pressed against their ribcage with your chin tucked, and your underhook arm should be actively pulling their body into yours rather than pushing away. Any separation during the roll allows the opponent to create space, turn to face you, or establish defensive frames that prevent you from arriving at back control."
+        "answer": "Your chest must maintain constant contact with the opponent's body throughout the entire rolling arc. During the mid-roll, your ear should be pressed against their ribcage with your chin tucked, and your underhook arm should be actively pulling their body into yours rather than pushing away. Any separation during the roll allows the opponent to create space, turn to face you, or establish defensive frames that prevent you from arriving at back control.",
+        "answer_line": "Chest glued, pull them in",
+        "distractors": {
+          "plausible": [
+            "Push off to create space",
+            "Keep head up, watch opponent"
+          ],
+          "trap": [
+            "Push away to generate rotation"
+          ]
+        }
       },
       {
         "question": "You initiate the roll but feel the opponent sprawling their hips backward - what immediate adjustment do you make?",
-        "answer": "If the sprawl is detected early and the roll has not fully committed, abort the back take attempt by recovering your head position and returning to half butterfly guard. If the roll is past the point of no return, accelerate your rotation and aim for at minimum a crab ride or turtle top position rather than stalling mid-roll under their weight. Never freeze in the mid-roll position against a sprawl because that guarantees positional loss."
+        "answer": "If the sprawl is detected early and the roll has not fully committed, abort the back take attempt by recovering your head position and returning to half butterfly guard. If the roll is past the point of no return, accelerate your rotation and aim for at minimum a crab ride or turtle top position rather than stalling mid-roll under their weight. Never freeze in the mid-roll position against a sprawl because that guarantees positional loss.",
+        "answer_line": "Abort early or accelerate through",
+        "distractors": {
+          "plausible": [
+            "Freeze and reassess",
+            "Slow down, reset grips"
+          ],
+          "trap": [
+            "Stall mid-roll under their weight"
+          ]
+        }
       },
       {
         "question": "What underhook depth is necessary for this technique and why is insufficient depth the primary failure cause?",
-        "answer": "Your underhook hand must reach at minimum the opponent's far-side hip bone, with ideal depth reaching their lower back. This depth is critical because the underhook serves as the mechanical anchor for the entire rotation. It pulls the opponent's body into yours during the roll and prevents them from creating separation. When the underhook only reaches the near shoulder or chest, it lacks the leverage to maintain connection during rotation and the roll stalls halfway through."
+        "answer": "Your underhook hand must reach at minimum the opponent's far-side hip bone, with ideal depth reaching their lower back. This depth is critical because the underhook serves as the mechanical anchor for the entire rotation. It pulls the opponent's body into yours during the roll and prevents them from creating separation. When the underhook only reaches the near shoulder or chest, it lacks the leverage to maintain connection during rotation and the roll stalls halfway through.",
+        "answer_line": "Underhook to far hip minimum",
+        "distractors": {
+          "plausible": [
+            "Underhook to near shoulder is fine",
+            "Underhook to chest suffices"
+          ],
+          "trap": [
+            "Skip underhook, use hook only"
+          ]
+        }
       },
       {
         "question": "In which direction should the primary rolling force be directed relative to the opponent's body?",
-        "answer": "The rolling force should be directed diagonally behind the opponent toward their far hip, not straight over the top or directly to the side. This diagonal angle follows the natural rotational pathway around the opponent's body and creates the tightest arc between your starting position and back control. Rolling straight sideways creates too much separation, while rolling forward goes into the opponent's strength rather than around their body to the back."
+        "answer": "The rolling force should be directed diagonally behind the opponent toward their far hip, not straight over the top or directly to the side. This diagonal angle follows the natural rotational pathway around the opponent's body and creates the tightest arc between your starting position and back control. Rolling straight sideways creates too much separation, while rolling forward goes into the opponent's strength rather than around their body to the back.",
+        "answer_line": "Diagonal toward far hip",
+        "distractors": {
+          "plausible": [
+            "Straight sideways sweep",
+            "Roll straight over the top"
+          ],
+          "trap": [
+            "Drive straight forward into them"
+          ]
+        }
       },
       {
         "question": "Your opponent applies a strong whizzer on your underhook arm as you begin the head duck - how do you respond?",
-        "answer": "The whizzer limits your underhook's rotational power, so adapt your attack vector. Redirect to a standard butterfly sweep toward the whizzer side, as the opponent's whizzer commitment removes their posting ability on that side. Alternatively, if the whizzer is applied loosely, power through it by driving your butterfly hook harder upward while pulling your underhook deeper, using the elevation to break the whizzer's grip angle and continue the roll."
+        "answer": "The whizzer limits your underhook's rotational power, so adapt your attack vector. Redirect to a standard butterfly sweep toward the whizzer side, as the opponent's whizzer commitment removes their posting ability on that side. Alternatively, if the whizzer is applied loosely, power through it by driving your butterfly hook harder upward while pulling your underhook deeper, using the elevation to break the whizzer's grip angle and continue the roll.",
+        "answer_line": "Redirect sweep or power through",
+        "distractors": {
+          "plausible": [
+            "Abandon attack, reset guard",
+            "Switch underhook to other arm"
+          ],
+          "trap": [
+            "Force head duck against the whizzer"
+          ]
+        }
       },
       {
         "question": "The rolling back take attempt fails and you end up in a scramble without back control - what are your immediate follow-up options?",
-        "answer": "If you end up behind the opponent but without hooks, immediately establish a seatbelt grip and work to insert at least one hook before they can turn to face you. If you lose back position entirely, look for turtle top or crab ride as intermediate control points. If the scramble returns you to guard, reestablish half butterfly immediately rather than conceding position. The key is maintaining offensive initiative through the scramble rather than becoming passive and accepting a worse outcome."
+        "answer": "If you end up behind the opponent but without hooks, immediately establish a seatbelt grip and work to insert at least one hook before they can turn to face you. If you lose back position entirely, look for turtle top or crab ride as intermediate control points. If the scramble returns you to guard, reestablish half butterfly immediately rather than conceding position. The key is maintaining offensive initiative through the scramble rather than becoming passive and accepting a worse outcome.",
+        "answer_line": "Seatbelt, insert hook fast",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to turn first",
+            "Reset to closed guard"
+          ],
+          "trap": [
+            "Release seatbelt, stand up"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The rolling motion places stress on the neck and shoulder girdle during the transition phase. Always practice with controlled speed initially, ensuring your neck remains tucked throughout the roll rather than bearing weight. Communicate with training partners about the direction and speed of the roll to prevent unexpected collisions or awkward landings. Avoid forcing the roll when the underhook is insufficient, as this can result in compromised neck positioning under the opponent's weight. In drilling, start with cooperative repetitions at slow speed before adding progressive resistance, and tap immediately if you feel neck compression during a stalled roll attempt."
+    "safety_considerations": "The rolling motion places stress on the neck and shoulder girdle during the transition phase. Always practice with controlled speed initially, ensuring your neck remains tucked throughout the roll rather than bearing weight. Communicate with training partners about the direction and speed of the roll to prevent unexpected collisions or awkward landings. Avoid forcing the roll when the underhook is insufficient, as this can result in compromised neck positioning under the opponent's weight. In drilling, start with cooperative repetitions at slow speed before adding progressive resistance, and tap immediately if you feel neck compression during a stalled roll attempt.",
+    "clips": [
+      {
+        "id": "WoSyrVZ1VvY",
+        "title": "Half guard with butterfly hook back take",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9P4zweTSZRE",
+        "title": "Butterfly hook back take against a kimura",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MFed9IE8afA",
+        "title": "Reverse armdrag from butterfly to back take",
+        "by": "Jerry Musquiz",
+        "vertical": false,
+        "channel": "Jerry Musquiz",
+        "duration": 42,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rolling Back Take from Half Butterfly Defender",
@@ -350,23 +471,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that signals a rolling back take attempt rather than a standard butterfly sweep?",
-        "answer": "The critical differentiator is the bottom player ducking their head beneath your arm on the underhook side. A standard butterfly sweep involves driving you laterally or overhead while maintaining upward head position, but the rolling back take requires the head to thread under your armpit. When you feel the underhook deepening AND their head dropping below your armpit level simultaneously, they are committing to the roll rather than a conventional sweep."
+        "answer": "The critical differentiator is the bottom player ducking their head beneath your arm on the underhook side. A standard butterfly sweep involves driving you laterally or overhead while maintaining upward head position, but the rolling back take requires the head to thread under your armpit. When you feel the underhook deepening AND their head dropping below your armpit level simultaneously, they are committing to the roll rather than a conventional sweep.",
+        "answer_line": "Their head ducks under armpit",
+        "distractors": {
+          "plausible": [
+            "Underhook deepening alone",
+            "Hard butterfly hook elevation"
+          ],
+          "trap": [
+            "Hips driving straight up"
+          ]
+        }
       },
       {
         "question": "Your opponent has a deep underhook and begins lowering their head toward your armpit - what is your immediate defensive response?",
-        "answer": "Apply an overhook or whizzer on their underhook arm while simultaneously driving your weight forward and down through your chest onto their shoulder. This combination limits the underhook's rotational power and closes the space under your armpit needed for head clearance. If the whizzer alone is insufficient, add a crossface with your free hand to drive their head back up and prevent them from completing the duck-under sequence."
+        "answer": "Apply an overhook or whizzer on their underhook arm while simultaneously driving your weight forward and down through your chest onto their shoulder. This combination limits the underhook's rotational power and closes the space under your armpit needed for head clearance. If the whizzer alone is insufficient, add a crossface with your free hand to drive their head back up and prevent them from completing the duck-under sequence.",
+        "answer_line": "Whizzer plus crossface, drive down",
+        "distractors": {
+          "plausible": [
+            "Push their head down further",
+            "Grab a single underhook back"
+          ],
+          "trap": [
+            "Post hands wide and lean back"
+          ]
+        }
       },
       {
         "question": "How should your hip positioning change when defending the rolling back take compared to defending standard half butterfly sweeps?",
-        "answer": "Against standard sweeps, you keep hips heavy and drive forward to neutralize the butterfly hook's elevation. Against the rolling back take specifically, you need to add a sprawling component where your hips drop back and away from the underhook side. This sprawl removes the rotational pathway the bottom player needs and makes their rolling arc too long to maintain body connection. The key difference is the backward hip drive rather than purely forward pressure."
+        "answer": "Against standard sweeps, you keep hips heavy and drive forward to neutralize the butterfly hook's elevation. Against the rolling back take specifically, you need to add a sprawling component where your hips drop back and away from the underhook side. This sprawl removes the rotational pathway the bottom player needs and makes their rolling arc too long to maintain body connection. The key difference is the backward hip drive rather than purely forward pressure.",
+        "answer_line": "Sprawl hips back, not forward",
+        "distractors": {
+          "plausible": [
+            "Drive hips forward harder",
+            "Keep hips square and heavy"
+          ],
+          "trap": [
+            "Post hips up high"
+          ]
+        }
       },
       {
         "question": "The rolling motion has already begun and you feel yourself being carried forward - what is your best recovery option?",
-        "answer": "Do not fight the rotation directly. Instead, accelerate through the scramble by turning into the bottom player as they come around your back. Post your hands and immediately begin turning to face them before they can establish hooks. Your goal shifts from preventing the back take to winning the resulting scramble by turning to face them before they consolidate back control. The faster you accept the position change and commit to the counter-scramble, the better your recovery chances."
+        "answer": "Do not fight the rotation directly. Instead, accelerate through the scramble by turning into the bottom player as they come around your back. Post your hands and immediately begin turning to face them before they can establish hooks. Your goal shifts from preventing the back take to winning the resulting scramble by turning to face them before they consolidate back control. The faster you accept the position change and commit to the counter-scramble, the better your recovery chances.",
+        "answer_line": "Turn into them, face up fast",
+        "distractors": {
+          "plausible": [
+            "Fight the rotation directly",
+            "Stay still, brace weight"
+          ],
+          "trap": [
+            "Turn away, protect your back"
+          ]
+        }
       },
       {
         "question": "What defensive grip should you prioritize when you feel the underhook deepening past the danger threshold?",
-        "answer": "Immediately establish an overhook or whizzer grip on the underhook arm by clamping your armpit down on their upper arm and rotating your forearm over their tricep. This whizzer must be tight enough to prevent their hand from reaching your far hip. Simultaneously, use your free hand to crossface or push on their forehead to prevent the head duck. The combination of whizzer controlling arm depth and crossface preventing head positioning neutralizes both prerequisites for the roll."
+        "answer": "Immediately establish an overhook or whizzer grip on the underhook arm by clamping your armpit down on their upper arm and rotating your forearm over their tricep. This whizzer must be tight enough to prevent their hand from reaching your far hip. Simultaneously, use your free hand to crossface or push on their forehead to prevent the head duck. The combination of whizzer controlling arm depth and crossface preventing head positioning neutralizes both prerequisites for the roll.",
+        "answer_line": "Whizzer arm, crossface head",
+        "distractors": {
+          "plausible": [
+            "Grab their far wrist",
+            "Push down on their shoulder"
+          ],
+          "trap": [
+            "Release grips, create space"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -389,6 +560,26 @@
         "phase": "Phase 4: Live Contextual Defense",
         "focus": "Full-speed defense integrated within complete half butterfly top game",
         "description": "Positional sparring starting from half butterfly top position. Partner mixes standard butterfly sweeps with rolling back take attempts at competition intensity. Develop the ability to read which technique is coming and select the appropriate defensive response in real time while maintaining your own passing initiative."
+      }
+    ],
+    "clips": [
+      {
+        "id": "h26GaRXjSHo",
+        "title": "Countering the half guard underhook",
+        "by": "Revolution Fitness Center",
+        "vertical": false,
+        "channel": "Revolution Fitness Center",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

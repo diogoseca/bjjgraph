@@ -148,6 +148,54 @@ description: "Defend the Sweep from Honey Hole in BJJ. Maintain dominant leg ent
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Honey Hole (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape the honey hole",
+      "description": "Sweep from Honey Hole (Defender) film study: How to escape the honey hole, taught by Vagner Rocha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gEEHqiSznS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gEEHqiSznS4",
+      "url": "https://www.youtube.com/watch?v=gEEHqiSznS4",
+      "creator": { "@type": "Person", "name": "Vagner Rocha" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reversing the honey hole with the honey flip",
+      "description": "Sweep from Honey Hole (Defender) film study: Reversing the honey hole with the honey flip, taught by Phill Schwartz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JAJH0x4ss74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JAJH0x4ss74",
+      "url": "https://www.youtube.com/watch?v=JAJH0x4ss74",
+      "creator": { "@type": "Person", "name": "Phill Schwartz" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the honey hole entry from front triangle",
+      "description": "Sweep from Honey Hole (Defender) film study: Escaping the honey hole entry from front triangle, taught by Baguio BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QsRKPfYLWj0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QsRKPfYLWj0",
+      "url": "https://www.youtube.com/watch?v=QsRKPfYLWj0",
+      "creator": { "@type": "Person", "name": "Baguio BJJ" },
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against the Sweep from Honey Hole requires the top player to maintain 
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Honey Hole (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gEEHqiSznS4)
+
+<p class="clip-credit"><strong>How to escape the honey hole</strong> — taught by Vagner Rocha · 1:00 · <a href="https://www.youtube.com/watch?v=gEEHqiSznS4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JAJH0x4ss74)
+
+<p class="clip-credit"><strong>Reversing the honey hole with the honey flip</strong> — taught by Phill Schwartz · 1:34 · <a href="https://www.youtube.com/watch?v=JAJH0x4ss74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QsRKPfYLWj0)
+
+<p class="clip-credit"><strong>Escaping the honey hole entry from front triangle</strong> — taught by Baguio BJJ · 0:56 · <a href="https://www.youtube.com/watch?v=QsRKPfYLWj0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

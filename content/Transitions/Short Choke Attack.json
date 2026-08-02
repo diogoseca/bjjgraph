@@ -15,22 +15,34 @@
   "from_position": "Gift Wrap/Top",
   "outcomes": [
     {
-      "to": "Short Choke",
-      "probability": 55,
+      "to": "Short Choke from Gift Wrap",
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Gift Wrap/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Short Choke Attack is a high-percentage strangle from the Gift Wrap where the attacker slides their free arm under the chin and links it to the opponent's already-trapped arm, forming a figure-four that crushes both carotid arteries.",
   "overview": "The Short Choke earns its place as the highest-percentage strangle available from the Gift Wrap because the position has already done half the defensive work for you. With one of the opponent's arms pinned high across their own body, they can no longer bring two hands to the neck, and that same trapped limb becomes a structural part of the choke rather than an obstacle to it.\n\nThe mechanics of the Short Choke differ from traditional rear naked chokes in that you use the opponent's own trapped arm as part of the choking structure. Your free arm slides under the chin and connects to your bicep or forearm of the Gift Wrap controlling arm, creating a figure-four configuration that compresses both sides of the neck. This structure requires less space to establish than a standard RNC because you're not threading a second arm behind the head.\n\nStrategically, the Short Choke represents the most direct submission threat from Gift Wrap and should be viewed as the primary attack from this position. When the opponent defends the Short Choke by tucking their chin or using their free hand, this creates openings for secondary attacks including armbar on the free arm, transition to crucifix, or advancement to mounted positions. Understanding this attack tree transforms the Gift Wrap into a systematic submission hunting position rather than a static control.",
   "conditions": [
@@ -208,46 +220,175 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Short Choke Attack?",
-        "answer": "The primary goal is to achieve a blood choke finish by threading your free arm under the opponent's chin and connecting to your Gift Wrap controlling arm in a figure-four configuration. The trapped arm becomes part of the choking structure, creating compression on both carotid arteries that produces unconsciousness if not released."
+        "answer": "The primary goal is to achieve a blood choke finish by threading your free arm under the opponent's chin and connecting to your Gift Wrap controlling arm in a figure-four configuration. The trapped arm becomes part of the choking structure, creating compression on both carotid arteries that produces unconsciousness if not released.",
+        "answer_line": "Blood choke via figure-four lock",
+        "distractors": {
+          "plausible": [
+            "Crank the neck for compliance",
+            "Strip the trapped arm to finish"
+          ],
+          "trap": [
+            "Release Gift Wrap to double under"
+          ]
+        }
       },
       {
         "question": "What position do you start Short Choke Attack from?",
-        "answer": "This technique starts from Gift Wrap Top position, where you have back control established and one of the opponent's arms is trapped across their body. The trapped arm is controlled by threading your arm under their armpit and gripping their wrist or forearm on the opposite side."
+        "answer": "This technique starts from Gift Wrap Top position, where you have back control established and one of the opponent's arms is trapped across their body. The trapped arm is controlled by threading your arm under their armpit and gripping their wrist or forearm on the opposite side.",
+        "answer_line": "Gift Wrap Top, arm trapped",
+        "distractors": {
+          "plausible": [
+            "Back control, both arms free",
+            "Turtle top with underhook"
+          ],
+          "trap": [
+            "Half guard bottom, arm trapped"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Short Choke Attack?",
-        "answer": "The Short Choke requires maintaining your Gift Wrap control grip (threading arm controlling opponent's trapped wrist/forearm) while your free arm threads under the chin and connects in a figure-four configuration to your Gift Wrap arm's bicep or forearm. The combination creates a closed loop using the opponent's own arm as part of the structure."
+        "answer": "The Short Choke requires maintaining your Gift Wrap control grip (threading arm controlling opponent's trapped wrist/forearm) while your free arm threads under the chin and connects in a figure-four configuration to your Gift Wrap arm's bicep or forearm. The combination creates a closed loop using the opponent's own arm as part of the structure.",
+        "answer_line": "Figure-four onto Gift Wrap arm",
+        "distractors": {
+          "plausible": [
+            "Two-on-one grip on far wrist",
+            "S-grip across the chest"
+          ],
+          "trap": [
+            "Release wrist to grab collar"
+          ]
+        }
       },
       {
         "question": "How do you counter an opponent who tucks their chin tightly to prevent the Short Choke entry?",
-        "answer": "Create angle by rotating your body slightly to bypass the chin from the side rather than directly from behind. Apply forehead pressure with your free hand to tilt their head. Alternatively, accept the chin defense and switch to armbar attack on their free arm, which is now exposed because they're using it to supplement chin defense."
+        "answer": "Create angle by rotating your body slightly to bypass the chin from the side rather than directly from behind. Apply forehead pressure with your free hand to tilt their head. Alternatively, accept the chin defense and switch to armbar attack on their free arm, which is now exposed because they're using it to supplement chin defense.",
+        "answer_line": "Angle off, or armbar free arm",
+        "distractors": {
+          "plausible": [
+            "Force chin up with both hands",
+            "Abandon choke, go to mount"
+          ],
+          "trap": [
+            "Yank head back by the hair"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Short Choke Attack?",
-        "answer": "Attempt the Short Choke when Gift Wrap control is fully consolidated with the trapped arm high across the chest, when the opponent is flattened by your hip pressure reducing their defensive mobility, and when their free arm is occupied with grip fighting or trapped in your hooks. The ideal window opens when they exhaust defensive options and momentarily relax."
+        "answer": "Attempt the Short Choke when Gift Wrap control is fully consolidated with the trapped arm high across the chest, when the opponent is flattened by your hip pressure reducing their defensive mobility, and when their free arm is occupied with grip fighting or trapped in your hooks. The ideal window opens when they exhaust defensive options and momentarily relax.",
+        "answer_line": "Gift Wrap set, opponent flattened",
+        "distractors": {
+          "plausible": [
+            "Right after taking the back",
+            "When opponent is standing"
+          ],
+          "trap": [
+            "While still fighting for hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent starts using their free hand to block your choking arm from threading under their chin. How do you respond?",
-        "answer": "Maintain pressure and let their arm fatigue from the constant defensive effort. Their free arm blocking the choke opens pathways to armbar attack since that arm is now isolated and extended. You can also threaten the armbar to force them to retract the hand, then immediately thread the choke. The key is recognizing this as opportunity rather than obstacle."
+        "answer": "Maintain pressure and let their arm fatigue from the constant defensive effort. Their free arm blocking the choke opens pathways to armbar attack since that arm is now isolated and extended. You can also threaten the armbar to force them to retract the hand, then immediately thread the choke. The key is recognizing this as opportunity rather than obstacle.",
+        "answer_line": "Attack armbar on blocking arm",
+        "distractors": {
+          "plausible": [
+            "Force the arm through by strength",
+            "Switch hands and re-thread"
+          ],
+          "trap": [
+            "Let go of Gift Wrap to grab hand"
+          ]
+        }
       },
       {
         "question": "What mechanical details make the Short Choke more efficient than a standard rear naked choke from Gift Wrap?",
-        "answer": "The Short Choke uses the opponent's own trapped arm as part of the choking structure, eliminating the need to thread a second arm behind their head. This requires less space to establish and works with their compromised defensive position. The figure-four configuration creates compression from multiple angles with the forearm on the throat and the arm loop providing lateral pressure."
+        "answer": "The Short Choke uses the opponent's own trapped arm as part of the choking structure, eliminating the need to thread a second arm behind their head. This requires less space to establish and works with their compromised defensive position. The figure-four configuration creates compression from multiple angles with the forearm on the throat and the arm loop providing lateral pressure.",
+        "answer_line": "Uses trapped arm as choke structure",
+        "distractors": {
+          "plausible": [
+            "Uses both hooks for leverage",
+            "Requires deeper back mount"
+          ],
+          "trap": [
+            "Requires releasing the seatbelt"
+          ]
+        }
       },
       {
         "question": "If the Short Choke fails and the opponent defends successfully, what are your immediate chain attack options?",
-        "answer": "Chain options include: armbar on the free arm (especially effective if they used it to defend the choke), transition to crucifix by controlling their free arm with your leg, advancement to technical mount while maintaining Gift Wrap, or reset to rear naked choke attempt if they've exhausted energy defending. The Gift Wrap position provides multiple branching attack paths."
+        "answer": "Chain options include: armbar on the free arm (especially effective if they used it to defend the choke), transition to crucifix by controlling their free arm with your leg, advancement to technical mount while maintaining Gift Wrap, or reset to rear naked choke attempt if they've exhausted energy defending. The Gift Wrap position provides multiple branching attack paths.",
+        "answer_line": "Armbar, crucifix, or technical mount",
+        "distractors": {
+          "plausible": [
+            "Reset to closed guard",
+            "Switch to leg lock entry"
+          ],
+          "trap": [
+            "Release Gift Wrap and stand up"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively bridges and rolls while you are mid-choke attempt. What is the critical adjustment?",
-        "answer": "Drive your hips forward into their lower back to absorb the bridge energy before it generates momentum. Keep your chest glued to their back and tighten your hooks or body triangle. If they complete the roll, follow the rotation and transition to mounted Gift Wrap, which actually improves your attacking position. Never abandon the arm trap during their bridge attempt."
+        "answer": "Drive your hips forward into their lower back to absorb the bridge energy before it generates momentum. Keep your chest glued to their back and tighten your hooks or body triangle. If they complete the roll, follow the rotation and transition to mounted Gift Wrap, which actually improves your attacking position. Never abandon the arm trap during their bridge attempt.",
+        "answer_line": "Hips forward, follow the roll",
+        "distractors": {
+          "plausible": [
+            "Base out and stop the choke",
+            "Release hooks to prevent injury"
+          ],
+          "trap": [
+            "Fight the roll by pulling back"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force when applying the finishing squeeze on the Short Choke?",
-        "answer": "Squeeze your elbows together toward the centerline while simultaneously expanding your chest and arching slightly backward. The forearm compresses the front of the neck while the figure-four loop creates bilateral pressure on both carotid arteries. Force must compress inward from all sides rather than pulling backward, which would create a crank rather than a clean blood choke."
+        "answer": "Squeeze your elbows together toward the centerline while simultaneously expanding your chest and arching slightly backward. The forearm compresses the front of the neck while the figure-four loop creates bilateral pressure on both carotid arteries. Force must compress inward from all sides rather than pulling backward, which would create a crank rather than a clean blood choke.",
+        "answer_line": "Elbows to centerline, chest out",
+        "distractors": {
+          "plausible": [
+            "Yank the head straight backward",
+            "Widen the elbows for more room"
+          ],
+          "trap": [
+            "Fall back without hooking a leg"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Short Choke Attack is a blood choke that compresses the carotid arteries and can produce unconsciousness within seconds when properly applied. Training partners must tap immediately when they feel the choke tighten. Attackers must release pressure instantly upon feeling a tap or verbal submission. Never hold a choke after the tap, and never apply the choke explosively or with cranking neck pressure. In drilling, apply the choke slowly to allow partners time to recognize and tap to the submission. Be especially careful with newer training partners who may not recognize the sensation of a blood choke versus an air choke. If a training partner loses consciousness, release immediately and position them in recovery position. The Short Choke should only be practiced under qualified instruction with attentive training partners."
+    "safety_considerations": "The Short Choke Attack is a blood choke that compresses the carotid arteries and can produce unconsciousness within seconds when properly applied. Training partners must tap immediately when they feel the choke tighten. Attackers must release pressure instantly upon feeling a tap or verbal submission. Never hold a choke after the tap, and never apply the choke explosively or with cranking neck pressure. In drilling, apply the choke slowly to allow partners time to recognize and tap to the submission. Be especially careful with newer training partners who may not recognize the sensation of a blood choke versus an air choke. If a training partner loses consciousness, release immediately and position them in recovery position. The Short Choke should only be practiced under qualified instruction with attentive training partners.",
+    "clips": [
+      {
+        "id": "f24j2L4nYSU",
+        "title": "Gift wrap to rear naked choke finish",
+        "by": "Doug Taylor",
+        "vertical": false,
+        "channel": "Doug Taylor",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5bw7poxVJ1E",
+        "title": "The gift wrap in two minutes, no-gi",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 112,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "g4onw9pd4_s",
+        "title": "Gift-wrap setup and control for no-gi",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Short Choke Attack Defender",
@@ -339,27 +480,87 @@
     "flashcards": [
       {
         "question": "What is the first defensive priority when you recognize the Short Choke Attack is being set up?",
-        "answer": "The first priority is establishing and maintaining a tight chin tuck to seal the space under your chin. This is your most immediate and effective defense because once the attacker's arm threads under the chin, the choke becomes exponentially harder to stop. Chin protection must come before trapped arm recovery, positional escapes, or any other defensive action."
+        "answer": "The first priority is establishing and maintaining a tight chin tuck to seal the space under your chin. This is your most immediate and effective defense because once the attacker's arm threads under the chin, the choke becomes exponentially harder to stop. Chin protection must come before trapped arm recovery, positional escapes, or any other defensive action.",
+        "answer_line": "Tuck chin tight immediately",
+        "distractors": {
+          "plausible": [
+            "Recover the trapped arm first",
+            "Bridge and roll immediately"
+          ],
+          "trap": [
+            "Grab the mat and turtle up"
+          ]
+        }
       },
       {
         "question": "Your attacker begins pushing your forehead to tilt your head and expose your throat - what is your defensive response?",
-        "answer": "Resist the forehead pressure by driving your chin down hard toward your chest while simultaneously turning your face toward the side the attacker is trying to access. Use your free hand to grip fight their forehead hand away or redirect it. If you cannot prevent the tilt, use hip movement to change the angle and deny the threading path from the new head position."
+        "answer": "Resist the forehead pressure by driving your chin down hard toward your chest while simultaneously turning your face toward the side the attacker is trying to access. Use your free hand to grip fight their forehead hand away or redirect it. If you cannot prevent the tilt, use hip movement to change the angle and deny the threading path from the new head position.",
+        "answer_line": "Chin down, turn face away",
+        "distractors": {
+          "plausible": [
+            "Push back with both hands",
+            "Arch neck to resist pressure"
+          ],
+          "trap": [
+            "Let head tilt, tuck shoulder"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt trapped arm recovery during a Short Choke Attack sequence?",
-        "answer": "The optimal window is when the attacker begins transitioning their free arm from reinforcing the Gift Wrap to threading the choke. During this transition, their control on the Gift Wrap momentarily weakens as their attention divides between maintaining the arm trap and executing the choke. This divided focus creates the best opportunity for shoulder rotation and hip shrimping to extract the trapped arm."
+        "answer": "The optimal window is when the attacker begins transitioning their free arm from reinforcing the Gift Wrap to threading the choke. During this transition, their control on the Gift Wrap momentarily weakens as their attention divides between maintaining the arm trap and executing the choke. This divided focus creates the best opportunity for shoulder rotation and hip shrimping to extract the trapped arm.",
+        "answer_line": "When attacker's free arm threads",
+        "distractors": {
+          "plausible": [
+            "Right when Gift Wrap is applied",
+            "As soon as back is taken"
+          ],
+          "trap": [
+            "After the choke is fully locked"
+          ]
+        }
       },
       {
         "question": "Why is staying on your side critical when defending the Short Choke from Gift Wrap Bottom?",
-        "answer": "Staying on your side preserves the hip mobility essential for bridging, shrimping, and creating escape angles. When flattened onto your back, you lose mechanical advantage for all defensive hip movements, the attacker's weight pins you more effectively, and the chin-to-chest seal becomes harder to maintain. Side positioning also reduces the attacker's ability to generate optimal choking angles."
+        "answer": "Staying on your side preserves the hip mobility essential for bridging, shrimping, and creating escape angles. When flattened onto your back, you lose mechanical advantage for all defensive hip movements, the attacker's weight pins you more effectively, and the chin-to-chest seal becomes harder to maintain. Side positioning also reduces the attacker's ability to generate optimal choking angles.",
+        "answer_line": "Preserves hips for escapes",
+        "distractors": {
+          "plausible": [
+            "Keeps shoulder from injury",
+            "Makes chin tuck unnecessary"
+          ],
+          "trap": [
+            "Flatten out to load posture"
+          ]
+        }
       },
       {
         "question": "Your attacker has threaded their arm under your chin but has not yet connected the figure-four grip - what should you do?",
-        "answer": "Immediately use your free hand to grip their threading arm at the wrist and pull it down toward your chest, preventing the figure-four connection. Simultaneously turn your chin toward their threading arm to reduce the choking angle. This narrow window before grip completion is your last high-percentage defensive opportunity, so commit fully to stripping the arm rather than splitting focus between multiple defensive actions."
+        "answer": "Immediately use your free hand to grip their threading arm at the wrist and pull it down toward your chest, preventing the figure-four connection. Simultaneously turn your chin toward their threading arm to reduce the choking angle. This narrow window before grip completion is your last high-percentage defensive opportunity, so commit fully to stripping the arm rather than splitting focus between multiple defensive actions.",
+        "answer_line": "Strip wrist down to chest",
+        "distractors": {
+          "plausible": [
+            "Wait for the grip to finish",
+            "Push off attacker's hips"
+          ],
+          "trap": [
+            "Reach back to grab their leg"
+          ]
+        }
       },
       {
         "question": "How does defending the Short Choke differ from defending a standard rear naked choke from back control?",
-        "answer": "The critical difference is that you have only one free arm instead of two for defensive grip fighting. Standard RNC defense relies on two-on-one grip control on the choking arm, but from Gift Wrap Bottom your trapped arm cannot participate. This means every defensive action with your free arm must be more precise and efficiently timed, and you must supplement hand defense with chin positioning, hip angles, and shoulder shrugs that do not require arm involvement."
+        "answer": "The critical difference is that you have only one free arm instead of two for defensive grip fighting. Standard RNC defense relies on two-on-one grip control on the choking arm, but from Gift Wrap Bottom your trapped arm cannot participate. This means every defensive action with your free arm must be more precise and efficiently timed, and you must supplement hand defense with chin positioning, hip angles, and shoulder shrugs that do not require arm involvement.",
+        "answer_line": "Only one free arm to defend",
+        "distractors": {
+          "plausible": [
+            "Both arms fully available",
+            "Chin defense not needed here"
+          ],
+          "trap": [
+            "Trapped arm can still grip fight"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -382,6 +583,26 @@
         "phase": "Week 7+",
         "focus": "Full resistance defense and counter-sequences",
         "description": "Partner attacks at full resistance from Gift Wrap position. Practice complete defensive sequences from initial recognition through escape or survival. Develop composure under genuine submission pressure and the ability to chain multiple defensive tools when initial defenses are bypassed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OMzki0Uu7vA",
+        "title": "Escaping the gift wrap",
+        "by": "Jiu Jitsu Pedia coach",
+        "vertical": false,
+        "channel": "thejiujitsupedia",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sD5jAuHaKKQ",
+        "title": "Gift wrap escape",
+        "by": "Chosen Few BJJ coach",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 63,
+        "verified": "2026-07-15"
       }
     ]
   },

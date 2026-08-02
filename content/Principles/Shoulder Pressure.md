@@ -164,6 +164,43 @@ description: "Master shoulder pressure control in BJJ. Learn weight distribution
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shoulder Pressure \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pressure: the science behind your jiu-jitsu",
+      "description": "Shoulder Pressure film study: Pressure: the science behind your jiu-jitsu, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mzAgY0QUtnc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mzAgY0QUtnc",
+      "url": "https://www.youtube.com/watch?v=mzAgY0QUtnc",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT785S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roger Gracie on maintaining and attacking side control",
+      "description": "Shoulder Pressure film study: Roger Gracie on maintaining and attacking side control, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kWxijyG-6BE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kWxijyG-6BE",
+      "url": "https://www.youtube.com/watch?v=kWxijyG-6BE",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT840S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Shoulder Pressure?
@@ -177,6 +214,34 @@ Effective shoulder pressure requires precise positioning where the practitioner'
 Mastery of shoulder pressure fundamentally changes a practitioner's top game, transforming scrambles into dominant positions and making escapes significantly more difficult for opponents. The concept integrates seamlessly with other control principles like crossface control, hip pressure, and weight distribution to create layered control systems that are extremely difficult to escape.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shoulder Pressure in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mzAgY0QUtnc)
+
+<p class="clip-credit"><strong>Pressure: the science behind your jiu-jitsu</strong> — taught by RVV BJJ · 13:05 · <a href="https://www.youtube.com/watch?v=mzAgY0QUtnc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kWxijyG-6BE)
+
+<p class="clip-credit"><strong>Roger Gracie on maintaining and attacking side control</strong> — taught by Roger Gracie · 14:00 · <a href="https://www.youtube.com/watch?v=kWxijyG-6BE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

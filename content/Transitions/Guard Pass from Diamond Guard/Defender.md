@@ -148,6 +148,43 @@ description: "Defend your diamond guard against passing attempts in BJJ. Learn r
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from Diamond Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the stack from the overhook guard",
+      "description": "Guard Pass from Diamond Guard (Defender) film study: Defending the stack from the overhook guard, taught by JJPA APEX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y9D5xi0ZPAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y9D5xi0ZPAs",
+      "url": "https://www.youtube.com/watch?v=Y9D5xi0ZPAs",
+      "creator": { "@type": "Person", "name": "JJPA APEX" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention when they hold on",
+      "description": "Guard Pass from Diamond Guard (Defender) film study: Guard retention when they hold on, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xj_MVwk2jq0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xj_MVwk2jq0",
+      "url": "https://www.youtube.com/watch?v=Xj_MVwk2jq0",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT46S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against a guard pass from diamond guard centers on maintaining the int
 **Opponent's Starting Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from Diamond Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y9D5xi0ZPAs)
+
+<p class="clip-credit"><strong>Defending the stack from the overhook guard</strong> — taught by JJPA APEX · 0:28 · <a href="https://www.youtube.com/watch?v=Y9D5xi0ZPAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xj_MVwk2jq0)
+
+<p class="clip-credit"><strong>Guard retention when they hold on</strong> — taught by Jean Jacques Machado · 0:46 · <a href="https://www.youtube.com/watch?v=Xj_MVwk2jq0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

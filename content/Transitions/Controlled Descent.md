@@ -34,6 +34,54 @@ description: "Learn Controlled Descent from standing back control in BJJ. Strate
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Controlled Descent \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mat return from standing back control",
+      "description": "Controlled Descent film study: Mat return from standing back control, taught by William Abreu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HWrsepCcaUk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HWrsepCcaUk",
+      "url": "https://www.youtube.com/watch?v=HWrsepCcaUk",
+      "creator": { "@type": "Person", "name": "William Abreu" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bringing the opponent down from the back",
+      "description": "Controlled Descent film study: Bringing the opponent down from the back, taught by Stay Safe Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NY-IC93sIpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NY-IC93sIpo",
+      "url": "https://www.youtube.com/watch?v=NY-IC93sIpo",
+      "creator": { "@type": "Person", "name": "Stay Safe Martial Arts" },
+      "duration": "PT474S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing rear body lock attacks and finishes",
+      "description": "Controlled Descent film study: Standing rear body lock attacks and finishes, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DFXdqByRxNg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DFXdqByRxNg",
+      "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT318S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This technique represents a paradigm shift in defensive thinking - accepting a t
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Controlled Descent in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HWrsepCcaUk)
+
+<p class="clip-credit"><strong>Mat return from standing back control</strong> — taught by William Abreu · 3:14 · <a href="https://www.youtube.com/watch?v=HWrsepCcaUk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NY-IC93sIpo)
+
+<p class="clip-credit"><strong>Bringing the opponent down from the back</strong> — taught by Stay Safe Martial Arts · 7:54 · <a href="https://www.youtube.com/watch?v=NY-IC93sIpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DFXdqByRxNg)
+
+<p class="clip-credit"><strong>Standing rear body lock attacks and finishes</strong> — taught by Brian Glick · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

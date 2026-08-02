@@ -91,35 +91,115 @@
     "flashcards": [
       {
         "question": "What is the most critical element for maintaining offensive advantage in 50-50 Guard Top?",
-        "answer": "Inside position control with your leg is the most critical element. When your leg maintains the inside angle against opponent's leg structure, you control the submission hierarchy and prevent them from attacking your legs effectively. Loss of inside position immediately equalizes the position or puts you at disadvantage."
+        "answer": "Inside position control with your leg is the most critical element. When your leg maintains the inside angle against opponent's leg structure, you control the submission hierarchy and prevent them from attacking your legs effectively. Loss of inside position immediately equalizes the position or puts you at disadvantage.",
+        "answer_line": "Inside leg position control",
+        "distractors": {
+          "plausible": [
+            "Two-handed heel grip",
+            "Heavy hip pressure down"
+          ],
+          "trap": [
+            "Chase the heel hook first"
+          ]
+        }
       },
       {
         "question": "Your opponent starts hip escaping to create angle - what immediate adjustment prevents them from equalizing?",
-        "answer": "Drive your hips forward and downward while following their hip movement with your own hip pressure. Simultaneously tighten your inside leg control by pressing your shin deeper into their leg structure. This reestablishes vertical pressure and prevents them from creating the angle needed to escape or counter-attack."
+        "answer": "Drive your hips forward and downward while following their hip movement with your own hip pressure. Simultaneously tighten your inside leg control by pressing your shin deeper into their leg structure. This reestablishes vertical pressure and prevents them from creating the angle needed to escape or counter-attack.",
+        "answer_line": "Drive hips forward, follow angle",
+        "distractors": {
+          "plausible": [
+            "Grip tighter on their heel",
+            "Sit back and reset base"
+          ],
+          "trap": [
+            "Release legs, pass to side"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining control and attacking from 50-50 Guard Top?",
-        "answer": "Two-handed control on opponent's heel or ankle is essential - one hand cups the heel while the other controls the ankle or Achilles area. These grips enable heel hook attacks, prevent leg extraction, and allow you to control opponent's leg rotation. Never release both grips simultaneously when adjusting."
+        "answer": "Two-handed control on opponent's heel or ankle is essential - one hand cups the heel while the other controls the ankle or Achilles area. These grips enable heel hook attacks, prevent leg extraction, and allow you to control opponent's leg rotation. Never release both grips simultaneously when adjusting.",
+        "answer_line": "Two-handed heel and ankle grip",
+        "distractors": {
+          "plausible": [
+            "One hand heel, one collar",
+            "Grip their far wrist"
+          ],
+          "trap": [
+            "Release both grips to adjust"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight and apply pressure to maintain top position effectively?",
-        "answer": "Weight should drive primarily through your hips and pelvis into opponent's lower abdomen, not through your hands or upper body. Maintain upright torso posture with chest up and spine relatively vertical. This creates maximum downward pressure while keeping your base stable and preventing forward rolls. Use skeletal alignment rather than muscular tension for sustained pressure."
+        "answer": "Weight should drive primarily through your hips and pelvis into opponent's lower abdomen, not through your hands or upper body. Maintain upright torso posture with chest up and spine relatively vertical. This creates maximum downward pressure while keeping your base stable and preventing forward rolls. Use skeletal alignment rather than muscular tension for sustained pressure.",
+        "answer_line": "Hips drive into their abdomen",
+        "distractors": {
+          "plausible": [
+            "Lean your weight onto hands",
+            "Hunch forward, chest down"
+          ],
+          "trap": [
+            "Muscle it with constant tension"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully hides their heel by tucking it close to their body - what is the correct response?",
-        "answer": "Do not stubbornly chase the hidden heel. After 3-5 seconds of attempted heel exposure fails, immediately transition to alternative attacks: kneebar by controlling above the knee, back take by releasing legs and circling to their back, or transition to Inside Ashi-Garami or Honey Hole for better heel exposure angles."
+        "answer": "Do not stubbornly chase the hidden heel. After 3-5 seconds of attempted heel exposure fails, immediately transition to alternative attacks: kneebar by controlling above the knee, back take by releasing legs and circling to their back, or transition to Inside Ashi-Garami or Honey Hole for better heel exposure angles.",
+        "answer_line": "Switch attack after 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Force the foot out by hand",
+            "Wait patiently for it to show"
+          ],
+          "trap": [
+            "Keep chasing the hidden heel"
+          ]
+        }
       },
       {
         "question": "Your opponent partially extracts their outside leg from the entanglement but has not yet established a guard hook - how do you recover full 50-50 control?",
-        "answer": "Immediately drive your hips forward to close the extraction gap while using your inside leg to re-triangle around their remaining trapped leg. Simultaneously tighten your ankle grip with both hands and use your outside leg to pull their freed leg back into the entanglement configuration. The critical recovery window is 1-2 seconds between initial extraction and hook establishment. If they have already placed a butterfly hook behind your knee, do not drive forward—instead backstep to disengage entirely and re-engage from a passing position."
+        "answer": "Immediately drive your hips forward to close the extraction gap while using your inside leg to re-triangle around their remaining trapped leg. Simultaneously tighten your ankle grip with both hands and use your outside leg to pull their freed leg back into the entanglement configuration. The critical recovery window is 1-2 seconds between initial extraction and hook establishment. If they have already placed a butterfly hook behind your knee, do not drive forward—instead backstep to disengage entirely and re-engage from a passing position.",
+        "answer_line": "Drive hips forward, retriangle leg",
+        "distractors": {
+          "plausible": [
+            "Backstep immediately to reset",
+            "Chase the leg with hands only"
+          ],
+          "trap": [
+            "Hold still and wait them out"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during extended 50-50 exchanges?",
-        "answer": "Use grip efficiency by securing controlling grips rather than constantly fighting. Apply sustained hip pressure through skeletal alignment rather than muscular tension. Attack in bursts when opportunities arise rather than constantly chasing submissions. Rest between submission attempts by maintaining position with minimal muscular effort."
+        "answer": "Use grip efficiency by securing controlling grips rather than constantly fighting. Apply sustained hip pressure through skeletal alignment rather than muscular tension. Attack in bursts when opportunities arise rather than constantly chasing submissions. Rest between submission attempts by maintaining position with minimal muscular effort.",
+        "answer_line": "Grip efficiently, attack in bursts",
+        "distractors": {
+          "plausible": [
+            "Apply constant muscular pressure",
+            "Attempt submissions nonstop"
+          ],
+          "trap": [
+            "Relax grips fully to rest"
+          ]
+        }
       },
       {
         "question": "What signals indicate opponent is about to attempt leg extraction, and how do you counter?",
-        "answer": "Signals include opponent breaking your ankle grip, straightening their trapped leg, turning their hips away, or dropping their inside leg control to push off. Counter by immediately tightening your leg triangle around their leg, driving hips forward to pin them flat, and transitioning to back take as they create space by extracting."
+        "answer": "Signals include opponent breaking your ankle grip, straightening their trapped leg, turning their hips away, or dropping their inside leg control to push off. Counter by immediately tightening your leg triangle around their leg, driving hips forward to pin them flat, and transitioning to back take as they create space by extracting.",
+        "answer_line": "Tighten triangle, drive hips in",
+        "distractors": {
+          "plausible": [
+            "Grab a fresh heel grip",
+            "Match their hip rotation"
+          ],
+          "trap": [
+            "Let them extract, re-engage after"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -276,55 +356,116 @@
     "transitions": [
       {
         "transition": "Heel Hook from 50-50 Guard",
-        "attempt_probability": 28
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 22
+        }
       },
       {
         "transition": "Kneebar entry",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 6
+        }
       },
       {
         "transition": "Calf Slicer from 50-50 Guard",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Back Take from 50-50",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 7
+        }
       },
       {
         "transition": "50-50 Guard to Outside Ashi",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 8
+        }
       },
       {
         "transition": "50-50 Guard to Inside Ashi",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
       },
       {
         "transition": "Outside Heel Hook from 50-50 Guard",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 5
+        }
       },
       {
         "transition": "50-50 Pass",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 31,
+          "nogi": 13
+        }
       },
       {
-        "transition": "Toe Hold from 50-50 Guard",
-        "attempt_probability": 3
+        "transition": "Toe Hold from 50-50",
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 6
+        }
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 9
+        }
       },
       {
         "transition": "50-50 Guard to Backside 50-50",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 10
+        }
       },
       {
         "transition": "Kneebar from 50-50",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 5
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "UuluKZKDt8w",
+        "title": "Heel Hooks from 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5RyU5LDc3C4",
+        "title": "Lachlan's ADCC 50/50 Heel Hook",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 86,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "U1vlUbJN3sc",
+        "title": "True 50/50 Heel Hook",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 34,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -373,35 +514,115 @@
     "flashcards": [
       {
         "question": "What is the absolute first priority when you find yourself in 50-50 Guard Bottom?",
-        "answer": "Heel protection is the absolute first priority. Before attempting any escape, reversal, or counter-attack, you must hide your heel by rotating your knee inward and establishing defensive grips on opponent's hands. A heel hook can finish in under two seconds once opponent establishes proper control, making heel defense non-negotiable."
+        "answer": "Heel protection is the absolute first priority. Before attempting any escape, reversal, or counter-attack, you must hide your heel by rotating your knee inward and establishing defensive grips on opponent's hands. A heel hook can finish in under two seconds once opponent establishes proper control, making heel defense non-negotiable.",
+        "answer_line": "Protect your heel first",
+        "distractors": {
+          "plausible": [
+            "Attack their heel right away",
+            "Bridge hard to reverse them"
+          ],
+          "trap": [
+            "Straighten leg for distance"
+          ]
+        }
       },
       {
         "question": "Your opponent secures a two-handed grip on your heel - what immediate defensive action prevents the finish?",
-        "answer": "Immediately rotate your knee inward toward your opposite hip while simultaneously attacking their grip with both hands. The knee rotation takes tension off the heel hook mechanism. Use your hands to strip their grip on your heel - prioritize breaking the cupping hand first. If grip breaks fail, consider tapping early rather than risking knee damage."
+        "answer": "Immediately rotate your knee inward toward your opposite hip while simultaneously attacking their grip with both hands. The knee rotation takes tension off the heel hook mechanism. Use your hands to strip their grip on your heel - prioritize breaking the cupping hand first. If grip breaks fail, consider tapping early rather than risking knee damage.",
+        "answer_line": "Rotate knee in, strip their grip",
+        "distractors": {
+          "plausible": [
+            "Pull your leg straight back",
+            "Bridge hard to escape"
+          ],
+          "trap": [
+            "Wait it out, stay passive"
+          ]
+        }
       },
       {
         "question": "How do you assess whether to fight for reversal versus extract and escape to standing?",
-        "answer": "Assess inside position within the first 3-5 seconds. If you have inside position parity or advantage, fight for reversal using sweeping mechanics. If opponent has clear inside control that you cannot quickly match, immediately shift strategy to leg extraction and escape to standing. Fighting for reversal without inside position wastes energy and increases submission risk."
+        "answer": "Assess inside position within the first 3-5 seconds. If you have inside position parity or advantage, fight for reversal using sweeping mechanics. If opponent has clear inside control that you cannot quickly match, immediately shift strategy to leg extraction and escape to standing. Fighting for reversal without inside position wastes energy and increases submission risk.",
+        "answer_line": "Check inside position in 3-5 sec",
+        "distractors": {
+          "plausible": [
+            "Always fight for the reversal",
+            "Escape to standing right away"
+          ],
+          "trap": [
+            "Fight on despite no inside pos"
+          ]
+        }
       },
       {
         "question": "What hip movements prevent opponent from fully settling their weight and establishing dominant control?",
-        "answer": "Maintain constant hip mobility through shrimping away to create angle, bridging to disrupt their balance, and directional hip changes that prevent them from aligning their pressure. Never remain static - even small hip adjustments of a few inches prevent opponent from fully settling and create micro-opportunities for escape or reversal."
+        "answer": "Maintain constant hip mobility through shrimping away to create angle, bridging to disrupt their balance, and directional hip changes that prevent them from aligning their pressure. Never remain static - even small hip adjustments of a few inches prevent opponent from fully settling and create micro-opportunities for escape or reversal.",
+        "answer_line": "Constant hip movement, never static",
+        "distractors": {
+          "plausible": [
+            "One big bridge then hold still",
+            "Push with hands for space"
+          ],
+          "trap": [
+            "Stay still to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent overextends reaching for your heel - what counter-attack opportunity does this create?",
-        "answer": "When opponent overextends for heel hooks, they often sacrifice their own heel defense and inside position control. This creates opportunity for counter heel hook by attacking their exposed heel, or sweep to top position by exploiting their compromised base. Wait for their weight to shift forward during the attack attempt before executing the counter."
+        "answer": "When opponent overextends for heel hooks, they often sacrifice their own heel defense and inside position control. This creates opportunity for counter heel hook by attacking their exposed heel, or sweep to top position by exploiting their compromised base. Wait for their weight to shift forward during the attack attempt before executing the counter.",
+        "answer_line": "Counter-attack their exposed heel",
+        "distractors": {
+          "plausible": [
+            "Bridge immediately to escape",
+            "Pull your own leg away fast"
+          ],
+          "trap": [
+            "Retreat and reset position"
+          ]
+        }
       },
       {
         "question": "What are the key grip fighting priorities to prevent opponent from attacking your legs?",
-        "answer": "Fight grips aggressively before opponent establishes control - breaking grips early is far easier than after they've secured position. Prioritize controlling their hands to prevent heel access. Establish your own controlling grips on their ankle or heel when possible, as this enables counter-attacks while defending. Two-on-one grip fighting to strip their control is highly effective."
+        "answer": "Fight grips aggressively before opponent establishes control - breaking grips early is far easier than after they've secured position. Prioritize controlling their hands to prevent heel access. Establish your own controlling grips on their ankle or heel when possible, as this enables counter-attacks while defending. Two-on-one grip fighting to strip their control is highly effective.",
+        "answer_line": "Fight grips early, control hands",
+        "distractors": {
+          "plausible": [
+            "Wait until they grip your heel",
+            "Grip their collar for control"
+          ],
+          "trap": [
+            "Let them grip, defend after"
+          ]
+        }
       },
       {
         "question": "How should you manage energy when stuck in 50-50 Guard Bottom for extended periods?",
-        "answer": "Work in bursts of intelligent movement rather than continuous struggling. Defend in relaxed but ready state between attack attempts, only explosively engaging when escaping or countering. Rest briefly between escape attempts. Conserve energy for high-percentage opportunities rather than wasting it on low-probability escapes. Strategic extraction to standing may be more energy-efficient than prolonged reversal attempts."
+        "answer": "Work in bursts of intelligent movement rather than continuous struggling. Defend in relaxed but ready state between attack attempts, only explosively engaging when escaping or countering. Rest briefly between escape attempts. Conserve energy for high-percentage opportunities rather than wasting it on low-probability escapes. Strategic extraction to standing may be more energy-efficient than prolonged reversal attempts.",
+        "answer_line": "Burst energy, rest between tries",
+        "distractors": {
+          "plausible": [
+            "Struggle continuously to escape",
+            "Hold tight, never relax"
+          ],
+          "trap": [
+            "Burn out on low-% escapes"
+          ]
+        }
       },
       {
         "question": "After partially escaping a heel hook by stripping one of opponent's grips, how do you complete the defense and recover to a safe position?",
-        "answer": "After stripping the first grip, immediately strip the second grip using two-on-one hand fighting before opponent can re-establish control. Simultaneously rotate your knee inward to remove remaining rotational tension on the joint. Once both grips are broken, create immediate distance through hip escape and either re-establish your heel defense position with knee rotated inward, initiate a planned escape sequence to standing, or counter-attack opponent's now-exposed heel. The window between breaking the first and second grip is your highest vulnerability moment."
+        "answer": "After stripping the first grip, immediately strip the second grip using two-on-one hand fighting before opponent can re-establish control. Simultaneously rotate your knee inward to remove remaining rotational tension on the joint. Once both grips are broken, create immediate distance through hip escape and either re-establish your heel defense position with knee rotated inward, initiate a planned escape sequence to standing, or counter-attack opponent's now-exposed heel. The window between breaking the first and second grip is your highest vulnerability moment.",
+        "answer_line": "Strip second grip, rotate knee",
+        "distractors": {
+          "plausible": [
+            "Relax once first grip is gone",
+            "Immediately attack their heel"
+          ],
+          "trap": [
+            "Pause to assess your options"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -540,44 +761,223 @@
     "transitions": [
       {
         "transition": "Position reversal sweep to top",
-        "attempt_probability": 21
+        "attempt_probability": {
+          "gi": 33,
+          "nogi": 18
+        }
       },
       {
         "transition": "Counter heel hook",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 21
+        }
       },
       {
         "transition": "50-50 Guard to Single Leg X-Guard",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 12
+        }
       },
       {
         "transition": "Extract legs and stand up",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
       },
       {
         "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 13
+        }
       },
       {
         "transition": "Kneebar entry",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "Toe Hold from 50-50 Guard",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "Aoki Lock",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 8
+        }
       },
       {
         "transition": "Toe Hold from 50-50",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "_hyZqLRwsWE",
+        "title": "Counter the 50/50 Heel Hook with a Wristlock",
+        "by": "Whangarei BJJ",
+        "vertical": false,
+        "channel": "Whangarei BJJ",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll Under to Backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines the 50-50 Guard and gives it its name?",
+      "answer": "The 50-50 Guard is a symmetrical leg entanglement in which each grappler traps one of the opponent's legs across their own hips while triangling their other leg around that trapped leg, producing a mirror image where both players occupy the same structure. Each competitor's inside leg is threaded between the opponent's legs and hooked over the top, with the feet crossing near the opponent's hip line. Because the geometry is identical for both people, neither has an inherent structural advantage and neither scores position points under most rulesets. The name reflects this theoretical parity, though in practice small grip, angle, or foot-control differences decide who attacks first.",
+      "answer_line": "Mirrored leg entanglement",
+      "distractors": {
+        "plausible": [
+          "One player's leg trapped only",
+          "Both feet hooked outside hips"
+        ],
+        "trap": [
+          "One-sided trap, no mirror"
+        ]
+      }
+    },
+    {
+      "question": "Why is the 50-50 Guard described as a symmetrical or mirrored position, and what strategic consequence does that symmetry create?",
+      "answer": "The position is symmetrical because both players' legs are entangled in the same configuration facing each other, so any control one player establishes is theoretically available to the other. This mirroring means both grapplers have simultaneous access to the same submissions, primarily heel hooks against the shared trapped leg. The strategic consequence is that victory is decided not by the base position but by breaking the symmetry: one player must establish a foot-control, hip-angle, or grip advantage that the other cannot match. Until that asymmetry appears, the exchange remains a neutral hand-fight and can stall into a referee standup.",
+      "answer_line": "Whoever breaks symmetry wins first",
+      "distractors": {
+        "plausible": [
+          "Top player always has the edge",
+          "Bottom player just defends"
+        ],
+        "trap": [
+          "Skip the grip fight entirely"
+        ]
+      }
+    },
+    {
+      "question": "Which control points and grips are contested by both players in the 50-50 Guard?",
+      "answer": "The primary contested control point is each player's foot and heel, since controlling the opponent's foot while denying them control of yours determines who can initiate a leg attack first. Both grapplers fight for two-handed grips on the exposed heel or ankle, typically one hand cupping the heel and one controlling the Achilles or ankle. Inside-leg position is the second contested point: the player whose shin threads deeper inside the opponent's leg structure controls the submission hierarchy. Because the structure is mirrored, whichever player wins both the grip battle and the inside angle gains the decisive edge.",
+      "answer_line": "Heel grips and inside leg angle",
+      "distractors": {
+        "plausible": [
+          "Collar and sleeve control",
+          "Underhook and head position"
+        ],
+        "trap": [
+          "Ignore grips, fight hips only"
+        ]
+      }
+    },
+    {
+      "question": "How does foot and heel exposure work in the 50-50 Guard, and why does knee rotation matter for both players?",
+      "answer": "Each player's trapped inside leg has its heel exposed to the opponent's grips unless it is actively hidden, so heel exposure is a shared vulnerability rather than a one-sided threat. Rotating the knee inward toward the opposite hip takes the heel off-line and removes the rotational tension a heel hook depends on, which is why both grapplers constantly manage knee angle. The player who keeps their own heel hidden while exposing the opponent's heel gains the attacking advantage. Because the position is symmetrical, a lapse in knee rotation by either player instantly reverses who is in danger.",
+      "answer_line": "Rotate knee in to hide heel",
+      "distractors": {
+        "plausible": [
+          "Point toes to protect heel",
+          "Keep the leg straight, rigid"
+        ],
+        "trap": [
+          "Leave your knee rotated out"
+        ]
+      }
+    },
+    {
+      "question": "How is weight and hip height distributed between the two players in the 50-50 Guard, and why does it matter?",
+      "answer": "Although the leg entanglement is symmetrical, hip height breaks the equality: the player with higher hips can drive downward pressure through the pelvis into the opponent's lower abdomen, keeping them flat and limiting their ability to sit up or create angle. The lower player is pinned toward their back with reduced leverage to extract or attack. Hip mobility is therefore critical for both, since constant hip movement prevents the opponent from settling weight and preserves the ability to create the perpendicular angle submissions require. Whoever controls hip height and angle converts the neutral entanglement into an attacking platform.",
+      "answer_line": "Higher hips control the exchange",
+      "distractors": {
+        "plausible": [
+          "Grip strength decides control",
+          "Leg speed decides control"
+        ],
+        "trap": [
+          "Let your hips sink flat"
+        ]
+      }
+    },
+    {
+      "question": "Why is passive play discouraged in the 50-50 Guard, and what dynamic keeps the position active?",
+      "answer": "Passive play is discouraged because the symmetry means a static 50-50 becomes a stalemate that referees penalize with a standup, erasing any positional work. The position stays active through a continuous grip and inside-position battle in which each player threatens submissions or transitions to force the other to react and expose an advantage. Constant threat is what pressures the opponent into small errors, such as a lost grip, an extended heel, or a dropped inside leg, that break the mirror. The player who engages more intelligently, attacking in bursts rather than exhausting themselves, tends to be the one who first establishes asymmetry.",
+      "answer_line": "Constant pressure forces mistakes",
+      "distractors": {
+        "plausible": [
+          "Stalling wins on points here",
+          "Wait for opponent to attack"
+        ],
+        "trap": [
+          "Play passive to avoid errors"
+        ]
+      }
+    },
+    {
+      "question": "How does the 50-50 Guard differ from Inside Ashi-Garami and other single-sided leg entanglements?",
+      "answer": "In Inside Ashi-Garami, Outside Ashi-Garami, and similar single-sided entanglements, only one player traps the opponent's leg, so the attacker has a clear structural advantage and the defender's leg is not correspondingly trapped. The 50-50 Guard is distinct because the entanglement is fully mutual: each player traps one of the other's legs in the same configuration, so both have simultaneous heel-hook access and neither holds an inherent edge. This mutual exposure makes 50-50 uniquely reciprocal, since the same attack is always available to the opponent. It also explains why players often transition out of 50-50 into asymmetrical entanglements like Honey Hole or Backside 50-50 to escape the parity and gain one-sided control.",
+      "answer_line": "Both legs trapped, mutual access",
+      "distractors": {
+        "plausible": [
+          "Only attacker's leg is trapped",
+          "Defender has no submissions"
+        ],
+        "trap": [
+          "Same setup as Honey Hole"
+        ]
+      }
+    },
+    {
+      "question": "What transition options let a player break out of the 50-50 stalemate into a more dominant entanglement?",
+      "answer": "Because standard 50-50 offers no inherent advantage, players seek to convert it into asymmetrical positions where control is one-sided. Primary targets include Honey Hole (inside sankaku), which offers superior heel exposure and control, and Backside 50-50, which repositions to attack from behind the opponent's leg line. X-Guard and Single Leg X-Guard serve as sweeping alternatives when leg attacks are unavailable, off-balancing the opponent rather than isolating a leg. Recognizing when a direct submission is stalemated and flowing seamlessly to one of these positions is what separates effective 50-50 play from passive stalling.",
+      "answer_line": "Go to Honey Hole or backside",
+      "distractors": {
+        "plausible": [
+          "Stay and keep hand-fighting",
+          "Switch to standard closed guard"
+        ],
+        "trap": [
+          "Release legs, stand up blind"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "ucAwPgTLSpQ",
+      "title": "Getting to Backside 50/50",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 121,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "DBbSqQf6iCo",
+      "title": "Roll Under to Backside 50/50",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "BJJ focus camps",
+      "duration": 110,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "QRc5Lc5Pez8",
+      "title": "Ham Sandwich to 50/50 Leg Lock Entry",
+      "by": "Brandon McCaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 84,
+      "verified": "2026-07-14"
+    }
+  ]
 }

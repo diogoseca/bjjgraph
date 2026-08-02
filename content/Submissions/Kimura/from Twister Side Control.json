@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Twister Side Control",
   "from_position": "Twister Side Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Kimura from Twister Side Control is a 10th Planet shoulder lock applied with a figure-four grip on the near arm, where the position's leg entanglement nullifies the roll-through escape that normally defends the technique.",
   "overview": "The Kimura from Twister Side Control exploits the unique lateral angle and leg entanglement of this 10th Planet position to attack the shoulder joint. When the bottom player extends their near arm to create frames or post during escape attempts, the top player can isolate the wrist and establish a figure-four grip. The leg entanglement characteristic of Twister Side Control prevents the typical Kimura defense of rolling through, making this a high-percentage finishing opportunity that rewards patience and positional awareness.\n\nWhat distinguishes this Kimura variant from applications in traditional side control is the combination of pre-existing leg control and shoulder pressure that defeats standard defensive responses before they begin. The bottom player cannot straighten their arm and roll because the leg hook restricts hip rotation. The lateral angle provides excellent rotational leverage on the shoulder, and the shoulder pressure inherent to the position means isolation is already partially achieved. Practitioners who develop sensitivity to the bottom player's framing patterns will find consistent openings for this attack.\n\nThis variant integrates naturally into the broader Twister Side Control submission chain. When defending against twister and darce threats, the bottom player frequently extends arms to create frames, directly exposing the Kimura opportunity. The result is a genuine offensive dilemma: protecting the neck from chokes requires extending arms that become vulnerable to the shoulder lock, and vice versa. This multi-threat dynamic makes the Kimura from Twister Side Control particularly effective as part of a systematic attacking approach rather than as an isolated technique.",
   "safety_considerations": {
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Twister Side Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -291,42 +303,142 @@
       {
         "question": "What anatomical structures does the Kimura from Twister Side Control primarily attack?",
         "answer": "The Kimura primarily attacks the shoulder joint through forced internal rotation beyond its normal range. Specific structures at risk include the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, the glenoid labrum, and the shoulder capsule. Secondary stress is placed on the bicep tendon and the acromioclavicular joint. The lateral angle from Twister Side Control concentrates force on the posterior capsule and infraspinatus more than traditional Kimura applications.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shoulder via internal rotation",
+        "distractors": {
+          "plausible": [
+            "Elbow joint, like an armbar",
+            "Wrist and forearm bones"
+          ],
+          "trap": [
+            "Neck and cervical spine"
+          ]
+        }
       },
       {
         "question": "What makes the roll-through defense ineffective against the Kimura from Twister Side Control compared to traditional side control?",
         "answer": "The leg entanglement characteristic of Twister Side Control restricts the bottom player's hip rotation, which is the foundation of the roll-through defense. In traditional side control, the defender can bridge and roll over the Kimura-side shoulder to relieve pressure and potentially reverse. From Twister Side Control, the leg hook pins the near hip and prevents the coordinated hip movement needed to execute this escape. This mechanical restriction is the primary advantage of attacking the Kimura from this position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg hook blocks hip rotation",
+        "distractors": {
+          "plausible": [
+            "Arm control blocks the roll",
+            "Shoulder pressure stops the roll"
+          ],
+          "trap": [
+            "Roll through harder to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own shorts to prevent arm rotation during the Kimura finish - what are your options?",
         "answer": "You have several options when the defender grips their shorts or leg. First, attempt to pry their grip open one finger at a time while maintaining figure-four pressure. Second, use a pulsing motion with your figure-four to fatigue their grip over time. Third, transition to a straight armbar by extending their arm and swinging your leg over their head while keeping wrist control. Fourth, maintain the Kimura position and threaten other submissions to force them to release the grip defensively. The leg entanglement keeps them pinned during any of these transitions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pry grip, pulse, or switch armbar",
+        "distractors": {
+          "plausible": [
+            "Give up the submission attempt",
+            "Stand up to break their grip"
+          ],
+          "trap": [
+            "Wrench the arm and lose the pin"
+          ]
+        }
       },
       {
         "question": "At what point during the Kimura application does the submission become inescapable for the defender?",
         "answer": "The point of no return occurs when the figure-four grip is locked tight with the defender's elbow pinned against their body, the attacker's hips are positioned perpendicular to the trapped arm, and the wrist has been rotated past the plane of the defender's back. Once the wrist passes behind the hip line with the elbow elevated, the mechanical leverage makes escape virtually impossible without conceding the tap. Defenders must recognize that their last viable defensive window is before the elbow pin is established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist rotated past the back line",
+        "distractors": {
+          "plausible": [
+            "Figure-four grip just latched on",
+            "Hips only turned perpendicular"
+          ],
+          "trap": [
+            "It's never truly inescapable"
+          ]
+        }
       },
       {
         "question": "How should you coordinate wrist rotation and elbow lift when finishing the Kimura from this position?",
         "answer": "The wrist and elbow must move simultaneously as a coordinated pair. Rotate the wrist toward the defender's lower back using your gripping hand while lifting the elbow away from the mat using your forearm as a lever within the figure-four structure. Pure wrist rotation without elbow lift creates insufficient shoulder torque, while pure elbow lift without wrist rotation creates a crank rather than a proper Kimura. The combined vector produces the diagonal force line that attacks the shoulder joint at its weakest angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotate wrist, lift elbow together",
+        "distractors": {
+          "plausible": [
+            "Wrist rotation alone is enough",
+            "Elbow lift alone is enough"
+          ],
+          "trap": [
+            "Crank the wrist fast for a tap"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the Kimura from Twister Side Control in training?",
         "answer": "Apply rotation slowly over 3-5 seconds minimum, never jerking or spiking. The lateral angle from Twister Side Control generates significant torque with minimal effort, making sudden application particularly dangerous. Ensure your partner has at least one free hand or foot available to tap. Listen for verbal taps or distress sounds, as the bottom position may restrict physical tapping. Release immediately upon any tap signal by stopping rotation first, then returning the arm to neutral, then releasing the grip. Never test a partner's pain tolerance after they tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotate slowly over 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Torque needs maximum force",
+            "Only physical taps matter"
+          ],
+          "trap": [
+            "Spike it on hard and fast"
+          ]
+        }
       },
       {
         "question": "How do you properly release the Kimura after your training partner taps to prevent post-submission injury?",
         "answer": "Release follows a specific sequence: first, immediately stop all rotational pressure the instant the tap is detected. Second, slowly return the arm toward its neutral position by externally rotating the wrist back toward the starting point. Third, release the figure-four grip completely. Fourth, allow your partner to self-assess their shoulder mobility before continuing training. Never release the arm suddenly or allow it to spring back, as the sudden position change can cause additional strain on already-stressed structures. Maintain body position until you are certain the arm has been returned safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, return arm, then release",
+        "distractors": {
+          "plausible": [
+            "Release the grip immediately first",
+            "Have partner release themselves"
+          ],
+          "trap": [
+            "Let go fast, arm springs back"
+          ]
+        }
       },
       {
         "question": "In competition, how does the Kimura from Twister Side Control fit into a broader submission strategy?",
         "answer": "The Kimura functions as one prong of a three-threat system from Twister Side Control alongside the twister and darce choke. In competition, you establish the position and begin threatening the twister first, as this forces defensive arm extension. When the defender frames to prevent spinal rotation, the Kimura becomes available on the extended near arm. If they retract arms to defend the Kimura, the twister threat returns. Competitors who understand this dynamic cycle between threats based on defensive reactions, making each individual submission more effective because the defense for one opens another.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cycle twister, kimura, darce",
+        "distractors": {
+          "plausible": [
+            "Attack kimura first, then twister",
+            "Attack kimura only, ignore others"
+          ],
+          "trap": [
+            "Abandon threat after one defense"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister Side Control Attacks",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Twister Side Control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -420,27 +532,77 @@
       {
         "question": "How do you recognize when the Kimura from Twister Side Control is being set up?",
         "answer": "The primary recognition cue is the attacker releasing one hand from their shoulder control or head position to reach for your near wrist. You will feel their grip transition as their hand wraps around your wrist with a palm-down grip. Secondary cues include feeling their far arm threading under your elbow and a sudden shift in their hip position toward your head. Early recognition is critical because defensive effectiveness drops dramatically once the figure-four is established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand releases, grips near wrist",
+        "distractors": {
+          "plausible": [
+            "Far arm threads under elbow first",
+            "Hip shifts toward your legs"
+          ],
+          "trap": [
+            "Wait for figure-four to react"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the Kimura from Twister Side Control?",
         "answer": "Tap as soon as you feel rotational pressure you cannot defend, before pain becomes severe. Use your free hand to tap rapidly on the attacker's body, the mat, or your own body. If your free hand is trapped, use verbal tapping by clearly saying 'tap' multiple times, or tap with your feet on the mat. Do not try to tough it out or wait for pain, as the lateral angle generates significant torque quickly and shoulder injuries can occur with minimal warning. The leg entanglement means you cannot roll to relieve pressure, so tap early.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, don't tough it out",
+        "distractors": {
+          "plausible": [
+            "Wait until the pain is severe",
+            "Only a hand tap is valid"
+          ],
+          "trap": [
+            "Try to roll and power out"
+          ]
+        }
       },
       {
         "question": "Why is the standard roll-through defense ineffective against the Kimura from Twister Side Control?",
         "answer": "The roll-through defense requires coordinated hip rotation to roll over the Kimura-side shoulder and relieve rotational pressure. In Twister Side Control, the attacker's leg entanglement around your near leg blocks this hip rotation entirely. Attempting the roll-through wastes significant energy without improving your position and may actually deepen the attacker's control. You must use alternative defenses focused on grip prevention, arm retraction, and exploiting the grip transition window to hip escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg entanglement blocks hip roll",
+        "distractors": {
+          "plausible": [
+            "Arm position blocks the roll",
+            "Grip strength blocks the roll"
+          ],
+          "trap": [
+            "Force the roll-through anyway"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the Kimura from Twister Side Control at different stages?",
         "answer": "Defense is stage-dependent. Before the grip: keep elbows tight and deny wrist access. During grip transition: fight the wrist grip immediately and exploit the attacker's reduced shoulder pressure to hip escape. With figure-four partially set: straighten the arm to break the angle or retract the elbow forcefully. With figure-four locked: grab your own shorts or thigh as a temporary anchor to stall rotation. During rotation: tap before injury occurs. The earlier you engage defensive action, the higher your success probability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stage-based: deny, retract, anchor",
+        "distractors": {
+          "plausible": [
+            "Same defense works every stage",
+            "Wait until locked to defend"
+          ],
+          "trap": [
+            "Try roll-through once it's locked"
+          ]
+        }
       },
       {
         "question": "When should you attempt to escape the position versus focus purely on defending the submission?",
         "answer": "The optimal escape window is during the attacker's grip transition when they release shoulder pressure to hunt for your wrist. This brief moment reduces their positional control, making hip escape and re-guard attempts viable. If the figure-four is already locked, focus entirely on defending the submission through grip anchoring and arm straightening rather than attempting positional escape, as escape attempts from a locked Kimura typically accelerate the finish by creating additional space for the attacker's rotation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Escape during the grip transition",
+        "distractors": {
+          "plausible": [
+            "Only after the finish attempt",
+            "Never risk an escape at all"
+          ],
+          "trap": [
+            "Buck wildly once locked in"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -463,6 +625,35 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Integrating all defensive layers under live conditions",
         "description": "Positional rounds from Twister Side Control bottom at full resistance. Attacker pursues full submission chains including Kimura. Defender practices the complete defensive hierarchy: recognition, grip prevention, escape timing, emergency defense, and appropriate tapping. Track escape rate versus submission rate across training sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gawKiLxmZbc",
+        "title": "Spinning back door escape from side control",
+        "by": "Science of JiuJitsu",
+        "vertical": false,
+        "channel": "Science Of JiuJitsu",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gL-eAA7EsSU",
+        "title": "Escaping reverse kesa or twister side control",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 199,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LdHCMIMM380",
+        "title": "North-south kimura defense",
+        "by": "Stephen Whittier",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 195,
+        "verified": "2026-07-15"
       }
     ]
   }

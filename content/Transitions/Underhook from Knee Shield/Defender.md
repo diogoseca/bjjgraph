@@ -134,6 +134,54 @@ description: "Master defending the Underhook from Knee Shield in BJJ. Learn reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook from Knee Shield (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Underhook knee cut vs knee shield",
+      "description": "Underhook from Knee Shield (Defender) film study: Underhook knee cut vs knee shield, taught by Michael Wong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KzQz0AWFFZk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KzQz0AWFFZk",
+      "url": "https://www.youtube.com/watch?v=KzQz0AWFFZk",
+      "creator": { "@type": "Person", "name": "Michael Wong" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee shield pass to inside heel hook",
+      "description": "Underhook from Knee Shield (Defender) film study: Knee shield pass to inside heel hook, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kItQxImd_NE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kItQxImd_NE",
+      "url": "https://www.youtube.com/watch?v=kItQxImd_NE",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Heel hook answer to the knee shield",
+      "description": "Underhook from Knee Shield (Defender) film study: Heel hook answer to the knee shield, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uQTihtP0-Z0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uQTihtP0-Z0",
+      "url": "https://www.youtube.com/watch?v=uQTihtP0-Z0",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT99S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +191,42 @@ As the defender (top player) against the Underhook from Knee Shield, your object
 **Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook from Knee Shield (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KzQz0AWFFZk)
+
+<p class="clip-credit"><strong>Underhook knee cut vs knee shield</strong> — taught by Michael Wong · 0:25 · <a href="https://www.youtube.com/watch?v=KzQz0AWFFZk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kItQxImd_NE)
+
+<p class="clip-credit"><strong>Knee shield pass to inside heel hook</strong> — taught by Factory Fresh Jiu Jitsu · 0:32 · <a href="https://www.youtube.com/watch?v=kItQxImd_NE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uQTihtP0-Z0)
+
+<p class="clip-credit"><strong>Heel hook answer to the knee shield</strong> — taught by Peter Mettler · 1:39 · <a href="https://www.youtube.com/watch?v=uQTihtP0-Z0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

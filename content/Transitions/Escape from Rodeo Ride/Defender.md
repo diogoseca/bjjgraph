@@ -156,6 +156,43 @@ description: "Defend against the Escape from Rodeo Ride in BJJ. Learn to recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Rodeo Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle Roll Counter Against the Ride",
+      "description": "Escape from Rodeo Ride (Defender) film study: Turtle Roll Counter Against the Ride, taught by Mark VanSchuyver.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NxKC6qHEgl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NxKC6qHEgl8",
+      "url": "https://www.youtube.com/watch?v=NxKC6qHEgl8",
+      "creator": { "@type": "Person", "name": "Mark VanSchuyver" },
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering hooks when back control slips",
+      "description": "Escape from Rodeo Ride (Defender) film study: Recovering hooks when back control slips, taught by Carnage BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZVYoNcBr-00/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZVYoNcBr-00",
+      "url": "https://www.youtube.com/watch?v=ZVYoNcBr-00",
+      "creator": { "@type": "Person", "name": "Carnage BJJ" },
+      "duration": "PT133S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +202,34 @@ As the rider in Rodeo Ride, your objective when the bottom practitioner attempts
 **Opponent's Starting Position**: [[Positions/Rodeo Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Rodeo Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NxKC6qHEgl8)
+
+<p class="clip-credit"><strong>Turtle Roll Counter Against the Ride</strong> — taught by Mark VanSchuyver · 1:25 · <a href="https://www.youtube.com/watch?v=NxKC6qHEgl8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZVYoNcBr-00)
+
+<p class="clip-credit"><strong>Recovering hooks when back control slips</strong> — taught by Carnage BJJ · 2:13 · <a href="https://www.youtube.com/watch?v=ZVYoNcBr-00" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master Crab Ride position in BJJ. Strategic guide covering turtle 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crab Ride \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crab ride / claw ride setup",
+      "description": "Crab Ride film study: Crab ride / claw ride setup, taught by myrmidonwrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tsxvdEE_qCY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tsxvdEE_qCY",
+      "url": "https://www.youtube.com/watch?v=tsxvdEE_qCY",
+      "creator": { "@type": "Person", "name": "myrmidonwrestling" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crab ride to the back",
+      "description": "Crab Ride film study: Crab ride to the back, taught by Samuel Braga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aSrT9fosH-s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aSrT9fosH-s",
+      "url": "https://www.youtube.com/watch?v=aSrT9fosH-s",
+      "creator": { "@type": "Person", "name": "Samuel Braga" },
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ Crab Ride represents one of the most systematic approaches to attacking turtle, 
 From the defensive perspective, Crab Ride Bottom is a high-pressure situation that requires immediate action and technical precision. The bottom player must balance multiple defensive priorities - protecting the neck from chokes, preventing the second hook from being inserted, and maintaining base to avoid being flattened. Understanding the mechanics of hook removal and hip positioning is essential for survival, as this position often represents a transitional state rather than a sustainable position. Advanced practitioners can even counter-attack from this seemingly disadvantageous position, using the top player's commitment to the ride as an opportunity for reversals or leg attacks.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crab Ride in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tsxvdEE_qCY)
+
+<p class="clip-credit"><strong>Crab ride / claw ride setup</strong> — taught by myrmidonwrestling · 1:26 · <a href="https://www.youtube.com/watch?v=tsxvdEE_qCY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aSrT9fosH-s)
+
+<p class="clip-credit"><strong>Crab ride to the back</strong> — taught by Samuel Braga · 1:05 · <a href="https://www.youtube.com/watch?v=aSrT9fosH-s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,21 +202,19 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (39% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (21% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (13% of attempts)
+- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (16% of attempts)
 
-- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (8% of attempts)
+- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (9% of attempts)
 
-- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (10% of attempts)
+- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (14% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (3% of attempts)
+- **[[Transitions/Crab Ride Escape to Guard/Attacker|Crab Ride Escape to Guard]]** (20% of attempts)
 
-- **[[Transitions/Crab Ride Escape to Guard/Attacker|Crab Ride Escape to Guard]]** (4% of attempts)
-
-- **[[Transitions/Escape from Crab Ride/Attacker|Escape from Crab Ride]]** (2% of attempts)
+- **[[Transitions/Escape from Crab Ride/Attacker|Escape from Crab Ride]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -212,25 +275,25 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ### Available Transitions
 
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (40% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (27% of attempts)
 
-- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (7% of attempts)
+- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (8% of attempts)
 
-- **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** (6% of attempts)
+- **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** (4% of attempts)
 
-- **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** (3% of attempts)
+- **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** (5% of attempts)
 
-- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (12% of attempts)
+- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (16% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (11% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (9% of attempts)
 
-- **[[Transitions/Back Control to Cross Body Ride/Attacker|Back Control to Cross Body Ride]]** (7% of attempts)
+- **[[Transitions/Back Control to Cross Body Ride/Attacker|Back Control to Cross Body Ride]]** (11% of attempts)
 
-- **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (8% of attempts)
+- **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (10% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (4% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (5% of attempts)
 
-- **[[Transitions/Kimura from Crab Ride/Attacker|Kimura from Crab Ride]]** (2% of attempts)
+- **[[Transitions/Kimura from Crab Ride/Attacker|Kimura from Crab Ride]]** (5% of attempts)
 
 
 ### Common Mistakes

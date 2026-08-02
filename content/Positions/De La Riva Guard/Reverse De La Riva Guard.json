@@ -298,77 +298,216 @@
     "transitions": [
       {
         "transition": "RDLR Pass",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 8
+        }
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 12
+        }
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 16
+        }
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 8
+        }
       },
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 8
+        }
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Body Lock Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 14
+        }
       },
       {
         "transition": "Headquarters Pass",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Back Step Pass",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "RDLR Backstep Counter",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       }
     ],
     "flashcards": [
       {
         "question": "Your opponent establishes a tight RDLR hook with strong ankle control and begins elevating their hips—what is your immediate priority?",
-        "answer": "Your immediate priority is to address the ankle grip before attempting any other action. The ankle grip is the steering mechanism that controls the direction of the hook's rotational force. By breaking or controlling their wrist first, you neutralize their ability to direct sweeping momentum. Simultaneously, keep your hips back and widen your base to prevent them from getting underneath your center of gravity. Never attempt to strip the hook with vertical force, as this feeds directly into their sweeping mechanics."
+        "answer": "Your immediate priority is to address the ankle grip before attempting any other action. The ankle grip is the steering mechanism that controls the direction of the hook's rotational force. By breaking or controlling their wrist first, you neutralize their ability to direct sweeping momentum. Simultaneously, keep your hips back and widen your base to prevent them from getting underneath your center of gravity. Never attempt to strip the hook with vertical force, as this feeds directly into their sweeping mechanics.",
+        "answer_line": "Neutralize the ankle grip first",
+        "distractors": {
+          "plausible": [
+            "Widen base before addressing grip",
+            "Collar-tie for upper control first"
+          ],
+          "trap": [
+            "Rip the hook off with force"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and contact points for maintaining a stable passing position against RDLR?",
-        "answer": "Essential grips include control of the far hip or pants to prevent rotation, collar or cross-face control to limit their upper body mobility and inversion capacity, and grip on their far leg (knee or ankle) to prevent effective framing. Your feet should maintain a wide base with posting on the hooking-side leg. The combination of upper body control and lower body management creates a unified system that prevents them from generating the rotational momentum needed for sweeps or back takes."
+        "answer": "Essential grips include control of the far hip or pants to prevent rotation, collar or cross-face control to limit their upper body mobility and inversion capacity, and grip on their far leg (knee or ankle) to prevent effective framing. Your feet should maintain a wide base with posting on the hooking-side leg. The combination of upper body control and lower body management creates a unified system that prevents them from generating the rotational momentum needed for sweeps or back takes.",
+        "answer_line": "Far hip, collar, far-leg control",
+        "distractors": {
+          "plausible": [
+            "Grip only the far ankle",
+            "Cross-face without hip control"
+          ],
+          "trap": [
+            "Chase only the hooking leg"
+          ]
+        }
       },
       {
         "question": "How do you shut down berimbolo entries when the bottom player begins rotating their shoulders toward the mat?",
-        "answer": "When you recognize shoulder rotation indicating berimbolo entry, immediately backstep your hooked leg while driving your chest forward and down toward their hips. This removes the space they need to complete the inversion while maintaining pressure. Your far hip grip becomes critical—use it to turn their hips away from you, preventing them from completing the rotation underneath. If they've already committed deeply, consider transitioning to a bodylock where you wrap their torso and drive them flat, eliminating their rotational capacity entirely."
+        "answer": "When you recognize shoulder rotation indicating berimbolo entry, immediately backstep your hooked leg while driving your chest forward and down toward their hips. This removes the space they need to complete the inversion while maintaining pressure. Your far hip grip becomes critical—use it to turn their hips away from you, preventing them from completing the rotation underneath. If they've already committed deeply, consider transitioning to a bodylock where you wrap their torso and drive them flat, eliminating their rotational capacity entirely.",
+        "answer_line": "Backstep, chest down, turn far hip",
+        "distractors": {
+          "plausible": [
+            "Posture up and pull away",
+            "Chase the hips with grips"
+          ],
+          "trap": [
+            "Follow the roll and go with it"
+          ]
+        }
       },
       {
         "question": "What weight distribution adjustments prevent the waiter sweep when the bottom player drives forward pressure?",
-        "answer": "Against forward pressure indicating waiter sweep setup, shift your weight backward by sitting your hips back while maintaining chest connection forward. This creates a counterbalance where your center of gravity stays behind the line of their hook rather than drifting over it. Widen your base laterally and post strongly on your near-side leg. If they commit heavily to the forward drive, use their momentum against them by backstepping and circling to leg drag position, converting their offensive pressure into your passing opportunity."
+        "answer": "Against forward pressure indicating waiter sweep setup, shift your weight backward by sitting your hips back while maintaining chest connection forward. This creates a counterbalance where your center of gravity stays behind the line of their hook rather than drifting over it. Widen your base laterally and post strongly on your near-side leg. If they commit heavily to the forward drive, use their momentum against them by backstepping and circling to leg drag position, converting their offensive pressure into your passing opportunity.",
+        "answer_line": "Sit hips back, keep chest forward",
+        "distractors": {
+          "plausible": [
+            "Drive forward to flatten them",
+            "Narrow stance, post far leg"
+          ],
+          "trap": [
+            "Push into their hook harder"
+          ]
+        }
       },
       {
         "question": "Your base gets compromised and the bottom player begins getting underneath you—how do you recover?",
-        "answer": "If your base is compromised and they're getting underneath, immediately disengage rather than fighting from a losing position. Release your grips and backstep completely away from the guard, resetting to standing position. Attempting to maintain base once they have elevation advantage typically results in completed sweeps. After resetting, re-engage with proper headquarters positioning, addressing the ankle grip first before attempting to pass. This tactical retreat preserves position rather than giving up back exposure or completing a sweep for your opponent."
+        "answer": "If your base is compromised and they're getting underneath, immediately disengage rather than fighting from a losing position. Release your grips and backstep completely away from the guard, resetting to standing position. Attempting to maintain base once they have elevation advantage typically results in completed sweeps. After resetting, re-engage with proper headquarters positioning, addressing the ankle grip first before attempting to pass. This tactical retreat preserves position rather than giving up back exposure or completing a sweep for your opponent.",
+        "answer_line": "Disengage and reset to standing",
+        "distractors": {
+          "plausible": [
+            "Fight to recover base in place",
+            "Drop weight to smash through"
+          ],
+          "trap": [
+            "Post hard and ride out the sweep"
+          ]
+        }
       },
       {
         "question": "How should you manage energy when passing RDLR against an opponent with superior hip mobility?",
-        "answer": "Against mobile opponents, avoid extended grip fighting exchanges at the hook level where their hip mobility gives them advantage. Instead, focus on systematic progression: establish upper body control first (collar tie or cross-face) to limit their inversion capacity before addressing the hook. Use pressure passing methodologies that keep them flat rather than float passing that allows hip elevation. Accept that you may need multiple passing attempts, maintaining headquarters position between attempts rather than forcing single committed passes that can be countered by their mobility."
+        "answer": "Against mobile opponents, avoid extended grip fighting exchanges at the hook level where their hip mobility gives them advantage. Instead, focus on systematic progression: establish upper body control first (collar tie or cross-face) to limit their inversion capacity before addressing the hook. Use pressure passing methodologies that keep them flat rather than float passing that allows hip elevation. Accept that you may need multiple passing attempts, maintaining headquarters position between attempts rather than forcing single committed passes that can be countered by their mobility.",
+        "answer_line": "Upper body control before the hook",
+        "distractors": {
+          "plausible": [
+            "Float pass to conserve energy",
+            "Grip fight hard at the hook"
+          ],
+          "trap": [
+            "Force a single committed pass"
+          ]
+        }
       },
       {
         "question": "The bottom player successfully transitions to X-Guard during your pass attempt—what immediate adjustments are required?",
-        "answer": "Upon X-Guard transition, your priorities shift immediately: extract your trapped leg by stepping back forcefully while posting your free leg wide for base. Do not attempt to continue the original passing trajectory. Control their far leg (the one elevating your hip) by gripping the ankle and pushing it down toward the mat. Establish upper body control through collar or shoulder pressure to prevent them from generating sweeping momentum. From there, you can attempt long step passing around their X-Guard structure or backstep to reset to headquarters position against a less developed guard."
+        "answer": "Upon X-Guard transition, your priorities shift immediately: extract your trapped leg by stepping back forcefully while posting your free leg wide for base. Do not attempt to continue the original passing trajectory. Control their far leg (the one elevating your hip) by gripping the ankle and pushing it down toward the mat. Establish upper body control through collar or shoulder pressure to prevent them from generating sweeping momentum. From there, you can attempt long step passing around their X-Guard structure or backstep to reset to headquarters position against a less developed guard.",
+        "answer_line": "Extract leg, control their far ankle",
+        "distractors": {
+          "plausible": [
+            "Continue original passing path",
+            "Post both feet close together"
+          ],
+          "trap": [
+            "Stay put and grip fight the X"
+          ]
+        }
       },
       {
         "question": "What visual and tactile cues indicate the bottom player is about to attempt kiss of the dragon?",
-        "answer": "Visual cues include their head beginning to lower toward the mat, shoulders rotating toward you, and hips elevating higher than their normal guard position. Tactile cues include increased pulling pressure on your hooked leg toward their centerline, their far leg releasing its posting position to prepare for the roll, and a shift in their grip from ankle control to deeper hip or belt control. When you feel them loading your weight forward while their hips elevate, this indicates imminent kiss of the dragon entry. Immediate backstep and hip distance are required to prevent the technique."
+        "answer": "Visual cues include their head beginning to lower toward the mat, shoulders rotating toward you, and hips elevating higher than their normal guard position. Tactile cues include increased pulling pressure on your hooked leg toward their centerline, their far leg releasing its posting position to prepare for the roll, and a shift in their grip from ankle control to deeper hip or belt control. When you feel them loading your weight forward while their hips elevate, this indicates imminent kiss of the dragon entry. Immediate backstep and hip distance are required to prevent the technique.",
+        "answer_line": "Head down, shoulders turn, hips rise",
+        "distractors": {
+          "plausible": [
+            "Increased ankle grip pressure only",
+            "Far leg posting harder"
+          ],
+          "trap": [
+            "Drive forward into the pressure"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a Full Inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "cOUEcFxDtL8",
+        "title": "Reverse De La Riva Guard Pass",
+        "by": "Frankie Roberts",
+        "vertical": false,
+        "channel": "Frankie Roberts",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ynFpOlFWdLw",
+        "title": "Passing Reverse De La Riva",
+        "by": "Ronin Training Center",
+        "vertical": false,
+        "channel": "Ronin Training Center",
+        "duration": 68,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -603,78 +742,344 @@
     "transitions": [
       {
         "transition": "Waiter Sweep",
-        "attempt_probability": 22
-      },
-      {
-        "transition": "Kiss of the Dragon",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 9
+        }
       },
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 5
+        }
       },
       {
         "transition": "De La Riva to X-Guard Transition",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 14
+        }
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 23
+        }
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Reverse De La Riva Recovery",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 18
+        }
       },
       {
         "transition": "Tripod Sweep",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 6
+        }
       },
       {
         "transition": "Kiss of the Dragon from RDLR",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 12
+        }
       },
       {
         "transition": "RDLR to Crab Ride",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       }
     ],
     "flashcards": [
       {
         "question": "The opponent begins driving forward with heavy pressure to flatten your guard—what immediate adjustments maintain your position?",
-        "answer": "When facing forward pressure, elevate your hips higher while pulling their weight onto you with your ankle grip, loading them for a waiter sweep. Your far leg should frame against their hip or bicep to prevent them from flattening you completely. If they commit heavily forward, this feeds directly into your sweep—use their momentum by extending your hook-side leg while pulling across with your grips. The key is not fighting the pressure but redirecting it into your offensive system."
+        "answer": "When facing forward pressure, elevate your hips higher while pulling their weight onto you with your ankle grip, loading them for a waiter sweep. Your far leg should frame against their hip or bicep to prevent them from flattening you completely. If they commit heavily forward, this feeds directly into your sweep—use their momentum by extending your hook-side leg while pulling across with your grips. The key is not fighting the pressure but redirecting it into your offensive system.",
+        "answer_line": "Elevate hips, load the waiter sweep",
+        "distractors": {
+          "plausible": [
+            "Flatten hips to absorb pressure",
+            "Pull straight back away from them"
+          ],
+          "trap": [
+            "Brace hips down against the drive"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and contact points for maintaining RDLR structure against active passing?",
-        "answer": "Essential grips include near-side hand controlling opponent's far ankle or pants (the steering mechanism), far-side hand framing on their near hip or knee to maintain distance, and the inverted hook around their far leg with active instep pressure. Your far leg must control their near leg through posting on hip, hooking behind knee, or establishing a frame. This diagonal control system—far ankle + near leg frame—creates the unified structure that prevents both forward drives and lateral passing attempts."
+        "answer": "Essential grips include near-side hand controlling opponent's far ankle or pants (the steering mechanism), far-side hand framing on their near hip or knee to maintain distance, and the inverted hook around their far leg with active instep pressure. Your far leg must control their near leg through posting on hip, hooking behind knee, or establishing a frame. This diagonal control system—far ankle + near leg frame—creates the unified structure that prevents both forward drives and lateral passing attempts.",
+        "answer_line": "Far ankle grip + near-leg frame",
+        "distractors": {
+          "plausible": [
+            "Grip both knees, ignore ankles",
+            "Frame only, no ankle control"
+          ],
+          "trap": [
+            "Release the hook to grip collar"
+          ]
+        }
       },
       {
         "question": "The opponent successfully strips your ankle grip and begins addressing your hook—how do you recover guard retention?",
-        "answer": "When the ankle grip breaks, immediately transition your near-side hand to their pants at the knee or establish a collar tie if in gi. Simultaneously, your far leg must increase its engagement on their near leg to compensate for lost control. If they're stripping the hook, consider transitioning proactively to X-Guard or Single Leg X before they complete the strip, rather than fighting to maintain a compromised RDLR. Active transition beats passive resistance—use their hook-clearing motion as momentum for your guard change."
+        "answer": "When the ankle grip breaks, immediately transition your near-side hand to their pants at the knee or establish a collar tie if in gi. Simultaneously, your far leg must increase its engagement on their near leg to compensate for lost control. If they're stripping the hook, consider transitioning proactively to X-Guard or Single Leg X before they complete the strip, rather than fighting to maintain a compromised RDLR. Active transition beats passive resistance—use their hook-clearing motion as momentum for your guard change.",
+        "answer_line": "Transition to X-Guard proactively",
+        "distractors": {
+          "plausible": [
+            "Re-grip the same ankle repeatedly",
+            "Fight to restore the exact grip"
+          ],
+          "trap": [
+            "Chase the stripped hook with force"
+          ]
+        }
       },
       {
         "question": "Your opponent backsteps away from the hook—what is the highest-percentage follow-up technique?",
-        "answer": "Backstepping creates optimal conditions for X-Guard or Single Leg X transition. As they step back, immediately slide your hook-side foot to their far hip while your other foot establishes position on their near hip or behind their near knee. This converts their escaping momentum into your guard transition momentum. The backstep removes their forward pressure, giving you space to reconfigure your hooks into the elevated X-Guard structure. From there, technical standup sweeps become immediately available."
+        "answer": "Backstepping creates optimal conditions for X-Guard or Single Leg X transition. As they step back, immediately slide your hook-side foot to their far hip while your other foot establishes position on their near hip or behind their near knee. This converts their escaping momentum into your guard transition momentum. The backstep removes their forward pressure, giving you space to reconfigure your hooks into the elevated X-Guard structure. From there, technical standup sweeps become immediately available.",
+        "answer_line": "Transition to X-Guard/Single Leg X",
+        "distractors": {
+          "plausible": [
+            "Chase the hook back into place",
+            "Stand up and reset to feet"
+          ],
+          "trap": [
+            "Extend the hook and pull them in"
+          ]
+        }
       },
       {
         "question": "How do you manage energy during extended RDLR exchanges against a patient passer?",
-        "answer": "Against patient passers, avoid maintaining maximum hip elevation continuously—this exhausts your core rapidly. Instead, use pulsing pressure where you elevate and create off-balancing threats in bursts, then settle to a sustainable baseline position between attacks. Keep your grips active but not death-grip tight. Force them to react to your movements rather than holding static positions waiting for opportunities. If they're patient, you dictate the tempo by threatening techniques that require their response, creating openings in their defensive structure."
+        "answer": "Against patient passers, avoid maintaining maximum hip elevation continuously—this exhausts your core rapidly. Instead, use pulsing pressure where you elevate and create off-balancing threats in bursts, then settle to a sustainable baseline position between attacks. Keep your grips active but not death-grip tight. Force them to react to your movements rather than holding static positions waiting for opportunities. If they're patient, you dictate the tempo by threatening techniques that require their response, creating openings in their defensive structure.",
+        "answer_line": "Pulse pressure, then rest baseline",
+        "distractors": {
+          "plausible": [
+            "Hold max elevation continuously",
+            "Death-grip and wait them out"
+          ],
+          "trap": [
+            "Stay static until they attack"
+          ]
+        }
       },
       {
         "question": "The opponent begins attempting to smash your far leg frame to flatten you for passing—what defensive adjustment is required?",
-        "answer": "When they attack your far leg frame, you have two primary options: redirect to offense or reframe defensively. Offensively, their forward commitment to smash your frame feeds into waiter sweep mechanics—elevate with your hook and pull their weight across as they drive. Defensively, if the sweep timing isn't available, transition your far leg to a different frame position (hip to bicep, or establish shin frame across their thigh) before they can consolidate the smash. Never let them pin your far leg to the mat—continuous frame adjustment is essential."
+        "answer": "When they attack your far leg frame, you have two primary options: redirect to offense or reframe defensively. Offensively, their forward commitment to smash your frame feeds into waiter sweep mechanics—elevate with your hook and pull their weight across as they drive. Defensively, if the sweep timing isn't available, transition your far leg to a different frame position (hip to bicep, or establish shin frame across their thigh) before they can consolidate the smash. Never let them pin your far leg to the mat—continuous frame adjustment is essential.",
+        "answer_line": "Reframe leg, never let it pin",
+        "distractors": {
+          "plausible": [
+            "Hold the same frame rigidly",
+            "Pull the leg fully away"
+          ],
+          "trap": [
+            "Let the leg get pinned to mat"
+          ]
+        }
       },
       {
         "question": "What visual and tactile cues indicate the optimal moment to attempt kiss of the dragon?",
-        "answer": "Optimal kiss of the dragon timing occurs when: (1) opponent stands tall or straightens their posture, creating the space to rotate underneath; (2) their weight shifts backward as they attempt to disengage from your hook; (3) they release their hip control grip to address another threat. Tactile cues include feeling their weight lift off your hook pressure and sensing decreased forward drive. You need clearance underneath their hips to complete the rotation—if they're heavy and low, the technique requires a different setup or transition to other attacks."
+        "answer": "Optimal kiss of the dragon timing occurs when: (1) opponent stands tall or straightens their posture, creating the space to rotate underneath; (2) their weight shifts backward as they attempt to disengage from your hook; (3) they release their hip control grip to address another threat. Tactile cues include feeling their weight lift off your hook pressure and sensing decreased forward drive. You need clearance underneath their hips to complete the rotation—if they're heavy and low, the technique requires a different setup or transition to other attacks.",
+        "answer_line": "When they stand tall, weight back",
+        "distractors": {
+          "plausible": [
+            "When they're heavy and driving in",
+            "When they tighten hip control"
+          ],
+          "trap": [
+            "Force it while they're flat and low"
+          ]
+        }
       },
       {
         "question": "Your berimbolo entry gets stuffed and you end up with shoulders on the mat but haven't secured back control—how do you recover?",
-        "answer": "When berimbolo stalls with shoulders down, immediately assess if you can complete the inversion or need to abort. If they're defending well, abandon the back take and recover to open guard by pulling your hips away and re-establishing basic RDLR or transitioning to seated guard. If you're partially inverted, continuing to force the rotation typically results in getting passed or having your back taken. The recovery requires hip escape movement away from them while re-establishing your hooks and grips from a reset position. Accept the failed attempt and reset rather than fighting from compromised angles."
+        "answer": "When berimbolo stalls with shoulders down, immediately assess if you can complete the inversion or need to abort. If they're defending well, abandon the back take and recover to open guard by pulling your hips away and re-establishing basic RDLR or transitioning to seated guard. If you're partially inverted, continuing to force the rotation typically results in getting passed or having your back taken. The recovery requires hip escape movement away from them while re-establishing your hooks and grips from a reset position. Accept the failed attempt and reset rather than fighting from compromised angles.",
+        "answer_line": "Abort, hip escape, reset guard",
+        "distractors": {
+          "plausible": [
+            "Keep forcing the rotation",
+            "Push through to finish the roll"
+          ],
+          "trap": [
+            "Continue inverting from stall"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "9cyNdPpL4-I",
+        "title": "Reverse De La Riva into a Knee Bar",
+        "by": "Pardee BJJ",
+        "vertical": false,
+        "channel": "Pardee BJJ",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_beJGS2-yIE",
+        "title": "How to Use Reverse De La Riva",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
+        "duration": 122,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Reverse De La Riva Guard and distinguishes it from standard De La Riva?",
+      "answer": "Reverse De La Riva is defined by an inverted hook in which the bottom player threads their near leg across and behind the opponent's far leg from the outside, wrapping the instep around the thigh or calf so the hook points backward relative to a standard De La Riva hook. Standard De La Riva wraps the outside of the opponent's near leg with a forward-facing hook that generates pushing off-balancing, whereas the reverse orientation reverses the vector to pull the opponent's base in a rotational arc. This backward-threaded hook is the single mechanical feature that gives the position its identity. Both players' games are built around whether that inverted hook stays connected or gets cleared.",
+      "answer_line": "Inverted hook behind their far leg",
+      "distractors": {
+        "plausible": [
+          "Hook wraps the near leg forward",
+          "Both legs hook the same side"
+        ],
+        "trap": [
+          "Hook goes over the top, not under"
+        ]
+      }
+    },
+    {
+      "question": "Why does the inverted hook generate rotational off-balancing rather than the linear push-pull of standard open guards?",
+      "answer": "Because the hook wraps behind the far leg from the outside, its line of force runs tangent to the opponent's base rather than straight into or away from it. Tension on the hook therefore steers the opponent's leg in a circular path around their own center of gravity instead of driving them directly backward or forward. This turns the standing player's stance into a lever that wants to spin, so their balance is threatened along a rotational axis they cannot brace against with a simple wide base. The rotational nature is why the position feeds inversion-based back exposures rather than conventional sweeps.",
+      "answer_line": "Force runs tangent, not straight in",
+      "distractors": {
+        "plausible": [
+          "Force pushes straight backward",
+          "Force pulls straight forward"
+        ],
+        "trap": [
+          "Force drives straight down"
+        ]
+      }
+    },
+    {
+      "question": "What are the primary control points that hold the Reverse De La Riva configuration together for both players to contest?",
+      "answer": "The position rests on three linked control points: the inverted hook behind the far leg, an ankle or pant-cuff grip on that same far leg that acts as the steering mechanism for the hook's rotation, and the bottom player's far-side hand or other leg framing on the near hip or knee to manage distance. The far-leg ankle grip is the most contested point because it directs where the hook's rotational force is applied, which is why the top player's first priority is stripping it. Without that grip the hook loses its steering and becomes far easier to clear. These points form a diagonal control frame linking the opponent's far leg to the bottom player's upper body.",
+      "answer_line": "Hook, far-ankle grip, hip frame",
+      "distractors": {
+        "plausible": [
+          "Collar grip is the key point",
+          "Near-leg grip is most contested"
+        ],
+        "trap": [
+          "Ignore the ankle, grip the belt"
+        ]
+      }
+    },
+    {
+      "question": "How does hip elevation change the dynamics of Reverse De La Riva compared to a guard played flat on the mat?",
+      "answer": "Elevating the hips off the mat converts the position from a static holding structure into a dynamic, mobile one, which is essential to how it functions for both players. Raised hips let the bottom player rotate freely underneath the opponent to chase angles and generate the circular momentum the inverted hook is built to exploit. For the top player, that same elevation is the danger signal, because a bottom player who gets their hips underneath the top player's center of gravity can steer them into rotation. When the hips stay flat the rotational leverage disappears and the position degrades toward a defensible, low-threat guard.",
+      "answer_line": "Raised hips enable rotation",
+      "distractors": {
+        "plausible": [
+          "Flat hips create the sweep threat",
+          "Hip height doesn't affect leverage"
+        ],
+        "trap": [
+          "Drop hips flat to attack"
+        ]
+      }
+    },
+    {
+      "question": "What defensive dilemma does Reverse De La Riva impose on the standing player, and why is it hard to resolve cleanly?",
+      "answer": "The inverted hook forces the standing player into a lose-lose set of reactions because each natural defensive choice opens a different attack along the same rotational axis. Driving weight forward to smash feeds the bottom player's hip elevation and waiter sweep, standing tall or posturing away exposes the back to rotational back-takes, and backstepping to clear the hook surrenders the leg into X-Guard and Single Leg X transitions. There is no static posture that neutralizes all three at once, so the top player must keep moving and stripping the steering grip rather than trying to wait the position out. This built-in dilemma is why the position is prized as a high-percentage bridge to back exposure.",
+      "answer_line": "Any static reaction feeds an attack",
+      "distractors": {
+        "plausible": [
+          "Standing tall solves the dilemma",
+          "Backstepping fully resolves it"
+        ],
+        "trap": [
+          "Drive forward to force a stalemate"
+        ]
+      }
+    },
+    {
+      "question": "How does Reverse De La Riva relate mechanically to X-Guard and Single Leg X, and why are they natural neighbors?",
+      "answer": "All three share the same underlying principle of wedging a leg deep between the opponent's legs to attack their base from underneath, so the inverted hook can be re-threaded into an X or Single Leg X configuration with minimal repositioning. When the standing player backsteps or works to clear the reverse hook, that clearing motion naturally opens the space to slide the feet into the X-frame instead of resisting. This makes Reverse De La Riva a transitional hub rather than a terminal position, with the leg simply changing its wedge angle between related entanglements. The neighboring positions share the same leg but redirect its leverage from rotation toward elevation and off-balancing.",
+      "answer_line": "Same wedge, re-threads into X-Guard",
+      "distractors": {
+        "plausible": [
+          "Unrelated, separate leg systems",
+          "Only connects via full guard pass"
+        ],
+        "trap": [
+          "Requires releasing the leg entirely"
+        ]
+      }
+    },
+    {
+      "question": "Why is the orientation of the bottom player's shoulders and upper body a shared structural concern in Reverse De La Riva?",
+      "answer": "Because the position lives on a rotational axis, whichever way the bottom player's shoulders turn dictates whether the configuration stays offensive or collapses into back exposure. Shoulders kept turned toward the opponent preserve visual and framing connection and keep the inversion options live, while shoulders turning away pre-commit the spine to a rotation that can hand the standing player the back. This is why upper-body orientation is contested by both players: the top player wants to induce that turn to flatten and pass, and the bottom player guards against it except during a deliberate inversion. The shoulder line is effectively the steering wheel of the whole rotational exchange.",
+      "answer_line": "Shoulders toward opponent = control",
+      "distractors": {
+        "plausible": [
+          "Shoulder angle is irrelevant here",
+          "Shoulders away improves framing"
+        ],
+        "trap": [
+          "Turn shoulders away to invert safely"
+        ]
+      }
+    },
+    {
+      "question": "How does the far-leg control in Reverse De La Riva prevent the standing player from simply stepping away to neutralize the guard?",
+      "answer": "The inverted hook plus the far-leg grip trap the opponent's far leg in the entanglement, so any attempt to step clear must first drag that captured leg through the hook's resistance rather than freely lifting it away. This tethering is what keeps the two players connected and denies the standing player the clean disengagement that would reset them to a passing distance. If the far-leg control is lost, the tether breaks and the opponent can establish a stable base or step out entirely, which is why maintaining that connection is the shared pivot of the position. The captured far leg is the anchor that holds the rotational system in place for both offense and defense.",
+      "answer_line": "Hook+grip trap the far leg",
+      "distractors": {
+        "plausible": [
+          "Near-leg grip prevents the step",
+          "Collar grip prevents the step"
+        ],
+        "trap": [
+          "Release the leg to reset distance"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "DzNwu5_EBiA",
+      "title": "Reverse De La Riva to the Back (No-Gi)",
+      "by": "Revolution BJJ",
+      "vertical": false,
+      "channel": "Revolution BJJ",
+      "duration": 44,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "G0PyHbMyyR4",
+      "title": "Reverse De La Riva No-Gi Showcase",
+      "by": "Best Jiu Jitsu",
+      "vertical": false,
+      "channel": "Best Jiu Jitsu #shorts",
+      "duration": 37,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "gR54h1IXyGg",
+      "title": "Knee Shield Reverse DLR to Triangle",
+      "by": "Lucas Lepri",
+      "vertical": false,
+      "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+      "duration": 22,
+      "verified": "2026-07-14"
+    }
+  ]
 }

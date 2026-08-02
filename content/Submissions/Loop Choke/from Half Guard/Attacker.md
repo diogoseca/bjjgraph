@@ -170,6 +170,54 @@ description: "How to execute the Loop Choke from Half Guard Top in BJJ. Attackin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Loop Choke from Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Loop Choke from Half Guard",
+      "description": "Loop Choke from Half Guard (Attacker) film study: Loop Choke from Half Guard, taught by Sickness Ferro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3sprDpHbCdM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3sprDpHbCdM",
+      "url": "https://www.youtube.com/watch?v=3sprDpHbCdM",
+      "creator": { "@type": "Person", "name": "Sickness Ferro" },
+      "duration": "PT197S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Loop choke from half guard",
+      "description": "Loop Choke from Half Guard (Attacker) film study: Loop choke from half guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MeewDSMPwA0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MeewDSMPwA0",
+      "url": "https://www.youtube.com/watch?v=MeewDSMPwA0",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT310S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Loop choke from half guard top",
+      "description": "Loop Choke from Half Guard (Attacker) film study: Loop choke from half guard top, taught by terasankka.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TcX0ZzZib-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TcX0ZzZib-I",
+      "url": "https://www.youtube.com/watch?v=TcX0ZzZib-I",
+      "creator": { "@type": "Person", "name": "terasankka" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Executing the Loop Choke from Half Guard Top requires precise collar grip mechan
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Loop Choke from Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3sprDpHbCdM)
+
+<p class="clip-credit"><strong>Loop Choke from Half Guard</strong> — taught by Sickness Ferro · 3:17 · <a href="https://www.youtube.com/watch?v=3sprDpHbCdM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MeewDSMPwA0)
+
+<p class="clip-credit"><strong>Loop choke from half guard</strong> — taught by Jean Jacques Machado · 5:10 · <a href="https://www.youtube.com/watch?v=MeewDSMPwA0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TcX0ZzZib-I)
+
+<p class="clip-credit"><strong>Loop choke from half guard top</strong> — taught by terasankka · 0:59 · <a href="https://www.youtube.com/watch?v=TcX0ZzZib-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -169,6 +169,43 @@ description: "How to enter the Leg Weave from Half Guard top in BJJ. Underhook, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Leg Weave (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The most basic half guard pass, no-gi",
+      "description": "Half Guard to Leg Weave (Attacker) film study: The most basic half guard pass, no-gi, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_XjuF0no1Uw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_XjuF0no1Uw",
+      "url": "https://www.youtube.com/watch?v=_XjuF0no1Uw",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing knee shield with the leg weave pass",
+      "description": "Half Guard to Leg Weave (Attacker) film study: Passing knee shield with the leg weave pass, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4LIBFmas-oE",
+      "url": "https://www.youtube.com/watch?v=4LIBFmas-oE",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -185,6 +222,34 @@ This is a foundational skill in pressure passing systems. The leg weave it produ
 **From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Leg Weave (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_XjuF0no1Uw)
+
+<p class="clip-credit"><strong>The most basic half guard pass, no-gi</strong> — taught by Danny Mitchell · 1:29 · <a href="https://www.youtube.com/watch?v=_XjuF0no1Uw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4LIBFmas-oE)
+
+<p class="clip-credit"><strong>Passing knee shield with the leg weave pass</strong> — taught by BJJ4Breakfast · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

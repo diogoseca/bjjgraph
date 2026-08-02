@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Reverse Half Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "When trapped in reverse half guard, the bottom player faces away from their opponent with their back exposed, creating significant vulnerability to back takes and guard passing sequences. Recovering standard Half Guard from this compromised configuration prioritizes re-establishing a facing orientation toward the opponent through systematic hip rotation and frame recovery, restoring access to the full sweep, submission, and back-take arsenal that the inverted angle denies.\n\nThe escape mechanics center on breaking the top player's positional control through deliberate hip movement and frame creation. The bottom player must simultaneously maintain leg control on the opponent's trapped leg to prevent an immediate pass while rotating their hips and torso to face the opponent. This requires coordinated use of frames against the opponent's hips and shoulders to create the space necessary for rotation. Timing is critical because the escape works best when the top player commits their weight forward or shifts position to set up their own attack, creating momentary openings for the rotation.\n\nUnderstanding this escape is essential for any practitioner who encounters reverse half guard through scrambles, failed sweep attempts, or opponent backstep entries. The ability to recover standard half guard from this compromised position prevents the cascading positional deterioration that leads to passes and back takes, making it a fundamental survival skill within the half guard system.",
   "conditions": [
     "Bottom player is in reverse half guard with back oriented toward opponent",
@@ -101,7 +116,7 @@
       "relationship": "Alternative escape destination when rotation is blocked and turtle recovery is preferred"
     },
     {
-      "name": "Deep Half Entry from Half Guard",
+      "name": "Deep Half Entry",
       "relationship": "Related transition for converting escape momentum into deep half guard offense"
     },
     {
@@ -253,38 +268,138 @@
     "flashcards": [
       {
         "question": "What is the most critical prerequisite before initiating the hip rotation in the escape?",
-        "answer": "Establishing solid frames against the opponent's hips is the most critical prerequisite. Without frames creating space between your hips and the opponent's body, the rotation will stall halfway, leaving you in a vulnerable intermediate position with your back partially exposed. The frame must create enough clearance for your hips to complete the full rotation to a facing position."
+        "answer": "Establishing solid frames against the opponent's hips is the most critical prerequisite. Without frames creating space between your hips and the opponent's body, the rotation will stall halfway, leaving you in a vulnerable intermediate position with your back partially exposed. The frame must create enough clearance for your hips to complete the full rotation to a facing position.",
+        "answer_line": "Establish frames against hips",
+        "distractors": {
+          "plausible": [
+            "Secure underhook first",
+            "Post on far arm first"
+          ],
+          "trap": [
+            "Rotate hips immediately"
+          ]
+        }
       },
       {
         "question": "How should you time the escape relative to your opponent's weight distribution?",
-        "answer": "Execute the escape when the opponent commits their weight forward, shifts position to set up an attack, or momentarily lightens pressure during a grip change. These moments create temporary openings where their resistance to your rotation is minimized. Attempting the escape against balanced, settled weight meets maximum resistance and wastes energy without positional gain."
+        "answer": "Execute the escape when the opponent commits their weight forward, shifts position to set up an attack, or momentarily lightens pressure during a grip change. These moments create temporary openings where their resistance to your rotation is minimized. Attempting the escape against balanced, settled weight meets maximum resistance and wastes energy without positional gain.",
+        "answer_line": "Escape during weight shift",
+        "distractors": {
+          "plausible": [
+            "Escape when pressure heaviest",
+            "Wait for full guard pass"
+          ],
+          "trap": [
+            "Force escape vs balanced weight"
+          ]
+        }
       },
       {
         "question": "What happens if you release leg control during the hip rotation?",
-        "answer": "Releasing leg control during rotation allows the opponent to immediately extract their trapped leg and complete their guard pass to side control. The half guard hook must remain engaged throughout the entire rotation sequence to prevent this outcome. Active clamping pressure with both legs ensures the opponent cannot capitalize on the transition to free their leg."
+        "answer": "Releasing leg control during rotation allows the opponent to immediately extract their trapped leg and complete their guard pass to side control. The half guard hook must remain engaged throughout the entire rotation sequence to prevent this outcome. Active clamping pressure with both legs ensures the opponent cannot capitalize on the transition to free their leg.",
+        "answer_line": "Opponent frees leg, passes guard",
+        "distractors": {
+          "plausible": [
+            "Opponent resets to neutral",
+            "You complete rotation faster"
+          ],
+          "trap": [
+            "You take opponent's back"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes a strong crossface from behind during your escape attempt - how do you respond?",
-        "answer": "Stop the rotation immediately and address the crossface first. Use your inside hand to frame against their crossface arm, creating enough space to move their arm past your head. Only resume the rotation after neutralizing the crossface control. Attempting to rotate through a strong crossface results in being flattened and losing all offensive capability from the position."
+        "answer": "Stop the rotation immediately and address the crossface first. Use your inside hand to frame against their crossface arm, creating enough space to move their arm past your head. Only resume the rotation after neutralizing the crossface control. Attempting to rotate through a strong crossface results in being flattened and losing all offensive capability from the position.",
+        "answer_line": "Frame crossface, clear arm first",
+        "distractors": {
+          "plausible": [
+            "Power through the rotation",
+            "Fight for underhook first"
+          ],
+          "trap": [
+            "Continue rotating anyway"
+          ]
+        }
       },
       {
         "question": "What should you do immediately after completing the rotation to face your opponent?",
-        "answer": "Immediately establish standard half guard structure by inserting a knee shield or fighting for the underhook on the trapped leg side. The rotation and guard structure establishment must be one continuous sequence. Pausing after rotation without establishing defensive structure allows the opponent to flatten you and re-establish dominant passing pressure from standard half guard top."
+        "answer": "Immediately establish standard half guard structure by inserting a knee shield or fighting for the underhook on the trapped leg side. The rotation and guard structure establishment must be one continuous sequence. Pausing after rotation without establishing defensive structure allows the opponent to flatten you and re-establish dominant passing pressure from standard half guard top.",
+        "answer_line": "Insert knee shield immediately",
+        "distractors": {
+          "plausible": [
+            "Pause to catch your breath",
+            "Attack for sweep immediately"
+          ],
+          "trap": [
+            "Relax control momentarily"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inserting hooks for back control as you initiate your rotation - what is your response?",
-        "answer": "Keep your elbows tight to your body and address the hooks immediately before continuing the rotation. Scoop the hook with your hand and push it down while maintaining your leg control on their trapped leg. If the opponent gets one hook in, you must clear it before completing the rotation, as rotating with hooks established transitions you directly into a back control disadvantage."
+        "answer": "Keep your elbows tight to your body and address the hooks immediately before continuing the rotation. Scoop the hook with your hand and push it down while maintaining your leg control on their trapped leg. If the opponent gets one hook in, you must clear it before completing the rotation, as rotating with hooks established transitions you directly into a back control disadvantage.",
+        "answer_line": "Scoop and clear hook first",
+        "distractors": {
+          "plausible": [
+            "Speed up rotation to escape",
+            "Trap the hook with your leg"
+          ],
+          "trap": [
+            "Continue rotating regardless"
+          ]
+        }
       },
       {
         "question": "What grip adjustments are necessary when transitioning from reverse half guard to standard half guard?",
-        "answer": "During the rotation, your frames transition from pushing against the opponent's hips from behind to establishing standard half guard frames facing the opponent. Your inside arm shifts from a defensive neck-protecting position to either an underhook attempt or forearm frame against the opponent's chest and shoulder. Your outside hand transitions from hip frame to collar grip or head control for standard half guard offense."
+        "answer": "During the rotation, your frames transition from pushing against the opponent's hips from behind to establishing standard half guard frames facing the opponent. Your inside arm shifts from a defensive neck-protecting position to either an underhook attempt or forearm frame against the opponent's chest and shoulder. Your outside hand transitions from hip frame to collar grip or head control for standard half guard offense.",
+        "answer_line": "Hip push becomes chest frame",
+        "distractors": {
+          "plausible": [
+            "Keep same neck-protect grip",
+            "Switch straight to collar grip"
+          ],
+          "trap": [
+            "Release all grips mid-transition"
+          ]
+        }
       },
       {
         "question": "If your initial escape attempt fails, what should your immediate follow-up action be?",
-        "answer": "Re-establish your defensive baseline with chin tucked and neck protected, then immediately assess why the attempt failed. If it was a timing issue, wait for the next weight shift opportunity. If the opponent has tightened their control significantly, consider alternative options like deep half entry, inversion, or turtle transition rather than forcing the same failed escape pattern repeatedly."
+        "answer": "Re-establish your defensive baseline with chin tucked and neck protected, then immediately assess why the attempt failed. If it was a timing issue, wait for the next weight shift opportunity. If the opponent has tightened their control significantly, consider alternative options like deep half entry, inversion, or turtle transition rather than forcing the same failed escape pattern repeatedly.",
+        "answer_line": "Reset baseline, assess failure",
+        "distractors": {
+          "plausible": [
+            "Repeat same escape immediately",
+            "Explode harder next attempt"
+          ],
+          "trap": [
+            "Turtle up, expose your neck"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Escape Reverse Half Guard involves explosive hip rotation that places significant torque on the knee of the trapped leg. Practitioners should ensure adequate warm-up of hip flexors and knee joints before drilling. During training, communicate with your partner to avoid cranking on the trapped leg during resistance. If you feel sharp knee pain during the rotation, stop immediately and reposition. The rotation should be controlled and explosive but never forced through mechanical resistance that could injure either practitioner's knee or lower back."
+    "safety_considerations": "Escape Reverse Half Guard involves explosive hip rotation that places significant torque on the knee of the trapped leg. Practitioners should ensure adequate warm-up of hip flexors and knee joints before drilling. During training, communicate with your partner to avoid cranking on the trapped leg during resistance. If you feel sharp knee pain during the rotation, stop immediately and reposition. The rotation should be controlled and explosive but never forced through mechanical resistance that could injure either practitioner's knee or lower back.",
+    "clips": [
+      {
+        "id": "BkKzK5GQCZA",
+        "title": "Escaping bottom reverse half guard: 3 sweeps",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rja-2KKDGb0",
+        "title": "Dealing with the switch base from half guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 284,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Reverse Half Guard Defender",
@@ -370,19 +485,59 @@
     "flashcards": [
       {
         "question": "What are the earliest indicators that the bottom player is about to attempt the reverse half guard escape?",
-        "answer": "The earliest indicators are frame placement against your hips on the trapped leg side and initial hip escaping movements away from your body. These preparatory actions create the space needed for rotation and precede the actual escape by one to two seconds. Feeling increased pushing pressure against your hips should trigger an immediate defensive response before the rotation begins."
+        "answer": "The earliest indicators are frame placement against your hips on the trapped leg side and initial hip escaping movements away from your body. These preparatory actions create the space needed for rotation and precede the actual escape by one to two seconds. Feeling increased pushing pressure against your hips should trigger an immediate defensive response before the rotation begins.",
+        "answer_line": "Frames on hips, hip escaping",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive leg kick",
+            "Deep grip fight for collar"
+          ],
+          "trap": [
+            "Ignore it until rotation ends"
+          ]
+        }
       },
       {
         "question": "When should you pursue the back take versus completing the guard pass during the escape attempt?",
-        "answer": "Pursue the back take when the bottom player's torso begins rotating and their back becomes maximally exposed during the transition, creating the ideal window for hook insertion. Complete the guard pass instead when the bottom player loosens their leg control during rotation, creating an opportunity to extract your trapped leg and advance to side control."
+        "answer": "Pursue the back take when the bottom player's torso begins rotating and their back becomes maximally exposed during the transition, creating the ideal window for hook insertion. Complete the guard pass instead when the bottom player loosens their leg control during rotation, creating an opportunity to extract your trapped leg and advance to side control.",
+        "answer_line": "Back exposed: take it; else pass",
+        "distractors": {
+          "plausible": [
+            "Always pursue the back take",
+            "Always finish the guard pass"
+          ],
+          "trap": [
+            "Release control to reset"
+          ]
+        }
       },
       {
         "question": "What is the primary risk of remaining passive in reverse half guard top without advancing?",
-        "answer": "Remaining passive gives the bottom player unlimited attempts to find the correct timing for their escape. Even with strong control, the bottom player will eventually identify a weight shift or momentary pressure reduction to exploit. Reverse half guard top should be treated as a transitional position requiring immediate advancement to either back control or guard pass completion."
+        "answer": "Remaining passive gives the bottom player unlimited attempts to find the correct timing for their escape. Even with strong control, the bottom player will eventually identify a weight shift or momentary pressure reduction to exploit. Reverse half guard top should be treated as a transitional position requiring immediate advancement to either back control or guard pass completion.",
+        "answer_line": "Opponent finds escape timing",
+        "distractors": {
+          "plausible": [
+            "Passivity conserves energy",
+            "Passivity is safe, controlled"
+          ],
+          "trap": [
+            "Let bottom player tire out"
+          ]
+        }
       },
       {
         "question": "How should you adjust your pressure if the bottom player begins to invert rather than rotate normally?",
-        "answer": "If the bottom player begins inverting, shift your weight toward their hips and sprawl your legs back to eliminate the space they need for inversion. Drive your chest pressure downward toward the mat rather than forward. This prevents the inversion entry and forces them back to the standard rotation-based escape pattern, which is more predictable and easier to counter from your position."
+        "answer": "If the bottom player begins inverting, shift your weight toward their hips and sprawl your legs back to eliminate the space they need for inversion. Drive your chest pressure downward toward the mat rather than forward. This prevents the inversion entry and forces them back to the standard rotation-based escape pattern, which is more predictable and easier to counter from your position.",
+        "answer_line": "Sprawl hips, drive chest down",
+        "distractors": {
+          "plausible": [
+            "Chase the inversion rotation",
+            "Backstep off to create space"
+          ],
+          "trap": [
+            "Let inversion develop fully"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -405,6 +560,26 @@
         "phase": "Live Positional Sparring",
         "focus": "Full resistance application and decision-making",
         "description": "Start in reverse half guard top with partner at full resistance attempting to escape. Top player scores by taking back or completing pass, bottom player scores by recovering standard half guard. Five-minute rounds developing real-time defensive decision-making under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "G1gAIOZ3sbc",
+        "title": "Half guard escape",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "Mutual Combat sports and Fitness",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Freeing your foot while passing half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
       }
     ]
   }

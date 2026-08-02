@@ -150,6 +150,43 @@ description: "Defend the Guillotine Choke from Butterfly Guard. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Butterfly Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Late arm-in guillotine defense",
+      "description": "Guillotine Choke from Butterfly Guard (Defender) film study: Late arm-in guillotine defense, taught by Noel Danforth.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fYE1jgWfIgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fYE1jgWfIgY",
+      "url": "https://www.youtube.com/watch?v=fYE1jgWfIgY",
+      "creator": { "@type": "Person", "name": "Noel Danforth" },
+      "duration": "PT188S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine defense: the vaulting method",
+      "description": "Guillotine Choke from Butterfly Guard (Defender) film study: Guillotine defense: the vaulting method, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VUaJgz4FzY0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VUaJgz4FzY0",
+      "url": "https://www.youtube.com/watch?v=VUaJgz4FzY0",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT282S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Guillotine Choke from Butterfly Guard requires early recognition o
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Butterfly Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fYE1jgWfIgY)
+
+<p class="clip-credit"><strong>Late arm-in guillotine defense</strong> — taught by Noel Danforth · 3:08 · <a href="https://www.youtube.com/watch?v=fYE1jgWfIgY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VUaJgz4FzY0)
+
+<p class="clip-credit"><strong>Guillotine defense: the vaulting method</strong> — taught by Brian Glick · 4:42 · <a href="https://www.youtube.com/watch?v=VUaJgz4FzY0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

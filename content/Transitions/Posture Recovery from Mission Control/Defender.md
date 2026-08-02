@@ -142,6 +142,54 @@ description: "Master defending against posture recovery from Mission Control. Ma
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery from Mission Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Prison guard breakdown",
+      "description": "Posture Recovery from Mission Control (Defender) film study: Prison guard breakdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
+      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Invisible detail from the rubber guard",
+      "description": "Posture Recovery from Mission Control (Defender) film study: Invisible detail from the rubber guard, taught by Strength \u0026 Honor MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GWR4g4St-yw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GWR4g4St-yw",
+      "url": "https://www.youtube.com/watch?v=GWR4g4St-yw",
+      "creator": { "@type": "Person", "name": "Strength \u0026 Honor MMA" },
+      "duration": "PT142S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mission Control to Zombie and Double Bag attacks",
+      "description": "Posture Recovery from Mission Control (Defender) film study: Mission Control to Zombie and Double Bag attacks, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fJM5bIk8Fw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5fJM5bIk8Fw",
+      "url": "https://www.youtube.com/watch?v=5fJM5bIk8Fw",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ Defending against posture recovery from Mission Control requires the bottom play
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Mission Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery from Mission Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gFYyMkaMz34)
+
+<p class="clip-credit"><strong>Prison guard breakdown</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GWR4g4St-yw)
+
+<p class="clip-credit"><strong>Invisible detail from the rubber guard</strong> — taught by Strength &amp; Honor MMA · 2:22 · <a href="https://www.youtube.com/watch?v=GWR4g4St-yw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5fJM5bIk8Fw)
+
+<p class="clip-credit"><strong>Mission Control to Zombie and Double Bag attacks</strong> — taught by 10th Planet Orange Park · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

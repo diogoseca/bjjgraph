@@ -174,6 +174,54 @@ description: "How to execute Tai Otoshi in BJJ. Attacking perspective with setup
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tai Otoshi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Textbook Tai Otoshi",
+      "description": "Tai Otoshi (Attacker) film study: Textbook Tai Otoshi, taught by Grappler Kingdom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u-_hDq8GgpM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u-_hDq8GgpM",
+      "url": "https://www.youtube.com/watch?v=u-_hDq8GgpM",
+      "creator": { "@type": "Person", "name": "Grappler Kingdom" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tai Otoshi throw demonstration",
+      "description": "Tai Otoshi (Attacker) film study: Tai Otoshi throw demonstration, taught by Steve Scott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0cZMdRefW5E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0cZMdRefW5E",
+      "url": "https://www.youtube.com/watch?v=0cZMdRefW5E",
+      "creator": { "@type": "Person", "name": "Steve Scott" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Tai Otoshi into Tomoe Nage combination",
+      "description": "Tai Otoshi (Attacker) film study: Tai Otoshi into Tomoe Nage combination, taught by Tatsfield Judo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Lmr7pahOSr0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Lmr7pahOSr0",
+      "url": "https://www.youtube.com/watch?v=Lmr7pahOSr0",
+      "creator": { "@type": "Person", "name": "Tatsfield Judo" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tai Otoshi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u-_hDq8GgpM)
+
+<p class="clip-credit"><strong>Textbook Tai Otoshi</strong> — taught by Grappler Kingdom · 0:34 · <a href="https://www.youtube.com/watch?v=u-_hDq8GgpM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0cZMdRefW5E)
+
+<p class="clip-credit"><strong>Tai Otoshi throw demonstration</strong> — taught by Steve Scott · 0:16 · <a href="https://www.youtube.com/watch?v=0cZMdRefW5E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Lmr7pahOSr0)
+
+<p class="clip-credit"><strong>Tai Otoshi into Tomoe Nage combination</strong> — taught by Tatsfield Judo · 1:07 · <a href="https://www.youtube.com/watch?v=Lmr7pahOSr0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

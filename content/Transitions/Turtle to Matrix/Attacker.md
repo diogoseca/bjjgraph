@@ -174,6 +174,54 @@ description: "How to execute the Transition to Matrix entry from turtle top in B
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Matrix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Face-away underhook to turtle matrix",
+      "description": "Turtle to Matrix (Attacker) film study: Face-away underhook to turtle matrix, taught by Greg Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PBl0A6TMQfw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PBl0A6TMQfw",
+      "url": "https://www.youtube.com/watch?v=PBl0A6TMQfw",
+      "creator": { "@type": "Person", "name": "Greg Hamilton" },
+      "duration": "PT254S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gregorian step over into the turtle matrix",
+      "description": "Turtle to Matrix (Attacker) film study: Gregorian step over into the turtle matrix, taught by Greg Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XXS6ar0UCSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XXS6ar0UCSg",
+      "url": "https://www.youtube.com/watch?v=XXS6ar0UCSg",
+      "creator": { "@type": "Person", "name": "Greg Hamilton" },
+      "duration": "PT193S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Submissions and control from the turtle position",
+      "description": "Turtle to Matrix (Attacker) film study: Submissions and control from the turtle position, taught by Trillo Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BlZqSAkh80s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BlZqSAkh80s",
+      "url": "https://www.youtube.com/watch?v=BlZqSAkh80s",
+      "creator": { "@type": "Person", "name": "Trillo Jiujitsu" },
+      "duration": "PT266S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +233,42 @@ The key challenge is maintaining constant pressure and connection while changing
 **From Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Matrix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PBl0A6TMQfw)
+
+<p class="clip-credit"><strong>Face-away underhook to turtle matrix</strong> — taught by Greg Hamilton · 4:14 · <a href="https://www.youtube.com/watch?v=PBl0A6TMQfw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XXS6ar0UCSg)
+
+<p class="clip-credit"><strong>Gregorian step over into the turtle matrix</strong> — taught by Greg Hamilton · 3:13 · <a href="https://www.youtube.com/watch?v=XXS6ar0UCSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BlZqSAkh80s)
+
+<p class="clip-credit"><strong>Submissions and control from the turtle position</strong> — taught by Trillo Jiujitsu · 4:26 · <a href="https://www.youtube.com/watch?v=BlZqSAkh80s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

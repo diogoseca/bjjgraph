@@ -34,6 +34,43 @@ description: "Master Knee Shield Half Guard in BJJ. Strategic guide covering set
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield to scissor/push sweep",
+      "description": "Knee Shield Half Guard film study: Knee shield to scissor/push sweep, taught by Strong Hold Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CLBRo3Jef54/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CLBRo3Jef54",
+      "url": "https://www.youtube.com/watch?v=CLBRo3Jef54",
+      "creator": { "@type": "Person", "name": "Strong Hold Jiu Jitsu" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bottom half guard attacks basics",
+      "description": "Knee Shield Half Guard film study: Bottom half guard attacks basics, taught by Cobrinha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZqsGp9fWi3Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZqsGp9fWi3Y",
+      "url": "https://www.youtube.com/watch?v=ZqsGp9fWi3Y",
+      "creator": { "@type": "Person", "name": "Cobrinha" },
+      "duration": "PT205S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From the top perspective, passing the knee shield presents a strategic challenge
 The knee shield half guard has become essential in modern competitive BJJ, with world-class practitioners demonstrating its effectiveness at the highest levels. Understanding both perspectives of this position is critical for developing a complete guard game and passing system.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CLBRo3Jef54)
+
+<p class="clip-credit"><strong>Knee shield to scissor/push sweep</strong> — taught by Strong Hold Jiu Jitsu · 0:52 · <a href="https://www.youtube.com/watch?v=CLBRo3Jef54" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZqsGp9fWi3Y)
+
+<p class="clip-credit"><strong>Bottom half guard attacks basics</strong> — taught by Cobrinha · 3:25 · <a href="https://www.youtube.com/watch?v=ZqsGp9fWi3Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,31 +204,31 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (9% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (5% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (6% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (9% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (8% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (5% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (6% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
 
-- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (5% of attempts)
+- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (2% of attempts)
 
-- **[[Kimura from Knee Shield Half Guard/Attacker|Kimura from Knee Shield Half Guard]]** (4% of attempts)
+- **[[Kimura from Knee Shield Half Guard/Attacker|Kimura from Knee Shield Half Guard]]** (7% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (51% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (17% of attempts)
 
 - **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (4% of attempts)
 
-- **[[Transitions/Knee Shield Half Guard to Z-Guard/Attacker|Knee Shield Half Guard to Z-Guard]]** (1% of attempts)
+- **[[Transitions/Knee Shield Half Guard to Z-Guard/Attacker|Knee Shield Half Guard to Z-Guard]]** (8% of attempts)
 
-- **[[Transitions/Knee Shield to Closed Guard/Attacker|Knee Shield to Closed Guard]]** (0% of attempts)
+- **[[Transitions/Knee Shield to Closed Guard/Attacker|Knee Shield to Closed Guard]]** (6% of attempts)
 
-- **[[Transitions/Underhook from Knee Shield/Attacker|Underhook from Knee Shield]]** (0% of attempts)
+- **[[Transitions/Underhook from Knee Shield/Attacker|Underhook from Knee Shield]]** (14% of attempts)
 
-- **[[Transitions/Sweep from Knee Shield/Attacker|Sweep from Knee Shield]]** (1% of attempts)
+- **[[Transitions/Sweep from Knee Shield/Attacker|Sweep from Knee Shield]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -224,27 +289,27 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (37% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (15% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (15% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (7% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (11% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (6% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (8% of attempts)
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (12% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (7% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (5% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (7% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (7% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (8% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (7% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (14% of attempts)
 
-- **[[Transitions/Knee Slice from Knee Shield/Attacker|Knee Slice from Knee Shield]]** (2% of attempts)
+- **[[Transitions/Knee Slice from Knee Shield/Attacker|Knee Slice from Knee Shield]]** (9% of attempts)
 
-- **[[Transitions/Smash from Knee Shield/Attacker|Smash from Knee Shield]]** (1% of attempts)
+- **[[Transitions/Smash from Knee Shield/Attacker|Smash from Knee Shield]]** (6% of attempts)
 
-- **[[Transitions/Smash Pass from Knee Shield/Attacker|Smash Pass from Knee Shield]]** (1% of attempts)
+- **[[Transitions/Smash Pass from Knee Shield/Attacker|Smash Pass from Knee Shield]]** (5% of attempts)
 
 
 ### Common Mistakes

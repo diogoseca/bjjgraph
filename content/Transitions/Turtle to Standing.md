@@ -34,6 +34,54 @@ description: "Master the Turtle to Standing escape in BJJ. Learn systematic stan
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Standing \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing up from turtle, step 5",
+      "description": "Turtle to Standing film study: Standing up from turtle, step 5, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sit out from turtle with head on back",
+      "description": "Turtle to Standing film study: Sit out from turtle with head on back, taught by Mj\u00f8lnir Fight Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d312j3n9fIw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d312j3n9fIw",
+      "url": "https://www.youtube.com/watch?v=d312j3n9fIw",
+      "creator": { "@type": "Person", "name": "Mj\u00f8lnir Fight Club" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing up without exposing your back",
+      "description": "Turtle to Standing film study: Standing up without exposing your back, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TsBQBAp5o_I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TsBQBAp5o_I",
+      "url": "https://www.youtube.com/watch?v=TsBQBAp5o_I",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT146S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The movement relies on explosive hip extension coordinated with a strong posting
 Strategically, the ability to threaten this escape forces opponents to commit more aggressively to turtle attacks, which paradoxically opens counter-opportunities for granby rolls, sit-throughs, and guard recovery. Practitioners who develop a reliable turtle-to-standing game create a cascading defensive advantage: opponents rush their attacks, make grip errors, and expose themselves to the bottom player's secondary escape options. In competition, successful completion earns no points but prevents opponent advancement and resets to a neutral engagement where guard pulling or re-shooting become available.
 
 **From Position**: [[Positions/Turtle]] (Bottom)
-**Success Rate**: 60%
+**Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Standing in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing up from turtle, step 5</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d312j3n9fIw)
+
+<p class="clip-credit"><strong>Sit out from turtle with head on back</strong> — taught by Mjølnir Fight Club · 0:30 · <a href="https://www.youtube.com/watch?v=d312j3n9fIw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TsBQBAp5o_I)
+
+<p class="clip-credit"><strong>Standing up without exposing your back</strong> — taught by Brandon McCaghren · 2:26 · <a href="https://www.youtube.com/watch?v=TsBQBAp5o_I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -254,7 +338,7 @@ The Turtle to Standing transition occupies a critical node in the BJJ defensive 
 
 - [[Positions/Standing Position]] - Target neutral position upon successful completion
 
-- [[Transitions/Guillotine Choke]] - Primary submission threat during the rising phase of this escape
+- [[Submissions/Guillotine Choke]] - Primary submission threat during the rising phase of this escape
 
 - [[Transitions/Peterson Roll]] - Alternative escape option chained when stand-up is blocked
 
@@ -264,7 +348,7 @@ The Turtle to Standing transition occupies a critical node in the BJJ defensive 
 
 - [[Transitions/Anaconda Choke]] - Front headlock submission threat when neck is exposed during stand
 
-- [[Transitions/Darce Choke]] - Arm-in choke threat if elbow positioning is compromised while rising
+- [[Submissions/Darce Choke]] - Arm-in choke threat if elbow positioning is compromised while rising
 
 
 </section>

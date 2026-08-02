@@ -34,6 +34,54 @@ description: "Learn the Sweep to Mount from Hindulotine in BJJ. Use guillotine p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep to Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hip bump sweep to mount with follow-up attacks",
+      "description": "Sweep to Mount film study: Hip bump sweep to mount with follow-up attacks, taught by Alex Humen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kGjbaMDs65g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kGjbaMDs65g",
+      "url": "https://www.youtube.com/watch?v=kGjbaMDs65g",
+      "creator": { "@type": "Person", "name": "Alex Humen" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hip bump sweep coming up to mount",
+      "description": "Sweep to Mount film study: Hip bump sweep coming up to mount, taught by Training Grounds.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xWsgJygqt1M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xWsgJygqt1M",
+      "url": "https://www.youtube.com/watch?v=xWsgJygqt1M",
+      "creator": { "@type": "Person", "name": "Training Grounds" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Hip bump sweep to mounted guillotine",
+      "description": "Sweep to Mount film study: Hip bump sweep to mounted guillotine, taught by Grappling How to.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KizFNjw2h18/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KizFNjw2h18",
+      "url": "https://www.youtube.com/watch?v=KizFNjw2h18",
+      "creator": { "@type": "Person", "name": "Grappling How to" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The sweep functions as the positional advancement layer within the Hindulotine a
 Strategically, this technique bridges the gap between bottom guard attacking and top mount finishing. Landing in mount with residual guillotine control gives you immediate offensive options - you can finish the mounted guillotine, transition to standard mount attacks, or use the neck control to set up high mount advancement. The sweep is most effective against opponents who commit their weight forward or laterally while attempting to neutralize the Hindulotine grip, making their base structurally vulnerable to directional force application.
 
 **From Position**: [[Positions/Hindulotine]] (Bottom)
-**Success Rate**: 65%
+**Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep to Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kGjbaMDs65g)
+
+<p class="clip-credit"><strong>Hip bump sweep to mount with follow-up attacks</strong> — taught by Alex Humen · 0:56 · <a href="https://www.youtube.com/watch?v=kGjbaMDs65g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xWsgJygqt1M)
+
+<p class="clip-credit"><strong>Hip bump sweep coming up to mount</strong> — taught by Training Grounds · 0:39 · <a href="https://www.youtube.com/watch?v=xWsgJygqt1M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KizFNjw2h18)
+
+<p class="clip-credit"><strong>Hip bump sweep to mounted guillotine</strong> — taught by Grappling How to · 1:07 · <a href="https://www.youtube.com/watch?v=KizFNjw2h18" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -245,7 +329,7 @@ The Sweep to Mount occupies a critical role in the Hindulotine bottom attack sys
 
 - [[Transitions/Butterfly Sweep with Guillotine]] - Alternative sweep using butterfly hooks from the same Hindulotine bottom position
 
-- [[Transitions/Guillotine Choke]] - Direct submission option when sweep defense opens the choke finish
+- [[Submissions/Guillotine Choke]] - Direct submission option when sweep defense opens the choke finish
 
 - [[Transitions/Hindulotine to Darce Choke]] - Alternative attack when opponent creates frames while defending sweep
 

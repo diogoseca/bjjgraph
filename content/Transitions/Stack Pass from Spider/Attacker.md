@@ -180,6 +180,43 @@ description: "Master the Stack Pass from Spider Guard as the passer. Learn timin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Spider (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spider squash pass",
+      "description": "Stack Pass from Spider (Attacker) film study: Spider squash pass, taught by Alberto Serrano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jbrgrWIqiHM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jbrgrWIqiHM",
+      "url": "https://www.youtube.com/watch?v=jbrgrWIqiHM",
+      "creator": { "@type": "Person", "name": "Alberto Serrano" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing spider and De La Riva guard",
+      "description": "Stack Pass from Spider (Attacker) film study: Passing spider and De La Riva guard, taught by Denilson Pimenta.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qIpBx8bwgac/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qIpBx8bwgac",
+      "url": "https://www.youtube.com/watch?v=qIpBx8bwgac",
+      "creator": { "@type": "Person", "name": "Denilson Pimenta" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the attacker executing the Stack Pass from Spider Guard, your role is to reco
 **From Position**: [[Positions/Spider Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Spider (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jbrgrWIqiHM)
+
+<p class="clip-credit"><strong>Spider squash pass</strong> — taught by Alberto Serrano · 1:14 · <a href="https://www.youtube.com/watch?v=jbrgrWIqiHM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qIpBx8bwgac)
+
+<p class="clip-credit"><strong>Passing spider and De La Riva guard</strong> — taught by Denilson Pimenta · 1:03 · <a href="https://www.youtube.com/watch?v=qIpBx8bwgac" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

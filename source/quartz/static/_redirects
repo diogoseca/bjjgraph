@@ -5,3 +5,8 @@
 # land on home with no 404.
 /Training/* / 301
 /Training / 301
+
+# Crackhead Control lived at a duplicate top-level path until v1.53.x; the
+# canonical page is the Rubber Guard variant. Keep old inbound links working.
+/Positions/Crackhead-Control/* /Positions/Rubber-Guard/Crackhead-Control/:splat 301
+/Positions/Crackhead-Control /Positions/Rubber-Guard/Crackhead-Control 301

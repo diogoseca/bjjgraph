@@ -34,6 +34,43 @@ description: "Master the Kimura shoulder lock from Reverse Scarf Hold with exper
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Reverse Scarf Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from Reverse Scarf",
+      "description": "Kimura from Reverse Scarf Hold film study: Kimura from Reverse Scarf, taught by Torres Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L_u5g2wDpIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L_u5g2wDpIQ",
+      "url": "https://www.youtube.com/watch?v=L_u5g2wDpIQ",
+      "creator": { "@type": "Person", "name": "Torres Martial Arts" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura trap from reverse kesa gatame",
+      "description": "Kimura from Reverse Scarf Hold film study: Kimura trap from reverse kesa gatame, taught by Smith BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xLCWZaGPW0g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xLCWZaGPW0g",
+      "url": "https://www.youtube.com/watch?v=xLCWZaGPW0g",
+      "creator": { "@type": "Person", "name": "Smith BJJ" },
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ This submission integrates into a broader attack system from reverse scarf hold 
 **Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] · **From**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Reverse Scarf Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L_u5g2wDpIQ)
+
+<p class="clip-credit"><strong>Kimura from Reverse Scarf</strong> — taught by Torres Martial Arts · 1:14 · <a href="https://www.youtube.com/watch?v=L_u5g2wDpIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xLCWZaGPW0g)
+
+<p class="clip-credit"><strong>Kimura trap from reverse kesa gatame</strong> — taught by Smith BJJ · 2:20 · <a href="https://www.youtube.com/watch?v=xLCWZaGPW0g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -242,7 +307,7 @@ This submission integrates into a broader attack system from reverse scarf hold 
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Positions/Side Control/Reverse Scarf Hold]] - Starting position for this submission variant

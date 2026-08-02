@@ -140,6 +140,43 @@ description: "Complete guide to preventing posture recovery from Carni bottom. M
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery from Carni (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jackie Chan and 411 leg entanglement breakdown",
+      "description": "Posture Recovery from Carni (Defender) film study: Jackie Chan and 411 leg entanglement breakdown, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R4K-UU_bUZQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R4K-UU_bUZQ",
+      "url": "https://www.youtube.com/watch?v=R4K-UU_bUZQ",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Polishing the meat hook rubber guard control",
+      "description": "Posture Recovery from Carni (Defender) film study: Polishing the meat hook rubber guard control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h6o7-9u4NHo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h6o7-9u4NHo",
+      "url": "https://www.youtube.com/watch?v=h6o7-9u4NHo",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Carni]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery from Carni (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R4K-UU_bUZQ)
+
+<p class="clip-credit"><strong>Jackie Chan and 411 leg entanglement breakdown</strong> — taught by 10th Planet Orange Park · 1:15 · <a href="https://www.youtube.com/watch?v=R4K-UU_bUZQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h6o7-9u4NHo)
+
+<p class="clip-credit"><strong>Polishing the meat hook rubber guard control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=h6o7-9u4NHo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

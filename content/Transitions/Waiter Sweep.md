@@ -34,6 +34,43 @@ description: "Master the Waiter Sweep from Butterfly Guard in BJJ. High-percenta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Waiter Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Waiter sweep from butterfly guard",
+      "description": "Waiter Sweep film study: Waiter sweep from butterfly guard, taught by Monument Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yzCTMZRc-ZY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yzCTMZRc-ZY",
+      "url": "https://www.youtube.com/watch?v=yzCTMZRc-ZY",
+      "creator": { "@type": "Person", "name": "Monument Jiu-Jitsu" },
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back pocket sweep from butterfly guard",
+      "description": "Waiter Sweep film study: Back pocket sweep from butterfly guard, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fCqC2CvOKt0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fCqC2CvOKt0",
+      "url": "https://www.youtube.com/watch?v=fCqC2CvOKt0",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ Unlike pure lifting sweeps that rely heavily on strength, the Waiter Sweep uses 
 Its high success rate across skill levels stems from its fundamental reliance on destroying base and creating directional momentum rather than explosive power. The angular sweeping motion—lifting diagonally rather than straight up—makes it significantly harder to counter than linear sweeps, as the opponent must resist forces in multiple planes simultaneously. When integrated into a complete butterfly guard system, the Waiter Sweep creates offensive dilemmas where defensive reactions open back takes, guillotine entries, and guard transitions.
 
 **From Position**: [[Positions/Butterfly Guard]] (Bottom)
-**Success Rate**: 68%
+**Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Waiter Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yzCTMZRc-ZY)
+
+<p class="clip-credit"><strong>Waiter sweep from butterfly guard</strong> — taught by Monument Jiu-Jitsu · 1:39 · <a href="https://www.youtube.com/watch?v=yzCTMZRc-ZY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fCqC2CvOKt0)
+
+<p class="clip-credit"><strong>Back pocket sweep from butterfly guard</strong> — taught by Animal · 0:51 · <a href="https://www.youtube.com/watch?v=fCqC2CvOKt0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -252,7 +317,7 @@ The Waiter Sweep is a cornerstone technique within the butterfly guard system an
 
 - [[Transitions/Butterfly Sweep]] - System integration - variations within same positional framework
 
-- [[Transitions/Guillotine Choke]] - Combination attack - submission available from same control structure
+- [[Submissions/Guillotine Choke]] - Combination attack - submission available from same control structure
 
 - [[Submissions/Kimura]] - Alternative attack - submission when opponent defends with far arm post
 

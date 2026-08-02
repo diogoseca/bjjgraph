@@ -371,35 +371,115 @@
   "flashcards": [
     {
       "question": "What distinguishes the Andrew Wiltse Half Guard System from traditional half guard play?",
-      "answer": "It treats half guard as an offensive transitional hub rather than a defensive resting position, using knee shield frames and underhook control to constantly threaten sweeps and back takes instead of stalling and surviving."
+      "answer": "It treats half guard as an offensive transitional hub rather than a defensive resting position, using knee shield frames and underhook control to constantly threaten sweeps and back takes instead of stalling and surviving.",
+      "answer_line": "Offensive hub, not stalling",
+      "distractors": {
+        "plausible": [
+          "Pure defensive frame survival",
+          "Underhook only, no sweeps"
+        ],
+        "trap": [
+          "Stall and wait it out"
+        ]
+      }
     },
     {
       "question": "Why does the system prioritize back takes over sweeps?",
-      "answer": "Back takes are the highest-value outcome in the decision hierarchy, generating points plus the best submission opportunities, so practitioners abandon sweep completion the instant back exposure appears during defensive scrambles."
+      "answer": "Back takes are the highest-value outcome in the decision hierarchy, generating points plus the best submission opportunities, so practitioners abandon sweep completion the instant back exposure appears during defensive scrambles.",
+      "answer_line": "Back take beats sweep, always",
+      "distractors": {
+        "plausible": [
+          "Finish the sweep first",
+          "Sweeps score more points"
+        ],
+        "trap": [
+          "Force the sweep, ignore back"
+        ]
+      }
     },
     {
       "question": "What offensive role does the knee shield serve beyond defense?",
-      "answer": "The knee shield creates the angular leverage and space needed for underhook entries and offensive setups, acting as a mobile launching platform rather than a static frame while denying the opponent's crossface control."
+      "answer": "The knee shield creates the angular leverage and space needed for underhook entries and offensive setups, acting as a mobile launching platform rather than a static frame while denying the opponent's crossface control.",
+      "answer_line": "Launchpad for underhook entry",
+      "distractors": {
+        "plausible": [
+          "Just blocks the crossface",
+          "Static frame to stall"
+        ],
+        "trap": [
+          "Flatten knee to base out"
+        ]
+      }
     },
     {
       "question": "How does underhook depth determine which attack becomes available?",
-      "answer": "Shallow underhooks are used primarily for sweeps, while deep underhooks open the pathway to climb to the dogfight position and take the back, so managing underhook depth dictates the optimal offensive option."
+      "answer": "Shallow underhooks are used primarily for sweeps, while deep underhooks open the pathway to climb to the dogfight position and take the back, so managing underhook depth dictates the optimal offensive option.",
+      "answer_line": "Shallow sweeps, deep back take",
+      "distractors": {
+        "plausible": [
+          "Deep underhook means sweep",
+          "Shallow underhook takes back"
+        ],
+        "trap": [
+          "Underhook depth doesn't matter"
+        ]
+      }
     },
     {
       "question": "When should you transition from knee shield into deep half guard?",
-      "answer": "Deep half is accessed when the opponent flattens the knee shield or applies heavy crossface pressure, offering waiter and Homer Simpson sweeps while allowing a return to knee shield half if those attacks are defended."
+      "answer": "Deep half is accessed when the opponent flattens the knee shield or applies heavy crossface pressure, offering waiter and Homer Simpson sweeps while allowing a return to knee shield half if those attacks are defended.",
+      "answer_line": "When knee shield gets flattened",
+      "distractors": {
+        "plausible": [
+          "Immediately at match start",
+          "Only after back exposure"
+        ],
+        "trap": [
+          "Keep fighting for underhook"
+        ]
+      }
     },
     {
       "question": "How does single leg X-guard integrate into this half guard system?",
-      "answer": "When opponents posture up to deny underhook sweeps, the bottom butterfly hook converts to single leg X, bridging into leg entanglements and outside ashi garami heel hook threats that force defenders to split their attention."
+      "answer": "When opponents posture up to deny underhook sweeps, the bottom butterfly hook converts to single leg X, bridging into leg entanglements and outside ashi garami heel hook threats that force defenders to split their attention.",
+      "answer_line": "Butterfly hook to single leg X",
+      "distractors": {
+        "plausible": [
+          "Only after taking the back",
+          "Switch to closed guard"
+        ],
+        "trap": [
+          "Abandon hook, chase underhook"
+        ]
+      }
     },
     {
       "question": "What is the recommended response when an opponent sprawls hard to defend a sweep?",
-      "answer": "The hard sprawl naturally exposes the back, so you abandon the sweep and flow into back take sequences, or convert to deep half or single leg X where the new weight distribution creates fresh sweeping openings."
+      "answer": "The hard sprawl naturally exposes the back, so you abandon the sweep and flow into back take sequences, or convert to deep half or single leg X where the new weight distribution creates fresh sweeping openings.",
+      "answer_line": "Flow to the exposed back",
+      "distractors": {
+        "plausible": [
+          "Muscle through the sweep",
+          "Reset to neutral position"
+        ],
+        "trap": [
+          "Release grips, restart guard"
+        ]
+      }
     },
     {
       "question": "What is a common mistake when adding single leg X transitions to the system?",
-      "answer": "Entering single leg X without protecting the inside heel creates leg lock exposure; keep the heel close to your own hip with the knee oriented outward and refine defense before using it against leg lock specialists."
+      "answer": "Entering single leg X without protecting the inside heel creates leg lock exposure; keep the heel close to your own hip with the knee oriented outward and refine defense before using it against leg lock specialists.",
+      "answer_line": "Exposing the inside heel",
+      "distractors": {
+        "plausible": [
+          "Keeping the knee inward",
+          "Entering too early always"
+        ],
+        "trap": [
+          "Chase the heel hook first"
+        ]
+      }
     }
   ]
 }

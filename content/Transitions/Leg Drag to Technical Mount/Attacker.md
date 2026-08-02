@@ -168,6 +168,43 @@ description: "How to execute Leg Drag to Technical Mount in BJJ. Attacking persp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Technical Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg drag to back take pass",
+      "description": "Leg Drag to Technical Mount (Attacker) film study: Leg drag to back take pass, taught by Combat Room coach Ben.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4xplJQ-FFvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4xplJQ-FFvI",
+      "url": "https://www.youtube.com/watch?v=4xplJQ-FFvI",
+      "creator": { "@type": "Person", "name": "Combat Room coach Ben" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount to technical mount transition",
+      "description": "Leg Drag to Technical Mount (Attacker) film study: Mount to technical mount transition, taught by Dark Horse BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/plD6TW7pFv4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/plD6TW7pFv4",
+      "url": "https://www.youtube.com/watch?v=plD6TW7pFv4",
+      "creator": { "@type": "Person", "name": "Dark Horse BJJ coach" },
+      "duration": "PT20S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ The strategic value lies in maintaining offensive pressure throughout the transi
 **From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Technical Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4xplJQ-FFvI)
+
+<p class="clip-credit"><strong>Leg drag to back take pass</strong> — taught by Combat Room coach Ben · 1:15 · <a href="https://www.youtube.com/watch?v=4xplJQ-FFvI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=plD6TW7pFv4)
+
+<p class="clip-credit"><strong>Mount to technical mount transition</strong> — taught by Dark Horse BJJ coach · 0:20 · <a href="https://www.youtube.com/watch?v=plD6TW7pFv4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

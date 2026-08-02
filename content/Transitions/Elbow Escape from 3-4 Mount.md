@@ -34,6 +34,54 @@ description: "Master the Elbow Escape from 3-4 Mount in BJJ. Complete guide to h
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape from 3-4 Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee and elbow escape from mount",
+      "description": "Elbow Escape from 3-4 Mount film study: Knee and elbow escape from mount, taught by Jamie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUZcLTWHAzk",
+      "url": "https://www.youtube.com/watch?v=pUZcLTWHAzk",
+      "creator": { "@type": "Person", "name": "Jamie" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two mount escapes to half guard",
+      "description": "Elbow Escape from 3-4 Mount film study: Two mount escapes to half guard, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cyegyon5hVg",
+      "url": "https://www.youtube.com/watch?v=cyegyon5hVg",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ankle-elbow escape from mount to deep half",
+      "description": "Elbow Escape from 3-4 Mount film study: Ankle-elbow escape from mount to deep half, taught by Elite Team Monterey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V2nhiny9fws/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/V2nhiny9fws",
+      "url": "https://www.youtube.com/watch?v=V2nhiny9fws",
+      "creator": { "@type": "Person", "name": "Elite Team Monterey" },
+      "duration": "PT82S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this escape represents the highest-percentage avenue out of 3-4 m
 **Success Rate**: 35%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape from 3-4 Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pUZcLTWHAzk)
+
+<p class="clip-credit"><strong>Knee and elbow escape from mount</strong> — taught by Jamie · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cyegyon5hVg)
+
+<p class="clip-credit"><strong>Two mount escapes to half guard</strong> — taught by Revolution BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=V2nhiny9fws)
+
+<p class="clip-credit"><strong>Ankle-elbow escape from mount to deep half</strong> — taught by Elite Team Monterey · 1:22 · <a href="https://www.youtube.com/watch?v=V2nhiny9fws" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

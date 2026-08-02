@@ -150,6 +150,43 @@ description: "How to defend against Americana from Side Control in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple Americana armlock escape",
+      "description": "Americana from Side Control (Defender) film study: Simple Americana armlock escape, taught by Eddie Kone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
+      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
+      "creator": { "@type": "Person", "name": "Eddie Kone" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Americana defense to armbar",
+      "description": "Americana from Side Control (Defender) film study: Americana defense to armbar, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x5oNak2YANY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/x5oNak2YANY",
+      "url": "https://www.youtube.com/watch?v=x5oNak2YANY",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +199,34 @@ The critical defensive window is during the grip establishment phase. Once your 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
+
+<p class="clip-credit"><strong>Simple Americana armlock escape</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=x5oNak2YANY)
+
+<p class="clip-credit"><strong>Americana defense to armbar</strong> — taught by JiuJitsu.com · 2:57 · <a href="https://www.youtube.com/watch?v=x5oNak2YANY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

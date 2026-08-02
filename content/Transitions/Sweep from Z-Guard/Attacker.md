@@ -174,6 +174,54 @@ description: "Execute the Z-Guard sweep as the bottom player. Step-by-step guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Z-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Z-Guard sweep and attack options from bottom",
+      "description": "Sweep from Z-Guard (Attacker) film study: Z-Guard sweep and attack options from bottom, taught by Way of BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T3Gwg-ABsZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T3Gwg-ABsZA",
+      "url": "https://www.youtube.com/watch?v=T3Gwg-ABsZA",
+      "creator": { "@type": "Person", "name": "Way of BJJ" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Z Guard sweep demonstration",
+      "description": "Sweep from Z-Guard (Attacker) film study: Z Guard sweep demonstration, taught by Lake Effect Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oRHnXDK-xYE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oRHnXDK-xYE",
+      "url": "https://www.youtube.com/watch?v=oRHnXDK-xYE",
+      "creator": { "@type": "Person", "name": "Lake Effect Martial Arts" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse Z-Guard sweep options, Craig Jones style",
+      "description": "Sweep from Z-Guard (Attacker) film study: Reverse Z-Guard sweep options, Craig Jones style, taught by Phantom Punch Breakdowns.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TrVf9YzEe0E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TrVf9YzEe0E",
+      "url": "https://www.youtube.com/watch?v=TrVf9YzEe0E",
+      "creator": { "@type": "Person", "name": "Phantom Punch Breakdowns" },
+      "duration": "PT139S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Sweep from Z-Guard, your objective is to convert t
 **From Position**: [[Positions/Z-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Z-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T3Gwg-ABsZA)
+
+<p class="clip-credit"><strong>Z-Guard sweep and attack options from bottom</strong> — taught by Way of BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=T3Gwg-ABsZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oRHnXDK-xYE)
+
+<p class="clip-credit"><strong>Z Guard sweep demonstration</strong> — taught by Lake Effect Martial Arts · 1:19 · <a href="https://www.youtube.com/watch?v=oRHnXDK-xYE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TrVf9YzEe0E)
+
+<p class="clip-credit"><strong>Reverse Z-Guard sweep options, Craig Jones style</strong> — taught by Phantom Punch Breakdowns · 2:19 · <a href="https://www.youtube.com/watch?v=TrVf9YzEe0E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

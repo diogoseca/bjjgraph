@@ -400,39 +400,158 @@
   "flashcards": [
     {
       "question": "What is the correct defensive priority order when caught under heavy top pressure?",
-      "answer": "Protect against submissions first, preserve breathing second, maintain or recover position third, and seek escapes fourth—never sacrifice a higher priority to chase a lower one."
+      "answer": "Protect against submissions first, preserve breathing second, maintain or recover position third, and seek escapes fourth—never sacrifice a higher priority to chase a lower one.",
+      "answer_line": "Subs, breath, position, escape",
+      "distractors": {
+        "plausible": [
+          "Escape first, defend subs after",
+          "Position before defending subs"
+        ],
+        "trap": [
+          "Ignore submissions, bolt for escape"
+        ]
+      }
     },
     {
       "question": "Why is lying completely flat on your back under side control or mount a critical error?",
-      "answer": "A flat back maximizes the opponent's effective pressure surface, kills hip mobility, and eliminates escape angles; turning to your side or creating a hip angle immediately reduces the load."
+      "answer": "A flat back maximizes the opponent's effective pressure surface, kills hip mobility, and eliminates escape angles; turning to your side or creating a hip angle immediately reduces the load.",
+      "answer_line": "Turn to side, create angle",
+      "distractors": {
+        "plausible": [
+          "Frame with arms, stay flat",
+          "Push hips up to bridge away"
+        ],
+        "trap": [
+          "Straighten arms to push off"
+        ]
+      }
     },
     {
       "question": "How should you breathe when an opponent's weight is compressing your chest?",
-      "answer": "Use diaphragmatic (belly) breathing rather than shallow chest breaths, and time inhalations with the opponent's weight shifts, creating micro-spaces with small frame adjustments for air."
+      "answer": "Use diaphragmatic (belly) breathing rather than shallow chest breaths, and time inhalations with the opponent's weight shifts, creating micro-spaces with small frame adjustments for air.",
+      "answer_line": "Belly breathe, time weight shifts",
+      "distractors": {
+        "plausible": [
+          "Take deep breaths into chest",
+          "Breathe fast, shallow bursts"
+        ],
+        "trap": [
+          "Hold breath until pressure eases"
+        ]
+      }
     },
     {
       "question": "What is the difference between a structural frame and pushing with muscle under pressure?",
-      "answer": "A structural frame uses skeletal alignment—bent forearms, knees, shins—to hold space efficiently, while muscular pushing burns energy, loses the strength battle, and feeds the opponent armbar grips."
+      "answer": "A structural frame uses skeletal alignment—bent forearms, knees, shins—to hold space efficiently, while muscular pushing burns energy, loses the strength battle, and feeds the opponent armbar grips.",
+      "answer_line": "Bent-limb frames, not muscle",
+      "distractors": {
+        "plausible": [
+          "Push hardest with raw strength",
+          "Muscle through with full power"
+        ],
+        "trap": [
+          "Lock arms straight and shove"
+        ]
+      }
     },
     {
       "question": "Why are explosive escape attempts before creating space usually counterproductive?",
-      "answer": "They waste finite energy, trigger the opponent to tighten control reactively, and lead to exhaustion that converts a survivable position into a submission or full positional collapse."
+      "answer": "They waste finite energy, trigger the opponent to tighten control reactively, and lead to exhaustion that converts a survivable position into a submission or full positional collapse.",
+      "answer_line": "Burns energy, tightens control",
+      "distractors": {
+        "plausible": [
+          "Speed beats a slow setup",
+          "Surprise them with a big burst"
+        ],
+        "trap": [
+          "Explode with no setup first"
+        ]
+      }
     },
     {
       "question": "How does psychological composure affect pressure defense?",
-      "answer": "Panic accelerates breathing, drives wasteful movement, and causes practitioners to submit to discomfort before any real threat; calm preserves decision-making and pattern recognition."
+      "answer": "Panic accelerates breathing, drives wasteful movement, and causes practitioners to submit to discomfort before any real threat; calm preserves decision-making and pattern recognition.",
+      "answer_line": "Stay calm, preserve decisions",
+      "distractors": {
+        "plausible": [
+          "Panic speeds up your escape",
+          "Fight through with raw force"
+        ],
+        "trap": [
+          "Tap to discomfort, not danger"
+        ]
+      }
     },
     {
       "question": "What role does pressure pattern recognition play in escaping?",
-      "answer": "Reading the opponent's weight distribution and transitional moments lets you anticipate weight shifts for submissions or position changes and time defensive reactions or escapes to those windows."
+      "answer": "Reading the opponent's weight distribution and transitional moments lets you anticipate weight shifts for submissions or position changes and time defensive reactions or escapes to those windows.",
+      "answer_line": "Read shifts, time escape window",
+      "distractors": {
+        "plausible": [
+          "Wait until sub attempt starts",
+          "Escape the instant you feel space"
+        ],
+        "trap": [
+          "Move blind, ignore weight cues"
+        ]
+      }
     },
     {
       "question": "How should small, sequential movements be used under pressure rather than big bursts?",
-      "answer": "Accumulate space gradually with mini-shrimps, elbow slides, and hip adjustments, then commit to a full escape only once enough space exists, conserving energy throughout the process."
+      "answer": "Accumulate space gradually with mini-shrimps, elbow slides, and hip adjustments, then commit to a full escape only once enough space exists, conserving energy throughout the process.",
+      "answer_line": "Mini-shrimp, then commit escape",
+      "distractors": {
+        "plausible": [
+          "One big shrimp solves it",
+          "Skip small moves, go straight big"
+        ],
+        "trap": [
+          "Commit early, before space builds"
+        ]
+      }
     },
     {
       "question": "What is the most common breathing mistake under compression and its consequence?",
-      "answer": "Holding the breath or shallow chest breathing accelerates oxygen depletion, amplifies the panic response, and impairs endurance and decision-making, often exceeding the actual physical pressure."
+      "answer": "Holding the breath or shallow chest breathing accelerates oxygen depletion, amplifies the panic response, and impairs endurance and decision-making, often exceeding the actual physical pressure.",
+      "answer_line": "Holding breath, shallow chest",
+      "distractors": {
+        "plausible": [
+          "Breathing through mouth, not nose",
+          "Exhaling too soon, too much"
+        ],
+        "trap": [
+          "Hold breath to brace for pressure"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "EOJsjsYYmX0",
+      "title": "Defending top pressure and transitioning to attack",
+      "by": "Firas Zahabi",
+      "vertical": false,
+      "channel": "Tristar Gym",
+      "duration": 62,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "HYON7oAvB2s",
+      "title": "Defensive BJJ: the five position system",
+      "by": "Priit Mihkelson",
+      "vertical": false,
+      "channel": "RGA South Herts",
+      "duration": 982,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "Vf07y7rmsxE",
+      "title": "How to breathe when trapped and getting crushed",
+      "by": "Stephan Kesting",
+      "vertical": false,
+      "channel": "Stephan Kesting",
+      "duration": 545,
+      "verified": "2026-07-15"
     }
   ]
 }

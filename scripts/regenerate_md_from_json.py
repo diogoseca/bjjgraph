@@ -21,6 +21,31 @@ from jinja2 import Template, Environment, FileSystemLoader
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import slugify  # shared single-source slugify
+from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+from _votes import migrate_entry, folded_rate  # published (folded-votes) rate for display (2.3)
+
+
+_VOTE_RATES_CACHE = None
+
+
+def _display_rate(name, fallback):
+    """The PUBLISHED success rate to render in the technique text: the folded-votes value (calibrated
+    prior blended with community votes) at the no-gi default frame — the SAME source graph.json uses,
+    so the page text and the graph/game agree. Falls back to the content value when a technique has no
+    votes entry (e.g. family hubs, which are aggregate)."""
+    global _VOTE_RATES_CACHE
+    if _VOTE_RATES_CACHE is None:
+        _VOTE_RATES_CACHE = {}
+        vf = Path(__file__).resolve().parent.parent / 'templates' / 'votes.json'
+        try:
+            with open(vf, encoding='utf-8') as f:
+                vd = json.load(f)
+            for n, entry in vd.get('votes', {}).items():
+                _VOTE_RATES_CACHE[n] = int(round(folded_rate(migrate_entry(entry), 'nogi')))
+        except (json.JSONDecodeError, OSError):
+            _VOTE_RATES_CACHE = {}
+    r = _VOTE_RATES_CACHE.get(name)
+    return r if r is not None else fallback
 
 try:
     import jsonschema
@@ -262,7 +287,8 @@ def load_json_file(json_path):
     """
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            # no-gi default frame: divergent attempt maps render the same value the graph/game use
+            return reduce_to_scalar(json.load(f), frame='nogi')
     except FileNotFoundError:
         raise FileNotFoundError(f"File not found: {json_path}")
     except json.JSONDecodeError as e:
@@ -463,7 +489,7 @@ def aggregate_submission_variants(data, json_path):
                 # Whether this variant generates Attacker/Defender role pages, so the
                 # hub variants table only emits Play-as links where targets exist.
                 'is_dual': 'attacker' in variant_data and 'defender' in variant_data,
-                'success_rate': variant_data.get('success_rate', 0),
+                'success_rate': _display_rate(variant_ref['name'], variant_data.get('success_rate', 0)),
                 'top_risk': top_risk,
                 'uniqueness': variant_data.get('variant_uniqueness', ''),
             })
@@ -559,6 +585,10 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
 
     # Handle Transitions and Submissions with attacker/defender structure
     if category in ("Transitions", "Submissions"):
+        # Display the PUBLISHED (folded-votes, calibrated) success rate — same source as graph.json —
+        # so the page text agrees with the graph/game. Content stays as authored; votes is the source.
+        if isinstance(data.get('success_rate'), (int, float)):
+            data['success_rate'] = _display_rate(data.get('name', ''), data['success_rate'])
         template_type = detect_transition_template_type(json_path, data)
 
         if template_type == 'FAMILY' and category == 'Submissions':

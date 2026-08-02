@@ -288,113 +288,279 @@
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 56
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 22
+        }
       },
       {
         "transition": "Chair Sit to Back",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 11
+        }
       },
       {
         "transition": "Front Headlock to Anaconda",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 8
+        }
       },
       {
         "transition": "Front Headlock to Darce",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 10
+        }
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Turtle Flatten to Side Control",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 13
+        }
       },
       {
         "transition": "Turtle to Truck Entry",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 4
+        }
       },
       {
         "transition": "Arm Triangle from Turtle",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Turtle Attack Sequence",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Turtle to Matrix",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 3
+        }
       },
       {
         "transition": "Turtle to Rodeo Ride",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 6
+        }
       },
       {
         "transition": "Belly Down Armbar from Turtle",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Boston Crab",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Clock Choke",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 0
+        }
       },
       {
         "transition": "Boston Crab from Turtle",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Kimura from Turtle",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Loop Choke from Turtle",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 0
+        }
       },
       {
         "transition": "Turtle to Aoki Lock",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
       },
       {
         "transition": "Turtle to Russian Cowboy",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Kiss of the Dragon",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the primary grip configuration for controlling turtle and why is it essential before attempting hooks?",
-        "answer": "The seatbelt grip (over-under harness) is the primary control configuration, with one arm over the opponent's shoulder and the other under their armpit, hands clasped together. This grip is essential before attempting hooks because it controls the opponent's upper body and prevents them from turning into you, sitting to guard, or standing up. Without upper body control first, hook attempts are easily defended and you risk losing the position entirely."
+        "answer": "The seatbelt grip (over-under harness) is the primary control for turtle and must be secured before attempting hooks. One arm goes over the opponent's shoulder and the other under their armpit, with the hands clasped together. This upper-body control prevents the opponent from turning into you, sitting to guard, or standing up. Without upper body control first, hook attempts are easily defended and you risk losing the position entirely.",
+        "distractors": {
+          "plausible": [
+            "Insert a hook first",
+            "Grab one underhook only"
+          ],
+          "trap": [
+            "Reach for a leg lock first"
+          ]
+        },
+        "answer_line": "Secure seatbelt before hooks"
       },
       {
         "question": "Your opponent starts shifting their hips to sit through - what adjustment should you make?",
-        "answer": "Immediately drop your chest weight heavier onto their shoulders while using your near-side knee to block their hip movement. Simultaneously, sprawl your hips back slightly to create downward pressure that prevents their sit-through. If they continue the attempt, you can follow their movement into front headlock position or transition to crucifix if they expose an arm during the scramble."
+        "answer": "Immediately drop your chest weight heavier onto their shoulders while using your near-side knee to block their hip movement. Simultaneously, sprawl your hips back slightly to create downward pressure that prevents their sit-through. If they continue the attempt, you can follow their movement into front headlock position or transition to crucifix if they expose an arm during the scramble.",
+        "answer_line": "Weight down, knee blocks hips",
+        "distractors": {
+          "plausible": [
+            "Squeeze the waist with both arms",
+            "Spin to the far side quickly"
+          ],
+          "trap": [
+            "Back off to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a technical standup attempt from turtle - what immediate actions prevent them from reaching their feet?",
-        "answer": "As soon as you feel the opponent shift their weight to post a hand and begin elevating their hips, immediately drive your chest weight forward and down at a 45-degree angle to collapse their posting base. Simultaneously, use your near-side knee to block their hip from rising by wedging it tight against their hip bone. If they manage to get one leg under them, hook that leg with your arm or underhook their far arm to pull them back to the mat. The critical window is before their trail leg swings through to plant. Prevention through constant heavy pressure is always preferable to reacting after they initiate."
+        "answer": "Drive your chest weight forward and down at a 45-degree angle the moment they post a hand, collapsing their base before the hips rise. Simultaneously wedge your near-side knee tight against their hip bone to block the hip from elevating. If they manage to get one leg under them, hook that leg with your arm or underhook their far arm to pull them back to the mat. The critical window is before their trail leg swings through to plant, and prevention through constant heavy pressure is always preferable to reacting after they initiate.",
+        "distractors": {
+          "plausible": [
+            "Pull them backward by the belt",
+            "Push their head to the mat"
+          ],
+          "trap": [
+            "Release grip to reposition"
+          ]
+        },
+        "answer_line": "Chest drive down, knee blocks hip"
       },
       {
         "question": "How should you manage energy expenditure while maintaining offensive pressure from turtle top?",
-        "answer": "Use your body weight and skeletal structure for pressure rather than muscular effort. Your chest pressure on their back should come from proper positioning and gravity, not from pushing with your arms. Cycle through attacks at a measured pace rather than explosively attempting multiple techniques in quick succession. Focus your grip energy on maintaining the most important control point, typically the seatbelt or harness, and only intensify effort when executing specific techniques. Rest between attack attempts by settling your weight and re-establishing base. Recognize that turtle is a time-limited position for the bottom player, so sustained pressure works in your favor."
+        "answer": "Use your body weight and skeletal structure for pressure rather than muscular effort. Your chest pressure on their back should come from proper positioning and gravity, not from pushing with your arms. Cycle through attacks at a measured pace rather than explosively attempting multiple techniques in quick succession. Focus your grip energy on maintaining the most important control point, typically the seatbelt or harness, and only intensify effort when executing specific techniques. Rest between attack attempts by settling your weight and re-establishing base. Recognize that turtle is a time-limited position for the bottom player, so sustained pressure works in your favor.",
+        "answer_line": "Use weight/structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Push hard with your arms",
+            "Attack constantly, no rest"
+          ],
+          "trap": [
+            "Release seatbelt to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a granby roll - should you follow or disengage?",
-        "answer": "You should follow the roll while maintaining your seatbelt grip. As they rotate, use their momentum to continue around with them, often ending up in an even better position with hooks already partially inserted. The key is maintaining chest-to-back connection throughout the roll and keeping your hips close to theirs. Disengaging allows them to successfully recover guard, wasting your positional advantage."
+        "answer": "You should follow the roll while maintaining your seatbelt grip. As they rotate, use their momentum to continue around with them, often ending up in an even better position with hooks already partially inserted. The key is maintaining chest-to-back connection throughout the roll and keeping your hips close to theirs. Disengaging allows them to successfully recover guard, wasting your positional advantage.",
+        "answer_line": "Follow the roll, keep seatbelt",
+        "distractors": {
+          "plausible": [
+            "Disengage and reset your base",
+            "Pin a leg to stop their spin"
+          ],
+          "trap": [
+            "Let go and dive for their legs"
+          ]
+        }
       },
       {
         "question": "What is the proper weight distribution for maintaining turtle top control?",
-        "answer": "Weight should be distributed primarily through your chest onto their upper back and shoulders, with approximately 70% of pressure through your upper body. Your hips should be relatively light and mobile, allowing you to adjust to their movements. Avoid putting too much weight on their lower back or hips as this allows them to sit through or stand. The angle of pressure should be forward and down at approximately 45 degrees, collapsing their turtle structure."
+        "answer": "Weight should be distributed primarily through your chest onto their upper back and shoulders, with approximately 70% of pressure through your upper body. Your hips should be relatively light and mobile, allowing you to adjust to their movements. Avoid putting too much weight on their lower back or hips as this allows them to sit through or stand. The angle of pressure should be forward and down at approximately 45 degrees, collapsing their turtle structure.",
+        "answer_line": "70% chest weight, hips light",
+        "distractors": {
+          "plausible": [
+            "Even weight across the back",
+            "Weight through your arms, not chest"
+          ],
+          "trap": [
+            "Heavy weight low on their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent extends an arm to post during an escape attempt - what opportunities does this create?",
-        "answer": "An extended posting arm opens multiple high-percentage attacks. The crucifix becomes available if you can trap their arm between your legs while maintaining upper body control. A kimura attack is possible by controlling their wrist and rotating the shoulder. You can also use their posted arm as an anchor to flatten them for an easier back take. The extended arm is a defensive error that should be immediately capitalized upon."
+        "answer": "An extended posting arm opens multiple high-percentage attacks. The crucifix becomes available if you can trap their arm between your legs while maintaining upper body control. A kimura attack is possible by controlling their wrist and rotating the shoulder. You can also use their posted arm as an anchor to flatten them for an easier back take. The extended arm is a defensive error that should be immediately capitalized upon.",
+        "answer_line": "Attack crucifix or kimura",
+        "distractors": {
+          "plausible": [
+            "Wait for a stronger opening",
+            "Grab far ankle to flatten"
+          ],
+          "trap": [
+            "Release seatbelt to grab wrist"
+          ]
+        }
       },
       {
         "question": "How do you maintain pressure while transitioning between attacks from turtle top?",
-        "answer": "The key principle is never releasing all control points simultaneously. Maintain at least one dominant grip or pressure point while establishing the next one. When moving from back attack to front headlock, keep chest pressure and transition hand controls systematically. Think of it as 'hand over hand' climbing - one connection always secure before releasing another. This continuous pressure prevents the opponent from creating movement or space during your transitions."
+        "answer": "The key principle is never releasing all control points simultaneously. Maintain at least one dominant grip or pressure point while establishing the next one. When moving from back attack to front headlock, keep chest pressure and transition hand controls systematically. Think of it as 'hand over hand' climbing - one connection always secure before releasing another. This continuous pressure prevents the opponent from creating movement or space during your transitions.",
+        "answer_line": "Keep one control point always",
+        "distractors": {
+          "plausible": [
+            "Rush multiple attacks at once",
+            "Switch sides on every attack"
+          ],
+          "trap": [
+            "Let go completely between moves"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "6ns9XP2BsjQ",
+        "title": "Back take from the turtle position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "o_7f8c64YrY",
+        "title": "Gator roll back take from turtle",
+        "by": "Gracie Barra Pymble",
+        "vertical": false,
+        "channel": "Gracie Barra Pymble",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "f0zi7eZEXnk",
+        "title": "Tight waist tilt to rear head-and-arm",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 68,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -631,74 +797,353 @@
     "transitions": [
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 13
+        }
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 15
+        }
       },
       {
         "transition": "Turtle to Standing",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 14
+        }
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 11
+        }
       },
       {
         "transition": "Forward Roll",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 4
+        }
       },
       {
         "transition": "Sit Through to Guard",
-        "attempt_probability": 16
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 13
+        }
       },
       {
         "transition": "Peterson Roll",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 8
+        }
       },
       {
         "transition": "Sit Out from Turtle",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the essential body position for maintaining a defensive turtle that protects against both chokes and back takes?",
-        "answer": "The essential defensive turtle requires a rounded back with chin tucked tightly to chest, elbows glued to the inside of your knees creating a protective shell, and hips elevated off the mat with weight distributed evenly across all four points of contact. This configuration protects the neck from chokes by eliminating space, prevents underhook penetration that leads to flattening and back takes, and maintains mobility for dynamic escapes. The rounded spine and tucked chin specifically defend the carotid arteries from arm-in chokes."
+        "answer": "The essential defensive turtle requires a rounded back with chin tucked tightly to chest, elbows glued to the inside of your knees creating a protective shell, and hips elevated off the mat with weight distributed evenly across all four points of contact. This configuration protects the neck from chokes by eliminating space, prevents underhook penetration that leads to flattening and back takes, and maintains mobility for dynamic escapes. The rounded spine and tucked chin specifically defend the carotid arteries from arm-in chokes.",
+        "answer_line": "Chin tucked, elbows to knees",
+        "distractors": {
+          "plausible": [
+            "Flat back, head up for vision",
+            "Elbows wide for base"
+          ],
+          "trap": [
+            "Post hands wide, chest to mat"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes seatbelt control - what immediate actions should you take?",
-        "answer": "Immediately begin hand fighting to strip their grips, specifically targeting the choking hand first since this prevents finishing attacks. While hand fighting, create motion through hip movement and directional changes to disrupt their weight placement. Look for opportunities to either explode to standing if their weight is high, or execute a sit-through if they commit forward. The key is not allowing them time to settle and insert hooks - constant movement and grip fighting buys you time and creates escape opportunities."
+        "answer": "Immediately begin hand fighting to strip their grips, specifically targeting the choking hand first since this prevents finishing attacks. While hand fighting, create motion through hip movement and directional changes to disrupt their weight placement. Look for opportunities to either explode to standing if their weight is high, or execute a sit-through if they commit forward. The key is not allowing them time to settle and insert hooks - constant movement and grip fighting buys you time and creates escape opportunities.",
+        "answer_line": "Strip choking hand, create motion",
+        "distractors": {
+          "plausible": [
+            "Clear wrist control first",
+            "Wait for them to over-extend"
+          ],
+          "trap": [
+            "Stay still to conserve energy"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to attempt a granby roll versus a technical standup from turtle?",
-        "answer": "The decision depends on opponent's weight distribution and control points. Choose granby roll when opponent's weight is high on your back and forward-leaning, as you can use their momentum against them and they cannot follow your rotation effectively. Choose technical standup when opponent's weight is relatively light or they have poor hip control, allowing you to post and drive through without being dragged back down. If opponent has deep underhooks and heavy chest pressure, neither may work - consider sit-through or deep half entry instead."
+        "answer": "The decision depends on opponent's weight distribution and control points. Choose granby roll when opponent's weight is high on your back and forward-leaning, as you can use their momentum against them and they cannot follow your rotation effectively. Choose technical standup when opponent's weight is relatively light or they have poor hip control, allowing you to post and drive through without being dragged back down. If opponent has deep underhooks and heavy chest pressure, neither may work - consider sit-through or deep half entry instead.",
+        "answer_line": "Granby if weight's high forward",
+        "distractors": {
+          "plausible": [
+            "Always choose technical standup",
+            "Pick based on your own fatigue"
+          ],
+          "trap": [
+            "Granby when they have underhooks"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inserting a hook while you're in turtle - what is the proper defensive response?",
-        "answer": "Immediately kick your leg back and away from their hooking attempt while simultaneously rotating your hips away from that side. Do not let the hook settle - if you feel them threading their foot inside your thigh, extend your leg explosively to strip the hook before they can secure it. If the first hook is secured, immediately work to prevent the second hook by turning toward the hook side and looking to sit through or granby roll. A single hook is recoverable; allowing both hooks to set dramatically reduces escape probability."
+        "answer": "Immediately kick your leg back and away from their hooking attempt while simultaneously rotating your hips away from that side. Do not let the hook settle - if you feel them threading their foot inside your thigh, extend your leg explosively to strip the hook before they can secure it. If the first hook is secured, immediately work to prevent the second hook by turning toward the hook side and looking to sit through or granby roll. A single hook is recoverable; allowing both hooks to set dramatically reduces escape probability.",
+        "answer_line": "Kick leg back, rotate hips away",
+        "distractors": {
+          "plausible": [
+            "Clamp your knees shut and hold",
+            "Grab the hook with both hands"
+          ],
+          "trap": [
+            "Roll toward the hooking side"
+          ]
+        }
       },
       {
         "question": "What role does grip fighting play in turtle bottom defense and what are the priority grips to fight?",
-        "answer": "Grip fighting is critical because preventing dominant grip establishment buys time and creates escape windows. Priority grips to fight are: first, the choking hand in any seatbelt or harness configuration since this prevents finishing attacks; second, any wrist control they're using to flatten you or control your movement; third, grips on your hips or waist that control your base. Use two hands on one grip to strip efficiently rather than fighting multiple grips simultaneously. The goal is to create moments of loosened control where escapes become possible."
+        "answer": "Grip fighting is critical because preventing dominant grip establishment buys time and creates escape windows. Priority grips to fight are: first, the choking hand in any seatbelt or harness configuration since this prevents finishing attacks; second, any wrist control they're using to flatten you or control your movement; third, grips on your hips or waist that control your base. Use two hands on one grip to strip efficiently rather than fighting multiple grips simultaneously. The goal is to create moments of loosened control where escapes become possible.",
+        "answer_line": "Strip the choking hand first",
+        "distractors": {
+          "plausible": [
+            "Fight every grip equally hard",
+            "Prioritize their leg grips"
+          ],
+          "trap": [
+            "Ignore grips, focus on base"
+          ]
+        }
       },
       {
         "question": "Your opponent commits their weight forward for a front headlock attack - what opportunity does this create?",
-        "answer": "Forward weight commitment for front headlock creates excellent sit-through opportunities. As they drive forward, their base becomes compromised and they cannot follow you laterally. Execute a quick sit-through to the opposite side of their choking arm, threading your near leg through and turning to face them. This often leads directly to half guard or closed guard recovery. The key is timing - wait for them to commit their weight before initiating the sit-through, or they can easily follow and maintain control."
+        "answer": "Forward weight commitment for front headlock creates excellent sit-through opportunities. As they drive forward, their base becomes compromised and they cannot follow you laterally. Execute a quick sit-through to the opposite side of their choking arm, threading your near leg through and turning to face them. This often leads directly to half guard or closed guard recovery. The key is timing - wait for them to commit their weight before initiating the sit-through, or they can easily follow and maintain control.",
+        "answer_line": "Sit-through away from choke arm",
+        "distractors": {
+          "plausible": [
+            "Wait for a bigger opening",
+            "Sit-through toward choke arm"
+          ],
+          "trap": [
+            "Try to stand straight up"
+          ]
+        }
       },
       {
         "question": "How should you manage energy expenditure while defending turtle position?",
-        "answer": "Energy management in turtle requires strategic effort distribution. Use defensive structure (tight elbows, rounded back, tucked chin) as your primary defense rather than explosive movement - this costs minimal energy. Save explosive movements for genuine escape opportunities when opponent makes errors or their weight shifts favorably. Avoid fighting every grip with maximum effort; instead, prioritize the most threatening controls. When escape attempts fail, immediately return to defensive structure rather than continuing to scramble. Recognize that turtle is unsustainable - invest energy in calculated escape attempts rather than extended grip fighting battles."
+        "answer": "Energy management in turtle requires strategic effort distribution. Use defensive structure (tight elbows, rounded back, tucked chin) as your primary defense rather than explosive movement - this costs minimal energy. Save explosive movements for genuine escape opportunities when opponent makes errors or their weight shifts favorably. Avoid fighting every grip with maximum effort; instead, prioritize the most threatening controls. When escape attempts fail, immediately return to defensive structure rather than continuing to scramble. Recognize that turtle is unsustainable - invest energy in calculated escape attempts rather than extended grip fighting battles.",
+        "answer_line": "Defensive structure, not thrashing",
+        "distractors": {
+          "plausible": [
+            "Fight every grip at max effort",
+            "Go limp to save all your energy"
+          ],
+          "trap": [
+            "Open your elbows to rest them"
+          ]
+        }
       },
       {
         "question": "Your granby roll attempt fails and opponent follows you - how should you recover?",
-        "answer": "If opponent follows your granby roll, immediately chain into a second escape rather than returning to static turtle. Options include: executing a second granby roll in the opposite direction using their forward momentum against them, transitioning to a sit-out and scramble if they're heavy on top, or inverting into deep half guard if they end up with chest pressure on your torso. The key principle is continuous motion - a failed escape that flows into another escape attempt is far better than resetting to a static turtle where opponent can re-establish control points."
+        "answer": "If opponent follows your granby roll, immediately chain into a second escape rather than returning to static turtle. Options include: executing a second granby roll in the opposite direction using their forward momentum against them, transitioning to a sit-out and scramble if they're heavy on top, or inverting into deep half guard if they end up with chest pressure on your torso. The key principle is continuous motion - a failed escape that flows into another escape attempt is far better than resetting to a static turtle where opponent can re-establish control points.",
+        "answer_line": "Chain into a second escape",
+        "distractors": {
+          "plausible": [
+            "Reset to a tight static turtle",
+            "Finish the same roll harder"
+          ],
+          "trap": [
+            "Flatten out and cover your head"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "waVFl1Ip6VU",
+        "title": "Turtle back escape by shrugging",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 33,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up from turtle (defensive BJJ)",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "LTGHO-aRBxw",
+        "title": "Head and arm escape from turtle",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 78,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What configuration of the body defines the turtle position and distinguishes it from a guard-passed pin?",
+      "answer": "Turtle is a four-point posture — hands under shoulders, knees under hips, back rounded, rear exposed — with no one pinned flat. Unlike a pin such as side control or mount, the bottom player is not flattened supine; they retain a live four-point base and mobility while the other player works from behind or the side. The tucked, rounded shell trades rear exposure for submission protection, denying the front of the body while giving up the back. It is the transitional junction between being passed and either recovering guard or conceding the back.",
+      "distractors": {
+        "plausible": [
+          "Chest and knees on the mat",
+          "Kneeling upright, head high"
+        ],
+        "trap": [
+          "Belly-up with shoulders pinned"
+        ]
+      },
+      "answer_line": "Four-point base, not flattened"
+    },
+    {
+      "question": "Why is turtle universally treated as a transitional position rather than a resting or stable one for either player?",
+      "answer": "Turtle is transitional because it is unstable for both players: the bottom's back is exposed and the top has no hooks secured. The bottom player's base is mobile and their back is exposed, while the top player has not yet established harness, hooks, or a finish. Any pause lets the bottom recover guard or stand, or lets the top lock in control. Both players are racing the same clock — the bottom to escape before control sets, the top to advance before the escape fires — which is why constant motion, not settling, governs the exchange for both sides.",
+      "distractors": {
+        "plausible": [
+          "Stable rest position for bottom",
+          "Safe until hooks are secured"
+        ],
+        "trap": [
+          "Pause and reset both grips"
+        ]
+      },
+      "answer_line": "Unstable for both, no one settled"
+    },
+    {
+      "question": "What are the primary control points that decide who wins the turtle exchange, regardless of which player you are?",
+      "answer": "The decisive control points are the seatbelt/harness on the upper body, the hooks (foot insertions) into the hips or thighs, and the connection between the two players' hips. Whoever governs the upper-body grip and prevents or secures hook insertion dictates the direction of the exchange. The bottom fights to keep elbows tight to knees so no underhooks penetrate, while the top fights to thread arms inside and connect hip-to-hip. Control of the upper body must precede hooks, because hooks alone without harness are easily kicked free.",
+      "answer_line": "Seatbelt, hooks, hip connection",
+      "distractors": {
+        "plausible": [
+          "Ankle grips decide the exchange",
+          "Sleeve control decides everything"
+        ],
+        "trap": [
+          "Dive for the back with no grips"
+        ]
+      }
+    },
+    {
+      "question": "How does weight distribution govern which techniques become available to both players in turtle?",
+      "answer": "The top player's weight placement is the shared trigger both players read. Weight carried high and forward on the back leaves the top vulnerable to rolls like the granby but flattens the bottom's posture; weight carried low with underhooks pins mobility but frees the bottom's hips to sit through or stand. The bottom monitors this distribution to time explosive escapes, while the top adjusts it to close escape lanes. Because a heavy commitment in one direction always opens another, weight is a live negotiation rather than a fixed setting.",
+      "answer_line": "Weight placement is a trade-off",
+      "distractors": {
+        "plausible": [
+          "Stay balanced evenly at all times",
+          "Heavier pressure is always safer"
+        ],
+        "trap": [
+          "Drive everything high and forward"
+        ]
+      }
+    },
+    {
+      "question": "Why are grip fighting and hand fighting the pace-setting battle in turtle for both players?",
+      "answer": "Whoever wins the grip battle controls the tempo and direction of every subsequent exchange, so both players contest hands before anything else. The top needs a dominant grip - seatbelt, wrist, or hip control - to advance, while the bottom needs to strip that grip to create the loosened moment an escape requires. Every technique on both sides is gated by whether the relevant grip is established or broken. This is why neither player attacks or escapes into secure control; they fight the grip first to manufacture the opening.",
+      "answer_line": "Grip battle sets the tempo",
+      "distractors": {
+        "plausible": [
+          "Position beats hand fighting",
+          "React to their hands, don't lead"
+        ],
+        "trap": [
+          "Dive on the neck with no control"
+        ]
+      }
+    },
+    {
+      "question": "Why is the neck simultaneously the highest-priority target and the highest-priority defense in turtle?",
+      "answer": "The exposed rear and lowered head put the neck in constant reach of front headlock and back chokes, making it the top's most direct finish and the bottom's most urgent thing to protect. The bottom defends by tucking the chin to the chest and rounding the upper back, eliminating the space an arm needs to encircle the throat. The top attacks by prying the head up or threading an arm across the throat when the chin lifts. This shared focus on the neck is why lifting the head is the single most punished error in the position.",
+      "answer_line": "Rear exposure keeps chokes in reach",
+      "distractors": {
+        "plausible": [
+          "Hips matter more than the neck",
+          "Arms are the top's main target"
+        ],
+        "trap": [
+          "Lift your head to scan the room"
+        ]
+      }
+    },
+    {
+      "question": "How do the bottom player's frames and elbow-to-knee connection define the structural integrity of turtle?",
+      "answer": "The bottom's defensive shell depends on elbows glued to the inside of the knees and forearms available as frames against the top's hips and chest. This connection closes the gaps an underhook would penetrate, so the top cannot separate hip control from shoulder control - the split that collapses the position. When elbows flare, underhooks thread in and the structure fails toward flattening or a back take. The frames also manage distance and pressure, letting the bottom feel weight shifts and preserve the mobility that keeps turtle a live transition rather than a pin.",
+      "answer_line": "Elbows glued to knees seal gaps",
+      "distractors": {
+        "plausible": [
+          "Keep arms long to push away",
+          "Widen your stance for base"
+        ],
+        "trap": [
+          "Reach back to grab their leg"
+        ]
+      }
+    },
+    {
+      "question": "What separates turtle from its neighboring positions like back control and front headlock, and how does it flow into them?",
+      "answer": "Turtle is the unresolved midpoint: from it the top can advance to back control by inserting hooks with harness, or to front headlock by circling to the head and threatening the neck, while the bottom can recover to closed or half guard, stand up, or roll to guard. Back control resolves the rear-exposure gamble in the top's favor with hooks secured; front headlock resolves it by capturing the head and neck. Guard recovery resolves it in the bottom's favor by re-facing the opponent. Turtle itself has no hooks and no guard yet - it is the branching node before those outcomes are decided.",
+      "answer_line": "Turtle has no hooks, no guard yet",
+      "distractors": {
+        "plausible": [
+          "It counts as a back take already",
+          "A safe home base to settle into"
+        ],
+        "trap": [
+          "Settle in and rest on bottom"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "_sBB-O8fqP4",
+      "title": "Standing up from turtle (defensive BJJ)",
+      "by": "Priit Mihkelson",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 114,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Dyxkw13p49I",
+      "title": "Belly-down ankle lock setup from turtle",
+      "by": "Revolution BJJ",
+      "vertical": false,
+      "channel": "Revolution BJJ",
+      "duration": 67,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "qitDr1GnnAk",
+      "title": "Sneaky triangle from turtle position",
+      "by": "Submission Concepts San Antonio",
+      "vertical": false,
+      "channel": "Submission Concepts San Antonio",
+      "duration": 73,
+      "verified": "2026-07-14"
+    }
+  ]
 }

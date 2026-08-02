@@ -140,6 +140,54 @@ description: "Defend the Toreando pass from Double Sleeve Guard. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando from Double Sleeve (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Grip chain for guard retention",
+      "description": "Toreando from Double Sleeve (Defender) film study: Grip chain for guard retention, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T_GhZe_MOWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T_GhZe_MOWI",
+      "url": "https://www.youtube.com/watch?v=T_GhZe_MOWI",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the toreando pass",
+      "description": "Toreando from Double Sleeve (Defender) film study: Countering the toreando pass, taught by Alexandre Vieira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iuB73f72jgs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iuB73f72jgs",
+      "url": "https://www.youtube.com/watch?v=iuB73f72jgs",
+      "creator": { "@type": "Person", "name": "Alexandre Vieira" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Toreando defense with a roll counter",
+      "description": "Toreando from Double Sleeve (Defender) film study: Toreando defense with a roll counter, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ad4250mBWKc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ad4250mBWKc",
+      "url": "https://www.youtube.com/watch?v=Ad4250mBWKc",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Toreando from Double Sleeve, your primary objective 
 **Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando from Double Sleeve (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T_GhZe_MOWI)
+
+<p class="clip-credit"><strong>Grip chain for guard retention</strong> — taught by Xande Ribeiro · 2:54 · <a href="https://www.youtube.com/watch?v=T_GhZe_MOWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iuB73f72jgs)
+
+<p class="clip-credit"><strong>Countering the toreando pass</strong> — taught by Alexandre Vieira · 2:18 · <a href="https://www.youtube.com/watch?v=iuB73f72jgs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ad4250mBWKc)
+
+<p class="clip-credit"><strong>Toreando defense with a roll counter</strong> — taught by Revolution BJJ · 1:24 · <a href="https://www.youtube.com/watch?v=Ad4250mBWKc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

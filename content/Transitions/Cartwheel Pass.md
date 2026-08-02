@@ -34,6 +34,54 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cartwheel Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cartwheel guard pass",
+      "description": "Cartwheel Pass film study: Cartwheel guard pass, taught by Ground Fighter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZoKpJSqnNXQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZoKpJSqnNXQ",
+      "url": "https://www.youtube.com/watch?v=ZoKpJSqnNXQ",
+      "creator": { "@type": "Person", "name": "Ground Fighter" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee cut to cartwheel passing",
+      "description": "Cartwheel Pass film study: Knee cut to cartwheel passing, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_QgRae3Hxvs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_QgRae3Hxvs",
+      "url": "https://www.youtube.com/watch?v=_QgRae3Hxvs",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cartwheel pass mechanics",
+      "description": "Cartwheel Pass film study: Cartwheel pass mechanics, taught by Kenny Florian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VMpIKmeRsTg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VMpIKmeRsTg",
+      "url": "https://www.youtube.com/watch?v=VMpIKmeRsTg",
+      "creator": { "@type": "Person", "name": "Kenny Florian" },
+      "duration": "PT27S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cartwheel Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZoKpJSqnNXQ)
+
+<p class="clip-credit"><strong>Cartwheel guard pass</strong> — taught by Ground Fighter · 0:16 · <a href="https://www.youtube.com/watch?v=ZoKpJSqnNXQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_QgRae3Hxvs)
+
+<p class="clip-credit"><strong>Knee cut to cartwheel passing</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=_QgRae3Hxvs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VMpIKmeRsTg)
+
+<p class="clip-credit"><strong>Cartwheel pass mechanics</strong> — taught by Kenny Florian · 0:27 · <a href="https://www.youtube.com/watch?v=VMpIKmeRsTg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

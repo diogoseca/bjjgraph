@@ -148,6 +148,54 @@ description: "Defend against the Squid Guard Sweep effectively. Learn recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Squid Guard Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the lapel guard with a pass",
+      "description": "Squid Guard Sweep (Defender) film study: Countering the lapel guard with a pass, taught by Tarik BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rvbYLboVzZM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rvbYLboVzZM",
+      "url": "https://www.youtube.com/watch?v=rvbYLboVzZM",
+      "creator": { "@type": "Person", "name": "Tarik BJJ" },
+      "duration": "PT289S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Squid guard sweep defense",
+      "description": "Squid Guard Sweep (Defender) film study: Squid guard sweep defense, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q3OCqC9WZA8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q3OCqC9WZA8",
+      "url": "https://www.youtube.com/watch?v=q3OCqC9WZA8",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT262S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to pass the lapel squid guard",
+      "description": "Squid Guard Sweep (Defender) film study: How to pass the lapel squid guard, taught by Nick Salles and Danny Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nPT4tqORpOA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nPT4tqORpOA",
+      "url": "https://www.youtube.com/watch?v=nPT4tqORpOA",
+      "creator": { "@type": "Person", "name": "Nick Salles and Danny Maira" },
+      "duration": "PT672S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defensive strategy centers on preventing the bottom player from completing t
 **Opponent's Starting Position**: [[Positions/Squid Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Squid Guard Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rvbYLboVzZM)
+
+<p class="clip-credit"><strong>Countering the lapel guard with a pass</strong> — taught by Tarik BJJ · 4:49 · <a href="https://www.youtube.com/watch?v=rvbYLboVzZM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q3OCqC9WZA8)
+
+<p class="clip-credit"><strong>Squid guard sweep defense</strong> — taught by Lucas Lepri · 4:22 · <a href="https://www.youtube.com/watch?v=q3OCqC9WZA8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nPT4tqORpOA)
+
+<p class="clip-credit"><strong>How to pass the lapel squid guard</strong> — taught by Nick Salles and Danny Maira · 11:12 · <a href="https://www.youtube.com/watch?v=nPT4tqORpOA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

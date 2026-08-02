@@ -174,6 +174,43 @@ description: "Learn to execute the Counter Roll from Matrix. Step-by-step guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Roll from Matrix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi matrix back take",
+      "description": "Counter Roll from Matrix (Attacker) film study: No-gi matrix back take, taught by Langaker BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BWDsJPV7iPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BWDsJPV7iPA",
+      "url": "https://www.youtube.com/watch?v=BWDsJPV7iPA",
+      "creator": { "@type": "Person", "name": "Langaker BJJ" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter back take from 50/50",
+      "description": "Counter Roll from Matrix (Attacker) film study: Counter back take from 50/50, taught by Revolution BJJ Ashland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3rTUggUmhBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3rTUggUmhBk",
+      "url": "https://www.youtube.com/watch?v=3rTUggUmhBk",
+      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Counter Roll from Matrix attacker executes a mid-rotation redirect when thei
 **From Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Roll from Matrix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BWDsJPV7iPA)
+
+<p class="clip-credit"><strong>No-gi matrix back take</strong> — taught by Langaker BJJ · 1:36 · <a href="https://www.youtube.com/watch?v=BWDsJPV7iPA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3rTUggUmhBk)
+
+<p class="clip-credit"><strong>Counter back take from 50/50</strong> — taught by Revolution BJJ Ashland · 1:11 · <a href="https://www.youtube.com/watch?v=3rTUggUmhBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

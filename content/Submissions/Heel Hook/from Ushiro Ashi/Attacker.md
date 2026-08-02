@@ -176,6 +176,54 @@ description: "Master the attacking mechanics of the Heel Hook from Ushiro Ashi-G
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Ushiro Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "V Grip from Top Ushiro leg entanglement",
+      "description": "Heel Hook from Ushiro Ashi (Attacker) film study: V Grip from Top Ushiro leg entanglement, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lTsK9C_a6po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lTsK9C_a6po",
+      "url": "https://www.youtube.com/watch?v=lTsK9C_a6po",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm Saddle to inside heel hook flow drill",
+      "description": "Heel Hook from Ushiro Ashi (Attacker) film study: Arm Saddle to inside heel hook flow drill, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QfNKQzy3V_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QfNKQzy3V_w",
+      "url": "https://www.youtube.com/watch?v=QfNKQzy3V_w",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse X ashi garami leg control",
+      "description": "Heel Hook from Ushiro Ashi (Attacker) film study: Reverse X ashi garami leg control, taught by The Sanctuary BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bf5cJNYCMcA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bf5cJNYCMcA",
+      "url": "https://www.youtube.com/watch?v=Bf5cJNYCMcA",
+      "creator": { "@type": "Person", "name": "The Sanctuary BJJ" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Executing the heel hook from ushiro ashi-garami demands precise mechanical adjus
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Ushiro Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lTsK9C_a6po)
+
+<p class="clip-credit"><strong>V Grip from Top Ushiro leg entanglement</strong> — taught by Gordon Ryan · 2:20 · <a href="https://www.youtube.com/watch?v=lTsK9C_a6po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QfNKQzy3V_w)
+
+<p class="clip-credit"><strong>Arm Saddle to inside heel hook flow drill</strong> — taught by Factory Fresh Jiu Jitsu · 0:21 · <a href="https://www.youtube.com/watch?v=QfNKQzy3V_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bf5cJNYCMcA)
+
+<p class="clip-credit"><strong>Reverse X ashi garami leg control</strong> — taught by The Sanctuary BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=Bf5cJNYCMcA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -176,6 +176,43 @@ description: "Learn to execute the kneebar from straight ankle lock control. Ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Straight Ankle Lock Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ankle Lock to Kneebar Transition",
+      "description": "Kneebar from Straight Ankle Lock Control (Attacker) film study: Ankle Lock to Kneebar Transition, taught by Elevate MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B8q8wZx0b74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B8q8wZx0b74",
+      "url": "https://www.youtube.com/watch?v=B8q8wZx0b74",
+      "creator": { "@type": "Person", "name": "Elevate MMA" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lateral Kneebar (Z-Lock)",
+      "description": "Kneebar from Straight Ankle Lock Control (Attacker) film study: Lateral Kneebar (Z-Lock), taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mv5hY9YFUdU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mv5hY9YFUdU",
+      "url": "https://www.youtube.com/watch?v=mv5hY9YFUdU",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking with the kneebar from straight ankle lock control requires reading def
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Straight Ankle Lock Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B8q8wZx0b74)
+
+<p class="clip-credit"><strong>Ankle Lock to Kneebar Transition</strong> — taught by Elevate MMA · 1:34 · <a href="https://www.youtube.com/watch?v=B8q8wZx0b74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mv5hY9YFUdU)
+
+<p class="clip-credit"><strong>Lateral Kneebar (Z-Lock)</strong> — taught by jamielovesmartialarts · 1:06 · <a href="https://www.youtube.com/watch?v=mv5hY9YFUdU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

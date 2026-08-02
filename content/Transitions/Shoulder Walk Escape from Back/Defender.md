@@ -140,6 +140,54 @@ description: "Counter the shoulder walk escape from back control in BJJ. Learn t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shoulder Walk Escape from Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining back control with hooks",
+      "description": "Shoulder Walk Escape from Back (Defender) film study: Maintaining back control with hooks, taught by Gracie Charlottesville coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk4mGg7vW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rlk4mGg7vW4",
+      "url": "https://www.youtube.com/watch?v=Rlk4mGg7vW4",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville coach" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The safe escape from back control",
+      "description": "Shoulder Walk Escape from Back (Defender) film study: The safe escape from back control, taught by BJJ Arvada.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/grnBjk4KArk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/grnBjk4KArk",
+      "url": "https://www.youtube.com/watch?v=grnBjk4KArk",
+      "creator": { "@type": "Person", "name": "BJJ Arvada" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending back control with only one hook in",
+      "description": "Shoulder Walk Escape from Back (Defender) film study: Defending back control with only one hook in, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUECcQ8JJeA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUECcQ8JJeA",
+      "url": "https://www.youtube.com/watch?v=pUECcQ8JJeA",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender maintaining back control against a shoulder walk escape attempt,
 **Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shoulder Walk Escape from Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rlk4mGg7vW4)
+
+<p class="clip-credit"><strong>Maintaining back control with hooks</strong> — taught by Gracie Charlottesville coach · 1:24 · <a href="https://www.youtube.com/watch?v=Rlk4mGg7vW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=grnBjk4KArk)
+
+<p class="clip-credit"><strong>The safe escape from back control</strong> — taught by BJJ Arvada · 1:51 · <a href="https://www.youtube.com/watch?v=grnBjk4KArk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pUECcQ8JJeA)
+
+<p class="clip-credit"><strong>Defending back control with only one hook in</strong> — taught by Inverted Gear · 1:07 · <a href="https://www.youtube.com/watch?v=pUECcQ8JJeA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

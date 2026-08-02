@@ -148,6 +148,43 @@ description: "How to defend against Distance Creation to Reset in BJJ. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Distance Creation to Reset (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard Retention 101: The Heisenberg Heist",
+      "description": "Distance Creation to Reset (Defender) film study: Guard Retention 101: The Heisenberg Heist, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2x2ySnQlRRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2x2ySnQlRRQ",
+      "url": "https://www.youtube.com/watch?v=2x2ySnQlRRQ",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT459S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The 8 Layers of Guard Retention (Part 1)",
+      "description": "Distance Creation to Reset (Defender) film study: The 8 Layers of Guard Retention (Part 1), taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UTaZzbHMr-s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UTaZzbHMr-s",
+      "url": "https://www.youtube.com/watch?v=UTaZzbHMr-s",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT598S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The defender holds significant tactical advantage during distance creation attem
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Distance Creation to Reset (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2x2ySnQlRRQ)
+
+<p class="clip-credit"><strong>Guard Retention 101: The Heisenberg Heist</strong> — taught by Keenan Cornelius · 7:39 · <a href="https://www.youtube.com/watch?v=2x2ySnQlRRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UTaZzbHMr-s)
+
+<p class="clip-credit"><strong>The 8 Layers of Guard Retention (Part 1)</strong> — taught by Keenan Cornelius · 9:58 · <a href="https://www.youtube.com/watch?v=UTaZzbHMr-s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

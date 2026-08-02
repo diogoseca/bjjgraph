@@ -21,37 +21,37 @@ description: "Master the Estima Lock Bottom Position in BJJ. Defensive leg entan
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction",
-      "text": "From this position, attempt Leg Extraction. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Angle Change Escape",
-      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Standing Escape",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute 50-50 Entry",
+      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute 50-50 Entry",
-      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Estima Lock Counter Roll",
+      "text": "From this position, attempt Estima Lock Counter Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Estima Lock Counter Roll",
-      "text": "From this position, attempt Estima Lock Counter Roll. This technique is attempted in 1% of exchanges from this position.",
+      "name": "Execute Counter from Estima Lock",
+      "text": "From this position, attempt Counter from Estima Lock. This technique is attempted in 19% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master the Estima Lock Bottom Position in BJJ. Defensive leg entan
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ankle Lock Escape: Put On the Boot",
+      "description": "Estima Lock Control (Bottom) film study: Ankle Lock Escape: Put On the Boot, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CUnX7TOpb-A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CUnX7TOpb-A",
+      "url": "https://www.youtube.com/watch?v=CUnX7TOpb-A",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima Lock and Estima Lock Escape",
+      "description": "Estima Lock Control (Bottom) film study: Estima Lock and Estima Lock Escape, taught by Budo Jake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e2cpItCWRdQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e2cpItCWRdQ",
+      "url": "https://www.youtube.com/watch?v=e2cpItCWRdQ",
+      "creator": { "@type": "Person", "name": "Budo Jake" },
+      "duration": "PT295S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "K guard defense vs toe hold and straight foot lock",
+      "description": "Estima Lock Control (Bottom) film study: K guard defense vs toe hold and straight foot lock, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6-HYU8Pbngg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6-HYU8Pbngg",
+      "url": "https://www.youtube.com/watch?v=6-HYU8Pbngg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT152S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ The Estima Lock Bottom Position represents a defensive leg entanglement scenario
 From bottom, the primary concern is preventing the completion of the submission while creating opportunities to escape the leg entanglement entirely. Unlike traditional straight ankle locks where the foot is attacked in its natural position, the Estima Lock's inverted grip creates different defensive considerations and escape angles. The bottom player must balance protecting the ankle joint, preventing the opponent from increasing their positional control, and methodically working toward leg extraction or position reversal. Success in this position depends heavily on understanding the mechanical vulnerabilities of the lock, maintaining proper defensive posture, and executing timely escapes before the opponent can fully consolidate their control and finishing mechanics. The position demands calm technical execution under pressure, active use of the free leg for defensive leverage, and immediate recognition of when submission pressure has reached tap-worthy levels to preserve joint health and training longevity.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CUnX7TOpb-A)
+
+<p class="clip-credit"><strong>Ankle Lock Escape: Put On the Boot</strong> — taught by Ritchie Yip · 0:16 · <a href="https://www.youtube.com/watch?v=CUnX7TOpb-A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e2cpItCWRdQ)
+
+<p class="clip-credit"><strong>Estima Lock and Estima Lock Escape</strong> — taught by Budo Jake · 4:55 · <a href="https://www.youtube.com/watch?v=e2cpItCWRdQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6-HYU8Pbngg)
+
+<p class="clip-credit"><strong>K guard defense vs toe hold and straight foot lock</strong> — taught by Lachlan Giles · 2:32 · <a href="https://www.youtube.com/watch?v=6-HYU8Pbngg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -332,7 +416,7 @@ Bottom player in Estima Lock position focuses exclusively on using free leg for 
 
 ## Related Positions and Techniques
 
-- **[[Transitions/Estima Lock]]** - Primary submission threat from this position
+- **[[Submissions/Estima Lock]]** - Primary submission threat from this position
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Common entry position where Estima Lock threat often develops
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related leg entanglement position with similar defensive principles
 - **[[Positions/Ashi Garami]]** - Similar defensive leg entanglement requiring comparable escape mechanics

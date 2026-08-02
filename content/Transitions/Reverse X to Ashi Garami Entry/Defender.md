@@ -148,6 +148,54 @@ description: "How to defend against Reverse X to Ashi Garami Entry in BJJ. Recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X to Ashi Garami Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse X-guard defense into rolling back take",
+      "description": "Reverse X to Ashi Garami Entry (Defender) film study: Reverse X-guard defense into rolling back take, taught by Effortless Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M82CDkEzxlQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M82CDkEzxlQ",
+      "url": "https://www.youtube.com/watch?v=M82CDkEzxlQ",
+      "creator": { "@type": "Person", "name": "Effortless Jiu Jitsu" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg defense from ashi garami",
+      "description": "Reverse X to Ashi Garami Entry (Defender) film study: Leg defense from ashi garami, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
+      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ashi garami defense and counter pass",
+      "description": "Reverse X to Ashi Garami Entry (Defender) film study: Ashi garami defense and counter pass, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mZp355NAIYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mZp355NAIYk",
+      "url": "https://www.youtube.com/watch?v=mZp355NAIYk",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT111S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defensive strategy follows a hierarchy: first, prevent the entry entirely by
 **Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X to Ashi Garami Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M82CDkEzxlQ)
+
+<p class="clip-credit"><strong>Reverse X-guard defense into rolling back take</strong> — taught by Effortless Jiu Jitsu · 2:01 · <a href="https://www.youtube.com/watch?v=M82CDkEzxlQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L417yCl_-dc)
+
+<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mZp355NAIYk)
+
+<p class="clip-credit"><strong>Ashi garami defense and counter pass</strong> — taught by The Grappling Bloke · 1:51 · <a href="https://www.youtube.com/watch?v=mZp355NAIYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

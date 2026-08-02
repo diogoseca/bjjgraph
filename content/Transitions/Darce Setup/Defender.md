@@ -142,6 +142,43 @@ description: "How to defend against Darce Setup in BJJ. Recognition cues, defens
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the darce before the grip closes",
+      "description": "Darce Setup (Defender) film study: Defending the darce before the grip closes, taught by BJJ101 coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FMAWiNfgp74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FMAWiNfgp74",
+      "url": "https://www.youtube.com/watch?v=FMAWiNfgp74",
+      "creator": { "@type": "Person", "name": "BJJ101 coach" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Overhook chin drag escape from the darce setup",
+      "description": "Darce Setup (Defender) film study: Overhook chin drag escape from the darce setup, taught by BJJ101 coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wxXzlt-77Qs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wxXzlt-77Qs",
+      "url": "https://www.youtube.com/watch?v=wxXzlt-77Qs",
+      "creator": { "@type": "Person", "name": "BJJ101 coach" },
+      "duration": "PT262S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +190,34 @@ Successful Darce Setup defense operates on a timeline: early-phase defense focus
 **Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FMAWiNfgp74)
+
+<p class="clip-credit"><strong>Defending the darce before the grip closes</strong> — taught by BJJ101 coach · 0:30 · <a href="https://www.youtube.com/watch?v=FMAWiNfgp74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wxXzlt-77Qs)
+
+<p class="clip-credit"><strong>Overhook chin drag escape from the darce setup</strong> — taught by BJJ101 coach · 4:22 · <a href="https://www.youtube.com/watch?v=wxXzlt-77Qs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

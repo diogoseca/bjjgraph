@@ -176,6 +176,43 @@ description: "Learn to finish the Calf Slicer from Rodeo Ride. Step-by-step exec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Rodeo Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Calf Slicer Counter to Backstep",
+      "description": "Calf Slicer from Rodeo Ride (Attacker) film study: Calf Slicer Counter to Backstep, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V77Pzrj6AOE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/V77Pzrj6AOE",
+      "url": "https://www.youtube.com/watch?v=V77Pzrj6AOE",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Calf Slicer Setup: Open Guard / Banana Split",
+      "description": "Calf Slicer from Rodeo Ride (Attacker) film study: Calf Slicer Setup: Open Guard / Banana Split, taught by John Cole.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v12bCWO19tk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v12bCWO19tk",
+      "url": "https://www.youtube.com/watch?v=v12bCWO19tk",
+      "creator": { "@type": "Person", "name": "John Cole" },
+      "duration": "PT20S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Executing the Calf Slicer from Rodeo Ride requires precise leg threading from th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Rodeo Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=V77Pzrj6AOE)
+
+<p class="clip-credit"><strong>Calf Slicer Counter to Backstep</strong> — taught by Revolution BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=V77Pzrj6AOE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v12bCWO19tk)
+
+<p class="clip-credit"><strong>Calf Slicer Setup: Open Guard / Banana Split</strong> — taught by John Cole · 0:20 · <a href="https://www.youtube.com/watch?v=v12bCWO19tk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

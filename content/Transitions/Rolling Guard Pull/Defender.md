@@ -148,6 +148,43 @@ description: "How to defend against the Rolling Guard Pull in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Guard Pull (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter to the guard pull",
+      "description": "Rolling Guard Pull (Defender) film study: Counter to the guard pull, taught by Koji Shibamoto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F5oVtO4w2eA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F5oVtO4w2eA",
+      "url": "https://www.youtube.com/watch?v=F5oVtO4w2eA",
+      "creator": { "@type": "Person", "name": "Koji Shibamoto" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sweep counter to the guard pull",
+      "description": "Rolling Guard Pull (Defender) film study: Sweep counter to the guard pull, taught by Cobra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u-jWz-kuERU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u-jWz-kuERU",
+      "url": "https://www.youtube.com/watch?v=u-jWz-kuERU",
+      "creator": { "@type": "Person", "name": "Cobra" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The rolling guard pull is most dangerous when it catches you off-guard. Once you
 **Opponent's Starting Position**: [[Positions/Standing Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Guard Pull (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F5oVtO4w2eA)
+
+<p class="clip-credit"><strong>Counter to the guard pull</strong> — taught by Koji Shibamoto · 0:14 · <a href="https://www.youtube.com/watch?v=F5oVtO4w2eA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u-jWz-kuERU)
+
+<p class="clip-credit"><strong>Sweep counter to the guard pull</strong> — taught by Cobra · 1:28 · <a href="https://www.youtube.com/watch?v=u-jWz-kuERU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

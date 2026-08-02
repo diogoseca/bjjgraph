@@ -34,6 +34,54 @@ description: "Master Outside Ashi-Garami position in BJJ. Strategic guide coveri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside Ashi overview",
+      "description": "Outside Ashi-Garami film study: Outside Ashi overview, taught by Team Strela.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xvx03k3jiWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xvx03k3jiWo",
+      "url": "https://www.youtube.com/watch?v=xvx03k3jiWo",
+      "creator": { "@type": "Person", "name": "Team Strela" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ashi Garami and heel hook basics",
+      "description": "Outside Ashi-Garami film study: Ashi Garami and heel hook basics, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pRqoNs4K7cI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pRqoNs4K7cI",
+      "url": "https://www.youtube.com/watch?v=pRqoNs4K7cI",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Outside heel hook finishing mechanics",
+      "description": "Outside Ashi-Garami film study: Outside heel hook finishing mechanics, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tLcHN042w48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tLcHN042w48",
+      "url": "https://www.youtube.com/watch?v=tLcHN042w48",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ The position is characterized by a figure-4 leg configuration where the attackin
 Outside Ashi-Garami exists as both an offensive attacking position (bottom perspective) and a defensive survival position (top perspective). From bottom, practitioners threaten outside heel hooks, straight ankle locks, and transitions to more dominant positions like saddle and inside ashi. From top, practitioners must work systematic escapes to prevent submissions while extracting their trapped leg and recovering advantageous position. Understanding both perspectives is essential for modern no-gi competition where leg entanglements have become increasingly prevalent and sophisticated.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xvx03k3jiWo)
+
+<p class="clip-credit"><strong>Outside Ashi overview</strong> — taught by Team Strela · 0:26 · <a href="https://www.youtube.com/watch?v=xvx03k3jiWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pRqoNs4K7cI)
+
+<p class="clip-credit"><strong>Ashi Garami and heel hook basics</strong> — taught by The Coop BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tLcHN042w48)
+
+<p class="clip-credit"><strong>Outside heel hook finishing mechanics</strong> — taught by Fox Den Martial Arts · 1:26 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,21 +221,19 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Outside Ashi-Garami/Attacker|Outside Heel Hook from Outside Ashi-Garami]]** (31% of attempts)
+- **[[Outside Heel Hook from Outside Ashi-Garami/Attacker|Outside Heel Hook from Outside Ashi-Garami]]** (27% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (25% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (13% of attempts)
 
 - **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (14% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (9% of attempts)
+- **[[Transitions/Saddle Entry from Outside Ashi/Attacker|Saddle Entry from Outside Ashi]]** (18% of attempts)
 
 - **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (9% of attempts)
 
-- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (7% of attempts)
+- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (10% of attempts)
 
-- **[[Transitions/Counter Sweep from Outside Ashi/Attacker|Counter Sweep from Outside Ashi]]** (4% of attempts)
-
-- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
+- **[[Transitions/Counter Sweep from Outside Ashi/Attacker|Counter Sweep from Outside Ashi]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -212,27 +294,25 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (53% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (14% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (16% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (10% of attempts)
 
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (10% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (11% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (3% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (11% of attempts)
 
-- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (3% of attempts)
+- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (9% of attempts)
 
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (3% of attempts)
+- **[[Transitions/Outside Ashi to Inside Ashi/Attacker|Outside Ashi to Inside Ashi]]** (12% of attempts)
 
-- **[[Transitions/Outside Ashi to Inside Ashi/Attacker|Outside Ashi to Inside Ashi]]** (0% of attempts)
+- **[[Transitions/Outside to Ushiro Ashi/Attacker|Outside to Ushiro Ashi]]** (6% of attempts)
 
-- **[[Transitions/Outside to Ushiro Ashi/Attacker|Outside to Ushiro Ashi]]** (0% of attempts)
+- **[[Transitions/Saddle Entry from Outside Ashi/Attacker|Saddle Entry from Outside Ashi]]** (11% of attempts)
 
-- **[[Transitions/Saddle Entry from Outside Ashi/Attacker|Saddle Entry from Outside Ashi]]** (0% of attempts)
+- **[[Toe Hold from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (9% of attempts)
 
-- **[[Toe Hold from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (1% of attempts)
-
-- **[[Transitions/Outside Ashi to Leg Knot/Attacker|Outside Ashi to Leg Knot]]** (11% of attempts)
+- **[[Transitions/Outside Ashi to Leg Knot/Attacker|Outside Ashi to Leg Knot]]** (7% of attempts)
 
 
 ### Common Mistakes

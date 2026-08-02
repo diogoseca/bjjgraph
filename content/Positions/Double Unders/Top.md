@@ -21,31 +21,31 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Over-Under Pass",
-      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
-      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
@@ -153,6 +153,54 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Unders (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing with Double Unders",
+      "description": "Double Unders (Top) film study: Passing with Double Unders, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UZVu4XCCO0k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UZVu4XCCO0k",
+      "url": "https://www.youtube.com/watch?v=UZVu4XCCO0k",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double Under Pass to Darce",
+      "description": "Double Unders (Top) film study: Double Under Pass to Darce, taught by 10th Planet Costa Mesa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8O-urvZVqYU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8O-urvZVqYU",
+      "url": "https://www.youtube.com/watch?v=8O-urvZVqYU",
+      "creator": { "@type": "Person", "name": "10th Planet Costa Mesa" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double-Under Pass to Armbar",
+      "description": "Double Unders (Top) film study: Double-Under Pass to Armbar, taught by Dirtball BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bPyk_2CrVBo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bPyk_2CrVBo",
+      "url": "https://www.youtube.com/watch?v=bPyk_2CrVBo",
+      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ Double Unders Top Position is a dominant pressure passing position where the top
 The Double Unders position excels at breaking down various open guard styles, particularly butterfly guard, half guard, and seated guards where the opponent's legs are elevated. By controlling both legs simultaneously, the passer eliminates the bottom player's ability to create effective frames or establish threatening guard positions. The crushing pressure and limited mobility make this an extremely fatiguing position for the defensive player, often forcing them into poor defensive decisions or creating opportunities for the pass to complete. High-level competitors frequently use this position as a pressure-passing gateway, transitioning smoothly to side control, mount, or back control depending on the opponent's defensive reactions. The position typically resolves within 20-45 seconds as the top player advances to a scoring position or the bottom player executes an escape to deep half guard or turtle.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Unders (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UZVu4XCCO0k)
+
+<p class="clip-credit"><strong>Passing with Double Unders</strong> — taught by Revolution BJJ · 1:15 · <a href="https://www.youtube.com/watch?v=UZVu4XCCO0k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8O-urvZVqYU)
+
+<p class="clip-credit"><strong>Double Under Pass to Darce</strong> — taught by 10th Planet Costa Mesa · 0:35 · <a href="https://www.youtube.com/watch?v=8O-urvZVqYU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bPyk_2CrVBo)
+
+<p class="clip-credit"><strong>Double-Under Pass to Armbar</strong> — taught by Dirtball BJJ · 1:08 · <a href="https://www.youtube.com/watch?v=bPyk_2CrVBo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

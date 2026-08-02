@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 78,
+  "success_rate": {
+    "gi": 78,
+    "nogi": 78
+  },
   "conditions": [
     "Underhook established on opponent's far side with deep penetration past their armpit",
     "Opponent committed forward with weight distribution favoring chest-to-chest pressure",
@@ -246,54 +258,194 @@
     "flashcards": [
       {
         "question": "What is the primary control point that enables the half guard to back take transition?",
-        "answer": "The underhook on opponent's far side is the primary control point, providing leverage for angle creation, preventing opponent's crossface pressure, and serving as the main anchor throughout the entire transition from half guard to full back control."
+        "answer": "The far-side underhook is the primary control point that anchors the entire transition from half guard to back control. It provides the leverage for angle creation, prevents the opponent's crossface pressure, and remains the main anchor from the initial half guard position all the way to full back control.",
+        "distractors": {
+          "plausible": [
+            "Crossface control",
+            "Near-side overhook"
+          ],
+          "trap": [
+            "Release grip, insert hook first"
+          ]
+        },
+        "answer_line": "Far-side underhook"
       },
       {
         "question": "When is the optimal timing to execute the climb to back control?",
-        "answer": "You should climb to back control after creating a perpendicular angle with the underhook, specifically when opponent's weight commits forward and their bottom hip is blocked by your knee, preventing their defensive turn-in or base recovery."
+        "answer": "Climb to back control once your underhook has created a perpendicular angle and the opponent's weight commits forward. Specifically, their bottom hip should be blocked by your knee at that moment, which prevents their defensive turn-in and stops them from recovering base as you climb.",
+        "distractors": {
+          "plausible": [
+            "Once they post the far hand",
+            "Wait for them to flatten out"
+          ],
+          "trap": [
+            "Climb while they turn into you"
+          ]
+        },
+        "answer_line": "Perpendicular angle, hip blocked"
       },
       {
         "question": "What is the most common technical error when attempting this transition and how is it corrected?",
-        "answer": "The most common error is releasing the underhook too early during the transition, which results in loss of control and allows opponent to establish crossface and flatten you. The correction is to maintain underhook connection throughout the entire sequence until back control is fully established with both hooks inserted and secured."
+        "answer": "The most common error is releasing the underhook too early, which loses control and lets the opponent crossface and flatten you. The correction is to maintain the underhook connection throughout the entire sequence, keeping it until back control is fully established with both hooks inserted and secured.",
+        "distractors": {
+          "plausible": [
+            "Regrip underhook after each hook",
+            "Both hooks before upper control"
+          ],
+          "trap": [
+            "Let go to reach for the choke"
+          ]
+        },
+        "answer_line": "Keep underhook until hooks locked"
       },
       {
         "question": "How do you effectively counter an opponent's crossface pressure when attempting the back take?",
-        "answer": "Counter crossface pressure by using your inside arm to create a defensive frame against their neck or shoulder while simultaneously using the underhook to create the perpendicular angle anyway. If crossface becomes too dominant, transition to deep half guard or lockdown positions that nullify their crossface advantage."
+        "answer": "Frame against their neck or shoulder with your inside arm while the underhook still drives you to the perpendicular angle. The defensive frame blunts the crossface as you angle out anyway; if the crossface becomes too dominant, transition to deep half guard or lockdown positions that nullify their crossface advantage.",
+        "distractors": {
+          "plausible": [
+            "Bridge hard to bump them off",
+            "Grip their collar and pull down"
+          ],
+          "trap": [
+            "Abandon underhook, push face away"
+          ]
+        },
+        "answer_line": "Frame inside arm, keep angling"
       },
       {
         "question": "Why is blocking the opponent's bottom hip critical to the success of this technique?",
-        "answer": "Blocking opponent's bottom hip with your top knee is critical because it prevents them from turning into you to recover guard and maintains your perpendicular angle during the climb. Without this hip block, opponents can easily rotate toward you and nullify the back take attempt, recovering to standard half guard or even passing to top position."
+        "answer": "Blocking the bottom hip with your top knee stops the opponent from turning into you to recover guard during the climb. It also maintains your perpendicular angle; without this hip block, opponents can easily rotate toward you and nullify the back take, recovering to standard half guard or even passing to top position.",
+        "distractors": {
+          "plausible": [
+            "It pins their far shoulder down",
+            "It stops them standing up"
+          ],
+          "trap": [
+            "Skip it, climb and grab hooks"
+          ]
+        },
+        "answer_line": "Stops their turn-in defense"
       },
       {
         "question": "How does the Kimura Grip variation differ from the standard underhook approach?",
-        "answer": "The Kimura Grip variation uses a kimura grip on opponent's near arm instead of the traditional far side underhook, creating back exposure through submission threat rather than positional leverage. This forces opponent to defend by turning away from the kimura, which exposes their back for the take, making it effective when traditional underhook is well-defended."
+        "answer": "The Kimura Grip variation uses a kimura grip on opponent's near arm instead of the traditional far side underhook, creating back exposure through submission threat rather than positional leverage. This forces opponent to defend by turning away from the kimura, which exposes their back for the take, making it effective when traditional underhook is well-defended.",
+        "answer_line": "Kimura grip on near arm",
+        "distractors": {
+          "plausible": [
+            "Kimura grip on far arm",
+            "Underhook plus kimura combo"
+          ],
+          "trap": [
+            "Abandon control, finish kimura"
+          ]
+        }
       },
       {
         "question": "What grip configuration should your underhook hand achieve during setup?",
-        "answer": "Your underhook hand should thread deep under opponent's armpit and connect to their far shoulder blade or lat muscle, not merely resting on their side. The deeper the underhook penetration, the more rotational leverage you generate for angle creation and the harder it becomes for opponent to strip or whizzer over it."
+        "answer": "Your underhook hand should thread deep under opponent's armpit and connect to their far shoulder blade or lat muscle, not merely resting on their side. The deeper the underhook penetration, the more rotational leverage you generate for angle creation and the harder it becomes for opponent to strip or whizzer over it.",
+        "answer_line": "Deep to far shoulder blade",
+        "distractors": {
+          "plausible": [
+            "Cup their near shoulder",
+            "Palm flat on their lower back"
+          ],
+          "trap": [
+            "Shallow grip, hand on hip"
+          ]
+        }
       },
       {
         "question": "In which direction should you drive force during the climb phase of the back take?",
-        "answer": "During the climb phase, your force should drive diagonally upward and forward into your opponent's back, using the bottom hook and underhook as anchors. The chest drives into their upper back while your hips elevate, creating a loading effect where your weight transfers onto their back rather than remaining on the mat beside them."
+        "answer": "During the climb phase, your force should drive diagonally upward and forward into your opponent's back, using the bottom hook and underhook as anchors. The chest drives into their upper back while your hips elevate, creating a loading effect where your weight transfers onto their back rather than remaining on the mat beside them.",
+        "answer_line": "Diagonally up into their back",
+        "distractors": {
+          "plausible": [
+            "Straight up off the mat",
+            "Forward and flat, no lift"
+          ],
+          "trap": [
+            "Push down, stay flat beside them"
+          ]
+        }
       },
       {
         "question": "Your opponent defends by posting their far hand on the mat and widening their base - what do you do?",
-        "answer": "When opponent posts wide and bases out, switch to an Old School sweep setup by controlling their far ankle with your free hand while maintaining the underhook. The posting hand removes their ability to block your hip, so threaten the sweep to force them to retract their post, which reopens the back take angle you originally sought."
+        "answer": "When opponent posts wide and bases out, switch to an Old School sweep setup by controlling their far ankle with your free hand while maintaining the underhook. The posting hand removes their ability to block your hip, so threaten the sweep to force them to retract their post, which reopens the back take angle you originally sought.",
+        "answer_line": "Control far ankle, threaten sweep",
+        "distractors": {
+          "plausible": [
+            "Push harder into the underhook",
+            "Chase the far hand to break post"
+          ],
+          "trap": [
+            "Climb into their wide base anyway"
+          ]
+        }
       },
       {
         "question": "What chain attacks should you threaten if your initial back take attempt is blocked at the angle creation phase?",
-        "answer": "If the back take stalls at the angle creation phase, chain into underhook sweep from half guard, Old School sweep, or kimura grip to back take. Each of these attacks uses the same underhook control point, so the opponent must solve multiple problems simultaneously. The sweep threat forces them to post, which exposes the back; the kimura threat forces rotation away, which also exposes the back."
+        "answer": "If the back take stalls at the angle creation phase, chain into underhook sweep from half guard, Old School sweep, or kimura grip to back take. Each of these attacks uses the same underhook control point, so the opponent must solve multiple problems simultaneously. The sweep threat forces them to post, which exposes the back; the kimura threat forces rotation away, which also exposes the back.",
+        "answer_line": "Sweep and kimura threats",
+        "distractors": {
+          "plausible": [
+            "Re-shoot the same climb again",
+            "Grip fight until they tire"
+          ],
+          "trap": [
+            "Release underhook, force hooks"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you release the half guard leg lock to begin hook insertion?",
-        "answer": "Before releasing the half guard lock, three conditions must be met: your perpendicular angle must be fully established with your torso facing their side, your top knee must be blocking their bottom hip to prevent the turn-in defense, and your underhook must be deep and secure with chest beginning to make contact with their side. Releasing the lock prematurely without these conditions results in losing the entanglement anchor without having established sufficient alternative control."
+        "answer": "Release the half guard lock only once your perpendicular angle, your knee's hip block, and a deep underhook are all established. Specifically: your torso must face their side, your top knee must block their bottom hip to prevent the turn-in defense, and the underhook must be secure with your chest beginning to contact their side. Releasing the lock prematurely without these conditions loses the entanglement anchor before sufficient alternative control exists.",
+        "distractors": {
+          "plausible": [
+            "Underhook alone is enough",
+            "Once their weight is forward"
+          ],
+          "trap": [
+            "Release lock early, chase hooks"
+          ]
+        },
+        "answer_line": "Angle, hip block, deep underhook"
       },
       {
         "question": "Your opponent applies a strong whizzer as you establish the underhook - how does this affect your back take strategy?",
-        "answer": "A whizzer actually aids the back take when exploited correctly. The whizzer pins your shoulder tight to their body, which gives you a closer connection for the climb. Circle your hips underneath their whizzer pressure while keeping your underhook hand connected. Their overhook acts as an anchor point that prevents them from creating distance, and as you rotate perpendicular, the whizzer loses its leverage while your underhook gains it."
+        "answer": "A whizzer actually aids the back take when exploited correctly. The whizzer pins your shoulder tight to their body, which gives you a closer connection for the climb. Circle your hips underneath their whizzer pressure while keeping your underhook hand connected. Their overhook acts as an anchor point that prevents them from creating distance, and as you rotate perpendicular, the whizzer loses its leverage while your underhook gains it.",
+        "answer_line": "Circle under, keep underhook",
+        "distractors": {
+          "plausible": [
+            "Flatten out and wait it out",
+            "Take an overhook of your own"
+          ],
+          "trap": [
+            "Pull arm free, lose the underhook"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Ensure controlled execution to avoid injury during the transition. Maintain awareness of opponent's spine and neck position, particularly when establishing back control and inserting hooks. Apply pressure gradually rather than explosively when first learning to prevent knee and hip injuries to your training partner. When inserting hooks, be careful not to drive knees forcefully into opponent's thighs, which can cause painful contusions. During drilling, communicate clearly if crossface pressure becomes excessive, as this can strain neck muscles. Partners should tap early if they feel trapped in poor positions during the transition to prevent panic responses that lead to injury."
+    "safety_considerations": "Ensure controlled execution to avoid injury during the transition. Maintain awareness of opponent's spine and neck position, particularly when establishing back control and inserting hooks. Apply pressure gradually rather than explosively when first learning to prevent knee and hip injuries to your training partner. When inserting hooks, be careful not to drive knees forcefully into opponent's thighs, which can cause painful contusions. During drilling, communicate clearly if crossface pressure becomes excessive, as this can strain neck muscles. Partners should tap early if they feel trapped in poor positions during the transition to prevent panic responses that lead to injury.",
+    "clips": [
+      {
+        "id": "WoSyrVZ1VvY",
+        "title": "Back take from half guard using a butterfly hook",
+        "by": "Procel",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XqH1Bt0-AgY",
+        "title": "Back take from half guard bottom",
+        "by": "BJJ Recap coach",
+        "vertical": false,
+        "channel": "BJJ Recap",
+        "duration": 39,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Back Take Defender",
@@ -384,23 +536,73 @@
     "flashcards": [
       {
         "question": "What is the earliest and most effective point to shut down the half guard to back take?",
-        "answer": "The earliest and most effective defensive point is during underhook establishment, before the bottom player threads their arm deep under your armpit. Driving immediate crossface and shoulder pressure when you feel the underhook attempt prevents the primary control point from being established, making all subsequent phases of the back take impossible."
+        "answer": "The earliest and most effective defensive point is during underhook establishment, before the bottom player threads their arm deep under your armpit. Driving immediate crossface and shoulder pressure when you feel the underhook attempt prevents the primary control point from being established, making all subsequent phases of the back take impossible.",
+        "answer_line": "Stop underhook before it's deep",
+        "distractors": {
+          "plausible": [
+            "Block the hip block instead",
+            "Defend once angle is set"
+          ],
+          "trap": [
+            "Wait until they climb, then react"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the opponent the wrong response when you feel them climbing to your back?",
-        "answer": "Turning away exposes more of your back to the attacker, accelerating hook insertion and seatbelt establishment rather than preventing it. The correct response is to turn into the opponent because facing them directly denies back exposure, creates a scramble where you can recover guard or top position, and eliminates the angle they need to complete the back take."
+        "answer": "Turning away exposes more of your back to the attacker, accelerating hook insertion and seatbelt establishment rather than preventing it. The correct response is to turn into the opponent because facing them directly denies back exposure, creates a scramble where you can recover guard or top position, and eliminates the angle they need to complete the back take.",
+        "answer_line": "Turn into them, deny exposure",
+        "distractors": {
+          "plausible": [
+            "Stay flat and shrimp away",
+            "Grab their top wrist and stall"
+          ],
+          "trap": [
+            "Turn away to protect your neck"
+          ]
+        }
       },
       {
         "question": "Your opponent has a deep underhook and has started rotating perpendicular - what is your best defensive option at this stage?",
-        "answer": "At this stage, apply a strong whizzer overhook on the underhook arm while driving your hip into their chest to stall the rotation. If the angle has progressed too far for the whizzer to work, turn into the opponent aggressively by rotating your torso toward them and driving through with your chest to deny back exposure and force a scramble."
+        "answer": "At this stage, apply a strong whizzer overhook on the underhook arm while driving your hip into their chest to stall the rotation. If the angle has progressed too far for the whizzer to work, turn into the opponent aggressively by rotating your torso toward them and driving through with your chest to deny back exposure and force a scramble.",
+        "answer_line": "Whizzer, or turn in if late",
+        "distractors": {
+          "plausible": [
+            "Push their head down",
+            "Bridge and buck them off"
+          ],
+          "trap": [
+            "Turn away to buy time"
+          ]
+        }
       },
       {
         "question": "What visual or tactile cue indicates the back take attempt has progressed past the point of easy prevention?",
-        "answer": "When the bottom player's top knee drives across to block your bottom hip while they maintain perpendicular angle and deep underhook, the back take has progressed past easy prevention. At this point the bottom player has established the three critical controls needed for the climb phase: underhook leverage, perpendicular angle, and hip block. Your defense must shift from prevention to emergency turn-in response."
+        "answer": "When the bottom player's top knee drives across to block your bottom hip while they maintain perpendicular angle and deep underhook, the back take has progressed past easy prevention. At this point the bottom player has established the three critical controls needed for the climb phase: underhook leverage, perpendicular angle, and hip block. Your defense must shift from prevention to emergency turn-in response.",
+        "answer_line": "Knee blocks hip, angle, underhook",
+        "distractors": {
+          "plausible": [
+            "They just started the underhook",
+            "They posted their far hand"
+          ],
+          "trap": [
+            "Only once the seatbelt locks"
+          ]
+        }
       },
       {
         "question": "Why should you prioritize addressing the underhook over extracting your trapped leg from half guard?",
-        "answer": "The underhook is the primary offensive lever for the back take and creates an immediate positional threat, while a trapped leg in half guard without an underhook is merely a stalling mechanism. If you focus on leg extraction while ignoring the underhook, the bottom player establishes the back take control structure before you complete your pass. A trapped leg with strong crossface control is a passing position; an uncontested underhook is an imminent back take."
+        "answer": "The underhook is the primary offensive lever for the back take and creates an immediate positional threat, while a trapped leg in half guard without an underhook is merely a stalling mechanism. If you focus on leg extraction while ignoring the underhook, the bottom player establishes the back take control structure before you complete your pass. A trapped leg with strong crossface control is a passing position; an uncontested underhook is an imminent back take.",
+        "answer_line": "Underhook is their scoring lever",
+        "distractors": {
+          "plausible": [
+            "Leg extraction ends the danger",
+            "Hip escape resolves it faster"
+          ],
+          "trap": [
+            "Free the leg, give up your back"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -423,6 +625,35 @@
         "phase": "Week 7+: Full resistance positional sparring from half guard top",
         "focus": "Integrating all defensive layers against live back take attempts",
         "description": "Positional rounds starting in half guard top against partner's full offensive half guard system. Practice reading which defensive layer is appropriate based on opponent's progress through the back take sequence. Chain prevention, whizzer defense, and emergency turn-in as the situation demands."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hHbb7ywVTwU",
+        "title": "Countering the back take from top deep half guard",
+        "by": "JiuJitsu.com coach",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rk9ZxNBphTk",
+        "title": "Detail to shut down the bottom half guard",
+        "by": "Mason Fowler",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 376,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y113xweZTWo",
+        "title": "Three ways to defend your back in no-gi",
+        "by": "Matheus Diniz",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 430,
+        "verified": "2026-07-15"
       }
     ]
   },

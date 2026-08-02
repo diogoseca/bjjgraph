@@ -164,6 +164,43 @@ description: "Master inside position in BJJ and wrestling. Learn underhook contr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Danaher\u0027s inside position concept explained",
+      "description": "Inside Position film study: Danaher\u0027s inside position concept explained, taught by Chadi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/my3fvg5RDJ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/my3fvg5RDJ0",
+      "url": "https://www.youtube.com/watch?v=my3fvg5RDJ0",
+      "creator": { "@type": "Person", "name": "Chadi" },
+      "duration": "PT737S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "What is inside position and why it matters",
+      "description": "Inside Position film study: What is inside position and why it matters, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/peYJDb7LZMM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/peYJDb7LZMM",
+      "url": "https://www.youtube.com/watch?v=peYJDb7LZMM",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT499S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Inside Position?
@@ -177,6 +214,34 @@ This principle comes directly from wrestling, where pummeling — the act of fig
 Inside position matters because physics favors the inside fighter. Your arms and legs are strongest and most mobile when working close to your body's center. The further your limbs extend from your centerline, the weaker and more vulnerable they become. By occupying the inside space, you force the opponent's limbs to work at extended range while your limbs operate at their strongest range. This mechanical advantage compounds with every exchange — the inside fighter gets progressively stronger position while the outside fighter gets progressively weaker position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=my3fvg5RDJ0)
+
+<p class="clip-credit"><strong>Danaher&#39;s inside position concept explained</strong> — taught by Chadi · 12:17 · <a href="https://www.youtube.com/watch?v=my3fvg5RDJ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=peYJDb7LZMM)
+
+<p class="clip-credit"><strong>What is inside position and why it matters</strong> — taught by Jordan Preisinger · 8:19 · <a href="https://www.youtube.com/watch?v=peYJDb7LZMM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Carni/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Crackhead Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Crackhead Control to Carni transition represents one of the most innovative defensive-to-offensive conversions in the 10th Planet Jiu-Jitsu system. When caught in the Crackhead Control defensive position on bottom, this technique allows the defender to exploit the top player's leg positioning by threading underneath and establishing the Carni leg entanglement. Rather than simply escaping to a neutral position, this transition immediately places the former defender in a dominant attacking configuration with heel hook, saddle, and back take opportunities.\n\nThe mechanical foundation of this transition relies on recognizing when the top player's weight commitment creates space underneath their body. The bottom player uses their constant hip movement and grip fighting characteristic of crackhead control defense to create a momentary opening, then explosively threads their legs to capture the opponent's near leg in the carni configuration. The key insight is that the top player's chair-sit mechanics, while excellent for maintaining turtle control, create vulnerability to leg entanglement attacks when the bottom player inverts underneath.\n\nThis transition is particularly effective in no-gi competition where the top player lacks gi grips to anchor their position during the bottom player's explosive movement. The technique exemplifies the 10th Planet philosophy of turning defensive positions into immediate offensive threats. Success requires excellent timing, hip mobility, and the ability to maintain hand fighting intensity while simultaneously setting up the leg capture. Advanced practitioners can chain this transition with the standard Carni attack tree including heel hooks, saddle entries, and back takes.",
   "related_content": [
     {
@@ -226,46 +238,175 @@
     "flashcards": [
       {
         "question": "What weight distribution must you feel from the top player before initiating this transition?",
-        "answer": "You must feel the top player commit their weight forward over your lower back in their chair-sit position. This forward commitment compromises their base and creates space underneath their body for your inversion. Attempting the transition when they have neutral or rearward weight distribution allows easy counter-attacks because they can post wide or drive you flat."
+        "answer": "You must feel the top player commit their weight forward over your lower back in their chair-sit position. This forward commitment compromises their base and creates space underneath their body for your inversion. Attempting the transition when they have neutral or rearward weight distribution allows easy counter-attacks because they can post wide or drive you flat.",
+        "answer_line": "Forward weight over your hips",
+        "distractors": {
+          "plausible": [
+            "Weight rocked back on heels",
+            "Light, even weight distribution"
+          ],
+          "trap": [
+            "Go while they drive you flat"
+          ]
+        }
       },
       {
         "question": "Why is inside leg positioning critical during the transition?",
-        "answer": "Inside leg positioning creates the barrier preventing the opponent from stepping over to escape or pass. The inside leg must hook over the opponent's hip before the outside leg completes the entanglement. Without inside positioning, the opponent can easily extract their leg and advance to dominant position, making the entire transition attempt counterproductive."
+        "answer": "Inside leg positioning creates the barrier preventing the opponent from stepping over to escape or pass. The inside leg must hook over the opponent's hip before the outside leg completes the entanglement. Without inside positioning, the opponent can easily extract their leg and advance to dominant position, making the entire transition attempt counterproductive.",
+        "answer_line": "Inside leg hooks their hip first",
+        "distractors": {
+          "plausible": [
+            "Outside leg goes in first",
+            "Both legs enter simultaneously"
+          ],
+          "trap": [
+            "Skip inside leg, grab collar"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sprawling back as you initiate the inversion - how do you adapt?",
-        "answer": "Their sprawl creates space for alternative escapes. Use their hip retraction to recover to guard position (butterfly, half guard, or closed guard) rather than forcing the carni entry. Their defensive sprawl trades their crackhead control for your guard recovery, which is a favorable exchange from your defensive position. Accept the guard recovery as a win."
+        "answer": "Their sprawl creates space for alternative escapes. Use their hip retraction to recover to guard position (butterfly, half guard, or closed guard) rather than forcing the carni entry. Their defensive sprawl trades their crackhead control for your guard recovery, which is a favorable exchange from your defensive position. Accept the guard recovery as a win.",
+        "answer_line": "Recover guard, don't force it",
+        "distractors": {
+          "plausible": [
+            "Force the carni entry anyway",
+            "Chase their hips to reconnect"
+          ],
+          "trap": [
+            "Keep inverting into the sprawl"
+          ]
+        }
       },
       {
         "question": "What is the immediate hand priority upon completing the leg entanglement?",
-        "answer": "Immediately establish heel and ankle control with both hands. The inside hand controls the heel pulling toward your chest while the outside hand controls ankle position for directional control. This establishes immediate submission threat and prevents leg extraction. Positional adjustment comes after heel control is secured, never before."
+        "answer": "Immediately establish heel and ankle control with both hands. The inside hand controls the heel pulling toward your chest while the outside hand controls ankle position for directional control. This establishes immediate submission threat and prevents leg extraction. Positional adjustment comes after heel control is secured, never before.",
+        "answer_line": "Heel and ankle control, both hands",
+        "distractors": {
+          "plausible": [
+            "Adjust position, then grip heel",
+            "Grip collar for control first"
+          ],
+          "trap": [
+            "Release grips to reset posture"
+          ]
+        }
       },
       {
         "question": "How do you protect against guillotine or darce attacks during the inversion?",
-        "answer": "Keep your chin tucked tightly to your chest throughout the entire inversion movement. Your head stays protected between your shoulders until the carni position is fully established. Never raise your head during the transition as this exposes your neck to front headlock attacks from the top player who already has upper body proximity."
+        "answer": "Keep your chin tucked tightly to your chest throughout the entire inversion movement. Your head stays protected between your shoulders until the carni position is fully established. Never raise your head during the transition as this exposes your neck to front headlock attacks from the top player who already has upper body proximity.",
+        "answer_line": "Chin tucked tight the whole time",
+        "distractors": {
+          "plausible": [
+            "Head up to see the finish",
+            "Post head against their hip"
+          ],
+          "trap": [
+            "Raise head to check position"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy chest pressure forward as you begin the inversion - is this good or bad for your transition?",
-        "answer": "This is actually favorable for your transition when timed correctly. Their forward drive creates the momentum you need for the roll-under motion and simultaneously compromises their base further. Use their chest pressure to assist the inversion rather than fighting against it. The key is timing: initiate your thread as their weight shifts forward, converting their pressure into your transition energy."
+        "answer": "This is actually favorable for your transition when timed correctly. Their forward drive creates the momentum you need for the roll-under motion and simultaneously compromises their base further. Use their chest pressure to assist the inversion rather than fighting against it. The key is timing: initiate your thread as their weight shifts forward, converting their pressure into your transition energy.",
+        "answer_line": "Good, it fuels your roll-under",
+        "distractors": {
+          "plausible": [
+            "Bad, it flattens your setup",
+            "Neutral, ignore and continue"
+          ],
+          "trap": [
+            "Stop and reset your base"
+          ]
+        }
       },
       {
         "question": "What grip fighting action must precede the inversion and why?",
-        "answer": "Your inside arm must be freed through grip stripping before inverting. This arm is essential for assisting leg insertion, maintaining balance during inversion, and establishing heel control upon completion. A trapped inside arm prevents full rotation and leaves you stuck in a compromised transitional position where the top player can counter-attack freely."
+        "answer": "Your inside arm must be freed through grip stripping before inverting. This arm is essential for assisting leg insertion, maintaining balance during inversion, and establishing heel control upon completion. A trapped inside arm prevents full rotation and leaves you stuck in a compromised transitional position where the top player can counter-attack freely.",
+        "answer_line": "Strip grip to free inside arm",
+        "distractors": {
+          "plausible": [
+            "Strip grip to free outside arm",
+            "Free your legs before arms"
+          ],
+          "trap": [
+            "Keep arm trapped for control"
+          ]
+        }
       },
       {
         "question": "What alternative positions should you accept if the full carni entry is blocked?",
-        "answer": "Accept half guard, butterfly guard, single leg X-guard, or any partial leg entanglement that results from the blocked transition. These represent significant improvement over crackhead control bottom. Never force a failed transition. Take whatever guard recovery the partial movement provides and restart your offensive game from the improved position."
+        "answer": "Accept half guard, butterfly guard, single leg X-guard, or any partial leg entanglement that results from the blocked transition. These represent significant improvement over crackhead control bottom. Never force a failed transition. Take whatever guard recovery the partial movement provides and restart your offensive game from the improved position.",
+        "answer_line": "Accept any guard, don't force it",
+        "distractors": {
+          "plausible": [
+            "Retry the carni immediately",
+            "Stall until carni opens again"
+          ],
+          "trap": [
+            "Force the entry through resistance"
+          ]
+        }
       },
       {
         "question": "Why must you commit fully once the transition is initiated rather than testing the waters?",
-        "answer": "A half-committed transition position is worse than either crackhead defense or completed carni. Stopping midway leaves you vulnerable to back take, pass, or submission from the top player who can capitalize on your exposed position. The explosive nature of the movement requires full commitment because the timing window closes rapidly once the top player recognizes the threat."
+        "answer": "A half-committed transition position is worse than either crackhead defense or completed carni. Stopping midway leaves you vulnerable to back take, pass, or submission from the top player who can capitalize on your exposed position. The explosive nature of the movement requires full commitment because the timing window closes rapidly once the top player recognizes the threat.",
+        "answer_line": "Half-commit is worse than either",
+        "distractors": {
+          "plausible": [
+            "Testing the waters is safer",
+            "Slow entry gives more control"
+          ],
+          "trap": [
+            "Pause mid-transition to check grips"
+          ]
+        }
       },
       {
         "question": "How do you adjust your hip angle after establishing the carni entanglement for maximum offensive threat?",
-        "answer": "Your hips should angle across the opponent's trapped leg rather than parallel to it. This creates optimal heel hook leverage by maximizing rotational force on their knee joint. The hip angle adjustment is the final positional refinement after securing inside leg position and heel control. Without this angle, your heel hook threat lacks the mechanical advantage needed to finish."
+        "answer": "Your hips should angle across the opponent's trapped leg rather than parallel to it. This creates optimal heel hook leverage by maximizing rotational force on their knee joint. The hip angle adjustment is the final positional refinement after securing inside leg position and heel control. Without this angle, your heel hook threat lacks the mechanical advantage needed to finish.",
+        "answer_line": "Angle hips across trapped leg",
+        "distractors": {
+          "plausible": [
+            "Keep hips parallel to leg",
+            "Square hips flat to the mat"
+          ],
+          "trap": [
+            "Rotate hips away from the leg"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves rapid inversion and leg entanglement mechanics that require progressive skill development to execute safely. Beginners should focus on the mechanical movement with cooperative partners before adding resistance. The receiving partner should be familiar with carni defense and heel hook tap protocols before practicing at intensity. Never force the transition against rigid resistance as this can strain your own back during the inversion movement. The heel control established at the end of this transition creates immediate injury risk if applied explosively - establish control gradually and give your partner opportunity to tap. In training, prioritize positional completion over submission speed. Avoid drilling this transition when fatigued as the complex movement pattern degrades under exhaustion, increasing injury risk to both partners."
+    "safety_considerations": "This transition involves rapid inversion and leg entanglement mechanics that require progressive skill development to execute safely. Beginners should focus on the mechanical movement with cooperative partners before adding resistance. The receiving partner should be familiar with carni defense and heel hook tap protocols before practicing at intensity. Never force the transition against rigid resistance as this can strain your own back during the inversion movement. The heel control established at the end of this transition creates immediate injury risk if applied explosively - establish control gradually and give your partner opportunity to tap. In training, prioritize positional completion over submission speed. Avoid drilling this transition when fatigued as the complex movement pattern degrades under exhaustion, increasing injury risk to both partners.",
+    "clips": [
+      {
+        "id": "qeOb0Rl1hy4",
+        "title": "The Carne-Val technique from rubber guard",
+        "by": "Richie Martinez",
+        "vertical": false,
+        "channel": "CholoMMA",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iRTWyAmw5vQ",
+        "title": "Attack chain: The Carni",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 139,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ws8HqIka0x0",
+        "title": "Carni sweep from rubber guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 263,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crackhead Control to Carni Defender",
@@ -357,23 +498,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is attempting the Crackhead Control to Carni transition rather than standard defensive movement?",
-        "answer": "The earliest cue is a directional change in the bottom player's hip movement. Standard crackhead defense uses horizontal circling, while the carni transition setup angles the hips underneath your body toward your near leg. You may also feel them aggressively strip your grip on their inside arm, which is a prerequisite for the inversion. Recognizing this directional shift within the first moment is what allows early prevention."
+        "answer": "The earliest cue is a directional change in the bottom player's hip movement. Standard crackhead defense uses horizontal circling, while the carni transition setup angles the hips underneath your body toward your near leg. You may also feel them aggressively strip your grip on their inside arm, which is a prerequisite for the inversion. Recognizing this directional shift within the first moment is what allows early prevention.",
+        "answer_line": "Hips angle under you, not around",
+        "distractors": {
+          "plausible": [
+            "Faster horizontal hip circling",
+            "Sudden stillness in their hips"
+          ],
+          "trap": [
+            "Wait for full leg entanglement"
+          ]
+        }
       },
       {
         "question": "Why does your forward weight commitment in the chair-sit position create vulnerability to this transition?",
-        "answer": "The forward weight commitment loads your mass onto the bottom player's lower back, but simultaneously creates space underneath your hips and compromises your ability to retract quickly. This space is exactly what the bottom player threads through during the inversion. The more forward you commit, the larger the window for their entry and the slower your defensive reaction because your hips must travel further to retract."
+        "answer": "The forward weight commitment loads your mass onto the bottom player's lower back, but simultaneously creates space underneath your hips and compromises your ability to retract quickly. This space is exactly what the bottom player threads through during the inversion. The more forward you commit, the larger the window for their entry and the slower your defensive reaction because your hips must travel further to retract.",
+        "answer_line": "Creates space, slows your retraction",
+        "distractors": {
+          "plausible": [
+            "Adds pressure, no real risk",
+            "Only risky if they grip strip"
+          ],
+          "trap": [
+            "Commit further to smother them"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially established the inside leg hook but has not yet completed the full carni entanglement - what is your best response?",
-        "answer": "Step your free leg over their body to block the completion of the entanglement while simultaneously driving your trapped leg's knee toward the mat to prevent them from locking the figure-four. If the step-over is successful, immediately transition to back control by following their partially inverted body. Do not try to simply pull your leg free against the partial hook as this often feeds deeper into the entanglement."
+        "answer": "Step your free leg over their body to block the completion of the entanglement while simultaneously driving your trapped leg's knee toward the mat to prevent them from locking the figure-four. If the step-over is successful, immediately transition to back control by following their partially inverted body. Do not try to simply pull your leg free against the partial hook as this often feeds deeper into the entanglement.",
+        "answer_line": "Step over, drive knee to the mat",
+        "distractors": {
+          "plausible": [
+            "Yank your leg straight out",
+            "Push their head down and wait"
+          ],
+          "trap": [
+            "Pull leg free against the hook"
+          ]
+        }
       },
       {
         "question": "When is it better to disengage entirely from crackhead control rather than defend the transition in place?",
-        "answer": "Disengage when the transition is partially established and your defensive options are limited, meaning they have inside positioning but you have not yet been fully captured. Losing crackhead control top to return to standing is far preferable to being caught in a completed carni where you face heel hook, saddle, and back take threats. Accept the positional loss and re-engage from standing on your terms."
+        "answer": "Disengage when the transition is partially established and your defensive options are limited, meaning they have inside positioning but you have not yet been fully captured. Losing crackhead control top to return to standing is far preferable to being caught in a completed carni where you face heel hook, saddle, and back take threats. Accept the positional loss and re-engage from standing on your terms.",
+        "answer_line": "Disengage before fully captured",
+        "distractors": {
+          "plausible": [
+            "Always fight for top position",
+            "Wait until carni is complete"
+          ],
+          "trap": [
+            "Stay engaged, fight the entanglement"
+          ]
+        }
       },
       {
         "question": "How should you manage your near leg positioning to prevent the carni entry throughout the crackhead control exchange?",
-        "answer": "Keep your near leg retracted and compact rather than posted wide or forward. A wide-posted leg is easier for the bottom player to capture during their inversion. When you sense increased hip activity from the bottom player, pull your near leg even closer to your body or shift it behind their hip line entirely. The less accessible your near leg is, the harder the carni entry becomes regardless of their timing."
+        "answer": "Keep your near leg retracted and compact rather than posted wide or forward. A wide-posted leg is easier for the bottom player to capture during their inversion. When you sense increased hip activity from the bottom player, pull your near leg even closer to your body or shift it behind their hip line entirely. The less accessible your near leg is, the harder the carni entry becomes regardless of their timing.",
+        "answer_line": "Keep near leg retracted, compact",
+        "distractors": {
+          "plausible": [
+            "Post near leg wide for base",
+            "Extend leg forward to block hips"
+          ],
+          "trap": [
+            "Leave leg posted for stability"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -396,6 +587,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full positional sparring from crackhead control. Both players pursue their objectives freely. Top player practices maintaining control while defending transition attempts. Track how often the bottom player successfully enters carni to calibrate your defensive sensitivity and weight management."
+      }
+    ],
+    "clips": [
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: the roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
       }
     ]
   },

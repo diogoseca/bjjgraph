@@ -34,6 +34,54 @@ description: "Master the Kimura shoulder lock from overhook control. Complete gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Overhook Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overhook Guard to Reverse Triangle + Kimura",
+      "description": "Kimura from Overhook Control film study: Overhook Guard to Reverse Triangle + Kimura, taught by ZeGrapplez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ljmJ9xP6N7U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ljmJ9xP6N7U",
+      "url": "https://www.youtube.com/watch?v=ljmJ9xP6N7U",
+      "creator": { "@type": "Person", "name": "ZeGrapplez" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi attacks using kimura grip control",
+      "description": "Kimura from Overhook Control film study: No-gi attacks using kimura grip control, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K0KgzQpfIpY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K0KgzQpfIpY",
+      "url": "https://www.youtube.com/watch?v=K0KgzQpfIpY",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT187S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Attacking options from overhook control",
+      "description": "Kimura from Overhook Control film study: Attacking options from overhook control, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wog63kLcl6I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wog63kLcl6I",
+      "url": "https://www.youtube.com/watch?v=wog63kLcl6I",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT233S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Finishing the Kimura from overhook control often requires different body mechani
 **Starting Position**: [[Positions/Overhook Control]] · **From**: [[Positions/Overhook Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Overhook Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ljmJ9xP6N7U)
+
+<p class="clip-credit"><strong>Overhook Guard to Reverse Triangle + Kimura</strong> — taught by ZeGrapplez · 0:45 · <a href="https://www.youtube.com/watch?v=ljmJ9xP6N7U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K0KgzQpfIpY)
+
+<p class="clip-credit"><strong>No-gi attacks using kimura grip control</strong> — taught by Jean Jacques Machado · 3:07 · <a href="https://www.youtube.com/watch?v=K0KgzQpfIpY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wog63kLcl6I)
+
+<p class="clip-credit"><strong>Attacking options from overhook control</strong> — taught by Jean Jacques Machado · 3:53 · <a href="https://www.youtube.com/watch?v=wog63kLcl6I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -244,9 +328,9 @@ Finishing the Kimura from overhook control often requires different body mechani
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Reverse Kimura]]
 - [[Positions/Overhook Control]] - Starting position for this submission variant
 - [[Positions/Kimura Trap]] - Control position accessed when Kimura grip is partially locked

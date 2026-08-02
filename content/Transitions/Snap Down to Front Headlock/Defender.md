@@ -148,6 +148,54 @@ description: "How to defend against Snap Down to Front Headlock in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Snap Down to Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock sit-out reversal",
+      "description": "Snap Down to Front Headlock (Defender) film study: Front headlock sit-out reversal, taught by Keith (Takada Dojo).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t4xBYQ1VauU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t4xBYQ1VauU",
+      "url": "https://www.youtube.com/watch?v=t4xBYQ1VauU",
+      "creator": { "@type": "Person", "name": "Keith (Takada Dojo)" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sit-out defence with head on back",
+      "description": "Snap Down to Front Headlock (Defender) film study: Sit-out defence with head on back, taught by Mjolnir Fight Club coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d312j3n9fIw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d312j3n9fIw",
+      "url": "https://www.youtube.com/watch?v=d312j3n9fIw",
+      "creator": { "@type": "Person", "name": "Mjolnir Fight Club coach" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front turtle escape",
+      "description": "Snap Down to Front Headlock (Defender) film study: Front turtle escape, taught by Michael Daye.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XPWHqs67tt8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XPWHqs67tt8",
+      "url": "https://www.youtube.com/watch?v=XPWHqs67tt8",
+      "creator": { "@type": "Person", "name": "Michael Daye" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The key defensive principle is that the snap down becomes exponentially harder t
 **Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Snap Down to Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t4xBYQ1VauU)
+
+<p class="clip-credit"><strong>Front headlock sit-out reversal</strong> — taught by Keith (Takada Dojo) · 0:28 · <a href="https://www.youtube.com/watch?v=t4xBYQ1VauU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d312j3n9fIw)
+
+<p class="clip-credit"><strong>Sit-out defence with head on back</strong> — taught by Mjolnir Fight Club coach · 0:30 · <a href="https://www.youtube.com/watch?v=d312j3n9fIw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XPWHqs67tt8)
+
+<p class="clip-credit"><strong>Front turtle escape</strong> — taught by Michael Daye · 1:00 · <a href="https://www.youtube.com/watch?v=XPWHqs67tt8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

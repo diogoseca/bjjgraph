@@ -148,6 +148,54 @@ description: "Complete guide to defending the Triangle from Spider Guard in BJJ.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Spider Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spider Guard Defense Concepts",
+      "description": "Triangle from Spider Guard (Defender) film study: Spider Guard Defense Concepts, taught by Ricardo Liborio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YGFC75H8m8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YGFC75H8m8s",
+      "url": "https://www.youtube.com/watch?v=YGFC75H8m8s",
+      "creator": { "@type": "Person", "name": "Ricardo Liborio" },
+      "duration": "PT250S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the lasso and spider guard",
+      "description": "Triangle from Spider Guard (Defender) film study: Passing the lasso and spider guard, taught by Tainan Dalpra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7GonpUVWF3g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7GonpUVWF3g",
+      "url": "https://www.youtube.com/watch?v=7GonpUVWF3g",
+      "creator": { "@type": "Person", "name": "Tainan Dalpra" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dealing with spider guard",
+      "description": "Triangle from Spider Guard (Defender) film study: Dealing with spider guard, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qVnPgUvfXl0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qVnPgUvfXl0",
+      "url": "https://www.youtube.com/watch?v=qVnPgUvfXl0",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT302S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Triangle from Spider Guard requires recognizing the setup before t
 **Opponent's Starting Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Spider Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YGFC75H8m8s)
+
+<p class="clip-credit"><strong>Spider Guard Defense Concepts</strong> — taught by Ricardo Liborio · 4:10 · <a href="https://www.youtube.com/watch?v=YGFC75H8m8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7GonpUVWF3g)
+
+<p class="clip-credit"><strong>Passing the lasso and spider guard</strong> — taught by Tainan Dalpra · 1:00 · <a href="https://www.youtube.com/watch?v=7GonpUVWF3g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qVnPgUvfXl0)
+
+<p class="clip-credit"><strong>Dealing with spider guard</strong> — taught by Henry Akins · 5:02 · <a href="https://www.youtube.com/watch?v=qVnPgUvfXl0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

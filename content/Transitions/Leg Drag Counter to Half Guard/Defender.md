@@ -142,6 +142,43 @@ description: "How to defend against Leg Drag Counter to Half Guard in BJJ. Recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag Counter to Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg drag answer to the bolo counter",
+      "description": "Leg Drag Counter to Half Guard (Defender) film study: Leg drag answer to the bolo counter, taught by Grapplers Planet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LmPBnck5SS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LmPBnck5SS4",
+      "url": "https://www.youtube.com/watch?v=LmPBnck5SS4",
+      "creator": { "@type": "Person", "name": "Grapplers Planet" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Weave pass: keep the trapped leg to stop half guard recovery",
+      "description": "Leg Drag Counter to Half Guard (Defender) film study: Weave pass: keep the trapped leg to stop half guard recovery, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RRgLRw-fRM0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RRgLRw-fRM0",
+      "url": "https://www.youtube.com/watch?v=RRgLRw-fRM0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +190,34 @@ The critical defensive principle is that leg drag control is inherently transiti
 **Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag Counter to Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LmPBnck5SS4)
+
+<p class="clip-credit"><strong>Leg drag answer to the bolo counter</strong> — taught by Grapplers Planet · 0:51 · <a href="https://www.youtube.com/watch?v=LmPBnck5SS4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RRgLRw-fRM0)
+
+<p class="clip-credit"><strong>Weave pass: keep the trapped leg to stop half guard recovery</strong> — taught by Lachlan Giles · 1:05 · <a href="https://www.youtube.com/watch?v=RRgLRw-fRM0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

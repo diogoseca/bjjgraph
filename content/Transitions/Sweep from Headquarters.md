@@ -34,6 +34,43 @@ description: "Master the Sweep from Headquarters in BJJ. Complete guide to rever
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Headquarters \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Star sweep",
+      "description": "Sweep from Headquarters film study: Star sweep, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kSc35SuV7W0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kSc35SuV7W0",
+      "url": "https://www.youtube.com/watch?v=kSc35SuV7W0",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT13S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva tip from headquarters passing",
+      "description": "Sweep from Headquarters film study: De La Riva tip from headquarters passing, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eO0iX_6Whaw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eO0iX_6Whaw",
+      "url": "https://www.youtube.com/watch?v=eO0iX_6Whaw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The primary sweep mechanics leverage the asymmetric weight distribution of headq
 This technique functions as both a direct positional reversal and a strategic deterrent within the guard passing exchange. When the top player recognizes the sweep threat, they must widen their base or reduce trapped-leg pressure, both of which create opportunities for guard recovery or reguarding. Even failed sweep attempts that disrupt the passer's rhythm serve a strategic purpose by preventing the systematic decision-making that makes headquarters passing so effective, forcing the top player to address the sweep threat before continuing their pass.
 
 **From Position**: [[Positions/Headquarters Position]] (Bottom)
-**Success Rate**: 40%
+**Success Rate**: 24%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Headquarters in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kSc35SuV7W0)
+
+<p class="clip-credit"><strong>Star sweep</strong> — taught by bjjtaro · 0:13 · <a href="https://www.youtube.com/watch?v=kSc35SuV7W0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eO0iX_6Whaw)
+
+<p class="clip-credit"><strong>De La Riva tip from headquarters passing</strong> — taught by Lachlan Giles · 1:11 · <a href="https://www.youtube.com/watch?v=eO0iX_6Whaw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

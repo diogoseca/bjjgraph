@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Reverse Scarf Hold",
   "from_position": "Reverse Scarf Hold/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Kimura from Reverse Scarf Hold exploits the unique body orientation of ushiro kesa gatame to create a powerful shoulder lock with favorable grip mechanics. Unlike kimura attacks from standard side control, the reverse orientation positions your hands naturally aligned with the figure-four grip path, reducing the number of grip transitions needed to secure the submission. The heavy chest pressure inherent to reverse scarf hold pins the opponent flat, preventing the hip escape and frame creation that typically disrupt kimura attempts from other positions.\n\nThe mechanical advantage stems from combining crushing top pressure with arm isolation. The opponent's near arm is already compromised by the positional control, and the attacker can maintain full body weight on the pin while both hands work to establish and finish the kimura. Common defenses like grabbing the belt, straightening the arm toward the head, or rolling away are less effective because the reverse pressure angle changes the escape geometry compared to conventional attacks.\n\nThis submission integrates into a broader attack system from reverse scarf hold that includes the americana, arm triangle, and positional transitions to mount or north-south. The kimura threat forces defensive arm reactions that expose pathways to these alternative attacks, making the reverse scarf hold significantly more dangerous when the opponent cannot neutralize the shoulder lock threat.",
   "safety_considerations": {
     "injury_risks": [
@@ -123,17 +126,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -289,52 +301,172 @@
       {
         "question": "What anatomical structures does the Kimura from Reverse Scarf Hold primarily attack?",
         "answer": "The kimura primarily attacks the shoulder joint through forced internal rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the glenoid labrum. Secondary stress is placed on the bicep tendon and the ligaments supporting the glenohumeral joint. The forced internal rotation beyond normal range of motion is what creates the submission pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder joint and rotator cuff",
+        "distractors": {
+          "plausible": [
+            "Elbow hyperextension",
+            "Wrist and forearm tendons"
+          ],
+          "trap": [
+            "Crank fast with no tap window"
+          ]
+        }
       },
       {
         "question": "Why does the reverse scarf hold orientation provide a mechanical advantage for the kimura compared to standard side control?",
         "answer": "The reverse orientation positions your hands naturally aligned with the figure-four grip path, reducing grip transitions. Your body weight drives directly into the opponent's chest, pinning them flat and eliminating the hip escape movement that normally disrupts kimura attempts. The reverse angle also changes escape geometry, making common defenses like rolling away or straightening the arm toward the head less effective than from standard side control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Flattens them, kills hip escape",
+        "distractors": {
+          "plausible": [
+            "Opens a route to pass the legs",
+            "Sets up a straight armbar angle"
+          ],
+          "trap": [
+            "Lift your chest to crank harder"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own belt to prevent you from separating the arm - what is the correct response?",
         "answer": "Drive your chest weight forward to flatten them completely while using short, rhythmic pulls on the figure-four to fatigue their grip rather than one sustained effort. Each pull should be a quick burst followed by maintained tension. If the grip persists after several attempts, redirect by switching to an americana by driving the wrist toward the mat on the opposite side, which attacks a different rotation angle that their belt grip cannot defend.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Short pulses, or switch americana",
+        "distractors": {
+          "plausible": [
+            "One hard sustained pull",
+            "Wait for grip to fatigue"
+          ],
+          "trap": [
+            "Yank arm straight up hard"
+          ]
+        }
       },
       {
         "question": "What are the critical safety protocols when applying the kimura in training?",
         "answer": "Apply rotational pressure slowly over 3-5 seconds minimum, never jerking or spiking the submission. Ensure your partner has at least one hand free to tap at all times. Listen and watch for any tap signal including verbal, hand tap, or foot tap. Release immediately upon any tap by stopping rotation first, returning the arm to neutral position, then releasing the figure-four grip. Never test a partner's pain tolerance or hold through a tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotate slowly, release on any tap",
+        "distractors": {
+          "plausible": [
+            "Hold two seconds after the tap",
+            "Only stop for a hand tap"
+          ],
+          "trap": [
+            "Jerk the arm to force the tap"
+          ]
+        }
       },
       {
         "question": "How should you release the kimura after your training partner taps?",
         "answer": "Immediately stop all rotational pressure the instant the tap is detected. Slowly return the arm toward its neutral position by externally rotating it back to the starting position, never releasing it suddenly or allowing it to spring back. Release the figure-four grip completely once the arm is in a neutral position. Allow your partner to self-assess their shoulder mobility before continuing training. The release should be controlled and gradual to prevent injury from sudden position changes.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop turning, release it slowly",
+        "distractors": {
+          "plausible": [
+            "Drop the grip all at once",
+            "Wait for a verbal tap too"
+          ],
+          "trap": [
+            "Crank a bit more to be sure"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for transitioning from positional control grips to the kimura figure-four?",
         "answer": "First, secure the opponent's near-side wrist with your near hand and pin it firmly against their body. Only after the wrist is controlled should you release your far-side positional anchor. Thread your far arm underneath the opponent's upper arm from the outside, passing between their elbow and body. Your far hand then grabs your own near-side wrist to complete the figure-four. Chest pressure must remain committed throughout this entire transition to prevent the opponent from creating defensive space.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trap the near wrist before releasing",
+        "distractors": {
+          "plausible": [
+            "Thread far arm, then pin the wrist",
+            "Grab your own wrist first"
+          ],
+          "trap": [
+            "Release anchor before gripping wrist"
+          ]
+        }
       },
       {
         "question": "Why must you peel the elbow away from the body before applying rotational pressure?",
         "answer": "If the opponent's elbow remains pinned against their ribcage, the rotation is blocked by the structural support of their torso. The elbow acts as a fulcrum point for the submission, and it must be elevated away from the body to create the lever arm necessary for effective rotation. Without this separation, you can apply force indefinitely without generating sufficient shoulder rotation for a tap, wasting energy and giving the opponent time to develop escape sequences.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow must clear torso to rotate",
+        "distractors": {
+          "plausible": [
+            "The wrist is the real fulcrum",
+            "It drains their shoulder strength"
+          ],
+          "trap": [
+            "Crank blind and get bridged over"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges explosively while you have the figure-four locked - what adjustment prevents losing position?",
         "answer": "Immediately widen your base by extending your far leg laterally and posting your near leg firmly toward the opponent's head side. Drop your hip weight lower onto their chest to absorb the bridge energy. If the bridge is powerful enough to compromise your base, ride the upward momentum and transition to mount while maintaining the kimura grip. The figure-four grip serves as a control handle during the transition, so never release it in response to a bridge. Their explosive bridge actually assists your mount transition if you maintain grip integrity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Widen base, ride up to mount",
+        "distractors": {
+          "plausible": [
+            "Roll toward their legs",
+            "Crank the grip mid-bridge"
+          ],
+          "trap": [
+            "Turn away, give up your back"
+          ]
+        }
       },
       {
         "question": "What submission chain options are available when the opponent successfully defends the kimura from reverse scarf hold?",
         "answer": "If the opponent grabs their belt or wrist to prevent arm separation, redirect to an americana by driving the wrist toward the mat on the opposite side. If they straighten the arm completely, transition to a far-side armbar by maintaining wrist control and stepping over their head. If they create significant space through hip escape, abandon the submission and consolidate side control or advance to north-south. The kimura attempt should always create reactions that open at least one alternative attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Americana, armbar, or hold side",
+        "distractors": {
+          "plausible": [
+            "Switch to a collar choke",
+            "Hold the grip and wait it out"
+          ],
+          "trap": [
+            "Spin for a leg lock, lose the pin"
+          ]
+        }
       },
       {
         "question": "What role does chest pressure play throughout the kimura attack from reverse scarf hold?",
         "answer": "Chest pressure serves three critical functions throughout the attack. First, it pins the opponent flat, preventing the hip escape that would create space for guard recovery. Second, it restricts their breathing, reducing their ability to generate explosive defensive movements. Third, it anchors your body position so your arms can work the grip transitions and finishing mechanics independently without compromising positional stability. Losing chest pressure at any stage of the attack compromises the entire submission sequence.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Flattens them and steals breath",
+        "distractors": {
+          "plausible": [
+            "Only stops guard recovery",
+            "Mainly speeds the grip switch"
+          ],
+          "trap": [
+            "Sit up to free both hands"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "L_u5g2wDpIQ",
+        "title": "Kimura from Reverse Scarf",
+        "by": "Torres Martial Arts",
+        "vertical": false,
+        "channel": "Torres Martial Arts Academy",
+        "duration": 74,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xLCWZaGPW0g",
+        "title": "Kimura trap from reverse kesa gatame",
+        "by": "Smith BJJ",
+        "vertical": false,
+        "channel": "Smith ♞ | Brazilian Jiu-jitsu",
+        "duration": 140,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -427,27 +559,77 @@
       {
         "question": "How do you recognize the Kimura from Reverse Scarf Hold is being set up?",
         "answer": "The primary recognition cue is the attacker shifting their near hand from positional control to your wrist, indicating they are transitioning from maintaining the pin to setting up the submission. You will also feel their far arm begin to thread underneath your upper arm between your elbow and ribcage. Their weight may shift slightly as they release their far-side anchor to commit both hands to the grip sequence. Early recognition at the wrist control stage provides the best defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Their near hand grabs your wrist",
+        "distractors": {
+          "plausible": [
+            "They switch to a knee-on-belly",
+            "They grip your far collar"
+          ],
+          "trap": [
+            "Ignore it and keep the arm loose"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Kimura from Reverse Scarf Hold?",
         "answer": "Tap early and clearly using multiple signals simultaneously. Verbally say 'tap' while physically tapping with your free hand on any part of the attacker's body or the mat. If your free hand is trapped, use foot taps on the mat or verbal signals. Do not wait for pain to become severe before tapping, as shoulder damage can occur rapidly once the rotation reaches the end range of motion. The rotator cuff and labrum can be damaged before significant pain is felt, making early tapping essential for long-term shoulder health.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early with several signals",
+        "distractors": {
+          "plausible": [
+            "Signal by shaking your head",
+            "Wait for the coach to stop it"
+          ],
+          "trap": [
+            "Ride out the pain and muscle free"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the Kimura from Reverse Scarf Hold?",
         "answer": "The primary defense is gripping your own belt, shorts, or far-side wrist to prevent arm separation before the figure-four is fully established. Secondary options include bridging explosively during the attacker's grip transition window when their base is temporarily compromised, hip escaping to create distance for guard recovery, and straightening the arm fully to prevent rotational leverage. The key is defending early during the grip acquisition phase rather than after the figure-four is locked and the elbow is peeled away.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip belt, bridge early",
+        "distractors": {
+          "plausible": [
+            "Wait, then power arm free",
+            "Defend after figure-four locks"
+          ],
+          "trap": [
+            "Relax arm to reduce pain"
+          ]
+        }
       },
       {
         "question": "Why is the grip transition window the best moment to defend the kimura from reverse scarf hold?",
         "answer": "When the attacker releases their far-side positional anchor to thread the figure-four, they temporarily compromise both their base stability and their pin pressure. This creates a brief window where bridging and hip escape are most effective because the attacker cannot simultaneously maintain full positional control and establish the submission grip. Once the figure-four is locked, the attacker's control actually increases because the grip itself becomes a control handle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Their base breaks mid-transition",
+        "distractors": {
+          "plausible": [
+            "When their chest weight is heaviest",
+            "Right after the figure-four locks"
+          ],
+          "trap": [
+            "Wait until your elbow is peeled"
+          ]
+        }
       },
       {
         "question": "What should you avoid doing when the figure-four is already locked on your arm?",
         "answer": "Avoid panicking and thrashing with uncontrolled movements, as this can accelerate the shoulder rotation beyond safe limits and cause injury to yourself. Avoid extending the arm away from your body, as this helps the attacker peel the elbow and apply rotation. Avoid trying to push the attacker off with your free arm, as this wastes energy without addressing the grip. Instead, grip your own body to prevent arm separation, stay calm, and look for systematic grip-fighting opportunities or bridging windows.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Thrashing and straightening the arm",
+        "distractors": {
+          "plausible": [
+            "Gripping your own thigh or belt",
+            "Turning in toward the attacker"
+          ],
+          "trap": [
+            "Tapping before the shoulder turns"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -470,6 +652,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense with all options available",
         "description": "Start in reverse scarf hold bottom against fully resisting partners who attack the kimura. Practice combining recognition, grip defense, bridging, and hip escape into fluid defensive sequences. Assess success rate and identify which defensive responses need additional drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse Kesa Gatame escape from bottom",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame pressure defense with framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
       }
     ]
   }

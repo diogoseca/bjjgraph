@@ -36,6 +36,65 @@ description: "Master the Guillotine Choke in BJJ with step-by-step execution, sa
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guillotine from Butterfly Guard",
+      "description": "Guillotine Choke film study: Guillotine from Butterfly Guard, taught by Jake Shields.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SAWvSovVk4A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SAWvSovVk4A",
+      "url": "https://www.youtube.com/watch?v=SAWvSovVk4A",
+      "creator": { "@type": "Person", "name": "Jake Shields" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine Choke from Butterfly Guard",
+      "description": "Guillotine Choke film study: Guillotine Choke from Butterfly Guard, taught by Modesto Judo Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z75kDSCIeN4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z75kDSCIeN4",
+      "url": "https://www.youtube.com/watch?v=Z75kDSCIeN4",
+      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guillotine choke from the clinch",
+      "description": "Guillotine Choke film study: Guillotine choke from the clinch, taught by Michael James.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2Ioe4B7HF38/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2Ioe4B7HF38",
+      "url": "https://www.youtube.com/watch?v=2Ioe4B7HF38",
+      "creator": { "@type": "Person", "name": "Michael James" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Attacking the standing guillotine",
+      "description": "Guillotine Choke film study: Attacking the standing guillotine, taught by Fargo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-x0MJel3Ru0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-x0MJel3Ru0",
+      "url": "https://www.youtube.com/watch?v=-x0MJel3Ru0",
+      "creator": { "@type": "Person", "name": "Fargo BJJ" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -87,6 +146,50 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SAWvSovVk4A)
+
+<p class="clip-credit"><strong>Guillotine from Butterfly Guard</strong> — taught by Jake Shields · 1:04 · <a href="https://www.youtube.com/watch?v=SAWvSovVk4A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z75kDSCIeN4)
+
+<p class="clip-credit"><strong>Guillotine Choke from Butterfly Guard</strong> — taught by Modesto Judo Club · 1:16 · <a href="https://www.youtube.com/watch?v=Z75kDSCIeN4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2Ioe4B7HF38)
+
+<p class="clip-credit"><strong>Guillotine choke from the clinch</strong> — taught by Michael James · 0:43 · <a href="https://www.youtube.com/watch?v=2Ioe4B7HF38" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-x0MJel3Ru0)
+
+<p class="clip-credit"><strong>Attacking the standing guillotine</strong> — taught by Fargo BJJ · 0:55 · <a href="https://www.youtube.com/watch?v=-x0MJel3Ru0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -114,7 +217,7 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 - **Standing Guillotine**: Executed while both practitioners are standing, often catching opponent during takedown attempts. Maximum leverage available from vertical position (When to use: When opponent shoots for takedown with poor head position or during standing clinch exchanges. Can finish before going to ground)
 - **Mounted Guillotine**: Finish the choke after coming up to mounted position while maintaining the grip. Opponent is trapped on bottom unable to create space (When to use: When opponent attempts to pass guard while you have guillotine established. Jump to mount while maintaining choke for high-percentage finish)
 - **Ten Finger Guillotine**: Gable grip (palm-to-palm with fingers interlaced) around opponent's neck, maximizing squeezing pressure through forearm compression. Excellent variation for practitioners with shorter arms or when maximum squeeze is needed (When to use: When in no-gi situation and need maximum grip strength. Also useful when opponent is very slippery with sweat or your arms are too short for traditional grip)
-- **Chin Strap Guillotine**: Advanced variation where choking arm goes under opponent's chin rather than around neck, forcing head back while choking (When to use: When opponent successfully defends standard guillotine by tucking chin extremely tight. Creates different mechanical pressure)
+- **Chin Strap Guillotine from Front Headlock**: Advanced variation where choking arm goes under opponent's chin rather than around neck, forcing head back while choking (When to use: When opponent successfully defends standard guillotine by tucking chin extremely tight. Creates different mechanical pressure)
 - **Marce Choke**: Variation where the choking arm threads under opponent's neck from front headlock, with the grip established on your own bicep or lat muscle, creating a modified guillotine finish highly effective from front headlock positions and turtle attacks (When to use: From front headlock when opponent is in turtle or defensive posture; excellent when transitioning from failed takedown attempts to submission)
 
 
@@ -129,11 +232,10 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 ## Related
 - [[Submissions/High Elbow Guillotine]] - Primary high-percentage variation using elevated elbow for pure blood choke mechanics
 - [[Submissions/Arm in Guillotine]] - Arm-trapped variation effective against chin-tuck defense and from bottom half guard
-- [[Submissions/Chin Strap Guillotine]] - Advanced variation targeting under-chin pressure when standard grip is defended
-- [[Transitions/Darce Choke]] - Related head-and-arm choke that chains from failed guillotine attempts when opponent circles
+- [[Submissions/Darce Choke]] - Related head-and-arm choke that chains from failed guillotine attempts when opponent circles
 - [[Transitions/Anaconda Choke]] - Complementary front headlock choke using arm-in configuration with rolling finish
 - [[Positions/Hindulotine]] - Modified guillotine grip variation with different mechanical finishing pressure
-- [[Transitions/Arm Triangle]] - Alternative head-and-arm choke available when guillotine grip is stripped but head control remains
+- [[Submissions/Arm Triangle]] - Alternative head-and-arm choke available when guillotine grip is stripped but head control remains
 - [[Submissions/Brabo Choke]] - Gi-based front choke variation accessible from similar head control positions
 - [[Submissions/Ezekiel Choke]] - Alternative front choke from guard or mount positions when guillotine grip is unavailable
 - [[Transitions/Gogoplata]] - Guard-based choke alternative using shin across throat from similar bottom positions

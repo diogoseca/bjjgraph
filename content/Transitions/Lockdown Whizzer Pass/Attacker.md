@@ -174,6 +174,10 @@ description: "Complete guide to executing the Lockdown Whizzer Pass from top pos
 </script>
 
 
+
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +187,8 @@ As the attacker executing the Lockdown Whizzer Pass, your objective is to neutra
 **From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
+
+
 
 <section id="key-principles" class="content-section">
 

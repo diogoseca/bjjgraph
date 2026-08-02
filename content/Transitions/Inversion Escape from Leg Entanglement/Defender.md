@@ -148,6 +148,43 @@ description: "Prevent the inversion escape from your leg entanglement by recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inversion Escape from Leg Entanglement (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Lock Escape - Roll Through",
+      "description": "Inversion Escape from Leg Entanglement (Defender) film study: Leg Lock Escape - Roll Through, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg entanglement escapes fundamentals",
+      "description": "Inversion Escape from Leg Entanglement (Defender) film study: Leg entanglement escapes fundamentals, taught by Jeremy Skinner.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c-LUX8aDBUE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c-LUX8aDBUE",
+      "url": "https://www.youtube.com/watch?v=c-LUX8aDBUE",
+      "creator": { "@type": "Person", "name": "Jeremy Skinner" },
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the person maintaining the leg entanglement, your objective is to prevent the
 **Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inversion Escape from Leg Entanglement (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg Lock Escape - Roll Through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c-LUX8aDBUE)
+
+<p class="clip-credit"><strong>Leg entanglement escapes fundamentals</strong> — taught by Jeremy Skinner · 0:35 · <a href="https://www.youtube.com/watch?v=c-LUX8aDBUE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

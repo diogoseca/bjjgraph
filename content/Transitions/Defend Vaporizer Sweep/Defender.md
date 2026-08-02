@@ -132,6 +132,54 @@ description: "Learn to complete Vaporizer sweeps against defensive opponents. Ad
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Defend Vaporizer Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown to the vaporizer sweep",
+      "description": "Defend Vaporizer Sweep (Defender) film study: Lockdown to the vaporizer sweep, taught by Axel Collazo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8ZgEL2zU_jg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8ZgEL2zU_jg",
+      "url": "https://www.youtube.com/watch?v=8ZgEL2zU_jg",
+      "creator": { "@type": "Person", "name": "Axel Collazo" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The vaporizer sweep breakdown",
+      "description": "Defend Vaporizer Sweep (Defender) film study: The vaporizer sweep breakdown, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ITZ4ZPcsY2c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ITZ4ZPcsY2c",
+      "url": "https://www.youtube.com/watch?v=ITZ4ZPcsY2c",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Stoner control to the vaporizer",
+      "description": "Defend Vaporizer Sweep (Defender) film study: Stoner control to the vaporizer, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CqL4DH4xU3A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CqL4DH4xU3A",
+      "url": "https://www.youtube.com/watch?v=CqL4DH4xU3A",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +189,42 @@ The Defend Vaporizer Sweep defender is the bottom player whose sweep attempts fr
 **Opponent's Starting Position**: [[Positions/Vaporizer]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Defend Vaporizer Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8ZgEL2zU_jg)
+
+<p class="clip-credit"><strong>Lockdown to the vaporizer sweep</strong> — taught by Axel Collazo · 1:38 · <a href="https://www.youtube.com/watch?v=8ZgEL2zU_jg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ITZ4ZPcsY2c)
+
+<p class="clip-credit"><strong>The vaporizer sweep breakdown</strong> — taught by Coach Brian · 2:20 · <a href="https://www.youtube.com/watch?v=ITZ4ZPcsY2c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CqL4DH4xU3A)
+
+<p class="clip-credit"><strong>Stoner control to the vaporizer</strong> — taught by Coach Brian · 2:38 · <a href="https://www.youtube.com/watch?v=CqL4DH4xU3A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

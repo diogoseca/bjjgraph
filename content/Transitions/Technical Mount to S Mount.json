@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "S Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Technical Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Technical Mount to S Mount transition is a critical positional advancement within the mount offense system that converts the stepped-leg asymmetry of Technical Mount into the fully perpendicular body angle defining S Mount. This transition centers on rotating the hips from a diagonal orientation to a perpendicular alignment relative to the opponent's torso, while maintaining continuous two-on-one arm control throughout the movement. The perpendicular angle creates dramatically superior mechanical leverage for armbar attacks by aligning the practitioner's entire body along the axis of the opponent's isolated arm.\n\nExecuting this transition demands precise weight management during the rotation. The top player shifts their center of gravity from the Technical Mount base—where weight distributes between the posted leg and hooked inside leg—to the S Mount structure, where both legs form an S-shaped configuration across the opponent's head and torso. The rotation occurs around the controlled arm as an axis, with the hips driving toward the opponent's shoulder to eliminate defensive space. Timing is paramount: premature rotation before adequate arm control allows the opponent to retract their arm, while delayed commitment permits the opponent to build defensive frames or initiate hip escape sequences that can lead to guard recovery.\n\nThis transition functions as the bridge between mount control and submission finishing. Technical Mount initiates arm isolation, but S Mount provides the body angle necessary for high-percentage armbar completion. The transition is most effective when the opponent's defensive reactions to Technical Mount—such as pushing against the posted leg or turning away—create natural windows for the perpendicular rotation. Recognizing when to commit to this advancement versus maintaining Technical Mount pressure separates competent mount attackers from elite submission finishers.",
   "conditions": [
     "Established Technical Mount with stable posted leg base and inside leg hooked under opponent",
@@ -246,46 +258,175 @@
     "flashcards": [
       {
         "question": "What is the most critical grip to maintain throughout the entire Technical Mount to S Mount rotation?",
-        "answer": "The wrist grip on the isolated arm is the non-negotiable priority throughout the entire rotation. Without wrist control, the opponent will immediately retract their arm during any weight shift, eliminating the purpose of the transition entirely. The wrist grip should be maintained from initial Technical Mount arm isolation through S Mount establishment and into the armbar finish. If you must sacrifice one point of control during the rotation, sacrifice balance or secondary grips—never the wrist."
+        "answer": "The wrist grip on the isolated arm is the non-negotiable priority throughout the entire rotation. Without wrist control, the opponent will immediately retract their arm during any weight shift, eliminating the purpose of the transition entirely. The wrist grip should be maintained from initial Technical Mount arm isolation through S Mount establishment and into the armbar finish. If you must sacrifice one point of control during the rotation, sacrifice balance or secondary grips—never the wrist.",
+        "answer_line": "Wrist grip on isolated arm",
+        "distractors": {
+          "plausible": [
+            "Chest pressure connection",
+            "Hip seal against shoulder"
+          ],
+          "trap": [
+            "Prioritize balance over grip"
+          ]
+        }
       },
       {
         "question": "Your opponent begins hip escaping away from you as you initiate the rotation—how do you adjust?",
-        "answer": "Follow their hip movement by scooting your own hips in the same direction, maintaining the hip-to-shoulder seal that prevents arm retraction. Do not let space develop between your hips and their shoulder. If the hip escape is minor, continue the rotation while following their movement. If significant space opens, make a binary decision: either complete the rotation explosively before they recover position, or abandon the transition and return to Technical Mount to close the distance before attempting again."
+        "answer": "Follow their hip movement by scooting your own hips in the same direction, maintaining the hip-to-shoulder seal that prevents arm retraction. Do not let space develop between your hips and their shoulder. If the hip escape is minor, continue the rotation while following their movement. If significant space opens, make a binary decision: either complete the rotation explosively before they recover position, or abandon the transition and return to Technical Mount to close the distance before attempting again.",
+        "answer_line": "Follow hips, keep shoulder seal",
+        "distractors": {
+          "plausible": [
+            "Speed up the leg rotation",
+            "Abandon and reset immediately"
+          ],
+          "trap": [
+            "Let space open, then react"
+          ]
+        }
       },
       {
         "question": "What specific body angle should you achieve at the completion of the transition, and how do you verify it?",
-        "answer": "Your body should be fully perpendicular to the opponent's torso—a 90-degree angle between your spine and theirs. You know you have achieved the correct angle when both legs are in the S-shape configuration with one over the head and foot planted and one across the chest, your belly button faces the wall rather than the ceiling, and your hips are sealed against their shoulder with the isolated arm extended across your centerline. If you can see the opponent's face directly, you have not rotated enough."
+        "answer": "Your body should be fully perpendicular to the opponent's torso—a 90-degree angle between your spine and theirs. You know you have achieved the correct angle when both legs are in the S-shape configuration with one over the head and foot planted and one across the chest, your belly button faces the wall rather than the ceiling, and your hips are sealed against their shoulder with the isolated arm extended across your centerline. If you can see the opponent's face directly, you have not rotated enough.",
+        "answer_line": "Perpendicular, belly to wall",
+        "distractors": {
+          "plausible": [
+            "45-degree angled mount",
+            "Facing opponent's head"
+          ],
+          "trap": [
+            "Can still see their face"
+          ]
+        }
       },
       {
         "question": "When should you abandon the Technical Mount to S Mount transition and return to your starting position?",
-        "answer": "Abandon the transition immediately if you lose wrist control during the rotation, if the opponent successfully bends their arm past 90 degrees during the weight shift, or if a powerful bridge displaces your base before you complete the perpendicular alignment. The key principle is that a secure Technical Mount with arm control is better than an unstable mid-rotation position. Never stay in a half-committed transitional state—either complete the rotation or return to Technical Mount decisively."
+        "answer": "Abandon the transition immediately if you lose wrist control during the rotation, if the opponent successfully bends their arm past 90 degrees during the weight shift, or if a powerful bridge displaces your base before you complete the perpendicular alignment. The key principle is that a secure Technical Mount with arm control is better than an unstable mid-rotation position. Never stay in a half-committed transitional state—either complete the rotation or return to Technical Mount decisively.",
+        "answer_line": "Lose wrist grip or base",
+        "distractors": {
+          "plausible": [
+            "Opponent frames on hip",
+            "Minor hip escape begins"
+          ],
+          "trap": [
+            "Stay half-committed, push on"
+          ]
+        }
       },
       {
         "question": "What role does the inside leg play during the transition, and what happens if you fail to reposition it?",
-        "answer": "The inside leg must transition from its hooked position underneath the opponent to crossing over their torso at chest level, creating the lower barrier of the S Mount S-shape. If you fail to reposition this leg, you end up in a compromised position that resembles S Mount but lacks the structural control the crossing leg provides. Without the torso-crossing leg, the opponent can hip escape freely underneath you, your base becomes one-dimensional, and the armbar finishing mechanics are severely compromised because you lack the lower leg barrier that traps their body."
+        "answer": "The inside leg must transition from its hooked position underneath the opponent to crossing over their torso at chest level, creating the lower barrier of the S Mount S-shape. If you fail to reposition this leg, you end up in a compromised position that resembles S Mount but lacks the structural control the crossing leg provides. Without the torso-crossing leg, the opponent can hip escape freely underneath you, your base becomes one-dimensional, and the armbar finishing mechanics are severely compromised because you lack the lower leg barrier that traps their body.",
+        "answer_line": "Cross over torso at chest",
+        "distractors": {
+          "plausible": [
+            "Stay hooked underneath",
+            "Post out for base"
+          ],
+          "trap": [
+            "Release leg, free-float base"
+          ]
+        }
       },
       {
         "question": "Your opponent frames against your hip with their free arm as you begin rotating—what does this tell you and how do you respond?",
-        "answer": "The hip frame tells you the opponent is prioritizing preventing the rotation over protecting their free arm. This creates an offensive opportunity rather than a genuine barrier. Respond by either swimming your arm under their framing arm to establish gift wrap control, or simply driving through the frame using rotational momentum and body weight. The frame is structurally weak against rotational force because it can only push in one direction. Their free arm commitment to the frame also means they cannot use it for other defensive purposes."
+        "answer": "The hip frame tells you the opponent is prioritizing preventing the rotation over protecting their free arm. This creates an offensive opportunity rather than a genuine barrier. Respond by either swimming your arm under their framing arm to establish gift wrap control, or simply driving through the frame using rotational momentum and body weight. The frame is structurally weak against rotational force because it can only push in one direction. Their free arm commitment to the frame also means they cannot use it for other defensive purposes.",
+        "answer_line": "Weak frame, swim to gift wrap",
+        "distractors": {
+          "plausible": [
+            "Genuine barrier, must stop",
+            "Wait for frame to fatigue"
+          ],
+          "trap": [
+            "Retreat to reset position"
+          ]
+        }
       },
       {
         "question": "How does the weight distribution change from Technical Mount to S Mount, and why does this matter for the transition?",
-        "answer": "In Technical Mount, weight distributes between the posted leg and hooked inside leg, with the upper body providing chest or shoulder pressure. In S Mount, weight shifts to the hip-to-shoulder connection, with both legs serving as structural barriers rather than primary weight-bearing platforms. During the transition, the weight must transfer smoothly between these distributions. This matters because the mid-transition moment where weight is shifting is the opponent's best escape window—if the weight transfer is jerky or creates a momentary lightness, the opponent can bridge or hip escape during that instant."
+        "answer": "In Technical Mount, weight distributes between the posted leg and hooked inside leg, with the upper body providing chest or shoulder pressure. In S Mount, weight shifts to the hip-to-shoulder connection, with both legs serving as structural barriers rather than primary weight-bearing platforms. During the transition, the weight must transfer smoothly between these distributions. This matters because the mid-transition moment where weight is shifting is the opponent's best escape window—if the weight transfer is jerky or creates a momentary lightness, the opponent can bridge or hip escape during that instant.",
+        "answer_line": "Shift to hip-shoulder connect",
+        "distractors": {
+          "plausible": [
+            "Weight stays on posted leg",
+            "Chest pressure increases"
+          ],
+          "trap": [
+            "Go light to move faster"
+          ]
+        }
       },
       {
         "question": "If you are unable to complete the transition to S Mount and must remain in Technical Mount, what offensive chains are available to you?",
-        "answer": "From Technical Mount with arm control maintained, you have several high-percentage options. The armbar can be attacked directly from Technical Mount without needing S Mount by swinging the posted leg over the opponent's head and sitting back. If the opponent turns away to defend, immediately transition to back control by following their rotation and establishing seat belt grip and hooks. The mounted triangle becomes available if the opponent pulls their arm back but leaves their head exposed. Gift wrap control can be established if their free arm crosses their body defensively. Technical Mount itself is a powerful attacking position, and the S Mount transition is one option among several rather than the only viable path forward."
+        "answer": "From Technical Mount with arm control maintained, you have several high-percentage options. The armbar can be attacked directly from Technical Mount without needing S Mount by swinging the posted leg over the opponent's head and sitting back. If the opponent turns away to defend, immediately transition to back control by following their rotation and establishing seat belt grip and hooks. The mounted triangle becomes available if the opponent pulls their arm back but leaves their head exposed. Gift wrap control can be established if their free arm crosses their body defensively. Technical Mount itself is a powerful attacking position, and the S Mount transition is one option among several rather than the only viable path forward.",
+        "answer_line": "Armbar, back take, triangle",
+        "distractors": {
+          "plausible": [
+            "Must restart from guard",
+            "Only re-attempt S Mount"
+          ],
+          "trap": [
+            "Release arm, reset entirely"
+          ]
+        }
       },
       {
         "question": "In which direction should you drive your hips during the rotation, and what happens if you drive in the wrong direction?",
-        "answer": "Drive your hips toward the opponent's shoulder on the attacked arm side, sliding along the shoulder as a rail throughout the rotation. The hips should move in an arc that keeps them sealed against the shoulder joint at all times. If you drive your hips away from the shoulder—upward or laterally—you create space between your body and the controlled arm that the opponent will immediately exploit to retract their elbow. If you drive too far past the shoulder toward their head, you over-rotate and compromise your base. The correct direction keeps the hip bone in constant contact with their deltoid throughout the entire rotational movement."
+        "answer": "Drive your hips toward the opponent's shoulder on the attacked arm side, sliding along the shoulder as a rail throughout the rotation. The hips should move in an arc that keeps them sealed against the shoulder joint at all times. If you drive your hips away from the shoulder—upward or laterally—you create space between your body and the controlled arm that the opponent will immediately exploit to retract their elbow. If you drive too far past the shoulder toward their head, you over-rotate and compromise your base. The correct direction keeps the hip bone in constant contact with their deltoid throughout the entire rotational movement.",
+        "answer_line": "Hips arc into their shoulder",
+        "distractors": {
+          "plausible": [
+            "Drive hips toward their head",
+            "Drive hips upward off mat"
+          ],
+          "trap": [
+            "Push hips away for space"
+          ]
+        }
       },
       {
         "question": "How should you adjust your Technical Mount to S Mount transition when facing a significantly larger or stronger opponent?",
-        "answer": "Against larger opponents, prioritize the Pressure Slide variant over the Explosive Rotation. Larger opponents generate more powerful bridges during weight shifts, so maintaining constant grinding pressure throughout the rotation minimizes the moments of instability they can exploit. Ensure your arm control is exceptionally secure before initiating, as stronger opponents can power through marginal grip positions. Keep your hips lower and tighter to their shoulder than you would against a similarly-sized opponent, reducing the space available for their defensive movements. The fundamental advantage of S Mount is mechanical leverage that negates size differences, but reaching S Mount against a larger opponent demands more patience and pressure during the transition."
+        "answer": "Against larger opponents, prioritize the Pressure Slide variant over the Explosive Rotation. Larger opponents generate more powerful bridges during weight shifts, so maintaining constant grinding pressure throughout the rotation minimizes the moments of instability they can exploit. Ensure your arm control is exceptionally secure before initiating, as stronger opponents can power through marginal grip positions. Keep your hips lower and tighter to their shoulder than you would against a similarly-sized opponent, reducing the space available for their defensive movements. The fundamental advantage of S Mount is mechanical leverage that negates size differences, but reaching S Mount against a larger opponent demands more patience and pressure during the transition.",
+        "answer_line": "Pressure Slide, tight hips",
+        "distractors": {
+          "plausible": [
+            "Explosive Rotation, speed up",
+            "Wider base, more space"
+          ],
+          "trap": [
+            "Loosen grip, rely on speed"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Technical Mount to S Mount transition itself carries low direct injury risk since it is a positional advancement rather than a submission. However, practitioners should be mindful that the arm control maintained throughout the transition can create inadvertent hyperextension pressure on the opponent's elbow if the rotation is performed aggressively while the arm is fully extended. During training, execute the rotation with controlled speed and communicate with your partner about elbow comfort. The transition should flow smoothly into S Mount rather than jerking the controlled arm during rotation. Partners should tap immediately if they feel any elbow hyperextension during the rotational movement."
+    "safety_considerations": "The Technical Mount to S Mount transition itself carries low direct injury risk since it is a positional advancement rather than a submission. However, practitioners should be mindful that the arm control maintained throughout the transition can create inadvertent hyperextension pressure on the opponent's elbow if the rotation is performed aggressively while the arm is fully extended. During training, execute the rotation with controlled speed and communicate with your partner about elbow comfort. The transition should flow smoothly into S Mount rather than jerking the controlled arm during rotation. Partners should tap immediately if they feel any elbow hyperextension during the rotational movement.",
+    "clips": [
+      {
+        "id": "2Xm_mLp8xwk",
+        "title": "S-mount troubleshooting, no-gi",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2zSi7RlFJEU",
+        "title": "Armbar from S-mount",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5UtNLw7usQk",
+        "title": "Switch side armbar from S-mount",
+        "by": "Darrin Lillian",
+        "vertical": false,
+        "channel": "Darrin Lillian",
+        "duration": 50,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Technical Mount to S Mount Defender",
@@ -371,23 +512,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating the Technical Mount to S Mount transition?",
-        "answer": "The earliest cue is the opponent shifting their weight decisively to their posted leg, which lightens their inside leg in preparation for swinging it across your torso. You may also feel a decrease in chest pressure as they begin rotating their hips away from parallel alignment. This weight shift occurs 1-2 seconds before the rotation completes, giving you a narrow but exploitable window for defensive action. Reacting at this moment rather than after the legs are positioned gives you the best chance of preventing S Mount establishment."
+        "answer": "The earliest cue is the opponent shifting their weight decisively to their posted leg, which lightens their inside leg in preparation for swinging it across your torso. You may also feel a decrease in chest pressure as they begin rotating their hips away from parallel alignment. This weight shift occurs 1-2 seconds before the rotation completes, giving you a narrow but exploitable window for defensive action. Reacting at this moment rather than after the legs are positioned gives you the best chance of preventing S Mount establishment.",
+        "answer_line": "Weight shifts to posted leg",
+        "distractors": {
+          "plausible": [
+            "Free arm frames your hip",
+            "Legs already crossed over"
+          ],
+          "trap": [
+            "Wait until S Mount is set"
+          ]
+        }
       },
       {
         "question": "Why is arm retraction more important than disrupting the opponent's leg movement during this transition?",
-        "answer": "S Mount without arm isolation is functionally useless for the attacker—they cannot threaten the armbar, which is the entire purpose of the perpendicular position. Even if the opponent completes the full body rotation and establishes the S-shaped leg configuration, a bent arm pulled tight to your chest with a collar grip forces them to either work to re-extend the arm from a less advantageous angle or abandon S Mount entirely. Disrupting their legs addresses the symptom while arm retraction addresses the root cause of the threat."
+        "answer": "S Mount without arm isolation is functionally useless for the attacker—they cannot threaten the armbar, which is the entire purpose of the perpendicular position. Even if the opponent completes the full body rotation and establishes the S-shaped leg configuration, a bent arm pulled tight to your chest with a collar grip forces them to either work to re-extend the arm from a less advantageous angle or abandon S Mount entirely. Disrupting their legs addresses the symptom while arm retraction addresses the root cause of the threat.",
+        "answer_line": "No arm control, no armbar threat",
+        "distractors": {
+          "plausible": [
+            "Legs matter more than grip",
+            "Both equally critical always"
+          ],
+          "trap": [
+            "Ignore arm, fight the legs"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to bridge defensively during the Technical Mount to S Mount transition?",
-        "answer": "The optimal moment is during the mid-rotation when the opponent's weight is transitioning between their Technical Mount base and their S Mount base. At this instant, they are neither fully stable in Technical Mount nor established in S Mount, creating a window where their balance is most vulnerable to disruption. Bridge toward their posted leg side where their base is weakest. Bridging too early wastes energy against a stable Technical Mount. Bridging too late faces the structural barriers of the S-shaped leg configuration."
+        "answer": "The optimal moment is during the mid-rotation when the opponent's weight is transitioning between their Technical Mount base and their S Mount base. At this instant, they are neither fully stable in Technical Mount nor established in S Mount, creating a window where their balance is most vulnerable to disruption. Bridge toward their posted leg side where their base is weakest. Bridging too early wastes energy against a stable Technical Mount. Bridging too late faces the structural barriers of the S-shaped leg configuration.",
+        "answer_line": "Mid-rotation, toward posted leg",
+        "distractors": {
+          "plausible": [
+            "Bridge early in Technical Mount",
+            "Bridge after S Mount is set"
+          ],
+          "trap": [
+            "Bridge straight up, center"
+          ]
+        }
       },
       {
         "question": "If the opponent successfully completes the rotation to S Mount despite your defensive efforts, what should you do immediately?",
-        "answer": "Immediately transition to S Mount bottom defensive protocols: grip your own collar with the trapped hand to keep the arm bent, control the opponent's near leg with your free hand to prevent full armbar completion, and begin hip escaping toward their legs to create distance. Do not continue fighting as if you are still in Technical Mount—the threats and defensive priorities differ in S Mount. Accepting that the transition succeeded and immediately activating appropriate defense is more effective than continuing to fight an already-completed rotation."
+        "answer": "Immediately transition to S Mount bottom defensive protocols: grip your own collar with the trapped hand to keep the arm bent, control the opponent's near leg with your free hand to prevent full armbar completion, and begin hip escaping toward their legs to create distance. Do not continue fighting as if you are still in Technical Mount—the threats and defensive priorities differ in S Mount. Accepting that the transition succeeded and immediately activating appropriate defense is more effective than continuing to fight an already-completed rotation.",
+        "answer_line": "Switch to S Mount bottom defense",
+        "distractors": {
+          "plausible": [
+            "Keep old Technical Mount plan",
+            "Try to reverse the rotation"
+          ],
+          "trap": [
+            "Extend arm to relieve pressure"
+          ]
+        }
       },
       {
         "question": "How does the hip escape direction differ when defending this transition versus standard Technical Mount escapes?",
-        "answer": "During the transition specifically, you should hip escape toward the opponent's legs—the direction their body is rotating away from. This creates distance that makes completing the perpendicular angle mechanically impossible because their hips cannot reach your shoulder. In contrast, standard Technical Mount escapes often involve hip escaping toward the posted leg side to recover half guard. The directional difference matters because during the transition, the opponent's commitment to rotation means they cannot easily follow your hip escape in the opposite direction without abandoning their rotational movement entirely."
+        "answer": "During the transition specifically, you should hip escape toward the opponent's legs—the direction their body is rotating away from. This creates distance that makes completing the perpendicular angle mechanically impossible because their hips cannot reach your shoulder. In contrast, standard Technical Mount escapes often involve hip escaping toward the posted leg side to recover half guard. The directional difference matters because during the transition, the opponent's commitment to rotation means they cannot easily follow your hip escape in the opposite direction without abandoning their rotational movement entirely.",
+        "answer_line": "Escape toward their legs",
+        "distractors": {
+          "plausible": [
+            "Escape toward posted leg side",
+            "Escape straight backward"
+          ],
+          "trap": [
+            "Push into their hips harder"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -410,6 +601,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense and escape",
         "description": "Start in Technical Mount with arm controlled. Full resistance from both players. Top player attempts S Mount transition and subsequent submissions. Bottom player attempts to prevent the transition or escape. 2-minute rounds with reset on submission or escape. Develops timing and decision-making under genuine pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar escape to rear naked choke",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "w6M0NpTMkeU",
+        "title": "Hitchhiker armbar escape into a guard pass",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 55,
+        "verified": "2026-07-15"
       }
     ]
   }

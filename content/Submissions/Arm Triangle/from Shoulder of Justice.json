@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and attacker's arm)",
   "starting_position": "Shoulder of Justice",
   "from_position": "Shoulder of Justice/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Arm Triangle from Shoulder of Justice is a head-and-arm blood choke that weaponizes the position's jaw pressure: the crushing shoulder forces the defender's far arm across their own neck, and you trap it to compress both carotids.",
   "overview": "The Arm Triangle from Shoulder of Justice exploits one of the most reliable defensive reactions in side control. When the top player drives their shoulder into the opponent's jaw with crushing pressure, the natural instinct is to bring the far arm across the face to push the shoulder away or shield the jaw. This arm crossing the centerline creates the exact head-and-arm configuration needed for the arm triangle choke.\n\nThe submission works by compressing both carotid arteries simultaneously. The opponent's own trapped shoulder presses into one carotid while the attacker's forearm blade crosses behind the neck to compress the other. From Shoulder of Justice, the entry is particularly effective because the opponent is already flattened, the cross-face control is established, and the intense pressure virtually guarantees the defensive reaction that creates the submission opportunity.\n\nThe finishing sequence involves locking the head-and-arm grip, walking to a perpendicular angle on the trapped-arm side, and applying progressive chest-to-chest compression. The Shoulder of Justice setup provides a significant advantage over other arm triangle entries because the opponent is already under maximum pressure and has limited defensive options before the choke is even initiated.",
   "safety_considerations": {
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Shoulder of Justice/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -282,52 +294,181 @@
       {
         "question": "What anatomical structures does the Arm Triangle from Shoulder of Justice attack?",
         "answer": "The arm triangle compresses both carotid arteries simultaneously. The opponent's own trapped shoulder presses into one carotid from the near side, while your forearm blade crosses behind their neck and presses into the opposite carotid from the far side. This bilateral compression restricts blood flow to the brain, causing unconsciousness in 6-8 seconds if not released. The mechanism relies on the opponent's skeletal structure working against them.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Trachea and windpipe",
+            "Jugular vein only"
+          ],
+          "trap": [
+            "Crank the neck to force the tap"
+          ]
+        }
       },
       {
         "question": "What defensive reaction from the opponent creates the arm triangle opportunity from Shoulder of Justice?",
         "answer": "The trigger is the opponent bringing their far arm across their own face and neck to shield against the intense jaw pressure of Shoulder of Justice. Their forearm or hand pushes against your shoulder or crosses their own throat line to relieve the pressure. This arm crossing their own neck positions their shoulder against their carotid, creating the head-and-arm configuration. Rather than fighting this reaction, you capitalize on it as the setup for the arm triangle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Far arm crosses own neck",
+        "distractors": {
+          "plausible": [
+            "Opponent turns face away",
+            "Opponent pushes your hip"
+          ],
+          "trap": [
+            "Opponent underhooks your near side"
+          ]
+        }
       },
       {
         "question": "What grip configuration locks the head-and-arm choke during the transition from Shoulder of Justice?",
         "answer": "After threading your choking arm over the opponent's trapped far arm and behind the back of their neck, lock a figure-four grip by grabbing your own bicep with the choking hand while your free hand cups behind their head. Alternatively, use a gable grip with palms pressed together for a tighter configuration. The grip must lock the opponent's head and trapped arm together as a unified structure with no slack, preventing arm extraction.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four or gable grip",
+        "distractors": {
+          "plausible": [
+            "Underhook and overhook",
+            "S-grip on the collar"
+          ],
+          "trap": [
+            "Lace fingers behind their head"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to retract their far arm during the grip switch - what adjustment prevents escape?",
         "answer": "Increase chest pressure immediately by driving your weight down onto their retracting arm before it clears. If you cannot pin it, abandon the arm triangle attempt and immediately re-establish Shoulder of Justice jaw pressure with your shoulder back in their chin. Do not chase a half-locked arm triangle. The retraction removes their own defense against the jaw pressure, so returning to Shoulder of Justice restarts the dilemma cycle and the reaction will reappear.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive chest weight onto the arm",
+        "distractors": {
+          "plausible": [
+            "Squeeze the grip harder",
+            "Walk to the finish angle now"
+          ],
+          "trap": [
+            "Abandon top and pull guard"
+          ]
+        }
       },
       {
         "question": "What body angle creates maximum finishing pressure for the arm triangle from Shoulder of Justice?",
         "answer": "Walk your hips until they are perpendicular (90 degrees) to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face. This angle allows your expanding chest and body weight to drive the opponent's shoulder into their own carotid while your forearm compresses the other side. Without this perpendicular angle, the choke becomes a neck crank.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips perpendicular, head to mat",
+        "distractors": {
+          "plausible": [
+            "Stay square and squeeze harder",
+            "Hips parallel along their body"
+          ],
+          "trap": [
+            "Sit up tall, get bridged over"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no escape?",
         "answer": "The choke is properly locked when you feel the opponent's trapped shoulder bone pressing firmly into their neck with zero space between your chest and their body. Their face may begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated. If they cannot create any frame with their free hand and cannot bridge effectively to disrupt your angle, they have passed the point of no escape and the finish is imminent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder bone pinned, no space",
+        "distractors": {
+          "plausible": [
+            "Forearm crushing the windpipe",
+            "Your hips parallel to their body"
+          ],
+          "trap": [
+            "Wait for them to go limp"
+          ]
+        }
       },
       {
         "question": "What safety precautions must you observe when applying the arm triangle from Shoulder of Justice?",
         "answer": "Apply pressure progressively over 3-5 seconds, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always allow at least one hand free for tapping. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp, release immediately and place them in recovery position on their side with legs elevated. Blood chokes can cause unconsciousness in 6-8 seconds.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slow, release on any tap",
+        "distractors": {
+          "plausible": [
+            "Squeeze fast to end it quick",
+            "Only release on verbal tap"
+          ],
+          "trap": [
+            "Hold after they go limp"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from extracting their trapped arm during the transition from Shoulder of Justice to arm triangle?",
         "answer": "The critical control is chest pressure on the trapped arm before and during the grip switch. Your body weight pins their far arm against their own neck so they cannot retract it. Once the head-and-arm grip is locked, the figure-four configuration mechanically prevents arm extraction. If you feel the arm starting to slide out during transition, immediately return to Shoulder of Justice pressure rather than chasing a compromised arm triangle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pressure pins the arm",
+        "distractors": {
+          "plausible": [
+            "Squeeze the wrist tighter",
+            "Grab a fresh underhook"
+          ],
+          "trap": [
+            "Lift chest to reach the arm"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges toward the choke side after you lock the grip - how do you maintain control?",
         "answer": "Post your far-side hand on the mat and widen your base on the rolling side to absorb the bridge. Keep your head low and your grip locked tight. If the bridge is strong enough to roll you, maintain the head-and-arm grip throughout and finish from bottom in a guard arm triangle configuration. A failed bridge actually helps you because it exhausts the opponent's energy and often results in a tighter choke when they return to the mat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Widen base, keep grip locked",
+        "distractors": {
+          "plausible": [
+            "Sit back to block the bridge",
+            "Post on the choke-side elbow"
+          ],
+          "trap": [
+            "Turn belly-down to stop the roll"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error when completing the arm triangle from Shoulder of Justice?",
         "answer": "The most common finishing error is squeezing with the arms rather than using chest compression and body positioning to generate pressure. Arm squeezing fatigues rapidly and produces a neck crank rather than a clean blood choke. The correction is to walk to the full perpendicular angle, drop your hip, seal with your head, and expand your ribcage while pulling elbows to centerline. Your body mechanics generate the choking force while your arms simply maintain the locked configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeezing arms instead of chest",
+        "distractors": {
+          "plausible": [
+            "Applying pressure too gradually",
+            "Keeping your ribcage too heavy"
+          ],
+          "trap": [
+            "Break the seal, they escape to top"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "QGiT5mFu_Qo",
+        "title": "Head and Arm Choke Arm Triangle Variations",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 122,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wrZCRBlAB3Y",
+        "title": "Head and Arm Choke from Mount Finishing Details",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Roger Gracie TV",
+        "duration": 265,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hSo_Km-MOtQ",
+        "title": "Head and Arm Triangle from Closed Guard",
+        "by": "Professor Aaron",
+        "vertical": false,
+        "channel": "The Jiujitsu Project Foundation",
+        "duration": 91,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -421,27 +562,77 @@
       {
         "question": "How do you recognize that the attacker is transitioning from Shoulder of Justice to an arm triangle?",
         "answer": "The key recognition cue is feeling the attacker's chest weight shift forward onto your far arm, deliberately pinning it against your own neck, followed by the release of their cross-face grip as they begin threading their arm over yours and behind your neck. You may also feel their hips disengage from the side control configuration as they prepare to walk to the perpendicular finishing angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest weight pins your far arm",
+        "distractors": {
+          "plausible": [
+            "Cross-face grip gets tighter",
+            "Hips drive into your ribs"
+          ],
+          "trap": [
+            "Wait until the grip locks to react"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the Arm Triangle from Shoulder of Justice?",
         "answer": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are trapped, or verbally say 'tap' loudly. Do not wait to see if you can escape once the choke is locked - arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds. Tapping early prevents injury and allows you to continue training safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately and clearly",
+        "distractors": {
+          "plausible": [
+            "Wait until a hand is free to tap",
+            "Tap softly one single time"
+          ],
+          "trap": [
+            "Power out before you tap"
+          ]
+        }
       },
       {
         "question": "What arm positioning prevents the attacker from converting Shoulder of Justice into an arm triangle?",
         "answer": "Keep your far arm pinned tight to your far-side ribs with your elbow down, or extend it fully away from your neck. The critical mistake is allowing your forearm to cross your own throat line, which creates the trapped-arm position the attacker needs. When defending Shoulder of Justice jaw pressure, use head positioning, breathing control, and hip movement rather than arm frames across your face.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin arm to ribs, elbow down",
+        "distractors": {
+          "plausible": [
+            "Hug their head with both arms",
+            "Grab their choking wrist"
+          ],
+          "trap": [
+            "Frame forearm across your neck"
+          ]
+        }
       },
       {
         "question": "The attacker has locked the head-and-arm configuration but has not yet walked to the finishing angle - what escape options remain?",
         "answer": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees. Simultaneously frame against their hips with your free arm to prevent them from walking to the perpendicular angle. If you can get your knees under you and face into the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge toward the trapped-arm side and pull them into closed guard to disrupt the angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, frame hips, get to knees",
+        "distractors": {
+          "plausible": [
+            "Push their face for room",
+            "Wait for the angle to change"
+          ],
+          "trap": [
+            "Turn away and give your back"
+          ]
+        }
       },
       {
         "question": "What are the most common defensive errors that allow the arm triangle transition from Shoulder of Justice?",
         "answer": "The most common error is instinctively bringing the far arm across the face to shield against jaw pressure, which directly creates the arm triangle setup. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is waiting too long to defend - the transition window when the attacker switches grips is the best escape opportunity and closes within 2-3 seconds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Crossing the far arm over your face",
+        "distractors": {
+          "plausible": [
+            "Leaving your near elbow flared out",
+            "Dropping your chin to your chest"
+          ],
+          "trap": [
+            "Rolling to turtle to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -464,6 +655,35 @@
         "phase": "Phase 4: Live defensive sparring",
         "focus": "Full-speed defense from Shoulder of Justice bottom",
         "description": "Partner starts in Shoulder of Justice top with full offensive options including the arm triangle transition. Defend all attacks with focus on far arm positioning awareness to prevent the arm triangle setup while still managing jaw pressure. 5-minute rounds, reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "The Fastest Escape Out of the Arm Triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "n_2zR6BaF8A",
+        "title": "The Best Arm-Triangle Escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Fx6qjR6a_xE",
+        "title": "3 Arm Triangle Choke Defenses",
+        "by": "MMA Leech",
+        "vertical": false,
+        "channel": "MMA Leech",
+        "duration": 274,
+        "verified": "2026-07-14"
       }
     ]
   }

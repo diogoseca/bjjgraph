@@ -21,37 +21,37 @@ description: "Master Reverse X-Guard Top in BJJ. Control leg attacks with 60% pa
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Pass",
-      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,32 @@ description: "Master Reverse X-Guard Top in BJJ. Control leg attacks with 60% pa
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X-Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse X-Guard defense into rolling back take",
+      "description": "Reverse X-Guard (Top) film study: Reverse X-Guard defense into rolling back take, taught by Effortless Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M82CDkEzxlQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M82CDkEzxlQ",
+      "url": "https://www.youtube.com/watch?v=M82CDkEzxlQ",
+      "creator": { "@type": "Person", "name": "Effortless Jiu Jitsu" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +190,26 @@ The top player's primary objectives are to maintain upright posture, prevent the
 Strategically, Reverse X-Guard Top represents a transitional state where the top player must make critical decisions about passing methodology. Pressure-based approaches involve driving weight forward to flatten the opponent, while mobility-based methods focus on creating angles and disengaging hooks. Understanding these options and reading the opponent's reactions determines success rates, with advanced practitioners achieving 60-70% pass rates through systematic application of passing principles.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X-Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M82CDkEzxlQ)
+
+<p class="clip-credit"><strong>Reverse X-Guard defense into rolling back take</strong> — taught by Effortless Jiu Jitsu · 2:01 · <a href="https://www.youtube.com/watch?v=M82CDkEzxlQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -132,6 +132,43 @@ description: "Learn to counter hand fighting escapes when you have back control.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Fight to Turtle from Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Why you keep losing the back \u2014 keeping back control",
+      "description": "Hand Fight to Turtle from Back (Defender) film study: Why you keep losing the back \u2014 keeping back control, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lpgcKpIgClw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lpgcKpIgClw",
+      "url": "https://www.youtube.com/watch?v=lpgcKpIgClw",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing cutback to recover the back",
+      "description": "Hand Fight to Turtle from Back (Defender) film study: Standing cutback to recover the back, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s_bNe2rnQcg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s_bNe2rnQcg",
+      "url": "https://www.youtube.com/watch?v=s_bNe2rnQcg",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT201S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +178,34 @@ As the practitioner maintaining back control, your objective is to prevent the o
 **Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Fight to Turtle from Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lpgcKpIgClw)
+
+<p class="clip-credit"><strong>Why you keep losing the back — keeping back control</strong> — taught by Brandon Mccaghren · 2:23 · <a href="https://www.youtube.com/watch?v=lpgcKpIgClw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s_bNe2rnQcg)
+
+<p class="clip-credit"><strong>Standing cutback to recover the back</strong> — taught by John Danaher · 3:21 · <a href="https://www.youtube.com/watch?v=s_bNe2rnQcg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

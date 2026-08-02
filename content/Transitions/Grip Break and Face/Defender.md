@@ -140,6 +140,43 @@ description: "How to defend against Grip Break and Face in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grip Break and Face (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Attack Secrets: Retaining Control",
+      "description": "Grip Break and Face (Defender) film study: Back Attack Secrets: Retaining Control, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zcJe8NnWtfk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zcJe8NnWtfk",
+      "url": "https://www.youtube.com/watch?v=zcJe8NnWtfk",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT341S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic Ways to Flatten an Opponent Out",
+      "description": "Grip Break and Face (Defender) film study: Basic Ways to Flatten an Opponent Out, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DSJJyA-2HKU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DSJJyA-2HKU",
+      "url": "https://www.youtube.com/watch?v=DSJJyA-2HKU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT813S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +190,34 @@ Advanced defenders treat the Grip Break and Face attempt as a predictable sequen
 **Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grip Break and Face (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zcJe8NnWtfk)
+
+<p class="clip-credit"><strong>Back Attack Secrets: Retaining Control</strong> — taught by Gordon Ryan · 5:41 · <a href="https://www.youtube.com/watch?v=zcJe8NnWtfk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DSJJyA-2HKU)
+
+<p class="clip-credit"><strong>Basic Ways to Flatten an Opponent Out</strong> — taught by Gordon Ryan · 13:33 · <a href="https://www.youtube.com/watch?v=DSJJyA-2HKU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

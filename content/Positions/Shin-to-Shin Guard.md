@@ -34,6 +34,43 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin-to-Shin Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin to Shin Guard Overview",
+      "description": "Shin-to-Shin Guard film study: Shin to Shin Guard Overview, taught by RGA South Herts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sUJIGs8Othc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sUJIGs8Othc",
+      "url": "https://www.youtube.com/watch?v=sUJIGs8Othc",
+      "creator": { "@type": "Person", "name": "RGA South Herts" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva Shin on Shin to the Back",
+      "description": "Shin-to-Shin Guard film study: De La Riva Shin on Shin to the Back, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a1lWupzNhkg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a1lWupzNhkg",
+      "url": "https://www.youtube.com/watch?v=a1lWupzNhkg",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +99,34 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
 Shin-to-Shin Guard represents a sophisticated intersection between traditional open guard concepts and modern leg entanglement systems. This position is characterized by the guard player placing their shin across the opponent's same-side shin, creating a perpendicular connection point that serves multiple strategic purposes. Unlike passive guard positions that simply create barriers, shin-to-shin actively compromises the opponent's base through constant angular pressure and leverage manipulation. The position excels in several key areas: distance management against aggressive standing passers, entry pathways to powerful positions like single leg X-guard and X-guard, and immediate threatening potential through off-balancing sweeps. Modern Brazilian Jiu-Jitsu has elevated shin-to-shin from a transitional position to a cornerstone of guard retention and attack systems, particularly in no-gi competition where traditional grip-based guards are less effective. The position's power derives from its ability to create dilemmas—opponents who attempt to clear the shin connection open entries to leg entanglements, while those who maintain distance allow the guard player to dictate engagement range and set up technical attacks. High-level competitors utilize shin-to-shin as part of integrated guard systems, flowing seamlessly between this position and related guards based on opponent reactions. The shin connection itself acts as both a defensive barrier preventing forward pressure and an offensive tool for generating sweep mechanics through off-balancing. Understanding shin-to-shin requires grasping its role within the broader guard retention ecosystem—it's not meant to be held statically but rather used dynamically as a launching pad for transitions and attacks. The position's effectiveness scales dramatically with technical proficiency, as advanced practitioners can maintain the connection while simultaneously controlling upper body positioning and anticipating defensive reactions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin-to-Shin Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sUJIGs8Othc)
+
+<p class="clip-credit"><strong>Shin to Shin Guard Overview</strong> — taught by RGA South Herts · 1:16 · <a href="https://www.youtube.com/watch?v=sUJIGs8Othc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a1lWupzNhkg)
+
+<p class="clip-credit"><strong>De La Riva Shin on Shin to the Back</strong> — taught by Carpio Jiu Jitsu · 1:21 · <a href="https://www.youtube.com/watch?v=a1lWupzNhkg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -135,27 +200,23 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 
 - **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (24% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (8% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (9% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (6% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (2% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (8% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (13% of attempts)
 
-- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (1% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (6% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (5% of attempts)
 
-- **[[Transitions/Shin to Shin Pull/Attacker|Shin to Shin Pull]]** (8% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (4% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (8% of attempts)
+- **[[Transitions/Shin-to-Shin Sweep/Attacker|Shin-to-Shin Sweep]]** (13% of attempts)
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (8% of attempts)
-
-- **[[Transitions/Shin-to-Shin Sweep/Attacker|Shin-to-Shin Sweep]]** (3% of attempts)
-
-- **[[Transitions/Shin-to-Shin to Single Leg X/Attacker|Shin-to-Shin to Single Leg X]]** (2% of attempts)
+- **[[Transitions/Shin-to-Shin to Single Leg X/Attacker|Shin-to-Shin to Single Leg X]]** (22% of attempts)
 
 
 ### Common Mistakes
@@ -220,25 +281,25 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (22% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (14% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (9% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (3% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (11% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (6% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (10% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (9% of attempts)
 
-- **[[Transitions/Knee Through/Attacker|Knee Through]]** (10% of attempts)
+- **[[Transitions/Knee Through/Attacker|Knee Through]]** (11% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (11% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (6% of attempts)
 
-- **[[Transitions/Pass Shin-to-Shin Guard/Attacker|Pass Shin-to-Shin Guard]]** (4% of attempts)
+- **[[Transitions/Pass Shin-to-Shin Guard/Attacker|Pass Shin-to-Shin Guard]]** (16% of attempts)
 
-- **[[Transitions/Pressure from Shin-to-Shin/Attacker|Pressure from Shin-to-Shin]]** (2% of attempts)
+- **[[Transitions/Pressure from Shin-to-Shin/Attacker|Pressure from Shin-to-Shin]]** (12% of attempts)
 
 
 ### Common Mistakes

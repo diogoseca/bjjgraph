@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Double Under Pass is a fundamental pressure-based guard passing technique that relies on establishing bilateral underhooks beneath the opponent's legs. This pass is characterized by its heavy control orientation, making it extremely difficult for the opponent to retain guard once proper positioning is achieved. The technique involves methodically breaking down the opponent's defensive frames, consolidating position with chest-to-chest pressure, and using controlled lateral movement to clear the legs and establish side control.\n\nHistorically favored by top-position specialists and pressure passers, the Double Under Pass represents a cornerstone technique in the modern guard passing hierarchy. Unlike dynamic, explosive passing techniques, this pass emphasizes sustained pressure, weight distribution, and positional dominance. The bilateral underhook configuration neutralizes many of the opponent's defensive options, particularly hip movement and leg frame creation, forcing them into a defensive shell where their offensive options are severely limited.\n\nThe Double Under Pass is particularly effective in gi grappling where grips can be used to enhance control, though it remains highly viable in no-gi competition. Advanced practitioners use this pass as part of a comprehensive passing system, often combining it with headquarters position, knee slice variations, and other pressure-based attacks to create multiple layers of offensive threat. The technique's reliability stems from its fundamental soundness—when executed correctly, the opponent must defend against immense pressure while having limited mechanical advantages to create distance or recover guard.",
   "related_content": [
     {
@@ -237,54 +249,203 @@
     "flashcards": [
       {
         "question": "What is the most critical element to establish before attempting to clear the opponent's legs in the double under pass?",
-        "answer": "The most critical element is establishing heavy, constant chest-to-chest pressure while maintaining deep bilateral underhooks. Without this consolidated pressure, the opponent can easily create space with frames, recover guard, or execute sweeps. The pressure must be so dominant that the opponent's mobility is severely restricted before you begin the lateral movement to clear legs."
+        "answer": "The most critical element is establishing heavy, constant chest-to-chest pressure while maintaining deep bilateral underhooks. Without this consolidated pressure, the opponent can easily create space with frames, recover guard, or execute sweeps. The pressure must be so dominant that the opponent's mobility is severely restricted before you begin the lateral movement to clear legs.",
+        "answer_line": "Chest pressure + deep underhooks",
+        "distractors": {
+          "plausible": [
+            "Underhooks alone are enough",
+            "Control ankles before underhooks"
+          ],
+          "trap": [
+            "Clear legs immediately, no pressure"
+          ]
+        }
       },
       {
         "question": "Why is lateral movement preferred over forward movement when clearing legs in the double under pass?",
-        "answer": "Lateral movement is preferred because it allows you to maintain constant chest pressure throughout the pass while methodically clearing one leg at a time. Forward movement tends to create vertical stacking pressure that can allow the opponent to invert, granby, or create scrambles. Lateral stepping keeps the opponent flat and controlled while systematically removing their defensive frames and leg barriers."
+        "answer": "Lateral movement is preferred because it allows you to maintain constant chest pressure throughout the pass while methodically clearing one leg at a time. Forward movement tends to create vertical stacking pressure that can allow the opponent to invert, granby, or create scrambles. Lateral stepping keeps the opponent flat and controlled while systematically removing their defensive frames and leg barriers.",
+        "answer_line": "Keeps them flat, avoids stacking",
+        "distractors": {
+          "plausible": [
+            "Forward is faster to pass",
+            "Stacking flattens hips better"
+          ],
+          "trap": [
+            "Stack up for maximum pressure"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent successfully frames on your head and begins creating distance during the pass?",
-        "answer": "Drive through their frames by lowering your head position and increasing downward chest pressure while circling toward the side of the frame. Do not allow vertical space to develop—instead, continuously drop your weight onto them. If necessary, transition your head to the opposite side of their body while maintaining underhook control, negating the mechanical advantage of their frame."
+        "answer": "Drive through their frames by lowering your head position and increasing downward chest pressure while circling toward the side of the frame. Do not allow vertical space to develop—instead, continuously drop your weight onto them. If necessary, transition your head to the opposite side of their body while maintaining underhook control, negating the mechanical advantage of their frame.",
+        "answer_line": "Lower head, drive through frame",
+        "distractors": {
+          "plausible": [
+            "Pull head back to reset posture",
+            "Push up hard to break the frame"
+          ],
+          "trap": [
+            "Rise up to create more space"
+          ]
+        }
       },
       {
         "question": "At what point in the double under pass sequence is it safe to release your underhook grips?",
-        "answer": "You should only release your underhook grips when both of the opponent's legs are completely cleared and you are perpendicular to their body in a position to immediately establish traditional side control controls (cross-face and far arm control). Releasing the grips prematurely is one of the most common errors and often results in immediate guard recovery by the opponent."
+        "answer": "You should only release your underhook grips when both of the opponent's legs are completely cleared and you are perpendicular to their body in a position to immediately establish traditional side control controls (cross-face and far arm control). Releasing the grips prematurely is one of the most common errors and often results in immediate guard recovery by the opponent.",
+        "answer_line": "After both legs fully cleared",
+        "distractors": {
+          "plausible": [
+            "Once the first leg is cleared",
+            "When their hips are stacked"
+          ],
+          "trap": [
+            "Release early to grab the collar"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inserting their knee to recover half guard as you initiate lateral movement—how do you adjust?",
-        "answer": "Immediately stop the lateral movement and drive your hips back down onto their hips to prevent the knee from penetrating further. Lower your chest pressure and use your near-side underhook to control their bottom leg, pinning it to the mat. If the knee is already partially inserted, transition to a half guard passing sequence by maintaining your underhook control, establishing crossface, and working to clear the half guard hook before resuming the pass."
+        "answer": "Immediately stop the lateral movement and drive your hips back down onto their hips to prevent the knee from penetrating further. Lower your chest pressure and use your near-side underhook to control their bottom leg, pinning it to the mat. If the knee is already partially inserted, transition to a half guard passing sequence by maintaining your underhook control, establishing crossface, and working to clear the half guard hook before resuming the pass.",
+        "answer_line": "Stop, drive hips down, pin leg",
+        "distractors": {
+          "plausible": [
+            "Keep stepping laterally through it",
+            "Switch straight to a toreando pass"
+          ],
+          "trap": [
+            "Back off to reset your position"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the most control when your hands are clasped behind the opponent's back in the double under position?",
-        "answer": "A gable grip (palm-to-palm with fingers interlocked) provides the strongest connection and is preferred for maximum control. This grip allows you to squeeze your elbows together, tightening the underhooks and preventing the opponent from creating any space. The gable grip also facilitates the stacking variation when needed and provides better control when lifting or manipulating the opponent's hips during the pass."
+        "answer": "A gable grip (palm-to-palm with fingers interlocked) provides the strongest connection and is preferred for maximum control. This grip allows you to squeeze your elbows together, tightening the underhooks and preventing the opponent from creating any space. The gable grip also facilitates the stacking variation when needed and provides better control when lifting or manipulating the opponent's hips during the pass.",
+        "answer_line": "Gable grip, palms interlocked",
+        "distractors": {
+          "plausible": [
+            "S-grip for extra reach",
+            "Overlapping fingers on top"
+          ],
+          "trap": [
+            "Loose grip to save energy"
+          ]
+        }
       },
       {
         "question": "When should you consider transitioning from the double under pass to a back take instead of completing the pass to side control?",
-        "answer": "Transition to a back take when the opponent turns to their side to defend the lateral pass, exposing their back rather than remaining flat. This defensive reaction creates an opportunity to circle behind them while maintaining your underhook control. As they turn away from the pressure, release one underhook to establish seat belt control (over-under on their torso) and continue circling to secure back control with hooks."
+        "answer": "Transition to a back take when the opponent turns to their side to defend the lateral pass, exposing their back rather than remaining flat. This defensive reaction creates an opportunity to circle behind them while maintaining your underhook control. As they turn away from the pressure, release one underhook to establish seat belt control (over-under on their torso) and continue circling to secure back control with hooks.",
+        "answer_line": "When they turn away, exposing back",
+        "distractors": {
+          "plausible": [
+            "When they turtle up flat",
+            "As soon as underhooks are in"
+          ],
+          "trap": [
+            "Release both hooks to chase back"
+          ]
+        }
       },
       {
         "question": "What is the optimal hip height relative to your opponent's hips during the double under pass, and why does this matter?",
-        "answer": "Your hips should be positioned at or below the level of your opponent's hips throughout the pass. This low hip position maximizes your weight distribution onto them, prevents them from elevating you for sweeps, and eliminates the space needed for guard recovery. If your hips rise above theirs, they can insert frames, create angles, and potentially execute hip bump sweeps or reguard attempts."
+        "answer": "Your hips should be positioned at or below the level of your opponent's hips throughout the pass. This low hip position maximizes your weight distribution onto them, prevents them from elevating you for sweeps, and eliminates the space needed for guard recovery. If your hips rise above theirs, they can insert frames, create angles, and potentially execute hip bump sweeps or reguard attempts.",
+        "answer_line": "Hips level or below theirs",
+        "distractors": {
+          "plausible": [
+            "Hips slightly above for base",
+            "Hips high for better base"
+          ],
+          "trap": [
+            "Rise hips to drive weight down"
+          ]
+        }
       },
       {
         "question": "How do you maintain control when transitioning from double unders to side control grips without creating a window for guard recovery?",
-        "answer": "Release your grips sequentially rather than simultaneously. First establish crossface control with your lead arm while maintaining the far-side underhook. Your chest pressure must remain constant throughout—do not lift your weight during the grip transition. Only after crossface is secure should you release the second underhook to establish hip control or far-arm underhook. This sequential release ensures continuous control and prevents any window for the opponent to recover guard."
+        "answer": "Release your grips sequentially rather than simultaneously. First establish crossface control with your lead arm while maintaining the far-side underhook. Your chest pressure must remain constant throughout—do not lift your weight during the grip transition. Only after crossface is secure should you release the second underhook to establish hip control or far-arm underhook. This sequential release ensures continuous control and prevents any window for the opponent to recover guard.",
+        "answer_line": "Crossface first, release grips slow",
+        "distractors": {
+          "plausible": [
+            "Release both hooks at once",
+            "Lift weight while transitioning"
+          ],
+          "trap": [
+            "Drop both grips immediately"
+          ]
+        }
       },
       {
         "question": "What specific body alignment prevents the opponent from executing a granby roll or inversion during your double under pass?",
-        "answer": "Position your head on the opposite side of their body from your passing direction, with your ear driving into their chest or shoulder. This head position combined with chest pressure pins their upper body flat and prevents the rotation needed for a granby. Your weight should be distributed diagonally across their body rather than straight down, making it mechanically impossible for them to generate the rotational momentum required to invert or roll."
+        "answer": "Position your head on the opposite side of their body from your passing direction, with your ear driving into their chest or shoulder. This head position combined with chest pressure pins their upper body flat and prevents the rotation needed for a granby. Your weight should be distributed diagonally across their body rather than straight down, making it mechanically impossible for them to generate the rotational momentum required to invert or roll.",
+        "answer_line": "Head opposite side, ear driving in",
+        "distractors": {
+          "plausible": [
+            "Head same side as pass direction",
+            "Weight dropped straight down"
+          ],
+          "trap": [
+            "Head up for better visibility"
+          ]
+        }
       },
       {
         "question": "Your opponent gets both feet on your hips before you can establish underhooks—what is your entry strategy?",
-        "answer": "Control both of their ankles or pants at the knees to prevent them from straightening their legs and creating distance. Pin one leg to the mat by pushing the knee to the side while stepping your same-side leg forward to crowd the space. As the first leg is pinned, immediately swim your arm underneath for the first underhook while dropping your chest onto their remaining leg. The key is collapsing the distance between their feet-on-hips defense and your chest before they can extend fully."
+        "answer": "Control both of their ankles or pants at the knees to prevent them from straightening their legs and creating distance. Pin one leg to the mat by pushing the knee to the side while stepping your same-side leg forward to crowd the space. As the first leg is pinned, immediately swim your arm underneath for the first underhook while dropping your chest onto their remaining leg. The key is collapsing the distance between their feet-on-hips defense and your chest before they can extend fully.",
+        "answer_line": "Control ankles, pin one leg first",
+        "distractors": {
+          "plausible": [
+            "Grab both feet and stand up",
+            "Push their knees straight first"
+          ],
+          "trap": [
+            "Back away to circle around"
+          ]
+        }
       },
       {
         "question": "What are the primary defensive tools the opponent loses once the double under position is properly established?",
-        "answer": "Once double under position is established with proper pressure, the opponent loses the ability to create effective frames with their legs, significantly restricted hip mobility and movement, the ability to sit up or create upward pressure, and the mechanical advantage to create meaningful distance. Their arms alone cannot generate enough force to overcome the chest pressure, and their legs are controlled beneath your underhooks, leaving them in a highly compromised defensive position."
+        "answer": "Once double under position is established with proper pressure, the opponent loses the ability to create effective frames with their legs, significantly restricted hip mobility and movement, the ability to sit up or create upward pressure, and the mechanical advantage to create meaningful distance. Their arms alone cannot generate enough force to overcome the chest pressure, and their legs are controlled beneath your underhooks, leaving them in a highly compromised defensive position.",
+        "answer_line": "Leg frames and hip mobility",
+        "distractors": {
+          "plausible": [
+            "Arm frames and hand fighting",
+            "Head and posture control"
+          ],
+          "trap": [
+            "Still free to invert and recover"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The double under pass is generally a safe technique for both practitioners when executed properly, but several safety considerations should be observed. When driving pressure onto the opponent, ensure you are using chest and shoulder pressure rather than driving your head into vulnerable areas like the neck or throat, which could cause injury. Be mindful of the opponent's spine and neck when stacking—avoid excessive forward pressure that hyperextends the cervical spine, particularly when using the stack variation. When training with less experienced partners, moderate your pressure to allow them to develop defensive capabilities without being overwhelmed. Always respect the tap if the pressure becomes uncomfortable or if breathing is compromised. For the person being passed, do not panic or use explosive bridging movements that could strain your own neck or spine—instead, focus on technical defensive responses. Both practitioners should communicate about pressure levels during training, especially when learning the technique, ensuring that the passer develops proper control without injuring their training partner."
+    "safety_considerations": "The double under pass is generally a safe technique for both practitioners when executed properly, but several safety considerations should be observed. When driving pressure onto the opponent, ensure you are using chest and shoulder pressure rather than driving your head into vulnerable areas like the neck or throat, which could cause injury. Be mindful of the opponent's spine and neck when stacking—avoid excessive forward pressure that hyperextends the cervical spine, particularly when using the stack variation. When training with less experienced partners, moderate your pressure to allow them to develop defensive capabilities without being overwhelmed. Always respect the tap if the pressure becomes uncomfortable or if breathing is compromised. For the person being passed, do not panic or use explosive bridging movements that could strain your own neck or spine—instead, focus on technical defensive responses. Both practitioners should communicate about pressure levels during training, especially when learning the technique, ensuring that the passer develops proper control without injuring their training partner.",
+    "clips": [
+      {
+        "id": "wBZrTpuXV50",
+        "title": "No-gi double under guard pass",
+        "by": "Garden State BJJ",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2KcAEYsaHAg",
+        "title": "Stack pass mechanics",
+        "by": "Kenny Kim",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N4PxPPv98k4",
+        "title": "Double unders pass breakdown",
+        "by": "Nicky Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Under Pass Defender",
@@ -375,23 +536,73 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive window when facing the double under pass, and why does timing matter so critically?",
-        "answer": "The most important defensive window is during the transition between the passer's first underhook and their consolidation of the second underhook with clasped hands. At this moment, they have committed their body forward but have not yet established the bilateral control that makes escape extremely difficult. Once both underhooks are deep with hands locked and chest pressure settled, defensive success rates drop dramatically because the passer has neutralized your hip movement and leg frames simultaneously."
+        "answer": "The most important defensive window is during the transition between the passer's first underhook and their consolidation of the second underhook with clasped hands. At this moment, they have committed their body forward but have not yet established the bilateral control that makes escape extremely difficult. Once both underhooks are deep with hands locked and chest pressure settled, defensive success rates drop dramatically because the passer has neutralized your hip movement and leg frames simultaneously.",
+        "answer_line": "Before second underhook locks in",
+        "distractors": {
+          "plausible": [
+            "After hands clasp, before stacking",
+            "Once chest pressure settles fully"
+          ],
+          "trap": [
+            "Wait until both underhooks are set"
+          ]
+        }
       },
       {
         "question": "Your opponent has established both underhooks and is beginning to step laterally—what is your highest-percentage defensive response at this stage?",
-        "answer": "Insert your near-side knee across their hip line as they step, hip escaping simultaneously to create the angle needed for the knee to penetrate. This recovers half guard or knee shield position, which creates a barrier they cannot simply walk through. The timing is critical—as they lift their hips slightly to take lateral steps, a small window opens where your knee can slide between your bodies. Combine this with pushing their head to the far side to weaken their pressure on your escaping hip."
+        "answer": "Insert your near-side knee across their hip line as they step, hip escaping simultaneously to create the angle needed for the knee to penetrate. This recovers half guard or knee shield position, which creates a barrier they cannot simply walk through. The timing is critical—as they lift their hips slightly to take lateral steps, a small window opens where your knee can slide between your bodies. Combine this with pushing their head to the far side to weaken their pressure on your escaping hip.",
+        "answer_line": "Knee across hip, hip escape now",
+        "distractors": {
+          "plausible": [
+            "Wait for them to fully pass first",
+            "Push their chest away for space"
+          ],
+          "trap": [
+            "Turn belly down to defend"
+          ]
+        }
       },
       {
         "question": "Why is pushing the passer's head to the side more effective than pushing it away or down when defending double under pressure?",
-        "answer": "Pushing the head laterally breaks the passer's alignment and weight distribution asymmetry, making it impossible for them to apply even chest pressure across your torso. When their head is displaced to one side, their weight shifts to that side, creating space on the opposite side where you can hip escape and insert defensive barriers. Pushing down or away does not break their alignment and they can power through it because their chest pressure drives along the same vector as your push."
+        "answer": "Pushing the head laterally breaks the passer's alignment and weight distribution asymmetry, making it impossible for them to apply even chest pressure across your torso. When their head is displaced to one side, their weight shifts to that side, creating space on the opposite side where you can hip escape and insert defensive barriers. Pushing down or away does not break their alignment and they can power through it because their chest pressure drives along the same vector as your push.",
+        "answer_line": "Breaks their weight alignment",
+        "distractors": {
+          "plausible": [
+            "Pushing down stops all pressure",
+            "Pushing away creates more room"
+          ],
+          "trap": [
+            "Pull head down onto your chest"
+          ]
+        }
       },
       {
         "question": "What framing configuration gives you the best defensive structure against double under pressure without exposing your arms to submissions?",
-        "answer": "Position your forearms across the passer's biceps with elbows tight to your ribs, creating a structural frame that uses your skeletal alignment rather than muscular effort. Your hands should grip their gi at the biceps or control their wrists. This bent-arm configuration is collapse-resistant because the force transfers through your bones to the mat rather than requiring you to push against their body weight. Extended arms expose you to americana and kimura attacks, while this compact frame protects your joints while still creating space."
+        "answer": "Position your forearms across the passer's biceps with elbows tight to your ribs, creating a structural frame that uses your skeletal alignment rather than muscular effort. Your hands should grip their gi at the biceps or control their wrists. This bent-arm configuration is collapse-resistant because the force transfers through your bones to the mat rather than requiring you to push against their body weight. Extended arms expose you to americana and kimura attacks, while this compact frame protects your joints while still creating space.",
+        "answer_line": "Forearms on biceps, elbows tight",
+        "distractors": {
+          "plausible": [
+            "Straight arms pushing on chest",
+            "Hands framing on their neck"
+          ],
+          "trap": [
+            "Extend arms fully to create space"
+          ]
+        }
       },
       {
         "question": "How do you decide between attempting to lock closed guard versus hip escaping to half guard when the passer is establishing double under control?",
-        "answer": "The deciding factor is the depth of their underhooks and whether their hands are clasped. If you can still wrap your legs high on their back with ankles crossing before they lock their grip, closing guard is the better option because it completely neutralizes the pass and returns you to an offensive position. If their underhooks are already deep with hands clasped, attempting closed guard will result in a loose, ineffective guard they can stack through. In that case, hip escape to half guard is higher percentage because it requires less space and works even against deep underhook control."
+        "answer": "The deciding factor is the depth of their underhooks and whether their hands are clasped. If you can still wrap your legs high on their back with ankles crossing before they lock their grip, closing guard is the better option because it completely neutralizes the pass and returns you to an offensive position. If their underhooks are already deep with hands clasped, attempting closed guard will result in a loose, ineffective guard they can stack through. In that case, hip escape to half guard is higher percentage because it requires less space and works even against deep underhook control.",
+        "answer_line": "Depends on underhook depth",
+        "distractors": {
+          "plausible": [
+            "Always try closed guard first",
+            "Always hip escape immediately"
+          ],
+          "trap": [
+            "Close guard despite deep underhooks"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -414,6 +625,35 @@
         "phase": "Phase 4: Live Defensive Integration (Week 7+)",
         "focus": "Applying double under defense in live rolling scenarios",
         "description": "Positional sparring starting from open guard where partner actively pursues double under passes at full speed and intensity. Practice the full defensive hierarchy from prevention through escape. Develop the ability to read which defensive phase you are in and apply the appropriate response in real time. Track success rates and identify which phase needs the most improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "uILaTRBgpG0",
+        "title": "Defensive sweep from the double under pass",
+        "by": "Smith",
+        "vertical": false,
+        "channel": "Smith ♞ | Brazilian Jiu-jitsu",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3DSApDUoliQ",
+        "title": "Double unders pass counter",
+        "by": "Steve Lin",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ad0qtay9IVQ",
+        "title": "Double under stack defense and counter",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 130,
+        "verified": "2026-07-15"
       }
     ]
   },

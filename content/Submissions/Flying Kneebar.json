@@ -17,7 +17,10 @@
   "target_area": "Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)",
   "starting_position": "Standing Guard",
   "from_position": "Standing Position/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "A Flying Kneebar is a dynamic leg-lock submission in which the attacker leaps onto a standing or kneeling opponent's leg and rotates backward into a kneebar entanglement, hyperextending the knee to force the tap.",
   "overview": "As a variant family, the Flying Kneebar collects the dynamic aerial entries to the kneebar, organized here by the position the leap is launched from. This spectacular technique combines athleticism, timing, and technical precision to catch opponents off-guard during standup exchanges or guard pulls. While visually impressive and highly effective when executed properly, it carries significant risk for both practitioners and requires extensive drilling before live application. The submission targets the knee joint through hyperextension, attacking the posterior cruciate ligament (PCL), medial collateral ligament (MCL), and lateral collateral ligament (LCL) simultaneously. Due to the dynamic nature of the entry and the potential for awkward landings, the technique demands exceptional body control and spatial awareness. It is most commonly seen in no-gi competition where grips don't interfere with the rotational mechanics, though gi variations exist using lapel and sleeve grips to control the descent. The Flying Kneebar represents the intersection of takedown artistry and leg lock expertise, requiring practitioners to master both the aerial component and the finishing mechanics to achieve consistent success.",
   "variant_uniqueness": "Dynamic aerial entry to kneebar with high-risk, high-reward mechanics",
@@ -94,7 +97,7 @@
       "relationship": "Common transition when opponent rotates knee inward during kneebar defense"
     },
     {
-      "name": "Flying Armbar",
+      "name": "Flying Armbar from Closed Guard",
       "relationship": "Similar dynamic aerial submission with comparable risk-reward profile"
     },
     {
@@ -144,7 +147,7 @@
       "relationship": "Alternative leg entanglement with similar control structure"
     },
     {
-      "name": "Flying Armbar",
+      "name": "Flying Armbar from Closed Guard",
       "relationship": "Similar dynamic aerial submission with comparable risk/reward profile"
     },
     {
@@ -203,6 +206,26 @@
       "variation_name": "Flying Kneebar from Failed Single Leg Defense",
       "description": "When opponent shoots single leg takedown on you, instead of sprawling or defending traditionally, jump over their back and rotate to flying kneebar on the leg they're attacking. This requires split-second recognition but converts their offense into your attack. Your rotation brings you to their back/side with leg trapped.",
       "when_to_use": "Against aggressive wrestlers or when opponent over-commits to single leg attempt with head low and poor posture - advanced timing required."
+    }
+  ],
+  "clips": [
+    {
+      "id": "IuBrliVbU24",
+      "title": "3 Steps to a Flying Kneebar",
+      "by": "Bermuda Martial Arts",
+      "vertical": false,
+      "channel": "Bermuda Martial Arts",
+      "duration": 25,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "l9qAHPNbCfM",
+      "title": "Flying Kneebar Attack",
+      "by": "High Rollerz",
+      "vertical": false,
+      "channel": "High Rollerz Jiu Jitsu 💨🥋",
+      "duration": 16,
+      "verified": "2026-07-14"
     }
   ]
 }

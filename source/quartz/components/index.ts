@@ -27,6 +27,7 @@ import Snackbar from "./Snackbar"
 import Flashcard from "./Flashcard"
 import VictoryDisplay from "./VictoryDisplay"
 import TreeExplorer from "./TreeExplorer"
+import CategoryNav from "./CategoryNav"
 import TopBar from "./TopBar"
 import AuthUI from "./AuthUI"
 import ContentPanel from "./ContentPanel"
@@ -39,6 +40,8 @@ import SessionChevrons from "./SessionChevrons"
 import RollSessionButton from "./RollSessionButton"
 import SystemProgress from "./SystemProgress"
 import AffiliateTracking from "./AffiliateTracking"
+import NeuralMount from "./NeuralMount"
+import SnapshotButton from "./SnapshotButton"
 
 export {
   ArticleTitle,
@@ -70,6 +73,7 @@ export {
   Flashcard,
   VictoryDisplay,
   TreeExplorer,
+  CategoryNav,
   TopBar,
   AuthUI,
   ContentPanel,
@@ -82,4 +86,6 @@ export {
   RollSessionButton,
   SystemProgress,
   AffiliateTracking,
+  NeuralMount,
+  SnapshotButton,
 }

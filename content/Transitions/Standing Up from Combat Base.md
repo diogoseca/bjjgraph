@@ -34,6 +34,54 @@ description: "Master standing up from combat base in BJJ. Learn grip retention, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Up from Combat Base \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to stand up in base",
+      "description": "Standing Up from Combat Base film study: How to stand up in base, taught by Chris Savarese.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S0rB1ddNifk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S0rB1ddNifk",
+      "url": "https://www.youtube.com/watch?v=S0rB1ddNifk",
+      "creator": { "@type": "Person", "name": "Chris Savarese" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "5 Guard Passes from Combat Base",
+      "description": "Standing Up from Combat Base film study: 5 Guard Passes from Combat Base, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k_s3ccPFU5g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k_s3ccPFU5g",
+      "url": "https://www.youtube.com/watch?v=k_s3ccPFU5g",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT349S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing Guard Break with Cross Grip",
+      "description": "Standing Up from Combat Base film study: Standing Guard Break with Cross Grip, taught by Utopia Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BGeCVaLJinQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BGeCVaLJinQ",
+      "url": "https://www.youtube.com/watch?v=BGeCVaLJinQ",
+      "creator": { "@type": "Person", "name": "Utopia Martial Arts" },
+      "duration": "PT188S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ However, the transition carries inherent risk during the moment between kneeling
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Up from Combat Base in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S0rB1ddNifk)
+
+<p class="clip-credit"><strong>How to stand up in base</strong> — taught by Chris Savarese · 1:14 · <a href="https://www.youtube.com/watch?v=S0rB1ddNifk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k_s3ccPFU5g)
+
+<p class="clip-credit"><strong>5 Guard Passes from Combat Base</strong> — taught by MMA Leech · 5:49 · <a href="https://www.youtube.com/watch?v=k_s3ccPFU5g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BGeCVaLJinQ)
+
+<p class="clip-credit"><strong>Standing Guard Break with Cross Grip</strong> — taught by Utopia Martial Arts · 3:08 · <a href="https://www.youtube.com/watch?v=BGeCVaLJinQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

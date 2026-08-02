@@ -34,6 +34,65 @@ description: "Master the Ten Finger Guillotine in BJJ. Comprehensive guide cover
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ten Finger Guillotine \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Grab Ten Finger Guillotine (No-Gi)",
+      "description": "Ten Finger Guillotine film study: Leg Grab Ten Finger Guillotine (No-Gi), taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vNjdZQOI-cs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vNjdZQOI-cs",
+      "url": "https://www.youtube.com/watch?v=vNjdZQOI-cs",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "10 Finger Grip Guillotine choke",
+      "description": "Ten Finger Guillotine film study: 10 Finger Grip Guillotine choke, taught by Big Dan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rYKci9GFisg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rYKci9GFisg",
+      "url": "https://www.youtube.com/watch?v=rYKci9GFisg",
+      "creator": { "@type": "Person", "name": "Big Dan" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front Headlock / Ten Finger Guillotine",
+      "description": "Ten Finger Guillotine film study: Front Headlock / Ten Finger Guillotine, taught by Torres Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GpP5UslUIGo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GpP5UslUIGo",
+      "url": "https://www.youtube.com/watch?v=GpP5UslUIGo",
+      "creator": { "@type": "Person", "name": "Torres Jiu-Jitsu" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Guillotine Finishing Mechanics",
+      "description": "Ten Finger Guillotine film study: Guillotine Finishing Mechanics, taught by John Combs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k_j0NLNwKDA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k_j0NLNwKDA",
+      "url": "https://www.youtube.com/watch?v=k_j0NLNwKDA",
+      "creator": { "@type": "Person", "name": "John Combs" },
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +112,7 @@ description: "Master the Ten Finger Guillotine in BJJ. Comprehensive guide cover
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Ten Finger Guillotine?", "acceptedAnswer": { "@type": "Answer", "text": "The Ten Finger Guillotine is a no-gi front-headlock choke in which both hands clasp with all ten fingers interlaced behind the opponent\u0027s neck, driving maximal carotid and tracheal compression through shoulder and lat engagement rather than arm strength." } },
-    { "@type": "Question", "name": "What positions can you finish the Ten Finger Guillotine from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Ten Finger Guillotine from Front Headlock, Guillotine Control." } },
+    { "@type": "Question", "name": "What positions can you finish the Ten Finger Guillotine from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Ten Finger Guillotine from Guillotine Control, Front Headlock." } },
     { "@type": "Question", "name": "Is the Ten Finger Guillotine dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Ten Finger Guillotine targets the Carotid arteries and trachea. Primary risk: Trachea damage from excessive crushing pressure. Tap early and release immediately on the tap." } }
   ]
 }
@@ -84,6 +143,50 @@ The submission works through a combination of blood restriction and airway compr
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ten Finger Guillotine in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vNjdZQOI-cs)
+
+<p class="clip-credit"><strong>Leg Grab Ten Finger Guillotine (No-Gi)</strong> — taught by ZombieProofBJJ · 1:29 · <a href="https://www.youtube.com/watch?v=vNjdZQOI-cs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rYKci9GFisg)
+
+<p class="clip-credit"><strong>10 Finger Grip Guillotine choke</strong> — taught by Big Dan · 0:20 · <a href="https://www.youtube.com/watch?v=rYKci9GFisg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GpP5UslUIGo)
+
+<p class="clip-credit"><strong>Front Headlock / Ten Finger Guillotine</strong> — taught by Torres Jiu-Jitsu · 2:11 · <a href="https://www.youtube.com/watch?v=GpP5UslUIGo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k_j0NLNwKDA)
+
+<p class="clip-credit"><strong>Guillotine Finishing Mechanics</strong> — taught by John Combs · 1:11 · <a href="https://www.youtube.com/watch?v=k_j0NLNwKDA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -93,8 +196,8 @@ The submission works through a combination of blood restriction and airway compr
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Ten Finger Guillotine/from Front Headlock|Front Headlock]] | Top | 62% | [[Submissions/Ten Finger Guillotine/from Front Headlock/Attacker|Attack →]] | [[Submissions/Ten Finger Guillotine/from Front Headlock/Defender|Defend →]] |
 | [[Submissions/Ten Finger Guillotine/from Guillotine Control|Guillotine Control]] | Top | 62% | [[Submissions/Ten Finger Guillotine/from Guillotine Control/Attacker|Attack →]] | [[Submissions/Ten Finger Guillotine/from Guillotine Control/Defender|Defend →]] |
+| [[Submissions/Ten Finger Guillotine/from Front Headlock|Front Headlock]] | Top | 52% | [[Submissions/Ten Finger Guillotine/from Front Headlock/Attacker|Attack →]] | [[Submissions/Ten Finger Guillotine/from Front Headlock/Defender|Defend →]] |
 
 
 </div>
@@ -118,13 +221,12 @@ The submission works through a combination of blood restriction and airway compr
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]] - Primary guillotine variation using standard grip configuration
+- [[Submissions/Guillotine Choke]] - Primary guillotine variation using standard grip configuration
 - [[Submissions/High Elbow Guillotine]] - High angle variation for defeating chin defense
 - [[Submissions/Arm in Guillotine]] - Arm-trapped variation trading choking efficiency for control
 - [[Transitions/Anaconda Choke]] - Transition option when opponent turns into the choke
-- [[Transitions/Darce Choke]] - Transition option when opponent turns away from pressure
-- [[Submissions/Chin Strap Guillotine]] - Alternative chin-based grip guillotine finish
-- [[Transitions/Arm Triangle]] - Related head-and-arm choke from front headlock transitions
+- [[Submissions/Darce Choke]] - Transition option when opponent turns away from pressure
+- [[Submissions/Arm Triangle]] - Related head-and-arm choke from front headlock transitions
 - [[Submissions/Brabo Choke]] - Gi-based head-and-arm choke alternative from similar positions
 - [[Positions/Hindulotine]] - Advanced guillotine variation from guard position
 - [[Positions/Front Headlock]] - Primary control position for entry

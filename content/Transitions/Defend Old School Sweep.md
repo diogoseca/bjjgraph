@@ -34,6 +34,43 @@ description: "Master defending the Old School Sweep in BJJ half guard. Counter l
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Defend Old School Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shutting down the half guard underhook",
+      "description": "Defend Old School Sweep film study: Shutting down the half guard underhook, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Whizzer counters to half guard underhook sweeps",
+      "description": "Defend Old School Sweep film study: Whizzer counters to half guard underhook sweeps, taught by Trillo Jiujitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9zyaoQWEEls/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9zyaoQWEEls",
+      "url": "https://www.youtube.com/watch?v=9zyaoQWEEls",
+      "creator": { "@type": "Person", "name": "Trillo Jiujitsu Academy" },
+      "duration": "PT232S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Timing is paramount in this defense. The whizzer must be established before the 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Defend Old School Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Shutting down the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9zyaoQWEEls)
+
+<p class="clip-credit"><strong>Whizzer counters to half guard underhook sweeps</strong> — taught by Trillo Jiujitsu Academy · 3:52 · <a href="https://www.youtube.com/watch?v=9zyaoQWEEls" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

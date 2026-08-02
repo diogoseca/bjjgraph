@@ -148,6 +148,54 @@ description: "How to defend against Gift Wrap to Technical Mount in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap to Technical Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the mount when stuck",
+      "description": "Gift Wrap to Technical Mount (Defender) film study: Escaping the mount when stuck, taught by Gabriel Gonzaga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
+      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
+      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Folding Technical Mount Escape",
+      "description": "Gift Wrap to Technical Mount (Defender) film study: Folding Technical Mount Escape, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UUfzOO0JouI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UUfzOO0JouI",
+      "url": "https://www.youtube.com/watch?v=UUfzOO0JouI",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Technical Mount - 4 Simple Escapes",
+      "description": "Gift Wrap to Technical Mount (Defender) film study: Technical Mount - 4 Simple Escapes, taught by Alan Merullo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YjWi3ijM-QA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YjWi3ijM-QA",
+      "url": "https://www.youtube.com/watch?v=YjWi3ijM-QA",
+      "creator": { "@type": "Person", "name": "Alan Merullo" },
+      "duration": "PT662S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The most favorable defensive outcomes involve either preventing the mount transi
 **Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap to Technical Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9252EvCT0q4)
+
+<p class="clip-credit"><strong>Escaping the mount when stuck</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UUfzOO0JouI)
+
+<p class="clip-credit"><strong>Folding Technical Mount Escape</strong> — taught by Inverted Gear · 0:50 · <a href="https://www.youtube.com/watch?v=UUfzOO0JouI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YjWi3ijM-QA)
+
+<p class="clip-credit"><strong>Technical Mount - 4 Simple Escapes</strong> — taught by Alan Merullo · 11:02 · <a href="https://www.youtube.com/watch?v=YjWi3ijM-QA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

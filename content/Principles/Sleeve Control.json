@@ -407,39 +407,158 @@
   "flashcards": [
     {
       "question": "Why should you grip the sleeve deep near the wrist rather than at the forearm or elbow?",
-      "answer": "Gripping at the wrist controls the endpoint of the arm's kinetic chain, maximizing leverage and preventing the opponent from circling the arm free or building strong frames."
+      "answer": "Gripping at the wrist controls the endpoint of the arm's kinetic chain, maximizing leverage and preventing the opponent from circling the arm free or building strong frames.",
+      "answer_line": "Locks the arm's kinetic endpoint",
+      "distractors": {
+        "plausible": [
+          "Grip forearm for more strength",
+          "Grip at the elbow instead"
+        ],
+        "trap": [
+          "Release grip once arm extends"
+        ]
+      }
     },
     {
       "question": "What is the core dilemma that strong sleeve control imposes on an opponent?",
-      "answer": "If they fight to break the grip they cannot advance their pass, but if they ignore it to advance they step into sweeps and submissions — either choice favors the guard player."
+      "answer": "If they fight to break the grip they cannot advance their pass, but if they ignore it to advance they step into sweeps and submissions — either choice favors the guard player.",
+      "answer_line": "Break grip or advance into sweep",
+      "distractors": {
+        "plausible": [
+          "Fighting the grip stops the pass",
+          "Ignoring the grip is always safe"
+        ],
+        "trap": [
+          "Grip fighting guarantees a pass"
+        ]
+      }
     },
     {
       "question": "Why is a single sleeve grip usually insufficient for real control?",
-      "answer": "A lone sleeve grip lets the opponent compensate with the free arm, circle away, or base with their legs; pairing it with a collar, pants, or second sleeve grip removes those escape routes."
+      "answer": "A lone sleeve grip lets the opponent compensate with the free arm, circle away, or base with their legs; pairing it with a collar, pants, or second sleeve grip removes those escape routes.",
+      "answer_line": "Pair it with a second grip",
+      "distractors": {
+        "plausible": [
+          "Single grip is enough control",
+          "Switch grips often to confuse"
+        ],
+        "trap": [
+          "Grip harder with one hand only"
+        ]
+      }
     },
     {
       "question": "How do you keep sleeve control when the opponent actively tries to strip the grip?",
-      "answer": "Transition fluidly between pistol, pocket, and lasso configurations, follow their movement instead of resisting statically, and connect the grip to your core through elbow and body structure."
+      "answer": "Transition fluidly between pistol, pocket, and lasso configurations, follow their movement instead of resisting statically, and connect the grip to your core through elbow and body structure.",
+      "answer_line": "Flow grip variations, don't fight",
+      "distractors": {
+        "plausible": [
+          "Squeeze harder to prevent strips",
+          "Switch to overhook when stripped"
+        ],
+        "trap": [
+          "Release grip to reset the fight"
+        ]
+      }
     },
     {
       "question": "What is the consequence of holding a static sleeve grip with no directional pull?",
-      "answer": "Static grips let the opponent keep good posture and base, so the grip becomes passive; you must pull across the centerline or at angles to actively disrupt their structure."
+      "answer": "Static grips let the opponent keep good posture and base, so the grip becomes passive; you must pull across the centerline or at angles to actively disrupt their structure.",
+      "answer_line": "Pull across centerline, not static",
+      "distractors": {
+        "plausible": [
+          "Hold grip tight without pulling",
+          "Pull straight back only"
+        ],
+        "trap": [
+          "Push the arm away to create space"
+        ]
+      }
     },
     {
       "question": "Why does extending the opponent's arm fail to break their posture on its own?",
-      "answer": "They can lean back to preserve posture despite the extended arm; you must pair the extension with collar, head, or leg pressure to break their spine forward."
+      "answer": "They can lean back to preserve posture despite the extended arm; you must pair the extension with collar, head, or leg pressure to break their spine forward.",
+      "answer_line": "Pair extension with collar pressure",
+      "distractors": {
+        "plausible": [
+          "Extending the arm alone works",
+          "Pull the head down only"
+        ],
+        "trap": [
+          "Just extend the arm further"
+        ]
+      }
     },
     {
       "question": "How does sleeve control let you regulate distance in guard?",
-      "answer": "Pulling the sleeve closes distance for triangles and omoplatas, while extending the arm fully creates space for defensive frames and re-guarding — matching distance to the intended technique."
+      "answer": "Pulling the sleeve closes distance for triangles and omoplatas, while extending the arm fully creates space for defensive frames and re-guarding — matching distance to the intended technique.",
+      "answer_line": "Pull closes, extend creates space",
+      "distractors": {
+        "plausible": [
+          "Always extend to control distance",
+          "Always pull to close all distance"
+        ],
+        "trap": [
+          "Push away to control distance"
+        ]
+      }
     },
     {
       "question": "Which guards are built primarily around sleeve control?",
-      "answer": "Spider guard (double sleeve with feet in biceps), lasso guard (leg threaded around the sleeve), collar-sleeve guard, and double-sleeve feet-on-hips all center on sleeve manipulation."
+      "answer": "Spider guard (double sleeve with feet in biceps), lasso guard (leg threaded around the sleeve), collar-sleeve guard, and double-sleeve feet-on-hips all center on sleeve manipulation.",
+      "answer_line": "Spider, lasso, collar-sleeve guards",
+      "distractors": {
+        "plausible": [
+          "Closed guard and half guard",
+          "De la Riva and butterfly guard"
+        ],
+        "trap": [
+          "Any guard works the same way"
+        ]
+      }
     },
     {
       "question": "Why grip with skeletal structure rather than arm muscles alone?",
-      "answer": "Pure muscular gripping fatigues quickly and fails as the match wears on; connecting the grip through elbow position and body angles lets your skeleton hold tension efficiently."
+      "answer": "Pure muscular gripping fatigues quickly and fails as the match wears on; connecting the grip through elbow position and body angles lets your skeleton hold tension efficiently.",
+      "answer_line": "Grip via skeleton, not muscle",
+      "distractors": {
+        "plausible": [
+          "Squeeze harder with forearm muscle",
+          "Change grip hand every round"
+        ],
+        "trap": [
+          "Grip as tight as possible always"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "MR4nJQ6qhuU",
+      "title": "Understanding gi grips: sleeve and collar control",
+      "by": "RVV BJJ",
+      "vertical": false,
+      "channel": "RVV BJJ",
+      "duration": 485,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "kPZh0ZZyZj0",
+      "title": "Roger Gracie on collar and sleeve closed guard",
+      "by": "Roger Gracie",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 718,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "1szGHQx-dv0",
+      "title": "The missing aspect of sleeve gripping in guard",
+      "by": "Jon Thomas",
+      "vertical": false,
+      "channel": "JonThomasBJJ",
+      "duration": 80,
+      "verified": "2026-07-15"
     }
   ]
 }

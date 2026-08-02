@@ -170,6 +170,54 @@ description: "How to execute Buggy Choke in BJJ. Attacking perspective with setu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke from Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Buggy Choke",
+      "description": "Buggy Choke from Half Guard (Attacker) film study: How To Buggy Choke, taught by Yoga for BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0VDUwuyT6N4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0VDUwuyT6N4",
+      "url": "https://www.youtube.com/watch?v=0VDUwuyT6N4",
+      "creator": { "@type": "Person", "name": "Yoga for BJJ" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The OG Buggy Choke",
+      "description": "Buggy Choke from Half Guard (Attacker) film study: The OG Buggy Choke, taught by Kade and Tye Ruotolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zixbOyLpoOc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zixbOyLpoOc",
+      "url": "https://www.youtube.com/watch?v=zixbOyLpoOc",
+      "creator": { "@type": "Person", "name": "Kade and Tye Ruotolo" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "3 Buggy Choke Concepts",
+      "description": "Buggy Choke from Half Guard (Attacker) film study: 3 Buggy Choke Concepts, taught by Kade and Tye Ruotolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0_3YYrWEGoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0_3YYrWEGoU",
+      "url": "https://www.youtube.com/watch?v=0_3YYrWEGoU",
+      "creator": { "@type": "Person", "name": "Kade and Tye Ruotolo" },
+      "duration": "PT201S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke from Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0VDUwuyT6N4)
+
+<p class="clip-credit"><strong>How To Buggy Choke</strong> — taught by Yoga for BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=0VDUwuyT6N4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zixbOyLpoOc)
+
+<p class="clip-credit"><strong>The OG Buggy Choke</strong> — taught by Kade and Tye Ruotolo · 2:18 · <a href="https://www.youtube.com/watch?v=zixbOyLpoOc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0_3YYrWEGoU)
+
+<p class="clip-credit"><strong>3 Buggy Choke Concepts</strong> — taught by Kade and Tye Ruotolo · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

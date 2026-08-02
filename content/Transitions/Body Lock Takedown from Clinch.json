@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Body Lock Takedown from Clinch is a chest-to-chest wrestling takedown where you clasp your hands around the opponent's torso at rib level and drive at a 45-degree angle to collapse their base, landing in side control.",
   "overview": "The Body Lock Takedown from Clinch is one of the highest-percentage takedowns in modern grappling, combining the security of a locked grip configuration with powerful driving mechanics to bring opponents to the mat and establish dominant side control. Unlike level-change takedowns such as double and single legs that require dropping beneath the opponent's center of gravity, the body lock takedown operates from chest-to-chest range, making it particularly effective against opponents with strong sprawl defense or those who maintain low, defensive postures that are difficult to penetrate with traditional shot-based entries.\n\nThe technique's effectiveness stems from the mechanical advantage created by interlocking the hands around the opponent's torso, which transfers your entire body's driving force directly into their center of mass. This grip configuration eliminates the wrist and grip-fighting battles common in other clinch takedowns and creates a unified system where your legs, hips, and upper body work as a single driving unit. The body lock also denies the opponent's ability to create separation, forcing them to deal with constant pressure while you manipulate their balance through angle changes and directional drives.\n\nIn competition BJJ and no-gi grappling, the body lock takedown has become a staple technique for practitioners who prefer to dictate where the fight goes to the ground. Its reliability, relatively low risk of back exposure, and consistent ability to land in side control make it a foundational takedown for any practitioner looking to build a complete standing game. The technique chains naturally with other clinch-based attacks, creating a takedown system where defending one threat opens opportunities for another.",
   "conditions": [
@@ -245,46 +257,175 @@
     "flashcards": [
       {
         "question": "What is the optimal grip height for the body lock and why does it matter for takedown mechanics?",
-        "answer": "The body lock should be secured at the level of the opponent's lower ribs, approximately at their navel line. This height controls the opponent's center of mass directly, meaning your driving force moves their entire body as a unit rather than just their upper torso. A grip too high around the chest allows the opponent to hip-switch independently of their upper body, negating your drive. A grip too low around the waist gives insufficient control of their posture and allows them to posture up and resist. The lower rib position creates the ideal balance between center-of-mass control and posture disruption."
+        "answer": "The body lock should be secured at the level of the opponent's lower ribs, approximately at their navel line. This height controls the opponent's center of mass directly, meaning your driving force moves their entire body as a unit rather than just their upper torso. A grip too high around the chest allows the opponent to hip-switch independently of their upper body, negating your drive. A grip too low around the waist gives insufficient control of their posture and allows them to posture up and resist. The lower rib position creates the ideal balance between center-of-mass control and posture disruption.",
+        "answer_line": "Lock at the lower ribs",
+        "distractors": {
+          "plausible": [
+            "Grip low around the waist",
+            "Grip at mid-back, hands laced"
+          ],
+          "trap": [
+            "Grip high around the chest"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back as you begin driving forward with the body lock - how do you adjust?",
-        "answer": "When the opponent sprawls, their hips move away from you but their upper body stays relatively close due to the body lock grip. This creates an opportunity to switch from a forward drive to a lateral drop by stepping to the side and pulling them across your hip, converting their backward resistance into rotational vulnerability. Alternatively, if the sprawl creates enough space, you can release the body lock on one side and immediately shoot for a single leg on their now weight-heavy lead leg. The key is recognizing the sprawl early and redirecting rather than fighting against their defensive angle."
+        "answer": "When the opponent sprawls, their hips move away from you but their upper body stays relatively close due to the body lock grip. This creates an opportunity to switch from a forward drive to a lateral drop by stepping to the side and pulling them across your hip, converting their backward resistance into rotational vulnerability. Alternatively, if the sprawl creates enough space, you can release the body lock on one side and immediately shoot for a single leg on their now weight-heavy lead leg. The key is recognizing the sprawl early and redirecting rather than fighting against their defensive angle.",
+        "answer_line": "Switch to lateral drop",
+        "distractors": {
+          "plausible": [
+            "Keep driving straight ahead",
+            "Switch to a double leg"
+          ],
+          "trap": [
+            "Release the lock, back off"
+          ]
+        }
       },
       {
         "question": "At what angle should you drive relative to your opponent and why is this critical?",
-        "answer": "Drive at a 45-degree angle toward the side where your head is positioned, not straight forward. A straight-line drive allows the opponent to resist with both legs equally, creating a symmetrical defensive structure that is very difficult to overcome. The 45-degree angle attacks their lateral balance, where they can only post with one leg, and their stance provides minimal resistance to sideways displacement. This angular drive also creates a natural path past their hip line, which is essential for completing the takedown without getting stuck in a stalemate."
+        "answer": "Drive at a 45-degree angle toward the side where your head is positioned, not straight forward. A straight-line drive allows the opponent to resist with both legs equally, creating a symmetrical defensive structure that is very difficult to overcome. The 45-degree angle attacks their lateral balance, where they can only post with one leg, and their stance provides minimal resistance to sideways displacement. This angular drive also creates a natural path past their hip line, which is essential for completing the takedown without getting stuck in a stalemate.",
+        "answer_line": "45° toward your head side",
+        "distractors": {
+          "plausible": [
+            "Straight-line forward drive",
+            "45° away from head side"
+          ],
+          "trap": [
+            "Circle fully around the back"
+          ]
+        }
       },
       {
         "question": "What determines which side you should position your head on for the body lock takedown?",
-        "answer": "Your head should be positioned on the side where you have the strongest underhook or better grip depth, as this creates the most mechanically advantageous driving angle. Additionally, position your head on the side where the opponent's base is weaker, typically the side where their stance is narrower or their foot is positioned further back. The head acts as a directional wedge that determines the entire takedown trajectory. Switching head sides mid-drive is extremely difficult and usually results in failed attempts, so commit to your head position before initiating the drive."
+        "answer": "Your head should be positioned on the side where you have the strongest underhook or better grip depth, as this creates the most mechanically advantageous driving angle. Additionally, position your head on the side where the opponent's base is weaker, typically the side where their stance is narrower or their foot is positioned further back. The head acts as a directional wedge that determines the entire takedown trajectory. Switching head sides mid-drive is extremely difficult and usually results in failed attempts, so commit to your head position before initiating the drive.",
+        "answer_line": "Head on strongest underhook side",
+        "distractors": {
+          "plausible": [
+            "Head toward opponent's strong side",
+            "Head on the taller side"
+          ],
+          "trap": [
+            "Switch head side mid-drive"
+          ]
+        }
       },
       {
         "question": "What is the most common grip placement error and how does it reduce takedown effectiveness?",
-        "answer": "The most common error is locking the body lock too high around the opponent's chest or armpits. This high grip controls the opponent's shoulders and upper torso but leaves their hips free to move independently. When you drive forward with a high grip, the opponent can simply hip-switch away from your driving angle, step their legs out of danger, or sprawl their hips back while their upper body moves with you. The correction is to ensure the grip is locked at the lower ribs, which binds the opponent's center of mass to your driving force and eliminates the hip independence that enables defensive footwork."
+        "answer": "The most common error is locking the body lock too high around the opponent's chest or armpits. This high grip controls the opponent's shoulders and upper torso but leaves their hips free to move independently. When you drive forward with a high grip, the opponent can simply hip-switch away from your driving angle, step their legs out of danger, or sprawl their hips back while their upper body moves with you. The correction is to ensure the grip is locked at the lower ribs, which binds the opponent's center of mass to your driving force and eliminates the hip independence that enables defensive footwork.",
+        "answer_line": "Grip locked too high on chest",
+        "distractors": {
+          "plausible": [
+            "Grip locked too low on hips",
+            "Grip loose, hands not locked"
+          ],
+          "trap": [
+            "Grip high, muscle through anyway"
+          ]
+        }
       },
       {
         "question": "Your opponent pummel-wins an underhook as you attempt to close the body lock grip - what is your immediate response?",
-        "answer": "Do not continue forcing the body lock closure against an established underhook, as this will fail and waste energy. Instead, address the underhook first by either re-pummeling aggressively to recover inside position, or transitioning to an alternative attack that uses the opponent's underhook against them. A snap down becomes highly available because the opponent's underhook commits their weight forward, and an arm drag on the underhook arm can expose their back. Once you have neutralized or recovered from their underhook, re-attempt the body lock closure. The body lock requires at minimum one underhook to establish properly."
+        "answer": "Do not continue forcing the body lock closure against an established underhook, as this will fail and waste energy. Instead, address the underhook first by either re-pummeling aggressively to recover inside position, or transitioning to an alternative attack that uses the opponent's underhook against them. A snap down becomes highly available because the opponent's underhook commits their weight forward, and an arm drag on the underhook arm can expose their back. Once you have neutralized or recovered from their underhook, re-attempt the body lock closure. The body lock requires at minimum one underhook to establish properly.",
+        "answer_line": "Re-pummel to regain inside position",
+        "distractors": {
+          "plausible": [
+            "Muscle the lock shut anyway",
+            "Drop levels for a double leg"
+          ],
+          "trap": [
+            "Turn your back to spin out"
+          ]
+        }
       },
       {
         "question": "What role do your legs and hips play in generating driving force for the takedown?",
-        "answer": "Your legs and hips are the primary power source for the entire takedown. The drive initiates from your back foot pushing off the mat, transferring force through your hips and into the locked body lock grip that connects you to the opponent's center of mass. Your hips drive forward and slightly downward, creating a force vector that both moves the opponent backward and breaks their posture downward. Your arms and locked grip serve only as a rigid transmission system that delivers the leg-generated power. Attempting to drive with upper body strength alone is inefficient, exhausting, and produces insufficient force to move a resisting opponent."
+        "answer": "Your legs and hips are the primary power source for the entire takedown. The drive initiates from your back foot pushing off the mat, transferring force through your hips and into the locked body lock grip that connects you to the opponent's center of mass. Your hips drive forward and slightly downward, creating a force vector that both moves the opponent backward and breaks their posture downward. Your arms and locked grip serve only as a rigid transmission system that delivers the leg-generated power. Attempting to drive with upper body strength alone is inefficient, exhausting, and produces insufficient force to move a resisting opponent.",
+        "answer_line": "Legs and hips drive the power",
+        "distractors": {
+          "plausible": [
+            "Arms and shoulders drive power",
+            "Back muscles generate the drive"
+          ],
+          "trap": [
+            "Pull hard with arms only"
+          ]
+        }
       },
       {
         "question": "If your initial drive is stuffed but you maintain the body lock grip, what chain attacks become available?",
-        "answer": "With the body lock maintained after a stuffed drive, several chain attacks open. First, an inside trip on the opponent's lead leg becomes available because their weight is distributed defensively against your drive. Second, a lateral drop to the opposite side catches them off-guard since their defensive positioning is oriented against the original drive direction. Third, you can release one hand and attack a knee tap or single leg while maintaining upper body control with the remaining arm. Fourth, a second drive attempt with an angle change often succeeds because the opponent's defensive posture from the first attempt compromises their base for a different direction."
+        "answer": "With the body lock maintained after a stuffed drive, several chain attacks open. First, an inside trip on the opponent's lead leg becomes available because their weight is distributed defensively against your drive. Second, a lateral drop to the opposite side catches them off-guard since their defensive positioning is oriented against the original drive direction. Third, you can release one hand and attack a knee tap or single leg while maintaining upper body control with the remaining arm. Fourth, a second drive attempt with an angle change often succeeds because the opponent's defensive posture from the first attempt compromises their base for a different direction.",
+        "answer_line": "Inside trip or lateral drop",
+        "distractors": {
+          "plausible": [
+            "Reset to a neutral tie-up",
+            "Bail and shoot a double leg"
+          ],
+          "trap": [
+            "Bury your head and re-drive"
+          ]
+        }
       },
       {
         "question": "Why is it critical to maintain chest-to-chest contact throughout the entire takedown sequence?",
-        "answer": "Chest-to-chest contact serves three essential functions. First, it eliminates the space the opponent needs to insert defensive frames with their forearms or elbows, which would create separation and kill the drive. Second, it ensures your body weight contributes to the forward pressure throughout the takedown, adding gravitational force to your driving power. Third, during the descent to the mat, chest contact prevents the opponent from creating distance to recover guard hooks or establish defensive structures before you can transition to side control. Any separation during any phase of the takedown creates defensive opportunities that the opponent will exploit."
+        "answer": "Chest-to-chest contact serves three essential functions. First, it eliminates the space the opponent needs to insert defensive frames with their forearms or elbows, which would create separation and kill the drive. Second, it ensures your body weight contributes to the forward pressure throughout the takedown, adding gravitational force to your driving power. Third, during the descent to the mat, chest contact prevents the opponent from creating distance to recover guard hooks or establish defensive structures before you can transition to side control. Any separation during any phase of the takedown creates defensive opportunities that the opponent will exploit.",
+        "answer_line": "Kills frames, denies escape space",
+        "distractors": {
+          "plausible": [
+            "Improves your grip strength",
+            "Keeps opponent's balance even"
+          ],
+          "trap": [
+            "Create space to generate power"
+          ]
+        }
       },
       {
         "question": "What is the correct body positioning during the transition from completed takedown to side control?",
-        "answer": "Immediately after landing, release the body lock grip within one to two seconds and establish side control by driving your near forearm across the opponent's face for a crossface while your far hand blocks their hip to prevent knee insertion. Sprawl your legs backward to remove your hips from the opponent's guard recovery range, preventing them from hooking your legs for half guard or closed guard. Your chest should remain perpendicular to the opponent's torso with heavy shoulder pressure driving their head away from you. The speed of this transition is critical because the window between landing and the opponent establishing defensive structures is extremely brief."
+        "answer": "Immediately after landing, release the body lock grip within one to two seconds and establish side control by driving your near forearm across the opponent's face for a crossface while your far hand blocks their hip to prevent knee insertion. Sprawl your legs backward to remove your hips from the opponent's guard recovery range, preventing them from hooking your legs for half guard or closed guard. Your chest should remain perpendicular to the opponent's torso with heavy shoulder pressure driving their head away from you. The speed of this transition is critical because the window between landing and the opponent establishing defensive structures is extremely brief.",
+        "answer_line": "Crossface, block hip, sprawl legs",
+        "distractors": {
+          "plausible": [
+            "Sit back and catch your breath",
+            "Go straight for a submission"
+          ],
+          "trap": [
+            "Stay chest-to-chest, hips forward"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Body lock takedowns involve significant impact forces when practitioners hit the mat. Always practice on appropriate matting surfaces with sufficient padding, and increase resistance and speed gradually across training sessions. The attacker must guide the descent and control the landing rather than slamming, as uncontrolled impact can cause head, neck, and shoulder injuries. Partners should communicate about intensity level and any pre-existing injuries before drilling. Beginners should focus on slow, controlled repetitions to build proper mechanics before adding speed and power. When drilling at higher intensity, the attacker is responsible for their partner's safety during the fall."
+    "safety_considerations": "Body lock takedowns involve significant impact forces when practitioners hit the mat. Always practice on appropriate matting surfaces with sufficient padding, and increase resistance and speed gradually across training sessions. The attacker must guide the descent and control the landing rather than slamming, as uncontrolled impact can cause head, neck, and shoulder injuries. Partners should communicate about intensity level and any pre-existing injuries before drilling. Beginners should focus on slow, controlled repetitions to build proper mechanics before adding speed and power. When drilling at higher intensity, the attacker is responsible for their partner's safety during the fall.",
+    "clips": [
+      {
+        "id": "GOwulE_PIMg",
+        "title": "Body lock takedown from the clinch",
+        "by": "Blue Base Jiu Jitsu",
+        "vertical": false,
+        "channel": "Blue Base Jiu Jitsu",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GnJ6_s4x8Ns",
+        "title": "Body lock takedown from the clinch",
+        "by": "Cris Cyborg",
+        "vertical": false,
+        "channel": "Cris Cyborg",
+        "duration": 134,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2gknwIfTeN0",
+        "title": "Four body lock takedowns",
+        "by": "CSW Fullerton",
+        "vertical": false,
+        "channel": "CSW Fullerton",
+        "duration": 194,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Body Lock Takedown from Clinch Defender",
@@ -370,19 +511,59 @@
     "flashcards": [
       {
         "question": "What is the earliest point at which you can recognize and defend a body lock takedown attempt?",
-        "answer": "The earliest recognition point is during the grip-fighting phase when the opponent begins transitioning from standard clinch grips to body-wrapping arm positioning. Watch for them releasing collar ties or head control to swim both arms toward your back. At this stage, aggressive hand fighting and maintaining at least one underhook prevents the body lock from closing, which is significantly easier than defending after the grip is locked. The window between the opponent releasing their clinch grips and establishing the body lock is the highest-percentage defensive opportunity."
+        "answer": "The earliest recognition point is during the grip-fighting phase when the opponent begins transitioning from standard clinch grips to body-wrapping arm positioning. Watch for them releasing collar ties or head control to swim both arms toward your back. At this stage, aggressive hand fighting and maintaining at least one underhook prevents the body lock from closing, which is significantly easier than defending after the grip is locked. The window between the opponent releasing their clinch grips and establishing the body lock is the highest-percentage defensive opportunity.",
+        "answer_line": "Opponent swims arms to your back",
+        "distractors": {
+          "plausible": [
+            "When hips start driving forward",
+            "When they secure the body lock"
+          ],
+          "trap": [
+            "Wait until the lock is secured"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured the body lock and begins loading their hips for the drive - what is your highest-percentage defensive response?",
-        "answer": "Immediately drop your hips by bending your knees deeply, lowering your center of gravity to make driving significantly harder. Simultaneously establish an overhook on one side and use your free hand to frame against the opponent's hip on the driving side. Sprawl your hips back if they begin the drive and circle toward the overhook side to break their driving angle. If the drive progresses despite your defense, transition to hooking their near leg with your inside leg to ensure you land in half guard rather than side control. The layered response of lower hips, frame, sprawl, and leg hook provides multiple defensive checkpoints."
+        "answer": "Immediately drop your hips by bending your knees deeply, lowering your center of gravity to make driving significantly harder. Simultaneously establish an overhook on one side and use your free hand to frame against the opponent's hip on the driving side. Sprawl your hips back if they begin the drive and circle toward the overhook side to break their driving angle. If the drive progresses despite your defense, transition to hooking their near leg with your inside leg to ensure you land in half guard rather than side control. The layered response of lower hips, frame, sprawl, and leg hook provides multiple defensive checkpoints.",
+        "answer_line": "Drop hips, frame, overhook, sprawl",
+        "distractors": {
+          "plausible": [
+            "Push chest with straight arms",
+            "Pull opponent's head down"
+          ],
+          "trap": [
+            "Stand tall, push away with arms"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to lean forward and push the attacker's chest when defending the body lock?",
-        "answer": "Leaning forward and pushing with extended arms creates exactly the body alignment the attacker exploits. Your forward lean brings your center of gravity ahead of your base, making it easier for the attacker to redirect your momentum downward. Extended arms provide no structural resistance to a lateral or angular drive because they lack skeletal alignment in those directions. Additionally, extended arms are vulnerable to kimura and americana transitions if the exchange goes to ground. Instead, keep elbows tight, lower your hips, and frame against the attacker's hips with compact forearm structures."
+        "answer": "Leaning forward and pushing with extended arms creates exactly the body alignment the attacker exploits. Your forward lean brings your center of gravity ahead of your base, making it easier for the attacker to redirect your momentum downward. Extended arms provide no structural resistance to a lateral or angular drive because they lack skeletal alignment in those directions. Additionally, extended arms are vulnerable to kimura and americana transitions if the exchange goes to ground. Instead, keep elbows tight, lower your hips, and frame against the attacker's hips with compact forearm structures.",
+        "answer_line": "Raises your center, no structure",
+        "distractors": {
+          "plausible": [
+            "Tires out your grip faster",
+            "Signals your intent too early"
+          ],
+          "trap": [
+            "Extend arms, push chest hard"
+          ]
+        }
       },
       {
         "question": "If you cannot prevent the takedown from completing, what should your priority be during the descent to the mat?",
-        "answer": "Your primary goal during an inevitable takedown is controlling the landing position to avoid ending in side control. As you feel yourself going down, immediately hook the attacker's near leg with your inside leg to establish half guard, which gives you a guard position rather than a passed position. Turn your body to face the attacker during the fall rather than landing flat on your back, and establish at least one underhook before you hit the mat. Arriving on your side with a half guard hook and an underhook gives you immediate offensive options from half guard bottom, which is dramatically better than surviving side control."
+        "answer": "Your primary goal during an inevitable takedown is controlling the landing position to avoid ending in side control. As you feel yourself going down, immediately hook the attacker's near leg with your inside leg to establish half guard, which gives you a guard position rather than a passed position. Turn your body to face the attacker during the fall rather than landing flat on your back, and establish at least one underhook before you hit the mat. Arriving on your side with a half guard hook and an underhook gives you immediate offensive options from half guard bottom, which is dramatically better than surviving side control.",
+        "answer_line": "Hook near leg, land in half guard",
+        "distractors": {
+          "plausible": [
+            "Land flat on your back",
+            "Turn away, protect your face"
+          ],
+          "trap": [
+            "Go limp, let them control it"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -405,6 +586,35 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full-speed defensive application in sparring",
         "description": "Positional sparring starting from clinch where the attacker seeks the body lock takedown and the defender applies the complete defensive system. Score points for grip denial, successful sprawl defense, and establishing half guard on landing. Build automatic defensive responses under competitive pressure and timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "4HaZwBmkFgk",
+        "title": "Defending the body lock in the clinch",
+        "by": "TJ Dillashaw",
+        "vertical": false,
+        "channel": "Dynamic Striking",
+        "duration": 207,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zMtDSUENjIA",
+        "title": "Bump and Dig: Body Lock Takedown Defense",
+        "by": "SBG Alabama coach",
+        "vertical": false,
+        "channel": "Spartan Fitness MMA Birmingham, AL (SBG Alabama)",
+        "duration": 305,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DFXdqByRxNg",
+        "title": "Standing Rear Body Lock: Counters and Defense",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 318,
+        "verified": "2026-07-15"
       }
     ]
   }

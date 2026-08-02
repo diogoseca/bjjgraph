@@ -21,7 +21,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Standing Back Control",
   "from_position": "Standing Back Control/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The rear naked choke from standing back control exploits a unique window of vulnerability that exists when the attacker has back exposure while both practitioners remain on their feet. Unlike the grounded version where hooks and mat friction provide stability, the standing variant relies on chest-to-back pressure, dynamic weight management, and the psychological pressure of vertical grappling to create finishing opportunities. The choking mechanics remain identical — compressing the carotid arteries through a figure-four arm configuration — but the setup pathway and positional management differ substantially from seated or supine back control.\n\nFrom a strategic standpoint, this submission thrives on the inherent instability of standing back control. The defender must simultaneously manage balance, protect the neck, fight grips, and prevent being taken down, which overloads their defensive capacity. Skilled attackers exploit this cognitive burden by threatening the takedown to open the neck, or threatening the choke to force a defensive posture that enables the mat return. The choke can be finished standing, during the transition to the ground, or immediately after establishing grounded back control, making it a versatile weapon across the full spectrum of the standing-to-ground continuum.\n\nAt the competition level, standing back control finishes appear frequently in both gi and no-gi contexts, particularly following successful takedown entries, scramble back takes, and clinch-to-back transitions. The position rewards practitioners who understand timing windows — recognizing when the defender's hands are occupied with balance rather than neck protection — and who can thread the choking arm with precision under dynamic conditions.",
   "safety_considerations": {
     "injury_risks": [
@@ -113,17 +116,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Standing Back Control/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
@@ -289,57 +301,196 @@
       {
         "question": "What anatomical structures does the rear naked choke compress to cause the tap?",
         "answer": "The rear naked choke compresses both carotid arteries using the blade of the choking forearm on one side and the bicep of the locking arm on the other. This bilateral compression restricts blood flow to the brain, causing rapid loss of consciousness within 4-10 seconds of a properly locked choke. The trachea should remain in the pocket created by the crook of the elbow and should not receive direct pressure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "The jugular veins, both sides",
+            "The windpipe (an air choke)"
+          ],
+          "trap": [
+            "The spine — it's a neck crank"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin tightly and you cannot thread your forearm under — what adjustment creates the opening?",
         "answer": "Thread the forearm along the jawline rather than fighting to go under the chin directly. Apply pressure to the mandible which forces the chin upward and creates the gap. Alternatively, use the knuckle of your index finger as a wedge along the jaw line to create space. You can also threaten a level change or takedown to force their hands away from their neck, then thread when the chin lifts reactively during the balance adjustment.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Press mandible, not chin",
+        "distractors": {
+          "plausible": [
+            "Force under the chin harder",
+            "Abandon back for arm-triangle"
+          ],
+          "trap": [
+            "Two-hand chin, drop harness"
+          ]
+        }
       },
       {
         "question": "What are the key differences between finishing the choke standing versus following the opponent to the ground?",
         "answer": "Standing finishes rely on dynamic balance management and exploiting brief defensive windows while the opponent's hands are occupied with balance. Ground finishes provide stability through mat friction and hooks, allowing a more patient squeeze. The standing position gives less time but more defensive overload opportunities. Most high-level finishes occur during the transition — the descent splits the opponent's attention between fall protection and choke defense, creating the best window to complete the lock.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Best window is the descent",
+        "distractors": {
+          "plausible": [
+            "Ground squeeze is always faster",
+            "Standing finish is more secure"
+          ],
+          "trap": [
+            "Wait it out standing patiently"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the choke is properly positioned on the carotid arteries rather than the trachea?",
         "answer": "A properly positioned blood choke produces steady bilateral pressure without significant pain complaints from the training partner. The opponent will feel lightheaded and their vision may narrow before feeling unable to breathe. If the opponent reports sharp pain in the throat, coughs, or gags, the forearm is likely on the trachea. The elbow should be centered on the sternum with the forearm blade sitting in the soft tissue lateral to the windpipe on the choking side.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lightheaded, no throat pain",
+        "distractors": {
+          "plausible": [
+            "Opponent gasping loudly",
+            "Immediate full unconsciousness"
+          ],
+          "trap": [
+            "Sharp throat pain, coughing"
+          ]
+        }
       },
       {
         "question": "Why must the figure-four lock be positioned behind the head rather than behind the neck?",
         "answer": "The hand behind the head acts as a wedge that pushes the opponent's head forward into the choking forearm, creating a closed structural system. When locked behind the neck instead, the opponent can pull the choking arm downward because there is no counterpressure driving their neck into the forearm. The head-behind position makes the choke self-tightening — any defensive movement pushes the neck deeper into the compression rather than creating escape angles.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Head hand wedges neck forward",
+        "distractors": {
+          "plausible": [
+            "Behind neck locks tighter",
+            "Behind neck is more comfortable"
+          ],
+          "trap": [
+            "Behind neck, they strip the arm"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to turn their shoulders explosively while you have the harness but no choke locked — how do you respond?",
         "answer": "Follow the rotation by circling with the opponent while maintaining chest-to-back connection and harness grip. Do not fight their momentum head-on. If they complete a partial turn and you lose back angle, transition to a front headlock or arm triangle setup rather than forcing back control against their rotation. If they only turn slightly, use the momentum to take them down and establish grounded back control where their rotation options are limited by the mat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow rotation, keep connection",
+        "distractors": {
+          "plausible": [
+            "Fight rotation, hold harness",
+            "Release grips, reset entry"
+          ],
+          "trap": [
+            "Force choke through the turn"
+          ]
+        }
       },
       {
         "question": "How should you release the choke immediately after your partner taps during standing training?",
         "answer": "Release the choking arm instantly upon feeling or hearing the tap. Remove all body control grips and hooks. Because you are standing, carefully guide your partner to a controlled seated or side-lying position rather than simply releasing them to stumble. Monitor their consciousness and breathing for 30 seconds. If they lost consciousness at any point, keep them lying down until fully alert and oriented. Never allow an unconscious partner to stand — the risk of secondary fall injury is significant.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, guide down, monitor",
+        "distractors": {
+          "plausible": [
+            "Release and step away quickly",
+            "Let them stand up themselves"
+          ],
+          "trap": [
+            "Keep light pressure, then release"
+          ]
+        }
       },
       {
         "question": "What is the correct squeezing mechanic that produces efficient compression without rapid arm fatigue?",
         "answer": "The squeeze comes from expanding your chest and squeezing your elbows toward each other using your back muscles, not from pulling with your biceps. Your arms maintain the structural shape of the figure-four while your torso provides the compressive force. Think of making your chest bigger rather than pulling your arms tighter. This uses larger, more fatigue-resistant muscle groups and produces a structural compression that the opponent cannot simply muscle out of.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Expand chest, not pull arms",
+        "distractors": {
+          "plausible": [
+            "Pull hard with both biceps",
+            "Yank head down and in"
+          ],
+          "trap": [
+            "Crank the neck sideways"
+          ]
+        }
       },
       {
         "question": "At what point during the standing RNC sequence does the opponent reach the point of no escape?",
         "answer": "The point of no escape occurs when the figure-four is locked behind the head with the choking forearm correctly positioned across both carotid arteries. Before the lock is completed, the defender can still strip the choking arm with two-on-one grip fighting. Once the hand is placed behind the head and the structural triangle is closed, the defender's only realistic option is to tap. The window between threading the arm under the chin and completing the figure-four lock is the critical race — attackers must minimize this transition time while defenders must exploit it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four locked behind head",
+        "distractors": {
+          "plausible": [
+            "Forearm first touches neck",
+            "Both hooks in on the back"
+          ],
+          "trap": [
+            "As soon as harness is on"
+          ]
+        }
       },
       {
         "question": "How do you adjust your grip sequence when the opponent peels your choking hand off their bicep before the figure-four is fully locked?",
         "answer": "If they strip the hand-to-bicep connection, immediately switch to a short choke by grabbing your own forearm or wrist instead of the bicep, maintaining forearm pressure across the neck. Alternatively, use a gable grip behind the head for a modified finish. The key is to never release the forearm from the neck position while transitioning grips — the blade stays on the arteries while only the locking configuration changes. Releasing the forearm to re-attempt the bicep grip resets the entire attack and gives the defender time to rebuild their shell.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to short choke grip",
+        "distractors": {
+          "plausible": [
+            "Release and re-grab the bicep",
+            "Abandon choke, retake back"
+          ],
+          "trap": [
+            "Pull forearm off to reset"
+          ]
+        }
       },
       {
         "question": "In competition, when should you commit to finishing the choke standing versus deliberately taking your opponent down first?",
         "answer": "Commit to the standing finish when you have the figure-four locked or nearly locked and the opponent's defensive hands are already defeated. Take them down first when you have strong harness control but cannot clear the defending hands, or when the opponent's base is compromised and a controlled descent will tighten your existing grips. The worst competition decision is attempting a standing finish with an unlocked choke against an opponent with active hand defense — this burns time and energy. Use the takedown as a submission setup rather than treating standing and ground finishes as separate strategies.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Commit when figure-four is set",
+        "distractors": {
+          "plausible": [
+            "Always finish standing first",
+            "Always take down immediately"
+          ],
+          "trap": [
+            "Force lock vs active hand defense"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "eMbkVDRreIQ",
+        "title": "3 favorite chokes from the back",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 87,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JVw1AvVRWQs",
+        "title": "Rear naked choke from standing",
+        "by": "Teach Me NoGi",
+        "vertical": false,
+        "channel": "Teach Me NoGi",
+        "duration": 150,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Sb-atqD_TqQ",
+        "title": "Short choke from back position",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 55,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -428,42 +579,122 @@
       {
         "question": "What is the absolute first priority when you feel the choking arm threading under your chin?",
         "answer": "Immediately use both hands to grab the choking arm wrist and forearm with a two-on-one grip, pulling it away from your neck before the figure-four can be locked. Simultaneously tuck your chin as tightly as possible to your chest. Once the figure-four is locked behind your head, escape becomes dramatically more difficult, so the window to stop the threading arm is the critical moment.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Two-on-one strip, tuck chin",
+        "distractors": {
+          "plausible": [
+            "Push away, create distance",
+            "Drop to guard immediately"
+          ],
+          "trap": [
+            "Pull the arm down to chest"
+          ]
+        }
       },
       {
         "question": "When should you tap to a rear naked choke rather than continuing to fight the escape?",
         "answer": "Tap immediately when you feel the figure-four locked behind your head and bilateral pressure on both carotid arteries, or when you notice any vision changes such as tunnel vision or darkening. In training, there is no benefit to fighting a fully locked blood choke — loss of consciousness occurs within 4-10 seconds and continuing to fight risks going unconscious without tapping. Tap early, learn from the positional failure, and drill the earlier defensive windows.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap once figure-four is locked",
+        "distractors": {
+          "plausible": [
+            "Tap only if you go limp",
+            "Wait to see if refs stop it"
+          ],
+          "trap": [
+            "Keep fighting, trust cardio"
+          ]
+        }
       },
       {
         "question": "Why is controlling your descent to the ground often a better defensive strategy than fighting to stay standing?",
         "answer": "Dropping to turtle or guard on your own terms changes the angle of the choke attack, provides the mat as an additional defensive surface, and opens escape sequences unavailable while standing. Fighting to stay standing while the choke is being set up divides your attention between balance and neck defense, making both worse. A controlled descent also prevents the attacker from slamming or forcefully taking you down, which could compound the danger of a partially locked choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drop to turtle or guard",
+        "distractors": {
+          "plausible": [
+            "Always sprawl to stay standing",
+            "Push away and create space"
+          ],
+          "trap": [
+            "Fight the descent, stay upright"
+          ]
+        }
       },
       {
         "question": "What defensive hand position should you maintain before beginning any escape attempt?",
         "answer": "Both hands should form a defensive shell around your neck — one hand controls the opponent's choking arm wrist, the other hand cups your own neck or reinforces the grip on the choking arm. Your chin is tucked tightly to your chest. This shell must remain in place until you actively strip the choking arm. Removing your hands to attempt escapes, push the opponent away, or grab their legs exposes your neck to the finish and should never be done before neutralizing the choke threat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both hands control the arm",
+        "distractors": {
+          "plausible": [
+            "One hand pushes opponent away",
+            "Hands grab opponent's legs"
+          ],
+          "trap": [
+            "Drop hands, shrimp immediately"
+          ]
+        }
       },
       {
         "question": "How does the standing variant change your defensive urgency compared to ground-based rear naked choke defense?",
         "answer": "The standing variant increases urgency because you face simultaneous threats — the choke itself, loss of balance, and the risk of falling while the choke is partially locked. Unlike ground defense where you can use the mat for leverage and frames, standing defense relies almost entirely on grip fighting and hip movement. However, the standing position also creates opportunity: the inherent instability means the attacker's control is less secure, and explosive direction changes can create separation impossible when the attacker has hooks and mat pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Balance risk raises urgency",
+        "distractors": {
+          "plausible": [
+            "Standing defense is easier overall",
+            "Ground defense has no options"
+          ],
+          "trap": [
+            "Ignore balance, focus neck only"
+          ]
+        }
       },
       {
         "question": "Your attacker has threaded the choking arm deep and is reaching for their bicep to lock the figure-four — what is your last window of defense?",
         "answer": "This is the final critical window before the choke becomes structurally locked. Use both hands to attack the wrist of the choking arm, pulling it away from the bicep connection point. Simultaneously shrug your near shoulder up into the crook of the choking arm elbow to create space and reduce arterial compression. If you cannot prevent the hand-to-bicep connection within 1-2 seconds, immediately initiate a controlled drop while continuing to fight the grip — the angle change during descent may create enough slack to prevent the full lock.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Attack wrist, shrug shoulder up",
+        "distractors": {
+          "plausible": [
+            "Push opponent's hips away",
+            "Grab their far leg for takedown"
+          ],
+          "trap": [
+            "Pull the arm down and out"
+          ]
+        }
       },
       {
         "question": "What is the correct direction to strip the choking arm once it has threaded under your chin but the figure-four is not yet locked?",
         "answer": "Strip the choking arm upward toward your chin and over the top of your head, or peel it laterally away from the side of your neck using two-on-one control. Never pull the forearm downward toward your chest, as this motion drags the blade of the forearm across the carotid arteries and can actually deepen the choke. The stripping direction must move the forearm away from the arterial targets, not across them. Think of peeling the arm off like removing a scarf over your head rather than pulling it down around your neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip up and over your head",
+        "distractors": {
+          "plausible": [
+            "Push the elbow forward",
+            "Pry it with one hand"
+          ],
+          "trap": [
+            "Pull the forearm down hard"
+          ]
+        }
       },
       {
         "question": "How should you recognize the difference between a blood choke that requires an immediate tap and a discomforting but survivable jaw or neck crank?",
         "answer": "A properly applied blood choke produces a sensation of lightheadedness, visual narrowing or tunnel vision, and a feeling of fading consciousness without necessarily causing sharp pain. A jaw crank or neck crank produces localized pain in the jaw, teeth, or cervical spine without the lightheadedness. However, in training you should tap to both — a crank can cause injury and a choke can render you unconscious within seconds. The distinction matters for defensive positioning: against a blood choke, immediate grip stripping is paramount; against a crank, adjusting head angle can relieve pressure while you work the escape.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lightheaded vs localized pain",
+        "distractors": {
+          "plausible": [
+            "Both cause identical pain",
+            "Crank causes fading vision too"
+          ],
+          "trap": [
+            "Ignore crank, only fear chokes"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -486,6 +717,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Real-time defensive decision making under full pressure",
         "description": "Full resistance positional rounds starting from standing back control. Defender works to escape or neutralize the choke, attacker works for the finish. 2-minute rounds resetting on submission or complete escape. Focus on applying the defensive sequence under genuine pressure while maintaining composure and recognizing tap moments."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rlJlNeccbEw",
+        "title": "Standing rear naked choke defense",
+        "by": "SAMA Self Defense",
+        "vertical": false,
+        "channel": "SAMA Self Defense",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "UQO3V3Uo3t4",
+        "title": "Three rear choke defenses everyone should know",
+        "by": "Gracie Breakdown",
+        "vertical": false,
+        "channel": "GracieBreakdown",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I43ALzc733w",
+        "title": "Escape the back control",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 71,
+        "verified": "2026-07-14"
       }
     ]
   }

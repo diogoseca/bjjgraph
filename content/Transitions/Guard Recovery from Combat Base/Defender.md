@@ -140,6 +140,32 @@ description: "Prevent guard recovery from combat base as the top player in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Combat Base (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Building a complete passing game",
+      "description": "Guard Recovery from Combat Base (Defender) film study: Building a complete passing game, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wDz5D3BzPMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wDz5D3BzPMs",
+      "url": "https://www.youtube.com/watch?v=wDz5D3BzPMs",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT227S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +175,26 @@ As the top player in combat base, your opponent's guard recovery attempt represe
 **Opponent's Starting Position**: [[Positions/Combat Base]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Combat Base (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wDz5D3BzPMs)
+
+<p class="clip-credit"><strong>Building a complete passing game</strong> — taught by Bernardo Faria · 3:47 · <a href="https://www.youtube.com/watch?v=wDz5D3BzPMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

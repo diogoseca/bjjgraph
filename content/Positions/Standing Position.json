@@ -106,143 +106,248 @@
     "transitions": [
       {
         "transition": "Guard Pull",
-        "attempt_probability": 33
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 7
+        }
       },
       {
-        "transition": "Sprawl Defense from Standing",
-        "attempt_probability": 10
+        "transition": "Sprawl Defense",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 5
+        }
       },
       {
         "transition": "Single Leg Entry",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 10
+        }
       },
       {
         "transition": "Double Leg Setup",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 8
+        }
       },
       {
         "transition": "Sprawl",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
       },
       {
         "transition": "Knee Tap",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Double Leg Entry",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 6
+        }
       },
       {
         "transition": "Snap Down to Front Headlock",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 7
+        }
       },
       {
         "transition": "Arm Drag",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
       },
       {
         "transition": "Ankle Pick",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Arm Drag to Back",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Body Lock Takedown",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 5
+        }
       },
       {
         "transition": "Jumping Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 1
+        }
       },
       {
         "transition": "Osoto Gari",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 2
+        }
       },
       {
         "transition": "Ouchi Gari",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 1
+        }
       },
       {
         "transition": "Tomoe Nage",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Deashi Harai",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Harai Goshi",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 1
+        }
       },
       {
         "transition": "Ippon Seoi Nage",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 1
+        }
       },
       {
         "transition": "Russian Tie to Back Take",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 3
+        }
       },
       {
         "transition": "Sumi Gaeshi",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Tani Otoshi",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "50-50 Entry from Standing",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
       },
       {
         "transition": "Body Lock Pass",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
       },
       {
         "transition": "Kosoto Gake",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Kosoto Gari",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 1
+        }
       },
       {
         "transition": "Morote Seoi Nage",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 1
+        }
       },
       {
         "transition": "Sasae Tsurikomi Ashi",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Tai Otoshi",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Flying Kneebar",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Reverse Kimura",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 1
+        }
       },
       {
         "transition": "Single Leg to Back Take",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 3
+        }
       },
       {
         "transition": "Flying Kneebar from Standing Position",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Kimura from Standing",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
       },
       {
         "transition": "Reverse Kimura from Standing Position",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
+      },
+      {
+        "transition": "Collar Drag",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 0
+        }
+      },
+      {
+        "transition": "Shin to Shin Pull",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Standing to Single Leg X",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 3
+        }
       }
     ],
     "decision_tree": [
@@ -475,35 +580,144 @@
     "flashcards": [
       {
         "question": "Your opponent suddenly drops their level and shoots a double leg from distance - what is your immediate defensive priority and body positioning?",
-        "answer": "Your immediate priority is to sprawl by driving your hips down and back while posting your hands on the opponent's head and shoulders. Drop your weight onto their upper back to kill the shot's forward momentum. Avoid stepping backward, which gives them penetration depth. Once the shot is stuffed, transition to a front headlock by circling toward their head side to establish control and prevent them from completing the finish."
+        "answer": "Your immediate priority is to sprawl by driving your hips down and back while posting your hands on the opponent's head and shoulders. Drop your weight onto their upper back to kill the shot's forward momentum. Avoid stepping backward, which gives them penetration depth. Once the shot is stuffed, transition to a front headlock by circling toward their head side to establish control and prevent them from completing the finish.",
+        "answer_line": "Sprawl hips back, post on head",
+        "distractors": {
+          "plausible": [
+            "Step back to create space",
+            "Grab a leg for a takedown"
+          ],
+          "trap": [
+            "Jump for a guillotine choke"
+          ]
+        }
       },
       {
         "question": "What are the three most important grip configurations to establish when initiating standing engagement in the gi?",
-        "answer": "The three priority grip configurations are: (1) collar and sleeve grip, which provides control of distance and the ability to set up both throws and guard pulls; (2) double sleeve control, which neutralizes the opponent's offensive options while creating pulling and off-balancing opportunities; and (3) collar tie with wrist control, which allows snapdowns, Russian tie transitions, and close-range throw entries. Each configuration should be established proactively through deliberate hand fighting sequences rather than passively accepted."
+        "answer": "The three priority gi grips are collar and sleeve, double sleeve control, and collar tie with wrist control. The collar and sleeve grip provides control of distance and the ability to set up both throws and guard pulls; double sleeve control neutralizes the opponent's offensive options while creating pulling and off-balancing opportunities; and the collar tie with wrist control allows snapdowns, Russian tie transitions, and close-range throw entries. Each configuration should be established proactively through deliberate hand fighting sequences rather than passively accepted.",
+        "distractors": {
+          "plausible": [
+            "Double lapel grips only",
+            "Underhook and overhook clinch"
+          ],
+          "trap": [
+            "Head down, no grips, dive in"
+          ]
+        },
+        "answer_line": "Collar-sleeve, 2x sleeve, collar tie"
       },
       {
         "question": "How should you distribute your weight and position your feet to maintain a strong standing base against both pulling and pushing forces?",
-        "answer": "Weight should be distributed roughly 50/50 between both feet with slightly more emphasis on the balls of the feet rather than the heels. Feet should be approximately shoulder-width apart in a staggered stance with the lead foot slightly forward. Knees stay bent at roughly 15-20 degrees to lower the center of gravity without compromising mobility. The hips sit slightly behind the shoulders to create a strong base against pulls, while the slight forward lean of the torso provides resistance to being driven backward. This balanced distribution allows rapid adjustment in any direction."
+        "answer": "Weight should be distributed roughly 50/50 between both feet with slightly more emphasis on the balls of the feet rather than the heels. Feet should be approximately shoulder-width apart in a staggered stance with the lead foot slightly forward. Knees stay bent at roughly 15-20 degrees to lower the center of gravity without compromising mobility. The hips sit slightly behind the shoulders to create a strong base against pulls, while the slight forward lean of the torso provides resistance to being driven backward. This balanced distribution allows rapid adjustment in any direction.",
+        "answer_line": "Bent knees, weight on balls of feet",
+        "distractors": {
+          "plausible": [
+            "Very wide stance, hips low",
+            "Load everything on the lead leg"
+          ],
+          "trap": [
+            "Upright, heels planted flat"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured a dominant cross collar grip and is beginning to load their hip for a throw - what do you do?",
-        "answer": "Immediately address the grip by using your same-side hand to strip or break the collar grip through a two-on-one peel or circular grip break. Simultaneously lower your center of gravity by bending your knees and widening your base slightly to resist the rotational force. Step your near-side foot backward and away from the direction of the throw to deny their hip entry. If you cannot break the grip in time, consider sitting to guard by pulling them into your closed guard or De La Riva before they complete the throw, converting their offensive momentum into your guard game entry."
+        "answer": "Immediately address the grip by using your same-side hand to strip or break the collar grip through a two-on-one peel or circular grip break. Simultaneously lower your center of gravity by bending your knees and widening your base slightly to resist the rotational force. Step your near-side foot backward and away from the direction of the throw to deny their hip entry. If you cannot break the grip in time, consider sitting to guard by pulling them into your closed guard or De La Riva before they complete the throw, converting their offensive momentum into your guard game entry.",
+        "answer_line": "Strip grip, drop level, step back",
+        "distractors": {
+          "plausible": [
+            "Match their grip and push in",
+            "Pull them forward off balance"
+          ],
+          "trap": [
+            "Try to out-muscle the throw"
+          ]
+        }
       },
       {
         "question": "Your opponent suddenly tightens their sleeve grip, rounds their shoulders, and begins stepping one foot between yours - what is happening and how do you respond?",
-        "answer": "These cues indicate an imminent guard pull. Your opponent is establishing control grips before sitting, breaking their own posture to drop their center of gravity, and positioning a foot between yours to create a hook or entanglement as they sit. Your immediate response should be to strip or pummel their controlling grips before they commit to sitting, then drive forward pressure into their chest to force them upright. If you cannot break grips in time, the moment they begin sitting, immediately advance your hips forward and begin addressing their legs to prevent guard establishment. Drive your near knee between their legs and work to pass before they can consolidate any guard position."
+        "answer": "These cues indicate an imminent guard pull. Your opponent is establishing control grips before sitting, breaking their own posture to drop their center of gravity, and positioning a foot between yours to create a hook or entanglement as they sit. Your immediate response should be to strip or pummel their controlling grips before they commit to sitting, then drive forward pressure into their chest to force them upright. If you cannot break grips in time, the moment they begin sitting, immediately advance your hips forward and begin addressing their legs to prevent guard establishment. Drive your near knee between their legs and work to pass before they can consolidate any guard position.",
+        "answer_line": "Strip grips, pressure their chest",
+        "distractors": {
+          "plausible": [
+            "Wait and react once they sit",
+            "Back straight up out of range"
+          ],
+          "trap": [
+            "Follow them down into guard"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during extended standing exchanges that last beyond 60 seconds?",
-        "answer": "Energy management requires cycling between active and passive phases. During passive phases, maintain a neutral stance with relaxed grip hands and use minimal footwork to maintain position. During active phases, commit fully to grip sequences or attack entries for 5-10 second bursts. Avoid constant isometric grip tension by using a catch-and-release grip fighting approach where you break grips immediately rather than fighting sustained grip battles. Breathe rhythmically and avoid holding your breath during exchanges. If fatigue builds, consider pulling guard to a strong position rather than fighting exhausted on the feet."
+        "answer": "Energy management requires cycling between active and passive phases. During passive phases, maintain a neutral stance with relaxed grip hands and use minimal footwork to maintain position. During active phases, commit fully to grip sequences or attack entries for 5-10 second bursts. Avoid constant isometric grip tension by using a catch-and-release grip fighting approach where you break grips immediately rather than fighting sustained grip battles. Breathe rhythmically and avoid holding your breath during exchanges. If fatigue builds, consider pulling guard to a strong position rather than fighting exhausted on the feet.",
+        "answer_line": "Cycle active bursts, passive rest",
+        "distractors": {
+          "plausible": [
+            "Constant hard grip fighting",
+            "Hold your breath and bear down"
+          ],
+          "trap": [
+            "Pull guard every time you tire"
+          ]
+        }
       },
       {
         "question": "Your opponent breaks your primary grips and begins circling to your weak side - how do you recover your standing position?",
-        "answer": "Immediately re-center by pivoting on your lead foot to face the opponent squarely, denying them the angle advantage. Re-establish hand contact by extending your lead hand as a frame or post against their near shoulder or collar to reestablish distance control. Use your rear hand to fight for a secondary grip while circling your feet to match their movement pattern. Avoid chasing them with lunging steps, which compromise your base. Instead, use short shuffling steps that maintain your stance width and balance. Once facing them squarely, restart your grip fighting sequence from a neutral position."
+        "answer": "Immediately re-center by pivoting on your lead foot to face the opponent squarely, denying them the angle advantage. Re-establish hand contact by extending your lead hand as a frame or post against their near shoulder or collar to reestablish distance control. Use your rear hand to fight for a secondary grip while circling your feet to match their movement pattern. Avoid chasing them with lunging steps, which compromise your base. Instead, use short shuffling steps that maintain your stance width and balance. Once facing them squarely, restart your grip fighting sequence from a neutral position.",
+        "answer_line": "Pivot to square up, re-post hand",
+        "distractors": {
+          "plausible": [
+            "Chase with a big lunging step",
+            "Backpedal straight away fast"
+          ],
+          "trap": [
+            "Turn your back to reset"
+          ]
+        }
       },
       {
         "question": "What are the three most common base and posture errors that compromise standing position stability, and how does each create vulnerability?",
-        "answer": "The three most common errors are: (1) Standing too tall with locked knees and weight on heels, which raises center of gravity and delays defensive reactions because you must first bend your knees before sprawling or changing levels, making you vulnerable to both takedowns and throws. (2) Flat-footed static positioning without active movement, which allows opponents to time attacks against a predictable target and eliminates your ability to create angles or generate offensive momentum. (3) Overextended or overly wide stance that compromises mobility, which makes you susceptible to foot sweeps and trips because your feet are planted in predictable positions and weight transfer between them takes longer."
+        "answer": "The three most common errors are: (1) Standing too tall with locked knees and weight on heels, which raises center of gravity and delays defensive reactions because you must first bend your knees before sprawling or changing levels, making you vulnerable to both takedowns and throws. (2) Flat-footed static positioning without active movement, which allows opponents to time attacks against a predictable target and eliminates your ability to create angles or generate offensive momentum. (3) Overextended or overly wide stance that compromises mobility, which makes you susceptible to foot sweeps and trips because your feet are planted in predictable positions and weight transfer between them takes longer.",
+        "answer_line": "Tall stance, flat feet, overreach",
+        "distractors": {
+          "plausible": [
+            "Crouching low, hands too high",
+            "Square hips, heavy lead leg"
+          ],
+          "trap": [
+            "Bent knees and constant motion"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wy-a8VfNsVo",
+        "title": "Signature Double Leg",
+        "by": "Jordan Burroughs",
+        "vertical": false,
+        "channel": "United World Wrestling",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dhZgpDHCARw",
+        "title": "Double Leg Takedown Technique",
+        "by": "Predators MMA and BJJ",
+        "vertical": false,
+        "channel": "Predators MMA and BJJ Academy Manchester",
+        "duration": 15,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RLU7Yt1jN7s",
+        "title": "Favorite Takedowns for BJJ",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -553,31 +767,52 @@
     "transitions": [
       {
         "transition": "Pull Guard from Standing",
-        "attempt_probability": 24
+        "attempt_probability": {
+          "gi": 29,
+          "nogi": 16
+        }
       },
       {
         "transition": "Standing Guard Pull",
-        "attempt_probability": 22
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 14
+        }
       },
       {
         "transition": "Butterfly Guard Pull",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
-        "transition": "Arm Drag from Standing",
-        "attempt_probability": 13
+        "transition": "Arm Drag",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 15
+        }
       },
       {
         "transition": "Level Change Takedown",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 15
+        }
       },
       {
         "transition": "Takedown from Bottom",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 14
+        }
       },
       {
         "transition": "Snap Down from Standing",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 12
+        }
       }
     ],
     "decision_tree": [
@@ -810,36 +1045,279 @@
     "flashcards": [
       {
         "question": "Your opponent suddenly drops their level and shoots a double leg from distance - what is your immediate defensive priority and body positioning?",
-        "answer": "Your immediate priority is to sprawl by driving your hips down and back while posting your hands on the opponent's head and shoulders. Drop your weight onto their upper back to kill the shot's forward momentum. Avoid stepping backward, which gives them penetration depth. Once the shot is stuffed, transition to a front headlock by circling toward their head side to establish control and prevent them from completing the finish."
+        "answer": "Your immediate priority is to sprawl by driving your hips down and back while posting your hands on the opponent's head and shoulders. Drop your weight onto their upper back to kill the shot's forward momentum. Avoid stepping backward, which gives them penetration depth. Once the shot is stuffed, transition to a front headlock by circling toward their head side to establish control and prevent them from completing the finish.",
+        "answer_line": "Sprawl hips back, post on head",
+        "distractors": {
+          "plausible": [
+            "Step back to create space",
+            "Grab a leg for a takedown"
+          ],
+          "trap": [
+            "Jump for a guillotine choke"
+          ]
+        }
       },
       {
         "question": "What are the three most important grip configurations to establish when initiating standing engagement in the gi?",
-        "answer": "The three priority grip configurations are: (1) collar and sleeve grip, which provides control of distance and the ability to set up both throws and guard pulls; (2) double sleeve control, which neutralizes the opponent's offensive options while creating pulling and off-balancing opportunities; and (3) collar tie with wrist control, which allows snapdowns, Russian tie transitions, and close-range throw entries. Each configuration should be established proactively through deliberate hand fighting sequences rather than passively accepted."
+        "answer": "The three priority grip configurations are: (1) collar and sleeve grip, which provides control of distance and the ability to set up both throws and guard pulls; (2) double sleeve control, which neutralizes the opponent's offensive options while creating pulling and off-balancing opportunities; and (3) collar tie with wrist control, which allows snapdowns, Russian tie transitions, and close-range throw entries. Each configuration should be established proactively through deliberate hand fighting sequences rather than passively accepted.",
+        "answer_line": "Collar-sleeve, 2-sleeve, collar tie",
+        "distractors": {
+          "plausible": [
+            "Double lapel grips only",
+            "Underhook and overhook only"
+          ],
+          "trap": [
+            "Head down, reaching cross grip"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight and position your feet to maintain a strong standing base against both pulling and pushing forces?",
-        "answer": "Weight should be distributed roughly 50/50 between both feet with slightly more emphasis on the balls of the feet rather than the heels. Feet should be approximately shoulder-width apart in a staggered stance with the lead foot slightly forward. Knees stay bent at roughly 15-20 degrees to lower the center of gravity without compromising mobility. The hips sit slightly behind the shoulders to create a strong base against pulls, while the slight forward lean of the torso provides resistance to being driven backward. This balanced distribution allows rapid adjustment in any direction."
+        "answer": "Weight should be distributed roughly 50/50 between both feet with slightly more emphasis on the balls of the feet rather than the heels. Feet should be approximately shoulder-width apart in a staggered stance with the lead foot slightly forward. Knees stay bent at roughly 15-20 degrees to lower the center of gravity without compromising mobility. The hips sit slightly behind the shoulders to create a strong base against pulls, while the slight forward lean of the torso provides resistance to being driven backward. This balanced distribution allows rapid adjustment in any direction.",
+        "answer_line": "Bent knees, weight on balls of feet",
+        "distractors": {
+          "plausible": [
+            "Deep crouch, extra-wide stance",
+            "Lean forward, up on the toes"
+          ],
+          "trap": [
+            "Stand tall back on your heels"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured a dominant cross collar grip and is beginning to load their hip for a throw - what do you do?",
-        "answer": "Immediately address the grip by using your same-side hand to strip or break the collar grip through a two-on-one peel or circular grip break. Simultaneously lower your center of gravity by bending your knees and widening your base slightly to resist the rotational force. Step your near-side foot backward and away from the direction of the throw to deny their hip entry. If you cannot break the grip in time, consider sitting to guard by pulling them into your closed guard or De La Riva before they complete the throw, converting their offensive momentum into your guard game entry."
+        "answer": "Immediately address the grip by using your same-side hand to strip or break the collar grip through a two-on-one peel or circular grip break. Simultaneously lower your center of gravity by bending your knees and widening your base slightly to resist the rotational force. Step your near-side foot backward and away from the direction of the throw to deny their hip entry. If you cannot break the grip in time, consider sitting to guard by pulling them into your closed guard or De La Riva before they complete the throw, converting their offensive momentum into your guard game entry.",
+        "answer_line": "Strip grip, drop level, step back",
+        "distractors": {
+          "plausible": [
+            "Match their grip and push in",
+            "Pull them forward off balance"
+          ],
+          "trap": [
+            "Try to out-muscle the throw"
+          ]
+        }
       },
       {
         "question": "Your opponent suddenly tightens their sleeve grip, rounds their shoulders, and begins stepping one foot between yours - what is happening and how do you respond?",
-        "answer": "These cues indicate an imminent guard pull. Your opponent is establishing control grips before sitting, breaking their own posture to drop their center of gravity, and positioning a foot between yours to create a hook or entanglement as they sit. Your immediate response should be to strip or pummel their controlling grips before they commit to sitting, then drive forward pressure into their chest to force them upright. If you cannot break grips in time, the moment they begin sitting, immediately advance your hips forward and begin addressing their legs to prevent guard establishment. Drive your near knee between their legs and work to pass before they can consolidate any guard position."
+        "answer": "These cues indicate an imminent guard pull. Your opponent is establishing control grips before sitting, breaking their own posture to drop their center of gravity, and positioning a foot between yours to create a hook or entanglement as they sit. Your immediate response should be to strip or pummel their controlling grips before they commit to sitting, then drive forward pressure into their chest to force them upright. If you cannot break grips in time, the moment they begin sitting, immediately advance your hips forward and begin addressing their legs to prevent guard establishment. Drive your near knee between their legs and work to pass before they can consolidate any guard position.",
+        "answer_line": "Strip grips, drive them upright",
+        "distractors": {
+          "plausible": [
+            "Wait and see what they do",
+            "Pull guard yourself first"
+          ],
+          "trap": [
+            "Lean over them as they sit"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during extended standing exchanges that last beyond 60 seconds?",
-        "answer": "Energy management requires cycling between active and passive phases. During passive phases, maintain a neutral stance with relaxed grip hands and use minimal footwork to maintain position. During active phases, commit fully to grip sequences or attack entries for 5-10 second bursts. Avoid constant isometric grip tension by using a catch-and-release grip fighting approach where you break grips immediately rather than fighting sustained grip battles. Breathe rhythmically and avoid holding your breath during exchanges. If fatigue builds, consider pulling guard to a strong position rather than fighting exhausted on the feet."
+        "answer": "Energy management requires cycling between active and passive phases. During passive phases, maintain a neutral stance with relaxed grip hands and use minimal footwork to maintain position. During active phases, commit fully to grip sequences or attack entries for 5-10 second bursts. Avoid constant isometric grip tension by using a catch-and-release grip fighting approach where you break grips immediately rather than fighting sustained grip battles. Breathe rhythmically and avoid holding your breath during exchanges. If fatigue builds, consider pulling guard to a strong position rather than fighting exhausted on the feet.",
+        "answer_line": "Cycle active bursts, passive rest",
+        "distractors": {
+          "plausible": [
+            "Grip fight hard nonstop",
+            "Go easy the entire round"
+          ],
+          "trap": [
+            "Hold your breath through scrambles"
+          ]
+        }
       },
       {
         "question": "Your opponent breaks your primary grips and begins circling to your weak side - how do you recover your standing position?",
-        "answer": "Immediately re-center by pivoting on your lead foot to face the opponent squarely, denying them the angle advantage. Re-establish hand contact by extending your lead hand as a frame or post against their near shoulder or collar to reestablish distance control. Use your rear hand to fight for a secondary grip while circling your feet to match their movement pattern. Avoid chasing them with lunging steps, which compromise your base. Instead, use short shuffling steps that maintain your stance width and balance. Once facing them squarely, restart your grip fighting sequence from a neutral position."
+        "answer": "Immediately re-center by pivoting on your lead foot to face the opponent squarely, denying them the angle advantage. Re-establish hand contact by extending your lead hand as a frame or post against their near shoulder or collar to reestablish distance control. Use your rear hand to fight for a secondary grip while circling your feet to match their movement pattern. Avoid chasing them with lunging steps, which compromise your base. Instead, use short shuffling steps that maintain your stance width and balance. Once facing them squarely, restart your grip fighting sequence from a neutral position.",
+        "answer_line": "Pivot to square up, re-post hand",
+        "distractors": {
+          "plausible": [
+            "Chase with a big lunging step",
+            "Backpedal straight away fast"
+          ],
+          "trap": [
+            "Turn your back to reset"
+          ]
+        }
       },
       {
         "question": "What are the three most common base and posture errors that compromise standing position stability, and how does each create vulnerability?",
-        "answer": "The three most common errors are: (1) Standing too tall with locked knees and weight on heels, which raises center of gravity and delays defensive reactions because you must first bend your knees before sprawling or changing levels, making you vulnerable to both takedowns and throws. (2) Flat-footed static positioning without active movement, which allows opponents to time attacks against a predictable target and eliminates your ability to create angles or generate offensive momentum. (3) Overextended or overly wide stance that compromises mobility, which makes you susceptible to foot sweeps and trips because your feet are planted in predictable positions and weight transfer between them takes longer."
+        "answer": "The three most common errors are: (1) Standing too tall with locked knees and weight on heels, which raises center of gravity and delays defensive reactions because you must first bend your knees before sprawling or changing levels, making you vulnerable to both takedowns and throws. (2) Flat-footed static positioning without active movement, which allows opponents to time attacks against a predictable target and eliminates your ability to create angles or generate offensive momentum. (3) Overextended or overly wide stance that compromises mobility, which makes you susceptible to foot sweeps and trips because your feet are planted in predictable positions and weight transfer between them takes longer.",
+        "answer_line": "Tall on heels, static, overwide",
+        "distractors": {
+          "plausible": [
+            "Overgripping with tight elbows",
+            "Crouching too low, hands down"
+          ],
+          "trap": [
+            "Bent knees, weight on the balls"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "VGy3imISlaA",
+        "title": "Beat the Stiff Arm Grip",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 95,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jTk5AaZd1Rc",
+        "title": "Break Any Collar Grip with Technique",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 113,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yjQHCaCmhyo",
+        "title": "Deal With an Opponent Who Stiff Arms",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 114,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural features define the Standing Position and distinguish it from every ground-based state in BJJ?",
+      "answer": "The Standing Position is defined by both grapplers upright with feet as the only mat contact, on mobile two-legged bases with no dominant control established. Because neither player has established dominant control, the configuration is symmetric and neutral: both have equal access to offense and both carry equal risk of being off-balanced. Since the center of gravity is high and supported only by the feet, small disruptions in base translate quickly into falls or takedowns, which is why footwork and posture dominate the exchange. This contrasts sharply with ground positions where contact area is large, the base is low, and control hierarchies are already established.",
+      "distractors": {
+        "plausible": [
+          "One side already has control",
+          "Knees down still counts standing"
+        ],
+        "trap": [
+          "Reach tall for grips first"
+        ]
+      },
+      "answer_line": "Both upright, mobile two-foot base"
+    },
+    {
+      "question": "Why is the Standing Position classified as neutral with a point value of zero despite being the gateway to the entire match?",
+      "answer": "Standing is neutral and worth zero points because neither grappler holds a positional or scoring advantage while both are on their feet. Both stand upright with equal opportunity to initiate takedowns, throws, or guard pulls, and no points are awarded merely for being on the feet, since the position confers no control over the opponent's hips, posture, or movement. The score only changes when one player converts the exchange into a takedown, sweep, or dominant landing that satisfies advancement criteria. This zero-sum symmetry is precisely what makes grip fighting and off-balancing so contested, because both players are competing to break the neutrality in their favor.",
+      "distractors": {
+        "plausible": [
+          "Standing earns advantage points",
+          "Points start once grips lock"
+        ],
+        "trap": [
+          "Force takedowns without setup"
+        ]
+      },
+      "answer_line": "Neutral, no control established yet"
+    },
+    {
+      "question": "What are the primary control points contested by both players in a standing exchange, and what does controlling each one achieve?",
+      "answer": "The primary control points are the collar or neck (via collar tie), the sleeves or wrists, and in no-gi the biceps, wrists, and head. Collar and collar-tie control governs the opponent's posture and head position, enabling snapdowns and steering their level. Sleeve or wrist control governs their arms and framing, denying grips and setting up drags and throws. Head and inside-tie control from the clinch range dictates distance and forward-backward pressure. Whichever player wins the majority of these control points dictates distance, angle, and the timing of every entry, which is why hand fighting is continuous rather than incidental.",
+      "answer_line": "Collar-tie, sleeves, wrists, head",
+      "distractors": {
+        "plausible": [
+          "Only leg grips matter standing",
+          "Belt and pants grips only"
+        ],
+        "trap": [
+          "Grab a leg, ignore upper grips"
+        ]
+      }
+    },
+    {
+      "question": "How do the mechanics of off-balancing (kuzushi) function in the Standing Position for both the player applying it and the player resisting it?",
+      "answer": "Off-balancing works by driving the opponent's center of gravity outside the base formed by their two feet, using push-pull dynamics, directional changes, and grip-driven weight manipulation. When one player pulls while the other resists, or pushes into a retreat, the resisting player's weight is momentarily loaded onto one edge of their base, creating a window where a takedown or throw meets minimal resistance. The player resisting must continuously re-center by adjusting footwork and lowering their hips so their center of gravity stays over their feet. Because both stand on a mobile two-point base, kuzushi is reciprocal: the same push-pull that threatens one player can be redirected against the initiator if their own weight commits too far.",
+      "answer_line": "Push-pull breaks their base edge",
+      "distractors": {
+        "plausible": [
+          "Only pulling creates off-balance",
+          "Off-balance needs a hard shove"
+        ],
+        "trap": [
+          "Commit your full weight forward"
+        ]
+      }
+    },
+    {
+      "question": "What role does distance management play in determining which techniques are even available from the Standing Position?",
+      "answer": "Distance sets the menu of available techniques for both players simultaneously. At long range with no contact, level-change shots such as single and double legs and open-space footwork dominate, since there are no grips to break first. At grip range, collar-sleeve exchanges, arm drags, and guard pulls become available because the hands can reach control points. At close clinch range, throws, snapdowns, body locks, and front-headlock series open up while shots become harder to complete. Each player uses footwork to move the exchange to the range that favors their preferred entries, which is why controlling distance effectively controls the opponent's options as much as your own.",
+      "answer_line": "Each range opens its own attacks",
+      "distractors": {
+        "plausible": [
+          "Throws land from long range",
+          "Grips come before every shot"
+        ],
+        "trap": [
+          "Sprint into the clinch blindly"
+        ]
+      }
+    },
+    {
+      "question": "Why is athletic stance with bent knees and weight on the balls of the feet fundamental to sustaining the Standing Position for both players?",
+      "answer": "A stance with slightly bent knees, hips set behind the shoulders, and weight on the balls of the feet lowers the center of gravity and keeps it centered over the base, which is what resists off-balancing in every direction. Bent knees allow instant level changes to shoot or to sprawl without the delay of first having to bend, whereas locked knees and heel-heavy weight raise the center of gravity and slow every reaction. Weight on the balls of the feet preserves the ability to step, pivot, and redistribute weight rapidly to match the opponent's movement. Because the position is symmetric, both players depend on this same base, and whichever player abandons it first becomes the easier target.",
+      "answer_line": "Low center, weight balls of feet",
+      "distractors": {
+        "plausible": [
+          "Stand tall to see openings",
+          "Widest stance stops all sweeps"
+        ],
+        "trap": [
+          "Lock knees for a stronger base"
+        ]
+      }
+    },
+    {
+      "question": "How does the Standing Position relate to and differ from the adjacent Clinch and guard-pull destinations it commonly feeds into?",
+      "answer": "The Standing Position is the open, neutral upright state, whereas the Clinch is the same upright frame after grips and head or body control have been established, collapsing distance and shifting the exchange toward throws and takedowns. A guard pull deliberately abandons the upright neutral base entirely, taking one player to a seated or supine ground position such as closed guard, seated guard, or De La Riva, trading standing mobility for a bottom guard game. Both transitions resolve the neutrality of standing: the clinch does so by tightening control while staying vertical, the guard pull by voluntarily going to the ground. Understanding these adjacencies matters because every standing decision is ultimately a choice about which of these states to convert the neutral position into.",
+      "answer_line": "Clinch adds grips; pull goes down",
+      "distractors": {
+        "plausible": [
+          "Guard pull keeps you standing",
+          "Clinch means chest-to-chest only"
+        ],
+        "trap": [
+          "Pull guard with no grips set"
+        ]
+      }
+    },
+    {
+      "question": "Why is direct submission rare from the Standing Position, and what conditions allow the exceptions that do occur?",
+      "answer": "Direct submissions are rare because the neutral upright configuration gives neither player the sustained control over a limb or the neck required to isolate and finish, and both retain full mobility to circle away or posture out. The high, mobile base also means any attacker committing to a submission risks being off-balanced or countered before the finish locks. Exceptions arise when one player exposes their neck by posturing down or shooting poorly, opening standing guillotines and front-headlock chokes, or when a flying or jumping attack such as a flying kneebar or jumping guard converts the standing engagement directly into a leg entanglement or submission. These are higher-risk, higher-skill actions that depend on a specific opening rather than being reliable defaults from the neutral position.",
+      "answer_line": "Too mobile, no sustained control",
+      "distractors": {
+        "plausible": [
+          "Rules bar subs until grounded",
+          "Standing subs need gi grips"
+        ],
+        "trap": [
+          "Jump guillotine on every shot"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "qMupz9qrbxc",
+      "title": "Breaking Down the Double Leg",
+      "by": "Jordan Burroughs",
+      "vertical": false,
+      "channel": "United World Wrestling",
+      "duration": 47,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "dhZgpDHCARw",
+      "title": "Double Leg Takedown Technique",
+      "by": "Predators MMA and BJJ",
+      "vertical": false,
+      "channel": "Predators MMA and BJJ Academy Manchester",
+      "duration": 15,
+      "verified": "2026-07-14"
+    }
+  ]
 }

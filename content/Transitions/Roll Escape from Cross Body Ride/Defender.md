@@ -140,6 +140,43 @@ description: "Defend against the Roll Escape from Cross Body Ride in BJJ. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Escape from Cross Body Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Ride Counter",
+      "description": "Roll Escape from Cross Body Ride (Defender) film study: Leg Ride Counter, taught by Cary Kolat.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T0yfj60K02s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T0yfj60K02s",
+      "url": "https://www.youtube.com/watch?v=T0yfj60K02s",
+      "creator": { "@type": "Person", "name": "Cary Kolat" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Riding Defensive Playbook",
+      "description": "Roll Escape from Cross Body Ride (Defender) film study: Leg Riding Defensive Playbook, taught by Ironclad Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n84LYqwqt4Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n84LYqwqt4Q",
+      "url": "https://www.youtube.com/watch?v=n84LYqwqt4Q",
+      "creator": { "@type": "Person", "name": "Ironclad Wrestling" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending against the Roll Escape from Cross Body Ride requires the top player t
 **Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Escape from Cross Body Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T0yfj60K02s)
+
+<p class="clip-credit"><strong>Leg Ride Counter</strong> — taught by Cary Kolat · 1:40 · <a href="https://www.youtube.com/watch?v=T0yfj60K02s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n84LYqwqt4Q)
+
+<p class="clip-credit"><strong>Leg Riding Defensive Playbook</strong> — taught by Ironclad Wrestling · 0:52 · <a href="https://www.youtube.com/watch?v=n84LYqwqt4Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

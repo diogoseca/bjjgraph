@@ -375,7 +375,7 @@ The Dynamic Guard System requires progressive drilling that builds from isolated
 - [[Basic Butterfly Sweep]] (Transition) - High-percentage sweep from butterfly guard position
 - [[Berimbolo Entry]] (Transition) - Advanced back-take option from De La Riva position
 - [[Backstep from De La Riva]] (Transition) - Counter-movement option when switching out of De La Riva engagement
-- [[Arm Drag from Standing]] (Transition) - Entry method for initiating dynamic guard engagement and back exposure
+- [[Arm Drag]] (Transition) - Entry method for initiating dynamic guard engagement and back exposure
 - [[Marcelo Garcia Butterfly Guard System]] (System) - Complementary system focusing on butterfly guard dynamics
 - [[Marcelo Garcia X-Guard System]] (System) - Related system emphasizing X-guard mechanics
 - [[Caio Terra Guard Retention System]] (System) - Alternative guard retention methodology with different emphasis

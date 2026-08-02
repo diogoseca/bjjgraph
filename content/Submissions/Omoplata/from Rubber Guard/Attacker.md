@@ -176,6 +176,54 @@ description: "Learn to attack the omoplata from Rubber Guard positions. Step-by-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Rubber Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata Options from Rubber Guard",
+      "description": "Omoplata from Rubber Guard (Attacker) film study: Omoplata Options from Rubber Guard, taught by Sickness Ferro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D84srOt_CeU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D84srOt_CeU",
+      "url": "https://www.youtube.com/watch?v=D84srOt_CeU",
+      "creator": { "@type": "Person", "name": "Sickness Ferro" },
+      "duration": "PT207S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw",
+      "description": "Omoplata from Rubber Guard (Attacker) film study: Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw, taught by Submissions101 Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wUDqbU2jwxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wUDqbU2jwxg",
+      "url": "https://www.youtube.com/watch?v=wUDqbU2jwxg",
+      "creator": { "@type": "Person", "name": "Submissions101 Coach" },
+      "duration": "PT278S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mission Control to Omoplata",
+      "description": "Omoplata from Rubber Guard (Attacker) film study: Mission Control to Omoplata, taught by JitsHappens Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mxp2kAwshzE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mxp2kAwshzE",
+      "url": "https://www.youtube.com/watch?v=mxp2kAwshzE",
+      "creator": { "@type": "Person", "name": "JitsHappens Coach" },
+      "duration": "PT49S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking the omoplata from Rubber Guard demands systematic progression through 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Rubber Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D84srOt_CeU)
+
+<p class="clip-credit"><strong>Omoplata Options from Rubber Guard</strong> — taught by Sickness Ferro · 3:27 · <a href="https://www.youtube.com/watch?v=D84srOt_CeU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wUDqbU2jwxg)
+
+<p class="clip-credit"><strong>Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw</strong> — taught by Submissions101 Coach · 4:38 · <a href="https://www.youtube.com/watch?v=wUDqbU2jwxg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mxp2kAwshzE)
+
+<p class="clip-credit"><strong>Mission Control to Omoplata</strong> — taught by JitsHappens Coach · 0:49 · <a href="https://www.youtube.com/watch?v=mxp2kAwshzE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

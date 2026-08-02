@@ -170,6 +170,43 @@ description: "How to execute Reverse Kimura in BJJ. Attacking perspective with s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Kimura from Standing Position (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Kimura Throw to Submission",
+      "description": "Reverse Kimura from Standing Position (Attacker) film study: Reverse Kimura Throw to Submission, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8tW1t_KO1T4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8tW1t_KO1T4",
+      "url": "https://www.youtube.com/watch?v=8tW1t_KO1T4",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse Kimura Arm Drag to Back",
+      "description": "Reverse Kimura from Standing Position (Attacker) film study: Reverse Kimura Arm Drag to Back, taught by Grappling with Insanity.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dw9YtuvroXI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dw9YtuvroXI",
+      "url": "https://www.youtube.com/watch?v=dw9YtuvroXI",
+      "creator": { "@type": "Person", "name": "Grappling with Insanity" },
+      "duration": "PT27S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +217,34 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Kimura from Standing Position (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8tW1t_KO1T4)
+
+<p class="clip-credit"><strong>Reverse Kimura Throw to Submission</strong> — taught by Coach Brian · 1:09 · <a href="https://www.youtube.com/watch?v=8tW1t_KO1T4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dw9YtuvroXI)
+
+<p class="clip-credit"><strong>Reverse Kimura Arm Drag to Back</strong> — taught by Grappling with Insanity · 0:27 · <a href="https://www.youtube.com/watch?v=dw9YtuvroXI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

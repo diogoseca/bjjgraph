@@ -174,6 +174,43 @@ description: "Master executing the backstep from back control to reverse half gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control to Reverse Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back take from reverse half guard",
+      "description": "Back Control to Reverse Half Guard (Attacker) film study: Back take from reverse half guard, taught by Trapp Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iVUskeb2-Ss/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iVUskeb2-Ss",
+      "url": "https://www.youtube.com/watch?v=iVUskeb2-Ss",
+      "creator": { "@type": "Person", "name": "Trapp Martial Arts" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse half guard sweep and back take",
+      "description": "Back Control to Reverse Half Guard (Attacker) film study: Reverse half guard sweep and back take, taught by Legacy Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s21HgPr-lIA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s21HgPr-lIA",
+      "url": "https://www.youtube.com/watch?v=s21HgPr-lIA",
+      "creator": { "@type": "Person", "name": "Legacy Jiu-Jitsu Academy" },
+      "duration": "PT146S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing this transition, you are converting deteriorating back
 **From Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control to Reverse Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iVUskeb2-Ss)
+
+<p class="clip-credit"><strong>Back take from reverse half guard</strong> — taught by Trapp Martial Arts · 1:44 · <a href="https://www.youtube.com/watch?v=iVUskeb2-Ss" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s21HgPr-lIA)
+
+<p class="clip-credit"><strong>Reverse half guard sweep and back take</strong> — taught by Legacy Jiu-Jitsu Academy · 2:26 · <a href="https://www.youtube.com/watch?v=s21HgPr-lIA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

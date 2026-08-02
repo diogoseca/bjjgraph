@@ -140,6 +140,43 @@ description: "Counter the bridge escape from mounted triangle. Maintain triangle
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Defense from Mounted Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping top control on a failed mounted triangle",
+      "description": "Bridge Defense from Mounted Triangle (Defender) film study: Keeping top control on a failed mounted triangle, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a6SPEOcuNzs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a6SPEOcuNzs",
+      "url": "https://www.youtube.com/watch?v=a6SPEOcuNzs",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Preventing the mounted triangle",
+      "description": "Bridge Defense from Mounted Triangle (Defender) film study: Preventing the mounted triangle, taught by Justen Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l-HhOV9UjJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l-HhOV9UjJU",
+      "url": "https://www.youtube.com/watch?v=l-HhOV9UjJU",
+      "creator": { "@type": "Person", "name": "Justen Hamilton" },
+      "duration": "PT104S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender maintaining the mounted triangle, your objective is to prevent t
 **Opponent's Starting Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Defense from Mounted Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a6SPEOcuNzs)
+
+<p class="clip-credit"><strong>Keeping top control on a failed mounted triangle</strong> — taught by Thunderdome BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=a6SPEOcuNzs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l-HhOV9UjJU)
+
+<p class="clip-credit"><strong>Preventing the mounted triangle</strong> — taught by Justen Hamilton · 1:44 · <a href="https://www.youtube.com/watch?v=l-HhOV9UjJU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

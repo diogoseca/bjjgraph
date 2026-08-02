@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Aoki Lock Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Base Attack to Sweep represents a critical offensive escape option from the Aoki Lock bottom position, targeting the top player's posted leg to destabilize their base and create a sweeping opportunity. When caught in Aoki Lock bottom, most practitioners focus purely on defensive arm extraction, but the base attack approach exploits a fundamental vulnerability in the position - the top player must maintain a posted leg for stability while applying shoulder pressure, and attacking this base creates immediate positional crisis.\n\nThis technique operates on the principle that the Aoki Lock top player cannot simultaneously maintain maximum shoulder pressure and defend their posted leg. By timing your attack to coincide with their pressure application, you catch them committed to the finish and vulnerable to base disruption. The sweep typically ends in mount position, converting a highly dangerous defensive situation into dominant top control.\n\nThe base attack is particularly effective because it addresses both survival and advancement simultaneously. Rather than simply escaping the shoulder lock, you create a dilemma where the opponent must choose between maintaining the submission or protecting their position. Advanced practitioners chain this with arm extraction attempts, using the threat of one to create openings for the other. This technique requires precise timing, hip mobility, and the ability to read when opponents are committed to finishing rather than maintaining position.",
   "related_content": [
     {
@@ -200,46 +212,166 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Base Attack to Sweep?",
-        "answer": "The primary goal is to convert a dangerous defensive position into dominant top control by destabilizing the opponent's posted leg base during their pressure commitment, creating a sweep to mount while simultaneously escaping the shoulder lock threat."
+        "answer": "The primary goal is to convert a dangerous defensive position into dominant top control by destabilizing the opponent's posted leg base during their pressure commitment, creating a sweep to mount while simultaneously escaping the shoulder lock threat.",
+        "answer_line": "Sweep off posted base to mount",
+        "distractors": {
+          "plausible": [
+            "Just escape the shoulder lock",
+            "Stall until they lose grip"
+          ],
+          "trap": [
+            "Force through the arm lock"
+          ]
+        }
       },
       {
         "question": "What position do you start Base Attack to Sweep from?",
-        "answer": "This technique starts from Aoki Lock Bottom position, where the opponent has leg entanglement control over your shoulder with a posted leg for base stability. You are typically on your side or stomach with your shoulder under rotational pressure."
+        "answer": "This technique starts from Aoki Lock Bottom position, where the opponent has leg entanglement control over your shoulder with a posted leg for base stability. You are typically on your side or stomach with your shoulder under rotational pressure.",
+        "answer_line": "Aoki Lock Bottom",
+        "distractors": {
+          "plausible": [
+            "Kimura Trap Bottom",
+            "Triangle Guard Bottom"
+          ],
+          "trap": [
+            "Armbar Control Bottom"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Base Attack to Sweep?",
-        "answer": "Your free hand hooks behind opponent's posted ankle or grabs their pants at the knee. This grip must be secure enough to pull their base out during your hip bridge. No grip is needed on your trapped arm side - focus on shoulder protection rather than grip fighting."
+        "answer": "Your free hand hooks behind opponent's posted ankle or grabs their pants at the knee. This grip must be secure enough to pull their base out during your hip bridge. No grip is needed on your trapped arm side - focus on shoulder protection rather than grip fighting.",
+        "answer_line": "Hook opponent's posted ankle",
+        "distractors": {
+          "plausible": [
+            "Grip your own trapped wrist",
+            "Collar tie on far side"
+          ],
+          "trap": [
+            "Release shoulder frame to grip"
+          ]
+        }
       },
       {
         "question": "How do you counter Base Attack to Sweep when applying Aoki Lock?",
-        "answer": "The primary counters are widening your base before committing to pressure, using a secondary hand post when leg is attacked, or transitioning immediately to back control when you sense the sweep attempt. Forcing the finish when base is compromised is dangerous."
+        "answer": "The primary counters are widening your base before committing to pressure, using a secondary hand post when leg is attacked, or transitioning immediately to back control when you sense the sweep attempt. Forcing the finish when base is compromised is dangerous.",
+        "answer_line": "Widen base, block leg grip",
+        "distractors": {
+          "plausible": [
+            "Switch grips and reset",
+            "Sit up to escape entanglement"
+          ],
+          "trap": [
+            "Force the finish anyway"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Base Attack to Sweep?",
-        "answer": "The optimal timing window is when your opponent commits to increasing shoulder pressure with forward weight shift. At this moment they cannot simultaneously defend their posted leg, creating the vulnerability you exploit. Attacking during static control phases is less effective."
+        "answer": "The optimal timing window is when your opponent commits to increasing shoulder pressure with forward weight shift. At this moment they cannot simultaneously defend their posted leg, creating the vulnerability you exploit. Attacking during static control phases is less effective.",
+        "answer_line": "When they shift weight forward",
+        "distractors": {
+          "plausible": [
+            "During static control phases",
+            "Right after they pass guard"
+          ],
+          "trap": [
+            "When they retreat and reset"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base when you reach for their posted leg - how do you adjust?",
-        "answer": "Switch to arm extraction escape when base is too wide to attack effectively. Alternatively, use hip escape to create angle that brings their posted leg back into range. The threat of base attack often creates openings for other escapes even when the sweep itself is blocked."
+        "answer": "Switch to arm extraction escape when base is too wide to attack effectively. Alternatively, use hip escape to create angle that brings their posted leg back into range. The threat of base attack often creates openings for other escapes even when the sweep itself is blocked.",
+        "answer_line": "Switch to arm extraction",
+        "distractors": {
+          "plausible": [
+            "Keep pulling the leg harder",
+            "Wait for them to overcommit"
+          ],
+          "trap": [
+            "Release shoulder control to grab"
+          ]
+        }
       },
       {
         "question": "What is the critical hip mechanic that makes this sweep effective?",
-        "answer": "The explosive hip bridge toward your opponent, timed with the leg pull, creates rotational momentum that tips them over their compromised base. Without the bridge, simply pulling their leg creates insufficient force - the hip drive is the power source for the sweep."
+        "answer": "The explosive hip bridge toward your opponent, timed with the leg pull, creates rotational momentum that tips them over their compromised base. Without the bridge, simply pulling their leg creates insufficient force - the hip drive is the power source for the sweep.",
+        "answer_line": "Explosive bridge with leg pull",
+        "distractors": {
+          "plausible": [
+            "Slow steady leg pull only",
+            "Bridge away from opponent"
+          ],
+          "trap": [
+            "Push off mat with both hands"
+          ]
+        }
       },
       {
         "question": "Why must you maintain shoulder protection throughout the sweep attempt?",
-        "answer": "The opponent may abandon the sweep defense and commit to finishing the shoulder lock during your transition. If you sacrifice shoulder safety for sweep mechanics, you risk injury during the position change. Tap immediately if shoulder reaches dangerous range regardless of sweep progress."
+        "answer": "The opponent may abandon the sweep defense and commit to finishing the shoulder lock during your transition. If you sacrifice shoulder safety for sweep mechanics, you risk injury during the position change. Tap immediately if shoulder reaches dangerous range regardless of sweep progress.",
+        "answer_line": "Opponent can still finish the lock",
+        "distractors": {
+          "plausible": [
+            "Sweeping motion blocks the armlock",
+            "Defensive grip alone keeps you safe"
+          ],
+          "trap": [
+            "Ignore the arm and rip the sweep"
+          ]
+        }
       },
       {
         "question": "What distinguishes this technique from pure defensive arm extraction?",
-        "answer": "Base Attack to Sweep addresses both survival and advancement simultaneously, creating a dilemma where the opponent must choose between submission and position. Pure arm extraction only escapes the immediate threat without improving your position, while this technique converts defense into offense."
+        "answer": "Base Attack to Sweep addresses both survival and advancement simultaneously, creating a dilemma where the opponent must choose between submission and position. Pure arm extraction only escapes the immediate threat without improving your position, while this technique converts defense into offense.",
+        "answer_line": "Escapes and sweeps at once",
+        "distractors": {
+          "plausible": [
+            "Faster version of extraction",
+            "Safer, lower-risk escape"
+          ],
+          "trap": [
+            "Pure stalling technique"
+          ]
+        }
       },
       {
         "question": "How do you chain Base Attack attempts with arm extraction?",
-        "answer": "Use the threat of one to create openings for the other. When opponent widens base to defend sweep, space opens for arm extraction. When they tighten to prevent arm escape, their base becomes vulnerable. Flowing between both keeps opponent in reactive mode rather than allowing them to settle into stable control."
+        "answer": "Use the threat of one to create openings for the other. When opponent widens base to defend sweep, space opens for arm extraction. When they tighten to prevent arm escape, their base becomes vulnerable. Flowing between both keeps opponent in reactive mode rather than allowing them to settle into stable control.",
+        "answer_line": "Flow between both threats",
+        "distractors": {
+          "plausible": [
+            "Always attack the leg first",
+            "Commit fully to one option"
+          ],
+          "trap": [
+            "Repeat same attack until it works"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This technique is executed from a position that places your shoulder at significant injury risk. Before attempting any sweep, ensure your shoulder remains in safe rotation range with internal rotation maintained. Never sacrifice shoulder safety for sweep success - tap immediately if pressure reaches uncomfortable levels during any phase of the technique. Practice with partners who understand the dangers of Aoki Lock and will respect tap signals instantly. Beginners should drill this technique at very low resistance until the coordination between shoulder protection and sweep mechanics becomes automatic. The sweep should feel like a bonus when available, not a desperate attempt to avoid tapping. Shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation - none are worth a sweep in training."
+    "safety_considerations": "This technique is executed from a position that places your shoulder at significant injury risk. Before attempting any sweep, ensure your shoulder remains in safe rotation range with internal rotation maintained. Never sacrifice shoulder safety for sweep success - tap immediately if pressure reaches uncomfortable levels during any phase of the technique. Practice with partners who understand the dangers of Aoki Lock and will respect tap signals instantly. Beginners should drill this technique at very low resistance until the coordination between shoulder protection and sweep mechanics becomes automatic. The sweep should feel like a bonus when available, not a desperate attempt to avoid tapping. Shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation - none are worth a sweep in training.",
+    "clips": [
+      {
+        "id": "LQ6KvabLLik",
+        "title": "Shoulder Crunch Sweep Drill to Armbar",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 17,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BE_5LYzydJ8",
+        "title": "Shoulder Clamp Guard Sweep and Submissions",
+        "by": "theincafox",
+        "vertical": false,
+        "channel": "theincafox",
+        "duration": 53,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Base Attack to Sweep Defender",
@@ -325,23 +457,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up Base Attack to Sweep?",
-        "answer": "The earliest cue is your opponent's free hand moving toward your posted leg rather than defending their trapped shoulder. This shift in hand target indicates they have accepted the shoulder pressure risk and are prioritizing positional escape through base disruption. Secondary cues include hip loading tension and decreased resistance against your shoulder pressure."
+        "answer": "The earliest cue is your opponent's free hand moving toward your posted leg rather than defending their trapped shoulder. This shift in hand target indicates they have accepted the shoulder pressure risk and are prioritizing positional escape through base disruption. Secondary cues include hip loading tension and decreased resistance against your shoulder pressure.",
+        "answer_line": "Free hand reaches for your leg",
+        "distractors": {
+          "plausible": [
+            "They grip your collar tightly",
+            "Their hips stop loading tension"
+          ],
+          "trap": [
+            "They tighten shoulder pressure"
+          ]
+        }
       },
       {
         "question": "When should you abandon the Aoki Lock and transition to back control instead of defending the sweep?",
-        "answer": "Transition to back control when your posted leg has been gripped and the opponent has begun their hip bridge, making base recovery unlikely within the sweep timeline. The decision point is when you feel rotational momentum beginning - at that stage, fighting the sweep wastes energy and risks getting swept, while flowing to back control preserves dominant position."
+        "answer": "Transition to back control when your posted leg has been gripped and the opponent has begun their hip bridge, making base recovery unlikely within the sweep timeline. The decision point is when you feel rotational momentum beginning - at that stage, fighting the sweep wastes energy and risks getting swept, while flowing to back control preserves dominant position.",
+        "answer_line": "Once bridge/rotation begins",
+        "distractors": {
+          "plausible": [
+            "As soon as ankle is gripped",
+            "Only after being swept"
+          ],
+          "trap": [
+            "Fight harder to stop bridge"
+          ]
+        }
       },
       {
         "question": "How do you balance base width with submission pressure effectiveness?",
-        "answer": "Cycle between pressure phases with a tighter posted leg for maximum shoulder torque and base-recovery phases with a wider posted leg when you detect sweep setups. The key is never committing to maximum pressure for extended periods, which locks your base in a vulnerable position. Short pressure bursts followed by base checks deny the bottom player clean timing windows."
+        "answer": "Cycle between pressure phases with a tighter posted leg for maximum shoulder torque and base-recovery phases with a wider posted leg when you detect sweep setups. The key is never committing to maximum pressure for extended periods, which locks your base in a vulnerable position. Short pressure bursts followed by base checks deny the bottom player clean timing windows.",
+        "answer_line": "Cycle tight pressure, wide checks",
+        "distractors": {
+          "plausible": [
+            "Stay narrow for max pressure",
+            "Stay wide the entire time"
+          ],
+          "trap": [
+            "Commit to max pressure long-term"
+          ]
+        }
       },
       {
         "question": "Your opponent grips your posted ankle but has not bridged yet - what is your best response?",
-        "answer": "Post your free hand on the mat immediately to create a secondary base point while maintaining leg entanglement and shoulder control. With a secondary base established, their ankle grip alone cannot generate the sweep. Then reposition your posted leg to a wider stance or peel their grip with your now-free posted leg adjustment. Do not panic and abandon position prematurely."
+        "answer": "Post your free hand on the mat immediately to create a secondary base point while maintaining leg entanglement and shoulder control. With a secondary base established, their ankle grip alone cannot generate the sweep. Then reposition your posted leg to a wider stance or peel their grip with your now-free posted leg adjustment. Do not panic and abandon position prematurely.",
+        "answer_line": "Post free hand for secondary base",
+        "distractors": {
+          "plausible": [
+            "Immediately pull leg free",
+            "Switch to defending shoulder only"
+          ],
+          "trap": [
+            "Abandon position and reset guard"
+          ]
+        }
       },
       {
         "question": "Why is driving forward to force a quick finish a poor response to a developing Base Attack to Sweep?",
-        "answer": "Driving forward commits your weight in exactly the direction the sweep exploits. The sweep works by pulling your base out while your momentum carries you over the compromised support point. Forward pressure accelerates this rotational collapse. Additionally, explosive uncontrolled pressure risks serious shoulder injury to the bottom player, making this response both tactically and ethically wrong."
+        "answer": "Driving forward commits your weight in exactly the direction the sweep exploits. The sweep works by pulling your base out while your momentum carries you over the compromised support point. Forward pressure accelerates this rotational collapse. Additionally, explosive uncontrolled pressure risks serious shoulder injury to the bottom player, making this response both tactically and ethically wrong.",
+        "answer_line": "Weight shift feeds the sweep",
+        "distractors": {
+          "plausible": [
+            "You give up your underhook",
+            "Opens space to reguard"
+          ],
+          "trap": [
+            "Power drive forces the tap"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -364,6 +546,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Full Aoki Lock positional sparring where partner can attempt any escape including Base Attack to Sweep. Practice reading sweep setups while maintaining submission pressure, choosing between base defense and back control transition in real time under competition conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four Levels of Sweep Defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "en4bP4sSvD0",
+        "title": "How to defend a sweep and counter to armlock or back take",
+        "by": "Evolve University",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 83,
+        "verified": "2026-07-15"
       }
     ]
   },

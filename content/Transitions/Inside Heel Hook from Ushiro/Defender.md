@@ -148,6 +148,54 @@ description: "How to defend against Inside Heel Hook from Ushiro in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Heel Hook from Ushiro (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending and countering the inside heel hook",
+      "description": "Inside Heel Hook from Ushiro (Defender) film study: Defending and countering the inside heel hook, taught by Jahred Dell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DF2AYLPbeHc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DF2AYLPbeHc",
+      "url": "https://www.youtube.com/watch?v=DF2AYLPbeHc",
+      "creator": { "@type": "Person", "name": "Jahred Dell" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "What to do when ambushed by a heel hook",
+      "description": "Inside Heel Hook from Ushiro (Defender) film study: What to do when ambushed by a heel hook, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AsGMkATAqqw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AsGMkATAqqw",
+      "url": "https://www.youtube.com/watch?v=AsGMkATAqqw",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Basic inside / inverted heel hook escape",
+      "description": "Inside Heel Hook from Ushiro (Defender) film study: Basic inside / inverted heel hook escape, taught by Scott Ryan Chiriboga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5jD4ByQUrDA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5jD4ByQUrDA",
+      "url": "https://www.youtube.com/watch?v=5jD4ByQUrDA",
+      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense requires layered responses: immediate heel protection through
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Heel Hook from Ushiro (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DF2AYLPbeHc)
+
+<p class="clip-credit"><strong>Defending and countering the inside heel hook</strong> — taught by Jahred Dell · 1:10 · <a href="https://www.youtube.com/watch?v=DF2AYLPbeHc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AsGMkATAqqw)
+
+<p class="clip-credit"><strong>What to do when ambushed by a heel hook</strong> — taught by John Danaher · 0:53 · <a href="https://www.youtube.com/watch?v=AsGMkATAqqw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5jD4ByQUrDA)
+
+<p class="clip-credit"><strong>Basic inside / inverted heel hook escape</strong> — taught by Scott Ryan Chiriboga · 1:48 · <a href="https://www.youtube.com/watch?v=5jD4ByQUrDA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

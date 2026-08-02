@@ -173,12 +173,14 @@ Position (Hub Page)     = Board state (e.g., "Mount")
 └── Bottom (Role Page)  = Playing as Black (escape, reverse)
 ```
 
-**Graph nodes are hub pages only** - Top/Bottom excluded to prevent redundancy.
+**Two graph representations (do not conflate them):**
+- **Data model — `graph.json` (role-based state machine):** each position emits **role-nodes** `Mount/Top` and `Mount/Bottom` that carry the edges, **plus** a bare `Mount` hub entry that only aggregates flashcards (no edges). The state machine runs on role-nodes — you are in `Mount/Top` *or* `Mount/Bottom`, which are distinct states. (Neutral positions like Standing/Clinch are a single node; `game-over` is the terminal node.)
+- **Rendered graph — `globalGraphLayout.json` (visual projection):** **collapses positions to hub nodes** (Top/Bottom merged) to reduce on-screen redundancy. This is the only sense in which "graph nodes are hub pages only" — it describes the *visual* layer, not the data layer.
 
 **File structure example:**
 ```
 Positions/
-├── Mount.md           # Hub page (canonical graph node)
+├── Mount.md           # Hub page (visual graph node; data has Mount/Top + Mount/Bottom role-nodes)
 └── Mount/
     ├── Top.md         # Playing as top (submissions, control)
     └── Bottom.md      # Playing as bottom (escapes, reversals)
@@ -216,7 +218,7 @@ Transition (Hub Page)    = Technique state (e.g., "Armbar from Mount")
 └── Defender (Role Page)  = Resisting/escaping (recognition, defense, escapes)
 ```
 
-**Graph nodes are hub pages only** - Attacker/Defender excluded from graph.
+**In `graph.json` each Transition/Submission splits into role-nodes (v1.48.0+), mirroring positions' Top/Bottom:** a bare `<slug>` **hub** (edgeless flashcard aggregator), `<slug>/attacker` (the player attempting it — `outcomes`/`successRate` as authored), and `<slug>/defender` (the opponent — the SAME exchange role-flipped: outcome targets' roles flipped, result labels re-perspectived, `successRate = 100 − attacker`). This makes the data layer a fully role-typed alternating game (position-role → technique/attacker → position-role …). The **visual layer stays hub-collapsed** — `globalGraphLayout.json` emits ONE node per technique carrying an `[attacker, defender]` strength pair (same as positions), so the background graph is unchanged. `kimura(from side control/top):attacker` is the node id; the origin is in the slug, the perspective is the suffix.
 
 **File structure example:**
 ```
@@ -271,6 +273,25 @@ Submission Control Position → Submission Finish Transition → game-over
 
 The `game-over` page (`content/game-over.md`) is a sink node - once reached, the match ends. This replaces the previous `Won by Submission` / `Lost by Submission` split.
 
+### Graph Topology — canonical model & invariants
+
+The state machine is **bipartite**: position role-nodes point to technique nodes (attempt), technique nodes point back to position role-nodes (outcome).
+
+**Node types (in `graph.json`):**
+- **Position role-nodes** (`Mount/Top`, `Mount/Bottom`) — carry edges. Bare **hub** entries (`Mount`) and **`is_family: true` submission hubs** (e.g. `Armbar`) are flashcard/aggregator entries with **no edges** — they are *not* navigable data nodes. Neutral positions are a single node. `game-over` is the terminal.
+- **Transition nodes** and **Submission nodes** — technique nodes, **role-split (v1.48.0+)** into an edgeless `<slug>` hub + `<slug>/attacker` (carries the edges) + `<slug>/defender` (the role-flipped mirror). The bare hub and `is_family: true` submission hubs are edgeless aggregators, not navigable data nodes.
+
+**Edge types + direction:**
+1. `Position/Role —attempt_probability→ Transition | Submission` (from each role's `transitions[]`; weights sum to 100/role).
+2. `Transition —probability, result→ Position/Role | Submission | game-over` (from `outcomes[]`; sum to 100; `result ∈ success|failure|counter`).
+3. `Submission —success→ game-over` (the sink).
+- `from_position` (surfaced as `fromPosition`/`fromPositionId`/`fromRole`) is the single **origin metadata**, not a second edge. `endingPosition` is a derived copy of the first `success` outcome. `opponentTransitions` (the opposite position role's moves, consumed by the in-browser game's opponent turn) are **derived at render time** in `renderPage.tsx` (`resolveOpponentMoves`) from the canonical role-split nodes — they are **not persisted** in `graph.json` (the build-time mirror was removed in Stage 6, v1.48.2+).
+
+**Invariants (checked by `validate_graph_integrity.py` + the topology audit):**
+- A transition has **one canonical origin** and **3–5 outcomes**; a submission's success → `game-over`.
+- **`game-over` is the only sink** (out-degree 0). Every `outcome.to` must resolve to a **role-node**, a **real (non-family) submission**, or **`game-over`** — never a bare position hub, a family hub, or a self-loop.
+- **Only submissions reach `game-over`** — a transition pointing directly to `game-over` is a misfiled finish (it should advance to a control position).
+
 ### Training System (SRS) — embedded UX (v1.20.0+)
 
 Client-side spaced repetition (SM-2) layered onto the always-on background graph. There is **no `/Training` page** — training lives as a persistent strip + two stacked modals + carousel chevrons on every page. All state stays in localStorage (Supabase sync optional).
@@ -284,7 +305,8 @@ Client-side spaced repetition (SM-2) layered onto the always-on background graph
 2. **DecksModal** — opens when user clicks the strip label. Lean: 5 deck rows (Due / Reviewing / Mastered / Suggested / Recently Explored) + sticky bottom CTA `Train Due (N) ▶` (label adapts) + ⚙ in modal header.
 3. **SettingsModal** — opens from the ⚙ inside DecksModal, defaults to Flashcards tab. Two tabs: Flashcards (Daily Goal, Show Flashcards on pages) / Game (Game Mode pills, Hard/Ultra locked). Stacks above DecksModal.
 4. **SessionChevrons** — fixed prev/next overlays on left/right viewport edges. Visible only when `body[data-training-active]`. Left hidden at index 0; right shows ✓ at last card (click finishes session). ArrowLeft/ArrowRight global keyboard, gated by `isTypingTarget`.
-5. **FirstLoadHint** — one-time tooltip pointing at ▶ on first visit. Auto-dismisses after 5s / Esc / any click. `localStorage["bjj-onboarded"]=true` after dismiss.
+
+> **NB — legacy variant only.** Everything in this section describes the Quartz page UI served at `?variant=legacy`. The default experience is the **Neural app** (see *Neural: pane law, landing questions, tutorial, degrees* below). `FirstLoadHint` and `bjj-onboarded` were **deleted in v1.26.2** (`0c492f0f6`) and no longer exist anywhere in source.
 
 **Carousel slide:** SPA navigation between cards in a session uses the CSS View Transitions API via `slideNavigate(url, 'forward'|'backward')` in `trainingSession.ts`. CSS keyframes drive a horizontal slide; non-supporting browsers fall back to instant swap. Graph's existing 400ms pan-to-current-node fires in parallel on every nav.
 
@@ -303,7 +325,7 @@ Client-side spaced repetition (SM-2) layered onto the always-on background graph
 **Session sources (`SessionSource` in `trainingSession.ts`):** `mixed` (default — due + suggestions to dailyGoal), `due`, `reviewing`, `mastered`, `suggested`, `explored` (ad-hoc, does NOT auto-add to SRS).
 
 **Storage keys (unchanged across the v1.20 redesign):**
-- localStorage: `bjj-srs-cards`, `bjj-settings`, `bjj-daily-progress`, `bjj-streak`, `bjj-explored`, `bjj-banned-flashcards`, `bjj-journey`, `bjj-onboarded`
+- localStorage: `bjj-srs-cards`, `bjj-settings`, `bjj-daily-progress`, `bjj-streak`, `bjj-explored`, `bjj-banned-flashcards`, `bjj-journey`
 - sessionStorage: `training-session` (now with optional `autoExpand` + `source` fields), `training-session-complete`, `snackbar`, `victory-data`
 
 **Keyboard shortcuts (active during session unless typing in an input):**
@@ -320,10 +342,58 @@ Client-side spaced repetition (SM-2) layered onto the always-on background graph
 - `source/quartz/components/DecksModal.tsx` + `scripts/decksModal.inline.ts` — deck overview modal + sticky CTA
 - `source/quartz/components/SettingsModal.tsx` + `scripts/settingsModal.inline.ts` — two-tab settings modal
 - `source/quartz/components/SessionChevrons.tsx` + `scripts/sessionChevrons.inline.ts` — carousel prev/next + keyboard nav
-- `source/quartz/components/FirstLoadHint.tsx` + `scripts/firstLoadHint.inline.ts` — one-time onboarding tooltip
 - `source/quartz/components/Flashcard.tsx` + `scripts/flashcard.inline.ts` — per-page Q&A UI (also drives session advancement on Hard/Easy)
 
 **Cloudflare redirect:** `source/quartz/static/_redirects` has `/Training/* / 301` so old inbound links land on home.
+
+### Neural: pane law, landing questions, tutorial, degrees (v1.68.0+)
+
+All in `neural/src/app.src.jsx` (one class; CSS in `neural/src/helmet.html`). Journeys in `e2e/journeys/`: `pane-law`, `landing-card`, `roam-stage`, `tutorial-drip`, `proof-stripes`.
+
+**PANE LAW (v1.68.0).** The right flashcards pane is **manual-only** — nothing in the roll loop opens or closes it. It no longer opens at roll start, no longer opens as a save nudge, no longer hides at round end, and desktop graph clicks leave it alone (mobile keeps the strip-tap dismiss, since the pane covers the screen there).
+- **Open = the game stops. Close = the game resumes, but only if the pane is what stopped it.** Latched in `applyDeckVisibility()` via `_deckAutoPaused` — the same shape as `_explorerAutoPaused` / `_dossierAutoPaused`. A hand-paused roll stays paused when you close the pane.
+- Latched in `applyDeckVisibility`, not `setDeckOpen`, because several study entry points assign `deckOpen` directly. Beats: `pane_paused` / `pane_resumed`. Esc closes the pane last, once no overlay is up.
+
+**QUESTION-FIRST LANDING (v1.68.0).** The flashcard is no longer a place you go — it is what the game asks on arrival. `renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray in fixed read order: **identity** (`[data-land-id]`: name · where you came from · Top/Bottom or Attacking · ○ new / ◐ met / ● recall-proven) → one-line definition → **film** → **ONE multiple-choice question** (`[data-land-q]`) → your options → **`More ▸`** (`[data-land-more]`, opens the dossier — everything else lives there).
+- There is deliberately **no second question** at the technique node between commit and sweep. It was built and cut: gating the sweep on a 4s window added that delay to every move (and broke `golden-path` / `jit-loop` on tempo). The landing question already moves the odds of the very transition or submission you are about to attempt, and the sheet's JIT drill covers buying odds right before committing.
+- **Economy, one rule on both surfaces:** right → the ordinary credit path (`noteCardDone`: mastery + sharpness already move the odds — no second bonus) plus `refundDecision(2500)`; wrong → `_qMod` −0.04 (plausible) / −0.08 (trap), folded into `moveChance` and **cleared on the next `enterLand`**. Timing out costs nothing.
+- `questionFor(key)` picks the deck's first unproven card (`cardStage < 2`); a proven deck asks nothing.
+- **MC is the in-play format; the sidebar is the study surface.** `mcMode` default flipped `auto` → **`classic`** — nobody meets multiple choice in the sidebar unless they opt in. The checkpoint quiz stays MC always.
+- `_mcBlock(card, key, onDone, surface)` — truth lives in the closure + `this._mc` (never a DOM attribute); `surface` (`land` | `deck`) lets two blocks coexist, and only `deck` auto-advances. **`surface` also scopes the RNG**: the landing card draws on `land-mc-pick` / `land-mc-shuffle` so it can never eat the rigged `mc-*` queues the sidebar journeys depend on (this is what kept `golden-path`'s frame-exact replay honest).
+- **Keys: `A` `B` `C` `D` answer the live MC block; digits `1–9` stay the option-card openers.**
+
+**ROAM & STAGE (v1.68.0).** Clicking any graph node calls `stageRollAt(idx)`: fly there, land, deal the hand — **clock held**. Click elsewhere and you restage the same non-session. `_played` (set in `_tick` on the first unpaused frame with a live hand) is the seam: a roll that never played is never archived into `_pastRolls`. Tapping the node you are already on reads it (dossier) instead. `after(sec, fn, ignorePause)` exists so a staged landing still arrives while paused. Beat: `roll_staged`.
+
+**TUTORIAL DRIP (v1.68.0).** The 3-beat coach is now steps 1–3 of a **20-step checklist** (`get TUTORIAL()`), each completed by *doing* it — `fx()` feeds `noteTutorial(beat, props)`, which matches a step's `m(beat, props)` predicate. Steps may be earned in any order. Surfaces: `.ng-tut` strip (`[data-tut]`, `pointer-events:none` so the options tray stays clickable; hidden while the coach is up and on mobile) and a **Tutorial row at the head of the Belt Path** (`[data-tut-row]`). Persisted as `tut:{done:{}}` inside the **existing v2 blob** (no version bump; users with `bjj-neural-coached` are grandfathered past steps 1–3). Restart lives in Settings → Rolling. Beats: `tut_step`, `tutorial_done`. New supporting beats: `sheet_opened`, `recall_proven`.
+
+**DEGREES = ONE SCORE (v1.68.0), display-only.** A belt is *won* by its test; a degree is *proof*, and proof is a single number:
+
+```
+score = Σ (weight_i × mastery_i),   Σ weight_i = 1
+```
+
+- **`weight_i`** — how often a roll *actually* passes through technique *i*. Computed at build time by `build_technique_weights()` in `scripts/regenerate_neural_data.py`: the state machine is a Markov chain (position-role --`attemptProbability`--> technique --`outcome.probability`--> position-role), power-iterated with PageRank-style damping to a **stationary distribution**; each technique's expected visit rate is its weight. Emitted as `curriculum.weights` (`{"<name>|Attacker": w}`, 1269 entries summing to 1). Sanity check: the heaviest come out as *Side Control to Mount* (2.4%), *Knee Slice Pass*, *Underhook Sweep from Half* — a believable frequency ranking.
+- **`mastery_i`** — `deckMastery(key)` = mean of `min(cardStage,3)/3` over the deck's cards.
+- **Nothing is cut.** A rare technique still counts, proportionally to how rare it is. This replaced an earlier "drop the rare 20% tail" canon, which was arbitrary — `attempt_probability` is normalised *per position* across 10–20 options, so the distribution is flat and any mass cutoff is meaningless (80% of the mass kept 724 of 1270 techniques).
+- **Belts are thresholds on that number** (`BELT_SCORE`): white .20 · blue .40 · purple .60 · brown .70 · black .80. `gameScore()` → `{score, belt, next, stripes}`, memoised against `_stageVer` (bumped in `_bumpStage`) because a full pass is ~21k card reads.
+- **Emergent property worth keeping:** an MC answer caps a card at stage 2 = 2/3 mastery, so pure recognition tops out at **0.667** — enough for purple, never enough for brown or black. Recall is the only route past 0.7 *by construction*, which is exactly the "white belts recognise, black belts recall" rule, with no special-casing.
+- **Effectiveness is already in there** — the chain propagates through `outcome.probability`, so a technique that works routes more traffic to its destination and lifts the weights downstream. An explicit effectiveness multiplier would double-count it.
+- Rendered as a `[data-score-row]` header ("Game knowledge · NN%") plus 4 ticks per belt row (`[data-stripes]`) showing progress through *that belt's* band. **Nothing is gated by the score** and the thresholds are provisional.
+
+**THE BELT BAR + CROWNED LESSONS (v1.69.0).** PATH view is the Duolingo surface; TREE stays the reference browser (categories live there — the curriculum's order *is* the pedagogy, so grouping the path by category would break it).
+- `buildBeltBar()` renders one vertical meter at the head of the path: the fill rises with `gameScore().score` and takes the colour of the highest belt **met**, the track outline flips to white once that belt is black, a marker sits at each threshold (`[data-belt-mark]`, gaining `data-met` when passed), and `[data-you-are-here]` is the bright line at your exact score. Handles: `[data-belt-track]` (`normal`|`black`), `[data-belt-fill]` (belt id or `none`), `[data-belt-label]`.
+- **The line can fall.** Forgetting is *tested, not timed* (owner's call): there is no idle decay, but Review-again and trap answers drop a card's stage, so the score — and the belt — genuinely demote. Do not add time decay.
+- `crownBadge(frac, tint, locked)` gives every lesson a 0–4 crown from `deckMastery(deckKey)` — a conic-gradient ring plus the level (★ at 4). **Same numbers as the belt score**, so grinding a lesson to gold is literally what moves your belt: one system, not two scoreboards.
+- Every pre-existing path handle is preserved (`[data-lesson]`, `[data-unit]`, `[data-checkpoint]`, `[data-belt]`, `data-locked`, `data-done`, `data-live`) — the redesign is styling, not restructuring.
+
+**MOMENTUM — the combo meter (v1.70.0).** Consecutive correct landing answers build an arcade combo: ×2 `DOUBLE COMBO!` · ×3 `TRIPLE` · ×4 `MEGA` · ×5 `ULTRA` · ×6 `RAMPAGE!` · ×7+ `GODLIKE` (re-stamps ×N). Owner's rules: **per roll** (fresh match starts cold — reset in `startRoll`/`rollFromPosition`); **wrong OR ignored breaks it** (`_landPending` is set when a question mounts; `enterAttempt` breaks with `reason:"ignored"` if it's still set — auto-pick counts as ignoring); a landing that asks nothing **carries** it (silence ≠ neglect).
+- **Bonus:** `momentumMod()` = +2.5%/tier, **cap +10%** at ×5 — added in `moveChance` AND `escapeChance` (momentum is morale, it defends too). `momentumSkew()` = 10%/tier, **cap 40%**: in `drawOutcome`, counter-outcome weights shrink by the skew ("too fast to counter") — favorable outcomes gain implicitly via relative weights, authored numbers untouched. Beat `outcome_skewed {skew, result}` when a non-success lands under skew.
+- **Surfaces:** `.ng-combo-pop` (`[data-combo-pop][data-heat 1-5]`, announcer slam, auto-removes) and the `.ng-momentum` heat chip (`[data-momentum]`, top-right, shatter animation on break). Beats: `combo {n, name, mod}`, `combo_big {n≥5}` (louder patch), `combo_break {at, reason}`. Sound patches `combo`/`combo_big`/`combo_break` in `sound.src.js`.
+- The ×2+ announcer replaces the "Correct" toast; a break folds "×N momentum gone" into the wrong-answer toast.
+
+**`pointer-events:auto` is LOAD-BEARING on every fixed overlay** (`.ng-coach`, `.ng-landcard`, …): the property is *inherited*, the overlay root disables it, and the canvas hit-tests above anything that doesn't re-enable it — option cards set it inline for exactly this reason. Missing it = mouse clicks silently fall through to the graph (the coach's Next button and the landing card's MC options were unclickable by mouse until v1.69.1; keyboard paths masked it).
+
+**Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on — gates the QUESTION only; identity+film render regardless) and *Tutorial* (progress + Restart); Flashcards tab's *Answer mode* now defaults to Classic recall. Shortcuts tab lists `A B C D`.
 
 ### Graph Component
 
@@ -364,6 +434,18 @@ All commands run from the repo root (`bjjgraph/`):
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run dev` | Build then serve locally on port 8080 |
 | `npm run proofread` | Recurring LLM audit of graph edges + probabilities via Claude CLI. Intermittent use only — one Claude call per file, ~25 hours for full corpus at default 60s interval. Not part of `regenerate`. Use `--file`, `--category`, `--max-files` to scope, or `--batch` to skip the delay. |
+| `npm run calibrate:cases` | Build `calibration_cases.json` from the live graph. **Per ruleset (v1.50.0+): emits a `gi` AND a `nogi` case per position role** (`case_id` suffixed `::gi`/`::nogi`); candidates = that role's transitions with their existing outcome skeletons. Regenerable input, gitignored. |
+| `npm run calibrate` | **Calibrated probability elicitation (dry-run), per gi/no-gi ruleset.** An expert panel (Danaher, Gordon Ryan, Craig Jones, Roger Gracie, a BJJ-Fanatics generalist), each elicited in a SEPARATE Claude call, estimates occurrence% / success% / outcome-distribution per technique **in BOTH gi and no-gi frames** (ruleset-framed prompts; `ruleset_weight` boosts native-frame experts — Roger↑gi, Danaher/Gordon/Craig↑no-gi). Mechanism-first (which principles attacker leverages vs defender fails to leverage), comparative ranking + anchored to known-% references **shown only for the matching frame**. Aggregates IN CODE (relevance × ruleset × inverse-variance, bootstrap bagging, spread→pseudo-count **hard-capped at 8** — the 5 personas are one correlated LLM (~1.25 effective estimators); submissions / extrapolated / wide-CI entries are forced to the floor (3)), then **de-biases the single-LLM central-tendency compression PER `success_type`** (submission/sweep/pass/takedown/… each get their own inverse fit `true=(elicited-b)/a`, high-side damped, clipped; types with <5 anchors fall back to a global fit, flagged). Anchors come from `calibration_external_anchors.json` (curated + cited tournament research; committed input) with a **held-out** subset that validates out-of-sample. Reports per-band + **per-type leave-one-anchor-out (LOAO) MAE + held-out MAE** (the non-circular gate). Per-ruleset proposals carry `frame_confidence` (gi/no-gi `mirrored` when they agree within noise, else `forked`). Writes `calibration_results.json` + `calibration_proposals.json`; changes nothing else (NB: per-edge ground truth doesn't exist — BJJ records completions, not attempts — so per-technique success% stays an expert prior; external data anchors the de-bias slope + validates aggregates). `--reaggregate` re-runs aggregation+de-bias on existing results with NO Claude calls; `--no-debias` disables the correction. **Launch runbook: `~/calibration-engine.md`.** |
+| `npm run calibrate:apply` | **Apply the calibrated per-ruleset success-rate priors into `templates/votes.json` (calibration-v2 Phase 2.3, `scripts/apply_calibration.py`).** Forks every votes entry to `{community:{gi,nogi}, prior:{gi,nogi,provenance}}` (legacy scalar mirrors into both frames; community ≠ prior — the AI prior never masquerades as votes; pure-seed sentinel `vote_count==30` preserved per frame). Writes a `prior` block for each proposal technique that is **confident** (`not needs_human_review`) OR **reviewed** (`review_input.json`) OR **overridden** (`calibration_overrides.json`, which wins). The published rate is the Bayesian blend `folded_rate` = prior (weighted by pseudo_count) + real community votes (count above the seed) — so the prior drives the number while unvoted, and ~3-8 real votes overturn it. `scripts/_votes.py` is the shared schema/fold seam; `regenerate_graph.load_votes` folds per ruleset and reduces to the **no-gi default frame** (graph.json `successRate` stays scalar → zero consumer churn; `successRateByRuleset` carries the {gi,nogi} pair for the 2.4 toggle), then rescales each node's outcome distribution so `successRate == Σ success-cells` (headline⇄breakdown coherence, gated by validate:graph). `regenerate_md` renders the same folded value so page text == graph == game. occurrence% / outcomes stay in the human-gated `calibration_proposals.json`. |
+| `npm run clips:source` | **Curated YouTube film-study clips pipeline (v1.54.4, `scripts/source_clips.py`).** Fills role-nested `clips` arrays in content JSON for every slot (position top/bottom + hub overview, technique attacker/defender, principle; submission family hubs derive the union of child clips). Staged + resumable (state in gitignored `clips_sourcing/`): LLM plans the legend instructor + search queries per slot → yt-dlp runs REAL YouTube searches (IDs can't be hallucinated; per-video metadata fetches are bot-checked from datacenter IPs, so provenance comes from search results) → LLM curates 1-3 picks from real results only (Shorts ≤75s preferred) → machine verification (oEmbed 200/401/404 for embeddability; `i.ytimg.com/vi/<id>/oardefault.jpg` exists ONLY for Shorts = verticality; the `/shorts/` redirect trick does NOT work) → apply → `clips_sourcing/review.html` thumbnail grid for in-place pruning. Scope with `--stage/--category/--file/--max-slots`. Clips are curation-safe: stripped from the `regenerate:json` AI contract and re-merged verbatim (like Systems `products`). Neural app already renders them (film-study strip); `_neural_content.py` strips provenance fields from the bundle. |
+| `npm run clips:verify` | Re-verify every applied clip against YouTube (rot check: deleted/private/embed-disabled). Refreshes `verified` dates; `--prune` removes dead clips; `--max-age-days N` limits to stale ones. Exit 1 on failures without `--prune` (CI-friendly). |
+| Q3 occurrence calibration (no npm script — orchestrated) | **Per-ruleset attempt-probability (`occurrence`) calibration of every position role-node, v1.53.0.** Distinct from success-rate calibration: this rebuilds each position's `transitions[].attempt_probability` `{gi,nogi}` maps from a two-chamber expert panel — 10 BJJ legends vote frequencies, 4 advisors (statistician/ML/game/UX) challenge but don't vote — run as a **Hybrid Delphi**: independent per-legend ballots (Stage 1) → one 12–20-round deliberation agent per position (Stage 2) → deterministic MoE aggregation in `scripts/occurrence_moe.py` (specialty×ruleset weighted mean, modest anchor blend, **per-frame-0 only for genuine ruleset-unavailability decided from BALLOTS not the panel's `availability_rulings` field**, floor 1%, largest-remainder to 100/frame) → adversarial verify wave → `scripts/apply_occurrence_calibration.py` writes the maps into `content/Positions/*.json`. graph.json gets scalar `attemptProbability` (no-gi default frame) + `attemptProbabilityByRuleset:{gi,nogi}` — parity with successRate. Committed provenance: `occurrence_calibration.json`. Orchestration + credit-outage-resilient resume runbook live in the gitignored `occurrence_elicitation/_orchestration/`. This is the first REAL gi≠nogi divergence in **content** (v1.51.0's divergence was votes-only), so the Q3.0 pre-flight (v1.52.1) first made ~10 readers divergence-tolerant. |
+| `npm run test:curated` | **Fast deployment gate**: representative core gameplay, pane, progression, persistence, and Forward catalog journeys tagged `@curated`. Runs on every dev/prod deployment with a 12-minute hard ceiling and a sub-10-minute target. Package-manager neutral: `pnpm test:curated` invokes the same script. |
+| `npm test` | **Complete core Playwright suite** (`e2e/journeys/`, config `e2e/playwright.config.ts`) against the built site on :8123. GitHub Actions builds the site once and runs four shards for PRs targeting `main`, weekly, and on demand; each shard has a 45-minute hard ceiling and the wall-time target is 10-15 minutes. Rigged RNG + simulated-time pump via `journey()`; workers=1/shard, retries=0. `pnpm test` invokes the same script. |
+| `npm run e2e` | Backward-compatible local alias for the complete core Playwright suite. `pree2e` checks the RNG seam. |
+| `npm run e2e:gen` | **Generated hyperspace suite** (v1.67.0): agent-authored journeys in `e2e/gen/`, tracked in `e2e/gen/ledger.json` (theme × lifecycle × feature × behavior + one-line invariant per test; persona seed builders in `e2e/gen/personas.ts`). Lints via `scripts/check_gen_specs.sh` (Math.random ban, `@hyperspace` headers, ledger↔spec sync) then runs `e2e/playwright.gen.config.ts`. SEPARATE from the push gate. Grown by the `testgen-wave` workflow (`.claude/workflows/testgen-wave.js`): scout → probe/play → author → validate (2× green + red-proof; all Playwright serialized via `flock /tmp/bjj-pw.lock`) → adversarial meta-validation vs the full ledger. |
+| `npm run e2e:quarantine` | Known-RED specs capturing real gameplay bugs found by test-gen waves; each pairs with an entry in `e2e/quarantine/ISSUES.md`. Excluded from all gates; a spec going green here means its bug got fixed → promote to `e2e/gen/` + flip its ledger status. |
+| `npm run e2e:observe` | Watch any spec live from another machine: the browser exposes CDP :9222 + slowMo (`OBSERVE_SLOWMO=600`). Part of the **paired-debugging skill** (`.claude/skills/paired-debugging/SKILL.md`): Mode 1 drives the owner's own tab at bjjgraph:8080 through the dev-serve bridge (`node scripts/paired_session.mjs bridge start`, then `cmd`/`results`); Mode 2 shares a watchable CDP browser (`paired_session.mjs start` + `scripts/paired/driver.mjs`). Sessions journal to `e2e/paired/journals/` and are TRANSLATED (never replayed) into gen specs with owner think-time clamped. |
 
 ### Quartz Scripts (source/package.json)
 
@@ -374,6 +456,31 @@ cd source && npm run check   # Type checking (tsc + prettier)
 cd source && npm run format  # Format code with prettier
 cd source && npm run test    # Run path and depgraph tests
 ```
+
+### Dev Snapshots (`<snapshot />`)
+
+`npm run serve` / `npm run dev` runs `scripts/dev-serve.mjs` — the built site on :8080 (same
+serve-handler engine `npx serve` used) plus a **localhost-only** snapshot receiver. A camera
+button (bottom-left, dev only) captures the tab as PNG + a JSON dump of client state (page
+identity, curated `window.__neural` gameplay/training fields, both web storages with `sb-*` auth
+keys redacted, auth summary, recent console errors, build info) into `tests/artifacts/snapshots/`
+(gitignored) and copies a one-liner to the clipboard:
+
+```
+<snapshot slug="Positions/Mount/Top" variant="neural" t="2026-07-17T14:23:05Z" json="tests/artifacts/snapshots/20260717-142305-positions-mount-top.json" png="tests/artifacts/snapshots/20260717-142305-positions-mount-top.png" />
+```
+
+**When the user pastes a `<snapshot />` line, Read both referenced files** (paths are
+repo-relative). The PNG is exactly what the user was looking at; the JSON is the client state and
+console errors at that instant. Treat them as ground truth for the report that follows — they
+beat any assumption about what the app "should" be showing. The `png` attribute is absent when
+capture degraded to JSON-only.
+
+Capture degrades rather than fails: tab capture (`getDisplayMedia`, one "Share this tab" confirm)
+→ neural-canvas `toDataURL` (no prompt, but misses DOM overlays) → JSON-only. Add `?snapshot=canvas`
+(or set `window.__snapshotCanvasOnly = true`) to skip the prompt and force the canvas path — needed
+for automation, since a headless browser leaves `getDisplayMedia` pending forever instead of
+rejecting it.
 
 ### Content Workflow
 

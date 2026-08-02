@@ -19,7 +19,10 @@
   "target_area": "Cervical and thoracic spine, shoulder girdle",
   "starting_position": "Cross Body Ride",
   "from_position": "Cross Body Ride/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Built from a dominant cross body ride, this entry leverages perpendicular chest-to-back pressure that has already compromised the opponent's turtle before any rotational mechanics are introduced. The submission begins from a turtle-top position where the attacker has already achieved heavy cross-body pressure, then systematically transitions into the leg entanglement and chin strap grip that define the Twister's finishing mechanics. The cross body pressure breaks down the opponent's turtle structure before the attacker threads legs for the rotational base and controls the opponent's hips.\n\nThe strategic value of entering the Twister from Cross Body Ride lies in the positional advantage already established. Unlike entries from scrambles or bottom positions, the Cross Body Ride provides a stable platform where the attacker can methodically build each layer of control without urgency. The perpendicular pressure has already compromised the opponent's defensive posture, making leg entanglement significantly easier to achieve and maintain throughout the finishing sequence.\n\nThis submission demands extreme caution due to the direct spinal torque it generates. The combination of lower body rotation through the leg entanglement and upper body rotation through the chin strap creates compound forces across the cervical and thoracic spine that can cause severe injury with very little warning. Practitioners must prioritize slow, controlled application and immediate release on any tap signal. The Twister is best understood as the highest-risk option within a broader attack system from Cross Body Ride that includes calf slicers, banana splits, and back takes.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Cross Body Ride/Top",
-      "probability": 39,
+      "probability": {
+        "gi": 39,
+        "nogi": 39
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "counter"
     }
   ],
@@ -292,57 +304,196 @@
       {
         "question": "What anatomical structures does the Twister from Cross Body Ride primarily attack?",
         "answer": "The Twister primarily attacks the cervical and thoracic spine through combined rotational torque and lateral flexion. The leg entanglement creates rotation through the thoracic and lumbar spine from below, while the chin strap grip applies cervical rotation and lateral bending from above. The shoulder girdle is also stressed as the upper body is pulled in opposition to the immobilized lower body.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cervical and thoracic spine",
+        "distractors": {
+          "plausible": [
+            "Elbow and wrist joints",
+            "Hip flexor muscles"
+          ],
+          "trap": [
+            "Harmless neck stretch only"
+          ]
+        }
       },
       {
         "question": "Why must leg entanglement be fully established before attempting the chin strap grip?",
         "answer": "The leg entanglement creates the rotational foundation that makes the Twister mechanically possible. Without deep leg control preventing hip rotation, the opponent can simply turn their hips to match their shoulders, eliminating the spinal torque that the submission depends on. Attempting the chin strap without this foundation wastes the dominant position because the opponent can easily escape when the attacker shifts focus to upper body control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg control stops hip rotation",
+        "distractors": {
+          "plausible": [
+            "Chin strap secures grip first",
+            "Both applied together always"
+          ],
+          "trap": [
+            "Chin strap alone is sufficient"
+          ]
+        }
       },
       {
         "question": "Your opponent begins aggressively hand fighting to prevent your chin strap — what adjustment prevents escape?",
         "answer": "First isolate and pin the far-side wrist against their body using your chest pressure and free hand before reattempting the chin strap. If they continue defending with both hands, use your body weight to flatten their defensive arm between your bodies. The key is removing their primary defensive tool before threading, not fighting through active hand defense which risks losing leg control as your attention shifts upward.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin far wrist before threading",
+        "distractors": {
+          "plausible": [
+            "Fight through with raw strength",
+            "Switch straight to near-side grip"
+          ],
+          "trap": [
+            "Release legs to free your hands"
+          ]
+        }
       },
       {
         "question": "What is the correct application speed for the Twister finish and why is this critical for safety?",
         "answer": "The Twister must be applied extremely slowly with a minimum of 5-7 seconds of progressive pressure. The spine cannot tolerate sudden rotational force, and explosive application creates serious risk of cervical disc herniation, ligament tears, or vertebral damage that can result in permanent injury. Slow application also gives the opponent adequate time to recognize the submission and tap safely before any structural damage occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, 5-7 seconds progressive",
+        "distractors": {
+          "plausible": [
+            "Fast before they can escape",
+            "Steady moderate pressure works"
+          ],
+          "trap": [
+            "Explosive snap for a fast tap"
+          ]
+        }
       },
       {
         "question": "How should you immediately respond when your partner taps to the Twister?",
         "answer": "Immediately release all head and neck control first, then release upper body grips to allow the opponent to turn face-up naturally. Next, slowly unwind the leg entanglement without pulling or twisting. Apply zero force during the entire release sequence and let the opponent move at their own pace. Verbally check with your partner after release to confirm they are uninjured and okay to continue training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release head, then unwind legs",
+        "distractors": {
+          "plausible": [
+            "Release legs first, then head",
+            "Hold briefly to confirm tap"
+          ],
+          "trap": [
+            "Pull through to full extension"
+          ]
+        }
       },
       {
         "question": "Your opponent starts turning into you to reduce spinal rotation — how do you respond?",
         "answer": "Increase pressure through your leg entanglement to resist their hip rotation and maintain the spinal torque angle. If they successfully reduce some rotation, recognize that their neck becomes more exposed as they turn toward you, opening opportunities for guillotine variations or front headlock transitions. The key is to exploit what the defensive reaction gives you rather than fighting exclusively to maintain the original Twister angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Add leg pressure, attack neck",
+        "distractors": {
+          "plausible": [
+            "Wait for them to tire",
+            "Yank the chin strap harder"
+          ],
+          "trap": [
+            "Release legs to reset angle"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest finishing mechanics for the Twister?",
         "answer": "A gable grip or figure-four configuration behind the opponent's head provides the strongest finishing mechanics. The threading arm seats under the chin with the forearm against the jawline, while the far-side hand connects behind the head to lock the position. This configuration distributes the rotational force across both arms and allows you to apply pressure through body rotation rather than isolated arm strength, which is both more powerful and more controlled.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gable or figure-four behind head",
+        "distractors": {
+          "plausible": [
+            "One-handed chin cup",
+            "Cross-collar throat grip"
+          ],
+          "trap": [
+            "Post free hand on the mat"
+          ]
+        }
       },
       {
         "question": "Your chin strap grip is shallow and the opponent is defending their chin effectively — what should you do?",
         "answer": "If the chin strap cannot be established deeply despite proper wrist isolation, do not force it. Maintain your leg entanglement and transition to alternative attacks that exploit the opponent's chin-defense posture. A calf slicer attacks the trapped leg while they focus on chin defense. A banana split exploits their hip immobility. Transition to back control if the entanglement allows. Forcing a shallow chin strap risks both losing position and applying dangerous concentrated pressure on the jaw rather than proper spinal torque.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to calf slicer or split",
+        "distractors": {
+          "plausible": [
+            "Force the grip deeper anyway",
+            "Abandon position, stand up"
+          ],
+          "trap": [
+            "Crank the shallow jaw grip"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the Twister is fully locked and the opponent should tap?",
         "answer": "The submission is fully locked when the chin strap grip is connected behind the head with the forearm deeply seated under the chin, the leg entanglement prevents any hip rotation, and initial rotational pressure produces visible spinal torque with the opponent unable to reduce the angle. Additional indicators include the opponent's breathing becoming visibly labored, their defensive hand fighting becoming weaker, and their body being unable to create any positional adjustment. At this point, continued pressure will produce a tap or potential injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "No hip rotation, labored breath",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving entirely",
+            "Grip feels tight to attacker"
+          ],
+          "trap": [
+            "Wait for an audible pop"
+          ]
+        }
       },
       {
         "question": "How does the Cross Body Ride advantage specifically benefit the Twister entry compared to other starting positions?",
         "answer": "The Cross Body Ride provides perpendicular chest-to-back pressure that has already compromised the opponent's turtle structure before the Twister sequence begins. This means the opponent's defensive posture is weakened, their base is partially broken, and the attacker has established dominant weight distribution. The cross body angle makes it easier to thread legs for the rotational entanglement because the opponent cannot effectively re-turtle or create space while being compressed from above. This pre-existing positional advantage reduces the number of steps needed to reach the finishing configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pressure breaks turtle pre-entry",
+        "distractors": {
+          "plausible": [
+            "Faster arm submission setup",
+            "Easier switch to back control"
+          ],
+          "trap": [
+            "Lets opponent re-turtle freely"
+          ]
+        }
       },
       {
         "question": "How does the Twister fit within the broader Cross Body Ride attack system?",
         "answer": "The Twister is one option within a comprehensive attack system from Cross Body Ride that includes calf slicers on the trapped leg, banana splits exploiting hip immobility, guillotine variations when the opponent turns in, and transitions to traditional back control. The Twister threat forces defensive reactions that open these alternative attacks. Elite practitioners use the Twister as a primary threat that channels opponent defense toward specific patterns, then exploit those patterns with higher-percentage alternatives when the Twister itself is well-defended.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threat opens slicer and back take",
+        "distractors": {
+          "plausible": [
+            "Best used only as last resort",
+            "Works only on white belts"
+          ],
+          "trap": [
+            "Chase twister, ignore other subs"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister Side Attacks",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "FjWN_aBp2eE",
+        "title": "Eddie Bravo's Twister",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "CholoMMA",
+        "duration": 49,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Twister from Side Control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -442,27 +593,77 @@
       {
         "question": "How do you recognize the Twister is being set up from Cross Body Ride bottom?",
         "answer": "Key recognition cues include the opponent shifting from standard cross body pressure to thread legs for entanglement, isolating your far-side wrist while adjusting hip position, feeling their near-side arm begin threading toward your chin from the far side, increasing rotational pressure through the leg entanglement pulling your hips away from your shoulders, and progressively restricted breathing as spinal rotation compresses your rib cage. Early recognition when the opponent begins leg threading is the most critical defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Legs threading, wrist isolated",
+        "distractors": {
+          "plausible": [
+            "Only increased chest weight",
+            "Sudden double underhooks"
+          ],
+          "trap": [
+            "Ignore it, defend once locked"
+          ]
+        }
       },
       {
         "question": "What is the safest response when the Twister is fully locked and escape is no longer possible?",
         "answer": "Tap immediately through verbal tap, hand tap, or foot tap - whichever is most accessible given your limited mobility. The Twister attacks the cervical and thoracic spine directly, and the window between fully locked position and structural damage is extremely narrow. There is no submission in training worth risking permanent spinal injury. Tap early and clearly, and never let ego override spinal safety in this specific submission.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, any method",
+        "distractors": {
+          "plausible": [
+            "Bridge hard to create space",
+            "Wait for referee to stop it"
+          ],
+          "trap": [
+            "Push through to test the limit"
+          ]
+        }
       },
       {
         "question": "Your opponent has started threading their arm under your chin — what immediate defensive action should you take?",
         "answer": "Immediately tuck your chin tightly to your chest and use both hands to create a barrier preventing the forearm from seating under your jaw. Grip your own head or interlock your fingers behind your neck to create a chin-protection shell. Simultaneously, begin working your trapped leg free since the opponent's focus on the chin strap creates a window to address the leg entanglement. Do not rely on chin defense alone as it is a temporary measure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tuck chin, shell hands, free leg",
+        "distractors": {
+          "plausible": [
+            "Grab their wrist to strip grip",
+            "Turn head away from the arm"
+          ],
+          "trap": [
+            "Turn into the choking arm"
+          ]
+        }
       },
       {
         "question": "Why is addressing the leg entanglement more important than purely defending the chin strap?",
         "answer": "The leg entanglement creates the rotational foundation that makes the Twister mechanically possible. Even if you successfully defend the chin strap temporarily, the opponent can reset and reattempt as many times as needed while maintaining leg control. Freeing the trapped leg eliminates the spinal rotation entirely, making the Twister mechanically impossible regardless of upper body positioning. Leg extraction provides a permanent solution while chin defense is only a temporary delay.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Freeing the leg stops it for good",
+        "distractors": {
+          "plausible": [
+            "Chin defense is a permanent fix",
+            "Both are equally important"
+          ],
+          "trap": [
+            "Ignore legs, focus chin only"
+          ]
+        }
       },
       {
         "question": "What makes explosive bridging dangerous when caught in deep Twister rotation from Cross Body Ride?",
         "answer": "Explosive bridging while the spine is already in deep rotation dramatically amplifies the rotational torque through the cervical and thoracic vertebrae. The bridge generates force that the opponent's leg entanglement converts into additional spinal torque rather than creating escape space. This can accelerate the submission or cause injury even without the opponent applying additional pressure. Technical rotation reduction through controlled hip and shoulder alignment must precede any explosive movement attempts.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bridging amplifies spinal torque",
+        "distractors": {
+          "plausible": [
+            "Bridging always creates space",
+            "Bridging only tires opponent"
+          ],
+          "trap": [
+            "Bridge explosively to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -485,6 +686,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Applying defensive skills under realistic conditions with progressive resistance",
         "description": "Positional sparring starting from Cross Body Ride with partner transitioning into Twister attacks at realistic offensive pressure. Focus on reading the opponent's attack sequence and choosing the correct defensive response in real-time. Emphasis on surviving to create escape opportunities while maintaining proper tap awareness throughout."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escape and Counter the Twister",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "0-Ht2pQtWRs",
+        "title": "Twister Side Control Escape (Gi)",
+        "by": "Pearson BJJ",
+        "vertical": false,
+        "channel": "Pearson Brazilian Jiu-Jitsu",
+        "duration": 228,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AUyR1rmVzo4",
+        "title": "Escaping Twister Side Control",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 205,
+        "verified": "2026-07-14"
       }
     ]
   }

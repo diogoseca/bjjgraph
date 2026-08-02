@@ -174,6 +174,43 @@ description: "How to execute Kimura Sweep in BJJ. Attacking perspective with set
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from closed guard",
+      "description": "Kimura Sweep (Attacker) film study: Kimura from closed guard, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KAxTmcxGc60/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KAxTmcxGc60",
+      "url": "https://www.youtube.com/watch?v=KAxTmcxGc60",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Closed guard sweep when opponent hugs your head",
+      "description": "Kimura Sweep (Attacker) film study: Closed guard sweep when opponent hugs your head, taught by Jiu Jitsu Five-O.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xDOjrYFJf5Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xDOjrYFJf5Y",
+      "url": "https://www.youtube.com/watch?v=xDOjrYFJf5Y",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +224,34 @@ At higher levels, the Kimura Sweep integrates into broader attacking systems whe
 **From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KAxTmcxGc60)
+
+<p class="clip-credit"><strong>Kimura from closed guard</strong> — taught by Gracie Charlottesville · 0:36 · <a href="https://www.youtube.com/watch?v=KAxTmcxGc60" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xDOjrYFJf5Y)
+
+<p class="clip-credit"><strong>Closed guard sweep when opponent hugs your head</strong> — taught by Jiu Jitsu Five-O · 1:10 · <a href="https://www.youtube.com/watch?v=xDOjrYFJf5Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

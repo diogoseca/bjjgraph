@@ -408,35 +408,115 @@
   "flashcards": [
     {
       "question": "What position forms the foundation of the Twister System, and why is it so effective?",
-      "answer": "The lockdown half guard - a figure-four leg entanglement on one of the opponent's legs that prevents leg extraction and passing pressure while setting up the whipup that powers sweeps and the Electric Chair."
+      "answer": "The lockdown half guard - a figure-four leg entanglement on one of the opponent's legs that prevents leg extraction and passing pressure while setting up the whipup that powers sweeps and the Electric Chair.",
+      "answer_line": "Lockdown half guard entanglement",
+      "distractors": {
+        "plausible": [
+          "50/50 leg entanglement",
+          "Deep half guard underhook"
+        ],
+        "trap": [
+          "Open guard, no leg control"
+        ]
+      }
     },
     {
       "question": "What is the whipup and what role does it play in the system?",
-      "answer": "The whipup is an explosive hip extension from the lockdown: compress the opponent close, then straighten the legs and hips to off-balance them, creating entries into the Electric Chair, Old School Sweep, and Truck."
+      "answer": "The whipup is an explosive hip extension from the lockdown: compress the opponent close, then straighten the legs and hips to off-balance them, creating entries into the Electric Chair, Old School Sweep, and Truck.",
+      "answer_line": "Explosive hip extension",
+      "distractors": {
+        "plausible": [
+          "Slow hip escape shrimp",
+          "Bridge and roll opponent"
+        ],
+        "trap": [
+          "Push with arms, not hips"
+        ]
+      }
     },
     {
       "question": "How does defending the Old School Sweep create the Truck Position?",
-      "answer": "When the opponent posts their far hand to stop the backward roll, the attacker captures that posted arm and continues the roll into the Truck - the defensive reaction itself opens the next attacking position."
+      "answer": "When the opponent posts their far hand to stop the backward roll, the attacker captures that posted arm and continues the roll into the Truck - the defensive reaction itself opens the next attacking position.",
+      "answer_line": "Capture posted arm, roll to Truck",
+      "distractors": {
+        "plausible": [
+          "Base out and stop the roll",
+          "Switch to Electric Chair instead"
+        ],
+        "trap": [
+          "Let go and reset guard"
+        ]
+      }
     },
     {
       "question": "What does the Twister submission actually attack, and how is it applied?",
-      "answer": "The Twister is a lateral spinal lock applied from the Truck: the attacker controls the head and one leg, then bends the spine sideways while the legs block hip rotation, creating dangerous corkscrew pressure on the spinal column."
+      "answer": "The Twister is a lateral spinal lock applied from the Truck: the attacker controls the head and one leg, then bends the spine sideways while the legs block hip rotation, creating dangerous corkscrew pressure on the spinal column.",
+      "answer_line": "Lateral spinal lock from Truck",
+      "distractors": {
+        "plausible": [
+          "Neck crank from back mount",
+          "Hip lock via leg rotation"
+        ],
+        "trap": [
+          "Release legs, grab head only"
+        ]
+      }
     },
     {
       "question": "Which submissions besides the Twister are available from the Truck Position?",
-      "answer": "The calf slicer (shin across the calf with figure-four legs), the banana split (splitting the legs apart at the groin), and back-control chokes, giving the attacker multiple finishes so defending one opens another."
+      "answer": "The calf slicer (shin across the calf with figure-four legs), the banana split (splitting the legs apart at the groin), and back-control chokes, giving the attacker multiple finishes so defending one opens another.",
+      "answer_line": "Calf slicer, banana split, chokes",
+      "distractors": {
+        "plausible": [
+          "Kneebar and toe hold",
+          "Achilles lock and heel hook"
+        ],
+        "trap": [
+          "Armbar from the mount"
+        ]
+      }
     },
     {
       "question": "Why is flexibility central to the Twister System, and how does it create defensive dilemmas?",
-      "answer": "The lockdown, Electric Chair, and Twister demand hip mobility and spinal rotation; opponents who lack flexibility must tap early or risk injury, which shrinks their defensive options while pressuring the attacker to train mobility too."
+      "answer": "The lockdown, Electric Chair, and Twister demand hip mobility and spinal rotation; opponents who lack flexibility must tap early or risk injury, which shrinks their defensive options while pressuring the attacker to train mobility too.",
+      "answer_line": "Inflexible foes must tap early",
+      "distractors": {
+        "plausible": [
+          "Flexible defenders escape easily",
+          "Mobility only speeds the finish"
+        ],
+        "trap": [
+          "Just power through the twister"
+        ]
+      }
     },
     {
       "question": "What is a common mistake when finishing the Twister, and how should it be corrected?",
-      "answer": "Pulling with only the arms is the common error; the finish must come from extending the whole body while the legs block hip rotation, and pressure should be applied slowly because spinal locks can injure very quickly."
+      "answer": "Pulling with only the arms is the common error; the finish must come from extending the whole body while the legs block hip rotation, and pressure should be applied slowly because spinal locks can injure very quickly.",
+      "answer_line": "Extend body, not just arms",
+      "distractors": {
+        "plausible": [
+          "Squeeze harder with the biceps",
+          "Let the legs relax to finish"
+        ],
+        "trap": [
+          "Rip it fast before they defend"
+        ]
+      }
     },
     {
       "question": "Why should a Twister System player threaten multiple attacks rather than hunting only the Twister?",
-      "answer": "The system works through submission chaining: the Electric Chair, Old School Sweep, calf slicer, and banana split each force defensive reactions that open the others, so fixating on the Twister lets a defender shut the whole sequence down."
+      "answer": "The system works through submission chaining: the Electric Chair, Old School Sweep, calf slicer, and banana split each force defensive reactions that open the others, so fixating on the Twister lets a defender shut the whole sequence down.",
+      "answer_line": "Chain attacks, force reactions",
+      "distractors": {
+        "plausible": [
+          "Twister alone is fastest finish",
+          "Focus power on strongest attack"
+        ],
+        "trap": [
+          "Abandon lockdown for the choke"
+        ]
+      }
     }
   ]
 }

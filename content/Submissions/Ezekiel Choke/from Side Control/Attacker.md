@@ -182,6 +182,43 @@ description: "Learn to attack with the Ezekiel Choke from side control top. Step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ezekiel Choke from Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ezekiel Choke from Side Control",
+      "description": "Ezekiel Choke from Side Control (Attacker) film study: Ezekiel Choke from Side Control, taught by United BJJ Hawaii.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l5E5EYTOkYI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l5E5EYTOkYI",
+      "url": "https://www.youtube.com/watch?v=l5E5EYTOkYI",
+      "creator": { "@type": "Person", "name": "United BJJ Hawaii" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ezekiel from Side Control Top and Mount",
+      "description": "Ezekiel Choke from Side Control (Attacker) film study: Ezekiel from Side Control Top and Mount, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sObgbF1uXTo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sObgbF1uXTo",
+      "url": "https://www.youtube.com/watch?v=sObgbF1uXTo",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT252S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -192,6 +229,34 @@ Attacking with the Ezekiel Choke from side control exploits the perpendicular bo
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ezekiel Choke from Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l5E5EYTOkYI)
+
+<p class="clip-credit"><strong>Ezekiel Choke from Side Control</strong> — taught by United BJJ Hawaii · 2:03 · <a href="https://www.youtube.com/watch?v=l5E5EYTOkYI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sObgbF1uXTo)
+
+<p class="clip-credit"><strong>Ezekiel from Side Control Top and Mount</strong> — taught by Jean Jacques Machado · 4:12 · <a href="https://www.youtube.com/watch?v=sObgbF1uXTo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

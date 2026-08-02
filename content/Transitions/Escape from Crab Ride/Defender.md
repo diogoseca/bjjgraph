@@ -140,6 +140,43 @@ description: "Learn to counter the Escape from Crab Ride in BJJ. Guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Crab Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crab ride turn when they try to trap you on your back",
+      "description": "Escape from Crab Ride (Defender) film study: Crab ride turn when they try to trap you on your back, taught by CMPTV.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qp--XOaaFjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qp--XOaaFjk",
+      "url": "https://www.youtube.com/watch?v=qp--XOaaFjk",
+      "creator": { "@type": "Person", "name": "CMPTV" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crab ride progression: beating the hips to spiderweb",
+      "description": "Escape from Crab Ride (Defender) film study: Crab ride progression: beating the hips to spiderweb, taught by MCM Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFqoFaD87So/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFqoFaD87So",
+      "url": "https://www.youtube.com/watch?v=gFqoFaD87So",
+      "creator": { "@type": "Person", "name": "MCM Wrestling" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the Escape from Crab Ride, your role is the crab ride to
 **Opponent's Starting Position**: [[Positions/Crab Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Crab Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qp--XOaaFjk)
+
+<p class="clip-credit"><strong>Crab ride turn when they try to trap you on your back</strong> — taught by CMPTV · 1:01 · <a href="https://www.youtube.com/watch?v=qp--XOaaFjk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gFqoFaD87So)
+
+<p class="clip-credit"><strong>Crab ride progression: beating the hips to spiderweb</strong> — taught by MCM Wrestling · 0:55 · <a href="https://www.youtube.com/watch?v=gFqoFaD87So" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

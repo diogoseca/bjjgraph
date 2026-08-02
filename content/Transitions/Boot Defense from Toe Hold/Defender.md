@@ -140,6 +140,43 @@ description: "Counter the Boot Defense from Toe Hold as the attacking grappler. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Boot Defense from Toe Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the boot defense from outside ashi",
+      "description": "Boot Defense from Toe Hold (Defender) film study: Countering the boot defense from outside ashi, taught by Team GTW BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P6jLVGue1As/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P6jLVGue1As",
+      "url": "https://www.youtube.com/watch?v=P6jLVGue1As",
+      "creator": { "@type": "Person", "name": "Team GTW BJJ" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crossover toe hold finish",
+      "description": "Boot Defense from Toe Hold (Defender) film study: Crossover toe hold finish, taught by Bence Romanek.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "creator": { "@type": "Person", "name": "Bence Romanek" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ When your opponent deploys the Boot Defense against your toe hold, you face a ti
 **Opponent's Starting Position**: [[Positions/Toe Hold Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Boot Defense from Toe Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P6jLVGue1As)
+
+<p class="clip-credit"><strong>Countering the boot defense from outside ashi</strong> — taught by Team GTW BJJ · 1:17 · <a href="https://www.youtube.com/watch?v=P6jLVGue1As" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Crossover toe hold finish</strong> — taught by Bence Romanek · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

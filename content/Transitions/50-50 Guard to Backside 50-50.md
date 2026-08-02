@@ -34,6 +34,54 @@ description: "Master the transition from 50-50 Guard to Backside 50-50 in BJJ. L
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Guard to Backside 50-50 \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roll under to backside 50/50",
+      "description": "50-50 Guard to Backside 50-50 film study: Roll under to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Backside 50/50 entry",
+      "description": "50-50 Guard to Backside 50-50 film study: Backside 50/50 entry, taught by Combat Principles MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1s9wTxwTqwM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1s9wTxwTqwM",
+      "url": "https://www.youtube.com/watch?v=1s9wTxwTqwM",
+      "creator": { "@type": "Person", "name": "Combat Principles MMA" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse De La Riva to backside 50-50",
+      "description": "50-50 Guard to Backside 50-50 film study: Reverse De La Riva to backside 50-50, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h1kv3AHUKJk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h1kv3AHUKJk",
+      "url": "https://www.youtube.com/watch?v=h1kv3AHUKJk",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This transition occupies a critical role in modern leg lock systems as the bridg
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Guard to Backside 50-50 in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll under to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1s9wTxwTqwM)
+
+<p class="clip-credit"><strong>Backside 50/50 entry</strong> — taught by Combat Principles MMA · 0:38 · <a href="https://www.youtube.com/watch?v=1s9wTxwTqwM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h1kv3AHUKJk)
+
+<p class="clip-credit"><strong>Reverse De La Riva to backside 50-50</strong> — taught by Thunderdome BJJ · 0:41 · <a href="https://www.youtube.com/watch?v=h1kv3AHUKJk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -243,9 +327,9 @@ The Transition to Backside 50-50 sits at a critical junction in the modern leg l
 
 - [[Transitions/Back Take from 50-50]] - Complementary transition that abandons legs for back control from similar position
 
-- [[Transitions/Heel Hook]] - Primary submission available after successful transition to Backside 50-50
+- [[Submissions/Heel Hook]] - Primary submission available after successful transition to Backside 50-50
 
-- [[Transitions/Outside Heel Hook]] - Secondary submission threat from Backside 50-50 top
+- [[Submissions/Outside Heel Hook]] - Secondary submission threat from Backside 50-50 top
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position in the same system hierarchy
 

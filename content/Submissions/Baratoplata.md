@@ -34,6 +34,54 @@ description: "Master the Baratoplata shoulder lock in BJJ. Advanced submission f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baratoplata \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Baratoplata basics from rubber guard",
+      "description": "Baratoplata film study: Baratoplata basics from rubber guard, taught by True Believer Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1O-BoOWXhzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1O-BoOWXhzY",
+      "url": "https://www.youtube.com/watch?v=1O-BoOWXhzY",
+      "creator": { "@type": "Person", "name": "True Believer Jiu Jitsu" },
+      "duration": "PT232S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Duda to the baratoplata",
+      "description": "Baratoplata film study: Duda to the baratoplata, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tNlNA20iGRw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tNlNA20iGRw",
+      "url": "https://www.youtube.com/watch?v=tNlNA20iGRw",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT365S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Baratoplata shoulder lock from north south",
+      "description": "Baratoplata film study: Baratoplata shoulder lock from north south, taught by Show the ART.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v30lrt84x-Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v30lrt84x-Y",
+      "url": "https://www.youtube.com/watch?v=v30lrt84x-Y",
+      "creator": { "@type": "Person", "name": "Show the ART" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -84,6 +132,42 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baratoplata in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1O-BoOWXhzY)
+
+<p class="clip-credit"><strong>Baratoplata basics from rubber guard</strong> — taught by True Believer Jiu Jitsu · 3:52 · <a href="https://www.youtube.com/watch?v=1O-BoOWXhzY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tNlNA20iGRw)
+
+<p class="clip-credit"><strong>Duda to the baratoplata</strong> — taught by Eddie Bravo · 6:05 · <a href="https://www.youtube.com/watch?v=tNlNA20iGRw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v30lrt84x-Y)
+
+<p class="clip-credit"><strong>Baratoplata shoulder lock from north south</strong> — taught by Show the ART · 2:38 · <a href="https://www.youtube.com/watch?v=v30lrt84x-Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -93,7 +177,7 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Baratoplata/from Crackhead Control|Crackhead Control]] | Bottom | 42% | [[Submissions/Baratoplata/from Crackhead Control/Attacker|Attack →]] | [[Submissions/Baratoplata/from Crackhead Control/Defender|Defend →]] |
+| [[Submissions/Baratoplata/from Crackhead Control|Crackhead Control]] | Bottom | 52% | [[Submissions/Baratoplata/from Crackhead Control/Attacker|Attack →]] | [[Submissions/Baratoplata/from Crackhead Control/Defender|Defend →]] |
 
 
 </div>
@@ -122,7 +206,7 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 - [[Submissions/Far Side Armbar]] - Arm attack transition when Baratoplata shoulder lock is defended
 - [[Submissions/Kimura]] - Complementary shoulder lock targeting same joint from different angle
 - [[Submissions/Americana]] - Related shoulder lock in same joint lock family with opposite rotation
-- [[Transitions/Arm Triangle]] - Counter submission opportunity arising from Baratoplata defense scrambles
+- [[Submissions/Arm Triangle]] - Counter submission opportunity arising from Baratoplata defense scrambles
 - [[Positions/Rubber Guard]] - Primary starting position and control structure
 - [[Positions/Rubber Guard/Mission Control]] - Initial rubber guard position for Baratoplata setup
 - [[Positions/Rubber Guard/New York]] - Transition position that creates angle for arm weave

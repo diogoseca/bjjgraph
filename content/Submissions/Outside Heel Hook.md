@@ -34,6 +34,65 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel Hooks breakdown",
+      "description": "Outside Heel Hook film study: Heel Hooks breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UuluKZKDt8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UuluKZKDt8w",
+      "url": "https://www.youtube.com/watch?v=UuluKZKDt8w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "ADCC-style 50/50 heel hook",
+      "description": "Outside Heel Hook film study: ADCC-style 50/50 heel hook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5RyU5LDc3C4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5RyU5LDc3C4",
+      "url": "https://www.youtube.com/watch?v=5RyU5LDc3C4",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Backside 50/50 heel hook finish",
+      "description": "Outside Heel Hook film study: Backside 50/50 heel hook finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
+      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Backside 50/50 to outside heel hook",
+      "description": "Outside Heel Hook film study: Backside 50/50 to outside heel hook, taught by Marshall Stamper.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7I0Lj1aSon4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7I0Lj1aSon4",
+      "url": "https://www.youtube.com/watch?v=7I0Lj1aSon4",
+      "creator": { "@type": "Person", "name": "Marshall Stamper" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +112,7 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Outside Heel Hook?", "acceptedAnswer": { "@type": "Answer", "text": "The Outside Heel Hook is a rotational leg-lock that twists the heel laterally to torque the knee, attacked from outside leg entanglements like outside ashi-garami, saddle, and 50-50 and threatening the ACL, MCL, and meniscus within seconds." } },
-    { "@type": "Question", "name": "What positions can you finish the Outside Heel Hook from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Outside Heel Hook from 50-50 Guard, Backside 50-50, Cross Ashi-Garami, Honey Hole, Leg Entanglement, Outside Ashi-Garami, Saddle, Ushiro Ashi-Garami." } },
+    { "@type": "Question", "name": "What positions can you finish the Outside Heel Hook from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Outside Heel Hook from Honey Hole, 50-50 Guard, Backside 50-50, Cross Ashi-Garami, Leg Entanglement, Outside Ashi-Garami, Saddle, Ushiro Ashi-Garami." } },
     { "@type": "Question", "name": "Is the Outside Heel Hook dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Outside Heel Hook targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early and release immediately on the tap." } }
   ]
 }
@@ -89,6 +148,50 @@ The position demands systematic control before any finishing attempt: hip contro
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UuluKZKDt8w)
+
+<p class="clip-credit"><strong>Heel Hooks breakdown</strong> — taught by Lachlan Giles · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5RyU5LDc3C4)
+
+<p class="clip-credit"><strong>ADCC-style 50/50 heel hook</strong> — taught by Lachlan Giles · 1:26 · <a href="https://www.youtube.com/watch?v=5RyU5LDc3C4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+
+<p class="clip-credit"><strong>Backside 50/50 heel hook finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7I0Lj1aSon4)
+
+<p class="clip-credit"><strong>Backside 50/50 to outside heel hook</strong> — taught by Marshall Stamper · 0:47 · <a href="https://www.youtube.com/watch?v=7I0Lj1aSon4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -98,10 +201,10 @@ The position demands systematic control before any finishing attempt: hip contro
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
+| [[Submissions/Outside Heel Hook/from Honey Hole|Honey Hole]] | Top | 60% | [[Submissions/Outside Heel Hook/from Honey Hole/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Honey Hole/Defender|Defend →]] |
 | [[Submissions/Outside Heel Hook/from 50-50 Guard|50-50 Guard]] | Top | 45% | [[Submissions/Outside Heel Hook/from 50-50 Guard/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from 50-50 Guard/Defender|Defend →]] |
 | [[Submissions/Outside Heel Hook/from Backside 50-50|Backside 50-50]] | Top | 45% | [[Submissions/Outside Heel Hook/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Backside 50-50/Defender|Defend →]] |
 | [[Submissions/Outside Heel Hook/from Cross Ashi-Garami|Cross Ashi-Garami]] | Top | 45% | [[Submissions/Outside Heel Hook/from Cross Ashi-Garami/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Cross Ashi-Garami/Defender|Defend →]] |
-| [[Submissions/Outside Heel Hook/from Honey Hole|Honey Hole]] | Top | 45% | [[Submissions/Outside Heel Hook/from Honey Hole/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Honey Hole/Defender|Defend →]] |
 | [[Submissions/Outside Heel Hook/from Leg Entanglement|Leg Entanglement]] | Top | 45% | [[Submissions/Outside Heel Hook/from Leg Entanglement/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Leg Entanglement/Defender|Defend →]] |
 | [[Submissions/Outside Heel Hook/from Outside Ashi-Garami|Outside Ashi-Garami]] | Bottom | 45% | [[Submissions/Outside Heel Hook/from Outside Ashi-Garami/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Outside Ashi-Garami/Defender|Defend →]] |
 | [[Submissions/Outside Heel Hook/from Saddle|Saddle]] | Top | 45% | [[Submissions/Outside Heel Hook/from Saddle/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Saddle/Defender|Defend →]] |
@@ -130,11 +233,11 @@ The position demands systematic control before any finishing attempt: hip contro
 
 ## Related
 - [[Submissions/Inside Heel Hook]] - Mirror submission from inside leg positioning with opposite rotation direction
-- [[Transitions/Heel Hook]] - Generic heel hook category encompassing all rotational heel attacks
+- [[Submissions/Heel Hook]] - Generic heel hook category encompassing all rotational heel attacks
 - [[Submissions/Toe Hold]] - Complementary rotational foot lock often chained from heel hook defense
 - [[Submissions/Achilles Lock]] - Lower-risk straight ankle lock available from same leg entanglement positions
 - [[Submissions/Calf Slicer]] - Compression submission targeting calf from leg entanglement positions
-- [[Transitions/Estima Lock]] - Foot lock variation available during leg entanglement transitions
+- [[Submissions/Estima Lock]] - Foot lock variation available during leg entanglement transitions
 - [[Transitions/Aoki Lock]] - Named leg lock variant targeting similar structures from entanglements
 - [[Submissions/Flying Kneebar]] - Dynamic kneebar entry during standing-to-ground transitions
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Primary attacking position for this submission

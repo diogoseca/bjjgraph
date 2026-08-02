@@ -174,6 +174,43 @@ description: "How to execute Sasae Tsurikomi Ashi in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sasae Tsurikomi Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "An unusual sasae variation",
+      "description": "Sasae Tsurikomi Ashi (Attacker) film study: An unusual sasae variation, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kj78xnbn4LA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kj78xnbn4LA",
+      "url": "https://www.youtube.com/watch?v=kj78xnbn4LA",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sasae tsurikomi ashi short demo",
+      "description": "Sasae Tsurikomi Ashi (Attacker) film study: Sasae tsurikomi ashi short demo, taught by Judo Advantage coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O-MLLz9UHRM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O-MLLz9UHRM",
+      "url": "https://www.youtube.com/watch?v=O-MLLz9UHRM",
+      "creator": { "@type": "Person", "name": "Judo Advantage coach" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sasae Tsurikomi Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kj78xnbn4LA)
+
+<p class="clip-credit"><strong>An unusual sasae variation</strong> — taught by Shintaro Higashi · 1:00 · <a href="https://www.youtube.com/watch?v=kj78xnbn4LA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O-MLLz9UHRM)
+
+<p class="clip-credit"><strong>Sasae tsurikomi ashi short demo</strong> — taught by Judo Advantage coach · 0:23 · <a href="https://www.youtube.com/watch?v=O-MLLz9UHRM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -174,6 +174,54 @@ description: "Complete guide to executing the hip rotation escape from Electric 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Rotation Escape from Electric Chair (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown and electric chair counters and escapes",
+      "description": "Hip Rotation Escape from Electric Chair (Attacker) film study: Lockdown and electric chair counters and escapes, taught by Street Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3A6oRsDf3oU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3A6oRsDf3oU",
+      "url": "https://www.youtube.com/watch?v=3A6oRsDf3oU",
+      "creator": { "@type": "Person", "name": "Street Jitsu" },
+      "duration": "PT286S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Top Lockdown Turk Counter",
+      "description": "Hip Rotation Escape from Electric Chair (Attacker) film study: Top Lockdown Turk Counter, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lwwIfCAA7Zc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lwwIfCAA7Zc",
+      "url": "https://www.youtube.com/watch?v=lwwIfCAA7Zc",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT207S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Electric Chair: The 3 Micro Battles",
+      "description": "Hip Rotation Escape from Electric Chair (Attacker) film study: Electric Chair: The 3 Micro Battles, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pzpqHP-xx0I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pzpqHP-xx0I",
+      "url": "https://www.youtube.com/watch?v=pzpqHP-xx0I",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT630S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the hip rotation escape, you are the Electric Chair bo
 **From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Rotation Escape from Electric Chair (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3A6oRsDf3oU)
+
+<p class="clip-credit"><strong>Lockdown and electric chair counters and escapes</strong> — taught by Street Jitsu · 4:46 · <a href="https://www.youtube.com/watch?v=3A6oRsDf3oU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lwwIfCAA7Zc)
+
+<p class="clip-credit"><strong>Top Lockdown Turk Counter</strong> — taught by Craig Jones · 3:27 · <a href="https://www.youtube.com/watch?v=lwwIfCAA7Zc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pzpqHP-xx0I)
+
+<p class="clip-credit"><strong>Electric Chair: The 3 Micro Battles</strong> — taught by Patrick Donabedian · 10:30 · <a href="https://www.youtube.com/watch?v=pzpqHP-xx0I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -150,6 +150,43 @@ description: "How to defend the Loop Choke from Closed Guard in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Loop Choke from Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Loop choke escape",
+      "description": "Loop Choke from Closed Guard (Defender) film study: Loop choke escape, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pZmJpXSwRTk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pZmJpXSwRTk",
+      "url": "https://www.youtube.com/watch?v=pZmJpXSwRTk",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Loop choke defense: countering before the legs come",
+      "description": "Loop Choke from Closed Guard (Defender) film study: Loop choke defense: countering before the legs come, taught by Maxum Brazilian Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CO1cWjtlsFw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CO1cWjtlsFw",
+      "url": "https://www.youtube.com/watch?v=CO1cWjtlsFw",
+      "creator": { "@type": "Person", "name": "Maxum Brazilian Jiu Jitsu" },
+      "duration": "PT166S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +199,34 @@ The key to survival lies in prevention during the grip-setting phase rather than
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Loop Choke from Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pZmJpXSwRTk)
+
+<p class="clip-credit"><strong>Loop choke escape</strong> — taught by Ninja Pinto · 1:00 · <a href="https://www.youtube.com/watch?v=pZmJpXSwRTk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CO1cWjtlsFw)
+
+<p class="clip-credit"><strong>Loop choke defense: countering before the legs come</strong> — taught by Maxum Brazilian Jiu Jitsu · 2:46 · <a href="https://www.youtube.com/watch?v=CO1cWjtlsFw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

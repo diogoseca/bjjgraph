@@ -148,6 +148,43 @@ description: "Defend against the Mount to Technical Mount transition in BJJ. Lea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount to Technical Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical mount escape out the back",
+      "description": "Mount to Technical Mount (Defender) film study: Technical mount escape out the back, taught by smallmanbjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NHrpJdU8wCQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NHrpJdU8wCQ",
+      "url": "https://www.youtube.com/watch?v=NHrpJdU8wCQ",
+      "creator": { "@type": "Person", "name": "smallmanbjj" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount escape when you are stuck",
+      "description": "Mount to Technical Mount (Defender) film study: Mount escape when you are stuck, taught by Gabriel Gonzaga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
+      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
+      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Mount to Technical Mount transition requires recognizing the attac
 **Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount to Technical Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NHrpJdU8wCQ)
+
+<p class="clip-credit"><strong>Technical mount escape out the back</strong> — taught by smallmanbjj · 0:58 · <a href="https://www.youtube.com/watch?v=NHrpJdU8wCQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9252EvCT0q4)
+
+<p class="clip-credit"><strong>Mount escape when you are stuck</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master Boston Crab submission in BJJ. Complete guide covering setu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Boston Crab \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Boston crab as a legit submission",
+      "description": "Boston Crab film study: Boston crab as a legit submission, taught by Ramsey Dewey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iarztc8kRHk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iarztc8kRHk",
+      "url": "https://www.youtube.com/watch?v=iarztc8kRHk",
+      "creator": { "@type": "Person", "name": "Ramsey Dewey" },
+      "duration": "PT148S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Boston crab footlock from closed guard",
+      "description": "Boston Crab film study: Boston crab footlock from closed guard, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UGmbBqnAQiw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UGmbBqnAQiw",
+      "url": "https://www.youtube.com/watch?v=UGmbBqnAQiw",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Half boston crab with kneebar setup",
+      "description": "Boston Crab film study: Half boston crab with kneebar setup, taught by Dan The Wolfman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fA1NxkhnYdM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fA1NxkhnYdM",
+      "url": "https://www.youtube.com/watch?v=fA1NxkhnYdM",
+      "creator": { "@type": "Person", "name": "Dan The Wolfman" },
+      "duration": "PT276S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +130,42 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Boston Crab in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iarztc8kRHk)
+
+<p class="clip-credit"><strong>Boston crab as a legit submission</strong> — taught by Ramsey Dewey · 2:28 · <a href="https://www.youtube.com/watch?v=iarztc8kRHk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UGmbBqnAQiw)
+
+<p class="clip-credit"><strong>Boston crab footlock from closed guard</strong> — taught by Revolution BJJ · 1:51 · <a href="https://www.youtube.com/watch?v=UGmbBqnAQiw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fA1NxkhnYdM)
+
+<p class="clip-credit"><strong>Half boston crab with kneebar setup</strong> — taught by Dan The Wolfman · 4:36 · <a href="https://www.youtube.com/watch?v=fA1NxkhnYdM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -91,7 +175,7 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Boston Crab/from Turtle|Turtle]] | Top | 42% | [[Submissions/Boston Crab/from Turtle/Attacker|Attack →]] | [[Submissions/Boston Crab/from Turtle/Defender|Defend →]] |
+| [[Submissions/Boston Crab/from Turtle|Turtle]] | Top | 62% | [[Submissions/Boston Crab/from Turtle/Attacker|Attack →]] | [[Submissions/Boston Crab/from Turtle/Defender|Defend →]] |
 
 
 </div>

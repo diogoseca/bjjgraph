@@ -21,37 +21,37 @@ description: "Master Cross Ashi-Garami from top position. Outside leg entangleme
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook from Cross Ashi-Garami",
-      "text": "From this position, attempt Outside Heel Hook from Cross Ashi-Garami. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook from Cross Ashi-Garami. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Toe Hold from Cross Ashi-Garami",
+      "text": "From this position, attempt Toe Hold from Cross Ashi-Garami. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold from Cross Ashi-Garami",
-      "text": "From this position, attempt Toe Hold from Cross Ashi-Garami. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Saddle Entry from Top",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Kneebar entry",
+      "text": "From this position, attempt Kneebar entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Backside 50-50 Entry from Ashi",
+      "text": "From this position, attempt Backside 50-50 Entry from Ashi. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar entry",
-      "text": "From this position, attempt Kneebar entry. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Heel Hook from Cross Ashi-Garami",
+      "text": "From this position, attempt Heel Hook from Cross Ashi-Garami. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Cross Ashi-Garami from top position. Outside leg entangleme
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Ashi-Garami (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Ashi Belly-Down Heel Hook",
+      "description": "Cross Ashi-Garami (Top) film study: Cross Ashi Belly-Down Heel Hook, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h_SRARh0B6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h_SRARh0B6U",
+      "url": "https://www.youtube.com/watch?v=h_SRARh0B6U",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross Ashi Garami vs the Counter",
+      "description": "Cross Ashi-Garami (Top) film study: Cross Ashi Garami vs the Counter, taught by Raymond Tan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EzS4k5JXLRY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EzS4k5JXLRY",
+      "url": "https://www.youtube.com/watch?v=EzS4k5JXLRY",
+      "creator": { "@type": "Person", "name": "Raymond Tan" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ashi Garami and Heel Hook",
+      "description": "Cross Ashi-Garami (Top) film study: Ashi Garami and Heel Hook, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pRqoNs4K7cI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pRqoNs4K7cI",
+      "url": "https://www.youtube.com/watch?v=pRqoNs4K7cI",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT83S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The mechanical advantage of Cross Ashi-Garami Top comes from the ability to cont
 This position is fundamental to modern leg lock systems and serves as both a powerful finishing position and a transitional hub to other leg entanglements like Saddle (Honey Hole) and Inside Ashi-Garami. The position's effectiveness has made it a staple in high-level no-gi competition, where practitioners must understand both its offensive potential and defensive counters to compete successfully in the contemporary meta-game.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Ashi-Garami (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h_SRARh0B6U)
+
+<p class="clip-credit"><strong>Cross Ashi Belly-Down Heel Hook</strong> — taught by Bowerhouse MMA · 1:08 · <a href="https://www.youtube.com/watch?v=h_SRARh0B6U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EzS4k5JXLRY)
+
+<p class="clip-credit"><strong>Cross Ashi Garami vs the Counter</strong> — taught by Raymond Tan · 1:56 · <a href="https://www.youtube.com/watch?v=EzS4k5JXLRY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pRqoNs4K7cI)
+
+<p class="clip-credit"><strong>Ashi Garami and Heel Hook</strong> — taught by The Coop BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -225,7 +309,7 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 
 **If opponent attempts to clear outside leg cross by kicking or pushing:**
 - Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent establishes strong inside position with free leg:**
@@ -234,7 +318,7 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 
 
 **If opponent attempts to sit up or establish upper body frames:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 65%)
 - Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 55%)
 
 
@@ -351,7 +435,7 @@ Practice transitioning from Cross Ashi-Garami Top to other leg entanglement posi
 - **[[Positions/Ashi Garami/Saddle]]** - Primary transition - most common advancement from cross ashi
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Variation - alternative nomenclature for same position in some systems
 - **[[Positions/X-Guard/Single Leg X-Guard]]** - Common entry position - frequently used to establish cross ashi
-- **[[Transitions/Heel Hook]]** - Primary submission - most common finish from this position
+- **[[Submissions/Heel Hook]]** - Primary submission - most common finish from this position
 - **[[Positions/Leg Entanglement]]** - Concept - fundamental principle underlying position mechanics
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Related leg entanglement with symmetric control structure
 - **[[Positions/Ashi Garami/Honey Hole]]** - Alternative name for saddle - common transition target

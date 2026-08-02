@@ -174,6 +174,54 @@ description: "How to execute Mat Return to Back Mount in BJJ. Attacking perspect
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mat Return to Back Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mat returns from standing back control",
+      "description": "Mat Return to Back Mount (Attacker) film study: Mat returns from standing back control, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EGc0gpGOML8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EGc0gpGOML8",
+      "url": "https://www.youtube.com/watch?v=EGc0gpGOML8",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mat return drill",
+      "description": "Mat Return to Back Mount (Attacker) film study: Mat return drill, taught by Nicky Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GKrJsIYmycM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GKrJsIYmycM",
+      "url": "https://www.youtube.com/watch?v=GKrJsIYmycM",
+      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mat return with the backside double",
+      "description": "Mat Return to Back Mount (Attacker) film study: Mat return with the backside double, taught by Jeremy Baker.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8Hryr2cs7Tg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8Hryr2cs7Tg",
+      "url": "https://www.youtube.com/watch?v=8Hryr2cs7Tg",
+      "creator": { "@type": "Person", "name": "Jeremy Baker" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +233,42 @@ The critical decision point is choosing the correct takedown direction. Your che
 **From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mat Return to Back Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EGc0gpGOML8)
+
+<p class="clip-credit"><strong>Mat returns from standing back control</strong> — taught by Satori BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=EGc0gpGOML8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GKrJsIYmycM)
+
+<p class="clip-credit"><strong>Mat return drill</strong> — taught by Nicky Rodriguez · 1:24 · <a href="https://www.youtube.com/watch?v=GKrJsIYmycM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8Hryr2cs7Tg)
+
+<p class="clip-credit"><strong>Mat return with the backside double</strong> — taught by Jeremy Baker · 1:02 · <a href="https://www.youtube.com/watch?v=8Hryr2cs7Tg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

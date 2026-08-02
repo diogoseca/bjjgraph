@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Reverse Kesa-Gatame/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Kesa Gatame/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Within the scarf-hold family, this rotation is the top player's primary answer to a bottom player who has built strong defensive frames from standard Kesa Gatame. By pivoting 180 degrees to face the opponent's legs rather than their head, the top player eliminates the bottom player's ability to frame against the face and neck while simultaneously isolating the far arm for immediate submission threats. The rotation itself is deceptively technical, requiring precise weight transfer through the chest to prevent the bottom player from exploiting the momentary instability.\n\nStrategically, this transition serves multiple purposes within the pinning hierarchy. It functions as both a positional upgrade and a submission setup, since the reverse orientation naturally traps the far arm under the top player's armpit, creating immediate Kimura and Americana opportunities without additional grip fighting. The transition is particularly effective against opponents who have developed strong defensive frames from standard Kesa Gatame, as the rotation bypasses their established frame architecture entirely.\n\nThe timing of this transition is critical. The optimal window opens when the bottom player commits energy to defending standard Kesa Gatame attacks or when they attempt to create frames against the top player's head. Their defensive commitment creates the opening for the rotational switch, and their existing frames become irrelevant once the top player completes the pivot. This makes the transition an excellent answer to active defensive opponents who frustrate attacks from standard scarf hold.",
   "variants_and_adaptations": [
     {
@@ -244,46 +256,166 @@
     "flashcards": [
       {
         "question": "What is the fixed pivot point during the rotation, and why is this critical?",
-        "answer": "Your chest is the fixed pivot point, maintaining constant contact and pressure on the opponent's sternum throughout the entire rotation. This is critical because any lifting of chest pressure during the pivot creates space that allows the opponent to insert frames, shrimp, or initiate escapes. The hips orbit around the chest contact point, not the other way around. If the opponent feels pressure decrease at any moment during the transition, the technique is being executed incorrectly."
+        "answer": "Your chest is the fixed pivot point, maintaining constant contact and pressure on the opponent's sternum throughout the entire rotation. This is critical because any lifting of chest pressure during the pivot creates space that allows the opponent to insert frames, shrimp, or initiate escapes. The hips orbit around the chest contact point, not the other way around. If the opponent feels pressure decrease at any moment during the transition, the technique is being executed incorrectly.",
+        "answer_line": "Chest pinned to sternum",
+        "distractors": {
+          "plausible": [
+            "Hips anchor, chest orbits",
+            "Post on the head to pivot"
+          ],
+          "trap": [
+            "Lift chest to spin faster"
+          ]
+        }
       },
       {
         "question": "Your opponent has strong frames established against your face in standard Kesa Gatame. How does this create an opportunity for the transition?",
-        "answer": "Frames against your face in standard Kesa Gatame become completely irrelevant once you rotate to Reverse Kesa-Gatame because your face moves away from their frames. Their defensive energy is invested in a direction that no longer applies. Initiate the rotation while they are actively pushing your face, as their commitment to this defense means they are not protecting their far arm or preparing for the directional change. Their frames essentially become wasted effort the moment you begin the pivot."
+        "answer": "Frames against your face in standard Kesa Gatame become completely irrelevant once you rotate to Reverse Kesa-Gatame because your face moves away from their frames. Their defensive energy is invested in a direction that no longer applies. Initiate the rotation while they are actively pushing your face, as their commitment to this defense means they are not protecting their far arm or preparing for the directional change. Their frames essentially become wasted effort the moment you begin the pivot.",
+        "answer_line": "Their face frames become dead weight",
+        "distractors": {
+          "plausible": [
+            "Break their frames before rotating",
+            "Wait for frames to relax first"
+          ],
+          "trap": [
+            "Fight the frame hand to hand"
+          ]
+        }
       },
       {
         "question": "What is the most vulnerable moment during this transition, and how do you minimize the risk?",
-        "answer": "The most vulnerable moment is when you release head control to begin threading your arm toward the far arm, before the rotation is complete. During this phase, the opponent momentarily has their head free and can attempt bridges or hip escapes. Minimize this risk by increasing chest pressure to compensate for the loss of head control, completing the rotation as one continuous movement without pausing, and timing the transition when the opponent is not actively generating defensive movement."
+        "answer": "The most vulnerable moment is when you release head control to begin threading your arm toward the far arm, before the rotation is complete. During this phase, the opponent momentarily has their head free and can attempt bridges or hip escapes. Minimize this risk by increasing chest pressure to compensate for the loss of head control, completing the rotation as one continuous movement without pausing, and timing the transition when the opponent is not actively generating defensive movement.",
+        "answer_line": "Releasing head control mid-rotation",
+        "distractors": {
+          "plausible": [
+            "Losing chest pressure at the start",
+            "Threading the far arm too early"
+          ],
+          "trap": [
+            "Pause to reset grips mid-pivot"
+          ]
+        }
       },
       {
         "question": "You begin the rotation but your opponent bridges hard at the midpoint. What do you do?",
-        "answer": "If the bridge occurs before the midpoint, abort the transition, drop your hips, and re-establish standard Kesa Gatame. If the bridge occurs after the midpoint, use the bridge momentum to accelerate your rotation, driving your chest down harder as you complete the pivot into Reverse Kesa-Gatame. The key decision point is whether you are closer to the start or the finish of the rotation. Going backward from past the midpoint is more dangerous than completing the movement."
+        "answer": "If the bridge occurs before the midpoint, abort the transition, drop your hips, and re-establish standard Kesa Gatame. If the bridge occurs after the midpoint, use the bridge momentum to accelerate your rotation, driving your chest down harder as you complete the pivot into Reverse Kesa-Gatame. The key decision point is whether you are closer to the start or the finish of the rotation. Going backward from past the midpoint is more dangerous than completing the movement.",
+        "answer_line": "Past midpoint: drive through, finish",
+        "distractors": {
+          "plausible": [
+            "Always abort and reset Kesa",
+            "Stall and wait out the bridge"
+          ],
+          "trap": [
+            "Retreat backward past the midpoint"
+          ]
+        }
       },
       {
         "question": "Why is arm isolation during the rotation more effective than attempting it after settling into Reverse Kesa-Gatame?",
-        "answer": "During the rotation, the opponent's far arm is in a transitional state where their existing defensive grips are being disrupted by the directional change. Their frames were oriented for standard Kesa defense and have not yet adapted to the reverse orientation. If you wait until after settling, the opponent has time to retract their arm, clamp it to their body, or establish new defensive grips specifically designed for Reverse Kesa-Gatame. Capturing the arm during the rotation exploits the defensive gap created by the position change."
+        "answer": "During the rotation, the opponent's far arm is in a transitional state where their existing defensive grips are being disrupted by the directional change. Their frames were oriented for standard Kesa defense and have not yet adapted to the reverse orientation. If you wait until after settling, the opponent has time to retract their arm, clamp it to their body, or establish new defensive grips specifically designed for Reverse Kesa-Gatame. Capturing the arm during the rotation exploits the defensive gap created by the position change.",
+        "answer_line": "Defenses disrupted mid-rotation",
+        "distractors": {
+          "plausible": [
+            "Settle first for a firm base",
+            "Wait for the hips to pin down"
+          ],
+          "trap": [
+            "Drop head control to chase arm"
+          ]
+        }
       },
       {
         "question": "What grip or control must you prioritize immediately after completing the rotation?",
-        "answer": "The far arm clamp under your armpit is the highest priority grip after completing the rotation. This is the primary offensive advantage of Reverse Kesa-Gatame over standard Kesa Gatame. Squeeze your elbow tight to your ribs with the opponent's arm trapped between your armpit and their body. This single control point opens Kimura, Americana, and arm triangle pathways. Without this arm isolation secured, Reverse Kesa-Gatame offers no significant advantage over standard side control."
+        "answer": "The far arm clamp under your armpit is the highest priority grip after completing the rotation. This is the primary offensive advantage of Reverse Kesa-Gatame over standard Kesa Gatame. Squeeze your elbow tight to your ribs with the opponent's arm trapped between your armpit and their body. This single control point opens Kimura, Americana, and arm triangle pathways. Without this arm isolation secured, Reverse Kesa-Gatame offers no significant advantage over standard side control.",
+        "answer_line": "Clamp far arm tight under armpit",
+        "distractors": {
+          "plausible": [
+            "Re-secure head control first",
+            "Flatten hips before any grip"
+          ],
+          "trap": [
+            "Chase the choke, ignore the arm"
+          ]
+        }
       },
       {
         "question": "How should your base differ between standard Kesa Gatame and the Reverse Kesa-Gatame you are transitioning into?",
-        "answer": "In standard Kesa Gatame, your far leg posts wide while your near leg hooks or controls the opponent's far hip. In Reverse Kesa-Gatame, your base must be wider overall because the reverse orientation makes you more susceptible to bridges toward your back. Post your far leg long and wide, with your near leg bent for lateral stability. Your hips should sit lower in Reverse Kesa than in standard Kesa to compensate for the reduced head control. The wider, lower base absorbs bridge attempts from the new direction."
+        "answer": "In standard Kesa Gatame, your far leg posts wide while your near leg hooks or controls the opponent's far hip. In Reverse Kesa-Gatame, your base must be wider overall because the reverse orientation makes you more susceptible to bridges toward your back. Post your far leg long and wide, with your near leg bent for lateral stability. Your hips should sit lower in Reverse Kesa than in standard Kesa to compensate for the reduced head control. The wider, lower base absorbs bridge attempts from the new direction.",
+        "answer_line": "Wider, lower base than standard Kesa",
+        "distractors": {
+          "plausible": [
+            "Same base works for both positions",
+            "Narrow base for more mobility"
+          ],
+          "trap": [
+            "Post near leg wide, far leg tucked"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their far arm tight against their body as you rotate. How do you complete the arm isolation?",
-        "answer": "Complete the rotation to Reverse Kesa-Gatame first, establishing heavy chest pressure. Once settled, use your weight to pin their arm against their own torso, then gradually work to pry it free by sliding your hand between their arm and body while maintaining chest compression. You can also threaten submissions on the near arm or transition to North-South to force them to move their far arm defensively, creating the opening for isolation. Patience and pressure are more effective than forceful prying."
+        "answer": "Complete the rotation to Reverse Kesa-Gatame first, establishing heavy chest pressure. Once settled, use your weight to pin their arm against their own torso, then gradually work to pry it free by sliding your hand between their arm and body while maintaining chest compression. You can also threaten submissions on the near arm or transition to North-South to force them to move their far arm defensively, creating the opening for isolation. Patience and pressure are more effective than forceful prying.",
+        "answer_line": "Settle, pressure, patiently pry free",
+        "distractors": {
+          "plausible": [
+            "Force the arm out immediately",
+            "Abort rotation to reset the grip"
+          ],
+          "trap": [
+            "Yank the wrist against their torso"
+          ]
+        }
       },
       {
         "question": "When is it better to abandon the transition and return to standard Kesa Gatame?",
-        "answer": "Abort the transition if: the opponent bridges explosively before you reach the midpoint of rotation, your chest lifts off their torso and you cannot re-establish pressure during the pivot, or the opponent inserts a knee or frame that blocks your hip swing from completing. Returning to a strong Kesa Gatame is always preferable to arriving in a compromised Reverse Kesa-Gatame. The ability to read when the transition is failing and abort cleanly is as important as executing the technique itself."
+        "answer": "Abort the transition if: the opponent bridges explosively before you reach the midpoint of rotation, your chest lifts off their torso and you cannot re-establish pressure during the pivot, or the opponent inserts a knee or frame that blocks your hip swing from completing. Returning to a strong Kesa Gatame is always preferable to arriving in a compromised Reverse Kesa-Gatame. The ability to read when the transition is failing and abort cleanly is as important as executing the technique itself.",
+        "answer_line": "Explosive bridge before the midpoint",
+        "distractors": {
+          "plausible": [
+            "Any bridge at any point",
+            "Opponent frames your far arm"
+          ],
+          "trap": [
+            "Push through a blocked hip swing"
+          ]
+        }
       },
       {
         "question": "How does this transition create a dilemma for the bottom player defending Kesa Gatame?",
-        "answer": "The bottom player must defend two contradictory directions. If they focus on framing against the top player's face to prevent standard Kesa Gatame attacks, they leave their far arm exposed for the rotation to Reverse Kesa. If they tuck their far arm defensively, they weaken their frames and become more vulnerable to standard Kesa submissions like Americana. The transition forces the bottom player to choose which threat to address, and either choice creates an opening for the other. This offensive dilemma is the strategic value of having the rotation in your repertoire."
+        "answer": "The bottom player must defend two contradictory directions. If they focus on framing against the top player's face to prevent standard Kesa Gatame attacks, they leave their far arm exposed for the rotation to Reverse Kesa. If they tuck their far arm defensively, they weaken their frames and become more vulnerable to standard Kesa submissions like Americana. The transition forces the bottom player to choose which threat to address, and either choice creates an opening for the other. This offensive dilemma is the strategic value of having the rotation in your repertoire.",
+        "answer_line": "Framing face vs guarding far arm",
+        "distractors": {
+          "plausible": [
+            "They must only guard the far arm",
+            "They must only frame the face"
+          ],
+          "trap": [
+            "Ignore both, focus on bridging out"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition is a positional adjustment rather than a submission, so injury risk is primarily related to the rotation mechanics. Avoid cranking the opponent's trapped near arm during the pivot, as the rotational force can stress the shoulder joint. In training, perform the rotation at controlled speed and check that your partner's trapped arm has sufficient slack to accommodate the directional change. If your partner reports shoulder discomfort during drilling, adjust your arm release timing to free their near arm earlier in the rotation sequence. The chest pressure applied after settling into Reverse Kesa-Gatame can restrict breathing, so be attentive to tap signals during positional sparring."
+    "safety_considerations": "This transition is a positional adjustment rather than a submission, so injury risk is primarily related to the rotation mechanics. Avoid cranking the opponent's trapped near arm during the pivot, as the rotational force can stress the shoulder joint. In training, perform the rotation at controlled speed and check that your partner's trapped arm has sufficient slack to accommodate the directional change. If your partner reports shoulder discomfort during drilling, adjust your arm release timing to free their near arm earlier in the rotation sequence. The chest pressure applied after settling into Reverse Kesa-Gatame can restrict breathing, so be attentive to tap signals during positional sparring.",
+    "clips": [
+      {
+        "id": "SBapox2M2dE",
+        "title": "Ushiro kesa gatame (reverse scarf hold)",
+        "by": "Kodokan instructor",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "12 attacks from kesa gatame",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kesa Gatame to Reverse Kesa-Gatame Defender",
@@ -370,23 +502,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning to Reverse Kesa-Gatame?",
-        "answer": "The earliest cue is the release of head control, where you feel the arm unwrap from around your head while chest pressure simultaneously increases or maintains. This indicates the top player is freeing their arm to begin the rotation. The hip direction change follows shortly after, with their hips starting to swing from beside your head toward your legs. Feeling for this head control release is critical because it provides the maximum defensive response time."
+        "answer": "The earliest cue is the release of head control, where you feel the arm unwrap from around your head while chest pressure simultaneously increases or maintains. This indicates the top player is freeing their arm to begin the rotation. The hip direction change follows shortly after, with their hips starting to swing from beside your head toward your legs. Feeling for this head control release is critical because it provides the maximum defensive response time.",
+        "answer_line": "Head control releases, chest holds",
+        "distractors": {
+          "plausible": [
+            "Hips begin swinging past your legs",
+            "Far arm gets grabbed first"
+          ],
+          "trap": [
+            "Wait for the rotation to finish"
+          ]
+        }
       },
       {
         "question": "Your opponent has begun rotating and is at the midpoint of the transition. What is your best defensive option?",
-        "answer": "At the midpoint, an explosive bridge is your highest-percentage response. The top player's base is most compromised during the middle of the rotation because they are between stable positions. Bridge toward the direction they came from (toward their original Kesa Gatame side) to maximize the disruption. If the bridge creates space, immediately begin shrimping to recover half guard. If the bridge does not create enough space, transition to protecting your far arm as your secondary priority."
+        "answer": "At the midpoint, an explosive bridge is your highest-percentage response. The top player's base is most compromised during the middle of the rotation because they are between stable positions. Bridge toward the direction they came from (toward their original Kesa Gatame side) to maximize the disruption. If the bridge creates space, immediately begin shrimping to recover half guard. If the bridge does not create enough space, transition to protecting your far arm as your secondary priority.",
+        "answer_line": "Explosive bridge into their base",
+        "distractors": {
+          "plausible": [
+            "Shrimp to half guard immediately",
+            "Protect your far arm first"
+          ],
+          "trap": [
+            "Turn belly-down to your knees"
+          ]
+        }
       },
       {
         "question": "Why should you protect your far arm even if you cannot prevent the transition from completing?",
-        "answer": "The far arm isolated under the top player's armpit is the primary offensive weapon of Reverse Kesa-Gatame. Without arm isolation, Reverse Kesa-Gatame loses its major submission threats (Kimura, Americana, arm triangle) and becomes a standard pin that is escapable through conventional hip escape mechanics. Protecting your far arm essentially downgrades Reverse Kesa-Gatame from a dangerous attacking position to a controllable pinning position, dramatically improving your subsequent escape chances."
+        "answer": "The far arm isolated under the top player's armpit is the primary offensive weapon of Reverse Kesa-Gatame. Without arm isolation, Reverse Kesa-Gatame loses its major submission threats (Kimura, Americana, arm triangle) and becomes a standard pin that is escapable through conventional hip escape mechanics. Protecting your far arm essentially downgrades Reverse Kesa-Gatame from a dangerous attacking position to a controllable pinning position, dramatically improving your subsequent escape chances.",
+        "answer_line": "Far arm is their submission weapon",
+        "distractors": {
+          "plausible": [
+            "Keeps your hips free to shrimp",
+            "Sets up the bridge-and-roll"
+          ],
+          "trap": [
+            "Post on that arm to push free"
+          ]
+        }
       },
       {
         "question": "How does the defensive strategy differ depending on whether you catch the transition early versus late?",
-        "answer": "Early detection (before midpoint rotation) allows aggressive counter-responses: explosive bridges to abort the transition, shrimps to recover guard, or turning in to pursue turtle. Late detection (after midpoint or complete) shifts your strategy to damage mitigation: protect your far arm, establish defensive frames against the new pressure direction, and begin systematic escape from Reverse Kesa-Gatame rather than trying to prevent it. The earlier you act, the more options you have and the less energy each defense requires."
+        "answer": "Early detection (before midpoint rotation) allows aggressive counter-responses: explosive bridges to abort the transition, shrimps to recover guard, or turning in to pursue turtle. Late detection (after midpoint or complete) shifts your strategy to damage mitigation: protect your far arm, establish defensive frames against the new pressure direction, and begin systematic escape from Reverse Kesa-Gatame rather than trying to prevent it. The earlier you act, the more options you have and the less energy each defense requires.",
+        "answer_line": "Early counter; late damage control",
+        "distractors": {
+          "plausible": [
+            "Escape when early, counter when late",
+            "Protect far arm from the start"
+          ],
+          "trap": [
+            "Turn belly-down after it's set"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully completes the transition and has your far arm trapped. What is your immediate priority?",
-        "answer": "Your immediate priority is to prevent submission attacks on the trapped arm by keeping your elbow bent and close to your body, grabbing your own wrist with your free hand if possible. Simultaneously, begin working hip escapes to create space for guard recovery. Do not attempt to forcefully extract the trapped arm against the top player's body weight, as this wastes energy and risks shoulder injury. Instead, use systematic shrimping to gradually relieve the pressure and create extraction opportunities."
+        "answer": "Your immediate priority is to prevent submission attacks on the trapped arm by keeping your elbow bent and close to your body, grabbing your own wrist with your free hand if possible. Simultaneously, begin working hip escapes to create space for guard recovery. Do not attempt to forcefully extract the trapped arm against the top player's body weight, as this wastes energy and risks shoulder injury. Instead, use systematic shrimping to gradually relieve the pressure and create extraction opportunities.",
+        "answer_line": "Shield trapped arm, keep elbow bent",
+        "distractors": {
+          "plausible": [
+            "Shrimp out to recover guard first",
+            "Frame free hand on opponent's hip"
+          ],
+          "trap": [
+            "Bridge and turn belly-down"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -409,6 +591,26 @@
         "phase": "Live Positional Sparring",
         "focus": "Full integration of defensive system",
         "description": "Start every round in Kesa Gatame bottom. Top player must attempt transition to Reverse Kesa at least once per round. Bottom player uses full defensive toolkit including cue recognition, bridge disruption, arm protection, and escape chains. Track success rate of preventing the transition versus escaping after completion. 5 rounds of 3 minutes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa gatame escape to back take",
+        "by": "Gymnanigains coach",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QzegNgUUfZs",
+        "title": "Reverse kesa gatame escape",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 81,
+        "verified": "2026-07-15"
       }
     ]
   }

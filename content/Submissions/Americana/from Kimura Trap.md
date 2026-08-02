@@ -34,6 +34,43 @@ description: "Master the Americana from Kimura Trap in BJJ. Convert your Kimura 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Kimura Trap \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura Roll to Americana",
+      "description": "Americana from Kimura Trap film study: Kimura Roll to Americana, taught by The Art of Fighting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3lVaIp79rIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3lVaIp79rIo",
+      "url": "https://www.youtube.com/watch?v=3lVaIp79rIo",
+      "creator": { "@type": "Person", "name": "The Art of Fighting" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Americana Trap",
+      "description": "Americana from Kimura Trap film study: Americana Trap, taught by Thomas Lisboa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D9eBGVemI7A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D9eBGVemI7A",
+      "url": "https://www.youtube.com/watch?v=D9eBGVemI7A",
+      "creator": { "@type": "Person", "name": "Thomas Lisboa" },
+      "duration": "PT243S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ At the purple and brown belt level, this technique punishes opponents who have d
 **Starting Position**: [[Positions/Kimura Trap]] · **From**: [[Positions/Kimura Trap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Kimura Trap in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3lVaIp79rIo)
+
+<p class="clip-credit"><strong>Kimura Roll to Americana</strong> — taught by The Art of Fighting · 1:19 · <a href="https://www.youtube.com/watch?v=3lVaIp79rIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D9eBGVemI7A)
+
+<p class="clip-credit"><strong>Americana Trap</strong> — taught by Thomas Lisboa · 4:03 · <a href="https://www.youtube.com/watch?v=D9eBGVemI7A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -245,7 +310,7 @@ At the purple and brown belt level, this technique punishes opponents who have d
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Reverse Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Positions/Kimura Trap]] - Primary starting position where the figure-four grip is already established
 - [[Positions/Side Control]] - Most common positional platform for establishing Kimura Trap Top

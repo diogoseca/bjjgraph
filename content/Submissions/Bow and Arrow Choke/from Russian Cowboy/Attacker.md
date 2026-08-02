@@ -170,6 +170,54 @@ description: "Complete attacking guide for the Bow and Arrow Choke from Russian 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Russian Cowboy (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bow and arrow choke from back control",
+      "description": "Bow and Arrow Choke from Russian Cowboy (Attacker) film study: Bow and arrow choke from back control, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqNhZVNhxnE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqNhZVNhxnE",
+      "url": "https://www.youtube.com/watch?v=xqNhZVNhxnE",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armlock to loop choke / bow and arrow combo",
+      "description": "Bow and Arrow Choke from Russian Cowboy (Attacker) film study: Armlock to loop choke / bow and arrow combo, taught by South Jersey BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U16fxDEJS6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U16fxDEJS6s",
+      "url": "https://www.youtube.com/watch?v=U16fxDEJS6s",
+      "creator": { "@type": "Person", "name": "South Jersey BJJ" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "3 favorite chokes from the back",
+      "description": "Bow and Arrow Choke from Russian Cowboy (Attacker) film study: 3 favorite chokes from the back, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eMbkVDRreIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eMbkVDRreIQ",
+      "url": "https://www.youtube.com/watch?v=eMbkVDRreIQ",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Attacking with the Bow and Arrow Choke from Russian Cowboy leverages the pre-exi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Russian Cowboy (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqNhZVNhxnE)
+
+<p class="clip-credit"><strong>Bow and arrow choke from back control</strong> — taught by Evolve MMA · 0:45 · <a href="https://www.youtube.com/watch?v=xqNhZVNhxnE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U16fxDEJS6s)
+
+<p class="clip-credit"><strong>Armlock to loop choke / bow and arrow combo</strong> — taught by South Jersey BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=U16fxDEJS6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eMbkVDRreIQ)
+
+<p class="clip-credit"><strong>3 favorite chokes from the back</strong> — taught by Matt Arroyo · 1:27 · <a href="https://www.youtube.com/watch?v=eMbkVDRreIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,43 @@ description: "Complete defensive guide against sweeps from Standing Guard in BJJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Standing Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Four levels of sweep defense",
+      "description": "Sweep from Standing Guard (Defender) film study: Four levels of sweep defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Opening the closed guard: the standing guard open",
+      "description": "Sweep from Standing Guard (Defender) film study: Opening the closed guard: the standing guard open, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DXe1Ln5vuHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DXe1Ln5vuHE",
+      "url": "https://www.youtube.com/watch?v=DXe1Ln5vuHE",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT260S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against sweeps from Standing Guard is essential for any practitioner w
 **Opponent's Starting Position**: [[Positions/Standing Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Standing Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DXe1Ln5vuHE)
+
+<p class="clip-credit"><strong>Opening the closed guard: the standing guard open</strong> — taught by Lachlan Giles · 4:20 · <a href="https://www.youtube.com/watch?v=DXe1Ln5vuHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

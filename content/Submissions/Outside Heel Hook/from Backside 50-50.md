@@ -34,6 +34,54 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from Backside 50-50 \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backside 50/50 heel hook finish",
+      "description": "Outside Heel Hook from Backside 50-50 film study: Backside 50/50 heel hook finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
+      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Backside 50/50 to outside heel hook",
+      "description": "Outside Heel Hook from Backside 50-50 film study: Backside 50/50 to outside heel hook, taught by Marshall Stamper.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7I0Lj1aSon4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7I0Lj1aSon4",
+      "url": "https://www.youtube.com/watch?v=7I0Lj1aSon4",
+      "creator": { "@type": "Person", "name": "Marshall Stamper" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "50/50 heel hook finishing details",
+      "description": "Outside Heel Hook from Backside 50-50 film study: 50/50 heel hook finishing details, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB3FYb-Jx_0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB3FYb-Jx_0",
+      "url": "https://www.youtube.com/watch?v=fB3FYb-Jx_0",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT27S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ This submission demands absolute respect for its injury potential. Rotational fo
 **Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] · **From**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from Backside 50-50 in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+
+<p class="clip-credit"><strong>Backside 50/50 heel hook finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7I0Lj1aSon4)
+
+<p class="clip-credit"><strong>Backside 50/50 to outside heel hook</strong> — taught by Marshall Stamper · 0:47 · <a href="https://www.youtube.com/watch?v=7I0Lj1aSon4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB3FYb-Jx_0)
+
+<p class="clip-credit"><strong>50/50 heel hook finishing details</strong> — taught by Thunderdome BJJ · 0:27 · <a href="https://www.youtube.com/watch?v=fB3FYb-Jx_0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -247,7 +331,7 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Achilles Lock]]

@@ -148,6 +148,54 @@ description: "How to defend against the transition from Anaconda Control to Dead
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Control to Dead Orchard Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock escape drill",
+      "description": "Anaconda Control to Dead Orchard Control (Defender) film study: Front headlock escape drill, taught by Gracie Barra Charlestown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wxiM5z0NUXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wxiM5z0NUXw",
+      "url": "https://www.youtube.com/watch?v=wxiM5z0NUXw",
+      "creator": { "@type": "Person", "name": "Gracie Barra Charlestown" },
+      "duration": "PT29S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing front headlock choke defense",
+      "description": "Anaconda Control to Dead Orchard Control (Defender) film study: Standing front headlock choke defense, taught by Empower Gym Tampa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J-MaOIfDHXk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J-MaOIfDHXk",
+      "url": "https://www.youtube.com/watch?v=J-MaOIfDHXk",
+      "creator": { "@type": "Person", "name": "Empower Gym Tampa" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Quick method to escape the front headlock",
+      "description": "Anaconda Control to Dead Orchard Control (Defender) film study: Quick method to escape the front headlock, taught by Grapplezilla.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BGSH5P5Mv9o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BGSH5P5Mv9o",
+      "url": "https://www.youtube.com/watch?v=BGSH5P5Mv9o",
+      "creator": { "@type": "Person", "name": "Grapplezilla" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Transition to Dead Orchard Control requires recognizing the attack
 **Opponent's Starting Position**: [[Positions/Anaconda Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Control to Dead Orchard Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wxiM5z0NUXw)
+
+<p class="clip-credit"><strong>Front headlock escape drill</strong> — taught by Gracie Barra Charlestown · 0:29 · <a href="https://www.youtube.com/watch?v=wxiM5z0NUXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J-MaOIfDHXk)
+
+<p class="clip-credit"><strong>Standing front headlock choke defense</strong> — taught by Empower Gym Tampa · 1:00 · <a href="https://www.youtube.com/watch?v=J-MaOIfDHXk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BGSH5P5Mv9o)
+
+<p class="clip-credit"><strong>Quick method to escape the front headlock</strong> — taught by Grapplezilla · 1:53 · <a href="https://www.youtube.com/watch?v=BGSH5P5Mv9o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the kneebar from leg entanglement in BJJ. Learn setup from 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Leg Entanglement \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "2 Ways to Attack a Kneebar From Cross Ashi",
+      "description": "Kneebar from Leg Entanglement film study: 2 Ways to Attack a Kneebar From Cross Ashi, taught by King Kneebar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0wHq6PZVGfI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0wHq6PZVGfI",
+      "url": "https://www.youtube.com/watch?v=0wHq6PZVGfI",
+      "creator": { "@type": "Person", "name": "King Kneebar" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar Sweep from Ashi Garami",
+      "description": "Kneebar from Leg Entanglement film study: Kneebar Sweep from Ashi Garami, taught by Edward Anthony.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RV6_2YEOP8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RV6_2YEOP8w",
+      "url": "https://www.youtube.com/watch?v=RV6_2YEOP8w",
+      "creator": { "@type": "Person", "name": "Edward Anthony" },
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +91,7 @@ description: "Master the kneebar from leg entanglement in BJJ. Learn setup from 
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)</span>
-<span class="meta-chip">52% success</span>
+<span class="meta-chip">27% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +115,34 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 **Starting Position**: [[Positions/Leg Entanglement]] · **From**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Leg Entanglement in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0wHq6PZVGfI)
+
+<p class="clip-credit"><strong>2 Ways to Attack a Kneebar From Cross Ashi</strong> — taught by King Kneebar · 2:20 · <a href="https://www.youtube.com/watch?v=0wHq6PZVGfI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RV6_2YEOP8w)
+
+<p class="clip-credit"><strong>Kneebar Sweep from Ashi Garami</strong> — taught by Edward Anthony · 2:39 · <a href="https://www.youtube.com/watch?v=RV6_2YEOP8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -249,7 +314,7 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Calf Slicer]]

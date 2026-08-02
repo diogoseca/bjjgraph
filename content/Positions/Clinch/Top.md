@@ -21,37 +21,37 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
     {
       "@type": "HowToStep",
       "name": "Execute Double Leg Entry",
-      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg Takedown",
-      "text": "From this position, attempt Single Leg Takedown. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg Takedown. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Duck Under",
-      "text": "From this position, attempt Duck Under. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Duck Under from Clinch",
+      "text": "From this position, attempt Duck Under from Clinch. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Fireman's Carry",
-      "text": "From this position, attempt Fireman's Carry. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Fireman's Carry. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kouchi Gari",
-      "text": "From this position, attempt Kouchi Gari. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Kouchi Gari. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clinch (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two high percentage takedowns",
+      "description": "Clinch (Top) film study: Two high percentage takedowns, taught by Chad Lyman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4C0kv9zfvjQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4C0kv9zfvjQ",
+      "url": "https://www.youtube.com/watch?v=4C0kv9zfvjQ",
+      "creator": { "@type": "Person", "name": "Chad Lyman" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Dagestani drag",
+      "description": "Clinch (Top) film study: The Dagestani drag, taught by Wrestling University.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f6o0MecKxOU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f6o0MecKxOU",
+      "url": "https://www.youtube.com/watch?v=f6o0MecKxOU",
+      "creator": { "@type": "Person", "name": "Wrestling University" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Over under clinch takedown (no-gi)",
+      "description": "Clinch (Top) film study: Over under clinch takedown (no-gi), taught by Training Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O0340yiXx_8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O0340yiXx_8",
+      "url": "https://www.youtube.com/watch?v=O0340yiXx_8",
+      "creator": { "@type": "Person", "name": "Training Jiu Jitsu" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ The Clinch Position represents a fundamental standing control scenario where pra
 In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown setups into a sophisticated control system that dictates the terms of engagement. Elite practitioners use the clinch to funnel opponents toward preferred positions, whether that's establishing dominant grips for takedowns or creating advantageous scenarios for guard pulls. The position demands constant grip awareness, precise weight distribution, and the ability to read and counter your opponent's intentions in real-time. Understanding clinch mechanics is essential for any complete BJJ game, as it bridges the gap between standing and ground engagement while offering numerous pathways to establish positional control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clinch (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4C0kv9zfvjQ)
+
+<p class="clip-credit"><strong>Two high percentage takedowns</strong> — taught by Chad Lyman · 1:15 · <a href="https://www.youtube.com/watch?v=4C0kv9zfvjQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f6o0MecKxOU)
+
+<p class="clip-credit"><strong>The Dagestani drag</strong> — taught by Wrestling University · 1:24 · <a href="https://www.youtube.com/watch?v=f6o0MecKxOU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O0340yiXx_8)
+
+<p class="clip-credit"><strong>Over under clinch takedown (no-gi)</strong> — taught by Training Jiu Jitsu · 0:24 · <a href="https://www.youtube.com/watch?v=O0340yiXx_8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -168,6 +168,43 @@ description: "How to execute Leg Drag to Inside Ashi in BJJ. Attacking perspecti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Inside Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg drag straight into inside ashi heel hook",
+      "description": "Leg Drag to Inside Ashi (Attacker) film study: Leg drag straight into inside ashi heel hook, taught by LegLock Assassins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DsTRE1Rq0G0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DsTRE1Rq0G0",
+      "url": "https://www.youtube.com/watch?v=DsTRE1Rq0G0",
+      "creator": { "@type": "Person", "name": "LegLock Assassins" },
+      "duration": "PT13S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three entries into ashi, outside ashi and the saddle",
+      "description": "Leg Drag to Inside Ashi (Attacker) film study: Three entries into ashi, outside ashi and the saddle, taught by Huxley Skate Co..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vEQNbapQOLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vEQNbapQOLU",
+      "url": "https://www.youtube.com/watch?v=vEQNbapQOLU",
+      "creator": { "@type": "Person", "name": "Huxley Skate Co." },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Strategically, this option expands your threat matrix significantly. Opponents w
 **From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Inside Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DsTRE1Rq0G0)
+
+<p class="clip-credit"><strong>Leg drag straight into inside ashi heel hook</strong> — taught by LegLock Assassins · 0:13 · <a href="https://www.youtube.com/watch?v=DsTRE1Rq0G0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vEQNbapQOLU)
+
+<p class="clip-credit"><strong>Three entries into ashi, outside ashi and the saddle</strong> — taught by Huxley Skate Co. · 2:00 · <a href="https://www.youtube.com/watch?v=vEQNbapQOLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

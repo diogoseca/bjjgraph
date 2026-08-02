@@ -140,6 +140,43 @@ description: "How to defend against the Crossface Pass in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crossface Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard recovery against the cross face",
+      "description": "Crossface Pass (Defender) film study: Guard recovery against the cross face, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QH9-1I5XqO4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QH9-1I5XqO4",
+      "url": "https://www.youtube.com/watch?v=QH9-1I5XqO4",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lovato half guard sweep breakdown",
+      "description": "Crossface Pass (Defender) film study: Lovato half guard sweep breakdown, taught by Rafael Lovato Jr.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-fnzNp6TWQo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-fnzNp6TWQo",
+      "url": "https://www.youtube.com/watch?v=-fnzNp6TWQo",
+      "creator": { "@type": "Person", "name": "Rafael Lovato Jr" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ The defender's primary objective is to prevent the passer from achieving the fla
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crossface Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QH9-1I5XqO4)
+
+<p class="clip-credit"><strong>Guard recovery against the cross face</strong> — taught by Academy Jiu Jitsu · 1:45 · <a href="https://www.youtube.com/watch?v=QH9-1I5XqO4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-fnzNp6TWQo)
+
+<p class="clip-credit"><strong>Lovato half guard sweep breakdown</strong> — taught by Rafael Lovato Jr · 1:28 · <a href="https://www.youtube.com/watch?v=-fnzNp6TWQo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

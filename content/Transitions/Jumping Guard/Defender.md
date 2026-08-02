@@ -140,6 +140,54 @@ description: "How to defend against Jumping Guard in BJJ. Recognition cues, defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jumping Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Intercepting the guard pull",
+      "description": "Jumping Guard (Defender) film study: Intercepting the guard pull, taught by Riccardo Ammendolia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oaOB2XovGYE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oaOB2XovGYE",
+      "url": "https://www.youtube.com/watch?v=oaOB2XovGYE",
+      "creator": { "@type": "Person", "name": "Riccardo Ammendolia" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Blocking the guard jump and protecting your knees",
+      "description": "Jumping Guard (Defender) film study: Blocking the guard jump and protecting your knees, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BSmG5ty4tHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BSmG5ty4tHQ",
+      "url": "https://www.youtube.com/watch?v=BSmG5ty4tHQ",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT268S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Punishing a guard puller systematically",
+      "description": "Jumping Guard (Defender) film study: Punishing a guard puller systematically, taught by Carsahh.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fCkRu7HyDMo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fCkRu7HyDMo",
+      "url": "https://www.youtube.com/watch?v=fCkRu7HyDMo",
+      "creator": { "@type": "Person", "name": "Carsahh" },
+      "duration": "PT385S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending against Jumping Guard requires early recognition, proper stance mainte
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jumping Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oaOB2XovGYE)
+
+<p class="clip-credit"><strong>Intercepting the guard pull</strong> — taught by Riccardo Ammendolia · 0:49 · <a href="https://www.youtube.com/watch?v=oaOB2XovGYE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BSmG5ty4tHQ)
+
+<p class="clip-credit"><strong>Blocking the guard jump and protecting your knees</strong> — taught by Chewjitsu · 4:28 · <a href="https://www.youtube.com/watch?v=BSmG5ty4tHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fCkRu7HyDMo)
+
+<p class="clip-credit"><strong>Punishing a guard puller systematically</strong> — taught by Carsahh · 6:25 · <a href="https://www.youtube.com/watch?v=fCkRu7HyDMo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

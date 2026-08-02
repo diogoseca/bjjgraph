@@ -34,6 +34,54 @@ description: "Master the Lasso Sweep in BJJ. Step-by-step guide to sweeping from
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lasso sweep from open guard into ankle lock",
+      "description": "Lasso Sweep film study: Lasso sweep from open guard into ankle lock, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LwnoWDFJlN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LwnoWDFJlN0",
+      "url": "https://www.youtube.com/watch?v=LwnoWDFJlN0",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso sweep against a standing opponent",
+      "description": "Lasso Sweep film study: Lasso sweep against a standing opponent, taught by Revolution Fitness Center coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yBMlXlVefPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yBMlXlVefPA",
+      "url": "https://www.youtube.com/watch?v=yBMlXlVefPA",
+      "creator": { "@type": "Person", "name": "Revolution Fitness Center coach" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sweep from leg lasso guard",
+      "description": "Lasso Sweep film study: Sweep from leg lasso guard, taught by Leslie Gardineer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/42uccYQUAgE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/42uccYQUAgE",
+      "url": "https://www.youtube.com/watch?v=42uccYQUAgE",
+      "creator": { "@type": "Person", "name": "Leslie Gardineer" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The technique exploits a core vulnerability inherent to lasso guard: the trapped
 Strategically, the Lasso Sweep serves as a constant background threat that shapes the entire lasso guard interaction. The top player must always respect the sweep possibility, which restricts their movement options and creates openings for complementary attacks. When the opponent adjusts their base to defend the sweep, they often expose themselves to triangle entries, omoplata setups, or other sweep variations. This makes the Lasso Sweep not just a standalone technique but a central piece in the lasso guard attacking system.
 
 **From Position**: [[Positions/Lasso Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 12%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LwnoWDFJlN0)
+
+<p class="clip-credit"><strong>Lasso sweep from open guard into ankle lock</strong> — taught by Lucas Lepri · 0:44 · <a href="https://www.youtube.com/watch?v=LwnoWDFJlN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yBMlXlVefPA)
+
+<p class="clip-credit"><strong>Lasso sweep against a standing opponent</strong> — taught by Revolution Fitness Center coach · 0:55 · <a href="https://www.youtube.com/watch?v=yBMlXlVefPA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=42uccYQUAgE)
+
+<p class="clip-credit"><strong>Sweep from leg lasso guard</strong> — taught by Leslie Gardineer · 1:24 · <a href="https://www.youtube.com/watch?v=42uccYQUAgE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

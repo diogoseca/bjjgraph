@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 48,
+      "probability": {
+        "gi": 48,
+        "nogi": 48
+      },
       "result": "success"
     },
     {
       "to": "New York Control/Top",
-      "probability": 34,
+      "probability": {
+        "gi": 34,
+        "nogi": 34
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 48,
+  "success_rate": {
+    "gi": 48,
+    "nogi": 48
+  },
   "summary": "The guard pass from New York Control is a top-player sequence that extracts the trapped arm from the rubber guard overhook, clears the leg off the shoulder, and drives through to side control while neutralizing triangle, omoplata, and gogoplata threats.",
   "overview": "The guard pass from New York Control addresses one of the most challenging scenarios in modern no-gi grappling: escaping the rubber guard system's sophisticated leg and arm entanglement to achieve a dominant passing position. New York Control traps the top player in a compound web of overhook control and leg pressure draped across the shoulder and back, neutralizing conventional passing mechanics entirely. Standard pressure passing, posture recovery, and grip-break sequences all fail against proper rubber guard structure, requiring a specialized sequential approach where the overhook must be addressed before the leg control can be cleared.\n\nThe passing sequence demands disciplined execution through three distinct phases: arm extraction, posture recovery, and pass completion. Attempting to rush directly to a pass while the overhook remains engaged exposes the top player to triangle, omoplata, and gogoplata threats that the rubber guard system is specifically designed to create. The systematic approach prioritizes removing the bottom player's structural controls in the correct biomechanical order, transforming a trapped defensive position into a legitimate passing opportunity through angular movement rather than brute force.\n\nCompetition application reveals that practitioners unfamiliar with rubber guard defense consistently make the critical error of applying standard forward pressure, which feeds directly into the bottom player's submission chains. The guard pass from New York Control rewards patient execution and mechanical understanding over athletic passing attempts, making it an essential technique for any competitor who may encounter 10th Planet practitioners or rubber guard specialists in tournament settings.",
   "conditions": [
@@ -230,38 +242,138 @@
     "flashcards": [
       {
         "question": "What is the correct priority sequence when passing New York Control from top?",
-        "answer": "The overhook must be extracted before attempting to remove the leg control. Attempting leg removal while the overhook remains engaged leaves your arm trapped and allows the bottom player to cycle through gogoplata, triangle, and omoplata threats freely. Only after the overhook is compromised can you safely address the leg without exposing yourself to chain submissions."
+        "answer": "The overhook must be extracted before attempting to remove the leg control. Attempting leg removal while the overhook remains engaged leaves your arm trapped and allows the bottom player to cycle through gogoplata, triangle, and omoplata threats freely. Only after the overhook is compromised can you safely address the leg without exposing yourself to chain submissions.",
+        "answer_line": "Overhook first, then the leg",
+        "distractors": {
+          "plausible": [
+            "Leg control first, then overhook",
+            "Clear leg and overhook together"
+          ],
+          "trap": [
+            "Ignore overhook, drive forward"
+          ]
+        }
       },
       {
         "question": "Why does driving forward with pressure increase submission danger when passing New York Control?",
-        "answer": "Forward pressure drives the bottom player's controlling leg deeper across your back and shoulder, tightening their structure and improving their angle for gogoplata and triangle submissions. It also loads your weight forward, making sweeps easier and submission entries more accessible for the bottom player. Lateral movement avoids feeding their chains."
+        "answer": "Forward pressure drives the bottom player's controlling leg deeper across your back and shoulder, tightening their structure and improving their angle for gogoplata and triangle submissions. It also loads your weight forward, making sweeps easier and submission entries more accessible for the bottom player. Lateral movement avoids feeding their chains.",
+        "answer_line": "Move laterally, not forward",
+        "distractors": {
+          "plausible": [
+            "Drive forward to flatten guard",
+            "Sit back to break their grips"
+          ],
+          "trap": [
+            "Smash forward for stack pass"
+          ]
+        }
       },
       {
         "question": "What specific body mechanics enable effective overhook extraction during the pass?",
-        "answer": "Rotate your trapped shoulder forward while pulling your elbow toward your hip using angular movement. Simultaneously step your knee on the overhook side outward at a 45-degree angle to create rotational torque. This combined angular pressure compromises overhook depth far more effectively than straight pulling, which only tightens the rubber guard grip against you."
+        "answer": "Rotate your trapped shoulder forward while pulling your elbow toward your hip using angular movement. Simultaneously step your knee on the overhook side outward at a 45-degree angle to create rotational torque. This combined angular pressure compromises overhook depth far more effectively than straight pulling, which only tightens the rubber guard grip against you.",
+        "answer_line": "Rotate shoulder, angle knee out",
+        "distractors": {
+          "plausible": [
+            "Pull elbow straight back",
+            "Push off their hip and stand"
+          ],
+          "trap": [
+            "Yank arm straight, muscle out"
+          ]
+        }
       },
       {
         "question": "Your opponent shoots a triangle attempt as you begin extracting your arm - what is your immediate response?",
-        "answer": "Keep elbows pinned tightly to your ribs and tuck your chin to your chest. If the leg begins crossing behind your neck, immediately drive your shoulder into their thigh while stacking their hips to prevent the triangle from fully locking. Do not extend your arms or try to push the leg away, as arm extension creates exactly the isolation the triangle requires to finish."
+        "answer": "Keep elbows pinned tightly to your ribs and tuck your chin to your chest. If the leg begins crossing behind your neck, immediately drive your shoulder into their thigh while stacking their hips to prevent the triangle from fully locking. Do not extend your arms or try to push the leg away, as arm extension creates exactly the isolation the triangle requires to finish.",
+        "answer_line": "Pin elbows, stack their hips",
+        "distractors": {
+          "plausible": [
+            "Push the leg off your neck",
+            "Pull head back to create space"
+          ],
+          "trap": [
+            "Extend arms to push leg away"
+          ]
+        }
       },
       {
         "question": "What is the optimal direction to complete the pass after clearing the rubber guard controls?",
-        "answer": "Direct the pass toward the leg control side rather than the overhook side. Passing toward the overhook side moves you directly into the bottom player's strongest re-engagement zone where they can re-establish the overhook most easily. Passing to the opposite side uses your freed arm for crossface while creating maximum distance from the overhook threat."
+        "answer": "Direct the pass toward the leg control side rather than the overhook side. Passing toward the overhook side moves you directly into the bottom player's strongest re-engagement zone where they can re-establish the overhook most easily. Passing to the opposite side uses your freed arm for crossface while creating maximum distance from the overhook threat.",
+        "answer_line": "Pass toward the leg control side",
+        "distractors": {
+          "plausible": [
+            "Pass toward the overhook side",
+            "Pass straight up the middle"
+          ],
+          "trap": [
+            "Circle back to the overhook side"
+          ]
+        }
       },
       {
         "question": "Why must overhook extraction and leg clearance be treated as a continuous sequence without pausing?",
-        "answer": "Any pause between phases allows the bottom player to re-establish controls or transition to alternative rubber guard positions like Mission Control or Invisible Collar. The overhook extraction creates a temporary window of reduced control that must be exploited immediately by clearing the leg before the bottom player can adapt, adjust grips, and re-engage their guard structure."
+        "answer": "Any pause between phases allows the bottom player to re-establish controls or transition to alternative rubber guard positions like Mission Control or Invisible Collar. The overhook extraction creates a temporary window of reduced control that must be exploited immediately by clearing the leg before the bottom player can adapt, adjust grips, and re-engage their guard structure.",
+        "answer_line": "Chain both phases, no pausing",
+        "distractors": {
+          "plausible": [
+            "Pause to reset base each phase",
+            "Secure overhook first, then rest"
+          ],
+          "trap": [
+            "Stop to celebrate after overhook"
+          ]
+        }
       },
       {
         "question": "How should you assess which passing variant to use against a particular rubber guard player?",
-        "answer": "Evaluate the bottom player's flexibility level and overhook depth. Against extremely flexible practitioners with deep control, the backstep variation creates the most angular separation through full body rotation. Against less flexible practitioners, the stack pass variant can overwhelm their structure with compression. Standing break works when ground-based extraction repeatedly fails but carries higher risk of re-engagement."
+        "answer": "Evaluate the bottom player's flexibility level and overhook depth. Against extremely flexible practitioners with deep control, the backstep variation creates the most angular separation through full body rotation. Against less flexible practitioners, the stack pass variant can overwhelm their structure with compression. Standing break works when ground-based extraction repeatedly fails but carries higher risk of re-engagement.",
+        "answer_line": "Match variant to their flexibility",
+        "distractors": {
+          "plausible": [
+            "Always use the standing break",
+            "Always use the stack pass"
+          ],
+          "trap": [
+            "Force the same pass every time"
+          ]
+        }
       },
       {
         "question": "What base distribution prevents sweeps during the overhook extraction phase?",
-        "answer": "Maintain a wide base with knees spread and hips low to the mat, distributing weight laterally across a broad foundation rather than concentrating it forward. Avoid loading weight forward or narrowing your base during extraction. The wide low position creates stability against the bottom player's sweep attempts while providing the platform needed for patient angular extraction without being off-balanced."
+        "answer": "Maintain a wide base with knees spread and hips low to the mat, distributing weight laterally across a broad foundation rather than concentrating it forward. Avoid loading weight forward or narrowing your base during extraction. The wide low position creates stability against the bottom player's sweep attempts while providing the platform needed for patient angular extraction without being off-balanced.",
+        "answer_line": "Wide base, hips low",
+        "distractors": {
+          "plausible": [
+            "Narrow base, hips high",
+            "Weight forward, knees together"
+          ],
+          "trap": [
+            "Load weight forward to smash"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This guard pass involves significant neck and shoulder stress during extraction from rubber guard controls. Never jerk or explosively twist your trapped arm, as the overhook position can create shoulder impingement if forced against deep control. If the bottom player achieves a gogoplata or triangle during your pass attempt, tap immediately rather than fighting through the choke. Communicate clearly with training partners about flexibility limitations and shoulder mobility restrictions. Use controlled progressive resistance when drilling, starting at low intensity and building gradually."
+    "safety_considerations": "This guard pass involves significant neck and shoulder stress during extraction from rubber guard controls. Never jerk or explosively twist your trapped arm, as the overhook position can create shoulder impingement if forced against deep control. If the bottom player achieves a gogoplata or triangle during your pass attempt, tap immediately rather than fighting through the choke. Communicate clearly with training partners about flexibility limitations and shoulder mobility restrictions. Use controlled progressive resistance when drilling, starting at low intensity and building gradually.",
+    "clips": [
+      {
+        "id": "4E5IQ9ouZfA",
+        "title": "Passing the 10th Planet guard",
+        "by": "Danny Gutierrez",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SYl7QbIRELM",
+        "title": "Passing basics from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 119,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Pass from New York Control Defender",
@@ -347,23 +459,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a guard pass attempt from New York Control is beginning?",
-        "answer": "The earliest cue is the top player rotating their trapped shoulder forward while pulling their elbow toward their hip. This angular extraction movement is the initiating action of the entire pass sequence and must be recognized immediately to deploy effective counter-measures before the overhook is compromised beyond recovery."
+        "answer": "The earliest cue is the top player rotating their trapped shoulder forward while pulling their elbow toward their hip. This angular extraction movement is the initiating action of the entire pass sequence and must be recognized immediately to deploy effective counter-measures before the overhook is compromised beyond recovery.",
+        "answer_line": "Shoulder rotates, elbow pulls in",
+        "distractors": {
+          "plausible": [
+            "Knee steps out to 45 degrees",
+            "Weight shifts forward onto you"
+          ],
+          "trap": [
+            "Wait for leg clearance to start"
+          ]
+        }
       },
       {
         "question": "Why is transitioning to an alternative rubber guard position sometimes better than fighting to maintain the overhook?",
-        "answer": "Fighting a compromised overhook wastes energy and allows the top player to methodically complete extraction against weakening resistance. Proactive transition to Mission Control, Invisible Collar, or Crackhead Control preserves your overall guard structure and offensive capability while denying the top player the completed extraction they need to begin the leg clearance phase."
+        "answer": "Fighting a compromised overhook wastes energy and allows the top player to methodically complete extraction against weakening resistance. Proactive transition to Mission Control, Invisible Collar, or Crackhead Control preserves your overall guard structure and offensive capability while denying the top player the completed extraction they need to begin the leg clearance phase.",
+        "answer_line": "Transition early, don't fight it",
+        "distractors": {
+          "plausible": [
+            "Fight to keep the overhook",
+            "Release guard and reset neutral"
+          ],
+          "trap": [
+            "Hold on until it's fully gone"
+          ]
+        }
       },
       {
         "question": "How does the triangle opportunity arise during the top player's overhook extraction attempt?",
-        "answer": "During extraction, the top player must rotate their shoulder and pull their elbow away from your body, creating temporary separation between their arm and torso. This separation is exactly the space needed for triangle entry. By shooting your leg across their neck while their arm is partially withdrawn, you exploit the extraction movement itself as the setup for your submission counter."
+        "answer": "During extraction, the top player must rotate their shoulder and pull their elbow away from your body, creating temporary separation between their arm and torso. This separation is exactly the space needed for triangle entry. By shooting your leg across their neck while their arm is partially withdrawn, you exploit the extraction movement itself as the setup for your submission counter.",
+        "answer_line": "Extraction gap opens the triangle",
+        "distractors": {
+          "plausible": [
+            "Leg clearance opens the triangle",
+            "Base widening opens the triangle"
+          ],
+          "trap": [
+            "Wait until pass completes to shoot"
+          ]
+        }
       },
       {
         "question": "What should you do if both the overhook and leg control are simultaneously compromised?",
-        "answer": "Immediately close your guard by withdrawing your leg from their shoulder and locking ankles behind their waist. This emergency recovery prevents the pass from completing. While you lose the rubber guard offensive platform, you retain guard retention and can work to re-establish attacking positions from the relative safety of closed guard."
+        "answer": "Immediately close your guard by withdrawing your leg from their shoulder and locking ankles behind their waist. This emergency recovery prevents the pass from completing. While you lose the rubber guard offensive platform, you retain guard retention and can work to re-establish attacking positions from the relative safety of closed guard.",
+        "answer_line": "Close guard, lock ankles",
+        "distractors": {
+          "plausible": [
+            "Fight for a single leg X",
+            "Push away and stand up"
+          ],
+          "trap": [
+            "Turtle up to hide from the pass"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to launch a submission counter during the opponent's pass attempt?",
-        "answer": "The optimal moment is during the transition between the overhook extraction phase and the leg clearance phase. At this point, the top player has freed their arm but has not yet addressed the leg control, and their focus is shifting between objectives. This brief window of divided attention makes them vulnerable to triangle, omoplata, or gogoplata entries that exploit their transitional positioning."
+        "answer": "The optimal moment is during the transition between the overhook extraction phase and the leg clearance phase. At this point, the top player has freed their arm but has not yet addressed the leg control, and their focus is shifting between objectives. This brief window of divided attention makes them vulnerable to triangle, omoplata, or gogoplata entries that exploit their transitional positioning.",
+        "answer_line": "Between extraction and leg clear",
+        "distractors": {
+          "plausible": [
+            "Right as overhook is extracted",
+            "After the pass fully completes"
+          ],
+          "trap": [
+            "Wait until you're mounted"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -386,6 +548,35 @@
         "phase": "Phase 4: Full defense sparring",
         "focus": "Complete pass defense with all options under live conditions",
         "description": "Begin in New York Control with partner working full pass sequence at competition intensity. Practice the complete defensive game including counter-submissions, position transitions, and closed guard recovery. Develop real-time decision-making for choosing the optimal defensive response under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "huzjQNiJu7Y",
+        "title": "Rubber guard quick fix to stop the pass",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kajcUNpjGho",
+        "title": "Rubber Guard Back Up Plan",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xNc_Cdh9VVg",
+        "title": "Late Stage Guard Retention Using the Rubber Guard",
+        "by": "Robert Diggle",
+        "vertical": false,
+        "channel": "RobertDiggleJJ",
+        "duration": 189,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -148,6 +148,54 @@ description: "How to defend against Lapel to De La Riva in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel to De La Riva (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Step back underhook De La Riva pass",
+      "description": "Lapel to De La Riva (Defender) film study: Step back underhook De La Riva pass, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PfCNibO8A7U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PfCNibO8A7U",
+      "url": "https://www.youtube.com/watch?v=PfCNibO8A7U",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defense to reverse De La Riva and footlock",
+      "description": "Lapel to De La Riva (Defender) film study: Defense to reverse De La Riva and footlock, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hdSw-ZmcBRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hdSw-ZmcBRA",
+      "url": "https://www.youtube.com/watch?v=hdSw-ZmcBRA",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing the underhook De La Riva guard",
+      "description": "Lapel to De La Riva (Defender) film study: Passing the underhook De La Riva guard, taught by Pedro Ramalho.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TtNnbReRkcM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TtNnbReRkcM",
+      "url": "https://www.youtube.com/watch?v=TtNnbReRkcM",
+      "creator": { "@type": "Person", "name": "Pedro Ramalho" },
+      "duration": "PT213S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ From a strategic standpoint, the best defense is prevention through early lapel 
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel to De La Riva (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PfCNibO8A7U)
+
+<p class="clip-credit"><strong>Step back underhook De La Riva pass</strong> — taught by BJJ4Breakfast · 1:20 · <a href="https://www.youtube.com/watch?v=PfCNibO8A7U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hdSw-ZmcBRA)
+
+<p class="clip-credit"><strong>Defense to reverse De La Riva and footlock</strong> — taught by Ninja Pinto · 0:31 · <a href="https://www.youtube.com/watch?v=hdSw-ZmcBRA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TtNnbReRkcM)
+
+<p class="clip-credit"><strong>Passing the underhook De La Riva guard</strong> — taught by Pedro Ramalho · 3:33 · <a href="https://www.youtube.com/watch?v=TtNnbReRkcM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

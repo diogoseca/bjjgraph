@@ -18,31 +18,49 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     },
     {
-      "to": "Clinch",
-      "probability": 5,
+      "to": "Clinch/Bottom",
+      "probability": {
+        "gi": 5,
+        "nogi": 5
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Within the standing rear clinch system, the mat return is the workhorse mechanism for getting the fight to the ground without surrendering the rear control you fought to establish. This technique bridges the gap between standing grappling and ground fighting, allowing the attacker to bring an opponent to the mat while maintaining chest-to-back connection, grip integrity, and positional dominance. The mat return is particularly valuable in competition where standing back control has limited scoring potential compared to ground back control with hooks established, making it the primary mechanism for converting standing advantage into scoreable, finishable position.\n\nStrategically, the mat return represents a critical link in the chain from clinch work to submission. Rather than releasing control to attempt a throw or trip that risks separation, the mat return uses body weight, hip positioning, and controlled descent to systematically bring the opponent to the ground. The technique works most effectively when the attacker has established a solid bodylock or seatbelt grip and uses their hips as a fulcrum to collapse the opponent's base. Timing the mat return when the opponent shifts weight during grip fighting or steps to reposition significantly increases both completion rate and the likelihood of maintaining back control through the ground transition.\n\nThe mat return also serves as a crucial decision point within the standing rear clinch strategy. When rolling back takes are defended, standing submissions prove difficult, or the opponent maintains strong hand fighting, the mat return provides a reliable high-percentage option that prioritizes positional advancement over riskier techniques. Understanding when to execute the mat return versus pursuing other options from standing rear clinch is a hallmark of experienced grapplers who prioritize systematic positional progression over spectacle. The technique is equally effective in gi and no-gi contexts, though grip configurations differ between the two rulesets.",
   "conditions": [
     "Established standing rear clinch with secure bodylock or seatbelt grip locked",
@@ -188,7 +206,7 @@
       {
         "counter": "Opponent turns into you during the descent to face you and establish clinch",
         "effectiveness": "Medium",
-        "targets_outcome": "Clinch",
+        "targets_outcome": "Clinch/Bottom",
         "your_response": "Follow the turn by circling in the same direction and use their rotational momentum to snap them down to a front headlock. Alternatively, if you maintain partial back control, convert to a guillotine or front headlock position rather than fighting to keep the back."
       },
       {
@@ -260,38 +278,259 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for executing a mat return from standing rear clinch?",
-        "answer": "The ideal timing is when the opponent shifts their weight during a grip fighting exchange or steps to reposition their base. At this moment, their weight is committed in one direction and they cannot easily resist being pulled in the opposite direction. Additionally, initiating the mat return immediately after re-securing a grip that was momentarily broken catches the opponent during a defensive reset where their protective reactions are delayed and their base has not been re-established."
+        "answer": "The ideal timing is when the opponent shifts their weight during a grip fighting exchange or steps to reposition their base. At this moment, their weight is committed in one direction and they cannot easily resist being pulled in the opposite direction. Additionally, initiating the mat return immediately after re-securing a grip that was momentarily broken catches the opponent during a defensive reset where their protective reactions are delayed and their base has not been re-established.",
+        "answer_line": "During grip fight or reset",
+        "distractors": {
+          "plausible": [
+            "When grip is fully secured",
+            "Right when clinch is first locked"
+          ],
+          "trap": [
+            "When opponent has a stable base"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the most secure control during the mat return descent?",
-        "answer": "A locked bodylock with hands clasped in Gable grip or S-grip around the opponent's waist provides the most secure control during descent because it prevents separation at the most critical transitional phase. The bodylock distributes pulling force across the entire torso rather than concentrating it at specific grip points that can be stripped. The seatbelt configuration works effectively as well but requires additional attention to preventing the choking arm from being peeled during the fall since the opponent's hands can reach it more easily."
+        "answer": "A locked bodylock with hands clasped in Gable grip or S-grip around the opponent's waist provides the most secure control during descent because it prevents separation at the most critical transitional phase. The bodylock distributes pulling force across the entire torso rather than concentrating it at specific grip points that can be stripped. The seatbelt configuration works effectively as well but requires additional attention to preventing the choking arm from being peeled during the fall since the opponent's hands can reach it more easily.",
+        "answer_line": "Bodylock, Gable/S-grip locked",
+        "distractors": {
+          "plausible": [
+            "Seatbelt grip around neck",
+            "Overhook on one arm only"
+          ],
+          "trap": [
+            "Single hand grip on belt"
+          ]
+        }
       },
       {
         "question": "How should your hips be positioned relative to the opponent at the moment of initiating the mat return?",
-        "answer": "Your hips should be offset to one side at approximately 45 degrees, not directly behind the opponent. This angle creates a mechanical advantage for pulling them down and to the side rather than straight backward, which they can more easily resist by sitting their weight. The offset hip position also determines which direction you will land, and you want to land on the side that gives you immediate access to insert your bottom hook first for foundational ground control."
+        "answer": "Your hips should be offset to one side at approximately 45 degrees, not directly behind the opponent. This angle creates a mechanical advantage for pulling them down and to the side rather than straight backward, which they can more easily resist by sitting their weight. The offset hip position also determines which direction you will land, and you want to land on the side that gives you immediate access to insert your bottom hook first for foundational ground control.",
+        "answer_line": "Offset 45 degrees to one side",
+        "distractors": {
+          "plausible": [
+            "Directly behind their hips",
+            "Angled fully to their side"
+          ],
+          "trap": [
+            "Square behind, drive straight back"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their inside hand on the mat as you begin the mat return descent - how do you adjust?",
-        "answer": "Immediately redirect the pulling angle away from the posted hand, taking them down to the opposite side where they have no base point. Alternatively, use your inside arm to swim under and strip the posting arm before continuing the descent. If the post is strong and well-timed, abandon the direct mat return angle and switch to an inside trip on the near leg to sweep their remaining base while maintaining your bodylock grip throughout the transition."
+        "answer": "Immediately redirect the pulling angle away from the posted hand, taking them down to the opposite side where they have no base point. Alternatively, use your inside arm to swim under and strip the posting arm before continuing the descent. If the post is strong and well-timed, abandon the direct mat return angle and switch to an inside trip on the near leg to sweep their remaining base while maintaining your bodylock grip throughout the transition.",
+        "answer_line": "Redirect away from the post",
+        "distractors": {
+          "plausible": [
+            "Push through the posted arm",
+            "Wait for them to remove hand"
+          ],
+          "trap": [
+            "Pull straight back into the post"
+          ]
+        }
       },
       {
         "question": "What is the single most common reason mat returns fail against experienced opponents?",
-        "answer": "Insufficient posture breaking before attempting the descent. Experienced opponents maintain an upright posture with a strong wide base that makes it nearly impossible to pull them down with grip strength alone. The mat return requires first compromising their posture by driving them forward at the waist, loading your weight onto their back, or timing the attempt when their posture is momentarily broken during grip transitions. Without this setup, the opponent simply widens their base and the mat return stalls completely."
+        "answer": "Insufficient posture breaking before attempting the descent. Experienced opponents maintain an upright posture with a strong wide base that makes it nearly impossible to pull them down with grip strength alone. The mat return requires first compromising their posture by driving them forward at the waist, loading your weight onto their back, or timing the attempt when their posture is momentarily broken during grip transitions. Without this setup, the opponent simply widens their base and the mat return stalls completely.",
+        "answer_line": "Didn't break posture first",
+        "distractors": {
+          "plausible": [
+            "Loaded weight onto back too late",
+            "Attacked before the grip switch"
+          ],
+          "trap": [
+            "Sat back to pull them over"
+          ]
+        }
       },
       {
         "question": "After landing on the ground from a mat return, what is the priority sequence for establishing control?",
-        "answer": "The immediate priority is bottom hook first within one to two seconds of landing, then top hook insertion, then upper body grip adjustment from standing configuration to ground-optimized seatbelt. The bottom hook is prioritized because it provides the foundational control preventing the opponent from rolling over the top or escaping upward. Many practitioners make the error of adjusting their upper body grip first, which allows the opponent to clear their hips and turn before hooks are established, losing the positional advantage entirely."
+        "answer": "The immediate priority is bottom hook first within one to two seconds of landing, then top hook insertion, then upper body grip adjustment from standing configuration to ground-optimized seatbelt. The bottom hook is prioritized because it provides the foundational control preventing the opponent from rolling over the top or escaping upward. Many practitioners make the error of adjusting their upper body grip first, which allows the opponent to clear their hips and turn before hooks are established, losing the positional advantage entirely.",
+        "answer_line": "Bottom hook first, then top",
+        "distractors": {
+          "plausible": [
+            "Upper grip adjustment first",
+            "Top hook before bottom hook"
+          ],
+          "trap": [
+            "Release grip to free hands"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a strong turn toward you mid-descent during the mat return - what is your best response?",
-        "answer": "Let the turn happen but follow it by circling in the same direction, converting the mat return into a controlled transition where you maintain grip contact. If you maintain your bodylock through the turn, you can end up in a front headlock or clinch position where you retain positional advantage. Fighting the turn directly by pulling in the opposite direction usually results in losing the grip entirely. The key principle is to flow with the opponent's energy rather than opposing it, converting their defensive movement into a new attacking angle."
+        "answer": "Let the turn happen but follow it by circling in the same direction, converting the mat return into a controlled transition where you maintain grip contact. If you maintain your bodylock through the turn, you can end up in a front headlock or clinch position where you retain positional advantage. Fighting the turn directly by pulling in the opposite direction usually results in losing the grip entirely. The key principle is to flow with the opponent's energy rather than opposing it, converting their defensive movement into a new attacking angle.",
+        "answer_line": "Follow the turn, keep grip",
+        "distractors": {
+          "plausible": [
+            "Resist by pulling opposite way",
+            "Abandon grip and re-shoot"
+          ],
+          "trap": [
+            "Force the sit straight down"
+          ]
+        }
       },
       {
         "question": "What distinguishes the bodylock mat return from the seatbelt mat return in terms of tactical application?",
-        "answer": "The bodylock mat return prioritizes secure hip control and is best when the opponent has strong hand fighting that threatens to strip individual grips, as the interlocked hands around the waist are harder to peel apart. The seatbelt mat return maintains upper body dominance and neck threat throughout the descent, which can freeze the opponent's defensive reactions as they defend the choke rather than the takedown. Choose bodylock when grip security is the priority and seatbelt when you want to maintain submission threat during the transition to disrupt defensive focus."
+        "answer": "The bodylock mat return prioritizes secure hip control and is best when the opponent has strong hand fighting that threatens to strip individual grips, as the interlocked hands around the waist are harder to peel apart. The seatbelt mat return maintains upper body dominance and neck threat throughout the descent, which can freeze the opponent's defensive reactions as they defend the choke rather than the takedown. Choose bodylock when grip security is the priority and seatbelt when you want to maintain submission threat during the transition to disrupt defensive focus.",
+        "answer_line": "Bodylock=security, seatbelt=threat",
+        "distractors": {
+          "plausible": [
+            "Seatbelt is always more secure",
+            "Bodylock always beats seatbelt"
+          ],
+          "trap": [
+            "Switch grips mid-descent"
+          ]
+        }
+      },
+      {
+        "question": "Why must your hips be angled to one side rather than directly behind the opponent before initiating the mat return?",
+        "answer": "Hips directly behind the opponent allow them to sit straight back onto you, creating a scramble or reversal where you lose back control. Angling your hips to approximately 45 degrees forces a diagonal descent that prevents the sit-back counter, creates a controlled landing trajectory to your preferred side, and positions your legs optimally for immediate hook insertion during the descent. The angle also loads your bodyweight diagonally across the opponent's back, making their base asymmetrically compromised and harder to defend.",
+        "answer_line": "Prevents opponent sitting back",
+        "distractors": {
+          "plausible": [
+            "Improves grip strength",
+            "Makes landing softer"
+          ],
+          "trap": [
+            "Squares hips for a stronger pull"
+          ]
+        }
+      },
+      {
+        "question": "What is the optimal timing window for initiating the mat return against a defending opponent?",
+        "answer": "The optimal timing window occurs when the opponent is actively engaged in hand fighting to strip your grips. During grip defense, the opponent must commit at least one hand to peeling your controlling grip, which simultaneously removes that hand from their base and creates postural compromise. Their weight shifts during hand fighting, and their mental attention focuses on grip removal rather than base maintenance. Initiating the descent at this exact moment exploits both the physical and cognitive openings, making the mat return significantly harder to defend.",
+        "answer_line": "While they hand-fight your grip",
+        "distractors": {
+          "plausible": [
+            "Right after grips are broken",
+            "When they reset their stance"
+          ],
+          "trap": [
+            "When they've regained full base"
+          ]
+        }
+      },
+      {
+        "question": "Your opponent widens their stance and drops their hips to create a strong base against your mat return attempt - how do you adjust?",
+        "answer": "A wide, low base resists the standard sitting mat return because the opponent's center of gravity is lower and their feet are spread for stability. Adjust by switching to the ankle pick variation: release one hand from the bodylock to grab the opponent's far ankle while driving them diagonally over their widened stance with the remaining arm. Alternatively, change your angle to the opposite side and re-attempt, exploiting their commitment to defending the original direction. You can also use a more explosive suplex-style lift to bypass the base entirely by elevating their hips above their feet.",
+        "answer_line": "Switch to ankle pick variation",
+        "distractors": {
+          "plausible": [
+            "Push through their base",
+            "Wait for them to stand up"
+          ],
+          "trap": [
+            "Force the original sitting angle"
+          ]
+        }
+      },
+      {
+        "question": "What grip configuration is most critical to maintain during the descent phase and why?",
+        "answer": "The seatbelt or bodylock grip must remain locked throughout the descent because it is the only mechanism maintaining chest-to-back connection during the most vulnerable phase of the technique. If the grip breaks during descent, the opponent can immediately turn to face you, post hands for base, or scramble away before you establish ground control. The grip transfers your bodyweight into the opponent's frame, controls their posture, and anchors the connection that allows hook threading during the fall. Releasing the grip to post your own hands for balance sacrifices the entire positional advantage.",
+        "answer_line": "Keep bodylock locked throughout",
+        "distractors": {
+          "plausible": [
+            "Switch to seatbelt mid-fall",
+            "Grip lightly to save energy"
+          ],
+          "trap": [
+            "Post your own hands for balance"
+          ]
+        }
+      },
+      {
+        "question": "When during the mat return sequence should you begin inserting your hooks?",
+        "answer": "Hook insertion should begin during the descent phase, not after landing on the ground. As you initiate the sitting motion and both bodies begin descending toward the mat, your inside leg should already be threading between the opponent's thighs. By the time you contact the mat, at least one hook should be in position. Waiting until you are fully grounded creates a window where the opponent can turtle, turn, or scramble away before you establish leg control. Concurrent hook insertion during the descent is what converts the takedown into immediate back control rather than a scramble.",
+        "answer_line": "During the descent, not after",
+        "distractors": {
+          "plausible": [
+            "Right after hitting the mat",
+            "Only once grip is adjusted"
+          ],
+          "trap": [
+            "Wait until they stop struggling"
+          ]
+        }
+      },
+      {
+        "question": "Your opponent manages to turn their shoulders toward you during the descent and you feel them rotating to face you - what is your immediate response?",
+        "answer": "If the opponent begins turning during the descent, you must immediately decide between two responses based on how far the turn has progressed. If the turn is early and less than 45 degrees, tighten your grip, drive your chest harder into their back, and accelerate the descent to ground them before the turn completes. If the turn has progressed beyond 45 degrees, abandon the mat return and follow their rotation to maintain chest-to-back connection, potentially transitioning to a front headlock if they turn fully or re-establishing rear clinch from the new angle. Do not fight the turn from a losing position, as this typically results in ending up underneath in half guard.",
+        "answer_line": "Tighten early, follow if late",
+        "distractors": {
+          "plausible": [
+            "Always follow their rotation",
+            "Always accelerate the descent"
+          ],
+          "trap": [
+            "Fight the turn from underneath"
+          ]
+        }
+      },
+      {
+        "question": "What is the difference between a mat return and a suplex in terms of mechanics and strategic application?",
+        "answer": "A mat return uses a controlled sitting motion where the attacker descends to the mat alongside the opponent, maintaining constant chest-to-back connection throughout. It prioritizes positional preservation over impact. A suplex uses explosive lifting and arching to elevate the opponent and rotate them overhead or to the side, momentarily separating bodies during the arc. The mat return is lower risk because connection is never broken, making it ideal for grappling where maintaining back control is the primary objective. The suplex generates more force but risks separation and scrambles, and may be penalized or illegal in some rulesets due to the slamming component.",
+        "answer_line": "Mat return stays connected",
+        "distractors": {
+          "plausible": [
+            "Suplex is safer for grappling",
+            "Both use identical mechanics"
+          ],
+          "trap": [
+            "Suplex maintains constant contact"
+          ]
+        }
+      },
+      {
+        "question": "How does the direction of force in the mat return differ from a standard rear trip or reap?",
+        "answer": "The mat return directs force diagonally downward and to the side through a sitting motion, using the attacker's bodyweight as the primary mechanism. The opponent is brought down along with the attacker in a controlled tandem descent. A rear trip or reap directs force backward through the opponent's base by attacking their supporting leg while driving their upper body in the opposite direction, creating rotational force that topples them. The mat return keeps both players moving together, while trips and reaps create separation between the force applied to the upper body and the leg attack. This distinction is why the mat return preserves back control more reliably than trips.",
+        "answer_line": "Diagonal sit vs leg-based trip",
+        "distractors": {
+          "plausible": [
+            "Both attack the same leg",
+            "Mat return uses no bodyweight"
+          ],
+          "trap": [
+            "Straight backward through hips"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The mat return involves taking an opponent from standing to the ground, creating inherent risk of impact injury to both participants. Always control the descent speed to prevent slamming or uncontrolled falls. In training, communicate with your partner about intensity level and ensure adequate mat surface for landing. Avoid executing on hard surfaces or near mat edges where rolling off is possible. Be especially careful with training partners who have existing knee, shoulder, neck, or spinal injuries, as the takedown generates significant compressive and rotational forces. Never spike an opponent headfirst or execute the lateral drop variant at full power without prior agreement from your partner. If your partner goes limp, signals distress, or taps during the descent, immediately release all grips and check their condition before continuing."
+    "safety_considerations": "The mat return involves taking an opponent from standing to the ground, creating inherent risk of impact injury to both participants. Always control the descent speed to prevent slamming or uncontrolled falls. In training, communicate with your partner about intensity level and ensure adequate mat surface for landing. Avoid executing on hard surfaces or near mat edges where rolling off is possible. Be especially careful with training partners who have existing knee, shoulder, neck, or spinal injuries, as the takedown generates significant compressive and rotational forces. Never spike an opponent headfirst or execute the lateral drop variant at full power without prior agreement from your partner. If your partner goes limp, signals distress, or taps during the descent, immediately release all grips and check their condition before continuing.",
+    "clips": [
+      {
+        "id": "HMLEV7fMA-M",
+        "title": "Five mat return options from the rear clinch",
+        "by": "Elevate MMA Academy",
+        "vertical": false,
+        "channel": "Elevate MMA Academy",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ovl7eZIzBaU",
+        "title": "Easy takedowns from the rear clinch",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "suN-j2avPtQ",
+        "title": "Foot sweep mat return",
+        "by": "Kennelly Wrestling",
+        "vertical": false,
+        "channel": "Kennelly Wrestling Experience",
+        "duration": 65,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mat Return from Standing Rear Clinch Defender",
@@ -331,7 +570,7 @@
       {
         "action": "Turn aggressively into the opponent during the descent to face them and prevent back exposure on landing",
         "when_to_use": "When the descent has already begun and you cannot stop the takedown, use the transitional moment to rotate your shoulders and hips",
-        "targets_outcome": "Clinch",
+        "targets_outcome": "Clinch/Bottom",
         "if_successful": "You land facing the opponent in a neutral clinch or scramble position rather than with your back exposed for hook insertion",
         "risk": "If the turn is incomplete, you may land in a worse position with partial back exposure and no defensive frames established"
       },
@@ -349,7 +588,7 @@
         "how": "Execute explosive two-on-one grip break during the opponent's descent phase when their hands are under maximum tension from the pulling force. The moment the grip breaks, immediately turn to face them and establish a defensive turtle position where escape options are more available."
       },
       {
-        "outcome": "Clinch",
+        "outcome": "Clinch/Bottom",
         "how": "Time a hard turn toward the opponent as they initiate the descent, using the transitional moment when their grip shifts from static control to active pulling as the window to rotate your shoulders and hips. The key is committing fully to the turn and driving your chest into their chest to establish facing position before you reach the ground."
       }
     ],
@@ -378,23 +617,129 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that a mat return is about to be attempted from standing rear clinch?",
-        "answer": "The primary cues are a sudden tightening of the opponent's grip around your waist or upper body, a shift of their hips to one side with a lowering of their center of gravity, and increased forward and downward pressure loading onto your back. You may also feel the opponent's feet adjusting position as they prepare to sit through. The grip tightening typically occurs one to two seconds before the descent begins and is the most reliable early warning that differentiates a mat return attempt from standard clinch maintenance."
+        "answer": "The primary cues are a sudden tightening of the opponent's grip around your waist or upper body, a shift of their hips to one side with a lowering of their center of gravity, and increased forward and downward pressure loading onto your back. You may also feel the opponent's feet adjusting position as they prepare to sit through. The grip tightening typically occurs one to two seconds before the descent begins and is the most reliable early warning that differentiates a mat return attempt from standard clinch maintenance.",
+        "answer_line": "Grip tightens, hips shift, pressure",
+        "distractors": {
+          "plausible": [
+            "Sudden release of all grips",
+            "Opponent stands taller, relaxed"
+          ],
+          "trap": [
+            "Opponent steps back to reset"
+          ]
+        }
       },
       {
         "question": "Why is widening your base the most effective immediate response when you recognize a mat return attempt?",
-        "answer": "Widening your base dramatically increases the amount of force required to break your balance in any direction because it creates multiple posting points that prevent being pulled laterally or backward. Combined with dropping your hips and driving them forward, the widened base forces the opponent to either abandon their mat return attempt or significantly modify their angle. This defense is mechanically effective because the mat return relies on collapsing a narrow base through the sit-through, and widening removes that mechanical advantage entirely."
+        "answer": "Widening your base dramatically increases the amount of force required to break your balance in any direction because it creates multiple posting points that prevent being pulled laterally or backward. Combined with dropping your hips and driving them forward, the widened base forces the opponent to either abandon their mat return attempt or significantly modify their angle. This defense is mechanically effective because the mat return relies on collapsing a narrow base through the sit-through, and widening removes that mechanical advantage entirely.",
+        "answer_line": "Removes their mechanical leverage",
+        "distractors": {
+          "plausible": [
+            "Lowers only your center of gravity",
+            "Pulls away from their grip"
+          ],
+          "trap": [
+            "Narrow stance for quick steps"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully initiates the mat return and you are descending to the ground - what is your best option at this point?",
-        "answer": "Focus on preventing hook insertion rather than stopping the descent. Turn your body aggressively toward the opponent during the fall to prevent them from establishing back control on landing, and immediately begin working to face them upon impact with the mat. If you can achieve even a partial turn during the descent, you may land in turtle or half guard rather than flat back control. Post your inside hand on the mat to control the landing angle and immediately address the bottom hook attempt, as this hook anchors their ground back control."
+        "answer": "Focus on preventing hook insertion rather than stopping the descent. Turn your body aggressively toward the opponent during the fall to prevent them from establishing back control on landing, and immediately begin working to face them upon impact with the mat. If you can achieve even a partial turn during the descent, you may land in turtle or half guard rather than flat back control. Post your inside hand on the mat to control the landing angle and immediately address the bottom hook attempt, as this hook anchors their ground back control.",
+        "answer_line": "Turn in, block hook insertion",
+        "distractors": {
+          "plausible": [
+            "Fight to stop the descent",
+            "Grab their leg to reverse"
+          ],
+          "trap": [
+            "Post both hands to block fall"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous defensive error when someone attempts a mat return on you?",
-        "answer": "The most dangerous error is reaching down with both hands to fight the opponent's bodylock grip while they are already descending, which removes your posting hand and eliminates your ability to control the landing. This leaves you falling uncontrolled into a position where the opponent can easily secure hooks before you can establish any defensive frame. Instead, accept the bodylock during descent and focus your hands on posting and turning to control the landing, addressing the grip only after you have safely reached the ground."
+        "answer": "The most dangerous error is reaching down with both hands to fight the opponent's bodylock grip while they are already descending, which removes your posting hand and eliminates your ability to control the landing. This leaves you falling uncontrolled into a position where the opponent can easily secure hooks before you can establish any defensive frame. Instead, accept the bodylock during descent and focus your hands on posting and turning to control the landing, addressing the grip only after you have safely reached the ground.",
+        "answer_line": "Both hands fight the bodylock",
+        "distractors": {
+          "plausible": [
+            "Turn away before impact",
+            "Post only your outside hand"
+          ],
+          "trap": [
+            "Drop both hands to grip-fight"
+          ]
+        }
       },
       {
         "question": "How does pre-emptive grip fighting reduce the effectiveness of the mat return before it begins?",
-        "answer": "Proactive two-on-one grip fighting on the opponent's clasped hands forces them to constantly re-establish their hold rather than settling into the preparation phase for the mat return. By preventing the opponent from achieving a locked grip configuration, you deny them the secure connection needed to execute a controlled descent. Even partial grip breaks create windows for turning to face the opponent or generating enough separation to establish a new defensive position, effectively resetting the standing engagement before the mat return can be attempted."
+        "answer": "Proactive two-on-one grip fighting on the opponent's clasped hands forces them to constantly re-establish their hold rather than settling into the preparation phase for the mat return. By preventing the opponent from achieving a locked grip configuration, you deny them the secure connection needed to execute a controlled descent. Even partial grip breaks create windows for turning to face the opponent or generating enough separation to establish a new defensive position, effectively resetting the standing engagement before the mat return can be attempted.",
+        "answer_line": "Two-on-one strip on their grip",
+        "distractors": {
+          "plausible": [
+            "Pull straight back constantly",
+            "Wait for them to grip first"
+          ],
+          "trap": [
+            "Grab both their wrists evenly"
+          ]
+        }
+      },
+      {
+        "question": "What are the earliest recognition cues that your opponent is setting up a mat return from rear clinch?",
+        "answer": "The earliest cues are the attacker shifting their hips from directly behind you to approximately 45 degrees to one side, combined with a noticeable tightening of their grip and increased forward pressure breaking your posture. You may also feel their knees begin to bend as they prepare for the sitting motion, and their outside leg positioning behind your near leg. Recognizing these cues before the descent begins gives you maximum time to execute defensive options such as grip stripping, base widening, or pre-emptive turning.",
+        "answer_line": "Hips shift 45, grip tightens",
+        "distractors": {
+          "plausible": [
+            "Feet planted wider",
+            "Grip loosens before attack"
+          ],
+          "trap": [
+            "Opponent stands up taller"
+          ]
+        }
+      },
+      {
+        "question": "When the mat return has been committed and you cannot prevent the takedown, what is your best defensive strategy during the descent?",
+        "answer": "Once the takedown is committed, shift your defensive focus from preventing the descent to minimizing positional damage on landing. Immediately begin turning your shoulders and hips toward the attacker as you go to the ground. Keep your elbows tight to your body to prevent hooks from being inserted during the fall. Your goal is to land facing the attacker in half guard rather than with your back to them in back control. Even a partial turn that prevents one hook from being inserted dramatically improves your ground defensive position compared to landing flat in full back control.",
+        "answer_line": "Turn in, keep elbows tight",
+        "distractors": {
+          "plausible": [
+            "Push away to create space",
+            "Reach for the mat behind you"
+          ],
+          "trap": [
+            "Extend arms to block the fall"
+          ]
+        }
+      },
+      {
+        "question": "Why is the two-on-one grip strip more effective than simply trying to peel the attacker's hands apart from behind?",
+        "answer": "The two-on-one grip strip works in front of your body where you have full visual feedback and maximum arm strength through proper biomechanics. You use two hands against one of the attacker's hands or wrists, creating a 2:1 strength advantage. Reaching behind to peel hands apart works against your own body mechanics, provides no visual feedback on grip position, and divides your force between both of the attacker's arms simultaneously. Additionally, reaching behind pulls your elbows away from your body, which opens space for the attacker to insert hooks and removes your hands from neck defense.",
+        "answer_line": "Full visibility, 2:1 strength",
+        "distractors": {
+          "plausible": [
+            "Uses less overall energy",
+            "Works better from any angle"
+          ],
+          "trap": [
+            "Reach behind to peel hands"
+          ]
+        }
+      },
+      {
+        "question": "How should you adjust your base when you feel your opponent setting up the mat return?",
+        "answer": "Lower your center of gravity by bending your knees and dropping your hips while widening your stance laterally. Shift your weight away from the direction the attacker is angling toward, making their sitting motion travel a longer path. Keep your weight on the balls of your feet to maintain mobility and the ability to circle away from the attacker's angle. Avoid going completely flat-footed or locking your knees, as rigidity is easier to overcome than a dynamic, adjustable base. If the attacker changes angle, you must be able to readjust your base immediately to match the new threat direction.",
+        "answer_line": "Lower hips, widen stance",
+        "distractors": {
+          "plausible": [
+            "Stand tall, lock the knees",
+            "Shift weight to heels"
+          ],
+          "trap": [
+            "Go flat-footed and rigid"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -417,6 +762,26 @@
         "phase": "Full Resistance Integration",
         "focus": "Combining all defensive elements against committed mat return attempts",
         "description": "Positional sparring starting from standing rear clinch where partner attempts mat returns at full speed and commitment. Practice the complete defensive sequence from recognition through ground recovery. Emphasis on composure under pressure, energy management through structural defense rather than muscular effort, and systematic approach to each defensive phase."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xqFoPDd7S9A",
+        "title": "Stand up and sit out to escape the mat return",
+        "by": "Cary Kolat",
+        "vertical": false,
+        "channel": "Cary Kolat",
+        "duration": 83,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "k-78AJwPYig",
+        "title": "Defending standing back control with double unders",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 64,
+        "verified": "2026-07-15"
       }
     ]
   }

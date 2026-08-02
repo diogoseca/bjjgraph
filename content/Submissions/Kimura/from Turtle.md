@@ -34,6 +34,54 @@ description: "Master Kimura from Turtle in BJJ. Complete guide with safety proto
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura Trap to Attack the Turtle",
+      "description": "Kimura from Turtle film study: Kimura Trap to Attack the Turtle, taught by Paul Stolyar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rj3LRhRCtCA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rj3LRhRCtCA",
+      "url": "https://www.youtube.com/watch?v=rj3LRhRCtCA",
+      "creator": { "@type": "Person", "name": "Paul Stolyar" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stepover Kimura Top Finish",
+      "description": "Kimura from Turtle film study: Stepover Kimura Top Finish, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R_2_oKfgvfw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R_2_oKfgvfw",
+      "url": "https://www.youtube.com/watch?v=R_2_oKfgvfw",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura Sweep to Kimura Finish",
+      "description": "Kimura from Turtle film study: Kimura Sweep to Kimura Finish, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IA4laaUMfD8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IA4laaUMfD8",
+      "url": "https://www.youtube.com/watch?v=IA4laaUMfD8",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ Capitalizing on the natural arm exposure of the defensive turtle, the Kimura fro
 **Starting Position**: [[Positions/Turtle]] · **From**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rj3LRhRCtCA)
+
+<p class="clip-credit"><strong>Kimura Trap to Attack the Turtle</strong> — taught by Paul Stolyar · 0:52 · <a href="https://www.youtube.com/watch?v=rj3LRhRCtCA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R_2_oKfgvfw)
+
+<p class="clip-credit"><strong>Stepover Kimura Top Finish</strong> — taught by Revolution BJJ · 0:45 · <a href="https://www.youtube.com/watch?v=R_2_oKfgvfw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IA4laaUMfD8)
+
+<p class="clip-credit"><strong>Kimura Sweep to Kimura Finish</strong> — taught by BJJ4Breakfast · 1:10 · <a href="https://www.youtube.com/watch?v=IA4laaUMfD8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -257,8 +341,8 @@ Capitalizing on the natural arm exposure of the defensive turtle, the Kimura fro
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Americana]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Belly Down Armbar]]

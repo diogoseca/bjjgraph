@@ -140,6 +140,54 @@ description: "Master defending the backstep from leg weave. Recognition cues, de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Leg Weave (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Prevent the leg weave with lasso",
+      "description": "Backstep from Leg Weave (Defender) film study: Prevent the leg weave with lasso, taught by Grand Union Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tO5rPtjfsGE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tO5rPtjfsGE",
+      "url": "https://www.youtube.com/watch?v=tO5rPtjfsGE",
+      "creator": { "@type": "Person", "name": "Grand Union Jiu Jitsu" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the leg weave pass",
+      "description": "Backstep from Leg Weave (Defender) film study: Defending the leg weave pass, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PKvaosk3gGc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PKvaosk3gGc",
+      "url": "https://www.youtube.com/watch?v=PKvaosk3gGc",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT197S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg weave guard pass counter",
+      "description": "Backstep from Leg Weave (Defender) film study: Leg weave guard pass counter, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7gcVk4flYHo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7gcVk4flYHo",
+      "url": "https://www.youtube.com/watch?v=7gcVk4flYHo",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT182S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Backstep from Leg Weave requires early recognition of the rotation
 **Opponent's Starting Position**: [[Positions/Leg Weave]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Leg Weave (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tO5rPtjfsGE)
+
+<p class="clip-credit"><strong>Prevent the leg weave with lasso</strong> — taught by Grand Union Jiu Jitsu · 0:54 · <a href="https://www.youtube.com/watch?v=tO5rPtjfsGE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PKvaosk3gGc)
+
+<p class="clip-credit"><strong>Defending the leg weave pass</strong> — taught by Jon Thomas · 3:17 · <a href="https://www.youtube.com/watch?v=PKvaosk3gGc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7gcVk4flYHo)
+
+<p class="clip-credit"><strong>Leg weave guard pass counter</strong> — taught by Stephan Kesting · 3:02 · <a href="https://www.youtube.com/watch?v=7gcVk4flYHo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

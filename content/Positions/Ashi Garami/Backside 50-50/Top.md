@@ -20,38 +20,38 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook from Backside 50-50",
-      "text": "From this position, attempt Heel Hook from Backside 50-50. This technique is attempted in 36% of exchanges from this position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Toe Hold from Backside 50-50",
-      "text": "From this position, attempt Toe Hold from Backside 50-50. This technique is attempted in 8% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 3% of exchanges from this position.",
-      "position": 3
+      "text": "From this position, attempt Toe Hold from Backside 50-50. This technique is attempted in 9% of exchanges from this position.",
+      "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
       "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 10% of exchanges from this position.",
-      "position": 4
+      "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar from Backside 50-50",
-      "text": "From this position, attempt Kneebar from Backside 50-50. This technique is attempted in 5% of exchanges from this position.",
-      "position": 5
+      "name": "Execute Kneebar",
+      "text": "From this position, attempt Kneebar. This technique is attempted in 9% of exchanges from this position.",
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Pass",
-      "text": "From this position, attempt 50-50 Pass. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Pass. This technique is attempted in 11% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Take from 50-50",
+      "text": "From this position, attempt Back Take from 50-50. This technique is attempted in 15% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Calf Slicer from Backside 50-50",
+      "text": "From this position, attempt Calf Slicer from Backside 50-50. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backside 50-50 (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backside 50/50 Inside Heel Hook Finish",
+      "description": "Backside 50-50 (Top) film study: Backside 50/50 Inside Heel Hook Finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
+      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight Footlock Finish from Backside 50/50",
+      "description": "Backside 50-50 (Top) film study: Straight Footlock Finish from Backside 50/50, taught by Mitch Oley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hll_k_6QiI0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hll_k_6QiI0",
+      "url": "https://www.youtube.com/watch?v=hll_k_6QiI0",
+      "creator": { "@type": "Person", "name": "Mitch Oley" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Backside 50/50 from Knee on Belly",
+      "description": "Backside 50-50 (Top) film study: Backside 50/50 from Knee on Belly, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LTPdSfUqeFc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LTPdSfUqeFc",
+      "url": "https://www.youtube.com/watch?v=LTPdSfUqeFc",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT19S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From the top position in backside 50-50, you can see your opponent's legs more c
 Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused training environments, appearing from successful leg entanglement entries, countered leg attacks, or as a transitional position during scrambles. The position rewards technical leg lock knowledge and the ability to manage multiple attacking options simultaneously while maintaining dominant positional control. Success requires balancing pressure application to control opponent's movement with strategic decision-making about when to commit to leg lock finishes versus when to advance to superior positions like back control or saddle.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backside 50-50 (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+
+<p class="clip-credit"><strong>Backside 50/50 Inside Heel Hook Finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hll_k_6QiI0)
+
+<p class="clip-credit"><strong>Straight Footlock Finish from Backside 50/50</strong> — taught by Mitch Oley · 0:54 · <a href="https://www.youtube.com/watch?v=hll_k_6QiI0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LTPdSfUqeFc)
+
+<p class="clip-credit"><strong>Backside 50/50 from Knee on Belly</strong> — taught by Thunderdome BJJ · 0:19 · <a href="https://www.youtube.com/watch?v=LTPdSfUqeFc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -220,8 +304,8 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 <p class="section-subtitle">What should you do from Backside 50-50 (Top)?</p>
 
 **If opponent is primarily defending their back and creating frames to prevent you from walking up their body:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 50%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 45%)
 - Execute **[[Submissions/Toe Hold/Attacker|Toe Hold]]** → [[game-over]] (Probability: 40%)
 
 
@@ -234,7 +318,7 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 **If opponent attempts to sweep by inverting or creating angles with their hips:**
 - Execute **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** → [[Positions/Back Control]] (Probability: 60%)
 - Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent exposes their near leg by straightening or extending it during escape attempts:**
@@ -362,8 +446,8 @@ Starting from backside 50-50 top, practice finishing sequence for heel hook, out
 - **[[Positions/Back Control]]** - High-percentage advancement option when legs are defended
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related leg entanglement with single leg control
 - **[[Positions/Ashi Garami/Honey Hole]]** - Alternative leg entanglement configuration from top
-- **[[Transitions/Heel Hook]]** - Primary submission finish from this position
-- **[[Transitions/Outside Heel Hook]]** - Alternative heel attack option from this position
+- **[[Submissions/Heel Hook]]** - Primary submission finish from this position
+- **[[Submissions/Outside Heel Hook]]** - Alternative heel attack option from this position
 - **[[Submissions/Toe Hold]]** - Complementary leg attack when heel is defended
 
 

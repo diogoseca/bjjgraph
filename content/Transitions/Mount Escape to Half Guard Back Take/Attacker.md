@@ -174,6 +174,43 @@ description: "How to execute Mount Escape to Half Guard Back Take in BJJ. Comple
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount Escape to Half Guard Back Take (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two mount escape options into half guard",
+      "description": "Mount Escape to Half Guard Back Take (Attacker) film study: Two mount escape options into half guard, taught by Revolution BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cyegyon5hVg",
+      "url": "https://www.youtube.com/watch?v=cyegyon5hVg",
+      "creator": { "@type": "Person", "name": "Revolution BJJ coach" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back take from half guard",
+      "description": "Mount Escape to Half Guard Back Take (Attacker) film study: Back take from half guard, taught by BJJ Recap coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XqH1Bt0-AgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XqH1Bt0-AgY",
+      "url": "https://www.youtube.com/watch?v=XqH1Bt0-AgY",
+      "creator": { "@type": "Person", "name": "BJJ Recap coach" },
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +222,34 @@ The technique requires reading the opponent's response at the half guard checkpo
 **From Position**: [[Positions/Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount Escape to Half Guard Back Take (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cyegyon5hVg)
+
+<p class="clip-credit"><strong>Two mount escape options into half guard</strong> — taught by Revolution BJJ coach · 0:54 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XqH1Bt0-AgY)
+
+<p class="clip-credit"><strong>Back take from half guard</strong> — taught by BJJ Recap coach · 0:39 · <a href="https://www.youtube.com/watch?v=XqH1Bt0-AgY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

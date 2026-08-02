@@ -174,6 +174,43 @@ description: "Complete guide to executing the knee cut pass from feet on hips gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Cut from Feet on Hips (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Monitoring the feet when passing guard",
+      "description": "Knee Cut from Feet on Hips (Attacker) film study: Monitoring the feet when passing guard, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YLPNsyHtREs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YLPNsyHtREs",
+      "url": "https://www.youtube.com/watch?v=YLPNsyHtREs",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee cut mechanics and live example",
+      "description": "Knee Cut from Feet on Hips (Attacker) film study: Knee cut mechanics and live example, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r6mfCS7MuOY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r6mfCS7MuOY",
+      "url": "https://www.youtube.com/watch?v=r6mfCS7MuOY",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the knee cut from feet on hips, your objective is to s
 **From Position**: [[Positions/Feet on Hips Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Cut from Feet on Hips (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YLPNsyHtREs)
+
+<p class="clip-credit"><strong>Monitoring the feet when passing guard</strong> — taught by Gordon Ryan · 0:50 · <a href="https://www.youtube.com/watch?v=YLPNsyHtREs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r6mfCS7MuOY)
+
+<p class="clip-credit"><strong>Knee cut mechanics and live example</strong> — taught by Gordon Ryan · 2:21 · <a href="https://www.youtube.com/watch?v=r6mfCS7MuOY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

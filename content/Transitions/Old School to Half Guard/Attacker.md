@@ -174,6 +174,43 @@ description: "Execute the Old School to Half Guard transition in BJJ. Step-by-st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Old School to Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Old school entry from half guard",
+      "description": "Old School to Half Guard (Attacker) film study: Old school entry from half guard, taught by Coach SUL.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WGa86Z8B44Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WGa86Z8B44Q",
+      "url": "https://www.youtube.com/watch?v=WGa86Z8B44Q",
+      "creator": { "@type": "Person", "name": "Coach SUL" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Old school sweep from half guard",
+      "description": "Old School to Half Guard (Attacker) film study: Old school sweep from half guard, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jnc2siD9cak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jnc2siD9cak",
+      "url": "https://www.youtube.com/watch?v=Jnc2siD9cak",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT12S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Old School to Half Guard transition requires precise sequencing to
 **From Position**: [[Positions/Half Guard/Old School]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Old School to Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WGa86Z8B44Q)
+
+<p class="clip-credit"><strong>Old school entry from half guard</strong> — taught by Coach SUL · 0:20 · <a href="https://www.youtube.com/watch?v=WGa86Z8B44Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jnc2siD9cak)
+
+<p class="clip-credit"><strong>Old school sweep from half guard</strong> — taught by Ritchie Yip · 0:12 · <a href="https://www.youtube.com/watch?v=Jnc2siD9cak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

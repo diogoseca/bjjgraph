@@ -168,6 +168,54 @@ description: "How to execute Technical Stand-up in BJJ. Attacking perspective wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Stand-up (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical stand up from half guard bottom",
+      "description": "Technical Stand-up (Attacker) film study: Technical stand up from half guard bottom, taught by Steve Haydock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LXTH9mOWCww/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LXTH9mOWCww",
+      "url": "https://www.youtube.com/watch?v=LXTH9mOWCww",
+      "creator": { "@type": "Person", "name": "Steve Haydock" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The four types of technical stand-up and when to use them",
+      "description": "Technical Stand-up (Attacker) film study: The four types of technical stand-up and when to use them, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/quMmk9Xs2HE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/quMmk9Xs2HE",
+      "url": "https://www.youtube.com/watch?v=quMmk9Xs2HE",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT444S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to do the technical stand up",
+      "description": "Technical Stand-up (Attacker) film study: How to do the technical stand up, taught by Bam Bam Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mr9HJep7zA0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mr9HJep7zA0",
+      "url": "https://www.youtube.com/watch?v=mr9HJep7zA0",
+      "creator": { "@type": "Person", "name": "Bam Bam Martial Arts" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 **From Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Stand-up (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LXTH9mOWCww)
+
+<p class="clip-credit"><strong>Technical stand up from half guard bottom</strong> — taught by Steve Haydock · 2:42 · <a href="https://www.youtube.com/watch?v=LXTH9mOWCww" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=quMmk9Xs2HE)
+
+<p class="clip-credit"><strong>The four types of technical stand-up and when to use them</strong> — taught by Stephan Kesting · 7:24 · <a href="https://www.youtube.com/watch?v=quMmk9Xs2HE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mr9HJep7zA0)
+
+<p class="clip-credit"><strong>How to do the technical stand up</strong> — taught by Bam Bam Martial Arts · 2:25 · <a href="https://www.youtube.com/watch?v=mr9HJep7zA0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -140,6 +140,54 @@ description: "Defend against the Roll from Dead Orchard in BJJ. Guide for the to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll from Dead Orchard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dead Orchard Instructional Part 1",
+      "description": "Roll from Dead Orchard (Defender) film study: Dead Orchard Instructional Part 1, taught by Nathan Orchard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XoiB1D2WJwE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XoiB1D2WJwE",
+      "url": "https://www.youtube.com/watch?v=XoiB1D2WJwE",
+      "creator": { "@type": "Person", "name": "Nathan Orchard" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Wrestling counter to stop the anaconda roll",
+      "description": "Roll from Dead Orchard (Defender) film study: Wrestling counter to stop the anaconda roll, taught by Nick Albin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PEL4kh7Bu8U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PEL4kh7Bu8U",
+      "url": "https://www.youtube.com/watch?v=PEL4kh7Bu8U",
+      "creator": { "@type": "Person", "name": "Nick Albin" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "First anaconda choke defense",
+      "description": "Roll from Dead Orchard (Defender) film study: First anaconda choke defense, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B8Ri47JCbpk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B8Ri47JCbpk",
+      "url": "https://www.youtube.com/watch?v=B8Ri47JCbpk",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT328S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ The Roll from Dead Orchard Defender is the top player maintaining dead orchard c
 **Opponent's Starting Position**: [[Positions/Dead Orchard Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll from Dead Orchard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XoiB1D2WJwE)
+
+<p class="clip-credit"><strong>Dead Orchard Instructional Part 1</strong> — taught by Nathan Orchard · 1:51 · <a href="https://www.youtube.com/watch?v=XoiB1D2WJwE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PEL4kh7Bu8U)
+
+<p class="clip-credit"><strong>Wrestling counter to stop the anaconda roll</strong> — taught by Nick Albin · 2:42 · <a href="https://www.youtube.com/watch?v=PEL4kh7Bu8U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B8Ri47JCbpk)
+
+<p class="clip-credit"><strong>First anaconda choke defense</strong> — taught by Coach Brian · 5:28 · <a href="https://www.youtube.com/watch?v=B8Ri47JCbpk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

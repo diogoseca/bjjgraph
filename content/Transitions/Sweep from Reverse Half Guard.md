@@ -34,6 +34,54 @@ description: "Master the Sweep from Reverse Half Guard in BJJ. Momentum-based re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Reverse Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse half guard sweep to leg drag",
+      "description": "Sweep from Reverse Half Guard film study: Reverse half guard sweep to leg drag, taught by Fernando Reis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VsPTkiq_OM4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VsPTkiq_OM4",
+      "url": "https://www.youtube.com/watch?v=VsPTkiq_OM4",
+      "creator": { "@type": "Person", "name": "Fernando Reis" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back take from reverse half guard",
+      "description": "Sweep from Reverse Half Guard film study: Back take from reverse half guard, taught by Trapp Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iVUskeb2-Ss/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iVUskeb2-Ss",
+      "url": "https://www.youtube.com/watch?v=iVUskeb2-Ss",
+      "creator": { "@type": "Person", "name": "Trapp Martial Arts" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inverted half guard sweep to ezequiel from the back",
+      "description": "Sweep from Reverse Half Guard film study: Inverted half guard sweep to ezequiel from the back, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcRISvtG3g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcRISvtG3g",
+      "url": "https://www.youtube.com/watch?v=iwcRISvtG3g",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The technique integrates naturally into a reverse half guard attack system that 
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Reverse Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VsPTkiq_OM4)
+
+<p class="clip-credit"><strong>Reverse half guard sweep to leg drag</strong> — taught by Fernando Reis · 1:02 · <a href="https://www.youtube.com/watch?v=VsPTkiq_OM4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iVUskeb2-Ss)
+
+<p class="clip-credit"><strong>Back take from reverse half guard</strong> — taught by Trapp Martial Arts · 1:44 · <a href="https://www.youtube.com/watch?v=iVUskeb2-Ss" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcRISvtG3g)
+
+<p class="clip-credit"><strong>Inverted half guard sweep to ezequiel from the back</strong> — taught by Carpio Jiu Jitsu · 1:56 · <a href="https://www.youtube.com/watch?v=iwcRISvtG3g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

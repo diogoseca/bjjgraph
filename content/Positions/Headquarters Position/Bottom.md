@@ -21,25 +21,25 @@ description: "Defend Headquarters Position from the bottom in BJJ. Guard recover
     {
       "@type": "HowToStep",
       "name": "Execute Re-Guard from Headquarters",
-      "text": "From this position, attempt Re-Guard from Headquarters. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Re-Guard from Headquarters. This technique is attempted in 39% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sweep from Headquarters",
-      "text": "From this position, attempt Sweep from Headquarters. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Sweep from Headquarters. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inversion from Headquarters",
-      "text": "From this position, attempt Inversion from Headquarters. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Inversion from Headquarters. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shin-to-Shin from Headquarters",
-      "text": "From this position, attempt Shin-to-Shin from Headquarters. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Shin-to-Shin from Headquarters. This technique is attempted in 24% of exchanges from this position.",
       "position": 4
     }
   ],
@@ -142,6 +142,54 @@ description: "Defend Headquarters Position from the bottom in BJJ. Guard recover
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Headquarters Position (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard Retention: When To Sit Up Escape",
+      "description": "Headquarters Position (Bottom) film study: Guard Retention: When To Sit Up Escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting Feet On Biceps Position",
+      "description": "Headquarters Position (Bottom) film study: Getting Feet On Biceps Position, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
+      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Around The Legs Guard Retention",
+      "description": "Headquarters Position (Bottom) film study: Around The Legs Guard Retention, taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynoR-AtSYUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynoR-AtSYUc",
+      "url": "https://www.youtube.com/watch?v=ynoR-AtSYUc",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT210S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -156,6 +204,42 @@ The bottom player's game from headquarters is built on hip mobility and timing r
 The defining feature of fighting from headquarters bottom is that the passer's strength — their reactive, multi-directional pressure — is also their exposure. Every time they commit weight forward to start a knee cut or step around for a leg drag, they momentarily load one direction, and that commitment is the window the bottom player exploits with a hook, a bridge, or an inversion. Patience and structure beat panic and grinding: hold skeletal frames, conserve grip, and launch your reversal or recovery precisely on the passer's weight transition rather than thrashing against a settled base. If recovery genuinely fails, retreating to a structured fallback such as deep half or knee shield half guard preserves the fight far better than being flattened and passed.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Headquarters Position (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard Retention: When To Sit Up Escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
+
+<p class="clip-credit"><strong>Getting Feet On Biceps Position</strong> — taught by Lachlan Giles · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynoR-AtSYUc)
+
+<p class="clip-credit"><strong>Around The Legs Guard Retention</strong> — taught by Absolute MMA St Kilda · 3:30 · <a href="https://www.youtube.com/watch?v=ynoR-AtSYUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

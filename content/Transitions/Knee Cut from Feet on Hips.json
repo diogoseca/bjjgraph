@@ -14,31 +14,49 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Feet on Hips Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "De La Riva Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The knee cut from feet on hips is a fundamental guard passing technique where the top player breaks through the bottom player's leg frames by clearing one foot off the hip and driving their knee diagonally across the bottom player's thigh line. This pass bridges the gap between the open guard distance management phase and close-range pressure passing, converting the feet-on-hips battle into half guard or side control where the passer's weight advantage becomes decisive. The technique rewards patience during the frame-breaking phase and explosive commitment once the cutting knee enters the gap.\n\nThe effectiveness of this pass depends on proper sequencing: establishing pants grips at the knees, systematically clearing one frame, and timing the knee cut entry before the bottom player can re-establish defensive structure or transition to a more controlling guard. Unlike the toreando pass which redirects both legs laterally, the knee cut commits the passer to a linear path through the guard, requiring crossface pressure and hip drive to prevent the bottom player from recovering position. The directional commitment makes grip fighting and frame control critical prerequisites.\n\nThis pass is particularly effective against opponents who rely heavily on feet-on-hips distance management without developing secondary guard layers such as De La Riva hooks or lasso controls. The knee cut forces a positional transition that many guard players are unprepared for, especially when combined with grip fighting that prevents the switch to spider guard or lasso guard. However, the linear commitment required means that a failed knee cut can expose the passer to guard recovery, De La Riva hook entries, or leg entanglement threats if the bottom player reads the pass early.",
   "variants_and_adaptations": [
     {
@@ -254,38 +272,138 @@
     "flashcards": [
       {
         "question": "What grips must you establish before attempting the knee cut from feet on hips?",
-        "answer": "You must secure bilateral pants grips at or just below both of the bottom player's knees before initiating any frame breaking or cutting movement. These grips neutralize the pushing power of the leg frames by compressing the knees toward your centerline and preventing the bottom player from generating full leg extension force. Without these grips, the bottom player retains the ability to push you away or re-establish frames at will."
+        "answer": "You must secure bilateral pants grips at or just below both of the bottom player's knees before initiating any frame breaking or cutting movement. These grips neutralize the pushing power of the leg frames by compressing the knees toward your centerline and preventing the bottom player from generating full leg extension force. Without these grips, the bottom player retains the ability to push you away or re-establish frames at will.",
+        "answer_line": "Bilateral pants grips at knees",
+        "distractors": {
+          "plausible": [
+            "Grip collar and sleeve first",
+            "Single grip on far knee"
+          ],
+          "trap": [
+            "Grip ankles, not knees"
+          ]
+        }
       },
       {
         "question": "Why should you break the near-side foot off the hip first rather than the far-side?",
-        "answer": "Breaking the near-side foot creates the shortest path for your cutting knee to enter the gap between the bottom player's legs. If you clear the far-side foot first, your knee must travel a longer distance across the bottom player's body to enter the gap, giving them more time to re-establish frames or transition to a different guard. The near-side clearance also allows you to immediately pin the cleared leg with your elbow or knee while maintaining control of the far-side foot."
+        "answer": "Breaking the near-side foot creates the shortest path for your cutting knee to enter the gap between the bottom player's legs. If you clear the far-side foot first, your knee must travel a longer distance across the bottom player's body to enter the gap, giving them more time to re-establish frames or transition to a different guard. The near-side clearance also allows you to immediately pin the cleared leg with your elbow or knee while maintaining control of the far-side foot.",
+        "answer_line": "Near foot first, shortest path",
+        "distractors": {
+          "plausible": [
+            "Far foot first, better angle",
+            "Break both feet at once"
+          ],
+          "trap": [
+            "Break far foot, leave near foot"
+          ]
+        }
       },
       {
         "question": "What angle should your cutting knee take as it passes through the guard?",
-        "answer": "Your cutting knee should travel at approximately a 45-degree diagonal angle aimed toward the bottom player's far hip, with your shin sliding across their upper thigh rather than driving straight down toward the mat. This diagonal angle maximizes lateral pressure against the guard and prevents your knee from getting caught in a knee shield position. Cutting straight down tends to stall against the bottom player's inside knee, while the diagonal path clears the thigh line more efficiently."
+        "answer": "Your cutting knee should travel at approximately a 45-degree diagonal angle aimed toward the bottom player's far hip, with your shin sliding across their upper thigh rather than driving straight down toward the mat. This diagonal angle maximizes lateral pressure against the guard and prevents your knee from getting caught in a knee shield position. Cutting straight down tends to stall against the bottom player's inside knee, while the diagonal path clears the thigh line more efficiently.",
+        "answer_line": "45° diagonal toward far hip",
+        "distractors": {
+          "plausible": [
+            "Straight down at the mat",
+            "Toward the near hip instead"
+          ],
+          "trap": [
+            "Drive knee into their tailbone"
+          ]
+        }
       },
       {
         "question": "Your opponent re-establishes their foot on your hip after you clear it—how do you respond?",
-        "answer": "Maintain your grip on their knee and immediately re-attempt the frame break with a sharper lateral angle, pushing their knee further to the side before clearing the foot. If the direct approach continues to fail, feint the knee cut to draw their defensive reaction on one side, then switch to a toreando pass or attack the opposite side. You can also change levels by dropping lower and driving your shoulder into their thigh to prevent the foot from finding your hip bone again."
+        "answer": "Maintain your grip on their knee and immediately re-attempt the frame break with a sharper lateral angle, pushing their knee further to the side before clearing the foot. If the direct approach continues to fail, feint the knee cut to draw their defensive reaction on one side, then switch to a toreando pass or attack the opposite side. You can also change levels by dropping lower and driving your shoulder into their thigh to prevent the foot from finding your hip bone again.",
+        "answer_line": "Regrip tighter, feint, then switch",
+        "distractors": {
+          "plausible": [
+            "Force same angle harder",
+            "Abandon pass, reset to standing"
+          ],
+          "trap": [
+            "Let go of knee grip to reset"
+          ]
+        }
       },
       {
         "question": "What is the role of the crossface during the knee cut execution?",
-        "answer": "The crossface serves as the primary upper body control that prevents the bottom player from turning toward the pass, framing against your shoulder, or inserting a De La Riva hook on the cutting leg. By driving your shoulder and forearm into the bottom player's jaw and neck, you fix their head position and eliminate their ability to create defensive angles. The crossface must be established simultaneously with or immediately after the knee enters the gap—delaying allows the bottom player to turn into the pass and recover guard."
+        "answer": "The crossface serves as the primary upper body control that prevents the bottom player from turning toward the pass, framing against your shoulder, or inserting a De La Riva hook on the cutting leg. By driving your shoulder and forearm into the bottom player's jaw and neck, you fix their head position and eliminate their ability to create defensive angles. The crossface must be established simultaneously with or immediately after the knee enters the gap—delaying allows the bottom player to turn into the pass and recover guard.",
+        "answer_line": "Crossface pins head, blocks turn",
+        "distractors": {
+          "plausible": [
+            "Controls far-side hip only",
+            "Secures far-arm underhook"
+          ],
+          "trap": [
+            "Free hand, grip pants only"
+          ]
+        }
       },
       {
         "question": "How does your weight distribution change as you transition from standing to the knee cut?",
-        "answer": "During the initial frame-breaking phase, your weight is distributed through your feet with a low athletic stance and slight forward lean into your grips. As the knee cut initiates, your weight transitions forward and downward—dropping from your base through your cutting knee and into your crossface shoulder. By the completion of the cut, approximately 70% of your weight should be driving forward through your chest, shoulder, and crossface into the bottom player, with your posted leg providing the remaining base stability."
+        "answer": "During the initial frame-breaking phase, your weight is distributed through your feet with a low athletic stance and slight forward lean into your grips. As the knee cut initiates, your weight transitions forward and downward—dropping from your base through your cutting knee and into your crossface shoulder. By the completion of the cut, approximately 70% of your weight should be driving forward through your chest, shoulder, and crossface into the bottom player, with your posted leg providing the remaining base stability.",
+        "answer_line": "70% weight forward through chest",
+        "distractors": {
+          "plausible": [
+            "Weight stays back on heels",
+            "Even split, light base leg"
+          ],
+          "trap": [
+            "All weight onto cutting knee"
+          ]
+        }
       },
       {
         "question": "The bottom player inserts a De La Riva hook on your cutting leg mid-pass—what adjustment do you make?",
-        "answer": "Immediately backstep your cutting leg to clear the DLR hook before it fully sets and the bottom player establishes grips. Circle your leg backward and away from the hook while driving your near-side knee to the mat to prevent re-insertion. If the hook is already deep, drive your knee to the mat inside their hook to flatten the DLR structure and transition to a smash pass or knee cut from the collapsed DLR position. Do not continue the original knee cut path with a DLR hook attached."
+        "answer": "Immediately backstep your cutting leg to clear the DLR hook before it fully sets and the bottom player establishes grips. Circle your leg backward and away from the hook while driving your near-side knee to the mat to prevent re-insertion. If the hook is already deep, drive your knee to the mat inside their hook to flatten the DLR structure and transition to a smash pass or knee cut from the collapsed DLR position. Do not continue the original knee cut path with a DLR hook attached.",
+        "answer_line": "Backstep leg, clear the hook",
+        "distractors": {
+          "plausible": [
+            "Push through original path",
+            "Pull knee straight to mat"
+          ],
+          "trap": [
+            "Continue original knee cut path"
+          ]
+        }
       },
       {
         "question": "When the knee cut stalls in half guard, what are your immediate priorities?",
-        "answer": "First, maintain the crossface to prevent the bottom player from turning on their side and establishing an underhook. Second, ensure your cutting shin is pinning their bottom leg and your weight is driving forward through your chest. Third, begin working to free your trapped foot by windshield-wipering your knee toward the mat or establishing an underhook on the far side. The transition from failed knee cut to half guard top should be seamless—consolidate the half guard position before attempting to extract the trapped leg and complete the pass."
+        "answer": "First, maintain the crossface to prevent the bottom player from turning on their side and establishing an underhook. Second, ensure your cutting shin is pinning their bottom leg and your weight is driving forward through your chest. Third, begin working to free your trapped foot by windshield-wipering your knee toward the mat or establishing an underhook on the far side. The transition from failed knee cut to half guard top should be seamless—consolidate the half guard position before attempting to extract the trapped leg and complete the pass.",
+        "answer_line": "Crossface, pin shin, free foot",
+        "distractors": {
+          "plausible": [
+            "Chase trapped foot first",
+            "Sit back and reset base"
+          ],
+          "trap": [
+            "Drop crossface for underhook"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The knee cut pass carries moderate risk to the bottom player's knee if the cutting knee drives laterally into a trapped or entangled leg. Avoid explosive lateral pressure on the bottom player's knee joint during the cutting motion. If the bottom player reports discomfort in their knee or hip during the pass, ease pressure immediately and allow them to adjust their leg position. Both practitioners should communicate about knee pressure, and the top player should use controlled, progressive weight application rather than sudden dropping of body weight onto the cutting knee."
+    "safety_considerations": "The knee cut pass carries moderate risk to the bottom player's knee if the cutting knee drives laterally into a trapped or entangled leg. Avoid explosive lateral pressure on the bottom player's knee joint during the cutting motion. If the bottom player reports discomfort in their knee or hip during the pass, ease pressure immediately and allow them to adjust their leg position. Both practitioners should communicate about knee pressure, and the top player should use controlled, progressive weight application rather than sudden dropping of body weight onto the cutting knee.",
+    "clips": [
+      {
+        "id": "YLPNsyHtREs",
+        "title": "Monitoring the feet when passing guard",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r6mfCS7MuOY",
+        "title": "Knee cut mechanics and live example",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "THE FLAWED CASUAL",
+        "duration": 141,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Cut from Feet on Hips Defender",
@@ -374,19 +492,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a knee cut is being attempted from feet on hips?",
-        "answer": "The earliest cue is when the top player secures bilateral pants grips at both of your knees and begins compressing your legs toward their centerline. This grip establishment is the foundation for all knee cut attempts from feet on hips—without these grips, the passer cannot effectively clear your frames. Recognizing this grip fight as the beginning of the passing sequence gives you the maximum time window to strip grips, fight for wrist control, or preemptively transition to a more controlling guard."
+        "answer": "The earliest cue is when the top player secures bilateral pants grips at both of your knees and begins compressing your legs toward their centerline. This grip establishment is the foundation for all knee cut attempts from feet on hips—without these grips, the passer cannot effectively clear your frames. Recognizing this grip fight as the beginning of the passing sequence gives you the maximum time window to strip grips, fight for wrist control, or preemptively transition to a more controlling guard.",
+        "answer_line": "Grips compress knees to center",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure on jaw",
+            "Foot broken off your hip"
+          ],
+          "trap": [
+            "Knee already through the gap"
+          ]
+        }
       },
       {
         "question": "Your opponent has broken one foot off their hip and is stepping their knee through—what is your highest-percentage defense?",
-        "answer": "Your highest-percentage defense at this stage is inserting a De La Riva hook on the cutting leg as it steps forward. Thread your near-side foot behind their knee before the knee crosses your thigh line, simultaneously gripping their far-side sleeve or ankle to prevent them from clearing the hook. This converts their forward stepping motion into vulnerability by entangling their base leg. If the DLR hook is not available due to angle, hip escape laterally and insert a knee shield to catch half guard with frames rather than being flattened."
+        "answer": "Your highest-percentage defense at this stage is inserting a De La Riva hook on the cutting leg as it steps forward. Thread your near-side foot behind their knee before the knee crosses your thigh line, simultaneously gripping their far-side sleeve or ankle to prevent them from clearing the hook. This converts their forward stepping motion into vulnerability by entangling their base leg. If the DLR hook is not available due to angle, hip escape laterally and insert a knee shield to catch half guard with frames rather than being flattened.",
+        "answer_line": "Insert DLR hook on cutting leg",
+        "distractors": {
+          "plausible": [
+            "Push away with both hands",
+            "Grab their far collar tight"
+          ],
+          "trap": [
+            "Turtle up to block the pass"
+          ]
+        }
       },
       {
         "question": "How does your hip positioning affect your ability to defend the knee cut from feet on hips?",
-        "answer": "Hip positioning is the single most critical factor in knee cut defense. Elevated, mobile hips allow you to hip escape laterally, create angles that extend the cutting distance, and transition between guard configurations as needed. Flat, static hips provide the passer with a stable target and eliminate your ability to redirect the pass or insert hooks. When a frame is cleared, immediately hip escape away from the cleared side—this single adjustment can double the distance the cutting knee must travel and opens windows for guard transitions that stationary hips cannot access."
+        "answer": "Hip positioning is the single most critical factor in knee cut defense. Elevated, mobile hips allow you to hip escape laterally, create angles that extend the cutting distance, and transition between guard configurations as needed. Flat, static hips provide the passer with a stable target and eliminate your ability to redirect the pass or insert hooks. When a frame is cleared, immediately hip escape away from the cleared side—this single adjustment can double the distance the cutting knee must travel and opens windows for guard transitions that stationary hips cannot access.",
+        "answer_line": "Elevated, mobile hips escape",
+        "distractors": {
+          "plausible": [
+            "Square hips face passer",
+            "Wide hips create space"
+          ],
+          "trap": [
+            "Flatten hips for stability"
+          ]
+        }
       },
       {
         "question": "Why is transitioning to a different guard often more effective than trying to re-establish feet on hips after a frame is broken?",
-        "answer": "Re-establishing the same frame requires fighting against the passer's established grip and forward momentum, which means you are working against their prepared position rather than creating a new defensive problem. Transitioning to De La Riva, closed guard, or knee shield changes the defensive dynamic entirely, forcing the passer to abandon their current passing sequence and address a new guard structure they may not have a prepared response for. Guard transitions also capitalize on the passer's forward commitment during the knee cut, using their momentum against them rather than directly opposing it."
+        "answer": "Re-establishing the same frame requires fighting against the passer's established grip and forward momentum, which means you are working against their prepared position rather than creating a new defensive problem. Transitioning to De La Riva, closed guard, or knee shield changes the defensive dynamic entirely, forcing the passer to abandon their current passing sequence and address a new guard structure they may not have a prepared response for. Guard transitions also capitalize on the passer's forward commitment during the knee cut, using their momentum against them rather than directly opposing it.",
+        "answer_line": "New guard beats re-fighting grip",
+        "distractors": {
+          "plausible": [
+            "Faster to reset original frame",
+            "Re-grip harder to regain feet"
+          ],
+          "trap": [
+            "Stall and turtle to reset"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -409,6 +567,35 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Defending knee cut and passing chains from feet on hips bottom",
         "description": "Full positional sparring starting from feet on hips bottom. Top player attempts to pass using knee cut and chain options with full resistance. Bottom player scores for guard retention, sweeps, or guard transitions to more controlling positions. Track success rates and refine defensive responses based on patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Da5PAZooedU",
+        "title": "Knee slice defense counter",
+        "by": "A Day In A Life",
+        "vertical": false,
+        "channel": "A DAY IN A LIFE",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BIFfZ3bK4ss",
+        "title": "Knee slide pass defense counter",
+        "by": "Alexander Miller",
+        "vertical": false,
+        "channel": "Alexander Miller",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rP8SOouke1s",
+        "title": "Guard retention response to the knee cut",
+        "by": "Cal McDonald",
+        "vertical": false,
+        "channel": "Cal McDonald",
+        "duration": 57,
+        "verified": "2026-07-15"
       }
     ]
   }
