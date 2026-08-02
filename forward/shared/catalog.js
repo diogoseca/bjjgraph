@@ -3,6 +3,7 @@ import {
   fallbackEntities,
   resolveEntityContext,
 } from "./fixtures.js";
+import { initCatalogRail } from "./catalog-rail.js";
 import { icon } from "./icons.js";
 
 export const devices = [
@@ -99,9 +100,12 @@ export async function mountCatalog({ kind, items, version }) {
         <a href="/dev/use-cases/">Use cases</a>
         <a href="/dev/user-journeys/">User journeys</a>
       </nav>
+      <button class="catalog-rail-toggle" type="button" aria-label="Browse ${kind}" aria-controls="catalog-rail" aria-expanded="false">${icon("menu", 17)}<span>Browse ${kind}</span></button>
       <span class="catalog-version">v${version} · dev only</span>
     </header>
-    <aside class="catalog-sidebar" aria-label="${kind} catalog">
+    <button class="catalog-rail-backdrop" type="button" aria-label="Close ${kind} browser" tabindex="-1"></button>
+    <aside class="catalog-sidebar catalog-rail" id="catalog-rail" aria-label="${kind} catalog">
+      <div class="catalog-rail-head"><div><b>${kind === "components" ? "Components" : "Screens"}</b><span>${items.length} browsable states</span></div><button class="catalog-rail-close" type="button" aria-label="Close ${kind} browser">${icon("close", 16)}</button></div>
       <div class="catalog-search"><label>${icon("search", 14)}<input type="search" placeholder="Filter ${kind}…" aria-label="Filter ${kind}" /></label></div>
       <div class="catalog-count"></div>
       <nav class="catalog-nav"></nav>
@@ -115,7 +119,6 @@ export async function mountCatalog({ kind, items, version }) {
           <div class="catalog-meta"></div>
         </div>
         <div class="catalog-controls">
-          <div class="control-row mobile-item-row"><span class="control-label">Item</span><select class="variant-select mobile-item-select" aria-label="Catalog item"></select></div>
           <div class="control-row"><span class="control-label">Node</span><select class="variant-select entity-select" aria-label="Preview node"></select><select class="variant-select role-select" aria-label="Preview role"></select></div>
           <div class="control-row"><span class="control-label">Viewport</span><div class="segment device-controls"></div></div>
           <div class="control-row"><span class="control-label">Variant</span><select class="variant-select" aria-label="Preview variant"></select><button class="catalog-action fullscreen-action" type="button">Full frame</button></div>
@@ -138,7 +141,6 @@ export async function mountCatalog({ kind, items, version }) {
     description: app.querySelector(".catalog-description"),
     meta: app.querySelector(".catalog-meta"),
     devices: app.querySelector(".device-controls"),
-    mobileItem: app.querySelector(".mobile-item-select"),
     entity: app.querySelector(".entity-select"),
     role: app.querySelector(".role-select"),
     variant: app.querySelector('[aria-label="Preview variant"]'),
@@ -148,7 +150,19 @@ export async function mountCatalog({ kind, items, version }) {
     preview: app.querySelector(".forward-preview"),
     size: app.querySelector(".preview-size"),
     notes: app.querySelector(".catalog-note"),
+    rail: app.querySelector("#catalog-rail"),
+    railToggle: app.querySelector(".catalog-rail-toggle"),
+    railClose: app.querySelector(".catalog-rail-close"),
+    railBackdrop: app.querySelector(".catalog-rail-backdrop"),
   };
+
+  initCatalogRail({
+    rail: refs.rail,
+    toggle: refs.railToggle,
+    close: refs.railClose,
+    backdrop: refs.railBackdrop,
+    nav: refs.nav,
+  });
 
   function selected() {
     return items.find((entry) => entry.id === state.selectedId) || items[0];
@@ -301,15 +315,11 @@ export async function mountCatalog({ kind, items, version }) {
           `<option ${variant === state.variant ? "selected" : ""}>${variant}</option>`,
       )
       .join("");
-    refs.mobileItem.innerHTML = items
-      .map(
-        (item) =>
-          `<option value="${item.id}" ${item.id === entry.id ? "selected" : ""}>${item.group} · ${item.title}</option>`,
-      )
-      .join("");
     refs.preview.innerHTML = entry.render(state.variant, context);
+    const production = entry.production;
     refs.notes.innerHTML = `
-      <article class="note-card"><b>Source of truth</b><span>${entry.notes.source}</span></article>
+      <article class="note-card production-provenance" data-production-classification="${production.classification}"><b>${production.classification === "runtime" ? "Production runtime source" : "Output-only source"}</b><span>${production.files.join("<br>")}<br><strong>${production.symbols.join(" · ")}</strong><br><code>${production.handles.join(" · ")}</code></span></article>
+      <article class="note-card"><b>Fixture source</b><span>${entry.notes.source}</span></article>
       <article class="note-card"><b>Behavior contract</b><span>${entry.notes.behavior}</span></article>
       <article class="note-card"><b>Used in</b><span>${entry.notes.usage}. ${categoryNotes[entry.group] || ""}</span></article>`;
     renderNavigation();
@@ -340,12 +350,6 @@ export async function mountCatalog({ kind, items, version }) {
     renderDevices();
     writeHash();
     requestAnimationFrame(sizeFrame);
-  });
-
-  refs.mobileItem.addEventListener("change", (event) => {
-    state.selectedId = event.target.value;
-    state.variant = "";
-    renderSelection({ allowPreferredDevice: true });
   });
 
   refs.variant.addEventListener("change", (event) => {

@@ -30,12 +30,28 @@ test.describe("Forward Components development library @curated", () => {
     );
 
     await page.setViewportSize({ width: 600, height: 900 });
-    await expect(page.locator(".catalog-sidebar")).toBeHidden();
-    await expect(page.locator(".mobile-item-select")).toBeVisible();
-    await page.locator(".mobile-item-select").selectOption("dossier-seo");
+    await expect(page.locator(".catalog-sidebar")).toHaveAttribute(
+      "aria-hidden",
+      "true",
+    );
+    await expect(page.locator(".mobile-item-select")).toHaveCount(0);
+    await page.getByRole("button", { name: /Browse components/ }).click();
+    await expect(page.locator(".catalog-sidebar")).toHaveAttribute(
+      "data-open",
+      "true",
+    );
+    await page
+      .getByRole("button", { name: "Node dossier · SEO / AI output only" })
+      .click();
     await expect(
-      page.getByRole("heading", { name: "Node dossier · SEO / AI" }),
+      page.getByRole("heading", {
+        name: "Node dossier · SEO / AI output only",
+      }),
     ).toBeVisible();
+    await expect(page.locator(".catalog-sidebar")).toHaveAttribute(
+      "data-open",
+      "false",
+    );
   });
 
   test("screens enumerate gameplay states and protect the constrained mobile hand", async ({
@@ -143,8 +159,8 @@ test.describe("Forward Components development library @curated", () => {
       .selectOption("transition:waiter-sweep");
     await page.getByLabel("Preview role").selectOption("defender");
 
-    await expect(page.locator(".detail-sheet")).toContainText("Waiter Sweep");
-    await expect(page.locator(".detail-sheet")).toContainText("DEFENDER");
+    await expect(page.locator(".ng-dossier")).toContainText("Waiter Sweep");
+    await expect(page.locator(".ng-dossier")).toContainText("Defender");
   });
 
   test("pane, restart, terminal, and progression compositions are explicit", async ({
@@ -162,9 +178,10 @@ test.describe("Forward Components development library @curated", () => {
     await page
       .getByRole("button", { name: "Restart · defense disarmed" })
       .click();
-    await expect(
-      page.getByRole("dialog", { name: "Restart roll" }),
-    ).toContainText("Clearing the exchange");
+    await expect(page.getByRole("dialog")).toHaveCount(0);
+    await expect(page.locator(".restart-card")).toContainText(
+      "Restarting the roll",
+    );
     await expect(page.locator(".panic-card")).toHaveCount(0);
     await expect(page.locator(".vignette")).toHaveCount(0);
 
@@ -183,6 +200,27 @@ test.describe("Forward Components development library @curated", () => {
       page.locator(".track-card[data-complete='true']"),
     ).toHaveCount(1);
     await expect(page.locator(".track-card:disabled")).toHaveCount(0);
+
+    await page
+      .getByRole("button", { name: "Account · Flashcards home" })
+      .click();
+    await expect(page.getByLabel("Flashcards pane")).toBeVisible();
+    await expect(page.locator(".ng-account-menu")).toHaveCount(0);
+
+    await page
+      .getByRole("button", { name: "Progress · tested demotion" })
+      .click();
+    await expect(page.locator(".ng-explorer [data-score-row]")).toBeVisible();
+    await expect(page.locator(".progress-center")).toHaveCount(0);
+
+    await page.getByRole("button", { name: "Dossier · expanded" }).click();
+    await page
+      .getByLabel("Preview node")
+      .selectOption("transition:waiter-sweep");
+    await expect(page.locator(".ng-dossier")).toHaveAttribute(
+      "data-dossier-shape",
+      "transition",
+    );
 
     await page.setViewportSize({ width: 600, height: 900 });
     await expect(page.getByLabel("Preview node")).toBeVisible();
@@ -409,10 +447,11 @@ test.describe("Forward Components development library @curated", () => {
     await expect(page).toHaveURL(/role=attacker/);
 
     await page.setViewportSize({ width: 600, height: 900 });
-    await expect(page.getByLabel("Preview user journey")).toBeVisible();
+    await expect(page.getByLabel("Preview user journey")).toHaveCount(0);
+    await page.getByRole("button", { name: /Browse User journeys/ }).click();
     await page
-      .getByLabel("Preview user journey")
-      .selectOption("study-to-capstone");
+      .getByRole("button", { name: /Study to challenge capstone/ })
+      .click();
     await expect(
       page.getByRole("heading", { name: "Study to challenge capstone" }),
     ).toBeVisible();
@@ -508,6 +547,31 @@ test.describe("Forward Components development library @curated", () => {
     await expect(page.locator(".sequence-position")).toContainText("4 / 7");
   });
 
+  test("all four libraries keep the browsable rail on narrow viewports", async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 600, height: 900 });
+    for (const route of [
+      "components",
+      "screens",
+      "use-cases",
+      "user-journeys",
+    ]) {
+      await page.goto(`/dev/${route}/`);
+      const rail = page.locator("#catalog-rail");
+      const toggle = page.locator(".catalog-rail-toggle");
+      await expect(rail).toHaveCount(1);
+      await expect(rail).toHaveAttribute("aria-hidden", "true");
+      await expect(toggle).toBeVisible();
+      await toggle.click();
+      await expect(rail).toHaveAttribute("data-open", "true");
+      expect(await rail.locator(".catalog-item").count()).toBeGreaterThan(0);
+      await page.keyboard.press("Escape");
+      await expect(rail).toHaveAttribute("data-open", "false");
+      await expect(toggle).toBeFocused();
+    }
+  });
+
   test("every registered preview renders without a runtime error", async ({
     page,
   }) => {
@@ -529,6 +593,10 @@ test.describe("Forward Components development library @curated", () => {
           await page.locator(".forward-preview > *").count(),
           `${route}/${id} did not render a preview root`,
         ).toBeGreaterThan(0);
+        await expect(page.locator(".production-provenance")).toHaveAttribute(
+          "data-production-classification",
+          /runtime|output-only/,
+        );
       }
     }
 

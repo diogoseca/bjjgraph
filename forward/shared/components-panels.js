@@ -4,61 +4,104 @@ import {
   history,
   matCoins,
   patches,
-  settings,
 } from "./fixtures.js";
-import { filmStrip, odds, questionBlock } from "./components-core.js";
+import { filmStrip, questionBlock } from "./components-core.js";
 import { icon } from "./icons.js";
+import { escapeHtml } from "./utils.js";
+
+function progress(value) {
+  return `<div class="progress"><span style="--progress:${value}%"></span></div>`;
+}
 
 export function flashcard(
   { state = "question", mode = "classic" } = {},
   context = defaultContext,
 ) {
-  return `<article class="flashcard" data-state="${state}">
-    <small>${mode === "multiple-choice" ? "Recognition · Multiple choice" : "Recall · Classic"}</small>
-    <p>${context.question.prompt}</p>
-    ${state === "revealed" ? `<div class="flashcard-answer">${context.question.answer}</div>` : ""}
-    ${mode === "multiple-choice" ? questionBlock({ data: context.question, visibleAnswers: 3 }) : ""}
+  const revealed = state === "revealed";
+  const multipleChoice = mode === "multiple-choice";
+  return `<article class="flashcard ng-flashcard" data-drill-card data-production-selector="[data-drill-card]">
+    <div class="flashcard-meta"><span>${escapeHtml(context.name)}</span><small>Card 2 of 8</small></div>
+    ${progress(25)}
+    <p class="flashcard-question">${escapeHtml(context.question.prompt)}</p>
+    ${
+      multipleChoice
+        ? questionBlock({
+            state: state === "correct" ? "correct" : "unanswered",
+            question: context.question,
+            compact: true,
+          })
+        : revealed
+          ? `<div class="flashcard-answer"><small>Answer</small><p>${escapeHtml(context.question.answer || context.question.answers[context.question.correct])}</p></div>`
+          : '<button class="primary-action" type="button" data-reveal>Reveal answer</button>'
+    }
+    ${
+      revealed
+        ? '<div class="flashcard-actions"><button type="button">Review again</button><button class="primary-action" type="button">Got it</button></div>'
+        : ""
+    }
+    <footer><span>&larr;&rarr; card</span><span>space flip</span></footer>
   </article>`;
 }
 
-export function drillPanel({ state = "home" } = {}, context = defaultContext) {
-  let body = "";
-  if (state === "study")
-    body = `${flashcard({}, context)}<div class="progress"><span style="--progress:40%"></span></div>`;
-  else if (state === "revealed")
-    body = `${flashcard({ state: "revealed" }, context)}<div class="detail-actions"><span class="pill">Again</span><span class="pill">Hard</span><span class="pill pill--primary">Easy</span></div>`;
-  else if (state === "multiple-choice")
-    body = flashcard({ mode: "multiple-choice" }, context);
-  else if (state === "history")
-    body = history
+function drillHome() {
+  return `<div class="drill-home" data-drill-home>
+    <button class="drill-auth ngHdrAuth" type="button"><b>Create account or log in</b><span>Save your rolls &amp; progress</span></button>
+    <section class="drill-progress"><div><small>Your game</small><strong>38%</strong></div>${progress(38)}<p><span><b>8</b> mastered</span><span><b>2</b> today</span><span class="is-weak"><b>30+</b> weak spots</span></p></section>
+    <section class="drill-section roll-history"><header><b>Roll history</b><button type="button">View all</button></header>${history
+      .slice(0, 2)
       .map(
-        (item) =>
-          `<div class="history-row"><b>${item.title}</b><p>${item.result} · ${item.delta} · ${item.time}</p></div>`,
+        (entry) =>
+          `<button class="history-row" type="button"><span><b>${escapeHtml(entry.title)}</b><small>${entry.time}</small></span><strong class="${entry.result === "Won" ? "is-good" : "is-bad"}">${entry.result} ${entry.delta}</strong></button>`,
       )
-      .join("");
-  else if (state === "complete")
-    body =
-      '<div class="system-state"><b>Session complete</b><h3>8 cards trained</h3><p>Three techniques moved closer to recall-proven.</p></div>';
-  else
-    body = `<div class="detail-section"><small>Due now</small><p>5 cards across 3 techniques</p></div>
-      <div class="detail-section"><small>Suggested</small><p>${context.name} · 4 unseen cards</p></div>
-      <div class="detail-section"><small>Recently explored</small><p>${context.outcomes.slice(0, 2).join(" · ")}</p></div>`;
-  return `<aside class="side-panel" aria-label="Flashcards pane">
-    <div class="panel-head"><small>FLASHCARDS</small><b>${state === "history" ? "Roll history" : state === "complete" ? "Nice work" : context.name}</b></div>
-    <div class="panel-body">${body}</div>
-    <div class="panel-foot"><div class="progress"><span style="--progress:${state === "complete" ? 100 : 48}%"></span></div></div>
+      .join("")}</section>
+    <section class="drill-section"><header><b>Study</b><span>Today</span></header>
+      <button class="study-session primary-action" type="button"><span><b>Continue today</b><small>22 cards left to win gold</small></span><span>${icon("play", 14)}</span></button>
+      <button class="study-session" type="button"><span><b>Weak spots in your game</b><small>Suggested from recent rolls</small></span><span>${icon("chevron-right", 14)}</span></button>
+    </section>
+  </div>`;
+}
+
+export function drillPanel({ state = "home" } = {}, context = defaultContext) {
+  const body =
+    state === "home"
+      ? drillHome()
+      : state === "history"
+        ? `<div class="drill-history"><h3>Roll history</h3>${history
+            .map(
+              (entry) =>
+                `<div class="history-row"><span><b>${escapeHtml(entry.title)}</b><small>${entry.time}</small></span><strong>${entry.result} ${entry.delta}</strong></div>`,
+            )
+            .join("")}</div>`
+        : state === "complete"
+          ? '<div class="drill-complete"><span>✓</span><h3>Session complete</h3><p>8 cards reviewed. Your roll odds now reflect the work.</p><button class="primary-action" type="button">Back to study</button></div>'
+          : flashcard(
+              {
+                state: state === "revealed" ? "revealed" : "question",
+                mode:
+                  state === "multiple-choice" ? "multiple-choice" : "classic",
+              },
+              context,
+            );
+  return `<aside class="side-panel right side-panel--right ng-drill" aria-label="Flashcards pane" data-production-selector=".ng-drill" data-drill-state="${state}">
+    <header class="drill-pane-head"><button class="ngClose" type="button" aria-label="Collapse Flashcards">${icon("panel", 16)}</button><button class="ngGear" type="button" aria-label="Settings">${icon("gear", 15)}</button></header>
+    <div class="ng-panel-scroll">${body}</div>
   </aside>`;
 }
 
 export function crownBadge({ level = 2, locked = false } = {}) {
-  const safeLevel = Math.max(0, Math.min(4, level));
-  return `<span class="crown-badge" data-level="${safeLevel}" ${locked ? 'data-locked="true"' : ""} aria-label="Crown level ${safeLevel} of 4"><i style="--crown:${safeLevel * 25}%"></i><b>${safeLevel === 4 ? "★" : safeLevel}</b></span>`;
+  const progressValue = Math.max(0, Math.min(4, level)) * 25;
+  return `<span class="crown-badge" data-crown="${locked ? "locked" : level}" style="--crown-progress:${progressValue}%"><i>${locked ? icon("lock", 11) : level === 4 ? "★" : level}</i></span>`;
 }
 
 export function proofStripes({ filled = 2, belt = "blue" } = {}) {
-  return `<div class="proof-stripes" data-belt="${belt}" aria-label="${filled} of 4 ${belt} belt proof stripes">
-    ${[0, 1, 2, 3].map((index) => `<i ${index < filled ? 'data-filled="true"' : ""}></i>`).join("")}
-  </div>`;
+  return `<div class="proof-stripes" data-stripes data-belt="${belt}" aria-label="${filled} of 4 proof stripes">${[
+    0, 1, 2, 3,
+  ]
+    .map(
+      (index) =>
+        `<i class="${index < filled ? "is-filled" : ""}" data-filled="${index < filled}"></i>`,
+    )
+    .join("")}</div>`;
 }
 
 export function beltMeter({ score = 52, belt = "blue" } = {}) {
@@ -69,11 +112,25 @@ export function beltMeter({ score = 52, belt = "blue" } = {}) {
     ["brown", 70],
     ["black", 80],
   ];
-  return `<div class="belt-meter" aria-label="Game knowledge ${score}%">
-    <div class="belt-track" data-belt="${belt}"><span class="belt-fill" style="--score:${score}%"></span><i class="belt-you" style="--score:${score}%"></i>
-      ${thresholds.map(([name, threshold]) => `<em style="--threshold:${threshold}%;" data-met="${score >= threshold}"></em>`).join("")}
+  return `<div class="belt-meter" data-score-row data-production-selector="[data-belt-track]">
+    <div class="belt-track" data-belt-track="${belt === "black" ? "black" : "normal"}">
+      <i class="belt-fill" data-belt-fill="${belt}" style="height:${score}%"></i>
+      ${thresholds
+        .map(
+          ([id, threshold]) =>
+            `<span class="belt-mark" data-belt-mark="${id}" data-met="${score >= threshold}" style="bottom:${threshold}%"></span>`,
+        )
+        .join("")}
+      <span class="you-are-here" data-you-are-here style="bottom:${score}%"></span>
     </div>
-    <div class="belt-scale">${thresholds.map(([name]) => `<span>${name}</span>`).join("")}</div>
+    <div class="belt-labels"><div class="belt-score"><strong>${score.toFixed(1)}%</strong><span>Game knowledge</span></div>${thresholds
+      .slice()
+      .reverse()
+      .map(
+        ([id, threshold]) =>
+          `<span data-belt-label="${id}" data-met="${score >= threshold}" style="bottom:${threshold}%">${id} · ${threshold}%</span>`,
+      )
+      .join("")}</div>
   </div>`;
 }
 
@@ -215,106 +272,76 @@ export function masteryOverview(
   { mode = "category" } = {},
   context = defaultContext,
 ) {
-  const rows =
-    mode === "technique"
-      ? [
-          [context.name, 67, "Recognition"],
-          [context.outcomes[0] || "Primary outcome", 42, "Learning"],
-          [context.outcomes[1] || "Next connection", 18, "New"],
-        ]
-      : [
-          ["Positions", 72, "Blue"],
-          ["Transitions", 54, "Blue"],
-          ["Submissions", 31, "White"],
-          ["Principles", 63, "Purple"],
-        ];
-  return `<section class="mastery-overview" aria-label="${mode} mastery">
-    ${rows
-      .map(
-        ([name, progress, status]) => `<div class="mastery-row">
-          <div><b>${name}</b><small>${status} · ${progress}%</small></div>
-          <div class="progress"><span style="--progress:${progress}%"></span></div>
-        </div>`,
-      )
-      .join("")}
-  </section>`;
+  if (mode === "technique") {
+    return `<section class="mastery-overview" data-lesson="selected" aria-label="${escapeHtml(context.name)} mastery"><small>SELECTED LESSON</small><div class="knowledge-lesson">${crownBadge({ level: 3 })}<span><b>${escapeHtml(context.name)}</b><small>${escapeHtml(context.roleLabel)} · 67% recall mastery</small></span><span>${icon("chevron-right", 13)}</span></div></section>`;
+  }
+  return `<section class="mastery-overview" data-score-row data-production-selector="[data-score-row]" aria-label="Game Knowledge"><small>GAME KNOWLEDGE</small><div class="knowledge-score"><strong>38%</strong><span>Tested recall</span></div>${progress(38)}<p>One evidence-based score. Challenge tracks label content difficulty.</p></section>`;
 }
 
 export function progressPanel(
   { mode = "overview", state = "default" } = {},
   context = defaultContext,
 ) {
-  const demoted = state === "demoted";
-  return `<aside class="side-panel side-panel--left" aria-label="Progress">
-    <div class="panel-head"><small>PROGRESS · ${mode.toUpperCase()}</small><b>${mode === "technique" ? context.name : "Your game"}</b></div>
-    <div class="panel-body">
-      <div class="detail-section"><small>GAME KNOWLEDGE</small><p>${demoted ? "43% · Blue belt · 1 stripe" : "52% · Blue belt · 2 stripes"}</p>${beltMeter({ score: demoted ? 43 : 52 })}${proofStripes({ filled: demoted ? 1 : 2 })}</div>
+  const score = state === "demoted" ? 34 : 38;
+  return `<aside class="side-panel left side-panel--left ng-explorer progress-panel" aria-label="Game Knowledge detail">
+    ${gameKnowledgeHeader({ score, belt: score < 35 ? "White" : "Blue" })}
+    ${learningNav("challenges")}
+    <div class="panel-body ng-panel-scroll">
       ${masteryOverview({ mode: mode === "technique" ? "technique" : "category" }, context)}
     </div>
   </aside>`;
 }
 
-export function restartCard(
-  { state = "confirm" } = {},
-  context = defaultContext,
-) {
-  const restarting = state === "restarting";
-  return `<div class="modal-layer"><section class="modal-card restart-card" role="dialog" aria-modal="true" aria-label="Restart roll">
-    <small style="color:#789fff;font-weight:800">${restarting ? "NEW ROLL" : "RESTART"}</small>
-    <h2 style="margin-top:8px">${restarting ? "Clearing the exchange…" : "Restart this roll?"}</h2>
-    <p>${restarting ? "Decision, defense, sweep, and momentum state are disarmed. Belt progress is preserved." : `${context.name} · ${context.roleLabel} is the current state. Training progress will not be reset.`}</p>
-    <div class="detail-actions">${restarting ? '<span class="pill pill--primary">Starting fresh</span>' : '<span class="pill">Keep rolling</span><span class="pill pill--primary">Restart roll</span>'}</div>
-  </section></div>`;
-}
-
-export function progressNudge({ type = "saved" } = {}) {
-  const belt = type === "demoted";
-  return `<section class="progress-nudge" role="status">
-    <small>${belt ? "KNOWLEDGE UPDATED" : "PROGRESS SAVED"}</small>
-    <b>${belt ? "Blue belt · 1 stripe" : "Keep building your game"}</b>
-    <p>${belt ? "A missed recall lowered proof. Nothing decays with time." : "Open Flashcards when you choose; the roll stays live."}</p>
-  </section>`;
-}
-
-export function explorerPanel({ mode = "tree", query = "" } = {}) {
+export function explorerPanel({
+  mode = "tree",
+  query = "",
+  ruleset = "gi",
+} = {}) {
   if (mode === "challenges") return challengesPanel();
   if (mode === "collection") return collectionPanel();
-  const rows = [
-    "Positions",
-    "Transitions",
-    "Submissions",
-    "Principles",
-    "Systems",
-    "Learning",
+  const treeGroups = [
+    ["Systems", ["Leg Lock System", "Back Attack System", "Pressure Passing"]],
+    ["Principles", ["Frames & posture", "Base & connection", "Hip movement"]],
+    ["Positions", ["Closed Guard", "Half Guard", "Mount", "Back Control"]],
+    ["Transitions", ["Knee Slice Pass", "Waiter Sweep", "Technical Stand-up"]],
+    ["Submissions", ["Armbar", "Triangle Choke", "Rear Naked Choke"]],
   ];
-  return `<aside class="side-panel side-panel--left" aria-label="Explorer tree">
-    <div class="panel-head"><small>EXPLORE · TREE</small><b>${query ? `Results for “${query}”` : "Browse the graph"}</b></div>
-    <div class="panel-body">
-      ${rows
-        .map(
-          (row, index) =>
-            `<div class="lesson-row"><div style="display:flex;justify-content:space-between"><b>${row}</b><span>${index * 217 + 48}</span></div></div>`,
-        )
-        .join("")}
+  return `<aside class="side-panel left side-panel--left ng-explorer" aria-label="Explorer pane" data-production-selector=".ng-explorer" data-explorer-mode="tree">
+    <div class="explorer-controls">
+      ${learningNav("explore")}
+      <div class="segmented ruleset" role="group" aria-label="Ruleset"><button type="button" aria-pressed="${ruleset === "gi"}">GI</button><button type="button" aria-pressed="${ruleset !== "gi"}">NO-GI</button></div>
     </div>
+    <div class="explorer-search-row"><label class="explorer-search">${icon("search", 13)}<input data-explorer-search type="search" value="${escapeHtml(query)}" placeholder="Search techniques..." aria-label="Search graph" /></label><button type="button" aria-label="Close Explorer">${icon("close", 14)}</button></div>
+    <div class="ng-panel-scroll"><div class="explorer-tree">${treeGroups
+      .map(
+        ([title, rows]) =>
+          `<section><header><span>${title}</span><small>${rows.length}</small></header>${rows
+            .filter(
+              (row) => !query || row.toLowerCase().includes(query.toLowerCase()),
+            )
+            .map(
+              (row, index) =>
+                `<button type="button"><span class="tree-shape tree-shape--${title.toLowerCase()}"></span><span><b>${row}</b><small>${index + 3}</small></span>${icon("chevron-right", 12)}</button>`,
+            )
+            .join("")}</section>`,
+      )
+      .join("")}</div></div>
   </aside>`;
 }
 
 export function optionSheet(
-  { state = "collapsed" } = {},
+  { state = "collapsed", expanded = false, drilling = false } = {},
   context = defaultContext,
 ) {
-  const expanded = state === "expanded" || state === "confirm";
-  const technique = context.techniques[0];
-  return `<section class="option-sheet" aria-label="Technique detail">
-    <div class="sheet-head"><div><small>${technique.eyebrow.toUpperCase()} · ${context.roleLabel.toUpperCase()}</small><h3>${technique.name}</h3></div>${odds(technique.odds)}</div>
-    ${filmStrip({}, context)}
-    <div class="sheet-grid">
-      <div class="detail-section"><small>WHY IT WORKS</small><p>${context.principles[0]}</p></div>
-      <div class="detail-section"><small>WATCH FOR</small><p>${context.defense[0]}</p></div>
-      ${expanded ? `<div class="detail-section"><small>KEY MECHANIC</small><p>${context.principles.slice(1).join(" ") || context.context}</p></div><div class="detail-section"><small>CHAIN</small><p>${context.outcomes.slice(0, 3).join(" → ")}</p></div>` : ""}
-    </div>
-    <div class="detail-actions"><span class="pill">${expanded ? "Less" : "More details"}</span><span class="pill pill--primary">${state === "confirm" ? "Confirm play" : "Drill first"}</span></div>
+  const open = expanded || state !== "collapsed";
+  const confirm = state === "confirm";
+  return `<section class="option-sheet ng-optdetail" data-production-selector=".ng-optdetail" data-sheet-state="${state}">
+    <div class="sheet-grabber"></div>
+    <header><div><small>${escapeHtml(context.type)} · ${escapeHtml(context.origin)}</small><h2>${escapeHtml(context.name)}</h2></div><button type="button" aria-label="Close technique detail">${icon("close", 14)}</button></header>
+    <div class="sheet-role-tabs" role="tablist"><button type="button" role="tab" aria-selected="true" data-detail-role="attacker">Attacker</button><button type="button" role="tab" aria-selected="false" data-detail-role="defender">Defend</button></div>
+    <div class="sheet-stats"><div><span>Edge</span><b>+18</b></div><div><span>Success</span><b>${context.successRate || 46}%</b></div><button class="primary-action" type="button" data-play-here>${icon("play", 13)} Play from here</button></div>
+    ${open ? `<div class="sheet-body"><p>${escapeHtml(context.definition)}</p>${filmStrip({ compact: true, clips: context.clips })}<section class="jit-drill"><small>${drilling ? "JIT DRILL ACTIVE" : "BUY BETTER ODDS"}</small><b>${escapeHtml(context.question.prompt)}</b><button type="button">${drilling ? "Reveal answer" : "Drill before committing"}</button></section><div class="sheet-principles">${context.principles.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div></div>` : ""}
+    <footer><button type="button">${confirm ? "Commit this move" : open ? "Commit" : "Open move sheet"}</button></footer>
   </section>`;
 }
 
@@ -324,77 +351,120 @@ export function dossier(
 ) {
   const expanded = variant === "expanded";
   const seo = variant === "seo";
-  return `<section class="detail-sheet" ${mobile ? 'data-mobile="true"' : ""} aria-label="${context.name} dossier">
-    <small style="color:#789fff;font-weight:800">${context.type.toUpperCase()} · ${context.roleLabel.toUpperCase()}</small>
-    <h2>${context.name}</h2>
-    <p>${seo ? context.seo : context.definition}</p>
-    <div class="detail-actions"><span class="pill pill--primary">Roll from here</span>${context.availableRoles.map((role) => `<span class="pill ${role === context.role ? "pill--primary" : ""}">${role.charAt(0).toUpperCase() + role.slice(1)}</span>`).join("")}</div>
-    ${filmStrip({}, context)}
-    <div class="detail-section"><small>${seo ? "SEO / AI DEFINITION" : "CONTEXT"}</small><p>${seo ? context.context : context.principles[0]}</p></div>
-    ${
-      expanded || seo
-        ? `<div class="detail-section"><small>KEY PRINCIPLES</small><p>${context.principles.join(" ")}</p></div>
-           <div class="detail-section"><small>DEFENSIVE RESPONSE</small><p>${context.defense.join(" ")}</p></div>
-           <div class="detail-section"><small>LIKELY OUTCOMES</small><p>${context.outcomes.join(" · ")}</p></div>`
-        : ""
-    }
-    <div class="detail-actions"><span class="pill">${expanded || seo ? "Collapse" : "More details"}</span></div>
-  </section>`;
+  if (seo) {
+    return `<article class="seo-dossier" data-output-only="true" data-production-selector="article"><small>OUTPUT ONLY · SEO / AI PROJECTION</small><h1>${escapeHtml(context.name)}: ${escapeHtml(context.roleLabel)} guide</h1><p>${escapeHtml(context.seo)}</p><h2>What matters first?</h2><p>${escapeHtml(context.context)}</p><h2>Key principles</h2><ul>${context.principles.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul></article>`;
+  }
+  const shape = context.type.toLowerCase();
+  const clips = (context.clips || []).slice(0, expanded ? 3 : 2);
+  const attacks = (context.techniques || []).slice(0, 4);
+  return `<article class="dossier ng-dossier dossier--${shape} ${mobile ? "ng-mobile-dossier is-mobile" : "is-node-mode"}" data-production-handle="${mobile ? "dossierSheetRef" : "dossierRef"}" data-dossier-shape="${shape}" data-dossier-state="${expanded ? "expanded" : "collapsed"}">
+    ${mobile ? `<nav class="dossier-mobile-nav"><button type="button">‹ All techniques</button><button type="button" aria-label="Close dossier">${icon("close", 14)}</button></nav>` : ""}
+    <div class="dossier-content">
+      <div class="dossier-eyebrow"><span class="tree-shape tree-shape--${shape}s"></span><small>${escapeHtml(context.type)}${context.origin ? ` · ${escapeHtml(context.origin)}` : ""}</small></div>
+      <header><h2>${escapeHtml(context.name)}</h2><span data-dossier-role>${escapeHtml(context.roleLabel)}</span>${mobile ? "" : '<button type="button" aria-label="Close dossier">' + icon("close", 14) + "</button>"}</header>
+      <div class="dossier-tabs" role="tablist"><button type="button" role="tab" aria-selected="true">Overview</button>${clips.length ? '<button type="button" role="tab">Film</button>' : ""}<button type="button" role="tab">Principles</button>${attacks.length ? '<button type="button" role="tab">Attacks</button>' : ""}</div>
+      <p>${escapeHtml(context.definition)}</p>
+      ${clips.length ? `<div class="dossier-film" data-ds="film">${clips.map((clip, index) => `<button type="button" aria-label="Play ${escapeHtml(clip.title)}"><span class="dossier-thumb dossier-thumb--${index + 1}">${icon("play", 13)}</span><small>${escapeHtml(clip.title)}</small></button>`).join("")}</div>` : ""}
+      ${
+        expanded
+          ? `<section data-ds="pr"><small>ESSENTIAL PRINCIPLES</small><ul>${context.principles.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul></section>${attacks.length ? `<section data-ds="at"><small>ATTACKS FROM HERE</small><div class="dossier-attacks">${attacks.map((item) => `<button type="button">${escapeHtml(item.name)} · ${item.odds}%</button>`).join("")}</div></section>` : ""}<section data-ds="df"><small>DEFENCE</small><ul>${context.defense
+              .slice(0, 3)
+              .map((item) => `<li>${escapeHtml(item)}</li>`)
+              .join("")}</ul></section>`
+          : ""
+      }
+      <button class="dossier-roll" type="button"><span>${icon("play", 12)}</span><span><b>Roll from here</b><small>make this the current state</small></span><i>→</i></button>
+    </div>
+  </article>`;
+}
+
+function settingChoices(label, detail, choices, selected = 0, note = "") {
+  return `<div class="setting-choice" data-setting-row><b>${escapeHtml(label)}</b><small>${escapeHtml(detail)}</small><div class="setting-pills">${choices.map((choice, index) => `<button type="button" aria-pressed="${index === selected}">${escapeHtml(choice)}</button>`).join("")}</div>${note ? `<p>${note}</p>` : ""}</div>`;
+}
+
+function settingToggle(label, detail) {
+  return `<div class="setting-row" data-setting-row><span><b>${escapeHtml(label)}</b><small>${escapeHtml(detail)}</small></span><button class="setting-check" type="button" aria-pressed="true">✓</button></div>`;
 }
 
 export function settingsModal({ tab = "Flashcards" } = {}) {
-  const rows = settings[tab] || settings.Flashcards;
-  return `<div class="modal-layer"><section class="modal-card" role="dialog" aria-modal="true" aria-label="${tab} settings">
-    <div style="display:flex;justify-content:space-between;align-items:center"><h2>Settings</h2><span>${icon("close", 16)}</span></div>
-    <div class="detail-actions">${Object.keys(settings)
-      .map(
-        (name) =>
-          `<span class="pill ${name === tab ? "pill--primary" : ""}">${name}</span>`,
-      )
-      .join("")}</div>
-    ${rows.map((row, index) => `<div class="settings-row"><span>${row}</span>${index % 2 ? '<span class="pill">Auto</span>' : '<span class="switch"></span>'}</div>`).join("")}
+  const normalized = tab.toLowerCase();
+  const tabContent = {
+    flashcards: `<div class="setting-row daily-goal" data-setting-row><span><b>Daily goal</b><small>Techniques to review or learn each day</small></span><input type="number" value="30" aria-label="Daily goal" /></div>
+      ${settingChoices("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice — this sidebar is the study surface.", ["Classic recall", "Auto", "Multiple choice"])}
+      ${settingChoices("Study order", "Which cards to surface first", ["Weakest spots", "Newest", "Due first"])}
+      ${settingChoices("Focus", "Shore up weaknesses, or sharpen strengths", ["Antifragile", "Converge"], 0, "<b>Antifragile</b> — a solid, well-rounded game. Surfaces cards from the spots you’re weakest.")}
+      ${settingToggle("Show flashcards on pages", "Display a quiz pill on each technique")}`,
+    rolling: `<div class="settings-section"><b>Rolling simulation</b><p>When you pick a move, a dice-roll plays out against an AI opponent — success depends on the move’s win % and your mastery.</p><div class="setting-pills"><button type="button">Off</button><button type="button" aria-pressed="true">Normal</button><button type="button" disabled>Hard</button><button type="button" disabled>Ultra</button></div></div>
+      <div class="setting-choice decision-setting" data-setting-row><b>Decision time</b><small>How long you get to read options before the roll moves on.</small><div><input type="range" min="5" max="15" value="9" aria-label="Decision time" /><strong>9s</strong></div><p class="setting-ticks"><span>Brisk</span><span>Default</span><span>Relaxed</span></p></div>
+      ${settingToggle("Questions while you roll", "Each state asks one multiple-choice question. Correct answers refund clock and build momentum.")}
+      <div class="challenge-setting" data-setting-row><span><b>White Challenges</b><small>4 of 20 objectives done by doing them.</small></span><button type="button">Reset</button></div>
+      ${settingChoices("Sound", "Synthesized feedback on every gameplay beat", ["On", "Off"])}
+      ${settingChoices("Option ordering", "How move options are ranked, left to right", ["Potential", "Popularity"])}`,
+    modifiers:
+      '<label class="modifier-search">Search modifiers<input type="search" placeholder="Athleticism, grip, fatigue..." /></label><div class="modifier-card"><span><b>Athleticism</b><small>Physical advantage</small></span><strong>50%</strong></div><div class="modifier-card"><span><b>Experience</b><small>Decision quality</small></span><strong>50%</strong></div>',
+    shortcuts:
+      '<div class="shortcut-grid"><span><kbd>A</kbd><kbd>B</kbd><kbd>C</kbd><kbd>D</kbd><b>Answer landing question</b></span><span><kbd>1</kbd>–<kbd>9</kbd><b>Open option card</b></span><span><kbd>Space</kbd><b>Pause or resume</b></span><span><kbd>/</kbd><b>Open Explorer</b></span></div>',
+  };
+  return `<div class="modal-layer ng-modal-layer"><section class="modal-card settings-modal ng-settings" role="dialog" aria-modal="true" aria-label="Settings" data-settings data-production-handle="renderSettings">
+    <header><h2>Settings</h2><button type="button" aria-label="Close settings">${icon("close", 15)}</button></header>
+    <div class="development-notice"><span>⚠</span><p>BJJ Graph is still being actively built — the success rates and probabilities you see are being continuously fine-tuned and will keep improving.</p></div>
+    <div class="settings-tabs" role="tablist">${["Flashcards", "Rolling", "Modifiers", "Shortcuts"].map((label) => `<button type="button" role="tab" data-settings-tab="${label.toLowerCase()}" aria-selected="${label.toLowerCase() === normalized}">${label}</button>`).join("")}</div>
+    <div class="settings-body">${tabContent[normalized] || tabContent.flashcards}</div>
   </section></div>`;
 }
 
 export function authModal({ mode = "sign-in" } = {}) {
-  return `<div class="modal-layer"><section class="modal-card" role="dialog" aria-modal="true" aria-label="Account">
-    <small style="color:#789fff;font-weight:800">BJJGRAPH ACCOUNT</small>
-    <h2 style="margin-top:8px">${mode === "sign-up" ? "Save your game" : "Welcome back"}</h2>
-    <p style="color:#8b97b0;font-size:11px;line-height:1.5">Sync Game Knowledge, challenges, your Collection, flashcards, and roll history across devices.</p>
-    <div class="detail-section"><small>EMAIL</small><p>you@example.com</p></div>
-    <div class="detail-section"><small>PASSWORD</small><p>••••••••••••</p></div>
-    <div class="detail-actions"><span class="pill pill--primary">${mode === "sign-up" ? "Create account" : "Sign in"}</span><span class="pill">Continue as guest</span></div>
+  const create = mode === "sign-up" || mode === "create";
+  return `<div class="modal-layer ng-modal-layer"><section class="modal-card auth-modal" role="dialog" aria-modal="true" aria-label="${create ? "Create account" : "Sign in"}" data-auth data-auth-mode="${create ? "create" : "login"}" data-production-selector="[data-auth]">
+    <button class="modal-close" type="button" aria-label="Close account">${icon("close", 15)}</button><small>OPTIONAL ACCOUNT</small><h2>${create ? "Keep your game." : "Welcome back."}</h2><p>${create ? "Sync Game Knowledge, Challenges, Collection, flashcards, and roll history. You can keep rolling as a guest." : "Restore your graph, Challenges, Collection, and daily queue."}</p>
+    <label>Email<input type="email" value="grappler@example.com" /></label><label>Password<input type="password" value="password" /></label><button class="primary-action" type="button">${create ? "Create free account" : "Sign in"}</button><button class="auth-switch" type="button">${create ? "Already have an account? Sign in" : "New here? Create an account"}</button>
   </section></div>`;
 }
 
 export function coach({ step = 1 } = {}) {
   const copy = [
-    "This is your hand. Pick one technique before the decision clock runs out.",
-    "The question changes the odds of the move you are about to attempt.",
-    "Open the sheet when you need film, mechanics, or a quick drill.",
-  ];
-  return `<section class="coach" aria-label="Coach step ${step}"><small>COACH · ${step}/3</small><p>${copy[step - 1]}</p><div class="detail-actions"><span class="pill pill--primary">Next</span><span class="pill">Skip</span></div></section>`;
+    ["Read your hand", "The cards below are every move you have here."],
+    [
+      "Peek before you commit",
+      "Open a move sheet to see film, odds, and a just-in-time drill.",
+    ],
+    [
+      "Answer on arrival",
+      "Each new state can ask one question before your next move.",
+    ],
+  ][Math.max(0, Math.min(2, step - 1))];
+  return `<section class="coach-card ng-coach" data-coach="${step}" data-production-selector=".ng-coach"><small>YOUR FIRST ROLL · ${step}/3</small><h2>${copy[0]}</h2><p>${copy[1]}</p><button class="primary-action" type="button">${step === 3 ? "Start rolling" : "Next"}</button></section>`;
 }
 
 export function panicCard({ revealed = false } = {}) {
-  return `<section class="panic-card" role="alert"><small>DEFEND NOW</small><p>${revealed ? "Frame at the hip, clear the crossface, and recover your inside knee." : "You are being flattened. Recall the first defensive action before time runs out."}</p><div class="detail-actions"><span class="pill pill--primary">${revealed ? "Got it" : "Reveal defense"}</span></div></section>`;
+  return `<article class="panic-card" data-panic data-production-selector="[data-panic]"><small>PANIC DRILL · DEFEND IT</small><p>What must you protect before turning into the choke?</p>${revealed ? '<div><b>Answer</b><span>Win two-on-one hand control and put the choking shoulder toward the mat.</span></div><button type="button">Got it &rarr; +escape%</button>' : '<button type="button" data-panic-reveal>Reveal</button>'}</article>`;
+}
+
+export function restartCard(
+  { state = "triggered" } = {},
+  context = defaultContext,
+) {
+  const restarting = state === "restarting" || state === "complete";
+  return `<div class="restart-card ng-evcenter" data-restart-state="${state}" data-production-selector=".ng-evcenter" role="status"><small>RESTART</small><h2>Restarting the roll</h2><p>${restarting ? "Clearing the live exchange and dealing a new hand." : `${escapeHtml(context.name)} · ${escapeHtml(context.roleLabel)}`}</p></div>`;
+}
+
+export function progressNudge({ type = "saved" } = {}) {
+  const demoted = type === "demoted";
+  const score = demoted ? 34 : 38;
+  return `<section class="progress-nudge knowledge-update" role="status" data-score-row data-production-selector="[data-score-row]"><small>${demoted ? "KNOWLEDGE UPDATED" : "PROGRESS SAVED"}</small><div class="knowledge-score"><strong>${score}%</strong><span>Game Knowledge</span></div>${progress(score)}<p>${demoted ? "A missed recall lowered tested knowledge; elapsed time did not." : "Half Guard Underhooks moved to crown 3."}</p></section>`;
 }
 
 export function systemState({ type = "empty" } = {}) {
-  const states = {
-    empty: [
-      "No cards due",
-      "Your review queue is clear. Explore the graph to discover more.",
+  const content = {
+    empty: ["No cards yet", "Explore the graph to build a study queue."],
+    offline: [
+      "You are offline",
+      "Saved progress and local study remain available.",
     ],
     error: [
-      "Graph unavailable",
-      "The Neural layer could not load. The crawlable BJJGraph page remains available.",
+      "Neural could not load",
+      "The crawlable BJJGraph article remains available below.",
     ],
-    offline: [
-      "Working offline",
-      "Saved lessons and recent rolls remain available on this device.",
-    ],
-  };
-  const [title, copy] = states[type] || states.empty;
-  return `<div class="system-state"><span style="color:${type === "error" ? "#ff6b78" : "#789fff"}">${icon(type === "error" ? "warning" : "book", 22)}</span><h3>${title}</h3><p>${copy}</p></div>`;
+  }[type] || ["Unavailable", "Try again."];
+  return `<div class="system-state" data-system-state="${type}" data-production-selector="[data-system-state]">${icon(type === "error" ? "warning" : "book", 25)}<h3>${content[0]}</h3><p>${content[1]}</p><button type="button">${type === "empty" ? "Explore techniques" : "Try again"}</button></div>`;
 }

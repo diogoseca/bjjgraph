@@ -174,6 +174,9 @@ production game runtime:
 - `/dev/` is the hierarchy hub: Components -> Screens -> Use Cases -> User Journeys. The dashed
   use-case and user-journey routes are canonical; undashed spellings redirect for compatibility.
 - All four libraries share source-controlled fixtures, renderers, and design tokens in `forward/`.
+- All four libraries use the same persistent catalog rail. Desktop keeps the full list visible;
+  constrained viewports move that list into a focus-managed drawer with Escape/backdrop close
+  behavior. Item dropdowns are not used as a substitute for browsing the library.
 - Viewport controls cover fluid, 320px, phone, 400x875, tablet, desktop, and short-landscape
   containers. Catalog item, viewport, variant, graph node, and player role are permalinked in
   the URL hash.
@@ -192,7 +195,23 @@ production game runtime:
   those use cases as named chapters. `sequence-catalog.js` owns filtering, keyboard and playback
   controls, mobile selection, hash restoration, and rendering.
 - The detail model is represented explicitly as collapsed landing detail, expanded dossier
-  detail, and SEO/AI text projections rather than separate competing content sources.
+  detail, and SEO/AI text projections rather than separate competing content sources. SEO/AI
+  projections are labeled `output-only`; they are never presented as Neural runtime screens.
+- `component-registry.js` and `screen-registry.js` attach machine-readable production provenance
+  to every entry: source files, runtime method/template section, stable DOM or React ref handles,
+  and `runtime`/`output-only` classification. Inline-only surfaces use their real refs (for
+  example, `dossierSheetRef`) instead of invented CSS selectors. `build_forward_components.mjs`
+  rejects duplicate IDs, incomplete provenance, and missing source files before publishing
+  `/dev/`.
+- Forward derives the base `.ng-*` motion and responsive rules from `neural/src/helmet.html` at
+  build time, then applies frame-scoped catalog layout rules. Renderers mirror the persistent
+  shell in `neural/src/xdc-template.html` and the dynamic structures in
+  `neural/src/app.src.jsx`, including Explore, Challenges, Collection, Game Knowledge, Flashcards,
+  Settings, dossiers, option detail, landing questions, defense, momentum, and center events.
+- Game Knowledge is the only mastery score. Challenge tracks label content difficulty and remain
+  open independently of that score; the catalog does not restore the retired Belt Path or content
+  locks. Restart previews model the immediate center event and engine cleanup, not a confirmation
+  dialog.
 
 `npm run build:forward` copies the artifact into `source/public/dev/`. The normal
 `npm run build` command runs this after Quartz so the routes survive the output-directory reset.

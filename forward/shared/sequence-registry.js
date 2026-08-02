@@ -688,7 +688,14 @@ export const useCases = [
         160,
         "Edge tab pulses",
         "save_hint",
-        { ...roll, progressState: "saved" },
+        {
+          ...roll,
+          toast: {
+            kicker: "SAVE YOUR PROGRESS",
+            text: "Open flashcards to keep it",
+            tone: "neutral",
+          },
+        },
         "tab-pulse",
         0.2,
       ),
@@ -1147,7 +1154,7 @@ export const useCases = [
           showVignette: true,
           panic: "prompt",
           combo: 4,
-          restartState: "confirm",
+          restartState: "triggered",
           paused: true,
         },
         "card-enter",
@@ -1477,9 +1484,16 @@ export const useCases = [
       ),
       frame(
         1920,
-        "Progress saved",
+        "Save prompt",
         "save_hint",
-        { ...roll, progressState: "saved" },
+        {
+          ...roll,
+          toast: {
+            kicker: "SAVE YOUR PROGRESS",
+            text: "Open flashcards to keep it",
+            tone: "neutral",
+          },
+        },
         "toast-enter",
         0.68,
       ),
